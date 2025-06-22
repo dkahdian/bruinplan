@@ -1,0 +1,876 @@
+{
+    "courses":[
+        {
+            "ID":"MATH 1",
+            "Title":"Precalculus",
+            "Units":4,
+            "Description":"Lecture, three hours; discussion, one hour. Preparation: three years of high school mathematics. Requisite: successful completion of Mathematics Diagnostic Test at UCLA. Function concept. Linear and polynomial functions and their graphs, applications to optimization. Inverse, exponential, and logarithmic functions. Trigonometric functions. P/NP or letter grading.",
+            "requisites":[
+                {"Type":"Requisite","Level":"Enforced","Course":"Math Diagnostic Test", "Min Grade":"30%"}
+            ],
+            "Equivalent courses":[]
+        },
+        {
+            "ID":"MATH 3A",
+            "Title":"Calculus for Life Sciences Students",
+            "Units":4,
+            "Description":"Lecture, three hours; discussion, one hour. Preparation: three and one-half years of high school mathematics (including trigonometry). Requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 at UCLA with a grade of C- or better. Not open for credit to students with credit in another calculus sequence. Modeling with functions, limits and derivatives, decisions and optimization in biology, derivative rules and tools. P/NP or letter grading.",
+            "requisites":[
+                {"Type":"Group","needs":1,"Options":[
+                    {"Type":"Requisite","Level":"Enforced","Course":"Math Diagnostic Test", "Min Grade":"80%"},
+                    {"Type":"Requisite","Level":"Enforced","Course":"MATH 1", "Min Grade":"C-"}
+                ]}
+            ],
+            "Equivalent courses":[]
+        },
+        {
+            "ID":"MATH 3B",
+            "Title":"Calculus for Life Sciences Students",
+            "Units":4,
+            "Description":"Lecture, three hours; discussion, one hour. Requisite: course 3A with grade of C- or better. Not open for credit to students with credit for course 31B. Applications of differentiation, integration, differential equations, linear models in biology, phase lines and classifying equilibrium values, bifurcations. P/NP or letter grading.",
+            "requisites":[
+                {"Type":"Requisite","Level":"Enforced","Course":"MATH 3A", "Min Grade":"C-"}
+            ],
+            "Equivalent courses":[]
+        },
+        {
+            "ID":"MATH 3C",
+            "Title":"Ordinary Differential Equations with Linear Algebra for Life Sciences Students",
+            "Units":4,
+            "Description":"Lecture, three hours; discussion, one hour. Requisite: course 3B with grade of C- or better. Multivariable modeling, matrices and vectors, eigenvalues and eigenvectors, linear and nonlinear systems of differential equations, probabilistic applications of integration. P/NP or letter grading.",
+            "requisites":[
+                {"Type":"Requisite","Level":"Enforced","Course":"MATH 3B", "Min Grade":"C-"}
+            ],
+            "Equivalent courses":[]
+        },
+        {
+            "ID": "MATH 11N",
+            "Title": "Gateway to Mathematics: Number Theory",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Introductory number theory course for freshmen and sophomores. Topics include prime number theory and cryptographic applications, factorization theory (in integers and Gaussian integers), Pythagorean triples, Fermat descent (for sums of squares and Fermat quartic), Pell’s equation, and Diophantine approximation. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 31A" },
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 31B" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 31A",
+            "Title": "Differential and Integral Calculus",
+            "Units": 5,
+            "Description": "Lecture, three hours; discussion, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with a grade of C- or better. Differential calculus and applications; introduction to integration. P/NP or letter grading.",
+            "requisites": [
+                {
+                    "Type": "Group",
+                    "needs": 1,
+                    "Options": [
+                        { "Type": "Requisite", "Level": "Enforced", "Course": "Math Diagnostic Test", "Min Grade": "80%" },
+                        { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 1", "Min Grade": "C-" }
+                    ]
+                }
+            ],
+            "Equivalent courses": ["MATH 31AL"]
+        },
+        {
+            "ID": "MATH 31AL",
+            "Title": "Differential and Integral Calculus Laboratory",
+            "Units": 5,
+            "Description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: at least three and one-half years of high school mathematics (including some coordinate geometry and trigonometry). Requisite: successful completion of Mathematics Diagnostic Test or course 1 with grade of C- or better. Not open for credit to students with credit for course 31A. Intended for students who still need to review precalculus material (laboratory) while starting calculus. Differential calculus and applications; introduction to integration. P/NP or letter grading.",
+            "requisites": [
+                {
+                    "Type": "Group",
+                    "needs": 1,
+                    "Options": [
+                        { "Type": "Requisite", "Level": "Enforced", "Course": "Math Diagnostic Test", "Min Grade":"60%" },
+                        { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 1", "Min Grade": "C-" }
+                    ]
+                }
+            ],
+            "Equivalent courses": ["MATH 31A"]
+        },
+        {
+            "ID": "MATH 31B",
+            "Title": "Integration and Infinite Series",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with a grade of C- or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 31A", "Min Grade": "C-" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 32AH",
+            "Title": "Calculus of Several Variables (Honors)",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Enforced requisite for course 32AH: course 31A with grade of B or better. Honors sequence parallel to courses 32A. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31A", "Min Grade": "B" }
+            ],
+            "Equivalent courses": ["MATH 32A"]
+        },
+        {
+            "ID": "MATH 32A",
+            "Title": "Calculus of Several Variables",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with a grade of C- or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31A", "Min Grade": "C-" }
+            ],
+            "Equivalent courses": ["MATH 32AH"]
+        },
+        {
+            "ID": "MATH 32B",
+            "Title": "Calculus of Several Variables",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Requisite: courses 31B & 32A with a grade of C- or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31B", "Min Grade": "C-" },
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 32A", "Min Grade": "C-" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 32BH",
+            "Title": "Calculus of Several Variables (Honors)",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Enforced requisite for 32BH: courses 31B and 32A, with grades of B or better. Honors sequence parallel to courses 32B. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 31B", "Min Grade": "B" },
+                { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 32A", "Min Grade": "B" }
+            ],
+            "Equivalent courses": ["MATH 32B"]
+        },
+        {
+            "ID": "MATH 33A",
+            "Title": "Linear Algebra and Applications",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Requisite: course 3B, 31B or 32A with a grade of C- or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. P/NP or letter grading.",
+            "requisites": [
+                {
+                    "Type": "Group",
+                    "needs": 1,
+                    "Options": [
+                        { "Type": "Requisite", "Level": "Warning", "Course": "MATH 3B", "Min Grade": "C-" },
+                        { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31B", "Min Grade": "C-" },
+                        { "Type": "Requisite", "Level": "Warning", "Course": "MATH 32A", "Min Grade": "C-" }
+                    ]
+                }
+            ],
+            "Equivalent courses": ["MATH 33AH"]
+        },
+        {
+            "ID": "MATH 33AH",
+            "Title": "Linear Algebra and Applications (Honors)",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 3B or 31B or 32A with grade of B or better. Introduction to linear algebra: systems of linear equations, matrix algebra, linear independence, subspaces, bases and dimension, orthogonality, least-squares methods, determinants, eigenvalues and eigenvectors, matrix diagonalization, and symmetric matrices. Honors course parallel to course 33A. P/NP or letter grading.",
+            "requisites": [
+                {
+                    "Type": "Group",
+                    "needs": 1,
+                    "Options": [
+                        { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 3B", "Min Grade": "B" },
+                        { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 31B", "Min Grade": "B" },
+                        { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 32A", "Min Grade": "B" }
+                    ]
+                }
+            ],
+            "Equivalent courses": ["MATH 33A"]
+        },
+        {
+            "ID": "MATH 33B",
+            "Title": "Differential Equations",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Requisite: course 31B with a grade of C- or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31B", "Min Grade": "C-" },
+                { "Type": "Recommended", "Course": "MATH 33A" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 61",
+            "Title": "Introduction to Discrete Structures",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Not open for credit to students with credit for course 180 or 184. Discrete structures commonly used in computer science and mathematics, including sets and relations, permutations and combinations, graphs and trees, induction. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31A" },
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31B" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 42",
+            "Title": "Introduction to Data-Driven Mathematical Modeling: Life, The Universe, and Everything",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Requisites: Math 31AB; 32AB; 33A; One of Statistics 10-15, Statistics 20; PIC 10A. This course gives an introduction to data-driven mathematical modeling and to combining data analysis with mechanistic modeling of phenomena from various applications. Topics include model formulation, data visualization, nondimensionalization and order-of-magnitude physics, introduction to discrete and continuous dynamical systems, and introduction to discrete and continuous stochastic models. Examples drawn from many fields and practice problems from Mathematical Contest in Modeling. P/NP or Letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31A" },
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31B" },
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 32A" },
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 32B" },
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 33A" },
+                {
+                    "Type": "Group",
+                    "needs": 1,
+                    "Options": [
+                        { "Type": "Requisite", "Level": "Warning", "Course": "STATS 10" },
+                        { "Type": "Requisite", "Level": "Warning", "Course": "STATS 12" },
+                        { "Type": "Requisite", "Level": "Warning", "Course": "STATS 13" },
+                        { "Type": "Requisite", "Level": "Warning", "Course": "STATS 14" },
+                        { "Type": "Requisite", "Level": "Warning", "Course": "STATS 15" },
+                        { "Type": "Requisite", "Level": "Warning", "Course": "STATS 20" }
+                    ]
+                },
+                { "Type": "Requisite", "Level": "Warning", "Course": "PIC 10A" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 70",
+            "Title": "Introduction to Probability",
+            "Units": 4,
+            "Description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Introduction to probability through applications and examples. Topics include laws of large numbers, statistics, chance trees, conditional probability, Bayes' rule, continuous and discrete random variables, jointly distributed random variables, multivariate normal and conditional distributions. In depth discussion of betting schemes in gambling, occurrence of rare events, coincidences and statistical predictions. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31A" },
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31B" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 73XP",
+            "Title": "Key Issues in K-12 Mathematics",
+            "Units": 3,
+            "Description": "Seminar, two hours; fieldwork (classroom observation and participation), two hours. Introduce students to K-12 mathematics activity in the United States. Cultivate interest in teaching through exploration of the sequences of mathematical content and habits of mind taught in these grades. Analyze sequences of topics in the current California State Standards in Mathematics (CCSS-M), the mathematical structures that underlie these sequences and cognitive aspects of learning mathematics. Experience with professional mathematician’s habits of mind outlined in the California Standards for Mathematical Practice (including proof and mathematical modeling) and effective strategies for teaching mathematics to diverse student groups. Fieldwork in local mathematics classrooms arranged by Cal Teach program. P/NP (undergraduates) or S/U (graduates) grading.",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 74XP",
+            "Title": "Mathematics and Pedagogy for Teaching Elementary Mathematics",
+            "Units": 3,
+            "Description": "(Formerly numbered Mathematics 71SL.) Seminar, two hours; fieldwork (classroom observation and participation), two hours. Facilitate development of professional mathematical and pedagogical understandings required to teach California’s K-5 mathematics curriculum. Exploration of K-5 mathematics, practice effective teaching strategies for all learners, and discuss current research and standards in math education. Fieldwork in local mathematics classrooms (observation and presenting lesson plan) arranged by Cal Teach program. P/NP (undergraduates) or S/U (graduates) grading.",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 89HC",
+            "Title": "Honors Contracts",
+            "Units": 1,
+            "Description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 100",
+            "Title": "Problem Solving",
+            "Units": 4,
+            "Description": "(Formerly numbered 192.) Lecture, three hours. Requisite: course 31B with grade of C- or better. Problem-solving techniques and mathematical topics useful as preparation for Putnam Examination and similar competitions. Continued fractions, inequalities, modular arithmetic, closed form evaluation of sums and products, problems in geometry, rational functions and polynomials, other nonroutine problems. Participants expected to take Putnam Examination. P/NP grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Warning", "Course": "MATH 31B", "Min Grade": "C-" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 101",
+            "Title": "Advanced Problem Solving",
+            "Units": 4,
+            "Description": "Lecture, three hours. Prerequisite: Math 100 or significant experience with mathematical competitions. Advanced problem solving techniques and mathematical topics useful as preparation for Putnam Competition. Problems in abstract algebra, linear algebra, number theory, combinatorics, probability, real and complex analysis, differential equations, Fourier analysis. Regular practice tests given, similar in difficulty to the Putnam Competition. Enrollment is by permission of the instructor, based on a selection test or past Putnam results. May be repeated for maximum of 12 units. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Warning", "Course": "MATH 100" }
+                ]}
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 103A",
+            "Title": "Observation and Participation: Mathematics Instruction",
+            "Units": 2,
+            "Description": "(Formerly Math 330.) Seminar, one hour; fieldwork (classroom observation and participation), two hours. Requisites: courses 31A, 31B, 32A, 33A, 33B. Course 103A is enforced requisite to 103B, which is enforced requisite to 103C. Observation, participation, or tutoring in mathematics classes at middle school and secondary levels. May be repeated for credit. P/NP (undergraduates) or S/U (graduates) grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 31A" },
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 31B" },
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 32A" },
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 33A" },
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 33B" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 103B",
+            "Title": "Observation and Participation: Mathematics Instruction",
+            "Units": 2,
+            "Description": "(Formerly Math 330.) Seminar, one hour; fieldwork (classroom observation and participation), two hours. Requisites: courses 31A, 31B, 32A, 33A, 33B. Course 103A is enforced requisite to 103B, which is enforced requisite to 103C. Observation, participation, or tutoring in mathematics classes at middle school and secondary levels. May be repeated for credit. P/NP (undergraduates) or S/U (graduates) grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 31A" },
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 31B" },
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 32A" },
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 33A" },
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 33B" },
+                { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 103A" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 105A",
+            "Title": "Mathematics and Pedagogy for Teaching Secondary Mathematics",
+            "Units": 4,
+            "Description": "Lecture, four hours; fieldwork, 30 minutes. Requisites: courses 110A (or 117), 120A (or 123), and 131A, with grades of C- or better. Course 105A is requisite to 105B, which is requisite to 105C. Mathematical knowledge and research-based pedagogy needed for teaching key geometry topics in secondary school, including axiomatic systems, measure, and geometric transformations. Introduction to professional standards and current research for teaching secondary school mathematics. Letter grading.",
+            "requisites": [
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 110A", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 117", "Min Grade": "C-" }
+                ]},
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 120A", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 123", "Min Grade": "C-" }
+                ]},
+                { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 131A", "Min Grade": "C-" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 105B",
+            "Title": "Mathematics and Pedagogy for Teaching Secondary Mathematics",
+            "Units": 4,
+            "Description": "Lecture, four hours; fieldwork, 30 minutes. Requisites: courses 105A, 110A (or 117), 120A (or 123), and 131A, with grades of C- or better. Mathematical knowledge and research-based pedagogy needed for teaching key polynomial, rational, and transcendental functions and related equations in secondary school; professional standards and current research for teaching secondary school mathematics. Letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 105A", "Min Grade": "C-" },
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 110A", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 117", "Min Grade": "C-" }
+                ]},
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 120A", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 123", "Min Grade": "C-" }
+                ]},
+                { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 131A", "Min Grade": "C-" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 105C",
+            "Title": "Mathematics and Pedagogy for Teaching Secondary Mathematics",
+            "Units": 4,
+            "Description": "Lecture, four hours; fieldwork, 30 minutes. Requisites: courses 105A, 105B, 110A (or 117), 120A (or 123), and 131A, with grades of C- or better. Mathematical knowledge and research-based pedagogy needed for teaching key analysis, probability, and statistics topics in secondary school; professional standards and current research for teaching secondary school mathematics. Letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 105A", "Min Grade": "C-" },
+                { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 105B", "Min Grade": "C-" },
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 110A", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 117", "Min Grade": "C-" }
+                ]},
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 120A", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 123", "Min Grade": "C-" }
+                ]},
+                { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 131A", "Min Grade": "C-" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 106",
+            "Title": "History of Mathematics",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 110AH",
+            "Title": "Algebra (Honors)",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 110A",
+            "Title": "Algebra",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 110B",
+            "Title": "Algebra",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 110BH",
+            "Title": "Algebra (Honors)",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 110C",
+            "Title": "Algebra",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 111",
+            "Title": "Theory of Numbers",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 114C",
+            "Title": "Computability Theory",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 114L",
+            "Title": "Mathematical Logic",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH M114S",
+            "Title": "Introduction to Set Theory",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 115A",
+            "Title": "Linear Algebra",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 115AH",
+            "Title": "Linear Algebra (Honors)",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 115B",
+            "Title": "Linear Algebra",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 116",
+            "Title": "Mathematical Cryptology",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 117",
+            "Title": "Algebra for Applications",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 118",
+            "Title": "Mathematical Methods of Data Theory",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 120A",
+            "Title": "Differential Geometry",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 120B",
+            "Title": "Differential Geometry",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 121",
+            "Title": "Introduction to Topology",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 123",
+            "Title": "Foundations of Geometry",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 131A",
+            "Title": "Analysis",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 131AH",
+            "Title": "Analysis (Honors)",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 131BH",
+            "Title": "Analysis (Honors)",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 131B",
+            "Title": "Analysis",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 131C",
+            "Title": "Topics in Analysis",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 132",
+            "Title": "Complex Analysis for Applications",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 132H",
+            "Title": "Complex Analysis (Honors)",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 133",
+            "Title": "Introduction to Fourier Analysis",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 134",
+            "Title": "Linear and Nonlinear Systems of Differential Equations",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 135",
+            "Title": "Ordinary Differential Equations",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 136",
+            "Title": "Partial Differential Equations",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 142",
+            "Title": "Mathematical Modeling",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 146",
+            "Title": "Methods of Applied Mathematics",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH M148",
+            "Title": "Experience of Data Science",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 151A",
+            "Title": "Applied Numerical Methods",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 151B",
+            "Title": "Applied Numerical Methods",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 151AH",
+            "Title": "Numerical Analysis Part 1 (Honors)",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 151BH",
+            "Title": "Numerical Analysis Part 2 (Honors)",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 155",
+            "Title": "Mathematical Imaging",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 156",
+            "Title": "Machine Learning",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 164",
+            "Title": "Optimization",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 167",
+            "Title": "Mathematical Game Theory",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 168",
+            "Title": "Introduction to Networks",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 170A",
+            "Title": "Probability Theory I",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 170B",
+            "Title": "Probability Theory II",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 170E",
+            "Title": "Introduction to Probability and Statistics: Part 1 Probability",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 170S",
+            "Title": "Introduction to Probability and Statistics: Part 2 Statistics",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 171",
+            "Title": "Stochastic Processes",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 174E",
+            "Title": "Mathematics of Finance for Mathematics/Economics Students",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 177",
+            "Title": "Theory of Interest and Applications",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 178A",
+            "Title": "Foundations of Actuarial Mathematics: Life Insurance and Annuities",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 178B",
+            "Title": "Foundations of Actuarial Mathematics: Further Topics in Long Term Actuarial Mathematics",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 178C",
+            "Title": "Foundations of Actuarial Mathematics: Loss Model",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 179",
+            "Title": "Advanced Topics in Financial Mathematics",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 180",
+            "Title": "Graph Theory",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 182",
+            "Title": "Algorithms",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 184",
+            "Title": "Enumerative Combinatorics",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 189HC",
+            "Title": "Honors Contracts",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 191",
+            "Title": "Variable Topics Research Seminars: Mathematics",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 191H",
+            "Title": "Honors Research Seminars: Mathematics",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 195",
+            "Title": "Community Internships in Mathematics Education",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 197",
+            "Title": "Individual Studies in Mathematics",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "MATH 199",
+            "Title": "Directed Research or Senior Project in Mathematics",
+            "Units": "unknown",
+            "Description": "unknown",
+            "requisites": [],
+            "Equivalent courses": []
+        }
+    ]
+}
