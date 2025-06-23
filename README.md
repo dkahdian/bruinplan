@@ -1,51 +1,38 @@
-# BruinPlan
+# sv
 
-A modern, interactive course planning tool for UCLA students — designed to provide a better alternative to the traditional DARS interface. This static site visualizes course requirements, prerequisites, and scheduling paths to make degree planning intuitive and personalized.
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
----
+## Creating a project
 
-## Project Overview
+If you're seeing this, you've probably already done this step. Congrats!
 
-UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-interpret data. This project aims to reimagine that experience with a visual and interactive frontend tool that allows students to:
+```bash
+# create a new project in the current directory
+npx sv create
 
-- View **required courses**, **electives**, and **degree progress** by major
-- Explore **prerequisite trees** in an interactive graph
-- Filter and sort courses by **department**, **availability**, **professor**, and more
-- Track completed courses and see valid paths toward graduation
-- Build quarter-by-quarter **course plans**
-- View rich metadata:
-  - Grading distributions (via UCLAGrades)
-  - Professor reviews (via Bruinwalk)
-  - Course availability and scheduling
+# create a new project in my-app
+npx sv create my-app
+```
 
----
+## Developing
 
-## Current Tech Stack (Static Site Phase)
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-| Layer       | Tech             | Description |
-|-------------|------------------|-------------|
-| Framework   | [SvelteKit](https://kit.svelte.dev/) | Component-based web app framework |
-| Language    | TypeScript       | Static typing for safer development |
-| Styling     | Tailwind CSS     | Utility-first styling |
-| Hosting     | GitHub Pages     | Simple, free static site hosting |
+```bash
+npm run dev
 
----
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-## Goals & Features
+## Building
 
-### Phase 1: Static MVP
-- [ ] Course data visualization
-- [ ] Static routing and pages
-- [ ] Tailwind-based layout and UI
-- [ ] Visual prerequisite trees
-- [ ] Mock course planning interface
-- [ ] Department and course filtering UI
+To create a production version of your app:
 
-### Future Enhancements (Phase 2+)
-- User authentication with UCLA Single Sign-On (Google)
-- Upload and parse transcripts or DARS reports
-- Persistent user plans stored in a backend (MongoDB or Supabase)
-- Real-time updates on course availability and capacity
-- Integration with external APIs (Bruinwalk, UCLAGrades)
+```bash
+npm run build
+```
 
----
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
