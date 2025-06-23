@@ -221,7 +221,7 @@
                         { "Type": "Requisite", "Level": "Warning", "Course": "STATS 20" }
                     ]
                 },
-                { "Type": "Requisite", "Level": "Warning", "Course": "PIC 10A" }
+                { "Type": "Requisite", "Level": "Warning", "Course": "COMPTNG 10A" }
             ],
             "Equivalent courses": []
         },
@@ -776,7 +776,7 @@
                 { "Type": "Requisite", "Level": "Warning", "Course": "MATH 33B", "Min Grade": "D-" },
                 { "Type": "Requisite", "Level": "Warning", "Course": "MATH 115A", "Min Grade": "D-" },
                 { "Type": "Group", "needs": 1, "Options": [
-                    { "Type": "Requisite", "Level": "Warning", "Course": "PIC 10A", "Min Grade": "D-" },
+                    { "Type": "Requisite", "Level": "Warning", "Course": "COMPTNG 10A", "Min Grade": "D-" },
                     { "Type": "Requisite", "Level": "Warning", "Course": "COM SCI 31", "Min Grade": "D-" }
                 ]}
             ],
@@ -786,7 +786,7 @@
             "ID": "MATH 151B",
             "Title": "Applied Numerical Methods",
             "Units": 4,
-            "Description": "Lecture, three hours; discussion, one hour. Requisite: course 151A. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation. Numerical solution of ordinary differential equations. Iterative solution of linear systems. Computation of least squares approximations. Discrete Fourier approximation and the fast Fourier transform. Matlab programming. Letter grading.",
+            "Description": "Lecture, three hours; discussion, one hour. Requisite: course 151A. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation. Numerical solution of ordinary differential equations. Iterative solution of linear systems. Computation of least squares approximations. Discrete Fourier approximation and the fast Fourier transform. Matlab programming.",
             "requisites": [
                 { "Type": "Requisite", "Level": "Enforced", "Course": "MATH 151A", "Min Grade": "D-" }
             ],
@@ -803,7 +803,7 @@
                 { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 115A" },
                 { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 131A" },
                 { "Type": "Group", "needs": 1, "Options": [
-                    { "Type": "Requisite", "Level": "Unknown", "Course": "PIC 10A" },
+                    { "Type": "Requisite", "Level": "Unknown", "Course": "COMPTNG 10A" },
                     { "Type": "Requisite", "Level": "Unknown", "Course": "COM SCI 31" }
                 ]}
             ],
@@ -820,7 +820,7 @@
                 { "Type": "Requisite", "Level": "Unknown", "Course": "MATH 151A", "Min Grade": "B" },
                 { "Type": "Group", "needs": 1, "Options": [
                     { "Type": "Requisite", "Level": "Unknown", "Course": "COM SCI 31", "Min Grade": "B" },
-                    { "Type": "Requisite", "Level": "Unknown", "Course": "PIC 10A", "Min Grade": "B" }
+                    { "Type": "Requisite", "Level": "Unknown", "Course": "COMPTNG 10A", "Min Grade": "B" }
                 ]}
             ],
             "Equivalent courses": ["MATH 151B"]
@@ -836,7 +836,7 @@
                 { "Type": "Requisite", "Level": "Warning", "Course": "MATH 115A", "Min Grade": "D-" },
                 { "Type": "Group", "needs": 1, "Options": [
                     { "Type": "Requisite", "Level": "Unknown", "Course": "COM SCI 31", "Min Grade": "B" },
-                    { "Type": "Requisite", "Level": "Unknown", "Course": "PIC 10A", "Min Grade": "B" }
+                    { "Type": "Requisite", "Level": "Unknown", "Course": "COMPTNG 10A", "Min Grade": "B" }
                 ]}
             ],
             "Equivalent courses": []
@@ -855,7 +855,7 @@
                     { "Type": "Requisite", "Level": "Enforced", "Course": "STATS 100A", "Min Grade": "D-" }
                 ]},
                 { "Type": "Group", "needs": 1, "Options": [
-                    { "Type": "Requisite", "Level": "Warning", "Course": "PIC 10A", "Min Grade": "D-" },
+                    { "Type": "Requisite", "Level": "Warning", "Course": "COMPTNG 10A", "Min Grade": "D-" },
                     { "Type": "Requisite", "Level": "Warning", "Course": "COM SCI 31", "Min Grade": "D-" }
                 ]}
             ],
@@ -1126,6 +1126,110 @@
             "Title": "Directed Research or Senior Project in Mathematics",
             "Units": 4,
             "Description": "(2 or 4 units). Tutorial, three hours per week per unit. Limited to juniors/seniors. Supervised individual research under guidance of faculty mentor. Scheduled meetings to be arranged between faculty member and student. Culminating report required. May be repeated for maximum of 12 units, but no more than one 197 or 199 course may be applied toward upper division courses required for majors offered by Mathematics Department. Individual contract required. P/NP or letter grading.",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "COMPTNG 10A",
+            "Title": "Introduction to Programming",
+            "Units": 5,
+            "Description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C++; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+            "requisites": [],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "COMPTNG 10B",
+            "Title": "Intermediate Programming",
+            "Units": 5,
+            "Description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Abstract data types and their implementation using C++ class mechanism; dynamic data structures, including linked lists, stacks, queues, trees, and hash tables; applications; object-oriented programming and software reuse; recursion; algorithms for sorting and searching. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COMPTNG 10A", "Min Grade": "D-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COM SCI 31", "Min Grade": "D-" }
+                ]}
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "COMPTNG 10C",
+            "Title": "Advanced Programming",
+            "Units": 5,
+            "Description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C++, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Warning", "Course": "COMPTNG 10B", "Min Grade": "D-" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "COMPTNG 16A",
+            "Title": "Python with Applications I",
+            "Units": 5,
+            "Description": "(Formerly numbered 16.) Lecture, three hours; discussion, two hours. Requisites: course 10A, Computer Science 31, or equivalent, with grades of C– or better. In-depth introduction to Python programming language for students who have already taken beginning programming course in strongly typed, compiled language (C++, C, or Fortran). Core Python language constructs, applications, text processing, data visualization, interaction with spreadsheets and SQL databases, and creation of graphical user interfaces. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COMPTNG 10A", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COM SCI 31", "Min Grade": "C-" }
+                ]}
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "COMPTNG 16B",
+            "Title": "Python with Applications II",
+            "Units": 5,
+            "Description": "Lecture, three hours; discussion, two hours. Requisite: course 16A or equivalent. In-depth application of Python programming language to problems arising in variety of areas of current interest such as machine learning, computer vision, statistical analysis, numerical analysis, and data acquisition. Advanced Python programming techniques to improve computational efficiency. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Enforced", "Course": "COMPTNG 16A", "Min Grade": "D-" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "COMPTNG 20A",
+            "Title": "Principles of Java Language with Applications",
+            "Units": 5,
+            "Description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in class design and design of interactive web pages. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COMPTNG 10A", "Min Grade": "D-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COM SCI 31", "Min Grade": "D-" }
+                ]}
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "COMPTNG 40A",
+            "Title": "Introduction to Programming for Internet",
+            "Units": 5,
+            "Description": "Lecture, three hours; discussion, two hours. Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C- or better. Introduction to programming for World Wide Web for students with strong foundation in programming. HTML5 and CSS3 markup languages to design websites; client-side scripting with JavaScript to enable event-driven interactivity, animations, and cookie tracking; server-side scripting with PHP to render HTML pages, store, and retrieve data on server; and introduction to databases through SQLite3. P/NP or letter grading.",
+            "requisites": [
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COMPTNG 10A", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COM SCI 31", "Min Grade": "C-" }
+                ]},
+                { "Type": "Group", "needs": 1, "Options": [
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COMPTNG 10B", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COMPTNG 16A", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COMPTNG 20A", "Min Grade": "C-" },
+                    { "Type": "Requisite", "Level": "Enforced", "Course": "COM SCI 32", "Min Grade": "C-" }
+                ]}
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "COMPTNG 97",
+            "Title": "Special Topics in Programming",
+            "Units": 4,
+            "Description": "Lecture, one to three hours; discussion, zero to one hour. Enforced requisite: course 10A. Variable topics in programming not covered in regular program in computing courses. May be repeated for credit with topic change. P/NP or letter grading. (See schedule for any current listings.)",
+            "requisites": [
+                { "Type": "Requisite", "Level": "Enforced", "Course": "COMPTNG 10A", "Min Grade": "D-" }
+            ],
+            "Equivalent courses": []
+        },
+        {
+            "ID": "COMPTNG 187",
+            "Title": "Advanced Variable Topics in Programming",
+            "Units": 4,
+            "Description": "(Formerly numbered 197). Lecture, three hours; discussion, one hour. Variable topics in programming and mathematics of programming not covered in regular program in computing courses. May be repeated for credit with topic change. P/NP or letter grading. (See schedule for any current listings.)",
             "requisites": [],
             "Equivalent courses": []
         }
