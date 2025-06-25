@@ -24,11 +24,12 @@
 
 - **Node Shapes:**
   - Course Node: Rounded rectangle.
-  - Group Node: Circle or diamond.
+  - Group Node: Diamond.
 
 - **Node Colors:**
-  - Default: White background, black border.
-  - Highlighted (see Interactivity): Blue (ancestors), Green (descendants), or as appropriate.
+  - Warnings: yellow.
+  - Enforced: red
+  - Highlighted (see Interactivity): Blue.
   - Grayed out: Light gray for non-highlighted nodes.
 
 - **Edge Styles:**

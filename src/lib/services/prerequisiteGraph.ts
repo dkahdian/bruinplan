@@ -26,7 +26,7 @@ export interface GraphEdge {
     id: string;
     source: string;
     target: string;
-    type: 'enforced' | 'warning';
+    type: 'enforced' | 'warning' | 'recommended';
   };
 }
 
@@ -121,8 +121,24 @@ export function buildPrerequisiteGraph(
           });
         }
       }
+    } else if (requirement.type === 'Recommended' && showWarnings) {
+      
+      // Process recommended courses only when showWarnings is true
+      const prereqCourse = courseMap.get(requirement.course);
+      if (prereqCourse) {
+        addCourse(requirement.course);
+        // Add edge from recommended course to parent course
+        edges.push({
+          data: {
+            id: `${requirement.course}-${parentCourseId}`,
+            source: requirement.course,
+            target: parentCourseId,
+            type: 'recommended'
+          }
+        });
+      }
     }
-    // Ignore recommended courses and missing courses
+    // Ignore other course types and missing courses
   }
 
   function processGroup(group: RequisiteGroup, parentCourseId: string): void { // Process a group of requisites
@@ -137,8 +153,9 @@ export function buildPrerequisiteGraph(
 
     // Check if group has any valid options that exist in our database
     const hasValidOptions = group.options.some(option => 
-      option.type === 'Requisite' && 
-      (option.level === 'Enforced' || (showWarnings && option.level === 'Warning')) &&
+      (option.type === 'Requisite' && 
+       (option.level === 'Enforced' || (showWarnings && option.level === 'Warning'))) ||
+      (showWarnings && option.type === 'Recommended') &&
       courseMap.has(option.course)
     );
 
@@ -146,19 +163,21 @@ export function buildPrerequisiteGraph(
     if (!hasValidOptions) return;
 
     // Determine group color based on prerequisite types
-    // If any prerequisite is a warning, the group should be yellow; otherwise red
-    let hasWarningPrereq = false;
+    // If any prerequisite is a warning or recommended, the group should be yellow; otherwise red
+    let hasWarningOrRecommendedPrereq = false;
     group.options.forEach(option => {
-      if (option.type === 'Requisite' && 
-          (option.level === 'Enforced' || (showWarnings && option.level === 'Warning')) &&
+      if (((option.type === 'Requisite' && 
+           (option.level === 'Enforced' || (showWarnings && option.level === 'Warning'))) ||
+           (showWarnings && option.type === 'Recommended')) &&
           courseMap.has(option.course)) {
-        if (option.level === 'Warning') {
-          hasWarningPrereq = true;
+        if ((option.type === 'Requisite' && option.level === 'Warning') || 
+            option.type === 'Recommended') {
+          hasWarningOrRecommendedPrereq = true;
         }
       }
     });
     
-    const groupColor = hasWarningPrereq ? 'warning' : 'enforced';
+    const groupColor = hasWarningOrRecommendedPrereq ? 'warning' : 'enforced';
 
     // Add group node
     nodes.push({
@@ -180,7 +199,7 @@ export function buildPrerequisiteGraph(
       }
     });
 
-    // Process group options (enforced and optionally warning ones)
+    // Process group options (enforced, optionally warning, and optionally recommended ones)
     group.options.forEach(option => {
       if (option.type === 'Requisite') {
         const shouldProcess = option.level === 'Enforced' || (showWarnings && option.level === 'Warning');
@@ -199,6 +218,19 @@ export function buildPrerequisiteGraph(
               }
             });
           }
+        }
+      } else if (option.type === 'Recommended' && showWarnings) {
+        const optionCourse = courseMap.get(option.course);
+        if (optionCourse) {
+          addCourse(option.course);
+          edges.push({
+            data: {
+              id: `${option.course}-${groupId}`,
+              source: option.course,
+              target: groupId,
+              type: 'recommended'
+            }
+          });
         }
       }
     });
@@ -277,6 +309,17 @@ export const defaultGraphStyles: cytoscape.StylesheetStyle[] = [
       'target-arrow-shape': 'triangle',
       'curve-style': 'bezier',
       'arrow-scale': 1.2
+    }
+  },
+  {
+    selector: 'edge[type="recommended"]',
+    style: {
+      'line-color': 'orange',
+      'target-arrow-color': 'orange',
+      'target-arrow-shape': 'triangle',
+      'curve-style': 'bezier',
+      'arrow-scale': 1.2,
+      'line-style': 'dashed'
     }
   }
 ];
