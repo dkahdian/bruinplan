@@ -94,7 +94,7 @@
 ## 7. Export/Share
 
 - **Export as image/PDF** (optional).
-- **Shareable link** to a specific course’s graph (optional).
+- **Shareable link** to a specific course's graph (optional).
 
 ---
 
@@ -102,6 +102,30 @@
 
 - **Efficient rendering** for large graphs (virtualization, lazy loading, etc.).
 - **Cycle detection** (should not occur, but warn if found).
+
+---
+
+## 9. Implementation Technology
+
+**Library Choice: Cytoscape.js with Dagre layout**
+
+
+### SvelteKit Component Structure:
+```typescript
+// PrerequisiteGraph.svelte
+import cytoscape from 'cytoscape';
+import dagre from 'cytoscape-dagre';
+
+// Register dagre layout
+cytoscape.use(dagre);
+
+// Initialize with custom styles matching spec
+const cy = cytoscape({
+  layout: { name: 'dagre', rankDir: 'TB' },
+  style: [/* Custom styles for nodes/edges */],
+  elements: [/* Graph data from JSON */]
+});
+```
 
 ---
 
@@ -136,11 +160,13 @@
 
 ## Implementation Notes
 
-- Use a graph library (e.g., D3.js, Cytoscape.js, Mermaid) that supports custom node/edge styling and interactivity.
-- Build a course lookup map for efficient traversal.
-- Recursively traverse `requisites` for ancestor/descendant highlighting.
-- For group nodes, always show the "need N" label.
+- Use Cytoscape.js with Dagre layout for hierarchical prerequisite visualization
+- Build a course lookup map for efficient traversal
+- Recursively traverse `requisites` for ancestor/descendant highlighting
+- For group nodes, always show the "need N" label
+- Leverage Cytoscape's built-in event system for interactivity
+- Use Dagre's ranking system to properly position prerequisite chains
 
 ---
 
-**This spec provides a clear, interactive, and visually distinct prerequisite graph for your course catalog.**
+**This spec provides a clear, interactive, and visually distinct prerequisite graph using Cytoscape.js for your course catalog.**
