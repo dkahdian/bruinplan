@@ -7,6 +7,17 @@
   import { buildPrerequisiteGraph, createCytoscapeInstance, type GraphNode, type GraphEdge } from './services/prerequisiteGraph.js'; // Service to build graph data
 
   export let courseId: string; // Course ID to visualize prerequisites for
+  export let showWarnings: boolean = true; // Whether to show warning-level prerequisites
+  export let showRecommended: boolean = true; // Whether to show recommended prerequisites
+
+  // Compute title based on what prerequisites are being shown
+  $: title = (() => {
+    if (showWarnings && showRecommended) return "All prerequisites";
+    if (!showWarnings && !showRecommended) return "Enforced prerequisites";
+    if (showWarnings && !showRecommended) return "Required prerequisites";
+    if (!showWarnings && showRecommended) return "Enforced and recommended prerequisites";
+    return "Prerequisites";
+  })();
 
   let container: HTMLDivElement; // Container for the Cytoscape graph
   let cy: cytoscape.Core; // Cytoscape instance, needed for rendering the graph
@@ -40,7 +51,10 @@
   function initializeGraph() {
     if (!container || courses.length === 0) return;
 
-    const { nodes, edges } = buildPrerequisiteGraph(courseId, courses, courseMap);
+    const { nodes, edges } = buildPrerequisiteGraph(courseId, courses, courseMap, { 
+      showWarnings, 
+      showRecommended 
+    });
     cy = createCytoscapeInstance(container, nodes, edges);
     
     setupComponentEventHandlers();
@@ -78,8 +92,13 @@
     initializeGraph();
   });
 
-  // Reinitialize when courseId changes
+  // Reinitialize when courseId or display options change
   $: if (courseId && courses.length > 0) {
+    initializeGraph();
+  }
+  
+  // Reinitialize when display options change
+  $: if (cy && courses.length > 0 && (showWarnings !== undefined || showRecommended !== undefined)) {
     initializeGraph();
   }
 </script>
@@ -87,7 +106,7 @@
 <!-- PrerequisiteGraph.svelte -->
 <!-- This component visualizes course prerequisites using Cytoscape.js -->
 <div class="prerequisite-graph-container">
-  <h2>All prerequisites for {courseId}</h2>
+  <h2>{title} for {courseId}</h2>
   <div 
     bind:this={container} 
     class="graph-container"

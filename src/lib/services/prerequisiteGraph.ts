@@ -30,22 +30,23 @@ export interface GraphEdge {
   };
 }
 
-// Configuration for what types of prerequisites to show
-// TODO: Make this configurable via function parameters in the future
-const showWarnings = true;
-
 /**
  * Builds the prerequisite graph for a given target course
  * @param targetCourseId - The course ID to build prerequisites for
  * @param courses - Array of all available courses
  * @param courseMap - Map of course ID to course data for quick lookup
+ * @param options - Configuration options for graph building
+ * @param options.showWarnings - Whether to include warning-level prerequisites
+ * @param options.showRecommended - Whether to include recommended prerequisites
  * @returns Object containing nodes and edges for the graph
  */
 export function buildPrerequisiteGraph(
   targetCourseId: string, 
   courses: Course[],
-  courseMap: Map<string, Course>
+  courseMap: Map<string, Course>,
+  options: { showWarnings?: boolean; showRecommended?: boolean } = {}
 ): { nodes: GraphNode[], edges: GraphEdge[] } {
+  const { showWarnings = true, showRecommended = true } = options;
   // Given course data and a target course ID, build the prerequisite graph
   // This function constructs the nodes and edges needed for the Cytoscape graph
   const nodes: GraphNode[] = [];
@@ -121,7 +122,7 @@ export function buildPrerequisiteGraph(
           });
         }
       }
-    } else if (requirement.type === 'Recommended' && showWarnings) {
+    } else if (requirement.type === 'Recommended' && showRecommended) {
       
       // Process recommended courses only when showWarnings is true
       const prereqCourse = courseMap.get(requirement.course);
@@ -155,7 +156,7 @@ export function buildPrerequisiteGraph(
     const hasValidOptions = group.options.some(option => 
       (option.type === 'Requisite' && 
        (option.level === 'Enforced' || (showWarnings && option.level === 'Warning'))) ||
-      (showWarnings && option.type === 'Recommended') &&
+      (showRecommended && option.type === 'Recommended') &&
       courseMap.has(option.course)
     );
 
@@ -168,7 +169,7 @@ export function buildPrerequisiteGraph(
     group.options.forEach(option => {
       if (((option.type === 'Requisite' && 
            (option.level === 'Enforced' || (showWarnings && option.level === 'Warning'))) ||
-           (showWarnings && option.type === 'Recommended')) &&
+           (showRecommended && option.type === 'Recommended')) &&
           courseMap.has(option.course)) {
         if ((option.type === 'Requisite' && option.level === 'Warning') || 
             option.type === 'Recommended') {
@@ -219,7 +220,7 @@ export function buildPrerequisiteGraph(
             });
           }
         }
-      } else if (option.type === 'Recommended' && showWarnings) {
+      } else if (option.type === 'Recommended' && showRecommended) {
         const optionCourse = courseMap.get(option.course);
         if (optionCourse) {
           addCourse(option.course);

@@ -1,9 +1,9 @@
 <script lang="ts">
-  // Working directory: bruinplan/src/routes/courses/[courseId]/+page.svelte
+  // Working directory: bruinplan/src/routes/courses/[courseId]/all/+page.svelte
   // PrerequisiteGraph is in bruinplan/src/lib/PrerequisiteGraph.svelte
-  import PrerequisiteGraph from '../../../lib/PrerequisiteGraph.svelte';
+  import PrerequisiteGraph from '../../../../lib/PrerequisiteGraph.svelte';
+  
   // Get the courseId and display options from the URL parameters
-  // This will be available as a prop in the component
   export let data: { 
     courseId: string; 
     showWarnings: boolean; 
@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-  <title>Prerequisites for {data.courseId}</title>
+  <title>All Prerequisites for {data.courseId}</title>
 </svelte:head>
 
 <main>
