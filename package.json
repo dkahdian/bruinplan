@@ -9,7 +9,8 @@
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"compile": "powershell -Command \"npx tsc --project .; cp -r ./courses ./dist/courses; cp -r ./majors ./dist/majors\""
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",

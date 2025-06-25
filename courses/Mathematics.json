@@ -613,7 +613,7 @@
             "requisites": [
                 { "type": "Requisite", "level": "Warning", "course": "MATH 32B" },
                 { "type": "Requisite", "level": "Warning", "course": "MATH 33B" },
-                { "type": "Requisite", "level": "Recommended", "course": "MATH 115A" }
+                { "type": "Recommended", "course": "MATH 115A" }
             ],
             "equivalentCourses": []
         },
@@ -625,7 +625,7 @@
             "requisites": [
                 { "type": "Requisite", "level": "Enforced", "course": "MATH 32B", "minGrade": "B" },
                 { "type": "Requisite", "level": "Enforced", "course": "MATH 33B", "minGrade": "B" },
-                { "type": "Requisite", "level": "Recommended", "course": "MATH 115A" }
+                { "type": "Recommended", "course": "MATH 115A" }
             ],
             "equivalentCourses": ["MATH 131A"]
         },
