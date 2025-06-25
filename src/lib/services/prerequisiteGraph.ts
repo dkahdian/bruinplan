@@ -15,19 +15,24 @@ export interface GraphNode {
     // Type of node: either a course or a group
     // If type is 'course', we can also include the course data
     course?: Course;
+    // For groups, track the color based on prerequisite types
+    groupColor?: 'enforced' | 'warning';
   };
 }
 
 export interface GraphEdge {
   // Represents a prerequisite edge between two courses or a course and a group
-  // TODO: Add support for different edge types in the future (i.e. warning prerequisites, recommended courses)
   data: {
     id: string;
     source: string;
     target: string;
-    type: 'enforced';
+    type: 'enforced' | 'warning';
   };
 }
+
+// Configuration for what types of prerequisites to show
+// TODO: Make this configurable via function parameters in the future
+const showWarnings = true;
 
 /**
  * Builds the prerequisite graph for a given target course
@@ -93,28 +98,31 @@ export function buildPrerequisiteGraph(
     // If the requirement is a group, process it separately
     if (requirement.type === 'Group') {
       processGroup(requirement, parentCourseId);
-    } else if (requirement.type === 'Requisite' && requirement.level === 'Enforced') {
-
-      // Only process enforced prerequisites
-      // TODO: Add support for warning prerequisites and recommended courses in the future
-
-      // Get course from map
-      const prereqCourse = courseMap.get(requirement.course);
-      // If the prerequisite course exists in our course map, add it to the graph
-      if (prereqCourse) {
-        addCourse(requirement.course);
-        // Add edge from prerequisite course to parent course
-        edges.push({
-          data: {
-            id: `${requirement.course}-${parentCourseId}`, // Unique ID for the edge: only one edge possible per course pair
-            source: requirement.course, // Source course ID: the prerequisite course
-            target: parentCourseId, // Target course ID: the course that requires this prerequisite
-            type: 'enforced' // TODO: Add support for different edge types in the future, for now we only have enforced prerequisites, so this is hardcoded
-          }
-        });
+    } else if (requirement.type === 'Requisite') {
+      
+      // Process enforced prerequisites and optionally warning prerequisites
+      const shouldProcess = requirement.level === 'Enforced' || (showWarnings && requirement.level === 'Warning');
+      
+      if (shouldProcess) {
+        // Get course from map
+        const prereqCourse = courseMap.get(requirement.course);
+        // If the prerequisite course exists in our course map, add it to the graph
+        if (prereqCourse) {
+          addCourse(requirement.course);
+          // Add edge from prerequisite course to parent course
+          const edgeType = requirement.level === 'Enforced' ? 'enforced' : 'warning';
+          edges.push({
+            data: {
+              id: `${requirement.course}-${parentCourseId}`, // Unique ID for the edge: only one edge possible per course pair
+              source: requirement.course, // Source course ID: the prerequisite course
+              target: parentCourseId, // Target course ID: the course that requires this prerequisite
+              type: edgeType
+            }
+          });
+        }
       }
     }
-    // Ignore warning prerequisites and missing courses
+    // Ignore recommended courses and missing courses
   }
 
   function processGroup(group: RequisiteGroup, parentCourseId: string): void { // Process a group of requisites
@@ -127,49 +135,70 @@ export function buildPrerequisiteGraph(
       // Prevent processing the same group multiple times to avoid infinite loops
     visitedGroups.add(groupId);
 
-    // Check if group has any enforced options that exist in our database
+    // Check if group has any valid options that exist in our database
     const hasValidOptions = group.options.some(option => 
       option.type === 'Requisite' && 
-      option.level === 'Enforced' && 
+      (option.level === 'Enforced' || (showWarnings && option.level === 'Warning')) &&
       courseMap.has(option.course)
     );
 
-    // Only show group if it has valid enforced options
+    // Only show group if it has valid options
     if (!hasValidOptions) return;
+
+    // Determine group color based on prerequisite types
+    // If any prerequisite is a warning, the group should be yellow; otherwise red
+    let hasWarningPrereq = false;
+    group.options.forEach(option => {
+      if (option.type === 'Requisite' && 
+          (option.level === 'Enforced' || (showWarnings && option.level === 'Warning')) &&
+          courseMap.has(option.course)) {
+        if (option.level === 'Warning') {
+          hasWarningPrereq = true;
+        }
+      }
+    });
+    
+    const groupColor = hasWarningPrereq ? 'warning' : 'enforced';
 
     // Add group node
     nodes.push({
       data: {
         id: groupId,
         label: `needs ${group.needs}`,
-        type: 'group'
+        type: 'group',
+        groupColor: groupColor
       }
     });
 
-    // Connect parent course to group
+    // Connect parent course to group with the same type as the group color
     edges.push({
       data: {
         id: `${groupId}-${parentCourseId}`,
         source: groupId,
         target: parentCourseId,
-        type: 'enforced'
+        type: groupColor
       }
     });
 
-    // Process group options (only enforced ones)
+    // Process group options (enforced and optionally warning ones)
     group.options.forEach(option => {
-      if (option.type === 'Requisite' && option.level === 'Enforced') {
-        const optionCourse = courseMap.get(option.course);
-        if (optionCourse) {
-          addCourse(option.course);
-          edges.push({
-            data: {
-              id: `${option.course}-${groupId}`,
-              source: option.course,
-              target: groupId,
-              type: 'enforced'
-            }
-          });
+      if (option.type === 'Requisite') {
+        const shouldProcess = option.level === 'Enforced' || (showWarnings && option.level === 'Warning');
+        
+        if (shouldProcess) {
+          const optionCourse = courseMap.get(option.course);
+          if (optionCourse) {
+            addCourse(option.course);
+            const edgeType = option.level === 'Enforced' ? 'enforced' : 'warning';
+            edges.push({
+              data: {
+                id: `${option.course}-${groupId}`,
+                source: option.course,
+                target: groupId,
+                type: edgeType
+              }
+            });
+          }
         }
       }
     });
@@ -201,11 +230,26 @@ export const defaultGraphStyles: cytoscape.StylesheetStyle[] = [
     }
   },
   {
-    selector: 'node[type="group"]',
+    selector: 'node[type="group"][groupColor="enforced"]',
     style: {
       'shape': 'diamond',
-      'background-color': 'lightblue',
-      'border-color': 'blue',
+      'background-color': 'pink',
+      'border-color': 'red',
+      'border-width': 2,
+      'label': 'data(label)',
+      'text-valign': 'center',
+      'text-halign': 'center',
+      'width': 60,
+      'height': 60,
+      'font-size': '10px'
+    }
+  },
+  {
+    selector: 'node[type="group"][groupColor="warning"]',
+    style: {
+      'shape': 'diamond',
+      'background-color': 'lightyellow',
+      'border-color': 'orange',
       'border-width': 2,
       'label': 'data(label)',
       'text-valign': 'center',
@@ -218,8 +262,18 @@ export const defaultGraphStyles: cytoscape.StylesheetStyle[] = [
   {
     selector: 'edge[type="enforced"]',
     style: {
-      'line-color': 'blue',
-      'target-arrow-color': 'blue',
+      'line-color': 'red',
+      'target-arrow-color': 'red',
+      'target-arrow-shape': 'triangle',
+      'curve-style': 'bezier',
+      'arrow-scale': 1.2
+    }
+  },
+  {
+    selector: 'edge[type="warning"]',
+    style: {
+      'line-color': 'orange',
+      'target-arrow-color': 'orange',
       'target-arrow-shape': 'triangle',
       'curve-style': 'bezier',
       'arrow-scale': 1.2

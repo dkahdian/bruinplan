@@ -87,7 +87,7 @@
 <!-- PrerequisiteGraph.svelte -->
 <!-- This component visualizes course prerequisites using Cytoscape.js -->
 <div class="prerequisite-graph-container">
-  <h2>Enforced prerequisites for {courseId}</h2>
+  <h2>All prerequisites for {courseId}</h2>
   <div 
     bind:this={container} 
     class="graph-container"
