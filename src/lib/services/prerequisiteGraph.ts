@@ -216,9 +216,10 @@ export function buildPrerequisiteGraph(
       // Prevent processing the same group multiple times to avoid infinite loops
     visitedGroups.add(groupId);
 
-    // Count completed courses in this group
-    const completedCourses: CourseRequisite[] = [];
-    const incompleteCourses: CourseRequisite[] = [];
+    // Special handling for groups with equivalent courses
+    // First, check if any course in the group is actually completed (not just effectively)
+    const actuallyCompletedCourses: CourseRequisite[] = [];
+    const validOptions: CourseRequisite[] = [];
     
     group.options.forEach(option => {
       // Skip if option is a nested group (we don't handle nested groups in this context)
@@ -229,14 +230,189 @@ export function buildPrerequisiteGraph(
         (showRecommended && option.type === 'Recommended');
       
       if (isValidOption) {
-        // Use effective completion (including equivalents) for group satisfaction logic
-        const isCourseEffectivelyCompleted = isCourseEffectivelyCompletedWithEquivalents(option.course);
+        validOptions.push(option);
         
-        if (isCourseEffectivelyCompleted) {
-          completedCourses.push(option);
-        } else {
-          incompleteCourses.push(option);
+        // Check for actual completion (not effective)
+        if (userCompletedCourses.has(option.course)) {
+          actuallyCompletedCourses.push(option);
         }
+      }
+    });
+
+    // Check if we have actually completed courses and if any others in the group are equivalent
+    if (actuallyCompletedCourses.length > 0) {
+      // Check if any two courses in the group are equivalent
+      let hasEquivalentCourses = false;
+      for (let i = 0; i < validOptions.length && !hasEquivalentCourses; i++) {
+        const courseA = courseMap.get(validOptions[i].course);
+        if (courseA?.equivalentCourses) {
+          for (let j = i + 1; j < validOptions.length; j++) {
+            if (courseA.equivalentCourses.includes(validOptions[j].course)) {
+              hasEquivalentCourses = true;
+              break;
+            }
+          }
+        }
+      }
+
+      // If group contains equivalent courses, only show the actually completed ones
+      if (hasEquivalentCourses) {
+        // Calculate remaining needs based on actually completed courses
+        const remainingNeeds = Math.max(0, group.needs - actuallyCompletedCourses.length);
+        
+        // If satisfied by actually completed courses
+        if (remainingNeeds === 0) {
+          if (showCompletedCourses) {
+            // Connect only the actually completed courses directly to parent
+            actuallyCompletedCourses.forEach(option => {
+              addCourse(option.course);
+              
+              const edgeType: 'enforced' | 'warning' | 'recommended' = 
+                option.type === 'Recommended' ? 'recommended' :
+                option.level === 'Enforced' ? 'enforced' : 'warning';
+              
+              edges.push({
+                data: {
+                  id: `${option.course}-${parentCourseId}`,
+                  source: option.course,
+                  target: parentCourseId,
+                  type: edgeType,
+                  fromCompleted: true
+                }
+              });
+            });
+          }
+          return; // Finish rendering this group
+        } else {
+          // Group not fully satisfied, but we have equivalent courses
+          // Show remaining incomplete courses that are NOT equivalent to completed ones
+          const incompleteCourses: CourseRequisite[] = [];
+          
+          validOptions.forEach(option => {
+            // Skip if this course is actually completed
+            if (userCompletedCourses.has(option.course)) return;
+            
+            // Skip if this course is equivalent to any actually completed course
+            let isEquivalentToCompleted = false;
+            for (const completedOption of actuallyCompletedCourses) {
+              const completedCourse = courseMap.get(completedOption.course);
+              if (completedCourse?.equivalentCourses?.includes(option.course)) {
+                isEquivalentToCompleted = true;
+                break;
+              }
+              // Also check the reverse direction
+              const optionCourse = courseMap.get(option.course);
+              if (optionCourse?.equivalentCourses?.includes(completedOption.course)) {
+                isEquivalentToCompleted = true;
+                break;
+              }
+            }
+            
+            if (!isEquivalentToCompleted) {
+              incompleteCourses.push(option);
+            }
+          });
+
+          // Continue with normal group rendering logic for remaining courses
+          const allCoursesToShow = showCompletedCourses ? 
+            [...actuallyCompletedCourses, ...incompleteCourses] : 
+            incompleteCourses;
+          
+          if (allCoursesToShow.length === 0) {
+            return; // No courses to show
+          }
+
+          // Determine group color based on incomplete courses
+          let groupColor: 'enforced' | 'warning' | 'recommended' = 'recommended';
+          for (const option of incompleteCourses) {
+            if (option.type === 'Requisite') {
+              if (option.level === 'Enforced') {
+                groupColor = 'enforced';
+                break;
+              } else if (option.level === 'Warning' && showWarnings) {
+                groupColor = 'warning';
+              }
+            }
+          }
+
+          // Add group node
+          nodes.push({
+            data: {
+              id: groupId,
+              label: `Needs: ${remainingNeeds}`,
+              type: 'group',
+              groupColor: groupColor,
+              options: group.options
+            }
+          });
+
+          // Connect parent course to group
+          edges.push({
+            data: {
+              id: `${groupId}-${parentCourseId}`,
+              source: groupId,
+              target: parentCourseId,
+              type: groupColor
+            }
+          });
+
+          // Process incomplete courses (connect to group)
+          incompleteCourses.forEach(option => {
+            addCourse(option.course);
+            
+            const edgeType: 'enforced' | 'warning' | 'recommended' = 
+              option.type === 'Recommended' ? 'recommended' :
+              option.level === 'Enforced' ? 'enforced' : 'warning';
+            
+            edges.push({
+              data: {
+                id: `${option.course}-${groupId}`,
+                source: option.course,
+                target: groupId,
+                type: edgeType
+              }
+            });
+          });
+
+          // Process completed courses (connect directly to parent) - only if showing completed
+          if (showCompletedCourses) {
+            actuallyCompletedCourses.forEach(option => {
+              addCourse(option.course);
+              
+              const edgeType: 'enforced' | 'warning' | 'recommended' = 
+                option.type === 'Recommended' ? 'recommended' :
+                option.level === 'Enforced' ? 'enforced' : 'warning';
+              
+              edges.push({
+                data: {
+                  id: `${option.course}-${parentCourseId}`,
+                  source: option.course,
+                  target: parentCourseId,
+                  type: edgeType,
+                  fromCompleted: true
+                }
+              });
+            });
+          }
+          
+          return; // Finished handling this equivalent course group
+        }
+      }
+    }
+
+    // If we reach here, it's normal group processing (no equivalent courses detected)
+    // Count completed courses in this group using effective completion
+    const completedCourses: CourseRequisite[] = [];
+    const incompleteCourses: CourseRequisite[] = [];
+    
+    validOptions.forEach(option => {
+      // Use effective completion (including equivalents) for group satisfaction logic
+      const isCourseEffectivelyCompleted = isCourseEffectivelyCompletedWithEquivalents(option.course);
+      
+      if (isCourseEffectivelyCompleted) {
+        completedCourses.push(option);
+      } else {
+        incompleteCourses.push(option);
       }
     });
 
