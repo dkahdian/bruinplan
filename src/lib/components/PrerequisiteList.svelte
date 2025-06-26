@@ -1,0 +1,94 @@
+<script lang="ts">
+  import type { CourseRequirement } from '../types.js';
+
+  export let requisites: CourseRequirement[];
+  export let userCompletedCourses: Set<string>;
+  export let onCourseCompletionToggle: (courseId: string) => void;
+  export let onPrerequisiteClick: (courseId: string, requisiteLevel?: string, requisiteType?: string) => void;
+
+  // Helper function to format minimum grades for display
+  function formatMinGrade(minGrade?: string): string {
+    if (!minGrade || minGrade === 'D-') return '';
+    return ` (min: ${minGrade})`;
+  }
+</script>
+
+<div class="mb-6">
+  <h4 class="text-sm font-semibold text-gray-600 uppercase tracking-wide mb-3">Prerequisites</h4>
+  <ul class="space-y-2">
+    {#each requisites as requisite}
+      {#if requisite.type === 'Group'}
+        <li class="text-sm">
+          <span class="font-medium text-gray-800">Choose {requisite.needs} from:</span>
+          <ul class="ml-4 mt-1 space-y-1">
+            {#each requisite.options as option}
+              {#if option.type !== 'Group'}
+                <li class="text-sm flex items-center justify-between">
+                  <div class="flex items-center">
+                    {#if option.type === 'Recommended'}
+                      <span class="text-blue-600 font-medium">Recommended:</span>
+                    {:else if option.type === 'Requisite'}
+                      <span class="text-{option.level === 'Enforced' ? 'red' : 'yellow'}-600 font-medium">{option.level}:</span>
+                    {/if}
+                    <button 
+                      class="text-gray-800 hover:text-blue-600 hover:bg-blue-50 px-1 py-0.5 rounded transition-colors duration-200 font-medium ml-1"
+                      on:click={() => onPrerequisiteClick(option.course, option.type === 'Requisite' ? option.level : undefined, option.type)}
+                      type="button"
+                    >
+                      {option.course}
+                    </button>
+                    {#if option.type !== 'Recommended' && option.minGrade}
+                      <span class="text-gray-500">{formatMinGrade(option.minGrade)}</span>
+                    {/if}
+                  </div>
+                  <div class="flex items-center gap-2 ml-2">
+                    <span class="text-xs text-gray-600">I've taken this:</span>
+                    <button
+                      class="relative inline-flex h-4 w-7 items-center rounded-full {userCompletedCourses.has(option.course) ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
+                      on:click={() => onCourseCompletionToggle(option.course)}
+                      type="button"
+                      aria-label="Toggle course completion"
+                    >
+                      <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {userCompletedCourses.has(option.course) ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
+                    </button>
+                  </div>
+                </li>
+              {/if}
+            {/each}
+          </ul>
+        </li>
+      {:else if requisite.type === 'Requisite' || requisite.type === 'Recommended'}
+        <li class="text-sm flex items-center justify-between">
+          <div class="flex items-center">
+            {#if requisite.type === 'Recommended'}
+              <span class="text-blue-600 font-medium">Recommended:</span>
+            {:else}
+              <span class="text-{requisite.level === 'Enforced' ? 'red' : 'yellow'}-600 font-medium">{requisite.level}:</span>
+            {/if}
+            <button 
+              class="text-gray-800 hover:text-blue-600 hover:bg-blue-50 px-1 py-0.5 rounded transition-colors duration-200 font-medium ml-1"
+              on:click={() => onPrerequisiteClick(requisite.course, requisite.type === 'Requisite' ? requisite.level : undefined, requisite.type)}
+              type="button"
+            >
+              {requisite.course}
+            </button>
+            {#if requisite.type !== 'Recommended' && requisite.minGrade}
+              <span class="text-gray-500">{formatMinGrade(requisite.minGrade)}</span>
+            {/if}
+          </div>
+          <div class="flex items-center gap-2 ml-2">
+            <span class="text-xs text-gray-600">I've taken this:</span>
+            <button
+              class="relative inline-flex h-4 w-7 items-center rounded-full {userCompletedCourses.has(requisite.course) ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
+              on:click={() => onCourseCompletionToggle(requisite.course)}
+              type="button"
+              aria-label="Toggle course completion"
+            >
+              <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {userCompletedCourses.has(requisite.course) ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
+            </button>
+          </div>
+        </li>
+      {/if}
+    {/each}
+  </ul>
+</div>
