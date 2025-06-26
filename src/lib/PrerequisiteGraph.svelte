@@ -6,6 +6,7 @@
   import { loadCourses } from './services/loadCourses.js'; // Service to load courses from JSON
   import { buildPrerequisiteGraph, createCytoscapeInstance, handlePrerequisiteClick, type GraphNode, type GraphEdge } from './services/prerequisiteGraph.js'; // Service to build graph data
   import type { TooltipConfig, TooltipManager } from './services/tooltipService.js'; // Tooltip configuration type
+  import { completedCourses, loadCompletedCourses, toggleCourseCompletion } from './services/completionService.js'; // Course completion tracking
 
   export let courseId: string; // Course ID to visualize prerequisites for
   export let enableTooltips: boolean = true; // Whether to enable Tailwind-styled tooltips
@@ -14,6 +15,10 @@
   // Internal state for controlling what prerequisites are shown (instead of URL params)
   let showWarnings: boolean = true; // Whether to show warning-level prerequisites
   let showRecommended: boolean = true; // Whether to show recommended prerequisites
+  let showCompletedCourses: boolean = true; // Whether to show completed courses and their prerequisites
+
+  // Course completion state - use the store directly
+  $: userCompletedCourses = $completedCourses; // Reactive to store changes
 
   // Enforce prerequisite hierarchy: Enforced → Warning → Recommended
   // Handle the dependency in a single reactive statement to avoid conflicts
@@ -73,6 +78,9 @@
       courses = [];
       courseMap = new Map();
     }
+    
+    // Load completed courses from localStorage into the store
+    loadCompletedCourses();
   }
 
   // Function to initialize the Cytoscape graph
@@ -84,7 +92,9 @@
 
     const { nodes, edges } = buildPrerequisiteGraph(courseId, courses, courseMap, { 
       showWarnings, 
-      showRecommended 
+      showRecommended,
+      userCompletedCourses,
+      showCompletedCourses
     });
 
     // Configure tooltips if enabled
@@ -196,13 +206,13 @@
     };
   });
 
-  // Reinitialize when courseId or display options change
+  // Reinitialize when courseId, display options, or completion status changes
   $: if (courseId && courses.length > 0) {
     initializeGraph();
   }
   
-  // Reinitialize when display options change
-  $: if (cy && courses.length > 0 && (showWarnings !== undefined || showRecommended !== undefined || enableTooltips !== undefined)) {
+  // Reinitialize when display options or completion settings change
+  $: if (cy && courses.length > 0 && (showWarnings, showRecommended, showCompletedCourses, userCompletedCourses, enableTooltips)) {
     initializeGraph();
   }
 
@@ -373,6 +383,12 @@
     window.location.href = `/courses/${urlSafeCourseId}`;
   }
   
+  // Function to handle course completion toggle
+  function handleCourseCompletionToggle(courseId: string) {
+    toggleCourseCompletion(courseId);
+    // The store will automatically update and trigger a graph rebuild via reactive statements
+  }
+  
   // Close search dropdown when clicking outside
   function handleClickOutside(event: MouseEvent) {
     if (searchContainer && !searchContainer.contains(event.target as Node)) {
@@ -533,6 +549,22 @@
               <!-- Toggle controls -->
               <div class="space-y-2">
                 <div class="text-xs font-medium text-gray-700 mb-1">Show/Hide:</div>
+                
+                <!-- Show completed courses toggle (only if user has completed courses) -->
+                {#if userCompletedCourses.size > 0}
+                  <div class="flex items-center justify-between">
+                    <span class="text-xs text-gray-600">Completed courses</span>
+                    <button
+                      class="relative inline-flex h-4 w-7 items-center rounded-full {showCompletedCourses ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
+                      on:click={() => showCompletedCourses = !showCompletedCourses}
+                      type="button"
+                      aria-label="Toggle completed courses"
+                    >
+                      <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {showCompletedCourses ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
+                    </button>
+                  </div>
+                {/if}
+                
                 <div class="flex items-center justify-between">
                   <span class="text-xs text-gray-600">Warning prerequisites</span>
                   <button
@@ -609,10 +641,23 @@
                 {/if}
               </div>
               <p class="text-lg text-gray-700 font-medium">{displayedCourse.title}</p>
-              <div class="mt-3">
+              <div class="mt-3 flex items-center gap-3">
                 <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
                   {displayedCourse.units} {(typeof displayedCourse.units === 'number' && displayedCourse.units === 1) ? 'unit' : 'units'}
                 </span>
+                
+                <!-- Course completion toggle -->
+                <div class="flex items-center gap-2">
+                  <span class="text-sm text-gray-600">I've taken this:</span>
+                  <button
+                    class="relative inline-flex h-5 w-9 items-center rounded-full {userCompletedCourses.has(displayedCourse.id) ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
+                    on:click={() => handleCourseCompletionToggle(displayedCourse.id)}
+                    type="button"
+                    aria-label="Toggle course completion"
+                  >
+                    <span class="inline-block h-4 w-4 transform rounded-full bg-white transition-transform {userCompletedCourses.has(displayedCourse.id) ? 'translate-x-4' : 'translate-x-0.5'}"></span>
+                  </button>
+                </div>
               </div>
             </div>
 
