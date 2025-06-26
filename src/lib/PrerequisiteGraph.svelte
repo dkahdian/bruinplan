@@ -367,8 +367,10 @@
   
   // Function to navigate to a selected course
   function selectCourse(selectedCourseId: string) {
+    // Remove spaces from course ID for URL compatibility
+    const urlSafeCourseId = selectedCourseId.replace(/\s+/g, '');
     // Navigate to the new course page
-    window.location.href = `/courses/${selectedCourseId}`;
+    window.location.href = `/courses/${urlSafeCourseId}`;
   }
   
   // Close search dropdown when clicking outside
