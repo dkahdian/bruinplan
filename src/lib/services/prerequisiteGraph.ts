@@ -5,6 +5,7 @@
 import cytoscape from 'cytoscape';
 import type { Course, CourseRequirement, RequisiteGroup, CourseRequisite } from '../types.js';
 import { addTooltipsToCytoscape, type TooltipConfig } from './tooltipService.js';
+import { isCourseEffectivelyCompleted } from './completionService.js';
 
 // Define interfaces for the graph nodes and edges
 // These interfaces help structure the data used in the Cytoscape graph
@@ -81,15 +82,23 @@ export function buildPrerequisiteGraph(
   let groupCounter = 0;
   // Counter to generate unique IDs for prerequisite groups
 
+  // Helper function to check if a course is effectively completed (including equivalents)
+  function isCourseEffectivelyCompletedWithEquivalents(courseId: string): boolean {
+    const course = courseMap.get(courseId);
+    const equivalents = course?.equivalentCourses || [];
+    return isCourseEffectivelyCompleted(courseId, equivalents, userCompletedCourses);
+  }
+
   // Function to add a course and its prerequisites to the graph
   // This function recursively processes the course and its prerequisites
   function addCourse(courseId: string): void {
     // Check if the course has already been visited to avoid cycles
     if (visitedCourses.has(courseId)) return; // Skip if already processed
     
-    // Handle completion logic
+    // Handle completion logic - use effective completion (including equivalents)
     const isCourseCompleted = userCompletedCourses.has(courseId);
-    if (isCourseCompleted) {
+    const isCourseEffectivelyCompleted = isCourseEffectivelyCompletedWithEquivalents(courseId);
+    if (isCourseEffectivelyCompleted) {
       if (!showCompletedCourses) {
         // Don't render this course and skip adding its prerequisites
         return;
@@ -115,8 +124,8 @@ export function buildPrerequisiteGraph(
       course: course
     };
     
-    // Only add completed property if the course is actually completed
-    if (isCourseCompleted) {
+    // Only add completed property if the course is effectively completed (for visual styling)
+    if (isCourseEffectivelyCompleted) {
       nodeData.completed = true;
     }
     
@@ -126,8 +135,8 @@ export function buildPrerequisiteGraph(
 
     // Process prerequisites (only if course exists in database)
     if (courseMap.has(courseId)) {
-      if (isCourseCompleted && showCompletedCourses) {
-        // For completed courses, only traverse through completed prerequisites
+      if (isCourseEffectivelyCompleted && showCompletedCourses) {
+        // For effectively completed courses, only traverse through completed prerequisites
         course.requisites.forEach(req => {
           processRequirementForCompletedCourse(req, courseId);
         });
@@ -153,10 +162,10 @@ export function buildPrerequisiteGraph(
       const shouldProcess = requirement.level === 'Enforced' || (showWarnings && requirement.level === 'Warning');
       
       if (shouldProcess) {
-        // Check if this course should be skipped due to completion settings
-        const isCourseCompleted = userCompletedCourses.has(requirement.course);
-        if (isCourseCompleted && !showCompletedCourses) {
-          // Skip completed courses when showCompletedCourses is false
+        // Check if this course should be skipped due to completion settings - use effective completion
+        const isCourseEffectivelyCompleted = isCourseEffectivelyCompletedWithEquivalents(requirement.course);
+        if (isCourseEffectivelyCompleted && !showCompletedCourses) {
+          // Skip effectively completed courses when showCompletedCourses is false
           return;
         }
         
@@ -175,10 +184,10 @@ export function buildPrerequisiteGraph(
       }
     } else if (requirement.type === 'Recommended' && showRecommended) {
       
-      // Check if this course should be skipped due to completion settings
-      const isCourseCompleted = userCompletedCourses.has(requirement.course);
-      if (isCourseCompleted && !showCompletedCourses) {
-        // Skip completed courses when showCompletedCourses is false
+      // Check if this course should be skipped due to completion settings - use effective completion
+      const isCourseEffectivelyCompleted = isCourseEffectivelyCompletedWithEquivalents(requirement.course);
+      if (isCourseEffectivelyCompleted && !showCompletedCourses) {
+        // Skip effectively completed courses when showCompletedCourses is false
         return;
       }
       
@@ -220,9 +229,10 @@ export function buildPrerequisiteGraph(
         (showRecommended && option.type === 'Recommended');
       
       if (isValidOption) {
-        const isCourseCompleted = userCompletedCourses.has(option.course);
+        // Use effective completion (including equivalents) for group satisfaction logic
+        const isCourseEffectivelyCompleted = isCourseEffectivelyCompletedWithEquivalents(option.course);
         
-        if (isCourseCompleted) {
+        if (isCourseEffectivelyCompleted) {
           completedCourses.push(option);
         } else {
           incompleteCourses.push(option);
@@ -364,8 +374,8 @@ export function buildPrerequisiteGraph(
         processRequirementForCompletedCourse(option, parentCourseId);
       });
     } else if (requirement.type === 'Requisite' || requirement.type === 'Recommended') {
-      // Only process if the course is completed
-      if (userCompletedCourses.has(requirement.course)) {
+      // Only process if the course is effectively completed (including equivalents)
+      if (isCourseEffectivelyCompletedWithEquivalents(requirement.course)) {
         addCourse(requirement.course);
         
         // Determine edge type

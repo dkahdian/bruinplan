@@ -72,6 +72,15 @@ export function isCourseCompleted(courseId: string, completed: Set<string>): boo
 }
 
 /**
+ * Check if a course is effectively completed (either the course itself or any of its equivalents)
+ */
+export function isCourseEffectivelyCompleted(courseId: string, equivalentCourses: string[] = [], completed: Set<string>): boolean {
+  // Check if the main course is completed
+  // Check if any equivalent course is completed
+  return completed.has(courseId) || equivalentCourses.some(equivalent => completed.has(equivalent));
+}
+
+/**
  * Toggle completion status of a course
  */
 export function toggleCourseCompletion(courseId: string): void {
