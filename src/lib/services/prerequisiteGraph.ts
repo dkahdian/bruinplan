@@ -797,8 +797,11 @@ function abbreviateCourseId(courseId: string): string {
  * @param courseMap - Map of course ID to course data
  * @param showWarnings - Current state of warnings toggle
  * @param showRecommended - Current state of recommended toggle
+ * @param showCompletedCourses - Current state of completed courses toggle
+ * @param userCompletedCourses - Set of completed course IDs
  * @param setShowWarnings - Function to update warnings toggle
  * @param setShowRecommended - Function to update recommended toggle
+ * @param setShowCompletedCourses - Function to update completed courses toggle
  * @param setSelectedCourse - Function to update selected course
  * @param setIsTransitioning - Function to update transition state
  */
@@ -810,11 +813,23 @@ export function handlePrerequisiteClick(
   courseMap: Map<string, Course>,
   showWarnings: boolean,
   showRecommended: boolean,
+  showCompletedCourses: boolean,
+  userCompletedCourses: Set<string>,
   setShowWarnings: (value: boolean) => void,
   setShowRecommended: (value: boolean) => void,
+  setShowCompletedCourses: (value: boolean) => void,
   setSelectedCourse: (course: Course | null) => void,
   setIsTransitioning: (value: boolean) => void
 ): void {
+  // Check if the clicked course is completed but showCompletedCourses is off
+  const course = courseMap.get(courseId);
+  const equivalentCourses = course?.equivalentCourses || [];
+  const isCourseCompleted = isCourseEffectivelyCompleted(courseId, equivalentCourses, userCompletedCourses);
+  if (isCourseCompleted && !showCompletedCourses) {
+    // Enable showCompletedCourses to reveal the completed course
+    setShowCompletedCourses(true);
+  }
+  
   // First, check if we need to enable prerequisite types to show this course
   if (requisiteType === 'Recommended' && !showRecommended) {
     // Enable both warnings and recommended to show recommended prerequisites

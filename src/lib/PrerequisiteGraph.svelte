@@ -115,8 +115,11 @@
       courseMap,
       showWarnings,
       showRecommended,
+      showCompletedCourses,
+      $completedCourses,
       (value) => showWarnings = value,
       (value) => showRecommended = value,
+      (value) => showCompletedCourses = value,
       (course) => selectedCourse = course,
       (value) => isTransitioning = value
     );
@@ -174,6 +177,7 @@
         {displayedCourse}
         {selectedCourse}
         {isTransitioning}
+        {courseMap}
         userCompletedCourses={$completedCourses}
         onCourseCompletionToggle={handleCourseCompletionToggle}
         {onPrerequisiteClick}

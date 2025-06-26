@@ -7,6 +7,7 @@
   export let selectedCourse: Course | null;
   export let isTransitioning: boolean;
   export let userCompletedCourses: Set<string>;
+  export let courseMap: Map<string, Course>;
   export let onCourseCompletionToggle: (courseId: string) => void;
   export let onPrerequisiteClick: (courseId: string, requisiteLevel?: string, requisiteType?: string) => void;
 </script>
@@ -67,6 +68,7 @@
         <PrerequisiteList 
           requisites={displayedCourse.requisites}
           {userCompletedCourses}
+          {courseMap}
           {onCourseCompletionToggle}
           {onPrerequisiteClick}
         />
