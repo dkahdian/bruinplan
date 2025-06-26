@@ -273,9 +273,9 @@ export const defaultGraphStyles: cytoscape.StylesheetStyle[] = [
   {
     selector: 'node[type="course"].selected',
     style: {
-      'background-color': '#3b82f6',
-      'color': 'white',
-      'border-color': '#1d4ed8',
+      'background-color': '#dbeafe',
+      'color': '#1e40af',
+      'border-color': '#3b82f6',
       'border-width': 3,
       'font-weight': 'bold'
     }
@@ -426,4 +426,67 @@ function abbreviateCourseId(courseId: string): string {
   return courseId
     .replace(/^COMPTNG\s+/, 'PIC ')
     .replace(/^COM SCI\s+/, 'CS ');
+}
+
+/**
+ * Handles clicking on a prerequisite course in the sidebar
+ * Enables necessary prerequisite types and highlights the course in the graph
+ * @param courseId - The course ID to highlight
+ * @param requisiteLevel - The level of the prerequisite (Enforced, Warning)
+ * @param requisiteType - The type of the prerequisite (Requisite, Recommended)
+ * @param cy - The Cytoscape instance
+ * @param courseMap - Map of course ID to course data
+ * @param showWarnings - Current state of warnings toggle
+ * @param showRecommended - Current state of recommended toggle
+ * @param setShowWarnings - Function to update warnings toggle
+ * @param setShowRecommended - Function to update recommended toggle
+ * @param setSelectedCourse - Function to update selected course
+ * @param setIsTransitioning - Function to update transition state
+ */
+export function handlePrerequisiteClick(
+  courseId: string,
+  requisiteLevel: string | undefined,
+  requisiteType: string | undefined,
+  cy: cytoscape.Core | undefined,
+  courseMap: Map<string, Course>,
+  showWarnings: boolean,
+  showRecommended: boolean,
+  setShowWarnings: (value: boolean) => void,
+  setShowRecommended: (value: boolean) => void,
+  setSelectedCourse: (course: Course | null) => void,
+  setIsTransitioning: (value: boolean) => void
+): void {
+  // First, check if we need to enable prerequisite types to show this course
+  if (requisiteType === 'Recommended' && !showRecommended) {
+    // Enable both warnings and recommended to show recommended prerequisites
+    setShowWarnings(true);
+    setShowRecommended(true);
+  } else if (requisiteLevel === 'Warning' && !showWarnings) {
+    // Enable warnings to show warning-level prerequisites
+    setShowWarnings(true);
+  }
+  
+  // Wait a bit for the graph to update, then highlight the course
+  setTimeout(() => {
+    if (cy) {
+      // Find the node with this course ID
+      const targetNode = cy.nodes(`[id="${courseId}"]`);
+      if (targetNode.length > 0) {
+        // Clear existing selections
+        cy.nodes().removeClass('selected');
+        // Select the target node
+        targetNode.addClass('selected');
+        
+        // Update the selected course in the sidebar
+        const course = courseMap.get(courseId);
+        if (course) {
+          setIsTransitioning(true);
+          setTimeout(() => {
+            setSelectedCourse(course);
+            setIsTransitioning(false);
+          }, 150);
+        }
+      }
+    }
+  }, 100); // Small delay to allow graph to re-render with new prerequisite settings
 }

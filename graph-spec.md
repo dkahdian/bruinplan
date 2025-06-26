@@ -28,15 +28,16 @@
 
 - **Node Colors:**
   - Warnings: yellow.
+  - Recommended: dashed yellow
   - Enforced: red
-  - Highlighted (see Interactivity): Blue.
+  - Highlighted (see Interactivity): Light blue.
   - Grayed out: Light gray for non-highlighted nodes.
 
 - **Edge Styles:**
-  - **Enforced:** Solid blue.
+  - **Enforced:** Solid red.
   - **Warning:** Solid orange.
-  - **Group:** Dashed, color matches group type (blue/orange).
-  - **Recommended:** Dotted gray.
+  - **Group:** Dashed, color matches group type (red/orange).
+  - **Recommended:** Dotted orange.
 
 - **Legend:**  
   - Display a legend explaining node shapes, edge colors/styles, and highlighting.
