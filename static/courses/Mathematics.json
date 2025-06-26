@@ -1,7 +1,7 @@
 {
     "courses":[
         {
-            "id": "MATH Diagnostic Test",
+            "id": "MATH DT",
             "title": "MATH Diagnostic Test",
             "units": 0,
             "description": "UCLA requires students to take a math placement test (MPT) called ALEKS Placement, Preparation and Learning (ALEKS PPL) Assessment. The MPT determines the mathematics course in which you will have the greatest success. ALEKS PPL is a web-based program that uses artificial intelligence to map a student’s strengths and weaknesses. The assessment is up to 30 questions and generally takes 60-90 minutes to complete. After the assessment, an individualized Prep and Learning Module is available for students to refresh their knowledge on forgotten topics. Students then have the opportunity to reassess and improve their placement.",
@@ -14,7 +14,7 @@
             "units":4,
             "description":"Lecture, three hours; discussion, one hour. Preparation: three years of high school mathematics. Requisite: successful completion of Mathematics Diagnostic Test at UCLA. Function concept. Linear and polynomial functions and their graphs, applications to optimization. Inverse, exponential, and logarithmic functions. Trigonometric functions. P/NP or letter grading.",
             "requisites":[
-                {"type":"Requisite","level":"Enforced","course":"MATH Diagnostic Test", "minGrade":"30%"}
+                {"type":"Requisite","level":"Enforced","course":"MATH DT", "minGrade":"30%"}
             ],
             "equivalentCourses":[]
         },
@@ -25,7 +25,7 @@
             "description":"Lecture, three hours; discussion, one hour. Preparation: three and one-half years of high school mathematics (including trigonometry). Requisite: successful completion of Mathematics Diagnostic Test (score of 48 or better) or course 1 at UCLA with a grade of C- or better. Not open for credit to students with credit in another calculus sequence. Modeling with functions, limits and derivatives, decisions and optimization in biology, derivative rules and tools. P/NP or letter grading.",
             "requisites":[
                 {"type":"Group","needs":1,"options":[
-                    {"type":"Requisite","level":"Enforced","course":"MATH Diagnostic Test", "minGrade":"80%"},
+                    {"type":"Requisite","level":"Enforced","course":"MATH DT", "minGrade":"80%"},
                     {"type":"Requisite","level":"Enforced","course":"MATH 1", "minGrade":"C-"}
                 ]}
             ],
@@ -72,7 +72,7 @@
                     "type": "Group",
                     "needs": 1,
                     "options": [
-                        { "type": "Requisite", "level": "Enforced", "course": "MATH Diagnostic Test", "minGrade": "80%" },
+                        { "type": "Requisite", "level": "Enforced", "course": "MATH DT", "minGrade": "80%" },
                         { "type": "Requisite", "level": "Enforced", "course": "MATH 1", "minGrade": "C-" }
                     ]
                 }
@@ -89,7 +89,7 @@
                     "type": "Group",
                     "needs": 1,
                     "options": [
-                        { "type": "Requisite", "level": "Enforced", "course": "MATH Diagnostic Test", "minGrade":"60%" },
+                        { "type": "Requisite", "level": "Enforced", "course": "MATH DT", "minGrade":"60%" },
                         { "type": "Requisite", "level": "Enforced", "course": "MATH 1", "minGrade": "C-" }
                     ]
                 }
@@ -865,6 +865,10 @@
                 { "type": "Group", "needs": 1, "options": [
                     { "type": "Requisite", "level": "Warning", "course": "COMPTNG 10A", "minGrade": "D-" },
                     { "type": "Requisite", "level": "Warning", "course": "COM SCI 31", "minGrade": "D-" }
+                ]},
+                {"type":"Group", "needs": 1, "options": [
+                    {"type": "Recommended", "course": "COMPTNG 16A"},
+                    {"type": "Recommended", "course": "STATS 21"}
                 ]}
             ],
             "equivalentCourses": []

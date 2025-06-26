@@ -4,6 +4,7 @@
 
 import cytoscape from 'cytoscape';
 import type { Course, CourseRequirement, RequisiteGroup } from '../types.js';
+import { addTooltipsToCytoscape, type TooltipConfig } from './tooltipService.js';
 
 // Define interfaces for the graph nodes and edges
 // These interfaces help structure the data used in the Cytoscape graph
@@ -16,7 +17,9 @@ export interface GraphNode {
     // If type is 'course', we can also include the course data
     course?: Course;
     // For groups, track the color based on prerequisite types
-    groupColor?: 'enforced' | 'warning';
+    groupColor?: 'enforced' | 'warning' | 'recommended';
+    // For groups, include the options for tooltip display
+    options?: any[];
   };
 }
 
@@ -69,10 +72,12 @@ export function buildPrerequisiteGraph(
     // Check if the course has already been visited to avoid cycles
     if (visitedCourses.has(courseId)) return; // Skip if already processed
     
-    // Get the course from the map
-    const course = courseMap.get(courseId);
-    if (!course) return; // Skip missing courses
-    // TODO: Handle missing courses gracefully in the future
+    // Get the course from the map, or create a placeholder for missing courses
+    let course = courseMap.get(courseId);
+    if (!course) {
+      // Create placeholder course for missing courses
+      course = createMissingCourse(courseId);
+    }
     
     visitedCourses.add(courseId);
     // Mark the course as visited to prevent reprocessing
@@ -81,16 +86,19 @@ export function buildPrerequisiteGraph(
     nodes.push({
       data: {
         id: courseId,
-        label: courseId,
+        label: abbreviateCourseId(courseId),
         type: 'course',
         course: course
       }
     });
 
-    // Process prerequisites
-    course.requisites.forEach(req => {
-      processRequirement(req, courseId);
-    });
+    // Process prerequisites (only if course exists in database)
+    if (courseMap.has(courseId)) {
+      course.requisites.forEach(req => {
+        processRequirement(req, courseId);
+      });
+    }
+    // Missing courses have no prerequisites to process
   }
 
   // Function to process a course requirement
@@ -105,39 +113,32 @@ export function buildPrerequisiteGraph(
       const shouldProcess = requirement.level === 'Enforced' || (showWarnings && requirement.level === 'Warning');
       
       if (shouldProcess) {
-        // Get course from map
-        const prereqCourse = courseMap.get(requirement.course);
-        // If the prerequisite course exists in our course map, add it to the graph
-        if (prereqCourse) {
-          addCourse(requirement.course);
-          // Add edge from prerequisite course to parent course
-          const edgeType = requirement.level === 'Enforced' ? 'enforced' : 'warning';
-          edges.push({
-            data: {
-              id: `${requirement.course}-${parentCourseId}`, // Unique ID for the edge: only one edge possible per course pair
-              source: requirement.course, // Source course ID: the prerequisite course
-              target: parentCourseId, // Target course ID: the course that requires this prerequisite
-              type: edgeType
-            }
-          });
-        }
-      }
-    } else if (requirement.type === 'Recommended' && showRecommended) {
-      
-      // Process recommended courses only when showWarnings is true
-      const prereqCourse = courseMap.get(requirement.course);
-      if (prereqCourse) {
+        // Always add the course to the graph, even if it's missing from our database
         addCourse(requirement.course);
-        // Add edge from recommended course to parent course
+        // Add edge from prerequisite course to parent course
+        const edgeType = requirement.level === 'Enforced' ? 'enforced' : 'warning';
         edges.push({
           data: {
-            id: `${requirement.course}-${parentCourseId}`,
-            source: requirement.course,
-            target: parentCourseId,
-            type: 'recommended'
+            id: `${requirement.course}-${parentCourseId}`, // Unique ID for the edge: only one edge possible per course pair
+            source: requirement.course, // Source course ID: the prerequisite course
+            target: parentCourseId, // Target course ID: the course that requires this prerequisite
+            type: edgeType
           }
         });
       }
+    } else if (requirement.type === 'Recommended' && showRecommended) {
+      
+      // Always add recommended courses to the graph, even if missing from database
+      addCourse(requirement.course);
+      // Add edge from recommended course to parent course
+      edges.push({
+        data: {
+          id: `${requirement.course}-${parentCourseId}`,
+          source: requirement.course,
+          target: parentCourseId,
+          type: 'recommended'
+        }
+      });
     }
     // Ignore other course types and missing courses
   }
@@ -152,41 +153,52 @@ export function buildPrerequisiteGraph(
       // Prevent processing the same group multiple times to avoid infinite loops
     visitedGroups.add(groupId);
 
-    // Check if group has any valid options that exist in our database
+    // Check if group has any valid options (now includes missing courses)
     const hasValidOptions = group.options.some(option => 
       (option.type === 'Requisite' && 
        (option.level === 'Enforced' || (showWarnings && option.level === 'Warning'))) ||
-      (showRecommended && option.type === 'Recommended') &&
-      courseMap.has(option.course)
+      (showRecommended && option.type === 'Recommended')
     );
 
     // Only show group if it has valid options
     if (!hasValidOptions) return;
 
     // Determine group color based on prerequisite types
-    // If any prerequisite is a warning or recommended, the group should be yellow; otherwise red
-    let hasWarningOrRecommendedPrereq = false;
+    // Enforced = red, Warning = yellow, Recommended = light blue
+    let hasEnforcedPrereq = false;
+    let hasWarningPrereq = false;
+    let hasRecommendedPrereq = false;
+    
     group.options.forEach(option => {
-      if (((option.type === 'Requisite' && 
-           (option.level === 'Enforced' || (showWarnings && option.level === 'Warning'))) ||
-           (showRecommended && option.type === 'Recommended')) &&
-          courseMap.has(option.course)) {
-        if ((option.type === 'Requisite' && option.level === 'Warning') || 
-            option.type === 'Recommended') {
-          hasWarningOrRecommendedPrereq = true;
+      if (option.type === 'Requisite') {
+        if (option.level === 'Enforced') {
+          hasEnforcedPrereq = true;
+        } else if (option.level === 'Warning' && showWarnings) {
+          hasWarningPrereq = true;
         }
+      } else if (option.type === 'Recommended' && showRecommended) {
+        hasRecommendedPrereq = true;
       }
     });
     
-    const groupColor = hasWarningOrRecommendedPrereq ? 'warning' : 'enforced';
+    // Determine group color based on priority: enforced > warning > recommended
+    let groupColor: 'enforced' | 'warning' | 'recommended';
+    if (hasEnforcedPrereq) {
+      groupColor = 'enforced';
+    } else if (hasWarningPrereq) {
+      groupColor = 'warning';
+    } else {
+      groupColor = 'recommended';
+    }
 
     // Add group node
     nodes.push({
       data: {
         id: groupId,
-        label: `needs ${group.needs}`,
+        label: `Needs: ${group.needs}`,
         type: 'group',
-        groupColor: groupColor
+        groupColor: groupColor,
+        options: group.options // Include group options for tooltip display
       }
     });
 
@@ -206,33 +218,29 @@ export function buildPrerequisiteGraph(
         const shouldProcess = option.level === 'Enforced' || (showWarnings && option.level === 'Warning');
         
         if (shouldProcess) {
-          const optionCourse = courseMap.get(option.course);
-          if (optionCourse) {
-            addCourse(option.course);
-            const edgeType = option.level === 'Enforced' ? 'enforced' : 'warning';
-            edges.push({
-              data: {
-                id: `${option.course}-${groupId}`,
-                source: option.course,
-                target: groupId,
-                type: edgeType
-              }
-            });
-          }
-        }
-      } else if (option.type === 'Recommended' && showRecommended) {
-        const optionCourse = courseMap.get(option.course);
-        if (optionCourse) {
+          // Always add the course to the graph, even if missing from database
           addCourse(option.course);
+          const edgeType = option.level === 'Enforced' ? 'enforced' : 'warning';
           edges.push({
             data: {
               id: `${option.course}-${groupId}`,
               source: option.course,
               target: groupId,
-              type: 'recommended'
+              type: edgeType
             }
           });
         }
+      } else if (option.type === 'Recommended' && showRecommended) {
+        // Always add recommended courses to the graph, even if missing from database
+        addCourse(option.course);
+        edges.push({
+          data: {
+            id: `${option.course}-${groupId}`,
+            source: option.course,
+            target: groupId,
+            type: 'recommended'
+          }
+        });
       }
     });
   }
@@ -263,6 +271,16 @@ export const defaultGraphStyles: cytoscape.StylesheetStyle[] = [
     }
   },
   {
+    selector: 'node[type="course"].selected',
+    style: {
+      'background-color': '#3b82f6',
+      'color': 'white',
+      'border-color': '#1d4ed8',
+      'border-width': 3,
+      'font-weight': 'bold'
+    }
+  },
+  {
     selector: 'node[type="group"][groupColor="enforced"]',
     style: {
       'shape': 'diamond',
@@ -284,6 +302,22 @@ export const defaultGraphStyles: cytoscape.StylesheetStyle[] = [
       'background-color': 'lightyellow',
       'border-color': 'orange',
       'border-width': 2,
+      'label': 'data(label)',
+      'text-valign': 'center',
+      'text-halign': 'center',
+      'width': 60,
+      'height': 60,
+      'font-size': '10px'
+    }
+  },
+  {
+    selector: 'node[type="group"][groupColor="recommended"]',
+    style: {
+      'shape': 'diamond',
+      'background-color': 'lightyellow',
+      'border-color': 'orange',
+      'border-width': 2,
+      'border-style': 'dashed',
       'label': 'data(label)',
       'text-valign': 'center',
       'text-halign': 'center',
@@ -337,21 +371,59 @@ export const defaultLayoutOptions = {
  * @param edges - Array of graph edges
  * @param styles - Optional custom styles (uses defaultGraphStyles if not provided)
  * @param layoutOptions - Optional custom layout (uses defaultLayoutOptions if not provided)
- * @returns Configured Cytoscape instance
+ * @param tooltipConfig - Optional tooltip configuration (enables tooltips if provided)
+ * @returns Object containing the Cytoscape instance and optional TooltipManager
  */
 export function createCytoscapeInstance(
   container: HTMLElement,
   nodes: GraphNode[],
   edges: GraphEdge[],
   styles: cytoscape.StylesheetStyle[] = defaultGraphStyles,
-  layoutOptions = defaultLayoutOptions
-): cytoscape.Core {
+  layoutOptions = defaultLayoutOptions,
+  tooltipConfig?: Partial<TooltipConfig>
+): { cy: cytoscape.Core; tooltipManager?: import('./tooltipService.js').TooltipManager } {
   console.log(`Built graph with ${nodes.length} nodes and ${edges.length} edges`);
   
-  return cytoscape({
+  const cy = cytoscape({
     container,
     elements: [...nodes, ...edges],
     style: styles,
     layout: layoutOptions
   });
+
+  // Add tooltips if configuration is provided
+  let tooltipManager;
+  if (tooltipConfig !== undefined) {
+    tooltipManager = addTooltipsToCytoscape(cy, container, tooltipConfig);
+  }
+  
+  return { cy, tooltipManager };
+}
+
+/**
+ * Creates a placeholder course object for missing courses
+ * @param courseId - The course ID
+ * @returns Placeholder course object
+ */
+function createMissingCourse(courseId: string): Course {
+  return {
+    id: courseId,
+    title: "Course information not available",
+    units: "?" as any, // Will display as "? units"
+    description: "No course information available in the database.",
+    requisites: [], // Missing courses have no prerequisites
+    equivalentCourses: []
+  };
+}
+
+/**
+ * Abbreviates course IDs for better display in graph nodes
+ * @param courseId - The full course ID
+ * @returns Abbreviated course ID for display
+ */
+function abbreviateCourseId(courseId: string): string {
+  // Replace common department names with abbreviations for better display
+  return courseId
+    .replace(/^COMPTNG\s+/, 'PIC ')
+    .replace(/^COM SCI\s+/, 'CS ');
 }
