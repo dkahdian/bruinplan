@@ -5,79 +5,94 @@
 - **Nodes:**
   - **Course Node:** Represents a course (e.g., "MATH 115A").
     - Label: Course ID (e.g., "MATH 115A")
+    - Shape: Rounded rectangle
     - On hover: Show tooltip with course title, unit count, and description.
-    - On click: Triggers highlighting (see Interactivity).
-    - **Completed Course:** Light green background with green border when marked as completed by user.
+    - On click: Updates sidebar with course details and triggers highlighting (see Interactivity).
+    - **Completed Course:** Light green background (#dcfce7) with green border (#22c55e) when marked as completed by user.
   - **Group Node:** Represents a group of requisites (e.g., "need 1 of the following").
     - Label: "Group (need N)" where N is the remaining `needs` value after accounting for completed courses.
+    - Shape: Diamond
+    - Background color varies by type: pink for enforced, light yellow for warning/recommended
+    - Border: dashed for recommended groups, solid for enforced/warning
     - On hover: Tooltip: "Group: need N of the following courses."
     - On click: Triggers highlighting (see Interactivity).
     - **Auto-removal:** Groups are automatically removed when fully satisfied by completed courses, with completed courses linking directly to the group's targets.
 
 - **Edges:**
-  - **From Course to Group:** Solid line, color depends on group type (enforced/warning).
-  - **From Group to Option Course:** Dashed line, same color as group.
-  - **From Course to Course (non-group requisite):** Solid line, color depends on requisite type (enforced/warning).
-  - **Recommended requisites:** Dotted gray line (optional, can be toggled).
-  - **Completed course edges:** Light green color for edges leaving completed courses (which also means incoming edges to completed courses are light green since only completed prerequisites are shown).
+  - **Enforced requisites:** Red solid line with triangle arrow
+  - **Warning requisites:** Orange solid line with triangle arrow  
+  - **Recommended requisites:** Orange dashed line with triangle arrow
+  - **From completed courses:** Light green (#22c55e) edges override other colors when the prerequisite is completed
 
 ---
 
 ## 2. Visual Styling
 
 - **Node Shapes:**
-  - Course Node: Rounded rectangle.
-  - Group Node: Diamond.
+  - Course Node: Rounded rectangle (80x40px)
+  - Group Node: Diamond (60x60px)
 
 - **Node Colors:**
-  - **Completed courses:** Light green background with green border.
-  - **Warnings:** Yellow background.
-  - **Recommended:** Light yellow background.
-  - **Enforced:** Red background.
-  - **Highlighted (see Interactivity):** Light blue background.
-  - **Grayed out:** Light gray for non-highlighted nodes.
+  - **Regular courses:** White background with black border
+  - **Completed courses:** Light green background (#dcfce7) with green border (#22c55e) and dark green text (#15803d)
+  - **Selected course:** Light blue background (#dbeafe) with blue border (#3b82f6) and blue text (#1e40af)
+  - **Selected completed course:** Slightly darker green background (#bbf7d0) with green border (#16a34a)
+  - **Enforced groups:** Pink background with red border
+  - **Warning groups:** Light yellow background with orange border
+  - **Recommended groups:** Light yellow background with orange dashed border
 
 - **Edge Styles:**
-  - **Completed:** Light green (edges leaving completed courses).
-  - **Enforced:** Red.
-  - **Warning:** Orange.
-  - **Group:** Dashed, color matches group type (red/orange).
-  - **Recommended:** Dotted orange.
+  - **Enforced:** Red solid line with triangle arrow
+  - **Warning:** Orange solid line with triangle arrow
+  - **Recommended:** Orange dashed line with triangle arrow
+  - **From completed courses:** Light green (#22c55e) with 80% opacity
 
 - **Legend:**  
-  - Display a legend explaining node shapes, edge colors/styles, and highlighting.
+  - Collapsible legend in bottom-left corner explaining node shapes, edge colors/styles
+  - Shows current toggle states for warnings, recommended, and completed courses
 
 ---
 
 ## 3. Course Completion System
 
 - **Completion Tracking:**
-  - Users can mark courses as completed via toggle in the sidebar.
-  - Completed courses stored in localStorage as simple array of course IDs.
-  - Completed courses become "root" nodes with no prerequisites shown (unless "Show completed courses" is enabled).
+  - Users can mark courses as completed via toggles in the sidebar course details panel
+  - Toggle switches in prerequisite lists and equivalent courses sections
+  - Completed courses stored in localStorage using Svelte stores
+  - Equivalent courses: if any equivalent is completed, the requirement is satisfied
 
-- **Group Logic with Completion:**
-  - Group requirements are reduced by the number of completed courses in that group.
-  - Example: "Need 2 of 3" with 1 completed becomes "Need 1 of 2".
-  - Fully satisfied groups are removed entirely, with completed courses linking directly to the group's targets.
+- **Completion Effects:**
+  - Completed courses get green styling (background, border, text)
+  - Edges from completed courses are rendered in light green
+  - Group requirements are reduced by the number of effectively completed courses (including equivalents)
+  - Example: "Need 2 of 3" with 1 completed becomes "Need 1 of 2"
+  - Fully satisfied groups are removed entirely, with direct edges from completed courses to group targets
 
-- **Display Toggles:**
-  - **Show Warnings/Recommended:** Normal prerequisite filtering (overridden by completion status).
+- **Display Toggles (in collapsible legend):**
+  - **Show Warnings:** Controls whether warning-level prerequisites are shown
+  - **Show Recommended:** Controls whether recommended prerequisites are shown (enforces hierarchy: warnings must be on to show recommended)
   - **Show Completed Courses:** (Appears only when user has completed courses)
-    - ON: Show completed courses and traverse only through completed prerequisites.
-    - OFF: Hide all completed courses entirely.
+    - ON: Show completed courses and traverse their prerequisite chains
+    - OFF: Hide all completed courses and their prerequisites entirely
 
-- **Traversal Algorithm:**
+- **Equivalent Course Handling:**
+  - Courses can have equivalent courses that satisfy the same requirement
+  - If a prerequisite is satisfied by a completed equivalent, shows green "✓ Took equivalent: COURSE_ID" message
+  - Equivalent course ID is clickable and highlights the original course in the graph
+  - If the equivalent course is also present in the same prerequisite group, the equivalent message is hidden
+  - Auto-enables "Show Completed Courses" if user clicks on completed course while toggle is off
+
+- **Smart Graph Traversal:**
   ```pseudocode
-  if course is completed:
+  if course is effectively completed (self or equivalent):
     if showCompletedCourses is false:
-      don't render this course and skip adding its prerequisites (return)
+      don't render this course and skip its prerequisites (return)
     else: 
-      for course in requisites and in any depth of nested group:
-        if the course is completed:
-          render the course (recursive call)
+      for each prerequisite (including nested groups):
+        if prerequisite is effectively completed:
+          render the prerequisite (recursive call)
         else:
-          ignore the course
+          ignore the prerequisite (only show completed prerequisite chains)
   ```
 
 ---
@@ -85,62 +100,113 @@
 ## 4. Interactivity
 
 - **Hover:**
-  - Show tooltip for node (course/group) with relevant info.
+  - Show tooltip for node (course/group) with relevant info (title, units, description)
 
 - **Click:**
   - **On Course Node:**
-    - Highlight all ancestor nodes/edges (prerequisites) in one color (e.g., blue).
-    - Highlight all descendant nodes/edges (courses that require this course) in another color (e.g., green).
-    - All other nodes/edges are grayed out.
+    - Updates sidebar with course details (title, description, units, prerequisites, equivalent courses)
+    - Shows completion toggles in sidebar for the course, its prerequisites, and equivalent courses
+    - Highlights the clicked node with blue styling
   - **On Group Node:**
-    - Highlight all option courses in the group and their ancestors (prereqs).
-    - Highlight all parent courses (courses that depend on this group).
-    - All other nodes/edges are grayed out.
-  - **Clicking background:** Resets all highlights.
+    - Updates sidebar to show group information
+    - Highlights the clicked group node
+  - **Clicking background:** Resets selection and clears sidebar
 
-- **Completion Toggle:**
-  - Located in sidebar next to course units.
-  - Immediately updates localStorage and rebuilds graph.
-  - Maintains normal hover/click interactions for completed courses.
+- **Sidebar Interactions:**
+  - **Course Completion Toggles:** Located next to course listings in the sidebar
+    - Main course toggle in course details section
+    - Individual prerequisite toggles in prerequisites list
+    - Individual equivalent course toggles in equivalents section
+    - Immediately updates localStorage and rebuilds graph upon toggle
+  - **Prerequisite Course Links:** Clickable course IDs that redirect to that course's graph
+    - If clicked course is completed and "Show Completed Courses" is off, automatically enables the toggle
+  - **Equivalent Course Messages:** Green "✓ Took equivalent: COURSE_ID" with clickable course ID
+    - Highlights the original course node when clicked
+    - Hidden if the equivalent is also present in the same prerequisite group
+
+- **Graph Controls:**
+  - **Collapsible Legend:** Bottom-left corner with toggle controls
+  - **Resizable Sidebar:** Drag handle between graph and sidebar for width adjustment
+  - **Course Search:** Header input for jumping to specific courses
 
 ---
 
 ## 5. Data Mapping
 
 - **Course Node:**  
-  - `ID`, `Title`, `Units`, `Description` from JSON.
-  - Completion status from localStorage.
+  - `id`, `title`, `units`, `description`, `equivalentCourses` from JSON
+  - Completion status from localStorage via Svelte stores
+  - Prerequisites parsed from `requisites` array
 - **Group Node:**  
-  - Created for each group in `requisites`, labeled with remaining `needs` after completion.
-  - Automatically removed when `needs` reaches 0.
+  - Created for each group in `requisites`, labeled with remaining `needs` after accounting for completed courses
+  - Automatically removed when `needs` reaches 0 due to completed courses
+  - Group color determined by the strictest prerequisite type in the group
 - **Edges:**  
-  - Created according to the structure in the `requisites` array.
-  - Modified based on completion status and group satisfaction.
+  - Created according to the structure in the `requisites` array
+  - Edge colors determined by prerequisite type (enforced=red, warning=orange, recommended=orange dashed)
+  - Edges from completed courses override colors with light green
 
 ---
 
 ## 6. Layout
 
-- **Hierarchical/topological layout:**  
-  - Prerequisites above or to the left of dependent courses.
-  - Group nodes placed between parent and option courses.
-  - Completed courses can become isolated "root" nodes when prerequisites are hidden.
-- **Minimize edge crossings** for clarity.
+- **Hierarchical Layout (Dagre):**  
+  - Prerequisites positioned above dependent courses (top-to-bottom flow)
+  - Group nodes placed between parent courses and their option courses
+  - Completed courses can become isolated nodes when their prerequisites are hidden
+  - Automatic edge routing to minimize crossings and improve readability
+
+- **Responsive Design:**
+  - Adjustable graph/sidebar split with drag handle
+  - Graph container fills available space
+  - Cytoscape.js handles zoom and pan interactions
 
 ---
 
 ## 7. Accessibility
 
-- **Colorblind-friendly palette** for edge colors.
-- **Keyboard navigation** for node selection and traversal.
-- **Tooltips** for all interactive elements.
+- **Visual Accessibility:**
+  - Colorblind-friendly palette for edge colors (red, orange, green)
+  - High contrast text and borders
+  - Clear visual distinction between node types (shapes) and states (colors)
+  - Tooltips provide additional context for all interactive elements
+
+- **Interaction Accessibility:**
+  - Toggle switches have proper ARIA labels
+  - Clickable course links have hover states and proper cursor styling
+  - Collapsible legend with clear expand/collapse indicators
 
 ---
 
-## 8. Export/Share
+## 8. Component Architecture
 
-- **Export as image/PDF** (optional).
-- **Shareable link** to a specific course's graph (optional).
+**SvelteKit Component Structure:**
+```
+PrerequisiteGraph.svelte (main component)
+├── CourseSearchHeader.svelte (course search input)
+├── GraphContainer.svelte (Cytoscape.js graph wrapper)
+├── ResizeHandle.svelte (drag handle for sidebar resize)
+└── Sidebar components:
+    ├── CourseDetails.svelte (selected course info & completion toggle)
+    ├── PrerequisiteList.svelte (prerequisites with toggles & equivalent messages)
+    ├── EquivalentCourses.svelte (equivalent courses with toggles)
+    └── GraphLegend.svelte (collapsible legend with display toggles)
+```
+
+**Service Layer:**
+```typescript
+// services/prerequisiteGraph.ts
+// Core graph building logic, Cytoscape instance management, click handling
+
+// services/completionService.ts  
+// localStorage management for completed courses using Svelte stores
+
+// services/tooltipService.ts
+// Tooltip functionality for graph nodes
+
+// services/loadCourses.ts
+// JSON course data loading and parsing
+```
 
 ---
 
@@ -148,7 +214,7 @@
 
 **Library Choice: Cytoscape.js with Dagre layout**
 
-### SvelteKit Component Structure:
+### Core Setup:
 ```typescript
 // PrerequisiteGraph.svelte
 import cytoscape from 'cytoscape';
@@ -157,50 +223,63 @@ import dagre from 'cytoscape-dagre';
 // Register dagre layout
 cytoscape.use(dagre);
 
-// Initialize with custom styles matching spec
+// Initialize with custom styles and layout
 const cy = cytoscape({
+  container: graphContainer,
   layout: { name: 'dagre', rankDir: 'TB' },
-  style: [/* Custom styles for nodes/edges */],
-  elements: [/* Graph data from JSON */]
+  style: defaultGraphStyles,
+  elements: [...nodes, ...edges]
 });
 ```
 
-### Data Management:
+### Data Flow:
 ```typescript
-// services/completionService.js
-// Manages localStorage for completed courses
-// Provides functions for marking/unmarking completion
-// Handles graph data transformation based on completion status
+1. Load course data from JSON files
+2. Build courseMap for O(1) lookups  
+3. Load completion state from localStorage
+4. Build graph nodes/edges with completion-aware logic
+5. Create Cytoscape instance with styled nodes/edges
+6. Handle user interactions (clicks, toggles)
+7. Rebuild graph when completion state changes
 ```
 
 ---
 
 ## Summary Table
 
-| Element         | Shape/Style           | Color/Style         | Tooltip/Label                | On Click Highlight         |
+| Element         | Shape/Style           | Color/Style         | Tooltip/Label                | Interactions              |
 |-----------------|----------------------|---------------------|------------------------------|---------------------------|
-| Course Node     | Rounded rectangle    | White/Black border  | Title, units, description    | Ancestors/descendants     |
-| Completed Course| Rounded rectangle    | Light green/Green border | Title, units, description | Ancestors/descendants     |
-| Group Node      | Diamond              | White/Black border  | "Group: need N..."           | Options/parents           |
-| Enforced Edge   | Solid                | Red                 | None                         |                           |
-| Warning Edge    | Solid                | Orange              | None                         |                           |
-| Completed Edge  | Solid                | Light green         | None                         |                           |
-| Group Edge      | Dashed               | Red/Orange          | None                         |                           |
-| Recommended     | Dotted               | Orange              | None                         |                           |
+| Course Node     | Rounded rectangle    | White/Black border  | Title, units, description    | Click to select & show sidebar |
+| Completed Course| Rounded rectangle    | Light green/Green border | Title, units, description | Click to select & show sidebar |
+| Group Node      | Diamond              | Pink/Light yellow   | "Group: need N..."           | Click to select           |
+| Enforced Edge   | Solid + arrow        | Red                 | None                         | Visual connection only    |
+| Warning Edge    | Solid + arrow        | Orange              | None                         | Visual connection only    |
+| Recommended Edge| Dashed + arrow       | Orange              | None                         | Visual connection only    |
+| Completed Edge  | Solid + arrow        | Light green         | None                         | Visual connection only    |
 
 ---
 
-## Implementation Notes
+## Current Feature Status
 
-- Use Cytoscape.js with Dagre layout for hierarchical prerequisite visualization
-- Build a course lookup map for efficient traversal
-- Recursively traverse `requisites` for ancestor/descendant highlighting, respecting completion status
-- For group nodes, always show the remaining "need N" label after accounting for completed courses
-- Leverage Cytoscape's built-in event system for interactivity
-- Use Dagre's ranking system to properly position prerequisite chains
-- Implement completion service for localStorage management and graph data transformation
-- Graph rebuilds seamlessly when completion status changes
-- Completed courses only show when "Show completed courses" toggle is enabled
-- Only completed prerequisites are rendered when showing completed courses
+**✅ Implemented:**
+- Complete Cytoscape.js graph with Dagre layout
+- Course completion tracking with localStorage persistence
+- Equivalent course support with smart prerequisite satisfaction
+- Group prerequisite handling with dynamic "needs" calculation
+- Intelligent graph traversal based on completion status
+- Resizable sidebar with detailed course information
+- Toggle controls for warnings, recommended, and completed courses
+- Clickable prerequisite links with auto-enabling of completed course visibility
+- Equivalent course indicators with group-aware hiding logic
+- Collapsible legend with real-time toggle states
+- Component-based architecture for maintainability
+
+**🔄 Potential Future Enhancements:**
+- Export graph as image/PDF
+- Shareable links to specific course graphs
+- Keyboard navigation for accessibility
+- Prerequisite path highlighting (ancestors/descendants)
+- Graph animation transitions
+- Bulk course completion import/export
 
 ---
