@@ -15,17 +15,19 @@ This document defines the requirements and approach for visualizing major requir
 
 ### Sectioned Canvas Layout
 - **Desktop**: Horizontal sections (swim lanes)
-  - "Preparation for the Major" section on the left
-  - "The Major" section on the right  
-  - Additional sections as needed (flexible)
+  - Sections arranged left-to-right in the order they appear in the JSON
+  - "Preparation for the Major" section typically on the left
+  - "The Major" section typically on the right  
+  - Additional sections as needed (flexible based on major requirements)
 - **Mobile**: Vertical sections (stacked) - future consideration
-- **Section Boundaries**: Clear visual divisions between requirement sections
+- **Section Boundaries**: Clear visual divisions with shaded backgrounds to distinguish section membership
 - **Section Labels**: Prominent section titles and descriptions
 
 ### Course Placement
-- Courses are placed within their designated section boxes
+- Courses are placed within their designated section boxes with shaded backgrounds
 - Courses maintain prerequisite arrows to other courses
 - **Cross-section arrows**: Prerequisites can point across section boundaries (e.g., MATH 33A in prep → MATH 115A in major)
+- **No special arrow styling**: Cross-section arrows use standard prerequisite styling; section membership is indicated by background shading only
 
 ## Visualization Modes
 
@@ -34,12 +36,15 @@ This document defines the requirements and approach for visualizing major requir
 - **Cross-section connections**: Show arrows between courses in different sections
 - **Missing prerequisites**: Automatically add missing prerequisites to the same section as the course requiring them
 - **Group handling**: Display group nodes using existing group visualization logic
+- **Interactive elements**: Full Cytoscape.js interactivity (zoom, pan, click, hover)
 
 ### List View (Toggle)
-- **No arrows**: Hide all prerequisite connections
+- **No arrows**: Hide all prerequisite connections for cleaner view
 - **Section-based layout**: Courses organized in clean lists within section boxes
 - **Simplified view**: Easier course browsing without graph complexity
-- **Toggle control**: Easy switch between graph and list modes
+- **Reduced interactivity**: Basic click interactions, no graph manipulation
+- **Toggle control**: Easy switch between graph and list modes via legend control
+- **Layout**: Courses arranged in simple rows/columns within each section container
 
 ## Section Rendering
 
@@ -49,7 +54,7 @@ This document defines the requirements and approach for visualizing major requir
 │ Section Title                    │
 │ Section Description             │
 ├─────────────────────────────────┤
-│                                 │
+│    [Shaded Background]          │
 │  [Course] → [Course] → [Group]  │
 │     ↓           ↓         ↓     │
 │  [Course]   [Course]  [Options] │
@@ -58,19 +63,24 @@ This document defines the requirements and approach for visualizing major requir
 ```
 
 ### Flexible Sectioning
+- **Section order**: Sections arranged left-to-right in JSON order
 - **Non-standardized sections**: Section IDs and titles vary by major
 - **Nested requirements**: Support unlimited nesting of groups within sections
 - **Optional sections**: Handle sections with `needs: 0` (truly optional)
 - **Dynamic sizing**: Sections resize based on content
+- **Group placement**: Group nodes are placed in the section of the course they are a prerequisite FOR (the output/target course), not in the section of their input options
 
 ## Course Integration
 
 ### Prerequisite Resolution
-- **Course-level prerequisites**: Use existing course prerequisite data
+- **Course-level prerequisites**: Use existing course prerequisite data from individual course JSON files
 - **Missing prerequisites**: If a major requirement course has prerequisites not listed in major requirements:
-  - Automatically include the missing prerequisite in the same section
-  - Render the prerequisite with appropriate connections
-  - Mark as auto-added for potential visual distinction
+  - **Algorithm**: For each course in major requirements, load its individual prerequisites from course database
+  - **Auto-inclusion**: If prerequisite is not already in major requirements, add it to the same section as the requiring course
+  - **Seamless integration**: Auto-added prerequisites render identically to explicit major requirements (no visual distinction)
+  - **Recursive checking**: Apply this logic recursively to auto-added prerequisites
+  - **Conflict resolution**: If prerequisite belongs to different section, prefer the explicit major requirement placement
+  - **Database abstraction**: JSON database contains no auto-added prerequisites; rendering algorithm treats them as if they exist in the database
 
 ### Completion Tracking
 - **Shared completion state**: Use same completion tracking as individual course graphs

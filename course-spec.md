@@ -34,8 +34,8 @@ This document defines the JSON structure for individual course data files. Cours
 #### Course Prerequisite
 ```json
 {
-  "type": "Requisite",
-  "level": "Enforced",
+  "type": "requisite",
+  "level": "enforced",
   "course": "MATH 32B",
   "minGrade": "C-"
 }
@@ -44,7 +44,7 @@ This document defines the JSON structure for individual course data files. Cours
 #### Recommended Course
 ```json
 {
-  "type": "Recommended", 
+  "type": "recommended", 
   "course": "MATH 33A"
 }
 ```
@@ -52,17 +52,17 @@ This document defines the JSON structure for individual course data files. Cours
 #### Group Prerequisite
 ```json
 {
-  "type": "Group",
+  "type": "group",
   "needs": 1,
   "options": [
     {
-      "type": "Requisite",
-      "level": "Enforced", 
+      "type": "requisite",
+      "level": "enforced", 
       "course": "MATH 31A"
     },
     {
-      "type": "Requisite",
-      "level": "Enforced",
+      "type": "requisite",
+      "level": "enforced",
       "course": "MATH 31L" 
     }
   ]
@@ -72,17 +72,17 @@ This document defines the JSON structure for individual course data files. Cours
 ## Prerequisite Field Definitions
 
 ### Course Prerequisite Fields
-- `type` (string): "Requisite" 
-- `level` (string): "Enforced", "Warning", or "Unknown"
+- `type` (string): "requisite" 
+- `level` (string): "enforced", "warning", or "unknown"
 - `course` (string): Course ID of the prerequisite
 - `minGrade` (string, optional): Minimum grade required (e.g., "C-", "B+")
 
 ### Recommended Course Fields  
-- `type` (string): "Recommended"
+- `type` (string): "recommended"
 - `course` (string): Course ID of the recommended prerequisite
 
 ### Group Prerequisite Fields
-- `type` (string): "Group"
+- `type` (string): "group"
 - `needs` (number): Number of options required from the group
 - `options` (array): Array of prerequisite objects (courses or nested groups)
 
@@ -104,7 +104,7 @@ This document defines the JSON structure for individual course data files. Cours
 - **Example**: Related courses that provide useful context
 
 ### Unknown
-- **Visual**: Orange styling in graph (treated as Warning)
+- **Visual**: Orange styling in graph (treated as warning)
 - **Meaning**: Prerequisite level not clearly specified in source data
 
 ## Equivalent Courses
@@ -139,6 +139,8 @@ static/courses/
 - Files named by department (e.g., "Mathematics.json")
 - Each file contains array of course objects following the specification above
 
+**Note**: Current implementation may use individual course files - this specification describes the target organization.
+
 ## Extensibility
 
 ### Future Fields
@@ -162,8 +164,8 @@ Course objects can be extended with additional metadata:
 Prerequisites can include additional constraints:
 ```json
 {
-  "type": "Requisite",
-  "level": "Enforced",
+  "type": "requisite",
+  "level": "enforced",
   "course": "MATH 32B", 
   "minGrade": "C-",
   "minGPA": 2.5,
