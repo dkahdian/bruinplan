@@ -4,13 +4,13 @@
 -->
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import type { Major, Course } from '../../../lib/types.js';
+	import type { Major } from '../../../lib/types.js';
 	import { getAllMajorCourses, calculateRequiredCourseCount } from '../../../lib/services/loadMajors.js';
 	import { 
 		completedCourses, 
 		loadCompletedCourses, 
 		toggleCourseCompletion, 
-		isCourseEffectivelyCompleted,
+		getCompletedCourseSource,
 		clearCompletedCourses 
 	} from '../../../lib/services/completionService.js';
 	import { loadCourses } from '../../../lib/services/loadCourses.js';
@@ -21,8 +21,7 @@
 	$: major = data.major;
 	$: majorId = data.majorId;
 	
-	// Load course map for equivalent course handling
-	let courseMap: Map<string, Course> = new Map();
+	// Initialize course map for the completion service on mount
 	let coursesLoaded = false;
 	
 	// Get all courses for this major
@@ -31,37 +30,29 @@
 	// Calculate actual required course count (accounts for group needs)
 	$: totalRequiredCourses = calculateRequiredCourseCount(major);
 	
-	// Load completion data and course map on mount
+	// Load completion data and initialize course map for the completion service
 	onMount(async () => {
 		loadCompletedCourses();
 		
 		try {
-			const { courseMap: loadedCourseMap } = await loadCourses();
-			courseMap = loadedCourseMap;
+			// Load courses to initialize the global course map store
+			await loadCourses();
 			coursesLoaded = true;
 		} catch (error) {
 			console.error('Failed to load course data:', error);
-			courseMap = new Map();
 			coursesLoaded = true; // Set to true even on error to show the UI
 		}
 	});
 
-	// Helper function to get equivalent courses for a given course ID
-	function getEquivalentCourses(courseId: string): string[] {
-		const course = courseMap.get(courseId);
-		return course?.equivalentCourses || [];
-	}
-	
-	// Calculate actual completion progress using the completion service with course map
+	// Calculate actual completion progress using the new completion service
 	$: actualCompletedCourses = coursesLoaded ? (() => {
 		let actualCompleted = 0;
 		
 		function countActualCompleted(requirements: any[]) {
 			for (const req of requirements) {
 				if (req.type === 'course') {
-					// Use the completion service with equivalent courses from the course map
-					const equivalents = getEquivalentCourses(req.courseId);
-					if (isCourseEffectivelyCompleted(req.courseId, equivalents, $completedCourses)) {
+					// Use the new completion service that automatically handles equivalents
+					if (getCompletedCourseSource(req.courseId) !== null) {
 						actualCompleted++;
 					}
 				} else if (req.type === 'group') {
@@ -69,8 +60,7 @@
 					let groupCompleted = 0;
 					for (const option of req.options) {
 						if (option.type === 'course') {
-							const equivalents = getEquivalentCourses(option.courseId);
-							if (isCourseEffectivelyCompleted(option.courseId, equivalents, $completedCourses)) {
+							if (getCompletedCourseSource(option.courseId) !== null) {
 								groupCompleted++;
 							}
 						}
@@ -179,8 +169,6 @@
 			{#each major.sections as section, index}
 				<MajorSection 
 					{section}
-					completedCourses={$completedCourses}
-					{courseMap}
 					onToggleCompletion={toggleCourseCompletion}
 					sectionIndex={index}
 				/>

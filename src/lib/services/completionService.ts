@@ -1,6 +1,5 @@
-import { writable } from 'svelte/store';
+import { writable, get } from 'svelte/store';
 import { courseMapStore } from './loadCourses.js';
-import { get } from 'svelte/store';
 
 const STORAGE_KEY = 'bruinplan-completed-courses';
 
@@ -83,13 +82,18 @@ export function isCourseEffectivelyCompleted(courseId: string, equivalentCourses
 }
 
 /**
- * Check if a course is effectively completed using the global course map for equivalents
- * This automatically looks up equivalent courses from the global course map
+ * Get the source of completion for a course (original course ID, equivalent course ID, or null)
+ * Returns the course ID that is actually completed:
+ * - If the course itself is completed, returns the original course ID
+ * - If completed via an equivalent, returns the equivalent course ID  
+ * - If not completed at all, returns null
  */
-export function isCourseEffectivelyCompletedAuto(courseId: string, completed: Set<string>): boolean {
-  // Check if the main course is completed
+export function getCompletedCourseSource(courseId: string): string | null {
+  const completed = get(completedCourses);
+  
+  // Check if the course itself is completed
   if (completed.has(courseId)) {
-    return true;
+    return courseId;
   }
   
   // Get equivalent courses from the global course map
@@ -98,7 +102,45 @@ export function isCourseEffectivelyCompletedAuto(courseId: string, completed: Se
   const equivalentCourses = course?.equivalentCourses || [];
   
   // Check if any equivalent course is completed
-  return equivalentCourses.some(equivalent => completed.has(equivalent));
+  for (const equivalent of equivalentCourses) {
+    if (completed.has(equivalent)) {
+      return equivalent;
+    }
+  }
+  
+  return null;
+}
+
+/**
+ * Get the source of completion for a course within a group context (original course ID, equivalent course ID, or null)
+ * This prevents double-counting when equivalent courses are both present in the same group.
+ * Returns the course ID that is actually completed:
+ * - If the course itself is completed, returns the original course ID
+ * - If completed via an equivalent that is NOT in the group, returns the equivalent course ID
+ * - If completed via an equivalent that IS in the group, returns null (to avoid double-counting)
+ * - If not completed at all, returns null
+ */
+export function getCompletedCourseOfGroupSource(courseId: string, groupCourseIds: string[]): string | null {
+  const completed = get(completedCourses);
+  
+  // Check if the course itself is completed
+  if (completed.has(courseId)) {
+    return courseId;
+  }
+  
+  // Get equivalent courses from the global course map
+  const globalCourseMap = get(courseMapStore);
+  const course = globalCourseMap.get(courseId);
+  const equivalentCourses = course?.equivalentCourses || [];
+  
+  // Check if any equivalent course is completed, but only if it's not in the same group
+  for (const equivalent of equivalentCourses) {
+    if (completed.has(equivalent) && !groupCourseIds.includes(equivalent)) {
+      return equivalent;
+    }
+  }
+  
+  return null;
 }
 
 /**
