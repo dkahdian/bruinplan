@@ -4,22 +4,12 @@
 -->
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { getMajorsList, majorNameToId } from '../../lib/services/loadMajors.js';
+	import { majorNameToId } from '../../lib/services/loadMajors.js';
 	import type { MajorInfo } from '../../lib/types.js';
 
-	let majors: MajorInfo[] = [];
-	let loading = true;
-	let error: string | null = null;
-
-	onMount(async () => {
-		try {
-			majors = await getMajorsList();
-			loading = false;
-		} catch (err) {
-			error = err instanceof Error ? err.message : 'Failed to load majors';
-			loading = false;
-		}
-	});
+	export let data: { majors: MajorInfo[] };
+	
+	$: majors = data.majors;
 
 	// Group majors by college
 	$: majorsByCollege = majors.reduce((acc, major) => {
@@ -40,15 +30,7 @@
 <div class="container mx-auto px-4 py-8">
 	<h1 class="text-3xl font-bold mb-8">UCLA Undergraduate Majors</h1>
 
-	{#if loading}
-		<div class="flex justify-center items-center h-64">
-			<div class="text-lg">Loading majors...</div>
-		</div>
-	{:else if error}
-		<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
-			<strong>Error:</strong> {error}
-		</div>
-	{:else if majors.length === 0}
+	{#if majors.length === 0}
 		<div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
 			No majors found. Please ensure major data files are available.
 		</div>

@@ -3,32 +3,96 @@
 	Shows detailed major requirements organized by sections
 -->
 <script lang="ts">
-	import type { Major } from '../../../lib/types.js';
-	import { getAllMajorCourses } from '../../../lib/services/loadMajors.js';
+	import { onMount } from 'svelte';
+	import type { Major, Course } from '../../../lib/types.js';
+	import { getAllMajorCourses, calculateRequiredCourseCount } from '../../../lib/services/loadMajors.js';
+	import { 
+		completedCourses, 
+		loadCompletedCourses, 
+		toggleCourseCompletion, 
+		isCourseEffectivelyCompleted,
+		clearCompletedCourses 
+	} from '../../../lib/services/completionService.js';
+	import { loadCourses } from '../../../lib/services/loadCourses.js';
+	import { MajorSection } from '../../../lib/components/major/index.js';
 	
 	export let data: { major: Major; majorId: string };
 	
 	$: major = data.major;
 	$: majorId = data.majorId;
 	
+	// Load course map for equivalent course handling
+	let courseMap: Map<string, Course> = new Map();
+	let coursesLoaded = false;
+	
 	// Get all courses for this major
 	$: allCourses = getAllMajorCourses(major);
 	
-	// TODO: This will be replaced with actual completion tracking
-	let completedCourses = new Set<string>();
+	// Calculate actual required course count (accounts for group needs)
+	$: totalRequiredCourses = calculateRequiredCourseCount(major);
 	
-	function toggleCourseCompletion(courseId: string) {
-		if (completedCourses.has(courseId)) {
-			completedCourses.delete(courseId);
-		} else {
-			completedCourses.add(courseId);
+	// Load completion data and course map on mount
+	onMount(async () => {
+		loadCompletedCourses();
+		
+		try {
+			const { courseMap: loadedCourseMap } = await loadCourses();
+			courseMap = loadedCourseMap;
+			coursesLoaded = true;
+		} catch (error) {
+			console.error('Failed to load course data:', error);
+			courseMap = new Map();
+			coursesLoaded = true; // Set to true even on error to show the UI
 		}
-		completedCourses = completedCourses; // Trigger reactivity
+	});
+
+	// Helper function to get equivalent courses for a given course ID
+	function getEquivalentCourses(courseId: string): string[] {
+		const course = courseMap.get(courseId);
+		return course?.equivalentCourses || [];
 	}
 	
-	function navigateToCourse(courseId: string) {
-		window.location.href = `/courses/${courseId}`;
-	}
+	// Calculate actual completion progress using the completion service with course map
+	$: actualCompletedCourses = coursesLoaded ? (() => {
+		let actualCompleted = 0;
+		
+		function countActualCompleted(requirements: any[]) {
+			for (const req of requirements) {
+				if (req.type === 'course') {
+					// Use the completion service with equivalent courses from the course map
+					const equivalents = getEquivalentCourses(req.courseId);
+					if (isCourseEffectivelyCompleted(req.courseId, equivalents, $completedCourses)) {
+						actualCompleted++;
+					}
+				} else if (req.type === 'group') {
+					// For groups, count completed courses up to the needs count
+					let groupCompleted = 0;
+					for (const option of req.options) {
+						if (option.type === 'course') {
+							const equivalents = getEquivalentCourses(option.courseId);
+							if (isCourseEffectivelyCompleted(option.courseId, equivalents, $completedCourses)) {
+								groupCompleted++;
+							}
+						}
+					}
+					// Only count up to the required number for this group
+					actualCompleted += Math.min(groupCompleted, req.needs);
+				}
+			}
+		}
+		
+		for (const section of major.sections) {
+			countActualCompleted(section.requirements);
+		}
+		
+		return actualCompleted;
+	})() : 0;
+	
+	// Calculate total completed courses across all majors
+	$: totalGlobalCompleted = $completedCourses.size;
+	
+	// View mode state
+	let viewMode: 'list' | 'graph' = 'list';
 </script>
 
 <svelte:head>
@@ -68,104 +132,103 @@
 			</div>
 		</div>
 		
-		<!-- Quick Stats -->
-		<div class="flex flex-wrap gap-4 text-sm text-gray-600 mb-6">
-			<span>📚 {allCourses.length} total course references</span>
-			<span>📋 {major.sections.length} sections</span>
-			<span>✅ {completedCourses.size} completed</span>
+		<!-- Quick Stats and View Toggle -->
+		<div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+			<div class="flex flex-wrap gap-4 text-sm text-gray-600">
+				<span>{allCourses.length} total course references</span>
+				<span>{major.sections.length} sections</span>
+				<span>{actualCompletedCourses}/{totalRequiredCourses} courses required</span>
+			</div>
+			
+			<!-- View Mode Toggle -->
+			<div class="flex bg-gray-100 rounded-lg p-1">
+				<button
+					class="px-3 py-1 rounded-md text-sm font-medium transition-colors
+							{viewMode === 'list' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
+					on:click={() => viewMode = 'list'}
+				>
+					📋 List View
+				</button>
+				<button
+					class="px-3 py-1 rounded-md text-sm font-medium transition-colors
+							{viewMode === 'graph' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
+					on:click={() => viewMode = 'graph'}
+					disabled
+					title="Graph view coming soon!"
+				>
+					🔗 Graph View
+				</button>
+			</div>
 		</div>
 	</div>
 
-	<!-- Major Sections -->
-	<div class="space-y-8">
-		{#each major.sections as section}
-			<section class="bg-white border border-gray-200 rounded-lg p-6">
-				<div class="mb-4">
-					<h2 class="text-2xl font-semibold mb-2">{section.title}</h2>
-					<p class="text-gray-700">{section.description}</p>
-				</div>
-				
-				<div class="space-y-4">
-					{#each section.requirements as requirement}
-						{#if requirement.type === 'course'}
-							<!-- Individual Course Requirement -->
-							<div class="flex items-center justify-between p-3 bg-gray-50 rounded border">
-								<div class="flex items-center space-x-3">
-									<button
-										class="w-5 h-5 rounded border-2 border-gray-300 flex items-center justify-center 
-												{completedCourses.has(requirement.courseId) ? 'bg-green-500 border-green-500' : 'bg-white'} 
-												hover:border-green-400 transition-colors"
-										on:click={() => toggleCourseCompletion(requirement.courseId)}
-									>
-										{#if completedCourses.has(requirement.courseId)}
-											<span class="text-white text-xs">✓</span>
-										{/if}
-									</button>
-									
-									<button
-										class="text-blue-600 hover:text-blue-800 font-medium"
-										on:click={() => navigateToCourse(requirement.courseId)}
-									>
-										{requirement.courseId}
-									</button>
-								</div>
-								
-								<span class="text-sm text-gray-500">Required</span>
-							</div>
-						{:else if requirement.type === 'group'}
-							<!-- Group Requirement -->
-							<div class="border border-gray-300 rounded-lg p-4 bg-blue-50">
-								<div class="mb-3">
-									<h3 class="font-semibold text-lg">{requirement.title}</h3>
-									<p class="text-gray-700 text-sm">{requirement.description}</p>
-									<p class="text-blue-800 font-medium text-sm mt-1">
-										Select {requirement.needs} from {requirement.options.length} options:
-									</p>
-								</div>
-								
-								<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-									{#each requirement.options as option}
-										{#if option.type === 'course'}
-											<div class="flex items-center space-x-2 p-2 bg-white rounded border">
-												<button
-													class="w-4 h-4 rounded border-2 border-gray-300 flex items-center justify-center 
-															{completedCourses.has(option.courseId) ? 'bg-green-500 border-green-500' : 'bg-white'} 
-															hover:border-green-400 transition-colors"
-													on:click={() => toggleCourseCompletion(option.courseId)}
-												>
-													{#if completedCourses.has(option.courseId)}
-														<span class="text-white text-xs">✓</span>
-													{/if}
-												</button>
-												
-												<button
-													class="text-blue-600 hover:text-blue-800 text-sm"
-													on:click={() => navigateToCourse(option.courseId)}
-												>
-													{option.courseId}
-												</button>
-											</div>
-										{/if}
-									{/each}
-								</div>
-							</div>
-						{/if}
-					{/each}
-				</div>
-			</section>
-		{/each}
-	</div>
+	<!-- Major Content Based on View Mode -->
+	{#if viewMode === 'list'}
+		<!-- List View: Sectioned Requirements -->
+		<div class="mb-6">
+			<div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+				<h3 class="font-semibold text-blue-800 mb-2">Requirements Overview</h3>
+				<p class="text-sm text-blue-700">
+					This view shows all major requirements organized by section. Click on any course to view its prerequisite tree. 
+					Use the checkboxes to track your progress through the major.
+				</p>
+			</div>
+		</div>
+		
+		<div class="space-y-8">
+			{#each major.sections as section, index}
+				<MajorSection 
+					{section}
+					completedCourses={$completedCourses}
+					{courseMap}
+					onToggleCompletion={toggleCourseCompletion}
+					sectionIndex={index}
+				/>
+			{/each}
+		</div>
+	{:else if viewMode === 'graph'}
+		<!-- Graph View: Interactive Prerequisite Graph -->
+		<div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
+			<h3 class="text-lg font-semibold text-yellow-800 mb-2">🚧 Graph View Coming Soon!</h3>
+			<p class="text-yellow-700 mb-4">
+				We're working on an interactive prerequisite graph that will show:
+			</p>
+			<ul class="text-sm text-yellow-700 text-left max-w-md mx-auto space-y-1">
+				<li>• Visual prerequisite relationships between courses</li>
+				<li>• Auto-detection of missing prerequisites</li>
+				<li>• Optimal course sequencing suggestions</li>
+				<li>• Section-grouped layout with drag-and-drop</li>
+			</ul>
+			<p class="text-xs text-yellow-600 mt-4">
+				For now, use the List View to explore requirements and click courses to see their prerequisites.
+			</p>
+		</div>
+	{/if}
 	
-	<!-- TODO: Add graph view toggle and visualization here -->
+
+	
+	<!-- Completion Data Management (for testing/admin) -->
+	{#if totalGlobalCompleted > 0}
+		<div class="mt-6 p-3 bg-gray-50 border border-gray-200 rounded text-sm">
+			<div class="flex items-center justify-between">
+				<span class="text-gray-600">
+					📊 Course completion data is saved locally ({totalGlobalCompleted} courses marked complete)
+				</span>
+				<button
+					class="px-3 py-1 bg-red-100 hover:bg-red-200 text-red-700 rounded text-xs transition-colors"
+					on:click={clearCompletedCourses}
+					title="Clear all completion data"
+				>
+					Reset All
+				</button>
+			</div>
+		</div>
+	{/if}
+
+		<!-- TODO: Add graph view toggle and visualization here -->
 	<div class="mt-8 p-4 bg-yellow-50 border border-yellow-200 rounded">
 		<p class="text-sm text-yellow-800">
 			🚧 <strong>Coming soon:</strong> Interactive prerequisite graph view, missing prerequisite detection, and completion tracking.
 		</p>
 	</div>
 </div>
-
-<style>
-	.breadcrumbs {
-		@apply text-gray-600;
-	}
-</style>

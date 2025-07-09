@@ -4,11 +4,15 @@
 // This should run as little as possible since it requires fetching a file
 // If the courses are already loaded, it should not fetch again
 
+import { writable } from 'svelte/store';
 import type { Course, CourseList } from '../types.js';
 
 // Cache for loaded courses to avoid repeated fetches
 let coursesCache: Course[] | null = null;
 let courseMapCache: Map<string, Course> | null = null;
+
+// Svelte store for the course map - accessible globally
+export const courseMapStore = writable<Map<string, Course>>(new Map());
 
 /**
  * Loads courses from the JSON file and returns both the courses array and a map for quick lookup
@@ -42,6 +46,9 @@ export async function loadCourses(): Promise<{ courses: Course[], courseMap: Map
     coursesCache = courses;
     courseMapCache = courseMap;
     
+    // Update the store
+    courseMapStore.set(courseMapCache);
+    
     return { courses, courseMap };
   } catch (error) {
     console.error('Failed to load courses:', error);
@@ -55,4 +62,5 @@ export async function loadCourses(): Promise<{ courses: Course[], courseMap: Map
 export function clearCoursesCache(): void {
   coursesCache = null;
   courseMapCache = null;
+  courseMapStore.set(new Map());
 }

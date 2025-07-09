@@ -131,7 +131,7 @@
 			<h2 class="text-2xl font-semibold mb-4">Course Extraction Test</h2>
 			<div class="bg-blue-50 p-4 rounded-lg">
 				<h3 class="text-lg font-semibold text-blue-800 mb-2">
-					✅ Extracted {allCourses.length} total course references
+					Extracted {allCourses.length} total course references
 				</h3>
 				
 				<div class="text-sm text-gray-700 mb-2">

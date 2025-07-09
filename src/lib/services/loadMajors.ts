@@ -54,7 +54,9 @@ export function extractDegreeType(majorName: string): string {
 /**
  * Load a major by its ID from the static majors directory
  */
-export async function loadMajor(majorId: string): Promise<Major | null> {
+export async function loadMajor(majorId: string, fetchFn?: typeof globalThis.fetch): Promise<Major | null> {
+	// Use provided fetch function or fallback to global fetch
+	const fetchToUse = fetchFn || fetch;
 	// Check cache first
 	if (majorCache[majorId]) {
 		return majorCache[majorId];
@@ -68,7 +70,7 @@ export async function loadMajor(majorId: string): Promise<Major | null> {
 		const encodedFileName = encodeURIComponent(displayName);
 		
 		// Try to load from static file using encoded filename
-		const response = await fetch(`/majors/${encodedFileName}.json`);
+		const response = await fetchToUse(`/majors/${encodedFileName}.json`);
 		
 		if (!response.ok) {
 			console.warn(`Major file not found: ${displayName}.json (tried: /majors/${encodedFileName}.json)`);
@@ -96,10 +98,13 @@ export async function loadMajor(majorId: string): Promise<Major | null> {
  * Get a list of all available majors
  * This could be generated from scanning the majors directory or from an index file
  */
-export async function getMajorsList(): Promise<MajorInfo[]> {
+export async function getMajorsList(fetchFn?: typeof globalThis.fetch): Promise<MajorInfo[]> {
+	// Use provided fetch function or fallback to global fetch
+	const fetchToUse = fetchFn || fetch;
+	
 	try {
 		// Try to load from an index file first
-		const response = await fetch('/majors/index.json');
+		const response = await fetchToUse('/majors/index.json');
 		
 		if (response.ok) {
 			const indexData = await response.json();
@@ -127,9 +132,9 @@ export async function getMajorsList(): Promise<MajorInfo[]> {
 /**
  * Load major by display name (convenience function)
  */
-export async function loadMajorByName(majorName: string): Promise<Major | null> {
+export async function loadMajorByName(majorName: string, fetchFn?: typeof globalThis.fetch): Promise<Major | null> {
 	const majorId = majorNameToId(majorName);
-	return loadMajor(majorId);
+	return loadMajor(majorId, fetchFn);
 }
 
 /**
@@ -143,6 +148,38 @@ export function getAllMajorCourses(major: Major): string[] {
 	}
 	
 	return Array.from(courses);
+}
+
+/**
+ * Calculate the actual number of courses required to complete a major
+ * This accounts for group requirements (select X from Y) properly
+ */
+export function calculateRequiredCourseCount(major: Major): number {
+	let totalRequired = 0;
+	
+	for (const section of major.sections) {
+		totalRequired += calculateSectionRequiredCount(section.requirements);
+	}
+	
+	return totalRequired;
+}
+
+/**
+ * Calculate the required course count for a specific section
+ */
+export function calculateSectionRequiredCount(requirements: MajorRequirement[]): number {
+	let required = 0;
+	
+	for (const req of requirements) {
+		if (req.type === 'course') {
+			required += 1;
+		} else if (req.type === 'group') {
+			// For groups, count the minimum required courses (needs)
+			required += req.needs;
+		}
+	}
+	
+	return required;
 }
 
 /**

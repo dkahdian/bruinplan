@@ -1,6 +1,6 @@
 {
     "name": "Mathematics BS",
-    "overview": "The Mathematics major is designed for students whose basic interest is mathematics",
+    "overview": "The Mathematics major is designed for students whose basic interest is mathematics.",
     "college": "College of Letters and Science",
     "department": "Mathematics",
     "degreeLevel": "Undergraduate",
@@ -11,7 +11,10 @@
             "title": "Preparation for the Major",
             "description": "Complete 10 courses as follows: Mathematics 31A or 31L, seven required courses, and two elective courses.",
             "requirements": [
-                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "group", "title":"Math 31A or 31AL", "description": "Select one of the following:", "needs": 1, "options": [
+                    {"type": "course", "courseId": "MATH 31A"},
+                    {"type": "course", "courseId": "MATH 31AL"}
+                ]},
                 {"type": "course", "courseId": "MATH 31B"},
                 {"type": "course", "courseId": "MATH 32A"},
                 {"type": "course", "courseId": "MATH 32B"},

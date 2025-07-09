@@ -1,4 +1,6 @@
 import { writable } from 'svelte/store';
+import { courseMapStore } from './loadCourses.js';
+import { get } from 'svelte/store';
 
 const STORAGE_KEY = 'bruinplan-completed-courses';
 
@@ -78,6 +80,25 @@ export function isCourseEffectivelyCompleted(courseId: string, equivalentCourses
   // Check if the main course is completed
   // Check if any equivalent course is completed
   return completed.has(courseId) || equivalentCourses.some(equivalent => completed.has(equivalent));
+}
+
+/**
+ * Check if a course is effectively completed using the global course map for equivalents
+ * This automatically looks up equivalent courses from the global course map
+ */
+export function isCourseEffectivelyCompletedAuto(courseId: string, completed: Set<string>): boolean {
+  // Check if the main course is completed
+  if (completed.has(courseId)) {
+    return true;
+  }
+  
+  // Get equivalent courses from the global course map
+  const globalCourseMap = get(courseMapStore);
+  const course = globalCourseMap.get(courseId);
+  const equivalentCourses = course?.equivalentCourses || [];
+  
+  // Check if any equivalent course is completed
+  return equivalentCourses.some(equivalent => completed.has(equivalent));
 }
 
 /**

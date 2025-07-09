@@ -2,15 +2,17 @@ import type { Major } from '../../../lib/types.js';
 import { loadMajor, majorIdToDisplayName } from '../../../lib/services/loadMajors.js';
 import { error } from '@sveltejs/kit';
 
-export const load = async ({ params }: { params: { majorId: string } }) => {
+export const load = async ({ params, fetch }: { params: { majorId: string }, fetch: typeof globalThis.fetch }) => {
 	const { majorId } = params;
+	
+	console.log('Loading major with majorId:', majorId);
 	
 	if (!majorId) {
 		throw error(400, 'Major ID is required');
 	}
 	
 	try {
-		const major = await loadMajor(majorId);
+		const major = await loadMajor(majorId, fetch);
 		
 		if (!major) {
 			const displayName = majorIdToDisplayName(majorId);
