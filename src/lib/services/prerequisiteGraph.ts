@@ -4,8 +4,8 @@
 
 import cytoscape from 'cytoscape';
 import type { Course, CourseRequirement, RequisiteGroup, CourseRequisite } from '../types.js';
-import { addTooltipsToCytoscape, type TooltipConfig } from './tooltipService.js';
-import { isCourseEffectivelyCompleted } from './completionService.js';
+import { addTooltipsToCytoscape, type TooltipConfig } from './shared/tooltipService.js';
+import { isCourseEffectivelyCompleted } from './shared/completionService.js';
 
 // Define interfaces for the graph nodes and edges
 // These interfaces help structure the data used in the Cytoscape graph
@@ -740,7 +740,7 @@ export function createCytoscapeInstance(
   styles: cytoscape.StylesheetStyle[] = defaultGraphStyles,
   layoutOptions = defaultLayoutOptions,
   tooltipConfig?: Partial<TooltipConfig>
-): { cy: cytoscape.Core; tooltipManager?: import('./tooltipService.js').TooltipManager } {
+): { cy: cytoscape.Core; tooltipManager?: import('./shared/tooltipService.js').TooltipManager } {
   console.log(`Built graph with ${nodes.length} nodes and ${edges.length} edges`);
   
   const cy = cytoscape({

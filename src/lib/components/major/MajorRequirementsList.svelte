@@ -4,8 +4,8 @@
 -->
 <script lang="ts">
 	import type { MajorRequirement } from '../../types.js';
-	import { getCompletedCourseSource, getCompletedCourseOfGroupSource, completedCourses } from '../../services/completionService.js';
-	import { courseMapStore } from '../../services/loadCourses.js';
+	import { getCompletedCourseSource, getCompletedCourseOfGroupSource, completedCourses } from '../../services/shared/completionService.js';
+	import { courseMapStore } from '../../services/data/loadCourses.js';
 	
 	export let requirements: MajorRequirement[];
 	export let onToggleCompletion: (courseId: string) => void;

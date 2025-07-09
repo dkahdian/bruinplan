@@ -1,8 +1,8 @@
 <script lang="ts">
   import cytoscape from 'cytoscape';
   import GraphLegend from './GraphLegend.svelte';
-  import { createCytoscapeInstance, type GraphNode, type GraphEdge } from '../services/prerequisiteGraph.js';
-  import type { TooltipConfig, TooltipManager } from '../services/tooltipService.js';
+  import { createCytoscapeInstance, type GraphNode, type GraphEdge } from '../../services/prerequisiteGraph.js';
+  import type { TooltipConfig, TooltipManager } from '../../services/shared/tooltipService.js';
 
   export let nodes: GraphNode[];
   export let edges: GraphEdge[];

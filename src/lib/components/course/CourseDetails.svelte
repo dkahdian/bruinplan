@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Course } from '../types.js';
+  import type { Course } from '../../types.js';
   import PrerequisiteList from './PrerequisiteList.svelte';
   import EquivalentCourses from './EquivalentCourses.svelte';
 

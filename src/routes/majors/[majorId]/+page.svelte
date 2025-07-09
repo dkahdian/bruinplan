@@ -5,17 +5,17 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { Major } from '../../../lib/types.js';
-	import { getAllMajorCourses, calculateRequiredCourseCount } from '../../../lib/services/loadMajors.js';
+	import { getAllMajorCourses, calculateRequiredCourseCount } from '../../../lib/services/data/loadMajors.js';
 	import { 
 		completedCourses, 
 		loadCompletedCourses, 
 		toggleCourseCompletion, 
 		getCompletedCourseSource,
 		clearCompletedCourses 
-	} from '../../../lib/services/completionService.js';
-	import { loadCourses } from '../../../lib/services/loadCourses.js';
+	} from '../../../lib/services/shared/completionService.js';
+	import { loadCourses } from '../../../lib/services/data/loadCourses.js';
 	import { MajorSection } from '../../../lib/components/major/index.js';
-	import Footer from '../../../lib/components/Footer.svelte';
+	import Footer from '../../../lib/components/shared/Footer.svelte';
 	
 	export let data: { major: Major; majorId: string };
 	

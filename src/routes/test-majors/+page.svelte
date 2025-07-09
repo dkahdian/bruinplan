@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { loadMajorByName, majorNameToId, majorIdToDisplayName, getAllMajorCourses } from "../../lib/services/loadMajors.js";
+	import { loadMajorByName, majorNameToId, majorIdToDisplayName, getAllMajorCourses } from "../../lib/services/data/loadMajors.js";
 	import type { Major } from '../../lib/types.js';
 
 	let major: Major | null = null;

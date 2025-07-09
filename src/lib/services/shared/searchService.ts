@@ -1,4 +1,4 @@
-import type { Course } from '../types.js';
+import type { Course } from '../../types.js';
 
 export interface SearchResult {
 	course: Course;

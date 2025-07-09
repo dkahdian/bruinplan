@@ -1,8 +1,8 @@
 // Service to handle Tailwind-styled tooltips for Cytoscape graphs
 // This service creates and manages HTML tooltips that appear on hover/click events
 
-import type { Course, RequisiteGroup } from '../types.js';
-import type { GraphNode } from './prerequisiteGraph.js';
+import type { Course, RequisiteGroup } from '../../types.js';
+import type { GraphNode } from '../prerequisiteGraph.js';
 
 // Configuration for tooltip behavior
 export interface TooltipConfig {

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import Footer from '../lib/components/Footer.svelte';
+	import Footer from '../lib/components/shared/Footer.svelte';
 	
 	// Add some subtle animations on mount
 	let heroVisible = false;

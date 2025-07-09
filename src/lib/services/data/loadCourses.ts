@@ -5,7 +5,7 @@
 // If the courses are already loaded, it should not fetch again
 
 import { writable } from 'svelte/store';
-import type { Course, CourseList } from '../types.js';
+import type { Course, CourseList } from '../../types.js';
 
 // Cache for loaded courses to avoid repeated fetches
 let coursesCache: Course[] | null = null;

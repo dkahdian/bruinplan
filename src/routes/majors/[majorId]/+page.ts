@@ -1,5 +1,5 @@
 import type { Major } from '../../../lib/types.js';
-import { loadMajor, majorIdToDisplayName } from '../../../lib/services/loadMajors.js';
+import { loadMajor, majorIdToDisplayName } from '../../../lib/services/data/loadMajors.js';
 import { error } from '@sveltejs/kit';
 
 export const load = async ({ params, fetch }: { params: { majorId: string }, fetch: typeof globalThis.fetch }) => {

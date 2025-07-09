@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { Course } from '../types.js';
-  import { searchCourses } from '../services/searchService.js';
+  import type { Course } from '../../types.js';
+  import { searchCourses } from '../../services/shared/searchService.js';
 
   export let courseId: string;
   export let title: string;

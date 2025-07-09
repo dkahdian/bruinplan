@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { loadCourses } from '../../lib/services/loadCourses.js';
-	import { searchCourses } from '../../lib/services/searchService.js';
-	import Footer from '../../lib/components/Footer.svelte';
+	import { loadCourses } from '../../lib/services/data/loadCourses.js';
+	import { searchCourses } from '../../lib/services/shared/searchService.js';
+	import Footer from '../../lib/components/shared/Footer.svelte';
 	import type { Course } from '../../lib/types.js';
 
 	let courses: Course[] = [];

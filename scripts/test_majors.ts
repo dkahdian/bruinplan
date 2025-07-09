@@ -6,7 +6,7 @@
 
 import { readFileSync } from 'fs';
 import { join } from 'path';
-import { majorNameToId, majorIdToDisplayName, getAllMajorCourses } from '../src/lib/services/loadMajors.js';
+import { majorNameToId, majorIdToDisplayName, getAllMajorCourses } from '../src/lib/services/data/loadMajors.js';
 
 // Import validation function - we'll need to make it public for testing
 // For now, let's inline a simple validation

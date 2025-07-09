@@ -4,9 +4,9 @@
 -->
 <script lang="ts">
 	import type { MajorSection as MajorSectionType, Course } from '../../types.js';
-	import { calculateSectionRequiredCount } from '../../services/loadMajors.js';
-	import { getCompletedCourseSource, completedCourses } from '../../services/completionService.js';
-	import { courseMapStore } from '../../services/loadCourses.js';
+	import { calculateSectionRequiredCount } from '../../services/data/loadMajors.js';
+	import { getCompletedCourseSource, completedCourses } from '../../services/shared/completionService.js';
+	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import MajorSectionHeader from './MajorSectionHeader.svelte';
 	import MajorRequirementsList from './MajorRequirementsList.svelte';
 	

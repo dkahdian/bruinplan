@@ -1,4 +1,4 @@
-import { getMajorsList } from '../../lib/services/loadMajors.js';
+import { getMajorsList } from '../../lib/services/data/loadMajors.js';
 import { error } from '@sveltejs/kit';
 
 export const load = async ({ fetch }: { fetch: typeof globalThis.fetch }) => {

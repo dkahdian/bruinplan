@@ -18,8 +18,6 @@
 <main>
   <PrerequisiteGraph 
     courseId={data.courseId} 
-    showWarnings={data.showWarnings}
-    showRecommended={data.showRecommended}
   />
 </main>
 

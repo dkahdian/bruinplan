@@ -1,5 +1,5 @@
 import { writable, get } from 'svelte/store';
-import { courseMapStore } from './loadCourses.js';
+import { courseMapStore } from '../data/loadCourses.js';
 
 const STORAGE_KEY = 'bruinplan-completed-courses';
 

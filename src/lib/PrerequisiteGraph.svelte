@@ -3,15 +3,15 @@
   import cytoscape from 'cytoscape';
   import dagre from 'cytoscape-dagre';
   import type { Course } from './types.js';
-  import { loadCourses } from './services/loadCourses.js';
+  import { loadCourses } from './services/data/loadCourses.js';
   import { buildPrerequisiteGraph, handlePrerequisiteClick } from './services/prerequisiteGraph.js';
-  import { completedCourses, loadCompletedCourses, toggleCourseCompletion } from './services/completionService.js';
+  import { completedCourses, loadCompletedCourses, toggleCourseCompletion } from './services/shared/completionService.js';
   
   // Import components
-  import CourseSearchHeader from './components/CourseSearchHeader.svelte';
-  import GraphContainer from './components/GraphContainer.svelte';
-  import ResizeHandle from './components/ResizeHandle.svelte';
-  import CourseDetails from './components/CourseDetails.svelte';
+  import CourseSearchHeader from './components/shared/CourseSearchHeader.svelte';
+  import GraphContainer from './components/graph/GraphContainer.svelte';
+  import ResizeHandle from './components/shared/ResizeHandle.svelte';
+  import CourseDetails from './components/course/CourseDetails.svelte';
 
   export let courseId: string;
   export let enableTooltips: boolean = true;
