@@ -23,27 +23,28 @@
 		{#if requirement.type === 'course'}
 			<!-- Force reactivity by depending on both stores -->
 			{@const completedSource = reactiveKey && getCompletedCourseSource(requirement.courseId)}
-			{@const isCompleted = completedSource !== null}
+			{@const isEffectivelyCompleted = completedSource !== null}
+			{@const isDirectlyCompleted = reactiveKey && $completedCourses.has(requirement.courseId)}
 			<!-- Individual Course Requirement -->
 			<div 
 				class="flex items-center justify-between p-3 rounded border transition-colors cursor-pointer
-						{isCompleted
+						{isEffectivelyCompleted
 							? 'bg-green-100 hover:bg-green-200 border-green-200' 
 							: 'bg-gray-50 hover:bg-gray-100 border-gray-200'}"
 				on:click={() => onToggleCompletion(requirement.courseId)}
 				on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onToggleCompletion(requirement.courseId); } }}
 				role="button"
 				tabindex="0"
-				title={isCompleted ? 'Mark as incomplete' : 'Mark as complete'}
+				title={isEffectivelyCompleted ? 'Mark as incomplete' : 'Mark as complete'}
 			>
 				<div class="flex items-center space-x-3">
 					<div
 						class="w-5 h-5 rounded border-2 flex items-center justify-center transition-all duration-200
-								{isCompleted
+								{isDirectlyCompleted
 									? 'bg-green-500 border-green-500 shadow-sm' 
 									: 'bg-white border-gray-300 hover:border-green-400 hover:bg-green-50'}"
 					>
-						{#if isCompleted}
+						{#if isDirectlyCompleted}
 							<span class="text-white text-xs font-bold">✓</span>
 						{/if}
 					</div>
@@ -60,9 +61,13 @@
 				<div class="flex flex-col items-end">
 					<!-- Equivalent course indicator -->
 					{#if completedSource !== null && completedSource !== requirement.courseId}
-						<span class="text-xs text-green-600 font-medium bg-green-50 px-2 py-1 rounded mt-1">
+						<button
+							class="text-xs text-green-600 font-medium bg-green-50 px-2 py-1 rounded mt-1 hover:bg-green-200 hover:shadow-sm transition-all duration-200 cursor-pointer via-button"
+							on:click|stopPropagation={() => window.open(`/courses/${completedSource}`, '_blank')}
+							title="View {completedSource} prerequisites and details (opens in new tab)"
+						>
 							✓ Via: {completedSource}
-						</span>
+						</button>
 					{/if}
 				</div>
 			</div>
@@ -107,24 +112,26 @@
 						{#if option.type === 'course'}
 							<!-- Force reactivity by depending on both stores -->
 							{@const optionCompletedSource = reactiveKey && getCompletedCourseOfGroupSource(option.courseId, groupCourseIds)}
+							{@const isEffectivelyCompleted = optionCompletedSource !== null}
+							{@const isDirectlyCompleted = reactiveKey && $completedCourses.has(option.courseId)}
 							<div 
 								class="flex items-center justify-between p-2 rounded border transition-colors cursor-pointer
-										{optionCompletedSource !== null
+										{isEffectivelyCompleted
 											? 'bg-green-100 hover:bg-green-200 border-green-200' 
 											: 'bg-white hover:bg-gray-50 border-gray-200'}"
 								on:click={() => onToggleCompletion(option.courseId)}
 								on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onToggleCompletion(option.courseId); } }}
 								role="button"
 								tabindex="0"
-								title={optionCompletedSource !== null ? 'Mark as incomplete' : 'Mark as complete'}
+								title={isEffectivelyCompleted ? 'Mark as incomplete' : 'Mark as complete'}
 							>
 								<div class="flex items-center space-x-2">
 									<div
 										class="w-4 h-4 rounded border-2 border-gray-300 flex items-center justify-center 
-												{optionCompletedSource !== null ? 'bg-green-500 border-green-500' : 'bg-white'} 
+												{isDirectlyCompleted ? 'bg-green-500 border-green-500' : 'bg-white'} 
 												hover:border-green-400 transition-colors"
 									>
-										{#if optionCompletedSource !== null}
+										{#if isDirectlyCompleted}
 											<span class="text-white text-xs">✓</span>
 										{/if}
 									</div>
@@ -138,10 +145,14 @@
 									</button>
 									
 									<!-- Equivalent course indicator for group options -->
-									{#if optionCompletedSource !== null && optionCompletedSource !== option.courseId}
-										<span class="text-xs text-green-600 font-medium bg-green-50 px-2 py-1 rounded">
+									{#if isEffectivelyCompleted && optionCompletedSource !== option.courseId}
+										<button
+											class="text-xs text-green-600 font-medium bg-green-50 px-2 py-1 rounded hover:bg-green-200 hover:shadow-sm transition-all duration-200 cursor-pointer via-button"
+											on:click|stopPropagation={() => window.open(`/courses/${optionCompletedSource}`, '_blank')}
+											title="View {optionCompletedSource} prerequisites and details (opens in new tab)"
+										>
 											✓ Via: {optionCompletedSource}
-										</span>
+										</button>
 									{/if}
 								</div>
 							</div>
@@ -152,3 +163,23 @@
 		{/if}
 	{/each}
 </div>
+
+<style>
+	/* Prevent parent hover state when hovering over Via button */
+	.via-button:hover {
+		/* Force the parent to not apply hover styles when hovering over the via button */
+		pointer-events: auto;
+	}
+	
+	/* Individual course requirement - prevent hover state propagation */
+	div[role="button"]:has(.via-button:hover) {
+		background-color: rgb(220 252 231) !important; /* Keep light green bg-green-100 */
+		border-color: rgb(187 247 208) !important; /* Keep light green border-green-200 */
+	}
+	
+	/* Group option - prevent hover state propagation */
+	div[role="button"]:has(.via-button:hover) {
+		background-color: rgb(220 252 231) !important; /* Keep light green bg-green-100 */
+		border-color: rgb(187 247 208) !important; /* Keep light green border-green-200 */
+	}
+</style>

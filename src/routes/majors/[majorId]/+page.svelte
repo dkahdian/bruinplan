@@ -15,6 +15,7 @@
 	} from '../../../lib/services/completionService.js';
 	import { loadCourses } from '../../../lib/services/loadCourses.js';
 	import { MajorSection } from '../../../lib/components/major/index.js';
+	import Footer from '../../../lib/components/Footer.svelte';
 	
 	export let data: { major: Major; majorId: string };
 	
@@ -220,3 +221,5 @@
 		</p>
 	</div>
 </div>
+
+<Footer />

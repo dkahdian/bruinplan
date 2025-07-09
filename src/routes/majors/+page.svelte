@@ -5,6 +5,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { majorNameToId } from '../../lib/services/loadMajors.js';
+	import Footer from '../../lib/components/Footer.svelte';
 	import type { MajorInfo } from '../../lib/types.js';
 
 	export let data: { majors: MajorInfo[] };
@@ -59,3 +60,5 @@
 		{/each}
 	{/if}
 </div>
+
+<Footer />
