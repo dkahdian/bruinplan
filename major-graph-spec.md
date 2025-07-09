@@ -257,7 +257,7 @@ This document defines the requirements and approach for visualizing major requir
 
 **Note**: Steps 7+ (Enhanced Features) are beyond current implementation scope
 
-### Phase 1: Core Functionality (Current Implementation Scope)
+### Phase 1: MVP (Public Launch Ready)
 1. Data infrastructure and TypeScript interfaces
 2. Basic major display with sectioned layout
 3. Graph integration using Dagre compound nodes for sections
@@ -266,15 +266,19 @@ This document defines the requirements and approach for visualizing major requir
 6. Completion tracking integration
 7. Graph/list view toggle
 8. Missing prerequisite auto-addition
+9. Data expansion (all UCLA departments and majors)
+10. Essential pages and navigation
 
-### Phase 2: Enhanced Features (Future)
-1. Section progress indicators
-2. Advanced completion analytics
-3. Mobile responsive design
-4. Navigation and integration features
+### Phase 2: Enhanced User Experience
+1. Section progress indicators and advanced completion analytics
+2. Mobile responsive design and improved UI/UX
+3. Performance optimizations for large majors
+4. Better error handling and loading states
+5. Export/import functionality
 
-### Phase 3: Advanced Features (Future)
-1. Quarter planning integration
-2. Prerequisite path optimization
-3. Export/import functionality
-4. Performance optimizations for large majors
+### Phase 3: Advanced Features
+1. Quarter planning integration with calendar interface
+2. Prerequisite path optimization and course sequencing
+3. Advanced search and filtering capabilities
+4. External API integration (Bruinwalk, UCLAGrades)
+5. Real-time course availability updates

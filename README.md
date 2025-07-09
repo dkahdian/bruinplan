@@ -33,19 +33,103 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 
 ## Goals & Features
 
-### Phase 1: Static MVP
+### Phase 1: MVP (Public Launch Ready)
 - [x] Course data visualization
 - [x] Static routing and pages
 - [x] Tailwind-based layout and UI
 - [x] Visual prerequisite trees
-- [ ] Course planning interface
+- [ ] Quarter-by-quarter course planning interface
+- [ ] Major graph visualization (interactive prerequisite graphs for majors)
+- [ ] Data expansion (all UCLA departments and majors)
+- [ ] Essential pages (About, Help, etc.)
 - [x] Department and course filtering UI
 
-### Future Enhancements (Phase 2+)
-- User authentication with UCLA Single Sign-On (Google)
-- Upload and parse transcripts or DARS reports
-- Persistent user plans stored in a backend (MongoDB or Supabase)
-- Real-time updates on course availability and capacity
-- Integration with external APIs (Bruinwalk, UCLAGrades)
+### Phase 2: Enhanced User Experience
+- [ ] Mobile responsiveness and improved UI/UX
+- [ ] Better error handling and loading states
+- [ ] Performance optimizations for large datasets
+- [ ] Export/import functionality for course plans
+- [ ] Accessibility improvements
+
+### Phase 3: Advanced Features
+- [ ] Advanced search and filtering (by professor, availability, grading distribution)
+- [ ] Integration with external APIs (Bruinwalk, UCLAGrades)
+- [ ] Real-time course availability and capacity updates
+- [ ] Prerequisite path optimization and course sequencing suggestions
+
+---
+
+## Current Status
+
+**🎯 MVP Progress**: Phase 1 implementation is ~75% complete
+- ✅ Core prerequisite graph visualization
+- ✅ Major requirements tracking
+- ✅ Course completion system
+- ✅ Basic UI and navigation
+- 🔄 Quarter-based planning system (in development)
+- 🔄 Major graph visualization (in development)
+- 🔄 Data expansion beyond Mathematics
+
+**🚀 Launch Timeline**: Phase 1 MVP targeted for public launch once quarter planning and data expansion are complete.
+
+---
+
+## Contributing
+
+This project is designed to be a comprehensive solution for UCLA course planning. If you're interested in contributing:
+
+1. **Data Collection**: Help expand course and major data beyond Mathematics
+2. **UI/UX**: Improve mobile responsiveness and accessibility
+3. **Testing**: Validate prerequisite logic and course planning features
+4. **Documentation**: Enhance user guides and technical documentation
+
+---
+
+## License
+
+This project is open source and available under the MIT License. See the LICENSE file for more details.
+
+---
+
+## Data Sourcing & Technical Approach
+
+### Course & Major Data Collection
+- **Data Source**: UCLA course catalog and degree requirements (publicly available online)
+- **Collection Method**: 
+  - Selenium scripts to extract raw data from UCLA systems
+  - AI-assisted parsing to convert raw data into structured JSON format
+  - Automated testing to ensure format consistency and data integrity
+- **Update Strategy**: Quarterly update scripts to maintain current course information
+
+### Course Planning System
+- **Planning Logic**: Enhanced completion tracking with quarter assignments
+  - Current: Binary completed/not completed status
+  - Planned: Quarter-specific assignments (e.g., 125 → Winter 2025, 327 → Summer 2027, 0 → completed)
+- **Prerequisite Validation**: Smart checking to ensure prerequisites are planned in logical order
+- **Interface**: Quarter-by-quarter calendar sidebar on major pages
+
+### Quarter-Based Planning System
+
+The planning interface will evolve from the current binary completion tracking to a sophisticated quarter assignment system:
+
+**Current System:**
+- Binary status: completed vs. not completed
+- Stored in localStorage as a simple Set
+
+**Planned System:**
+- Quarter-specific assignments with numeric codes:
+  - `125` → Winter 2025
+  - `327` → Summer 2027  
+  - `0` → Completed (already taken)
+- **Smart Validation**: Automatic checking to ensure prerequisites are scheduled before dependent courses
+- **Visual Calendar**: Quarter-by-quarter sidebar on major pages showing planned course sequence
+- **Prerequisite Warnings**: Alert users when course scheduling violates prerequisite order
+
+This approach maintains the static site architecture while providing sophisticated academic planning capabilities.
+
+### Deployment Strategy
+- **Static Site Hosting**: GitHub Pages for free, reliable hosting
+- **No Backend Required**: LocalStorage for user data persistence
+- **Scalable Architecture**: Designed to remain static while supporting advanced features
 
 ---
