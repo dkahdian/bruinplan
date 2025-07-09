@@ -34,12 +34,12 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 ## Goals & Features
 
 ### Phase 1: Static MVP
-- [ ] Course data visualization
-- [ ] Static routing and pages
-- [ ] Tailwind-based layout and UI
+- [x] Course data visualization
+- [x] Static routing and pages
+- [x] Tailwind-based layout and UI
 - [x] Visual prerequisite trees
-- [ ] Mock course planning interface
-- [ ] Department and course filtering UI
+- [ ] Course planning interface
+- [x] Department and course filtering UI
 
 ### Future Enhancements (Phase 2+)
 - User authentication with UCLA Single Sign-On (Google)
