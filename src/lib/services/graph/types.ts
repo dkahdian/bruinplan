@@ -7,8 +7,8 @@ export interface GraphNode {
   data: {
     id: string;
     label: string;
-    type: 'course' | 'group' | 'section-header';
-    // Type of node: course, group, or section header (for major graphs)
+    type: 'course' | 'group' | 'section-header' | 'section';
+    // Type of node: course, group, section header (for major graphs), or section (compound)
     
     // Course-specific properties
     course?: Course;
@@ -21,6 +21,8 @@ export interface GraphNode {
     // Section-specific properties (for major graphs)
     section?: string; // Which major section this belongs to
     sectionId?: string; // Section identifier
+    backgroundColor?: string; // For compound nodes
+    borderColor?: string; // For compound nodes
     
     // Parent reference for compound nodes
     parent?: string;

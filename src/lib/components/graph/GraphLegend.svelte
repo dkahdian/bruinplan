@@ -1,10 +1,38 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
+  import { saveLegendState, type LegendState } from '../../services/shared/legendStateService.js';
+
   export let showWarnings: boolean;
   export let showRecommended: boolean;
   export let showCompletedCourses: boolean;
   export let userCompletedCourses: Set<string>;
 
   let isLegendExpanded = true;
+  let isInitialized = false;
+
+  // Load only the legend expansion state on mount
+  onMount(async () => {
+    // Import the load function dynamically to avoid SSR issues
+    const { loadLegendState } = await import('../../services/shared/legendStateService.js');
+    const savedState = loadLegendState();
+    
+    // Only update the legend expansion state here
+    // The parent component should handle initializing the toggle states
+    isLegendExpanded = savedState.isExpanded;
+    
+    isInitialized = true;
+  });
+
+  // Save state to localStorage whenever any state changes
+  $: if (isInitialized) {
+    const currentState: LegendState = {
+      isExpanded: isLegendExpanded,
+      showWarnings,
+      showRecommended,
+      showCompletedCourses
+    };
+    saveLegendState(currentState);
+  }
 </script>
 
 <div class="absolute bottom-4 left-4 bg-white/95 backdrop-blur-sm border border-gray-200 rounded-lg shadow-lg text-xs max-w-xs overflow-hidden">

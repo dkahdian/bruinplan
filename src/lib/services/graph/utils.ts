@@ -96,3 +96,42 @@ export function determineGroupColor(
   
   return groupColor;
 }
+
+/**
+ * Checks if a course should be shown based on completion status and display options
+ * @param courseId - The course ID to check
+ * @param showCompletedCourses - Whether completed courses should be shown
+ * @param completionCheckFn - Function to check if course is completed (can use different completion services)
+ * @returns true if the course should be shown, false if it should be filtered out
+ */
+export function shouldShowCourse(
+  courseId: string,
+  showCompletedCourses: boolean,
+  completionCheckFn: (courseId: string) => boolean
+): boolean {
+  const isCompleted = completionCheckFn(courseId);
+  
+  // If the course is completed and we're not showing completed courses, filter it out
+  if (isCompleted && !showCompletedCourses) {
+    return false;
+  }
+  
+  return true;
+}
+
+/**
+ * Filters a list of course IDs based on completion status and display options
+ * @param courseIds - Array of course IDs to filter
+ * @param showCompletedCourses - Whether completed courses should be shown
+ * @param completionCheckFn - Function to check if course is completed
+ * @returns Filtered array of course IDs that should be shown
+ */
+export function filterCoursesToShow(
+  courseIds: string[],
+  showCompletedCourses: boolean,
+  completionCheckFn: (courseId: string) => boolean
+): string[] {
+  return courseIds.filter(courseId => 
+    shouldShowCourse(courseId, showCompletedCourses, completionCheckFn)
+  );
+}

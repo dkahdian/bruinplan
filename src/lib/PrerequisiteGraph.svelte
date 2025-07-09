@@ -6,6 +6,7 @@
   import { loadCourses } from './services/data/loadCourses.js';
   import { buildPrerequisiteGraph, handlePrerequisiteClick } from './services/graph/index.js';
   import { completedCourses, loadCompletedCourses, toggleCourseCompletion } from './services/shared/completionService.js';
+  import { loadLegendState } from './services/shared/legendStateService.js';
   
   // Import components
   import CourseSearchHeader from './components/shared/CourseSearchHeader.svelte';
@@ -17,10 +18,11 @@
   export let enableTooltips: boolean = true;
   export let graphWidthPercent: number = 60;
 
-  // Internal state for controlling what prerequisites are shown
-  let showWarnings: boolean = true;
-  let showRecommended: boolean = true;
-  let showCompletedCourses: boolean = true;
+  // Internal state for controlling what prerequisites are shown - initialize from localStorage
+  const savedLegendState = loadLegendState();
+  let showWarnings: boolean = savedLegendState.showWarnings;
+  let showRecommended: boolean = savedLegendState.showRecommended;
+  let showCompletedCourses: boolean = savedLegendState.showCompletedCourses;
 
   // Course completion state - use the store directly
   $: userCompletedCourses = $completedCourses;
@@ -67,6 +69,12 @@
     }
     
     loadCompletedCourses();
+    
+    // Load legend state from localStorage
+    const savedState = loadLegendState();
+    showWarnings = savedState.showWarnings;
+    showRecommended = savedState.showRecommended;
+    showCompletedCourses = savedState.showCompletedCourses;
   }
 
   // Generate graph data

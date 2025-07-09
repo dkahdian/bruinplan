@@ -10,7 +10,9 @@ import {
   generateGroupId,
   isCourseEffectivelyCompletedWithEquivalents,
   getEdgeType,
-  determineGroupColor
+  determineGroupColor,
+  shouldShowCourse,
+  filterCoursesToShow
 } from './utils.js';
 
 /**
@@ -57,7 +59,7 @@ export function buildPrerequisiteGraph(
     const isCourseCompleted = userCompletedCourses.has(courseId);
     const isCourseEffectivelyCompleted = isEffectivelyCompleted(courseId);
     
-    if (isCourseEffectivelyCompleted && !showCompletedCourses) {
+    if (!shouldShowCourse(courseId, showCompletedCourses, (id) => isEffectivelyCompleted(id))) {
       return;
     }
     
@@ -103,7 +105,7 @@ export function buildPrerequisiteGraph(
       
       if (shouldProcess) {
         const isCourseEffectivelyCompleted = isEffectivelyCompleted(requirement.course);
-        if (isCourseEffectivelyCompleted && !showCompletedCourses) {
+        if (!shouldShowCourse(requirement.course, showCompletedCourses, (id) => isEffectivelyCompleted(id))) {
           return;
         }
         
@@ -120,7 +122,7 @@ export function buildPrerequisiteGraph(
       }
     } else if (requirement.type === 'Recommended' && showRecommended) {
       const isCourseEffectivelyCompleted = isEffectivelyCompleted(requirement.course);
-      if (isCourseEffectivelyCompleted && !showCompletedCourses) {
+      if (!shouldShowCourse(requirement.course, showCompletedCourses, (id) => isEffectivelyCompleted(id))) {
         return;
       }
       

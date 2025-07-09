@@ -14,8 +14,9 @@
 		clearCompletedCourses 
 	} from '../../../lib/services/shared/completionService.js';
 	import { loadCourses } from '../../../lib/services/data/loadCourses.js';
-	import { MajorSection } from '../../../lib/components/major/index.js';
+	import { MajorSection, MajorGraphView } from '../../../lib/components/major/index.js';
 	import Footer from '../../../lib/components/shared/Footer.svelte';
+	import { loadViewMode, saveViewMode, type ViewMode } from '../../../lib/services/shared/viewModeService.js';
 	
 	export let data: { major: Major; majorId: string };
 	
@@ -82,8 +83,16 @@
 	// Calculate total completed courses across all majors
 	$: totalGlobalCompleted = $completedCourses.size;
 	
-	// View mode state
-	let viewMode: 'list' | 'graph' = 'list';
+	// View mode state - initialize from localStorage
+	let viewMode: ViewMode = loadViewMode();
+	
+	// Save view mode to localStorage whenever it changes
+	$: if (viewMode) {
+		saveViewMode(viewMode);
+	}
+	
+	// Debug logging
+	$: console.log('Current viewMode:', viewMode);
 </script>
 
 <svelte:head>
@@ -134,6 +143,7 @@
 			<!-- View Mode Toggle -->
 			<div class="flex bg-gray-100 rounded-lg p-1">
 				<button
+					type="button"
 					class="px-3 py-1 rounded-md text-sm font-medium transition-colors
 							{viewMode === 'list' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
 					on:click={() => viewMode = 'list'}
@@ -141,31 +151,19 @@
 					📋 List View
 				</button>
 				<button
+					type="button"
 					class="px-3 py-1 rounded-md text-sm font-medium transition-colors
 							{viewMode === 'graph' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
 					on:click={() => viewMode = 'graph'}
-					disabled
-					title="Graph view coming soon!"
 				>
 					🔗 Graph View
 				</button>
 			</div>
 		</div>
 	</div>
-
-	<!-- Major Content Based on View Mode -->
+	
 	{#if viewMode === 'list'}
-		<!-- List View: Sectioned Requirements -->
-		<div class="mb-6">
-			<div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
-				<h3 class="font-semibold text-blue-800 mb-2">Requirements Overview</h3>
-				<p class="text-sm text-blue-700">
-					This view shows all major requirements organized by section. Click on any course to view its prerequisite tree. 
-					Use the checkboxes to track your progress through the major.
-				</p>
-			</div>
-		</div>
-		
+		<!-- List View: Sectioned Requirements -->		
 		<div class="space-y-8">
 			{#each major.sections as section, index}
 				<MajorSection 
@@ -176,21 +174,16 @@
 			{/each}
 		</div>
 	{:else if viewMode === 'graph'}
-		<!-- Graph View: Interactive Prerequisite Graph -->
-		<div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
-			<h3 class="text-lg font-semibold text-yellow-800 mb-2">🚧 Graph View Coming Soon!</h3>
-			<p class="text-yellow-700 mb-4">
-				We're working on an interactive prerequisite graph that will show:
-			</p>
-			<ul class="text-sm text-yellow-700 text-left max-w-md mx-auto space-y-1">
-				<li>• Visual prerequisite relationships between courses</li>
-				<li>• Auto-detection of missing prerequisites</li>
-				<li>• Optimal course sequencing suggestions</li>
-				<li>• Section-grouped layout with drag-and-drop</li>
-			</ul>
-			<p class="text-xs text-yellow-600 mt-4">
-				For now, use the List View to explore requirements and click courses to see their prerequisites.
-			</p>
+		<MajorGraphView
+			{major}
+			onCourseSelect={(courseId) => {
+				// Navigate to course detail page in a new tab when a course is selected
+				window.open(`/courses/${courseId}`, '_blank');
+			}}
+		/>
+	{:else}
+		<div class="mb-4 p-2 bg-red-100 rounded text-sm">
+			Error: Unknown viewMode = "{viewMode}"
 		</div>
 	{/if}
 	
@@ -201,7 +194,7 @@
 		<div class="mt-6 p-3 bg-gray-50 border border-gray-200 rounded text-sm">
 			<div class="flex items-center justify-between">
 				<span class="text-gray-600">
-					📊 Course completion data is saved locally ({totalGlobalCompleted} courses marked complete)
+					Course completion data is saved locally ({totalGlobalCompleted} courses marked complete)
 				</span>
 				<button
 					class="px-3 py-1 bg-red-100 hover:bg-red-200 text-red-700 rounded text-xs transition-colors"
@@ -217,7 +210,7 @@
 		<!-- TODO: Add graph view toggle and visualization here -->
 	<div class="mt-8 p-4 bg-yellow-50 border border-yellow-200 rounded">
 		<p class="text-sm text-yellow-800">
-			🚧 <strong>Coming soon:</strong> Interactive prerequisite graph view, missing prerequisite detection, and completion tracking.
+			<strong>Coming soon:</strong> Interactive prerequisite graph view, missing prerequisite detection, and completion tracking.
 		</p>
 	</div>
 </div>

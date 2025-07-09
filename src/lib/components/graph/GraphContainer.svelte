@@ -1,7 +1,7 @@
 <script lang="ts">
   import cytoscape from 'cytoscape';
   import GraphLegend from './GraphLegend.svelte';
-  import { createCytoscapeInstanceLegacy as createCytoscapeInstance, type GraphNode, type GraphEdge } from '../../services/graph/index.js';
+  import { createCytoscapeInstanceLegacy as createCytoscapeInstance, type GraphNode, type GraphEdge, defaultGraphStyles, defaultLayoutOptions } from '../../services/graph/index.js';
   import type { TooltipConfig, TooltipManager } from '../../services/shared/tooltipService.js';
 
   export let nodes: GraphNode[];
@@ -14,6 +14,8 @@
   export let userCompletedCourses: Set<string>;
   export let onCourseSelect: (course: any) => void;
   export let onBackgroundClick: () => void;
+  export let customStyles: cytoscape.StylesheetStyle[] = defaultGraphStyles;
+  export let layoutOptions: any = defaultLayoutOptions;
 
   let container: HTMLDivElement;
   let cy: cytoscape.Core;
@@ -41,7 +43,7 @@
       position: 'top'
     } : undefined;
 
-    const result = createCytoscapeInstance(container, nodes, edges, undefined, undefined, tooltipConfig);
+    const result = createCytoscapeInstance(container, nodes, edges, customStyles, layoutOptions, tooltipConfig);
     cy = result.cy;
     tooltipManager = result.tooltipManager;
     
@@ -101,7 +103,7 @@
   }
 </script>
 
-<div class="border border-gray-300 rounded-l-lg shadow-md bg-gray-50 flex-shrink-0 relative"
+<div class="border border-gray-300 rounded-l-lg shadow-md bg-gray-50 flex-shrink-0 relative h-full"
      style="width: {graphWidthPercent}%">
   <div bind:this={container} class="w-full h-full"></div>
   

@@ -2,8 +2,12 @@
 // Contains default styles, layout options, and Cytoscape instance creation
 
 import cytoscape from 'cytoscape';
+import dagre from 'cytoscape-dagre';
 import type { GraphNode, GraphEdge, GraphRenderConfig } from './types.js';
 import { addTooltipsToCytoscape, type TooltipConfig } from '../shared/tooltipService.js';
+
+// Register the dagre layout extension
+cytoscape.use(dagre);
 
 // Default styles for the graph visualization
 export const defaultGraphStyles: cytoscape.StylesheetStyle[] = [
@@ -49,14 +53,14 @@ export const defaultGraphStyles: cytoscape.StylesheetStyle[] = [
     selector: 'node[type="group"]',
     style: {
       'shape': 'diamond',
-      'width': 60,
-      'height': 60,
+      'width': 80,  // Increased from 60 to accommodate longer labels
+      'height': 80, // Increased from 60 to accommodate longer labels
       'label': 'data(label)',
       'text-valign': 'center',
       'text-halign': 'center',
       'font-size': '10px',
       'text-wrap': 'wrap',
-      'text-max-width': '50px'
+      'text-max-width': '120px'  // Increased from 50px to accommodate longer labels
     }
   },
   {
@@ -136,9 +140,145 @@ export const defaultLayoutOptions = {
   nodeDimensionsIncludeLabels: true
 };
 
+// Major graph specific layout options (for compound nodes)
+export const majorGraphLayoutOptions = {
+  name: 'dagre',
+  rankDir: 'TB', // Top to bottom within clusters
+  spacingFactor: 1.0, // Reduced from 1.8
+  nodeDimensionsIncludeLabels: true,
+  // Compound node specific options
+  rankSep: 40, // Reduced from 100 - Vertical spacing between ranks
+  nodeSep: 25,  // Reduced from 50 - Horizontal spacing between nodes
+  ranker: 'longest-path' // Better for compound graphs
+};
+
 // Major graph specific styles (for compound nodes/sections)
 export const majorGraphStyles: any[] = [
-  ...defaultGraphStyles,
+  // First include default styles for edges and other elements
+  {
+    selector: 'node[type="group"]',
+    style: {
+      'shape': 'diamond',
+      'width': 80,  // Increased from 60 to accommodate longer labels
+      'height': 80, // Increased from 60 to accommodate longer labels
+      'label': 'data(label)',
+      'text-valign': 'center',
+      'text-halign': 'center',
+      'font-size': '10px',
+      'text-wrap': 'wrap',
+      'text-max-width': '120px'  // Increased from 50px to accommodate longer labels
+    }
+  },
+  {
+    selector: 'node[type="group"][groupColor="enforced"]',
+    style: {
+      'background-color': '#fecaca',  // Pink background
+      'border-color': 'red',
+      'border-width': 2
+    }
+  },
+  {
+    selector: 'node[type="group"][groupColor="warning"]',
+    style: {
+      'background-color': '#fef3c7',  // Light yellow background
+      'border-color': 'orange',
+      'border-width': 2
+    }
+  },
+  {
+    selector: 'node[type="group"][groupColor="recommended"]',
+    style: {
+      'background-color': '#fef3c7',  // Light yellow background
+      'border-color': 'orange',
+      'border-width': 2,
+      'border-style': 'dashed'
+    }
+  },
+  {
+    selector: 'edge[type="enforced"]',
+    style: {
+      'line-color': 'red',
+      'target-arrow-color': 'red',
+      'target-arrow-shape': 'triangle',
+      'curve-style': 'bezier',
+      'arrow-scale': 1.2
+    }
+  },
+  {
+    selector: 'edge[type="warning"]',
+    style: {
+      'line-color': 'orange',
+      'target-arrow-color': 'orange',
+      'target-arrow-shape': 'triangle',
+      'curve-style': 'bezier',
+      'arrow-scale': 1.2
+    }
+  },
+  {
+    selector: 'edge[type="recommended"]',
+    style: {
+      'line-color': 'orange',
+      'target-arrow-color': 'orange',
+      'target-arrow-shape': 'triangle',
+      'curve-style': 'bezier',
+      'arrow-scale': 1.2,
+      'line-style': 'dashed'
+    }
+  },
+  {
+    selector: 'edge[fromCompleted]',
+    style: {
+      'line-color': '#22c55e',        // Green for edges from completed courses
+      'target-arrow-color': '#22c55e',
+      'target-arrow-shape': 'triangle',
+      'curve-style': 'bezier',
+      'arrow-scale': 1.2,
+      'opacity': 0.8
+    }
+  },
+  // Override course node styles for major graphs to be more compact (base styling)
+  {
+    selector: 'node[type="course"]',
+    style: {
+      'shape': 'round-rectangle',
+      'background-color': 'white',
+      'border-color': 'black',
+      'border-width': 2,
+      'label': 'data(label)',
+      'text-valign': 'center',
+      'text-halign': 'center',
+      'width': 70, // Reduced from 80
+      'height': 35, // Reduced from 40
+      'font-size': '11px', // Reduced from 12px
+      'color': 'black' // Default text color
+    }
+  },
+  // Completed course styling for major graphs (must come after base course styling)
+  {
+    selector: 'node[type="course"][completed]',
+    style: {
+      'background-color': '#dcfce7',  // Light green background
+      'border-color': '#22c55e',      // Green border
+      'color': '#15803d'              // Dark green text
+    }
+  },
+  // Selected course styling for major graphs
+  {
+    selector: 'node[type="course"].selected',
+    style: {
+      'background-color': '#dbeafe',  // Light blue background
+      'border-color': '#3b82f6',      // Blue border
+      'color': '#1e40af'              // Blue text
+    }
+  },
+  // Selected completed course styling for major graphs
+  {
+    selector: 'node[type="course"][completed].selected',
+    style: {
+      'background-color': '#bbf7d0',  // Slightly darker green background for selected completed courses
+      'border-color': '#16a34a'       // Darker green border
+    }
+  },
   {
     selector: 'node[type="section-header"]',
     style: {
@@ -155,13 +295,74 @@ export const majorGraphStyles: any[] = [
     }
   },
   {
+    selector: 'node[type="section"]',
+    style: {
+      'shape': 'rectangle',
+      'background-color': 'data(backgroundColor)',
+      'border-color': 'data(borderColor)',
+      'border-width': 3,
+      'label': 'data(label)',
+      'text-valign': 'top',
+      'text-halign': 'center',
+      'font-size': '100px',
+      'font-weight': 'bold',
+      'padding': '8px', // Reduced from 15px
+      'text-margin-y': -8
+    }
+  },
+  {
+    selector: 'node[type="group"]',
+    style: {
+      'shape': 'diamond', // Use diamond for prerequisite groups
+      'width': 80,  // Increased from 60 to accommodate longer labels
+      'height': 80, // Increased from 60 to accommodate longer labels
+      'label': 'data(label)',
+      'text-valign': 'center',
+      'text-halign': 'center',
+      'text-wrap': 'wrap',
+      'text-max-width': '120px',  // Increased from 50px to accommodate longer labels
+      'background-color': 'data(backgroundColor)',
+      'border-color': 'data(borderColor)',
+      'border-width': 2
+    }
+  },
+  // Group color styling for major graphs
+  {
+    selector: 'node[type="group"][groupColor="enforced"]',
+    style: {
+      'background-color': '#fecaca',  // Pink background
+      'border-color': 'red',
+      'border-width': 2
+    }
+  },
+  {
+    selector: 'node[type="group"][groupColor="warning"]',
+    style: {
+      'background-color': '#fef3c7',  // Light yellow background
+      'border-color': 'orange',
+      'border-width': 2
+    }
+  },
+  {
+    selector: 'node[type="group"][groupColor="recommended"]',
+    style: {
+      'background-color': '#fef3c7',  // Light yellow background
+      'border-color': 'orange',
+      'border-width': 2,
+      'border-style': 'dashed'
+    }
+  },
+  {
     selector: ':parent',
     style: {
-      'background-opacity': 0.1,
-      'background-color': '#e5e7eb',
+      'font-size': '50px',
+      "text-max-width": '500px',
+      'background-opacity': 0.3,
       'border-width': 2,
-      'border-color': '#9ca3af',
-      'border-style': 'dashed'
+      'border-style': 'solid',
+      'text-valign': 'top',
+      'text-halign': 'center',
+      'font-weight': 'bold'
     }
   }
 ];
