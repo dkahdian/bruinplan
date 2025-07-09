@@ -2,7 +2,7 @@
 // This service creates and manages HTML tooltips that appear on hover/click events
 
 import type { Course, RequisiteGroup } from '../../types.js';
-import type { GraphNode } from '../prerequisiteGraph.js';
+import type { GraphNode } from '../graph/types.js';
 
 // Configuration for tooltip behavior
 export interface TooltipConfig {

@@ -4,7 +4,7 @@
   import dagre from 'cytoscape-dagre';
   import type { Course } from './types.js';
   import { loadCourses } from './services/data/loadCourses.js';
-  import { buildPrerequisiteGraph, handlePrerequisiteClick } from './services/prerequisiteGraph.js';
+  import { buildPrerequisiteGraph, handlePrerequisiteClick } from './services/graph/index.js';
   import { completedCourses, loadCompletedCourses, toggleCourseCompletion } from './services/shared/completionService.js';
   
   // Import components
@@ -117,11 +117,11 @@
       showRecommended,
       showCompletedCourses,
       $completedCourses,
-      (value) => showWarnings = value,
-      (value) => showRecommended = value,
-      (value) => showCompletedCourses = value,
-      (course) => selectedCourse = course,
-      (value) => isTransitioning = value
+      (value: boolean) => showWarnings = value,
+      (value: boolean) => showRecommended = value,
+      (value: boolean) => showCompletedCourses = value,
+      (course: Course | null) => selectedCourse = course,
+      (value: boolean) => isTransitioning = value
     );
   }
 
