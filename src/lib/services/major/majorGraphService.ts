@@ -15,6 +15,7 @@ interface MajorGraphOptions extends Partial<GraphBuildOptions> {
 	groupSectionsByColor?: boolean;
 	showSectionHeaders?: boolean;
 	layoutBySections?: boolean;
+	compoundNodeState?: Map<string, boolean>;
 }
 
 /**
@@ -26,7 +27,7 @@ interface MajorGraphOptions extends Partial<GraphBuildOptions> {
 export async function buildMajorGraph(
 	major: Major, 
 	options: MajorGraphOptions = {}
-): Promise<GraphBuildResult> {
+): Promise<GraphBuildResult & { parentChildMap: Map<string, string[]> }> {
 	console.log('buildMajorGraph called with major:', major.name);
 	
 	const {
@@ -36,7 +37,8 @@ export async function buildMajorGraph(
 		showCompletedCourses = true,
 		groupSectionsByColor = true,
 		showSectionHeaders = true,
-		layoutBySections = true
+		layoutBySections = true,
+		compoundNodeState = new Map()
 	} = options;
 
 	console.log('Loading courses...');
@@ -50,10 +52,16 @@ export async function buildMajorGraph(
 	const nodes: GraphNode[] = [];
 	const edges: GraphEdge[] = [];
 	const sectionColors = generateSectionColors(major.sections.length);
+	
+	// Track parent-child relationships
+	const parentChildMap = new Map<string, string[]>();
 
 	// Track unique courses to avoid duplicates
 	const seenCourses = new Set<string>();
 	let nodeCounter = 0;
+	
+	// We'll calculate prerequisites dynamically based on which courses are actually visible
+	// No more global prerequisite calculation
 
 	console.log('Processing', major.sections.length, 'sections');
 
@@ -62,15 +70,17 @@ export async function buildMajorGraph(
 		console.log(`Processing section ${sectionIndex}: ${section.title}`);
 		const sectionColor = sectionColors[sectionIndex];
 		const sectionId = `section-${section.id}`;
+		const isOpen = compoundNodeState.get(sectionId) ?? true;
 		
-		// Create compound node for the section
+		// Create compound node for the section with expand/collapse indicator
 		const sectionNode: GraphNode = {
 			data: {
 				id: sectionId,
 				type: 'section',
-				label: section.title,
+				label: isOpen ? `▼ ${section.title}` : `▶ ${section.title}`,
 				sectionId: section.id,
-				backgroundColor: sectionColor + '20', // Add transparency
+				isOpen,
+				backgroundColor: `rgba(${hexToRgb(sectionColor)}, 0.2)`,
 				borderColor: sectionColor
 			}
 		};
@@ -85,7 +95,10 @@ export async function buildMajorGraph(
 			userCompletedCourses,
 			showCompletedCourses,
 			seenCourses,
-			nodeCounter
+			nodeCounter,
+			isOpen,
+			compoundNodeState,
+			parentChildMap
 		);
 
 		nodes.push(...sectionNodes.nodes);
@@ -95,11 +108,26 @@ export async function buildMajorGraph(
 
 	console.log('Graph building complete. Total nodes:', nodes.length, 'Total edges:', edges.length);
 	
+	// Add prerequisite courses from closed sections if they're needed by visible courses
+	console.log('Adding required prerequisite courses...');
+	console.log('Compound node state:', Object.fromEntries(compoundNodeState));
+	const prerequisiteNodes = addRequiredPrerequisiteCourses(
+		nodes, 
+		major,
+		courseMap, 
+		compoundNodeState,
+		userCompletedCourses,
+		showCompletedCourses,
+		seenCourses
+	);
+	nodes.push(...prerequisiteNodes);
+	
 	// Add prerequisite edges between courses in the major
 	console.log('Adding prerequisite edges...');
 	const prerequisiteEdges = addPrerequisiteEdges(nodes, courseMap, userCompletedCourses, {
 		showWarnings,
-		showRecommended
+		showRecommended,
+		showCompletedCourses
 	});
 	edges.push(...prerequisiteEdges);
 	
@@ -107,7 +135,8 @@ export async function buildMajorGraph(
 	
 	return {
 		nodes,
-		edges
+		edges,
+		parentChildMap
 	};
 }
 
@@ -122,7 +151,10 @@ function processSectionRequirements(
 	userCompletedCourses: Set<string>,
 	showCompletedCourses: boolean,
 	seenCourses: Set<string>,
-	startNodeCounter: number
+	startNodeCounter: number,
+	isOpen: boolean,
+	compoundNodeState: Map<string, boolean>,
+	parentChildMap: Map<string, string[]>
 ): { nodes: GraphNode[], edges: GraphEdge[], nodeCounter: number } {
 	const nodes: GraphNode[] = [];
 	const edges: GraphEdge[] = [];
@@ -141,6 +173,16 @@ function processSectionRequirements(
 			if (seenCourses.has(courseId)) {
 				return;
 			}
+			
+			// Always show courses when the section is open
+			// When section is closed, we'll determine later if this course should be shown
+			// based on whether it's needed as a prerequisite for visible courses
+			if (!isOpen) {
+				// For now, don't show courses when section is closed
+				// The prerequisite logic will add them back if needed
+				return;
+			}
+			
 			seenCourses.add(courseId);
 
 			const course = courseMap.get(courseId);
@@ -198,10 +240,19 @@ function processSectionRequirements(
 			// Create a compound group node
 			const groupId = `group-${nodeCounter++}`;
 			
+			// Check if this group should be open or closed
+			// If not already in state, determine default state
+			let isOpen = compoundNodeState.get(groupId);
+			if (isOpen === undefined) {
+				isOpen = !shouldGroupBeClosedByDefault(requirement);
+				compoundNodeState.set(groupId, isOpen);
+			}
+			
 			// Create label: use title if available, otherwise just the count
-			const groupLabel = requirement.title 
+			const baseLabel = requirement.title 
 				? `${requirement.title}: Select ${requirement.needs}`
 				: `Select ${requirement.needs}`;
+			const groupLabel = isOpen ? `▼ ${baseLabel}` : `▶ ${baseLabel}`;
 			
 			const groupNode: GraphNode = {
 				data: {
@@ -210,18 +261,29 @@ function processSectionRequirements(
 					label: groupLabel,
 					options: requirement.options,
 					sectionId: section.id,
+					isOpen,
+					isCompoundGroup: true, // Flag to maintain rectangle shape when collapsed
 					parent: parentNodeId, // Set parent for compound structure
-					backgroundColor: sectionColor + '10', // Light background
+					backgroundColor: `rgba(${hexToRgb(sectionColor)}, 0.1)`,
 					borderColor: sectionColor
 				}
 			};
 
 			nodes.push(groupNode);
+			
+			// Track parent-child relationship
+			if (!parentChildMap.has(parentNodeId)) {
+				parentChildMap.set(parentNodeId, []);
+			}
+			parentChildMap.get(parentNodeId)!.push(groupId);
 
-			// Process group options with the group as parent
-			requirement.options.forEach((option, optionIndex) => {
-				processRequirement(option, groupId, depth + 1, optionIndex);
-			});
+			// Only process group options if the group is open
+			if (isOpen) {
+				// Process group options with the group as parent
+				requirement.options.forEach((option, optionIndex) => {
+					processRequirement(option, groupId, depth + 1, optionIndex);
+				});
+			}
 		}
 	}
 
@@ -317,7 +379,7 @@ function addPrerequisiteEdges(
 	nodes: GraphNode[],
 	courseMap: Map<string, any>,
 	userCompletedCourses: Set<string>,
-	options: { showWarnings: boolean, showRecommended: boolean } = { showWarnings: true, showRecommended: true }
+	options: { showWarnings: boolean, showRecommended: boolean, showCompletedCourses: boolean } = { showWarnings: true, showRecommended: true, showCompletedCourses: true }
 ): GraphEdge[] {
 	const edges: GraphEdge[] = [];
 	const additionalNodes: GraphNode[] = [];
@@ -358,6 +420,9 @@ function addPrerequisiteEdges(
 				targetCourseParent, // Pass the target course's parent
 				majorCourseIds,
 				userCompletedCourses,
+				courseMap,
+				courseToParentMap,
+				options.showCompletedCourses,
 				groupCounter,
 				options.showWarnings,
 				options.showRecommended
@@ -385,6 +450,9 @@ function processRequisiteForEdges(
 	targetCourseParent: string | undefined, // Parent compound node of the target course
 	majorCourseIds: Set<string>,
 	userCompletedCourses: Set<string>,
+	courseMap: Map<string, any>,
+	courseToParentMap: Map<string, string>,
+	showCompletedCourses: boolean,
 	startGroupCounter: number,
 	showWarnings: boolean = true,
 	showRecommended: boolean = true
@@ -400,86 +468,542 @@ function processRequisiteForEdges(
 						  (showRecommended && requisite.level === 'Recommended');
 		
 		if (shouldShow && majorCourseIds.has(requisite.course)) {
-			const isCompleted = getCompletedCourseSource(requisite.course) !== null;
-			const edgeType: 'enforced' | 'warning' | 'recommended' = 
-				requisite.level === 'Enforced' ? 'enforced' : 
-				requisite.level === 'Warning' ? 'warning' : 'recommended';
+			// Check if this would be a cross-category edge with a completed course
+			const sourceParent = courseToParentMap.get(requisite.course);
+			const targetParent = courseToParentMap.get(targetCourseId);
+			const shouldHide = sourceParent && targetParent && sourceParent !== targetParent && 
+							  (userCompletedCourses.has(requisite.course) || userCompletedCourses.has(targetCourseId));
 			
-			edges.push({
-				data: {
-					id: `${requisite.course}-${targetCourseId}`,
-					source: requisite.course,
-					target: targetCourseId,
-					type: edgeType
-					// Remove fromCompleted to let the base edge color show through
-				}
-			});
+			if (!shouldHide) {
+				const edgeType: 'enforced' | 'warning' | 'recommended' = 
+					requisite.level === 'Enforced' ? 'enforced' : 
+					requisite.level === 'Warning' ? 'warning' : 'recommended';
+				
+				edges.push({
+					data: {
+						id: `${requisite.course}-${targetCourseId}`,
+						source: requisite.course,
+						target: targetCourseId,
+						type: edgeType
+					}
+				});
+			} else {
+				console.log(`Hiding cross-category edge: ${requisite.course} -> ${targetCourseId}`);
+			}
 		}
 	} else if (requisite.type === 'Group') {
-		// Handle prerequisite groups - create diamond nodes
+		// Handle prerequisite groups using sophisticated satisfaction logic from prerequisite graph
 		const validOptions = requisite.options?.filter((option: any) => {
-			const shouldShow = option.type === 'Requisite' && (
-				option.level === 'Enforced' || 
-				(showWarnings && option.level === 'Warning') ||
-				(showRecommended && option.type === 'Recommended')
-			);
-			return shouldShow && majorCourseIds.has(option.course);
+			if (option.type === 'Group') return false; // Skip nested groups for now
+			
+			const isValidOption = (option.type === 'Requisite' && 
+				(option.level === 'Enforced' || (showWarnings && option.level === 'Warning'))) ||
+				(showRecommended && option.type === 'Recommended');
+				
+			if (!isValidOption || !majorCourseIds.has(option.course)) return false;
+			
+			// Filter out cross-category options with completed courses
+			const sourceParent = courseToParentMap.get(option.course);
+			const targetParent = courseToParentMap.get(targetCourseId);
+			const shouldHide = sourceParent && targetParent && sourceParent !== targetParent && 
+							  (userCompletedCourses.has(option.course) || userCompletedCourses.has(targetCourseId));
+			
+			if (shouldHide) {
+				console.log(`Filtering out cross-category group option: ${option.course} -> ${targetCourseId}`);
+				return false;
+			}
+			
+			return true;
 		});
 		
 		if (validOptions && validOptions.length > 0) {
 			const groupId = `prereq-group-${groupCounter++}`;
+			const group = { needs: requisite.needs || 1, options: validOptions };
 			
-			// Determine group color based on the strictest requirement level
-			let groupColor: 'enforced' | 'warning' | 'recommended' = 'recommended';
-			if (validOptions.some((opt: any) => opt.level === 'Enforced')) {
-				groupColor = 'enforced';
-			} else if (validOptions.some((opt: any) => opt.level === 'Warning')) {
-				groupColor = 'warning';
+			// Check for completed courses and equivalent handling
+			const actuallyCompletedCourses: any[] = [];
+			
+			validOptions.forEach((option: any) => {
+				if (userCompletedCourses.has(option.course)) {
+					actuallyCompletedCourses.push(option);
+				}
+			});
+
+			// Check if group contains equivalent courses
+			let hasEquivalentCourses = false;
+			if (actuallyCompletedCourses.length > 0) {
+				for (let i = 0; i < validOptions.length && !hasEquivalentCourses; i++) {
+					const courseA = courseMap.get(validOptions[i].course);
+					if (courseA?.equivalentCourses) {
+						for (let j = i + 1; j < validOptions.length; j++) {
+							if (courseA.equivalentCourses.includes(validOptions[j].course)) {
+								hasEquivalentCourses = true;
+								break;
+							}
+						}
+					}
+				}
 			}
+
+			const remainingNeeds = Math.max(0, group.needs - actuallyCompletedCourses.length);
+
+			// If group contains equivalent courses, handle specially
+			if (hasEquivalentCourses && actuallyCompletedCourses.length > 0) {
+				if (remainingNeeds === 0) {
+					// Group fully satisfied, no diamond needed
+					// Connect completed courses directly to target if showCompletedCourses
+					if (showCompletedCourses) {
+						actuallyCompletedCourses.forEach(option => {
+							const edgeType: 'enforced' | 'warning' | 'recommended' = 
+								option.type === 'Recommended' ? 'recommended' :
+								option.level === 'Enforced' ? 'enforced' : 'warning';
+							
+							edges.push({
+								data: {
+									id: `${option.course}-${targetCourseId}`,
+									source: option.course,
+									target: targetCourseId,
+									type: edgeType,
+									fromCompleted: true
+								}
+							});
+						});
+					}
+					return { edges, nodes, groupCounter };
+				} else {
+					// Group partially satisfied, show incomplete non-equivalent courses
+					const incompleteCourses: any[] = [];
+					
+					validOptions.forEach((option: any) => {
+						if (userCompletedCourses.has(option.course)) return;
+						
+						// Check if this course is equivalent to any completed course
+						let isEquivalentToCompleted = false;
+						for (const completedOption of actuallyCompletedCourses) {
+							const completedCourse = courseMap.get(completedOption.course);
+							if (completedCourse?.equivalentCourses?.includes(option.course)) {
+								isEquivalentToCompleted = true;
+								break;
+							}
+							const optionCourse = courseMap.get(option.course);
+							if (optionCourse?.equivalentCourses?.includes(completedOption.course)) {
+								isEquivalentToCompleted = true;
+								break;
+							}
+						}
+						
+						if (!isEquivalentToCompleted) {
+							incompleteCourses.push(option);
+						}
+					});
+
+					if (incompleteCourses.length === 0) {
+						return { edges, nodes, groupCounter };
+					}
+
+					// Determine group color based on incomplete courses
+					let groupColor: 'enforced' | 'warning' | 'recommended' = 'recommended';
+					for (const option of incompleteCourses) {
+						if (option.type === 'Requisite') {
+							if (option.level === 'Enforced') {
+								groupColor = 'enforced';
+								break;
+							} else if (option.level === 'Warning' && showWarnings) {
+								groupColor = 'warning';
+							}
+						}
+					}
+
+					// Create group node for remaining requirements
+					const groupNode: GraphNode = {
+						data: {
+							id: groupId,
+							type: 'group',
+							label: `Needs: ${remainingNeeds}`,
+							groupColor: groupColor,
+							options: incompleteCourses,
+							isCompoundGroup: false,
+							parent: targetCourseParent
+						}
+					};
+					nodes.push(groupNode);
+
+					// Connect group to target course
+					edges.push({
+						data: {
+							id: `${groupId}-${targetCourseId}`,
+							source: groupId,
+							target: targetCourseId,
+							type: groupColor
+						}
+					});
+
+					// Connect incomplete courses to group
+					incompleteCourses.forEach(option => {
+						const edgeType: 'enforced' | 'warning' | 'recommended' = 
+							option.type === 'Recommended' ? 'recommended' :
+							option.level === 'Enforced' ? 'enforced' : 'warning';
+						
+						edges.push({
+							data: {
+								id: `${option.course}-${groupId}`,
+								source: option.course,
+								target: groupId,
+								type: edgeType
+							}
+						});
+					});
+
+					// Connect completed courses directly to target if showCompletedCourses
+					if (showCompletedCourses) {
+						actuallyCompletedCourses.forEach(option => {
+							const edgeType: 'enforced' | 'warning' | 'recommended' = 
+								option.type === 'Recommended' ? 'recommended' :
+								option.level === 'Enforced' ? 'enforced' : 'warning';
+							
+							edges.push({
+								data: {
+									id: `${option.course}-${targetCourseId}`,
+									source: option.course,
+									target: targetCourseId,
+									type: edgeType,
+									fromCompleted: true
+								}
+							});
+						});
+					}
+
+					return { edges, nodes, groupCounter };
+				}
+			}
+
+			// Normal group processing (no equivalent courses or no completed courses)
+			const completedCourses: any[] = [];
+			const incompleteCourses: any[] = [];
 			
-			// Create group node with same parent as target course
+			validOptions.forEach((option: any) => {
+				if (userCompletedCourses.has(option.course)) {
+					completedCourses.push(option);
+				} else {
+					incompleteCourses.push(option);
+				}
+			});
+
+			const finalRemainingNeeds = Math.max(0, group.needs - completedCourses.length);
+			
+			if (finalRemainingNeeds === 0) {
+				// Group fully satisfied, connect completed courses directly
+				if (showCompletedCourses) {
+					completedCourses.forEach(option => {
+						const edgeType: 'enforced' | 'warning' | 'recommended' = 
+							option.type === 'Recommended' ? 'recommended' :
+							option.level === 'Enforced' ? 'enforced' : 'warning';
+						
+						edges.push({
+							data: {
+								id: `${option.course}-${targetCourseId}`,
+								source: option.course,
+								target: targetCourseId,
+								type: edgeType,
+								fromCompleted: true
+							}
+						});
+					});
+				}
+				return { edges, nodes, groupCounter };
+			}
+
+			// Group not fully satisfied, create diamond group
+			const allCoursesToShow = showCompletedCourses ? 
+				[...completedCourses, ...incompleteCourses] : 
+				incompleteCourses;
+			
+			if (allCoursesToShow.length === 0) {
+				return { edges, nodes, groupCounter };
+			}
+
+			// Determine group color based on incomplete courses
+			let groupColor: 'enforced' | 'warning' | 'recommended' = 'recommended';
+			for (const option of incompleteCourses) {
+				if (option.type === 'Requisite') {
+					if (option.level === 'Enforced') {
+						groupColor = 'enforced';
+						break;
+					} else if (option.level === 'Warning' && showWarnings) {
+						groupColor = 'warning';
+					}
+				}
+			}
+
+			// Create group node
 			const groupNode: GraphNode = {
 				data: {
 					id: groupId,
 					type: 'group',
-					label: `Choose ${requisite.needs || 1}`,
+					label: `Needs: ${finalRemainingNeeds}`,
 					groupColor: groupColor,
 					options: validOptions,
-					parent: targetCourseParent // Set same parent as target course
+					isCompoundGroup: false,
+					parent: targetCourseParent
 				}
 			};
 			nodes.push(groupNode);
-			
+
 			// Connect group to target course
-			const edgeType: 'enforced' | 'warning' | 'recommended' = groupColor;
 			edges.push({
 				data: {
 					id: `${groupId}-${targetCourseId}`,
 					source: groupId,
 					target: targetCourseId,
-					type: edgeType
+					type: groupColor
 				}
 			});
-			
-			// Connect each option to the group
-			validOptions.forEach((option: any) => {
-				const isCompleted = getCompletedCourseSource(option.course) !== null;
-				const optionEdgeType: 'enforced' | 'warning' | 'recommended' = 
-					option.level === 'Enforced' ? 'enforced' : 
-					option.level === 'Warning' ? 'warning' : 'recommended';
+
+			// Connect incomplete courses to group
+			incompleteCourses.forEach(option => {
+				const edgeType: 'enforced' | 'warning' | 'recommended' = 
+					option.type === 'Recommended' ? 'recommended' :
+					option.level === 'Enforced' ? 'enforced' : 'warning';
 				
 				edges.push({
 					data: {
 						id: `${option.course}-${groupId}`,
 						source: option.course,
 						target: groupId,
-						type: optionEdgeType
-						// Remove fromCompleted to let the base edge color show through
+						type: edgeType
 					}
 				});
 			});
+
+			// Connect completed courses to group if showCompletedCourses
+			if (showCompletedCourses) {
+				completedCourses.forEach(option => {
+					const edgeType: 'enforced' | 'warning' | 'recommended' = 
+						option.type === 'Recommended' ? 'recommended' :
+						option.level === 'Enforced' ? 'enforced' : 'warning';
+					
+					edges.push({
+						data: {
+							id: `${option.course}-${groupId}`,
+							source: option.course,
+							target: groupId,
+							type: edgeType,
+							fromCompleted: true
+						}
+					});
+				});
+			}
 		}
 	}
 	
 	return { edges, nodes, groupCounter };
+}
+
+/**
+ * Collect all course IDs from a major section
+ */
+function collectCoursesFromSection(section: MajorSection, courseSet: Set<string>): void {
+	function collectFromRequirement(requirement: MajorRequirement): void {
+		if (requirement.type === 'course') {
+			courseSet.add(requirement.courseId);
+		} else if (requirement.type === 'group') {
+			requirement.options.forEach(option => collectFromRequirement(option));
+		}
+	}
+	
+	section.requirements.forEach(requirement => collectFromRequirement(requirement));
+}
+
+/**
+ * Collect prerequisite course IDs from course requirements (recursive - gets entire dependency chain)
+ */
+function collectPrerequisiteCourses(requisites: any[], courseSet: Set<string>): void {
+	function collectFromRequisite(requisite: any): void {
+		if (requisite.type === 'Group') {
+			requisite.options.forEach((option: any) => collectFromRequisite(option));
+		} else if (requisite.course) {
+			courseSet.add(requisite.course);
+		}
+	}
+	
+	requisites.forEach(requisite => collectFromRequisite(requisite));
+}
+
+/**
+ * Add prerequisite courses from closed sections if they're needed by visible courses
+ */
+function addRequiredPrerequisiteCourses(
+	currentNodes: GraphNode[],
+	major: Major,
+	courseMap: Map<string, any>,
+	compoundNodeState: Map<string, boolean>,
+	userCompletedCourses: Set<string>,
+	showCompletedCourses: boolean,
+	seenCourses: Set<string>
+): GraphNode[] {
+	console.log('Finding prerequisites for visible courses...');
+	
+	// Get all currently visible course nodes
+	const visibleCourses = currentNodes
+		.filter(node => node.data.type === 'course')
+		.map(node => node.data.id);
+	
+	console.log('Visible courses:', visibleCourses);
+	
+	// Collect immediate prerequisites for all visible courses
+	const requiredPrerequisites = new Set<string>();
+	
+	for (const courseId of visibleCourses) {
+		const course = courseMap.get(courseId);
+		if (course && course.requisites) {
+			collectImmediatePrerequisiteCourses(course.requisites, requiredPrerequisites);
+		}
+	}
+	
+	console.log('Required prerequisites:', Array.from(requiredPrerequisites));
+	
+	// Find which prerequisites are not already visible
+	const missingPrerequisites = Array.from(requiredPrerequisites)
+		.filter(prereqId => !seenCourses.has(prereqId));
+	
+	console.log('Missing prerequisites that need to be added:', missingPrerequisites);
+	
+	// Create nodes for missing prerequisites
+	const prerequisiteNodes: GraphNode[] = [];
+	
+	for (const prereqId of missingPrerequisites) {
+		const course = courseMap.get(prereqId);
+		if (!course) {
+			console.warn(`Course ${prereqId} not found in course map`);
+			continue;
+		}
+		
+		// Check if we should show this course based on completion status
+		if (!shouldShowCourse(prereqId, showCompletedCourses, (id) => getCompletedCourseSource(id) !== null)) {
+			continue;
+		}
+		
+		// Find which section this course belongs to
+		const parentSection = findCourseSection(major, prereqId);
+		if (!parentSection) {
+			console.warn(`Could not find section for course ${prereqId}`);
+			continue;
+		}
+		
+		const sectionId = `section-${parentSection.id}`;
+		const isCompleted = getCompletedCourseSource(prereqId) !== null;
+		
+		// Enhancement: When showCompletedCourses is true, don't show completed prerequisites 
+		// from collapsed sections as "critical" - they're not actionable
+		if (showCompletedCourses && isCompleted) {
+			const isSectionClosed = compoundNodeState.get(sectionId) === false;
+			if (isSectionClosed) {
+				console.log(`Skipping completed prerequisite ${prereqId} from closed section ${parentSection.id}`);
+				continue;
+			}
+		}
+		
+		// Create the prerequisite course node
+		const prereqNode: GraphNode = {
+			data: {
+				id: prereqId,
+				type: 'course',
+				label: prereqId,
+				course: course,
+				sectionId: parentSection.id,
+				parent: sectionId // Attach to the section even if it's closed
+			}
+		};
+		
+		// Only set completed attribute if the course is actually completed
+		if (isCompleted) {
+			prereqNode.data.completed = true;
+		}
+		
+		prerequisiteNodes.push(prereqNode);
+		seenCourses.add(prereqId);
+	}
+	
+	console.log(`Added ${prerequisiteNodes.length} prerequisite nodes`);
+	return prerequisiteNodes;
+}
+
+/**
+ * Find which section a course belongs to in the major
+ */
+function findCourseSection(major: Major, courseId: string): MajorSection | null {
+	for (const section of major.sections) {
+		if (doesSectionContainCourse(section.requirements, courseId)) {
+			return section;
+		}
+	}
+	return null;
+}
+
+/**
+ * Check if a section's requirements contain a specific course
+ */
+function doesSectionContainCourse(requirements: MajorRequirement[], courseId: string): boolean {
+	for (const req of requirements) {
+		if (req.type === 'course' && req.courseId === courseId) {
+			return true;
+		} else if (req.type === 'group') {
+			if (doesSectionContainCourse(req.options, courseId)) {
+				return true;
+			}
+		}
+	}
+	return false;
+}
+
+/**
+ * Collect IMMEDIATE prerequisite course IDs only (non-recursive)
+ */
+function collectImmediatePrerequisiteCourses(requisites: any[], courseSet: Set<string>): void {
+	function collectFromRequisite(requisite: any): void {
+		if (requisite.type === 'Group') {
+			requisite.options.forEach((option: any) => collectFromRequisite(option));
+		} else if (requisite.course) {
+			courseSet.add(requisite.course);
+			// Do NOT recursively collect prerequisites of this course
+		}
+	}
+	
+	requisites.forEach(requisite => collectFromRequisite(requisite));
+}
+
+/**
+ * Helper function to convert hex color to RGB values
+ * @param hex - Hex color string (e.g., "#3b82f6")
+ * @returns RGB values as string (e.g., "59, 130, 246")
+ */
+function hexToRgb(hex: string): string {
+	const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+	if (!result) {
+		return '0, 0, 0'; // Default to black if parsing fails
+	}
+	
+	const r = parseInt(result[1], 16);
+	const g = parseInt(result[2], 16);
+	const b = parseInt(result[3], 16);
+	
+	return `${r}, ${g}, ${b}`;
+}
+
+/**
+ * Determines if a group should be closed by default
+ */
+function shouldGroupBeClosedByDefault(group: any): boolean {
+	// Close groups with many options (more than 8 items) by default
+	if (group.options && group.options.length > 8) {
+		return true;
+	}
+	
+	// Close groups with "elective" in the title (case insensitive)
+	if (group.title && group.title.toLowerCase().includes('elective')) {
+		return true;
+	}
+	
+	// Keep other groups open by default
+	return false;
 }

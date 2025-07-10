@@ -9,7 +9,6 @@ export interface LegendState {
 }
 
 const STORAGE_KEY = 'bruinplan-legend-state';
-
 // Default legend state
 const DEFAULT_STATE: LegendState = {
   isExpanded: true,
@@ -35,8 +34,6 @@ export function loadLegendState(): LegendState {
     }
 
     const parsed = JSON.parse(stored);
-    
-    // Validate the stored state has all required properties
     if (
       typeof parsed.isExpanded === 'boolean' &&
       typeof parsed.showWarnings === 'boolean' &&

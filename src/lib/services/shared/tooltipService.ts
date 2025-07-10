@@ -3,6 +3,7 @@
 
 import type { Course, RequisiteGroup } from '../../types.js';
 import type { GraphNode } from '../graph/types.js';
+import { markCourseCompleted, markCourseIncomplete, getCompletedCourseSource } from './completionService.js';
 
 // Configuration for tooltip behavior
 export interface TooltipConfig {
@@ -12,6 +13,7 @@ export interface TooltipConfig {
   showDelay?: number; // Delay before showing tooltip (ms)
   maxWidth?: string; // Max width in Tailwind classes
   position?: 'top' | 'bottom' | 'left' | 'right';
+  onCourseCompletionToggle?: (courseId: string) => void; // Callback for completion toggle
 }
 
 // Default tooltip configuration
@@ -32,10 +34,42 @@ export class TooltipManager {
   private config: TooltipConfig;
   private container: HTMLElement;
   private isDisabled: boolean = false; // New property to disable tooltips
+  private completionToggleHandler: (courseId: string) => void;
 
   constructor(container: HTMLElement, config: Partial<TooltipConfig> = {}) {
     this.container = container;
     this.config = { ...defaultConfig, ...config };
+    
+    // Set up the completion toggle handler
+    this.completionToggleHandler = config.onCourseCompletionToggle || this.defaultToggleHandler.bind(this);
+  }
+
+  /**
+   * Default completion toggle handler that updates the store and refreshes tooltips
+   */
+  private defaultToggleHandler(courseId: string): void {
+    const completionSource = getCompletedCourseSource(courseId);
+    const isCompleted = completionSource !== null;
+    
+    if (isCompleted) {
+      markCourseIncomplete(courseId);
+    } else {
+      markCourseCompleted(courseId);
+    }
+    
+    // Don't hide tooltip immediately - let the parent component handle the update
+    // The graph will rebuild reactively due to store changes
+  }
+
+  /**
+   * Public method to handle course completion toggle from global function
+   */
+  handleCourseToggle(courseId: string): void {
+    // Don't call the completion handler since the global function already updated the state
+    // Just trigger the callback for any additional logic (like graph updates)
+    if (this.config.onCourseCompletionToggle) {
+      this.config.onCourseCompletionToggle(courseId);
+    }
   }
 
   /**
@@ -239,11 +273,48 @@ export class TooltipManager {
          </div>`
       : '';
 
+    // Check if course is completed
+    const completionSource = getCompletedCourseSource(course.id);
+    const isCompleted = completionSource !== null;
+    const completedViaEquivalent = completionSource && completionSource !== course.id;
+
+    // Build completion status text
+    let completionStatusHtml = '';
+    if (isCompleted) {
+      if (completedViaEquivalent) {
+        completionStatusHtml = `<span class="text-xs text-green-600">✓ Completed via ${completionSource}</span>`;
+      } else {
+        completionStatusHtml = `<span class="text-xs text-green-600">✓ Completed</span>`;
+      }
+    }
+
     return `
       <div class="space-y-2">
         <div>
-          <h3 class="font-bold text-lg text-gray-900 leading-tight">${course.id}</h3>
-          <p class="text-gray-700 font-medium">${course.title}</p>
+          <div class="flex items-center justify-between">
+            <div class="flex-1">
+              <h3 class="font-bold text-lg text-gray-900 leading-tight">${course.id}</h3>
+              <p class="text-gray-700 font-medium">${course.title}</p>
+            </div>
+            <div class="ml-3 flex items-center gap-2">
+              <span class="text-xs text-gray-600">I've taken this:</span>
+              <button
+                onclick="window.toggleCourseCompletion('${course.id}')"
+                class="relative inline-flex h-4 w-7 items-center rounded-full ${
+                  isCompleted 
+                    ? 'bg-green-500' 
+                    : 'bg-gray-300'
+                } transition-colors"
+                type="button"
+                aria-label="Toggle course completion"
+              >
+                <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform ${
+                  isCompleted ? 'translate-x-3.5' : 'translate-x-0.5'
+                }"></span>
+              </button>
+            </div>
+          </div>
+          ${completionStatusHtml ? `<div class="mt-1">${completionStatusHtml}</div>` : ''}
         </div>
         
         <div class="flex items-center space-x-2">
@@ -417,6 +488,11 @@ export function addTooltipsToCytoscape(
 ): TooltipManager {
   const tooltipManager = new TooltipManager(container, config);
 
+  // Set global reference for tooltip toggle handling
+  if (typeof window !== 'undefined') {
+    window.currentTooltipManager = tooltipManager;
+  }
+
   // Course node events
   if (config.showOnHover !== false) {
     cy.on('mouseover', 'node[type="course"]', (event) => {
@@ -435,44 +511,21 @@ export function addTooltipsToCytoscape(
     });
   }
 
-  // Group node events
-  if (config.showOnHover !== false) {
-    cy.on('mouseover', 'node[type="group"]', (event) => {
-      const node = event.target;
-      const groupData = {
-        label: node.data('label'),
-        groupColor: node.data('groupColor'),
-        options: node.data('options') // Pass group options if available
-      };
-      const position = node.renderedPosition();
-      
-      tooltipManager.showGroupTooltipDelayed(groupData, position);
-    });
+  // Group node events - DISABLED to prevent undefined tooltips
+  // No tooltip events for group nodes since they show "undefined":"undefined"
+  
+  // Section node events - DISABLED to prevent undefined tooltips  
+  // No tooltip events for section nodes since they show "undefined":"undefined"
 
-    cy.on('mouseout', 'node[type="group"]', () => {
-      tooltipManager.cancelShowDelay();
-      tooltipManager.hideTooltipDelayed();
-    });
-  }
-
-  // Click events (if enabled)
+  // Click events (if enabled) - Only for course nodes
   if (config.showOnClick) {
-    cy.on('tap', 'node', (event) => {
+    cy.on('tap', 'node[type="course"]', (event) => {
       const node = event.target;
       const position = node.renderedPosition();
+      const course = node.data('course');
       
-      if (node.data('type') === 'course') {
-        const course = node.data('course');
-        if (course) {
-          tooltipManager.showCourseTooltip(course, position);
-        }
-      } else if (node.data('type') === 'group') {
-        const groupData = {
-          label: node.data('label'),
-          groupColor: node.data('groupColor'),
-          options: node.data('options')
-        };
-        tooltipManager.showGroupTooltip(groupData, position);
+      if (course) {
+        tooltipManager.showCourseTooltip(course, position);
       }
     });
 
@@ -485,4 +538,65 @@ export function addTooltipsToCytoscape(
   }
 
   return tooltipManager;
+}
+
+// Global function to handle course completion toggle from tooltips
+declare global {
+  interface Window {
+    toggleCourseCompletion: (courseId: string) => void;
+    currentTooltipManager?: TooltipManager;
+  }
+}
+
+// Set up the global function
+if (typeof window !== 'undefined') {
+  window.toggleCourseCompletion = function(courseId: string) {
+    // Update completion state
+    const completionSource = getCompletedCourseSource(courseId);
+    const isCompleted = completionSource !== null;
+    
+    if (isCompleted) {
+      markCourseIncomplete(courseId);
+    } else {
+      markCourseCompleted(courseId);
+    }
+    
+    // Immediately update the switch appearance in the current tooltip
+    const switchElement = document.querySelector(`button[onclick="window.toggleCourseCompletion('${courseId}')"]`);
+    if (switchElement) {
+      const newCompletionState = !isCompleted; // The new state after toggle
+      const toggleCircle = switchElement.querySelector('span');
+      
+      if (newCompletionState) {
+        // Course is now completed
+        switchElement.className = switchElement.className.replace('bg-gray-300', 'bg-green-500');
+        if (toggleCircle) {
+          toggleCircle.className = toggleCircle.className.replace('translate-x-0.5', 'translate-x-3.5');
+        }
+      } else {
+        // Course is now incomplete
+        switchElement.className = switchElement.className.replace('bg-green-500', 'bg-gray-300');
+        if (toggleCircle) {
+          toggleCircle.className = toggleCircle.className.replace('translate-x-3.5', 'translate-x-0.5');
+        }
+      }
+    }
+    
+    // Update completion status text if it exists
+    const completionStatusElement = switchElement?.parentElement?.parentElement?.nextElementSibling;
+    if (completionStatusElement && completionStatusElement.innerHTML.includes('✓ Completed')) {
+      if (!isCompleted) {
+        // Was incomplete, now completed
+        completionStatusElement.innerHTML = '<span class="text-xs text-green-600">✓ Completed</span>';
+      } else {
+        // Was completed, now incomplete
+        completionStatusElement.innerHTML = '';
+      }
+    }
+    
+    // Call the tooltip manager if available (for graph updates)
+    if (window.currentTooltipManager) {
+      window.currentTooltipManager.handleCourseToggle(courseId);
+    }
+  };
 }

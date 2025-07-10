@@ -3,6 +3,7 @@
   import cytoscape from 'cytoscape';
   import dagre from 'cytoscape-dagre';
   import type { Course } from './types.js';
+  import type { GraphNode, GraphEdge } from './services/graph/types.js';
   import { loadCourses } from './services/data/loadCourses.js';
   import { buildPrerequisiteGraph, handlePrerequisiteClick } from './services/graph/index.js';
   import { completedCourses, loadCompletedCourses, toggleCourseCompletion } from './services/shared/completionService.js';
@@ -49,14 +50,28 @@
   // Course details panel state
   let selectedCourse: Course | null = null;
   let isTransitioning = false;
+  
+  // Track previous state to determine update type
+  let previousState = {
+    showWarnings: showWarnings,
+    showRecommended: showRecommended,
+    showCompletedCourses: showCompletedCourses,
+    userCompletedCourses: new Set<string>(),
+    courseId: courseId
+  };
 
   // Graph container reference to access Cytoscape instance
   let graphContainer: GraphContainer;
+
+  // Track current graph data
+  let currentNodes: GraphNode[] = [];
+  let currentEdges: GraphEdge[] = [];
 
   // Computed course for details panel (selected course or main course)
   $: displayedCourse = selectedCourse || courseMap.get(courseId) || null;
 
   // Register dagre layout
+  // @ts-ignore
   cytoscape.use(dagre);
 
   async function initializeCourseData() {
@@ -77,13 +92,71 @@
     showCompletedCourses = savedState.showCompletedCourses;
   }
 
-  // Generate graph data
-  $: ({ nodes, edges } = courses.length > 0 ? buildPrerequisiteGraph(courseId, courses, courseMap, { 
-    showWarnings, 
-    showRecommended,
-    userCompletedCourses,
-    showCompletedCourses
-  }) : { nodes: [], edges: [] });
+  // Smart graph update system - only rebuild when necessary
+  $: {
+    if (courses.length > 0) {
+      const newState = {
+        showWarnings,
+        showRecommended,
+        showCompletedCourses,
+        userCompletedCourses: new Set($completedCourses),
+        courseId
+      };
+
+      // Check if this is just a toggle change vs a more significant change
+      const isToggleOnlyChange = newState.courseId === previousState.courseId && 
+        courses.length > 0 && currentNodes.length > 0;
+
+      if (isToggleOnlyChange) {
+        // Generate new graph data
+        const { nodes: newNodes, edges: newEdges } = buildPrerequisiteGraph(courseId, courses, courseMap, { 
+          showWarnings, 
+          showRecommended,
+          userCompletedCourses: $completedCourses,
+          showCompletedCourses
+        });
+
+        // Update incrementally if possible
+        if (graphContainer && canUpdateIncrementally(newNodes, newEdges)) {
+          graphContainer.updateGraphIncrementally(newNodes, newEdges);
+          currentNodes = newNodes;
+          currentEdges = newEdges;
+        } else {
+          // Fall back to full rebuild
+          currentNodes = newNodes;
+          currentEdges = newEdges;
+        }
+      } else {
+        // Full rebuild for course changes or first load
+        const { nodes: newNodes, edges: newEdges } = buildPrerequisiteGraph(courseId, courses, courseMap, { 
+          showWarnings, 
+          showRecommended,
+          userCompletedCourses: $completedCourses,
+          showCompletedCourses
+        });
+        currentNodes = newNodes;
+        currentEdges = newEdges;
+      }
+
+      previousState = newState;
+    } else {
+      currentNodes = [];
+      currentEdges = [];
+    }
+  }
+
+  // Helper function to determine if incremental update is possible
+  function canUpdateIncrementally(newNodes: GraphNode[], newEdges: GraphEdge[]): boolean {
+    // Only allow incremental updates for toggle-only changes
+    const currentNodeIds = new Set(currentNodes.map(n => n.data.id));
+    const newNodeIds = new Set(newNodes.map(n => n.data.id));
+    
+    // Check if the core structure is similar (same main nodes)
+    const coreNodesSame = currentNodeIds.size > 0 && 
+      Array.from(currentNodeIds).filter(id => newNodeIds.has(id)).length >= currentNodeIds.size * 0.7;
+    
+    return coreNodesSame;
+  }
 
   // Handle course selection from graph
   function handleCourseSelect(course: Course) {
@@ -161,8 +234,8 @@
     <!-- Graph section -->
     <GraphContainer 
       bind:this={graphContainer}
-      {nodes}
-      {edges}
+      nodes={currentNodes}
+      edges={currentEdges}
       {enableTooltips}
       {graphWidthPercent}
       bind:showWarnings
@@ -171,6 +244,12 @@
       userCompletedCourses={$completedCourses}
       onCourseSelect={handleCourseSelect}
       onBackgroundClick={handleBackgroundClick}
+      animationConfig={{
+        enabled: true,
+        duration: 600,
+        easing: 'ease-out',
+        preserveCompletedPositions: true
+      }}
     />
     
     <!-- Resize bar -->

@@ -33,7 +33,10 @@ export function buildPrerequisiteGraph(
     showWarnings = true, 
     showRecommended = true,
     userCompletedCourses = new Set(),
-    showCompletedCourses = true
+    showCompletedCourses = true,
+    enableAnimations = true,
+    animationDuration = 600,
+    animationEasing = 'ease-out'
   } = options;
 
   const nodes: GraphNode[] = [];

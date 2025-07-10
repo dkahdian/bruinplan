@@ -8,5 +8,4 @@ export * from './graphInteractions.js';
 
 // Re-export legacy functions for backward compatibility
 export { buildPrerequisiteGraph } from './graphBuilder.js';
-export { createCytoscapeInstanceLegacy as createCytoscapeInstance } from './cytoscapeConfig.js';
 export { handlePrerequisiteClick } from './graphInteractions.js';
