@@ -3,7 +3,7 @@
 	Provides a searchable dropdown for adding courses to a quarter
 -->
 <script lang="ts">
-	import { createEventDispatcher, onMount } from 'svelte';
+	import { onMount } from 'svelte';
 	import type { Course } from '../../types.js';
 	import { searchCourses } from '../../services/shared/searchService.js';
 
@@ -11,8 +11,7 @@
 	export let placeholder: string = 'Search for courses...';
 	export let buttonText: string = 'Add Course';
 	export let maxResults: number = 10;
-
-	const dispatch = createEventDispatcher();
+	export let onCourseSelected: (course: Course) => void = () => {};
 
 	let isSearchExpanded = false;
 	let searchQuery = '';
@@ -32,7 +31,7 @@
 
 	// Function to handle course selection
 	function selectCourse(selectedCourse: Course) {
-		dispatch('course-selected', selectedCourse);
+		onCourseSelected(selectedCourse);
 		// Close the dropdown and clear search
 		isSearchExpanded = false;
 		searchQuery = '';

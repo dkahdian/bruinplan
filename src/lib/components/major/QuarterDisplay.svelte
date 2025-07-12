@@ -3,34 +3,32 @@
 	Shows a single quarter with its courses and unit information
 -->
 <script lang="ts">
-	import { createEventDispatcher, onMount } from 'svelte';
-	import { formatQuarterCode } from '../../services/shared/schedulingService.js';
-	import { get } from 'svelte/store';
+	import { onMount } from 'svelte';
+	import { formatQuarterCode, schedulingService } from '../../services/shared/schedulingService.js';
 	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import CourseSearchButton from '../shared/CourseSearchButton.svelte';
 	import type { Course } from '../../types.js';
 
 	export let quarterCode: number;
 	export let courses: string[] = [];
-	export let unitLimit: number = 18;
 	export let isLastQuarter: boolean = false;
 	export let canRemove: boolean = true;
 	export let availableCourses: Course[] = [];
+	export let onRemoveQuarter: (quarterCode: number) => void = () => {};
 
-	const dispatch = createEventDispatcher();
+	// Calculate unit limit for this quarter using the scheduling service
+	$: unitLimit = schedulingService.getQuarterLimit(quarterCode);
 
 	// Ensure availableCourses is loaded on mount if not provided
 	onMount(() => {
 		if (!availableCourses || availableCourses.length === 0) {
-			const courseMap = get(courseMapStore);
-			availableCourses = Array.from(courseMap.values());
+			availableCourses = Array.from($courseMapStore.values());
 		}
 	});
 
-	// Calculate total units for this quarter
+	// Calculate total units for this quarter (reactive to courseMapStore changes)
 	$: totalUnits = courses.reduce((sum, courseId) => {
-		const courseMap = get(courseMapStore);
-		const course = courseMap.get(courseId);
+		const course = $courseMapStore.get(courseId);
 		return sum + (course?.units || 0);
 	}, 0);
 
@@ -42,27 +40,36 @@
 
 	function handleRemoveQuarter() {
 		if (canRemove) {
-			dispatch('remove-quarter', quarterCode);
+			onRemoveQuarter(quarterCode);
 		}
 	}
 
 	function handleUnitLimitClick() {
-		// Redirect to units management page
-		dispatch('navigate-to-units');
-	}
-
-	function handleCourseClick(courseId: string) {
-		// For future tooltip implementation
-		dispatch('course-hover', { courseId, show: true });
+		// Open units management page in new tab
+		window.open('/units', '_blank');
 	}
 
 	function handleCourseRemove(courseId: string) {
-		dispatch('remove-course', { quarterCode, courseId });
+		// Unschedule the course (set to 0)
+		schedulingService.scheduleCourse(courseId, 0);
 	}
 
-	function handleCourseAdd(event: CustomEvent<Course>) {
-		const course = event.detail;
-		dispatch('add-course', { quarterCode, courseId: course.id });
+	function handleCourseAdd(course: Course) {
+		// Check if course is already scheduled for any quarter
+		const currentSchedule = schedulingService.getSchedule(course.id);
+		
+		if (currentSchedule && currentSchedule !== 0) {
+			// Course is already scheduled, ask user if they want to move it
+			const currentQuarterName = formatQuarterCode(currentSchedule);
+			const newQuarterName = formatQuarterCode(quarterCode);
+			
+			if (confirm(`${course.id} is already scheduled for ${currentQuarterName}. Move to ${newQuarterName}?`)) {
+				schedulingService.scheduleCourse(course.id, quarterCode);
+			}
+		} else {
+			// Course is not scheduled, add it
+			schedulingService.scheduleCourse(course.id, quarterCode);
+		}
 	}
 </script>
 
@@ -99,8 +106,7 @@
 	<!-- Course List -->
 	<div class="space-y-2">
 	   {#each courses as courseId}
-		   {@const courseMap = get(courseMapStore)}
-		   {@const course = courseMap.get(courseId)}
+		   {@const course = $courseMapStore.get(courseId)}
 		   <div 
 			   class="flex items-center justify-between p-2 bg-gray-50 rounded hover:bg-gray-100 transition-colors"
 		   >
@@ -142,7 +148,7 @@
 				courses={availableCourses}
 				buttonText="+ Add Course"
 				placeholder="Search for courses..."
-				on:course-selected={handleCourseAdd}
+				onCourseSelected={handleCourseAdd}
 			/>
 		</div>
 	</div>

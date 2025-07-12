@@ -53,23 +53,21 @@ courseSchedulesStore.subscribe(schedules => {
  */
 export function getCurrentQuarterCode(): number {
   const now = new Date();
-  const year = now.getFullYear();
-  const yearSuffix = year % 100; // 2025 → 25
-  
-  // Check which quarter we're currently in
+  const year = now.getFullYear() % 100; // 2025 → 25
+  let quarter = 4;
   if (isAfterTransition(now, QUARTER_TRANSITIONS.FALL_START)) {
-    return 400 + yearSuffix; // Fall: 4XX (e.g., Fall 2025 = 425)
+    quarter = 4;
   } else if (isAfterTransition(now, QUARTER_TRANSITIONS.SUMMER_START)) {
-    return 300 + yearSuffix; // Summer: 3XX (e.g., Summer 2025 = 325)
+    quarter = 3;
   } else if (isAfterTransition(now, QUARTER_TRANSITIONS.SPRING_START)) {
-    return 200 + yearSuffix; // Spring: 2XX (e.g., Spring 2025 = 225)
+    quarter = 2;
   } else if (isAfterTransition(now, QUARTER_TRANSITIONS.WINTER_START)) {
-    return 100 + yearSuffix; // Winter: 1XX (e.g., Winter 2025 = 125)
+    quarter = 1;
   } else {
     // Before Winter start (Jan 1), so we're in previous year's Fall
-    const prevYear = year - 1;
-    return 400 + (prevYear % 100);
+    return (year - 1) * 10 + 4;
   }
+  return year * 10 + quarter;
 }
 
 /**
@@ -92,18 +90,15 @@ export function isPastQuarter(quarterCode: number): boolean {
  */
 export function formatQuarterCode(quarterCode: number): string {
   if (quarterCode === 0) return 'Completed';
-  
-  const season = Math.floor(quarterCode / 100);
-  const year = 2000 + (quarterCode % 100);
-  
+  const year = Math.floor(quarterCode / 10);
+  const season = quarterCode % 10;
   const seasonNames = {
     1: 'Winter',
     2: 'Spring', 
     3: 'Summer',
     4: 'Fall'
   };
-  
-  return `${seasonNames[season as keyof typeof seasonNames]} ${year}`;
+  return `${seasonNames[season as keyof typeof seasonNames]} 20${year.toString().padStart(2, '0')}`;
 }
 
 /**
@@ -111,21 +106,19 @@ export function formatQuarterCode(quarterCode: number): string {
  */
 export function getSmartQuarterRange(courseSchedules: CourseSchedule): number {
   const scheduledQuarters = Object.values(courseSchedules)
-    .filter((quarterCode): quarterCode is number => quarterCode > 0) // Exclude completed courses (0)
+    .filter((quarterCode): quarterCode is number => quarterCode > 1) // Exclude completed courses (0 or 1)
     .sort((a, b) => a - b); // Sort ascending
   if (scheduledQuarters.length === 0) {
     return 3; // Default range
   }
-  
   const lastQuarter = scheduledQuarters[scheduledQuarters.length - 1];
   const currentQuarter = getCurrentQuarterCode();
-  // Compute the range: first, split into year and quarter values
-  const currentYear = Math.floor(currentQuarter % 100);
-  const lastYear = Math.floor(lastQuarter % 100);
-  const currentSeason = Math.floor(currentQuarter / 100);
-  const lastSeason = Math.floor(lastQuarter / 100);
+  // Compute the range: split into year and quarter values
+  const currentYear = Math.floor(currentQuarter / 10);
+  const lastYear = Math.floor(lastQuarter / 10);
+  const currentSeason = currentQuarter % 10;
+  const lastSeason = lastQuarter % 10;
   // Calculate the difference in years and seasons
-  // Use 4x the difference in years plus the difference in seasons
   const yearDifference = lastYear - currentYear;
   const seasonDifference = lastSeason - currentSeason;
   return 4 * yearDifference + seasonDifference + 1; // +1 to include the last quarter
@@ -398,7 +391,7 @@ export class SchedulingService {
     }
     
     // 2. Check user-defined defaults
-    const isSummer = Math.floor(quarterCode / 100) === 3;
+    const isSummer = quarterCode % 10 === 3;
     if (isSummer && limits.defaultSummer !== undefined) {
       return limits.defaultSummer;
     }
