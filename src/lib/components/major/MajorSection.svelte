@@ -38,35 +38,69 @@
 		// Calculate the actual required count (accounting for group selectCount)
 		const totalRequired = calculateSectionRequiredCount(section.requirements);
 		
-		// Calculate completed count by checking actual completed courses
+		// Calculate completed and scheduled counts by checking actual courses
 		let completedCount = 0;
+		let scheduledCount = 0;
 		
-		function countCompletedCourses(requirements: any[]) {
+		function countCourses(requirements: any[]) {
 			for (const req of requirements) {
 				if (req.type === 'course') {
-					// Use the completion service to check if course is effectively completed
+					// Check if course is completed
 					if (schedulingService.getCompletedCourseSource(req.courseId) !== null) {
 						completedCount++;
+					} else if (schedulingService.getSchedule(req.courseId) > 0) {
+						// Course is scheduled but not completed
+						scheduledCount++;
 					}
 				} else if (req.type === 'group') {
-					// For groups, count completed courses up to the needs count
+					// For groups, count completed and scheduled courses up to the needs count
 					let groupCompleted = 0;
+					let groupScheduled = 0;
+					
+					// Get all course IDs in this group for completion checking
+					const groupCourseIds = req.options.filter((opt: any) => opt.type === 'course').map((opt: any) => opt.courseId);
+					
 					for (const option of req.options) {
-						if (option.type === 'course' && schedulingService.getCompletedCourseSource(option.courseId) !== null) {
-							groupCompleted++;
+						if (option.type === 'course') {
+							if (schedulingService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) !== null) {
+								groupCompleted++;
+							} else if (schedulingService.getSchedule(option.courseId) > 0) {
+								groupScheduled++;
+							}
 						}
 					}
+					
 					// Only count up to the required number for this group
-					completedCount += Math.min(groupCompleted, req.needs);
+					const maxCompleted = Math.min(groupCompleted, req.needs);
+					const maxScheduled = Math.min(groupScheduled, req.needs - maxCompleted);
+					
+					completedCount += maxCompleted;
+					scheduledCount += maxScheduled;
 				}
 			}
 		}
 		
-		countCompletedCourses(section.requirements);
-		sectionStats = { total: totalRequired, completed: completedCount };
+		countCourses(section.requirements);
+		const plannedCount = Math.min(completedCount + scheduledCount, totalRequired);
+		const completedProgress = Math.min(completedCount, totalRequired);
+		const scheduledProgress = Math.min(scheduledCount, totalRequired - completedCount);
+		
+		sectionStats = { 
+			total: totalRequired, 
+			completed: completedCount, 
+			planned: plannedCount,
+			completedProgress,
+			scheduledProgress
+		};
 	}
 	
-	let sectionStats: { total: number; completed: number } = { total: 0, completed: 0 };
+	let sectionStats: { 
+		total: number; 
+		completed: number; 
+		planned: number;
+		completedProgress: number;
+		scheduledProgress: number;
+	} = { total: 0, completed: 0, planned: 0, completedProgress: 0, scheduledProgress: 0 };
 </script>
 
 <section class="border border-gray-200 rounded-lg p-6 {sectionBg}">
@@ -81,12 +115,18 @@
 			<div class="flex-shrink-0 ml-4">
 				<div class="text-sm text-gray-600 text-right">
 					<div class="font-medium">
-						{sectionStats.completed}/{sectionStats.total} completed
+						{sectionStats.planned}/{sectionStats.total} courses planned
 					</div>
-					<div class="w-16 h-2 bg-gray-200 rounded-full overflow-hidden">
+					<div class="w-16 h-2 bg-gray-200 rounded-full overflow-hidden relative">
+						<!-- Completed courses (green) -->
 						<div 
-							class="h-full bg-green-500 transition-all duration-300 ease-out"
-							style="width: {sectionStats.total > 0 ? (sectionStats.completed / sectionStats.total) * 100 : 0}%"
+							class="absolute left-0 top-0 h-full bg-green-500 transition-all duration-300 ease-out"
+							style="width: {sectionStats.total > 0 ? (sectionStats.completedProgress / sectionStats.total) * 100 : 0}%"
+						></div>
+						<!-- Scheduled courses (purple) -->
+						<div 
+							class="absolute top-0 h-full bg-purple-400 transition-all duration-300 ease-out"
+							style="left: {sectionStats.total > 0 ? (sectionStats.completedProgress / sectionStats.total) * 100 : 0}%; width: {sectionStats.total > 0 ? (sectionStats.scheduledProgress / sectionStats.total) * 100 : 0}%"
 						></div>
 					</div>
 				</div>

@@ -12,9 +12,8 @@
 		initializeSchedulingService 
 	} from '../../../lib/services/shared/schedulingService.js';
 	import { loadCourses } from '../../../lib/services/data/loadCourses.js';
-	import { MajorSection, MajorGraphView, QuarterPlanningCalendar } from '../../../lib/components/major/index.js';
+	import { MajorSection, QuarterPlanningCalendar } from '../../../lib/components/major/index.js';
 	import Footer from '../../../lib/components/shared/Footer.svelte';
-	import { loadViewMode, saveViewMode, type ViewMode } from '../../../lib/services/shared/viewModeService.js';
 	
 	export let data: { major: Major; majorId: string };
 	
@@ -80,17 +79,6 @@
 	
 	// Calculate total completed courses across all majors
 	$: totalGlobalCompleted = $completedCoursesStore.size;
-	
-	// View mode state - initialize from localStorage
-	let viewMode: ViewMode = loadViewMode();
-	
-	// Save view mode to localStorage whenever it changes
-	$: if (viewMode) {
-		saveViewMode(viewMode);
-	}
-	
-	// Debug logging
-	$: console.log('Current viewMode:', viewMode);
 </script>
 
 <svelte:head>
@@ -130,70 +118,36 @@
 			</div>
 		</div>
 		
-		<!-- Quick Stats and View Toggle -->
+		<!-- Quick Stats -->
 		<div class="flex flex-wrap items-center justify-between gap-4 mb-6">
 			<div class="flex flex-wrap gap-4 text-sm text-gray-600">
 				<span>{allCourses.length} total course references</span>
 				<span>{major.sections.length} sections</span>
 				<span>{actualCompletedCourses}/{totalRequiredCourses} courses required</span>
 			</div>
-			
-			<!-- View Mode Toggle -->
-			<div class="flex bg-gray-100 rounded-lg p-1">
-				<button
-					type="button"
-					class="px-3 py-1 rounded-md text-sm font-medium transition-colors
-							{viewMode === 'list' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
-					on:click={() => viewMode = 'list'}
-				>
-					📋 List View
-				</button>
-				<button
-					type="button"
-					class="px-3 py-1 rounded-md text-sm font-medium transition-colors
-							{viewMode === 'graph' ? 'bg-white text-blue-600 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
-					on:click={() => viewMode = 'graph'}
-				>
-					🔗 Graph View
-				</button>
-			</div>
 		</div>
 	</div>
 	
-	{#if viewMode === 'list'}
-		<!-- List View: Sectioned Requirements with Quarter Planning Sidebar -->
-		<div class="flex gap-6">
-			<!-- Main Content -->
-			<div class="flex-1 space-y-8">
-				{#each major.sections as section, index}
-					<MajorSection 
-						{section}
-						onToggleCompletion={schedulingService.toggleCourseCompletion.bind(schedulingService)}
-						sectionIndex={index}
-					/>
-				{/each}
-			</div>
-			
-			<!-- Quarter Planning Sidebar -->
-			<div class="w-80 flex-shrink-0">
-				<div class="sticky top-4">
-					<QuarterPlanningCalendar {major} />
-				</div>
+	<!-- Main Content - List View -->
+	<div class="flex gap-6">
+		<!-- Main Content -->
+		<div class="flex-1 space-y-8">
+			{#each major.sections as section, index}
+				<MajorSection 
+					{section}
+					onToggleCompletion={schedulingService.toggleCourseCompletion.bind(schedulingService)}
+					sectionIndex={index}
+				/>
+			{/each}
+		</div>
+		
+		<!-- Quarter Planning Sidebar -->
+		<div class="w-80 flex-shrink-0">
+			<div class="sticky top-4">
+				<QuarterPlanningCalendar {major} />
 			</div>
 		</div>
-	{:else if viewMode === 'graph'}
-		<MajorGraphView
-			{major}
-			onCourseSelect={(courseId) => {
-				// Navigate to course detail page in a new tab when a course is selected
-				window.open(`/courses/${courseId}`, '_blank');
-			}}
-		/>
-	{:else}
-		<div class="mb-4 p-2 bg-red-100 rounded text-sm">
-			Error: Unknown viewMode = "{viewMode}"
-		</div>
-	{/if}
+	</div>
 	
 
 	
@@ -206,8 +160,8 @@
 				</span>
 				<button
 					class="px-3 py-1 bg-red-100 hover:bg-red-200 text-red-700 rounded text-xs transition-colors"
-					on:click={schedulingService.clearCompletedCourses.bind(schedulingService)}
-					title="Clear all completion data"
+					on:click={schedulingService.clearAllSchedules.bind(schedulingService)}
+					title="Clear all completion and schedule data"
 				>
 					Reset All
 				</button>

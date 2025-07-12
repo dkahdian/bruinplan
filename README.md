@@ -9,14 +9,14 @@ A modern, interactive course planning tool for UCLA students — designed to pro
 UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-interpret data. This project reimagines that experience with a modern, visual, and interactive frontend tool that allows students to:
 
 - **Visualize course prerequisites** in interactive graphs with smooth animations
-- **Explore major requirements** through sectioned graph layouts
+- **Explore major requirements** through organized sectioned layouts
 - **Track degree progress** with intelligent completion tracking
 - **Navigate complex dependencies** between courses and requirements
-- **Plan course sequences** with prerequisite validation
+- **Plan course sequences** with prerequisite validation and drag-and-drop scheduling
 - **Filter and explore** courses by department and completion status
 - **Experience smooth interactions** with always-on animations and incremental updates
 
-**Key Innovation**: Advanced graph visualization using Cytoscape.js with sophisticated prerequisite logic, equivalent course handling, and dynamic group satisfaction algorithms.
+**Key Innovation**: Advanced graph visualization using Cytoscape.js with sophisticated prerequisite logic, equivalent course handling, and dynamic group satisfaction algorithms combined with intuitive drag-and-drop quarter planning.
 
 ---
 
@@ -37,16 +37,15 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 ### Phase 1: MVP (Public Launch Ready)
 - [x] **Interactive graph visualization** with Cytoscape.js and Dagre layout
 - [x] **Course prerequisite graphs** with smooth always-on animations
-- [x] **Major requirement graphs** with sectioned layouts and cross-category logic
+- [x] **Major requirement lists** with sectioned layouts and cross-category logic
 - [x] **Advanced completion tracking** with equivalent course support
 - [x] **Incremental graph updates** for optimal performance
 - [x] **Robust group satisfaction logic** for diamond prerequisite groups
-- [x] **Cross-category edge hiding** for cleaner major graph visualization
 - [x] **Static routing and pages** with SvelteKit
 - [x] **Tailwind-based UI** with resizable sidebars and collapsible legend
 - [x] **Component-based architecture** for maintainability
 - [x] **Department and course filtering** UI
-- [ ] **Quarter-by-quarter planning interface** (in development)
+- [x] **Quarter-by-quarter planning interface** with drag-and-drop scheduling
 - [ ] **Data expansion** to all UCLA departments and majors
 - [ ] **Essential pages** (About, Help, etc.)
 
@@ -67,17 +66,17 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 
 ## Current Status
 
-**🎯 MVP Progress**: Phase 1 implementation is ~90% complete
+**🎯 MVP Progress**: Phase 1 implementation is ~95% complete
 - ✅ **Advanced graph visualization** with Cytoscape.js, smooth animations, and incremental updates
 - ✅ **Complete prerequisite system** with equivalent courses and diamond group satisfaction
-- ✅ **Major graph visualization** with sectioned layouts and cross-category edge hiding
+- ✅ **Major requirement lists** with sectioned layouts and completion tracking
 - ✅ **Sophisticated completion tracking** with localStorage persistence and intelligent traversal
 - ✅ **Modern UI architecture** with SvelteKit, TypeScript, and Tailwind CSS
 - ✅ **Component-based design** for maintainability and extensibility
-- 🔄 **Quarter-based planning system** (next major feature)
+- ✅ **Quarter-based planning system** with drag-and-drop scheduling
 - 🔄 **Data expansion** beyond Mathematics department
 
-**🚀 Launch Timeline**: Core graph visualization is complete and ready. Targeting full MVP launch once quarter planning and data expansion are finished.
+**🚀 Launch Timeline**: Core functionality is complete and ready. Targeting full MVP launch once data expansion is finished.
 
 ---
 
@@ -93,9 +92,14 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 ### Prerequisite Logic Engine
 - **Diamond Group Satisfaction**: Sophisticated "choose N from M" requirement handling
 - **Equivalent Course Support**: Smart prerequisite satisfaction with alternative courses
-- **Cross-Category Edge Hiding**: Intelligent edge hiding for cleaner major graph visualization
 - **Recursive Prerequisite Resolution**: Automatic inclusion of missing prerequisites
 - **Completion-Aware Traversal**: Dynamic graph building based on user completion status
+
+### Quarter Planning System
+- **Drag-and-Drop Scheduling**: Intuitive course assignment to quarters
+- **Prerequisite Validation**: Smart checking to ensure logical course sequences
+- **Progress Tracking**: Dual-colored progress bars showing completed and planned courses
+- **Quarter Management**: Flexible quarter range with add/remove functionality
 
 ### Data Management
 - **JSON-Based Course Database**: Structured course and major requirement data
@@ -160,6 +164,7 @@ The planning interface will evolve from the current binary completion tracking t
   - `0` → Completed (already taken)
 - **Smart Validation**: Automatic checking to ensure prerequisites are scheduled before dependent courses
 - **Visual Calendar**: Quarter-by-quarter sidebar on major pages showing planned course sequence
+- **Drag-and-Drop Interface**: Intuitive course scheduling by dragging from requirements to quarters
 - **Prerequisite Warnings**: Alert users when course scheduling violates prerequisite order
 
 This approach maintains the static site architecture while providing sophisticated academic planning capabilities.

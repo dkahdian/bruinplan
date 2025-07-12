@@ -7,7 +7,6 @@
 	import { get } from 'svelte/store';
 	import { 
 		courseSchedulesStore, 
-		quarterLimitsStore, 
 		schedulingService, 
 		getCurrentQuarterCode, 
 		getSmartQuarterRange,

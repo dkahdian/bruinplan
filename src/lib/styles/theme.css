@@ -1,0 +1,105 @@
+/* BruinPlan Theme Colors */
+:root {
+  /* Primary theme colors */
+  --theme-dark-purple: #6b46c1;
+  --theme-light-purple: #a78bfa;
+  --theme-purple-50: #f5f3ff;
+  --theme-purple-100: #ede9fe;
+  --theme-purple-200: #ddd6fe;
+  --theme-purple-300: #c4b5fd;
+  --theme-purple-400: #a78bfa;
+  --theme-purple-500: #8b5cf6;
+  --theme-purple-600: #7c3aed;
+  --theme-purple-700: #6d28d9;
+  --theme-purple-800: #5b21b6;
+  --theme-purple-900: #4c1d95;
+
+  /* Semantic colors */
+  --theme-scheduled-bg: var(--theme-purple-100);
+  --theme-scheduled-border: var(--theme-purple-300);
+  --theme-scheduled-text: var(--theme-purple-800);
+  --theme-sidebar-bg: var(--theme-dark-purple);
+  --theme-sidebar-text: white;
+  --theme-sidebar-accent: var(--theme-light-purple);
+}
+
+/* Utility classes */
+.theme-dark-purple {
+  color: var(--theme-dark-purple);
+}
+
+.theme-bg-dark-purple {
+  background-color: var(--theme-dark-purple);
+}
+
+.theme-light-purple {
+  color: var(--theme-light-purple);
+}
+
+.theme-bg-light-purple {
+  background-color: var(--theme-light-purple);
+}
+
+.theme-scheduled {
+  background-color: var(--theme-scheduled-bg);
+  border-color: var(--theme-scheduled-border);
+  color: var(--theme-scheduled-text);
+}
+
+.theme-sidebar {
+  background-color: var(--theme-sidebar-bg);
+  color: var(--theme-sidebar-text);
+}
+
+/* Drag and drop styling */
+.drag-handle {
+  cursor: grab;
+  transition: all 0.2s ease;
+}
+
+.drag-handle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+/* Remove problematic active state that was causing the shrinking */
+.drag-handle[draggable="true"]:active {
+  cursor: grabbing;
+}
+
+.drag-preview {
+  transform: scale(0.8);
+  opacity: 0.8;
+  cursor: grabbing;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.drop-zone-active {
+  border-color: var(--theme-light-purple) !important;
+  background-color: var(--theme-purple-50) !important;
+  transform: scale(1.02);
+  transition: all 0.2s ease;
+}
+
+.drop-zone-highlight {
+  border-color: var(--theme-dark-purple) !important;
+  background-color: var(--theme-purple-100) !important;
+  box-shadow: 0 0 0 2px var(--theme-light-purple);
+}
+
+/* Drag over effects */
+.quarter-display:hover {
+  border-color: var(--theme-light-purple);
+  box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.2);
+}
+
+.quarter-display.drag-over {
+  border-color: var(--theme-dark-purple);
+  background-color: rgba(167, 139, 250, 0.1);
+  transform: scale(1.02);
+}

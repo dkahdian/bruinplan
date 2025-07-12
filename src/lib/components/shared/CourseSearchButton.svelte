@@ -56,7 +56,7 @@
 
 <div class="relative" bind:this={searchContainer}>
 	<button 
-		class="w-full py-2 px-3 border-2 border-dashed border-gray-300 rounded-lg text-gray-600 hover:border-gray-400 hover:text-gray-800 transition-colors text-sm"
+		class="w-full py-2 px-3 border-2 border-dashed border-gray-300 rounded-lg text-purple-300 hover:border-purple-400 hover:text-purple-100 transition-colors text-sm"
 		on:click={() => isSearchExpanded = !isSearchExpanded}
 		type="button"
 	>

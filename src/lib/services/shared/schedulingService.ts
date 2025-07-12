@@ -1,11 +1,10 @@
 import { writable, get } from 'svelte/store';
-import type { CourseSchedule, QuarterLimits, PrerequisiteOverride, ValidationError } from '../../types.js';
+import type { CourseSchedule, PrerequisiteOverride, ValidationError } from '../../types.js';
 import { courseMapStore } from '../data/loadCourses.js';
 
 // Storage keys for localStorage
 const STORAGE_KEYS = {
   courseSchedules: 'bruinplan_course_schedules',
-  quarterLimits: 'bruinplan_quarter_limits',
   prerequisiteOverrides: 'bruinplan_prerequisite_overrides',
   lastVisit: 'bruinplan_last_visit'
 };
@@ -27,11 +26,6 @@ const QUARTER_TRANSITIONS = {
 
 // Svelte stores for reactive state management
 export const courseSchedulesStore = writable<CourseSchedule>({});
-export const quarterLimitsStore = writable<QuarterLimits>({
-  defaultSummer: 0,
-  defaultNonSummer: 18,
-  quarterly: {}
-});
 export const prerequisiteOverridesStore = writable<PrerequisiteOverride[]>([]);
 
 // Derived store for completed courses compatibility
@@ -89,7 +83,8 @@ export function isPastQuarter(quarterCode: number): boolean {
  * Format a quarter code into a readable string
  */
 export function formatQuarterCode(quarterCode: number): string {
-  if (quarterCode === 0) return 'Completed';
+  if (quarterCode === 0) return 'Not scheduled';
+  if (quarterCode === 1) return 'Completed';
   const year = Math.floor(quarterCode / 10);
   const season = quarterCode % 10;
   const seasonNames = {
@@ -154,39 +149,6 @@ function saveCourseSchedules(schedules: CourseSchedule): void {
     localStorage.setItem(STORAGE_KEYS.courseSchedules, JSON.stringify(schedules));
   } catch (error) {
     console.error('Error saving course schedules:', error);
-  }
-}
-
-/**
- * Load quarter limits from localStorage
- */
-export function loadQuarterLimits(): QuarterLimits {
-  if (typeof window === 'undefined') return { defaultSummer: 0, defaultNonSummer: 18, quarterly: {} };
-  
-  try {
-    const stored = localStorage.getItem(STORAGE_KEYS.quarterLimits);
-    if (stored) {
-      const limits = JSON.parse(stored) as QuarterLimits;
-      quarterLimitsStore.set(limits);
-      return limits;
-    }
-  } catch (error) {
-    console.error('Error loading quarter limits:', error);
-  }
-  
-  return { defaultSummer: 0, defaultNonSummer: 18, quarterly: {} };
-}
-
-/**
- * Save quarter limits to localStorage
- */
-function saveQuarterLimits(limits: QuarterLimits): void {
-  if (typeof window === 'undefined') return;
-  
-  try {
-    localStorage.setItem(STORAGE_KEYS.quarterLimits, JSON.stringify(limits));
-  } catch (error) {
-    console.error('Error saving quarter limits:', error);
   }
 }
 
@@ -376,61 +338,14 @@ export class SchedulingService {
       return newSchedules;
     });
   }
-  
-  // Quarter limit methods
-  
+
   /**
-   * Get the unit limit for a specific quarter
+   * Clear all course schedules (both completed and planned)
    */
-  getQuarterLimit(quarterCode: number): number {
-    const limits = get(quarterLimitsStore);
-    
-    // 1. Check quarterly-specific limit
-    if (limits.quarterly[quarterCode]) {
-      return limits.quarterly[quarterCode];
-    }
-    
-    // 2. Check user-defined defaults
-    const isSummer = quarterCode % 10 === 3;
-    if (isSummer && limits.defaultSummer !== undefined) {
-      return limits.defaultSummer;
-    }
-    if (!isSummer && limits.defaultNonSummer !== undefined) {
-      return limits.defaultNonSummer;
-    }
-    
-    // 3. App-defined defaults
-    return isSummer ? 0 : 18;
+  clearAllSchedules(): void {
+    courseSchedulesStore.set({});
+    saveCourseSchedules({});
   }
-  
-  /**
-   * Set quarter-specific unit limit
-   */
-  setQuarterLimit(quarterCode: number, limit: number): void {
-    quarterLimitsStore.update(limits => {
-      const newLimits = { ...limits };
-      newLimits.quarterly[quarterCode] = limit;
-      saveQuarterLimits(newLimits);
-      return newLimits;
-    });
-  }
-  
-  /**
-   * Set default unit limit for summer or non-summer quarters
-   */
-  setDefaultLimit(type: 'summer' | 'nonSummer', limit: number): void {
-    quarterLimitsStore.update(limits => {
-      const newLimits = { ...limits };
-      if (type === 'summer') {
-        newLimits.defaultSummer = limit;
-      } else {
-        newLimits.defaultNonSummer = limit;
-      }
-      saveQuarterLimits(newLimits);
-      return newLimits;
-    });
-  }
-  
   // Override methods
   
   /**
@@ -529,7 +444,6 @@ export const schedulingService = new SchedulingService();
 export function initializeSchedulingService(): void {
   
   loadCourseSchedules();
-  loadQuarterLimits();
   loadPrerequisiteOverrides();
 }
 

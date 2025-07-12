@@ -1,25 +1,17 @@
 # Quarter-Based Planning System Specification
 
 ## Overview
-This specification defines the implementation of a quarter-based course scheduling system that replaces the current binary completion tracking with sophisticated quarter assignment and validation capabilities.
+This specification defines the implementation of a quarter-based course scheduling system that replaces the current binary completion tracking with sophisticated quarter assignment capabilities via drag-and-drop interface.
 
-**Implementation Status**: Not yet implemented - this is the design specification for the next major feature.
+**Implementation Status**: Implemented
 
 ## 1. Data Structure Design
 
 ### Core Scheduling Service
 ```typescript
-// New file: src/lib/services/shared/schedulingService.ts
+// File: src/lib/services/shared/schedulingService.ts
 interface CourseSchedule {
   [courseId: string]: number; // Quarter code: 1 = completed, 251 = Winter 2025, etc. (0 = not scheduled)
-}
-
-interface QuarterLimits {
-  defaultSummer: number;     // User-defined, defaults to 0
-  defaultNonSummer: number;  // User-defined, defaults to 18
-  quarterly: {               // Quarter-specific overrides
-    [quarterCode: number]: number; // e.g., 251: 20
-  };
 }
 
 interface PrerequisiteOverride {
@@ -50,7 +42,6 @@ interface ValidationError {
 ```typescript
 const STORAGE_KEYS = {
   courseSchedules: 'bruinplan_course_schedules',
-  quarterLimits: 'bruinplan_quarter_limits', 
   prerequisiteOverrides: 'bruinplan_prerequisite_overrides',
   lastVisit: 'bruinplan_last_visit' // For auto-reassignment logic
 };
@@ -99,7 +90,6 @@ interface QuarterDisplay {
   year: number;
   courses: string[];
   totalUnits: number;
-  unitLimit: number;
   hasErrors: boolean;
   hasWarnings: boolean;
 }
@@ -118,10 +108,9 @@ interface QuarterRangeSettings {
 
 **Features**:
 - Drag-and-drop course scheduling (using svelte-dnd-action)
-- Unit count display with limit warnings
+- Unit count display
 - Validation error indicators (orange triangles)
 - Quick "mark as completed" option
-- Settings panel for unit limits
 
 ### Drag-and-Drop Implementation
 **Library**: svelte-dnd-action v0.9.63+
@@ -179,7 +168,6 @@ function handleSort(e) {
 - Course scheduled before its enforced prerequisites
 
 **Warnings (Orange triangles):**
-- Quarter unit count exceeds personal limit
 - Course scheduled more than 4 years in future
 
 ### Validation Display
@@ -188,27 +176,6 @@ function handleSort(e) {
 - **Error details**: Hover/click to see specific validation message
 - **Override capability**: Individual toggle per validation error
 
-### Unit Limit Hierarchy
-```typescript
-function getQuarterLimit(quarterCode: number, userLimits: QuarterLimits): number {
-  // 1. Check quarterly-specific limit
-  if (userLimits.quarterly[quarterCode]) {
-    return userLimits.quarterly[quarterCode];
-  }
-  
-  // 2. Check user-defined defaults
-  const isSummer = quarterCode % 10 === 3;
-  if (isSummer && userLimits.defaultSummer !== undefined) {
-    return userLimits.defaultSummer;
-  }
-  if (!isSummer && userLimits.defaultNonSummer !== undefined) {
-    return userLimits.defaultNonSummer;
-  }
-  
-  // 3. App-defined defaults
-  return isSummer ? 0 : 18;
-}
-```
 
 ### Unit Limit Exceeded UI
 When user exceeds quarter limit, show buttons:
@@ -349,9 +316,89 @@ function migrateCompletionData(): void {
 
 **Clarifications and Implementation Notes**:
 - Quarter range always starts from the current quarter (using new encoding). Default is 12 quarters, but expands automatically if the user schedules a course further in the future. Range resets after session ends.
-- Sidebar shows "X/Y" units per quarter. Clicking this redirects to a unit management page (to be implemented) for adjusting unit limits (defaults and per-quarter).
+- Sidebar shows "X" units per quarter with total unit count display.
 - Course display in quarters shows only course ID and unit count. Tooltip on hover matches the graph tooltip. Quarter codes are displayed using the new format (e.g., "Winter 2025" for 251).
 - No minimum number of quarters (other than zero). "Add a quarter" button is visible at the bottom of the sidebar (not fixed), requiring the user to scroll to see it.
 - Sidebar is only shown on the major list view for now (not graph view).
 - For Step 3, only static assignment is implemented. Code should be structured for easy drag-and-drop integration in Step 4. Quarter code utilities (encoding/decoding) are fully implemented and used throughout.
 - Validation/error indicators will be added in Step 5, but code should be ready for future integration.
+
+### Step 4: Drag-and-Drop Implementation and Enhanced Course Interaction
+**Goal**: Enable dragging courses from major list to quarter sidebar with enhanced course interaction patterns
+**Files to modify**:
+- `src/lib/components/major/QuarterPlanningCalendar.svelte`
+- `src/lib/components/major/MajorRequirementsList.svelte`
+- `src/lib/components/major/MajorSection.svelte`
+- `src/lib/components/major/QuarterDisplay.svelte`
+
+**Enhanced Course Interaction Pattern**:
+Each course in the major list has two clickable areas with different behaviors:
+- **Checkbox**: Direct toggle to mark as complete (quarter code 1), providing quick completion
+- **Course text**: Links to course prerequisite tree page (unchanged behavior)
+
+**Drag-and-Drop Functions to implement**:
+- Drag source setup for course items in major list
+- Drop zone setup for quarter containers in sidebar
+- Course scheduling on drop with conflict resolution
+- Visual feedback and animations during drag operations
+- Touch device support for mobile accessibility
+
+**Success criteria**: 
+- Can drag courses from major list to quarters, assignments persist
+- Checkbox still provides quick completion toggle
+- Course text links remain functional
+- All interactions work on both individual courses and group options
+
+### Step 5: Validation System Implementation
+**Goal**: Add validation with error/warning indicators
+**Files to modify**:
+- `src/lib/services/shared/schedulingService.ts` (complete validation)
+- `src/lib/components/shared/ValidationIndicator.svelte` (new)
+- `src/lib/components/major/MajorRequirementsList.svelte`
+- `src/lib/components/major/QuarterDisplay.svelte`
+
+**Functions to implement**:
+- Prerequisite validation logic
+- Unit limit validation
+- Error/warning triangle display components
+- Validation caching and performance optimization
+
+**Success criteria**: Red/orange triangles appear next to courses with validation issues
+
+### Step 6: Override Management Panel
+
+**Goal**: Build the collapsible override panel for the bottom of screen
+**Files to create/modify**:
+  - `src/lib/components/shared/OverridePanel.svelte` (new)
+  - `src/routes/+layout.svelte` (add panel)
+  - `src/lib/services/shared/schedulingService.ts` (override methods)
+
+**Functions to implement**:
+  - Override panel toggle and display
+  - Individual override controls
+  - Auto-open when validation state changes
+  - Bulk reset functionality
+
+**Success criteria**: Override panel shows active overrides and allows management.
+
+### Step 7: Auto-Reassignment and Polish
+**Goal**: Implement past quarter auto-reassignment and final polish
+**Files to modify**:
+- `src/lib/services/shared/schedulingService.ts` (auto-reassignment)
+- `src/app.html` or `src/routes/+layout.svelte` (initialization)
+- Various components (final UI polish)
+
+**Functions to implement**:
+- Past quarter detection and reassignment
+- User notification system for reassigned courses
+- Final validation and error handling
+- Performance optimizations
+
+**Success criteria**: App automatically handles past quarters, all features work smoothly
+
+### Additional Considerations:
+- **Math Department Focus**: All course loading will use Math department data only, at least for the time being.
+- **List View Priority**: Major graph view remains functional but unmodified
+- **No Migration**: No need to migrate existing localStorage data
+- **Incremental Testing**: Each step should maintain app functionality
+- **Error Handling**: Robust error handling throughout all components

@@ -177,15 +177,6 @@ export interface CourseSchedule {
   [courseId: string]: number; // Quarter code: 0 = completed, 125 = Winter 2025, etc.
 }
 
-// Quarter unit limits configuration
-export interface QuarterLimits {
-  defaultSummer: number;     // User-defined, defaults to 0
-  defaultNonSummer: number;  // User-defined, defaults to 18
-  quarterly: {               // Quarter-specific overrides
-    [quarterCode: number]: number; // e.g., 125: 20
-  };
-}
-
 // Prerequisite override for validation bypassing
 export interface PrerequisiteOverride {
   courseId: string;
