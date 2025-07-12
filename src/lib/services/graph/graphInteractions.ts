@@ -3,7 +3,7 @@
 
 import cytoscape from 'cytoscape';
 import type { Course } from '../../types.js';
-import { isCourseEffectivelyCompleted } from '../shared/completionService.js';
+import { schedulingService } from '../shared/schedulingService.js';
 
 /**
  * Handles clicking on a prerequisite course in the sidebar
@@ -42,7 +42,7 @@ export function handlePrerequisiteClick(
   // Check if the clicked course is completed but showCompletedCourses is off
   const course = courseMap.get(courseId);
   const equivalentCourses = course?.equivalentCourses || [];
-  const isCourseCompleted = isCourseEffectivelyCompleted(courseId, equivalentCourses, userCompletedCourses);
+  const isCourseCompleted = schedulingService.isCourseEffectivelyCompleted(courseId, equivalentCourses, userCompletedCourses);
   if (isCourseCompleted && !showCompletedCourses) {
     // Enable showCompletedCourses to reveal the completed course
     setShowCompletedCourses(true);

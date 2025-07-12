@@ -3,7 +3,7 @@
 
 import type { Course, RequisiteGroup } from '../../types.js';
 import type { GraphNode } from '../graph/types.js';
-import { markCourseCompleted, markCourseIncomplete, getCompletedCourseSource } from './completionService.js';
+import { schedulingService } from './schedulingService.js';
 
 // Configuration for tooltip behavior
 export interface TooltipConfig {
@@ -48,13 +48,13 @@ export class TooltipManager {
    * Default completion toggle handler that updates the store and refreshes tooltips
    */
   private defaultToggleHandler(courseId: string): void {
-    const completionSource = getCompletedCourseSource(courseId);
+    const completionSource = schedulingService.getCompletedCourseSource(courseId);
     const isCompleted = completionSource !== null;
     
     if (isCompleted) {
-      markCourseIncomplete(courseId);
+      schedulingService.markCourseIncomplete(courseId);
     } else {
-      markCourseCompleted(courseId);
+      schedulingService.markCourseCompleted(courseId);
     }
     
     // Don't hide tooltip immediately - let the parent component handle the update
@@ -274,7 +274,7 @@ export class TooltipManager {
       : '';
 
     // Check if course is completed
-    const completionSource = getCompletedCourseSource(course.id);
+    const completionSource = schedulingService.getCompletedCourseSource(course.id);
     const isCompleted = completionSource !== null;
     const completedViaEquivalent = completionSource && completionSource !== course.id;
 
@@ -552,13 +552,13 @@ declare global {
 if (typeof window !== 'undefined') {
   window.toggleCourseCompletion = function(courseId: string) {
     // Update completion state
-    const completionSource = getCompletedCourseSource(courseId);
+    const completionSource = schedulingService.getCompletedCourseSource(courseId);
     const isCompleted = completionSource !== null;
     
     if (isCompleted) {
-      markCourseIncomplete(courseId);
+      schedulingService.markCourseIncomplete(courseId);
     } else {
-      markCourseCompleted(courseId);
+      schedulingService.markCourseCompleted(courseId);
     }
     
     // Immediately update the switch appearance in the current tooltip

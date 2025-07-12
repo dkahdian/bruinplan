@@ -4,14 +4,14 @@
 -->
 <script lang="ts">
 	import type { MajorRequirement } from '../../types.js';
-	import { getCompletedCourseSource, getCompletedCourseOfGroupSource, completedCourses } from '../../services/shared/completionService.js';
+	import { schedulingService, completedCoursesStore } from '../../services/shared/schedulingService.js';
 	import { courseMapStore } from '../../services/data/loadCourses.js';
 	
 	export let requirements: MajorRequirement[];
 	export let onToggleCompletion: (courseId: string) => void;
 	
 	// Subscribe to both stores to ensure reactivity when either changes
-	$: userCompletedCourses = $completedCourses;
+	$: userCompletedCourses = $completedCoursesStore;
 	$: courseMap = $courseMapStore;
 	
 	// Force reactivity by depending on both stores
@@ -22,9 +22,9 @@
 	{#each requirements as requirement}
 		{#if requirement.type === 'course'}
 			<!-- Force reactivity by depending on both stores -->
-			{@const completedSource = reactiveKey && getCompletedCourseSource(requirement.courseId)}
+			{@const completedSource = reactiveKey && schedulingService.getCompletedCourseSource(requirement.courseId)}
 			{@const isEffectivelyCompleted = completedSource !== null}
-			{@const isDirectlyCompleted = reactiveKey && $completedCourses.has(requirement.courseId)}
+			{@const isDirectlyCompleted = reactiveKey && userCompletedCourses.has(requirement.courseId)}
 			<!-- Individual Course Requirement -->
 			<div 
 				class="flex items-center justify-between p-3 rounded border transition-colors cursor-pointer
@@ -75,7 +75,7 @@
 			<!-- Calculate group completion stats with reactivity -->
 			{@const groupCourseIds = requirement.options.filter(option => option.type === 'course').map(option => option.courseId)}
 			{@const groupCompletedCount = reactiveKey && requirement.options.filter(option => 
-				option.type === 'course' && getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) !== null
+				option.type === 'course' && schedulingService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) !== null
 			).length}
 			{@const groupRequiredCount = requirement.needs}
 			{@const groupProgress = Math.min(groupCompletedCount, groupRequiredCount)}
@@ -111,9 +111,9 @@
 					{#each requirement.options as option}
 						{#if option.type === 'course'}
 							<!-- Force reactivity by depending on both stores -->
-							{@const optionCompletedSource = reactiveKey && getCompletedCourseOfGroupSource(option.courseId, groupCourseIds)}
+							{@const optionCompletedSource = reactiveKey && schedulingService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds)}
 							{@const isEffectivelyCompleted = optionCompletedSource !== null}
-							{@const isDirectlyCompleted = reactiveKey && $completedCourses.has(option.courseId)}
+							{@const isDirectlyCompleted = reactiveKey && userCompletedCourses.has(option.courseId)}
 							<div 
 								class="flex items-center justify-between p-2 rounded border transition-colors cursor-pointer
 										{isEffectivelyCompleted

@@ -9,7 +9,7 @@
 	import GraphContainer from '../graph/GraphContainer.svelte';
 	import { buildMajorGraph } from '../../services/major/majorGraphService.js';
 	import { majorGraphStyles, majorGraphLayoutOptions } from '../../services/graph/cytoscapeConfig.js';
-	import { completedCourses, getCompletedCourseSource } from '../../services/shared/completionService.js';
+	import { completedCoursesStore, schedulingService } from '../../services/shared/schedulingService.js';
 	import { loadLegendState } from '../../services/shared/legendStateService.js';
 	
 	export let major: Major;
@@ -98,7 +98,7 @@
 	}
 	
 	// Reactively build the major graph when major or toggle settings change
-	$: if (major && showWarnings !== undefined && showRecommended !== undefined && showCompletedCourses !== undefined && $completedCourses) {
+	$: if (major && showWarnings !== undefined && showRecommended !== undefined && showCompletedCourses !== undefined && $completedCoursesStore) {
 		// Initialize compound node state when major changes
 		if (compoundNodeState.size === 0) {
 			initializeCompoundNodeState();
@@ -123,7 +123,7 @@
 			const result = await buildMajorGraph(major, {
 				showWarnings,
 				showRecommended,
-				userCompletedCourses: $completedCourses,
+				userCompletedCourses: $completedCoursesStore,
 				showCompletedCourses,
 				compoundNodeState
 			});
@@ -311,7 +311,7 @@
 					bind:showWarnings
 					bind:showRecommended
 					bind:showCompletedCourses
-					userCompletedCourses={$completedCourses}
+					userCompletedCourses={$completedCoursesStore}
 					onCourseSelect={handleCourseSelect}
 					onSectionToggle={handleSectionToggle}
 					onBackgroundClick={handleBackgroundClick}
@@ -394,7 +394,7 @@
 					bind:showWarnings
 					bind:showRecommended
 					bind:showCompletedCourses
-					userCompletedCourses={$completedCourses}
+					userCompletedCourses={$completedCoursesStore}
 					onCourseSelect={handleCourseSelect}
 					onSectionToggle={handleSectionToggle}
 					onBackgroundClick={handleBackgroundClick}

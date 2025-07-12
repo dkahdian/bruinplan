@@ -6,7 +6,7 @@
   import type { GraphNode, GraphEdge } from './services/graph/types.js';
   import { loadCourses } from './services/data/loadCourses.js';
   import { buildPrerequisiteGraph, handlePrerequisiteClick } from './services/graph/index.js';
-  import { completedCourses, loadCompletedCourses, toggleCourseCompletion } from './services/shared/completionService.js';
+  import { completedCoursesStore, schedulingService, initializeSchedulingService } from './services/shared/schedulingService.js';
   import { loadLegendState } from './services/shared/legendStateService.js';
   
   // Import components
@@ -26,7 +26,7 @@
   let showCompletedCourses: boolean = savedLegendState.showCompletedCourses;
 
   // Course completion state - use the store directly
-  $: userCompletedCourses = $completedCourses;
+  $: userCompletedCourses = $completedCoursesStore;
 
   // Enforce prerequisite hierarchy: Enforced → Warning → Recommended
   $: {
@@ -83,7 +83,7 @@
       courseMap = new Map();
     }
     
-    loadCompletedCourses();
+    initializeSchedulingService();
     
     // Load legend state from localStorage
     const savedState = loadLegendState();
@@ -99,7 +99,7 @@
         showWarnings,
         showRecommended,
         showCompletedCourses,
-        userCompletedCourses: new Set($completedCourses),
+        userCompletedCourses: new Set($completedCoursesStore),
         courseId
       };
 
@@ -112,7 +112,7 @@
         const { nodes: newNodes, edges: newEdges } = buildPrerequisiteGraph(courseId, courses, courseMap, { 
           showWarnings, 
           showRecommended,
-          userCompletedCourses: $completedCourses,
+          userCompletedCourses: $completedCoursesStore,
           showCompletedCourses
         });
 
@@ -131,7 +131,7 @@
         const { nodes: newNodes, edges: newEdges } = buildPrerequisiteGraph(courseId, courses, courseMap, { 
           showWarnings, 
           showRecommended,
-          userCompletedCourses: $completedCourses,
+          userCompletedCourses: $completedCoursesStore,
           showCompletedCourses
         });
         currentNodes = newNodes;
@@ -182,7 +182,7 @@
 
   // Handle course completion toggle
   function handleCourseCompletionToggle(courseId: string) {
-    toggleCourseCompletion(courseId);
+    schedulingService.toggleCourseCompletion(courseId);
   }
 
   // Handle prerequisite click from sidebar
@@ -197,7 +197,7 @@
       showWarnings,
       showRecommended,
       showCompletedCourses,
-      $completedCourses,
+      $completedCoursesStore,
       (value: boolean) => showWarnings = value,
       (value: boolean) => showRecommended = value,
       (value: boolean) => showCompletedCourses = value,
@@ -241,7 +241,7 @@
       bind:showWarnings
       bind:showRecommended
       bind:showCompletedCourses
-      userCompletedCourses={$completedCourses}
+      userCompletedCourses={$completedCoursesStore}
       onCourseSelect={handleCourseSelect}
       onBackgroundClick={handleBackgroundClick}
       animationConfig={{
@@ -265,7 +265,7 @@
         {selectedCourse}
         {isTransitioning}
         {courseMap}
-        userCompletedCourses={$completedCourses}
+        userCompletedCourses={$completedCoursesStore}
         onCourseCompletionToggle={handleCourseCompletionToggle}
         {onPrerequisiteClick}
       />

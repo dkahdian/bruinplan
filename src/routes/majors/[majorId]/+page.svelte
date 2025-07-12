@@ -7,12 +7,10 @@
 	import type { Major } from '../../../lib/types.js';
 	import { getAllMajorCourses, calculateRequiredCourseCount } from '../../../lib/services/data/loadMajors.js';
 	import { 
-		completedCourses, 
-		loadCompletedCourses, 
-		toggleCourseCompletion, 
-		getCompletedCourseSource,
-		clearCompletedCourses 
-	} from '../../../lib/services/shared/completionService.js';
+		schedulingService, 
+		completedCoursesStore, 
+		initializeSchedulingService 
+	} from '../../../lib/services/shared/schedulingService.js';
 	import { loadCourses } from '../../../lib/services/data/loadCourses.js';
 	import { MajorSection, MajorGraphView } from '../../../lib/components/major/index.js';
 	import Footer from '../../../lib/components/shared/Footer.svelte';
@@ -34,7 +32,7 @@
 	
 	// Load completion data and initialize course map for the completion service
 	onMount(async () => {
-		loadCompletedCourses();
+		initializeSchedulingService();
 		
 		try {
 			// Load courses to initialize the global course map store
@@ -46,15 +44,15 @@
 		}
 	});
 
-	// Calculate actual completion progress using the new completion service
+	// Calculate actual completion progress using the new scheduling service
 	$: actualCompletedCourses = coursesLoaded ? (() => {
 		let actualCompleted = 0;
 		
 		function countActualCompleted(requirements: any[]) {
 			for (const req of requirements) {
 				if (req.type === 'course') {
-					// Use the new completion service that automatically handles equivalents
-					if (getCompletedCourseSource(req.courseId) !== null) {
+					// Use the new scheduling service that automatically handles equivalents
+					if (schedulingService.getCompletedCourseSource(req.courseId) !== null) {
 						actualCompleted++;
 					}
 				} else if (req.type === 'group') {
@@ -62,7 +60,7 @@
 					let groupCompleted = 0;
 					for (const option of req.options) {
 						if (option.type === 'course') {
-							if (getCompletedCourseSource(option.courseId) !== null) {
+							if (schedulingService.getCompletedCourseSource(option.courseId) !== null) {
 								groupCompleted++;
 							}
 						}
@@ -81,7 +79,7 @@
 	})() : 0;
 	
 	// Calculate total completed courses across all majors
-	$: totalGlobalCompleted = $completedCourses.size;
+	$: totalGlobalCompleted = $completedCoursesStore.size;
 	
 	// View mode state - initialize from localStorage
 	let viewMode: ViewMode = loadViewMode();
@@ -168,7 +166,7 @@
 			{#each major.sections as section, index}
 				<MajorSection 
 					{section}
-					onToggleCompletion={toggleCourseCompletion}
+					onToggleCompletion={schedulingService.toggleCourseCompletion.bind(schedulingService)}
 					sectionIndex={index}
 				/>
 			{/each}
@@ -198,7 +196,7 @@
 				</span>
 				<button
 					class="px-3 py-1 bg-red-100 hover:bg-red-200 text-red-700 rounded text-xs transition-colors"
-					on:click={clearCompletedCourses}
+					on:click={schedulingService.clearCompletedCourses.bind(schedulingService)}
 					title="Clear all completion data"
 				>
 					Reset All

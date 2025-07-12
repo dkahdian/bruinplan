@@ -5,7 +5,7 @@
 <script lang="ts">
 	import type { MajorSection as MajorSectionType, Course } from '../../types.js';
 	import { calculateSectionRequiredCount } from '../../services/data/loadMajors.js';
-	import { getCompletedCourseSource, completedCourses } from '../../services/shared/completionService.js';
+	import { schedulingService, completedCoursesStore } from '../../services/shared/schedulingService.js';
 	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import MajorSectionHeader from './MajorSectionHeader.svelte';
 	import MajorRequirementsList from './MajorRequirementsList.svelte';
@@ -15,7 +15,7 @@
 	export let sectionIndex: number = 0;
 	
 	// Subscribe to both stores to ensure reactivity
-	$: userCompletedCourses = $completedCourses;
+	$: userCompletedCourses = $completedCoursesStore;
 	$: courseMap = $courseMapStore;
 	
 	// Different background colors for different sections
@@ -45,14 +45,14 @@
 			for (const req of requirements) {
 				if (req.type === 'course') {
 					// Use the completion service to check if course is effectively completed
-					if (getCompletedCourseSource(req.courseId) !== null) {
+					if (schedulingService.getCompletedCourseSource(req.courseId) !== null) {
 						completedCount++;
 					}
 				} else if (req.type === 'group') {
 					// For groups, count completed courses up to the needs count
 					let groupCompleted = 0;
 					for (const option of req.options) {
-						if (option.type === 'course' && getCompletedCourseSource(option.courseId) !== null) {
+						if (option.type === 'course' && schedulingService.getCompletedCourseSource(option.courseId) !== null) {
 							groupCompleted++;
 						}
 					}

@@ -7,7 +7,7 @@
 import type { Major, MajorRequirement, MajorSection } from '../../types.js';
 import type { GraphNode, GraphEdge, GraphBuildOptions, GraphBuildResult } from '../graph/types.js';
 import { loadCourses } from '../data/loadCourses.js';
-import { isCourseEffectivelyCompleted, getCompletedCourseSource } from '../shared/completionService.js';
+import { schedulingService } from '../shared/schedulingService.js';
 import { shouldShowCourse } from '../graph/utils.js';
 
 interface MajorGraphOptions extends Partial<GraphBuildOptions> {
@@ -186,10 +186,10 @@ function processSectionRequirements(
 			seenCourses.add(courseId);
 
 			const course = courseMap.get(courseId);
-			const isCompleted = getCompletedCourseSource(courseId) !== null;
+			const isCompleted = schedulingService.getCompletedCourseSource(courseId) !== null;
 			
 			// Skip completed courses if showCompletedCourses is false
-			if (!shouldShowCourse(courseId, showCompletedCourses, (id) => getCompletedCourseSource(id) !== null)) {
+			if (!shouldShowCourse(courseId, showCompletedCourses, (id) => schedulingService.getCompletedCourseSource(id) !== null)) {
 				return;
 			}
 			
@@ -220,8 +220,8 @@ function processSectionRequirements(
 				if (req.type === 'course') {
 					const courseId = req.courseId;
 					if (!seenCourses.has(courseId)) {
-						const isCompleted = getCompletedCourseSource(courseId) !== null;
-						if (shouldShowCourse(courseId, showCompletedCourses, (id) => getCompletedCourseSource(id) !== null)) {
+						const isCompleted = schedulingService.getCompletedCourseSource(courseId) !== null;
+						if (shouldShowCourse(courseId, showCompletedCourses, (id) => schedulingService.getCompletedCourseSource(id) !== null)) {
 							visibleOptions.push(req);
 						}
 					}
@@ -879,7 +879,7 @@ function addRequiredPrerequisiteCourses(
 		}
 		
 		// Check if we should show this course based on completion status
-		if (!shouldShowCourse(prereqId, showCompletedCourses, (id) => getCompletedCourseSource(id) !== null)) {
+		if (!shouldShowCourse(prereqId, showCompletedCourses, (id) => schedulingService.getCompletedCourseSource(id) !== null)) {
 			continue;
 		}
 		
@@ -891,7 +891,7 @@ function addRequiredPrerequisiteCourses(
 		}
 		
 		const sectionId = `section-${parentSection.id}`;
-		const isCompleted = getCompletedCourseSource(prereqId) !== null;
+		const isCompleted = schedulingService.getCompletedCourseSource(prereqId) !== null;
 		
 		// Enhancement: When showCompletedCourses is true, don't show completed prerequisites 
 		// from collapsed sections as "critical" - they're not actionable

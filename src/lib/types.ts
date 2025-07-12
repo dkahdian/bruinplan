@@ -169,3 +169,53 @@ export interface MajorProgress {
     };
   };
 }
+
+// Quarter-based scheduling system types
+
+// Course scheduling data structure
+export interface CourseSchedule {
+  [courseId: string]: number; // Quarter code: 0 = completed, 125 = Winter 2025, etc.
+}
+
+// Quarter unit limits configuration
+export interface QuarterLimits {
+  defaultSummer: number;     // User-defined, defaults to 0
+  defaultNonSummer: number;  // User-defined, defaults to 18
+  quarterly: {               // Quarter-specific overrides
+    [quarterCode: number]: number; // e.g., 125: 20
+  };
+}
+
+// Prerequisite override for validation bypassing
+export interface PrerequisiteOverride {
+  courseId: string;
+  prerequisiteId: string;
+}
+
+// Validation error/warning for courses
+export interface ValidationError {
+  type: 'error' | 'warning';
+  courseId: string;
+  quarterCode: number;
+  message: string;
+  prerequisiteId?: string; // For missing prerequisite errors
+}
+
+// Quarter display data for UI components
+export interface QuarterDisplay {
+  code: number;
+  season: string;
+  year: number;
+  courses: string[];
+  totalUnits: number;
+  unitLimit: number;
+  hasErrors: boolean;
+  hasWarnings: boolean;
+}
+
+// Quarter range settings for the planning calendar
+export interface QuarterRangeSettings {
+  displayCount: number; // Default: 12, or smart default based on planned courses
+  startFromCurrent: boolean; // Always true - include current quarter
+  showPerformanceWarning: boolean; // True if displayCount > 12
+}

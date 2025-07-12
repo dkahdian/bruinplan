@@ -4,7 +4,7 @@
   import { createCytoscapeInstance, type GraphNode, type GraphEdge, defaultGraphStyles, defaultLayoutOptions } from '../../services/graph/index.js';
   import type { TooltipConfig, TooltipManager } from '../../services/shared/tooltipService.js';
   import type { GraphAnimationConfig, StoredPositions, NodePosition } from '../../services/graph/types.js';
-  import { getCompletedCourseSource } from '../../services/shared/completionService.js';
+  import { schedulingService } from '../../services/shared/schedulingService.js';
 
   export let nodes: GraphNode[];
   export let edges: GraphEdge[];
@@ -343,7 +343,7 @@
         if (cy) {
           const node = cy.getElementById(courseId);
           if (node.length > 0) {
-            const completionSource = getCompletedCourseSource(courseId);
+            const completionSource = schedulingService.getCompletedCourseSource(courseId);
             const isCompleted = completionSource !== null;
             
             if (isCompleted) {

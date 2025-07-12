@@ -203,7 +203,7 @@ PrerequisiteGraph.svelte (main component)
 // services/prerequisiteGraph.ts
 // Core graph building logic, Cytoscape instance management, click handling
 
-// services/completionService.ts  
+// schedulingService.ts is now used for course completion and scheduling
 // localStorage management for completed courses using Svelte stores
 
 // services/tooltipService.ts
