@@ -114,7 +114,7 @@ export function getSmartQuarterRange(courseSchedules: CourseSchedule): number {
     .filter((quarterCode): quarterCode is number => quarterCode > 0) // Exclude completed courses (0)
     .sort((a, b) => a - b); // Sort ascending
   if (scheduledQuarters.length === 0) {
-    return 12; // Default range
+    return 3; // Default range
   }
   
   const lastQuarter = scheduledQuarters[scheduledQuarters.length - 1];

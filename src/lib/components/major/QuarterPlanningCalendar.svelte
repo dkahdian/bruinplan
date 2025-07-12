@@ -10,10 +10,12 @@
 		quarterLimitsStore, 
 		schedulingService, 
 		getCurrentQuarterCode, 
-		getSmartQuarterRange 
+		getSmartQuarterRange,
+		formatQuarterCode 
 	} from '../../services/shared/schedulingService.js';
 	import type { Major } from '../../types.js';
 	import { getAllMajorCourses } from '../../services/data/loadMajors.js';
+	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import QuarterDisplay from './QuarterDisplay.svelte';
 	
 	export let major: Major;
@@ -23,10 +25,13 @@
 	// Get all courses for this major
 	$: allMajorCourses = getAllMajorCourses(major);
 	
-	// Calculate quarter range - always start from current quarter
-	$: currentQuarter = getCurrentQuarterCode();
-	let quarterRange = getSmartQuarterRange($courseSchedulesStore);
-	$: showPerformanceWarning = quarterRange > 12;
+	// Get all available courses for searching (allow searching through all courses)
+	$: availableCourses = Array.from(get(courseMapStore).values());
+	
+// Calculate quarter range - always start from current quarter
+$: currentQuarter = getCurrentQuarterCode();
+let quarterRange = 3; // Default to 3 quarters
+$: showPerformanceWarning = quarterRange > 12;
 	
 	// Update quarter range when schedules change
 	$: {
@@ -106,6 +111,27 @@
 		schedulingService.scheduleCourse(courseId, 0);
 	}
 	
+	function handleAddCourse(event: CustomEvent<{ quarterCode: number, courseId: string }>) {
+		const { quarterCode, courseId } = event.detail;
+		
+		// Check if course is already scheduled for any quarter
+		const currentSchedule = get(courseSchedulesStore);
+		const currentQuarter = currentSchedule[courseId];
+		
+		if (currentQuarter && currentQuarter !== 0) {
+			// Course is already scheduled, ask user if they want to move it
+			const currentQuarterName = formatQuarterCode(currentQuarter);
+			const newQuarterName = formatQuarterCode(quarterCode);
+			
+			if (confirm(`${courseId} is already scheduled for ${currentQuarterName}. Move to ${newQuarterName}?`)) {
+				schedulingService.scheduleCourse(courseId, quarterCode);
+			}
+		} else {
+			// Course is not scheduled, add it
+			schedulingService.scheduleCourse(courseId, quarterCode);
+		}
+	}
+	
 	function handleNavigateToUnits() {
 		// Navigate to units management page
 		window.location.href = '/units';
@@ -118,16 +144,18 @@
 	}
 </script>
 
-<div class="quarter-planning-calendar">
-	<!-- Header -->
-	<div class="mb-4">
-		<h2 class="text-lg font-semibold mb-2">Quarter Planning</h2>
-		{#if showPerformanceWarning}
-			<div class="bg-yellow-50 border border-yellow-200 rounded p-2 text-sm text-yellow-800 mb-2">
-				⚠️ Showing {quarterRange} quarters. Consider reducing the range for better performance.
-			</div>
-		{/if}
-	</div>
+<div class="quarter-planning-calendar overflow-y-auto h-[90vh]">
+   <!-- Sticky Header -->
+   <div class="sticky top-0 z-10 bg-white pb-2 mb-2 shadow-sm">
+	   <h2 class="text-lg font-semibold mb-2">Quarter Planning</h2>
+	   {#if showPerformanceWarning}
+		   <div class="bg-yellow-50 border border-yellow-200 rounded p-2 text-sm text-yellow-800 mb-2">
+			   ⚠️ Showing {quarterRange} quarters. Consider reducing the range for better performance.
+		   </div>
+	   {/if}
+	   <!-- Slot for summary section -->
+	   <slot name="summary" />
+   </div>
 	
 	<!-- Quarters Display -->
 	<div class="space-y-4">
@@ -138,8 +166,10 @@
 				unitLimit={schedulingService.getQuarterLimit(quarterCode)}
 				isLastQuarter={index === quarters.length - 1}
 				canRemove={quarters.length > 1}
+				availableCourses={availableCourses}
 				on:remove-quarter={(e) => handleRemoveQuarter(e.detail)}
 				on:remove-course={handleRemoveCourse}
+				on:add-course={handleAddCourse}
 				on:navigate-to-units={handleNavigateToUnits}
 				on:course-hover={handleCourseHover}
 			/>
