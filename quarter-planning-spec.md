@@ -437,17 +437,18 @@ This specification provides a complete roadmap for implementing the quarter-base
 ### Step 3: Quarter Planning Sidebar Component
 **Goal**: Build the quarter planning sidebar for major pages
 **Files to create/modify**:
-- `src/lib/components/major/QuarterPlanningCalendar.svelte` (new)
-- `src/lib/components/major/QuarterDisplay.svelte` (new)
-- `src/routes/majors/[majorId]/+page.svelte` (add sidebar)
+  - `src/lib/components/major/QuarterPlanningCalendar.svelte` (new)
+  - `src/lib/components/major/QuarterDisplay.svelte` (new)
+  - `src/routes/majors/[majorId]/+page.svelte` (add sidebar)
 
-**Functions to implement**:
-- Quarter range calculation and display
-- Unit counting and limit warnings
-- Basic course display in quarters (no drag-and-drop yet)
-- Add/remove quarter controls
-
-**Success criteria**: Sidebar appears on major pages, shows quarters and assigned courses
+**Clarifications and Implementation Notes**:
+- Quarter range always starts from the current quarter. Default is 12 quarters, but expands automatically if the user schedules a course further in the future. Range resets after session ends.
+- Sidebar shows "X/Y" units per quarter. Clicking this redirects to a unit management page (to be implemented) for adjusting unit limits (defaults and per-quarter).
+- Course display in quarters shows only course ID and unit count. Tooltip on hover matches the graph tooltip.
+- No minimum number of quarters (other than zero). "Add a quarter" button is visible at the bottom of the sidebar (not fixed), requiring the user to scroll to see it.
+- Sidebar is only shown on the major list view for now (not graph view).
+- For Step 3, only static assignment is implemented. Code should be structured for easy drag-and-drop integration in Step 4.
+- Validation/error indicators will be added in Step 5, but code should be ready for future integration.
 
 ### Step 4: Drag-and-Drop Implementation
 **Goal**: Enable dragging courses from major list to quarter sidebar
@@ -481,19 +482,23 @@ This specification provides a complete roadmap for implementing the quarter-base
 **Success criteria**: Red/orange triangles appear next to courses with validation issues
 
 ### Step 6: Override Management Panel
-**Goal**: Build the collapsible override panel for the bottom of screen
+
+**Goal**: Build the collapsible override panel for the bottom of screen and implement the units management page
 **Files to create/modify**:
-- `src/lib/components/shared/OverridePanel.svelte` (new)
-- `src/routes/+layout.svelte` (add panel)
-- `src/lib/services/shared/schedulingService.ts` (override methods)
+  - `src/lib/components/shared/OverridePanel.svelte` (new)
+  - `src/lib/components/shared/UnitsManagementPage.svelte` (new)
+  - `src/routes/+layout.svelte` (add panel)
+  - `src/routes/units/+page.svelte` (new units management route)
+  - `src/lib/services/shared/schedulingService.ts` (override and unit limit methods)
 
 **Functions to implement**:
-- Override panel toggle and display
-- Individual override controls
-- Auto-open when validation state changes
-- Bulk reset functionality
+  - Override panel toggle and display
+  - Individual override controls
+  - Auto-open when validation state changes
+  - Bulk reset functionality
+  - Units management page for adjusting unit limits (defaults and per-quarter), with reset and save controls
 
-**Success criteria**: Override panel shows active overrides and allows management
+**Success criteria**: Override panel shows active overrides and allows management. Units management page allows users to view and adjust unit limits for quarters and defaults. Note that errors regarding units can also be corrected from the Override panel without needing to visit the Units management page directly.
 
 ### Step 7: Auto-Reassignment and Polish
 **Goal**: Implement past quarter auto-reassignment and final polish

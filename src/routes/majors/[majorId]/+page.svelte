@@ -12,7 +12,7 @@
 		initializeSchedulingService 
 	} from '../../../lib/services/shared/schedulingService.js';
 	import { loadCourses } from '../../../lib/services/data/loadCourses.js';
-	import { MajorSection, MajorGraphView } from '../../../lib/components/major/index.js';
+	import { MajorSection, MajorGraphView, QuarterPlanningCalendar } from '../../../lib/components/major/index.js';
 	import Footer from '../../../lib/components/shared/Footer.svelte';
 	import { loadViewMode, saveViewMode, type ViewMode } from '../../../lib/services/shared/viewModeService.js';
 	
@@ -161,15 +161,25 @@
 	</div>
 	
 	{#if viewMode === 'list'}
-		<!-- List View: Sectioned Requirements -->		
-		<div class="space-y-8">
-			{#each major.sections as section, index}
-				<MajorSection 
-					{section}
-					onToggleCompletion={schedulingService.toggleCourseCompletion.bind(schedulingService)}
-					sectionIndex={index}
-				/>
-			{/each}
+		<!-- List View: Sectioned Requirements with Quarter Planning Sidebar -->
+		<div class="flex gap-6">
+			<!-- Main Content -->
+			<div class="flex-1 space-y-8">
+				{#each major.sections as section, index}
+					<MajorSection 
+						{section}
+						onToggleCompletion={schedulingService.toggleCourseCompletion.bind(schedulingService)}
+						sectionIndex={index}
+					/>
+				{/each}
+			</div>
+			
+			<!-- Quarter Planning Sidebar -->
+			<div class="w-80 flex-shrink-0">
+				<div class="sticky top-4">
+					<QuarterPlanningCalendar {major} />
+				</div>
+			</div>
 		</div>
 	{:else if viewMode === 'graph'}
 		<MajorGraphView
