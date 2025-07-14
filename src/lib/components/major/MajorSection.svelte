@@ -5,7 +5,7 @@
 <script lang="ts">
 	import type { MajorSection as MajorSectionType, Course } from '../../types.js';
 	import { calculateSectionRequiredCount } from '../../services/data/loadMajors.js';
-	import { schedulingService, completedCoursesStore, courseSchedulesStore } from '../../services/shared/schedulingService.js';
+	import { schedulingService, completedCoursesStore, courseSchedulesStore, courseCompletionService } from '../../services/schedulingServices.js';
 	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import MajorSectionHeader from './MajorSectionHeader.svelte';
 	import MajorRequirementsList from './MajorRequirementsList.svelte';
@@ -48,7 +48,7 @@
 			for (const req of requirements) {
 				if (req.type === 'course') {
 					// Check if course is completed
-					if (schedulingService.getCompletedCourseSource(req.courseId) !== null) {
+					if (courseCompletionService.getCompletedCourseSource(req.courseId) !== null) {
 						completedCount++;
 					} else if ((courseSchedules[req.courseId] || 0) > 0) {
 						// Course is scheduled but not completed
@@ -64,7 +64,7 @@
 					
 					for (const option of req.options) {
 						if (option.type === 'course') {
-							if (schedulingService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) !== null) {
+							if (courseCompletionService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) !== null) {
 								groupCompleted++;
 							} else if ((courseSchedules[option.courseId] || 0) > 0) {
 								groupScheduled++;

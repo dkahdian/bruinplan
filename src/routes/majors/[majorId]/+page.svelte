@@ -9,8 +9,9 @@
 	import { 
 		schedulingService, 
 		completedCoursesStore, 
-		initializeSchedulingService 
-	} from '../../../lib/services/shared/schedulingService.js';
+		initializeSchedulingService,
+		courseCompletionService
+	} from '../../../lib/services/schedulingServices.js';
 	import { loadCourses } from '../../../lib/services/data/loadCourses.js';
 	import { MajorSection, QuarterPlanningCalendar } from '../../../lib/components/major/index.js';
 	import Footer from '../../../lib/components/shared/Footer.svelte';
@@ -51,7 +52,7 @@
 			for (const req of requirements) {
 				if (req.type === 'course') {
 					// Use the new scheduling service that automatically handles equivalents
-					if (schedulingService.getCompletedCourseSource(req.courseId) !== null) {
+					if (courseCompletionService.getCompletedCourseSource(req.courseId) !== null) {
 						actualCompleted++;
 					}
 				} else if (req.type === 'group') {
@@ -59,7 +60,7 @@
 					let groupCompleted = 0;
 					for (const option of req.options) {
 						if (option.type === 'course') {
-							if (schedulingService.getCompletedCourseSource(option.courseId) !== null) {
+							if (courseCompletionService.getCompletedCourseSource(option.courseId) !== null) {
 								groupCompleted++;
 							}
 						}

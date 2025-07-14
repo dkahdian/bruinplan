@@ -3,7 +3,7 @@
 
 import type { Course, RequisiteGroup } from '../../types.js';
 import type { GraphNode } from '../graph/types.js';
-import { schedulingService } from './schedulingService.js';
+import { schedulingService, courseCompletionService } from '../schedulingServices.js';
 
 // Configuration for tooltip behavior
 export interface TooltipConfig {
@@ -48,7 +48,7 @@ export class TooltipManager {
    * Default completion toggle handler that updates the store and refreshes tooltips
    */
   private defaultToggleHandler(courseId: string): void {
-    const completionSource = schedulingService.getCompletedCourseSource(courseId);
+    const completionSource = courseCompletionService.getCompletedCourseSource(courseId);
     const isCompleted = completionSource !== null;
     
     if (isCompleted) {
@@ -274,7 +274,7 @@ export class TooltipManager {
       : '';
 
     // Check if course is completed
-    const completionSource = schedulingService.getCompletedCourseSource(course.id);
+    const completionSource = courseCompletionService.getCompletedCourseSource(course.id);
     const isCompleted = completionSource !== null;
     const completedViaEquivalent = completionSource && completionSource !== course.id;
 
@@ -552,7 +552,7 @@ declare global {
 if (typeof window !== 'undefined') {
   window.toggleCourseCompletion = function(courseId: string) {
     // Update completion state
-    const completionSource = schedulingService.getCompletedCourseSource(courseId);
+    const completionSource = courseCompletionService.getCompletedCourseSource(courseId);
     const isCompleted = completionSource !== null;
     
     if (isCompleted) {

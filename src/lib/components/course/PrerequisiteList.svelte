@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { CourseRequirement, Course } from '../../types.js';
-  import { schedulingService } from '../../services/shared/schedulingService.js';
+  import { schedulingService } from '../../services/schedulingServices.js';
 
   export let requisites: CourseRequirement[];
   export let userCompletedCourses: Set<string>;

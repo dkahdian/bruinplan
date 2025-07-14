@@ -3,7 +3,7 @@
 
 import type { Course, CourseRequirement, RequisiteGroup, CourseRequisite } from '../../types.js';
 import type { GraphNode, GraphEdge, GraphBuildOptions, GraphBuildResult } from './types.js';
-import { schedulingService } from '../shared/schedulingService.js';
+import { schedulingService, courseCompletionService } from '../schedulingServices.js';
 import {
   createMissingCourse,
   abbreviateCourseId,
@@ -51,7 +51,7 @@ export function buildPrerequisiteGraph(
       courseId,
       courseMap,
       userCompletedCourses,
-      schedulingService.isCourseEffectivelyCompleted.bind(schedulingService)
+      courseCompletionService.isCourseEffectivelyCompleted.bind(courseCompletionService)
     );
   }
 

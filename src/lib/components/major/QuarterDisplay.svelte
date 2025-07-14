@@ -5,7 +5,13 @@
 -->
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { formatQuarterCode, schedulingService, validationErrorsStore } from '../../services/shared/schedulingService.js';
+	import { 
+		formatQuarterCode, 
+		schedulingService, 
+		validationErrorsStore,
+		handleCourseDragStart,
+		handleCourseDragEnd
+	} from '../../services/schedulingServices.js';
 	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import CourseSearchButton from '../shared/CourseSearchButton.svelte';
 	import ValidationIndicator from '../shared/ValidationIndicator.svelte';
@@ -50,42 +56,16 @@
 	let draggedCourseId: string | null = null;
 
 	// Handle drag start from course items within quarters
-	function handleCourseDragStart(event: DragEvent, courseId: string) {
-		if (!event.dataTransfer) return;
-		
+	function handleInternalCourseDragStart(event: DragEvent, courseId: string) {
 		isDragging = true;
 		draggedCourseId = courseId;
-		
-		// Create a clean, small drag image
-		const dragImg = document.createElement('div');
-		dragImg.className = 'bg-purple-600 text-purple-100 px-3 py-1 rounded text-sm font-medium shadow-lg border border-purple-700';
-		dragImg.textContent = courseId;
-		dragImg.style.position = 'absolute';
-		dragImg.style.top = '-1000px';
-		dragImg.style.left = '-1000px';
-		dragImg.style.zIndex = '1000';
-		
-		document.body.appendChild(dragImg);
-		
-		// Set the custom drag image
-		event.dataTransfer.setDragImage(dragImg, 20, 10);
-		
-		// Clean up the temporary drag image
-		setTimeout(() => {
-			if (document.body.contains(dragImg)) {
-				document.body.removeChild(dragImg);
-			}
-		}, 0);
-		
-		// Set drag data
-		event.dataTransfer.setData('text/plain', courseId);
-		event.dataTransfer.setData('application/x-bruinplan-course', courseId);
-		event.dataTransfer.effectAllowed = 'move';
+		handleCourseDragStart(event, courseId);
 	}
 
-	function handleCourseDragEnd() {
+	function handleInternalCourseDragEnd() {
 		isDragging = false;
 		draggedCourseId = null;
+		handleCourseDragEnd();
 	}
 
 	function handleRemoveQuarter() {
@@ -219,8 +199,8 @@
 					<div 
 						class="flex flex-col p-2 rounded transition-colors cursor-move text-purple-800 {validationBgClass} {isDragging && draggedCourseId === courseItem.id ? 'opacity-50' : ''}"
 						draggable="true"
-						on:dragstart={(e) => handleCourseDragStart(e, courseItem.id)}
-						on:dragend={handleCourseDragEnd}
+						on:dragstart={(e) => handleInternalCourseDragStart(e, courseItem.id)}
+						on:dragend={handleInternalCourseDragEnd}
 						role="listitem"
 						aria-label="Draggable course {courseItem.id}"
 					>

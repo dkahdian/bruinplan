@@ -12,7 +12,7 @@
 		getSmartQuarterRange,
 		formatQuarterCode,
 		initializeSchedulingService 
-	} from '../../services/shared/schedulingService.js';
+	} from '../../services/schedulingServices.js';
 	import type { Major } from '../../types.js';
 	import { getAllMajorCourses } from '../../services/data/loadMajors.js';
 	import { courseMapStore, loadCourses } from '../../services/data/loadCourses.js';

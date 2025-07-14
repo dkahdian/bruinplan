@@ -6,7 +6,7 @@
   import type { GraphNode, GraphEdge } from './services/graph/types.js';
   import { loadCourses } from './services/data/loadCourses.js';
   import { buildPrerequisiteGraph, handlePrerequisiteClick } from './services/graph/index.js';
-  import { completedCoursesStore, schedulingService, initializeSchedulingService } from './services/shared/schedulingService.js';
+  import { completedCoursesStore, schedulingService, initializeSchedulingService } from './services/schedulingServices.js';
   import { loadLegendState } from './services/shared/legendStateService.js';
   
   // Import components
