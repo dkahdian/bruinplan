@@ -17,10 +17,10 @@ interface CourseSchedule {
 
 
 interface ValidationError {
-  type: 'error' | 'warning';
+  type: 'error' | 'warning'; // 'error' shows ⚠️❌, 'warning' shows ⚠️
   courseId: string;
   quarterCode: number;
-  message: string;
+  message: string; // Displayed on hover over entire course item
   prerequisiteId?: string; // For missing prerequisite errors
 }
 ```
@@ -141,23 +141,34 @@ function handleDrop(event: DragEvent) {
 ## 3. Validation System
 
 ### Validation Rules
-**Errors (Red triangles):**
+**Errors (⚠️❌):**
 - Missing enforced prerequisite for scheduled course
 - Course scheduled before its enforced prerequisites
 
-**Warnings (Orange triangles):**
+**Warnings (⚠️):**
 - Course scheduled more than 4 years in future
 
 ### Validation Display
-- **Red triangles**: Appear next to course IDs for errors everywhere they're displayed
-- **Orange triangles**: Appear next to course IDs for warnings everywhere they're displayed
-- **Error details**: Hover/click to see specific validation message
+- **⚠️❌ indicators**: Appear next to course IDs for errors everywhere they're displayed
+- **⚠️ indicators**: Appear next to course IDs for warnings everywhere they're displayed
+- **Error details**: Hover over the entire course item to see specific validation message
+
+#### Message Format
+- **Warning**: ⚠️ emoji only
+- **Error**: ⚠️❌ emoji combination
+- **Single prerequisite missing**: "Missing [Course]"
+- **Multiple prerequisites missing from group**: 
+  - If total remaining group options ≤ 3: "Needs X from {A}, {B}, {C}"
+  - If total remaining > 3: "Needs X from {A}, {B}, {C}...(and Y more)"
+- **Future quarter warning**: "Course scheduled far in the future"
+
+#### Visual Styling
+- **Warning background**: Light orange (bg-orange-100)
+- **Error background**: Darker red (bg-red-200)
+- **Text color**: Dark gray (text-gray-700)
+- **Display**: Inline messages below course ID, not just hover tooltips
 
 
-### Unit Limit Exceeded UI
-When user exceeds quarter limit, show buttons:
-- "Increase limit for just this quarter to X units"
-- "Increase default [summer/non-summer] limit to X units"
 
 ## 4. Auto-Reassignment Logic
 
@@ -228,10 +239,6 @@ export class SchedulingService {
   validateSchedule(): ValidationError[]
   validateCourse(courseId: string): ValidationError[]
   
-  // Quarter limits
-  setQuarterLimit(quarterCode: number, limit: number): void
-  setDefaultLimit(type: 'summer' | 'nonSummer', limit: number): void
-  getQuarterLimit(quarterCode: number): number
   
   // Auto-reassignment
   reassignPastQuarters(): string[] // Returns reassigned course IDs
@@ -276,7 +283,6 @@ function migrateCompletionData(): void {
 ### Step 2: Quarter Planning Interface  
 1. Build `QuarterPlanningCalendar.svelte` component
 2. Implement drag-and-drop scheduling
-3. Add unit limit settings and validation
 
 ### Step 3: Quarter Planning Sidebar Component
 **Goal**: Build the quarter planning sidebar for major pages
@@ -330,11 +336,9 @@ Each course in the major list has two clickable areas with different behaviors:
 
 **Functions to implement**:
 - Prerequisite validation logic
-- Unit limit validation
-- Error/warning triangle display components
-- Validation caching and performance optimization
+- Error/warning emoji display components
 
-**Success criteria**: Red/orange triangles appear next to courses with validation issues
+**Success criteria**: ⚠️❌/⚠️ indicators appear next to courses with validation issues
 
 ### Step 6: Auto-Reassignment and Polish
 **Goal**: Implement past quarter auto-reassignment and final polish
@@ -349,7 +353,7 @@ Each course in the major list has two clickable areas with different behaviors:
 - Final validation and error handling
 - Performance optimizations
 
-**Success criteria**: App automatically handles past quarters, all features work smoothly
+**Success criteria**: App automatically handles past quarters, all features work smoothly with proper validation indicators
 
 ### Additional Considerations:
 - **Math Department Focus**: All course loading will use Math department data only, at least for the time being.

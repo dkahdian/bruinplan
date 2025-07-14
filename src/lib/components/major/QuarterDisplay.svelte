@@ -5,9 +5,10 @@
 -->
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { formatQuarterCode, schedulingService } from '../../services/shared/schedulingService.js';
+	import { formatQuarterCode, schedulingService, validationErrorsStore } from '../../services/shared/schedulingService.js';
 	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import CourseSearchButton from '../shared/CourseSearchButton.svelte';
+	import ValidationIndicator from '../shared/ValidationIndicator.svelte';
 	import type { Course } from '../../types.js';
 
 	export let quarterCode: number;
@@ -29,6 +30,9 @@
 		const course = $courseMapStore.get(courseId);
 		return sum + (course?.units || 0);
 	}, 0);
+	
+	// Subscribe to validation errors
+	$: validationErrors = $validationErrorsStore;
 
 	// Format quarter display
 	$: quarterName = formatQuarterCode(quarterCode);
@@ -207,35 +211,45 @@
 		{#if courseItems.length > 0}
 			<div class="space-y-2">
 				{#each courseItems as courseItem (courseItem.id)}
+					{@const courseErrors = validationErrors.filter(error => error.courseId === courseItem.id)}
+					{@const hasErrors = courseErrors.some(error => error.type === 'error')}
+					{@const hasWarnings = courseErrors.some(error => error.type === 'warning')}
+					{@const validationBgClass = hasErrors ? 'bg-red-200 border-red-300' : hasWarnings ? 'bg-orange-100 border-orange-300' : 'bg-purple-100 border-purple-300'}
+					
 					<div 
-						class="flex items-center justify-between p-2 rounded transition-colors cursor-move bg-purple-100 border-purple-300 text-purple-800 {isDragging && draggedCourseId === courseItem.id ? 'opacity-50' : ''}"
+						class="flex flex-col p-2 rounded transition-colors cursor-move text-purple-800 {validationBgClass} {isDragging && draggedCourseId === courseItem.id ? 'opacity-50' : ''}"
 						draggable="true"
 						on:dragstart={(e) => handleCourseDragStart(e, courseItem.id)}
 						on:dragend={handleCourseDragEnd}
 						role="listitem"
 						aria-label="Draggable course {courseItem.id}"
 					>
-						<div class="flex items-center gap-2">
-							<a
-								href={`/courses/${courseItem.id.replace(/\s+/g, '')}`}
-								class="font-medium text-sm text-purple-800 hover:text-blue-800 flex items-center gap-1"
-								title="View prerequisites for {courseItem.id}"
-								target="_blank"
+						<div class="flex items-center justify-between">
+							<div class="flex items-center gap-2">
+								<a
+									href={`/courses/${courseItem.id.replace(/\s+/g, '')}`}
+									class="font-medium text-sm text-purple-800 hover:text-blue-800 flex items-center gap-1"
+									title="View prerequisites for {courseItem.id}"
+									target="_blank"
+								>
+									{courseItem.id}
+									<span class="text-xs opacity-75">({courseItem.units} units)</span>
+								</a>
+							</div>
+							<button
+								class="text-gray-500 hover:text-red-600 transition-colors"
+								on:click|stopPropagation={() => handleCourseRemove(courseItem.id)}
+								title="Remove from this quarter"
+								aria-label="Remove {courseItem.id} from this quarter"
 							>
-								{courseItem.id}
-								<span class="text-xs opacity-75">({courseItem.units} units)</span>
-							</a>
+								<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+								</svg>
+							</button>
 						</div>
-						<button
-							class="text-gray-500 hover:text-red-600 transition-colors"
-							on:click|stopPropagation={() => handleCourseRemove(courseItem.id)}
-							title="Remove from this quarter"
-							aria-label="Remove {courseItem.id} from this quarter"
-						>
-							<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-							</svg>
-						</button>
+						
+						<!-- Validation Indicator -->
+						<ValidationIndicator errors={validationErrors} courseId={courseItem.id} />
 					</div>
 				{/each}
 			</div>

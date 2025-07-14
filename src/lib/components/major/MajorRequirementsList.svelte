@@ -4,8 +4,9 @@
 -->
 <script lang="ts">
 	import type { MajorRequirement } from '../../types.js';
-	import { schedulingService, completedCoursesStore, courseSchedulesStore, formatQuarterCode } from '../../services/shared/schedulingService.js';
+	import { schedulingService, completedCoursesStore, courseSchedulesStore, formatQuarterCode, validationErrorsStore } from '../../services/shared/schedulingService.js';
 	import { courseMapStore } from '../../services/data/loadCourses.js';
+	import ValidationIndicator from '../shared/ValidationIndicator.svelte';
 	
 	export let requirements: MajorRequirement[];
 	export let onToggleCompletion: (courseId: string) => void;
@@ -14,11 +15,13 @@
 	$: userCompletedCourses = $completedCoursesStore;
 	$: courseMap = $courseMapStore;
 	$: courseSchedules = $courseSchedulesStore;
+	$: validationErrors = $validationErrorsStore;
 	
 	// Force reactivity by depending on all stores
-	$: reactiveKey = [userCompletedCourses, courseMap, courseSchedules];
+	$: reactiveKey = [userCompletedCourses, courseMap, courseSchedules, validationErrors];
 	
 	// Drag and drop functionality with clean visual feedback
+	const flipDurationMs = 300;
 	let isDragging = false;
 	let draggedCourseId: string | null = null;
 	
@@ -68,17 +71,21 @@
 			{@const completedSource = reactiveKey && schedulingService.getCompletedCourseSource(requirement.courseId)}
 			{@const isEffectivelyCompleted = completedSource !== null}
 			{@const isDirectlyCompleted = reactiveKey && userCompletedCourses.has(requirement.courseId)}
-			{@const scheduleCode = reactiveKey && courseSchedules[requirement.courseId] || 0}
-			{@const isScheduled = reactiveKey && scheduleCode > 0}		<!-- Individual Course Requirement -->
+			{@const isScheduled = reactiveKey && schedulingService.getSchedule(requirement.courseId) > 0}
+			{@const courseErrors = reactiveKey && validationErrors.filter(error => error.courseId === requirement.courseId)}
+			{@const hasErrors = courseErrors.some(error => error.type === 'error')}
+			{@const hasWarnings = courseErrors.some(error => error.type === 'warning')}
+			{@const validationBgClass = hasErrors ? 'bg-red-200 border-red-300' : hasWarnings ? 'bg-orange-100 border-orange-300' : (isScheduled && !isDirectlyCompleted) ? 'bg-purple-100 border-purple-300' : ''}
+		<!-- Individual Course Requirement -->
 		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 		<div
-			class="relative flex items-center justify-between p-3 rounded border transition-colors cursor-grab w-full text-left
-					{isEffectivelyCompleted
+			class="relative flex items-center justify-between p-3 rounded border transition-colors drag-handle w-full text-left
+					{validationBgClass || 
+					(isEffectivelyCompleted
 						? 'bg-green-100 hover:bg-green-200 border-green-200'
 						: isScheduled
-						? 'bg-purple-100 border-purple-300 hover:bg-purple-200'
-						: 'bg-gray-50 hover:bg-gray-100 border-gray-200'}
-					{isDragging && draggedCourseId === requirement.courseId ? 'opacity-50' : ''}"
+						? 'theme-scheduled hover:bg-purple-200'
+						: 'bg-gray-50 hover:bg-gray-100 border-gray-200')}"
 			draggable="true"
 			on:dragstart={(e) => handleDragStart(e, requirement.courseId)}
 			on:dragend={handleDragEnd}
@@ -110,15 +117,9 @@
 					>
 						{requirement.courseId}
 						{#if isScheduled}
-							{#if scheduleCode === 1}
-								<span class="ml-2 text-xs bg-green-200 text-green-800 px-2 py-0.5 rounded-full">
-									{formatQuarterCode(scheduleCode)}
-								</span>
-							{:else}
-								<span class="ml-2 text-xs bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full">
-									{formatQuarterCode(scheduleCode)}
-								</span>
-							{/if}
+							<span class="ml-2 text-xs bg-theme-purple-200 text-theme-purple-800 px-2 py-0.5 rounded-full">
+								{formatQuarterCode(schedulingService.getSchedule(requirement.courseId))}
+							</span>
 						{/if}
 					</button>
 				</div>
@@ -143,7 +144,7 @@
 				option.type === 'course' && schedulingService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) !== null
 			).length}
 			{@const groupScheduledCount = reactiveKey && requirement.options.filter(option => 
-				option.type === 'course' && (courseSchedules[option.courseId] || 0) > 0 && 
+				option.type === 'course' && schedulingService.getSchedule(option.courseId) > 0 && 
 				schedulingService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) === null
 			).length}
 			{@const groupRequiredCount = requirement.needs}
@@ -166,18 +167,7 @@
 					<div class="flex-shrink-0 ml-4">
 						<div class="text-sm text-gray-600 text-right">
 							<div class="font-medium">
-								{#if groupCompletedCount > 0}
-									<span class="text-green-600">{groupCompletedCount}/{groupRequiredCount}</span>
-								{/if}
-								{#if groupCompletedCount > 0 && groupPlannedCount - groupCompletedCount > 0 && groupCompletedCount !== groupRequiredCount}
-									<span>| </span>
-								{/if}
-								{#if groupPlannedCount - groupCompletedCount > 0 && groupCompletedCount !== groupRequiredCount}
-									<span class="text-purple-600">{groupPlannedCount - groupCompletedCount}/{groupRequiredCount - groupCompletedCount}</span>
-								{/if}
-								{#if groupCompletedCount == 0 && groupPlannedCount == 0}
-									<span class="text-gray-500">0/{groupRequiredCount}</span>
-								{/if}
+								{groupPlannedCount}/{groupRequiredCount} courses planned
 							</div>
 							<div class="w-16 h-2 bg-gray-200 rounded-full overflow-hidden relative">
 								<!-- Completed courses (green) -->
@@ -202,16 +192,14 @@
 							{@const optionCompletedSource = reactiveKey && schedulingService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds)}
 							{@const isEffectivelyCompleted = optionCompletedSource !== null}
 							{@const isDirectlyCompleted = reactiveKey && userCompletedCourses.has(option.courseId)}
-							{@const optionScheduleCode = reactiveKey && courseSchedules[option.courseId] || 0}
-							{@const isScheduled = reactiveKey && optionScheduleCode > 0}						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+							{@const isScheduled = reactiveKey && schedulingService.getSchedule(option.courseId) > 0}						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 						<div 
-							class="relative flex items-center justify-between p-2 rounded border transition-colors cursor-grab w-full text-left
+							class="relative flex items-center justify-between p-2 rounded border transition-colors drag-handle w-full text-left
 									{isEffectivelyCompleted
 										? 'bg-green-100 hover:bg-green-200 border-green-200' 
 										: isScheduled
-										? 'bg-purple-100 border-purple-300 hover:bg-purple-200'
-										: 'bg-white hover:bg-gray-50 border-gray-200'}
-									{isDragging && draggedCourseId === option.courseId ? 'opacity-50' : ''}"
+										? 'theme-scheduled hover:bg-purple-200'
+										: 'bg-white hover:bg-gray-50 border-gray-200'}"
 							draggable="true"
 							on:dragstart={(e) => handleDragStart(e, option.courseId)}
 							on:dragend={handleDragEnd}
@@ -240,17 +228,11 @@
 										title="View {option.courseId} prerequisites and details (opens in new tab)"
 									>
 										{option.courseId}
-{#if isScheduled}
-	{#if optionScheduleCode === 1}
-		<span class="ml-2 text-xs bg-green-200 text-green-800 px-2 py-0.5 rounded-full">
-			{formatQuarterCode(optionScheduleCode)}
-		</span>
-	{:else}
-		<span class="ml-2 text-xs bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full">
-			{formatQuarterCode(optionScheduleCode)}
-		</span>
-	{/if}
-{/if}
+										{#if isScheduled}
+											<span class="ml-2 text-xs bg-theme-purple-200 text-theme-purple-800 px-2 py-0.5 rounded-full">
+												{formatQuarterCode(schedulingService.getSchedule(option.courseId))}
+											</span>
+										{/if}
 									</button>
 								</div>
 								
