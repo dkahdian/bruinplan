@@ -1,11 +1,10 @@
 import { writable, get } from 'svelte/store';
-import type { CourseSchedule, PrerequisiteOverride, ValidationError } from '../../types.js';
+import type { CourseSchedule, ValidationError } from '../../types.js';
 import { courseMapStore } from '../data/loadCourses.js';
 
 // Storage keys for localStorage
 const STORAGE_KEYS = {
   courseSchedules: 'bruinplan_course_schedules',
-  prerequisiteOverrides: 'bruinplan_prerequisite_overrides',
   lastVisit: 'bruinplan_last_visit'
 };
 
@@ -26,7 +25,6 @@ const QUARTER_TRANSITIONS = {
 
 // Svelte stores for reactive state management
 export const courseSchedulesStore = writable<CourseSchedule>({});
-export const prerequisiteOverridesStore = writable<PrerequisiteOverride[]>([]);
 
 // Derived store for completed courses compatibility
 export const completedCoursesStore = writable<Set<string>>(new Set());
@@ -149,39 +147,6 @@ function saveCourseSchedules(schedules: CourseSchedule): void {
     localStorage.setItem(STORAGE_KEYS.courseSchedules, JSON.stringify(schedules));
   } catch (error) {
     console.error('Error saving course schedules:', error);
-  }
-}
-
-/**
- * Load prerequisite overrides from localStorage
- */
-export function loadPrerequisiteOverrides(): PrerequisiteOverride[] {
-  if (typeof window === 'undefined') return [];
-  
-  try {
-    const stored = localStorage.getItem(STORAGE_KEYS.prerequisiteOverrides);
-    if (stored) {
-      const overrides = JSON.parse(stored) as PrerequisiteOverride[];
-      prerequisiteOverridesStore.set(overrides);
-      return overrides;
-    }
-  } catch (error) {
-    console.error('Error loading prerequisite overrides:', error);
-  }
-  
-  return [];
-}
-
-/**
- * Save prerequisite overrides to localStorage
- */
-function savePrerequisiteOverrides(overrides: PrerequisiteOverride[]): void {
-  if (typeof window === 'undefined') return;
-  
-  try {
-    localStorage.setItem(STORAGE_KEYS.prerequisiteOverrides, JSON.stringify(overrides));
-  } catch (error) {
-    console.error('Error saving prerequisite overrides:', error);
   }
 }
 
@@ -346,48 +311,7 @@ export class SchedulingService {
     courseSchedulesStore.set({});
     saveCourseSchedules({});
   }
-  // Override methods
-  
-  /**
-   * Add a prerequisite override
-   */
-  addOverride(courseId: string, prerequisiteId: string): void {
-    prerequisiteOverridesStore.update(overrides => {
-      const newOverrides = [...overrides];
-      const existingIndex = newOverrides.findIndex(
-        o => o.courseId === courseId && o.prerequisiteId === prerequisiteId
-      );
-      
-      if (existingIndex === -1) {
-        newOverrides.push({ courseId, prerequisiteId });
-      }
-      
-      savePrerequisiteOverrides(newOverrides);
-      return newOverrides;
-    });
-  }
-  
-  /**
-   * Remove a prerequisite override
-   */
-  removeOverride(courseId: string, prerequisiteId: string): void {
-    prerequisiteOverridesStore.update(overrides => {
-      const newOverrides = overrides.filter(
-        o => !(o.courseId === courseId && o.prerequisiteId === prerequisiteId)
-      );
-      savePrerequisiteOverrides(newOverrides);
-      return newOverrides;
-    });
-  }
-  
-  /**
-   * Check if a prerequisite override exists
-   */
-  hasOverride(courseId: string, prerequisiteId: string): boolean {
-    const overrides = get(prerequisiteOverridesStore);
-    return overrides.some(o => o.courseId === courseId && o.prerequisiteId === prerequisiteId);
-  }
-  
+
   // Validation methods (basic structure - will be expanded in later steps)
   
   /**
@@ -442,8 +366,6 @@ export const schedulingService = new SchedulingService();
 
 // Initialize data on module load
 export function initializeSchedulingService(): void {
-  
   loadCourseSchedules();
-  loadPrerequisiteOverrides();
 }
 

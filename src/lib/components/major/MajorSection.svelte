@@ -5,7 +5,7 @@
 <script lang="ts">
 	import type { MajorSection as MajorSectionType, Course } from '../../types.js';
 	import { calculateSectionRequiredCount } from '../../services/data/loadMajors.js';
-	import { schedulingService, completedCoursesStore } from '../../services/shared/schedulingService.js';
+	import { schedulingService, completedCoursesStore, courseSchedulesStore } from '../../services/shared/schedulingService.js';
 	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import MajorSectionHeader from './MajorSectionHeader.svelte';
 	import MajorRequirementsList from './MajorRequirementsList.svelte';
@@ -14,9 +14,10 @@
 	export let onToggleCompletion: (courseId: string) => void;
 	export let sectionIndex: number = 0;
 	
-	// Subscribe to both stores to ensure reactivity
+	// Subscribe to all stores to ensure reactivity
 	$: userCompletedCourses = $completedCoursesStore;
 	$: courseMap = $courseMapStore;
+	$: courseSchedules = $courseSchedulesStore;
 	
 	// Different background colors for different sections
 	const sectionBackgrounds = [
@@ -31,9 +32,10 @@
 	
 	// Calculate completion stats for this section
 	$: {
-		// Force reactivity by depending on both stores
+		// Force reactivity by depending on all stores
 		userCompletedCourses;
 		courseMap;
+		courseSchedules;
 		
 		// Calculate the actual required count (accounting for group selectCount)
 		const totalRequired = calculateSectionRequiredCount(section.requirements);
@@ -48,7 +50,7 @@
 					// Check if course is completed
 					if (schedulingService.getCompletedCourseSource(req.courseId) !== null) {
 						completedCount++;
-					} else if (schedulingService.getSchedule(req.courseId) > 0) {
+					} else if ((courseSchedules[req.courseId] || 0) > 0) {
 						// Course is scheduled but not completed
 						scheduledCount++;
 					}
@@ -64,7 +66,7 @@
 						if (option.type === 'course') {
 							if (schedulingService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) !== null) {
 								groupCompleted++;
-							} else if (schedulingService.getSchedule(option.courseId) > 0) {
+							} else if ((courseSchedules[option.courseId] || 0) > 0) {
 								groupScheduled++;
 							}
 						}
@@ -115,7 +117,18 @@
 			<div class="flex-shrink-0 ml-4">
 				<div class="text-sm text-gray-600 text-right">
 					<div class="font-medium">
-						{sectionStats.planned}/{sectionStats.total} courses planned
+						{#if sectionStats.completed > 0}
+							<span class="text-green-600">{sectionStats.completed}/{sectionStats.total}</span>
+						{/if}
+						{#if sectionStats.completed > 0 && sectionStats.planned - sectionStats.completed > 0 && sectionStats.completed !== sectionStats.total}
+							<span>|</span>
+						{/if}
+						{#if sectionStats.planned - sectionStats.completed > 0 && sectionStats.completed !== sectionStats.total}
+							<span class="text-purple-600">{sectionStats.planned - sectionStats.completed}/{sectionStats.total - sectionStats.completed}</span>
+						{/if}
+						{#if sectionStats.completed === 0 && sectionStats.planned === 0}
+							<span class="text-gray-500">0/{sectionStats.total}</span>
+						{/if}
 					</div>
 					<div class="w-16 h-2 bg-gray-200 rounded-full overflow-hidden relative">
 						<!-- Completed courses (green) -->

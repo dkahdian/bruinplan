@@ -177,12 +177,6 @@ export interface CourseSchedule {
   [courseId: string]: number; // Quarter code: 0 = completed, 125 = Winter 2025, etc.
 }
 
-// Prerequisite override for validation bypassing
-export interface PrerequisiteOverride {
-  courseId: string;
-  prerequisiteId: string;
-}
-
 // Validation error/warning for courses
 export interface ValidationError {
   type: 'error' | 'warning';

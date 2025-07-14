@@ -56,7 +56,7 @@
 
 <div class="relative" bind:this={searchContainer}>
 	<button 
-		class="w-full py-2 px-3 border-2 border-dashed border-gray-300 rounded-lg text-purple-300 hover:border-purple-400 hover:text-purple-100 transition-colors text-sm"
+		class="w-full py-2 px-3 border-2 border-dashed border-gray-300 rounded-lg text-white hover:border-purple-400 hover:text-purple-100 transition-colors text-sm"
 		on:click={() => isSearchExpanded = !isSearchExpanded}
 		type="button"
 	>
@@ -71,7 +71,7 @@
 					type="text"
 					placeholder={placeholder}
 					bind:value={searchQuery}
-					class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm"
+					class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm text-gray-900"
 					autocomplete="off"
 				/>
 			</div>

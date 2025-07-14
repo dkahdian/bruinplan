@@ -14,10 +14,7 @@ interface CourseSchedule {
   [courseId: string]: number; // Quarter code: 1 = completed, 251 = Winter 2025, etc. (0 = not scheduled)
 }
 
-interface PrerequisiteOverride {
-  courseId: string;
-  prerequisiteId: string;
-}
+
 
 interface ValidationError {
   type: 'error' | 'warning';
@@ -42,7 +39,6 @@ interface ValidationError {
 ```typescript
 const STORAGE_KEYS = {
   courseSchedules: 'bruinplan_course_schedules',
-  prerequisiteOverrides: 'bruinplan_prerequisite_overrides',
   lastVisit: 'bruinplan_last_visit' // For auto-reassignment logic
 };
 ```
@@ -107,57 +103,39 @@ interface QuarterRangeSettings {
 - **Scope**: Only courses relevant to the currently viewed major
 
 **Features**:
-- Drag-and-drop course scheduling (using svelte-dnd-action)
+- Drag-and-drop course scheduling (using native HTML5 drag-and-drop)
 - Unit count display
 - Validation error indicators (orange triangles)
 - Quick "mark as completed" option
 
 ### Drag-and-Drop Implementation
-**Library**: svelte-dnd-action v0.9.63+
+**Library**: Native HTML5 drag-and-drop API
+
+The drag-and-drop system uses the native HTML5 drag-and-drop API for consistent cross-browser behavior and better performance. This provides a unified experience whether dragging from the major requirements list to quarters or between quarters.
 **Scope**: List view only (not graph view initially)
 **Features**:
 - Touch device support for mobile accessibility
-- Smooth animations with flip transitions
-- Type-based restrictions for valid drop zones
+- Smooth visual feedback with opacity changes
+- Consistent behavior across all drag operations
 - Keyboard navigation and screen reader support
 
 ```typescript
-// Example implementation in QuarterPlanningCalendar.svelte
-import { dndzone } from "svelte-dnd-action";
-import { flip } from "svelte/animate";
-
-let quarterCourses = [
-  { id: "MATH 31A", name: "Differential and Integral Calculus", units: 4 },
-  { id: "MATH 31B", name: "Integration and Infinite Series", units: 4 }
-];
-
-function handleSort(e) {
-  quarterCourses = e.detail.items;
-  // Update quarter assignments in schedulingService
+// Course drag handlers
+function handleCourseDragStart(event: DragEvent, courseId: string) {
+	event.dataTransfer?.setData('text/plain', courseId);
+	event.dataTransfer?.setData('application/x-bruinplan-course', courseId);
+	event.dataTransfer!.effectAllowed = 'move';
 }
 
-// In template:
-// <section use:dndzone="{ items: quarterCourses, type: 'course-scheduling', flipDurationMs: 300 }"
-//          on:consider={handleSort} 
-//          on:finalize={handleSort}>
-//   {#each quarterCourses as course (course.id)}
-//     <CourseCard {course} />
-//   {/each}
-// </section>
-```
-
-### Override Management
-**Location**: Bottom of screen toggle/panel
-**Purpose**: Remind users of active prerequisite overrides
-**Scope**: Global application across all majors and contexts
-**Persistence**: Stored in localStorage across sessions
-**Limits**: No limit on number of active overrides
-**Bulk Management**: General "Reset" button to clear all localStorage data
-
-```typescript
-// Component: src/lib/components/shared/OverridePanel.svelte
-// Shows list of active overrides with individual toggle switches
-// Format: "MATH 115A: Missing prerequisite MATH 32B [Override Active ✓]"
+// Quarter drop handlers
+function handleDrop(event: DragEvent) {
+	event.preventDefault();
+	const courseId = event.dataTransfer?.getData('application/x-bruinplan-course') || 
+	                 event.dataTransfer?.getData('text/plain');
+	if (courseId) {
+		schedulingService.scheduleCourse(courseId, quarterCode);
+	}
+}
 ```
 
 ## 3. Validation System
@@ -174,7 +152,6 @@ function handleSort(e) {
 - **Red triangles**: Appear next to course IDs for errors everywhere they're displayed
 - **Orange triangles**: Appear next to course IDs for warnings everywhere they're displayed
 - **Error details**: Hover/click to see specific validation message
-- **Override capability**: Individual toggle per validation error
 
 
 ### Unit Limit Exceeded UI
@@ -251,11 +228,6 @@ export class SchedulingService {
   validateSchedule(): ValidationError[]
   validateCourse(courseId: string): ValidationError[]
   
-  // Overrides
-  addOverride(courseId: string, prerequisiteId: string): void
-  removeOverride(courseId: string, prerequisiteId: string): void
-  hasOverride(courseId: string, prerequisiteId: string): boolean
-  
   // Quarter limits
   setQuarterLimit(quarterCode: number, limit: number): void
   setDefaultLimit(type: 'summer' | 'nonSummer', limit: number): void
@@ -305,7 +277,6 @@ function migrateCompletionData(): void {
 1. Build `QuarterPlanningCalendar.svelte` component
 2. Implement drag-and-drop scheduling
 3. Add unit limit settings and validation
-4. Create override management panel
 
 ### Step 3: Quarter Planning Sidebar Component
 **Goal**: Build the quarter planning sidebar for major pages
@@ -365,23 +336,7 @@ Each course in the major list has two clickable areas with different behaviors:
 
 **Success criteria**: Red/orange triangles appear next to courses with validation issues
 
-### Step 6: Override Management Panel
-
-**Goal**: Build the collapsible override panel for the bottom of screen
-**Files to create/modify**:
-  - `src/lib/components/shared/OverridePanel.svelte` (new)
-  - `src/routes/+layout.svelte` (add panel)
-  - `src/lib/services/shared/schedulingService.ts` (override methods)
-
-**Functions to implement**:
-  - Override panel toggle and display
-  - Individual override controls
-  - Auto-open when validation state changes
-  - Bulk reset functionality
-
-**Success criteria**: Override panel shows active overrides and allows management.
-
-### Step 7: Auto-Reassignment and Polish
+### Step 6: Auto-Reassignment and Polish
 **Goal**: Implement past quarter auto-reassignment and final polish
 **Files to modify**:
 - `src/lib/services/shared/schedulingService.ts` (auto-reassignment)

@@ -30,7 +30,6 @@
 		"cytoscape": "^3.32.1",
 		"cytoscape-dagre": "^2.5.0",
 		"cytoscape-fcose": "^2.2.0",
-		"svelte-dnd-action": "^0.9.63",
 		"zod": "^4.0.2"
 	}
 }

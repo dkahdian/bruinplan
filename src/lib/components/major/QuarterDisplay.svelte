@@ -8,8 +8,6 @@
 	import { formatQuarterCode, schedulingService } from '../../services/shared/schedulingService.js';
 	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import CourseSearchButton from '../shared/CourseSearchButton.svelte';
-	import { dndzone } from 'svelte-dnd-action';
-	import { flip } from 'svelte/animate';
 	import type { Course } from '../../types.js';
 
 	export let quarterCode: number;
@@ -35,17 +33,56 @@
 	// Format quarter display
 	$: quarterName = formatQuarterCode(quarterCode);
 
-	// Transform courses for dnd-action
+	// Transform courses for display
 	$: courseItems = courses.map(courseId => ({
 		id: courseId,
 		name: courseId, // Use courseId as name since Course interface doesn't have name
 		units: $courseMapStore.get(courseId)?.units || 0
 	}));
 
-	// Drag and drop configuration
-	const flipDurationMs = 300;
-	let dragDisabled = false;
+	// Drag and drop state
 	let isDraggedOver = false;
+	let isDragging = false;
+	let draggedCourseId: string | null = null;
+
+	// Handle drag start from course items within quarters
+	function handleCourseDragStart(event: DragEvent, courseId: string) {
+		if (!event.dataTransfer) return;
+		
+		isDragging = true;
+		draggedCourseId = courseId;
+		
+		// Create a clean, small drag image
+		const dragImg = document.createElement('div');
+		dragImg.className = 'bg-purple-600 text-purple-100 px-3 py-1 rounded text-sm font-medium shadow-lg border border-purple-700';
+		dragImg.textContent = courseId;
+		dragImg.style.position = 'absolute';
+		dragImg.style.top = '-1000px';
+		dragImg.style.left = '-1000px';
+		dragImg.style.zIndex = '1000';
+		
+		document.body.appendChild(dragImg);
+		
+		// Set the custom drag image
+		event.dataTransfer.setDragImage(dragImg, 20, 10);
+		
+		// Clean up the temporary drag image
+		setTimeout(() => {
+			if (document.body.contains(dragImg)) {
+				document.body.removeChild(dragImg);
+			}
+		}, 0);
+		
+		// Set drag data
+		event.dataTransfer.setData('text/plain', courseId);
+		event.dataTransfer.setData('application/x-bruinplan-course', courseId);
+		event.dataTransfer.effectAllowed = 'move';
+	}
+
+	function handleCourseDragEnd() {
+		isDragging = false;
+		draggedCourseId = null;
+	}
 
 	function handleRemoveQuarter() {
 		if (canRemove) {
@@ -59,11 +96,8 @@
 	}
 
 	function handleCourseAdd(course: Course) {
-		console.log('handleCourseAdd called with:', course.id, 'for quarter:', quarterCode);
-		
 		// Check if course is already scheduled for any quarter
 		const currentSchedule = schedulingService.getSchedule(course.id);
-		console.log('Current schedule for', course.id, ':', currentSchedule);
 		
 		if (currentSchedule && currentSchedule !== 0) {
 			// Course is already scheduled
@@ -74,39 +108,18 @@
 			if (currentSchedule === 1) {
 				if (confirm(`${course.id} was marked complete; move it to ${newQuarterName}?`)) {
 					schedulingService.scheduleCourse(course.id, quarterCode);
-					console.log('Moved completed course', course.id, 'to quarter', quarterCode);
 				}
 			} else {
 				// Course is scheduled but not completed - move without confirmation
 				schedulingService.scheduleCourse(course.id, quarterCode);
-				console.log('Moved scheduled course', course.id, 'to quarter', quarterCode);
 			}
 		} else {
 			// Course is not scheduled, add it
 			schedulingService.scheduleCourse(course.id, quarterCode);
-			console.log('Scheduled new course', course.id, 'to quarter', quarterCode);
 		}
 	}
 
-	// Handle drag and drop
-	function handleDndConsider(e: CustomEvent) {
-		courseItems = e.detail.items;
-	}
-
-	function handleDndFinalize(e: CustomEvent) {
-		courseItems = e.detail.items;
-		
-		// Update the scheduling service with the new course order
-		const newCourseIds = courseItems.map(item => item.id);
-		
-		// For now, we'll just ensure all courses are scheduled to this quarter
-		// In a more advanced implementation, we might preserve ordering
-		newCourseIds.forEach(courseId => {
-			schedulingService.scheduleCourse(courseId, quarterCode);
-		});
-	}
-
-	// Handle external drops (from major list)
+	// Handle external drops (from major list or other quarters)
 	function handleDrop(event: DragEvent) {
 		event.preventDefault();
 		isDraggedOver = false;
@@ -114,38 +127,21 @@
 		// Try to get course data from different drag data types
 		let courseId: string | null = null;
 		
-		// First try the application/x-bruinplan-course format
+		// First try the application/x-bruinplan-course format (our standard format)
 		const bruinplanData = event.dataTransfer?.getData('application/x-bruinplan-course');
 		if (bruinplanData) {
 			courseId = bruinplanData;
-			console.log('Dropped course via bruinplan format:', courseId);
 		} else {
-			// Fallback to JSON format
-			const data = event.dataTransfer?.getData('application/json');
-			if (data) {
-				try {
-					const dragData = JSON.parse(data);
-					if (dragData.type === 'course') {
-						courseId = dragData.courseId;
-						console.log('Dropped course via JSON format:', courseId);
-					}
-				} catch (e) {
-					console.error('Failed to parse drag data:', e);
-				}
+			// Fallback to plain text
+			const textData = event.dataTransfer?.getData('text/plain');
+			if (textData) {
+				courseId = textData;
 			}
 		}
 		
-		// If we got a courseId, schedule it
+		// If we got a courseId, schedule it directly (no confirmation needed for drag/drop)
 		if (courseId) {
-			const course = $courseMapStore.get(courseId);
-			if (course) {
-				console.log('Scheduling course:', courseId, 'to quarter:', quarterCode);
-				handleCourseAdd(course);
-			} else {
-				console.error('Course not found in courseMap:', courseId);
-			}
-		} else {
-			console.warn('No course data found in drag event');
+			schedulingService.scheduleCourse(courseId, quarterCode);
 		}
 	}
 
@@ -174,7 +170,7 @@
 	}
 </script>
 
-<div class="quarter-display border rounded-lg p-4 shadow-sm theme-sidebar {isDraggedOver ? 'drag-over' : ''}"
+<div class="quarter-display border rounded-lg p-4 shadow-sm bg-purple-700 text-white {isDraggedOver ? 'drag-over' : ''}"
 	on:drop={handleDrop}
 	on:dragover={handleDragOver}
 	on:dragenter={handleDragEnter}
@@ -206,32 +202,25 @@
 		</div>
 	</div>
 	
-	<!-- Course List with Drag and Drop -->
+	<!-- Course List -->
 	<div class="space-y-2">
 		{#if courseItems.length > 0}
-			<div
-				use:dndzone={{
-					items: courseItems,
-					flipDurationMs,
-					dragDisabled,
-					type: 'course-scheduling'
-				}}
-				on:consider={handleDndConsider}
-				on:finalize={handleDndFinalize}
-				class="space-y-2"
-			>
+			<div class="space-y-2">
 				{#each courseItems as courseItem (courseItem.id)}
 					<div 
-						class="flex items-center justify-between p-2 rounded transition-colors cursor-move drag-handle theme-scheduled"
-						animate:flip={{ duration: flipDurationMs }}
+						class="flex items-center justify-between p-2 rounded transition-colors cursor-move bg-purple-100 border-purple-300 text-purple-800 {isDragging && draggedCourseId === courseItem.id ? 'opacity-50' : ''}"
+						draggable="true"
+						on:dragstart={(e) => handleCourseDragStart(e, courseItem.id)}
+						on:dragend={handleCourseDragEnd}
+						role="listitem"
+						aria-label="Draggable course {courseItem.id}"
 					>
 						<div class="flex items-center gap-2">
 							<a
 								href={`/courses/${courseItem.id.replace(/\s+/g, '')}`}
-								class="font-medium text-sm hover:text-blue-800 flex items-center gap-1"
+								class="font-medium text-sm text-purple-800 hover:text-blue-800 flex items-center gap-1"
 								title="View prerequisites for {courseItem.id}"
 								target="_blank"
-								style="color: var(--theme-scheduled-text);"
 							>
 								{courseItem.id}
 								<span class="text-xs opacity-75">({courseItem.units} units)</span>
@@ -275,8 +264,7 @@
 	}
 	
 	.quarter-display.drag-over {
-		transform: scale(1.05);
-		border-color: var(--theme-light-purple);
+		border-color: #a78bfa;
 		box-shadow: 0 0 0 2px rgba(167, 139, 250, 0.3);
 	}
 	

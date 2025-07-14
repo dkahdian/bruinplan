@@ -79,6 +79,47 @@
 	
 	// Calculate total completed courses across all majors
 	$: totalGlobalCompleted = $completedCoursesStore.size;
+
+	// Global drop zone for removing courses from plan
+	let isGlobalDragOver = false;
+	
+	function handleGlobalDrop(event: DragEvent) {
+		event.preventDefault();
+		isGlobalDragOver = false;
+		
+		// Try to get course data
+		const courseId = event.dataTransfer?.getData('application/x-bruinplan-course') || 
+		                 event.dataTransfer?.getData('text/plain');
+		
+		if (courseId) {
+			// Remove course from plan (set to 0 = unscheduled)
+			schedulingService.scheduleCourse(courseId, 0);
+		}
+	}
+	
+	function handleGlobalDragOver(event: DragEvent) {
+		event.preventDefault();
+		if (event.dataTransfer) {
+			event.dataTransfer.dropEffect = 'move';
+		}
+	}
+	
+	function handleGlobalDragEnter(event: DragEvent) {
+		event.preventDefault();
+		isGlobalDragOver = true;
+	}
+	
+	function handleGlobalDragLeave(event: DragEvent) {
+		event.preventDefault();
+		// Only set to false if we're actually leaving the main content area
+		const rect = (event.currentTarget as HTMLElement).getBoundingClientRect();
+		const x = event.clientX;
+		const y = event.clientY;
+		
+		if (x < rect.left || x > rect.right || y < rect.top || y > rect.bottom) {
+			isGlobalDragOver = false;
+		}
+	}
 </script>
 
 <svelte:head>
@@ -130,8 +171,22 @@
 	
 	<!-- Main Content - List View -->
 	<div class="flex gap-6">
-		<!-- Main Content -->
-		<div class="flex-1 space-y-8">
+		<!-- Main Content with global drop zone -->
+		<div 
+			class="flex-1 space-y-8 relative {isGlobalDragOver ? 'global-drop-zone' : ''}"
+			on:drop={handleGlobalDrop}
+			on:dragover={handleGlobalDragOver}
+			on:dragenter={handleGlobalDragEnter}
+			on:dragleave={handleGlobalDragLeave}
+			role="region"
+			aria-label="Course removal drop zone"
+		>
+			{#if isGlobalDragOver}
+				<!-- Invisible drop zone overlay that still captures events -->
+				<div class="absolute inset-0 z-10 pointer-events-none">
+				</div>
+			{/if}
+			
 			{#each major.sections as section, index}
 				<MajorSection 
 					{section}
@@ -178,3 +233,9 @@
 </div>
 
 <Footer />
+
+<style>
+	.global-drop-zone {
+		transition: all 0.2s ease;
+	}
+</style>
