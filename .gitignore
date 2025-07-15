@@ -25,3 +25,9 @@ vite.config.ts.timestamp-*
 
 # Github
 .github/
+
+# Raw data
+Data/
+
+# Scripts
+scripts/

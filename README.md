@@ -75,6 +75,7 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 - ✅ **Component-based design** for maintainability and extensibility
 - ✅ **Quarter-based planning system** with drag-and-drop scheduling
 - 🔄 **Data expansion** beyond Mathematics department
+- 🔄 **Basic pages**: about, home, report bug, etc
 
 **🚀 Launch Timeline**: Core functionality is complete and ready. Targeting full MVP launch once data expansion is finished.
 
