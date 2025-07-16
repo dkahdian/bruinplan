@@ -1,0 +1,668 @@
+{
+  "name": "Human Biology and Society BA",
+  "overview": "An interdisciplinary major that provides a strong foundation in social science, evolutionary biology, and genetics. Students learn to critically analyze data, formulate arguments integrating biological and social evidence, and use this knowledge to assess and solve complex real-world problems.",
+  "college": "College of Letters and Science",
+  "department": "Society and Genetics, Institute for",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "learning-outcomes",
+      "title": "Learning Outcomes",
+      "description": "1. Demonstrated strong foundation of knowledge in social science and evolutionary biology and genetics.\n2. Skills to critically analyze and evaluate qualitative and quantitative data and social biological theories.\n3. Formulation of effective and convincing written and oral arguments that integrate biological and social evidence.\n4. Work well in multidisciplinary teams.\n5. Skills at communicating across disciplines and leveraging knowledge from multiple perspectives.\n6. Demonstrated proficiency in at least one area of concentration at the interface between biology and society.\n7. Integration of ethical, legal, and societal concerns in planning, conducting, and assessing research.\n8. Use of societal and biological information to critically assess complex real-world problems and to employ interdisciplinary skills to help solve them.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "entry-to-the-major",
+      "title": "Entry to the Major",
+      "description": "Admission\nAdmission to the Human Biology and Society BA major is by application and competitive, using courses, grades, grade-point averages, and personal statements as minimum standards for consideration. Only a limited number of students are admitted each year. Applicants are not automatically accepted into the major.\n\nStudents must apply for major standing at the beginning of spring quarter of their sophomore year. Applications submitted after the spring quarter deadline are considered during fall quarter of the junior year only as space in the program permits. No applications are considered after fall quarter of the junior year.\n\nPre-major standing is not required to apply for the major. A copy of the major application is available on the department major web page.\n\nPre-Major\nIncoming first years may be admitted as pre-majors on acceptance to UCLA. All other students must first complete Society and Genetics 5, M71A, or M72A, and then contact the undergraduate counselor in 3360 Life Sciences to request pre-major standing.\n\nTransfer Students\nTransfer applicants to the Human Biology and Society BA major with 90 or more units must complete the following preparatory courses prior to admission to UCLA: one year of general biology (the equivalent of Life Sciences 7A, 7B, and 7C), introductory chemistry, one statistics course, one anthropology human evolution course, and two introductory social sciences or history courses. Society and Genetics 5 must be taken at UCLA once a transfer student is admitted to the University.\n\nRefer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "preparation-for-the-major",
+      "title": "Preparation for the Major",
+      "description": "Complete one core course, six required courses, and four social theory courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Core Course",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "SOC GEN 5"},
+            {"type": "course", "courseId": "SOC GEN M71A"},
+            {"type": "course", "courseId": "SOC GEN M72A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete six courses as follows:",
+          "needs": 6,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "ANTHRO 1"
+            },
+            {
+              "type": "group",
+              "title": "Chemistry",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14AE"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7A"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7B"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7C"
+            },
+            {
+              "type": "group",
+              "title": "Statistics",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "STATS 10"},
+                {"type": "course", "courseId": "STATS 13"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Social Theory Courses",
+          "description": "Select four courses (minimum of 16 units) from the following courses or range:\n\n*Note: Only one course from Asian American Studies 10 or 10W may be applied. Only one course from Asian American Studies 20 or 20W may be applied. Only one course from Asian American Studies 40 or 40W may be applied. Only one course from Asian American Studies 50 or 50W may be applied. Only one course from Philosophy 22 or 22W may be applied.*",
+          "needs": 4,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "AF AMER 1"
+            },
+            {
+              "type": "course",
+              "courseId": "AF AMER M5"
+            },
+            {
+              "type": "course",
+              "courseId": "AF AMER 6"
+            },
+            {
+              "type": "course",
+              "courseId": "AM IND M10"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 3"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIA AM 10"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIA AM 10W"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIA AM 20"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIA AM 20W"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIA AM 40"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIA AM 40W"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIA AM 50"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIA AM 50W"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS 10A"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS 10B"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL M30"
+            },
+            {
+              "type": "course",
+              "courseId": "ENVIRON M30"
+            },
+            {
+              "type": "course",
+              "courseId": "GENDER 10"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 3"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 3A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 3B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 3C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 3D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 12A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 12B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 12C"
+            },
+            {
+              "type": "course",
+              "courseId": "HNRS 70A"
+            },
+            {
+              "type": "course",
+              "courseId": "LBR STD M1A"
+            },
+            {
+              "type": "course",
+              "courseId": "LBR STD M1B"
+            },
+            {
+              "type": "course",
+              "courseId": "LBR STD M1CW"
+            },
+            {
+              "type": "course",
+              "courseId": "LBR STD 10"
+            },
+            {
+              "type": "course",
+              "courseId": "MCD BIO 50"
+            },
+            {
+              "type": "course",
+              "courseId": "MCD BIO 60"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 3"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 4"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 6"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 7"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 8"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 22"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 22W"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 10"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 40"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 10"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 20"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 30"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 80"
+            },
+            {
+              "type": "course",
+              "courseId": "SOC GEN 125"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL 1"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL M5"
+            },
+            {
+              "type": "group",
+              "title": "Clusters Range",
+              "description": "Select one course from Clusters M1A through 80CW.",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete 11 to 12 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Society and Genetics Courses",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "SOC GEN 102"},
+            {"type": "course", "courseId": "SOC GEN 105A"},
+            {"type": "course", "courseId": "SOC GEN 105B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Society and Genetics Internship/Research Requirement",
+          "description": "Complete 4 units from the following courses:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "SOC GEN 195CE"},
+            {"type": "course", "courseId": "SOC GEN 196"},
+            {"type": "course", "courseId": "SOC GEN 199"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select six courses (minimum 24 units), with at least 2 courses (8 units) from Society and Genetics, from the following list:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "AN N EA 162"},
+            {"type": "course", "courseId": "AN N EA CM163"},
+            {"type": "course", "courseId": "ANTHRO 100"},
+            {"type": "course", "courseId": "ANTHRO 110"},
+            {"type": "course", "courseId": "ANTHRO 111"},
+            {"type": "course", "courseId": "ANTHRO 124P"},
+            {"type": "course", "courseId": "ANTHRO 124Q"},
+            {"type": "course", "courseId": "ANTHRO 124S"},
+            {"type": "course", "courseId": "ANTHRO 126Q"},
+            {"type": "course", "courseId": "ANTHRO 128P"},
+            {"type": "course", "courseId": "ANTHRO M128Q"},
+            {"type": "course", "courseId": "ANTHRO M128S"},
+            {"type": "course", "courseId": "ANTHRO M128T"},
+            {"type": "course", "courseId": "ANTHRO 131"},
+            {"type": "course", "courseId": "ANTHRO 143"},
+            {"type": "course", "courseId": "ANTHRO M145P"},
+            {"type": "course", "courseId": "ANTHRO 145S"},
+            {"type": "course", "courseId": "ANTHRO M148"},
+            {"type": "course", "courseId": "ANTHRO M150"},
+            {"type": "course", "courseId": "ANTHRO M166Q"},
+            {"type": "course", "courseId": "ARABIC M171"},
+            {"type": "course", "courseId": "ASIA AM 113"},
+            {"type": "course", "courseId": "ASIA AM M117"},
+            {"type": "course", "courseId": "CCAS CM106"},
+            {"type": "course", "courseId": "CCAS M124"},
+            {"type": "course", "courseId": "COMM 101"},
+            {"type": "course", "courseId": "COMM 126"},
+            {"type": "course", "courseId": "COMM M127"},
+            {"type": "course", "courseId": "COMM 148"},
+            {"type": "course", "courseId": "COM SCI C121"},
+            {"type": "course", "courseId": "COM SCI C124"},
+            {"type": "course", "courseId": "DIS STD 101W"},
+            {"type": "course", "courseId": "DIS STD M121"},
+            {"type": "course", "courseId": "DIS STD M148"},
+            {"type": "course", "courseId": "DIS STD M166"},
+            {"type": "course", "courseId": "DIS STD M183"},
+            {"type": "course", "courseId": "EE BIOL 100"},
+            {"type": "course", "courseId": "EE BIOL 116"},
+            {"type": "course", "courseId": "EE BIOL 120"},
+            {"type": "course", "courseId": "EE BIOL 121"},
+            {"type": "course", "courseId": "EE BIOL C126"},
+            {"type": "course", "courseId": "EE BIOL 129"},
+            {"type": "course", "courseId": "EE BIOL 130"},
+            {"type": "course", "courseId": "EE BIOL C135"},
+            {"type": "course", "courseId": "EE BIOL M157"},
+            {"type": "course", "courseId": "EE BIOL 175"},
+            {"type": "course", "courseId": "EE BIOL 176"},
+            {"type": "course", "courseId": "ENGL M118F"},
+            {"type": "course", "courseId": "ENV HLT 100"},
+            {"type": "course", "courseId": "ENV HLT C185A"},
+            {"type": "course", "courseId": "ENV HLT C185B"},
+            {"type": "course", "courseId": "ENVIRON M125"},
+            {"type": "course", "courseId": "ENVIRON M133"},
+            {"type": "course", "courseId": "EPIDEM 100"},
+            {"type": "course", "courseId": "FOOD ST M132"},
+            {"type": "course", "courseId": "FOOD ST M136"},
+            {"type": "course", "courseId": "GENDER M110C"},
+            {"type": "course", "courseId": "GENDER M114"},
+            {"type": "course", "courseId": "GENDER M121"},
+            {"type": "course", "courseId": "GENDER 125"},
+            {"type": "course", "courseId": "GENDER 134"},
+            {"type": "course", "courseId": "GENDER M154P"},
+            {"type": "course", "courseId": "GENDER M162"},
+            {"type": "course", "courseId": "GENDER M164"},
+            {"type": "course", "courseId": "GENDER M165"},
+            {"type": "course", "courseId": "GENDER M167"},
+            {"type": "course", "courseId": "GENDER 171A"},
+            {"type": "course", "courseId": "GENDER M180B"},
+            {"type": "course", "courseId": "GEOG M125"},
+            {"type": "course", "courseId": "GEOG M131"},
+            {"type": "course", "courseId": "GEOG M142"},
+            {"type": "course", "courseId": "GLBL ST 102"},
+            {"type": "course", "courseId": "GLBL ST 104"},
+            {"type": "course", "courseId": "HIST M108C"},
+            {"type": "course", "courseId": "HIST 164D"},
+            {"type": "course", "courseId": "HIST 179A"},
+            {"type": "course", "courseId": "HIST 179B"},
+            {"type": "course", "courseId": "HIST 180A"},
+            {"type": "course", "courseId": "HIST M180B"},
+            {"type": "course", "courseId": "HIST 180C"},
+            {"type": "course", "courseId": "HIST 191B"},
+            {"type": "course", "courseId": "HIST 191C"},
+            {"type": "course", "courseId": "HIST C191D"},
+            {"type": "course", "courseId": "HIST 191E"},
+            {"type": "course", "courseId": "HIST C191F"},
+            {"type": "course", "courseId": "HIST 191G"},
+            {"type": "course", "courseId": "HIST 191I"},
+            {"type": "course", "courseId": "HIST C191J"},
+            {"type": "course", "courseId": "HIST C191K"},
+            {"type": "course", "courseId": "HIST C191L"},
+            {"type": "course", "courseId": "HIST 191M"},
+            {"type": "course", "courseId": "HIST C191N"},
+            {"type": "course", "courseId": "HIST C191O"},
+            {"type": "course", "courseId": "HNRS M143"},
+            {"type": "course", "courseId": "HNRS M152"},
+            {"type": "course", "courseId": "HNRS 177"},
+            {"type": "course", "courseId": "HNRS M183"},
+            {"type": "course", "courseId": "HUM GEN C144"},
+            {"type": "course", "courseId": "HUM GEN CM113"},
+            {"type": "course", "courseId": "LGBTQS M114"},
+            {"type": "course", "courseId": "LING 110"},
+            {"type": "course", "courseId": "LING 114"},
+            {"type": "course", "courseId": "LING 127"},
+            {"type": "course", "courseId": "LING 130"},
+            {"type": "course", "courseId": "LING 132"},
+            {"type": "course", "courseId": "LING C135"},
+            {"type": "course", "courseId": "LING M146"},
+            {"type": "course", "courseId": "LING M150"},
+            {"type": "course", "courseId": "LING 170"},
+            {"type": "course", "courseId": "MCD BIO 138"},
+            {"type": "course", "courseId": "MCD BIO 144"},
+            {"type": "course", "courseId": "MCD BIO 165A"},
+            {"type": "course", "courseId": "MCD BIO 168"},
+            {"type": "course", "courseId": "MCD BIO 172"},
+            {"type": "course", "courseId": "MCD BIO CM156"},
+            {"type": "course", "courseId": "MED HIS M169"},
+            {"type": "course", "courseId": "MIMG 101"},
+            {"type": "course", "courseId": "MIMG 103AL"},
+            {"type": "course", "courseId": "MIMG 158"},
+            {"type": "course", "courseId": "MIMG 168"},
+            {"type": "course", "courseId": "MIMG 185A"},
+            {"type": "course", "courseId": "MIMG C122"},
+            {"type": "course", "courseId": "MIMG CM156"},
+            {"type": "course", "courseId": "NEURBIO M169"},
+            {"type": "course", "courseId": "NEUROSC 180"},
+            {"type": "course", "courseId": "PHILOS 125"},
+            {"type": "course", "courseId": "PHILOS 129"},
+            {"type": "course", "courseId": "PHILOS 130"},
+            {"type": "course", "courseId": "PHILOS 137"},
+            {"type": "course", "courseId": "PHILOS 150"},
+            {"type": "course", "courseId": "PHILOS 153A"},
+            {"type": "course", "courseId": "PHILOS 154"},
+            {"type": "course", "courseId": "PHILOS 155A"},
+            {"type": "course", "courseId": "PHILOS 155B"},
+            {"type": "course", "courseId": "PHILOS 157A"},
+            {"type": "course", "courseId": "PHILOS 157B"},
+            {"type": "course", "courseId": "PHILOS 170"},
+            {"type": "course", "courseId": "PHILOS C154B"},
+            {"type": "course", "courseId": "PHILOS C156"},
+            {"type": "course", "courseId": "PHILOS M124"},
+            {"type": "course", "courseId": "PHILOS M187"},
+            {"type": "course", "courseId": "PHYSCI 111A"},
+            {"type": "course", "courseId": "PHYSCI 111B"},
+            {"type": "course", "courseId": "PHYSCI 140"},
+            {"type": "course", "courseId": "PHYSCI 147"},
+            {"type": "course", "courseId": "PHYSCI 149"},
+            {"type": "course", "courseId": "PHYSCI 177"},
+            {"type": "course", "courseId": "PSYCH 110"},
+            {"type": "course", "courseId": "PSYCH 112A"},
+            {"type": "course", "courseId": "PSYCH 112B"},
+            {"type": "course", "courseId": "PSYCH 115"},
+            {"type": "course", "courseId": "PSYCH 127A"},
+            {"type": "course", "courseId": "PSYCH 129C"},
+            {"type": "course", "courseId": "PSYCH M107"},
+            {"type": "course", "courseId": "PSYCH M117A"},
+            {"type": "course", "courseId": "PSYCH M117B"},
+            {"type": "course", "courseId": "PSYCH M117C"},
+            {"type": "course", "courseId": "PSYCH M140"},
+            {"type": "course", "courseId": "PSYCH M165"},
+            {"type": "course", "courseId": "PUB HLT C150"},
+            {"type": "course", "courseId": "PUB HLT M106"},
+            {"type": "course", "courseId": "SOC GEN 108"},
+            {"type": "course", "courseId": "SOC GEN 120"},
+            {"type": "course", "courseId": "SOC GEN 121"},
+            {"type": "course", "courseId": "SOC GEN 130"},
+            {"type": "course", "courseId": "SOC GEN 134"},
+            {"type": "course", "courseId": "SOC GEN 141"},
+            {"type": "course", "courseId": "SOC GEN 146"},
+            {"type": "course", "courseId": "SOC GEN 160"},
+            {"type": "course", "courseId": "SOC GEN 161"},
+            {"type": "course", "courseId": "SOC GEN 162"},
+            {"type": "course", "courseId": "SOC GEN 163"},
+            {"type": "course", "courseId": "SOC GEN 164"},
+            {"type": "course", "courseId": "SOC GEN 165"},
+            {"type": "course", "courseId": "SOC GEN 174"},
+            {"type": "course", "courseId": "SOC GEN 175"},
+            {"type": "course", "courseId": "SOC GEN 180"},
+            {"type": "course", "courseId": "SOC GEN 188"},
+            {"type": "course", "courseId": "SOC GEN 195CE"},
+            {"type": "course", "courseId": "SOC GEN 197"},
+            {"type": "course", "courseId": "SOC GEN 199"},
+            {"type": "course", "courseId": "SOC GEN M113"},
+            {"type": "course", "courseId": "SOC GEN M132"},
+            {"type": "course", "courseId": "SOC GEN M133"},
+            {"type": "course", "courseId": "SOC GEN M136"},
+            {"type": "course", "courseId": "SOC GEN M142"},
+            {"type": "course", "courseId": "SOC GEN M143"},
+            {"type": "course", "courseId": "SOC GEN M157"},
+            {"type": "course", "courseId": "SOC GEN M166"},
+            {"type": "course", "courseId": "SOC GEN M183"},
+            {"type": "course", "courseId": "SOC WLF 162"},
+            {"type": "course", "courseId": "SOC WLF M140"},
+            {"type": "course", "courseId": "SOCIOL 130"},
+            {"type": "course", "courseId": "SOCIOL 132"},
+            {"type": "course", "courseId": "SOCIOL 134"},
+            {"type": "course", "courseId": "SOCIOL 138"},
+            {"type": "course", "courseId": "SOCIOL 143"},
+            {"type": "course", "courseId": "SOCIOL 145"},
+            {"type": "course", "courseId": "SOCIOL 154"},
+            {"type": "course", "courseId": "SOCIOL 156"},
+            {"type": "course", "courseId": "SOCIOL 170"},
+            {"type": "course", "courseId": "SOCIOL M115"},
+            {"type": "course", "courseId": "SOCIOL M136"},
+            {"type": "course", "courseId": "SOCIOL M144"},
+            {"type": "course", "courseId": "SOCIOL M148"},
+            {"type": "course", "courseId": "SOCIOL M162"},
+            {"type": "course", "courseId": "SOCIOL M164"},
+            {"type": "course", "courseId": "URBN PL M165"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optional-subfocus-areas",
+      "title": "Optional Subfocus Areas",
+      "description": "The subfocus options are designed and recommended for students who intend a career in medicine or allied health services or are planning to go on to graduate school in the life or health sciences. Students may optionally select any subfocus area as part of the required elective courses for the major.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Cell Development",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MCD BIO 138"},
+            {"type": "course", "courseId": "MCD BIO 165A"},
+            {"type": "course", "courseId": "MCD BIO 168"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Ecology and Evolutionary Biology",
+          "description": "Select three courses from:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "ANTHRO 124P"},
+            {"type": "course", "courseId": "ANTHRO 124S"},
+            {"type": "course", "courseId": "ANTHRO 126Q"},
+            {"type": "course", "courseId": "ANTHRO 128P"},
+            {"type": "course", "courseId": "EE BIOL 100"},
+            {"type": "course", "courseId": "EE BIOL 116"},
+            {"type": "course", "courseId": "EE BIOL 120"},
+            {"type": "course", "courseId": "EE BIOL 121"},
+            {"type": "course", "courseId": "EE BIOL C126"},
+            {"type": "course", "courseId": "EE BIOL 129"},
+            {"type": "course", "courseId": "EE BIOL 130"},
+            {"type": "course", "courseId": "EE BIOL C135"},
+            {"type": "course", "courseId": "EE BIOL 175"},
+            {"type": "course", "courseId": "EE BIOL 176"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Microbiology and Immunology",
+          "description": "Complete the following two courses: MIMG 101, MIMG 185A. And select one additional course from the following list:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MIMG 101"},
+            {"type": "course", "courseId": "MIMG 185A"},
+            {"type": "course", "courseId": "MIMG 103AL"},
+            {"type": "course", "courseId": "MIMG 106"},
+            {"type": "course", "courseId": "MIMG 107"},
+            {"type": "course", "courseId": "MIMG 158"},
+            {"type": "course", "courseId": "MIMG 168"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Molecular Biology and Genomics",
+          "description": "Complete the following two courses: MCD BIO 144, MCD BIO 172. And select one additional course from the following list:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MCD BIO 144"},
+            {"type": "course", "courseId": "MCD BIO 172"},
+            {"type": "course", "courseId": "COM SCI C124"},
+            {"type": "course", "courseId": "HUM GEN C144"},
+            {"type": "course", "courseId": "MIMG C122"},
+            {"type": "course", "courseId": "MIMG 158"},
+            {"type": "course", "courseId": "MCD BIO CM156"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physiology",
+          "description": "Complete the following two courses: PHYSCI 111A, PHYSCI 111B. And select one additional course from the following list:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PHYSCI 111A"},
+            {"type": "course", "courseId": "PHYSCI 111B"},
+            {"type": "course", "courseId": "PHYSCI 147"},
+            {"type": "course", "courseId": "PHYSCI 149"},
+            {"type": "course", "courseId": "PHYSCI 177"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Population Genetics",
+          "description": "Select two courses from COM SCI C124, EE BIOL C135, SOC GEN 120. And select one course from EE BIOL 120, EE BIOL 121, HUM GEN C144.",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "COM SCI C124"},
+            {"type": "course", "courseId": "EE BIOL C135"},
+            {"type": "course", "courseId": "SOC GEN 120"},
+            {"type": "course", "courseId": "EE BIOL 120"},
+            {"type": "course", "courseId": "EE BIOL 121"},
+            {"type": "course", "courseId": "HUM GEN C144"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Psychology and Mental Health",
+          "description": "Select three courses from:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PSYCH M107"},
+            {"type": "course", "courseId": "PSYCH 112A"},
+            {"type": "course", "courseId": "PSYCH 112B"},
+            {"type": "course", "courseId": "PSYCH 115"},
+            {"type": "course", "courseId": "PSYCH 127A"},
+            {"type": "course", "courseId": "PSYCH 129C"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors-program",
+      "title": "Honors Program",
+      "description": "To receive departmental honors, students must take each course in the major for a letter grade and complete all upper-division courses in the major with an overall grade-point average of 3.5 or better. For highest departmental honors, students must complete a research project and receive a grade of A or better in Society and Genetics 108, 197, or 199.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "Policies",
+      "description": "Preparation for the Major Policies\nEach course must be taken for a letter grade, and students must complete all pre-major courses with a cumulative minimum grade-point average of 2.9.\n\nThe Major Policies\nEach course must be taken for a letter grade and passed with a grade of C\u2013 or better, and all courses must be completed with a cumulative minimum grade-point average of 2.0.",
+      "requirements": [
+      ]
+    }
+  ]
+}

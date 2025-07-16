@@ -1,0 +1,347 @@
+{
+  "name": "Ecology, Behavior, and Evolution BS",
+  "overview": "The Ecology, Behavior, and Evolution major is appropriate for students preparing for graduate study in ecology, behavior, and evolution or for employment in areas such as environmental biology, animal behavior, conservation, teaching, museum work, and governmental positions dealing with environmental issues of wide importance and impact. A strong field component involving study in terrestrial and marine locales such as coastal, desert, and mountain environments in California and the Southwest and in the Neotropics is required.",
+  "college": "College of Letters and Science",
+  "department": "Ecology and Evolutionary Biology",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major (Life Science Core Curriculum)",
+      "description": "Complete courses in Chemistry, Life Sciences, Mathematics, Statistics, and Physics as specified below.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Chemistry",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry 14 series",
+              "description": "Complete all courses in this series.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"},
+                {"type": "course", "courseId": "CHEM 14D"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Chemistry 20 and 30 series",
+              "description": "Complete all courses in this series.",
+              "needs": 6,
+              "options": [
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"},
+                {"type": "course", "courseId": "CHEM 30B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Life Sciences",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Life Sciences 30 series",
+              "description": "Complete both courses in this series.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 3 series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 31 series",
+              "description": "Complete three courses from this series.",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Calculus I",
+                  "description": "Select one course:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "MATH 31A"},
+                    {"type": "course", "courseId": "MATH 31AL"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 32A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Statistics",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 40"},
+            {"type": "course", "courseId": "STATS 13"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Physics 1 series",
+              "description": "Complete all courses in this series.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 5 series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete the following courses (40 to 44 units) as follows: 4 units of morphology and systematics, 4 units of physiology, 12 units of ecology, behavior, and evolution, 12 to 16 units for the capstone field quarter, and 8 units of electives.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Morphology and Systematics",
+          "description": "Select at least four units (one course) from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "EE BIOL 101"},
+            {"type": "course", "courseId": "EE BIOL 103"},
+            {"type": "course", "courseId": "EE BIOL 104"},
+            {"type": "course", "courseId": "EE BIOL 105"},
+            {"type": "course", "courseId": "EE BIOL 110"},
+            {"type": "course", "courseId": "EE BIOL 111"},
+            {"type": "course", "courseId": "EE BIOL 112"},
+            {"type": "course", "courseId": "EE BIOL 113A"},
+            {"type": "course", "courseId": "EE BIOL 114A"},
+            {"type": "course", "courseId": "EE BIOL 115"},
+            {"type": "course", "courseId": "EE BIOL 117"},
+            {"type": "course", "courseId": "EE BIOL 130"},
+            {"type": "course", "courseId": "EE BIOL 140"},
+            {"type": "course", "courseId": "EE BIOL 144L"},
+            {"type": "course", "courseId": "EE BIOL M157"},
+            {"type": "course", "courseId": "EE BIOL 167"},
+            {"type": "course", "courseId": "EE BIOL 167L"},
+            {"type": "course", "courseId": "EE BIOL 169"},
+            {"type": "course", "courseId": "EE BIOL 184"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physiology",
+          "description": "Select at least four units (one course) from the following list. Students with credit for EE BIOL 170 cannot also take PHYSCI 166.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "EE BIOL 117"},
+            {"type": "course", "courseId": "EE BIOL M157"},
+            {"type": "course", "courseId": "EE BIOL 162"},
+            {"type": "course", "courseId": "EE BIOL 162L"},
+            {"type": "course", "courseId": "EE BIOL 169"},
+            {"type": "course", "courseId": "EE BIOL 170"},
+            {"type": "course", "courseId": "PHYSCI 165"},
+            {"type": "course", "courseId": "PHYSCI 166"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Ecology, Behavior, and Evolution",
+          "description": "Select at least 12 units (three courses) from the following list. Students with credit for Life Sciences 4 cannot also take course 107. Students with credit for EE BIOL 120 cannot also take course 185.",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "ANTHRO 128P"},
+            {"type": "course", "courseId": "EE BIOL M178"},
+            {"type": "course", "courseId": "EE BIOL CM173"},
+            {"type": "course", "courseId": "EE BIOL 100"},
+            {"type": "course", "courseId": "EE BIOL 113A"},
+            {"type": "course", "courseId": "EE BIOL 113AL"},
+            {"type": "course", "courseId": "EE BIOL 116"},
+            {"type": "course", "courseId": "EE BIOL C119A"},
+            {"type": "course", "courseId": "EE BIOL C119B"},
+            {"type": "course", "courseId": "EE BIOL 120"},
+            {"type": "course", "courseId": "EE BIOL 121"},
+            {"type": "course", "courseId": "EE BIOL 122"},
+            {"type": "course", "courseId": "EE BIOL C126"},
+            {"type": "course", "courseId": "EE BIOL 128"},
+            {"type": "course", "courseId": "EE BIOL 129"},
+            {"type": "course", "courseId": "EE BIOL 130"},
+            {"type": "course", "courseId": "EE BIOL 133"},
+            {"type": "course", "courseId": "EE BIOL C135"},
+            {"type": "course", "courseId": "EE BIOL 136"},
+            {"type": "course", "courseId": "EE BIOL 137"},
+            {"type": "course", "courseId": "EE BIOL 142"},
+            {"type": "course", "courseId": "EE BIOL 143"},
+            {"type": "course", "courseId": "EE BIOL 144"},
+            {"type": "course", "courseId": "EE BIOL 144L"},
+            {"type": "course", "courseId": "EE BIOL C146"},
+            {"type": "course", "courseId": "EE BIOL 149"},
+            {"type": "course", "courseId": "EE BIOL 150"},
+            {"type": "course", "courseId": "EE BIOL 150L"},
+            {"type": "course", "courseId": "EE BIOL 151A"},
+            {"type": "course", "courseId": "EE BIOL 152"},
+            {"type": "course", "courseId": "EE BIOL 153"},
+            {"type": "course", "courseId": "EE BIOL 154"},
+            {"type": "course", "courseId": "EE BIOL 155"},
+            {"type": "course", "courseId": "EE BIOL M157"},
+            {"type": "course", "courseId": "EE BIOL 161"},
+            {"type": "course", "courseId": "EE BIOL 161L"},
+            {"type": "course", "courseId": "EE BIOL 162"},
+            {"type": "course", "courseId": "EE BIOL 167"},
+            {"type": "course", "courseId": "EE BIOL 167L"},
+            {"type": "course", "courseId": "EE BIOL 168"},
+            {"type": "course", "courseId": "EE BIOL 169"},
+            {"type": "course", "courseId": "EE BIOL C174"},
+            {"type": "course", "courseId": "EE BIOL 175"},
+            {"type": "course", "courseId": "EE BIOL 183"},
+            {"type": "course", "courseId": "EE BIOL 184"},
+            {"type": "course", "courseId": "EE BIOL 185"},
+            {"type": "course", "courseId": "EE BIOL 186"},
+            {"type": "course", "courseId": "LIFESCI 107"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Field Quarter",
+          "description": "Complete one capstone field quarter (12 to 16 units) from the Field Biology Quarter (FBQ), Marine Biology Quarter (MBQ), joint Field Marine Biology Quarter (FMBQ), or a pre-approved equivalent (see undergraduate adviser). The quarter consists of a combination of field courses specific to the program.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select at least 8 units (two courses) from upper-division courses in Anthropology (ANTHRO 128P), Chemistry, Earth, Planetary, and Space Sciences, Ecology and Evolutionary Biology, Geography, Life Sciences (LIFESCI 107), Mathematics, Microbiology, Molecular, Cell, and Developmental Biology (MCD BIO 172), or Physics. See the catalog for specific course restrictions.",
+          "needs": 2,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "An overall GPA of 3.4 and a major GPA of 3.4 are required for graduation with honors. Highest honors are awarded to majors with a 3.6 GPA overall and in the major who have successfully completed the following courses.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Highest Honors Requirements",
+          "description": "Complete both courses for consideration for highest honors.",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "EE BIOL 198A"},
+            {"type": "course", "courseId": "EE BIOL 198B"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "specializations",
+      "title": "Optional Specializations",
+      "description": "Students may optionally select a specialization.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Optional Specialization",
+          "description": "Choose one specialization (optional).",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Computing Specialization",
+              "description": "Majors may select a specialization in Computing by (1) satisfying all requirements for the BS degree, (2) completing the specified Program in Computing courses, and (3) completing one additional specified course. A grade of C\u2013 or better is required in each course, with a combined GPA in the specialization of at least 2.0.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Program in Computing",
+                  "description": "Complete the following courses:",
+                  "needs": 5,
+                  "options": [
+                    {"type": "course", "courseId": "COMPTNG 10A"},
+                    {"type": "course", "courseId": "COMPTNG 10B"},
+                    {"type": "course", "courseId": "COMPTNG 10C"},
+                    {"type": "course", "courseId": "COMPTNG 30"},
+                    {"type": "course", "courseId": "COMPTNG 60"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Additional Course",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "COM SCI CM186"},
+                    {"type": "course", "courseId": "PSYCH 186A"},
+                    {"type": "course", "courseId": "PSYCH 186B"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

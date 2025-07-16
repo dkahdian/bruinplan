@@ -1,0 +1,155 @@
+{
+  "name": "Dance BA",
+  "overview": "All students take a set of courses as preparation for the Dance major that focus on the integration of dance and critical analysis. When students enter the major, they continue their studies of dance technique, composition, and analysis, and they also enroll in a primary and secondary research area from three options: (1) creative inquiry as research, (2) critical dance studies, and (3) dance and civic engagement. Students select one area as their primary area and another as their secondary area.",
+  "college": "School of the Arts and Architecture",
+  "department": "World Arts and Cultures/Dance",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete the following seven courses:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Preparatory Courses",
+          "description": "Complete all seven of the following courses.",
+          "needs": 7,
+          "options": [
+            {"type": "course", "courseId": "DANCE 1"},
+            {"type": "course", "courseId": "DANCE 16"},
+            {"type": "course", "courseId": "DANCE 44"},
+            {"type": "course", "courseId": "DANCE 45"},
+            {"type": "course", "courseId": "DANCE 67A"},
+            {"type": "course", "courseId": "DANCE 67B"},
+            {"type": "course", "courseId": "DANCE 70"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete Dance 101, two courses in the Dance 117 series, 12 units in Areas, and 40 units in Movement Arts/Dance as follows.",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "DANCE 101"
+        },
+        {
+          "type": "group",
+          "title": "Required Courses - Theories and Methods in Dance Composition",
+          "description": "Select two courses from:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "DANCE 117A"},
+            {"type": "course", "courseId": "DANCE 117B"},
+            {"type": "course", "courseId": "DANCE 117C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Areas",
+          "description": "Select 12 units (minimum three courses) from the following areas, or other upper-division courses with faculty approval. No more than 8 units of World Arts and Cultures 160 may be applied toward this area.",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "DANCE 114"},
+            {"type": "course", "courseId": "DANCE 116"},
+            {"type": "course", "courseId": "DANCE 117C"},
+            {"type": "course", "courseId": "DANCE 118"},
+            {"type": "course", "courseId": "DANCE C122"},
+            {"type": "course", "courseId": "DANCE C171"},
+            {"type": "course", "courseId": "DANCE 174A"},
+            {"type": "course", "courseId": "DANCE C174B"},
+            {"type": "course", "courseId": "DANCE C180"},
+            {"type": "course", "courseId": "DANCE C145XP"},
+            {"type": "course", "courseId": "DANCE C152"},
+            {"type": "course", "courseId": "DANCE M157"},
+            {"type": "course", "courseId": "DANCE 160"},
+            {"type": "course", "courseId": "DANCE 182"},
+            {"type": "course", "courseId": "WL ARTS 199"},
+            {"type": "course", "courseId": "DANCE CM168"},
+            {"type": "course", "courseId": "DANCE C184"},
+            {"type": "course", "courseId": "WL ARTS 100A"},
+            {"type": "course", "courseId": "WL ARTS 100B"},
+            {"type": "course", "courseId": "WL ARTS 103"},
+            {"type": "course", "courseId": "WL ARTS 144"},
+            {"type": "course", "courseId": "WL ARTS 160"},
+            {"type": "course", "courseId": "WL ARTS 177XP"},
+            {"type": "course", "courseId": "WL ARTS 195"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Movement Arts/Dance Practices: Group 1",
+          "description": "Select 30 of the total 40 units from the following. A minimum of 6 units of a first style and 4 units of a second style must be at the advanced level.",
+          "needs": 10,
+          "options": [
+            {"type": "course", "courseId": "DANCE 6"},
+            {"type": "course", "courseId": "DANCE 9"},
+            {"type": "course", "courseId": "DANCE 13"},
+            {"type": "course", "courseId": "DANCE 15"},
+            {"type": "course", "courseId": "DANCE 16"},
+            {"type": "course", "courseId": "DANCE 56"},
+            {"type": "course", "courseId": "DANCE 59"},
+            {"type": "course", "courseId": "DANCE 63"},
+            {"type": "course", "courseId": "DANCE 65"},
+            {"type": "course", "courseId": "DANCE C106A"},
+            {"type": "course", "courseId": "DANCE C109A"},
+            {"type": "course", "courseId": "DANCE C113A"},
+            {"type": "course", "courseId": "DANCE C115"},
+            {"type": "course", "courseId": "DANCE 116"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Movement Arts/Dance Practices: Group 2",
+          "description": "Ten of the total 40 units may be selected from the following. No more than 8 units of World Arts and Cultures 78 or 178 may be applied toward this requirement.",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "DANCE 5"},
+            {"type": "course", "courseId": "DANCE 10"},
+            {"type": "course", "courseId": "DANCE 11"},
+            {"type": "course", "courseId": "DANCE 12"},
+            {"type": "course", "courseId": "DANCE 16"},
+            {"type": "course", "courseId": "DANCE 52"},
+            {"type": "course", "courseId": "DANCE 60"},
+            {"type": "course", "courseId": "DANCE C112A"},
+            {"type": "course", "courseId": "DANCE 116"},
+            {"type": "course", "courseId": "DANCE 160"},
+            {"type": "course", "courseId": "WL ARTS 55"},
+            {"type": "course", "courseId": "WL ARTS 78"},
+            {"type": "course", "courseId": "WL ARTS 80"},
+            {"type": "course", "courseId": "WL ARTS 178"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "senior_project",
+      "title": "Senior Project",
+      "description": "Students may participate in a senior project consisting of 8 additional units. The project provides students with an opportunity to demonstrate mastery and integration of knowledge and learned abilities from the major. The project may take various forms\u2014from choreographic performance projects or an academic research paper to field/internship work in an identified area of research focus.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Senior Project Option",
+          "description": "With faculty advising, students must declare their intent to participate by spring quarter of their junior year. They identify a faculty mentor and work closely with that person on the development of the project, submitting a senior project proposal for faculty approval by the beginning of the senior year. In their senior year they enroll in a two-term course sequence to coordinate and present their research findings. Students must have a minimum of 8 units in Creative Inquiry as Research to apply for the senior project.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Senior Project Courses",
+              "description": "Complete the two-term course sequence.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "DANCE 186A"},
+                {"type": "course", "courseId": "DANCE 186B"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "name": "Biophysics BS",
+  "overview": "The goal of the Biophysics major is to provide students with an undergraduate background that will enable them to enter competitive graduate programs in biophysics, molecular biology, and biological physics. It also aims at providing students with a solid, quantitative background for careers in the medical field of the future as well as in molecular biology, neuroscience, and biological physics which are all emerging as important and rapidly developing areas of physics. The major is designed to provide students with a flexible scientific/technical training that allows them to explore these different career paths and tailor their class work to their scientific interests. The program aims at providing an opportunity to the students to become scientific leaders, bringing the analytic and experimental techniques of different fields to bear on the fascinating world of the physics of living systems.",
+  "college": "College of Letters and Science",
+  "department": "Physics and Astronomy",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 16 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Complete the following seven courses:",
+          "needs": 7,
+          "options": [
+            {
+              "type": "group",
+              "title": "Physics 1A Requirement",
+              "description": "Select one course from the Physics 1 or 1 Honors series.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1AH"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 1B Requirement",
+              "description": "Select one course from the Physics 1 or 1 Honors series.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1BH"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 1C Requirement",
+              "description": "Select one course from the Physics 1 or 1 Honors series.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 1CH"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 4AL"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 4BL"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 17"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 32"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Chemistry",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "CHEM 20B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Life Sciences",
+          "description": "Complete the following course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 7A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Complete the following six courses. Students may select Mathematics 31A or 31AL.",
+          "needs": 6,
+          "options": [
+            {
+              "type": "group",
+              "title": "Calculus I",
+              "description": "Select one course.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31AL"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 33A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 33B"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Recommended",
+          "description": "The following course is recommended:",
+          "needs": 0,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 18L"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 12 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Physics",
+          "description": "Complete the following nine courses:",
+          "needs": 9,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 105A"},
+            {"type": "course", "courseId": "PHYSICS 110A"},
+            {"type": "course", "courseId": "PHYSICS 110B"},
+            {"type": "course", "courseId": "PHYSICS 112"},
+            {"type": "course", "courseId": "PHYSICS 115A"},
+            {"type": "course", "courseId": "PHYSICS 115B"},
+            {"type": "course", "courseId": "PHYSICS M180G"},
+            {"type": "course", "courseId": "PHYSICS C187A"},
+            {"type": "course", "courseId": "PHYSICS C187B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Electives",
+          "description": "Select three additional upper-division elective courses from one group or among the three groups:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "NEUROSC M101A"},
+            {"type": "course", "courseId": "PHYSICS 170A"},
+            {"type": "course", "courseId": "PHYSICS C186"},
+            {"type": "course", "courseId": "PHYSICS 144"},
+            {"type": "course", "courseId": "MECH&AE C286"},
+            {"type": "course", "courseId": "CHEM 153A"},
+            {"type": "course", "courseId": "CHEM 153L"},
+            {"type": "course", "courseId": "MCD BIO 100"},
+            {"type": "course", "courseId": "MCD BIO 165A"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "Senior majors in Biophysics with a 3.5 grade-point average in upper-division major courses are eligible for the honors program in biophysics. To receive honors and highest honors at graduation, the grade-point average must remain at 3.5 and 3.75 or better, respectively. In addition to completing all courses required for the major, students must complete two 4-unit terms of Physics 199.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Research",
+          "description": "Complete two 4-unit terms of Physics 199.",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 199"},
+            {"type": "course", "courseId": "PHYSICS 199"}
+          ]
+        }
+      ]
+    }
+  ]
+}

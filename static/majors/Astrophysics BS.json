@@ -1,0 +1,219 @@
+{
+  "name": "Astrophysics BS",
+  "overview": "The Astrophysics BS program equips students with a strong foundation in physics and mathematics, applying this knowledge to understand astronomical phenomena like planets, stars, galaxies, and cosmology. The curriculum emphasizes analytical skills, laboratory techniques, and data interpretation, preparing graduates for careers in science, teaching, or further academic pursuits.",
+  "college": "College of Letters and Science",
+  "department": "Physics and Astronomy",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete 15 courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "ASTR 81"
+        },
+        {
+          "type": "group",
+          "title": "Physics Mechanics",
+          "description": "Select one of the following Mechanics courses. The Honors series is recommended for eligible students.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 1AH"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics Oscillations, Waves, Electric and Magnetic Fields",
+          "description": "Select one of the following courses. The Honors series is recommended for eligible students.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1B"},
+            {"type": "course", "courseId": "PHYSICS 1BH"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics Electrodynamics, Optics, and Special Relativity",
+          "description": "Select one of the following courses. The Honors series is recommended for eligible students.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1C"},
+            {"type": "course", "courseId": "PHYSICS 1CH"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 4AL"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 4BL"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 17"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 32"
+        },
+        {
+          "type": "group",
+          "title": "Calculus I",
+          "description": "Select one course for Differential and Integral Calculus.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31AL"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33B"
+        },
+        {
+          "type": "group",
+          "title": "Programming",
+          "description": "Select one course from the following list or demonstrate ability to program:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COM SCI 30"},
+            {"type": "course", "courseId": "COM SCI 31"},
+            {"type": "course", "courseId": "COMPTNG 10A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Recommended",
+          "description": "The following course is recommended:",
+          "needs": 0,
+          "options": [
+            {"type": "course", "courseId": "CHEM 20A"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 11 required courses and three upper-division electives as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "ASTR 115"
+        },
+        {
+          "type": "course",
+          "courseId": "ASTR 117"
+        },
+        {
+          "type": "course",
+          "courseId": "ASTR 127"
+        },
+        {
+          "type": "course",
+          "courseId": "ASTR 180"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 105A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 105B"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 110A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 110B"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 115A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 115B"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 115C"
+        },
+        {
+          "type": "group",
+          "title": "Astronomy Elective",
+          "description": "Select at least one course in astronomy from the elective list.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ASTR 140"},
+            {"type": "course", "courseId": "ASTR 141"},
+            {"type": "course", "courseId": "ASTR 142"},
+            {"type": "course", "courseId": "ASTR 143"},
+            {"type": "course", "courseId": "ASTR 144"},
+            {"type": "course", "courseId": "ASTR 145"},
+            {"type": "course", "courseId": "ASTR 146"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Electives",
+          "description": "Select two additional upper-division courses from the following list to bring the elective total to three.",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "ASTR 140"},
+            {"type": "course", "courseId": "ASTR 141"},
+            {"type": "course", "courseId": "ASTR 142"},
+            {"type": "course", "courseId": "ASTR 143"},
+            {"type": "course", "courseId": "ASTR 144"},
+            {"type": "course", "courseId": "ASTR 145"},
+            {"type": "course", "courseId": "ASTR 146"},
+            {"type": "course", "courseId": "EPS SCI 155"},
+            {"type": "course", "courseId": "EPS SCI C179"},
+            {"type": "course", "courseId": "PHYSICS 108"},
+            {"type": "course", "courseId": "PHYSICS M122"},
+            {"type": "course", "courseId": "PHYSICS 124"},
+            {"type": "course", "courseId": "PHYSICS 126"},
+            {"type": "course", "courseId": "PHYSICS 127"},
+            {"type": "course", "courseId": "PHYSICS 128"},
+            {"type": "course", "courseId": "PHYSICS 132"},
+            {"type": "course", "courseId": "PHYSICS C170M"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "In addition to completing all courses required for the major, students must complete two terms of Astronomy 199.",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "ASTR 199"
+        }
+      ]
+    }
+  ]
+}

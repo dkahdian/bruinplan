@@ -1,0 +1,297 @@
+{
+  "name": "Public Health BS",
+  "overview": "The Public Health major is a designated capstone major. The goal of the capstone is to provide a culminating experience for students in which they complete an integrative, scholarly, or applied project that reflects the knowledge and skills gained in the program to a public health problem or issue.",
+  "college": "Jonathan and Karin Fielding School of Public Health",
+  "department": "Public Health",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete all requirements in the following categories.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Introduction to Public Health",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "PUB HLT 50A"},
+            {"type": "course", "courseId": "PUB HLT 50B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Chemistry and Biochemistry",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry 14 Series",
+              "description": "Complete all courses in this series.",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Chemistry 20 and 30 Series",
+              "description": "Complete all courses in this series.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Life Sciences",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Life Sciences 30 Series",
+              "description": "Complete two required courses and select one statistics course.",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30B"
+                },
+                {
+                  "type": "group",
+                  "title": "Statistics Option",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 3 Series",
+              "description": "Complete three required courses and select one statistics course.",
+              "needs": 4,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "MATH 3A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3C"
+                },
+                {
+                  "type": "group",
+                  "title": "Statistics Option",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "STATS 10"},
+                    {"type": "course", "courseId": "STATS 13"}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Physics 1 Series",
+              "description": "Complete all courses in this series.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 5 Series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Health and Society",
+          "description": "Complete one course from an approved list available on the school website.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Cultural Competency",
+          "description": "Complete one course from an approved list available on the school website.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Communication Fundamentals",
+          "description": "Complete the following course or any approved Writing II course:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "COMM 1"
+            },
+            {
+              "type": "group",
+              "title": "Approved Writing II Course",
+              "description": "Select one approved Writing II course.",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete all requirements in the following categories.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Foundations of Public Health Knowledge and Practice",
+          "description": "Complete the following five courses:",
+          "needs": 5,
+          "options": [
+            {"type": "course", "courseId": "BIOSTAT 120"},
+            {"type": "course", "courseId": "COM HLT 120"},
+            {"type": "course", "courseId": "ENV HLT 120"},
+            {"type": "course", "courseId": "EPIDEM 120"},
+            {"type": "course", "courseId": "HLT POL 120"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Public Health Electives",
+          "description": "Complete three upper-division courses (minimum of 12 units) selected from the school's undergraduate course offerings. No more than 4 units from courses numbered 195 to 199 may be applied toward this requirement.",
+          "needs": 3,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Community Engagement",
+          "description": "Complete the following course or an approved course:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "PUB HLT 195CE"
+            },
+            {
+              "type": "group",
+              "title": "Approved Community Engagement Course",
+              "description": "Select one approved community engagement course.",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Experience",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "PUB HLT 185A"},
+            {"type": "course", "courseId": "PUB HLT 185B"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "Optional program for qualified students. School Honors requires a 3.5 GPA in upper-division major courses. Highest Honors additionally requires completion of a senior thesis.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Highest Honors Senior Thesis",
+          "description": "To be eligible for Highest Honors, complete one of the following thesis options (optional). This course does not count as a major elective.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Senior Thesis Requirement",
+              "description": "Select one course to fulfill the senior thesis requirement.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "PUB HLT 198"
+                },
+                {
+                  "type": "group",
+                  "title": "Departmental 198 Course",
+                  "description": "A departmental 198 course supervised by an Academic Senate faculty member from the school.",
+                  "needs": 1,
+                  "options": [
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

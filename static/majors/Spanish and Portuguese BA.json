@@ -1,0 +1,172 @@
+{
+  "name": "Spanish and Portuguese BA",
+  "overview": "The Spanish and Portuguese BA program equips students with oral, aural, and written mastery of both languages, alongside critical skills in research, analysis, and writing through the study of literature and culture from the Iberian Peninsula, Latin America, and the Afro-Luso-Brazilian world.",
+  "college": "College of Letters and Science",
+  "department": "Spanish and Portuguese",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "entry",
+      "title": "Entry to the Major",
+      "description": "Transfer applicants to the Spanish and Portuguese major with 90 or more units must complete the following introductory courses prior to admission to UCLA: two years of Spanish, one year of Portuguese, one Spanish civilization course or one Spanish American civilization course, and one Brazilian culture course.\n\nRefer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete five courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Portuguese",
+          "description": "Select one course from the following list. Portuguese 27 is recommended.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PORTGSE 25"},
+            {"type": "course", "courseId": "PORTGSE 26"},
+            {"type": "course", "courseId": "PORTGSE 27"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Portuguese M35 or Spanish M35",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PORTGSE M35"},
+            {"type": "course", "courseId": "SPAN M35"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "PORTGSE 46"
+        },
+        {
+          "type": "group",
+          "title": "Spanish 25 or 27",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "SPAN 25"},
+            {"type": "course", "courseId": "SPAN 27"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Spanish 42 or 44",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "SPAN 42"},
+            {"type": "course", "courseId": "SPAN 44"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete 11 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Spanish Grammar",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "SPAN 100A"},
+            {"type": "course", "courseId": "SPAN 100B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Portuguese Grammar",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PORTGSE 100A"},
+            {"type": "course", "courseId": "PORTGSE 100B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Literature",
+          "description": "Complete three courses. Select Portuguese 130A or 130B.",
+          "needs": 3,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "SPAN 119"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 120"
+            },
+            {
+              "type": "group",
+              "title": "Portuguese Literature",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PORTGSE 130A"},
+                {"type": "course", "courseId": "PORTGSE 130B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Elective Courses",
+          "description": "Complete six 4- or 5-unit upper-division elective courses, two of which must be in Spanish and three of which must be from the Portuguese offerings, including those taught in English. Only upper-division courses taught in the target language may be applied toward the major, except the Portuguese courses taught in English.",
+          "needs": 6,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "Policies",
+      "description": "Each course for the major must be taken for a letter grade and passed with a grade of C or better.\n\nBy petition, and after consultation with the undergraduate adviser, up to three 4-unit Portuguese 197, 199, Spanish 197, or 199 courses may be applied toward the major.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "honors-program",
+      "title": "Honors Program",
+      "description": "The departmental honors program is open to majors who have completed a minimum of six upper-division major courses with a 3.7 grade-point average or better in those six courses. Eligibility is verified by the departmental counselor.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Thesis Requirement",
+          "description": "On the basis of their coursework and special interests, students consult with a faculty member and formulate a research project that they pursue under the faculty member\u2019s guidance. Select one track (Portuguese or Spanish). Portuguese 198A-198B and Spanish 198A-198B may not be applied toward the majors.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Portuguese Honors Track",
+              "description": "Students research and prepare a thesis draft in Portuguese 198A and complete the final thesis in Portuguese 198B.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "PORTGSE 198A"},
+                {"type": "course", "courseId": "PORTGSE 198B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Spanish Honors Track",
+              "description": "Students research and prepare a thesis draft in Spanish 198A and complete the final thesis in Spanish 198B.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "SPAN 198A"},
+                {"type": "course", "courseId": "SPAN 198B"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

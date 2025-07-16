@@ -1,0 +1,77 @@
+{
+  "name": "Gender Studies BA",
+  "overview": "The major in Gender Studies may be taken alone or in conjunction with another Letters and Science major. In the case of a double major, no more than five courses may be applied toward both majors.",
+  "college": "College of Letters and Science",
+  "department": "Gender Studies",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete the following course. Students must also complete departmental lower-division requisites, as applicable, for upper-division gender studies courses.",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "GENDER 10"
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "The major is designed to (1) impart core concepts in theory and critical analysis, research design, and methods; and (2) provide students with exposure to a range of feminist and queer scholarship across disciplines. To achieve these goals, the major is divided into three categories. Complete at least 11 upper-division courses (minimum of 4 units each) as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Core Courses",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "GENDER 102"},
+            {"type": "course", "courseId": "GENDER 103"},
+            {"type": "course", "courseId": "GENDER 104"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Elective Courses",
+          "description": "Complete seven elective courses. One upper-division tutorial (minimum of 4 units) selected from course GENDER 195, 197, or 199 may be applied toward the elective requirement (this limit does not apply to course 198A or 198B).",
+          "needs": 7,
+          "options": [
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "GENDER 187"
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "The honors program is open to advanced junior and senior Gender Studies majors with a 3.6 grade-point average in gender studies courses and a minimum 3.4 overall GPA who have no outstanding Incomplete grades, and to majors who demonstrate ability to do honors work by submitting a paper to the department chair for approval.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Requirements",
+          "description": "To qualify for honors at graduation, students must successfully complete three successive terms of honors research (courses 198A, 198B, 198C) with their faculty sponsor and receive a grade of B+ or better on their research paper/project. Course 198A may be applied toward the elective requirement; courses 198B and 198C are in addition to the minimum required courses.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Research Courses",
+              "description": "Complete all three courses.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "GENDER 198A"},
+                {"type": "course", "courseId": "GENDER 198B"},
+                {"type": "course", "courseId": "GENDER 198C"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "name": "Ethnomusicology BA",
+  "overview": "The undergraduate major in Ethnomusicology emphasizes general world music, performance/composition, public ethnomusicology, and scholarly research. The major provides students with a wide-ranging liberal arts education in music. At its core, this includes (1) comprehensive knowledge of music cultures of the world; (2) understanding of the interrelationship of music, society, and culture; (3) grounding in the basics of global music theory and musicianship; and (4) the experience of playing in one or several musical ensembles from various traditions around the world.\n\nBeyond the core and emphasis requirements, students may, through elective courses, prepare for a variety of career goals, including the study of ethnomusicology in graduate school, composing and performing music, working in the music industry, serving society in the nonprofit sector, or becoming a K through 12 music teacher.\n\nThe Ethnomusicology major is a designated capstone major. The capstone project is individualized to each student and requires a creative process either through music performance/composition, a research project, or an internship with a self-reflective journal detailing the process. Through that process, students are expected to demonstrate a broad knowledge base and competency in performance, writing, and/or composition and ability to apply knowledge and experience to the specific requirements of the capstone; conceive and successfully complete a project that is expressive of their specific interests and acquired expertise; and display, through written documentation or live presentation, the requisite communication and, in some cases, teamwork required by work in this field.",
+  "college": "Herb Alpert School of Music",
+  "department": "Ethnomusicology",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete the following courses. Note: Students may apply a maximum of two ensembles (total of 4 units) from outside the Ethnomusicology Department but within the Herb Alpert School of Music to count toward the upper- or lower-division ensemble requirements collectively.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Musicianship",
+          "description": "Complete the following course with a grade of C\u2013 or better:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS M6A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Music Theory and Musicianship",
+          "description": "Complete the following two courses with grades of C or better:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS 10A"},
+            {"type": "course", "courseId": "ETHNMUS 10B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Musical Cultures of the World",
+          "description": "Complete the following courses with grades of C or better:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS 20A"},
+            {"type": "course", "courseId": "ETHNMUS 20B"},
+            {"type": "course", "courseId": "ETHNMUS 20C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Basic Principles of Ethnomusicology",
+          "description": "Complete the following course with a grade of C or better:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS 83"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Ensembles: World Music Performance Organizations, Private Instruction in Music, and World Music Specializations",
+          "description": "Select 12 units from the following: World Music Performance Organizations: Ethnomusicology 91A through 91Z, Private Instruction in Music: ETHNMUS 92 - Private Instruction in Music, World Music Specializations: Ethnomusicology 68A through 68Z",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete the following courses. Note: Students may apply a maximum of two ensembles (total of 4 units) from outside the Ethnomusicology Department but within the Herb Alpert School of Music to count toward the upper- or lower-division ensemble requirements collectively.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Ethnomusicology 175 or 181",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS 175"},
+            {"type": "course", "courseId": "ETHNMUS 181"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Ethnomusicology 183 and 185",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS 183"},
+            {"type": "course", "courseId": "ETHNMUS 185"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Performance Ensembles",
+          "description": "Select 12 units from: Advanced World Music Performance Organizations: Ethnomusicology 161A through 161Z, Advanced Private Instruction in Music: ETHNMUS 162 - Advanced Private Instruction in Music, Advanced World Music Specializations: Ethnomusicology 168A through 168Z",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select a minimum of seven, 4- or 5-unit upper-division ethnomusicology courses from the following:",
+          "needs": 7,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS C100"},
+            {"type": "course", "courseId": "ETHNMUS M103"},
+            {"type": "course", "courseId": "ETHNMUS 106A"},
+            {"type": "course", "courseId": "ETHNMUS 106B"},
+            {"type": "course", "courseId": "ETHNMUS M108A"},
+            {"type": "course", "courseId": "ETHNMUS 108B"},
+            {"type": "course", "courseId": "ETHNMUS M109"},
+            {"type": "course", "courseId": "ETHNMUS M110A"},
+            {"type": "course", "courseId": "ETHNMUS M110B"},
+            {"type": "course", "courseId": "ETHNMUS M111"},
+            {"type": "course", "courseId": "ETHNMUS 113"},
+            {"type": "course", "courseId": "ETHNMUS M115"},
+            {"type": "course", "courseId": "ETHNMUS M116"},
+            {"type": "course", "courseId": "ETHNMUS 117"},
+            {"type": "course", "courseId": "ETHNMUS M119"},
+            {"type": "course", "courseId": "ETHNMUS CM120"},
+            {"type": "course", "courseId": "ETHNMUS C121"},
+            {"type": "course", "courseId": "ETHNMUS 122"},
+            {"type": "course", "courseId": "ETHNMUS M123"},
+            {"type": "course", "courseId": "ETHNMUS M131"},
+            {"type": "course", "courseId": "ETHNMUS M134"},
+            {"type": "course", "courseId": "ETHNMUS 135"},
+            {"type": "course", "courseId": "ETHNMUS 136A"},
+            {"type": "course", "courseId": "ETHNMUS C136B"},
+            {"type": "course", "courseId": "ETHNMUS C140"},
+            {"type": "course", "courseId": "ETHNMUS C141"},
+            {"type": "course", "courseId": "ETHNMUS 142"},
+            {"type": "course", "courseId": "ETHNMUS 143"},
+            {"type": "course", "courseId": "ETHNMUS 144"},
+            {"type": "course", "courseId": "ETHNMUS 145"},
+            {"type": "course", "courseId": "ETHNMUS 146"},
+            {"type": "course", "courseId": "ETHNMUS 147"},
+            {"type": "course", "courseId": "ETHNMUS 148"},
+            {"type": "course", "courseId": "ETHNMUS C150"},
+            {"type": "course", "courseId": "ETHNMUS C155"},
+            {"type": "course", "courseId": "ETHNMUS C156A"},
+            {"type": "course", "courseId": "ETHNMUS 157"},
+            {"type": "course", "courseId": "ETHNMUS 158"},
+            {"type": "course", "courseId": "ETHNMUS C159"},
+            {"type": "course", "courseId": "ETHNMUS 160"},
+            {"type": "course", "courseId": "ETHNMUS 163"},
+            {"type": "course", "courseId": "ETHNMUS 164"},
+            {"type": "course", "courseId": "ETHNMUS C165"},
+            {"type": "course", "courseId": "ETHNMUS 171"},
+            {"type": "course", "courseId": "ETHNMUS M173"},
+            {"type": "course", "courseId": "ETHNMUS 174"},
+            {"type": "course", "courseId": "ETHNMUS M176"},
+            {"type": "course", "courseId": "ETHNMUS 177"},
+            {"type": "course", "courseId": "ETHNMUS C178"},
+            {"type": "course", "courseId": "ETHNMUS CM182"},
+            {"type": "course", "courseId": "ETHNMUS C184"},
+            {"type": "course", "courseId": "ETHNMUS 188"},
+            {"type": "course", "courseId": "ETHNMUS 199"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "title": "Capstone",
+      "description": "The capstone project provides seniors with an opportunity to demonstrate the knowledge and abilities acquired during their undergraduate studies. Students must complete one of the following four capstone options. Students must submit a capstone proposal with supporting materials to their faculty mentor and then to the school Office of Student Affairs for approval. For details on the submission process, contact the Office of Student Affairs.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Capstone Options",
+          "description": "Students must complete one of the following four capstone options.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Performance/Composition Capstone",
+              "description": "Students must complete two quarters of Ethnomusicology 186. Additionally, students in performance or composition must submit 5 to 10 pages of writing describing their work. Performance students must offer a public performance that is 25 to 45 minutes long. This may be a solo performance, a significant role in a chamber group, or a significant (lead) role in a departmental ensemble concert. Composition students must submit a composition or compositions of 20 to 25 minutes in length that will be performed. Playing digital music (MIDI) recordings is acceptable, but at least one composition must be performed by musicians live.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ETHNMUS 186"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Public Ethnomusicology Capstone",
+              "description": "Students must complete an internship of one quarter in length (at least 10 hours per week) while enrolled in Ethnomusicology 195B. Students must then complete Ethnomusicology 199, in which they produce a paper of 12 to 15 pages in length detailing their experience.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "ETHNMUS 195B"},
+                {"type": "course", "courseId": "ETHNMUS 199"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Scholarly Research Capstone",
+              "description": "Students must complete two quarters of Ethnomusicology 199, in which they produce a research paper of high quality, 30 to 40 pages in length, based on fieldwork, archival work, or primary texts.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ETHNMUS 199"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Independent Capstone",
+              "description": "In consultation with a faculty adviser, students may propose capstone projects in other emphasis concepts such as technologies, film scoring, interactive arts, dance, etc. Students must complete two quarters of Ethnomusicology 199 (2 units minimum) and submit 5 to 10 pages of writing describing their work.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ETHNMUS 199"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

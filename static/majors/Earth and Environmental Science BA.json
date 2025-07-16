@@ -1,0 +1,173 @@
+{
+  "name": "Earth and Environmental Science BA",
+  "overview": "The Earth and Environmental Science major is a designated capstone major. Students are required to use skill and knowledge sets from previous coursework to complete a field-based research project from conception to written report. Projects must be placed into context within the current state of understanding, and results are presented at a research symposium or published as a brief report.",
+  "college": "College of Letters and Science",
+  "department": "Earth, Planetary, and Space Sciences",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete eight courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Earth, Planetary, and Space Sciences 1",
+          "description": "Complete one of the following options. EPS SCI 1 may be substituted with a course from the alternatives.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "EPS SCI 1"
+            },
+            {
+              "type": "course",
+              "courseId": "CLUSTER 70A"
+            },
+            {
+              "type": "group",
+              "title": "Alternative EPS SCI Courses",
+              "description": "Select one course from Earth, Planetary, and Space Sciences 3 through 17.",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Earth, Planetary, and Space Sciences Course",
+          "description": "Select one course from the following (EPS SCI M71 may be substituted with C&EE M20):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "EPS SCI 51"},
+            {"type": "course", "courseId": "EPS SCI 61"},
+            {"type": "course", "courseId": "EPS SCI M71"},
+            {"type": "course", "courseId": "C&EE M20"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Chemistry",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry 14 series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Chemistry 20 series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Mathematics 3 series",
+              "description": "Complete all courses in this series.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 31 series",
+              "description": "Complete all courses in this series.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 5A"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete nine courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Earth, Planetary, and Space Sciences",
+          "description": "Select two courses from:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "EPS SCI 103A"},
+            {"type": "course", "courseId": "EPS SCI 103B"},
+            {"type": "course", "courseId": "EPS SCI 111"},
+            {"type": "course", "courseId": "EPS SCI 112"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone",
+          "description": "Complete one capstone 199 research course in the senior year.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "EPS SCI 199"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Earth, Planetary, and Space Sciences Electives",
+          "description": "Complete four additional upper-division Earth, Planetary, and Space Sciences courses (except EPS SCI M187, and 189 through 199).",
+          "needs": 4,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Geography",
+          "description": "Select two courses from:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "GEOG 101"},
+            {"type": "course", "courseId": "GEOG M102"},
+            {"type": "course", "courseId": "GEOG M103"},
+            {"type": "course", "courseId": "GEOG 116"},
+            {"type": "course", "courseId": "GEOG 120"},
+            {"type": "course", "courseId": "GEOG M126"},
+            {"type": "course", "courseId": "GEOG M131"},
+            {"type": "course", "courseId": "GEOG 136"}
+          ]
+        }
+      ]
+    }
+  ]
+}

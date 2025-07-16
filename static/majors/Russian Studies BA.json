@@ -1,0 +1,145 @@
+{
+  "name": "Russian Studies BA",
+  "overview": "The major in Russian Studies is designed for students who wish to complement mastery of the language with an array of courses on Russian history, politics, literature, and culture. The Russian Studies major is a designated capstone major. Students must complete a capstone seminar and present their final paper in the department's annual Undergraduate Research Conference. Students draw on their previously acquired subject matter knowledge and skills to plan a research project and write a substantial academic paper.",
+  "college": "College of Letters and Science",
+  "department": "Slavic, East European, and Eurasian Languages and Cultures",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete one intermediate language course and one elective course.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Intermediate Russian",
+          "description": "Select one course from the following or demonstrate equivalent proficiency:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "RUSSN 6"},
+            {"type": "course", "courseId": "RUSSN 20"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Elective",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "RUSSN 25"},
+            {"type": "course", "courseId": "RUSSN 25W"},
+            {"type": "course", "courseId": "RUSSN 90A"},
+            {"type": "course", "courseId": "RUSSN 90B"},
+            {"type": "course", "courseId": "RUSSN 90BW"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "major_requirements",
+      "title": "The Major",
+      "description": "Complete 10 courses (44 to 47 units) and a capstone series as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Russian Language",
+          "description": "Select three courses from the following list. Consult with the undergraduate adviser for appropriate placement.",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "RUSSN 100A"},
+            {"type": "course", "courseId": "RUSSN 100B"},
+            {"type": "course", "courseId": "RUSSN 100C"},
+            {"type": "course", "courseId": "RUSSN 101A"},
+            {"type": "course", "courseId": "RUSSN 101B"},
+            {"type": "course", "courseId": "RUSSN 101C"},
+            {"type": "course", "courseId": "RUSSN 102A"},
+            {"type": "course", "courseId": "RUSSN 102B"},
+            {"type": "course", "courseId": "RUSSN 102C"},
+            {"type": "course", "courseId": "RUSSN 103A"},
+            {"type": "course", "courseId": "RUSSN 103B"},
+            {"type": "course", "courseId": "RUSSN 103C"},
+            {"type": "course", "courseId": "RUSSN 107A"},
+            {"type": "course", "courseId": "RUSSN 107B"},
+            {"type": "course", "courseId": "RUSSN 107C"},
+            {"type": "course", "courseId": "RUSSN 108"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Russian Language and/or Literature",
+          "description": "Select three courses from:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "RUSSN 102A"},
+            {"type": "course", "courseId": "RUSSN 102B"},
+            {"type": "course", "courseId": "RUSSN 102C"},
+            {"type": "course", "courseId": "RUSSN 103A"},
+            {"type": "course", "courseId": "RUSSN 103B"},
+            {"type": "course", "courseId": "RUSSN 103C"},
+            {"type": "course", "courseId": "RUSSN 107A"},
+            {"type": "course", "courseId": "RUSSN 107B"},
+            {"type": "course", "courseId": "RUSSN 107C"},
+            {"type": "course", "courseId": "RUSSN 108"},
+            {"type": "course", "courseId": "RUSSN M118"},
+            {"type": "course", "courseId": "RUSSN 119"},
+            {"type": "course", "courseId": "RUSSN 120"},
+            {"type": "course", "courseId": "RUSSN 121"},
+            {"type": "course", "courseId": "RUSSN 122"},
+            {"type": "course", "courseId": "RUSSN C124C"},
+            {"type": "course", "courseId": "RUSSN C124D"},
+            {"type": "course", "courseId": "RUSSN CM124G"},
+            {"type": "course", "courseId": "RUSSN C124N"},
+            {"type": "course", "courseId": "RUSSN C124P"},
+            {"type": "course", "courseId": "RUSSN C124T"},
+            {"type": "course", "courseId": "RUSSN 129"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Related Fields",
+          "description": "Select four courses from:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "HIST M127A"},
+            {"type": "course", "courseId": "HIST 127B"},
+            {"type": "course", "courseId": "HIST 127C"},
+            {"type": "course", "courseId": "HIST 127D"},
+            {"type": "course", "courseId": "POL SCI 156A"},
+            {"type": "course", "courseId": "SLAVC CM114"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Requirement",
+          "description": "Students must complete either the standard capstone sequence or, if eligible, the honors program sequence. The honors program is for exceptional majors and requires a separate application.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Standard Capstone",
+              "description": "During their senior year, students must take the following three courses in which they complete a capstone senior thesis:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "SLAVC 191TA"},
+                {"type": "course", "courseId": "SLAVC 191TB"},
+                {"type": "course", "courseId": "SLAVC 191TC"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Honors Program",
+              "description": "For exceptional majors who wish to complete a research project culminating in an honors thesis. Admission requires a 3.5 GPA in upper-division major courses, a 3.0 overall GPA, and a pre-approved project proposal. The courses must be taken during senior year.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "SLAVC 198A"},
+                {"type": "course", "courseId": "SLAVC 198B"},
+                {"type": "course", "courseId": "SLAVC 198C"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Mathematics Applied Science BS",
+  "overview": "The Mathematics/Applied Science major is designed for students with a substantial interest in mathematics and its applications to a particular field. It is an individual major in that students, in consultation with a faculty adviser, design their own program. They may also select one of the established programs: mathematics/history of science plan or medical and life sciences plan. In the past, Mathematics/Applied Science majors have combined the study of mathematics with fields such as atmospheric and oceanic sciences, biochemistry, biology, chemistry, economics, geography, physics, psychology, and statistics.",
+  "college": "College of Letters and Science",
+  "department": "Mathematics",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete Mathematics 31A or 31AL and the remaining six courses. Additional preparation, varying with the individual program, may be required.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Calculus I",
+          "description": "Select one course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31AL"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33B"
+        },
+        {
+          "type": "course",
+          "courseId": "COMPTNG 10A"
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Fourteen courses as follows: Seven Mathematics Department courses from Mathematics 106 through 199, and seven upper-division courses in a related field from one or two other departments. Individual programs are designed in consultation with a faculty adviser.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Mathematics Upper Division",
+          "description": "Select seven Mathematics Department courses from Mathematics 106 through 199.",
+          "needs": 7,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Related Field Upper Division",
+          "description": "Select seven upper-division courses in a related field from one or two other departments.",
+          "needs": 7,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Specialization in Computing (Optional)",
+          "description": "Students may complete the Specialization in Computing by taking Program in Computing 10B, 16A, 16B, and two additional upper-division Program in Computing courses. This is optional and does not reduce the requirements above.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "COMPTNG 10B"
+            },
+            {
+              "type": "course",
+              "courseId": "COMPTNG 16A"
+            },
+            {
+              "type": "course",
+              "courseId": "COMPTNG 16B"
+            },
+            {
+              "type": "group",
+              "title": "Upper Division COMPTNG Electives",
+              "description": "Select two additional upper-division Program in Computing courses.",
+              "needs": 2,
+              "options": [
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

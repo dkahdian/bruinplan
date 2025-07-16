@@ -1,125 +1,249 @@
 {
-    "name": "Mathematics BS",
-    "overview": "The Mathematics major is designed for students whose basic interest is mathematics.",
-    "college": "College of Letters and Science",
-    "department": "Mathematics",
-    "degreeLevel": "Undergraduate",
-    "degreeObjective": "Bachelor of Science",
-    "sections": [
+  "name": "Mathematics BS",
+  "overview": "The Mathematics major is designed for students whose basic interest is mathematics.",
+  "college": "College of Letters and Science",
+  "department": "Mathematics",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 10 courses as follows: Mathematics 31A or 31AL, seven required courses, and two elective courses.",
+      "requirements": [
         {
-            "id": "preparation",
-            "title": "Preparation for the Major",
-            "description": "Complete 10 courses as follows: Mathematics 31A or 31L, seven required courses, and two elective courses.",
-            "requirements": [
-                {"type": "group", "title":"Math 31A or 31AL", "description": "Select one of the following:", "needs": 1, "options": [
-                    {"type": "course", "courseId": "MATH 31A"},
-                    {"type": "course", "courseId": "MATH 31AL"}
-                ]},
-                {"type": "course", "courseId": "MATH 31B"},
-                {"type": "course", "courseId": "MATH 32A"},
-                {"type": "course", "courseId": "MATH 32B"},
-                {"type": "course", "courseId": "MATH 33A"},
-                {"type": "course", "courseId": "MATH 33B"},
-                {"type": "course", "courseId": "COMPTNG 10A"},
-                {"type": "course", "courseId": "PHYSICS 1A"},
-                {
-                    "type": "group",
-                    "title": "Electives",
-                    "description": "Select two courses from:",
-                    "needs": 2,
-                    "options": [
-                        {"type": "course", "courseId": "CHEM 20A"},
-                        {"type": "course", "courseId": "CHEM 20B"},
-                        {"type": "course", "courseId": "ECON 11"},
-                        {"type": "course", "courseId": "LIFESCI 7A"},
-                        {"type": "course", "courseId": "PHILOS 31"},
-                        {"type": "course", "courseId": "PHILOS 132"},
-                        {"type": "course", "courseId": "PHYSICS 1B"},
-                        {"type": "course", "courseId": "PHYSICS 1C"},
-                        {"type": "course", "courseId": "PHYSICS 5B"},
-                        {"type": "course", "courseId": "PHYSICS 5C"}
-                    ]
-                }
-            ]
+          "type": "group",
+          "title": "Calculus I",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31AL"}
+          ]
         },
         {
-            "id": "major",
-            "title": "The Major",
-            "description": "Twelve courses as follows:",
-            "requirements": [
-                {"type": "course", "courseId": "MATH 110A"},
-                {"type": "course", "courseId": "MATH 110B"},
-                {"type": "course", "courseId": "MATH 115A"},
-                {"type": "course", "courseId": "MATH 120A"},
-                {"type": "course", "courseId": "MATH 131A"},
-                {"type": "course", "courseId": "MATH 131B"},
-                {"type": "course", "courseId": "MATH 132"},
-                {
-                    "type": "group",
-                    "title": "Electives",
-                    "description": "Select at least five elective courses from the following:",
-                    "needs": 5,
-                    "options": [
-                        {"type": "course", "courseId": "MATH 106"},
-                        {"type": "course", "courseId": "MATH 110C"},
-                        {"type": "course", "courseId": "MATH 111"},
-                        {"type": "course", "courseId": "MATH 114C"},
-                        {"type": "course", "courseId": "MATH 114L"},
-                        {"type": "course", "courseId": "MATH M114S"},
-                        {"type": "course", "courseId": "MATH 115B"},
-                        {"type": "course", "courseId": "MATH 116"},
-                        {"type": "course", "courseId": "MATH 117"},
-                        {"type": "course", "courseId": "MATH 118"},
-                        {"type": "course", "courseId": "MATH 120B"},
-                        {"type": "course", "courseId": "MATH 121"},
-                        {"type": "course", "courseId": "MATH 123"},
-                        {"type": "course", "courseId": "MATH 131C"},
-                        {"type": "course", "courseId": "MATH 133"},
-                        {"type": "course", "courseId": "MATH 134"},
-                        {"type": "course", "courseId": "MATH 135"},
-                        {"type": "course", "courseId": "MATH 136"},
-                        {"type": "course", "courseId": "MATH 142"},
-                        {"type": "course", "courseId": "MATH 146"},
-                        {"type": "course", "courseId": "MATH M148"},
-                        {"type": "course", "courseId": "MATH 151A"},
-                        {"type": "course", "courseId": "MATH 151B"},
-                        {"type": "course", "courseId": "MATH 155"},
-                        {"type": "course", "courseId": "MATH 156"},
-                        {"type": "course", "courseId": "MATH 164"},
-                        {"type": "course", "courseId": "MATH 167"},
-                        {"type": "course", "courseId": "MATH 168"},
-                        {"type": "course", "courseId": "MATH 170A"},
-                        {"type": "course", "courseId": "MATH 170B"},
-                        {"type": "course", "courseId": "MATH 170E"},
-                        {"type": "course", "courseId": "MATH 170S"},
-                        {"type": "course", "courseId": "MATH 171"},
-                        {"type": "course", "courseId": "MATH 174E"},
-                        {"type": "course", "courseId": "MATH 177"},
-                        {"type": "course", "courseId": "MATH 178A"},
-                        {"type": "course", "courseId": "MATH 178B"},
-                        {"type": "course", "courseId": "MATH 178C"},
-                        {"type": "course", "courseId": "MATH 179"},
-                        {"type": "course", "courseId": "MATH 180"},
-                        {"type": "course", "courseId": "MATH 182"},
-                        {"type": "course", "courseId": "MATH 184"},
-                        {"type": "course", "courseId": "MATH 189HC"},
-                        {"type": "course", "courseId": "MATH 191"},
-                        {"type": "course", "courseId": "MATH 191H"},
-                        {"type": "course", "courseId": "MATH 195"},
-                        {"type": "course", "courseId": "MATH 197"},
-                        {"type": "course", "courseId": "MATH 199"},
-                        {"type": "course", "courseId": "STATS 100A"},
-                        {"type": "course", "courseId": "STATS 100B"},
-                        {"type": "course", "courseId": "STATS 100C"},
-                        {"type": "course", "courseId": "STATS 101A"},
-                        {"type": "course", "courseId": "STATS 101B"},
-                        {"type": "course", "courseId": "STATS 101C"},
-                        {"type": "course", "courseId": "STATS 102A"},
-                        {"type": "course", "courseId": "STATS 102B"},
-                        {"type": "course", "courseId": "STATS 102C"}
-                    ]
-                }
-            ]
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33B"
+        },
+        {
+          "type": "course",
+          "courseId": "COMPTNG 10A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1A"
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select two courses from:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "CHEM 20B"},
+            {"type": "course", "courseId": "ECON 11"},
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "PHILOS 31"},
+            {"type": "course", "courseId": "PHILOS 132"},
+            {"type": "course", "courseId": "PHYSICS 1B"},
+            {"type": "course", "courseId": "PHYSICS 1C"},
+            {"type": "course", "courseId": "PHYSICS 5B"},
+            {"type": "course", "courseId": "PHYSICS 5C"}
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Twelve courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "MATH 110A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 110B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 115A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 120A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 131A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 131B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 132"
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select at least five elective courses from the following:",
+          "needs": 5,
+          "options": [
+            {"type": "course", "courseId": "MATH 106"},
+            {"type": "course", "courseId": "MATH 110C"},
+            {"type": "course", "courseId": "MATH 111"},
+            {"type": "course", "courseId": "MATH 114C"},
+            {"type": "course", "courseId": "MATH 114L"},
+            {"type": "course", "courseId": "MATH M114S"},
+            {"type": "course", "courseId": "MATH 115B"},
+            {"type": "course", "courseId": "MATH 116"},
+            {"type": "course", "courseId": "MATH 117"},
+            {"type": "course", "courseId": "MATH 118"},
+            {"type": "course", "courseId": "MATH 120B"},
+            {"type": "course", "courseId": "MATH 121"},
+            {"type": "course", "courseId": "MATH 123"},
+            {"type": "course", "courseId": "MATH 131C"},
+            {"type": "course", "courseId": "MATH 133"},
+            {"type": "course", "courseId": "MATH 134"},
+            {"type": "course", "courseId": "MATH 135"},
+            {"type": "course", "courseId": "MATH 136"},
+            {"type": "course", "courseId": "MATH 142"},
+            {"type": "course", "courseId": "MATH 146"},
+            {"type": "course", "courseId": "MATH M148"},
+            {"type": "course", "courseId": "MATH 151A"},
+            {"type": "course", "courseId": "MATH 151B"},
+            {"type": "course", "courseId": "MATH 155"},
+            {"type": "course", "courseId": "MATH 156"},
+            {"type": "course", "courseId": "MATH 164"},
+            {"type": "course", "courseId": "MATH 167"},
+            {"type": "course", "courseId": "MATH 168"},
+            {"type": "course", "courseId": "MATH 170A"},
+            {"type": "course", "courseId": "MATH 170B"},
+            {"type": "course", "courseId": "MATH 170E"},
+            {"type": "course", "courseId": "MATH 170S"},
+            {"type": "course", "courseId": "MATH 171"},
+            {"type": "course", "courseId": "MATH 174E"},
+            {"type": "course", "courseId": "MATH 177"},
+            {"type": "course", "courseId": "MATH 178A"},
+            {"type": "course", "courseId": "MATH 178B"},
+            {"type": "course", "courseId": "MATH 178C"},
+            {"type": "course", "courseId": "MATH 179"},
+            {"type": "course", "courseId": "MATH 180"},
+            {"type": "course", "courseId": "MATH 182"},
+            {"type": "course", "courseId": "MATH 184"},
+            {"type": "course", "courseId": "MATH 189HC"},
+            {"type": "course", "courseId": "MATH 191"},
+            {"type": "course", "courseId": "MATH 191H"},
+            {"type": "course", "courseId": "MATH 195"},
+            {"type": "course", "courseId": "MATH 197"},
+            {"type": "course", "courseId": "MATH 199"},
+            {"type": "course", "courseId": "STATS 100A"},
+            {"type": "course", "courseId": "STATS 100B"},
+            {"type": "course", "courseId": "STATS 100C"},
+            {"type": "course", "courseId": "STATS 101A"},
+            {"type": "course", "courseId": "STATS 101B"},
+            {"type": "course", "courseId": "STATS 101C"},
+            {"type": "course", "courseId": "STATS 102A"},
+            {"type": "course", "courseId": "STATS 102B"},
+            {"type": "course", "courseId": "STATS 102C"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optional_programs",
+      "title": "Optional Programs",
+      "description": "Students may choose to add a specialization or participate in the honors program.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Optional Programs",
+          "description": "Choose one or more optional programs.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Program",
+              "description": "The program entails taking a specified sequence of courses as part of the major requirements, completing an approved seminar offered by the Mathematics Department or submitting an original research project, and earning an overall GPA of at least 3.6 in approved upper-division and graduate mathematics courses.",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Computing Specialization",
+              "description": "Majors may select a specialization in Computing by satisfying all the requirements below.",
+              "needs": 4,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Mathematics 61 or 180",
+                  "description": "Select one course:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "MATH 61"},
+                    {"type": "course", "courseId": "MATH 180"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Program in Computing",
+                  "description": "Complete both courses:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "COMPTNG 10A"},
+                    {"type": "course", "courseId": "COMPTNG 10B"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Program in Computing Electives",
+                  "description": "Select two courses:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "COMPTNG 10C"},
+                    {"type": "course", "courseId": "COMPTNG 15"},
+                    {"type": "course", "courseId": "COMPTNG 16A"},
+                    {"type": "course", "courseId": "COMPTNG 20A"},
+                    {"type": "course", "courseId": "COMPTNG 40A"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Mathematics Electives",
+                  "description": "Select two courses from Mathematics 149 through 159.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "MATH 151A"},
+                    {"type": "course", "courseId": "MATH 151B"},
+                    {"type": "course", "courseId": "MATH 155"},
+                    {"type": "course", "courseId": "MATH 156"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

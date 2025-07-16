@@ -1,0 +1,574 @@
+{
+  "name": "Psychobiology BS",
+  "overview": "The Psychobiology major is designed for students who plan to go on to postgraduate work in physiological psychology, neuroscience, behavioral aspects of biology, or the health sciences. Psychobiology is the study of behavior from a biological perspective. It includes neural, experimental psychological, natural history, genetic, comparative/evolutionary, and developmental approaches to understanding human and animal behavior.",
+  "college": "College of Letters and Science",
+  "department": "Psychology",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete three required psychology courses and the Life Sciences Core Curriculum.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Psychology Courses",
+          "description": "Complete all three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PSYCH 10"},
+            {"type": "course", "courseId": "PSYCH 100A"},
+            {"type": "course", "courseId": "PSYCH 100B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Chemistry",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry 14 series",
+              "description": "Complete all courses in this series.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"},
+                {"type": "course", "courseId": "CHEM 14D"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Chemistry 20 and 30 series",
+              "description": "Complete all courses in this series.",
+              "needs": 6,
+              "options": [
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"},
+                {"type": "course", "courseId": "CHEM 30B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Life Sciences",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Life Sciences 30 series",
+              "description": "Complete this series.",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30B"
+                },
+                {
+                  "type": "group",
+                  "title": "Statistics",
+                  "description": "And one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 3 series",
+              "description": "Complete all three courses.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 31 series",
+              "description": "Complete all three courses.",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Calculus I",
+                  "description": "Select one course:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "MATH 31A"},
+                    {"type": "course", "courseId": "MATH 31AL"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 32A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Physics 1 series",
+              "description": "Complete all five courses.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 5 series",
+              "description": "Complete all three courses.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete five core requirements, one additional Psychology course, and 16 units of electives.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete the following five requirements:",
+          "needs": 5,
+          "options": [
+            {
+              "type": "group",
+              "title": "Ecology and Evolutionary Biology or Psychology",
+              "description": "Select one course:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "EE BIOL 100"},
+                {"type": "course", "courseId": "EE BIOL 129"},
+                {"type": "course", "courseId": "PSYCH 118"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 110"
+            },
+            {
+              "type": "group",
+              "title": "Psychology 115",
+              "description": "Complete PSYCH 115 or the M117 series.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 115"
+                },
+                {
+                  "type": "group",
+                  "title": "Substitution",
+                  "description": "Complete all three courses: PSYCH M117A, M117B, and M117C. This satisfies PSYCH 115 and 10 units of electives.",
+                  "needs": 3,
+                  "options": [
+                    {"type": "course", "courseId": "PSYCH M117A"},
+                    {"type": "course", "courseId": "PSYCH M117B"},
+                    {"type": "course", "courseId": "PSYCH M117C"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Neuroscience Laboratory",
+              "description": "Select one course:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PSYCH M116A"},
+                {"type": "course", "courseId": "PSYCH 116B"},
+                {"type": "course", "courseId": "NEUROSC 101L"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Cognitive Psychology",
+              "description": "Select one course:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PSYCH 120A"},
+                {"type": "course", "courseId": "PSYCH 120B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Psychology Course",
+          "description": "Select one course from the following list or range:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "PSYCH 127A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 127B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 127C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 130"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 135"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 150"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 155A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 155B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 161"
+            },
+            {
+              "type": "group",
+              "title": "Psychology 133 Series",
+              "description": "Select one course from PSYCH 133A through 133I.",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select 16 units of graded elective courses from the following list or ranges. Note: Only one course from EE BIOL 112, 113A, or 114A may be applied. Only 4 units of EE BIOL 124A may be applied. PSYCH 191CH may only be applied if content is approved by the undergraduate vice chair.",
+          "needs": 4,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "PSYCH 111"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112D"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112E"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M117A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M117B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M117C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 124E"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 124K"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 137A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 137G"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 152"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 161"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 162"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 164"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M166"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186D"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 191CH"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 153A"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 153L"
+            },
+            {
+              "type": "course",
+              "courseId": "C&S BIO M187"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 100"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 102"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 105"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 106"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 110"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 111"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 112"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 113A"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 114A"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 115"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 117"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C119A"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 120"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 121"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 122"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 124A"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 129"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C135"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 164"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 170"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 107"
+            },
+            {
+              "type": "course",
+              "courseId": "MIMG 185A"
+            },
+            {
+              "type": "course",
+              "courseId": "MCD BIO 100"
+            },
+            {
+              "type": "course",
+              "courseId": "MCD BIO 104AL"
+            },
+            {
+              "type": "course",
+              "courseId": "MCD BIO 138"
+            },
+            {
+              "type": "course",
+              "courseId": "MCD BIO M140"
+            },
+            {
+              "type": "course",
+              "courseId": "MCD BIO CM156"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 102"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI C130"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI C144"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 146"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 147"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 166"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 173"
+            },
+            {
+              "type": "group",
+              "title": "Psychology 119 Series",
+              "description": "Select from PSYCH 119A through 119Y",
+              "needs": 0,
+              "options": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "Students work for one year (fall through spring quarters) with a Psychology Department faculty sponsor on a research project that is the basis of a formal honors thesis. During that year they also participate in a weekly seminar in which thesis projects are presented and discussed and other topics of interest are explored with invited faculty members and other guests. Satisfactory completion of the program and the other requirements for the major leads to awarding of the degree with honors or highest honors.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Program Requirements",
+          "description": "Participation in the Honors Program is optional. Students who choose to participate must complete the following three courses.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Thesis Sequence",
+              "description": "Complete all three seminar courses for the honors thesis.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PSYCH 191AH"},
+                {"type": "course", "courseId": "PSYCH 191BH"},
+                {"type": "course", "courseId": "PSYCH 191CH"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

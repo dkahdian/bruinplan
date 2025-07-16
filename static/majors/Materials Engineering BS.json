@@ -1,0 +1,384 @@
+{
+  "name": "Materials Engineering BS",
+  "overview": "The materials engineering program is designed for students who wish to pursue a professional career in the materials field and desire a broad understanding of the relationship between microstructure and properties of materials. Metals, ceramics, and polymers, as well as the design, fabrication, and testing of metallic and other materials such as oxides, glasses, and fiber-reinforced composites, are included in the course contents. Students are introduced to the basic principles of metallurgy and ceramic and polymer science as part of the Materials Engineering major.\n\nThe department also has a program in electronic materials that provides a broad-based background in materials science, with opportunity to specialize in the study of those materials used for electronic and optoelectronic applications. The program incorporates several courses in electrical engineering in addition to those in the Materials Science curriculum.\n\nThe materials engineering program is accredited by the Engineering Accreditation Commission of ABET.\n\nThe Materials Engineering major is a designated capstone major. Students undertake two individual projects involving materials selection, treatment, and serviceability. Successful completion requires working knowledge of physical properties of materials and strategies and methodologies of using materials properties in the materials selection process. Students learn and work independently and practice leadership and teamwork in and across disciplines. They are also expected to communicate effectively in oral, graphic, and written forms.",
+  "college": "Henry Samueli School of Engineering and Applied Science",
+  "department": "Materials Science and Engineering",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 15 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Chemistry",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "CHEM 20B"},
+            {"type": "course", "courseId": "CHEM 20L"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Civil Engineering or Computer Science",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "C&EE M20"},
+            {"type": "course", "courseId": "COM SCI 31"},
+            {"type": "course", "courseId": "MECH&AE M20"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Materials Science and Engineering",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "MAT SCI 10"},
+            {"type": "course", "courseId": "MAT SCI 90L"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Complete the following six courses:",
+          "needs": 6,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "MATH 31A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 33A"
+            },
+            {
+              "type": "group",
+              "title": "Differential Equations",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "MATH 33B"},
+                {"type": "course", "courseId": "MECH&AE 82"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 1B"},
+            {"type": "course", "courseId": "PHYSICS 1C"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 25 courses by selecting one of the two options: Materials Engineering or Electronic Materials.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Major Options",
+          "description": "Select one option.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Materials Engineering Option",
+              "description": "Complete 25 courses as follows:",
+              "needs": 25,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Required Courses",
+                  "description": "Complete the following 14 courses:",
+                  "needs": 14,
+                  "options": [
+                    {
+                      "type": "course",
+                      "courseId": "C&EE 108"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "EC ENGR 100"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 104"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 110"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 110L"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 120"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 130"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 131"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 131L"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 132"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 143A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 150"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 160"
+                    },
+                    {
+                      "type": "group",
+                      "title": "Statics",
+                      "description": "Select one course from:",
+                      "needs": 1,
+                      "options": [
+                        {"type": "course", "courseId": "C&EE 91"},
+                        {"type": "course", "courseId": "MECH&AE 101"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Upper-Division Mathematics Course",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "C&EE 103"},
+                    {"type": "course", "courseId": "EC ENGR 102"},
+                    {"type": "course", "courseId": "MATH 132"},
+                    {"type": "course", "courseId": "MECH&AE 182B"},
+                    {"type": "course", "courseId": "MECH&AE 182C"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Laboratory",
+                  "description": "Select two laboratory courses (4 units). Up to two units of MAT SCI 199 may be applied.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "MAT SCI 121L"},
+                    {"type": "course", "courseId": "MAT SCI 141L"},
+                    {"type": "course", "courseId": "MAT SCI 143L"},
+                    {"type": "course", "courseId": "MAT SCI 161L"},
+                    {"type": "course", "courseId": "MAT SCI 199"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Technical Breadth",
+                  "description": "Select three technical breadth courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
+                  "needs": 3,
+                  "options": [
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Capstone Design",
+                  "description": "Complete the following two courses:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "MAT SCI 140A"},
+                    {"type": "course", "courseId": "MAT SCI 140B"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Major Field Electives",
+                  "description": "Select two major field elective courses (8 units) from:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "CH ENGR CM114"},
+                    {"type": "course", "courseId": "C&EE 130"},
+                    {"type": "course", "courseId": "C&EE 135A"},
+                    {"type": "course", "courseId": "EC ENGR 2"},
+                    {"type": "course", "courseId": "EC ENGR 123A"},
+                    {"type": "course", "courseId": "EC ENGR 123B"},
+                    {"type": "course", "courseId": "MAT SCI 105"},
+                    {"type": "course", "courseId": "MAT SCI C111"},
+                    {"type": "course", "courseId": "MAT SCI C112"},
+                    {"type": "course", "courseId": "MAT SCI 121"},
+                    {"type": "course", "courseId": "MAT SCI 122"},
+                    {"type": "course", "courseId": "MAT SCI 151"},
+                    {"type": "course", "courseId": "MAT SCI 161"},
+                    {"type": "course", "courseId": "MAT SCI 162"},
+                    {"type": "course", "courseId": "MECH&AE 156A"},
+                    {"type": "course", "courseId": "MECH&AE 166C"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Elective",
+                  "description": "Select at least one elective course (4 units) from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM 30A"},
+                    {"type": "course", "courseId": "CHEM 30AL"},
+                    {"type": "course", "courseId": "EC ENGR 131A"},
+                    {"type": "course", "courseId": "MAT SCI 170"},
+                    {"type": "course", "courseId": "MAT SCI 171"},
+                    {"type": "course", "courseId": "MATH 170A"},
+                    {"type": "course", "courseId": "STATS 100A"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Electronic Materials Option",
+              "description": "Complete 25 courses as follows:",
+              "needs": 25,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Required Courses",
+                  "description": "Complete the following 15 courses:",
+                  "needs": 15,
+                  "options": [
+                    {"type": "course", "courseId": "EC ENGR 100"},
+                    {"type": "course", "courseId": "EC ENGR 101A"},
+                    {"type": "course", "courseId": "EC ENGR 121B"},
+                    {"type": "course", "courseId": "MAT SCI 104"},
+                    {"type": "course", "courseId": "MAT SCI 110"},
+                    {"type": "course", "courseId": "MAT SCI 110L"},
+                    {"type": "course", "courseId": "MAT SCI 120"},
+                    {"type": "course", "courseId": "MAT SCI 121"},
+                    {"type": "course", "courseId": "MAT SCI 121L"},
+                    {"type": "course", "courseId": "MAT SCI 122"},
+                    {"type": "course", "courseId": "MAT SCI 130"},
+                    {"type": "course", "courseId": "MAT SCI 131"},
+                    {"type": "course", "courseId": "MAT SCI 131L"},
+                    {"type": "course", "courseId": "MAT SCI 132"},
+                    {"type": "course", "courseId": "MECH&AE 101"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Upper-Division Mathematics Course",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "C&EE 103"},
+                    {"type": "course", "courseId": "EC ENGR 102"},
+                    {"type": "course", "courseId": "MATH 132"},
+                    {"type": "course", "courseId": "MECH&AE 182B"},
+                    {"type": "course", "courseId": "MECH&AE 182C"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Materials Science",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "MAT SCI 150"},
+                    {"type": "course", "courseId": "MAT SCI 160"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Additional Electrical and Computer Engineering or Materials Science Course",
+                  "description": "Select one course (4 units) from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "EC ENGR 123A"},
+                    {"type": "course", "courseId": "EC ENGR 123B"},
+                    {"type": "course", "courseId": "MAT SCI 150"},
+                    {"type": "course", "courseId": "MAT SCI 160"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Laboratory",
+                  "description": "Select one course (4 units). Up to 2 units of MAT SCI 199 may be applied.",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "MAT SCI 141L"},
+                    {"type": "course", "courseId": "MAT SCI 161L"},
+                    {"type": "course", "courseId": "MAT SCI 199"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Technical Breadth",
+                  "description": "Select three technical breadth courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
+                  "needs": 3,
+                  "options": [
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Capstone Design",
+                  "description": "Complete the following two courses:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "MAT SCI 140A"},
+                    {"type": "course", "courseId": "MAT SCI 140B"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Major Field Elective",
+                  "description": "Select one major field elective course (4 units) from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "EC ENGR 110"},
+                    {"type": "course", "courseId": "EC ENGR 131A"},
+                    {"type": "course", "courseId": "MAT SCI 105"},
+                    {"type": "course", "courseId": "MAT SCI C111"},
+                    {"type": "course", "courseId": "MAT SCI C112"},
+                    {"type": "course", "courseId": "MAT SCI 143A"},
+                    {"type": "course", "courseId": "MAT SCI 162"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

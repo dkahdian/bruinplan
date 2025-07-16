@@ -1,0 +1,174 @@
+{
+  "name": "Asian Languages and Linguistics BA",
+  "overview": "Early acquisition of Asian language skills aids in the timely completion of major requirements and enriches appreciation of Asian cultures. Students are encouraged, therefore, to complete up to a year of language study in approved programs of study abroad.\n\nUpon completing the major, students will have achieved the following:\n1. Identification of major linguistic features of Asian languages, with attention to chosen region of expertise.\n2. Demonstrated working knowledge of one or two Asian languages.\n3. Demonstrated competency in fieldwork with Asian languages in their natural social and cultural contexts.\n4. Demonstrated familiarity with current theories of language pedagogy with practical skills in classroom teaching of an Asian language.\n5. Understanding of the interdependency and dynamic relationship between language, society, culture, and social interaction in the context of Asia languages across time and different modes of communication.\n6. Conduct research and formulate effective written and oral arguments that address important themes and issues in languages and cultures of Asia.\n\nTransfer applicants to the Asian Languages and Linguistics major with 90 or more units must complete as many of the following introductory courses as possible prior to admission to UCLA: two years of Chinese, Japanese, Korean, Filipino/Tagalog, Hindi, Indonesian, Thai, or Vietnamese and either one Asian languages and culture course or one civilization course on Asia or one introduction to Buddhism course or one introduction to Asian religions course or one introduction to linguistic analysis course. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.\n\nAll preparation courses must be completed with a C or better grade. A minimum 2.5 grade-point average is required for both (1) the language courses and (2) Linguistics 20 and the civilization/religion/culture course.",
+  "college": "College of Letters and Science",
+  "department": "Asian Languages and Cultures",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation-for-the-major",
+      "title": "Preparation for the Major",
+      "description": "Complete three courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Intermediate Sequence of Asian Language",
+          "description": "Select one intermediate sequence in one Asian language offered by the department (e.g., courses listed or equivalent):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CHIN 6"},
+            {"type": "course", "courseId": "CHIN 10"},
+            {"type": "course", "courseId": "FILIPNO 6"},
+            {"type": "course", "courseId": "HIN-URD 100C"},
+            {"type": "course", "courseId": "INDO 6"},
+            {"type": "course", "courseId": "JAPAN 6"},
+            {"type": "course", "courseId": "JAPAN 10"},
+            {"type": "course", "courseId": "KOREA 6"},
+            {"type": "course", "courseId": "KOREA 10"},
+            {"type": "course", "courseId": "THAI 6"},
+            {"type": "course", "courseId": "VIETMSE 6"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Asian 30, Civilization, Introduction to Religions, or Culture",
+          "description": "Select one course from the following categories within the department:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ASIAN 30"},
+            {"type": "course", "courseId": "CHIN 50"},
+            {"type": "course", "courseId": "JAPAN 50"},
+            {"type": "course", "courseId": "JAPAN 70"},
+            {"type": "course", "courseId": "KOREA 50"},
+            {"type": "course", "courseId": "SEASIAN 70"},
+            {"type": "course", "courseId": "ASIAN M60"},
+            {"type": "course", "courseId": "ASIAN M60W"},
+            {"type": "course", "courseId": "ASIAN M61"},
+            {"type": "course", "courseId": "CHIN M60"},
+            {"type": "course", "courseId": "CHIN M60W"},
+            {"type": "course", "courseId": "KOREA M60"},
+            {"type": "course", "courseId": "S ASIAN M60"},
+            {"type": "course", "courseId": "SEASIAN M60"},
+            {"type": "course", "courseId": "JAPAN 75"},
+            {"type": "course", "courseId": "JAPAN 80"},
+            {"type": "course", "courseId": "KOREA 40"},
+            {"type": "course", "courseId": "KOREA 70"},
+            {"type": "course", "courseId": "KOREA 80"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "LING 20"
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Eleven courses, as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Upper-Division Language Courses in Asian Languages",
+          "description": "Choose one of the following language tracks:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Single Language Track",
+              "description": "Complete five upper-division language courses in one Asian language offered by the department.",
+              "needs": 5,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Two Language Track",
+              "description": "Complete three upper-division language courses in one Asian language AND two upper-division language courses in a different Asian language.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Primary Language",
+                  "description": "Three upper-division courses in one Asian language.",
+                  "needs": 3,
+                  "options": [
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Secondary Language",
+                  "description": "Two upper-division courses in a different Asian language.",
+                  "needs": 2,
+                  "options": [
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "ASIAN 100"
+        },
+        {
+          "type": "course",
+          "courseId": "ASIAN 104"
+        },
+        {
+          "type": "group",
+          "title": "Asian Linguistics",
+          "description": "Select two Asian linguistics courses from:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "ASIAN CM124"},
+            {"type": "course", "courseId": "CHIN 103"},
+            {"type": "course", "courseId": "CHIN C120"},
+            {"type": "course", "courseId": "JAPAN M120"},
+            {"type": "course", "courseId": "JAPAN CM122"},
+            {"type": "course", "courseId": "JAPAN CM123"},
+            {"type": "course", "courseId": "JAPAN CM127"},
+            {"type": "course", "courseId": "KOREA CM120"},
+            {"type": "course", "courseId": "KOREA 124"},
+            {"type": "course", "courseId": "S ASIAN 170"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Electives",
+          "description": "Complete two upper-division electives within the department or from the Linguistics Department.",
+          "needs": 2,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors-program",
+      "title": "Honors Program",
+      "description": "The honors program is a three-term sequence (Asian 198A-198B-198C), taken in addition to requirements for the major, that culminates in the submission of a 40- to 60-page thesis. To qualify for honors, students must have a 3.5 GPA in upper-division major courses and 3.0 overall GPA. For highest honors, a 3.8 major GPA and 3.5 overall GPA is required. Application is typically in spring of junior year.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Thesis Sequence (Optional)",
+          "description": "To receive honors, students must be admitted to the program and complete the following three-course sequence.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Courses",
+              "description": "Complete all three courses for the honors thesis.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "ASIAN 198A"},
+                {"type": "course", "courseId": "ASIAN 198B"},
+                {"type": "course", "courseId": "ASIAN 198C"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

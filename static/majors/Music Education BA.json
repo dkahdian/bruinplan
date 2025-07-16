@@ -1,0 +1,197 @@
+{
+  "name": "Music Education BA",
+  "overview": "The Music Education major is a designated capstone major. Through preparation for and execution of their senior capstone projects or recitals, students demonstrate mastery of program learning outcomes; as well as a level of proficiency appropriate for their role in the recitals and their understanding of performance practices appropriate to the repertory being performed, as acquired in previous coursework and through research. Students also display their ability to assemble an effective program in terms of pacing and variety, and demonstrate requisite stage presence along with an ability to communicate with their audience in performance.",
+  "college": "Herb Alpert School of Music",
+  "department": "Music Performance, Education, and Composition",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete six required courses, 12 or 15 units of instrumental or vocal studio, and 18 units of large conducted ensembles as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Musicianship",
+          "description": "Complete the following courses with grades of C- or better:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MUSC M6A"},
+            {"type": "course", "courseId": "MUSC M6B"},
+            {"type": "course", "courseId": "MUSC M6C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Theory",
+          "description": "Select one of the following series to be approved by the division chair. The courses must be completed with grades of C or better.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Music 20 Series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "MUSC 20A"},
+                {"type": "course", "courseId": "MUSC 20B"},
+                {"type": "course", "courseId": "MUSC 20C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Music 21 Series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "MUSC 21A"},
+                {"type": "course", "courseId": "MUSC 21B"},
+                {"type": "course", "courseId": "MUSC 21C"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Instrumental or Vocal Studio",
+          "description": "Choose one track.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Instrumentalists",
+              "description": "Complete 12 units from: Music 60A through 60U",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Vocalists",
+              "description": "Complete 15 units from:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "MUSC 61A"},
+                {"type": "course", "courseId": "MUSC 61C"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Large Conducted Ensembles",
+          "description": "Complete 18 units from the following, as assigned by the chair or music education faculty member: MUSC C185A, MUSC C185B, MUSC C185C, MUSC C185D, MUSC C185E, MUSC 185F, MUSC C185G, MUSC 185H",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete 23 courses, 4 or 5 units of advanced instrumental or voice studio, 2 units of public recital coursework, and a capstone course as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Musicianship",
+          "description": "Complete the following courses with grades of C- or better:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MUSC 102A"},
+            {"type": "course", "courseId": "MUSC 102B"},
+            {"type": "course", "courseId": "MUSC 102C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Theory",
+          "description": "Complete the following courses with grades of C or better:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MUSC 111A"},
+            {"type": "course", "courseId": "MUSC 111B"},
+            {"type": "course", "courseId": "MUSC 111C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "History",
+          "description": "Complete the following courses with grades of C or better:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MUSCLG 125A"},
+            {"type": "course", "courseId": "MUSCLG 125B"},
+            {"type": "course", "courseId": "MUSCLG 125C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Music Education",
+          "description": "Complete the following 14 courses:",
+          "needs": 14,
+          "options": [
+            {"type": "course", "courseId": "MUSC 110A"},
+            {"type": "course", "courseId": "MUSC 110B"},
+            {"type": "course", "courseId": "MUSC 110C"},
+            {"type": "course", "courseId": "MUSC 110D"},
+            {"type": "course", "courseId": "MUSC 114A"},
+            {"type": "course", "courseId": "MUSC 114B"},
+            {"type": "course", "courseId": "MUSC 114C"},
+            {"type": "course", "courseId": "MUSC 114D"},
+            {"type": "course", "courseId": "MUSC 114J"},
+            {"type": "course", "courseId": "MUSC 115A"},
+            {"type": "course", "courseId": "MUSC 115B"},
+            {"type": "course", "courseId": "MUSC 115C"},
+            {"type": "course", "courseId": "MUSC 116"},
+            {"type": "course", "courseId": "MUSC 117"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Advanced Instrumental or Voice Studio",
+          "description": "Choose one track.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Instrumentalists",
+              "description": "Select 4 units from: Music 160A through 160U",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Vocalists",
+              "description": "Select 5 units from:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "MUSC 161A"},
+                {"type": "course", "courseId": "MUSC 161C"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Public Recital",
+          "description": "Select 2 units from Music 163A through 163V (vocalists must also enroll in Music 161C as corequisite to 163V) taken in the primary performance area; students must consult and receive approval from the assigned music education faculty member before scheduling recital, which may be scheduled as early as fall quarter of the junior year.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Project",
+          "description": "Complete the following course. All capstone projects in Music Education take the form of an electronic portfolio demonstrating mastery of program learning outcomes. The student\u2019s portfolio must be submitted before Music 110D is completed.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MUSC 110D"}
+          ]
+        }
+      ]
+    }
+  ]
+}

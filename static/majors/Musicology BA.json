@@ -1,0 +1,215 @@
+{
+  "name": "Musicology BA",
+  "overview": "The BA in Musicology appeals to undergraduate students with musical backgrounds whose interests and principal career goals lie in areas other than professional performance. This undergraduate program prepares students for graduate programs in music and related fields and offers training within the broader context of the humanities. The Musicology major is a designated capstone major where students complete a senior thesis that demonstrates the skills and expertise they have acquired in earlier coursework.",
+  "college": "Herb Alpert School of Music",
+  "department": "Musicology",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete nine required courses, 6 units from performance organizations, and one lower-division humanities elective. Enrollment in Musicology M6A, M6B, M6C and Music 20A, 20B, 20C requires taking the Music Theory Placement Examination. Students who do not pass the examination are required to take Music 3 prior to taking Music 20A.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete the following nine courses:",
+          "needs": 9,
+          "options": [
+            {"type": "course", "courseId": "MUSCLG 1"},
+            {"type": "course", "courseId": "MUSCLG 2"},
+            {"type": "course", "courseId": "MUSCLG M6A"},
+            {"type": "course", "courseId": "MUSCLG M6B"},
+            {"type": "course", "courseId": "MUSCLG M6C"},
+            {"type": "course", "courseId": "MUSCLG 12W"},
+            {"type": "course", "courseId": "MUSC 20A"},
+            {"type": "course", "courseId": "MUSC 20B"},
+            {"type": "course", "courseId": "MUSC 20C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Performance Organizations",
+          "description": "Complete 6 units from the following courses and ranges:",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Ethnomusicology 68A through 68O",
+              "description": "Select from this range.",
+              "needs": 0,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Ethnomusicology 91A through 91Z",
+              "description": "Select from this range.",
+              "needs": 0,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Ethnomusicology 168A through 168O",
+              "description": "Select from this range.",
+              "needs": 0,
+              "options": [
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176A"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176B"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176C"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176D"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176E"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176F"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176G"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176H"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C175A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C175B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C175C"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C175D"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C175E"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C175F"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C175G"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185C"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185D"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185E"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 185F"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185G"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 185H"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG CM90T"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 111A"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Lower-Division Humanities Elective",
+          "description": "Complete one lower-division humanities elective (minimum of 4 units).",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete seven required courses, one upper-division elective, and a three-course capstone sequence. Each course applied toward the major must be taken for a letter grade (courses offered only on a P/NP grading basis are acceptable).",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete the following courses. Note: In a given year, the department may designate individual Musicology seminars in the range 160-185, 188, or 191 as equivalent to 126 and 127.",
+          "needs": 7,
+          "options": [
+            {"type": "course", "courseId": "MUSCLG 125A"},
+            {"type": "course", "courseId": "MUSCLG 125B"},
+            {"type": "course", "courseId": "MUSCLG 125C"},
+            {"type": "course", "courseId": "MUSCLG 126"},
+            {"type": "course", "courseId": "MUSCLG 127"},
+            {"type": "course", "courseId": "MUSCLG 128"},
+            {"type": "course", "courseId": "MUSCLG 193C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Elective",
+          "description": "Select one additional upper-division ethnomusicology, global jazz studies, music, or music industry seminar elective course (minimum of 4 units).",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Sequence",
+          "description": "Complete the following three-course sequence:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MUSCLG 187A"},
+            {"type": "course", "courseId": "MUSCLG 187B"},
+            {"type": "course", "courseId": "MUSCLG 187C"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -210,7 +210,7 @@
             "id": "MATH 42",
             "title": "Introduction to Data-Driven Mathematical Modeling: Life, The Universe, and Everything",
             "units": 4,
-            "description": "Lecture, three hours; discussion, one hour. Requisites: Math 31AB; 32AB; 33A; One of Statistics 10-15, Statistics 20; PIC 10A. This course gives an introduction to data-driven mathematical modeling and to combining data analysis with mechanistic modeling of phenomena from various applications. Topics include model formulation, data visualization, nondimensionalization and order-of-magnitude physics, introduction to discrete and continuous dynamical systems, and introduction to discrete and continuous stochastic models. Examples drawn from many fields and practice problems from Mathematical Contest in Modeling. P/NP or Letter grading.",
+            "description": "Lecture, three hours; discussion, one hour. Requisites: Math 31AB; 32AB; 33A; One of Statistics 10-15, Statistics 20; COMPTNG 10A. This course gives an introduction to data-driven mathematical modeling and to combining data analysis with mechanistic modeling of phenomena from various applications. Topics include model formulation, data visualization, nondimensionalization and order-of-magnitude physics, introduction to discrete and continuous dynamical systems, and introduction to discrete and continuous stochastic models. Examples drawn from many fields and practice problems from Mathematical Contest in Modeling. P/NP or Letter grading.",
             "requisites": [
                 { "type": "Requisite", "level": "Warning", "course": "MATH 31A" },
                 { "type": "Requisite", "level": "Warning", "course": "MATH 31B" },

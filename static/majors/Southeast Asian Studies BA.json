@@ -1,0 +1,117 @@
+{
+  "name": "Southeast Asian Studies BA",
+  "overview": "Early acquisition of Asian language skills aids in the timely completion of major requirements and enriches appreciation of Asian cultures. Students are encouraged, therefore, to complete up to a year of language study in approved programs of study abroad.",
+  "college": "College of Letters and Science",
+  "department": "Asian Languages and Cultures",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete three courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Intermediate Sequence in One Southeast Asian Language",
+          "description": "Select one intermediate sequence in a Southeast Asian language (or equivalent):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "FILIPNO 6"},
+            {"type": "course", "courseId": "INDO 6"},
+            {"type": "course", "courseId": "THAI 6"},
+            {"type": "course", "courseId": "VIETMSE 6"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "SEASIAN 50"
+        },
+        {
+          "type": "group",
+          "title": "Religion, Literature, or Culture",
+          "description": "Select one course from the following:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ASIAN 30"},
+            {"type": "course", "courseId": "SEASIAN M60"},
+            {"type": "course", "courseId": "SEASIAN 70"},
+            {"type": "course", "courseId": "VIETMSE 40"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 11 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Upper-Division Southeast Asian Language",
+          "description": "Select one upper-division language course in a Southeast Asian language from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "INDO 100A"},
+            {"type": "course", "courseId": "INDO 100B"},
+            {"type": "course", "courseId": "INDO 100C"},
+            {"type": "course", "courseId": "THAI 100A"},
+            {"type": "course", "courseId": "THAI 100B"},
+            {"type": "course", "courseId": "THAI 100C"},
+            {"type": "course", "courseId": "VIETMSE 100A"},
+            {"type": "course", "courseId": "VIETMSE 100B"},
+            {"type": "course", "courseId": "VIETMSE 100C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Electives on Southeast Asia",
+          "description": "Select eight upper-division elective courses on Southeast Asia from:",
+          "needs": 8,
+          "options": [
+            {"type": "course", "courseId": "ANTHRO 116S"},
+            {"type": "course", "courseId": "ART HIS 156"},
+            {"type": "course", "courseId": "ASIA AM 123"},
+            {"type": "course", "courseId": "ASIA AM 125"},
+            {"type": "course", "courseId": "ASIA AM 133"},
+            {"type": "course", "courseId": "ASIA AM 134"},
+            {"type": "course", "courseId": "ASIA AM M164"},
+            {"type": "course", "courseId": "ASIA AM M171D"},
+            {"type": "course", "courseId": "ASIA AM 171E"},
+            {"type": "course", "courseId": "ASIA AM 176"},
+            {"type": "course", "courseId": "FILIPNO 170"},
+            {"type": "course", "courseId": "HIST 176A"},
+            {"type": "course", "courseId": "HIST 176B"},
+            {"type": "course", "courseId": "HIST 176C"},
+            {"type": "course", "courseId": "HIST 176E"},
+            {"type": "course", "courseId": "HIST 177A"},
+            {"type": "course", "courseId": "HIST 177B"},
+            {"type": "course", "courseId": "HIST 187M"},
+            {"type": "course", "courseId": "POL SCI 158"},
+            {"type": "course", "courseId": "SEASIAN C120"},
+            {"type": "course", "courseId": "SEASIAN 130"},
+            {"type": "course", "courseId": "SEASIAN 135"},
+            {"type": "course", "courseId": "SEASIAN C140"},
+            {"type": "course", "courseId": "SEASIAN C150"},
+            {"type": "course", "courseId": "SEASIAN 157"},
+            {"type": "course", "courseId": "SEASIAN 160"},
+            {"type": "course", "courseId": "SEASIAN 170A"},
+            {"type": "course", "courseId": "SEASIAN 170B"},
+            {"type": "course", "courseId": "SEASIAN 170C"},
+            {"type": "course", "courseId": "VIETMSE CM155"},
+            {"type": "course", "courseId": "VIETMSE 180A"},
+            {"type": "course", "courseId": "VIETMSE 180B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Electives on Other Parts of Asia",
+          "description": "Complete two upper-division electives on other parts of Asia (China, Japan, Korea, South Asia) within the department or offered by another department (History, Geography, Anthropology, Political Science, Asian American Studies).",
+          "needs": 2,
+          "options": [
+          ]
+        }
+      ]
+    }
+  ]
+}

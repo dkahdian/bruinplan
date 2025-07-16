@@ -1,0 +1,248 @@
+{
+  "name": "Applied Mathematics BS",
+  "overview": "The Applied Mathematics major concerns applications of mathematics to the sciences, including the life, social and physical sciences, and engineering.",
+  "college": "College of Letters and Science",
+  "department": "Mathematics",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 10 courses as follows: Mathematics 31A or 31AL, the following eight courses, and one elective course.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Calculus I",
+          "description": "Select one course from Mathematics 31A or 31AL.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31AL"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33B"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1B"
+        },
+        {
+          "type": "course",
+          "courseId": "COMPTNG 10A"
+        },
+        {
+          "type": "group",
+          "title": "Elective",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "CHEM 20B"},
+            {"type": "course", "courseId": "PHYSICS 1C"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 12 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Complete four courses. Select either Mathematics 131B or 132.",
+          "needs": 4,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "MATH 115A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 131A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 142"
+            },
+            {
+              "type": "group",
+              "title": "Analysis",
+              "description": "Select either Mathematics 131B or 132.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "MATH 131B"},
+                {"type": "course", "courseId": "MATH 132"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Two-Term Sequences",
+          "description": "Select two two-term sequences from two of the following categories:",
+          "needs": 2,
+          "options": [
+            {
+              "type": "group",
+              "title": "Numerical Analysis",
+              "description": "Complete both courses in this sequence.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "MATH 151A"},
+                {"type": "course", "courseId": "MATH 151B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Probability and Statistics",
+              "description": "Select one two-term sequence from Probability Theory or Statistics.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Probability Theory",
+                  "description": "Complete both courses in this sequence.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "MATH 170A"},
+                    {"type": "course", "courseId": "MATH 170B"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Statistics",
+                  "description": "Complete both courses in this sequence.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "STATS 100A"},
+                    {"type": "course", "courseId": "STATS 100B"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Differential Equations",
+              "description": "Complete both courses in this sequence.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "MATH 134"},
+                {"type": "course", "courseId": "MATH 135"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select four courses from the following: Mathematics (Select from Mathematics 105C through 199, excluding courses 188S, 189, and 190) or Statistics (Select from STATS 100A, 100B, 100C, 101A, 101B, 101C, 102A, 102B, 102C). Appropriate courses from other departments may be substituted with consent.",
+          "needs": 4,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "Optional program for students who wish to graduate with departmental honors.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Program",
+          "description": "Optional: Fulfill requirements for the Honors Program. The program entails taking a specified sequence of courses, completing an approved seminar or original research project, and maintaining a high GPA. Contact the department for more information.",
+          "needs": 0,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing_specialization",
+      "title": "Computing Specialization",
+      "description": "Majors may select a specialization in Computing by satisfying all the requirements for a bachelor\u2019s degree in the specified major and completing the following courses.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Computing Specialization",
+          "description": "Optional: Complete all requirements for the Computing Specialization.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Computing Specialization Requirements",
+              "description": "Complete all courses for the specialization.",
+              "needs": 5,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Discrete Structures/Graph Theory",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "MATH 61"},
+                    {"type": "course", "courseId": "MATH 180"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10B"
+                },
+                {
+                  "type": "group",
+                  "title": "Program in Computing Electives",
+                  "description": "Select two courses from:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "COMPTNG 10C"},
+                    {"type": "course", "courseId": "COMPTNG 15"},
+                    {"type": "course", "courseId": "COMPTNG 16A"},
+                    {"type": "course", "courseId": "COMPTNG 20A"},
+                    {"type": "course", "courseId": "COMPTNG 40A"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Mathematics Electives",
+                  "description": "Select two courses from Mathematics 149 through 159.",
+                  "needs": 2,
+                  "options": [
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

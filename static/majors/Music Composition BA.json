@@ -1,0 +1,172 @@
+{
+  "name": "Music Composition BA",
+  "overview": "The Music Composition major is a designated capstone major. Through preparation for and execution of their senior capstone projects or recitals, students demonstrate mastery of program learning outcomes, as well as a level of proficiency appropriate for their role in the recitals and their understanding of performance practices appropriate to the repertory being performed, as acquired in previous coursework and through research. Students also display their ability to assemble an effective program in terms of pacing and variety, and demonstrate requisite stage presence along with an ability to communicate with their audience in performance.",
+  "college": "Herb Alpert School of Music",
+  "department": "Music Performance, Education, and Composition",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete the following requirements in Musicianship, Theory, Instrumental Studio, Composition Studio, and Large Conducted Ensembles.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Musicianship",
+          "description": "Complete the following courses with grades of C\u2013 or better:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MUSC M6A"},
+            {"type": "course", "courseId": "MUSC M6B"},
+            {"type": "course", "courseId": "MUSC M6C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Theory",
+          "description": "Complete the following courses with grades of C or better:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MUSC 20A"},
+            {"type": "course", "courseId": "MUSC 20B"},
+            {"type": "course", "courseId": "MUSC 20C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Instrumental Studio",
+          "description": "Complete up to 12 units from Music 60A through 60U in one instrument, determined through a rigorous proficiency test administered by the composition faculty.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Composition Studio",
+          "description": "Complete 12 units of the following course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MUSC 66"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Large Conducted Ensembles",
+          "description": "Complete 12 units from the following courses using the student\u2019s major instrument, as assigned by the chair or designated faculty member.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MUSC C185A"},
+            {"type": "course", "courseId": "MUSC C185B"},
+            {"type": "course", "courseId": "MUSC C185C"},
+            {"type": "course", "courseId": "MUSC C185D"},
+            {"type": "course", "courseId": "MUSC C185E"},
+            {"type": "course", "courseId": "MUSC 185F"},
+            {"type": "course", "courseId": "MUSC C185G"},
+            {"type": "course", "courseId": "MUSC 185H"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete the following requirements in Theory, History, Advanced Composition, Electives, and the Capstone Recital.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Theory",
+          "description": "Complete the following courses with grades of C or better:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MUSC 120A"},
+            {"type": "course", "courseId": "MUSC 120B"},
+            {"type": "course", "courseId": "MUSC 120C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "History",
+          "description": "Complete the following courses with grades of C or better:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MUSCLG 125A"},
+            {"type": "course", "courseId": "MUSCLG 125B"},
+            {"type": "course", "courseId": "MUSCLG 125C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Advanced Composition Studio",
+          "description": "Complete 10 units of the following course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MUSC 166"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Advanced Composition Concepts and Techniques",
+          "description": "Complete six courses as follows:",
+          "needs": 6,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "MUSC 106A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 106B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 116"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C176"
+            },
+            {
+              "type": "group",
+              "title": "Music 104A or 104B",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "MUSC 104A"},
+                {"type": "course", "courseId": "MUSC 104B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Music 124A or 124B or 124C",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "MUSC 124A"},
+                {"type": "course", "courseId": "MUSC 124B"},
+                {"type": "course", "courseId": "MUSC 124C"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select at least 4 units from all upper-division ethnomusicology, global jazz studies, music, music industry, or musicology courses.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Composition Recital",
+          "description": "In senior year, each student must present a senior recital as part of the capstone course to be preceded by a scoring course (Music 124A, 124B, or 124C); the 30-minute recital includes a printed program with notes. All recitals are videotaped and archived. Performances are evaluated by a jury.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MUSC 169"}
+          ]
+        }
+      ]
+    }
+  ]
+}

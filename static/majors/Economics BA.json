@@ -1,0 +1,136 @@
+{
+  "name": "Economics BA",
+  "overview": "The Economics BA program enables students to apply economic analyses to everyday life, visualize economics in real-world situations, understand policy-relevant issues, and evaluate the role of assumptions in economic arguments.",
+  "college": "College of Letters and Science",
+  "department": "Economics",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation-for-the-major",
+      "title": "Preparation for the Major",
+      "description": "Complete six courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Economics",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "ECON 1"},
+            {"type": "course", "courseId": "ECON 2"},
+            {"type": "course", "courseId": "ECON 11"},
+            {"type": "course", "courseId": "ECON 41"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Complete Mathematics 31A or 31AL and Mathematics 31B.",
+          "needs": 2,
+          "options": [
+            {
+              "type": "group",
+              "title": "Calculus I",
+              "description": "Select one course:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31AL"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete the following six upper-division core courses:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "ECON 101"
+        },
+        {
+          "type": "course",
+          "courseId": "ECON 102"
+        },
+        {
+          "type": "course",
+          "courseId": "ECON 103"
+        },
+        {
+          "type": "course",
+          "courseId": "ECON 103L"
+        },
+        {
+          "type": "course",
+          "courseId": "ECON 104"
+        },
+        {
+          "type": "course",
+          "courseId": "ECON 104L"
+        }
+      ]
+    },
+    {
+      "id": "upper-division-electives",
+      "title": "Upper-Division Electives",
+      "description": "Complete six upper-division elective courses from the groups below. No more than two of the six courses may be selected from the Management group.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Upper-Division Economics Courses",
+          "description": "Select from upper-division economics courses.",
+          "needs": 0,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Management Courses",
+          "description": "Select up to two courses from the following list. Management 180 may only apply as the real estate finance topic.",
+          "needs": 0,
+          "options": [
+            {"type": "course", "courseId": "MGMT 120A"},
+            {"type": "course", "courseId": "MGMT 120B"},
+            {"type": "course", "courseId": "MGMT 122"},
+            {"type": "course", "courseId": "MGMT 127A"},
+            {"type": "course", "courseId": "MGMT 130A"},
+            {"type": "course", "courseId": "MGMT 170"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors-program",
+      "title": "Honors Program",
+      "description": "The honors program is an optional track for qualified students who wish to complete a senior thesis.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Optional Honors Track",
+          "description": "Choose to complete the honors program track.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Thesis Requirement",
+              "description": "Complete the following two courses in which a thesis is written. To qualify for honors, students must also select at least seven upper-division economics courses from an approved list.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "ECON 198A"},
+                {"type": "course", "courseId": "ECON 198B"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

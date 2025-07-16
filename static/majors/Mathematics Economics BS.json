@@ -1,0 +1,215 @@
+{
+  "name": "Mathematics Economics BS",
+  "overview": "The Mathematics/Economics BS degree program is designed to give students a solid foundation in both mathematics and economics, stressing those areas of mathematics and statistics that are most relevant to economics and the parts of economics that emphasize the use of mathematics and statistics. It is ideal for students who may wish to complete a higher degree in economics.",
+  "college": "College of Letters and Science",
+  "department": "Mathematics, Economics",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science (B.S.)",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 11 courses, and one Writing II course. Select Mathematics 31A or 31AL.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Calculus I",
+          "description": "Select one course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31AL"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 61"
+        },
+        {
+          "type": "course",
+          "courseId": "ECON 1"
+        },
+        {
+          "type": "course",
+          "courseId": "ECON 2"
+        },
+        {
+          "type": "course",
+          "courseId": "ECON 11"
+        },
+        {
+          "type": "course",
+          "courseId": "COMPTNG 10A"
+        },
+        {
+          "type": "group",
+          "title": "Writing II",
+          "description": "Complete any one Writing II course.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 14 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Mathematics Core",
+          "description": "Complete the following six courses:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "MATH 115A"},
+            {"type": "course", "courseId": "MATH 131A"},
+            {"type": "course", "courseId": "MATH 131B"},
+            {"type": "course", "courseId": "MATH 164"},
+            {"type": "course", "courseId": "MATH 170E"},
+            {"type": "course", "courseId": "MATH 170S"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics Finance/Stats Option",
+          "description": "Select one course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 174E"},
+            {"type": "course", "courseId": "ECON 141"},
+            {"type": "course", "courseId": "STATS C183"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics Elective",
+          "description": "Select one course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 134"},
+            {"type": "course", "courseId": "MATH 135"},
+            {"type": "course", "courseId": "MATH 136"},
+            {"type": "course", "courseId": "MATH 171"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Economics Core",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "ECON 101"},
+            {"type": "course", "courseId": "ECON 102"},
+            {"type": "course", "courseId": "ECON 103"},
+            {"type": "course", "courseId": "ECON 103L"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Economics Electives",
+          "description": "Select two courses from Economics 106E through 199B.",
+          "needs": 2,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program (Optional)",
+      "description": "To qualify for honors at graduation, students must (1) complete Mathematics 115AH, 131AH, and 131BH, (2) complete Economics 198A and 198B (the thesis process requires enrollment in a two-term sequence for economics courses), (3) present the thesis in Economics 198B, and (4) complete the major requirements with a minimum 3.5 grade-point average in both the upper-division economics and mathematics courses.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Mathematics Honors Courses",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MATH 115AH"},
+            {"type": "course", "courseId": "MATH 131AH"},
+            {"type": "course", "courseId": "MATH 131BH"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Economics Honors Research",
+          "description": "The thesis process requires enrollment in a two-term sequence for economics courses.",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "ECON 198A"},
+            {"type": "course", "courseId": "ECON 198B"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing_specialization",
+      "title": "Computing Specialization (Optional)",
+      "description": "Majors in Mathematics/Economics may select a Computing specialization by satisfying all the requirements for a bachelor\u2019s degree in the major; and completing the following courses, with a minimum grade of C\u2013 in each course and a combined grade-point average of at least 2.0. Students must petition for admission to the program and are advised to do so after they complete Program in Computing 10B (petitions should be filed in the Mathematics Department Student Services Office). Students graduate with a bachelor\u2019s degree in mathematics/economics and a specialization in Computing.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Mathematics 61 or 180",
+          "description": "Select one course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 61"},
+            {"type": "course", "courseId": "MATH 180"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Program in Computing Core",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "COMPTNG 10A"},
+            {"type": "course", "courseId": "COMPTNG 10B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Program in Computing Electives",
+          "description": "Select two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "COMPTNG 10C"},
+            {"type": "course", "courseId": "COMPTNG 15"},
+            {"type": "course", "courseId": "COMPTNG 16A"},
+            {"type": "course", "courseId": "COMPTNG 20A"},
+            {"type": "course", "courseId": "COMPTNG 40A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics Electives",
+          "description": "Select two courses from Mathematics 149 through 159.",
+          "needs": 2,
+          "options": [
+          ]
+        }
+      ]
+    }
+  ]
+}

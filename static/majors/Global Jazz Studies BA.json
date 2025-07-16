@@ -1,0 +1,195 @@
+{
+  "name": "Global Jazz Studies BA",
+  "overview": "The Global Jazz Studies major is a designated capstone major. The capstone project, usually done in the senior year, is tailored to each student and includes a seminar class (course 186A) and a capstone presentation such as a recital, lecture-demonstration, or lecture-recital (186B). The capstone experience provides an appropriate vehicle for the faculty to assess the students\u2019 accomplishments during their tenure in the program.",
+  "college": "Herb Alpert School of Music",
+  "department": "Global Jazz Studies",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete a total of 41 units as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Musical Cultures of the World",
+          "description": "Select one course (5 units) from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS 20B"},
+            {"type": "course", "courseId": "ETHNMUS 20C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Music and Dance of Ghana and African American Music Ensemble",
+          "description": "Complete 4 units from one or both of the following courses:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS 91E"},
+            {"type": "course", "courseId": "ETHNMUS 91P"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "World Music Specializations and Performance Organizations",
+          "description": "Complete 4 units from: World Music Specializations: Ethnomusicology 68A through 68O or World Music Performance Organizations: Ethnomusicology 91A through 91Z (except 91E and 91P)",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "African American Musical Heritage",
+          "description": "Complete both of the following courses (10 units):",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "GJ STDS M110A"},
+            {"type": "course", "courseId": "GJ STDS M110B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Jazz Performance",
+          "description": "Complete 12 units from the following. Students must enroll in a studio each quarter. Global Jazz Studies 71A through 71I",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Musicianship",
+          "description": "Complete the following three courses (6 units):",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MUSC M6A"},
+            {"type": "course", "courseId": "MUSC M6B"},
+            {"type": "course", "courseId": "MUSC M6C"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 72 units as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Performance (24 units)",
+          "description": "Students must enroll in a studio class and at least one combo or ensemble each quarter.",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Studio Coursework (12 units)",
+              "description": "Global Jazz Studies 171A through 171I",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Small Jazz Combo (4 units)",
+              "description": "GJ STDS 175 - Jazz Combo",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "GJ STDS 175"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Large Jazz Ensemble (8 units)",
+              "description": "Global Jazz Studies 176A through 176G",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Musicianship and Theory (24 units)",
+          "description": "Complete 24 units from:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "GJ STDS 122A"},
+            {"type": "course", "courseId": "GJ STDS 122B"},
+            {"type": "course", "courseId": "GJ STDS 122C"},
+            {"type": "course", "courseId": "GJ STDS 127A"},
+            {"type": "course", "courseId": "GJ STDS 127B"},
+            {"type": "course", "courseId": "GJ STDS 127C"},
+            {"type": "course", "courseId": "GJ STDS 129A"},
+            {"type": "course", "courseId": "GJ STDS 129B"},
+            {"type": "course", "courseId": "GJ STDS 129C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Scholarly Foundations (20 units)",
+          "description": "Complete Global Jazz Studies 101, 125 and one course (at least 4 units) from each subject area listed, for a total of 20 units.",
+          "needs": 5,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "GJ STDS 101"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 125"
+            },
+            {
+              "type": "group",
+              "title": "African American Studies",
+              "description": "Select one course, at least 4 units",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "AF AMER 108"},
+                {"type": "course", "courseId": "AF AMER M150D"},
+                {"type": "course", "courseId": "AF AMER M158C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Global Jazz Studies",
+              "description": "Select one course, at least 4 units",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "GJ STDS M109"},
+                {"type": "course", "courseId": "GJ STDS M119"},
+                {"type": "course", "courseId": "GJ STDS M130"},
+                {"type": "course", "courseId": "GJ STDS M131"},
+                {"type": "course", "courseId": "GJ STDS 165"},
+                {"type": "course", "courseId": "GJ STDS 188"},
+                {"type": "course", "courseId": "GJ STDS 199"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Music Industry",
+              "description": "Select one course, at least 4 units",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "MSC IND 2"},
+                {"type": "course", "courseId": "MSC IND 104A"},
+                {"type": "course", "courseId": "MSC IND 107A"},
+                {"type": "course", "courseId": "MSC IND 115A"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Seminar and Project (4 units)",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "GJ STDS 186A"},
+            {"type": "course", "courseId": "GJ STDS 186B"}
+          ]
+        }
+      ]
+    }
+  ]
+}

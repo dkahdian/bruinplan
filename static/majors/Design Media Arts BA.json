@@ -1,0 +1,98 @@
+{
+  "name": "Design Media Arts BA",
+  "overview": "The undergraduate program begins with the study of basic design elements and processes: form, color, drawing, letterforms and typography, motion, and interactivity. Historical perspectives and social issues are also introduced. At the upper-division level, studio courses explore current uses of interactive media and new directions in visual communication design, including the study of time and motion, as well as virtual form and space in computer-generated environments. Through a balance of courses in theory, criticism, and practice, students develop an understanding of design principles. Most courses are taught as studios of no more than 22 students, which encourages individual growth and fosters a sense of community within the department. The Design | Media Arts major is a designated capstone major. Students are required to complete an advanced project of their own that entails full engagement with the design process. Through their capstone work, students demonstrate their capacities for research, ideation/concept development, creative and design direction, communication strategy, design, production/fabrication, and critical analysis. Capstone courses focus on career choice, and final projects are showcased at the spring senior show.",
+  "college": "School of the Arts and Architecture",
+  "department": "Design|Media Arts",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete the following seven courses:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "DESMA 8"
+        },
+        {
+          "type": "course",
+          "courseId": "DESMA 10"
+        },
+        {
+          "type": "course",
+          "courseId": "DESMA 21"
+        },
+        {
+          "type": "course",
+          "courseId": "DESMA 22"
+        },
+        {
+          "type": "course",
+          "courseId": "DESMA 24"
+        },
+        {
+          "type": "course",
+          "courseId": "DESMA 25"
+        },
+        {
+          "type": "course",
+          "courseId": "DESMA 28"
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Twelve upper-division courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "DESMA 101"
+        },
+        {
+          "type": "course",
+          "courseId": "DESMA 104"
+        },
+        {
+          "type": "group",
+          "title": "Design|Media Arts Additional Courses",
+          "description": "Select six courses from:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "DESMA 152"},
+            {"type": "course", "courseId": "DESMA 153"},
+            {"type": "course", "courseId": "DESMA 154"},
+            {"type": "course", "courseId": "DESMA 156"},
+            {"type": "course", "courseId": "DESMA 157"},
+            {"type": "course", "courseId": "DESMA 161"},
+            {"type": "course", "courseId": "DESMA 163"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Design|Media Arts Topics",
+          "description": "Select three courses from:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "DESMA 160"},
+            {"type": "course", "courseId": "DESMA 171"},
+            {"type": "course", "courseId": "DESMA 172"},
+            {"type": "course", "courseId": "DESMA 173"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "DESMA 159A"},
+            {"type": "course", "courseId": "DESMA 159B"},
+            {"type": "course", "courseId": "DESMA 159C"}
+          ]
+        }
+      ]
+    }
+  ]
+}

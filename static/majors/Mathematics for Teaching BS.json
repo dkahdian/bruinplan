@@ -1,0 +1,284 @@
+{
+  "name": "Mathematics for Teaching BS",
+  "overview": "The Mathematics for Teaching major is designed primarily for students planning to teach mathematics at the high school level. It provides exposure to a broad range of mathematical topics, especially those appropriate for the prospective teacher. Students planning to pursue graduate studies in mathematics or related fields are encouraged to enter the Mathematics, Applied Mathematics, or Mathematics of Computation major.\nThe Mathematics for Teaching major is a designated capstone major. In their senior year, students complete a year-long course sequence that culminates in a model lesson presentation, paper, and portfolio. Through their capstone work, students demonstrate their familiarity with research and current issues in mathematics education, as well as their capacities to problem solve; reason quantitatively, geometrically, and algebraically; construct viable arguments; critique others\u2019 reasoning; and use tools strategically.",
+  "college": "College of Letters and Science",
+  "department": "Mathematics",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete 11 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Calculus I",
+          "description": "Select one from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31AL"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 61"
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 5A"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "COMPTNG 10A"
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select two courses from:",
+          "needs": 2,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "CHEM 20A"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 20B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1C"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 5B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 5C"
+            },
+            {
+              "type": "group",
+              "title": "Program in Computing",
+              "description": "Select from Program in Computing 10B through 97.",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 13 courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "MATH 106"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 115A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 131A"
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 100B"
+        },
+        {
+          "type": "group",
+          "title": "Algebra",
+          "description": "Select one course from the following group:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 110A"},
+            {"type": "course", "courseId": "MATH 117"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Geometry",
+          "description": "Select one course from the following group:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 120A"},
+            {"type": "course", "courseId": "MATH 123"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Probability/Statistics",
+          "description": "Select one course from the following group:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 170A"},
+            {"type": "course", "courseId": "STATS 100A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics or Statistics Elective",
+          "description": "Select one from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Mathematics Elective",
+              "description": "Any course from Mathematics 110B through 191H",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 100C"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Analysis Elective",
+          "description": "Select one from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 131B"},
+            {"type": "course", "courseId": "MATH 131BH"},
+            {"type": "course", "courseId": "MATH 131C"},
+            {"type": "course", "courseId": "MATH 132"},
+            {"type": "course", "courseId": "MATH 132H"},
+            {"type": "course", "courseId": "MATH 133"},
+            {"type": "course", "courseId": "MATH 134"},
+            {"type": "course", "courseId": "MATH 135"},
+            {"type": "course", "courseId": "MATH 136"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics Elective",
+          "description": "Select one from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Mathematics Elective",
+              "description": "Any course from Mathematics 142 through 167",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Series",
+          "description": "Complete the following three-course capstone series in the senior year:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MATH 105A"},
+            {"type": "course", "courseId": "MATH 105B"},
+            {"type": "course", "courseId": "MATH 105C"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing_specialization",
+      "title": "Computing Specialization",
+      "description": "Majors may select a specialization in Computing by satisfying all the requirements for a bachelor\u2019s degree in the specified major and completing the following courses with a minimum grade of C\u2013 in each course and a combined grade-point average of at least 2.0. Students must petition for admission to this program and are advised to do so after they complete Program in Computing 10B (petitions should be filed in the Student Services Office). Students graduate with a bachelor\u2019s degree in their major and a specialization in Computing.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Optional Computing Specialization",
+          "description": "This specialization is optional.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Computing Specialization",
+              "description": "Complete all of the following requirements:",
+              "needs": 5,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Mathematics",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "MATH 61"},
+                    {"type": "course", "courseId": "MATH 180"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10B"
+                },
+                {
+                  "type": "group",
+                  "title": "Program in Computing Elective",
+                  "description": "Select two courses from:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "COMPTNG 10C"},
+                    {"type": "course", "courseId": "COMPTNG 15"},
+                    {"type": "course", "courseId": "COMPTNG 16A"},
+                    {"type": "course", "courseId": "COMPTNG 20A"},
+                    {"type": "course", "courseId": "COMPTNG 40A"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Mathematics Electives",
+                  "description": "Select two courses from Mathematics 149 through 159.",
+                  "needs": 2,
+                  "options": [
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

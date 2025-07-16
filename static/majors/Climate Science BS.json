@@ -1,0 +1,184 @@
+{
+  "name": "Climate Science BS",
+  "overview": "This program provides a fundamental understanding of atmospheric and oceanic sciences, with a focus on climate change, mitigation, and adaptation solutions, and the societal and policy context of climate science.",
+  "college": "College of Letters and Science",
+  "department": "Atmospheric and Oceanic Sciences",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Students interested in pursuing graduate studies in climate sciences or other branches of science are encouraged to select the Mathematics 31A through 33B sequence and the Physics 1 sequence.",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "A&O SCI 51"
+        },
+        {
+          "type": "group",
+          "title": "Computing",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "A&O SCI M71"},
+            {"type": "course", "courseId": "COM SCI 30"},
+            {"type": "course", "courseId": "COMPTNG 10A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Chemistry and Biochemistry",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry 14 Series",
+              "description": "Complete the following two courses:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Chemistry 20 Series",
+              "description": "Complete the following two courses:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Life Sciences 30 Series",
+              "description": "Complete the following two courses:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 3 Series",
+              "description": "Complete the following three courses:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 31A to 33B",
+              "description": "Complete the following four courses:",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "MATH 32A"},
+                {"type": "course", "courseId": "MATH 33B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Physics 1 Series",
+              "description": "Complete the following three courses:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 1 Honors Series",
+              "description": "Complete the following three courses:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1AH"},
+                {"type": "course", "courseId": "PHYSICS 1BH"},
+                {"type": "course", "courseId": "PHYSICS 1CH"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 5 Series",
+              "description": "Complete the following three courses:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Statistics",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "A&O SCI 90"},
+            {"type": "course", "courseId": "STATS 10"},
+            {"type": "course", "courseId": "STATS 12"},
+            {"type": "course", "courseId": "STATS 13"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete nine courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Atmospheric and Oceanic Sciences",
+          "description": "Complete the following seven courses:",
+          "needs": 7,
+          "options": [
+            {"type": "course", "courseId": "A&O SCI 101"},
+            {"type": "course", "courseId": "A&O SCI M105"},
+            {"type": "course", "courseId": "A&O SCI C110"},
+            {"type": "course", "courseId": "A&O SCI 112"},
+            {"type": "course", "courseId": "A&O SCI 121"},
+            {"type": "course", "courseId": "A&O SCI 123"},
+            {"type": "course", "courseId": "A&O SCI 145"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Policy/Solutions or Quantitative Courses",
+          "description": "Complete two upper-division policy/solutions or quantitative courses from a preapproved list. Atmospheric and Oceanic Sciences 199 (independent research) taken for 4 units may be used to satisfy one upper-division elective. Thesis approval is required from a faculty adviser and must be submitted to the department student affairs officer. Upper-division electives may also be selected in consultation with the undergraduate advisers.",
+          "needs": 2,
+          "options": [
+          ]
+        }
+      ]
+    }
+  ]
+}

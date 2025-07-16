@@ -1,0 +1,819 @@
+{
+  "name": "Environmental Science BS",
+  "overview": "The Environmental Science BS program represents strong collaboration between the Institute of the Environment and Sustainability and the departments of Atmospheric and Oceanic Sciences; Civil and Environmental Engineering; Earth, Planetary, and Space Sciences; Ecology and Evolutionary Biology; Environmental Health Sciences; and Geography. The program is designed for students who are deeply interested in the study of environmental science.\n\nThere are two components to the program, and both must be completed to receive the degree. The first component, the Environmental Science major, requires completion of lower-division requirements grounded in basic natural sciences, a five-course upper-division environmental science requirement reflecting the disciplinary breadth of environmental science, three social sciences/humanities courses, participation in a sustainability-focused speaker series, and completion of an environmental science practicum. The second component is a minor or concentration in one of seven environmental science areas, each associated with a particular department. With assistance from IoES staff, students must formally apply to and be accepted by the associated department to receive the minor.\n\n### Capstone Major\nThe Environmental Science major is a designated capstone major. In collaboration with a local agency or nonprofit institution, students work individually and in groups to complete projects that require them to integrate many of the skills, principles, theories, and concepts they have learned throughout the curriculum and apply them to real systems. Students are expected to contribute meaningfully to the analysis and solution of particular environmental science issues involving multiple disciplines and stakeholders with different perspectives. Those completing the major should possess critical thinking skills, problem-solving abilities, and familiarity with essential computational, data collection, and analysis skills, as well as demonstrate effective oral and written communication skills. Graduates should also be able to identify key ethical issues and analyze the consequences of various professional dilemmas, as well as work productively as part of a team.\n\n### Learning Outcomes\n1.  Ability to apply theories or concepts from coursework to analysis of issues in the field.\n2.  Ability to make meaningful contribution to analysis and solution of particular issues involving multiple disciplines and stakeholders with different perspectives.\n3.  Critical thinking skills, problem-solving abilities, and familiarity with computational and data collection and analysis procedures essential to the field.\n4.  Ability to identify ethical issues raised by a particular issue.\n5.  Ability to analyze the consequences of various professional dilemmas.\n6.  Ability to work productively with others as part of a team.\n7.  Effective oral and written communication skills.\n\n### Entry to the Major\n**Transfer Students**\nTransfer applicants to the Environmental Science major with 90 or more units must complete as many of the following introductory courses as possible prior to admission to UCLA: two general chemistry courses with laboratory for majors, two general biology courses with laboratory for majors, two calculus courses, and two calculus-based physics courses. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+  "college": "College of Letters and Science",
+  "department": "Institute of the Environment and Sustainability",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 12 required courses and additional required courses based on minor selection as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Chemistry",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry 14 series",
+              "description": "Complete all 3 courses:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Chemistry 20 series",
+              "description": "Complete all 3 courses:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "ENVIRON 10"
+        },
+        {
+          "type": "course",
+          "courseId": "GEOG 7"
+        },
+        {
+          "type": "course",
+          "courseId": "LIFESCI 7A"
+        },
+        {
+          "type": "course",
+          "courseId": "LIFESCI 7B"
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Life Sciences 30 series",
+              "description": "Complete both courses:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 3 series",
+              "description": "Complete both courses:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 31 series",
+              "description": "Complete two courses as follows:",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Calculus I",
+                  "description": "Select one course:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "MATH 31A"},
+                    {"type": "course", "courseId": "MATH 31AL"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Physics 1 series",
+              "description": "Complete both courses:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 5 series",
+              "description": "Complete both courses:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Statistics",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 40"},
+            {"type": "course", "courseId": "STATS 12"},
+            {"type": "course", "courseId": "STATS 13"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Preparation by Minor/Concentration",
+          "description": "Complete the requirements for your chosen minor or concentration.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "For the Atmospheric and Oceanic Sciences Minor",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14C"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "MATH 3C"},
+                {"type": "course", "courseId": "MATH 32A"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 5B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "For the Conservation Biology Minor",
+              "description": "Select one or two courses from one of the following options:",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Chemistry Option",
+                  "description": "Select one course:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM 14C"},
+                    {"type": "course", "courseId": "CHEM 30A"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Life Sciences Option",
+                  "description": "Complete both courses:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "LIFESCI 7C"},
+                    {"type": "course", "courseId": "LIFESCI 7L"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "For the Earth and Environmental Science Minor",
+              "description": "Complete three additional courses:",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "EPS SCI 1"
+                },
+                {
+                  "type": "group",
+                  "title": "Earth, Planetary, and Space Sciences Elective",
+                  "description": "Select one course:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "EPS SCI 5"},
+                    {"type": "course", "courseId": "EPS SCI 13"},
+                    {"type": "course", "courseId": "EPS SCI 15"},
+                    {"type": "course", "courseId": "EPS SCI 61"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Additional Course",
+                  "description": "Select one course:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM 14C"},
+                    {"type": "course", "courseId": "CHEM 30A"},
+                    {"type": "course", "courseId": "MATH 3C"},
+                    {"type": "course", "courseId": "MATH 32A"},
+                    {"type": "course", "courseId": "PHYSICS 1C"},
+                    {"type": "course", "courseId": "PHYSICS 5B"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "For the Environmental Engineering Minor",
+              "description": "Select one additional course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "MATH 3C"},
+                {"type": "course", "courseId": "MATH 32A"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "For the Environmental Health Concentration",
+              "description": "Select one additional course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14C"},
+                {"type": "course", "courseId": "CHEM 30A"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "For the Environmental Systems and Society Minor",
+              "description": "Select one additional course. Students selecting Life Sciences 7C must also complete 23L.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "EPS SCI 1"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 32A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5B"
+                },
+                {
+                  "type": "group",
+                  "title": "Life Sciences Option",
+                  "description": "Complete both courses:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "LIFESCI 7C"},
+                    {"type": "course", "courseId": "LIFESCI 7L"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "For the Geography/Environmental Studies Minor",
+              "description": "Complete three courses as follows (should be taken before enrolling in upper-division courses):",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "GEOG 5"
+                },
+                {
+                  "type": "group",
+                  "title": "Geography Elective",
+                  "description": "Select one course:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "GEOG 1"},
+                    {"type": "course", "courseId": "GEOG 2"},
+                    {"type": "course", "courseId": "GEOG 3"},
+                    {"type": "course", "courseId": "GEOG 4"},
+                    {"type": "course", "courseId": "GEOG 6"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Additional Course",
+                  "description": "Select one course; students selecting Life Sciences 7C must also complete 23L.",
+                  "needs": 1,
+                  "options": [
+                    {
+                      "type": "course",
+                      "courseId": "CHEM 14C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CHEM 30A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "EPS SCI 1"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MATH 3C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MATH 32A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PHYSICS 1C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PHYSICS 5B"
+                    },
+                    {
+                      "type": "group",
+                      "title": "Life Sciences Option",
+                      "description": "Complete both courses:",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "LIFESCI 7C"},
+                        {"type": "course", "courseId": "LIFESCI 7L"}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete the four requirements\u2014physical and life science, social science and humanities, practicum/sustainability talks, and minor or concentration, as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Physical and Life Sciences Requirements",
+          "description": "Complete five courses as follows:",
+          "needs": 5,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "ENVIRON 175"
+            },
+            {
+              "type": "group",
+              "title": "Additional Physical and Life Sciences Courses",
+              "description": "Select four courses from the following physical and life sciences areas. No more than two courses may be from any one department.",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "A&O SCI 101"},
+                {"type": "course", "courseId": "A&O SCI 102"},
+                {"type": "course", "courseId": "A&O SCI 103"},
+                {"type": "course", "courseId": "A&O SCI 104"},
+                {"type": "course", "courseId": "A&O SCI M105"},
+                {"type": "course", "courseId": "A&O SCI 107"},
+                {"type": "course", "courseId": "A&O SCI 112"},
+                {"type": "course", "courseId": "A&O SCI 121"},
+                {"type": "course", "courseId": "A&O SCI 123"},
+                {"type": "course", "courseId": "A&O SCI 130"},
+                {"type": "course", "courseId": "A&O SCI 141"},
+                {"type": "course", "courseId": "C&EE 153"},
+                {"type": "course", "courseId": "C&EE 154"},
+                {"type": "course", "courseId": "C&EE M166"},
+                {"type": "course", "courseId": "EE BIOL 100"},
+                {"type": "course", "courseId": "EE BIOL 109"},
+                {"type": "course", "courseId": "EE BIOL 116"},
+                {"type": "course", "courseId": "EE BIOL 136"},
+                {"type": "course", "courseId": "EE BIOL 151A"},
+                {"type": "course", "courseId": "EE BIOL 154"},
+                {"type": "course", "courseId": "ENV HLT 100"},
+                {"type": "course", "courseId": "ENV HLT C125"},
+                {"type": "course", "courseId": "ENV HLT C152D"},
+                {"type": "course", "courseId": "ENVIRON 157"},
+                {"type": "course", "courseId": "EPS SCI 101"},
+                {"type": "course", "courseId": "EPS SCI C113"},
+                {"type": "course", "courseId": "EPS SCI 119"},
+                {"type": "course", "courseId": "EPS SCI 139"},
+                {"type": "course", "courseId": "EPS SCI 150"},
+                {"type": "course", "courseId": "EPS SCI 153"},
+                {"type": "course", "courseId": "GEOG 101"},
+                {"type": "course", "courseId": "GEOG M102"},
+                {"type": "course", "courseId": "GEOG M103"},
+                {"type": "course", "courseId": "GEOG 107"},
+                {"type": "course", "courseId": "GEOG M110"},
+                {"type": "course", "courseId": "GEOG 116"},
+                {"type": "course", "courseId": "GEOG 117"},
+                {"type": "course", "courseId": "GEOG M118"},
+                {"type": "course", "courseId": "GEOG 120"},
+                {"type": "course", "courseId": "GEOG M126"},
+                {"type": "course", "courseId": "GEOG 133"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Social Sciences and Humanities Requirements",
+          "description": "Complete three courses as follows:",
+          "needs": 3,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "ENVIRON 140"
+            },
+            {
+              "type": "group",
+              "title": "Additional Social Sciences and Humanities Courses",
+              "description": "Select two courses from:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "ANTHRO 132"},
+                {"type": "course", "courseId": "ANTHRO 133"},
+                {"type": "course", "courseId": "A&O SCI 121"},
+                {"type": "course", "courseId": "A&O SCI 123"},
+                {"type": "course", "courseId": "ENGL 118E"},
+                {"type": "course", "courseId": "ENVIRON M125"},
+                {"type": "course", "courseId": "ENVIRON M133"},
+                {"type": "course", "courseId": "ENVIRON M147"},
+                {"type": "course", "courseId": "ENVIRON 150"},
+                {"type": "course", "courseId": "ENVIRON M153"},
+                {"type": "course", "courseId": "ENVIRON 155"},
+                {"type": "course", "courseId": "ENVIRON 157"},
+                {"type": "course", "courseId": "ENVIRON C159"},
+                {"type": "course", "courseId": "ENVIRON M161"},
+                {"type": "course", "courseId": "ENVIRON 162"},
+                {"type": "course", "courseId": "ENVIRON 163"},
+                {"type": "course", "courseId": "ENVIRON M164"},
+                {"type": "course", "courseId": "ENVIRON 166"},
+                {"type": "course", "courseId": "ENVIRON M167"},
+                {"type": "course", "courseId": "GEOG M127"},
+                {"type": "course", "courseId": "GEOG 130"},
+                {"type": "course", "courseId": "GEOG 138"},
+                {"type": "course", "courseId": "GEOG M142"},
+                {"type": "course", "courseId": "GEOG 160"},
+                {"type": "course", "courseId": "GEOG 171C"},
+                {"type": "course", "courseId": "PHILOS 125"},
+                {"type": "course", "courseId": "PUB AFF M160"},
+                {"type": "course", "courseId": "SOC GEN 141"},
+                {"type": "course", "courseId": "URBN PL 121"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Practicum/Sustainability Talks Requirements",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "ENVIRON 180A"},
+            {"type": "course", "courseId": "ENVIRON 180B"},
+            {"type": "course", "courseId": "ENVIRON 180C"},
+            {"type": "course", "courseId": "ENVIRON 185A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Minor and Concentration Requirements",
+          "description": "A minimum of 20 units applied toward the minor requirements must be in addition to units applied toward major requirements or another minor. Successful completion of a minor is indicated on the transcript and diploma. Select and complete one of the following minors or concentrations:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Atmospheric and Oceanic Sciences Minor",
+              "description": "Complete seven 4-unit courses as follows. Other relevant courses from related disciplines may be substituted with prior approval of the department. At least five courses approved for the minor must be upper-division. One course may be taken on a Passed/Not Passed basis.",
+              "needs": 7,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Atmospheric and Oceanic Sciences",
+                  "description": "Select three courses from: A&O SCI M100, 101, and 20+ other courses from A&O SCI.",
+                  "needs": 3,
+                  "options": [
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Additional Courses",
+                  "description": "Four additional courses, two of which must be upper-division, from any of the above or selected from the following:",
+                  "needs": 4,
+                  "options": [
+                    {"type": "course", "courseId": "A&O SCI 1"},
+                    {"type": "course", "courseId": "A&O SCI 2"},
+                    {"type": "course", "courseId": "A&O SCI 3"},
+                    {"type": "course", "courseId": "A&O SCI 186"},
+                    {"type": "course", "courseId": "CHEM 103"},
+                    {"type": "course", "courseId": "CHEM 110A"},
+                    {"type": "course", "courseId": "CHEM 110B"},
+                    {"type": "course", "courseId": "CHEM 113A"},
+                    {"type": "course", "courseId": "CHEM C113B"},
+                    {"type": "course", "courseId": "CHEM 114"},
+                    {"type": "course", "courseId": "EPS SCI 15"},
+                    {"type": "course", "courseId": "EE BIOL 109"},
+                    {"type": "course", "courseId": "EE BIOL C119A"},
+                    {"type": "course", "courseId": "EE BIOL 122"},
+                    {"type": "course", "courseId": "EE BIOL 123A"},
+                    {"type": "course", "courseId": "EE BIOL 123B"},
+                    {"type": "course", "courseId": "EE BIOL 147"},
+                    {"type": "course", "courseId": "EE BIOL 148"},
+                    {"type": "course", "courseId": "MATH 115A"},
+                    {"type": "course", "courseId": "MATH 115B"},
+                    {"type": "course", "courseId": "MATH 132"},
+                    {"type": "course", "courseId": "MATH 135"},
+                    {"type": "course", "courseId": "MATH 136"},
+                    {"type": "course", "courseId": "MATH 146"},
+                    {"type": "course", "courseId": "MATH 170A"},
+                    {"type": "course", "courseId": "MATH 170B"},
+                    {"type": "course", "courseId": "PHYSICS 110A"},
+                    {"type": "course", "courseId": "PHYSICS 110B"},
+                    {"type": "course", "courseId": "PHYSICS 112"},
+                    {"type": "course", "courseId": "PHYSICS M122"},
+                    {"type": "course", "courseId": "PHYSICS 131"},
+                    {"type": "course", "courseId": "PHYSICS 132"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Conservation Biology Minor",
+              "description": "Complete Ecology and Evolutionary Biology 100, 116, and four to six additional courses.",
+              "needs": 6,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "EE BIOL 100"
+                },
+                {
+                  "type": "course",
+                  "courseId": "EE BIOL 116"
+                },
+                {
+                  "type": "group",
+                  "title": "Additional Courses",
+                  "description": "Select four courses from the following or from the Field/Marine Biology Quarter. A maximum of two Geography courses may be applied.",
+                  "needs": 4,
+                  "options": [
+                    {"type": "course", "courseId": "EE BIOL 100L"},
+                    {"type": "course", "courseId": "EE BIOL 101"},
+                    {"type": "course", "courseId": "EE BIOL 103"},
+                    {"type": "course", "courseId": "EE BIOL 105"},
+                    {"type": "course", "courseId": "EE BIOL 109"},
+                    {"type": "course", "courseId": "EE BIOL 109L"},
+                    {"type": "course", "courseId": "EE BIOL 111"},
+                    {"type": "course", "courseId": "EE BIOL 112"},
+                    {"type": "course", "courseId": "EE BIOL 113A"},
+                    {"type": "course", "courseId": "EE BIOL 113AL"},
+                    {"type": "course", "courseId": "EE BIOL 114A"},
+                    {"type": "course", "courseId": "EE BIOL 114B"},
+                    {"type": "course", "courseId": "EE BIOL C119A"},
+                    {"type": "course", "courseId": "EE BIOL C119B"},
+                    {"type": "course", "courseId": "EE BIOL 122"},
+                    {"type": "course", "courseId": "EE BIOL M127"},
+                    {"type": "course", "courseId": "EE BIOL 129"},
+                    {"type": "course", "courseId": "EE BIOL M131"},
+                    {"type": "course", "courseId": "EE BIOL 140"},
+                    {"type": "course", "courseId": "EE BIOL 142"},
+                    {"type": "course", "courseId": "EE BIOL 143"},
+                    {"type": "course", "courseId": "EE BIOL 144"},
+                    {"type": "course", "courseId": "EE BIOL 144L"},
+                    {"type": "course", "courseId": "EE BIOL C146"},
+                    {"type": "course", "courseId": "EE BIOL 149"},
+                    {"type": "course", "courseId": "EE BIOL 151A"},
+                    {"type": "course", "courseId": "EE BIOL 152"},
+                    {"type": "course", "courseId": "EE BIOL 153"},
+                    {"type": "course", "courseId": "EE BIOL 154"},
+                    {"type": "course", "courseId": "EE BIOL 155"},
+                    {"type": "course", "courseId": "EE BIOL 161"},
+                    {"type": "course", "courseId": "EE BIOL 162"},
+                    {"type": "course", "courseId": "EE BIOL 162L"},
+                    {"type": "course", "courseId": "EE BIOL 168"},
+                    {"type": "course", "courseId": "EE BIOL C174"},
+                    {"type": "course", "courseId": "EE BIOL 176"},
+                    {"type": "course", "courseId": "EE BIOL 180A"},
+                    {"type": "course", "courseId": "EE BIOL 180B"},
+                    {"type": "course", "courseId": "EE BIOL 183"},
+                    {"type": "course", "courseId": "EE BIOL 184"},
+                    {"type": "course", "courseId": "GEOG M103"},
+                    {"type": "course", "courseId": "GEOG 106"},
+                    {"type": "course", "courseId": "GEOG 107"},
+                    {"type": "course", "courseId": "GEOG 116"},
+                    {"type": "course", "courseId": "GEOG 117"},
+                    {"type": "course", "courseId": "GEOG M118"},
+                    {"type": "course", "courseId": "GEOG M126"},
+                    {"type": "course", "courseId": "GEOG M131"},
+                    {"type": "course", "courseId": "GEOG 133"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Earth and Environmental Science Minor",
+              "description": "Select five courses from:",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "EPS SCI 101"},
+                {"type": "course", "courseId": "EPS SCI 112"},
+                {"type": "course", "courseId": "EPS SCI C113"},
+                {"type": "course", "courseId": "EPS SCI 139"},
+                {"type": "course", "courseId": "EPS SCI 150"},
+                {"type": "course", "courseId": "EPS SCI 153"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Environmental Engineering Minor",
+              "description": "Complete Civil Engineering 153 and five additional courses.",
+              "needs": 6,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "C&EE 153"
+                },
+                {
+                  "type": "group",
+                  "title": "Additional Courses",
+                  "description": "Select five. Credit for both CH ENGR 102A and MECH&AE 105A is not allowed.",
+                  "needs": 5,
+                  "options": [
+                    {"type": "course", "courseId": "CH ENGR 100"},
+                    {"type": "course", "courseId": "C&EE 110"},
+                    {"type": "course", "courseId": "C&EE 150"},
+                    {"type": "course", "courseId": "C&EE 151"},
+                    {"type": "course", "courseId": "C&EE 152"},
+                    {"type": "course", "courseId": "C&EE 154"},
+                    {"type": "course", "courseId": "C&EE 155"},
+                    {"type": "course", "courseId": "C&EE 156A"},
+                    {"type": "course", "courseId": "C&EE 156B"},
+                    {"type": "course", "courseId": "C&EE 157A"},
+                    {"type": "course", "courseId": "C&EE 157B"},
+                    {"type": "course", "courseId": "C&EE 157C"},
+                    {"type": "course", "courseId": "C&EE 157L"},
+                    {"type": "course", "courseId": "C&EE C159"},
+                    {"type": "course", "courseId": "C&EE C164"},
+                    {"type": "course", "courseId": "C&EE M165"},
+                    {"type": "course", "courseId": "C&EE M166"},
+                    {"type": "course", "courseId": "MECH&AE 103"},
+                    {"type": "course", "courseId": "MECH&AE 105A"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Environmental Health Concentration",
+              "description": "Complete Epidemiology 100, two courses from Environmental Health Sciences, and three additional courses.",
+              "needs": 6,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "EPIDEM 100"
+                },
+                {
+                  "type": "group",
+                  "title": "Environmental Health Sciences",
+                  "description": "Select two courses:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "ENV HLT 100"},
+                    {"type": "course", "courseId": "ENV HLT C135"},
+                    {"type": "course", "courseId": "ENV HLT C185A"},
+                    {"type": "course", "courseId": "ENV HLT C185B"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Additional Courses",
+                  "description": "Select three courses:",
+                  "needs": 3,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM 153A"},
+                    {"type": "course", "courseId": "ENV HLT C125"},
+                    {"type": "course", "courseId": "ENV HLT C140"},
+                    {"type": "course", "courseId": "ENV HLT C152D"},
+                    {"type": "course", "courseId": "ENV HLT C157"},
+                    {"type": "course", "courseId": "ENV HLT C164"},
+                    {"type": "course", "courseId": "ENV HLT 203"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Environmental Systems and Society Minor",
+              "description": "Select seven courses from:",
+              "needs": 7,
+              "options": [
+                {"type": "course", "courseId": "ENVIRON M111"},
+                {"type": "course", "courseId": "ENVIRON M125"},
+                {"type": "course", "courseId": "ENVIRON M126"},
+                {"type": "course", "courseId": "ENVIRON M131"},
+                {"type": "course", "courseId": "ENVIRON M133"},
+                {"type": "course", "courseId": "ENVIRON 134"},
+                {"type": "course", "courseId": "ENVIRON 140"},
+                {"type": "course", "courseId": "ENVIRON M147"},
+                {"type": "course", "courseId": "ENVIRON 150"},
+                {"type": "course", "courseId": "ENVIRON M153"},
+                {"type": "course", "courseId": "ENVIRON 155"},
+                {"type": "course", "courseId": "ENVIRON 157"},
+                {"type": "course", "courseId": "ENVIRON C159"},
+                {"type": "course", "courseId": "ENVIRON M161"},
+                {"type": "course", "courseId": "ENVIRON 162"},
+                {"type": "course", "courseId": "ENVIRON 163"},
+                {"type": "course", "courseId": "ENVIRON M164"},
+                {"type": "course", "courseId": "ENVIRON 166"},
+                {"type": "course", "courseId": "ENVIRON M167"},
+                {"type": "course", "courseId": "ENVIRON 175"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Geography/Environmental Studies Minor",
+              "description": "Complete three required courses and two additional upper-division geography courses.",
+              "needs": 5,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Required Geography Courses",
+                  "description": "Select three:",
+                  "needs": 3,
+                  "options": [
+                    {"type": "course", "courseId": "GEOG M102"},
+                    {"type": "course", "courseId": "GEOG M103"},
+                    {"type": "course", "courseId": "GEOG 109"},
+                    {"type": "course", "courseId": "GEOG M118"},
+                    {"type": "course", "courseId": "GEOG M125"},
+                    {"type": "course", "courseId": "GEOG M126"},
+                    {"type": "course", "courseId": "GEOG M127"},
+                    {"type": "course", "courseId": "GEOG 130"},
+                    {"type": "course", "courseId": "GEOG M131"},
+                    {"type": "course", "courseId": "GEOG 133"},
+                    {"type": "course", "courseId": "GEOG 136"},
+                    {"type": "course", "courseId": "GEOG 138"},
+                    {"type": "course", "courseId": "GEOG 139B"},
+                    {"type": "course", "courseId": "GEOG 139C"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Additional Geography Courses",
+                  "description": "Complete any two additional upper-division geography courses (except those from the preceding list and courses 194 through 199).",
+                  "needs": 2,
+                  "options": [
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "The honors program provides exceptional students an opportunity for advanced research and study, under the guidance of a faculty member, that leads to the completion of an honors thesis or research project. To qualify for graduation with honors, students must (1) complete all requirements for the major, (2) have a cumulative grade-point average of 3.5 or better in upper-division coursework in the major and an overall GPA of 3.0 or better, (3) complete at least 8 units of Environment 198 taken over at least two terms, and (4) produce a completed satisfactory honors thesis. The honors thesis or research project is in addition to the requirement of the completed practicum in environmental science project. Contact the student affairs officer for more information.",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "ENVIRON 198"
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "Policies",
+      "description": "**Preparation for the Major Policies**\nEach course applied toward requirements for preparation for the major must be passed with a grade of C- or better. Students receiving a grade below C- in two courses, either in separate courses or repetitions of the same course, are subject to dismissal from the major.\n\n**The Major Policies**\nEach course applied toward requirements for the major, except Environment 185A, must be taken for a letter grade. Students must maintain an overall grade-point average of 2.0 (C) or better in all courses applied toward the major.",
+      "requirements": [
+      ]
+    }
+  ]
+}

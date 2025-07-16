@@ -1,0 +1,220 @@
+{
+  "name": "Psychology BA",
+  "overview": "The Psychology major is the most general of the three majors and offers both broad and in-depth coverage of the fundamental and traditional areas of psychology. It provides students with a strong foundation for postgraduate education in psychology and can serve as excellent background to prepare them for further training in such fields as law, education, government and public policy, business, and many of the health-related professions. Its basic liberal-arts orientation also provides students with an excellent foundation for immediate postbaccalaureate careers in many areas, particularly ones in which an understanding of human behavior and its diversity of expression would be an asset.",
+  "college": "College of Letters and Science",
+  "department": "Psychology",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete seven courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Chemistry or Physics",
+          "description": "Select one course from",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CHEM 14A"},
+            {"type": "course", "courseId": "CHEM 17"},
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 5A"},
+            {"type": "course", "courseId": "PHYSICS 10"},
+            {"type": "course", "courseId": "PHYSICS 11"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Life Sciences or Physiological Science",
+          "description": "Select one course from",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 15"},
+            {"type": "course", "courseId": "PHYSCI 3"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Philosophy",
+          "description": "Select one course from",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHILOS 1"},
+            {"type": "course", "courseId": "PHILOS 2"},
+            {"type": "course", "courseId": "PHILOS 3"},
+            {"type": "course", "courseId": "PHILOS 4"},
+            {"type": "course", "courseId": "PHILOS 5"},
+            {"type": "course", "courseId": "PHILOS 6"},
+            {"type": "course", "courseId": "PHILOS 7"},
+            {"type": "course", "courseId": "PHILOS 8"},
+            {"type": "course", "courseId": "PHILOS 9"},
+            {"type": "course", "courseId": "PHILOS 21"},
+            {"type": "course", "courseId": "PHILOS 22"},
+            {"type": "course", "courseId": "PHILOS 22W"},
+            {"type": "course", "courseId": "PHILOS 23"},
+            {"type": "course", "courseId": "PHILOS 31"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Program in Computing or Statistics",
+          "description": "Select one course from the following or one term of calculus",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COMPTNG 10A"},
+            {"type": "course", "courseId": "STATS 10"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Psychology",
+          "description": "Complete the following three courses",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PSYCH 10"},
+            {"type": "course", "courseId": "PSYCH 100A"},
+            {"type": "course", "courseId": "PSYCH 100B"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete 10 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Core Courses",
+          "description": "Select five courses. Only one course from PSYCH 127A, 127B, or 127C may be applied. Only one course from PSYCH 155A or 155B may be applied.",
+          "needs": 5,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "PSYCH 110"
+            },
+            {
+              "type": "group",
+              "title": "Behavioral Neuroscience",
+              "description": "Select one option. The Neuroscience Series substitution counts as PSYCH 115 and two upper-division psychology electives.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 115"
+                },
+                {
+                  "type": "group",
+                  "title": "Neuroscience Series Substitution",
+                  "description": "Students who complete all three courses receive equivalent credit for PSYCH 115 and two upper-division psychology electives. All three courses must be completed to receive any credit.",
+                  "needs": 3,
+                  "options": [
+                    {"type": "course", "courseId": "PSYCH M117A"},
+                    {"type": "course", "courseId": "PSYCH M117B"},
+                    {"type": "course", "courseId": "PSYCH M117C"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 120B"
+            },
+            {
+              "type": "group",
+              "title": "Clinical Psychological Science",
+              "description": "Select one course from",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PSYCH 127A"},
+                {"type": "course", "courseId": "PSYCH 127B"},
+                {"type": "course", "courseId": "PSYCH 127C"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 130"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 135"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 150"
+            },
+            {
+              "type": "group",
+              "title": "Social/Emotional Psychology/Neuroscience",
+              "description": "Select one course from",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PSYCH 155A"},
+                {"type": "course", "courseId": "PSYCH 155B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Laboratory/Fieldwork",
+          "description": "Select one course from",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PSYCH 101"},
+            {"type": "course", "courseId": "PSYCH 111"},
+            {"type": "course", "courseId": "PSYCH M116A"},
+            {"type": "course", "courseId": "PSYCH 116B"},
+            {"type": "course", "courseId": "PSYCH 121"},
+            {"type": "course", "courseId": "PSYCH 126"},
+            {"type": "course", "courseId": "PSYCH 131"},
+            {"type": "course", "courseId": "PSYCH 136A"},
+            {"type": "course", "courseId": "PSYCH 136B"},
+            {"type": "course", "courseId": "PSYCH M136C"},
+            {"type": "course", "courseId": "PSYCH 151"},
+            {"type": "course", "courseId": "PSYCH 158"},
+            {"type": "course", "courseId": "PSYCH 186A"},
+            {"type": "course", "courseId": "PSYCH 186B"},
+            {"type": "course", "courseId": "PSYCH 186C"},
+            {"type": "course", "courseId": "PSYCH 186D"},
+            {"type": "course", "courseId": "PSYCH 186E"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Psychology Electives",
+          "description": "Select four additional elective courses (16 units) from Psychology 101 to 188 or PSYCH 199B. Courses must be taken for a minimum of 4 units and for a letter grade.\nNote: Psychology 134A-134E, 184A, 184B, 185, and 188SA-188SC may not be applied.",
+          "needs": 4,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "Majors intending to continue study at the graduate level are encouraged to apply for the departmental honors program. Students work for one year (fall through spring quarters) with a Psychology Department faculty sponsor on a research project that is the basis of a formal honors thesis. During that year they also participate in a weekly seminar in which thesis projects are presented and discussed.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete the following three seminar courses.",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PSYCH 191AH"},
+            {"type": "course", "courseId": "PSYCH 191BH"},
+            {"type": "course", "courseId": "PSYCH 191CH"}
+          ]
+        }
+      ]
+    }
+  ]
+}

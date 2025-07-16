@@ -1,0 +1,171 @@
+{
+  "name": "Education and Social Transformation BA",
+  "overview": "This major provides students with an understanding of the multiple facets of the educational landscape in social, cultural, and historical contexts. Students will learn the science of human development, how to interpret social data and research, engage respectfully with community partners, and design solutions to problems in education.",
+  "college": "School of Education and Information Studies",
+  "department": "Education",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete two courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "EDUC 35"
+        },
+        {
+          "type": "group",
+          "title": "Additional Education Course",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "EDUC 10"},
+            {"type": "course", "courseId": "EDUC 11"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete at least ten upper-division courses distributed as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Areas of Competency",
+          "description": "Select courses from each of the three areas of competency as follows:",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Histories and Philosophies of Education",
+              "description": "Complete Education 100 and at least one additional course from Education 101 through 119.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "EDUC 100"
+                },
+                {
+                  "type": "group",
+                  "title": "Select one from:",
+                  "description": "Education 101 through 119",
+                  "needs": 1,
+                  "options": [
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Contexts of Teaching, Learning, and Development",
+              "description": "Complete Education 120 and at least one additional course from Education 121 through 149.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "EDUC 120"
+                },
+                {
+                  "type": "group",
+                  "title": "Select one from:",
+                  "description": "Education 121 through 149",
+                  "needs": 1,
+                  "options": [
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Inquiry and Design for Learning",
+              "description": "Complete Education 150, 156, and at least one additional course from Education 151 through 155 or Education 157 through 169.",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "EDUC 150"
+                },
+                {
+                  "type": "course",
+                  "courseId": "EDUC 156"
+                },
+                {
+                  "type": "group",
+                  "title": "Select one from:",
+                  "description": "Education 151 through 155 or Education 157 through 169",
+                  "needs": 1,
+                  "options": [
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Education Course",
+          "description": "Select at least one additional course in education, which may come from any of the areas of competency or from courses designated as electives:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "CESC 130"
+            },
+            {
+              "type": "group",
+              "title": "Electives",
+              "description": "Select one from Education 170 through 179",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Orientation to Community Engagement",
+          "description": "Complete the following course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "EDUC 180"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Community Engagement Course",
+          "description": "Students must complete Education 180 prior to taking a community engagement course. Some courses may also be applied toward an area of competency. Select one community engagement course from the following list:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "EDUC M129XP"},
+            {"type": "course", "courseId": "EDUC 130AX"},
+            {"type": "course", "courseId": "EDUC 130BX"},
+            {"type": "course", "courseId": "EDUC 130CX"},
+            {"type": "course", "courseId": "EDUC M131A"},
+            {"type": "course", "courseId": "EDUC M131B"},
+            {"type": "course", "courseId": "EDUC M131C"},
+            {"type": "course", "courseId": "EDUC M142"},
+            {"type": "course", "courseId": "EDUC 144XP"},
+            {"type": "course", "courseId": "EDUC 159"},
+            {"type": "course", "courseId": "EDUC 171"},
+            {"type": "course", "courseId": "EDUC 176"},
+            {"type": "course", "courseId": "EDUC 195"},
+            {"type": "course", "courseId": "EDUC 195CE"},
+            {"type": "course", "courseId": "EDUC 196XP"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Course",
+          "description": "Students must complete six out of seven courses from the areas of competency and complete the community engagement course requirement before enrolling in the capstone course.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "EDUC 181"}
+          ]
+        }
+      ]
+    }
+  ]
+}

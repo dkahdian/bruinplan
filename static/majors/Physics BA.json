@@ -1,0 +1,155 @@
+{
+  "name": "Physics BA",
+  "overview": "The Physics BA major is intended to provide students with a strong background in physics, yet allow students flexibility to study other fields as well. It should be of particular interest to students who want to double major or who want to teach science. Students who intend to continue work toward the PhD in Physics are advised to pursue the Physics BS.\n\nA detailed brochure on the major is available from the Undergraduate Office, 1-707A Physics and Astronomy Building.\n\n### Learning Outcomes\n1.  Ability to apply knowledge of classical mechanics, electromagnetism, quantum mechanics, and thermal physics to understand and analyze a broad variety of physical phenomena.\n2.  Application and improvement of proficiency in mathematics skills in calculus, differential equations, and linear algebra.\n3.  Ability to critically analyze and interpret data in order to draw valid scientific conclusions.\n4.  Ability to present clear written and oral accounts of scientific results.\n5.  Scientific, mathematical, computing, and laboratory skills that enable pursuit of career objectives in graduate or professional schools, in a teaching career, or in a scientific career in government or industry.\n\n### Entry to the Major\nTransfer applicants to the Physics BA major with 90 or more units must complete the following introductory courses prior to admission to UCLA: two years of calculus, one and one half years of calculus-based physics with laboratory for majors, and one general chemistry course for majors.\n\nRefer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+  "college": "College of Letters and Science",
+  "department": "Physics and Astronomy",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 15 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Physics 1A Requirement",
+          "description": "Select one course. Students may substitute courses from the Physics 1 honors series for the Physics 1 series.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 1AH"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics 1B Requirement",
+          "description": "Select one course. Students may substitute courses from the Physics 1 honors series for the Physics 1 series.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1B"},
+            {"type": "course", "courseId": "PHYSICS 1BH"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics 1C Requirement",
+          "description": "Select one course. Students may substitute courses from the Physics 1 honors series for the Physics 1 series.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1C"},
+            {"type": "course", "courseId": "PHYSICS 1CH"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 4AL"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 4BL"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 17"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 32"
+        },
+        {
+          "type": "course",
+          "courseId": "CHEM 20A"
+        },
+        {
+          "type": "group",
+          "title": "Mathematics 31A Requirement",
+          "description": "Students may select Mathematics 31A or 31AL.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31AL"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33B"
+        },
+        {
+          "type": "group",
+          "title": "Program in Computing or Computer Science",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COMPTNG 10A"},
+            {"type": "course", "courseId": "COM SCI 30"},
+            {"type": "course", "courseId": "COM SCI 31"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete nine courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "PHYSICS 105A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 105B"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 110A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 110B"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 112"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 115A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 115B"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 115C"
+        },
+        {
+          "type": "group",
+          "title": "Elective Course",
+          "description": "Select one course from the Physics 170 or 180 series.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "name": "Computer Engineering BS",
+  "overview": "The undergraduate curriculum provides all computer engineering students with preparation in the mathematical and scientific disciplines that lead to a set of courses that span the fundamentals of the discipline in the major areas of data science and embedded networked systems. These collectively provide an understanding of many inventions of importance to our society, such as the Internet of Things, human-cyber-physical systems, mobile/wearable/implantable systems, robotic systems, and more generally smart systems at all scales in diverse spheres. The design of hardware, software, and algorithmic elements of such systems represents an already dominant and rapidly growing part of the computer engineering profession. Students are encouraged to make use of their computer science and electrical and computer engineering electives and a two-quarter capstone design course to pursue deeper knowledge within one of these areas according to their interests, whether for graduate study or preparation for employment.\n\nThe Computer Engineering major is a designated capstone major that is jointly administered by the Computer Science, and Electrical and Computer Engineering, departments. Undergraduate students complete a design course in which they integrate their knowledge of the discipline and engage in creative design within realistic and professional constraints. Students apply their knowledge and expertise gained in previous mathematics, science, and engineering coursework. Students identify, formulate, and solve engineering problems and present their projects to the class.\n\nLearning Outcomes:\n1. Application of mathematical, scientific, and engineering knowledge.\n2. Design of a software or hardware system, component, or process to meet desired needs within realistic economic, environmental, social, ethical, health, safety, security, reliability, manufacturability, and sustainability constraints.\n3. Function productively on a team with others.\n4. Identification, formulation, and solution of computer engineering problems.\n5. Effective communication.",
+  "college": "Henry Samueli School of Engineering and Applied Science",
+  "department": "Electrical and Computer Engineering",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 20 courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "COM SCI 31"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI 32"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI 33"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI 35L"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI M51A"
+        },
+        {
+          "type": "course",
+          "courseId": "EC ENGR 3"
+        },
+        {
+          "type": "course",
+          "courseId": "EC ENGR M16"
+        },
+        {
+          "type": "course",
+          "courseId": "ENGR 1IT"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 61"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1B"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1C"
+        },
+        {
+          "type": "group",
+          "title": "Undergraduate Seminar",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COM SCI 1"},
+            {"type": "course", "courseId": "EC ENGR 1"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics Laboratory",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 4AL"},
+            {"type": "course", "courseId": "PHYSICS 4BL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete requirements in Computer Science, Electrical and Computer Engineering, and Probability.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Computer Science",
+          "description": "Complete five courses as follows:",
+          "needs": 5,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "COM SCI 111"
+            },
+            {
+              "type": "course",
+              "courseId": "COM SCI 180"
+            },
+            {
+              "type": "group",
+              "title": "Computer Networks",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "COM SCI 118"},
+                {"type": "course", "courseId": "EC ENGR 132B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Computer Systems Architecture",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "COM SCI M151B"},
+                {"type": "course", "courseId": "EC ENGR M116C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Introductory Digital Design Laboratory",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "COM SCI M152A"},
+                {"type": "course", "courseId": "EC ENGR M116L"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electrical and Computer Engineering",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "EC ENGR 100"},
+            {"type": "course", "courseId": "EC ENGR 102"},
+            {"type": "course", "courseId": "EC ENGR 113"},
+            {"type": "course", "courseId": "EC ENGR 115C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Probability",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "C&EE 110"},
+            {"type": "course", "courseId": "EC ENGR 131A"},
+            {"type": "course", "courseId": "MATH 170A"},
+            {"type": "course", "courseId": "MATH 170E"},
+            {"type": "course", "courseId": "STATS 100A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Complete 8 units of computer science and 8 units of electrical and computer engineering upper-division electives.",
+          "needs": 2,
+          "options": [
+            {
+              "type": "group",
+              "title": "Computer Science Electives",
+              "description": "Complete 8 units of computer science upper-division electives.",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Electrical and Computer Engineering Electives",
+              "description": "Complete 8 units of electrical and computer engineering upper-division electives.",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Technical Breadth",
+          "description": "Complete three technical breadth courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Design",
+          "description": "Complete eight units from one of the following groups:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Systems Design",
+              "description": "Complete both courses:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "EC ENGR 180DA"},
+                {"type": "course", "courseId": "EC ENGR 180DW"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Design of Robotic Systems",
+              "description": "Complete both courses:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "EC ENGR 183DA"},
+                {"type": "course", "courseId": "EC ENGR 183DB"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

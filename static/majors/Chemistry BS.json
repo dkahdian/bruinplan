@@ -1,0 +1,570 @@
+{
+  "name": "Chemistry BS",
+  "overview": "The Chemistry major is for students who intend to pursue a career in chemistry.",
+  "college": "College of Letters and Science",
+  "department": "Chemistry",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "major-requirements",
+      "title": "Major Requirements",
+      "description": "The Chemistry BS is offered with two concentrations: Chemistry and Physical Chemistry. Students must select one.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Concentration",
+          "description": "Select one concentration.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry Concentration",
+              "description": "Take the following courses.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Preparation for the Major",
+                  "description": "Complete 19 courses as follows:",
+                  "needs": 3,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Chemistry",
+                      "description": "Complete 10 courses.",
+                      "needs": 10,
+                      "options": [
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 1"
+                        },
+                        {
+                          "type": "group",
+                          "title": "Chemical Structure",
+                          "description": "Select one course.",
+                          "needs": 1,
+                          "options": [
+                            {"type": "course", "courseId": "CHEM 20A"},
+                            {"type": "course", "courseId": "CHEM 20AH"}
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "title": "Chemical Energetics and Change",
+                          "description": "Select one course.",
+                          "needs": 1,
+                          "options": [
+                            {"type": "course", "courseId": "CHEM 20B"},
+                            {"type": "course", "courseId": "CHEM 20BH"}
+                          ]
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 20L"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 30A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 30AL"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 30B"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 30BL"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 30C"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 30CL"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Mathematics",
+                      "description": "Complete five required courses. One additional course is highly recommended.",
+                      "needs": 5,
+                      "options": [
+                        {
+                          "type": "course",
+                          "courseId": "MATH 31A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "MATH 31B"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "MATH 32A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "MATH 32B"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "MATH 33A"
+                        },
+                        {
+                          "type": "group",
+                          "title": "Differential Equations",
+                          "description": "Mathematics 33B is highly recommended.",
+                          "needs": 0,
+                          "options": [
+                            {"type": "course", "courseId": "MATH 33B"}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Physics",
+                      "description": "Select one series.",
+                      "needs": 1,
+                      "options": [
+                        {
+                          "type": "group",
+                          "title": "Physics 1 series",
+                          "description": "Complete all four courses.",
+                          "needs": 4,
+                          "options": [
+                            {"type": "course", "courseId": "PHYSICS 1A"},
+                            {"type": "course", "courseId": "PHYSICS 1B"},
+                            {"type": "course", "courseId": "PHYSICS 1C"},
+                            {"type": "course", "courseId": "PHYSICS 4BL"}
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "title": "Physics 1 Honors series",
+                          "description": "Complete all four courses.",
+                          "needs": 4,
+                          "options": [
+                            {"type": "course", "courseId": "PHYSICS 1AH"},
+                            {"type": "course", "courseId": "PHYSICS 1BH"},
+                            {"type": "course", "courseId": "PHYSICS 1CH"},
+                            {"type": "course", "courseId": "PHYSICS 4BL"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "The Major",
+                  "description": "Complete nine required courses and two departmental electives.",
+                  "needs": 2,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Required Courses",
+                      "description": "Complete the following eight courses and select one from CHEM 136 or 144.",
+                      "needs": 9,
+                      "options": [
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 110A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 110B"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 113A"
+                        },
+                        {
+                          "type": "group",
+                          "title": "Physical Chemistry Laboratory",
+                          "description": "Select one course.",
+                          "needs": 1,
+                          "options": [
+                            {"type": "course", "courseId": "CHEM 114"},
+                            {"type": "course", "courseId": "CHEM 114H"}
+                          ]
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 153A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 153L"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 171"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM C172"
+                        },
+                        {
+                          "type": "group",
+                          "title": "Organic Chemistry Elective",
+                          "description": "Select one course from:",
+                          "needs": 1,
+                          "options": [
+                            {"type": "course", "courseId": "CHEM 136"},
+                            {"type": "course", "courseId": "CHEM 144"}
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Department Electives",
+                      "description": "Select two upper-division or graduate courses in the department, including at least one additional laboratory course.",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "CHEM 136"},
+                        {"type": "course", "courseId": "CHEM 144"},
+                        {"type": "course", "courseId": "CHEM 154"},
+                        {"type": "course", "courseId": "CHEM C174"},
+                        {"type": "course", "courseId": "CHEM 184"},
+                        {"type": "course", "courseId": "CHEM C185"}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physical Chemistry Concentration",
+              "description": "The physical chemistry concentration is designed primarily for students who are interested in attending graduate school in physical chemistry/physics or related areas.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Preparation for the Major",
+                  "description": "Complete the following 18 courses:",
+                  "needs": 3,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Chemistry",
+                      "description": "Complete eight courses.",
+                      "needs": 8,
+                      "options": [
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 1"
+                        },
+                        {
+                          "type": "group",
+                          "title": "Chemical Structure",
+                          "description": "Select one course.",
+                          "needs": 1,
+                          "options": [
+                            {"type": "course", "courseId": "CHEM 20A"},
+                            {"type": "course", "courseId": "CHEM 20AH"}
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "title": "Chemical Energetics and Change",
+                          "description": "Select one course.",
+                          "needs": 1,
+                          "options": [
+                            {"type": "course", "courseId": "CHEM 20B"},
+                            {"type": "course", "courseId": "CHEM 20BH"}
+                          ]
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 20L"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 30A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 30AL"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 30B"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 30BL"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Mathematics",
+                      "description": "Complete six courses.",
+                      "needs": 6,
+                      "options": [
+                        {"type": "course", "courseId": "MATH 31A"},
+                        {"type": "course", "courseId": "MATH 31B"},
+                        {"type": "course", "courseId": "MATH 32A"},
+                        {"type": "course", "courseId": "MATH 32B"},
+                        {"type": "course", "courseId": "MATH 33A"},
+                        {"type": "course", "courseId": "MATH 33B"}
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Physics",
+                      "description": "Select one series.",
+                      "needs": 1,
+                      "options": [
+                        {
+                          "type": "group",
+                          "title": "Physics 1 series",
+                          "description": "Complete all four courses.",
+                          "needs": 4,
+                          "options": [
+                            {"type": "course", "courseId": "PHYSICS 1A"},
+                            {"type": "course", "courseId": "PHYSICS 1B"},
+                            {"type": "course", "courseId": "PHYSICS 1C"},
+                            {"type": "course", "courseId": "PHYSICS 4BL"}
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "title": "Physics 1 Honors series",
+                          "description": "Complete all four courses.",
+                          "needs": 4,
+                          "options": [
+                            {"type": "course", "courseId": "PHYSICS 1AH"},
+                            {"type": "course", "courseId": "PHYSICS 1BH"},
+                            {"type": "course", "courseId": "PHYSICS 1CH"},
+                            {"type": "course", "courseId": "PHYSICS 4BL"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "The Major",
+                  "description": "Complete eight required courses, one additional upper-division lab course, and three electives.",
+                  "needs": 3,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Required Courses",
+                      "description": "Complete the following eight courses.",
+                      "needs": 8,
+                      "options": [
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 110A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 110B"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 113A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM C113B"
+                        },
+                        {
+                          "type": "group",
+                          "title": "Physical Chemistry Laboratory",
+                          "description": "Select one course.",
+                          "needs": 1,
+                          "options": [
+                            {"type": "course", "courseId": "CHEM 114"},
+                            {"type": "course", "courseId": "CHEM 114H"}
+                          ]
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 153A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM 171"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "CHEM C172"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Upper-Division Laboratory",
+                      "description": "Complete one additional upper-division chemistry, electrical engineering, or physics laboratory course.",
+                      "needs": 1,
+                      "options": [
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Additional Electives",
+                      "description": "Complete three elective upper-division or graduate courses approved by the physical chemistry adviser.",
+                      "needs": 3,
+                      "options": [
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing-specialization",
+      "title": "Computing Specialization",
+      "description": "Majors may select a specialization in Computing by satisfying all the requirements for a bachelor\u2019s degree in the specified major and completing the following courses.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Computing Specialization Requirements",
+          "description": "Complete all requirements to earn the specialization. This is an optional addition to the major.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Specialization Courses",
+              "description": "Complete requirements for the Program in Computing and Computational Chemistry.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Program in Computing",
+                  "description": "Complete three courses.",
+                  "needs": 3,
+                  "options": [
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10B"
+                    },
+                    {
+                      "type": "group",
+                      "title": "Programming Elective",
+                      "description": "Select one elective from:",
+                      "needs": 1,
+                      "options": [
+                        {"type": "course", "courseId": "COMPTNG 10C"},
+                        {"type": "course", "courseId": "COMPTNG 15"},
+                        {"type": "course", "courseId": "COMPTNG 20A"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Computational Chemistry",
+                  "description": "Complete two courses based on your major concentration.",
+                  "needs": 1,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "For students in the Physical Chemistry Concentration",
+                      "description": "Select two from:",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "CHEM C126A"},
+                        {"type": "course", "courseId": "CHEM C145"},
+                        {"type": "course", "courseId": "COM SCI C121"}
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "For students in the Chemistry Concentration",
+                      "description": "Complete one required course and select one elective.",
+                      "needs": 2,
+                      "options": [
+                        {
+                          "type": "course",
+                          "courseId": "CHEM C113B"
+                        },
+                        {
+                          "type": "group",
+                          "title": "Computational Elective",
+                          "description": "Select one course from:",
+                          "needs": 1,
+                          "options": [
+                            {"type": "course", "courseId": "CHEM C125"},
+                            {"type": "course", "courseId": "CHEM C126A"},
+                            {"type": "course", "courseId": "CHEM C145"},
+                            {"type": "course", "courseId": "COM SCI C121"},
+                            {"type": "course", "courseId": "COM SCI C122"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors-program",
+      "title": "Honors Program",
+      "description": "The honors program provides exceptional majors with the opportunity to do research culminating in an honors thesis.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Program Requirements",
+          "description": "Complete all requirements to graduate with honors. This is an optional program.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Requirements",
+              "description": "The core of the program consists of at least one approved undergraduate seminar course and three research courses (12 units minimum), culminating in a thesis.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Undergraduate Seminar",
+                  "description": "Select one course.",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM 193A"},
+                    {"type": "course", "courseId": "CHEM 193B"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Research",
+                  "description": "Complete three research courses (12 units minimum).",
+                  "needs": 3,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM 196A"},
+                    {"type": "course", "courseId": "CHEM 196B"},
+                    {"type": "course", "courseId": "CHEM 199"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

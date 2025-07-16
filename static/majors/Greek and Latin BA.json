@@ -1,0 +1,128 @@
+{
+  "name": "Greek and Latin BA",
+  "overview": "The Greek and Latin major is a designated capstone major. Undergraduate students take a capstone seminar in which they use the skills and expertise acquired in earlier coursework to research, analyze, and complete a written paper or project. They identify and analyze ancient classical documents, material evidence, or other forms of primary sources and demonstrate their critical skills by engaging in presentations and weekly discourse with their peers.",
+  "college": "College of Letters and Science",
+  "department": "Classics",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 10 courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "CLASSIC 10"
+        },
+        {
+          "type": "course",
+          "courseId": "CLASSIC 20"
+        },
+        {
+          "type": "group",
+          "title": "Elementary Greek Sequence",
+          "description": "Complete the standard three-course sequence or the intensive one-course option. Greek 16 substitutes for Greek 1, 2, and 3.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Standard Sequence",
+              "description": "Complete all three courses.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "GREEK 1"},
+                {"type": "course", "courseId": "GREEK 2"},
+                {"type": "course", "courseId": "GREEK 3"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "GREEK 16"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "GREEK 20"
+        },
+        {
+          "type": "course",
+          "courseId": "LATIN 1"
+        },
+        {
+          "type": "course",
+          "courseId": "LATIN 2"
+        },
+        {
+          "type": "course",
+          "courseId": "LATIN 3"
+        },
+        {
+          "type": "course",
+          "courseId": "LATIN 20"
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 11 courses as follows: eight upper-division Greek and Latin courses, three upper-division courses in classical civilization and/or ancient history, and one capstone seminar.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "1. Upper-Division Greek and Latin Courses",
+          "description": "Complete eight upper-division Greek and Latin courses, of which at least four must be in each language, including Greek 110 or Latin 110. Greek and/or Latin 197 and 199 may be applied only by petition.",
+          "needs": 8,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "2. Upper-Division Classical Civilization and/or Ancient History Courses",
+          "description": "Select three upper-division courses. Options include any upper-division courses in classical civilization or the ancient history courses listed below.",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "HIST 112A"},
+            {"type": "course", "courseId": "HIST 112B"},
+            {"type": "course", "courseId": "HIST M112C"},
+            {"type": "course", "courseId": "HIST 112D"},
+            {"type": "course", "courseId": "HIST M112E"},
+            {"type": "course", "courseId": "HIST 113A"},
+            {"type": "course", "courseId": "HIST 113B"},
+            {"type": "course", "courseId": "HIST 114A"},
+            {"type": "course", "courseId": "HIST 114B"},
+            {"type": "course", "courseId": "HIST 114C"},
+            {"type": "course", "courseId": "HIST 115"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "3. Capstone Seminar",
+          "description": "Complete the following course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CLASSIC 191"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "The honors program is open to Greek and Latin majors with a cumulative grade-point average of 3.5 or better in departmental courses and an overall GPA of 3.25 or better. All honors students are required to take Classics 191 in their junior year before beginning work on the honors thesis.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Thesis",
+          "description": "Students must enroll in Classics 198A and 198B in consecutive terms to write a thesis. To qualify for honors, students must complete Classics 198A and 198B with grades of A- or better. To qualify for highest honors, students must complete them with grades of A. Only course 198B may be applied toward the upper-division classical civilization requirement.",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "CLASSIC 198A"},
+            {"type": "course", "courseId": "CLASSIC 198B"}
+          ]
+        }
+      ]
+    }
+  ]
+}

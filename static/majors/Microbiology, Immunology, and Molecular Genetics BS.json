@@ -1,0 +1,577 @@
+{
+  "name": "Microbiology, Immunology, and Molecular Genetics BS",
+  "overview": "Undergraduate students majoring in Microbiology, Immunology, and Molecular Genetics prepare for careers in biomedical research, medicine, dentistry, or other health professions, biotechnology and genetic engineering, industrial microbiology, agricultural or environmental sciences, public health, and law or bioethics, among others. The courses presented by the department lead to a Bachelor of Science degree and depend heavily on preparation in the biological sciences, chemistry, physics, and mathematics.",
+  "college": "College of Letters and Science",
+  "department": "Microbiology, Immunology, and Molecular Genetics",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "learning-outcomes",
+      "title": "Learning Outcomes",
+      "description": "1. Demonstrated knowledge of key disciplinary concepts.\n2. Address scientific questions or solve problems using quantitative, computational, and inquiry-related skills, including developing hypotheses, designing and performing experiences, analyzing data, and interpreting results.\n3. Execution of database searches for scientific literature and bioinformatics data related to investigatory tasks.\n4. Reading, analysis, and use of scientific papers in the development of research projects, in discussions with peers and mentors, and as evidence to substantiate conclusions in written assignments.\n5. Effective written and oral communication skills.\n6. Work effectively in individual and collaborative contexts.\n7. Value research and its relevance to one\u2019s own life and society.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "entry-to-major",
+      "title": "Entry to the Major",
+      "description": "Transfer applicants to the Microbiology, Immunology, and Molecular Genetics major with 90 or more units must complete the following introductory courses prior to admission to UCLA: one year of general biology with laboratory for majors, preferably equivalent to Life Sciences or 7A, 7B, and 7C; one year of calculus; one year of general chemistry with laboratory for majors; and one semester of organic chemistry with laboratory. A second semester of organic chemistry or one year of calculus-based physics is strongly recommended but not required for admission.\n\nRefer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.\n\nStudents intending to major in Microbiology, Immunology, and Molecular Genetics may seek counseling and petition to enter the major in the Student Affairs Office, 1602B Molecular Sciences.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Refer to the following courses.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Chemistry",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry 14 series",
+              "description": "Refer to the following courses.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"},
+                {"type": "course", "courseId": "CHEM 14D"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Chemistry 20 and 30 series",
+              "description": "Refer to the following courses.",
+              "needs": 6,
+              "options": [
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"},
+                {"type": "course", "courseId": "CHEM 30B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Life Sciences",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Life Sciences 30 series",
+              "description": "Refer to the following courses.",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30B"
+                },
+                {
+                  "type": "group",
+                  "title": "Statistics",
+                  "description": "Select one course from the following:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 3 series",
+              "description": "Refer to the following courses.",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"},
+                {"type": "course", "courseId": "STATS 13"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 31 series",
+              "description": "Refer to the following courses.",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "MATH 32A"},
+                {"type": "course", "courseId": "STATS 13"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Physics 1 series",
+              "description": "Refer to the following courses.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 5 series",
+              "description": "Refer to the following courses.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Two plans are offered by the department.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Major Plans",
+          "description": "Select one plan:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Plan I\u2014Research Immersion Laboratory",
+              "description": "Complete 10 courses as follows:",
+              "needs": 4,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Foundation",
+                  "description": "Complete five courses. Select either Chemistry 153B or Microbiology 132.",
+                  "needs": 5,
+                  "options": [
+                    {
+                      "type": "course",
+                      "courseId": "CHEM 153A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LIFESCI 107"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MIMG 101"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MIMG 185A"
+                    },
+                    {
+                      "type": "group",
+                      "title": "Biochemistry or Cell Biology",
+                      "description": "Select one course:",
+                      "needs": 1,
+                      "options": [
+                        {"type": "course", "courseId": "CHEM 153B"},
+                        {"type": "course", "courseId": "MIMG 132"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Microbiology Research",
+                  "description": "Complete two courses from one of the following groups:",
+                  "needs": 1,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Virology",
+                      "description": "Complete both courses:",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "MIMG 103AL"},
+                        {"type": "course", "courseId": "MIMG 103BL"}
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Microbiology",
+                      "description": "Complete both courses:",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "MIMG 109AL"},
+                        {"type": "course", "courseId": "MIMG 109BL"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Focus Electives",
+                  "description": "Select two courses from:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "CHEM 153L"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 105"},
+                    {"type": "course", "courseId": "MIMG 106"},
+                    {"type": "course", "courseId": "MIMG 107"},
+                    {"type": "course", "courseId": "MIMG C122"},
+                    {"type": "course", "courseId": "MIMG 132"},
+                    {"type": "course", "courseId": "MIMG CM156"},
+                    {"type": "course", "courseId": "MIMG 158"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 170"},
+                    {"type": "course", "courseId": "MIMG M178"},
+                    {"type": "course", "courseId": "MIMG CM256"},
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO 165A"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "General Elective",
+                  "description": "Select one additional course from the focus electives list or from the following list. Microbiology 199 may be taken once.",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "CHEM 153L"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 105"},
+                    {"type": "course", "courseId": "MIMG 106"},
+                    {"type": "course", "courseId": "MIMG 107"},
+                    {"type": "course", "courseId": "MIMG C122"},
+                    {"type": "course", "courseId": "MIMG 132"},
+                    {"type": "course", "courseId": "MIMG CM156"},
+                    {"type": "course", "courseId": "MIMG 158"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 170"},
+                    {"type": "course", "courseId": "MIMG M178"},
+                    {"type": "course", "courseId": "MIMG CM256"},
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO 165A"},
+                    {"type": "course", "courseId": "BIOENGR 100"},
+                    {"type": "course", "courseId": "BIOENGR CM145"},
+                    {"type": "course", "courseId": "BIOENGR CM178"},
+                    {"type": "course", "courseId": "BIOSTAT 100"},
+                    {"type": "course", "courseId": "CHEM 103"},
+                    {"type": "course", "courseId": "CHEM 110A"},
+                    {"type": "course", "courseId": "CHEM M117"},
+                    {"type": "course", "courseId": "CHEM 136"},
+                    {"type": "course", "courseId": "CHEM C140"},
+                    {"type": "course", "courseId": "CHEM 153C"},
+                    {"type": "course", "courseId": "CHEM 154"},
+                    {"type": "course", "courseId": "CHEM 156"},
+                    {"type": "course", "courseId": "CHEM 171"},
+                    {"type": "course", "courseId": "CHEM C172"},
+                    {"type": "course", "courseId": "CHEM C181"},
+                    {"type": "course", "courseId": "COM SCI C121"},
+                    {"type": "course", "courseId": "COM SCI C122"},
+                    {"type": "course", "courseId": "COM SCI C124"},
+                    {"type": "course", "courseId": "EE BIOL 121"},
+                    {"type": "course", "courseId": "EE BIOL C135"},
+                    {"type": "course", "courseId": "EE BIOL 137"},
+                    {"type": "course", "courseId": "EE BIOL 162"},
+                    {"type": "course", "courseId": "EPIDEM 100"},
+                    {"type": "course", "courseId": "HUM GEN C144"},
+                    {"type": "course", "courseId": "MIMG 174"},
+                    {"type": "course", "courseId": "MIMG C185B"},
+                    {"type": "course", "courseId": "MIMG 191H"},
+                    {"type": "course", "courseId": "MIMG 198C"},
+                    {"type": "course", "courseId": "MIMG 199"},
+                    {"type": "course", "courseId": "MCD BIO 100"},
+                    {"type": "course", "courseId": "MCD BIO 104AL"},
+                    {"type": "course", "courseId": "MCD BIO M140"},
+                    {"type": "course", "courseId": "MCD BIO C141"},
+                    {"type": "course", "courseId": "MCD BIO 143"},
+                    {"type": "course", "courseId": "MCD BIO 144"},
+                    {"type": "course", "courseId": "MCD BIO C150"},
+                    {"type": "course", "courseId": "MCD BIO 168"},
+                    {"type": "course", "courseId": "MCD BIO 172"},
+                    {"type": "course", "courseId": "MCD BIO M175A"},
+                    {"type": "course", "courseId": "MCD BIO M175B"},
+                    {"type": "course", "courseId": "MCD BIO M175C"},
+                    {"type": "course", "courseId": "MCD BIO 187AL"},
+                    {"type": "course", "courseId": "NEUROSC M101A"},
+                    {"type": "course", "courseId": "NEUROSC M101B"},
+                    {"type": "course", "courseId": "NEUROSC M101C"},
+                    {"type": "course", "courseId": "PHYSCI 121"},
+                    {"type": "course", "courseId": "PHYSCI 124"},
+                    {"type": "course", "courseId": "PHYSCI 125"},
+                    {"type": "course", "courseId": "PHYSCI 128"},
+                    {"type": "course", "courseId": "STATS 100A"},
+                    {"type": "course", "courseId": "STATS 100B"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Plan II\u2014Advanced Independent Research",
+              "description": "Complete 12 courses as follows:",
+              "needs": 5,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Foundation",
+                  "description": "Complete five courses. Select either Chemistry 153B or Microbiology 132.",
+                  "needs": 5,
+                  "options": [
+                    {
+                      "type": "course",
+                      "courseId": "CHEM 153A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LIFESCI 107"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MIMG 101"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MIMG 185A"
+                    },
+                    {
+                      "type": "group",
+                      "title": "Biochemistry or Cell Biology",
+                      "description": "Select one course:",
+                      "needs": 1,
+                      "options": [
+                        {"type": "course", "courseId": "CHEM 153B"},
+                        {"type": "course", "courseId": "MIMG 132"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Research Apprenticeship",
+                  "description": "Select one group of courses from:",
+                  "needs": 1,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Microbiology",
+                      "description": "Refer to the following courses.",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "MIMG 196A"},
+                        {"type": "course", "courseId": "MIMG 196B"}
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Molecular, Cell, and Developmental Biology",
+                      "description": "Refer to the following courses.",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "MCD BIO 196A"},
+                        {"type": "course", "courseId": "MCD BIO 196B"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Scientific Analysis and Communication",
+                  "description": "Select one group of courses from:",
+                  "needs": 1,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Microbiology",
+                      "description": "Refer to the following courses.",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "MIMG 180A"},
+                        {"type": "course", "courseId": "MIMG 180B"}
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Molecular, Cell, and Developmental Biology",
+                      "description": "Refer to the following courses.",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "MCD BIO 180A"},
+                        {"type": "course", "courseId": "MCD BIO 180B"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Focus Electives",
+                  "description": "Select two courses from:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "CHEM 153L"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 105"},
+                    {"type": "course", "courseId": "MIMG 106"},
+                    {"type": "course", "courseId": "MIMG 107"},
+                    {"type": "course", "courseId": "MIMG C122"},
+                    {"type": "course", "courseId": "MIMG 132"},
+                    {"type": "course", "courseId": "MIMG CM156"},
+                    {"type": "course", "courseId": "MIMG 158"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 170"},
+                    {"type": "course", "courseId": "MIMG M178"},
+                    {"type": "course", "courseId": "MIMG CM256"},
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO 165A"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "General Elective",
+                  "description": "Select one additional course from the focus electives list or from the following:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "CHEM 153L"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 105"},
+                    {"type": "course", "courseId": "MIMG 106"},
+                    {"type": "course", "courseId": "MIMG 107"},
+                    {"type": "course", "courseId": "MIMG C122"},
+                    {"type": "course", "courseId": "MIMG 132"},
+                    {"type": "course", "courseId": "MIMG CM156"},
+                    {"type": "course", "courseId": "MIMG 158"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 170"},
+                    {"type": "course", "courseId": "MIMG M178"},
+                    {"type": "course", "courseId": "MIMG CM256"},
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO 165A"},
+                    {"type": "course", "courseId": "BIOENGR 100"},
+                    {"type": "course", "courseId": "BIOENGR CM145"},
+                    {"type": "course", "courseId": "BIOENGR CM178"},
+                    {"type": "course", "courseId": "BIOSTAT 100"},
+                    {"type": "course", "courseId": "CHEM 103"},
+                    {"type": "course", "courseId": "CHEM 110A"},
+                    {"type": "course", "courseId": "CHEM M117"},
+                    {"type": "course", "courseId": "CHEM 136"},
+                    {"type": "course", "courseId": "CHEM C140"},
+                    {"type": "course", "courseId": "CHEM 153C"},
+                    {"type": "course", "courseId": "CHEM 156"},
+                    {"type": "course", "courseId": "CHEM 171"},
+                    {"type": "course", "courseId": "CHEM C172"},
+                    {"type": "course", "courseId": "CHEM C181"},
+                    {"type": "course", "courseId": "COM SCI C121"},
+                    {"type": "course", "courseId": "COM SCI C122"},
+                    {"type": "course", "courseId": "COM SCI C124"},
+                    {"type": "course", "courseId": "EE BIOL 121"},
+                    {"type": "course", "courseId": "EE BIOL C135"},
+                    {"type": "course", "courseId": "EE BIOL 137"},
+                    {"type": "course", "courseId": "EE BIOL 162"},
+                    {"type": "course", "courseId": "EPIDEM 100"},
+                    {"type": "course", "courseId": "HUM GEN C144"},
+                    {"type": "course", "courseId": "MIMG 103AL"},
+                    {"type": "course", "courseId": "MIMG 103BL"},
+                    {"type": "course", "courseId": "MIMG 109AL"},
+                    {"type": "course", "courseId": "MIMG 109BL"},
+                    {"type": "course", "courseId": "MIMG 174"},
+                    {"type": "course", "courseId": "MIMG C185B"},
+                    {"type": "course", "courseId": "MIMG 191H"},
+                    {"type": "course", "courseId": "MIMG 198C"},
+                    {"type": "course", "courseId": "MIMG 199"},
+                    {"type": "course", "courseId": "MCD BIO 100"},
+                    {"type": "course", "courseId": "MCD BIO 104AL"},
+                    {"type": "course", "courseId": "MCD BIO M140"},
+                    {"type": "course", "courseId": "MCD BIO C141"},
+                    {"type": "course", "courseId": "MCD BIO 143"},
+                    {"type": "course", "courseId": "MCD BIO 144"},
+                    {"type": "course", "courseId": "MCD BIO C150"},
+                    {"type": "course", "courseId": "MCD BIO 168"},
+                    {"type": "course", "courseId": "MCD BIO 172"},
+                    {"type": "course", "courseId": "MCD BIO M175A"},
+                    {"type": "course", "courseId": "MCD BIO M175B"},
+                    {"type": "course", "courseId": "MCD BIO M175C"},
+                    {"type": "course", "courseId": "MCD BIO 187AL"},
+                    {"type": "course", "courseId": "NEUROSC M101A"},
+                    {"type": "course", "courseId": "NEUROSC M101B"},
+                    {"type": "course", "courseId": "NEUROSC M101C"},
+                    {"type": "course", "courseId": "PHYSCI 121"},
+                    {"type": "course", "courseId": "PHYSCI 124"},
+                    {"type": "course", "courseId": "PHYSCI 125"},
+                    {"type": "course", "courseId": "PHYSCI 128"},
+                    {"type": "course", "courseId": "STATS 100A"},
+                    {"type": "course", "courseId": "STATS 100B"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors-program",
+      "title": "Honors Program",
+      "description": "Overall grade-point averages of 3.2 and 3.5 in the preparation for the major and major respectively are required to apply for departmental honors. In addition students must have junior standing and the sponsorship of a faculty adviser from the department. If the thesis is accepted by the honors committee and students complete all major requirements with a GPA of at least 3.5, they are awarded the bachelor\u2019s degree with departmental honors. The department also offers an honors seminar course each winter quarter that is required for the honors program.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Research",
+          "description": "The core of the program consists of research culminating in a thesis from the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MIMG 198A"},
+            {"type": "course", "courseId": "MIMG 198B"},
+            {"type": "course", "courseId": "MIMG 198C"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "Policies",
+      "description": "Preparation for the Major Policies: Each core curriculum course must be passed with a grade of C\u2013 or better, and all courses must be completed with an overall grade-point average of 2.0 or better. Students receiving a grade of D or lower in two core curriculum courses, either in separate courses or repetitions of the same course, are subject to dismissal from the major.\n\nThe Major Policies: Each major course must be taken for a letter grade of C\u2013 or better, and students must have a minimum overall grade-point average of 2.0 or better in the major. Students receiving a grade of D or below in two major courses, either in separate courses or repetitions of the same course, are subject to dismissal from the major.\nPlan I: No more than 4 units of course 199 or a combination of 198C and 199 may be applied toward the general electives under Plan I.\nPlan II: No more than 4 units of course 198C or 199 may be applied toward the general electives under Plan II. Plan II requires submission and approval of an admissions application.",
+      "requirements": [
+      ]
+    }
+  ]
+}

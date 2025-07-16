@@ -1,0 +1,193 @@
+{
+  "name": "Film and Television BA",
+  "overview": "The undergraduate Film and Television major encourages the development of a personal vision that incorporates creative, practical, intellectual, and aesthetic values. Within a liberal arts context, the program provides a broad background in the field, including courses in history, theory, animation, screenwriting, and production fundamentals.\n\nAs a designated capstone major, students complete a departmentally sponsored internship and a senior thesis project within a specific concentration. The curriculum is workshop-based, emphasizing group participation in the creation of each student's project.\n\nAdmission is for fall quarter only and is highly competitive, requiring a supplemental application. Transfer students have additional general education requirements to complete before enrolling.\n\nKey policies include: Senior concentration courses cannot double-count for other major requirements; students are required to assist on each other's projects; and the department may retain student work for its own purposes.",
+  "college": "School of Theater, Film, and Television",
+  "department": "Film, Television, and Digital Media",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete seven courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Film and Television",
+          "description": "Complete the following six courses:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "FILM TV 4"},
+            {"type": "course", "courseId": "FILM TV 6A"},
+            {"type": "course", "courseId": "FILM TV 10A"},
+            {"type": "course", "courseId": "FILM TV 33"},
+            {"type": "course", "courseId": "FILM TV 51"},
+            {"type": "course", "courseId": "FILM TV 84A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Theater",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "THEATER 10"},
+            {"type": "course", "courseId": "THEATER 15"},
+            {"type": "course", "courseId": "THEATER 20"},
+            {"type": "course", "courseId": "THEATER 28A"},
+            {"type": "course", "courseId": "THEATER 28B"},
+            {"type": "course", "courseId": "THEATER 28C"},
+            {"type": "course", "courseId": "THEATER 30"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Refer to the following courses",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete seven courses, including either Film and Television 106B or 106C.",
+          "needs": 7,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "FILM TV 101A"
+            },
+            {
+              "type": "group",
+              "title": "History Requirement",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "FILM TV 106B"},
+                {"type": "course", "courseId": "FILM TV 106C"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "FILM TV 134"
+            },
+            {
+              "type": "course",
+              "courseId": "FILM TV 150"
+            },
+            {
+              "type": "course",
+              "courseId": "FILM TV 154"
+            },
+            {
+              "type": "course",
+              "courseId": "FILM TV 155"
+            },
+            {
+              "type": "course",
+              "courseId": "FILM TV 163"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Cinema and Media Studies Elective",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "FILM TV 107"},
+            {"type": "course", "courseId": "FILM TV 108"},
+            {"type": "course", "courseId": "FILM TV 109"},
+            {"type": "course", "courseId": "FILM TV M111"},
+            {"type": "course", "courseId": "FILM TV 112"},
+            {"type": "course", "courseId": "FILM TV 113"},
+            {"type": "course", "courseId": "FILM TV 114"},
+            {"type": "course", "courseId": "FILM TV M117"},
+            {"type": "course", "courseId": "FILM TV 122N"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Departmentally Sponsored Internship",
+          "description": "Complete one capstone departmentally sponsored internship:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "FILM TV 195"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Senior Concentration of Advanced Film Coursework",
+          "description": "Complete 20 units of advanced film coursework selected from any one of the following programs of study:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Animation",
+              "description": "Complete the following courses:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "FILM TV C181A"},
+                {"type": "course", "courseId": "FILM TV C181B"},
+                {"type": "course", "courseId": "FILM TV C181C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Cinema and Media Studies",
+              "description": "Consult with faculty.",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Production/Cinematography",
+              "description": "Complete the following courses:",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "FILM TV C118"},
+                {"type": "course", "courseId": "FILM TV 153"},
+                {"type": "course", "courseId": "FILM TV C157"},
+                {"type": "course", "courseId": "FILM TV C158"},
+                {"type": "course", "courseId": "FILM TV 178"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Production/Documentary",
+              "description": "Complete the following courses:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "FILM TV C186A"},
+                {"type": "course", "courseId": "FILM TV C186B"},
+                {"type": "course", "courseId": "FILM TV C186C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Production/Narrative Directing",
+              "description": "Complete the following courses:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "FILM TV 175A"},
+                {"type": "course", "courseId": "FILM TV 175B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Screenwriting",
+              "description": "Complete the following courses:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "FILM TV 135A"},
+                {"type": "course", "courseId": "FILM TV 135B"},
+                {"type": "course", "courseId": "FILM TV 135C"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

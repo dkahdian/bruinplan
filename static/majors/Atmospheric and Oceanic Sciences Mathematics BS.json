@@ -1,0 +1,162 @@
+{
+  "name": "Atmospheric and Oceanic Sciences Mathematics BS",
+  "overview": "The Atmospheric and Oceanic Sciences/Mathematics major is a designated capstone major. Students acquire experience in conceiving and executing research projects designed to evaluate hypotheses and complete an individual project or thesis selected with the assistance of the program advisers and faculty mentor. The topic should reflect integrative application of mathematics to atmospheric and oceanic sciences. Students are expected to prepare a significant independent piece of work that applies knowledge gained in their coursework in a new and unique way.",
+  "college": "College of Letters and Science",
+  "department": "Atmospheric and Oceanic Sciences",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 12 courses as follows: Atmospheric and Oceanic Sciences, Mathematics, Physics, and Chemistry.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Atmospheric and Oceanic Sciences Introductory Courses",
+          "description": "Complete three courses as follows:",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Computing Requirement",
+              "description": "Select one course:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "A&O SCI M71"},
+                {"type": "course", "courseId": "COM SCI 30"},
+                {"type": "course", "courseId": "COMPTNG 10A"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 90"
+            },
+            {
+              "type": "group",
+              "title": "A&O SCI Elective",
+              "description": "Select one course:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "A&O SCI 1"},
+                {"type": "course", "courseId": "A&O SCI 2"},
+                {"type": "course", "courseId": "A&O SCI 3"},
+                {"type": "course", "courseId": "A&O SCI 5"},
+                {"type": "course", "courseId": "A&O SCI M7"},
+                {"type": "course", "courseId": "A&O SCI 51"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics Preparation",
+          "description": "Complete the following six courses:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31B"},
+            {"type": "course", "courseId": "MATH 32A"},
+            {"type": "course", "courseId": "MATH 32B"},
+            {"type": "course", "courseId": "MATH 33A"},
+            {"type": "course", "courseId": "MATH 33B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics Preparation",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 1B"},
+            {"type": "course", "courseId": "PHYSICS 1C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Chemistry Preparation",
+          "description": "Complete Chemistry and Biochemistry 14A and 14B (or 20A and 20B) as required by upper-division course selection.",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "CHEM 14A"},
+            {"type": "course", "courseId": "CHEM 14B"},
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "CHEM 20B"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 13 courses as follows: Mathematics and Atmospheric and Oceanic Sciences.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Mathematics Upper Division",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MATH 115A"},
+            {"type": "course", "courseId": "MATH 131A"},
+            {"type": "course", "courseId": "MATH 134"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics Electives",
+          "description": "Select three courses, one of which must be 115B, 131B, 151B, or 170S:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MATH 115B"},
+            {"type": "course", "courseId": "MATH 131B"},
+            {"type": "course", "courseId": "MATH 135"},
+            {"type": "course", "courseId": "MATH 136"},
+            {"type": "course", "courseId": "MATH 142"},
+            {"type": "course", "courseId": "MATH 151A"},
+            {"type": "course", "courseId": "MATH 151B"},
+            {"type": "course", "courseId": "MATH 170E"},
+            {"type": "course", "courseId": "MATH 170S"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Atmospheric and Oceanic Sciences Upper Division Core",
+          "description": "Select two courses from core:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "A&O SCI 101"},
+            {"type": "course", "courseId": "A&O SCI 103"},
+            {"type": "course", "courseId": "A&O SCI 112"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Atmospheric and Oceanic Sciences Upper Division Electives",
+          "description": "Select two courses from electives:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "A&O SCI C110"},
+            {"type": "course", "courseId": "A&O SCI 113"},
+            {"type": "course", "courseId": "A&O SCI C115"},
+            {"type": "course", "courseId": "A&O SCI M120"},
+            {"type": "course", "courseId": "A&O SCI C144"},
+            {"type": "course", "courseId": "A&O SCI C160"},
+            {"type": "course", "courseId": "A&O SCI C170"},
+            {"type": "course", "courseId": "A&O SCI 180"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Senior Project/Thesis",
+          "description": "Complete the following:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "A&O SCI 199"}
+          ]
+        }
+      ]
+    }
+  ]
+}

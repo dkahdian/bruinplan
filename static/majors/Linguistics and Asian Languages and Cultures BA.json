@@ -1,0 +1,390 @@
+{
+  "name": "Linguistics and Asian Languages and Cultures BA",
+  "overview": "The major combines the basic courses of the general linguistics program with that of East Asian languages and cultures. Students are able to study the civilizations of China, Korea, Japan, and India, and enrich their knowledge about the nature, grammar, and history of human language at the same time.",
+  "college": "College of Letters and Science",
+  "department": "Linguistics and Asian Languages and Cultures",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete three courses, the equivalent of the sixth level in either Chinese, Japanese, or Korean, and the equivalent of the third level of a second foreign language as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "ANTHRO 4"
+        },
+        {
+          "type": "course",
+          "courseId": "LING 20"
+        },
+        {
+          "type": "group",
+          "title": "Civilization",
+          "description": "Select one course, as appropriate, from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CHIN 50"},
+            {"type": "course", "courseId": "JAPAN 50"},
+            {"type": "course", "courseId": "KOREA 50"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Primary Asian Language",
+          "description": "Complete the equivalent of the sixth level in either Chinese, Japanese, or Korean.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Second Foreign Language",
+          "description": "Complete the equivalent of the third level of a second foreign language.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 11 upper-division courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Linguistics Courses",
+          "description": "Complete five courses. Take the first four courses listed, and select one from LING 165A or 165B.",
+          "needs": 5,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "LING 103"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 110"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 120B"
+            },
+            {
+              "type": "group",
+              "title": "Advanced Linguistics Requirement",
+              "description": "Select one course.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "LING 165A"},
+                {"type": "course", "courseId": "LING 165B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Elective",
+          "description": "Complete one upper-division elective course in the Linguistics Department (minimum 4 graded units).",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Tracks",
+          "description": "Select one track from Chinese, Japanese, or Korean.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chinese Track",
+              "description": "Complete the Advanced Modern Chinese and Elective requirements.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Advanced Modern Chinese",
+                  "description": "Select one series from Chinese 100A, 100B, and 100C, or 100D, 100E, and 100F, or 100I.",
+                  "needs": 1,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Chinese 100A-C Series",
+                      "description": "Complete all three courses in this series.",
+                      "needs": 3,
+                      "options": [
+                        {"type": "course", "courseId": "CHIN 100A"},
+                        {"type": "course", "courseId": "CHIN 100B"},
+                        {"type": "course", "courseId": "CHIN 100C"}
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Chinese 100D-F Series",
+                      "description": "Complete all three courses in this series for heritage speakers.",
+                      "needs": 3,
+                      "options": [
+                        {"type": "course", "courseId": "CHIN 100D"},
+                        {"type": "course", "courseId": "CHIN 100E"},
+                        {"type": "course", "courseId": "CHIN 100F"}
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Chinese 100I Intensive",
+                      "description": "Complete the intensive course.",
+                      "needs": 1,
+                      "options": [
+                        {"type": "course", "courseId": "CHIN 100I"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Electives",
+                  "description": "Select two courses from:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "ASIAN 104"},
+                    {"type": "course", "courseId": "CHIN 101A"},
+                    {"type": "course", "courseId": "CHIN 101B"},
+                    {"type": "course", "courseId": "CHIN 101C"},
+                    {"type": "course", "courseId": "CHIN 103"},
+                    {"type": "course", "courseId": "CHIN 110A"},
+                    {"type": "course", "courseId": "CHIN 110B"},
+                    {"type": "course", "courseId": "CHIN 110C"},
+                    {"type": "course", "courseId": "CHIN C120"},
+                    {"type": "course", "courseId": "CHIN 130A"},
+                    {"type": "course", "courseId": "CHIN 130B"},
+                    {"type": "course", "courseId": "CHIN 165"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Japanese Track",
+              "description": "Complete the Advanced Modern Japanese and Elective requirements.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Advanced Modern Japanese",
+                  "description": "Select Japanese 100A, 100B, and 100C, or 100S.",
+                  "needs": 1,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Japanese 100A-C Series",
+                      "description": "Complete all three courses in this series.",
+                      "needs": 3,
+                      "options": [
+                        {"type": "course", "courseId": "JAPAN 100A"},
+                        {"type": "course", "courseId": "JAPAN 100B"},
+                        {"type": "course", "courseId": "JAPAN 100C"}
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Japanese 100S Intensive",
+                      "description": "Complete the intensive course.",
+                      "needs": 1,
+                      "options": [
+                        {"type": "course", "courseId": "JAPAN 100S"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Electives",
+                  "description": "Select two courses from the following list. Only one course from Japanese CM123 or CM127 may be applied.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "ASIAN 104"},
+                    {"type": "course", "courseId": "JAPAN 101A"},
+                    {"type": "course", "courseId": "JAPAN 101B"},
+                    {"type": "course", "courseId": "JAPAN 101C"},
+                    {"type": "course", "courseId": "JAPAN 110A"},
+                    {"type": "course", "courseId": "JAPAN 110B"},
+                    {"type": "course", "courseId": "JAPAN M120"},
+                    {"type": "course", "courseId": "JAPAN CM123"},
+                    {"type": "course", "courseId": "JAPAN CM127"},
+                    {"type": "course", "courseId": "JAPAN 130A"},
+                    {"type": "course", "courseId": "JAPAN 130B"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Korean Track",
+              "description": "Complete the Advanced Modern Korean and Elective requirements.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Advanced Modern Korean",
+                  "description": "Complete the following three courses:",
+                  "needs": 3,
+                  "options": [
+                    {"type": "course", "courseId": "KOREA 100A"},
+                    {"type": "course", "courseId": "KOREA 100B"},
+                    {"type": "course", "courseId": "KOREA 100C"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Electives",
+                  "description": "Select two courses from:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "ASIAN 104"},
+                    {"type": "course", "courseId": "KOREA 101A"},
+                    {"type": "course", "courseId": "KOREA 101B"},
+                    {"type": "course", "courseId": "KOREA 101C"},
+                    {"type": "course", "courseId": "KOREA 103A"},
+                    {"type": "course", "courseId": "KOREA 103B"},
+                    {"type": "course", "courseId": "KOREA 103C"},
+                    {"type": "course", "courseId": "KOREA C105A"},
+                    {"type": "course", "courseId": "KOREA C105B"},
+                    {"type": "course", "courseId": "KOREA C105C"},
+                    {"type": "course", "courseId": "KOREA CM120"},
+                    {"type": "course", "courseId": "KOREA CM127"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "Departmental honors are awarded at graduation to those students who have a grade-point average of 3.6 or better in their junior and senior years and who have received a grade of A in Linguistics 198A and 198B or in 199. Qualified students may be proposed by any member of the faculty to the faculty as a whole for the award of highest honors on the basis of a piece of research in linguistics completed at UCLA.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Program",
+          "description": "This is an optional program for qualified students. To earn honors, complete one of the following research options.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Research Requirement",
+              "description": "Complete either the LING 198 series or LING 199.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Honors Research in Linguistics I & II",
+                  "description": "Complete both courses.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "LING 198A"},
+                    {"type": "course", "courseId": "LING 198B"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Directed Research or Senior Project",
+                  "description": "Complete the senior project course.",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "LING 199"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing_specialization",
+      "title": "Computing Specialization",
+      "description": "Students may select a specialization in Computing by (1) satisfying all the requirements for a bachelor\u2019s degree in the specified major and (2) completing the requirements below. Students graduate with a bachelor\u2019s degree in their major and a specialization in Computing.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Computing Specialization",
+          "description": "Optional specialization in Computing. Complete all requirements to earn the specialization.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Computing Specialization Requirements",
+              "description": "Complete an introduction to computing series, two required courses, and one additional elective.",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Introduction to Computing",
+                  "description": "Select one series from:",
+                  "needs": 1,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Program in Computing Series",
+                      "description": "Complete all three courses in the series.",
+                      "needs": 3,
+                      "options": [
+                        {"type": "course", "courseId": "COMPTNG 10A"},
+                        {"type": "course", "courseId": "COMPTNG 10B"},
+                        {"type": "course", "courseId": "COMPTNG 10C"}
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Computer Science Series",
+                      "description": "Complete both courses in the series.",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "COM SCI 31"},
+                        {"type": "course", "courseId": "COM SCI 32"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Required Courses",
+                  "description": "Complete the following two courses:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "LING 185A"},
+                    {"type": "course", "courseId": "MATH 61"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Additional Linguistics Elective",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "LING C104"},
+                    {"type": "course", "courseId": "LING 127"},
+                    {"type": "course", "courseId": "LING 132"},
+                    {"type": "course", "courseId": "LING 165A"},
+                    {"type": "course", "courseId": "LING 165B"},
+                    {"type": "course", "courseId": "LING 165C"},
+                    {"type": "course", "courseId": "LING 180"},
+                    {"type": "course", "courseId": "LING 185B"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

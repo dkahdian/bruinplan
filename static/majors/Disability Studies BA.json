@@ -1,0 +1,588 @@
+{
+  "name": "Disability Studies BA",
+  "overview": "Disability Studies is a multifaceted field that examines the nature, meaning, and consequences of disability. The Bachelor of Arts (BA) degree in Disability Studies is an interdisciplinary, community-based, capstone major. It appeals to undergraduates seeking a conceptual and practical understanding of disability as a foundation for graduate or professional studies and/or careers across a broad spectrum of professions. The major curriculum recognizes disability as a central part of our lived experience; a critical dimension of social, cultural, and political identity; and a frequent target of discrimination and exclusion. Through foundational courses, interdisciplinary electives, community-engaged course work, and a senior capstone research project, students in the major learn to think critically about disability as a core aspect of the human experience, preparing them to enact transformational change across disability communities and beyond.\n\nThe Disability Studies major is a designated capstone major. Students have the option of completing a capstone seminar (Disability Studies 191) or an independent research project (Disability Studies 198A and 198B, or 199A and 199B) that enables them to use knowledge and skills acquired through previous coursework to engage, under the guidance of a faculty member, in a research or creative project that results in a final paper or other product.\n\nLearning Outcomes:\n1. Demonstrated understanding of disability studies concepts, theories, history, and political movements.\n2. Integration of multiple perspectives on disability through interdisciplinary inquiry.\n3. Development of professional skills through academic and applied experiences.\n4. Use of theory to inform practice through participation in community-engaged learning activities.\n5. Conduction and communication of research to various audiences.",
+  "college": "College of Letters and Science",
+  "department": "Disability Studies",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "entry",
+      "title": "Entry to the Major",
+      "description": "Admission: Students must first complete all preparation for the major courses. Students must have a UC grade-point average (GPA) of 2.0 or better in those courses and an overall GPA of 2.0. Students are accepted into the major on a rolling basis but no later than the end of spring quarter of their junior year.\nPre-Major: Incoming first-year students may be admitted as Disability Studies pre-majors on acceptance to UCLA. Pre-major students must apply for major standing by the end of spring quarter of their junior year. All other students must first complete Disability Studies 1, and then contact the undergraduate counselor in A316 Murphy Hall to request pre-major standing.\nTransfer Students: Transfer applicants to the Disability Studies major with 90 or more units must complete the following preparatory courses prior to admission to UCLA: one social theory course; one race, identity, and society course; one humanities and ethics course; and one data analysis course. Disability Studies 1 must be taken at UCLA once a transfer student is admitted to the University. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete five courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "DIS STD 1"
+        },
+        {
+          "type": "group",
+          "title": "Social Theory",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ANTHRO 3"},
+            {"type": "course", "courseId": "PUB AFF 10"},
+            {"type": "course", "courseId": "PUB AFF 80"},
+            {"type": "course", "courseId": "SOCIOL 1"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Race, Identity, and Society",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "AF AMER 1"},
+            {"type": "course", "courseId": "AF AMER 6"},
+            {"type": "course", "courseId": "AM IND M10"},
+            {"type": "course", "courseId": "ASIA AM 10"},
+            {"type": "course", "courseId": "ASIA AM 20"},
+            {"type": "course", "courseId": "ASIA AM 30"},
+            {"type": "course", "courseId": "ASIA AM 40"},
+            {"type": "course", "courseId": "ASIA AM 50"},
+            {"type": "course", "courseId": "CCAS 10A"},
+            {"type": "course", "courseId": "CCAS 10B"},
+            {"type": "course", "courseId": "CCAS 20"},
+            {"type": "course", "courseId": "CLUSTER 20B"},
+            {"type": "course", "courseId": "CLUSTER M72B"},
+            {"type": "course", "courseId": "CLUSTER 80BX"},
+            {"type": "course", "courseId": "COMM M72B"},
+            {"type": "course", "courseId": "DESMA 10"},
+            {"type": "course", "courseId": "EDUC 11"},
+            {"type": "course", "courseId": "GENDER 10"},
+            {"type": "course", "courseId": "LBR STD 10"},
+            {"type": "course", "courseId": "SOC GEN M72B"},
+            {"type": "course", "courseId": "SOCIOL M72B"},
+            {"type": "course", "courseId": "WL ARTS M23"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Humanities and Ethics",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CLUSTER M71B"},
+            {"type": "course", "courseId": "CLUSTER 73B"},
+            {"type": "course", "courseId": "COM LIT 1E"},
+            {"type": "course", "courseId": "DESMA 10"},
+            {"type": "course", "courseId": "MCD BIO 60"},
+            {"type": "course", "courseId": "PHILOS 22"},
+            {"type": "course", "courseId": "PHILOS 22W"},
+            {"type": "course", "courseId": "SOC GEN 5"},
+            {"type": "course", "courseId": "SOC GEN M71B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Data Analysis",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "EDUC 35"},
+            {"type": "course", "courseId": "LIFESCI 40"},
+            {"type": "course", "courseId": "POL SCI 6"},
+            {"type": "course", "courseId": "PUB AFF 60"},
+            {"type": "course", "courseId": "STATS 10"},
+            {"type": "course", "courseId": "STATS 13"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "major_requirements",
+      "title": "The Major",
+      "description": "Refer to the following courses",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Core",
+          "description": "Complete the following course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "DIS STD 101W"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Disability-Centered Electives",
+          "description": "Select two courses from the following. Anthropology 149 may only be applied if the topic offers an interdisciplinary perspective of disability. Nursing M172 and M172XP must be taken together to satisfy one course requirement.",
+          "needs": 2,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "ASL M115"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 137P"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 149"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIA AM M117"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 171"
+            },
+            {
+              "type": "group",
+              "title": "Disability Studies Electives",
+              "description": "Select from Disability Studies 102 through 187",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "EDUC 104A"
+            },
+            {
+              "type": "course",
+              "courseId": "EDUC 132"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL M103"
+            },
+            {
+              "type": "course",
+              "courseId": "GENDER M121"
+            },
+            {
+              "type": "course",
+              "courseId": "GENDER 152"
+            },
+            {
+              "type": "course",
+              "courseId": "GENDER M161"
+            },
+            {
+              "type": "course",
+              "courseId": "HNRS M183"
+            },
+            {
+              "type": "group",
+              "title": "Nursing Co-Requisite",
+              "description": "Nursing M172 and M172XP must be taken together to satisfy one course requirement.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "NURSING M172"},
+                {"type": "course", "courseId": "NURSING M172XP"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M107"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 127A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 127B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 127C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 132A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M139"
+            },
+            {
+              "type": "course",
+              "courseId": "SOC GEN M166"
+            },
+            {
+              "type": "course",
+              "courseId": "SOC GEN M183"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL M120"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL M148"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Interdisciplinary Perspectives on Disability",
+          "description": "Select one course from each of the following categories:",
+          "needs": 4,
+          "options": [
+            {
+              "type": "group",
+              "title": "Category 1: Health Humanities and Bioethics",
+              "description": "Note: Anthropology 149 may only be applied if the topic offers an interdisciplinary perspective of disability. Disability Studies M172 and M172XP, or Nursing M172 and M172XP, must be taken together to satisfy one course requirement.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "ANTHRO 137P"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ANTHRO 149"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIA AM M117"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIA AM M129"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIA AM M161"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COM HLT 100"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COM HLT M140"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COM LIT 180"
+                },
+                {
+                  "type": "course",
+                  "courseId": "DIS STD 138XP"
+                },
+                {
+                  "type": "course",
+                  "courseId": "DIS STD M139"
+                },
+                {
+                  "type": "course",
+                  "courseId": "DIS STD M148"
+                },
+                {
+                  "type": "course",
+                  "courseId": "DIS STD M166"
+                },
+                {
+                  "type": "group",
+                  "title": "Disability Studies Co-Requisite",
+                  "description": "Disability Studies M172 and M172XP must be taken together to satisfy one course requirement.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "DIS STD M172"},
+                    {"type": "course", "courseId": "DIS STD M172XP"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "DIS STD M183"
+                },
+                {
+                  "type": "course",
+                  "courseId": "EDUC 132"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HLT POL M110"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 179A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 179B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 179C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HNRS M183"
+                },
+                {
+                  "type": "group",
+                  "title": "Nursing Co-Requisite",
+                  "description": "Nursing M172 and M172XP must be taken together to satisfy one course requirement.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "NURSING M172"},
+                    {"type": "course", "courseId": "NURSING M172XP"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHILOS 173"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PUB AFF M131"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PUB AFF 134"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH M107"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 127A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 127B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 127C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH M139"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOC GEN M166"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOC GEN M183"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOCIOL M148"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Category 2: Access and Social Change",
+              "description": "Note: Disability Studies M172 and M172XP, or Nursing M172 and M172XP, must be taken together to satisfy one course requirement.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "CESC 172XP"
+                },
+                {
+                  "type": "course",
+                  "courseId": "DESMA 171"
+                },
+                {
+                  "type": "course",
+                  "courseId": "DIS STD 145"
+                },
+                {
+                  "type": "course",
+                  "courseId": "DIS STD M148"
+                },
+                {
+                  "type": "course",
+                  "courseId": "DIS STD M149"
+                },
+                {
+                  "type": "course",
+                  "courseId": "DIS STD M166"
+                },
+                {
+                  "type": "group",
+                  "title": "Disability Studies Co-Requisite",
+                  "description": "Disability Studies M172 and M172XP must be taken together to satisfy one course requirement.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "DIS STD M172"},
+                    {"type": "course", "courseId": "DIS STD M172XP"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "EDUC 104A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GENDER 152"
+                },
+                {
+                  "type": "group",
+                  "title": "Nursing Co-Requisite",
+                  "description": "Nursing M172 and M172XP must be taken together to satisfy one course requirement.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "NURSING M172"},
+                    {"type": "course", "courseId": "NURSING M172XP"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 132A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOC GEN M166"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOCIOL M120"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOCIOL M148"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Category 3: Representation, Embodiment, and Disability Cultures",
+              "description": "Refer to the following courses",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ASL M115"},
+                {"type": "course", "courseId": "COM LIT 180"},
+                {"type": "course", "courseId": "DIS STD M103"},
+                {"type": "course", "courseId": "DIS STD 111"},
+                {"type": "course", "courseId": "DIS STD M114"},
+                {"type": "course", "courseId": "DIS STD M115"},
+                {"type": "course", "courseId": "DIS STD M121"},
+                {"type": "course", "courseId": "DIS STD M139"},
+                {"type": "course", "courseId": "DIS STD M161"},
+                {"type": "course", "courseId": "ENGL M103"},
+                {"type": "course", "courseId": "GENDER 104"},
+                {"type": "course", "courseId": "GENDER M121"},
+                {"type": "course", "courseId": "GENDER M161"},
+                {"type": "course", "courseId": "PSYCH M139"},
+                {"type": "course", "courseId": "THEATER M114"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Category 4: Global and Historical Perspectives",
+              "description": "Note: Anthropology 149 may only be applied if the topic offers an interdisciplinary perspective of disability.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ANTHRO 137P"},
+                {"type": "course", "courseId": "ANTHRO 149"},
+                {"type": "course", "courseId": "COM HLT 132"},
+                {"type": "course", "courseId": "COM LIT 180"},
+                {"type": "course", "courseId": "DIS STD M103"},
+                {"type": "course", "courseId": "ENGL M103"},
+                {"type": "course", "courseId": "GENDER 152"},
+                {"type": "course", "courseId": "HIST 179A"},
+                {"type": "course", "courseId": "HIST 179B"},
+                {"type": "course", "courseId": "HIST 179C"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Internship or Research Practicum",
+          "description": "Select one of the following options:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Option 1: Internship",
+              "description": "Complete two quarters of Disability Studies 195CE.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "DIS STD 195CE"},
+                {"type": "course", "courseId": "DIS STD 195CE"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Option 2: Research Apprenticeship",
+              "description": "Complete two quarters of Disability Studies 196.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "DIS STD 196"},
+                {"type": "course", "courseId": "DIS STD 196"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone",
+          "description": "Select course 191 (5 units), or two courses (6 units) from 198A and 198B, or 199A and 199B.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "DIS STD 191"
+            },
+            {
+              "type": "group",
+              "title": "Honors Research Sequence",
+              "description": "Refer to the following courses",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "DIS STD 198A"},
+                {"type": "course", "courseId": "DIS STD 198B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Directed Research Sequence",
+              "description": "Refer to the following courses",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "DIS STD 199A"},
+                {"type": "course", "courseId": "DIS STD 199B"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "Admission: The honors program is open to majors with a 3.5 departmental and a 3.0 overall grade-point average (GPA). Students with lower GPAs may petition for admission to the program. Students should apply by winter quarter of the junior year. For application forms and more information, contact the departmental counselor in A316 Murphy Hall.\n\nRequirements: To receive honors at graduation, students must have at least a 3.5 GPA in courses applied toward the major (including 198A and 198B) and an overall GPA of 3.0.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Thesis",
+          "description": "All honors students must complete their capstone requirement by taking courses 198A and 198B, in which they research, write, and present an honors thesis.",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "DIS STD 198A"},
+            {"type": "course", "courseId": "DIS STD 198B"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "Policies",
+      "description": "Preparation for the Major Policies: All courses must be completed with a 2.0 or better grade-point average.\n\nThe Major Policies: Each course must be taken for a letter grade, and students must earn a C or better grade in Disability Studies 101W. Disability Studies 101W and one quarter of Disability Studies 195CE or 196 must be taken prior to the capstone.",
+      "requirements": [
+      ]
+    }
+  ]
+}

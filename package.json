@@ -11,7 +11,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"compile": "powershell -Command \"npx tsc --project .; cp -r ./courses ./dist/courses; cp -r ./majors ./dist/majors\"",
-		"test:majors": "powershell -Command \"npx tsx scripts/test_majors.ts\""
+		"test:majors": "powershell -Command \"npx tsx scripts/test_majors.ts\"",
+		"validate:majors": "powershell -Command \"npx tsx scripts/validate-majors.ts\""
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
@@ -30,6 +31,7 @@
 		"cytoscape": "^3.32.1",
 		"cytoscape-dagre": "^2.5.0",
 		"cytoscape-fcose": "^2.2.0",
+		"puppeteer": "^24.12.1",
 		"zod": "^4.0.2"
 	}
 }

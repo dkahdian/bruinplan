@@ -1,0 +1,190 @@
+{
+  "name": "Engineering Geology BS",
+  "overview": "The Engineering Geology major is a designated capstone major. Students are required to use skill and knowledge sets from previous coursework to complete a field-based research project from conception to written report. Projects must be placed into context within the current state of understanding, and results are presented at a research symposium or published as a brief report.",
+  "college": "College of Letters and Science",
+  "department": "Earth, Planetary, and Space Sciences",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "learning-outcomes",
+      "title": "Learning Outcomes",
+      "description": "1. Use of skills and knowledge set from coursework.\n2. Definition of research methodology and data.\n3. Placement of project into context of current state of understanding.\n4. Completion of research project from conception to written report.\n5. Oral presentation at a research symposium, or brief published report, of field experience results.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "transfer-entry",
+      "title": "Entry to the Major",
+      "description": "Transfer applicants to the Engineering Geology major with 90 or more quarter units (60 semester units) must have completed one introductory Earth sciences course with laboratory, one general chemistry course with laboratory for majors, and one year of calculus. A second general chemistry course and one course of calculus-based physics with laboratory are recommended.\n\nRefer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 16 courses as follows: Each course must be passed with a minimum grade of C\u2013.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Earth, Planetary, and Space Sciences",
+          "description": "Select three courses from:",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "EPS SCI 1 or Substitute",
+              "description": "Select one course",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "EPS SCI 1"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CLUSTER 70A"
+                },
+                {
+                  "type": "group",
+                  "title": "EPS SCI 3-17",
+                  "description": "Select one course from Earth, Planetary, and Space Sciences 3 through 17",
+                  "needs": 1,
+                  "options": [
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 51"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 61"
+            },
+            {
+              "type": "group",
+              "title": "EPS SCI M71 or Substitute",
+              "description": "Select one course",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "EPS SCI M71"},
+                {"type": "course", "courseId": "C&EE M20"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Chemistry and Biochemistry",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "CHEM 20B"},
+            {"type": "course", "courseId": "CHEM 20L"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Complete the following five courses:",
+          "needs": 5,
+          "options": [
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31B"},
+            {"type": "course", "courseId": "MATH 32A"},
+            {"type": "course", "courseId": "MATH 32B"},
+            {"type": "course", "courseId": "MATH 33A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Complete the following five courses:",
+          "needs": 5,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 1B"},
+            {"type": "course", "courseId": "PHYSICS 1C"},
+            {"type": "course", "courseId": "PHYSICS 4AL"},
+            {"type": "course", "courseId": "PHYSICS 4BL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete 12 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Earth, Planetary, and Space Sciences",
+          "description": "Complete the following six courses:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "EPS SCI 103A"},
+            {"type": "course", "courseId": "EPS SCI 103B"},
+            {"type": "course", "courseId": "EPS SCI 111"},
+            {"type": "course", "courseId": "EPS SCI 112"},
+            {"type": "course", "courseId": "EPS SCI 136A"},
+            {"type": "course", "courseId": "EPS SCI 139"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Civil Engineering",
+          "description": "Select three courses from:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "C&EE 108"},
+            {"type": "course", "courseId": "C&EE 120"},
+            {"type": "course", "courseId": "C&EE 121"},
+            {"type": "course", "courseId": "C&EE 125"},
+            {"type": "course", "courseId": "C&EE C128"},
+            {"type": "course", "courseId": "C&EE 129L"},
+            {"type": "course", "courseId": "C&EE 150"},
+            {"type": "course", "courseId": "C&EE 151"},
+            {"type": "course", "courseId": "C&EE C158"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Field Research",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "EPS SCI 121"},
+            {"type": "course", "courseId": "EPS SCI 121F"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Upper-Division Course",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Civil and Environmental Engineering Elective",
+              "description": "Select one course from Civil and Environmental Engineering 103 to 188",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Earth, Planetary, and Space Sciences Elective",
+              "description": "Select one course from Earth, Planetary, and Space Sciences 100 to 179",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Philosophy BA",
+  "overview": "The benefits of an undergraduate education in philosophy are those Francis Bacon attributed to reading, conversation, and writing: reading gives us material for our own thought; conversation, facility at sharing and debating ideas; and writing, the ability to fix ideas with precision. A typical philosophy course involves reading: from the center and margins of the major world traditions, to modern thinkers framing today\u2019s urgent issues. It also involves conversation, as philosophers like to test ideas out in company and learn from those who see things differently to them. The final test of a philosophical theory or argument is to submit it to the rigor of writing. Philosophical writing, in the ideal, is clear, exact, and free of the rhetoric that may be able to temporarily sway an opponent in the heat of conversation.",
+  "college": "College of Letters and Science",
+  "department": "Philosophy",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "entry",
+      "title": "Entry to the Major",
+      "description": "Transfer applicants to the Philosophy major with 90 or more units must complete as many of the following introductory courses as possible prior to admission to UCLA. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Recommended Transfer Courses",
+          "description": "Complete as many of the following four courses as possible:",
+          "needs": 4,
+          "options": [
+            {
+              "type": "group",
+              "title": "Philosophy of Mind or Skepticism and Rationality",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PHILOS 7"},
+                {"type": "course", "courseId": "PHILOS 21"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 22"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 31"
+            },
+            {
+              "type": "group",
+              "title": "Additional Philosophy Course",
+              "description": "Complete one additional philosophy course.",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete four lower-division courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete three required courses as follows:",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Philosophy of Mind or Skepticism and Rationality",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PHILOS 7"},
+                {"type": "course", "courseId": "PHILOS 21"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 22"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 31"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Elective",
+          "description": "Complete one additional lower-division philosophy course.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "major",
+      "title": "The Major",
+      "description": "Complete 13 upper-division (100 series) or graduate (200 series) philosophy courses (52 units) as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PHILOS 100A"},
+            {"type": "course", "courseId": "PHILOS 100B"},
+            {"type": "course", "courseId": "PHILOS 100C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Groups",
+          "description": "Select seven courses distributed among the following groups as follows: two courses in each of three of the groups and one course in the remaining group.\nGroup I\u2014History of Philosophy: Upper-Division Courses: Philosophy 101 through 119; Graduate Courses: Philosophy 201 through 219.\nGroup II\u2014Logic, Semantics, and Philosophy of Science: Upper-Division Courses: Philosophy 120 through 139; Graduate Courses: Philosophy 220 through 239.\nGroup III\u2014Ethics and Value Theory: Upper-Division Courses: Philosophy 150 through 169; Graduate Courses: Philosophy 240 through 259.\nGroup IV\u2014Metaphysics and Epistemology: Upper-Division Courses: Philosophy 170 through 187; Graduate Courses: Philosophy 270 through 289.",
+          "needs": 7,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Complete three additional upper-division or graduate philosophy courses.",
+          "needs": 3,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "To be admitted to the honors program, students must have taken at least three upper-division philosophy lecture or seminar courses at UCLA with an overall grade-point average of 3.7. To be awarded honors in philosophy at graduation, Philosophy majors must (1) have a 3.7 grade-point average in UCLA philosophy courses and a 3.7 GPA in upper-division UCLA philosophy courses; (2) satisfy the honors directed study requirement; and (3) receive a grade of A\u2013 or better in each course applied toward satisfaction of the honors requirement. Exceptional work done to satisfy the honors requirement may be submitted to the department chair for consideration for highest honors.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Directed Study Requirement",
+          "description": "Students must satisfy the honors directed study requirement by taking Philosophy 198A and 198B in conjunction (usually, but not necessarily concurrently) with two different regular upper-division philosophy courses supervised by the instructors of those courses. Students may substitute Philosophy 191 for either course 198A or 198B or, alternatively, may complete up to two philosophy graduate seminars in lieu of courses 198A and/or 198B. Students may also substitute up to one 4-unit Philosophy 199 course in which they produce a substantial paper that represents an original piece of research or its equivalent.",
+          "needs": 2,
+          "options": [
+          ]
+        }
+      ]
+    }
+  ]
+}

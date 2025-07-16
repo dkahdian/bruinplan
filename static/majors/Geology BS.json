@@ -1,0 +1,252 @@
+{
+  "name": "Geology B.S.",
+  "overview": "The Geology major is a designated capstone major. Students are required to use skill and knowledge sets from previous coursework to complete a field-based research project from conception to written report. Projects must be placed into context within the current state of understanding, and results are presented at a research symposium or published as a brief report.",
+  "college": "College of Letters and Science",
+  "department": "Earth, Planetary, and Space Sciences",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "learning-outcomes",
+      "title": "Learning Outcomes",
+      "description": "1. Use of skills and knowledge set from coursework. 2. Definition of research methodology and data. 3. Placement of project into context of current state of understanding. 4. Completion of research project from conception to written report. 5. Oral presentation at a research symposium, or brief published report, of field experience results.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "entry",
+      "title": "Entry to the Major",
+      "description": "Transfer applicants to the Geology major with 90 or more quarter units (60 semester units) must have completed one introductory Earth sciences course with laboratory, one calculus course, and one general chemistry course with laboratory for majors. A second calculus course and a second general chemistry course are recommended. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 12 to 14 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Earth, Planetary, and Space Sciences",
+          "description": "Complete four courses.",
+          "needs": 4,
+          "options": [
+            {
+              "type": "group",
+              "title": "Introductory Earth Science",
+              "description": "Select one course from the following. May be substituted with a course from Earth, Planetary, and Space Sciences 3 through 17.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "EPS SCI 1"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CLUSTER 70A"
+                },
+                {
+                  "type": "group",
+                  "title": "EPSS 3-17",
+                  "description": "Earth, Planetary, and Space Sciences 3 through 17",
+                  "needs": 1,
+                  "options": [
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 51"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 61"
+            },
+            {
+              "type": "group",
+              "title": "Introduction to Computing",
+              "description": "Select one course from the following.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "EPS SCI M71"},
+                {"type": "course", "courseId": "C&EE M20"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Chemistry",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry 14 series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Chemistry 20 series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Mathematics 3 series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 31 and 32 series",
+              "description": "Complete all courses in this series.",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "MATH 32A"},
+                {"type": "course", "courseId": "MATH 32B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Physics 1 series",
+              "description": "Complete all courses in this series.",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 5 series",
+              "description": "Complete all courses in this series.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete 11 courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "EPS SCI 103A"
+        },
+        {
+          "type": "course",
+          "courseId": "EPS SCI 103B"
+        },
+        {
+          "type": "course",
+          "courseId": "EPS SCI 111"
+        },
+        {
+          "type": "course",
+          "courseId": "EPS SCI 112"
+        },
+        {
+          "type": "group",
+          "title": "Capstone Field Research",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "EPS SCI 121"},
+            {"type": "course", "courseId": "EPS SCI 121F"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Earth, Planetary, and Space Sciences Electives",
+          "description": "Complete five additional 100-level Earth, planetary, and space sciences courses (except Earth, Planetary, and Space Sciences M187, and 189 through 199). Students may opt to take courses from the following groups:",
+          "needs": 5,
+          "options": [
+            {"type": "course", "courseId": "EPS SCI 136A"},
+            {"type": "course", "courseId": "EPS SCI 150"},
+            {"type": "course", "courseId": "EPS SCI M171"},
+            {"type": "course", "courseId": "EPS SCI CM114A"},
+            {"type": "course", "courseId": "EPS SCI CM114B"},
+            {"type": "course", "courseId": "EPS SCI 116"},
+            {"type": "course", "courseId": "EPS SCI M118"},
+            {"type": "course", "courseId": "EPS SCI 103C"},
+            {"type": "course", "courseId": "EPS SCI C106"},
+            {"type": "course", "courseId": "EPS SCI C107"},
+            {"type": "course", "courseId": "EPS SCI C109"},
+            {"type": "course", "courseId": "EPS SCI C113"},
+            {"type": "course", "courseId": "EPS SCI 152"},
+            {"type": "course", "courseId": "EPS SCI 153"},
+            {"type": "course", "courseId": "EPS SCI C143"},
+            {"type": "course", "courseId": "EPS SCI 155"},
+            {"type": "course", "courseId": "EPS SCI C179"},
+            {"type": "course", "courseId": "EPS SCI C162"},
+            {"type": "course", "courseId": "EPS SCI C166"},
+            {"type": "course", "courseId": "EPS SCI 119"},
+            {"type": "course", "courseId": "EPS SCI 133"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "The honors program in geology is intended to provide exceptional students an opportunity for advanced research and study under the tutorial guidance of a faculty member. To graduate with honors, students must have a cumulative GPA of 3.5, have completed at least 90 graded units at the University of California, and complete a minimum of two terms (8 units) of the following course, leading to the preparation of a satisfactory honors thesis. Students demonstrating exceptional ability are awarded highest honors.",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "EPS SCI 198"
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "Policies",
+      "description": "Preparation for the Major: Each course must be passed with a minimum grade of C-.",
+      "requirements": [
+      ]
+    }
+  ]
+}

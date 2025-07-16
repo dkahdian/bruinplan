@@ -1,0 +1,123 @@
+{
+  "name": "Art BA",
+  "overview": "The Art major is a designated capstone major. As part of the upper-division advanced studio requirements, all undergraduate students are required to complete a senior studio course that emphasizes analysis and criticism of individual creative work and ideas. Students develop and present a body of creative work in which they exhibit familiarity with and competence in a range of techniques and media, and a level of proficiency in utilizing particular media appropriate to advanced-level studio projects. Graduates are expected to demonstrate familiarity with global historical precedents for and issues in contemporary art, to understand terms and concepts relevant to contemporary art discourse, and to have the ability to effectively articulate analysis of works of art to participate in a studio critique.",
+  "college": "School of the Arts and Architecture",
+  "department": "Art",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete the following nine required courses and one art history elective:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "ART 1A"
+        },
+        {
+          "type": "course",
+          "courseId": "ART 1B"
+        },
+        {
+          "type": "course",
+          "courseId": "ART 11A"
+        },
+        {
+          "type": "course",
+          "courseId": "ART 11B"
+        },
+        {
+          "type": "course",
+          "courseId": "ART 11D"
+        },
+        {
+          "type": "course",
+          "courseId": "ART 11E"
+        },
+        {
+          "type": "course",
+          "courseId": "ART 31A"
+        },
+        {
+          "type": "course",
+          "courseId": "ART 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "ART 31C"
+        },
+        {
+          "type": "group",
+          "title": "Art History Elective",
+          "description": "Select one course from: Art History 20 through 31",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete a minimum of nine upper-division courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "ART 132"
+        },
+        {
+          "type": "group",
+          "title": "Studio Areas",
+          "description": "Select six courses from at least four of the following studio areas. At least one must be designated with an A.",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "ART 130"},
+            {"type": "course", "courseId": "ART 130A"},
+            {"type": "course", "courseId": "ART 133"},
+            {"type": "course", "courseId": "ART 133A"},
+            {"type": "course", "courseId": "ART 137"},
+            {"type": "course", "courseId": "ART 137A"},
+            {"type": "course", "courseId": "ART 140"},
+            {"type": "course", "courseId": "ART 145"},
+            {"type": "course", "courseId": "ART 145A"},
+            {"type": "course", "courseId": "ART 147"},
+            {"type": "course", "courseId": "ART 147A"},
+            {"type": "course", "courseId": "ART 148"},
+            {"type": "course", "courseId": "ART 148A"},
+            {"type": "course", "courseId": "ART 149"},
+            {"type": "course", "courseId": "ART 149A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Art History Elective",
+          "description": "Select one course from the following course or range: ART M184 or Art History M110A through 185.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ART M184"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "ART 150"
+        },
+        {
+          "type": "group",
+          "title": "Art Electives",
+          "description": "Complete 8 units of art electives.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "Policies",
+      "description": "Each course applied toward major requirements must be taken for a letter grade, with the exception of Art 190, 193, and 195, which are offered only on a Passed/Not Passed grading basis. Of those, no more than 4 units total may be applied toward the upper-division art elective requirement.",
+      "requirements": [
+      ]
+    }
+  ]
+}

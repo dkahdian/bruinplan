@@ -1,0 +1,110 @@
+{
+  "name": "Portuguese and Brazilian Studies BA",
+  "overview": "Students are encouraged to spend up to one year in a Portuguese-speaking country to study in a university or conduct research. Appropriate credit may be granted in accordance with the individual program, arranged in consultation with the undergraduate faculty adviser in Portuguese. Proposals must be submitted in advance in writing and must be approved by the department.",
+  "college": "College of Letters and Science",
+  "department": "Spanish and Portuguese",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete two courses as follows. Each course must be taken for a letter grade and passed with a grade of C or better prior to beginning upper-division work in the major.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Language/Culture Course",
+          "description": "Select one course (Portuguese 27 is recommended):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PORTGSE 25"},
+            {"type": "course", "courseId": "PORTGSE 26"},
+            {"type": "course", "courseId": "PORTGSE 27"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "PORTGSE 46"
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete 10 upper-division courses (45 units minimum) as follows. Each course must be taken for a letter grade and passed with a grade of C or better.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Grammar",
+          "description": "Select one course from the following:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PORTGSE 100A"},
+            {"type": "course", "courseId": "PORTGSE 100B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Literature",
+          "description": "Select one course from the following:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PORTGSE 130A"},
+            {"type": "course", "courseId": "PORTGSE 130B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Complete seven elective courses selected from Portuguese 100A through 199. A minimum of five of the seven elective courses must be taken in Portuguese. A maximum of three courses from outside the department that focus on Brazil, Portugal, or Lusophone Africa may be applied toward the major with the approval of the undergraduate adviser. Up to three 4-unit Portuguese 197 or 199 courses may be applied toward the major.",
+          "needs": 7,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "The departmental honors program is open to majors who have completed a minimum of six upper-division major courses with a 3.7 grade-point average or better in those six courses. Eligibility is verified by the departmental counselor.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Thesis Track (Optional)",
+          "description": "On the basis of their coursework and special interests, students consult with a faculty member to formulate a research project that they pursue under the faculty member\u2019s guidance. Approval of the honors thesis by the faculty mentor is the final requirement for departmental honors. Note: These courses may not be applied toward the majors.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Thesis Requirement",
+              "description": "Choose one thesis sequence to complete the honors program.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Portuguese Thesis Sequence",
+                  "description": "Students research and prepare a draft of a thesis (198A) and complete the final thesis draft of approximately 25 to 30 pages (198B).",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "PORTGSE 198A"},
+                    {"type": "course", "courseId": "PORTGSE 198B"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Spanish Thesis Sequence",
+                  "description": "Students research and prepare a draft of a thesis (198A) and complete the final thesis draft of approximately 25 to 30 pages (198B).",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "SPAN 198A"},
+                    {"type": "course", "courseId": "SPAN 198B"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Asian Humanities BA",
+  "overview": "Early acquisition of Asian language skills aids in the timely completion of major requirements and enriches appreciation of Asian cultures. Students are encouraged, therefore, to complete up to a year of language study in approved programs of study abroad.\n\nLearning Outcomes:\n1. Identification of major elements of cultures in Asia, with particular attention to chosen regions of expertise.\n2. Assessment of the social contours of a given Asian society, and explanation of ways in which dynamics within communities and other social structures shape the course of events.\n3. Understanding of the role that language and literature play in reflecting and influencing Asian societies, across time and different literary genres.\n4. Formulation of effective written and oral arguments that address important themes and issues in Asian arts and cultures, in ways that are historically appropriate and relevant to particular contexts.\n5. Conduct research on Asian languages, literatures, and other cultural elements, making effective and critical use of primary and secondary source materials.\n6. Appreciation of the central place of religion in Asian cultures, with focus on chosen region of expertise and tradition of focus.",
+  "college": "College of Letters and Science",
+  "department": "Asian Languages and Cultures",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete two courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Intermediate Sequence of Asian Language",
+          "description": "Select one intermediate sequence in one Asian language offered by the department (e.g., courses listed or equivalent):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CHIN 6"},
+            {"type": "course", "courseId": "CHIN 10"},
+            {"type": "course", "courseId": "FILIPNO 6"},
+            {"type": "course", "courseId": "HIN-URD 100C"},
+            {"type": "course", "courseId": "INDO 6"},
+            {"type": "course", "courseId": "JAPAN 6"},
+            {"type": "course", "courseId": "JAPAN 10"},
+            {"type": "course", "courseId": "KOREA 6"},
+            {"type": "course", "courseId": "KOREA 10"},
+            {"type": "course", "courseId": "THAI 6"},
+            {"type": "course", "courseId": "VIETMSE 6"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Asian 30, Civilization, Introduction to Religions, or Culture",
+          "description": "Select Asian 30, or one civilization, introduction to religions, or culture course within the department:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ASIAN 30"},
+            {"type": "course", "courseId": "CHIN 50"},
+            {"type": "course", "courseId": "JAPAN 50"},
+            {"type": "course", "courseId": "JAPAN 70"},
+            {"type": "course", "courseId": "KOREA 50"},
+            {"type": "course", "courseId": "ASIAN M60"},
+            {"type": "course", "courseId": "ASIAN M60W"},
+            {"type": "course", "courseId": "ASIAN M61"},
+            {"type": "course", "courseId": "CHIN M60"},
+            {"type": "course", "courseId": "CHIN M60W"},
+            {"type": "course", "courseId": "KOREA M60"},
+            {"type": "course", "courseId": "S ASIAN M60"},
+            {"type": "course", "courseId": "SEASIAN M60"},
+            {"type": "course", "courseId": "JAPAN 75"},
+            {"type": "course", "courseId": "JAPAN 80"},
+            {"type": "course", "courseId": "KOREA 40"},
+            {"type": "course", "courseId": "KOREA 70"},
+            {"type": "course", "courseId": "KOREA 80"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Eleven upper-division courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Upper-Division Language Courses",
+          "description": "Complete three upper-division language courses in one Asian language offered by the department.",
+          "needs": 3,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Electives",
+          "description": "Complete eight upper-division electives within the department, including at least one course from at least four of the following areas: Asia, China, Japan, Korea, South Asia, or Southeast Asia.",
+          "needs": 8,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Honors Program",
+          "description": "The honors program is a three-term sequence (Asian 198A-198B-198C), taken in addition to requirements for the major, that culminates in the submission of a 40- to 60-page thesis. In most circumstances courses 198A-198B-198C are taken in the senior year (fall, winter, and spring quarters), although students also have the option of taking course 198A in spring quarter of their junior year. Students are expected to use an Asian language in their research, with the scope of language work to be determined in consultation with their faculty adviser.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Thesis Sequence",
+              "description": "Complete the three-term honors thesis sequence.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "ASIAN 198A"},
+                {"type": "course", "courseId": "ASIAN 198B"},
+                {"type": "course", "courseId": "ASIAN 198C"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

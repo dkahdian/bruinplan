@@ -1,0 +1,151 @@
+{
+  "name": "Public Health BA",
+  "overview": "The Public Health major is a designated capstone major. The goal of the capstone is to provide a culminating experience for students in which they complete an integrative, scholarly, or applied project that reflects the knowledge and skills gained in the program to a public health problem or issue.",
+  "college": "Fielding School of Public Health",
+  "department": "Public Health",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete the following courses and course groups. Each course must be taken for a letter grade.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Introduction to Public Health",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "PUB HLT 50A"},
+            {"type": "course", "courseId": "PUB HLT 50B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Principles of Scientific Knowledge",
+          "description": "Complete three courses as follows:",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry and Biochemistry",
+              "description": "Select one course from the following. A score of 4 or 5 on the Advanced Placement Chemistry examination may satisfy the requirement.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "CHEM 3"},
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 17"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Life Sciences",
+              "description": "Select one course from the following. A score of 4 or 5 on the Advanced Placement Biology examination may satisfy the requirement.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "LIFESCI 7A"},
+                {"type": "course", "courseId": "LIFESCI 15"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Statistics",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "STATS 10"},
+                {"type": "course", "courseId": "STATS 13"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Health and Society",
+          "description": "Complete one course from an approved list available on the school website.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Cultural Competency",
+          "description": "Complete one course from an approved list available on the school website.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Communication Fundamentals",
+          "description": "Complete COMM 1 - Principles of Oral Communication or any approved Writing II course.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete all requirements from the following four groups.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Foundations of Public Health Knowledge and Practice",
+          "description": "Complete the following five courses:",
+          "needs": 5,
+          "options": [
+            {"type": "course", "courseId": "BIOSTAT 120"},
+            {"type": "course", "courseId": "COM HLT 120"},
+            {"type": "course", "courseId": "ENV HLT 120"},
+            {"type": "course", "courseId": "EPIDEM 120"},
+            {"type": "course", "courseId": "HLT POL 120"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Public Health Electives",
+          "description": "Complete three upper-division courses (minimum of 12 units) selected from the school's undergraduate course offerings. No more than 4 units from courses numbered 195 to 199 may be applied toward the elective requirement.",
+          "needs": 3,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Community Engagement",
+          "description": "Complete PUB HLT 195CE - Community and Corporate Internship in Public Health or an approved course.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Experience",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "PUB HLT 185A"},
+            {"type": "course", "courseId": "PUB HLT 185B"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "To receive School Honors, students must complete all upper-division courses in the major with an overall grade-point average of 3.5 or better. For highest School Honors, students must also complete a senior thesis.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Highest Honors Thesis Requirement",
+          "description": "To receive highest School Honors, complete a senior thesis by taking either Public Health 198 or a departmental 198 course. This course may not be counted as an elective course toward the major.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    }
+  ]
+}

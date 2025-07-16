@@ -1,0 +1,630 @@
+{
+  "name": "Cognitive Science B.S.",
+  "overview": "The Cognitive Science major focuses on the study of intelligent systems, both real and artificial. While including a strong foundation in the traditional areas of psychology, the major is interdisciplinary in nature and emphasizes subject matter within cognitive psychology, computer science, mathematics, and related disciplines.",
+  "college": "College of Letters and Science",
+  "department": "Psychology",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 12 or 13 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Chemistry or Linguistics or Physics",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CHEM 14A"},
+            {"type": "course", "courseId": "CHEM 17"},
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "LING 1"},
+            {"type": "course", "courseId": "LING 20"},
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 5A"},
+            {"type": "course", "courseId": "PHYSICS 10"},
+            {"type": "course", "courseId": "PHYSICS 11"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Life Sciences or Physiological Science",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 15"},
+            {"type": "course", "courseId": "PHYSCI 3"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Mathematics 3 series",
+              "description": "Complete all three courses:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 31 series",
+              "description": "Complete two courses.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Calculus I",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "MATH 31A"},
+                    {"type": "course", "courseId": "MATH 31AL"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Philosophy",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHILOS 7"},
+            {"type": "course", "courseId": "PHILOS 8"},
+            {"type": "course", "courseId": "PHILOS 9"},
+            {"type": "course", "courseId": "PHILOS 23"},
+            {"type": "course", "courseId": "PHILOS 31"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Program in Computing",
+          "description": "Complete three courses as follows:",
+          "needs": 2,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "COMPTNG 10A"
+            },
+            {
+              "type": "group",
+              "title": "Additional Programming Courses",
+              "description": "Select two additional courses from:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "COMPTNG 10B"},
+                {"type": "course", "courseId": "COMPTNG 10C"},
+                {"type": "course", "courseId": "COMPTNG 15"},
+                {"type": "course", "courseId": "COMPTNG 16A"},
+                {"type": "course", "courseId": "COMPTNG 16B"},
+                {"type": "course", "courseId": "COMPTNG 20A"},
+                {"type": "course", "courseId": "COMPTNG 40A"},
+                {"type": "course", "courseId": "PSYCH 20A"},
+                {"type": "course", "courseId": "PSYCH 20B"},
+                {"type": "course", "courseId": "PSYCH 30"},
+                {"type": "course", "courseId": "STATS 20"},
+                {"type": "course", "courseId": "STATS 21"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Psychology",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "PSYCH 10"},
+            {"type": "course", "courseId": "PSYCH 85"},
+            {"type": "course", "courseId": "PSYCH 100A"},
+            {"type": "course", "courseId": "PSYCH 100B"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Refer to the following courses",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Psychology Courses",
+          "description": "Complete three courses as follows:",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Behavioral Neuroscience",
+              "description": "Complete one option.",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 115"
+                },
+                {
+                  "type": "group",
+                  "title": "Neuroscience Series Substitution",
+                  "description": "Psychology 115 may be substituted with PSYCH M117A, M117B, and M117C. All three courses must be completed to receive equivalent credit.",
+                  "needs": 3,
+                  "options": [
+                    {"type": "course", "courseId": "PSYCH M117A"},
+                    {"type": "course", "courseId": "PSYCH M117B"},
+                    {"type": "course", "courseId": "PSYCH M117C"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Cognitive Psychology or Sensation/Perception",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PSYCH 120A"},
+                {"type": "course", "courseId": "PSYCH 120B"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 124"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Required Course",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COM SCI 161"},
+            {"type": "course", "courseId": "PSYCH 111"},
+            {"type": "course", "courseId": "PSYCH M116A"},
+            {"type": "course", "courseId": "PSYCH 116B"},
+            {"type": "course", "courseId": "PSYCH 121"},
+            {"type": "course", "courseId": "PSYCH 186A"},
+            {"type": "course", "courseId": "PSYCH 186B"},
+            {"type": "course", "courseId": "PSYCH 186C"},
+            {"type": "course", "courseId": "PSYCH 186D"},
+            {"type": "course", "courseId": "PSYCH 186E"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Electives",
+          "description": "Select five upper-division elective courses (20 units) from the following list of courses or ranges. Note: One quarter of Psychology 196B may be applied if the course has not been applied toward the capstone requirement. Psychology 191CH may be applied only if content is approved by the undergraduate advising office and it has not been applied toward the Psychology 195B or 196B requirement. If Psychology 191CH is applied as an elective, it may not also be applied toward the fieldwork/research requirement.",
+          "needs": 5,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "ANTHRO 124Q"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO M124R"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 136A"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO M150"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 115"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 118"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 119"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 122"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 126"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M127"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 130"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 131"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 155"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND M103"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 102"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M145"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC C177"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 180"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 181"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 182"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 154"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS C154B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 170"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 172"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 174"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 180"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 181"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 110"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 111"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 120B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 121"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 130"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 133B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 133C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 133E"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 135"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 137A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M137B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 137G"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 137N"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 142H"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 155A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 155B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 161"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M166"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186D"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186E"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 191CH"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 196B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCTRY M182"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 100A"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 100B"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 100C"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 101B"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 101C"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 115"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS C161"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS C180"
+            },
+            {
+              "type": "group",
+              "title": "Computer Science 111 through CM186",
+              "description": "Refer to the following courses",
+              "needs": 0,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Linguistics 103 through 185B",
+              "description": "Refer to the following courses",
+              "needs": 0,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 110A through 171",
+              "description": "Refer to the following courses",
+              "needs": 0,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Philosophy 124 through 138",
+              "description": "Refer to the following courses",
+              "needs": 0,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Psychology 112A through 116B",
+              "description": "Refer to the following courses",
+              "needs": 0,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Psychology 118 through 119Y",
+              "description": "Refer to the following courses",
+              "needs": 0,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Psychology 124",
+              "description": "Refer to the following courses",
+              "needs": 0,
+              "options": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "title": "Capstone",
+      "description": "The Cognitive Science major is a designated capstone major. Students are required to produce a paper based on each term of their experience in a research laboratory or approved fieldwork site. In the junior or senior year, complete one capstone term.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Capstone Course",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PSYCH 195B"},
+            {"type": "course", "courseId": "PSYCH 196B"},
+            {"type": "course", "courseId": "PSYCH 194C"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors-program",
+      "title": "Honors Program",
+      "description": "Students work for one year (fall through spring quarters) with a Psychology Department faculty sponsor on a research project that is the basis of a formal honors thesis. During that year they also participate in a weekly seminar (Psychology 191AH, 191BH, 191CH) in which thesis projects are presented and discussed. Other requirements may apply.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Program",
+          "description": "This is an optional program.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Requirements",
+              "description": "Complete the honors research seminar series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PSYCH 191AH"},
+                {"type": "course", "courseId": "PSYCH 191BH"},
+                {"type": "course", "courseId": "PSYCH 191CH"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing-specialization",
+      "title": "Computing Specialization",
+      "description": "Majors may select a specialization in Computing by satisfying all the requirements for a bachelor\u2019s degree and completing the following course requirements. A grade of C or better is required in each course. Students graduate with a bachelor\u2019s degree in their major and a specialization in Computing.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Computing Specialization",
+          "description": "This is an optional specialization.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Specialization Requirements",
+              "description": "Complete all requirements for the specialization.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Computing",
+                  "description": "Select four courses from:",
+                  "needs": 4,
+                  "options": [
+                    {"type": "course", "courseId": "COMPTNG 10A"},
+                    {"type": "course", "courseId": "COMPTNG 10B"},
+                    {"type": "course", "courseId": "COMPTNG 10C"},
+                    {"type": "course", "courseId": "COMPTNG 15"},
+                    {"type": "course", "courseId": "COMPTNG 16A"},
+                    {"type": "course", "courseId": "COMPTNG 16B"},
+                    {"type": "course", "courseId": "COMPTNG 20A"},
+                    {"type": "course", "courseId": "COMPTNG 40A"},
+                    {"type": "course", "courseId": "PSYCH 20A"},
+                    {"type": "course", "courseId": "PSYCH 20B"},
+                    {"type": "course", "courseId": "PSYCH 30"},
+                    {"type": "course", "courseId": "STATS 20"},
+                    {"type": "course", "courseId": "STATS 21"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Psychology Elective",
+                  "description": "Select two courses from the following list. One 199 course may be substituted for one of these courses provided the project has been approved by the vice chair.",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "PSYCH 85"},
+                    {"type": "course", "courseId": "PSYCH 119D"},
+                    {"type": "course", "courseId": "PSYCH 121"},
+                    {"type": "course", "courseId": "PSYCH 142H"},
+                    {"type": "course", "courseId": "PSYCH 186A"},
+                    {"type": "course", "courseId": "PSYCH 186B"},
+                    {"type": "course", "courseId": "PSYCH 186C"},
+                    {"type": "course", "courseId": "PSYCH 186D"},
+                    {"type": "course", "courseId": "PSYCH 186E"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

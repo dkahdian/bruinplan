@@ -1,0 +1,267 @@
+{
+  "name": "European Languages and Transcultural Studies BA",
+  "overview": "The European Languages and Transcultural Studies BA provides students with advanced proficiency in a European language, a deep understanding of European culture, history, literature, and film in a global context, and proficiency in an area of the experimental humanities.",
+  "college": "College of Letters and Science",
+  "department": "European Languages and Transcultural Studies",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "transfer_entry",
+      "title": "Entry to the Major for Transfer Students",
+      "description": "Transfer applicants to the European Language and Transcultural Studies major with 90 or more units must complete the following introductory courses prior to admission to UCLA. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "First-Year Language",
+          "description": "Complete the first-year level of Danish, Dutch, Finnish, French, German, Italian, Norwegian, Swedish, or Yiddish.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "European Literature, Culture, Film, or Media",
+          "description": "Complete any one course on European literature, culture, film, or media.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete three courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Language (Beginner Level)",
+          "description": "Complete one course from the following or equivalent (completion of beginner level of Danish, Dutch, Finnish, French, German, Italian, Norwegian, Swedish, or Yiddish):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "FRNCH 3"},
+            {"type": "course", "courseId": "GERMAN 3"},
+            {"type": "course", "courseId": "ITALIAN 3"},
+            {"type": "course", "courseId": "SCAND 3"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "European Literature, Language, Culture, or Film and Media",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "FRNCH 12"},
+            {"type": "course", "courseId": "FRNCH 14"},
+            {"type": "course", "courseId": "FRNCH 14W"},
+            {"type": "course", "courseId": "FRNCH 16"},
+            {"type": "course", "courseId": "FRNCH 41"},
+            {"type": "course", "courseId": "FRNCH 60"},
+            {"type": "course", "courseId": "GERMAN 50B"},
+            {"type": "course", "courseId": "GERMAN 59"},
+            {"type": "course", "courseId": "ITALIAN 42A"},
+            {"type": "course", "courseId": "ITALIAN 42B"},
+            {"type": "course", "courseId": "ITALIAN 42C"},
+            {"type": "course", "courseId": "ITALIAN 46"},
+            {"type": "course", "courseId": "ITALIAN 50A"},
+            {"type": "course", "courseId": "ITALIAN 50B"},
+            {"type": "course", "courseId": "SCAND 40"},
+            {"type": "course", "courseId": "SCAND 40W"},
+            {"type": "course", "courseId": "SCAND 50"},
+            {"type": "course", "courseId": "SCAND 50W"},
+            {"type": "course", "courseId": "SCAND 60W"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Experimental Humanities (Digital, Environmental, Medical, Urban, and Community Engagement and Social Change)",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COM LIT 1E"},
+            {"type": "course", "courseId": "DGT HUM 30"},
+            {"type": "course", "courseId": "ENGL M30"},
+            {"type": "course", "courseId": "AN N EA 14W"},
+            {"type": "course", "courseId": "EE BIOL 17"},
+            {"type": "course", "courseId": "HIST 3D"},
+            {"type": "course", "courseId": "HNRS 1"},
+            {"type": "course", "courseId": "HNRS 26"},
+            {"type": "course", "courseId": "MCD BIO 60"},
+            {"type": "course", "courseId": "RELIGN 55"},
+            {"type": "course", "courseId": "GERMAN 61A"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete three area courses, six electives, and a capstone senior thesis as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Areas",
+          "description": "Select one course from three of the following four areas (total of three courses):",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "European Literature",
+              "description": "Select one course from this area.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "FRNCH 115"},
+                {"type": "course", "courseId": "FRNCH 116"},
+                {"type": "course", "courseId": "FRNCH 117"},
+                {"type": "course", "courseId": "FRNCH 118"},
+                {"type": "course", "courseId": "FRNCH 119"},
+                {"type": "course", "courseId": "FRNCH 120"},
+                {"type": "course", "courseId": "FRNCH 121"},
+                {"type": "course", "courseId": "FRNCH 136"},
+                {"type": "course", "courseId": "FRNCH 163"},
+                {"type": "course", "courseId": "FRNCH 164"},
+                {"type": "course", "courseId": "FRNCH 166"},
+                {"type": "course", "courseId": "GERMAN 110"},
+                {"type": "course", "courseId": "GERMAN 112"},
+                {"type": "course", "courseId": "GERMAN 158"},
+                {"type": "course", "courseId": "GERMAN 170"},
+                {"type": "course", "courseId": "GERMAN 173"},
+                {"type": "course", "courseId": "GERMAN 174"},
+                {"type": "course", "courseId": "ITALIAN 103A"},
+                {"type": "course", "courseId": "ITALIAN 103B"},
+                {"type": "course", "courseId": "ITALIAN 110"},
+                {"type": "course", "courseId": "ITALIAN 113"},
+                {"type": "course", "courseId": "ITALIAN 114B"},
+                {"type": "course", "courseId": "ITALIAN 120"},
+                {"type": "course", "courseId": "ITALIAN 140"},
+                {"type": "course", "courseId": "ITALIAN 150"},
+                {"type": "course", "courseId": "SCAND C133A"},
+                {"type": "course", "courseId": "SCAND 134"},
+                {"type": "course", "courseId": "SCAND C141A"},
+                {"type": "course", "courseId": "SCAND 141C"},
+                {"type": "course", "courseId": "SCAND 143A"},
+                {"type": "course", "courseId": "SCAND 143C"},
+                {"type": "course", "courseId": "SCAND C145A"},
+                {"type": "course", "courseId": "SCAND C145B"},
+                {"type": "course", "courseId": "SCAND C146A"},
+                {"type": "course", "courseId": "SCAND 147A"},
+                {"type": "course", "courseId": "SCAND C147B"},
+                {"type": "course", "courseId": "SCAND 147C"},
+                {"type": "course", "courseId": "SCAND 154"},
+                {"type": "course", "courseId": "SCAND C155"},
+                {"type": "course", "courseId": "SCAND 156"},
+                {"type": "course", "courseId": "SCAND 157"},
+                {"type": "course", "courseId": "SCAND 172A"},
+                {"type": "course", "courseId": "SCAND C180"},
+                {"type": "course", "courseId": "SCAND C185"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "European Culture",
+              "description": "Select one course from this area.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ELTS 112"},
+                {"type": "course", "courseId": "FRNCH 121"},
+                {"type": "course", "courseId": "FRNCH 130"},
+                {"type": "course", "courseId": "FRNCH 137"},
+                {"type": "course", "courseId": "FRNCH 138"},
+                {"type": "course", "courseId": "FRNCH 139"},
+                {"type": "course", "courseId": "FRNCH 160"},
+                {"type": "course", "courseId": "FRNCH 167"},
+                {"type": "course", "courseId": "FRNCH 169"},
+                {"type": "course", "courseId": "GERMAN 102"},
+                {"type": "course", "courseId": "GERMAN 109"},
+                {"type": "course", "courseId": "GERMAN 113"},
+                {"type": "course", "courseId": "GERMAN 114"},
+                {"type": "course", "courseId": "GERMAN 115"},
+                {"type": "course", "courseId": "GERMAN 116"},
+                {"type": "course", "courseId": "GERMAN 117"},
+                {"type": "course", "courseId": "GERMAN 118SL"},
+                {"type": "course", "courseId": "GERMAN 154"},
+                {"type": "course", "courseId": "GERMAN 155"},
+                {"type": "course", "courseId": "GERMAN 159"},
+                {"type": "course", "courseId": "GERMAN 175"},
+                {"type": "course", "courseId": "ITALIAN 102A"},
+                {"type": "course", "courseId": "ITALIAN 102B"},
+                {"type": "course", "courseId": "ITALIAN 102C"},
+                {"type": "course", "courseId": "ITALIAN 116A"},
+                {"type": "course", "courseId": "ITALIAN 116B"},
+                {"type": "course", "courseId": "ITALIAN 122"},
+                {"type": "course", "courseId": "ITALIAN 123"},
+                {"type": "course", "courseId": "ITALIAN 124"},
+                {"type": "course", "courseId": "ITALIAN 125"},
+                {"type": "course", "courseId": "ITALIAN 152"},
+                {"type": "course", "courseId": "ITALIAN M158"},
+                {"type": "course", "courseId": "SCAND C131"},
+                {"type": "course", "courseId": "SCAND 133C"},
+                {"type": "course", "courseId": "SCAND 134"},
+                {"type": "course", "courseId": "SCAND C137"},
+                {"type": "course", "courseId": "SCAND 138"},
+                {"type": "course", "courseId": "SCAND 142A"},
+                {"type": "course", "courseId": "SCAND C171"},
+                {"type": "course", "courseId": "SCAND 172A"},
+                {"type": "course", "courseId": "SCAND 173A"},
+                {"type": "course", "courseId": "SCAND C174A"},
+                {"type": "course", "courseId": "SCAND 174B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "European Film and Media",
+              "description": "Select one course from the following. Additional options include Scandinavian 161 through 167.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "FRNCH 141"},
+                {"type": "course", "courseId": "FRNCH 142"},
+                {"type": "course", "courseId": "GERMAN 103"},
+                {"type": "course", "courseId": "GERMAN 104"},
+                {"type": "course", "courseId": "GERMAN 157"},
+                {"type": "course", "courseId": "ITALIAN 121"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Experimental Humanities",
+              "description": "Select one course from the following. Additional options include Digital Humanities 101 through 151.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "CESC 100XP"},
+                {"type": "course", "courseId": "CESC 172XP"},
+                {"type": "course", "courseId": "COM LIT 180"},
+                {"type": "course", "courseId": "CLASSIC 148"},
+                {"type": "course", "courseId": "ENGL 118E"},
+                {"type": "course", "courseId": "ENGL M118F"},
+                {"type": "course", "courseId": "ELTS C101XP"},
+                {"type": "course", "courseId": "FOOD ST M176XP"},
+                {"type": "course", "courseId": "ITALIAN 124"},
+                {"type": "course", "courseId": "PUB AFF M176XP"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select six courses from: European Languages and Transcultural Studies 100-180, French 100-169, German 102-180, Italian 100-M158, or Scandinavian C131-C185.",
+          "needs": 6,
+          "options": [
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "ELTS 187"
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "The Major Policies",
+      "description": "Students may apply no more than two courses or 8 units from other departments. Approval for outside courses must be petitioned with the undergraduate adviser of the department. Students may apply no more than 4 units of European Languages and Transcultural Studies 195, 197, and 199 as a substitution for one elective course. Each major course must be taken for a letter grade, and students must have an overall grade-point average of 2.0 or better in the major.",
+      "requirements": [
+      ]
+    }
+  ]
+}

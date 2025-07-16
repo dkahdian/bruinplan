@@ -1,0 +1,269 @@
+{
+  "name": "Aerospace Engineering BS",
+  "overview": "The aerospace engineering program is concerned with the design and construction of various types of fixed-wing and rotary-wing (helicopters) aircraft used for air transportation and national defense. It is also concerned with the design and construction of spacecraft, the exploration and utilization of space, and related technological fields.\n\nAerospace engineering is characterized by a very high level of technology. The aerospace engineer is likely to operate at the forefront of scientific discoveries, often stimulating these discoveries and providing the inspiration for the creation of new scientific concepts. Meeting these demands requires the imaginative use of many disciplines, including fluid mechanics and aerodynamics, structural mechanics, materials and aeroelasticity, dynamics, control and guidance, propulsion, and energy conversion.\n\nThe aerospace engineering program is accredited by the Engineering Accreditation Commission of ABET.\n\nThe Aerospace Engineering major is a designated capstone major. Within their capstone courses, Aerospace Engineering students are exposed to the conceptual and design phases for aircraft development and produce a structural design of a component, such as a lightweight aircraft wing. Graduates should be able to apply their knowledge of mathematics, science, and engineering in technical systems; design a system, component, or process to meet desired needs; function as productive members of a team; identify, formulate, and solve engineering problems; and communicate effectively, both orally and in writing.\n\nLearning Outcomes:\n1. Application of knowledge of mathematics, science, and engineering.\n2. Function as a productive member of a team that considers multiple aspects of an engineering problem.\n3. Design of a system, component, or process to meet desired needs.\n4. Effective oral and written communication.\n5. Identification, formulation, and solution of engineering problems.",
+  "college": "Henry Samueli School of Engineering and Applied Science",
+  "department": "Mechanical and Aerospace Engineering",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete the following 14 required courses and select one programming course.",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "CHEM 20A"
+        },
+        {
+          "type": "course",
+          "courseId": "CHEM 20B"
+        },
+        {
+          "type": "course",
+          "courseId": "CHEM 20L"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "MECH&AE 82"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1B"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1C"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 4AL"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 4BL"
+        },
+        {
+          "type": "group",
+          "title": "Programming Requirement",
+          "description": "And select one programming course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COM SCI 31"},
+            {"type": "course", "courseId": "MECH&AE M20"},
+            {"type": "course", "courseId": "MECH&AE 20P"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 23 courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "MECH&AE 1"
+        },
+        {
+          "type": "course",
+          "courseId": "MECH&AE 101"
+        },
+        {
+          "type": "course",
+          "courseId": "MECH&AE 102"
+        },
+        {
+          "type": "course",
+          "courseId": "MECH&AE 103"
+        },
+        {
+          "type": "course",
+          "courseId": "MECH&AE 105A"
+        },
+        {
+          "type": "course",
+          "courseId": "MECH&AE 105D"
+        },
+        {
+          "type": "course",
+          "courseId": "MECH&AE 107"
+        },
+        {
+          "type": "course",
+          "courseId": "MECH&AE 150A"
+        },
+        {
+          "type": "course",
+          "courseId": "MECH&AE 166A"
+        },
+        {
+          "type": "course",
+          "courseId": "MECH&AE 171A"
+        },
+        {
+          "type": "group",
+          "title": "Laboratory Requirement",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MECH&AE 157"},
+            {"type": "course", "courseId": "MECH&AE 157W"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Departmental Breadth Courses",
+          "description": "Complete the following two courses (if one or both of these courses are taken as part of the technical breadth requirement, students must select a replacement upper-division course or courses from the department\u2014except for Mechanical and Aerospace Engineering 156A\u2014or, by petition, from outside the department).",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "EC ENGR 100"},
+            {"type": "course", "courseId": "MAT SCI 104"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Tracks",
+          "description": "Select one of the following tracks:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Aeronautics",
+              "description": "Complete all four courses in this track.",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "MECH&AE 150B"},
+                {"type": "course", "courseId": "MECH&AE C150P"},
+                {"type": "course", "courseId": "MECH&AE 154A"},
+                {"type": "course", "courseId": "MECH&AE 154S"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Space",
+              "description": "Complete all four courses in this track.",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "MECH&AE C150R"},
+                {"type": "course", "courseId": "MECH&AE 161A"},
+                {"type": "course", "courseId": "MECH&AE 161B"},
+                {"type": "course", "courseId": "MECH&AE 161C"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Technical Breadth",
+          "description": "Select three technical breadth courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
+          "needs": 3,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Design",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "MECH&AE 157D"},
+            {"type": "course", "courseId": "MECH&AE 157E"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Major Field Elective",
+          "description": "Select one major field elective course (4 units) from the track not chosen:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MECH&AE 150B"},
+            {"type": "course", "courseId": "MECH&AE C150P"},
+            {"type": "course", "courseId": "MECH&AE 154A"},
+            {"type": "course", "courseId": "MECH&AE 154S"},
+            {"type": "course", "courseId": "MECH&AE C150R"},
+            {"type": "course", "courseId": "MECH&AE 161A"},
+            {"type": "course", "courseId": "MECH&AE 161B"},
+            {"type": "course", "courseId": "MECH&AE 161C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Major Field Elective",
+          "description": "Select one major field elective course (4 units) from the following. Courses applied as a required course may not be applied.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MECH&AE 94"},
+            {"type": "course", "courseId": "MECH&AE 131A"},
+            {"type": "course", "courseId": "MECH&AE C131G"},
+            {"type": "course", "courseId": "MECH&AE 133A"},
+            {"type": "course", "courseId": "MECH&AE C134"},
+            {"type": "course", "courseId": "MECH&AE 135"},
+            {"type": "course", "courseId": "MECH&AE C136"},
+            {"type": "course", "courseId": "MECH&AE C137"},
+            {"type": "course", "courseId": "MECH&AE C138"},
+            {"type": "course", "courseId": "MECH&AE CM140"},
+            {"type": "course", "courseId": "MECH&AE 150B"},
+            {"type": "course", "courseId": "MECH&AE 150C"},
+            {"type": "course", "courseId": "MECH&AE C150G"},
+            {"type": "course", "courseId": "MECH&AE C150P"},
+            {"type": "course", "courseId": "MECH&AE C150R"},
+            {"type": "course", "courseId": "MECH&AE 154A"},
+            {"type": "course", "courseId": "MECH&AE 154B"},
+            {"type": "course", "courseId": "MECH&AE 154S"},
+            {"type": "course", "courseId": "MECH&AE 155"},
+            {"type": "course", "courseId": "MECH&AE C156B"},
+            {"type": "course", "courseId": "MECH&AE 161A"},
+            {"type": "course", "courseId": "MECH&AE 161B"},
+            {"type": "course", "courseId": "MECH&AE 161C"},
+            {"type": "course", "courseId": "MECH&AE 162A"},
+            {"type": "course", "courseId": "MECH&AE C162B"},
+            {"type": "course", "courseId": "MECH&AE C163A"},
+            {"type": "course", "courseId": "MECH&AE C163B"},
+            {"type": "course", "courseId": "MECH&AE C163C"},
+            {"type": "course", "courseId": "MECH&AE 166C"},
+            {"type": "course", "courseId": "MECH&AE M168"},
+            {"type": "course", "courseId": "MECH&AE 169A"},
+            {"type": "course", "courseId": "MECH&AE C171B"},
+            {"type": "course", "courseId": "MECH&AE 172"},
+            {"type": "course", "courseId": "MECH&AE 174"},
+            {"type": "course", "courseId": "MECH&AE C175A"},
+            {"type": "course", "courseId": "MECH&AE 181A"},
+            {"type": "course", "courseId": "MECH&AE 182B"},
+            {"type": "course", "courseId": "MECH&AE 182C"},
+            {"type": "course", "courseId": "MECH&AE 183A"},
+            {"type": "course", "courseId": "MECH&AE M183B"},
+            {"type": "course", "courseId": "MECH&AE C183C"},
+            {"type": "course", "courseId": "MECH&AE 185"},
+            {"type": "course", "courseId": "MECH&AE C186"},
+            {"type": "course", "courseId": "MECH&AE C187L"}
+          ]
+        }
+      ]
+    }
+  ]
+}

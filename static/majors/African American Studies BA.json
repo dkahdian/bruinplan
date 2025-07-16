@@ -1,0 +1,186 @@
+{
+  "name": "African American Studies BA",
+  "overview": "Students are encouraged to engage in a culminating activity, such as an internship, independent study, honors thesis, service learning course, Center for American Politics and Public Policy program, University of California Center Sacramento program, Education Abroad Program, or other African American studies-related project or performance course.",
+  "college": "College of Letters and Science",
+  "department": "African American Studies",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "learning_outcomes",
+      "title": "Learning Outcomes",
+      "description": "1. Critical understanding of key historical moments in the field.\n2. Critical engagement with humanistic and social-scientific approaches to the study of the African American experience.\n3. Ability to perform research and use critical writing skills.\n4. Critical understanding of the concepts of race and racism, and their relationship to other identities such as class, gender, and sexual orientation.\n5. Knowledge of key African American aesthetic, literary, musical, and other cultural traditions.\n6. Knowledge of key social-scientific theories that explain and describe the African American experience.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "entry_to_the_major",
+      "title": "Entry to the Major",
+      "description": "Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Transfer Students",
+          "description": "Transfer applicants to the African American Studies major with 90 or more units must complete the following introductory courses if possible prior to admission to UCLA: one African American studies or civilizations of Africa course or equivalent.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete two courses and one elective as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "AF AMER 1"
+        },
+        {
+          "type": "course",
+          "courseId": "AF AMER 96W"
+        },
+        {
+          "type": "group",
+          "title": "Elective",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "AF AMER 2A"},
+            {"type": "course", "courseId": "AF AMER 2B"},
+            {"type": "course", "courseId": "AF AMER 2C"},
+            {"type": "course", "courseId": "AF AMER M5"},
+            {"type": "course", "courseId": "AF AMER 6"},
+            {"type": "course", "courseId": "AF AMER M25"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 11 upper-division courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Areas of Concentration",
+          "description": "Select eight courses total, four in one area of concentration and two additional courses from each of the remaining two areas:\n\n**Cultural Production**\n* AF AMER M102 - Culture, Media, and Los Angeles\n* AF AMER M103A - African American Theater History: Slavery to Mid-1800s\n* AF AMER M103B - African American Theater History: Minstrel Stage to Rise of American Musical\n* AF AMER M103E - Modern African American Drama: Harlem Renaissance to Black Arts Movement\n* AF AMER M104A - Early African American Literature\n* AF AMER M104B - African American Literature from Harlem Renaissance to 1960s\n* AF AMER M104C - African American Literature of 1960s and 1970s\n* AF AMER M104D - Contemporary African American Literature\n* AF AMER M104E - Topics in African American Literature and Culture\n* AF AMER M107 - Cultural History of Rap\n* AF AMER 108 - Jazz and Political Imagination\n* AF AMER M109 - Jazz in Gendered Perspectives\n* AF AMER 110A - Race, Science, and Society\n* AF AMER M111 - Ellingtonia\n* AF AMER CM135A - African American Art before 1900\n* AF AMER CM135B - African American Art, 1900 to 1963\n* AF AMER M150D - Recent African American Urban History: Funk Music and Politics of Black Popular Culture\n* AF AMER M170A - Diasporic Nonfiction: Media Engagements with Memory and Displacement I\n* AF AMER M170B - Diasporic Nonfiction: Media Engagements with Memory and Displacement II\n* AF AMER M179A - Topics in African American Literature\n\n**Political Economy**\n* AF AMER 105C - Africa, African Americans, and History of Capitalism\n* AF AMER 105D - African American-Caribbean Relations: Difference, Solidarity, and Empire\n* AF AMER 106A - Africa and World\n* AF AMER 110A - Race, Science, and Society\n* AF AMER 110B - Reproducing While Black: Politics of Black Reproduction\n* AF AMER 110C - Black Health Matters: Wellness, Health, and Self-Care\n* AF AMER CM110D - Posthumans\n* AF AMER M115 - We Gone Be Alright: Developing Next Generation of Black Organizers\n* AF AMER M142 - Race, Gender, and Punishment\n* AF AMER M144 - Ethnic Politics: African American Politics\n* AF AMER M148 - Politics of Struggle: Race, Solidarity, and Resistance\n* AF AMER M154C - Black Experience in Latin America and Caribbean I\n* AF AMER M154D - Black Experience in Latin America and Caribbean II\n* AF AMER M158A - Comparative Slavery Systems\n* AF AMER M159P - Constructing Race\n* AF AMER M167 - Worker Center Movement: Next Wave Organizing for Justice for Immigrant Workers\n* AF AMER M169 - Race, Nature, and the City\n* AF AMER 175 - Racial and Ethnic Disparities in Healthcare\n* AF AMER 176 - Race, Racism, and Law\n* AF AMER M178 - Sociology of Caribbean\n* AF AMER 188B - Race and Public Policy\n* AF AMER 195 - Community or Corporate Internships in Afro-American Studies\n\n**Power and Ideology**\n* AF AMER 105A - Ideology and Black Consciousness\n* AF AMER 105B - Issues in Pan-African Biography and Autobiography\n* AF AMER 105C - Africa, African Americans, and History of Capitalism\n* AF AMER 105D - African American-Caribbean Relations: Difference, Solidarity, and Empire\n* AF AMER 106A - Africa and World\n* AF AMER 106B - Militarism, International Security, and African American Political Thought\n* AF AMER 110B - Reproducing While Black: Politics of Black Reproduction\n* AF AMER 110C - Black Health Matters: Wellness, Health, and Self-Care\n* AF AMER 112A - Sunken Place: Racism, Survival, and Black Horror Aesthetic\n* AF AMER 112B - Aboard Mothership: Introduction to Afrofuturism\n* AF AMER CM113B - Legislative Theater for Race and Gender Justice\n* AF AMER M114C - African American Political Thought\n* AF AMER M116A - African American Musical Heritage\n* AF AMER M116B - African American Musical Heritage\n* AF AMER M120 - Race, Inequality, and Public Policy\n* AF AMER M124 - Comparative Racialization and Indigeneity\n* AF AMER 140 - Radical Black Imaginaries: Politics, Identity, and Struggle\n* AF AMER M141 - African American Women's History\n* AF AMER M142 - Race, Gender, and Punishment\n* AF AMER M144 - Ethnic Politics: African American Politics\n* AF AMER M148 - Politics of Struggle: Race, Solidarity, and Resistance\n* AF AMER M154C - Black Experience in Latin America and Caribbean I\n* AF AMER M154D - Black Experience in Latin America and Caribbean II\n* AF AMER 157 - Rastafari World Making\n* AF AMER M158A - Comparative Slavery Systems\n* AF AMER M158E - African American Nationalism in First Half of 20th Century\n* AF AMER M159P - Constructing Race\n* AF AMER M172 - Afro-American Woman in U.S.\n* AF AMER M173 - Nonviolence and Social Movements\n* AF AMER 174 - Intraracial Differences in 20th-Century Black America\n* AF AMER 175 - Racial and Ethnic Disparities in Healthcare\n* AF AMER 176 - Race, Racism, and Law\n* AF AMER 177 - African Americans in Higher Education\n* AF AMER M178 - Sociology of Caribbean\n* AF AMER 188B - Race and Public Policy",
+          "needs": 8,
+          "options": [
+            {"type": "course", "courseId": "AF AMER M102"},
+            {"type": "course", "courseId": "AF AMER M103A"},
+            {"type": "course", "courseId": "AF AMER M103B"},
+            {"type": "course", "courseId": "AF AMER M103E"},
+            {"type": "course", "courseId": "AF AMER M104A"},
+            {"type": "course", "courseId": "AF AMER M104B"},
+            {"type": "course", "courseId": "AF AMER M104C"},
+            {"type": "course", "courseId": "AF AMER M104D"},
+            {"type": "course", "courseId": "AF AMER M104E"},
+            {"type": "course", "courseId": "AF AMER M107"},
+            {"type": "course", "courseId": "AF AMER 108"},
+            {"type": "course", "courseId": "AF AMER M109"},
+            {"type": "course", "courseId": "AF AMER 110A"},
+            {"type": "course", "courseId": "AF AMER M111"},
+            {"type": "course", "courseId": "AF AMER CM135A"},
+            {"type": "course", "courseId": "AF AMER CM135B"},
+            {"type": "course", "courseId": "AF AMER M150D"},
+            {"type": "course", "courseId": "AF AMER M170A"},
+            {"type": "course", "courseId": "AF AMER M170B"},
+            {"type": "course", "courseId": "AF AMER M179A"},
+            {"type": "course", "courseId": "AF AMER 105C"},
+            {"type": "course", "courseId": "AF AMER 105D"},
+            {"type": "course", "courseId": "AF AMER 106A"},
+            {"type": "course", "courseId": "AF AMER 110B"},
+            {"type": "course", "courseId": "AF AMER 110C"},
+            {"type": "course", "courseId": "AF AMER CM110D"},
+            {"type": "course", "courseId": "AF AMER M115"},
+            {"type": "course", "courseId": "AF AMER M142"},
+            {"type": "course", "courseId": "AF AMER M144"},
+            {"type": "course", "courseId": "AF AMER M148"},
+            {"type": "course", "courseId": "AF AMER M154C"},
+            {"type": "course", "courseId": "AF AMER M154D"},
+            {"type": "course", "courseId": "AF AMER M158A"},
+            {"type": "course", "courseId": "AF AMER M159P"},
+            {"type": "course", "courseId": "AF AMER M167"},
+            {"type": "course", "courseId": "AF AMER M169"},
+            {"type": "course", "courseId": "AF AMER 175"},
+            {"type": "course", "courseId": "AF AMER 176"},
+            {"type": "course", "courseId": "AF AMER M178"},
+            {"type": "course", "courseId": "AF AMER 188B"},
+            {"type": "course", "courseId": "AF AMER 195"},
+            {"type": "course", "courseId": "AF AMER 105A"},
+            {"type": "course", "courseId": "AF AMER 105B"},
+            {"type": "course", "courseId": "AF AMER 106B"},
+            {"type": "course", "courseId": "AF AMER 112A"},
+            {"type": "course", "courseId": "AF AMER 112B"},
+            {"type": "course", "courseId": "AF AMER CM113B"},
+            {"type": "course", "courseId": "AF AMER M114C"},
+            {"type": "course", "courseId": "AF AMER M116A"},
+            {"type": "course", "courseId": "AF AMER M116B"},
+            {"type": "course", "courseId": "AF AMER M120"},
+            {"type": "course", "courseId": "AF AMER M124"},
+            {"type": "course", "courseId": "AF AMER 140"},
+            {"type": "course", "courseId": "AF AMER M141"},
+            {"type": "course", "courseId": "AF AMER 157"},
+            {"type": "course", "courseId": "AF AMER M158E"},
+            {"type": "course", "courseId": "AF AMER M172"},
+            {"type": "course", "courseId": "AF AMER M173"},
+            {"type": "course", "courseId": "AF AMER 174"},
+            {"type": "course", "courseId": "AF AMER 177"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Upper-Division Electives",
+          "description": "Select two additional upper-division elective courses in African American studies (minimum 4 units) excluding African American Studies 188SA, 188SB, 188SC, 189, 189HC, and 195.",
+          "needs": 2,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Senior Capstone Seminar",
+          "description": "Take the following course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "AF AMER C191"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "For more information, contact the undergraduate adviser in the department.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Option",
+          "description": "African American Studies majors with grade-point averages of 3.5 or better are eligible for the honors option that requires the completion of a senior thesis under the guidance of an African American Studies faculty member.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Thesis Courses",
+              "description": "Students must take three-quarter African American Studies 198A, 198B, 198C (independent study courses) with an approved professor who oversees the thesis requirement.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "AF AMER 198A"},
+                {"type": "course", "courseId": "AF AMER 198B"},
+                {"type": "course", "courseId": "AF AMER 198C"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "Policies",
+      "description": "* No more than 8 graded units of African American Studies 195, 198A, 198B, 198C, and 199 may be applied toward the major.\n* Students must have an overall grade-point average of 2.0 or better.",
+      "requirements": [
+      ]
+    }
+  ]
+}

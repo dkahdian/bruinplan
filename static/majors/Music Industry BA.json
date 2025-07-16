@@ -1,0 +1,348 @@
+{
+  "name": "Music Industry BA",
+  "overview": "Music Industry is a designated capstone major. Undergraduate students must complete a senior thesis that demonstrates the skills and expertise they have acquired in earlier coursework. This requirement may be fulfilled through a written research paper, but, given the experiential nature of the Music Industry program, it may also be fulfilled by the honing of creative expression for personal or political effect (songwriting, production, etc.), by problem solving or entrepreneurial initiatives in the music industry (music tech start-up, record label, etc.), or by experiential learning in an organization outside of academia (entrepreneurial, community, or corporate project with formal reporting). Students in the capstone are expected to work together to curate their collective work and experience in a formal and public capstone event, which may include online and virtual components as well as a live performance showcase for creative work.",
+  "college": "Herb Alpert School of Music",
+  "department": "Music Industry",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete all courses in the Music Industry Core, one Ensemble course, one History and Culture course, one Race, Culture, and American Music course, and one Communication Fundamentals course.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Music Industry Core",
+          "description": "Complete Music Industry 1 three times and the following six courses:",
+          "needs": 7,
+          "options": [
+            {"type": "course", "courseId": "MSC IND 1"},
+            {"type": "course", "courseId": "MSC IND 2"},
+            {"type": "course", "courseId": "MSC IND 10A"},
+            {"type": "course", "courseId": "MSC IND 10B"},
+            {"type": "course", "courseId": "MSC IND 20A"},
+            {"type": "course", "courseId": "MSC IND 20B"},
+            {"type": "course", "courseId": "MSC IND 25"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Ensemble",
+          "description": "Complete four units in one music, ethnomusicology, or music industry ensemble selected from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS 68A"},
+            {"type": "course", "courseId": "ETHNMUS 68B"},
+            {"type": "course", "courseId": "ETHNMUS 68C"},
+            {"type": "course", "courseId": "ETHNMUS 68F"},
+            {"type": "course", "courseId": "ETHNMUS 68G"},
+            {"type": "course", "courseId": "ETHNMUS 68M"},
+            {"type": "course", "courseId": "ETHNMUS 68N"},
+            {"type": "course", "courseId": "ETHNMUS 68O"},
+            {"type": "course", "courseId": "ETHNMUS 91A"},
+            {"type": "course", "courseId": "ETHNMUS 91B"},
+            {"type": "course", "courseId": "ETHNMUS 91E"},
+            {"type": "course", "courseId": "ETHNMUS 91G"},
+            {"type": "course", "courseId": "ETHNMUS 91H"},
+            {"type": "course", "courseId": "ETHNMUS 91J"},
+            {"type": "course", "courseId": "ETHNMUS 91K"},
+            {"type": "course", "courseId": "ETHNMUS 91L"},
+            {"type": "course", "courseId": "ETHNMUS 91N"},
+            {"type": "course", "courseId": "ETHNMUS 91P"},
+            {"type": "course", "courseId": "ETHNMUS 91Z"},
+            {"type": "course", "courseId": "ETHNMUS 161A"},
+            {"type": "course", "courseId": "ETHNMUS 161B"},
+            {"type": "course", "courseId": "ETHNMUS 161E"},
+            {"type": "course", "courseId": "ETHNMUS 161G"},
+            {"type": "course", "courseId": "ETHNMUS 161H"},
+            {"type": "course", "courseId": "ETHNMUS 161J"},
+            {"type": "course", "courseId": "ETHNMUS 161K"},
+            {"type": "course", "courseId": "ETHNMUS 161L"},
+            {"type": "course", "courseId": "ETHNMUS 161M"},
+            {"type": "course", "courseId": "ETHNMUS 161N"},
+            {"type": "course", "courseId": "ETHNMUS 161P"},
+            {"type": "course", "courseId": "ETHNMUS 161Z"},
+            {"type": "course", "courseId": "ETHNMUS 168A"},
+            {"type": "course", "courseId": "ETHNMUS 168B"},
+            {"type": "course", "courseId": "ETHNMUS 168C"},
+            {"type": "course", "courseId": "ETHNMUS 168F"},
+            {"type": "course", "courseId": "ETHNMUS 168G"},
+            {"type": "course", "courseId": "ETHNMUS 168M"},
+            {"type": "course", "courseId": "ETHNMUS 168N"},
+            {"type": "course", "courseId": "ETHNMUS 168O"},
+            {"type": "course", "courseId": "GJ STDS 176A"},
+            {"type": "course", "courseId": "GJ STDS 176B"},
+            {"type": "course", "courseId": "GJ STDS 176C"},
+            {"type": "course", "courseId": "GJ STDS 176D"},
+            {"type": "course", "courseId": "GJ STDS 176E"},
+            {"type": "course", "courseId": "GJ STDS 176F"},
+            {"type": "course", "courseId": "GJ STDS 176G"},
+            {"type": "course", "courseId": "GJ STDS 176H"},
+            {"type": "course", "courseId": "MUSC M90T"},
+            {"type": "course", "courseId": "MUSC C185A"},
+            {"type": "course", "courseId": "MUSC C185B"},
+            {"type": "course", "courseId": "MUSC C185D"},
+            {"type": "course", "courseId": "MUSC C185E"},
+            {"type": "course", "courseId": "MUSC 185F"},
+            {"type": "course", "courseId": "MUSC C185G"},
+            {"type": "course", "courseId": "MUSC 185H"},
+            {"type": "course", "courseId": "MSC IND 111A"},
+            {"type": "course", "courseId": "MSC IND 111B"},
+            {"type": "course", "courseId": "MSC IND 117"},
+            {"type": "course", "courseId": "MUSCLG CM90T"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "History and Culture of Music",
+          "description": "Complete one course from the following:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS 20A"},
+            {"type": "course", "courseId": "ETHNMUS 20B"},
+            {"type": "course", "courseId": "ETHNMUS 21"},
+            {"type": "course", "courseId": "ETHNMUS 22"},
+            {"type": "course", "courseId": "ETHNMUS M25"},
+            {"type": "course", "courseId": "ETHNMUS 30"},
+            {"type": "course", "courseId": "ETHNMUS M35"},
+            {"type": "course", "courseId": "ETHNMUS 40"},
+            {"type": "course", "courseId": "ETHNMUS 45"},
+            {"type": "course", "courseId": "ETHNMUS M50A"},
+            {"type": "course", "courseId": "ETHNMUS M50B"},
+            {"type": "course", "courseId": "ETHNMUS M110A"},
+            {"type": "course", "courseId": "ETHNMUS M110B"},
+            {"type": "course", "courseId": "MSC IND 6"},
+            {"type": "course", "courseId": "MSC IND 29"},
+            {"type": "course", "courseId": "MSC IND 55"},
+            {"type": "course", "courseId": "MUSCLG 5"},
+            {"type": "course", "courseId": "MUSCLG 7"},
+            {"type": "course", "courseId": "MUSCLG 8"},
+            {"type": "course", "courseId": "MUSCLG 13"},
+            {"type": "course", "courseId": "MUSCLG 60"},
+            {"type": "course", "courseId": "MUSCLG 61"},
+            {"type": "course", "courseId": "MUSCLG 64"},
+            {"type": "course", "courseId": "MUSCLG 65"},
+            {"type": "course", "courseId": "MUSCLG 68"},
+            {"type": "course", "courseId": "MUSCLG 75"},
+            {"type": "course", "courseId": "MUSCLG 94"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Race, Culture, and American Music",
+          "description": "Complete one course from the following:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS M35"},
+            {"type": "course", "courseId": "ETHNMUS M50A"},
+            {"type": "course", "courseId": "ETHNMUS M50B"},
+            {"type": "course", "courseId": "ETHNMUS M110A"},
+            {"type": "course", "courseId": "ETHNMUS M110B"},
+            {"type": "course", "courseId": "MUSCLG 64"},
+            {"type": "course", "courseId": "MUSCLG 65"},
+            {"type": "course", "courseId": "MUSCLG 75"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Communication Fundamentals",
+          "description": "Select one course from the following or complete an equivalent:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COMM 1"},
+            {"type": "course", "courseId": "MSC IND 5"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete eight core courses, one Music Technology and Studio Production course, one Music Business and Law course, one Music Culture and History course, one Elective, an internship, and the Capstone sequence.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Music Industry Core",
+          "description": "Complete the following eight courses. Students must select one of Music Industry 113A or 113B.",
+          "needs": 8,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "MSC IND 101"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 104A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 104B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 122"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 126"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 129"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND M182"
+            },
+            {
+              "type": "group",
+              "title": "Music Supervision Requirement",
+              "description": "Select one course:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "MSC IND 113A"},
+                {"type": "course", "courseId": "MSC IND 113B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Music Technology and Studio Production",
+          "description": "Complete one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MUSC 260A"},
+            {"type": "course", "courseId": "MUSC 260B"},
+            {"type": "course", "courseId": "MSC IND 107A"},
+            {"type": "course", "courseId": "MSC IND 107B"},
+            {"type": "course", "courseId": "MSC IND 112A"},
+            {"type": "course", "courseId": "MSC IND 112B"},
+            {"type": "course", "courseId": "MSC IND 115A"},
+            {"type": "course", "courseId": "MSC IND 115B"},
+            {"type": "course", "courseId": "MSC IND 116A"},
+            {"type": "course", "courseId": "MSC IND 116B"},
+            {"type": "course", "courseId": "MSC IND 117"},
+            {"type": "course", "courseId": "MSC IND 118"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Music Business and Law",
+          "description": "Complete one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COMM M117"},
+            {"type": "course", "courseId": "MSC IND 104C"},
+            {"type": "course", "courseId": "MSC IND 110"},
+            {"type": "course", "courseId": "MSC IND 113B"},
+            {"type": "course", "courseId": "MSC IND 114"},
+            {"type": "course", "courseId": "MSC IND 114B"},
+            {"type": "course", "courseId": "MSC IND 124A"},
+            {"type": "course", "courseId": "MSC IND 124B"},
+            {"type": "course", "courseId": "MSC IND 155"},
+            {"type": "course", "courseId": "MSC IND M181"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Music Culture and History",
+          "description": "Complete one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ETHNMUS M116"},
+            {"type": "course", "courseId": "ETHNMUS M119"},
+            {"type": "course", "courseId": "ETHNMUS C121"},
+            {"type": "course", "courseId": "ETHNMUS 122"},
+            {"type": "course", "courseId": "ETHNMUS 148"},
+            {"type": "course", "courseId": "ETHNMUS 174"},
+            {"type": "course", "courseId": "ETHNMUS 175"},
+            {"type": "course", "courseId": "ETHNMUS 177"},
+            {"type": "course", "courseId": "ETHNMUS 181"},
+            {"type": "course", "courseId": "MSC IND 108"},
+            {"type": "course", "courseId": "MSC IND 131"},
+            {"type": "course", "courseId": "MSC IND 132"},
+            {"type": "course", "courseId": "MSC IND 134"},
+            {"type": "course", "courseId": "MSC IND 185"},
+            {"type": "course", "courseId": "MSC IND 144"},
+            {"type": "course", "courseId": "MUSCLG 128"},
+            {"type": "course", "courseId": "MUSCLG M136"},
+            {"type": "course", "courseId": "MUSCLG M137"},
+            {"type": "course", "courseId": "MUSCLG 140"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Elective",
+          "description": "Complete one additional course from the Music Technology and Studio Production, Music Business and Law, or Music Culture and History lists, or Music Industry 188.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MUSC 260A"},
+            {"type": "course", "courseId": "MUSC 260B"},
+            {"type": "course", "courseId": "MSC IND 107A"},
+            {"type": "course", "courseId": "MSC IND 107B"},
+            {"type": "course", "courseId": "MSC IND 112A"},
+            {"type": "course", "courseId": "MSC IND 112B"},
+            {"type": "course", "courseId": "MSC IND 115A"},
+            {"type": "course", "courseId": "MSC IND 115B"},
+            {"type": "course", "courseId": "MSC IND 116A"},
+            {"type": "course", "courseId": "MSC IND 116B"},
+            {"type": "course", "courseId": "MSC IND 117"},
+            {"type": "course", "courseId": "MSC IND 118"},
+            {"type": "course", "courseId": "COMM M117"},
+            {"type": "course", "courseId": "MSC IND 104C"},
+            {"type": "course", "courseId": "MSC IND 110"},
+            {"type": "course", "courseId": "MSC IND 113B"},
+            {"type": "course", "courseId": "MSC IND 114"},
+            {"type": "course", "courseId": "MSC IND 114B"},
+            {"type": "course", "courseId": "MSC IND 124A"},
+            {"type": "course", "courseId": "MSC IND 124B"},
+            {"type": "course", "courseId": "MSC IND 155"},
+            {"type": "course", "courseId": "MSC IND M181"},
+            {"type": "course", "courseId": "ETHNMUS M116"},
+            {"type": "course", "courseId": "ETHNMUS M119"},
+            {"type": "course", "courseId": "ETHNMUS C121"},
+            {"type": "course", "courseId": "ETHNMUS 122"},
+            {"type": "course", "courseId": "ETHNMUS 148"},
+            {"type": "course", "courseId": "ETHNMUS 174"},
+            {"type": "course", "courseId": "ETHNMUS 175"},
+            {"type": "course", "courseId": "ETHNMUS 177"},
+            {"type": "course", "courseId": "ETHNMUS 181"},
+            {"type": "course", "courseId": "MSC IND 108"},
+            {"type": "course", "courseId": "MSC IND 131"},
+            {"type": "course", "courseId": "MSC IND 132"},
+            {"type": "course", "courseId": "MSC IND 134"},
+            {"type": "course", "courseId": "MSC IND 185"},
+            {"type": "course", "courseId": "MSC IND 144"},
+            {"type": "course", "courseId": "MUSCLG 128"},
+            {"type": "course", "courseId": "MUSCLG M136"},
+            {"type": "course", "courseId": "MUSCLG M137"},
+            {"type": "course", "courseId": "MUSCLG 140"},
+            {"type": "course", "courseId": "MSC IND 188"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Internship/Practicum Experience",
+          "description": "Complete the following course (four units):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MSC IND 195CE"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Experience",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "MSC IND 187A"},
+            {"type": "course", "courseId": "MSC IND 187B"},
+            {"type": "course", "courseId": "MSC IND 187C"}
+          ]
+        }
+      ]
+    }
+  ]
+}

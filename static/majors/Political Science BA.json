@@ -1,0 +1,72 @@
+{
+  "name": "Political Science BA",
+  "overview": "The undergraduate major in the Department of Political Science aims to provide students with an understanding of basic political processes and institutions as they operate in different national and cultural contexts. It also covers the interaction between nation-states, the changing character of the relations between citizens and governments, and the values and criteria by which the quality of political life is judged. The program may be individually focused to serve the needs of the liberal arts major, the student seeking preparation for graduate work in political science, public administration, law, and other professional fields, and the student preparing for specialized roles in political and public organizations.",
+  "college": "College of Letters and Science",
+  "department": "Political Science",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete five courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Political Science",
+          "description": "Select four courses from the following:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "POL SCI 10"},
+            {"type": "course", "courseId": "POL SCI 20"},
+            {"type": "course", "courseId": "POL SCI 30"},
+            {"type": "course", "courseId": "POL SCI 40"},
+            {"type": "course", "courseId": "POL SCI 50"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Statistics",
+          "description": "Complete one of the following courses (Statistics 10 or 12 may be substituted for POL SCI 6):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "POL SCI 6"},
+            {"type": "course", "courseId": "STATS 10"},
+            {"type": "course", "courseId": "STATS 12"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 10 upper-division courses (minimum 40 units) selected from Political Science M105 through 199. Each course must be a minimum of 4 units and taken for a letter grade.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Upper-Division Courses",
+          "description": "Select 10 courses from Political Science M105 through 199.",
+          "needs": 10,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program (Graduation)",
+      "description": "To qualify for departmental honors at graduation, students must complete a senior thesis. Highest honors are awarded at the discretion of the honors program director and are based on both cumulative grade-point average in the major and the quality of the honors thesis to students who graduate with a final GPA in the major of at least 3.85, and who complete the senior honors thesis with a letter grade of A+.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Thesis",
+          "description": "Complete the senior thesis requirement. This is an optional program for eligible students.",
+          "needs": 0,
+          "options": [
+            {"type": "course", "courseId": "POL SCI 191H"}
+          ]
+        }
+      ]
+    }
+  ]
+}

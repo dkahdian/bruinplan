@@ -1,0 +1,181 @@
+{
+  "name": "Anthropology BA",
+  "overview": "The major is designed for students interested in an anthropological understanding of human behavior. One of the strengths of anthropology is its cross-cultural, holistic, and integrative approach with many fields, such as biology, history, linguistics, the social sciences, and many of the humanities.",
+  "college": "College of Letters and Science",
+  "department": "Anthropology",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "learning-outcomes",
+      "title": "Learning Outcomes",
+      "description": "Upon completing the BA in Anthropology, students will have: 1. Broad knowledge of archaeological, biological, sociocultural, and linguistic anthropology. 2. Familiarity with the history, methods, and current theoretical debates in the field. 3. General knowledge of, and developed skills working with, empirical and anthropological evidence. 4. Proficiency in library research, data interpretation, synthesis, and writing. 5. Proficiency in formulating and answering relevant questions through critical reasoning, making use of current primary scientific literature, identification of appropriate sources, reading and understanding of papers, and discriminating research quality.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "entry-to-the-major",
+      "title": "Entry to the Major",
+      "description": "Transfer applicants to the Anthropology BA major with 90 or more units must complete as many of the following introductory courses as possible prior to admission to UCLA: one human evolution course, one archaeology course, one sociocultural anthropology course, and one culture and communication course. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+      "requirements": [
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete the following four courses:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "ANTHRO 1"
+        },
+        {
+          "type": "course",
+          "courseId": "ANTHRO 2"
+        },
+        {
+          "type": "course",
+          "courseId": "ANTHRO 3"
+        },
+        {
+          "type": "course",
+          "courseId": "ANTHRO 4"
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Students must complete 11 courses (44 to 52 units) as follows. To gain a comprehensive understanding of the discipline as a whole, students must take two courses in the sociocultural anthropology field and one course in each of the other three fields. Students may take any upper-division course in the given area to fulfill this requirement.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Fields",
+          "description": "Select two courses in the sociocultural anthropology field and one in each of the other three fields.",
+          "needs": 4,
+          "options": [
+            {
+              "type": "group",
+              "title": "Sociocultural Anthropology",
+              "description": "Select two courses: Anthropology 130 through 149",
+              "needs": 2,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Archaeology",
+              "description": "Select one course: Anthropology 110 through 119",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Biological Anthropology",
+              "description": "Select one course: Anthropology 120 through 129",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Linguistic Anthropology",
+              "description": "Select one course: Anthropology 150 through 159",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Regional Cultures",
+          "description": "Select one course from the following range (or see the department for additional course options): Anthropology 160 through 169",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "History/Theory",
+          "description": "Select one course from the following range (or see the department for additional course options):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ANTHRO 100"},
+            {"type": "course", "courseId": "ANTHRO 110"},
+            {"type": "course", "courseId": "ANTHRO 111"},
+            {"type": "course", "courseId": "ANTHRO 120"},
+            {"type": "course", "courseId": "ANTHRO 124Q"},
+            {"type": "course", "courseId": "ANTHRO 130"},
+            {"type": "course", "courseId": "ANTHRO 131"},
+            {"type": "course", "courseId": "ANTHRO 136A"},
+            {"type": "course", "courseId": "ANTHRO 140"},
+            {"type": "course", "courseId": "ANTHRO M150"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Methodology",
+          "description": "Select one course from the following range (or see the department for additional course options):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ANTHRO 110"},
+            {"type": "course", "courseId": "ANTHRO C117"},
+            {"type": "course", "courseId": "ANTHRO CM110Q"},
+            {"type": "course", "courseId": "ANTHRO 126P"},
+            {"type": "course", "courseId": "ANTHRO 135"},
+            {"type": "course", "courseId": "ANTHRO 138P"},
+            {"type": "course", "courseId": "ANTHRO M138Q"},
+            {"type": "course", "courseId": "ANTHRO 151"},
+            {"type": "course", "courseId": "ANTHRO 195CE"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Anthropology Electives",
+          "description": "Select three additional upper-division anthropology courses.",
+          "needs": 3,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors-program",
+      "title": "Honors Program",
+      "description": "To be admitted, students should have a cumulative grade-point average of 3.0 overall and a 3.5 cumulative GPA in their upper-division Anthropology courses. The application for admission must be submitted during the fall quarter. Ideal candidates should have junior or senior standing and have completed at least two upper-division anthropology courses. Students should contact the departmental honors adviser early in their studies for more information.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Seminars",
+          "description": "Students are strongly encouraged to enroll in 3 to 4 units of 89 and/or 189 courses to gain small seminar experience. Ideally, at least one of the units should be at the upper-division level.",
+          "needs": 0,
+          "options": [
+            {"type": "course", "courseId": "ANTHRO 89"},
+            {"type": "course", "courseId": "ANTHRO 189"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Honors Thesis Program",
+          "description": "The honors program offers research-oriented students an opportunity to engage in original research and analysis under the close supervision of faculty members, culminating in an honors thesis. The proposal, research, analysis, and writing of the paper take place over four terms via Anthropology 191HA through 191HD.",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "ANTHRO 191HA"},
+            {"type": "course", "courseId": "ANTHRO 191HB"},
+            {"type": "course", "courseId": "ANTHRO 191HC"},
+            {"type": "course", "courseId": "ANTHRO 191HD"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "Policies",
+      "description": "Each course for the Preparation for the Major and The Major sections must be taken for a letter grade, and students must have an overall grade-point average of 2.0 or better in these courses.",
+      "requirements": [
+      ]
+    }
+  ]
+}

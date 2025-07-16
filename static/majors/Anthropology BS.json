@@ -1,0 +1,243 @@
+{
+  "name": "Anthropology BS",
+  "overview": "The major gives an overview of human evolution and is designed to prepare students for careers in anthropology and the health sciences, including medicine, dentistry, public health, and nursing.",
+  "college": "College of Letters and Science",
+  "department": "Anthropology",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete four Anthropology courses, one Chemistry series, four Life Science courses, one Mathematics series, and three Physics courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Anthropology",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "ANTHRO 1"},
+            {"type": "course", "courseId": "ANTHRO 2"},
+            {"type": "course", "courseId": "ANTHRO 3"},
+            {"type": "course", "courseId": "ANTHRO 4"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Chemistry and Biochemistry",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry 14 series",
+              "description": "Complete the following four courses:",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Chemistry 20 and 30 series",
+              "description": "Complete the following five courses:",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Life Sciences",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Life Sciences 30 series",
+              "description": "Take three courses as follows:",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30B"
+                },
+                {
+                  "type": "group",
+                  "title": "Statistics",
+                  "description": "And one of the following:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 3 series",
+              "description": "Take four courses as follows:",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"},
+                {"type": "course", "courseId": "STATS 12"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 31 series",
+              "description": "Take three courses as follows:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "STATS 12"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 5A"},
+            {"type": "course", "courseId": "PHYSICS 5B"},
+            {"type": "course", "courseId": "PHYSICS 5C"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "major",
+      "title": "The Major",
+      "description": "Complete nine upper-division courses as follows: Students are strongly encouraged to enroll in 3 to 4 units of 89 and/or 189 courses to gain small seminar experience.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Fields",
+          "description": "Select two courses in the sociocultural anthropology field and one in each of the other three fields:",
+          "needs": 4,
+          "options": [
+            {
+              "type": "group",
+              "title": "Sociocultural Anthropology",
+              "description": "Select two courses from:",
+              "needs": 2,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Archaeology",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Biological Anthropology",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Linguistic Anthropology",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Regional Cultures",
+          "description": "Select one course from the following range (or see the department for additional course options):",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "History/Theory",
+          "description": "Select one course from the following range (or see the department for additional course options):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ANTHRO 100"},
+            {"type": "course", "courseId": "ANTHRO 110"},
+            {"type": "course", "courseId": "ANTHRO 111"},
+            {"type": "course", "courseId": "ANTHRO 120"},
+            {"type": "course", "courseId": "ANTHRO 124Q"},
+            {"type": "course", "courseId": "ANTHRO 130"},
+            {"type": "course", "courseId": "ANTHRO 131"},
+            {"type": "course", "courseId": "ANTHRO 136A"},
+            {"type": "course", "courseId": "ANTHRO 140"},
+            {"type": "course", "courseId": "ANTHRO M150"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Anthropology Electives",
+          "description": "Select two additional upper-division anthropology courses.",
+          "needs": 2,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Honors Program",
+          "description": "The honors program offers research-oriented students an opportunity to engage in original research and analysis under the close supervision of faculty members and culminates in an honors thesis. The proposal, research, analysis, and writing of the paper take place over four terms via Anthropology 191HA through 191HD. Course 191HA is taken in winter quarter and 191HB in spring quarter. Research should be done in summer, and courses 191HC and 191HD are taken in fall and winter quarters of the graduation year.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Program Requirements",
+              "description": "Complete all courses in this track.",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "ANTHRO 191HA"},
+                {"type": "course", "courseId": "ANTHRO 191HB"},
+                {"type": "course", "courseId": "ANTHRO 191HC"},
+                {"type": "course", "courseId": "ANTHRO 191HD"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

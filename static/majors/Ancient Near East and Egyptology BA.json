@@ -1,0 +1,243 @@
+{
+  "name": "Ancient Near East and Egyptology BA",
+  "overview": "Upon completion of the major, students will have demonstrated mastery of the ancient Near East and its history; demonstrated skills and expertise, including research, analysis, and writing; and the ability to identify, evaluate, and analyze historical monuments, time periods, vocabulary, concepts, and historical figures.",
+  "college": "College of Letters and Science",
+  "department": "Near Eastern Languages and Cultures",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "entry",
+      "title": "Entry to the Major",
+      "description": "Transfer applicants to the Ancient Near East and Egyptology major with 90 or more units must complete the following introductory courses prior to admission to UCLA: one civilization course on Mesopotamia, Egypt, Near Eastern archaeology, or Middle Eastern cultures.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Transfer Introductory Course Requirement",
+          "description": "Complete one civilization course on Mesopotamia, Egypt, Near Eastern archaeology, or Middle Eastern cultures.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Select three courses from the following list.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Preparation Courses",
+          "description": "Select three courses from:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "AN N EA 10W"},
+            {"type": "course", "courseId": "AN N EA 12W"},
+            {"type": "course", "courseId": "AN N EA 14"},
+            {"type": "course", "courseId": "AN N EA 14W"},
+            {"type": "course", "courseId": "AN N EA 15"},
+            {"type": "course", "courseId": "AN N EA 15W"},
+            {"type": "course", "courseId": "AN N EA M60"},
+            {"type": "course", "courseId": "AN N EA M60W"},
+            {"type": "course", "courseId": "AN N EA M70"},
+            {"type": "course", "courseId": "M E STD M50A"},
+            {"type": "course", "courseId": "M E STD M50B"},
+            {"type": "course", "courseId": "NR EAST M20"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 10 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Core Courses",
+          "description": "Select one course from four of the following five areas (for a total of four courses).",
+          "needs": 4,
+          "options": [
+            {
+              "type": "group",
+              "title": "1. Archaeology and Art",
+              "description": "Select one course from this area.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "AN N EA CM101A"},
+                {"type": "course", "courseId": "AN N EA CM101B"},
+                {"type": "course", "courseId": "AN N EA M101C"},
+                {"type": "course", "courseId": "AN N EA M105"},
+                {"type": "course", "courseId": "AN N EA 160"},
+                {"type": "course", "courseId": "AN N EA 161"},
+                {"type": "course", "courseId": "AN N EA 162"},
+                {"type": "course", "courseId": "AN N EA CM163"},
+                {"type": "course", "courseId": "AN N EA M164"},
+                {"type": "course", "courseId": "AN N EA C165"},
+                {"type": "course", "courseId": "AN N EA M166"},
+                {"type": "course", "courseId": "AN N EA CM169"},
+                {"type": "course", "courseId": "ISLM ST M111"},
+                {"type": "course", "courseId": "ISLM ST M112"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "2. History",
+              "description": "Select one course from this area.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "AN N EA M103A"},
+                {"type": "course", "courseId": "AN N EA M103B"},
+                {"type": "course", "courseId": "AN N EA M104A"},
+                {"type": "course", "courseId": "AN N EA M104B"},
+                {"type": "course", "courseId": "AN N EA M104C"},
+                {"type": "course", "courseId": "AN N EA M104D"},
+                {"type": "course", "courseId": "AN N EA C106A"},
+                {"type": "course", "courseId": "AN N EA M110A"},
+                {"type": "course", "courseId": "AN N EA M110B"},
+                {"type": "course", "courseId": "AN N EA M110C"},
+                {"type": "course", "courseId": "JEWISH M182A"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "3. Languages",
+              "description": "Select one course from this area.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "AN N EA 120A"},
+                {"type": "course", "courseId": "AN N EA 120B"},
+                {"type": "course", "courseId": "AN N EA 120C"},
+                {"type": "course", "courseId": "AN N EA 140A"},
+                {"type": "course", "courseId": "AN N EA 140B"},
+                {"type": "course", "courseId": "AN N EA 140C"},
+                {"type": "course", "courseId": "AN N EA M168A"},
+                {"type": "course", "courseId": "HEBREW 110A"},
+                {"type": "course", "courseId": "HEBREW 110B"},
+                {"type": "course", "courseId": "HEBREW 110C"},
+                {"type": "course", "courseId": "SEMITIC M140A"},
+                {"type": "course", "courseId": "SEMITIC 140B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "4. Literature",
+              "description": "Select one course from this area.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "AN N EA M150A"},
+                {"type": "course", "courseId": "AN N EA 150B"},
+                {"type": "course", "courseId": "JEWISH M150A"},
+                {"type": "course", "courseId": "JEWISH 170"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "5. Religion",
+              "description": "Select one course from this area.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "AN N EA M130"},
+                {"type": "course", "courseId": "AN N EA M135"},
+                {"type": "course", "courseId": "AN N EA M167"},
+                {"type": "course", "courseId": "AN N EA M170"},
+                {"type": "course", "courseId": "AN N EA M185D"},
+                {"type": "course", "courseId": "IRANIAN 170"},
+                {"type": "course", "courseId": "JEWISH M155"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Required Elective Courses",
+          "description": "Select any six courses (no more than three may be from Anthropology) from the preceding areas or from the following list:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "AN N EA CM101A"},
+            {"type": "course", "courseId": "AN N EA CM101B"},
+            {"type": "course", "courseId": "AN N EA M101C"},
+            {"type": "course", "courseId": "AN N EA M105"},
+            {"type": "course", "courseId": "AN N EA 160"},
+            {"type": "course", "courseId": "AN N EA 161"},
+            {"type": "course", "courseId": "AN N EA 162"},
+            {"type": "course", "courseId": "AN N EA CM163"},
+            {"type": "course", "courseId": "AN N EA M164"},
+            {"type": "course", "courseId": "AN N EA C165"},
+            {"type": "course", "courseId": "AN N EA M166"},
+            {"type": "course", "courseId": "AN N EA CM169"},
+            {"type": "course", "courseId": "ISLM ST M111"},
+            {"type": "course", "courseId": "ISLM ST M112"},
+            {"type": "course", "courseId": "AN N EA M103A"},
+            {"type": "course", "courseId": "AN N EA M103B"},
+            {"type": "course", "courseId": "AN N EA M104A"},
+            {"type": "course", "courseId": "AN N EA M104B"},
+            {"type": "course", "courseId": "AN N EA M104C"},
+            {"type": "course", "courseId": "AN N EA M104D"},
+            {"type": "course", "courseId": "AN N EA C106A"},
+            {"type": "course", "courseId": "AN N EA M110A"},
+            {"type": "course", "courseId": "AN N EA M110B"},
+            {"type": "course", "courseId": "AN N EA M110C"},
+            {"type": "course", "courseId": "JEWISH M182A"},
+            {"type": "course", "courseId": "AN N EA 120A"},
+            {"type": "course", "courseId": "AN N EA 120B"},
+            {"type": "course", "courseId": "AN N EA 120C"},
+            {"type": "course", "courseId": "AN N EA 140A"},
+            {"type": "course", "courseId": "AN N EA 140B"},
+            {"type": "course", "courseId": "AN N EA 140C"},
+            {"type": "course", "courseId": "AN N EA M168A"},
+            {"type": "course", "courseId": "HEBREW 110A"},
+            {"type": "course", "courseId": "HEBREW 110B"},
+            {"type": "course", "courseId": "HEBREW 110C"},
+            {"type": "course", "courseId": "SEMITIC M140A"},
+            {"type": "course", "courseId": "SEMITIC 140B"},
+            {"type": "course", "courseId": "AN N EA M150A"},
+            {"type": "course", "courseId": "AN N EA 150B"},
+            {"type": "course", "courseId": "JEWISH M150A"},
+            {"type": "course", "courseId": "JEWISH 170"},
+            {"type": "course", "courseId": "AN N EA M130"},
+            {"type": "course", "courseId": "AN N EA M135"},
+            {"type": "course", "courseId": "AN N EA M167"},
+            {"type": "course", "courseId": "AN N EA M170"},
+            {"type": "course", "courseId": "AN N EA M185D"},
+            {"type": "course", "courseId": "IRANIAN 170"},
+            {"type": "course", "courseId": "JEWISH M155"},
+            {"type": "course", "courseId": "AN N EA 121A"},
+            {"type": "course", "courseId": "AN N EA 121B"},
+            {"type": "course", "courseId": "AN N EA 121C"},
+            {"type": "course", "courseId": "AN N EA C123A"},
+            {"type": "course", "courseId": "AN N EA C123B"},
+            {"type": "course", "courseId": "AN N EA 124"},
+            {"type": "course", "courseId": "AN N EA 125A"},
+            {"type": "course", "courseId": "AN N EA M125B"},
+            {"type": "course", "courseId": "AN N EA M125C"},
+            {"type": "course", "courseId": "AN N EA 175"},
+            {"type": "course", "courseId": "AN N EA C177"},
+            {"type": "course", "courseId": "AN N EA M179"},
+            {"type": "course", "courseId": "ANTHRO 110"},
+            {"type": "course", "courseId": "ANTHRO CM110Q"},
+            {"type": "course", "courseId": "ANTHRO 111"},
+            {"type": "course", "courseId": "ANTHRO 112R"},
+            {"type": "course", "courseId": "ANTHRO 130"},
+            {"type": "course", "courseId": "ANTHRO M150"},
+            {"type": "course", "courseId": "ENGL 111A"},
+            {"type": "course", "courseId": "ENGL 111B"},
+            {"type": "course", "courseId": "ENGL 111C"},
+            {"type": "course", "courseId": "GREEK 130"},
+            {"type": "course", "courseId": "HEBREW 125"},
+            {"type": "course", "courseId": "HEBREW 130"},
+            {"type": "course", "courseId": "HEBREW 135"},
+            {"type": "course", "courseId": "HEBREW 188FL"},
+            {"type": "course", "courseId": "RELIGN M186A"},
+            {"type": "course", "courseId": "RELIGN M186B"},
+            {"type": "course", "courseId": "RELIGN M186C"},
+            {"type": "course", "courseId": "SEMITIC 130"},
+            {"type": "course", "courseId": "SEMITIC 141"},
+            {"type": "course", "courseId": "SEMITIC 142"}
+          ]
+        }
+      ]
+    }
+  ]
+}

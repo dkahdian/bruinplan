@@ -1,0 +1,1948 @@
+[
+  {
+    "name": "Aerospace Engineering BS",
+    "department": "Mechanical and Aerospace Engineering",
+    "Dependencies": [
+      "CHEM",
+      "MATH",
+      "MECH&AE",
+      "PHYSICS",
+      "COM SCI",
+      "EC ENGR",
+      "MAT SCI"
+    ]
+  },
+  {
+    "name": "African American Studies BA",
+    "department": "African American Studies",
+    "Dependencies": [
+      "AF AMER"
+    ]
+  },
+  {
+    "name": "African and Middle Eastern Studies BA",
+    "department": "International and Area Studies",
+    "Dependencies": [
+      "I A STD",
+      "ART HIS",
+      "HIST",
+      "M E STD",
+      "PORTGSE",
+      "ECON",
+      "GEOG",
+      "POL SCI",
+      "SOCIOL",
+      "ANTHRO",
+      "COM LIT",
+      "ETHNMUS",
+      "WL ARTS",
+      "ARABIC",
+      "ARMENIA",
+      "FRNCH",
+      "HEBREW",
+      "IRANIAN",
+      "ISLM ST",
+      "JEWISH",
+      "TURKIC",
+      "AN N EA",
+      "HNRS",
+      "ENVIRON",
+      "INTL DV",
+      "MGMT",
+      "URBN PL",
+      "COMM",
+      "FILM TV"
+    ]
+  },
+  {
+    "name": "American Indian Studies BA",
+    "department": "American Indian Studies",
+    "Dependencies": [
+      "AM IND",
+      "ANTHRO",
+      "GENDER",
+      "POL SCI",
+      "STATS",
+      "LING",
+      "HIST",
+      "ART HIS",
+      "ENGL",
+      "ETHNMUS",
+      "THEATER",
+      "COM LIT",
+      "SOCIOL",
+      "WL ARTS",
+      "AF AMER",
+      "ASIA AM",
+      "FILM TV",
+      "GEOG"
+    ]
+  },
+  {
+    "name": "American Literature and Culture BA",
+    "department": "English",
+    "Dependencies": [
+      "ENGCOMP",
+      "ENGL"
+    ]
+  },
+  {
+    "name": "Ancient Near East and Egyptology BA",
+    "department": "Near Eastern Languages and Cultures",
+    "Dependencies": [
+      "AN N EA",
+      "M E STD",
+      "NR EAST",
+      "ISLM ST",
+      "JEWISH",
+      "HEBREW",
+      "SEMITIC",
+      "IRANIAN",
+      "ANTHRO",
+      "ENGL",
+      "GREEK",
+      "RELIGN"
+    ]
+  },
+  {
+    "name": "Anthropology BA",
+    "department": "Anthropology",
+    "Dependencies": [
+      "ANTHRO"
+    ]
+  },
+  {
+    "name": "Anthropology BS",
+    "department": "Anthropology",
+    "Dependencies": [
+      "ANTHRO",
+      "CHEM",
+      "LIFESCI",
+      "STATS",
+      "MATH",
+      "PHYSICS"
+    ]
+  },
+  {
+    "name": "Applied Linguistics BA",
+    "department": "Linguistics",
+    "Dependencies": [
+      "LING",
+      "ANTHRO",
+      "PSYCH",
+      "ARABIC",
+      "ARMENIA",
+      "CCAS",
+      "COMM",
+      "FRNCH",
+      "GERMAN",
+      "HEBREW",
+      "IRANIAN",
+      "PORTGSE",
+      "SLAVC",
+      "SPAN",
+      "COMPTNG",
+      "COM SCI",
+      "MATH"
+    ]
+  },
+  {
+    "name": "Applied Mathematics BS",
+    "department": "Mathematics",
+    "Dependencies": [
+      "MATH",
+      "PHYSICS",
+      "COMPTNG",
+      "CHEM",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Arabic BA",
+    "department": "Near Eastern Languages and Cultures",
+    "Dependencies": [
+      "ARABIC",
+      "HIST",
+      "ISLM ST",
+      "M E STD",
+      "NR EAST",
+      "ANTHRO",
+      "ART HIS",
+      "COM LIT",
+      "POL SCI"
+    ]
+  },
+  {
+    "name": "Architectural Studies BA",
+    "department": "Architecture and Urban Design",
+    "Dependencies": [
+      "ARCH&UD"
+    ]
+  },
+  {
+    "name": "Art BA",
+    "department": "Art",
+    "Dependencies": [
+      "ART"
+    ]
+  },
+  {
+    "name": "Art History BA",
+    "department": "Art History",
+    "Dependencies": [
+      "ART HIS"
+    ]
+  },
+  {
+    "name": "Asian American Studies BA",
+    "department": "Asian American Studies",
+    "Dependencies": [
+      "ASIA AM"
+    ]
+  },
+  {
+    "name": "Asian Humanities BA",
+    "department": "Asian Languages and Cultures",
+    "Dependencies": [
+      "CHIN",
+      "FILIPNO",
+      "HIN-URD",
+      "INDO",
+      "JAPAN",
+      "KOREA",
+      "THAI",
+      "VIETMSE",
+      "ASIAN",
+      "S ASIAN",
+      "SEASIAN"
+    ]
+  },
+  {
+    "name": "Asian Languages and Linguistics BA",
+    "department": "Asian Languages and Cultures",
+    "Dependencies": [
+      "CHIN",
+      "FILIPNO",
+      "HIN-URD",
+      "INDO",
+      "JAPAN",
+      "KOREA",
+      "THAI",
+      "VIETMSE",
+      "ASIAN",
+      "SEASIAN",
+      "S ASIAN",
+      "LING"
+    ]
+  },
+  {
+    "name": "Asian Religions BA",
+    "department": "Asian Languages and Cultures",
+    "Dependencies": [
+      "CHIN",
+      "FILIPNO",
+      "HIN-URD",
+      "INDO",
+      "JAPAN",
+      "KOREA",
+      "THAI",
+      "VIETMSE",
+      "ASIAN",
+      "S ASIAN",
+      "SEASIAN"
+    ]
+  },
+  {
+    "name": "Asian Studies BA",
+    "department": "International and Area Studies",
+    "Dependencies": [
+      "I A STD",
+      "ART HIS",
+      "ASIAN",
+      "CHIN",
+      "CLUSTER",
+      "HIST",
+      "JAPAN",
+      "KOREA",
+      "ECON",
+      "GEOG",
+      "POL SCI",
+      "SOCIOL",
+      "ANTHRO",
+      "COM LIT",
+      "ETHNMUS",
+      "WL ARTS",
+      "FILIPNO",
+      "S ASIAN",
+      "SEASIAN",
+      "THEATER",
+      "VIETMSE",
+      "ASIA AM",
+      "GENDER",
+      "ENVIRON",
+      "INTL DV",
+      "MGMT",
+      "URBN PL",
+      "COMM",
+      "FILM TV",
+      "HNRS"
+    ]
+  },
+  {
+    "name": "Astrophysics BS",
+    "department": "Physics and Astronomy",
+    "Dependencies": [
+      "ASTR",
+      "PHYSICS",
+      "MATH",
+      "COM SCI",
+      "COMPTNG",
+      "CHEM",
+      "EPS SCI"
+    ]
+  },
+  {
+    "name": "Atmospheric and Oceanic Sciences BS",
+    "department": "Atmospheric and Oceanic Sciences",
+    "Dependencies": [
+      "A&O SCI",
+      "COM SCI",
+      "COMPTNG",
+      "CHEM",
+      "LIFESCI",
+      "MATH",
+      "PHYSICS"
+    ]
+  },
+  {
+    "name": "Atmospheric and Oceanic Sciences Mathematics BS",
+    "department": "Atmospheric and Oceanic Sciences",
+    "Dependencies": [
+      "A&O SCI",
+      "COM SCI",
+      "COMPTNG",
+      "MATH",
+      "PHYSICS",
+      "CHEM"
+    ]
+  },
+  {
+    "name": "Biochemistry BS",
+    "department": "Chemistry and Biochemistry",
+    "Dependencies": [
+      "CHEM",
+      "LIFESCI",
+      "MATH",
+      "PHYSICS",
+      "COMPTNG",
+      "COM SCI"
+    ]
+  },
+  {
+    "name": "Bioengineering BS",
+    "department": "Bioengineering",
+    "Dependencies": [
+      "BIOENGR",
+      "CHEM",
+      "C&EE",
+      "COM SCI",
+      "MECH&AE",
+      "LIFESCI",
+      "MATH",
+      "PHYSICS",
+      "MAT SCI",
+      "EC ENGR"
+    ]
+  },
+  {
+    "name": "Biology BS",
+    "department": "Ecology and Evolutionary Biology",
+    "Dependencies": [
+      "CHEM",
+      "LIFESCI",
+      "MATH",
+      "STATS",
+      "PHYSICS",
+      "ANTHRO",
+      "EE BIOL",
+      "EPS SCI",
+      "MCD BIO",
+      "MIMG",
+      "SOC GEN",
+      "NEUROSC",
+      "PHYSCI",
+      "GEOG",
+      "A&O SCI",
+      "ENV HLT",
+      "PSYCH",
+      "COMPTNG",
+      "COM SCI"
+    ]
+  },
+  {
+    "name": "Biophysics BS",
+    "department": "Physics and Astronomy",
+    "Dependencies": [
+      "PHYSICS",
+      "CHEM",
+      "LIFESCI",
+      "MATH",
+      "NEUROSC",
+      "MECH&AE",
+      "MCD BIO"
+    ]
+  },
+  {
+    "name": "Business Economics BA",
+    "department": "Economics",
+    "Dependencies": [
+      "ECON",
+      "MGMT",
+      "MATH",
+      "ENGCOMP"
+    ]
+  },
+  {
+    "name": "Central and East European Languages and Cultures BA",
+    "department": "Slavic, East European, and Eurasian Languages and Cultures",
+    "Dependencies": [
+      "C&EE ST",
+      "SLAVC",
+      "CZCH",
+      "HNGAR",
+      "POLSH",
+      "ROMANIA",
+      "SRB CRO",
+      "UKRN",
+      "RUSSN",
+      "HIST"
+    ]
+  },
+  {
+    "name": "Chemical Engineering BS",
+    "department": "Chemical and Biomolecular Engineering",
+    "Dependencies": [
+      "CH ENGR",
+      "CHEM",
+      "MATH",
+      "PHYSICS",
+      "C&EE",
+      "MECH&AE",
+      "BIOENGR",
+      "MAT SCI"
+    ]
+  },
+  {
+    "name": "Chemistry BS",
+    "department": "Chemistry",
+    "Dependencies": [
+      "CHEM",
+      "MATH",
+      "PHYSICS",
+      "COMPTNG",
+      "COM SCI"
+    ]
+  },
+  {
+    "name": "Chemistry Materials Science BS",
+    "department": "Chemistry and Biochemistry",
+    "Dependencies": [
+      "CHEM",
+      "MATH",
+      "PHYSICS",
+      "MAT SCI"
+    ]
+  },
+  {
+    "name": "Chicana and Chicano Studies BA",
+    "department": "César E. Chávez Chicana/o and Central American Studies",
+    "Dependencies": [
+      "CCAS",
+      "SPAN"
+    ]
+  },
+  {
+    "name": "Chinese BA",
+    "department": "Asian Languages and Cultures",
+    "Dependencies": [
+      "CHIN",
+      "ASIAN"
+    ]
+  },
+  {
+    "name": "Civil Engineering BS",
+    "department": "Civil and Environmental Engineering",
+    "Dependencies": [
+      "CHEM",
+      "C&EE",
+      "COM SCI",
+      "MATH",
+      "MECH&AE",
+      "PHYSICS",
+      "ENVIRON",
+      "EPS SCI",
+      "LIFESCI",
+      "MIMG",
+      "NEUROSC",
+      "CH ENGR",
+      "MAT SCI"
+    ]
+  },
+  {
+    "name": "Classical Civilization BA",
+    "department": "Classics",
+    "Dependencies": [
+      "CLASSIC",
+      "GREEK",
+      "LATIN"
+    ]
+  },
+  {
+    "name": "Climate Science BS",
+    "department": "Atmospheric and Oceanic Sciences",
+    "Dependencies": [
+      "A&O SCI",
+      "COM SCI",
+      "COMPTNG",
+      "CHEM",
+      "LIFESCI",
+      "MATH",
+      "PHYSICS",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Cognitive Science BS",
+    "department": "Psychology",
+    "Dependencies": [
+      "CHEM",
+      "LING",
+      "PHYSICS",
+      "LIFESCI",
+      "PHYSCI",
+      "MATH",
+      "PHILOS",
+      "COMPTNG",
+      "PSYCH",
+      "STATS",
+      "COM SCI",
+      "ANTHRO",
+      "COMM",
+      "MSC IND",
+      "NEUROSC",
+      "PSYCTRY"
+    ]
+  },
+  {
+    "name": "Communication BA",
+    "department": "Communication",
+    "Dependencies": [
+      "COMM",
+      "ANTHRO",
+      "LING",
+      "PHILOS",
+      "ECON",
+      "STATS",
+      "POL SCI",
+      "PSYCH",
+      "SOCIOL",
+      "ASIA AM",
+      "FILM TV",
+      "COMPTNG",
+      "COM SCI"
+    ]
+  },
+  {
+    "name": "Comparative Literature BA",
+    "department": "Comparative Literature",
+    "Dependencies": [
+      "COM LIT"
+    ]
+  },
+  {
+    "name": "Computational Biology BS",
+    "department": "Computational and Systems Biology",
+    "Dependencies": [
+      "C&S BIO",
+      "CHEM",
+      "COM SCI",
+      "COMPTNG",
+      "LIFESCI",
+      "MATH",
+      "STATS",
+      "PHYSICS",
+      "EE BIOL",
+      "MCD BIO",
+      "PHYSCI",
+      "EPIDEM",
+      "MIMG",
+      "NEUROSC",
+      "PSYCH",
+      "NEURO",
+      "BIOENGR",
+      "BIOMATH",
+      "EC ENGR"
+    ]
+  },
+  {
+    "name": "Computer Engineering BS",
+    "department": "Electrical and Computer Engineering",
+    "Dependencies": [
+      "COM SCI",
+      "EC ENGR",
+      "ENGR",
+      "MATH",
+      "PHYSICS",
+      "C&EE",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Computer Science and Engineering BS",
+    "department": "Computer Science",
+    "Dependencies": [
+      "COM SCI",
+      "EC ENGR",
+      "MATH",
+      "PHYSICS",
+      "C&EE",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Computer Science BS",
+    "department": "Computer Science",
+    "Dependencies": [
+      "COM SCI",
+      "MATH",
+      "PHYSICS",
+      "EC ENGR",
+      "C&EE",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Dance BA",
+    "department": "World Arts and Cultures/Dance",
+    "Dependencies": [
+      "DANCE",
+      "WL ARTS"
+    ]
+  },
+  {
+    "name": "Data Theory BS",
+    "department": "Statistics and Data Science",
+    "Dependencies": [
+      "MATH",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Design Media Arts BA",
+    "department": "Design|Media Arts",
+    "Dependencies": [
+      "DESMA"
+    ]
+  },
+  {
+    "name": "Disability Studies BA",
+    "department": "Disability Studies",
+    "Dependencies": [
+      "DIS STD",
+      "ANTHRO",
+      "PUB AFF",
+      "SOCIOL",
+      "AF AMER",
+      "AM IND",
+      "ASIA AM",
+      "CCAS",
+      "CLUSTER",
+      "COMM",
+      "DESMA",
+      "EDUC",
+      "GENDER",
+      "LBR STD",
+      "SOC GEN",
+      "WL ARTS",
+      "COM LIT",
+      "MCD BIO",
+      "PHILOS",
+      "LIFESCI",
+      "POL SCI",
+      "STATS",
+      "ASL",
+      "ENGL",
+      "HNRS",
+      "NURSING",
+      "PSYCH",
+      "COM HLT",
+      "HLT POL",
+      "HIST",
+      "CESC",
+      "THEATER"
+    ]
+  },
+  {
+    "name": "Earth and Environmental Science BA",
+    "department": "Earth, Planetary, and Space Sciences",
+    "Dependencies": [
+      "EPS SCI",
+      "CLUSTER",
+      "C&EE",
+      "CHEM",
+      "MATH",
+      "PHYSICS",
+      "GEOG"
+    ]
+  },
+  {
+    "name": "Ecology, Behavior, and Evolution BS",
+    "department": "Ecology and Evolutionary Biology",
+    "Dependencies": [
+      "CHEM",
+      "LIFESCI",
+      "MATH",
+      "STATS",
+      "PHYSICS",
+      "EE BIOL",
+      "PHYSCI",
+      "ANTHRO",
+      "COMPTNG",
+      "COM SCI",
+      "PSYCH"
+    ]
+  },
+  {
+    "name": "Economics BA",
+    "department": "Economics",
+    "Dependencies": [
+      "ECON",
+      "MATH",
+      "MGMT"
+    ]
+  },
+  {
+    "name": "Education and Social Transformation BA",
+    "department": "Education",
+    "Dependencies": [
+      "EDUC",
+      "CESC"
+    ]
+  },
+  {
+    "name": "Electrical Engineering BS",
+    "department": "Electrical and Computer Engineering",
+    "Dependencies": [
+      "CHEM",
+      "COM SCI",
+      "EC ENGR",
+      "MATH",
+      "PHYSICS"
+    ]
+  },
+  {
+    "name": "Engineering Geology BS",
+    "department": "Earth, Planetary, and Space Sciences",
+    "Dependencies": [
+      "EPS SCI",
+      "CLUSTER",
+      "C&EE",
+      "CHEM",
+      "MATH",
+      "PHYSICS"
+    ]
+  },
+  {
+    "name": "English BA",
+    "department": "English",
+    "Dependencies": [
+      "ENGCOMP",
+      "ENGL"
+    ]
+  },
+  {
+    "name": "Environmental Science BS",
+    "department": "Institute of the Environment and Sustainability",
+    "Dependencies": [
+      "CHEM",
+      "ENVIRON",
+      "GEOG",
+      "LIFESCI",
+      "MATH",
+      "PHYSICS",
+      "STATS",
+      "EPS SCI",
+      "A&O SCI",
+      "C&EE",
+      "EE BIOL",
+      "ENV HLT",
+      "ANTHRO",
+      "ENGL",
+      "PHILOS",
+      "PUB AFF",
+      "SOC GEN",
+      "URBN PL",
+      "CH ENGR",
+      "MECH&AE",
+      "EPIDEM"
+    ]
+  },
+  {
+    "name": "Ethnomusicology BA",
+    "department": "Ethnomusicology",
+    "Dependencies": [
+      "ETHNMUS"
+    ]
+  },
+  {
+    "name": "European Language and Transcultural Studies BA",
+    "department": "European Languages and Transcultural Studies",
+    "Dependencies": [
+      "FRNCH",
+      "GERMAN",
+      "ITALIAN",
+      "SCAND",
+      "COM LIT",
+      "DGT HUM",
+      "ENGL",
+      "AN N EA",
+      "EE BIOL",
+      "HIST",
+      "HNRS",
+      "MCD BIO",
+      "RELIGN",
+      "ELTS",
+      "CESC",
+      "CLASSIC",
+      "FOOD ST",
+      "PUB AFF"
+    ]
+  },
+  {
+    "name": "European Languages and Transcultural Studies with French and Francophone BA",
+    "department": "European Languages and Transcultural Studies",
+    "Dependencies": [
+      "FRNCH",
+      "GERMAN",
+      "ITALIAN",
+      "SCAND",
+      "COM LIT",
+      "DGT HUM",
+      "ENGL",
+      "AN N EA",
+      "EE BIOL",
+      "HIST",
+      "HNRS",
+      "MCD BIO",
+      "RELIGN",
+      "ELTS",
+      "CESC",
+      "CLASSIC",
+      "FOOD ST",
+      "PUB AFF"
+    ]
+  },
+  {
+    "name": "European Languages and Transcultural Studies with German BA",
+    "department": "European Languages and Transcultural Studies",
+    "Dependencies": [
+      "GERMAN",
+      "FRNCH",
+      "ITALIAN",
+      "SCAND",
+      "COM LIT",
+      "DGT HUM",
+      "ENGL",
+      "AN N EA",
+      "EE BIOL",
+      "HIST",
+      "HNRS",
+      "MCD BIO",
+      "RELIGN",
+      "ELTS"
+    ]
+  },
+  {
+    "name": "European Languages and Transcultural Studies with Italian BA",
+    "department": "European Languages and Transcultural Studies",
+    "Dependencies": [
+      "ITALIAN",
+      "FRNCH",
+      "GERMAN",
+      "SCAND",
+      "COM LIT",
+      "DGT HUM",
+      "ENGL",
+      "AN N EA",
+      "EE BIOL",
+      "HIST",
+      "HNRS",
+      "MCD BIO",
+      "RELIGN",
+      "ELTS",
+      "CESC",
+      "CLASSIC",
+      "FOOD ST",
+      "PUB AFF"
+    ]
+  },
+  {
+    "name": "European Languages and Transcultural Studies with Scandinavian BA",
+    "department": "European Languages and Transcultural Studies",
+    "Dependencies": [
+      "SCAND",
+      "FRNCH",
+      "GERMAN",
+      "ITALIAN",
+      "COM LIT",
+      "DGT HUM",
+      "ENGL",
+      "AN N EA",
+      "EE BIOL",
+      "HIST",
+      "HNRS",
+      "MCD BIO",
+      "RELIGN",
+      "ELTS",
+      "CESC",
+      "CLASSIC",
+      "FOOD ST",
+      "PUB AFF"
+    ]
+  },
+  {
+    "name": "European Studies BA",
+    "department": "International Institute",
+    "Dependencies": [
+      "I A STD",
+      "C&EE ST",
+      "COM LIT",
+      "ENGL",
+      "FRNCH",
+      "GERMAN",
+      "HIST",
+      "ITALIAN",
+      "PORTGSE",
+      "ROMANIA",
+      "RUSSN",
+      "SCAND",
+      "SLAVC",
+      "SPAN",
+      "ECON",
+      "GEOG",
+      "POL SCI",
+      "SOCIOL",
+      "ANTHRO",
+      "ETHNMUS",
+      "WL ARTS",
+      "CZCH",
+      "DUTCH",
+      "HNGAR",
+      "POLSH",
+      "SRB CRO",
+      "UKRN",
+      "YIDDSH",
+      "ART HIS",
+      "FILM TV",
+      "HNRS",
+      "ENVIRON",
+      "INTL DV",
+      "MGMT",
+      "URBN PL",
+      "COMM"
+    ]
+  },
+  {
+    "name": "Film and Television BA",
+    "department": "Film, Television, and Digital Media",
+    "Dependencies": [
+      "FILM TV",
+      "THEATER"
+    ]
+  },
+  {
+    "name": "Financial Actuarial Mathematics BS",
+    "department": "Mathematics",
+    "Dependencies": [
+      "MATH",
+      "ECON",
+      "MGMT",
+      "COMPTNG",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Gender Studies BA",
+    "department": "Gender Studies",
+    "Dependencies": [
+      "GENDER"
+    ]
+  },
+  {
+    "name": "Geography BA",
+    "department": "Geography",
+    "Dependencies": [
+      "GEOG",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Geography Environmental Studies BA",
+    "department": "Geography",
+    "Dependencies": [
+      "GEOG",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Geology BS",
+    "department": "Earth, Planetary, and Space Sciences",
+    "Dependencies": [
+      "EPS SCI",
+      "CLUSTER",
+      "C&EE",
+      "CHEM",
+      "MATH",
+      "PHYSICS"
+    ]
+  },
+  {
+    "name": "Geophysics BS",
+    "department": "Earth, Planetary, and Space Sciences",
+    "Dependencies": [
+      "EPS SCI",
+      "MATH",
+      "PHYSICS",
+      "A&O SCI"
+    ]
+  },
+  {
+    "name": "Global Jazz Studies BA",
+    "department": "Global Jazz Studies",
+    "Dependencies": [
+      "ETHNMUS",
+      "GJ STDS",
+      "MUSC",
+      "AF AMER",
+      "MSC IND"
+    ]
+  },
+  {
+    "name": "Global Studies BA",
+    "department": "Global Studies",
+    "Dependencies": [
+      "GLBL ST",
+      "POL SCI",
+      "PUB AFF",
+      "STATS",
+      "ANTHRO",
+      "COM LIT",
+      "ETHNMUS",
+      "GENDER",
+      "GEOG",
+      "INTL DV",
+      "WL ARTS",
+      "ASIA AM",
+      "CCAS",
+      "CLUSTER",
+      "FRNCH",
+      "HIST",
+      "I A STD",
+      "ITALIAN",
+      "M E STD",
+      "RUSSN",
+      "SPAN",
+      "SOCIOL",
+      "ECON",
+      "ENVIRON",
+      "ASIAN",
+      "EDUC",
+      "ENGL",
+      "FILM TV",
+      "HNRS",
+      "KOREA",
+      "RELIGN",
+      "SEASIAN",
+      "SOC GEN",
+      "URBN PL",
+      "I M STD"
+    ]
+  },
+  {
+    "name": "Greek and Latin BA",
+    "department": "Classics",
+    "Dependencies": [
+      "CLASSIC",
+      "GREEK",
+      "LATIN",
+      "HIST"
+    ]
+  },
+  {
+    "name": "Greek BA",
+    "department": "Classics",
+    "Dependencies": [
+      "CLASSIC",
+      "GREEK",
+      "HIST"
+    ]
+  },
+  {
+    "name": "History BA",
+    "department": "History",
+    "Dependencies": [
+      "HIST"
+    ]
+  },
+  {
+    "name": "Human Biology and Society BA",
+    "department": "Institute for Society and Genetics",
+    "Dependencies": [
+      "SOC GEN",
+      "ANTHRO",
+      "CHEM",
+      "LIFESCI",
+      "STATS",
+      "AF AMER",
+      "AM IND",
+      "ASIA AM",
+      "CCAS",
+      "ENGL",
+      "ENVIRON",
+      "GENDER",
+      "GEOG",
+      "HIST",
+      "HNRS",
+      "LBR STD",
+      "MCD BIO",
+      "PHILOS",
+      "POL SCI",
+      "PUB AFF",
+      "SOCIOL",
+      "AN N EA",
+      "ARABIC",
+      "COMM",
+      "COM SCI",
+      "DIS STD",
+      "EE BIOL",
+      "ENV HLT",
+      "EPIDEM",
+      "FOOD ST",
+      "GLBL ST",
+      "HUM GEN",
+      "LGBTQS",
+      "LING",
+      "MED HIS",
+      "MIMG",
+      "NEURBIO",
+      "NEUROSC",
+      "PHYSCI",
+      "PSYCH",
+      "PUB HLT",
+      "SOC WLF",
+      "URBN PL"
+    ]
+  },
+  {
+    "name": "Human Biology and Society BS",
+    "department": "Institute for Society and Genetics",
+    "Dependencies": [
+      "SOC GEN",
+      "ANTHRO",
+      "CHEM",
+      "LIFESCI",
+      "STATS",
+      "MATH",
+      "PHYSICS",
+      "AF AMER",
+      "AM IND",
+      "ASIA AM",
+      "CCAS",
+      "GENDER",
+      "GEOG",
+      "HIST",
+      "MCD BIO",
+      "PHILOS",
+      "PUB AFF",
+      "SOCIOL",
+      "AN N EA",
+      "ARABIC",
+      "COMM",
+      "COM SCI",
+      "DIS STD",
+      "EE BIOL",
+      "ENGL",
+      "ENVIRON",
+      "ENV HLT",
+      "EPIDEM",
+      "FOOD ST",
+      "GLBL ST",
+      "HNRS",
+      "HUM GEN",
+      "LGBTQS",
+      "LING",
+      "MED HIS",
+      "MIMG",
+      "NEURBIO",
+      "NEUROSC",
+      "PHYSCI",
+      "PSYCH",
+      "PUB HLT",
+      "SOC WLF",
+      "URBN PL"
+    ]
+  },
+  {
+    "name": "International Development Studies BA",
+    "department": "International Development Studies",
+    "Dependencies": [
+      "INTL DV",
+      "ECON",
+      "GEOG",
+      "PUB AFF",
+      "EDUC",
+      "HIST",
+      "POL SCI",
+      "SOCIOL",
+      "STATS",
+      "ANTHRO",
+      "GENDER",
+      "GLBL ST",
+      "I A STD",
+      "COM LIT",
+      "SPAN",
+      "ASIA AM",
+      "CCAS",
+      "URBN PL",
+      "ENVIRON",
+      "CHIN",
+      "KOREA",
+      "C&EE ST",
+      "RUSSN",
+      "ENGL",
+      "THEATER",
+      "AF AMER",
+      "ART HIS",
+      "COM HLT",
+      "HNRS",
+      "PORTGSE",
+      "SEASIAN",
+      "VIETMSE",
+      "FILM TV"
+    ]
+  },
+  {
+    "name": "Iranian Studies BA",
+    "department": "Near Eastern Languages and Cultures",
+    "Dependencies": [
+      "IRANIAN",
+      "AN N EA",
+      "ART HIS",
+      "HIST",
+      "POL SCI"
+    ]
+  },
+  {
+    "name": "Japanese BA",
+    "department": "Asian Languages and Cultures",
+    "Dependencies": [
+      "JAPAN",
+      "ASIAN"
+    ]
+  },
+  {
+    "name": "Jewish Studies BA",
+    "department": "Near Eastern Languages and Cultures",
+    "Dependencies": [
+      "JEWISH",
+      "AN N EA",
+      "M E STD",
+      "ARABIC",
+      "ARMENIA",
+      "HEBREW",
+      "ENGL",
+      "GERMAN",
+      "HIST",
+      "IRANIAN",
+      "POL SCI",
+      "RELIGN",
+      "SEMITIC",
+      "YIDDSH"
+    ]
+  },
+  {
+    "name": "Korean BA",
+    "department": "Asian Languages and Cultures",
+    "Dependencies": [
+      "KOREA",
+      "ASIAN"
+    ]
+  },
+  {
+    "name": "Labor Studies BA",
+    "department": "Labor Studies",
+    "Dependencies": [
+      "LBR STD",
+      "AF AMER",
+      "ASIA AM",
+      "CCAS",
+      "GENDER",
+      "GEOG",
+      "HIST",
+      "HNRS",
+      "POL SCI",
+      "PUB PLC",
+      "SOCIOL",
+      "SPAN",
+      "ECON"
+    ]
+  },
+  {
+    "name": "Latin American Studies BA",
+    "department": "International and Area Studies",
+    "Dependencies": [
+      "I A STD",
+      "HIST",
+      "PORTGSE",
+      "SPAN",
+      "ECON",
+      "GEOG",
+      "POL SCI",
+      "SOCIOL",
+      "ANTHRO",
+      "COM LIT",
+      "ETHNMUS",
+      "WL ARTS",
+      "ART HIS",
+      "FILM TV",
+      "MUSC",
+      "CCAS",
+      "AF AMER",
+      "COM HLT",
+      "GENDER",
+      "LBR STD",
+      "PUB HLT",
+      "ENVIRON",
+      "INTL DV",
+      "MGMT",
+      "URBN PL",
+      "COMM",
+      "HNRS"
+    ]
+  },
+  {
+    "name": "Latin BA",
+    "department": "Classics",
+    "Dependencies": [
+      "CLASSIC",
+      "LATIN",
+      "HIST"
+    ]
+  },
+  {
+    "name": "Linguistics and Anthropology BA",
+    "department": "Linguistics",
+    "Dependencies": [
+      "ANTHRO",
+      "LING",
+      "SOCIOL",
+      "COMPTNG",
+      "COM SCI",
+      "MATH"
+    ]
+  },
+  {
+    "name": "Linguistics and Asian Languages and Cultures BA",
+    "department": "Linguistics and Asian Languages and Cultures",
+    "Dependencies": [
+      "ANTHRO",
+      "LING",
+      "CHIN",
+      "JAPAN",
+      "KOREA",
+      "ASIAN",
+      "COMPTNG",
+      "COM SCI",
+      "MATH"
+    ]
+  },
+  {
+    "name": "Linguistics and Computer Science BA",
+    "department": "Linguistics",
+    "Dependencies": [
+      "LING",
+      "COM SCI",
+      "MATH"
+    ]
+  },
+  {
+    "name": "Linguistics and English BA",
+    "department": "Linguistics",
+    "Dependencies": [
+      "LING",
+      "ENGL",
+      "COMPTNG",
+      "COM SCI",
+      "MATH"
+    ]
+  },
+  {
+    "name": "Linguistics and Philosophy BA",
+    "department": "Linguistics",
+    "Dependencies": [
+      "LING",
+      "PHILOS",
+      "COMPTNG",
+      "COM SCI",
+      "MATH"
+    ]
+  },
+  {
+    "name": "Linguistics and Psychology BA",
+    "department": "Linguistics",
+    "Dependencies": [
+      "LING",
+      "PSYCH",
+      "COMPTNG",
+      "COM SCI",
+      "MATH"
+    ]
+  },
+  {
+    "name": "Linguistics and Spanish BA",
+    "department": "Linguistics",
+    "Dependencies": [
+      "LING",
+      "SPAN",
+      "COMPTNG",
+      "COM SCI",
+      "MATH"
+    ]
+  },
+  {
+    "name": "Linguistics BA",
+    "department": "Linguistics",
+    "Dependencies": [
+      "LING",
+      "ANTHRO",
+      "PHILOS",
+      "PSYCH",
+      "COMPTNG",
+      "COM SCI",
+      "MATH"
+    ]
+  },
+  {
+    "name": "Marine Biology BS",
+    "department": "Ecology and Evolutionary Biology",
+    "Dependencies": [
+      "A&O SCI",
+      "EPS SCI",
+      "CHEM",
+      "LIFESCI",
+      "MATH",
+      "STATS",
+      "PHYSICS",
+      "EE BIOL",
+      "PHYSCI",
+      "ANTHRO",
+      "BIOENGR",
+      "C&S BIO",
+      "COM SCI",
+      "GEOG",
+      "SOC GEN",
+      "MECH&AE",
+      "MCD BIO",
+      "COMPTNG",
+      "PSYCH"
+    ]
+  },
+  {
+    "name": "Materials Engineering BS",
+    "department": "Materials Science and Engineering",
+    "Dependencies": [
+      "CHEM",
+      "C&EE",
+      "COM SCI",
+      "MECH&AE",
+      "MAT SCI",
+      "MATH",
+      "PHYSICS",
+      "EC ENGR",
+      "CH ENGR",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Mathematics BS",
+    "department": "Mathematics",
+    "Dependencies": [
+      "MATH",
+      "COMPTNG",
+      "PHYSICS",
+      "CHEM",
+      "ECON",
+      "LIFESCI",
+      "PHILOS",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Mathematics for Teaching BS",
+    "department": "Mathematics",
+    "Dependencies": [
+      "MATH",
+      "PHYSICS",
+      "COMPTNG",
+      "CHEM",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Mathematics of Computation BS",
+    "department": "Mathematics",
+    "Dependencies": [
+      "MATH",
+      "PHYSICS",
+      "COMPTNG",
+      "CHEM",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Mathematics Applied Science BS",
+    "department": "Mathematics",
+    "Dependencies": [
+      "MATH",
+      "COMPTNG"
+    ]
+  },
+  {
+    "name": "Mathematics Economics BS",
+    "department": "Mathematics/Economics",
+    "Dependencies": [
+      "MATH",
+      "ECON",
+      "COMPTNG",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Mechanical Engineering BS",
+    "department": "Mechanical and Aerospace Engineering",
+    "Dependencies": [
+      "CHEM",
+      "MATH",
+      "MECH&AE",
+      "PHYSICS",
+      "COM SCI",
+      "EC ENGR",
+      "MAT SCI"
+    ]
+  },
+  {
+    "name": "Microbiology, Immunology, and Molecular Genetics BS",
+    "department": "Microbiology, Immunology, and Molecular Genetics",
+    "Dependencies": [
+      "CHEM",
+      "LIFESCI",
+      "STATS",
+      "MATH",
+      "PHYSICS",
+      "MIMG",
+      "MCD BIO",
+      "BIOENGR",
+      "BIOSTAT",
+      "COM SCI",
+      "EE BIOL",
+      "EPIDEM",
+      "HUM GEN",
+      "NEUROSC",
+      "PHYSCI"
+    ]
+  },
+  {
+    "name": "Middle Eastern Studies BA",
+    "department": "Near Eastern Languages and Cultures",
+    "Dependencies": [
+      "AN N EA",
+      "HIST",
+      "IRANIAN",
+      "ISLM ST",
+      "JEWISH",
+      "M E STD",
+      "NR EAST",
+      "ARABIC",
+      "ARMENIA",
+      "HEBREW",
+      "TURKIC",
+      "ANTHRO",
+      "SEMITIC",
+      "RELIGN",
+      "ART HIS",
+      "ECON",
+      "ETHNMUS",
+      "FRNCH",
+      "PHILOS",
+      "POL SCI"
+    ]
+  },
+  {
+    "name": "Molecular, Cell, and Developmental Biology BS",
+    "department": "Molecular, Cell, and Developmental Biology",
+    "Dependencies": [
+      "CHEM",
+      "LIFESCI",
+      "STATS",
+      "MATH",
+      "PHYSICS",
+      "MCD BIO",
+      "COM SCI",
+      "MIMG",
+      "PHYSCI",
+      "BIOSTAT",
+      "EE BIOL",
+      "HUM GEN",
+      "BMD RES",
+      "COMPTNG"
+    ]
+  },
+  {
+    "name": "Music Composition BA",
+    "department": "Music Performance, Education, and Composition",
+    "Dependencies": [
+      "MUSC",
+      "MUSCLG"
+    ]
+  },
+  {
+    "name": "Music Education BA",
+    "department": "Music Performance, Education, and Composition",
+    "Dependencies": [
+      "MUSC",
+      "MUSCLG"
+    ]
+  },
+  {
+    "name": "Music Industry BA",
+    "department": "Music Industry",
+    "Dependencies": [
+      "MSC IND",
+      "ETHNMUS",
+      "GJ STDS",
+      "MUSC",
+      "MUSCLG",
+      "COMM"
+    ]
+  },
+  {
+    "name": "Music Performance BM",
+    "department": "Music Performance, Education, and Composition",
+    "Dependencies": [
+      "MUSC"
+    ]
+  },
+  {
+    "name": "Musicology BA",
+    "department": "Musicology",
+    "Dependencies": [
+      "MUSCLG",
+      "MUSC",
+      "GJ STDS",
+      "MSC IND"
+    ]
+  },
+  {
+    "name": "Neuroscience BS",
+    "department": "Neuroscience",
+    "Dependencies": [
+      "CHEM",
+      "LIFESCI",
+      "STATS",
+      "MATH",
+      "PHYSICS",
+      "NEUROSC",
+      "DIS STD",
+      "MSC IND",
+      "PHYSCI",
+      "PSYCTRY",
+      "PSYCH"
+    ]
+  },
+  {
+    "name": "Nordic Studies BA",
+    "department": "Scandinavian",
+    "Dependencies": [
+      "ELTS",
+      "SCAND"
+    ]
+  },
+  {
+    "name": "Nursing Prelicensure BS",
+    "department": "Nursing",
+    "Dependencies": [
+      "BIOSTAT",
+      "CHEM",
+      "LIFESCI",
+      "NURSING",
+      "PSYCH",
+      "COMM",
+      "MATH"
+    ]
+  },
+  {
+    "name": "Philosophy BA",
+    "department": "Philosophy",
+    "Dependencies": [
+      "PHILOS"
+    ]
+  },
+  {
+    "name": "Physics BA",
+    "department": "Physics and Astronomy",
+    "Dependencies": [
+      "PHYSICS",
+      "CHEM",
+      "MATH",
+      "COMPTNG",
+      "COM SCI"
+    ]
+  },
+  {
+    "name": "Physics BS",
+    "department": "Physics and Astronomy",
+    "Dependencies": [
+      "PHYSICS",
+      "CHEM",
+      "MATH",
+      "COMPTNG",
+      "COM SCI"
+    ]
+  },
+  {
+    "name": "Physiological Science BS",
+    "department": "Integrative Biology and Physiology",
+    "Dependencies": [
+      "CHEM",
+      "LIFESCI",
+      "STATS",
+      "MATH",
+      "PHYSICS",
+      "PHYSCI"
+    ]
+  },
+  {
+    "name": "Political Science BA",
+    "department": "Political Science",
+    "Dependencies": [
+      "POL SCI",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Portuguese and Brazilian Studies BA",
+    "department": "Spanish and Portuguese",
+    "Dependencies": [
+      "PORTGSE",
+      "SPAN"
+    ]
+  },
+  {
+    "name": "Psychobiology BS",
+    "department": "Psychology",
+    "Dependencies": [
+      "PSYCH",
+      "CHEM",
+      "LIFESCI",
+      "STATS",
+      "MATH",
+      "PHYSICS",
+      "EE BIOL",
+      "NEUROSC",
+      "C&S BIO",
+      "MIMG",
+      "MCD BIO",
+      "PHYSCI"
+    ]
+  },
+  {
+    "name": "Psychology BA",
+    "department": "Psychology",
+    "Dependencies": [
+      "CHEM",
+      "PHYSICS",
+      "LIFESCI",
+      "PHYSCI",
+      "PHILOS",
+      "COMPTNG",
+      "STATS",
+      "PSYCH"
+    ]
+  },
+  {
+    "name": "Public Affairs BA",
+    "department": "Public Affairs Schoolwide Programs",
+    "Dependencies": [
+      "PUB AFF"
+    ]
+  },
+  {
+    "name": "Public Health BA",
+    "department": "Public Health",
+    "Dependencies": [
+      "PUB HLT",
+      "CHEM",
+      "LIFESCI",
+      "STATS",
+      "BIOSTAT",
+      "COM HLT",
+      "ENV HLT",
+      "EPIDEM",
+      "HLT POL"
+    ]
+  },
+  {
+    "name": "Public Health BS",
+    "department": "Public Health",
+    "Dependencies": [
+      "PUB HLT",
+      "CHEM",
+      "LIFESCI",
+      "STATS",
+      "MATH",
+      "PHYSICS",
+      "COMM",
+      "BIOSTAT",
+      "COM HLT",
+      "ENV HLT",
+      "EPIDEM",
+      "HLT POL"
+    ]
+  },
+  {
+    "name": "Russian Language and Literature BA",
+    "department": "Slavic, East European, and Eurasian Languages and Cultures",
+    "Dependencies": [
+      "RUSSN",
+      "SLAVC"
+    ]
+  },
+  {
+    "name": "Russian Studies BA",
+    "department": "Slavic, East European, and Eurasian Languages and Cultures",
+    "Dependencies": [
+      "RUSSN",
+      "HIST",
+      "POL SCI",
+      "SLAVC"
+    ]
+  },
+  {
+    "name": "Sociology BA",
+    "department": "Sociology",
+    "Dependencies": [
+      "SOCIOL",
+      "POL SCI",
+      "STATS",
+      "COMPTNG"
+    ]
+  },
+  {
+    "name": "Southeast Asian Studies BA",
+    "department": "Asian Languages and Cultures",
+    "Dependencies": [
+      "FILIPNO",
+      "INDO",
+      "THAI",
+      "VIETMSE",
+      "SEASIAN",
+      "ASIAN",
+      "ANTHRO",
+      "ART HIS",
+      "ASIA AM",
+      "HIST",
+      "POL SCI"
+    ]
+  },
+  {
+    "name": "Spanish and Community and Culture BA",
+    "department": "Spanish and Portuguese",
+    "Dependencies": [
+      "SPAN",
+      "PORTGSE",
+      "CCAS",
+      "SOCIOL"
+    ]
+  },
+  {
+    "name": "Spanish and Linguistics BA",
+    "department": "Spanish and Portuguese",
+    "Dependencies": [
+      "LING",
+      "SPAN",
+      "PORTGSE"
+    ]
+  },
+  {
+    "name": "Spanish and Portuguese BA",
+    "department": "Spanish and Portuguese",
+    "Dependencies": [
+      "PORTGSE",
+      "SPAN"
+    ]
+  },
+  {
+    "name": "Spanish BA",
+    "department": "Spanish and Portuguese",
+    "Dependencies": [
+      "SPAN",
+      "PORTGSE"
+    ]
+  },
+  {
+    "name": "Statistics and Data Science BS",
+    "department": "Statistics and Data Science",
+    "Dependencies": [
+      "MATH",
+      "STATS"
+    ]
+  },
+  {
+    "name": "Study of Religion BA",
+    "department": "Study of Religion",
+    "Dependencies": [
+      "RELIGN",
+      "AN N EA",
+      "ANTHRO",
+      "ASIAN",
+      "HIST",
+      "PHILOS",
+      "ARABIC",
+      "ART HIS",
+      "CHIN",
+      "CLASSIC",
+      "ENGL",
+      "GREEK",
+      "HEBREW",
+      "IRANIAN",
+      "JAPAN",
+      "JEWISH",
+      "KOREA",
+      "WL ARTS"
+    ]
+  },
+  {
+    "name": "Theater BA",
+    "department": "Theater",
+    "Dependencies": [
+      "THEATER"
+    ]
+  },
+  {
+    "name": "World Arts and Cultures BA",
+    "department": "World Arts and Cultures/Dance",
+    "Dependencies": [
+      "WL ARTS"
+    ]
+  }
+]

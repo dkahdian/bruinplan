@@ -1,0 +1,360 @@
+{
+  "name": "Molecular, Cell, and Developmental Biology BS",
+  "overview": "The Bachelor of Science (BS) degree in Molecular, Cell, and Developmental Biology (MCDB) is designed especially for students who intend to go on to postgraduate work in biology or medicine and for students aiming for entry-level positions in biotechnology-related fields. Students are exposed to basic biological and molecular concepts underlying recent technical advances in molecular, cell, and developmental biology of animals and plants. Areas of emphasis include cell biology, immunology, molecular biology, plant biology, developmental biology, and neurobiology, among others.",
+  "college": "College of Letters and Science",
+  "department": "Molecular, Cell, and Developmental Biology",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete the Life Sciences Core Curriculum in Chemistry, Life Sciences, Mathematics, and Physics. Each core curriculum course must be passed with a grade of C\u2013 or better, and all courses must be completed with an overall grade-point average of 2.0 or better.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Chemistry",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Chemistry 14 series",
+              "description": "Complete all courses in this series.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"},
+                {"type": "course", "courseId": "CHEM 14D"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Chemistry 20 and 30 series",
+              "description": "Complete all courses in this series.",
+              "needs": 6,
+              "options": [
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"},
+                {"type": "course", "courseId": "CHEM 30B"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Life Sciences",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Life Sciences 30 series",
+              "description": "Complete LIFESCI 30A, 30B, and one statistics course.",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30B"
+                },
+                {
+                  "type": "group",
+                  "title": "Statistics",
+                  "description": "Select one of the following:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 3 series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Mathematics 31 series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "MATH 32A"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Select one series from:",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Physics 1 series",
+              "description": "Complete all courses in this series.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Physics 5 series",
+              "description": "Complete all courses in this series.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete five required courses, one laboratory course, and 20 upper-division elective units. Students must receive a C or better grade in each required core course and achieve a minimum overall GPA of 2.0 in the major.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete the following five courses:",
+          "needs": 5,
+          "options": [
+            {"type": "course", "courseId": "CHEM 153A"},
+            {"type": "course", "courseId": "LIFESCI 107"},
+            {"type": "course", "courseId": "MCD BIO 138"},
+            {"type": "course", "courseId": "MCD BIO 144"},
+            {"type": "course", "courseId": "MCD BIO 165A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Laboratory",
+          "description": "Select one course from the following list. Students completing the Biomedical Research minor may satisfy the laboratory requirement with MCD BIO 198C.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "MCD BIO 104AL"},
+            {"type": "course", "courseId": "MCD BIO 150AL"},
+            {"type": "course", "courseId": "MCD BIO 187AL"},
+            {"type": "course", "courseId": "MCD BIO 196B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Complete a total of 20 upper-division elective units from the following categories. Any single course may be applied toward only one category of the major and must be taken for a letter grade.",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Molecular, Cell, and Developmental Biology Upper-Division (5 units)",
+              "description": "Select five units (typically one course) from Molecular, Cell, and Developmental Biology (except 100, 104AL, 138, 144, 150AL, 165A, 187AL, 192A, 192B, 193, 194A, 194B, or 199).",
+              "needs": 1,
+              "options": [
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Additional Electives (5 units)",
+              "description": "Select five additional units (typically one course) from the preceding list or the following list:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "CHEM C100"},
+                {"type": "course", "courseId": "CHEM 153C"},
+                {"type": "course", "courseId": "CHEM 153L"},
+                {"type": "course", "courseId": "CHEM C159"},
+                {"type": "course", "courseId": "COM SCI C121"},
+                {"type": "course", "courseId": "COM SCI C124"},
+                {"type": "course", "courseId": "COM SCI CM186"},
+                {"type": "course", "courseId": "MIMG 100L"},
+                {"type": "course", "courseId": "MIMG 101"},
+                {"type": "course", "courseId": "MIMG 102"},
+                {"type": "course", "courseId": "MIMG 105"},
+                {"type": "course", "courseId": "MIMG 158"},
+                {"type": "course", "courseId": "MIMG 168"},
+                {"type": "course", "courseId": "MIMG 174"},
+                {"type": "course", "courseId": "MIMG 185A"},
+                {"type": "course", "courseId": "PHYSCI 121"},
+                {"type": "course", "courseId": "PHYSCI 125"},
+                {"type": "course", "courseId": "PHYSCI 174"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Additional Electives (10 units)",
+              "description": "Complete 10 additional units (typically two courses) from the preceding two course lists or from the following. Only one course from Biostatistics 100 or Statistics 100A may be applied.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "BIOSTAT 100"},
+                {"type": "course", "courseId": "EE BIOL 110"},
+                {"type": "course", "courseId": "EE BIOL 121"},
+                {"type": "course", "courseId": "EE BIOL 162"},
+                {"type": "course", "courseId": "HUM GEN C144"},
+                {"type": "course", "courseId": "PHYSCI 166"},
+                {"type": "course", "courseId": "STATS 100A"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "The honors program is optional and for exceptional junior and senior majors with an overall GPA of 3.0 or better and a 3.5 GPA or better in major courses. To graduate with honors, students must complete all requirements for the honors program and the major with at least an overall 3.0 GPA and a 3.5 GPA in major coursework.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Program Requirements",
+          "description": "The core of the program consists of at least one approved undergraduate seminar course and three research courses (12 units minimum) culminating in a thesis.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Program Track",
+              "description": "Complete the seminar and research course requirements.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Undergraduate Seminar",
+                  "description": "Select at least one approved undergraduate seminar course. Note: Biomedical Research 193H and 194H are not accepted as electives for the major.",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "MCD BIO 145"},
+                    {"type": "course", "courseId": "MCD BIO 180A"},
+                    {"type": "course", "courseId": "MCD BIO 180B"},
+                    {"type": "course", "courseId": "MCD BIO 191"},
+                    {"type": "course", "courseId": "BMD RES 193H"},
+                    {"type": "course", "courseId": "BMD RES 194H"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Research Courses",
+                  "description": "Complete three research courses:",
+                  "needs": 3,
+                  "options": [
+                    {"type": "course", "courseId": "MCD BIO 198A"},
+                    {"type": "course", "courseId": "MCD BIO 198B"},
+                    {"type": "course", "courseId": "MCD BIO 198C"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing-specialization",
+      "title": "Computing Specialization",
+      "description": "This specialization is optional. Majors must satisfy all degree requirements and complete the following courses with a grade of C or better and a combined GPA of at least 2.0. Students must petition for admission to the program after completing Program in Computing 10B.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Computing Specialization Requirements",
+          "description": "Choose this optional specialization.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Computing Specialization Track",
+              "description": "Complete all required and elective courses for the specialization.",
+              "needs": 2,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Required",
+                  "description": "Complete the following required courses:",
+                  "needs": 5,
+                  "options": [
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 16A"
+                    },
+                    {
+                      "type": "group",
+                      "title": "Statistics",
+                      "description": "And select one of the following:",
+                      "needs": 1,
+                      "options": [
+                        {"type": "course", "courseId": "LIFESCI 40"},
+                        {"type": "course", "courseId": "STATS 13"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Elective",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "CHEM C100"},
+                    {"type": "course", "courseId": "COM SCI C121"},
+                    {"type": "course", "courseId": "COM SCI C124"},
+                    {"type": "course", "courseId": "COM SCI CM186"},
+                    {"type": "course", "courseId": "MCD BIO 187AL"},
+                    {"type": "course", "courseId": "PHYSCI 125"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

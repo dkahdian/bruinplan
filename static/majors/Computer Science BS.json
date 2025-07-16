@@ -1,0 +1,184 @@
+{
+  "name": "Computer Science BS",
+  "overview": "The Computer Science curriculum is designed to accommodate students who want professional preparation in computer science but do not necessarily have a strong interest in computer systems hardware. The curriculum consists of components in computer science, a minor or technical support area, and a core of courses from the social sciences, life sciences, and humanities. Within the curriculum, students study subject matter in software engineering, principles of programming languages, data structures, computer architecture, theory of computation and formal languages, operating systems, distributed systems, computer modeling, computer networks, compiler construction, and artificial intelligence. The program is accredited by the Computing Accreditation Commission of ABET.\n\nAs a designated capstone major, students complete either a software engineering or a major product design course. Graduates are expected to apply the basic mathematical and scientific concepts that underlie modern computer science, design systems to meet desired needs, function productively on a team, solve engineering problems, and demonstrate effective communication skills.",
+  "college": "Henry Samueli School of Engineering and Applied Science",
+  "department": "Computer Science",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 17 courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "COM SCI 1"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI 31"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI 32"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI 33"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI 35L"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 61"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1A"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1B"
+        },
+        {
+          "type": "course",
+          "courseId": "PHYSICS 1C"
+        },
+        {
+          "type": "group",
+          "title": "Logic Design",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COM SCI M51A"},
+            {"type": "course", "courseId": "EC ENGR M16"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics Laboratory",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 4AL"},
+            {"type": "course", "courseId": "PHYSICS 4BL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete the following: five required courses, one probability course, one capstone course, seven computer science elective courses (28 units), three science and technology courses (12 units), and 12 units of technical breadth courses.",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "COM SCI 111"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI 131"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI 180"
+        },
+        {
+          "type": "course",
+          "courseId": "COM SCI 181"
+        },
+        {
+          "type": "group",
+          "title": "Architecture Requirement",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COM SCI M151B"},
+            {"type": "course", "courseId": "EC ENGR M116C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Probability",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "C&EE 110"},
+            {"type": "course", "courseId": "EC ENGR 131A"},
+            {"type": "course", "courseId": "MATH 170A"},
+            {"type": "course", "courseId": "MATH 170E"},
+            {"type": "course", "courseId": "STATS 100A"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Software Engineering or Design",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COM SCI 130"},
+            {"type": "course", "courseId": "COM SCI 152B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Computer Science Electives",
+          "description": "Complete a minimum of 28 units (seven courses) from Computer Science 100 through CM187, except COM SCI M148. Up to 8 units of Computer Science 188 may be applied.",
+          "needs": 7,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Science and Technology",
+          "description": "Complete a minimum of 12 units (three courses) not used to satisfy other requirements, selected from an approved list available in the Office of Academic and Student Affairs.",
+          "needs": 3,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Technical Breadth",
+          "description": "Complete 12 units of technical breadth courses from an approved list available in the Office of Academic and Student Affairs.",
+          "needs": 3,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "title": "Policies",
+      "description": "Students must take at least one course from Computer Science 130 or 132. Computer Science 130 or 152B may be applied as an elective only if it is not taken as the capstone course. A petition may be submitted to consider four units of Computer Science 194 or 199 for an elective. Credit is not allowed for both Computer Science 170A and Electrical and Computer Engineering 133A unless one is applied toward the science and technology or technical breadth requirement. A multiple-listed (M) course offered in another department may be used instead of the same computer science course.",
+      "requirements": [
+      ]
+    }
+  ]
+}

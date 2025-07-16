@@ -1,0 +1,212 @@
+{
+  "name": "Bioengineering BS",
+  "overview": "The bioengineering program is accredited by the Engineering Accreditation Commission of ABET. The Bioengineering major is a designated capstone major. Utilizing knowledge from previous courses and new skills learned from the capstone courses, undergraduate students work in teams to apply advanced knowledge of mathematics, science, and engineering principles to address problems at the interface of biology and engineering and to develop innovative bioengineering solutions to meet specific sets of design criteria. Coursework entails construction of student designs, project updates, presentation of projects in written and oral format, and team competition.",
+  "college": "Samueli School of Engineering",
+  "department": "Bioengineering",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 20 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Bioengineering",
+          "description": "Complete the following course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "BIOENGR 10"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Chemistry",
+          "description": "Complete the following six courses:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "CHEM 20B"},
+            {"type": "course", "courseId": "CHEM 20L"},
+            {"type": "course", "courseId": "CHEM 30A"},
+            {"type": "course", "courseId": "CHEM 30AL"},
+            {"type": "course", "courseId": "CHEM 30B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Computer Programming or Computer Science",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "C&EE M20"},
+            {"type": "course", "courseId": "COM SCI 31"},
+            {"type": "course", "courseId": "MECH&AE M20"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Life Sciences",
+          "description": "Complete the following two courses. Life Sciences 7A satisfies the school GE life sciences requirement.",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Complete the following six courses:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31B"},
+            {"type": "course", "courseId": "MATH 32A"},
+            {"type": "course", "courseId": "MATH 32B"},
+            {"type": "course", "courseId": "MATH 33A"},
+            {"type": "course", "courseId": "MATH 33B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Complete the following four courses:",
+          "needs": 4,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 1B"},
+            {"type": "course", "courseId": "PHYSICS 1C"},
+            {"type": "course", "courseId": "PHYSICS 4AL"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete eight required courses, three technical breadth courses (12 units), two capstone courses, and six major field elective courses (24 units) as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete the following eight courses:",
+          "needs": 8,
+          "options": [
+            {"type": "course", "courseId": "BIOENGR 100"},
+            {"type": "course", "courseId": "BIOENGR 110"},
+            {"type": "course", "courseId": "BIOENGR 120"},
+            {"type": "course", "courseId": "BIOENGR 122"},
+            {"type": "course", "courseId": "BIOENGR 167L"},
+            {"type": "course", "courseId": "BIOENGR 175"},
+            {"type": "course", "courseId": "BIOENGR 176"},
+            {"type": "course", "courseId": "BIOENGR 180"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Technical Breadth",
+          "description": "Complete three technical breadth courses (12 units) selected from an approved list available in the Office of Academic and Student Affairs.",
+          "needs": 3,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Design",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "BIOENGR 177A"},
+            {"type": "course", "courseId": "BIOENGR 177B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Major Field Electives",
+          "description": "Select six additional major field elective courses (24 units) from the following list. A maximum of 8 units of course 199 may be applied.",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "BIOENGR C101"},
+            {"type": "course", "courseId": "BIOENGR C102"},
+            {"type": "course", "courseId": "BIOENGR C104"},
+            {"type": "course", "courseId": "BIOENGR C105"},
+            {"type": "course", "courseId": "BIOENGR C106"},
+            {"type": "course", "courseId": "BIOENGR C107"},
+            {"type": "course", "courseId": "BIOENGR 121"},
+            {"type": "course", "courseId": "BIOENGR 122"},
+            {"type": "course", "courseId": "BIOENGR C131"},
+            {"type": "course", "courseId": "BIOENGR 132"},
+            {"type": "course", "courseId": "BIOENGR C135"},
+            {"type": "course", "courseId": "BIOENGR C139A"},
+            {"type": "course", "courseId": "BIOENGR C139B"},
+            {"type": "course", "courseId": "BIOENGR CM140"},
+            {"type": "course", "courseId": "BIOENGR CM145"},
+            {"type": "course", "courseId": "BIOENGR C147"},
+            {"type": "course", "courseId": "BIOENGR M153"},
+            {"type": "course", "courseId": "BIOENGR C155"},
+            {"type": "course", "courseId": "BIOENGR C166"},
+            {"type": "course", "courseId": "BIOENGR 170"},
+            {"type": "course", "courseId": "BIOENGR CM178"},
+            {"type": "course", "courseId": "BIOENGR C179"},
+            {"type": "course", "courseId": "BIOENGR 180L"},
+            {"type": "course", "courseId": "BIOENGR M182"},
+            {"type": "course", "courseId": "BIOENGR C183"},
+            {"type": "course", "courseId": "BIOENGR C185"},
+            {"type": "course", "courseId": "BIOENGR CM186"},
+            {"type": "course", "courseId": "BIOENGR CM187"},
+            {"type": "course", "courseId": "BIOENGR 199"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Alternative Elective and Technical Breadth",
+          "description": "Three of the major field elective courses and the three technical breadth courses may also be selected from one of the following tracks. Bioengineering majors cannot take bioengineering technical breadth courses to fulfill the technical breadth requirement. For Bioengineering 199 to fulfill a track requirement, the research project must fit within the scope of the track field, and the research report must be approved by the supervisor and vice chair. A maximum of 8 units of course 199 may be applied.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Biomaterials and Regenerative Medicine",
+              "description": "The materials science and engineering courses may be used to satisfy the technical breadth requirement.",
+              "needs": 0,
+              "options": [
+                {"type": "course", "courseId": "BIOENGR C104"},
+                {"type": "course", "courseId": "BIOENGR C105"},
+                {"type": "course", "courseId": "BIOENGR CM140"},
+                {"type": "course", "courseId": "BIOENGR C147"},
+                {"type": "course", "courseId": "BIOENGR C183"},
+                {"type": "course", "courseId": "BIOENGR C185"},
+                {"type": "course", "courseId": "BIOENGR 199"},
+                {"type": "course", "courseId": "MAT SCI 104"},
+                {"type": "course", "courseId": "MAT SCI 110"},
+                {"type": "course", "courseId": "MAT SCI C111"},
+                {"type": "course", "courseId": "MAT SCI 120"},
+                {"type": "course", "courseId": "MAT SCI 130"},
+                {"type": "course", "courseId": "MAT SCI 132"},
+                {"type": "course", "courseId": "MAT SCI 143A"},
+                {"type": "course", "courseId": "MAT SCI 150"},
+                {"type": "course", "courseId": "MAT SCI 151"},
+                {"type": "course", "courseId": "MAT SCI 160"},
+                {"type": "course", "courseId": "MAT SCI 161"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Biomedical Devices",
+              "description": "The electrical and computer engineering or mechanical and aerospace engineering courses listed may be used to satisfy the technical breadth requirement.",
+              "needs": 0,
+              "options": [
+                {"type": "course", "courseId": "BIOENGR C131"},
+                {"type": "course", "courseId": "BIOENGR M153"},
+                {"type": "course", "courseId": "BIOENGR 199"},
+                {"type": "course", "courseId": "EC ENGR 102"},
+                {"type": "course", "courseId": "MECH&AE C187L"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

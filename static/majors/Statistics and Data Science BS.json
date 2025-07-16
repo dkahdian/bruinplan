@@ -1,0 +1,132 @@
+{
+  "name": "Statistics and Data Science BS",
+  "overview": "The Statistics and Data Science major is designed to provide a general introduction to the practice of statistics for students who intend to pursue study at the graduate level or seek employment in industry or government. Courses are selected to provide sufficient theoretical background for future graduate-level research work, exposure to modern techniques and practices, and experience in fields of application.",
+  "college": "College of Letters and Science",
+  "department": "Statistics and Data Science",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete seven courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "MATH 31A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 31B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32A"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 32B"
+        },
+        {
+          "type": "course",
+          "courseId": "MATH 33A"
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 20"
+        },
+        {
+          "type": "group",
+          "title": "Elective",
+          "description": "Select one course from: Statistics 10 through 15",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 13 courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "STATS 100A"
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 100B"
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 100C"
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 101A"
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 101B"
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 101C"
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 102A"
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 102B"
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 102C"
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Electives",
+          "description": "Select four courses from the following groups:",
+          "needs": 4,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "MATH 131A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 131B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 151A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 151B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 170B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 171"
+            },
+            {
+              "type": "group",
+              "title": "Statistics Elective",
+              "description": "Select from Statistics 112 through 199 (except courses 147, M148, 182, 184, 186, 188S, and 189).",
+              "needs": 0,
+              "options": [
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

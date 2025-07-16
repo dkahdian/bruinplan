@@ -1,0 +1,110 @@
+{
+  "name": "Asian Religions BA",
+  "overview": "Early acquisition of Asian language skills aids in the timely completion of major requirements and enriches appreciation of Asian cultures. Students are encouraged, therefore, to complete up to a year of language study in approved programs of study abroad.",
+  "college": "College of Letters and Science",
+  "department": "Asian Languages and Cultures",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation_for_the_major",
+      "title": "Preparation for the Major",
+      "description": "Complete two courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Intermediate Sequence of Asian Language",
+          "description": "Select one intermediate sequence in one Asian language offered by the department (e.g., courses listed or equivalent):",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CHIN 6"},
+            {"type": "course", "courseId": "CHIN 10"},
+            {"type": "course", "courseId": "FILIPNO 6"},
+            {"type": "course", "courseId": "HIN-URD 100C"},
+            {"type": "course", "courseId": "INDO 6"},
+            {"type": "course", "courseId": "JAPAN 6"},
+            {"type": "course", "courseId": "JAPAN 10"},
+            {"type": "course", "courseId": "KOREA 6"},
+            {"type": "course", "courseId": "KOREA 10"},
+            {"type": "course", "courseId": "THAI 6"},
+            {"type": "course", "courseId": "VIETMSE 6"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Asian 30 or Introduction to Religions Course",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ASIAN 30"},
+            {"type": "course", "courseId": "ASIAN M60"},
+            {"type": "course", "courseId": "ASIAN M60W"},
+            {"type": "course", "courseId": "ASIAN M61"},
+            {"type": "course", "courseId": "CHIN M60"},
+            {"type": "course", "courseId": "CHIN M60W"},
+            {"type": "course", "courseId": "KOREA M60"},
+            {"type": "course", "courseId": "S ASIAN M60"},
+            {"type": "course", "courseId": "SEASIAN M60"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete eleven upper-division courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Upper-Division Language Courses",
+          "description": "Complete three upper-division language courses in one Asian language offered by the department.",
+          "needs": 3,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Asian Religions Courses",
+          "description": "Complete six upper-division Asian religions courses within the department, including at least one course each concerning religions in China, Japan, Korea, and either South Asia or Southeast Asia.",
+          "needs": 6,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Complete two electives within the department.",
+          "needs": 2,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "The honors program is a three-term sequence, taken in addition to requirements for the major, that culminates in the submission of a 40- to 60-page thesis. The honors program is open to majors with a 3.5 grade-point average in upper-division courses in the major and a 3.0 overall GPA.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Program Courses",
+          "description": "This is an optional program. Complete the three-term sequence.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Thesis Sequence",
+              "description": "Complete all three courses in the honors research sequence.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "ASIAN 198A"},
+                {"type": "course", "courseId": "ASIAN 198B"},
+                {"type": "course", "courseId": "ASIAN 198C"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

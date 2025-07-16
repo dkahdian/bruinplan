@@ -1,0 +1,252 @@
+{
+  "name": "Chicana and Chicano Studies BA",
+  "overview": "The BA program in Chicana and Chicano Studies is committed to the practice of different forms of scholarship and pedagogy and to the promotion of critical thinking about such issues as gender, sexuality, social action, language, race, ethnicity, class, assimilation/acculturation paradigms, and indigenous traditions. The literary and visual arts often function as vehicles for social change and creative empowerment, and so they constitute one focus of the curriculum, that aims to strike a balance among the social sciences, humanities, arts, and the professions. The major prepares students for graduate education in academic and professional fields and for a variety of positions that involve community and social service in the U.S. and abroad.",
+  "college": "College of Letters and Science",
+  "department": "C\u00e9sar E. Ch\u00e1vez Chicana/o and Central American Studies",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete the following two required courses, and Spanish 5 or equivalent:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "CCAS 10A"
+        },
+        {
+          "type": "course",
+          "courseId": "CCAS 10B"
+        },
+        {
+          "type": "course",
+          "courseId": "SPAN 5"
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "A total of 11 upper-division courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "CCAS 101"
+        },
+        {
+          "type": "group",
+          "title": "Service Learning",
+          "description": "Select one course from the following list or from the approved list available in the department each term:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CCAS 100XP"},
+            {"type": "course", "courseId": "CCAS M170XP"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives from Outside Department",
+          "description": "Complete two related study courses from the approved list of courses outside the department (related study includes courses that provide a comparative perspective to Chicana and Chicano studies and/or a contextualization of Chicana and Chicano communities in the world).",
+          "needs": 2,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Advanced Seminar",
+          "description": "Complete the following advanced seminar course or another course by petition to the department chair:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "CCAS 191"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Concentrations",
+          "description": "Select a concentration of four courses in one area listed and two courses in a second area.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Border and Transnational Studies",
+              "description": "Refer to the following courses.",
+              "needs": 0,
+              "options": [
+                {"type": "course", "courseId": "CCAS CM110"},
+                {"type": "course", "courseId": "CCAS 120"},
+                {"type": "course", "courseId": "CCAS M124"},
+                {"type": "course", "courseId": "CCAS M125"},
+                {"type": "course", "courseId": "CCAS M126"},
+                {"type": "course", "courseId": "CCAS M132"},
+                {"type": "course", "courseId": "CCAS 143"},
+                {"type": "course", "courseId": "CCAS M144"},
+                {"type": "course", "courseId": "CCAS CM147"},
+                {"type": "course", "courseId": "CCAS 151"},
+                {"type": "course", "courseId": "CCAS 152"},
+                {"type": "course", "courseId": "CCAS 153A"},
+                {"type": "course", "courseId": "CCAS M154"},
+                {"type": "course", "courseId": "CCAS M155A"},
+                {"type": "course", "courseId": "CCAS M156A"},
+                {"type": "course", "courseId": "CCAS 163"},
+                {"type": "course", "courseId": "CCAS 176"},
+                {"type": "course", "courseId": "CCAS 184"},
+                {"type": "course", "courseId": "CCAS 191"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Expressive Arts",
+              "description": "Refer to the following courses.",
+              "needs": 0,
+              "options": [
+                {"type": "course", "courseId": "CCAS M103C"},
+                {"type": "course", "courseId": "CCAS M103D"},
+                {"type": "course", "courseId": "CCAS M103G"},
+                {"type": "course", "courseId": "CCAS 104"},
+                {"type": "course", "courseId": "CCAS M108A"},
+                {"type": "course", "courseId": "CCAS M115"},
+                {"type": "course", "courseId": "CCAS M116"},
+                {"type": "course", "courseId": "CCAS 117"},
+                {"type": "course", "courseId": "CCAS CM135"},
+                {"type": "course", "courseId": "CCAS M175"},
+                {"type": "course", "courseId": "CCAS M185"},
+                {"type": "course", "courseId": "CCAS M186A"},
+                {"type": "course", "courseId": "CCAS M186AL"},
+                {"type": "course", "courseId": "CCAS M186B"},
+                {"type": "course", "courseId": "CCAS M186BL"},
+                {"type": "course", "courseId": "CCAS M186C"},
+                {"type": "course", "courseId": "CCAS M186CL"},
+                {"type": "course", "courseId": "CCAS M187"},
+                {"type": "course", "courseId": "CCAS 191"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "History, Culture, and Language of Americas",
+              "description": "Refer to the following courses.",
+              "needs": 0,
+              "options": [
+                {"type": "course", "courseId": "CCAS M105A"},
+                {"type": "course", "courseId": "CCAS M105C"},
+                {"type": "course", "courseId": "CCAS 109"},
+                {"type": "course", "courseId": "CCAS CM110"},
+                {"type": "course", "courseId": "CCAS 111"},
+                {"type": "course", "courseId": "CCAS M114"},
+                {"type": "course", "courseId": "CCAS M116"},
+                {"type": "course", "courseId": "CCAS 131"},
+                {"type": "course", "courseId": "CCAS M132"},
+                {"type": "course", "courseId": "CCAS M133"},
+                {"type": "course", "courseId": "CCAS M139"},
+                {"type": "course", "courseId": "CCAS C141"},
+                {"type": "course", "courseId": "CCAS 142"},
+                {"type": "course", "courseId": "CCAS 143"},
+                {"type": "course", "courseId": "CCAS 145B"},
+                {"type": "course", "courseId": "CCAS 146"},
+                {"type": "course", "courseId": "CCAS 157"},
+                {"type": "course", "courseId": "CCAS M158"},
+                {"type": "course", "courseId": "CCAS M159A"},
+                {"type": "course", "courseId": "CCAS M159B"},
+                {"type": "course", "courseId": "CCAS 160"},
+                {"type": "course", "courseId": "CCAS 168A"},
+                {"type": "course", "courseId": "CCAS 168B"},
+                {"type": "course", "courseId": "CCAS 169"},
+                {"type": "course", "courseId": "CCAS 171"},
+                {"type": "course", "courseId": "CCAS M173"},
+                {"type": "course", "courseId": "CCAS 181"},
+                {"type": "course", "courseId": "CCAS M183"},
+                {"type": "course", "courseId": "CCAS 184"},
+                {"type": "course", "courseId": "CCAS M187"},
+                {"type": "course", "courseId": "CCAS 191"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Labor, Law, and Policy Studies",
+              "description": "Refer to the following courses.",
+              "needs": 0,
+              "options": [
+                {"type": "course", "courseId": "CCAS M102"},
+                {"type": "course", "courseId": "CCAS CM106"},
+                {"type": "course", "courseId": "CCAS M119"},
+                {"type": "course", "courseId": "CCAS 120"},
+                {"type": "course", "courseId": "CCAS M121"},
+                {"type": "course", "courseId": "CCAS M122"},
+                {"type": "course", "courseId": "CCAS 123"},
+                {"type": "course", "courseId": "CCAS M127"},
+                {"type": "course", "courseId": "CCAS M128"},
+                {"type": "course", "courseId": "CCAS M130"},
+                {"type": "course", "courseId": "CCAS M148"},
+                {"type": "course", "courseId": "CCAS 149"},
+                {"type": "course", "courseId": "CCAS 150"},
+                {"type": "course", "courseId": "CCAS 151"},
+                {"type": "course", "courseId": "CCAS 152"},
+                {"type": "course", "courseId": "CCAS M156A"},
+                {"type": "course", "courseId": "CCAS M156B"},
+                {"type": "course", "courseId": "CCAS 165"},
+                {"type": "course", "courseId": "CCAS 166"},
+                {"type": "course", "courseId": "CCAS 174AX"},
+                {"type": "course", "courseId": "CCAS 174BX"},
+                {"type": "course", "courseId": "CCAS CM177"},
+                {"type": "course", "courseId": "CCAS 178"},
+                {"type": "course", "courseId": "CCAS C179"},
+                {"type": "course", "courseId": "CCAS 191"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "The Chicana and Chicano Studies honors program provides the opportunity for motivated and dedicated students to undertake a year-long research or creative project with the guidance and supervision of a faculty member. The program is open to all juniors and seniors who have a 3.5 grade-point average in the major, a cumulative GPA of 3.0 or better, and completed 90 or more total units, including Chicana/o and Central American Studies 10A, 10B, 101, and one course from 89, 89HC, 189, or 189HC.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Program Courses",
+          "description": "The proposal, research, data collection, analysis, and writing of the thesis take place in the following courses, which may not be applied toward the major requirements. An honors thesis of at least 30 pages or a significant creative project is required.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Thesis Track",
+              "description": "Complete all three courses for the honors thesis.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "CCAS 198A"},
+                {"type": "course", "courseId": "CCAS 198B"},
+                {"type": "course", "courseId": "CCAS 198C"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optional_thesis",
+      "title": "Optional Multidisciplinary Senior Thesis",
+      "description": "Chicana and Chicano Studies majors have the option during their senior year to enroll in two 199 courses with the intention of producing an undergraduate thesis. The first term includes thesis conceptualization and formulation, along with preliminary data collection for the thesis. The second term entails completion of the data collection, analysis of the data, and writing of the thesis. Enrollment in the two 199 courses is with the advice and consent of a faculty member.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Senior Thesis Courses",
+          "description": "Enroll in two terms of directed research to produce an undergraduate thesis.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Thesis Course Sequence",
+              "description": "Complete two 199 courses.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "CCAS 199"},
+                {"type": "course", "courseId": "CCAS 199"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

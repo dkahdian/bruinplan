@@ -1,0 +1,117 @@
+{
+  "name": "Public Affairs BA",
+  "overview": "The Public Affairs major is a designated capstone major. Students pursuing the major are required to complete a three-quarter experiential learning opportunity. The experiential learning capstone consists of three parts: an internship, seminar, and capstone project.",
+  "college": "Meyer and Renee Luskin School of Public Affairs",
+  "department": "Public Affairs Schoolwide Programs",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete six courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete the following three courses:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PUB AFF 40"},
+            {"type": "course", "courseId": "PUB AFF 60"},
+            {"type": "course", "courseId": "PUB AFF 80"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Additional Courses",
+          "description": "Select three courses from:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PUB AFF 10"},
+            {"type": "course", "courseId": "PUB AFF 20"},
+            {"type": "course", "courseId": "PUB AFF 30"},
+            {"type": "course", "courseId": "PUB AFF 50"},
+            {"type": "course", "courseId": "PUB AFF 70"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete 10 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Theory",
+          "description": "Select two courses from:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "PUB AFF M109"},
+            {"type": "course", "courseId": "PUB AFF 110"},
+            {"type": "course", "courseId": "PUB AFF 111"},
+            {"type": "course", "courseId": "PUB AFF 112"},
+            {"type": "course", "courseId": "PUB AFF 113"},
+            {"type": "course", "courseId": "PUB AFF 114"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Research Methods",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "PUB AFF 115"},
+            {"type": "course", "courseId": "PUB AFF 116"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Sequence",
+          "description": "Complete the following three-term capstone sequence:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "PUB AFF 187AX"},
+            {"type": "course", "courseId": "PUB AFF 187BX"},
+            {"type": "course", "courseId": "PUB AFF 187CX"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Electives",
+          "description": "Complete three additional upper-division public affairs courses.",
+          "needs": 3,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors-program",
+      "title": "Honors Program",
+      "description": "Students who wish to complete an original research thesis, driven by student-defined interests and independent work, may apply to the Public Affairs honors thesis program in the spring of junior year. This is an optional program.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Program Participation",
+          "description": "Choose to complete the Honors Program (optional). If chosen, all courses below are required.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Thesis Sequence",
+              "description": "Enroll in three contract research courses with their Luskin thesis advisor during their senior year. The sequence must be completed over three consecutive quarters, starting in the fall.",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PUB AFF 198A"},
+                {"type": "course", "courseId": "PUB AFF 198B"},
+                {"type": "course", "courseId": "PUB AFF 198C"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

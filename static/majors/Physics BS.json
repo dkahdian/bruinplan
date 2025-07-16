@@ -1,0 +1,280 @@
+{
+  "name": "Physics BS",
+  "overview": "The Physics BS major should be pursued if students intend to continue toward the PhD in Physics. A detailed brochure on the major is available from the Undergraduate Office, 1-707A Physics and Astronomy Building.",
+  "college": "College of Letters and Science",
+  "department": "Physics and Astronomy",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Science",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete 15 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Physics",
+          "description": "Complete the following seven courses. Students may substitute courses from the Physics 1 honors series for the Physics 1 series.",
+          "needs": 7,
+          "options": [
+            {
+              "type": "group",
+              "title": "Mechanics",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1AH"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Oscillations, Waves, Electric and Magnetic Fields",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1BH"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Electrodynamics, Optics, and Special Relativity",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 1CH"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 4AL"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 4BL"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 17"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 32"
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "CHEM 20A"
+        },
+        {
+          "type": "group",
+          "title": "Mathematics",
+          "description": "Complete the following six courses.",
+          "needs": 6,
+          "options": [
+            {
+              "type": "group",
+              "title": "Differential and Integral Calculus",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31AL"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 33A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 33B"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Program in Computing or Computer Science",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "COMPTNG 10A"},
+            {"type": "course", "courseId": "COM SCI 30"},
+            {"type": "course", "courseId": "COM SCI 31"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "major",
+      "title": "The Major",
+      "description": "Refer to the following courses.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Courses",
+          "description": "Complete the following eight courses:",
+          "needs": 8,
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 105A"},
+            {"type": "course", "courseId": "PHYSICS 105B"},
+            {"type": "course", "courseId": "PHYSICS 110A"},
+            {"type": "course", "courseId": "PHYSICS 110B"},
+            {"type": "course", "courseId": "PHYSICS 112"},
+            {"type": "course", "courseId": "PHYSICS 115A"},
+            {"type": "course", "courseId": "PHYSICS 115B"},
+            {"type": "course", "courseId": "PHYSICS 115C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Plan",
+          "description": "The remainder of the course of study consists of a plan, to be worked out by students in consultation with their designated departmental adviser, that details which courses they take to complete the degree.",
+          "needs": 2,
+          "options": [
+            {
+              "type": "group",
+              "title": "Laboratory Requirement",
+              "description": "Select one of the following two options:",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Option 1",
+                  "description": "One course in the Physics 170 series and one course in the Physics 180 series.",
+                  "needs": 2,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Physics 170 Series",
+                      "description": "Select one course from the Physics 170 series.",
+                      "needs": 1,
+                      "options": [
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Physics 180 Series",
+                      "description": "Select one course from the Physics 180 series.",
+                      "needs": 1,
+                      "options": [
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Option 2",
+                  "description": "Two courses in the Physics 180 series.",
+                  "needs": 2,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Physics 180 Series",
+                      "description": "Select two courses from the Physics 180 series.",
+                      "needs": 2,
+                      "options": [
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Upper-Division Electives",
+              "description": "There must be three additional upper-division courses in the plan. It is preferred that the three additional upper-division courses for the plan are selected from:",
+              "needs": 3,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 108"},
+                {"type": "course", "courseId": "PHYSICS 114"},
+                {"type": "course", "courseId": "PHYSICS M122"},
+                {"type": "course", "courseId": "PHYSICS 123"},
+                {"type": "course", "courseId": "PHYSICS 124"},
+                {"type": "course", "courseId": "PHYSICS 126"},
+                {"type": "course", "courseId": "PHYSICS 127"},
+                {"type": "course", "courseId": "PHYSICS 128"},
+                {"type": "course", "courseId": "PHYSICS 132"},
+                {"type": "course", "courseId": "PHYSICS 140A"},
+                {"type": "course", "courseId": "PHYSICS 140B"},
+                {"type": "course", "courseId": "PHYSICS 144"},
+                {"type": "course", "courseId": "PHYSICS 150"},
+                {"type": "course", "courseId": "PHYSICS 170A"},
+                {"type": "course", "courseId": "PHYSICS C186"},
+                {"type": "course", "courseId": "PHYSICS C187A"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "Senior majors in Physics with a 3.5 grade-point average in upper-division mathematics and physics courses are eligible for the honors program in physics. In addition to completing all courses required for the major, students must complete one of the two honors program options.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Options",
+          "description": "Complete one of the two honors program options.",
+          "needs": 1,
+          "options": [
+            {
+              "type": "group",
+              "title": "Research-Based",
+              "description": "Students must complete two 4-unit terms of Physics 199.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "PHYSICS 199"},
+                {"type": "course", "courseId": "PHYSICS 199"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Course-Based",
+              "description": "Students must take 4 units of Physics 197\u2014an in-depth individual study of a physics topic of interest to the student under the guidance of a faculty member and resulting in a written report\u2014and are also required to take Mathematics 115A and two courses selected from Mathematics 120A, 120B, Physics 221A, or 221B.",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 197"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 115A"
+                },
+                {
+                  "type": "group",
+                  "title": "Elective",
+                  "description": "select two courses from:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "MATH 120A"},
+                    {"type": "course", "courseId": "MATH 120B"},
+                    {"type": "course", "courseId": "PHYSICS 221A"},
+                    {"type": "course", "courseId": "PHYSICS 221B"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

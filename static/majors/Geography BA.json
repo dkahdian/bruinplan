@@ -1,0 +1,129 @@
+{
+  "name": "Geography BA",
+  "overview": "The Geography major allows students to combine a broad background in the field with more specific interests and career goals. Students can select classes in several areas of geography such as urban, economic, cultural, environmental, physical, or biogeography. They should consult with the undergraduate adviser to plan a program suitable to their personal objectives.",
+  "college": "College of Letters and Science",
+  "department": "Geography",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "entry-to-major",
+      "title": "Entry to the Major",
+      "description": "Requirements to declare the major for current students and for transfer applicants.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Admission",
+          "description": "To declare the major, students must have completed two geography courses with a grade-point average of 2.0 or better.",
+          "needs": 2,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Transfer Students",
+          "description": "Transfer applicants to the Geography major with 90 or more units must complete as many of the following introductory courses as possible prior to admission to UCLA. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Physical or Biogeography",
+              "description": "Select one physical geography or biogeography course:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "GEOG 1"},
+                {"type": "course", "courseId": "GEOG 2"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Cultural or Economic Geography",
+              "description": "Select one cultural geography or economic geography course:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "GEOG 3"},
+                {"type": "course", "courseId": "GEOG 4"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete three courses (15 units) as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Geography 1 or 2",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "GEOG 1"},
+            {"type": "course", "courseId": "GEOG 2"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Geography 3, 4, or 6",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "GEOG 3"},
+            {"type": "course", "courseId": "GEOG 4"},
+            {"type": "course", "courseId": "GEOG 6"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "STATS 12"
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete 11 upper-division geography courses (44 units minimum).",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Upper-Division Geography Courses",
+          "description": "Complete 11 courses. All geography upper-division courses numbered 100 and higher may be applied toward the major, with a few exceptions. Contact the advising office for more information.",
+          "needs": 11,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors-program",
+      "title": "Honors Program",
+      "description": "The departmental honors program is designed for Geography majors who are interested in completing a research project that culminates in an honors thesis. To qualify for graduation with departmental honors, students must have a cumulative grade-point average (GPA) of 3.5 or better in all upper-division geography courses and a 3.0 overall GPA.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Thesis Track",
+          "description": "Choose to complete the Honors Thesis Track (optional).",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Required Honors Courses",
+              "description": "Students must enroll in Geography 198A and 198B in two consecutive terms and earn grades of A\u2013 or better.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "GEOG 198A"},
+                {"type": "course", "courseId": "GEOG 198B"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

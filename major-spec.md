@@ -3,8 +3,6 @@
 ## Overview
 This document defines the JSON structure for major requirement data files. Major requirements are treated as "meta-courses" where all requirements are prerequisites to completing the major.
 
-**✅ Implementation Status**: Major data specification is fully implemented with sectioned layouts, compound node support, cross-category edge handling, and sophisticated group satisfaction logic.
-
 ## File Structure
 
 ### Root Object
@@ -109,45 +107,13 @@ Each major is divided into logical sections (e.g., "Preparation for the Major", 
 
 ## Extensibility
 
-### Future Course Fields
-Course objects can be extended with additional fields:
-```json
-{
-  "type": "course",
-  "courseId": "MATH 31A",
-  "minGrade": "C-",
-  "minGPA": 2.0,
-  "notes": "or MATH 31L"
-}
-```
-
 ### Missing Prerequisites
 Missing prerequisites are handled automatically by the TypeScript code and do not need to be included in the JSON data.
 
 ## Data Validation Rules
 
-1. **Course References**: All `courseId` values must reference existing courses in the course database
-2. **Section IDs**: Must be unique within a major but not standardized across majors
-3. **Group Logic**: `needs` value must be ≤ number of options in the group
-4. **Nesting**: Groups can contain other groups (unlimited nesting depth supported)
-5. **Required Fields**: All fields marked as required must be present and non-empty
-
-## Implementation Features
-
-### Graph Visualization
-- **Sectioned Layouts**: Major requirements organized into visual sections with compound nodes
-- **Cross-Category Logic**: Intelligent edge hiding between different sections when courses are completed  
-- **Auto-Prerequisites**: Automatic inclusion of missing prerequisites for major requirement courses
-- **Group Satisfaction**: Robust diamond group logic matching prerequisite graph implementation
-- **Smooth Animations**: Always-on positional animations for enhanced user experience
-
-### Data Processing
-- **Incremental Updates**: Efficient graph updates that only modify changed elements
-- **Completion Integration**: Seamless integration with course completion tracking system
-- **Recursive Handling**: Support for unlimited nesting of groups within sections
-- **Section Management**: Dynamic expand/collapse functionality for major sections
-
-## File Naming Convention
-- Files should be stored in `static/majors/`
-- Filename format: `{Major Name}.json` (e.g., "Mathematics BS.json")
-- Use exact major name including degree type for clarity
+1. **Section IDs**: Must be unique within a major but not standardized across majors
+2. **Group Logic**: `needs` value must be ≤ number of options in the group
+3. **Nesting**: Groups can contain other groups (unlimited nesting depth supported)
+4. **Required Fields**: All fields marked as required must be present and non-empty
+5. **Missing data**: Some courses offer a range of courses to choose from rather than exact course numbers. In this case, please leave the options as an empty array, so it can be found and dealt with once the course data is fully loaded.

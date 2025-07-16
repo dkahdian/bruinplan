@@ -1,0 +1,142 @@
+{
+  "name": "Jewish Studies BA",
+  "overview": "Students are encouraged to spend up to one year in Israel either to (1) study with an education abroad program or (2) study at an Israeli university. For information on studying in Israel, contact the Education Abroad Program, 1332 Murphy Hall, 310-825-4889.",
+  "college": "College of Letters and Science",
+  "department": "Near Eastern Languages and Cultures",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete two courses and a foreign language requirement as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "JEWISH M10"
+        },
+        {
+          "type": "group",
+          "title": "Elective",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "AN N EA 10W"},
+            {"type": "course", "courseId": "AN N EA 12W"},
+            {"type": "course", "courseId": "JEWISH M67"},
+            {"type": "course", "courseId": "JEWISH M80"},
+            {"type": "course", "courseId": "JEWISH M82"},
+            {"type": "course", "courseId": "M E STD M50A"},
+            {"type": "course", "courseId": "M E STD M50B"},
+            {"type": "course", "courseId": "M E STD M50CW"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Foreign Language",
+          "description": "Demonstrate proficiency equivalent to level 3 at UCLA in one foreign language (Arabic, Armenian, Hebrew) in consultation with the department.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ARABIC 1C"},
+            {"type": "course", "courseId": "ARMENIA 101C"},
+            {"type": "course", "courseId": "ARMENIA 104C"},
+            {"type": "course", "courseId": "HEBREW 1C"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 11 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Hebrew",
+          "description": "Select three courses from the following list. Students may substitute another upper-division language (Judeo-Arabic, Judeo-Persian, Ladino, Yiddish) if they can demonstrate its integral role in their specific course of study.",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "HEBREW 102A"},
+            {"type": "course", "courseId": "HEBREW 102B"},
+            {"type": "course", "courseId": "HEBREW 102C"},
+            {"type": "course", "courseId": "HEBREW 103A"},
+            {"type": "course", "courseId": "HEBREW 103B"},
+            {"type": "course", "courseId": "HEBREW 103C"},
+            {"type": "course", "courseId": "HEBREW 110A"},
+            {"type": "course", "courseId": "HEBREW 110B"},
+            {"type": "course", "courseId": "HEBREW 111A"},
+            {"type": "course", "courseId": "HEBREW 111B"},
+            {"type": "course", "courseId": "HEBREW 111C"},
+            {"type": "course", "courseId": "HEBREW 112"},
+            {"type": "course", "courseId": "HEBREW M113"},
+            {"type": "course", "courseId": "HEBREW 120"},
+            {"type": "course", "courseId": "HEBREW 125"},
+            {"type": "course", "courseId": "HEBREW 130"},
+            {"type": "course", "courseId": "HEBREW 135"},
+            {"type": "course", "courseId": "HEBREW C140"},
+            {"type": "course", "courseId": "HEBREW 170"},
+            {"type": "course", "courseId": "HEBREW 180A"},
+            {"type": "course", "courseId": "HEBREW 180B"},
+            {"type": "course", "courseId": "HEBREW 188FL"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Jewish Studies",
+          "description": "Select two courses from:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "JEWISH 140A"},
+            {"type": "course", "courseId": "JEWISH 140B"},
+            {"type": "course", "courseId": "JEWISH M142"},
+            {"type": "course", "courseId": "JEWISH M144"},
+            {"type": "course", "courseId": "JEWISH M178"},
+            {"type": "course", "courseId": "JEWISH M181"},
+            {"type": "course", "courseId": "JEWISH M182A"},
+            {"type": "course", "courseId": "JEWISH M182B"},
+            {"type": "course", "courseId": "JEWISH M182C"},
+            {"type": "course", "courseId": "JEWISH M184A"},
+            {"type": "course", "courseId": "JEWISH M184B"},
+            {"type": "course", "courseId": "JEWISH M184C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Electives",
+          "description": "Select six upper-division elective courses from the Hebrew or Jewish studies subject areas, or from the following list:",
+          "needs": 6,
+          "options": [
+            {"type": "course", "courseId": "AN N EA M135"},
+            {"type": "course", "courseId": "AN N EA 162"},
+            {"type": "course", "courseId": "AN N EA M170"},
+            {"type": "course", "courseId": "ENGL 111A"},
+            {"type": "course", "courseId": "ENGL 111C"},
+            {"type": "course", "courseId": "GERMAN 109"},
+            {"type": "course", "courseId": "HIST C191F"},
+            {"type": "course", "courseId": "IRANIAN 130"},
+            {"type": "course", "courseId": "IRANIAN 131"},
+            {"type": "course", "courseId": "IRANIAN 132"},
+            {"type": "course", "courseId": "IRANIAN M178"},
+            {"type": "course", "courseId": "POL SCI 132A"},
+            {"type": "course", "courseId": "POL SCI M132B"},
+            {"type": "course", "courseId": "RELIGN 120"},
+            {"type": "course", "courseId": "SEMITIC 130"},
+            {"type": "course", "courseId": "YIDDSH 101A"},
+            {"type": "course", "courseId": "YIDDSH 101B"},
+            {"type": "course", "courseId": "YIDDSH 101C"},
+            {"type": "course", "courseId": "YIDDSH 102A"},
+            {"type": "course", "courseId": "YIDDSH 102B"},
+            {"type": "course", "courseId": "YIDDSH 102C"},
+            {"type": "course", "courseId": "YIDDSH 121A"},
+            {"type": "course", "courseId": "YIDDSH 121B"},
+            {"type": "course", "courseId": "YIDDSH 121C"},
+            {"type": "course", "courseId": "YIDDSH 130"},
+            {"type": "course", "courseId": "YIDDSH 131A"},
+            {"type": "course", "courseId": "YIDDSH 131B"},
+            {"type": "course", "courseId": "YIDDSH 131C"}
+          ]
+        }
+      ]
+    }
+  ]
+}

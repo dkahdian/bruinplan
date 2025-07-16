@@ -1,0 +1,192 @@
+{
+  "name": "Sociology BA",
+  "overview": "Upon completion of the Sociology BA, students will be able to critically evaluate social and political arguments, formulate convincing arguments using sociological evidence, understand the difference between individual and collective explanations of behavior, and be familiar with major sociological methods and theoretical perspectives.",
+  "college": "College of Letters and Science",
+  "department": "Sociology",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete three courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Sociology",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "SOCIOL 1"},
+            {"type": "course", "courseId": "SOCIOL 20"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Political Science or Statistics",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "POL SCI 6"},
+            {"type": "course", "courseId": "STATS 10"},
+            {"type": "course", "courseId": "STATS 13"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 11 upper-division courses as follows. Students should complete course 101 and the core courses before taking other upper-division courses.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Theory",
+          "description": "Complete the following two courses:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "SOCIOL 101"},
+            {"type": "course", "courseId": "SOCIOL 102"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Methods",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "SOCIOL 106A"},
+            {"type": "course", "courseId": "SOCIOL 106B"},
+            {"type": "course", "courseId": "SOCIOL 110"},
+            {"type": "course", "courseId": "SOCIOL 111"},
+            {"type": "course", "courseId": "SOCIOL 112"},
+            {"type": "course", "courseId": "SOCIOL 113"},
+            {"type": "course", "courseId": "SOCIOL CM124A"},
+            {"type": "course", "courseId": "SOCIOL 191H"},
+            {"type": "course", "courseId": "STATS 112"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Core Areas",
+          "description": "Select one course from each of the following core areas:",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Interactions",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "SOCIOL 111"},
+                {"type": "course", "courseId": "SOCIOL CM124A"},
+                {"type": "course", "courseId": "SOCIOL CM125"},
+                {"type": "course", "courseId": "SOCIOL 126"},
+                {"type": "course", "courseId": "SOCIOL 130"},
+                {"type": "course", "courseId": "SOCIOL 132"},
+                {"type": "course", "courseId": "SOCIOL 133"},
+                {"type": "course", "courseId": "SOCIOL 134"},
+                {"type": "course", "courseId": "SOCIOL 140"},
+                {"type": "course", "courseId": "SOCIOL 152"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Institutions and Social Processes",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "SOCIOL 116"},
+                {"type": "course", "courseId": "SOCIOL 121"},
+                {"type": "course", "courseId": "SOCIOL M139"},
+                {"type": "course", "courseId": "SOCIOL 140"},
+                {"type": "course", "courseId": "SOCIOL 143"},
+                {"type": "course", "courseId": "SOCIOL 151"},
+                {"type": "course", "courseId": "SOCIOL 158"},
+                {"type": "course", "courseId": "SOCIOL 172"},
+                {"type": "course", "courseId": "SOCIOL 173"},
+                {"type": "course", "courseId": "SOCIOL M174"},
+                {"type": "course", "courseId": "SOCIOL M175"},
+                {"type": "course", "courseId": "SOCIOL M176"},
+                {"type": "course", "courseId": "SOCIOL 181B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Power and Inequality",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "SOCIOL M115"},
+                {"type": "course", "courseId": "SOCIOL 122"},
+                {"type": "course", "courseId": "SOCIOL 123"},
+                {"type": "course", "courseId": "SOCIOL M139"},
+                {"type": "course", "courseId": "SOCIOL 147A"},
+                {"type": "course", "courseId": "SOCIOL M155"},
+                {"type": "course", "courseId": "SOCIOL 156"},
+                {"type": "course", "courseId": "SOCIOL 157"},
+                {"type": "course", "courseId": "SOCIOL M161"},
+                {"type": "course", "courseId": "SOCIOL M162"},
+                {"type": "course", "courseId": "SOCIOL M164"},
+                {"type": "course", "courseId": "SOCIOL M165"},
+                {"type": "course", "courseId": "SOCIOL 181A"},
+                {"type": "course", "courseId": "SOCIOL 182"},
+                {"type": "course", "courseId": "SOCIOL 183"},
+                {"type": "course", "courseId": "SOCIOL 185"},
+                {"type": "course", "courseId": "SOCIOL 186"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Sociology Electives",
+          "description": "Complete any five upper-division sociology elective courses.",
+          "needs": 5,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "specializations_and_honors",
+      "title": "Specializations & Honors",
+      "description": "Students may optionally complete the Honors Program or a specialization in Computing.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Optional Tracks",
+          "description": "Students may select an optional track.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Program",
+              "description": "After acceptance into the honors program, students are required to take courses 191H, 198A, 198B, and 198C which may be applied as electives toward the major requirements.",
+              "needs": 4,
+              "options": [
+                {"type": "course", "courseId": "SOCIOL 191H"},
+                {"type": "course", "courseId": "SOCIOL 198A"},
+                {"type": "course", "courseId": "SOCIOL 198B"},
+                {"type": "course", "courseId": "SOCIOL 198C"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Computing Specialization",
+              "description": "Majors in Sociology may select a specialization in Computing by satisfying all the requirements for a bachelor\u2019s degree in the major, and completing the following requirements.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "COMPTNG 10A"},
+                {"type": "course", "courseId": "COMPTNG 10B"},
+                {"type": "course", "courseId": "COMPTNG 10C"},
+                {"type": "course", "courseId": "SOCIOL 111"},
+                {"type": "course", "courseId": "SOCIOL 113"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

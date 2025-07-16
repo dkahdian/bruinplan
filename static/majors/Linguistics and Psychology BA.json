@@ -1,0 +1,291 @@
+{
+  "name": "Linguistics and Psychology BA",
+  "overview": "The major combines the basic courses of the general linguistics program with that of psychology. Students are able to study and explain human and animal behavior, both normal and abnormal, as well as enrich their knowledge about the nature, grammar, and history of human language.",
+  "college": "College of Letters and Science",
+  "department": "Linguistics",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete five courses and the foreign language requirement as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "LING 20"
+        },
+        {
+          "type": "course",
+          "courseId": "PSYCH 10"
+        },
+        {
+          "type": "course",
+          "courseId": "PSYCH 85"
+        },
+        {
+          "type": "course",
+          "courseId": "PSYCH 100A"
+        },
+        {
+          "type": "course",
+          "courseId": "PSYCH 100B"
+        },
+        {
+          "type": "group",
+          "title": "Foreign Language",
+          "description": "Complete the equivalent to the sixth level of one foreign language or the equivalent to the third level of two different foreign languages.",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Recommended",
+          "description": "The following course is strongly recommended:",
+          "needs": 0,
+          "options": [
+            {"type": "course", "courseId": "COMPTNG 10A"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-major",
+      "title": "The Major",
+      "description": "Complete 11 upper-division courses (six in linguistics and five in psychology) as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Required Linguistics Courses",
+          "description": "Complete five required courses in Linguistics.",
+          "needs": 5,
+          "options": [
+            {
+              "type": "group",
+              "title": "Phonetics",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "LING 102"},
+                {"type": "course", "courseId": "LING 103"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Phonology",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "LING 119A"},
+                {"type": "course", "courseId": "LING 120A"}
+              ]
+            },
+            {
+              "type": "course",
+              "courseId": "LING 120B"
+            },
+            {
+              "type": "group",
+              "title": "Additional Linguistics Courses",
+              "description": "Select two courses from:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "LING 115"},
+                {"type": "course", "courseId": "LING 130"},
+                {"type": "course", "courseId": "LING 132"},
+                {"type": "course", "courseId": "LING C135"},
+                {"type": "course", "courseId": "LING C140"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Upper-Division Linguistics Elective",
+          "description": "Complete one upper-division elective course in the Linguistics Department (minimum 4 graded units; multiple-listed courses may not be applied).",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Recommended Linguistics Courses",
+          "description": "These courses are strongly recommended.",
+          "needs": 0,
+          "options": [
+            {"type": "course", "courseId": "LING 130"},
+            {"type": "course", "courseId": "LING 132"},
+            {"type": "course", "courseId": "LING C135"},
+            {"type": "course", "courseId": "LING 165A"},
+            {"type": "course", "courseId": "LING 165B"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Required Psychology Courses",
+          "description": "Complete five required courses in Psychology.",
+          "needs": 5,
+          "options": [
+            {
+              "type": "course",
+              "courseId": "PSYCH 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 121"
+            },
+            {
+              "type": "group",
+              "title": "Additional Psychology",
+              "description": "Select one course from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PSYCH 130"},
+                {"type": "course", "courseId": "PSYCH 133B"},
+                {"type": "course", "courseId": "PSYCH 133E"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Psychology Electives",
+              "description": "Select two courses from:",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "PSYCH 115"},
+                {"type": "course", "courseId": "PSYCH M116A"},
+                {"type": "course", "courseId": "PSYCH M117C"},
+                {"type": "course", "courseId": "PSYCH 118"},
+                {"type": "course", "courseId": "PSYCH M119L"},
+                {"type": "course", "courseId": "PSYCH 124A"},
+                {"type": "course", "courseId": "PSYCH 124C"},
+                {"type": "course", "courseId": "PSYCH 130"},
+                {"type": "course", "courseId": "PSYCH 133B"},
+                {"type": "course", "courseId": "PSYCH 133C"},
+                {"type": "course", "courseId": "PSYCH 133E"},
+                {"type": "course", "courseId": "PSYCH 133F"},
+                {"type": "course", "courseId": "PSYCH 186A"},
+                {"type": "course", "courseId": "PSYCH 186B"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "title": "Honors Program",
+      "description": "Departmental honors are awarded at graduation to those students who have a grade-point average of 3.6 or better in their junior and senior years and who have received a grade of A in Linguistics 198A and 198B or in 199.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Enroll in the Honors Program",
+          "description": "The honors program is optional.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Honors Coursework",
+              "description": "Complete one of the following options:",
+              "needs": 1,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Honors Research Sequence",
+                  "description": "Complete both courses:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "LING 198A"},
+                    {"type": "course", "courseId": "LING 198B"}
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 199"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing-specialization",
+      "title": "Computing Specialization",
+      "description": "Students may select a specialization in Computing by (1) satisfying all the requirements for a bachelor\u2019s degree in the specified major and (2) completing the following requirements. Students graduate with a bachelor\u2019s degree in their major and a specialization in Computing.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Complete the Computing Specialization",
+          "description": "The computing specialization is optional.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Computing Specialization Requirements",
+              "description": "Complete all requirements for the specialization.",
+              "needs": 3,
+              "options": [
+                {
+                  "type": "group",
+                  "title": "Introduction to Computing",
+                  "description": "Select one series:",
+                  "needs": 1,
+                  "options": [
+                    {
+                      "type": "group",
+                      "title": "Program in Computing Series",
+                      "description": "Complete all three courses:",
+                      "needs": 3,
+                      "options": [
+                        {"type": "course", "courseId": "COMPTNG 10A"},
+                        {"type": "course", "courseId": "COMPTNG 10B"},
+                        {"type": "course", "courseId": "COMPTNG 10C"}
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "title": "Computer Science Series",
+                      "description": "Complete both courses:",
+                      "needs": 2,
+                      "options": [
+                        {"type": "course", "courseId": "COM SCI 31"},
+                        {"type": "course", "courseId": "COM SCI 32"}
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Required Core Courses",
+                  "description": "Complete both courses:",
+                  "needs": 2,
+                  "options": [
+                    {"type": "course", "courseId": "LING 185A"},
+                    {"type": "course", "courseId": "MATH 61"}
+                  ]
+                },
+                {
+                  "type": "group",
+                  "title": "Linguistics Elective",
+                  "description": "Select one course from:",
+                  "needs": 1,
+                  "options": [
+                    {"type": "course", "courseId": "LING C104"},
+                    {"type": "course", "courseId": "LING 127"},
+                    {"type": "course", "courseId": "LING 132"},
+                    {"type": "course", "courseId": "LING 165A"},
+                    {"type": "course", "courseId": "LING 165B"},
+                    {"type": "course", "courseId": "LING 165C"},
+                    {"type": "course", "courseId": "LING 180"},
+                    {"type": "course", "courseId": "LING 185B"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

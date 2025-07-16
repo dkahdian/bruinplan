@@ -1,0 +1,149 @@
+{
+  "name": "Spanish and Community and Culture BA",
+  "overview": "The Spanish and Community and Culture major is a designated capstone major. Students participate in community-based experiential learning courses coupled with elective and adjunct courses. Reflective journals, final projects, and in-class presentations are required. Through their capstone work, students should have mastery of the Spanish language, ability to conduct and interpret research to determine the needs of specific communities, critical understanding and ability to apply theories within a service context, sensitivity to diversity and cultural differences, and ability to perform scholarly presentations that tie current issues to research and theory.",
+  "college": "College of Letters and Science",
+  "department": "Spanish and Portuguese",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete four courses as follows:",
+      "requirements": [
+        {
+          "type": "course",
+          "courseId": "SPAN 42"
+        },
+        {
+          "type": "course",
+          "courseId": "SPAN 44"
+        },
+        {
+          "type": "group",
+          "title": "Advanced Spanish Composition",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "SPAN 25"},
+            {"type": "course", "courseId": "SPAN 27"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Language Studies",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "SPAN M35"},
+            {"type": "course", "courseId": "PORTGSE M35"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 10 courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Spanish Grammar",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "SPAN 100A"},
+            {"type": "course", "courseId": "SPAN 100B"}
+          ]
+        },
+        {
+          "type": "course",
+          "courseId": "SPAN 119"
+        },
+        {
+          "type": "group",
+          "title": "Spanish Literature, Culture, Linguistics, or Media Studies",
+          "description": "Select three courses from:",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "SPAN 130"},
+            {"type": "course", "courseId": "SPAN 135"},
+            {"type": "course", "courseId": "SPAN 140"},
+            {"type": "course", "courseId": "SPAN 150"},
+            {"type": "course", "courseId": "SPAN 155"},
+            {"type": "course", "courseId": "SPAN 160"},
+            {"type": "course", "courseId": "SPAN 170"},
+            {"type": "course", "courseId": "SPAN 175"},
+            {"type": "course", "courseId": "SPAN 180"},
+            {"type": "course", "courseId": "SPAN 195"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Interdisciplinary Studies",
+          "description": "Select two courses from:",
+          "needs": 2,
+          "options": [
+            {"type": "course", "courseId": "CCAS 100XP"},
+            {"type": "course", "courseId": "CCAS CM106"},
+            {"type": "course", "courseId": "CCAS M119"},
+            {"type": "course", "courseId": "CCAS 120"},
+            {"type": "course", "courseId": "CCAS M121"},
+            {"type": "course", "courseId": "CCAS M122"},
+            {"type": "course", "courseId": "CCAS 131"},
+            {"type": "course", "courseId": "CCAS M144"},
+            {"type": "course", "courseId": "CCAS 149"},
+            {"type": "course", "courseId": "CCAS 181"},
+            {"type": "course", "courseId": "SOCIOL M155"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Capstone Community-Based and Experiential Learning Courses (15 units)",
+          "description": "Complete Spanish M165XP once and M172XP twice (may be repeated with topic change).",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "SPAN M165XP"},
+            {"type": "course", "courseId": "SPAN M172XP"},
+            {"type": "course", "courseId": "SPAN M172XP"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "The departmental honors program is open to majors who have completed a minimum of six upper-division major courses with a 3.7 grade-point average or better in those six courses. Eligibility is verified by the departmental counselor.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Honors Thesis Requirement",
+          "description": "This track is optional. On the basis of their coursework and special interests, students consult with a faculty member to formulate a research project that they pursue under the faculty member\u2019s guidance by choosing one of the following two-course sequences. Note: These courses may not be applied toward the major.",
+          "needs": 0,
+          "options": [
+            {
+              "type": "group",
+              "title": "Spanish Thesis Track",
+              "description": "Complete the two-course sequence for a final thesis of approximately 25 to 30 pages.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "SPAN 198A"},
+                {"type": "course", "courseId": "SPAN 198B"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Portuguese Thesis Track",
+              "description": "Complete the two-course sequence for a final thesis of approximately 25 to 30 pages.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "PORTGSE 198A"},
+                {"type": "course", "courseId": "PORTGSE 198B"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

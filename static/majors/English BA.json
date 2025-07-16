@@ -1,0 +1,312 @@
+{
+  "name": "English BA",
+  "overview": "Students pursuing the Bachelor of Arts degree in English are expected to meet with the undergraduate counselors and undergraduate faculty adviser to plan and follow a course of study that incorporates their interests and goals with the fulfillment of requirements for the degree.",
+  "college": "College of Letters and Science",
+  "department": "English",
+  "degreeLevel": "Undergraduate",
+  "degreeObjective": "Bachelor of Arts",
+  "sections": [
+    {
+      "id": "preparation",
+      "title": "Preparation for the Major",
+      "description": "Complete five courses and a foreign language requirement as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "English Composition 3",
+          "description": "Complete the following course:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ENGCOMP 3"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "English 4W series",
+          "description": "Select one course from:",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ENGL 4W"},
+            {"type": "course", "courseId": "ENGL 4HW"},
+            {"type": "course", "courseId": "ENGL 4WX"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "English 10 series",
+          "description": "Complete the following three courses in the stated sequence (each course is a requisite for the next course):",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "ENGL 10A"},
+            {"type": "course", "courseId": "ENGL 10B"},
+            {"type": "course", "courseId": "ENGL 10C"}
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Foreign Language",
+          "description": "Complete either (1) level five or equivalent in any one foreign language or (2) level three or equivalent in one foreign language and two additional courses in foreign language or literature in translation.",
+          "needs": 1,
+          "options": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_major",
+      "title": "The Major",
+      "description": "Complete 10 4- or 5-unit upper-division English courses as follows:",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Historical Period Courses",
+          "description": "Select four historical period courses, one from each of the following four periods:",
+          "needs": 4,
+          "options": [
+            {
+              "type": "group",
+              "title": "Literatures in English to 1500",
+              "description": "Select from English 140A through 148 or indicated sections of 149:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ENGL 149"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Literatures in English, 1500 to 1700",
+              "description": "Select from English 150A through 157, 166A, or indicated sections of 159 or 159R:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ENGL 166A"},
+                {"type": "course", "courseId": "ENGL 159"},
+                {"type": "course", "courseId": "ENGL 159R"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Literatures in English, 1700 to 1850",
+              "description": "Select from English 160A through 165C, 166B through 168, or indicated sections of 169, 169R, or 176:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ENGL 166B"},
+                {"type": "course", "courseId": "ENGL 166C"},
+                {"type": "course", "courseId": "ENGL 167A"},
+                {"type": "course", "courseId": "ENGL 167B"},
+                {"type": "course", "courseId": "ENGL 168"},
+                {"type": "course", "courseId": "ENGL 169"},
+                {"type": "course", "courseId": "ENGL 169R"},
+                {"type": "course", "courseId": "ENGL 176"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Literatures in English, 1850 to present",
+              "description": "Select courses from:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ENGL M101B"},
+                {"type": "course", "courseId": "ENGL M101C"},
+                {"type": "course", "courseId": "ENGL M102A"},
+                {"type": "course", "courseId": "ENGL M102B"},
+                {"type": "course", "courseId": "ENGL M104A"},
+                {"type": "course", "courseId": "ENGL M104B"},
+                {"type": "course", "courseId": "ENGL M104C"},
+                {"type": "course", "courseId": "ENGL M104D"},
+                {"type": "course", "courseId": "ENGL M105B"},
+                {"type": "course", "courseId": "ENGL M105C"},
+                {"type": "course", "courseId": "ENGL M105D"},
+                {"type": "course", "courseId": "ENGL M105E"},
+                {"type": "course", "courseId": "ENGL 116B"},
+                {"type": "course", "courseId": "ENGL 130"},
+                {"type": "course", "courseId": "ENGL 131"},
+                {"type": "course", "courseId": "ENGL 164B"},
+                {"type": "course", "courseId": "ENGL 164C"},
+                {"type": "course", "courseId": "ENGL 164D"},
+                {"type": "course", "courseId": "ENGL 167A"},
+                {"type": "course", "courseId": "ENGL 167B"},
+                {"type": "course", "courseId": "ENGL 168"},
+                {"type": "course", "courseId": "ENGL 170A"},
+                {"type": "course", "courseId": "ENGL 170B"},
+                {"type": "course", "courseId": "ENGL 170C"},
+                {"type": "course", "courseId": "ENGL 171A"},
+                {"type": "course", "courseId": "ENGL 171B"},
+                {"type": "course", "courseId": "ENGL 171C"},
+                {"type": "course", "courseId": "ENGL 172A"},
+                {"type": "course", "courseId": "ENGL 172B"},
+                {"type": "course", "courseId": "ENGL 172C"},
+                {"type": "course", "courseId": "ENGL 173A"},
+                {"type": "course", "courseId": "ENGL 173B"},
+                {"type": "course", "courseId": "ENGL 173C"},
+                {"type": "course", "courseId": "ENGL 174A"},
+                {"type": "course", "courseId": "ENGL 174B"},
+                {"type": "course", "courseId": "ENGL 174C"},
+                {"type": "course", "courseId": "ENGL 179"},
+                {"type": "course", "courseId": "ENGL 179R"},
+                {"type": "course", "courseId": "ENGL 176"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Breadth Courses",
+          "description": "Complete three breadth courses, one course from each of three of the following four areas:",
+          "needs": 3,
+          "options": [
+            {
+              "type": "group",
+              "title": "Gender, Race, Ethnicity, Disability, and Sexuality Studies",
+              "description": "Select from English 100 through 109, or the following courses:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ENGL M126"},
+                {"type": "course", "courseId": "ENGL 135"},
+                {"type": "course", "courseId": "ENGL 155"},
+                {"type": "course", "courseId": "ENGL 163C"},
+                {"type": "course", "courseId": "ENGL 165B"},
+                {"type": "course", "courseId": "ENGL 166C"},
+                {"type": "course", "courseId": "ENGL 119"},
+                {"type": "course", "courseId": "ENGL 139"},
+                {"type": "course", "courseId": "ENGL 149"},
+                {"type": "course", "courseId": "ENGL 159"},
+                {"type": "course", "courseId": "ENGL 159R"},
+                {"type": "course", "courseId": "ENGL 169"},
+                {"type": "course", "courseId": "ENGL 169R"},
+                {"type": "course", "courseId": "ENGL 179"},
+                {"type": "course", "courseId": "ENGL 179R"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Imperial, Transnational, and Postcolonial Studies",
+              "description": "Select from the following courses:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ENGL M105A"},
+                {"type": "course", "courseId": "ENGL M105B"},
+                {"type": "course", "courseId": "ENGL M105C"},
+                {"type": "course", "courseId": "ENGL M105D"},
+                {"type": "course", "courseId": "ENGL 106"},
+                {"type": "course", "courseId": "ENGL 112D"},
+                {"type": "course", "courseId": "ENGL 128"},
+                {"type": "course", "courseId": "ENGL 130"},
+                {"type": "course", "courseId": "ENGL 131"},
+                {"type": "course", "courseId": "ENGL 132"},
+                {"type": "course", "courseId": "ENGL 133"},
+                {"type": "course", "courseId": "ENGL 134"},
+                {"type": "course", "courseId": "ENGL 135"},
+                {"type": "course", "courseId": "ENGL 154"},
+                {"type": "course", "courseId": "ENGL 157"},
+                {"type": "course", "courseId": "ENGL 163B"},
+                {"type": "course", "courseId": "ENGL 164D"},
+                {"type": "course", "courseId": "ENGL 165A"},
+                {"type": "course", "courseId": "ENGL 166A"},
+                {"type": "course", "courseId": "ENGL 166B"},
+                {"type": "course", "courseId": "ENGL 176"},
+                {"type": "course", "courseId": "ENGL 149"},
+                {"type": "course", "courseId": "ENGL 159"},
+                {"type": "course", "courseId": "ENGL 159R"},
+                {"type": "course", "courseId": "ENGL 169"},
+                {"type": "course", "courseId": "ENGL 169R"},
+                {"type": "course", "courseId": "ENGL 179"},
+                {"type": "course", "courseId": "ENGL 179R"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Genre Studies, Interdisciplinary Studies, Critical Theory",
+              "description": "Select from English 111A through 129, English 171A through 177, or the following courses:",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ENGL 144"},
+                {"type": "course", "courseId": "ENGL 146"},
+                {"type": "course", "courseId": "ENGL 147"},
+                {"type": "course", "courseId": "ENGL 153"},
+                {"type": "course", "courseId": "ENGL 156"},
+                {"type": "course", "courseId": "ENGL 161A"},
+                {"type": "course", "courseId": "ENGL 161B"},
+                {"type": "course", "courseId": "ENGL 161C"},
+                {"type": "course", "courseId": "ENGL 163A"},
+                {"type": "course", "courseId": "ENGL 163C"},
+                {"type": "course", "courseId": "ENGL 164A"},
+                {"type": "course", "courseId": "ENGL 164B"},
+                {"type": "course", "courseId": "ENGL 164C"},
+                {"type": "course", "courseId": "ENGL 164D"},
+                {"type": "course", "courseId": "ENGL 167A"},
+                {"type": "course", "courseId": "ENGL 167B"},
+                {"type": "course", "courseId": "ENGL 149"},
+                {"type": "course", "courseId": "ENGL 159"},
+                {"type": "course", "courseId": "ENGL 159R"},
+                {"type": "course", "courseId": "ENGL 169"},
+                {"type": "course", "courseId": "ENGL 169R"},
+                {"type": "course", "courseId": "ENGL 179"},
+                {"type": "course", "courseId": "ENGL 179R"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Creative Writing",
+              "description": "Admission to creative writing workshops (courses 136, 137, M138) is by application only.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "ENGL 136A"},
+                {"type": "course", "courseId": "ENGL 136B"},
+                {"type": "course", "courseId": "ENGL 137A"},
+                {"type": "course", "courseId": "ENGL 137B"},
+                {"type": "course", "courseId": "ENGL M138"}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Elective Courses",
+          "description": "Complete two elective courses (English 195CE is not applicable).",
+          "needs": 2,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Seminar Course",
+          "description": "One seminar from course 180 through 184, or M191A through M191E.",
+          "needs": 1,
+          "options": [
+            {"type": "course", "courseId": "ENGL M191A"},
+            {"type": "course", "courseId": "ENGL M191B"},
+            {"type": "course", "courseId": "ENGL M191C"},
+            {"type": "course", "courseId": "ENGL M191D"},
+            {"type": "course", "courseId": "ENGL M191E"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honors_program",
+      "title": "Honors Program",
+      "description": "Students must take one theory course from English 120 through 128 no later than winter quarter of the junior year. In spring quarter of the junior year, students must take course 191H. During fall and winter quarters of the senior year, students must take courses 198A and 198B, in which they write a thesis under the direction of a faculty member.",
+      "requirements": [
+        {
+          "type": "group",
+          "title": "Theory",
+          "description": "Select one course from English 120 through 128",
+          "needs": 1,
+          "options": [
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Honors Research",
+          "description": "Refer to the following courses",
+          "needs": 3,
+          "options": [
+            {"type": "course", "courseId": "ENGL 191H"},
+            {"type": "course", "courseId": "ENGL 198A"},
+            {"type": "course", "courseId": "ENGL 198B"}
+          ]
+        }
+      ]
+    }
+  ]
+}
