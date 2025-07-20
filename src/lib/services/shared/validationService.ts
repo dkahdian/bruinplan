@@ -77,7 +77,7 @@ export class ValidationService {
     const errors: ValidationError[] = [];
     
     const checkRequirementRecursive = (requirement: CourseRequirement, addErrors: boolean = true): boolean => {
-      if (requirement.type === 'Group') {
+      if (requirement.type === 'group') {
         // Group requirement - check if enough options are satisfied
         // First pass: check satisfaction without adding errors
         const satisfiedOptions = requirement.options.filter((option: CourseRequirement) => 
@@ -97,7 +97,7 @@ export class ValidationService {
             
             // Get course IDs from unsatisfied options
             const courseIds = unsatisfiedOptions
-              .filter(option => option.type === 'Requisite' || option.type === 'Recommended')
+              .filter(option => option.type === 'requisite')
               .map(option => (option as any).course)
               .filter(Boolean);
             
@@ -121,7 +121,7 @@ export class ValidationService {
         }
       }
       
-      if (requirement.type === 'Requisite' || requirement.type === 'Recommended') {
+      if (requirement.type === 'requisite') {
         // Single course requirement
         const prereqCourse = requirement.course;
         const prereqQuarter = schedules[prereqCourse];
@@ -129,8 +129,8 @@ export class ValidationService {
         if (!prereqQuarter) {
           // Not scheduled at all
           if (addErrors) {
-            const errorType = requirement.type === 'Requisite' && 
-                             (requirement as any).level === 'Enforced' ? 'error' : 'warning';
+            // All prerequisites are treated as warnings now
+            const errorType = 'warning';
             
             errors.push({
               type: errorType,
@@ -146,8 +146,8 @@ export class ValidationService {
         // Check if prerequisite is scheduled before this course
         if (prereqQuarter !== 1 && prereqQuarter >= quarterCode) {
           if (addErrors) {
-            const errorType = requirement.type === 'Requisite' && 
-                             (requirement as any).level === 'Enforced' ? 'error' : 'warning';
+            // All prerequisites are treated as warnings now
+            const errorType = 'warning';
             
             errors.push({
               type: errorType,

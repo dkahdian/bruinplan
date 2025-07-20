@@ -4,7 +4,6 @@
 export interface LegendState {
   isExpanded: boolean;
   showWarnings: boolean;
-  showRecommended: boolean;
   showCompletedCourses: boolean;
 }
 
@@ -13,7 +12,6 @@ const STORAGE_KEY = 'bruinplan-legend-state';
 const DEFAULT_STATE: LegendState = {
   isExpanded: true,
   showWarnings: true,
-  showRecommended: true,
   showCompletedCourses: true
 };
 
@@ -37,7 +35,6 @@ export function loadLegendState(): LegendState {
     if (
       typeof parsed.isExpanded === 'boolean' &&
       typeof parsed.showWarnings === 'boolean' &&
-      typeof parsed.showRecommended === 'boolean' &&
       typeof parsed.showCompletedCourses === 'boolean'
     ) {
       return parsed;

@@ -1,7 +1,7 @@
 # Course Data Specification
 
 ## Overview
-This document defines the JSON structure for individual course data files. Course data includes prerequisites, descriptions, and metadata needed for the prerequisite graph visualization.
+This document defines the JSON structure for individual courses. Course data includes prerequisites, descriptions, and metadata needed for the prerequisite graph visualization.
 
 **✅ Implementation Status**: Course data specification is fully implemented with comprehensive prerequisite handling, equivalent course support, and integration with the graph visualization system.
 
@@ -37,17 +37,7 @@ This document defines the JSON structure for individual course data files. Cours
 ```json
 {
   "type": "requisite",
-  "level": "enforced",
-  "course": "MATH 32B",
-  "minGrade": "C-"
-}
-```
-
-#### Recommended Course
-```json
-{
-  "type": "recommended", 
-  "course": "MATH 33A"
+  "course": "MATH 32B"
 }
 ```
 
@@ -59,12 +49,10 @@ This document defines the JSON structure for individual course data files. Cours
   "options": [
     {
       "type": "requisite",
-      "level": "enforced", 
       "course": "MATH 31A"
     },
     {
       "type": "requisite",
-      "level": "enforced",
       "course": "MATH 31L" 
     }
   ]
@@ -75,39 +63,27 @@ This document defines the JSON structure for individual course data files. Cours
 
 ### Course Prerequisite Fields
 - `type` (string): "requisite" 
-- `level` (string): "enforced", "warning", or "unknown"
 - `course` (string): Course ID of the prerequisite
-- `minGrade` (string, optional): Minimum grade required (e.g., "C-", "B+")
-
-### Recommended Course Fields  
-- `type` (string): "recommended"
-- `course` (string): Course ID of the recommended prerequisite
 
 ### Group Prerequisite Fields
 - `type` (string): "group"
 - `needs` (number): Number of options required from the group
 - `options` (array): Array of prerequisite objects (courses or nested groups)
 
-## Prerequisite Levels
+## Prerequisite Field Definitions
 
-### Enforced
-- **Visual**: Red styling in graph
-- **Meaning**: Strictly required prerequisite - students cannot enroll without completing
-- **Example**: Core mathematics sequence prerequisites
+### Course Prerequisite Fields
+- `type` (string): "requisite" 
+- `course` (string): Course ID of the prerequisite
 
-### Warning  
-- **Visual**: Orange styling in graph
-- **Meaning**: Strongly recommended prerequisite - students can enroll but may struggle
-- **Example**: Recommended background knowledge
+### Group Prerequisite Fields
+- `type` (string): "group"
+- `needs` (number): Number of options required from the group
+- `options` (array): Array of prerequisite objects (courses or nested groups)
 
-### Recommended
-- **Visual**: Orange dashed styling in graph  
-- **Meaning**: Helpful background but not necessary
-- **Example**: Related courses that provide useful context
+## Prerequisites
 
-### Unknown
-- **Visual**: Orange styling in graph (treated as warning)
-- **Meaning**: Prerequisite level not clearly specified in source data
+All prerequisites are treated equally as requirements that should be satisfied before taking the course. Prerequisites are displayed with orange warning styling (⚠️) in the graph visualization to indicate they should be completed first.
 
 ## Equivalent Courses
 
@@ -169,10 +145,7 @@ Prerequisites can include additional constraints:
 ```json
 {
   "type": "requisite",
-  "level": "enforced",
   "course": "MATH 32B", 
-  "minGrade": "C-",
-  "minGPA": 2.5,
   "corequisite": true,
   "notes": "Can be taken concurrently"
 }

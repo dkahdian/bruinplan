@@ -11,7 +11,6 @@
   export let enableTooltips: boolean = true;
   export let graphWidthPercent: number;
   export let showWarnings: boolean;
-  export let showRecommended: boolean;
   export let showCompletedCourses: boolean;
   export let userCompletedCourses: Set<string>;
   export let onCourseSelect: (course: any) => void;
@@ -481,7 +480,6 @@
   <!-- Legend -->
   <GraphLegend 
     bind:showWarnings
-    bind:showRecommended
     bind:showCompletedCourses
     {userCompletedCourses}
   />

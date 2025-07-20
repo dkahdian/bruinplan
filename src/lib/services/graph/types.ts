@@ -15,7 +15,7 @@ export interface GraphNode {
     completed?: boolean; // Track completion status for courses
     
     // Group-specific properties
-    groupColor?: 'enforced' | 'warning' | 'recommended';
+    groupColor?: 'prerequisite';
     options?: any[]; // For groups, include the options for tooltip display
     isCompoundGroup?: boolean; // Flag to maintain rectangle shape when collapsed
     
@@ -36,15 +36,12 @@ export interface GraphEdge {
     id: string;
     source: string;
     target: string;
-    type: 'enforced' | 'warning' | 'recommended';
     fromCompleted?: boolean; // Whether this edge is from a completed course
   };
 }
 
 // Options for building prerequisite graphs
 export interface GraphBuildOptions {
-  showWarnings?: boolean;
-  showRecommended?: boolean;
   userCompletedCourses?: Set<string>;
   showCompletedCourses?: boolean;
   // Animation options

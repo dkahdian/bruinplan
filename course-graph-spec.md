@@ -17,16 +17,14 @@ This document defines the complete specification for interactive course prerequi
   - **Group Node:** Represents a group of requisites (e.g., "need 1 of the following").
     - Label: "Group (need N)" where N is the remaining `needs` value after accounting for completed courses.
     - Shape: Diamond
-    - Background color varies by type: pink for enforced, light yellow for warning/recommended
-    - Border: dashed for recommended groups, solid for enforced/warning
+    - Background color: light yellow for groups
+    - Border: solid for groups
     - On hover: Tooltip: "Group: need N of the following courses."
     - On click: Triggers highlighting (see Interactivity).
     - **Auto-removal:** Groups are automatically removed when fully satisfied by completed courses, with completed courses linking directly to the group's targets.
 
 - **Edges:**
-  - **Enforced requisites:** Red solid line with triangle arrow
-  - **Warning requisites:** Orange solid line with triangle arrow  
-  - **Recommended requisites:** Orange dashed line with triangle arrow
+  - **Prerequisites:** Orange solid line with triangle arrow
   - **From completed courses:** Light green (#22c55e) edges override other colors when the prerequisite is completed
 
 ---
@@ -42,19 +40,15 @@ This document defines the complete specification for interactive course prerequi
   - **Completed courses:** Light green background (#dcfce7) with green border (#22c55e) and dark green text (#15803d)
   - **Selected course:** Light blue background (#dbeafe) with blue border (#3b82f6) and blue text (#1e40af)
   - **Selected completed course:** Slightly darker green background (#bbf7d0) with green border (#16a34a)
-  - **Enforced groups:** Pink background with red border
-  - **Warning groups:** Light yellow background with orange border
-  - **Recommended groups:** Light yellow background with orange dashed border
+  - **Groups:** Light yellow background with orange border
 
 - **Edge Styles:**
-  - **Enforced:** Red solid line with triangle arrow
-  - **Warning:** Orange solid line with triangle arrow
-  - **Recommended:** Orange dashed line with triangle arrow
+  - **Prerequisites:** Orange solid line with triangle arrow
   - **From completed courses:** Light green (#22c55e) with 80% opacity
 
 - **Legend:**  
   - Collapsible legend in bottom-left corner explaining node shapes, edge colors/styles
-  - Shows current toggle states for warnings, recommended, and completed courses
+  - Shows current toggle states for warnings and completed courses
 
 ---
 
@@ -74,8 +68,6 @@ This document defines the complete specification for interactive course prerequi
   - Fully satisfied groups are removed entirely, with direct edges from completed courses to group targets
 
 - **Display Toggles (in collapsible legend):**
-  - **Show Warnings:** Controls whether warning-level prerequisites are shown
-  - **Show Recommended:** Controls whether recommended prerequisites are shown (enforces hierarchy: warnings must be on to show recommended)
   - **Show Completed Courses:** (Appears only when user has completed courses)
     - ON: Show completed courses and traverse their prerequisite chains
     - OFF: Hide all completed courses and their prerequisites entirely
@@ -145,10 +137,9 @@ This document defines the complete specification for interactive course prerequi
 - **Group Node:**  
   - Created for each group in `requisites`, labeled with remaining `needs` after accounting for completed courses
   - Automatically removed when `needs` reaches 0 due to completed courses
-  - Group color determined by the strictest prerequisite type in the group
 - **Edges:**  
   - Created according to the structure in the `requisites` array
-  - Edge colors determined by prerequisite type (enforced=red, warning=orange, recommended=orange dashed)
+  - All prerequisite edges are orange solid lines
   - Edges from completed courses override colors with light green
 
 ---
@@ -171,7 +162,7 @@ This document defines the complete specification for interactive course prerequi
 ## 7. Accessibility
 
 - **Visual Accessibility:**
-  - Colorblind-friendly palette for edge colors (red, orange, green)
+  - High contrast orange color for prerequisite edges
   - High contrast text and borders
   - Clear visual distinction between node types (shapes) and states (colors)
   - Tooltips provide additional context for all interactive elements
@@ -256,10 +247,8 @@ const cy = cytoscape({
 |-----------------|----------------------|---------------------|------------------------------|---------------------------|
 | Course Node     | Rounded rectangle    | White/Black border  | Title, units, description    | Click to select & show sidebar |
 | Completed Course| Rounded rectangle    | Light green/Green border | Title, units, description | Click to select & show sidebar |
-| Group Node      | Diamond              | Pink/Light yellow   | "Group: need N..."           | Click to select           |
-| Enforced Edge   | Solid + arrow        | Red                 | None                         | Visual connection only    |
-| Warning Edge    | Solid + arrow        | Orange              | None                         | Visual connection only    |
-| Recommended Edge| Dashed + arrow       | Orange              | None                         | Visual connection only    |
+| Group Node      | Diamond              | Light yellow        | "Group: need N..."           | Click to select           |
+| Prerequisite Edge| Solid + arrow       | Orange              | None                         | Visual connection only    |
 | Completed Edge  | Solid + arrow        | Light green         | None                         | Visual connection only    |
 
 ---
@@ -275,7 +264,7 @@ const cy = cytoscape({
 - Group prerequisite handling with robust diamond group satisfaction logic
 - Intelligent graph traversal based on completion status
 - Resizable sidebar with detailed course information
-- Toggle controls for warnings, recommended, and completed courses
+- Toggle controls for completed courses
 - Clickable prerequisite links with auto-enabling of completed course visibility
 - Equivalent course indicators with group-aware hiding logic
 - Collapsible legend with real-time toggle states
@@ -305,7 +294,7 @@ const cy = cytoscape({
 - Robust diamond group satisfaction logic matching major graph implementation
 - Intelligent graph traversal based on completion status
 - Resizable sidebar with detailed course information
-- Toggle controls for warnings, recommended, and completed courses
+- Toggle controls for completed courses
 - Clickable prerequisite links with auto-enabling of completed course visibility
 - Equivalent course indicators with group-aware hiding logic
 - Collapsible legend with real-time toggle states

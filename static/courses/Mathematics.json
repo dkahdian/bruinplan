@@ -57,8 +57,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Introductory number theory course for freshmen and sophomores. Topics include prime number theory and cryptographic applications, factorization theory (in integers and Gaussian integers), Pythagorean triples, Fermat descent (for sums of squares and Fermat quartic), Pell’s equation, and Diophantine approximation. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 31A" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 31B" }
+                { "type": "Requisite",  "course": "MATH 31A" },
+                { "type": "Requisite",  "course": "MATH 31B" }
             ],
             "equivalentCourses": []
         },
@@ -72,8 +72,8 @@
                     "type": "Group",
                     "needs": 1,
                     "options": [
-                        { "type": "Requisite", "level": "Enforced", "course": "MATH DT", "minGrade": "80%" },
-                        { "type": "Requisite", "level": "Enforced", "course": "MATH 1", "minGrade": "C-" }
+                        { "type": "Requisite",  "course": "MATH DT" },
+                        { "type": "Requisite",  "course": "MATH 1" }
                     ]
                 }
             ],
@@ -89,8 +89,8 @@
                     "type": "Group",
                     "needs": 1,
                     "options": [
-                        { "type": "Requisite", "level": "Enforced", "course": "MATH DT", "minGrade":"60%" },
-                        { "type": "Requisite", "level": "Enforced", "course": "MATH 1", "minGrade": "C-" }
+                        { "type": "Requisite",  "course": "MATH DT", "minGrade":"60%" },
+                        { "type": "Requisite",  "course": "MATH 1" }
                     ]
                 }
             ],
@@ -102,7 +102,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with a grade of C- or better. Not open for credit to students with credit for course 3B. Transcendental functions; methods and applications of integration; sequences and series. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 31A", "minGrade": "C-" }
+                { "type": "Requisite",  "course": "MATH 31A" }
             ],
             "equivalentCourses": []
         },
@@ -112,7 +112,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Enforced requisite for course 32AH: course 31A with grade of B or better. Honors sequence parallel to courses 32A. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31A", "minGrade": "B" }
+                { "type": "Requisite",  "course": "MATH 31A" }
             ],
             "equivalentCourses": ["MATH 32A"]
         },
@@ -122,7 +122,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 31A with a grade of C- or better. Introduction to differential calculus of several variables, vector field theory. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31A", "minGrade": "C-" }
+                { "type": "Requisite",  "course": "MATH 31A" }
             ],
             "equivalentCourses": ["MATH 32AH"]
         },
@@ -132,8 +132,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: courses 31B & 32A with a grade of C- or better. Introduction to integral calculus of several variables, line and surface integrals. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31B", "minGrade": "C-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32A", "minGrade": "C-" }
+                { "type": "Requisite",  "course": "MATH 31B" },
+                { "type": "Requisite",  "course": "MATH 32A" }
             ],
             "equivalentCourses": []
         },
@@ -143,8 +143,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Enforced requisite for 32BH: courses 31B and 32A, with grades of B or better. Honors sequence parallel to courses 32B. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 31B", "minGrade": "B" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 32A", "minGrade": "B" }
+                { "type": "Requisite",  "course": "MATH 31B" },
+                { "type": "Requisite",  "course": "MATH 32A" }
             ],
             "equivalentCourses": ["MATH 32B"]
         },
@@ -158,9 +158,9 @@
                     "type": "Group",
                     "needs": 1,
                     "options": [
-                        { "type": "Requisite", "level": "Warning", "course": "MATH 3B", "minGrade": "C-" },
-                        { "type": "Requisite", "level": "Warning", "course": "MATH 31B", "minGrade": "C-" },
-                        { "type": "Requisite", "level": "Warning", "course": "MATH 32A", "minGrade": "C-" }
+                        { "type": "Requisite",  "course": "MATH 3B" },
+                        { "type": "Requisite",  "course": "MATH 31B" },
+                        { "type": "Requisite",  "course": "MATH 32A" }
                     ]
                 }
             ],
@@ -176,9 +176,9 @@
                     "type": "Group",
                     "needs": 1,
                     "options": [
-                        { "type": "Requisite", "level": "Enforced", "course": "MATH 3B", "minGrade": "B" },
-                        { "type": "Requisite", "level": "Enforced", "course": "MATH 31B", "minGrade": "B" },
-                        { "type": "Requisite", "level": "Enforced", "course": "MATH 32A", "minGrade": "B" }
+                        { "type": "Requisite",  "course": "MATH 3B" },
+                        { "type": "Requisite",  "course": "MATH 31B" },
+                        { "type": "Requisite",  "course": "MATH 32A" }
                     ]
                 }
             ],
@@ -190,7 +190,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 31B with a grade of C- or better. Highly recommended: course 33A. First-order, linear differential equations; second-order, linear differential equations with constant coefficients; power series solutions; linear systems. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31B", "minGrade": "C-" },
+                { "type": "Requisite",  "course": "MATH 31B" },
                 { "type": "Recommended", "course": "MATH 33A" }
             ],
             "equivalentCourses": []
@@ -201,8 +201,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Not open for credit to students with credit for course 180 or 184. Discrete structures commonly used in computer science and mathematics, including sets and relations, permutations and combinations, graphs and trees, induction. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31A" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31B" }
+                { "type": "Requisite",  "course": "MATH 31A" },
+                { "type": "Requisite",  "course": "MATH 31B" }
             ],
             "equivalentCourses": []
         },
@@ -212,24 +212,24 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: Math 31AB; 32AB; 33A; One of Statistics 10-15, Statistics 20; COMPTNG 10A. This course gives an introduction to data-driven mathematical modeling and to combining data analysis with mechanistic modeling of phenomena from various applications. Topics include model formulation, data visualization, nondimensionalization and order-of-magnitude physics, introduction to discrete and continuous dynamical systems, and introduction to discrete and continuous stochastic models. Examples drawn from many fields and practice problems from Mathematical Contest in Modeling. P/NP or Letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31A" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31B" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32A" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33A" },
+                { "type": "Requisite",  "course": "MATH 31A" },
+                { "type": "Requisite",  "course": "MATH 31B" },
+                { "type": "Requisite",  "course": "MATH 32A" },
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33A" },
                 {
                     "type": "Group",
                     "needs": 1,
                     "options": [
-                        { "type": "Requisite", "level": "Warning", "course": "STATS 10" },
-                        { "type": "Requisite", "level": "Warning", "course": "STATS 12" },
-                        { "type": "Requisite", "level": "Warning", "course": "STATS 13" },
-                        { "type": "Requisite", "level": "Warning", "course": "STATS 14" },
-                        { "type": "Requisite", "level": "Warning", "course": "STATS 15" },
-                        { "type": "Requisite", "level": "Warning", "course": "STATS 20" }
+                        { "type": "Requisite",  "course": "STATS 10" },
+                        { "type": "Requisite",  "course": "STATS 12" },
+                        { "type": "Requisite",  "course": "STATS 13" },
+                        { "type": "Requisite",  "course": "STATS 14" },
+                        { "type": "Requisite",  "course": "STATS 15" },
+                        { "type": "Requisite",  "course": "STATS 20" }
                     ]
                 },
-                { "type": "Requisite", "level": "Warning", "course": "COMPTNG 10A" }
+                { "type": "Requisite",  "course": "COMPTNG 10A" }
             ],
             "equivalentCourses": []
         },
@@ -239,8 +239,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B. Introduction to probability through applications and examples. Topics include laws of large numbers, statistics, chance trees, conditional probability, Bayes' rule, continuous and discrete random variables, jointly distributed random variables, multivariate normal and conditional distributions. In depth discussion of betting schemes in gambling, occurrence of rare events, coincidences and statistical predictions. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31A" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31B" }
+                { "type": "Requisite",  "course": "MATH 31A" },
+                { "type": "Requisite",  "course": "MATH 31B" }
             ],
             "equivalentCourses": []
         },
@@ -274,7 +274,7 @@
             "units": 4,
             "description": "(Formerly numbered 192.) Lecture, three hours. Requisite: course 31B with grade of C- or better. Problem-solving techniques and mathematical topics useful as preparation for Putnam Examination and similar competitions. Continued fractions, inequalities, modular arithmetic, closed form evaluation of sums and products, problems in geometry, rational functions and polynomials, other nonroutine problems. Participants expected to take Putnam Examination. P/NP grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31B", "minGrade": "C-" }
+                { "type": "Requisite",  "course": "MATH 31B" }
             ],
             "equivalentCourses": []
         },
@@ -285,7 +285,7 @@
             "description": "Lecture, three hours. Prerequisite: Math 100 or significant experience with mathematical competitions. Advanced problem solving techniques and mathematical topics useful as preparation for Putnam Competition. Problems in abstract algebra, linear algebra, number theory, combinatorics, probability, real and complex analysis, differential equations, Fourier analysis. Regular practice tests given, similar in difficulty to the Putnam Competition. Enrollment is by permission of the instructor, based on a selection test or past Putnam results. May be repeated for maximum of 12 units. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Warning", "course": "MATH 100" }
+                    { "type": "Requisite",  "course": "MATH 100" }
                 ]}
             ],
             "equivalentCourses": []
@@ -296,11 +296,11 @@
             "units": 2,
             "description": "(Formerly Math 330.) Seminar, one hour; fieldwork (classroom observation and participation), two hours. Requisites: courses 31A, 31B, 32A, 33A, 33B. Course 103A is enforced requisite to 103B, which is enforced requisite to 103C. Observation, participation, or tutoring in mathematics classes at middle school and secondary levels. May be repeated for credit. P/NP (undergraduates) or S/U (graduates) grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 31A" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 31B" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 32A" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 33A" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 33B" }
+                { "type": "Requisite",  "course": "MATH 31A" },
+                { "type": "Requisite",  "course": "MATH 31B" },
+                { "type": "Requisite",  "course": "MATH 32A" },
+                { "type": "Requisite",  "course": "MATH 33A" },
+                { "type": "Requisite",  "course": "MATH 33B" }
             ],
             "equivalentCourses": []
         },
@@ -310,12 +310,12 @@
             "units": 2,
             "description": "(Formerly Math 330.) Seminar, one hour; fieldwork (classroom observation and participation), two hours. Requisites: courses 31A, 31B, 32A, 33A, 33B. Course 103A is enforced requisite to 103B, which is enforced requisite to 103C. Observation, participation, or tutoring in mathematics classes at middle school and secondary levels. May be repeated for credit. P/NP (undergraduates) or S/U (graduates) grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 31A" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 31B" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 32A" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 33A" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 33B" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 103A" }
+                { "type": "Requisite",  "course": "MATH 31A" },
+                { "type": "Requisite",  "course": "MATH 31B" },
+                { "type": "Requisite",  "course": "MATH 32A" },
+                { "type": "Requisite",  "course": "MATH 33A" },
+                { "type": "Requisite",  "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 103A" }
             ],
             "equivalentCourses": []
         },
@@ -326,14 +326,14 @@
             "description": "Lecture, four hours; fieldwork, 30 minutes. Requisites: courses 110A (or 117), 120A (or 123), and 131A, with grades of C- or better. Course 105A is requisite to 105B, which is requisite to 105C. Mathematical knowledge and research-based pedagogy needed for teaching key geometry topics in secondary school, including axiomatic systems, measure, and geometric transformations. Introduction to professional standards and current research for teaching secondary school mathematics. Letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 110A", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 117", "minGrade": "C-" }
+                    { "type": "Requisite",  "course": "MATH 110A" },
+                    { "type": "Requisite",  "course": "MATH 117" }
                 ]},
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 120A", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 123", "minGrade": "C-" }
+                    { "type": "Requisite",  "course": "MATH 120A" },
+                    { "type": "Requisite",  "course": "MATH 123" }
                 ]},
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "C-" }
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": []
         },
@@ -343,16 +343,16 @@
             "units": 4,
             "description": "Lecture, four hours; fieldwork, 30 minutes. Requisites: courses 105A, 110A (or 117), 120A (or 123), and 131A, with grades of C- or better. Mathematical knowledge and research-based pedagogy needed for teaching key polynomial, rational, and transcendental functions and related equations in secondary school; professional standards and current research for teaching secondary school mathematics. Letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 105A", "minGrade": "C-" },
+                { "type": "Requisite",  "course": "MATH 105A" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 110A", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 117", "minGrade": "C-" }
+                    { "type": "Requisite",  "course": "MATH 110A" },
+                    { "type": "Requisite",  "course": "MATH 117" }
                 ]},
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 120A", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 123", "minGrade": "C-" }
+                    { "type": "Requisite",  "course": "MATH 120A" },
+                    { "type": "Requisite",  "course": "MATH 123" }
                 ]},
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "C-" }
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": []
         },
@@ -362,17 +362,17 @@
             "units": 4,
             "description": "Lecture, four hours; fieldwork, 30 minutes. Requisites: courses 105A, 105B, 110A (or 117), 120A (or 123), and 131A, with grades of C- or better. Mathematical knowledge and research-based pedagogy needed for teaching key analysis, probability, and statistics topics in secondary school; professional standards and current research for teaching secondary school mathematics. Letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 105A", "minGrade": "C-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 105B", "minGrade": "C-" },
+                { "type": "Requisite",  "course": "MATH 105A" },
+                { "type": "Requisite",  "course": "MATH 105B" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 110A", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 117", "minGrade": "C-" }
+                    { "type": "Requisite",  "course": "MATH 110A" },
+                    { "type": "Requisite",  "course": "MATH 117" }
                 ]},
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 120A", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 123", "minGrade": "C-" }
+                    { "type": "Requisite",  "course": "MATH 120A" },
+                    { "type": "Requisite",  "course": "MATH 123" }
                 ]},
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "C-" }
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": []
         },
@@ -382,9 +382,9 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, 32A. Roots of modern mathematics in ancient Babylonia and Greece, including place value number systems and proof. Development of algebra through Middle Ages to Fermat and Abel, invention of analytic geometry and calculus. Selected topics. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 31A" },
+                { "type": "Requisite",  "course": "MATH 31B" },
+                { "type": "Requisite",  "course": "MATH 32A" }
             ],
             "equivalentCourses": []
         },
@@ -394,7 +394,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 115A. Not open for credit to students with credit for course 117. Ring of integers, integral domains, fields, polynomial domains, unique factorization. Honors sequence parallel to courses 110A. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 115A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 115A" }
             ],
             "equivalentCourses": ["MATH 110A"]
         },
@@ -404,7 +404,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 115A. Not open for credit to students with credit for course 117. Ring of integers, integral domains, fields, polynomial domains, unique factorization. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 115A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 115A" }
             ],
             "equivalentCourses": ["MATH 110AH"]
         },
@@ -415,8 +415,8 @@
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 110A or 117. Groups, structure of finite groups. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 110A" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 117" }
+                    { "type": "Requisite",  "course": "MATH 110A" },
+                    { "type": "Requisite",  "course": "MATH 117" }
                 ]}
             ],
             "equivalentCourses": []
@@ -428,8 +428,8 @@
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 110A or 117. Groups, structure of finite groups. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 110A" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 117" }
+                    { "type": "Requisite",  "course": "MATH 110A" },
+                    { "type": "Requisite",  "course": "MATH 117" }
                 ]}
             ],
             "equivalentCourses": []
@@ -440,8 +440,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 110A, 110B. Field extensions, Galois theory, applications to geometric constructions, and solvability by radicals.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 110A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 110B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 110A" },
+                { "type": "Requisite",  "course": "MATH 110B" }
             ],
             "equivalentCourses": []
         },
@@ -451,7 +451,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 110A. Algebraic number theory (including prime ideal theory), cyclotomic fields and reciprocity laws, Diophantine equations (especially quadratic forms, elliptic curves), equations over finite fields, topics in theory of primes, including prime number theorem and Dirichlet’s theorem. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 110A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 110A" }
             ],
             "equivalentCourses": []
         },
@@ -462,9 +462,9 @@
             "description": "(Formerly numbered 114A). Lecture, three hours; discussion, one hour. Requisite: course 110A or 131A or Philosophy 135. Effectively calculable, Turing computable, and recursive functions; Church/Turing thesis. Normal form theorem; universal functions; unsolvability and undecidability results. Recursive and recursively enumerable sets; relative recursiveness, polynomial-time computability. Arithmetical hierarchy. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 110A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "PHILOS 135", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "MATH 110A" },
+                    { "type": "Requisite",  "course": "MATH 131A" },
+                    { "type": "Requisite",  "course": "PHILOS 135" }
                 ]}
             ],
             "equivalentCourses": []
@@ -476,9 +476,9 @@
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 110A or 131A or Philosophy 135. Introduction to mathematical logic, aiming primarily at completeness and incompleteness theorems of Godel. Propositional and predicate logic; syntax and semantics; formal deduction; completeness, compactness, and Lowenheim/Skolem theorems. Formal number theory: nonstandard models; Godel incompleteness theorem. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 110A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "PHILOS 135", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "MATH 110A" },
+                    { "type": "Requisite",  "course": "MATH 131A" },
+                    { "type": "Requisite",  "course": "PHILOS 135" }
                 ]}
             ],
             "equivalentCourses": []
@@ -490,9 +490,9 @@
             "description": "(Formerly numbered M112.) (Same as Philosophy M134.) Lecture, three hours; discussion, one hour. Prerequisite: course 110A or 131A or Philosophy 135. Axiomatic set theory as framework for mathematical concepts; relations and functions, numbers, cardinality, axiom of choice, transfinite numbers. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Unknown", "course": "MATH 110A" },
-                    { "type": "Requisite", "level": "Unknown", "course": "MATH 131A" },
-                    { "type": "Requisite", "level": "Unknown", "course": "PHILOS 135" }
+                    { "type": "Requisite",  "course": "MATH 110A" },
+                    { "type": "Requisite",  "course": "MATH 131A" },
+                    { "type": "Requisite",  "course": "PHILOS 135" }
                 ]}
             ],
             "equivalentCourses": ["PHILOS M134"]
@@ -503,7 +503,7 @@
             "units": 5,
             "description": "Lecture, three hours; discussion, two hours. Requisite: course 33A. Techniques of proof, abstract vector spaces, linear transformations, and matrices; determinants; inner product spaces; eigenvector theory. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 33A" }
             ],
             "equivalentCourses": ["Math 115AH"]
         },
@@ -513,7 +513,7 @@
             "units": 5,
             "description": "Lecture, three hours; discussion, two hours. Requisite: course 33A with grade of B or better. Techniques of proof, abstract vector spaces, linear transformations, and matrices; determinants; inner product spaces; eigenvector theory. Honors course parallel to course 115A. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33A", "minGrade": "B" }
+                { "type": "Requisite",  "course": "MATH 33A" }
             ],
             "equivalentCourses": ["MATH 115A"]
         },
@@ -523,7 +523,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 115A. Linear transformations, conjugate spaces, duality; theory of a single linear transformation, Jordan normal form; bilinear forms, quadratic forms; Euclidean and unitary spaces, symmetric skew and orthogonal linear transformations, polar decomposition. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 115A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 115A" }
             ],
             "equivalentCourses": []
         },
@@ -533,7 +533,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 115A. Not open for credit to students with credit for Program in Computing 130. Introduction to mathematical cryptology using methods of number theory, algebra, probability. Topics include symmetric and public-key cryptosystems, one-way functions, signatures, key exchange, groups, primes, pseudoprimes, primality tests, quadratic reciprocity, factoring, rho method, RSA, discrete logs. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 115A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 115A" }
             ],
             "equivalentCourses": []
         },
@@ -543,7 +543,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 115A. Not open for credit to students with credit for course 110A. Integers, congruences; fields, applications of finite fields; polynomials; permutations, introduction to groups.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 115A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 115A" }
             ],
             "equivalentCourses": []
         },
@@ -553,8 +553,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 42 and 115A. Introduction to computational methods for data problems with a focus on linear algebra and optimization. Matrix and tensor factorization, PageRank, assorted other topics in matrices, linear programming, unconstrained optimization, constrained optimization, integer optimization, dynamic programming, and stochastic optimization. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 42", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 115A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 42" },
+                { "type": "Requisite",  "course": "MATH 115A" }
             ],
             "equivalentCourses": []
         },
@@ -564,10 +564,10 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, 131A. Course 120A is requisite to 120B. Curves in 3-space, Frenet formulas, surfaces in 3-space, normal curvature, Gaussian curvature, congruence of curves and surfaces, intrinsic geometry of surfaces, isometries, geodesics, Gauss/Bonnet theorem. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 115A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 115A" },
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": []
         },
@@ -577,11 +577,11 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, 120A, 131A. Curves in 3-space, Frenet formulas, surfaces in 3-space, normal curvature, Gaussian curvature, congruence of curves and surfaces, intrinsic geometry of surfaces, isometries, geodesics, Gauss/Bonnet theorem. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 115A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 120A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 115A" },
+                { "type": "Requisite",  "course": "MATH 120A" },
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": []
         },
@@ -591,7 +591,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 131A with grade of D- or better. Metric and topological spaces, completeness, compactness, connectedness, functions, continuity, homeomorphisms, topological properties. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": []
         },
@@ -601,7 +601,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Prerequisite: course 115A. Axioms and models, Euclidean geometry, Hilbert axioms, neutral (absolute) geometry, hyperbolic geometry, Poincare model, independence of parallel postulate.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 115A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 115A" }
             ],
             "equivalentCourses": []
         },
@@ -611,8 +611,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B. Recommended: course 115A. Rigorous introduction to foundations of real analysis; real numbers, point set topology in Euclidean space, functions, continuity.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" },
                 { "type": "Recommended", "course": "MATH 115A" }
             ],
             "equivalentCourses": []
@@ -623,8 +623,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites for course 131AH: courses 32B and 33B, with grades of B or better. Recommended: course 115A. Honors sequence parallel to courses 131A. P/NP or letter grading. Rigorous introduction to foundations of real analysis; real numbers, point set topology in Euclidean space, functions, continuity.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 32B", "minGrade": "B" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 33B", "minGrade": "B" },
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" },
                 { "type": "Recommended", "course": "MATH 115A" }
             ],
             "equivalentCourses": ["MATH 131A"]
@@ -635,10 +635,10 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. P/NP or letter grading. Requisites: courses 33B, 115A, 131A. Derivatives, Riemann integral, sequences and series of functions, power series, Fourier series.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 32B", "minGrade": "B" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 33B", "minGrade": "B" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "B" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 115A", "minGrade": "B" }
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 131A" },
+                { "type": "Requisite",  "course": "MATH 115A" }
             ],
             "equivalentCourses": ["MATH 131B"]
         },
@@ -648,9 +648,9 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. P/NP or letter grading. Requisites: courses 33B, 115A, 131A. Derivatives, Riemann integral, sequences and series of functions, power series, Fourier series.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 33B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 115A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 115A" },
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": ["MATH 131BH"]
         },
@@ -660,8 +660,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 131A, 131B or 131AH, 131BH. Covers multivariable calculus and applications to ordinary differential equations.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 131A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 131B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 131A" },
+                { "type": "Requisite",  "course": "MATH 131B" }
             ],
             "equivalentCourses": []
         },
@@ -671,8 +671,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B. Introduction to basic formulas and calculation procedures of complex analysis of one variable relevant to applications. Topics include Cauchy/Riemann equations, Cauchy integral formula, power series expansion, contour integrals, residue calculus.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" }
             ],
             "equivalentCourses": ["MATH 132H"]
         },
@@ -682,9 +682,9 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, and 131A with grades of B or better. This course is specifically designed for students who have strong commitment to pursue graduate studies in mathematics. Introduction to complex analysis with more emphasis on proofs. Honors course parallel to course 132. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 32B", "minGrade": "B" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 33B", "minGrade": "B" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "B" }
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": ["MATH 132"]
         },
@@ -694,9 +694,9 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 33A, 33B, 131A. Fourier series, Fourier transform in one and several variables, finite Fourier transform. Applications, in particular, to solving differential equations. Fourier inversion formula, Plancherel theorem, convergence of Fourier series, convolution. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 33A" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 33B" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 131A" }
+                { "type": "Requisite",  "course": "MATH 33A" },
+                { "type": "Requisite",  "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": []
         },
@@ -706,7 +706,7 @@
             "units": 4,
             "description": "(Formerly numbered 135A.) Lecture, three hours; discussion, one hour. Requisites: course 33B. Dynamical systems analysis of nonlinear systems of differential equations. One- and two- dimensional flows. Fixed points, limit cycles, and stability analysis. Bifurcations and normal forms. Elementary geometrical and topological results. Applications to problems in biology, chemistry, physics, and other fields. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 33B" }
             ],
             "equivalentCourses": []
         },
@@ -716,8 +716,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 33A, 33B. Selected topics in differential equations. Laplace transforms, existence and uniqueness theorems, Fourier series, separation of variable solutions to partial differential equations, Sturm-Liouville theory, calculus of variations, two point boundary value problems, Green’s functions. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 33A" },
+                { "type": "Requisite",  "course": "MATH 33B" }
             ],
             "equivalentCourses": []
         },
@@ -727,8 +727,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Prerequisites: courses 33A, 33B. Linear partial differential equations, boundary and initial value problems; wave equation, heat equation, and Laplace equation; separation of variables, eigenfunction expansions; selected topics, as method of characteristics for nonlinear equations.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 33A" },
+                { "type": "Requisite",  "course": "MATH 33B" }
             ],
             "equivalentCourses": []
         },
@@ -738,8 +738,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Prerequisites: courses 32B, 33B. Introduction to fundamental principles and spirit of applied mathematics. Emphasis on manner in which mathematical models are constructed for physical problems. Illustrations from many fields of endeavor, such as the physical sciences, biology, economics, and traffic dynamics.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" }
             ],
             "equivalentCourses": []
         },
@@ -749,8 +749,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Prerequisite: courses 32B, 33B. Integral equations, Green’s function, and calculus of variations. Selected applications from control theory, optics, dynamical systems, and other engineering problems.",
             "requisites": [
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 32B" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 33B" }
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" }
             ],
             "equivalentCourses": []
         },
@@ -760,16 +760,16 @@
             "units": 4,
             "description": "Lecture, three hours. Requisites: Senior-standing in Data Theory major, Math 118, 131A, Stats 100B or Math 170S, Stats 101A, Stats 101C or Math 156. Capstone experience for Data Theory majors. Students work in teams on real-world data science projects, integrating mathematical, statistical, and computational skills. Emphasis on communication, teamwork, and ethical considerations in data science. Letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 118", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "D-" },
+                { "type": "Requisite",  "course": "MATH 118" },
+                { "type": "Requisite",  "course": "MATH 131A" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "STATS 100B", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170S", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "STATS 100B" },
+                    { "type": "Requisite",  "course": "MATH 170S" }
                 ]},
-                { "type": "Requisite", "level": "Enforced", "course": "STATS 101A", "minGrade": "D-" },
+                { "type": "Requisite",  "course": "STATS 101A" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "STATS 101C", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 156", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "STATS 101C" },
+                    { "type": "Requisite",  "course": "MATH 156" }
                 ]}
             ],
             "equivalentCourses": []
@@ -780,12 +780,12 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, Program in Computing 10A. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation issues. Solution of nonlinear equations. Numerical differentiation, integration, and interpolation. Direct methods for solving linear systems. Matlab programming. Letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 115A", "minGrade": "D-" },
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 115A" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Warning", "course": "COMPTNG 10A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Warning", "course": "COM SCI 31", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "COMPTNG 10A" },
+                    { "type": "Requisite",  "course": "COM SCI 31" }
                 ]}
             ],
             "equivalentCourses": ["MATH 151AH"]
@@ -796,7 +796,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 151A. Introduction to numerical methods with emphasis on algorithms, analysis of algorithms, and computer implementation. Numerical solution of ordinary differential equations. Iterative solution of linear systems. Computation of least squares approximations. Discrete Fourier approximation and the fast Fourier transform. Matlab programming.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 151A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 151A" }
             ],
             "equivalentCourses": ["MATH 151BH"]
         },
@@ -806,13 +806,13 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, 131A, Programming in Computing 10A or equivalent. Rigorous introduction to numerical algorithms including necessary skills to apply algorithms in statistics, imaging, data science, engineering and related fields. Root Finding, solving linear systems, interpolation, quadrature and finding eigenvalues. MatLab programming. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 32B" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 33B" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 115A" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 131A" },
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 115A" },
+                { "type": "Requisite",  "course": "MATH 131A" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Unknown", "course": "COMPTNG 10A" },
-                    { "type": "Requisite", "level": "Unknown", "course": "COM SCI 31" }
+                    { "type": "Requisite",  "course": "COMPTNG 10A" },
+                    { "type": "Requisite",  "course": "COM SCI 31" }
                 ]}
             ],
             "equivalentCourses": ["MATH 151A"]
@@ -823,12 +823,12 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 115A or 115AH, 131A or 131AH, 151A or 151AH, Computer Science 31 or Programming in Computing 10A, with grades of B or better. Rigorous introduction to numerical algorithms including necessary skills to apply algorithms in statistics, imaging, data science, engineering and related fields. Finding eigenvalues, finding numerical solutions to ordinary differential equations, the least squares problem and the fast Fourier transform. MatLab programming. Honors course parallel to course 151B. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 115A", "minGrade": "B" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 131A", "minGrade": "B" },
-                { "type": "Requisite", "level": "Unknown", "course": "MATH 151A", "minGrade": "B" },
+                { "type": "Requisite",  "course": "MATH 115A" },
+                { "type": "Requisite",  "course": "MATH 131A" },
+                { "type": "Requisite",  "course": "MATH 151A" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Unknown", "course": "COM SCI 31", "minGrade": "B" },
-                    { "type": "Requisite", "level": "Unknown", "course": "COMPTNG 10A", "minGrade": "B" }
+                    { "type": "Requisite",  "course": "COM SCI 31" },
+                    { "type": "Requisite",  "course": "COMPTNG 10A" }
                 ]}
             ],
             "equivalentCourses": ["MATH 151B"]
@@ -839,12 +839,12 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33B, 115A, Program in Computing 10A. Imaging geometry. Image transforms. Enhancement, restoration, and segmentation. Descriptors. Morphology. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 115A", "minGrade": "D-" },
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33B" },
+                { "type": "Requisite",  "course": "MATH 115A" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Unknown", "course": "COM SCI 31", "minGrade": "B" },
-                    { "type": "Requisite", "level": "Unknown", "course": "COMPTNG 10A", "minGrade": "B" }
+                    { "type": "Requisite",  "course": "COM SCI 31" },
+                    { "type": "Requisite",  "course": "COMPTNG 10A" }
                 ]}
             ],
             "equivalentCourses": []
@@ -855,16 +855,16 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 115A, 164, 170E (or 170A or Statistics 100A) and Programming in Computing 10A or Computer Science 31. Strongly recommended requisite: Program in Computing 16A or Statistics 21. Introductory course on mathematical models for pattern recognition and machine learning. Topics include parametric and nonparametric probability distributions, curse of dimensionality, correlation analysis and dimensionality reduction, and concepts of decision theory. Advanced machine learning and pattern recognition problems, including data classification and clustering, regression, kernel methods, artificial neural networks, hidden Markov models, and Markov random fields. Projects in MATLAB to be part of final project presented in class. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 115A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 164", "minGrade": "D-" },
+                { "type": "Requisite",  "course": "MATH 115A" },
+                { "type": "Requisite",  "course": "MATH 164" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170E", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "STATS 100A", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "MATH 170E" },
+                    { "type": "Requisite",  "course": "MATH 170A" },
+                    { "type": "Requisite",  "course": "STATS 100A" }
                 ]},
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Warning", "course": "COMPTNG 10A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Warning", "course": "COM SCI 31", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "COMPTNG 10A" },
+                    { "type": "Requisite",  "course": "COM SCI 31" }
                 ]},
                 {"type":"Group", "needs": 1, "options": [
                     {"type": "Recommended", "course": "COMPTNG 16A"},
@@ -879,8 +879,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 115A, 131A. Not open for credit to students with credit for Electrical Engineering 136. Fundamentals of optimization. Linear programming: basic solutions, simplex method, duality theory. Unconstrained optimization, Newton’s method for minimization. Nonlinear programming, optimality conditions for constrained problems. Additional topics from linear and nonlinear programming. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 115A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 131A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 115A" },
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": ["ECE 136"]
         },
@@ -890,7 +890,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 115A. Quantitative modeling of strategic interaction. Topics include extensive and normal form games, background probability, lotteries, mixed strategies, pure and mixed Nash equilibria and refinements, bargaining; emphasis on economic examples. Optional topics include repeated games and evolutionary game theory. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 115A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 115A" }
             ],
             "equivalentCourses": []
         },
@@ -900,12 +900,12 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 115A, [170A or 170E or EC ENGR 131A or STATS 100A]. Introduction to network science (including theory, computation, and applications), which can be used to study complex systems of interacting agents. Study of networks in technology, social, information, biological, and mathematics involving basic structural features of networks, generative models of networks, network summary statistics, centrality, random graphs, clustering, and dynamical processes on networks. Introduction to advance topics as time permits. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 115A", "minGrade": "D-" },
+                { "type": "Requisite",  "course": "MATH 115A" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170E", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "EC ENGR 131A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "STATS 100A", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "MATH 170A" },
+                    { "type": "Requisite",  "course": "MATH 170E" },
+                    { "type": "Requisite",  "course": "EC ENGR 131A" },
+                    { "type": "Requisite",  "course": "STATS 100A" }
                 ]}
             ],
             "equivalentCourses": []
@@ -916,9 +916,9 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 32B, 33A, 131A. Not open to students with credit in course 170E, Electrical Engineering 131A or Statistics 100A. Rigorous presentation of probability theory based on real analysis. Probability space, probability and conditional probability, independence, Bayes' rule, discrete and continuous random variables and their distributions, expectation, moments and variance, conditional distribution and expectation, weak law of large numbers. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 33A" },
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": ["MATH 170E", "EC ENGR 131A", "STATS 100A"]
         },
@@ -928,8 +928,8 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Enforced requisite: courses 170A, 131A. Continuation of rigorous presentation of probability theory based on real analysis. Moments and generating functions; laws of large numbers, the central limit theorem, and convergence in distribution; branching processes; random walks; Poisson and other random processes in continuous time. Advance topics in probability theory. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 170A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 131A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 170A" },
+                { "type": "Requisite",  "course": "MATH 131A" }
             ],
             "equivalentCourses": []
         },
@@ -939,7 +939,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 32B. Highly recommended: course 61 or 70. Not open to students with credit for course 170A, Electrical and Computer Engineering 131A, or Statistics 100A. Introduction to probability theory with emphasis on topics relevant to applications. Topics include discrete (binomial, Poisson, etc.) and continuous (exponential, gamma, chi-square, normal) distributions, bivariate distributions, distributions of functions of random variables (including moment generating functions and central limit theorem). P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 32B" }
             ],
             "equivalentCourses": ["MATH 170A", "EC ENGR 131A", "STATS 100A"]
         },
@@ -949,12 +949,12 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, and 170A or 170E or Statistics 100A. The Math 170E and 170S two-quarter probability and statistics sequence is aimed to equip Math-Econ and Financial Actuarial majors with essential skills in these areas. Math 170S is an introduction to statistics. Topics include sampling; estimation and the properties of estimators; construction of confidence intervals and hypotheses testing. It is designed to meet the Society of Actuaries’ VEE Requirements for Mathematical Statistics. Letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31A" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31B" },
+                { "type": "Requisite",  "course": "MATH 31A" },
+                { "type": "Requisite",  "course": "MATH 31B" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170E", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "STATS 100A", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "MATH 170A" },
+                    { "type": "Requisite",  "course": "MATH 170E" },
+                    { "type": "Requisite",  "course": "STATS 100A" }
                 ]}
             ],
             "equivalentCourses": []
@@ -965,11 +965,11 @@
             "units": 4,
             "description": "(Formerly numbered 151.) Lecture, three hours; discussion, one hour. Requisites: courses 33A, 170A (or Statistics 100A). Discrete Markov chains, continuous-time Markov chains, renewal theory. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33A", "minGrade": "D-" },
+                { "type": "Requisite",  "course": "MATH 33A" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170E", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "STATS 100A", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "MATH 170A" },
+                    { "type": "Requisite",  "course": "MATH 170E" },
+                    { "type": "Requisite",  "course": "STATS 100A" }
                 ]}
             ],
             "equivalentCourses": []
@@ -980,11 +980,11 @@
             "units": 4,
             "description": "(Formerly numbered 174.) Lecture, three hours; discussion, one hour. Enforced requisites: courses 33A, and 170E (or Math 170A or Statistics 100A). Not open for credit to students with credit for course 174A, Economics 141, or Statistics C183/C283. Mathematical modeling of financial securities in discrete and continuous time. Forwards, futures, hedging, swaps, uses and pricing (tree models and Black-Scholes) of European and American options, Greeks and numerical methods. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 33A", "minGrade": "D-" },
+                { "type": "Requisite",  "course": "MATH 33A" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170E", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "STATS 100A", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "MATH 170A" },
+                    { "type": "Requisite",  "course": "MATH 170E" },
+                    { "type": "Requisite",  "course": "STATS 100A" }
                 ]}
             ],
             "equivalentCourses": ["MATH 174A", "ECON 141", "STATS C183", "STATS C283"]
@@ -995,7 +995,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 32B. Types of interest, time value of money, annuities and similar contracts, loans, bonds, portfolios and general cash flows, rate of return, term structure of interest rates, duration, convexity and immunization, interest rate swaps, financial derivatives, forwards, futures, and options. Letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 32B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 32B" }
             ],
             "equivalentCourses": []
         },
@@ -1005,12 +1005,12 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 32B, 175 or 177, 170A or 170E or Statistics 100A. An introductory course on to the mathematics associated with long term insurance coverages. Single and multiple life survival models, annuities, premium calculations and policy values, reserves, pension plans and retirement benefits. Letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 32B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 177", "minGrade": "D-" },
+                { "type": "Requisite",  "course": "MATH 32B" },
+                { "type": "Requisite",  "course": "MATH 177" },
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170E", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "STATS 100A", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "MATH 170A" },
+                    { "type": "Requisite",  "course": "MATH 170E" },
+                    { "type": "Requisite",  "course": "STATS 100A" }
                 ]}
             ],
             "equivalentCourses": []
@@ -1022,11 +1022,11 @@
             "description": "Lecture, three hours; discussion, one hour. Requisite: 170S (or 170B or Statistics 100B), 178A. The second of the three quarter sequence 178ABC. Multiple state models, pensions, health insurances, profit testing. Topics in statistics used in actuarial work: methods of estimation and probability distributions. Letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170S", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "MATH 170B", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "STATS 100B", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "MATH 170S" },
+                    { "type": "Requisite",  "course": "MATH 170B" },
+                    { "type": "Requisite",  "course": "STATS 100B" }
                 ]},
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 178A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 178A" }
             ],
             "equivalentCourses": []
         },
@@ -1036,7 +1036,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisite: 178B. This course is the third of the three quarter sequence 178ABC. 178C studies loss models associated with actuarial problems. It covers severity, frequency, and aggregate loss models, parameter estimation (frequentist, Bayesian), model selection and credibility. Letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 178B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 178B" }
             ],
             "equivalentCourses": []
         },
@@ -1046,7 +1046,7 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 174E. Continuation of Mathematics of Finance. In depth study of risk measures and the instruments of risk management in investment portfolios and corporate financial structure. Exotic and real options, value at risk, mean-variance analysis, portfolio optimization, risk analysis, capital asset pricing model, market efficiency and the Modigliani-Miller theory. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 174E", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 174E" }
             ],
             "equivalentCourses": []
         },
@@ -1056,9 +1056,9 @@
             "units": 4,
             "description": "Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, and 61. Strongly recommended preparation: 115A. Graphs and trees. Planarity, graph colorings. Set systems. Ramsey theory. Random graphs. Linear Algebra methods. Ideal for students in computer science and engineering. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 61", "minGrade": "D-" },
+                { "type": "Requisite",  "course": "MATH 31A" },
+                { "type": "Requisite",  "course": "MATH 31B" },
+                { "type": "Requisite",  "course": "MATH 61" },
                 { "type": "Recommended", "course": "MATH 115A" }
             ],
             "equivalentCourses": []
@@ -1070,10 +1070,10 @@
             "description": "Lecture, three hours; discussion, one hour. Requisite: course 3C or 32A and 61. Not open for credit to students with credit for Computer Science 180. Graphs, greedy algorithms, divide and conquer algorithms, dynamic programming, network flow. Emphasis on designing efficient algorithms useful in diverse areas such as bioinformatics and allocation of resources. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Warning", "course": "MATH 3C", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Warning", "course": "MATH 32A", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "MATH 3C" },
+                    { "type": "Requisite",  "course": "MATH 32A" }
                 ]},
-                { "type": "Requisite", "level": "Warning", "course": "MATH 61", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 61" }
             ],
             "equivalentCourses": []
         },
@@ -1083,10 +1083,10 @@
             "units": 4,
             "description": "(Formerly numbered 180.) Lecture, three hours; discussion, one hour. Requisites: courses 31A, 31B, 61 and 115A. Permutations and combinations, counting principles, recurrence relations and generating functions. Application to asymptotic and probabilistic enumeration. Ideal for students in mathematics and physics. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31A", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 31B", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Warning", "course": "MATH 61", "minGrade": "D-" },
-                { "type": "Requisite", "level": "Enforced", "course": "MATH 115A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "MATH 31A" },
+                { "type": "Requisite",  "course": "MATH 31B" },
+                { "type": "Requisite",  "course": "MATH 61" },
+                { "type": "Requisite",  "course": "MATH 115A" }
             ],
             "equivalentCourses": []
         },
@@ -1153,8 +1153,8 @@
             "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Abstract data types and their implementation using C++ class mechanism; dynamic data structures, including linked lists, stacks, queues, trees, and hash tables; applications; object-oriented programming and software reuse; recursion; algorithms for sorting and searching. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "COMPTNG 10A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "COM SCI 31", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "COMPTNG 10A" },
+                    { "type": "Requisite",  "course": "COM SCI 31" }
                 ]}
             ],
             "equivalentCourses": []
@@ -1165,7 +1165,7 @@
             "units": 5,
             "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C++, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Warning", "course": "COMPTNG 10B", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "COMPTNG 10B" }
             ],
             "equivalentCourses": []
         },
@@ -1176,8 +1176,8 @@
             "description": "(Formerly numbered 16.) Lecture, three hours; discussion, two hours. Requisites: course 10A, Computer Science 31, or equivalent, with grades of C– or better. In-depth introduction to Python programming language for students who have already taken beginning programming course in strongly typed, compiled language (C++, C, or Fortran). Core Python language constructs, applications, text processing, data visualization, interaction with spreadsheets and SQL databases, and creation of graphical user interfaces. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "COMPTNG 10A", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "COM SCI 31", "minGrade": "C-" }
+                    { "type": "Requisite",  "course": "COMPTNG 10A" },
+                    { "type": "Requisite",  "course": "COM SCI 31" }
                 ]}
             ],
             "equivalentCourses": []
@@ -1188,7 +1188,7 @@
             "units": 5,
             "description": "Lecture, three hours; discussion, two hours. Requisite: course 16A or equivalent. In-depth application of Python programming language to problems arising in variety of areas of current interest such as machine learning, computer vision, statistical analysis, numerical analysis, and data acquisition. Advanced Python programming techniques to improve computational efficiency. P/NP or letter grading.",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "COMPTNG 16A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "COMPTNG 16A" }
             ],
             "equivalentCourses": []
         },
@@ -1199,8 +1199,8 @@
             "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in class design and design of interactive web pages. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "COMPTNG 10A", "minGrade": "D-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "COM SCI 31", "minGrade": "D-" }
+                    { "type": "Requisite",  "course": "COMPTNG 10A" },
+                    { "type": "Requisite",  "course": "COM SCI 31" }
                 ]}
             ],
             "equivalentCourses": []
@@ -1212,14 +1212,14 @@
             "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C- or better. Introduction to programming for World Wide Web for students with strong foundation in programming. HTML5 and CSS3 markup languages to design websites; client-side scripting with JavaScript to enable event-driven interactivity, animations, and cookie tracking; server-side scripting with PHP to render HTML pages, store, and retrieve data on server; and introduction to databases through SQLite3. P/NP or letter grading.",
             "requisites": [
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "COMPTNG 10A", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "COM SCI 31", "minGrade": "C-" }
+                    { "type": "Requisite",  "course": "COMPTNG 10A" },
+                    { "type": "Requisite",  "course": "COM SCI 31" }
                 ]},
                 { "type": "Group", "needs": 1, "options": [
-                    { "type": "Requisite", "level": "Enforced", "course": "COMPTNG 10B", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "COMPTNG 16A", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "COMPTNG 20A", "minGrade": "C-" },
-                    { "type": "Requisite", "level": "Enforced", "course": "COM SCI 32", "minGrade": "C-" }
+                    { "type": "Requisite",  "course": "COMPTNG 10B" },
+                    { "type": "Requisite",  "course": "COMPTNG 16A" },
+                    { "type": "Requisite",  "course": "COMPTNG 20A" },
+                    { "type": "Requisite",  "course": "COM SCI 32" }
                 ]}
             ],
             "equivalentCourses": []
@@ -1230,7 +1230,7 @@
             "units": 4,
             "description": "Lecture, one to three hours; discussion, zero to one hour. Enforced requisite: course 10A. Variable topics in programming not covered in regular program in computing courses. May be repeated for credit with topic change. P/NP or letter grading. (See schedule for any current listings.)",
             "requisites": [
-                { "type": "Requisite", "level": "Enforced", "course": "COMPTNG 10A", "minGrade": "D-" }
+                { "type": "Requisite",  "course": "COMPTNG 10A" }
             ],
             "equivalentCourses": []
         },

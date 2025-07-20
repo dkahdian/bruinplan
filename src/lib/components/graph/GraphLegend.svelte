@@ -3,7 +3,6 @@
   import { saveLegendState, type LegendState } from '../../services/shared/legendStateService.js';
 
   export let showWarnings: boolean;
-  export let showRecommended: boolean;
   export let showCompletedCourses: boolean;
   export let userCompletedCourses: Set<string>;
 
@@ -28,7 +27,6 @@
     const currentState: LegendState = {
       isExpanded: isLegendExpanded,
       showWarnings,
-      showRecommended,
       showCompletedCourses
     };
     saveLegendState(currentState);
@@ -73,25 +71,13 @@
       
       <!-- Edge types -->
       <div>
-        <div class="font-medium text-gray-700 mb-1">Prerequisite levels:</div>
+        <div class="font-medium text-gray-700 mb-1">Prerequisites:</div>
         <div class="space-y-1">
-          <div class="flex items-center gap-2">
-            <div class="w-6 h-0.5 bg-red-500 flex-shrink-0 relative">
-              <div class="absolute right-0 top-1/2 transform -translate-y-1/2 w-0 h-0 border-l-2 border-l-red-500 border-t border-b border-transparent"></div>
-            </div>
-            <span class="text-gray-600">Enforced</span>
-          </div>
           <div class="flex items-center gap-2">
             <div class="w-6 h-0.5 bg-orange-500 flex-shrink-0 relative">
               <div class="absolute right-0 top-1/2 transform -translate-y-1/2 w-0 h-0 border-l-2 border-l-orange-500 border-t border-b border-transparent"></div>
             </div>
-            <span class="text-gray-600">Warning</span>
-          </div>
-          <div class="flex items-center gap-2">
-            <div class="w-6 h-0.5 border-t border-dashed border-orange-500 flex-shrink-0 relative">
-              <div class="absolute right-0 top-1/2 transform -translate-y-1/2 w-0 h-0 border-l-2 border-l-orange-500 border-t border-b border-transparent"></div>
-            </div>
-            <span class="text-gray-600">Recommended</span>
+            <span class="text-gray-600">Required before taking course</span>
           </div>
         </div>
       </div>
@@ -132,28 +118,9 @@
               <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {showWarnings ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
             </button>
           </div>
-          <div class="flex items-center justify-between">
-            <span class="text-xs text-gray-600">Recommended prerequisites</span>
-            <button
-              class="relative inline-flex h-4 w-7 items-center rounded-full {showRecommended && showWarnings ? 'bg-orange-500' : 'bg-gray-300'} transition-colors"
-              on:click={() => {
-                if (showWarnings) {
-                  showRecommended = !showRecommended;
-                } else if (!showRecommended) {
-                  // If warnings are off and we're trying to enable recommended, enable both
-                  showWarnings = true;
-                  showRecommended = true;
-                }
-              }}
-              type="button"
-              aria-label="Toggle recommended prerequisites"
-            >
-              <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {showRecommended && showWarnings ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
-            </button>
-          </div>
         </div>
         <div class="text-xs text-gray-500 mt-1">
-          Enforced prerequisites always shown
+          All prerequisites always shown
         </div>
       </div>
     </div>

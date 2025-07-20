@@ -25,10 +25,6 @@
         "code": "ANTHRO"
       },
       {
-        "name": "Applied Linguistics",
-        "code": "APPLING"
-      },
-      {
         "name": "Archaeology",
         "code": "ARCHEOL"
       },
@@ -98,7 +94,7 @@
       },
       {
         "name": "Applied Chemical Sciences",
-        "code": "APP CHEM"
+        "code": "APP CHM"
       },
       {
         "name": "Chemistry and Biochemistry",
@@ -554,7 +550,7 @@
       },
       {
         "name": "Electrical Engineering",
-        "code": "EL ENGR"
+        "code": "EC ENGR"
       },
       {
         "name": "Engineering",
@@ -641,11 +637,7 @@
       {
         "name": "Music Industry",
         "code": "MSC IND"
-      },
-      {
-        "name": "Music History",
-        "code": "MSC HST"
-      },
+      },  
       {
         "name": "Musicology",
         "code": "MUSCLG"
@@ -687,10 +679,6 @@
         "code": "SOC WLF"
       },
       {
-        "name": "Real Estate Development",
-        "code": "RE DEV"
-      },
-      {
         "name": "Urban Planning",
         "code": "URBN PL"
       }
@@ -710,10 +698,6 @@
     "name": "Anderson School of Management",
     "code": "MG",
     "subjectAreas": [
-      {
-        "name": "International Exchange Program",
-        "code": "IEP"
-      },
       {
         "name": "Management",
         "code": "MGMT"

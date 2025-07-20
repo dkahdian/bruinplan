@@ -9,7 +9,6 @@ import {
   abbreviateCourseId,
   generateGroupId,
   isCourseEffectivelyCompletedWithEquivalents,
-  getEdgeType,
   determineGroupColor,
   shouldShowCourse,
   filterCoursesToShow
@@ -30,8 +29,6 @@ export function buildPrerequisiteGraph(
   options: GraphBuildOptions = {}
 ): GraphBuildResult {
   const { 
-    showWarnings = true, 
-    showRecommended = true,
     userCompletedCourses = new Set(),
     showCompletedCourses = true,
     enableAnimations = true,
@@ -101,29 +98,9 @@ export function buildPrerequisiteGraph(
 
   // Function to process a course requirement
   function processRequirement(requirement: CourseRequirement, parentCourseId: string): void {
-    if (requirement.type === 'Group') {
+    if (requirement.type === 'group') {
       processGroup(requirement, parentCourseId);
-    } else if (requirement.type === 'Requisite') {
-      const shouldProcess = requirement.level === 'Enforced' || (showWarnings && requirement.level === 'Warning');
-      
-      if (shouldProcess) {
-        const isCourseEffectivelyCompleted = isEffectivelyCompleted(requirement.course);
-        if (!shouldShowCourse(requirement.course, showCompletedCourses, (id) => isEffectivelyCompleted(id))) {
-          return;
-        }
-        
-        addCourse(requirement.course);
-        const edgeType = requirement.level === 'Enforced' ? 'enforced' : 'warning';
-        edges.push({
-          data: {
-            id: `${requirement.course}-${parentCourseId}`,
-            source: requirement.course,
-            target: parentCourseId,
-            type: edgeType
-          }
-        });
-      }
-    } else if (requirement.type === 'Recommended' && showRecommended) {
+    } else if (requirement.type === 'requisite') {
       const isCourseEffectivelyCompleted = isEffectivelyCompleted(requirement.course);
       if (!shouldShowCourse(requirement.course, showCompletedCourses, (id) => isEffectivelyCompleted(id))) {
         return;
@@ -134,8 +111,7 @@ export function buildPrerequisiteGraph(
         data: {
           id: `${requirement.course}-${parentCourseId}`,
           source: requirement.course,
-          target: parentCourseId,
-          type: 'recommended'
+          target: parentCourseId
         }
       });
     }
@@ -155,18 +131,13 @@ export function buildPrerequisiteGraph(
     const validOptions: CourseRequisite[] = [];
     
     group.options.forEach(option => {
-      if (option.type === 'Group') return;
+      if (option.type === 'group') return;
       
-      const isValidOption = (option.type === 'Requisite' && 
-        (option.level === 'Enforced' || (showWarnings && option.level === 'Warning'))) ||
-        (showRecommended && option.type === 'Recommended');
+      // All options are valid now since we removed levels
+      validOptions.push(option);
       
-      if (isValidOption) {
-        validOptions.push(option);
-        
-        if (userCompletedCourses.has(option.course)) {
-          actuallyCompletedCourses.push(option);
-        }
+      if (userCompletedCourses.has(option.course)) {
+        actuallyCompletedCourses.push(option);
       }
     });
 
@@ -192,16 +163,11 @@ export function buildPrerequisiteGraph(
         if (remainingNeeds === 0) {
           if (showCompletedCourses) {
             actuallyCompletedCourses.forEach(option => {
-              addCourse(option.course);
-              
-              const edgeType = getEdgeType(option);
-              
-              edges.push({
+              addCourse(option.course);edges.push({
                 data: {
                   id: `${option.course}-${parentCourseId}`,
                   source: option.course,
                   target: parentCourseId,
-                  type: edgeType,
                   fromCompleted: true
                 }
               });
@@ -242,7 +208,7 @@ export function buildPrerequisiteGraph(
             return;
           }
 
-          const groupColor = determineGroupColor(incompleteCourses, showWarnings);
+          const groupColor = determineGroupColor(incompleteCourses);
 
           nodes.push({
             data: {
@@ -258,23 +224,17 @@ export function buildPrerequisiteGraph(
             data: {
               id: `${groupId}-${parentCourseId}`,
               source: groupId,
-              target: parentCourseId,
-              type: groupColor
-            }
+              target: parentCourseId
+              }
           });
 
           // Process incomplete courses (connect to group)
           incompleteCourses.forEach(option => {
-            addCourse(option.course);
-            
-            const edgeType = getEdgeType(option);
-            
-            edges.push({
+            addCourse(option.course);edges.push({
               data: {
                 id: `${option.course}-${groupId}`,
                 source: option.course,
-                target: groupId,
-                type: edgeType
+                target: groupId
               }
             });
           });
@@ -282,16 +242,11 @@ export function buildPrerequisiteGraph(
           // Process completed courses (connect directly to parent) - only if showing completed
           if (showCompletedCourses) {
             actuallyCompletedCourses.forEach(option => {
-              addCourse(option.course);
-              
-              const edgeType = getEdgeType(option);
-              
-              edges.push({
+              addCourse(option.course);edges.push({
                 data: {
                   id: `${option.course}-${parentCourseId}`,
                   source: option.course,
                   target: parentCourseId,
-                  type: edgeType,
                   fromCompleted: true
                 }
               });
@@ -320,16 +275,11 @@ export function buildPrerequisiteGraph(
     if (remainingNeeds === 0) {
       if (showCompletedCourses) {
         completedCourses.forEach(option => {
-          addCourse(option.course);
-          
-          const edgeType = getEdgeType(option);
-          
-          edges.push({
+          addCourse(option.course);edges.push({
             data: {
               id: `${option.course}-${parentCourseId}`,
               source: option.course,
               target: parentCourseId,
-              type: edgeType,
               fromCompleted: true
             }
           });
@@ -346,7 +296,7 @@ export function buildPrerequisiteGraph(
       return;
     }
 
-    const groupColor = determineGroupColor(incompleteCourses, showWarnings);
+    const groupColor = determineGroupColor(incompleteCourses);
 
     nodes.push({
       data: {
@@ -362,23 +312,17 @@ export function buildPrerequisiteGraph(
       data: {
         id: `${groupId}-${parentCourseId}`,
         source: groupId,
-        target: parentCourseId,
-        type: groupColor
+        target: parentCourseId
       }
     });
 
     // Process incomplete courses (connect to group)
     incompleteCourses.forEach(option => {
-      addCourse(option.course);
-      
-      const edgeType = getEdgeType(option);
-      
-      edges.push({
+      addCourse(option.course);edges.push({
         data: {
           id: `${option.course}-${groupId}`,
           source: option.course,
-          target: groupId,
-          type: edgeType
+          target: groupId
         }
       });
     });
@@ -386,16 +330,11 @@ export function buildPrerequisiteGraph(
     // Process completed courses (connect directly to parent, bypassing group) - only if showing completed
     if (showCompletedCourses) {
       completedCourses.forEach(option => {
-        addCourse(option.course);
-        
-        const edgeType = getEdgeType(option);
-        
-        edges.push({
+        addCourse(option.course);edges.push({
           data: {
             id: `${option.course}-${parentCourseId}`,
             source: option.course,
             target: parentCourseId,
-            type: edgeType,
             fromCompleted: true
           }
         });
@@ -405,22 +344,17 @@ export function buildPrerequisiteGraph(
 
   // Function to process requirements for completed courses
   function processRequirementForCompletedCourse(requirement: CourseRequirement, parentCourseId: string): void {
-    if (requirement.type === 'Group') {
+    if (requirement.type === 'group') {
       requirement.options.forEach(option => {
         processRequirementForCompletedCourse(option, parentCourseId);
       });
-    } else if (requirement.type === 'Requisite' || requirement.type === 'Recommended') {
+    } else if (requirement.type === 'requisite') {
       if (isEffectivelyCompleted(requirement.course)) {
-        addCourse(requirement.course);
-        
-        const edgeType = getEdgeType(requirement);
-        
-        edges.push({
+        addCourse(requirement.course);edges.push({
           data: {
             id: `${requirement.course}-${parentCourseId}`,
             source: requirement.course,
             target: parentCourseId,
-            type: edgeType,
             fromCompleted: true
           }
         });

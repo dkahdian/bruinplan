@@ -6,35 +6,27 @@ import type { Course } from '../../types.js';
 import { schedulingService, courseCompletionService } from '../schedulingServices.js';
 
 /**
- * Handles clicking on a prerequisite course in the sidebar
- * Enables necessary prerequisite types and highlights the course in the graph
+ * Handles clicking on a prerequisite course from the sidebar
+ * Enables necessary prerequisite visibility and highlights the course in the graph
  * @param courseId - The course ID to highlight
- * @param requisiteLevel - The level of the prerequisite (Enforced, Warning)
- * @param requisiteType - The type of the prerequisite (Requisite, Recommended)
  * @param cy - The Cytoscape instance
  * @param courseMap - Map of course ID to course data
  * @param showWarnings - Current state of warnings toggle
- * @param showRecommended - Current state of recommended toggle
  * @param showCompletedCourses - Current state of completed courses toggle
  * @param userCompletedCourses - Set of completed course IDs
  * @param setShowWarnings - Function to update warnings toggle
- * @param setShowRecommended - Function to update recommended toggle
  * @param setShowCompletedCourses - Function to update completed courses toggle
  * @param setSelectedCourse - Function to update selected course
  * @param setIsTransitioning - Function to update transition state
  */
 export function handlePrerequisiteClick(
   courseId: string,
-  requisiteLevel: string | undefined,
-  requisiteType: string | undefined,
   cy: cytoscape.Core | undefined,
   courseMap: Map<string, Course>,
   showWarnings: boolean,
-  showRecommended: boolean,
   showCompletedCourses: boolean,
   userCompletedCourses: Set<string>,
   setShowWarnings: (value: boolean) => void,
-  setShowRecommended: (value: boolean) => void,
   setShowCompletedCourses: (value: boolean) => void,
   setSelectedCourse: (course: Course | null) => void,
   setIsTransitioning: (value: boolean) => void
@@ -48,13 +40,8 @@ export function handlePrerequisiteClick(
     setShowCompletedCourses(true);
   }
   
-  // First, check if we need to enable prerequisite types to show this course
-  if (requisiteType === 'Recommended' && !showRecommended) {
-    // Enable both warnings and recommended to show recommended prerequisites
-    setShowWarnings(true);
-    setShowRecommended(true);
-  } else if (requisiteLevel === 'Warning' && !showWarnings) {
-    // Enable warnings to show warning-level prerequisites
+  // Enable warnings to show prerequisite connections
+  if (!showWarnings) {
     setShowWarnings(true);
   }
   

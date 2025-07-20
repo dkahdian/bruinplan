@@ -22,27 +22,13 @@
   // Internal state for controlling what prerequisites are shown - initialize from localStorage
   const savedLegendState = loadLegendState();
   let showWarnings: boolean = savedLegendState.showWarnings;
-  let showRecommended: boolean = savedLegendState.showRecommended;
   let showCompletedCourses: boolean = savedLegendState.showCompletedCourses;
 
   // Course completion state - use the store directly
   $: userCompletedCourses = $completedCoursesStore;
 
-  // Enforce prerequisite hierarchy: Enforced → Warning → Recommended
-  $: {
-    if (!showWarnings && showRecommended) {
-      showRecommended = false;
-    }
-  }
-
   // Compute title based on what prerequisites are being shown
-  $: title = (() => {
-    if (showWarnings && showRecommended) return "All prerequisites";
-    if (!showWarnings && !showRecommended) return "Enforced prerequisites";
-    if (showWarnings && !showRecommended) return "Required prerequisites";
-    if (!showWarnings && showRecommended) return "Enforced and recommended prerequisites";
-    return "Prerequisites";
-  })();
+  $: title = showWarnings ? "All prerequisites" : "Prerequisites";
 
   let courses: Course[] = [];
   let courseMap: Map<string, Course> = new Map();
@@ -54,7 +40,6 @@
   // Track previous state to determine update type
   let previousState = {
     showWarnings: showWarnings,
-    showRecommended: showRecommended,
     showCompletedCourses: showCompletedCourses,
     userCompletedCourses: new Set<string>(),
     courseId: courseId
@@ -88,7 +73,6 @@
     // Load legend state from localStorage
     const savedState = loadLegendState();
     showWarnings = savedState.showWarnings;
-    showRecommended = savedState.showRecommended;
     showCompletedCourses = savedState.showCompletedCourses;
   }
 
@@ -97,7 +81,6 @@
     if (courses.length > 0) {
       const newState = {
         showWarnings,
-        showRecommended,
         showCompletedCourses,
         userCompletedCourses: new Set($completedCoursesStore),
         courseId
@@ -110,8 +93,6 @@
       if (isToggleOnlyChange) {
         // Generate new graph data
         const { nodes: newNodes, edges: newEdges } = buildPrerequisiteGraph(courseId, courses, courseMap, { 
-          showWarnings, 
-          showRecommended,
           userCompletedCourses: $completedCoursesStore,
           showCompletedCourses
         });
@@ -129,8 +110,6 @@
       } else {
         // Full rebuild for course changes or first load
         const { nodes: newNodes, edges: newEdges } = buildPrerequisiteGraph(courseId, courses, courseMap, { 
-          showWarnings, 
-          showRecommended,
           userCompletedCourses: $completedCoursesStore,
           showCompletedCourses
         });
@@ -190,16 +169,12 @@
     const cy = graphContainer?.getCytoscapeInstance();
     handlePrerequisiteClick(
       courseId,
-      requisiteLevel,
-      requisiteType,
       cy, // Now passing the actual Cytoscape instance
       courseMap,
       showWarnings,
-      showRecommended,
       showCompletedCourses,
       $completedCoursesStore,
       (value: boolean) => showWarnings = value,
-      (value: boolean) => showRecommended = value,
       (value: boolean) => showCompletedCourses = value,
       (course: Course | null) => selectedCourse = course,
       (value: boolean) => isTransitioning = value
@@ -239,7 +214,6 @@
       {enableTooltips}
       {graphWidthPercent}
       bind:showWarnings
-      bind:showRecommended
       bind:showCompletedCourses
       userCompletedCourses={$completedCoursesStore}
       onCourseSelect={handleCourseSelect}

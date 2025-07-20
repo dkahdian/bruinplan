@@ -60,41 +60,14 @@ export function isCourseEffectivelyCompletedWithEquivalents(
 }
 
 /**
- * Determines the edge type based on course requirement
- * @param requirement - The course requirement
- * @returns Edge type for styling
- */
-export function getEdgeType(requirement: any): 'enforced' | 'warning' | 'recommended' {
-  if (requirement.type === 'Recommended') {
-    return 'recommended';
-  }
-  return requirement.level === 'Enforced' ? 'enforced' : 'warning';
-}
-
-/**
- * Determines group color based on the strictest prerequisite type in the group
+ * Determines group color (simplified - all groups are the same now)  
  * @param options - Array of prerequisite options
- * @param showWarnings - Whether warnings are being shown
  * @returns Group color for styling
  */
 export function determineGroupColor(
-  options: any[],
-  showWarnings: boolean
-): 'enforced' | 'warning' | 'recommended' {
-  let groupColor: 'enforced' | 'warning' | 'recommended' = 'recommended';
-  
-  for (const option of options) {
-    if (option.type === 'Requisite') {
-      if (option.level === 'Enforced') {
-        groupColor = 'enforced';
-        break;
-      } else if (option.level === 'Warning' && showWarnings) {
-        groupColor = 'warning';
-      }
-    }
-  }
-  
-  return groupColor;
+  options: any[]
+): 'prerequisite' {
+  return 'prerequisite';
 }
 
 /**

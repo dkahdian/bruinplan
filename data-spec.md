@@ -115,7 +115,7 @@ This document describes the structure and expected contents of the core data fil
   ]
 }
 ```
-- **Requisites** can be objects describing enforced, recommended, or grouped requirements (see Mathematics.json for examples).
+- **Requisites** can be objects describing course requirements or grouped requirements (see Mathematics.json for examples).
 
 ---
 

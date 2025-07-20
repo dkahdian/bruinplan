@@ -7,7 +7,6 @@
   export let data: { 
     courseId: string; 
     showWarnings: boolean; 
-    showRecommended: boolean; 
   };
 </script>
 
