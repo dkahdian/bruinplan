@@ -1,0 +1,48 @@
+[
+    {
+        "id": "I M STD 155",
+        "title": "Theory, Research, and Methods in Study of International Migration",
+        "units": 4,
+        "description": "Seminar, three hours. Limited to International Migration Studies minors. Overview of key debates in study of international migration, focusing on emigration, immigration, and connections between place of origin and destination. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I M STD 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I M STD 193",
+        "title": "Colloquia and Speaker Series",
+        "units": 2,
+        "description": "Seminar, two hours. Introduction to current scholarship in field of international migration studies. Attendance at selected presentations with required response papers. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I M STD 199",
+        "title": "Directed Individual Research in International Migration Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Requisite: course 155. Limited to International Migration Studies minors. Supervised individual research under guidance of faculty mentor. Culminating paper required. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I M STD 155"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I M STD 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

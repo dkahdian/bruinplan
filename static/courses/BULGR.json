@@ -1,0 +1,83 @@
+[
+    {
+        "id": "BULGR 101A",
+        "title": "Elementary Bulgarian",
+        "units": 5,
+        "description": "Lecture, five hours. Course 101A is recommended preparation for 101B, which is recommended preparation for 101C. Each course may be waived with consent of instructor. Basic course in Bulgarian language. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BULGR 101B",
+        "title": "Elementary Bulgarian",
+        "units": 5,
+        "description": "Lecture, five hours. Recommended preparation: course 101A (may be waived with consent of instructor). Basic course in Bulgarian language. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BULGR 101C",
+        "title": "Elementary Bulgarian",
+        "units": 5,
+        "description": "Lecture, five hours. Recommended preparation: courses 101A, 101B (may be waived with consent of instructor). Basic course in Bulgarian language. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BULGR 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BULGR 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BULGR 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BULGR 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BULGR 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BULGR 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

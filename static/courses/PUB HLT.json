@@ -1,0 +1,277 @@
+[
+    {
+        "id": "PUB HLT 10",
+        "title": "Careers in Health",
+        "units": 2,
+        "description": "Seminar, two hours. Recommended for students interested in exploring career options in health-related fields. Designed to increase knowledge, skills, and confidence through course content and guest lectures from local professionals and UCLA faculty, staff, students, and alumni. Exposure to knowledge and resources related to pursuing careers in health-related fields, which includes r\u00e9sum\u00e9 and cover letter development, interviewing-skills development, and graduate school application processes. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 185A",
+        "title": "Public Health Capstone I",
+        "units": 4,
+        "description": "Seminar, three hours; discussion, one hour. Limited to Public Health majors. Enrollment by consent of school. Culminating experience for students to apply acquired content knowledge and skills to public health problem or issue. Students bring accumulated public health knowledge, skills, and methodological tools to individual or group project theme that is approved by instructor. Required weekly written assignments, participation in review and discussion of other students' work, and development of scope of work that outlines what is to be completed in course 185B. In Progress grading (credit to be given only on completion of course 185B).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 185B",
+        "title": "Public Health Capstone II",
+        "units": 4,
+        "description": "Seminar, three hours; discussion, one hour. Enforced requisite: course 185A. Students continue independent, or group work related on theme developed in course 185A. Students share in-progress work and continue to receive guidance from instructor and peer feedback. Students participate in school-sponsored poster session by presenting project outcomes to school and campus community. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB HLT 185A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB HLT 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB HLT 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 193",
+        "title": "Journal Club Seminars: Public Health",
+        "units": 1,
+        "description": "Seminar, one to two hours. Limited to undergraduate students. Development of in-depth understanding of and ability to discuss current literature in specific fields of research. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 195",
+        "title": "Community or Corporate Internship in Public Health",
+        "units": 4,
+        "description": "Tutorial, one hour; fieldwork, eight to 10 hours. Limited to Public Health majors and minors. Internship in corporate, governmental, or nonprofit setting under the supervision of faculty sponsor. Students expected to complete reading and written assignments, meet with faculty sponsor, and write final paper. Individual contract with supervising faculty member required. May be repeated for credit with consent of program. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 195CE",
+        "title": "Community and Corporate Internship in Public Health",
+        "units": 4,
+        "description": "Tutorial, to be arranged; fieldwork, eight to 10 hours. Limited to Public Health majors and minors. Internship in corporate, governmental, or nonprofit setting coordinated through Center for Community Engagement. Students complete weekly written assignments, attend biweekly meetings with graduate student coordinator, and write final research paper. Faculty of record and graduate student instructor construct series of reading assignments that examine issues related to working in field of public health. Individual contract with supervising faculty member required. May be repeated with consent of program. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 196",
+        "title": "Research Apprenticeship in Public Health",
+        "units": 4,
+        "description": "Tutorial, one hour. Limited to junior/senior Public Health majors or minors. Entry-level research apprenticeship under guidance of faculty mentor. Collaboration with faculty mentor on research related to public health. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 197",
+        "title": "Individual Studies in Public Health",
+        "units": 4,
+        "description": "Tutorial, four hours. Limited to junior/senior Public Health majors or minors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 198",
+        "title": "Honors Research in Public Health",
+        "units": 4,
+        "description": "Tutorial, one hour. Limited to Public Health majors or minors. Development and completion of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 199",
+        "title": "Directed Research in Public Health",
+        "units": 4,
+        "description": "Tutorial, one hour. Limited to Public Health majors or minors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 299",
+        "title": "Strategies for Success for Doctoral Students",
+        "units": 2,
+        "description": "Seminar, two hours. Interactive seminar, with focus on research process, tips for success in academia, and important tools for leadership designed for all doctoral students in School of Public Health. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 401",
+        "title": "Public Health as Profession",
+        "units": 4,
+        "description": "Lecture, four hours. Limited to Fielding School of Public Health graduate students. Introduction to interprofessional collaboration, team building, leadership, communication, cultural humility, and implicit bias, while supporting professional development and growth of Master of Public Health (MPH) students. Focus on development of strong collaborative skills with opportunities to practice benefiting students entering public health workforce. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 475",
+        "title": "Pedagogy: Essential Skills and Innovative Strategies",
+        "units": 2,
+        "description": "Seminar, two hours. Designed for School of Public Health doctoral students. Interactive seminar with focus on developing teaching materials for courses and acquisition of skills and tools that help students to become successful and innovative instructors. Active learning methodologies and competencies-based approach to instruction. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 490",
+        "title": "Public Speaking Mastery for Public Health Professional",
+        "units": 2,
+        "description": "Lecture, two hours. Lectures with in-class exercises, or in-class presentations followed by coaching feedback. Topics focus on developing range of communication skills necessary for students to become confident and effective public speakers. Master's and doctoral students in programs housed in School of Public Health who are interested in learning how to prepare and deliver impactful, compelling presentations with confidence and professionalism are encouraged to enroll. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 495",
+        "title": "Preparation for Teaching Public Health",
+        "units": 2,
+        "description": "Seminar, two hours. Designed for graduate students. Prepares individuals who will serve as teaching assistants for courses in Fielding School of Public Health. Study of methodologies in teaching public health, including implementing active learning strategies, effectively communicating goals for student learning, developing course materials that are consistent with expectations for student learning, creating inclusive teaching environment, and dealing with difficult situations. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 50A",
+        "title": "Introduction to Public Health I",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Systematic exploration of history, philosophy, development, and scope of public health in U.S. and globally. Emphasis on scientific, social, and legal basis for public health practice, including strategies for advancing individual, community, and environmental public health. Survey of core public health functions and essential services with special focus on population health, health equity, environmental justice, and financing of health services. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 50B",
+        "title": "Introduction to Public Health II",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Requisite: course 50A. Exploration of contemporary public health issues and challenges in U.S. and elsewhere with goal to acquaint students with current public health functions, issues, policies, practices, and current strategies for advancing people's health. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB HLT 50A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT C150",
+        "title": "Fundamentals of Public Health",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour. Limited to nonmajors. Not open for credit to students with credit for course 50A. Exploration of foundations of public health by examining public health challenges at local, national, and global levels, and current strategies for advancing population health. Analysis of current public health issues and modern public health policies and practices. May be concurrently scheduled with course C201. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT C188",
+        "title": "Special Courses in Public Health",
+        "units": 4,
+        "description": "(Formerly numbered 188.) Lecture, four hours. Program-sponsored experimental or temporary courses, such as those taught by visiting faculty members. May be repeated for credit with topic and instructor change. Concurrently scheduled with course C288. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT C191",
+        "title": "Variable Topics Research Seminar in Public Health",
+        "units": 5,
+        "description": "(Formerly numbered 191.) Seminar, three hours. Research seminar on selected topics. Reading, discussion, and development of culminating project. May be repeated for credit with topic and instructor change. Concurrently scheduled with course C291. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT C201",
+        "title": "Fundamentals of Public Health",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour. Limited to school of public health graduate students. Exploration of foundations of public health by examining public health challenges at local, national, and global levels, and current strategies for advancing population health. Analysis of current public health issues and modern public health policies and practices. May be concurrently scheduled with course C150. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT C288",
+        "title": "Special Courses in Public Health",
+        "units": 4,
+        "description": "Lecture, four hours. Program-sponsored experimental or temporary courses, such as those taught by visiting faculty members. May be repeated for credit with topic and instructor change. Concurrently scheduled with course C188. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT C291",
+        "title": "Variable Topics Research Seminar in Public Health",
+        "units": 5,
+        "description": "Seminar, three hours. Research seminar on selected topics. Reading, discussion, and development of culminating project. May be repeated for credit with topic and instructor change. Concurrently scheduled with course C191. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT M106",
+        "title": "Health in Chicano/Latino Population",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies CM106.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Examination of Chicano/Latino health status through life expectancy, causes of death, reportable diseases, services utilization, provider supply, and risk behaviors within demographic/immigration changes. Binational review of health effects in U.S. and Mexico. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB HLT M273",
+        "title": "Responsible Conduct of Research in Global Health",
+        "units": 2,
+        "description": "(Same as Epidemiology M273.) Lecture, two hours. Requisite: Community Health Sciences 200. Introduction to fundamental principles of public health ethics, current ethical procedures, guidelines, and requirements, and ethical issues facing public health professionals working in developing countries. History of public health issues, unique ethical issues of research in developing countries, analysis of ethical implications of informed consent, responsibility to study community, mechanisms of study approval, role of funders, and role and responsibilities of review boards. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COM HLT 200"}
+        ],
+        "equivalentCourses": []
+    }
+]

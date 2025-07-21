@@ -1,0 +1,809 @@
+[
+    {
+        "id": "SCAND 1",
+        "title": "Elementary Swedish",
+        "units": 4,
+        "description": "Discussion, four hours. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 11",
+        "title": "Elementary Norwegian",
+        "units": 4,
+        "description": "Discussion, four hours. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 12",
+        "title": "Elementary Norwegian",
+        "units": 4,
+        "description": "Discussion, four hours. Enforced requisite: course 11. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 11"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 13",
+        "title": "Elementary Norwegian",
+        "units": 4,
+        "description": "Discussion, four hours. Enforced requisite: course 12. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 12"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 133C",
+        "title": "Social Network Analysis and Icelandic Family Saga",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of how character interactions can be used as basis for developing social network view of stage on which saga action plays out. Examination of how best to model sagas as dynamic social networks and learn about metrics and analytical approaches from social network analysis (SNA) that deepen understanding of saga actions. SNA provides additional opportunity to explore hypothetical situations and recognize alternative social pathways that may have led to other types of community formations. Study of Icelandic saga toward increasing complexity, developing understanding of characters and character roles, and using this as basis of preliminary investigations. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 134",
+        "title": "Scandinavian Mythology",
+        "units": 4,
+        "description": "Seminar, three hours. Overview of major gods and goddesses, heroes and heroines, narratives and adventures that make up lore collectively referred to as Scandinavian, or Norse, myth. Reading and examination of this lore that is chiefly preserved in two collections traditionally called Poetic (or Elder) Edda and Prose (or Younger) Edda. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 138",
+        "title": "Vikings",
+        "units": 5,
+        "description": "Lecture, three hours. Survey of history, anthropology, and archaeology of Scandinavian societies in Viking Age. Consideration of impact of Vikings on Europe and beyond, and depiction of Vikings in sagas and other post-Viking-Age sources. Readings draw on medieval texts and secondary material. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 141C",
+        "title": "Short Story in Scandinavia",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of range of classic short story and novella texts from Scandinavian literary canon, with stories by authors such as Hans Christian Andersen, Jens Peter Jacobsen, Alexander Kielland, Amalie Skram, Sigbj\u00f8rn Obstfelder, Knut Hamsun, Isak Dinesen, and Rub\u00e9n Palma. Examination of authors' lives and oeuvres, larger Nordic/European literary movements of 19th and 20th centuries, and tropes and conventions of short stories themselves. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 142A",
+        "title": "Introduction to Nordic Theater and Drama",
+        "units": 4,
+        "description": "Lecture, three hours. Examination of artistic legacy of Henrik Ibsen and August Strindberg in context of emergence of modern Nordic theater and drama as whole, as well as important contributions of their contemporaries and successors. Readings include plays, letters, speeches, and memoirs by Ludvig Holberg, Henrik Ibsen, August Strindberg, P\u00e4r Lagerkvist, Kjeld Abell, Eeva-Liisa Manner, Hrafnhildur Hagal\u00edn Gudmundsd\u00f3ttir, and Jonas Hassen Khemiri. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 143A",
+        "title": "Scandinavian Detective Fiction",
+        "units": 4,
+        "description": "Seminar, three hours. Scandinavian authors have been writing detective fiction for years. Maj Sj\u00f6wall and Per Wahl\u00f6\u00f6 were famous worldwide in 1960s and 1970s, especially with their Martin Beck series, and once they had established that Scandinavian writers could be successfully translated into many languages, others followed. Scandinavian authors, while following traditional rules of crime fiction, also analyze and often criticize values and cultures of their societies. Reading of these works as representations of critical social and intellectual problems not only in Scandinavia, but in Europe and world at large. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 143C",
+        "title": "Scandinavian Crime Literature",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to background of crime fiction and its relation to Scandinavia. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 147A",
+        "title": "Hans Christian Andersen",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. Study of works of Hans Christian Andersen, Danish novelist, dramatist, and writer of tales, including consideration of his literary background and of his times. Analysis of his works in terms of their structure, style, and meaning. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 147C",
+        "title": "Karen Blixen",
+        "units": 4,
+        "description": "Lecture, three hours. Investigation of life, work, writings, and legacy of Danish author Karen Blixen, also known in the English-speaking world as Isak Dinesen. Focus on literary and philosophical paradoxes personified and articulated by enigmatic, controversial, and widely acclaimed Dinesen. Using memoirs, short fiction, and essays by Dinesen, interrogation of aesthetic theory, historiography and biography, feminist theory, postmodern and transcolonial theory, and identity. Secondary readings include texts by Bhabha, Gilbert and Gubar, JanMohamed, Kierkegaard, Nietzsche, Ngugi, Said, and Thurman. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 154",
+        "title": "Romanticism",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of Romanticism in Scandinavian literature. Reading and discussion of different approaches to Romanticism and analysis of works of prominent Scandinavian writers from Romantic period to understand Scandinavian Romanticism in larger European context, including work from both English and German Romantic writers and artists. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 156",
+        "title": "Scandinavian Literature of 20th Century",
+        "units": 4,
+        "description": "Seminar, three hours. Readings and discussion of selected works of modern Scandinavian literature from beginning of century to present. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 157",
+        "title": "Contemporary Nordic Literature",
+        "units": 4,
+        "description": "Seminar, three hours. Reading and analysis of selected texts by major 20th-century Swedish authors. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 161",
+        "title": "Introduction to Nordic Cinema",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for students in general and for those preparing for more advanced studies in Scandinavian literature and culture. Viewing and discussion of films by Ingmar Bergman and other Scandinavians. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 165B",
+        "title": "Vikings on Film",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of representations of Vikings in medium of film, considering Viking films within their historic and cultural contexts. How does representation of Vikings on film correspond to historical reality of Vikings? What have Vikings come to signify in modern era and why? Do we see development in idea of Vikings over time that is reflected in films from different periods? How do representations of Vikings in films produced in Scandinavia differ from their representations in films from other cultures? How do we see changing ideas about gender, ethnicity, dis/ability, sexual preference, and other aspects of identity reflected in Viking films? Development of critical thinking and close textual analysis skills. All readings and films in English or with English subtitles. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 172A",
+        "title": "Nordic Folk and Fairy Tales",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of Nordic version of classic tale-types such as Dragon Slayer, Cinderella, Hansel and Gretel, and King Lindorm in historic and cultural contexts. Reading of important works of Nordic and international folktale scholarship, representing historical-geographic, structuralist, psychological, feminist, disability-theory, and queer-theory approaches. Development of critical thinking and close textual analysis skills, and understanding and appreciation of genre that continues to pervade popular culture. Readings in English translation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 173A",
+        "title": "Popular Culture in Scandinavia",
+        "units": 4,
+        "description": "Seminar, three hours. Examination of popular culture in Scandinavia through study of contemporary Scandinavian literature, film, music, and art. Investigation of how issues such as globalization, immigration, and nationalism are portrayed in popular culture in Denmark, Norway, Sweden, Finland, and Iceland. Discussion of how and why human condition is interpreted through study of cultural expressions and how it is possible-taking literature, film, and art as point of departure-to analyze cultural, historical, and political expression in given piece of art. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 174B",
+        "title": "Queer Scandinavia",
+        "units": 4,
+        "description": "Seminar, three hours. Queer themes in Scandinavian literature, mainly from 19th and 20th centuries. Scandinavian countries have had more progressive view on homosexuality than most other countries, and Scandinavian writers portrayed homosexuality in explicit and radical ways as early as turn of 19th century. Introduction to key theoretical works within field of gay and lesbian studies and queer studies, as well as presentation of historical view of how homosexuality has been perceived in Western world over time. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 187FL",
+        "title": "Special Studies: Readings in Scandinavian",
+        "units": 2,
+        "description": "Seminar, two hours. Requisite: course 105B or 106B or 107B. Students must be concurrently enrolled in affiliated main course. Additional work in Nordic languages (Danish, Icelandic, Norwegian, Swedish) to augment work assigned in main course, including reading, writing, and other exercises. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SCAND 105B"},{"type": "requisite","course": "SCAND 106B"},{"type": "requisite","course": "SCAND 107B"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 197",
+        "title": "Individual Studies in Scandinavian",
+        "units": 2,
+        "description": "Tutorial, three hours. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 199",
+        "title": "Directed Research in Scandinavian",
+        "units": 4,
+        "description": "Tutorial, three hours. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 2",
+        "title": "Elementary Swedish",
+        "units": 4,
+        "description": "Discussion, four hours. Enforced requisite: course 1. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 233B",
+        "title": "Advanced Old Norse Prose",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 132B. Readings of major saga texts. Also, secondary sources that bear on specific issues in Old Norse literature and medieval Scandinavian history. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 132B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 234",
+        "title": "Scandinavian Mythology",
+        "units": 4,
+        "description": "Seminar, three hours. Study of Northern myth and religion through close reading of Eddic texts and secondary sources. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 235A",
+        "title": "Advanced Old Norse Poetry",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 132B. Readings of mythological and heroic poems from Poetic Edda. Secondary sources used where appropriate. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 132B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 3",
+        "title": "Elementary Swedish",
+        "units": 4,
+        "description": "Discussion, four hours. Enforced requisite: course 2. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 2"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 4",
+        "title": "Intermediate Swedish",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 3. Readings, composition, and conversation in Swedish. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 40",
+        "title": "Heroic Journey in Northern Myth, Legend, and Epic",
+        "units": 5,
+        "description": "Lecture, three hours. Not open for credit to students with credit for course 40W. All readings in English. Comparison of journeys of heroes. Readings in Nordic mythology, legend, folktale, and epic. Cultural and historic backgrounds to texts. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 40W",
+        "title": "Heroic Journey in Northern Myth, Legend, and Epic",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, two hours. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 40. All readings in English. Comparison of journeys of heroes. Readings in Nordic mythology, legend, folktale, and epic. Cultural and historic backgrounds to texts. Satisfies Writing II requirement. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 5",
+        "title": "Intermediate Swedish",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 4. Readings, composition, and conversation in Swedish. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 4"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 50",
+        "title": "Introduction to Scandinavian Literatures and Cultures",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 50W. Designed for students in general and for those wishing to prepare for more advanced and specialized studies in Scandinavian literature and culture. Selected works from literatures of Denmark, Norway, Sweden, Iceland, and Finland, ranging from myth, national epic, saga, and folktale through modern novel, poem, play, short story, and film, read in English and critically discussed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 50W",
+        "title": "Introduction to Scandinavian Literatures and Cultures",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course 50. Designed for students in general and for those wishing to prepare for more advanced and specialized studies in Scandinavian literature and culture. Selected works from literatures of Denmark, Norway, Sweden, Iceland, and Finland, ranging from myth, national epic, saga, and folktale through modern novel, poem, play, short story, and film, read in English and critically discussed. Satisfies Writing II requirement. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ENGCOMP 3"},{"type": "requisite","course": "ENGCOMP 3H"},{"type": "requisite","course": "ESL 36"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 596",
+        "title": "Directed Individual Study or Research",
+        "units": 2,
+        "description": "Tutorial, to be arranged with faculty member who directs the study or research. Limited to graduate Scandinavian students. Twelve units may be applied toward total course requirement, but only 4 units may be applied toward minimum graduate course requirement. May be repeated twice. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 597",
+        "title": "Preparation for MA Comprehensive Examination or PhD Qualifying Examinations",
+        "units": 4,
+        "description": "Tutorial, to be arranged with faculty member who directs the study or research. May be repeated once. May not be applied toward MA minimum course requirements. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 599",
+        "title": "Research for and Preparation of PhD Dissertation",
+        "units": 4,
+        "description": "Tutorial, to be arranged with faculty member who directs the study or research. May be repeated. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 6",
+        "title": "Intermediate Swedish",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 5. Readings, composition, and conversation in Swedish. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SCAND 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 60",
+        "title": "Introduction to Nordic Cinema",
+        "units": 5,
+        "description": "Lecture, three hours. Not open to students with credit for course 60W. Broad introductory overview of cinematic traditions of Nordic countries. Survey of wide range of films to become familiar with several significant threads running throughout history of Nordic film, while simultaneously building necessary tools with which to write effectively about film narrative. Offers historical and theoretical framework for understanding Nordic cinema by reading several relevant texts touching on issues such as globalization, immigration, Dogme 95, and feminist film theory. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 60W",
+        "title": "Introduction to Nordic Cinema",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, two hours. Enforced requisite: English Composition 3 or English as a Second Language 36. Not open for credit to students with credit for course 60. Introduction to cinematic traditions of Nordic countries, with emphasis on construction of other or outsider as conceptual category. Survey of wide range of films to interrogate relationship between various forms of minority discourse and dominant values, institutions, and mechanisms and instruments of social control. Investigation of how these cinematic narratives of dominant normativity and diversity reflect cultural anxieties surrounding identity, ideology, collective memory, and power relationships. Screenings supplemented with relevant theoretical texts to give tools necessary to more effectively contextualize and analyze images. Satisfies Writing II requirement. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ENGCOMP 3"},{"type": "requisite","course": "ESL 36"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C131",
+        "title": "Introduction to Viking Age",
+        "units": 4,
+        "description": "Lecture, three hours. History, society, and culture of early Scandinavians. All texts in English, including readings in Old Norse sagas and Eddas. Concurrently scheduled with course C231. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C133A",
+        "title": "Saga",
+        "units": 4,
+        "description": "Seminar, three hours. Sagas are largest extant medieval prose literature. Texts in English, with selections from different types of Icelandic sagas. Consideration of history and society that produced these narratives. Concurrently scheduled with course C233A. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C137",
+        "title": "Old Norse Literature and Society",
+        "units": 4,
+        "description": "Seminar, three hours. Critical issues in medieval Scandinavian studies. May be repeated for credit. Concurrently scheduled with course C237. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C141A",
+        "title": "Theory of Scandinavian Novel",
+        "units": 4,
+        "description": "Seminar, three hours. Analysis of predominant structures of Scandinavian novel from its 18th-century beginnings through its rise in 19th century and its 20th-century evolution. Discussion of application of contemporary critical theories to novels. May be concurrently scheduled with course C241A. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C145A",
+        "title": "Henrik Ibsen",
+        "units": 4,
+        "description": "Seminar, three hours. Readings and discussion of selected plays by Henrik Ibsen. May be concurrently scheduled with course C245A. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C145B",
+        "title": "Knut Hamsun",
+        "units": 4,
+        "description": "Seminar, three hours. Readings and discussion of selected works by Knut Hamsun and other 19th- and 20th-century Scandinavian writers who explored theme of nature as modern idyll. May be concurrently scheduled with course C245B. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C146A",
+        "title": "August Strindberg",
+        "units": 4,
+        "description": "Seminar, three hours. August Strindberg's portrayals of marital conflict reflected and shaped literary representation of so-called battle of sexes. His work, as well as its literary transformations, placed into Scandinavian, European, and feminist context. May be concurrently scheduled with course C246A. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C147B",
+        "title": "Soren Kierkegaard",
+        "units": 4,
+        "description": "Seminar, three hours. Readings and discussion of selected works by S\u00f8ren Kierkegaard and other existentialist writers. May be concurrently scheduled with course C247B. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C155",
+        "title": "Modern Breakthrough",
+        "units": 4,
+        "description": "Seminar, three hours. Readings and discussions of selected works of realism, naturalism, and symbolism in late 19th-century Scandinavian literature and art. Concurrently offered with course C255. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C163A",
+        "title": "Introduction to Danish Cinema",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to history of cinema in Denmark, as well as to some fundamental concepts in study of film. Deliberately broad and historically centered approach to development of cinema in Denmark rather than focus on films of particular directors or topics. Theoretical readings from important critics, including Kracauer, Bazin, Metz, and Chatman, along with several directed exercises, to develop vocabulary and critical method for discussing films in general and Danish cinema in particular. Other readings include selections from Hjort, Sandberg, Tangherlini, and other Scandinavian theorists. Concurrently scheduled with course C263A. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C163B",
+        "title": "Introduction to Swedish Cinema",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to and exploration of history of Swedish cinema from silent era to present. Filmmakers include auteurs in international canon, such as Victor Sj\u00f6str\u00f6m, Mauritz Stiller, and Ingmar Bergman, as well as other key Swedish filmmakers such as Gustaf Molander, Alf Sj\u00f6berg, Mai Zetterling, Vilgot Sj\u00f6man, Jan Troell, Lukas Moodysson, and Josef Fares. Development of Scandinavian high art cinema and popular genres such as rural romanticism, melodrama, sex, crime, and horror. All films have English subtitles. Concurrently scheduled with course C263B. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C163C",
+        "title": "Introduction to Norwegian Cinema",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to and exploration of history of Norwegian cinema from silent era to present. Filmmakers include Tancred Ibsen, Arne Skouen, Edith Carlmar, Nils Gaup, Erik Skjoldbj\u00e6rg, Bent Hamer, Khalid Hussain, and Petter N\u00e6ss. Particular focus on popular genres such as war films, horror, noir, romantic comedies, and documentaries. Concurrently scheduled with course C263C. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C166A",
+        "title": "Ingmar Bergman",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of Ingmar Bergman's development as film artist through various periods, spanning mid-1940s and late 1970s. Contextualization of work of this most personal of filmmakers within multiple frameworks of postwar Swedish film industry, international art cinema movement, and issues of auteur filmmaking. Course readings and viewing of 10 Bergman films. All films have English subtitles. Concurrently scheduled with course C266A. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C166C",
+        "title": "Carl Dreyer",
+        "units": 4,
+        "description": "Seminar, three hours. Carl Theodor Dreyer (1889 to 1968) is not only one of great masters of Nordic cinema, but of world cinema as well. Focus on films that Dreyer made during near half century between 1919 and 1964. Contextualization of silent and sound works of this most personal of filmmakers within multiple frameworks: Danish national film industry, transnational European cinema, and issues of auteur filmmaking. Writings by key Dreyer scholars such as David Bordwell, Ray Carney, Paul Schrader, Mark Sandberg, and others, as well as Dreyer's own writings on cinema. All films have English intertitles or subtitles. Concurrently scheduled with course C266C. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C171",
+        "title": "Introduction to Scandinavian Folklore",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to fairy tales and legends of Scandinavian tradition as well as to interpretive methodologies that strive to answer question why do people tell stories that they tell? Concurrently scheduled with course C271. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C174A",
+        "title": "Minority Cultures in Scandinavia",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of emergence of immigrant cultures in Nordic region. Beginning in 1960s, large numbers of people from Turkey, Italy, and Pakistan began immigrating to Nordic countries, followed in subsequent decades by immigrants and refugees from Vietnam, India, Iran, Iraq, Afghanistan, Cambodia, and countries throughout Africa. Cultural landscape previously marked by relatively high degree of cultural homogeneity now characterized by broad cultural diversity. Examination of emergence of new voices in Nordic cultural landscape in wide range of cultural expressive media, including literature, film, and visual and performing arts. Exploration of emergence of new forms of Nordic languages, such as well-documented phenomenon of Rinkeby Swedish. Concurrently scheduled with course C274A. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C180",
+        "title": "Literature and Scandinavian Society",
+        "units": 4,
+        "description": "Seminar, three hours. Discussion of selected aspects of Scandinavian society based on readings of contemporary literature as well as historical and/or sociological material. May be repeated for credit (as determined by undergraduate adviser) with topic change. May be concurrently scheduled with course C280. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C185",
+        "title": "Seminar: Scandinavian Literature",
+        "units": 4,
+        "description": "Seminar, three hours. Selected topics in Scandinavian prose, poetry, and drama. May be repeated for credit with consent of instructor and undergraduate adviser. May be concurrently scheduled with course C265. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C231",
+        "title": "Introduction to Viking Age",
+        "units": 4,
+        "description": "Lecture, three hours. History, society, and culture of early Scandinavians. All texts in English, including readings in Old Norse sagas and Eddas. Concurrently scheduled with course C131. Graduate students do additional readings and write more extensive research papers. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C233A",
+        "title": "Saga",
+        "units": 4,
+        "description": "Seminar, three hours. Sagas are largest extant medieval prose literature. Texts in English, with selections from different types of Icelandic sagas. Consideration of history and society that produced these narratives. Concurrently scheduled with course C133A. Graduate students do additional readings and write more extensive research papers. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C237",
+        "title": "Old Norse Literature and Society",
+        "units": 4,
+        "description": "Seminar, three hours. Critical issues in medieval Scandinavian studies. May be repeated for credit. Concurrently scheduled with course C137. Graduate students do additional readings and write more extensive research papers. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C241A",
+        "title": "Theory of Scandinavian Novel",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: advanced knowledge of one Scandinavian language. Analysis of predominant structures of Scandinavian novel from its 18th-century beginnings through its rise in 19th century and its 20th-century evolution. Discussion of application of contemporary critical theories to novels. May be concurrently scheduled with course C141A. Graduate students may meet as group one additional hour each week and write research papers of greater length and depth. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C245A",
+        "title": "Henrik Ibsen",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: advanced knowledge of one modern Scandinavian language. Readings and discussion of selected plays by Henrik Ibsen. May be concurrently scheduled with course C145A. Graduate students may meet as group one additional hour each week and write research papers of greater length and depth. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C245B",
+        "title": "Knut Hamsun",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: advanced knowledge of one Scandinavian language. Readings and discussion of selected works by Knut Hamsun and other 19th- and 20th-century Scandinavian writers who explored theme of nature as modern idyll. May be concurrently scheduled with course C145B. Graduate students may meet as group one additional hour each week and write research papers of greater length and depth. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C246A",
+        "title": "August Strindberg",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: advanced knowledge of one Scandinavian language. August Strindberg's portrayals of marital conflict reflected and shaped literary representation of so-called battle of sexes. His work, as well as its literary transformations, placed into Scandinavian, European, and feminist context. May be concurrently scheduled with course C146A. Graduate students may meet as group one additional hour each week and write research papers of greater length and depth. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C247B",
+        "title": "Soren Kierkegaard",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: advanced knowledge of one modern Scandinavian language. Readings and discussion of selected works of S\u00f8ren Kierkegaard and other existentialist writers. May be concurrently scheduled with course C147B. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C255",
+        "title": "Modern Breakthrough",
+        "units": 4,
+        "description": "Seminar, three hours. Readings and discussions of selected works of realism, naturalism, and symbolism in late 19th-century Scandinavian literature and art. Concurrently offered with course C155. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C263A",
+        "title": "Introduction to Danish Cinema",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to history of cinema in Denmark, as well as to some fundamental concepts in study of film. Deliberately broad and historically centered approach to development of cinema in Denmark rather than focus on films of particular directors or topics. Theoretical readings from important critics, including Kracauer, Bazin, Metz, and Chatman, along with several directed exercises, to develop vocabulary and critical method for discussing films in general and Danish cinema in particular. Other readings include selections from Hjort, Sandberg, Tangherlini, and other Scandinavian theorists. Concurrently scheduled with course C163A. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C263B",
+        "title": "Introduction to Swedish Cinema",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to and exploration of history of Swedish cinema from silent era to present. Filmmakers include auteurs in international canon, such as Victor Sj\u00f6str\u00f6m, Mauritz Stiller, and Ingmar Bergman, as well as other key Swedish filmmakers such as Gustaf Molander, Alf Sj\u00f6berg, Mai Zetterling, Vilgot Sj\u00f6man, Jan Troell, Lukas Moodysson, and Josef Fares. Development of Scandinavian high art cinema and popular genres such as rural romanticism, melodrama, sex, crime, and horror. All films have English subtitles. Concurrently scheduled with course C163B. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C263C",
+        "title": "Introduction to Norwegian Cinema",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to and exploration of history of Norwegian cinema from silent era to present. Filmmakers include Tancred Ibsen, Arne Skouen, Edith Carlmar, Nils Gaup, Erik Skjoldbj\u00e6rg, Bent Hamer, Khalid Hussain, and Petter N\u00e6ss. Particular focus on popular genres such as war films, horror, noir, romantic comedies, and documentaries. Concurrently scheduled with course C163C. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C265",
+        "title": "Seminar: Scandinavian Literature",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: reading knowledge of a Scandinavian language. Selected topics in Scandinavian prose, poetry, and drama. May be repeated for credit with consent of instructor and graduate adviser. May be concurrently scheduled with course C185. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C266A",
+        "title": "Ingmar Bergman",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of Ingmar Bergman's development as film artist through various periods, spanning mid-1940s and late 1970s. Contextualization of work of this most personal of filmmakers within multiple frameworks of postwar Swedish film industry, international art cinema movement, and issues of auteur filmmaking. Course readings and viewing of 10 Bergman films. All films have English subtitles. Concurrently scheduled with course C166A. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C266C",
+        "title": "Carl Dreyer",
+        "units": 4,
+        "description": "Seminar, three hours. Carl Theodor Dreyer (1889 to 1968) is not only one of great masters of Nordic cinema, but of world cinema as well. Focus on films that Dreyer made during near half century between 1919 and 1964. Contextualization of silent and sound works of this most personal of filmmakers within multiple frameworks: Danish national film industry, transnational European cinema, and issues of auteur filmmaking. Writings by key Dreyer scholars such as David Bordwell, Ray Carney, Paul Schrader, Mark Sandberg, and others, as well as Dreyer's own writings on cinema. All films have English intertitles or subtitles. Concurrently scheduled with course C166C. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C271",
+        "title": "Introduction to Scandinavian Folklore",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: advanced knowledge of one modern Scandinavian language. Introduction to fairy tales and legends of Scandinavian tradition as well as to interpretive methodologies that strive to answer question why do people tell stories that they tell? Concurrently scheduled with course C171. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C274A",
+        "title": "Minority Cultures in Scandinavia",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of emergence of immigrant cultures in Nordic region. Beginning in 1960s, large numbers of people from Turkey, Italy, and Pakistan began immigrating to Nordic countries, followed in subsequent decades by immigrants and refugees from Vietnam, India, Iran, Iraq, Afghanistan, Cambodia, and countries throughout Africa. Cultural landscape previously marked by relatively high degree of cultural homogeneity now characterized by broad cultural diversity. Examination of emergence of new voices in Nordic cultural landscape in wide range of cultural expressive media, including literature, film, and visual and performing arts. Exploration of emergence of new forms of Nordic languages, such as well-documented phenomenon of Rinkeby Swedish. Concurrently scheduled with course C174A. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND C280",
+        "title": "Literature and Scandinavian Society",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Discussion of selected aspects of Scandinavian society based on readings of contemporary literature as well as historical and/or sociological material. May be repeated for credit (as determined by graduate adviser) with topic change. May be concurrently scheduled with course C180. Graduate students may meet for extra seminar hours and write research papers of greater length and depth. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND M271",
+        "title": "Study of Oral Tradition: History and Methods",
+        "units": 4,
+        "description": "(Same as English M205A.) Seminar, three hours. Exploration of scholarly and literary attempts to study, define, analyze, promote, and/or appropriate oral traditions, from Homer and ancient Greece to origins of vernacular literatures, European romantic (re)discovery of oral tradition, 20th-century heuristic models of oral composition, and modern-day electronic media and popular verbal genres, such as joking and rapping. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCAND M273",
+        "title": "Studies in Oral Traditional Genres",
+        "units": 4,
+        "description": "(Same as English M205C.) Seminar, three hours. Exploration in depth of variety and history of, and scholarship on, a particular oral traditional genre (e.g., ballad, song, epic, proverb, riddle, folktale, legend) or a set of closely related oral traditional genres. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

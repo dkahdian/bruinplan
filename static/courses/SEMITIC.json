@@ -1,0 +1,276 @@
+[
+    {
+        "id": "SEMITIC 110",
+        "title": "Neo-Aramaic",
+        "units": 4,
+        "description": "Lecture, three hours. Grammar and reading of selected texts (folktales, homilies, songs) in modern Aramaic dialects of the Jews and Christians of Kurdistan.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 115",
+        "title": "Syriac",
+        "units": 4,
+        "description": "Lecture, two hours. Morphology and syntax of Syriac language, introductory reading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 130",
+        "title": "Biblical Aramaic",
+        "units": 4,
+        "description": "Lecture, three hours. Requisites: Hebrew 102A, 102B, 102C. Grammar of biblical Aramaic and reading of texts.",
+        "requisites": [
+            {"type": "requisite","course": "HEBREW 102A"},
+            {"type": "requisite","course": "HEBREW 102B"},
+            {"type": "requisite","course": "HEBREW 102C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 140B",
+        "title": "Elementary Akkadian",
+        "units": 4,
+        "description": "Lecture, three hours. Elementary grammar and reading of texts in standard Babylonian.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 141",
+        "title": "Advanced Akkadian",
+        "units": 4,
+        "description": "Lecture, three hours. Advanced Akkadian syntax and grammar; reading of Akkadian historical and literary texts. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 142",
+        "title": "Akkadian Literary Texts",
+        "units": 4,
+        "description": "Lecture, three hours. Selected readings from Akkadian myths and epics, with introduction to historical tradition of works and their literary structure. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 197",
+        "title": "Individual Studies in Semitics",
+        "units": 2,
+        "description": "Tutorial, one hour. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 199",
+        "title": "Directed Research or Senior Project in Semitics",
+        "units": 2,
+        "description": "Tutorial, one hour. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 210",
+        "title": "Ancient Aramaic Dialects",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 130. Reading of surviving inscriptions and papyri. Texts include Old Aramaic inscriptions, Egyptian Aramaic texts, Qumran Aramaic, and Targumic Aramaic. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SEMITIC 130"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 215B",
+        "title": "Syriac",
+        "units": 4,
+        "description": "Lecture, two hours. Morphology and syntax of Syriac language; readings in Syriac translation of Bible and Syriac literature. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 220A",
+        "title": "Ugaritic",
+        "units": 4,
+        "description": "Lecture, two hours. Requisites: Hebrew 102A, 102B, 102C. Study of Ugaritic language and literature. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HEBREW 102A"},
+            {"type": "requisite","course": "HEBREW 102B"},
+            {"type": "requisite","course": "HEBREW 102C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 220B",
+        "title": "Ugaritic",
+        "units": 4,
+        "description": "Lecture, two hours. Requisites: Hebrew 102A, 102B, 102C. Study of Ugaritic language and literature. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HEBREW 102A"},
+            {"type": "requisite","course": "HEBREW 102B"},
+            {"type": "requisite","course": "HEBREW 102C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 225",
+        "title": "Phoenician",
+        "units": 4,
+        "description": "Lecture, two hours. Requisites: Hebrew 102A, 102B, 102C. Study of Phoenician language and inscriptions. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HEBREW 102A"},
+            {"type": "requisite","course": "HEBREW 102B"},
+            {"type": "requisite","course": "HEBREW 102C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 230",
+        "title": "Seminar: Northwest Semitic Languages and Literatures",
+        "units": 4,
+        "description": "Seminar, two hours. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 240",
+        "title": "Seminar: Akkadian Language",
+        "units": 4,
+        "description": "Seminar, two hours. Readings of texts from various dialects of Akkadian; selected problems in linguistic analysis of Akkadian dialects. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 240X",
+        "title": "Seminar: Akkadian Language",
+        "units": 1,
+        "description": "Seminar, two hours. Readings of texts from various dialects of Akkadian; selected problems in linguistic analysis of Akkadian dialects. Course for students who participate regularly in class meetings but without the homework required in course 240. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 241",
+        "title": "Seminar: Akkadian Literature",
+        "units": 4,
+        "description": "Seminar, two hours. Readings of texts from various Akkadian literary genres; selected problems in literary history and stylistic analysis. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 241X",
+        "title": "Seminar: Akkadian Literature",
+        "units": 1,
+        "description": "Seminar, two hours. Readings of texts from various Akkadian literary genres; selected problems in literary history and stylistic analysis. Course for students who participate regularly in class meetings but without the homework required in course 241. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 280A",
+        "title": "Seminar: Comparative Semitics",
+        "units": 4,
+        "description": "Seminar, two hours. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 596",
+        "title": "Directed Individual Study",
+        "units": 2,
+        "description": "Tutorial, to be arranged. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 597",
+        "title": "Examination Preparation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 599",
+        "title": "PhD Dissertation Research and Preparation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEMITIC M140A",
+        "title": "Elementary Akkadian",
+        "units": 4,
+        "description": "(Formerly numbered 140A.) (Same as Ancient Near East M141.) Lecture, three hours. Elementary grammar and reading of texts in standard Babylonian. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

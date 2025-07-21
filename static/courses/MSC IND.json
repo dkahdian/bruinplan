@@ -1,0 +1,606 @@
+[
+    {
+        "id": "MSC IND 1",
+        "title": "Music Industry Forum",
+        "units": 1,
+        "description": "Lecture, one hour. Introduction to consideration of contemporary issues in global music industry through interaction with instructor, guest lecturers. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 101",
+        "title": "Critical Issues in the Music Industry",
+        "units": 4,
+        "description": "Seminar, four hours; outside study, eight hours. Required of Music Industry minors. Introduction to intellectual and theoretical frameworks that form Music Industry minor and that scholars of music and music industries have developed to analyze, understand, and perhaps judge what happens out there, including how music business works in financial, legal, global, and artistic terms, how music technologies of recording, reproduction, and consumption operate, and how basic music science from acoustics to brain biology to music perception affects how music is produced and heard. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 104A",
+        "title": "Music and Law",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Fundamentals of American law as it applies to entertainment business, with special attention to music and its use in film, television, and new media. Legal relationships in entertainment business and basic business practices. Exploration of legal aspects of process of producing works in entertainment field, from acquisition of rights and talent through production and distribution. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 104B",
+        "title": "Legal and Business Aspects of Music Publishing",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of legal and business aspects surrounding creation and distribution of musical compositions in today's evolving marketplace. Detailed exploration of rights afford songwriters under Copyright Act of 1976, and practical review of ability of these authors to control and monetize these rights. Review and practical analysis of agreements involved from inception to global exploitation of compositions including co-writer agreements, registration of songs, administration agreements, public performance agreements, and sale of catalogs. Exploration of financial implications for songwriters of these agreements. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 104C",
+        "title": "Legal and Business Aspects of Sound Recordings",
+        "units": 4,
+        "description": "(Formerly numbered 104B.) Seminar, three hours; outside study and research, nine hours. Exploration of legal and business aspects of production and distribution of sound recordings. More detailed practical focus on legal aspects of recording process itself, from initial assembly of material to final distribution and collection of royalties, with material covered also relevant to audio-visual recordings. Introductory presentation on contract, copyright, and trademark law as background to step-by-step process of securing agreements necessary for production and commercial distribution of recordings. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 107A",
+        "title": "Engineering and Production Fundamentals",
+        "units": 4,
+        "description": "Lecture, two hours; studio, one hour; outside study, nine hours. Introduction to basic acoustic principles, practical techniques, and working procedures for equipment used in contemporary music production, including microphones, mixers, recorders, synthesizers, and sequencers. Basic sound processing operations (equalization, compression, distortion, reverberation). Operating principles of most popular systems of music production software and hardware. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 107B",
+        "title": "Engineering and Production for Musicians",
+        "units": 4,
+        "description": "Studio, four hours; outside study, eight hours. Enforced requisite: course 107A. Examination of selected technological elements in greater depth than in course 107A, while applying established concepts to broad range of creative scenarios and applications. Basic familiarity with standard audio workstation software in use in music industry and introduction to foundational theoretical concepts in audio engineering, psychoacoustics, mixing, mastering, and sound recording. Development of critical listening skills through in-class and assigned listening. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MSC IND 107A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 108",
+        "title": "Founding and Sustaining Performing Arts Organizations",
+        "units": 4,
+        "description": "Seminar, four hours. Examination of process of founding performing arts organizations, beginning with inspiration to do so, clarifying organization mission, and mechanics of becoming nonprofit corporations; issues of funding, press relations, finding appropriate venues, developing audience; mechanics, legal and routine, of running arts businesses; establishing relationships with other organizations in field; issues of making and distributing recordings. Students create on paper one performing arts organization, including developing mission statement, preparing bylaws, and writing sample grant proposals. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 10A",
+        "title": "Finance and Accounting in Music Industry I",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to how money works in both nonprofit and for-profit music industries, including practical management of funds, budgeting (including tour budgets), fee scales, servicing agreements, issues pertaining to trade unions, and various modes of accounting for salary, royalties, local and international taxation, streaming revenues, licensing payments, and other income and expenditure. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 10B",
+        "title": "Finance and Accounting in Music Industry II",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 10A. Introduction to how money works in both nonprofit and for-profit music industries, including practical management of funds, budgeting (including tour budgets), fee scales, servicing agreements, issues pertaining to trade unions, and various modes of accounting for salary, royalties, local and international taxation, streaming revenues, licensing payments, and other income and expenditure. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MSC IND 10A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 110",
+        "title": "Music Business Now",
+        "units": 4,
+        "description": "Seminar, three hours. Hands-on introduction to business of music, with emphasis on marketing and media. Students work in teams to develop strategies for real-world artists. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 111A",
+        "title": "Rock/Pop Studio Ensemble I",
+        "units": 4,
+        "description": "(Formerly numbered 111.) Studio, four hours; outside study, four hours. Performance-based introduction to popular music styles, forms, and competencies through immersion in studio performance techniques. Students play in groups to develop ensemble, create material, and produce recordings. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 111B",
+        "title": "Rock/Pop Studio Ensemble II",
+        "units": 4,
+        "description": "Studio, four hours; outside study, four hours. Requisite: course 111A. Performance-based introduction to popular music styles, forms, and competencies through immersion in studio performance techniques. Students play in groups to develop ensemble, create material, and produce recordings. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MSC IND 111A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 112A",
+        "title": "Introduction to Songwriting",
+        "units": 4,
+        "description": "Seminar, four hours; outside study, eight hours. Learning and employment of craft of songwriting. Examination, analysis, and implementation of song structure, lyric and melody writing, arranging, orchestrating, and recording techniques. Evolution of songwriting in modern society since advent of phonograph player/radio; how songs and society affect and reflect one another; how this has informed songs and songwriters. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 112B",
+        "title": "Advanced Songwriting",
+        "units": 4,
+        "description": "Seminar, four hours; outside study, eight hours. Enrollment by consent of instructor. Seminar in contemporary songwriting practices for intermediate to advanced songwriter. Emphasis on collaboration, flexibility, and working within teams to master specific songwriting challenges. All genres and styles of music accommodated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 112C",
+        "title": "Songwriter's Workshop",
+        "units": 1,
+        "description": "Seminar, three hours. Enforced requisite: course 112A or 112B or permission of instructor. Provides supportive community for songwriters to work together under the supervision of Music Industry faculty. Students present their songs in progress, form teams for collaboration, and may undertake professionalization exercises like portfolio construction, writing on speculation, writing to synchronization, etc. Main focus is individual musical growth. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MSC IND 112A"},{"type": "requisite","course": "MSC IND 112B"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 113A",
+        "title": "Music Supervision",
+        "units": 4,
+        "description": "(Formerly numbered 113.) Seminar, three hours. Introduction to role of music supervisor and creative, logistical, and budget considerations of music supervision. Development of theoretical and practical knowledge, interaction with professionals in field, and practice negotiating music requests and clearances. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 113B",
+        "title": "Advanced Music Supervision",
+        "units": 4,
+        "description": "Seminar, three hours. Recommended requisite: course 113A. Further development of theoretical and practical knowledge of music supervision, interaction with professionals in field, and practice negotiating music requests and clearances. Advanced issues in music supervision, including multi-episode series, in-studio music departments, managing extensive catalogs, etc. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 114",
+        "title": "Concerts and Venues: Producing Special Events and Live Concerts",
+        "units": 4,
+        "description": "Seminar, three hours. Behind-scenes overview of how to produce successful live show, special event, or concert, from concept to execution, including master planning, venue production, concept and design, operations, seating, talent, security, and budget. Students acquire specialized knowledge and principles involved in staging any kind of event in stadiums, concert halls, arenas, exhibitions, and art installations in venues worldwide. Includes guest speakers and site visits to major shows, venues, and production facilities. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 114B",
+        "title": "Unconventional Harmony: Prioritizing Artists in Tour Logistics",
+        "units": 4,
+        "description": "Lecture, three hours. Detailed overview of tour logistics, used to develop a thorough set of strategies for handling all aspects of roadshows. Discussion of topics spanning backstage obstacles to the logistical coordination required for real-time tour management. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 115A",
+        "title": "Art of Music Production I",
+        "units": 4,
+        "description": "(Formerly numbered 115.) Lecture, three hours; studio, two hours. Exploration of techniques, methods, and process of music production and larger issues in art of making music. Students learn how to foster and capture performance and emotion in music through variety of methods and tools, including artistic direction in studio and choices made in sound, arrangement, and application of technology. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 115B",
+        "title": "Art of Music Production II",
+        "units": 4,
+        "description": "Lecture, three hours; studio, two hours. Requisite: course 115A. Further exploration of techniques, methods, and process of music production and larger issues in art of making music. Students learn how to foster and capture performance and emotion in music through variety of methods and tools including artistic direction in studio and choices made in sound, arrangement, and application of technology. Critical listening skills. Introduction to contemporary technologies including spatial audio, multi-channel sound, etc. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MSC IND 115A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 116A",
+        "title": "Digital Production and Beat Design I",
+        "units": 4,
+        "description": "Seminar, four hours. Course 116A is requisite to 116B. Recommended: course 107A. Introduction to contemporary digital production through mastery of beat-driven musical textures. Use of digital audio workstations, plugins and hardware, creation of live performance rigs controlling sound and vision. Students develop proficiency in key styles of beat-oriented popular music, including hip-hop, electronic dance music, pop, and experimental rhythm and blues. Principles of analog and digital synthesis, creation of sound libraries, composing for film and digital media. Sound amplification and integration of live performance with digital sound. Electronically submitted final project. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 116B",
+        "title": "Digital Production and Beat Design II",
+        "units": 4,
+        "description": "Seminar, four hours. Requisite: course 116A. Introduction to contemporary digital production through mastery of beat-driven musical textures. Use of digital audio workstations, plugins and hardware, creation of live performance rigs controlling sound and vision. Students develop proficiency in key styles of beat-oriented popular music, including hip-hop, electronic dance music, pop, and experimental rhythm and blues. Principles of analog and digital synthesis, creation of sound libraries, composing for film and digital media. Sound amplification and integration of live performance with digital sound. Electronically submitted final project. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MSC IND 116A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 117",
+        "title": "The Disc Jockey as Performer",
+        "units": 4,
+        "description": "Studio, six hours. Study of the art of disc jockey (DJ) performance and the deliberate practice of live mixing with vinyl records, digital CDJ decks, software, and controllers. Exploration also of music curation, performance dynamics, incorporation of instruments, live musicians, sampling, and visual elements. Students are prepared for DJ performances in various settings, from clubs and festivals to virtual platforms. Additional topics include DJ history and technology, technical aspects of performing, dance-floor psychology, reading energy, and stem mixing. May include university-sponsored club or special performance venue, and guest DJ speakers from various musical backgrounds and genres. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 118",
+        "title": "Post-Production Audio for Film, Television, and Visual Media",
+        "units": 4,
+        "description": "Seminar, three hours. Contemporary film sound, musical composition, and post-production audio. Principles of soundtrack editing, processing of vocals, and post-production sound design. Surround and theater sound mixing, game sound, and virtual reality. Final project ideally involves collaboration with UCLA student filmmakers and is electronically designed and submitted. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 122",
+        "title": "Digital Marketing and Promotion",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Record labels, streaming services, social media, synch, merchandise, entrepreneurship, and other avenues of coordinated and independent marketing and promotion. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 124A",
+        "title": "Music Industry Entrepreneurship",
+        "units": 4,
+        "description": "Seminar, three hours. Principles of entrepreneurship and fundamental business strategies approached through case studies and project-based group assignments. How to read market trends, put together business plans, raise investment funds. Students help manage speaker series with music industry entrepreneurs. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 124B",
+        "title": "Music Industry Entrepreneurship and Innovation",
+        "units": 4,
+        "description": "(Formerly numbered 124.) Seminar, four hours. Principles of entrepreneurship and fundamental business strategies approached through case studies and project-based group assignments. Students develop business plans, pitch them, and build out infrastructure for startups that focus on technology and innovation in music industry. Students are encouraged to make use of resources at MusicBiz, MEIEA, and startup.ucla.edu. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 126",
+        "title": "Artist Management",
+        "units": 4,
+        "description": "Seminar, four hours. Holistic principles of artist management including articulating and moving forward artistic vision, coordinating multiple revenue streams, psychology of managing artists and creative mind, and ethical practices in artist management. Basics of negotiation and compensation; artist promotion; career shaping; legal aspects of artist management; contemporary Internet-based strategies for artist promotion; merchandising and monetizing fandom. Students work to discover, sign, and break local artists across numerous genres. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 129",
+        "title": "Global Music Industry",
+        "units": 4,
+        "description": "(Formerly numbered 128.) Seminar, three hours. Introduction to global music industry through contemporary research, case studies, and trends. Survey of developed and emerging markets; regional marketing and moving beyond U.S.-based thinking; multi-national approaches to career building. Special topics may include international standards for linguistic issues including publishing, censoring, and dubbing. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 131",
+        "title": "DIY: Punk Organizing as Social Justice",
+        "units": 4,
+        "description": "Seminar, three hours. Recommended requisite or corequisite: Musicology 13. Do it yourself (DIY) as practical alternative mode of organization for social justice activism and nonprofit arts collectives. Ethical issues in capitalism, labor issues, politics. How to work with gender, class, race, and orientation. Students interface with existing radical social justice/art organizations in Los Angeles area, and strive to facilitate real change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 132",
+        "title": "Music and Activism",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. History and practice of music in and as activism. Artist-run labels and collectives, social justice organizing and media, art and activism in both entrepreneurial and non-profit settings. Students develop and execute music-related business plan with social awareness and potential for measurable impact. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 134",
+        "title": "Psychology and Music Management",
+        "units": 4,
+        "description": "Seminar, three hours. Theoretical and sociological approach to psychology of artistry, fame, and music management, including effects of fame, addiction, fandoms, and managing legacies. Focus on careers of significant musical artists according to instructor specialty. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 144",
+        "title": "Music Journalism",
+        "units": 4,
+        "description": "Seminar, four hours. Students learn core journalism writing and reporting techniques-objectivity, neutrality, fact-checking, interviewing, active voice writing, editing-and apply those techniques to producing publishable works of journalism that report on music and music industry. Discussion and exploration of music and music industry landscape as journalists with probing curiosity, critical thinking, reporting, and analysis. Story ideas are pitched as group; and written, reported, and edited as journalism team. Reading and critiquing of wide range of music journalism. Music journalists and musicians as guest speakers. No prior journalism experience necessary. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 155",
+        "title": "Music and Data Science",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to data science for music professionals. History of charts, jukeboxes, Nielsen, Sound Scan, and advances in monitoring of music consumption. Impact of data technologies, and rise of data analytics in Internet era. Statistics and programming for musicians. Social media and fan engagement. Students learn to gather, process, and act on complex streams of consumption data, media analytics. Implications for monetization of musical creativity, management of intellectual property. Basic programming experience is recommended to make best use of course. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 185",
+        "title": "Contemporary Topics in Music Industry",
+        "units": 4,
+        "description": "Seminar, three hours. Discussion and research into current trends in music industry and music industry studies. Topical focus may vary based on interests of instructor and students. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 187A",
+        "title": "Capstone Seminar in Music Industry I: Developing Project/Connections",
+        "units": 2,
+        "description": "Seminar, three hours. Limited to senior Music Industry majors. Preparation, creation, and presentation of senior capstone project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 187B",
+        "title": "Capstone Seminar in Music Industry II: Creating Project/Internship",
+        "units": 4,
+        "description": "Seminar, three hours. Requisite: course 187A. Limited to senior Music Industry majors. Preparation, creation, and presentation of senior capstone project. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MSC IND 187A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 187C",
+        "title": "Capstone Seminar in Music Industry III: Presenting Project/Report",
+        "units": 2,
+        "description": "Seminar, three hours. Requisite: course 187B. Limited to senior Music Industry majors. Preparation, creation, and presentation of senior capstone project. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MSC IND 187B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 188",
+        "title": "Special Courses in Music Industry",
+        "units": 4,
+        "description": "Seminar, four hours; outside study, eight hours. Special topics in music industry for undergraduate students taught on experimental or temporary basis. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 195",
+        "title": "Community or Corporate Internships in Music Industry and Technology",
+        "units": 4,
+        "description": "Tutorial, eight hours. Preference given to juniors/seniors in Music Industry minor with minimum cumulative 3.0 grade-point average. Internship in supervised setting in community agency or private business. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for maximum of 8 units. Individual contract with supervising faculty member required. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 195CE",
+        "title": "Community and Corporate Internships in Music Industry",
+        "units": 4,
+        "description": "Tutorial, to be arranged; fieldwork, eight to 10 hours. Limited to juniors/seniors. Internship in corporate, governmental, or nonprofit setting coordinated through Center for Community Engagement. Students complete weekly written assignments, attend biweekly meetings with graduate student instructor, and write final research paper. Faculty mentor and graduate student instructor construct series of reading assignments that examine issues related to internship site. May be repeated for credit with consent of Center for Community Engagement. No more than 8 units may be applied toward major. May not be applied toward concentration or distribution requirements. Individual contract with supervising faculty member required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 196",
+        "title": "Directed Mentorships in Music Industry",
+        "units": 2,
+        "description": "Tutorial, one hour. Limited to senior Music Industry majors with minimum cumulative 3.0 grade-point average. Supervised individual research under guidance of faculty and industry mentoring team. Culminating industry project required. May be repeated for maximum of 8 units. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 197",
+        "title": "Individual Studies in Music Industry and Technology",
+        "units": 2,
+        "description": "Tutorial, six to 12 hours. Limited to juniors/seniors in Music Industry minor with minimum cumulative 3.0 grade-point average. Individual intensive study in music industry and technology, with scheduled meetings to be arranged between faculty member and student. Tangible evidence of mastery of subject matter resulting in research project/paper required. May be repeated for maximum of 8 units. Individual contract with supervising faculty member required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 2",
+        "title": "Music Industry Fundamentals",
+        "units": 4,
+        "description": "(Formerly numbered 102.) Lecture, three hours; discussion, one hour. Introduction to current music industry. Overview of career paths, monetization strategies, organizational behavior, and entrepreneurial thinking. Designed to serve as gateway for music industry degree programs. Students familiarize themselves with basic functions of industry that are covered in greater detail in upper-division coursework. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 20A",
+        "title": "How Music Works I",
+        "units": 4,
+        "description": "Lecture, four hours; recitation, one hour. General introduction to music in technological era of mass culture, and reconsideration of music theory for global 21st century music professional. How organized sound can become source of pleasure, mode of communication, strategy of resistance, and (sometimes) source of intellectual property. No particular style of music or type of notation is privileged, and no traditional musical training is required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 20B",
+        "title": "How Music Works II",
+        "units": 4,
+        "description": "Lecture, four hours; recitation, one hour. Requisite: course 20A. General introduction to music in technological era of mass culture, and reconsideration of music theory for global 21st century music professional. How organized sound can become source of pleasure, mode of communication, strategy of resistance, and (sometimes) source of intellectual property. No particular style of music or type of notation is privileged, and no traditional musical training is required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MSC IND 20A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 25",
+        "title": "Fostering Musical Creativity: Artists and Repertoires",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Beginning from psychology of creativity (James, Dewey, Csikszentmihalyi) and management literature, exploration of creative process and how to foster and control it; and collaborative process with producer, manager, labels, and other executives. Topics include path of artist; recognizing creative individuality; structure and freedom; collaboration and how teams work, including inside and outside concert hall and recording studio; negotiation and career-building; feed-back and evaluation. Special attention to musical creativity and its rhythms. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 29",
+        "title": "Docs that Rock: Music Documentary in History and Practice",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Close look at history of popular music documentaries and goals, methods, and challenges of making them. Consideration of what makes for successful (or unsuccessful) music documentaries. Viewed through very specific focus of story and storytelling. Students may develop their own documentary project as part of coursework. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 4",
+        "title": "Reel Beatles: Understanding the Beatles through Film and Media",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Designed to tell story of the Beatles through visual media. Covers over 80 years of their lives, their journey, and enormous impact they had on world. Focus on how the Beatles were seen on television and in film. Examination of their most impactful filmed performances, movies they made as group, their promotional videos, their landmark broadcast moments, documentaries made about them while still they were still together, television interviews they did after group broke up, best documentaries made about them since 1970, and official multi-part documentary history of the Beatles they did together as well as Peter Jackson's 2021 documentary. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 5",
+        "title": "Voice Abound: Mastering Inner and Outer Expression",
+        "units": 4,
+        "description": "Seminar, three hours. Students are helped to define their public voice, pitch and advocate for themselves and others, build confidence, manage negative self-talk, and find true life balance and peace. Study lays the foundation for mastering personal and public communication in various contexts, from daily interactions and navigating the industry to media and social media. Students learn to achieve emotional balance, set boundaries, and effectively advocate for themselves and others. They master the art of pitching their vision and the goals of others, and deliver TED-level talks in any setting, whether intimate or to the masses. They gain the skills to secure the job, maintain a positive mindset, and eliminate chronic stress perceptions. Students are equipped to get ahead, be heard, nourish themselves, and strengthen their energy for navigating the inner and outer worlds they all encounter every day. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 55",
+        "title": "Legends of Songwriting: Their Life in Music",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. With special focus on songwriting renaissance of rock era, examination of work of important songwriters of post-World War II generation (circa 1952-1994) and those they have influenced. Practical industry guidance from current and noteworthy practitioners. Coverage of songwriting, arrangement and record production, music publishing, and record business in 20th and 21st centuries. Guest music industry professionals demonstrate individual creative processes and discuss their paths to songwriting and their place in world of music. Course is not workshop or tutorial on how to write songs. (See course 112.) P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 6",
+        "title": "Good Vibrations: Brian Wilson, the Beach Boys, and the California Myth",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Study of the Beach Boys' evolution through television appearances and documentaries. Includes narrative lectures and exclusive interviews conducted by David Leaf with the Beach Boys colleagues, the recorded legacy of the band, documentaries and other filmed documentation of the group, and excerpts from the literature (both popular and scholarly) on Brian Wilson and the Beach Boys. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 70",
+        "title": "Apprenticeship in Music Industry",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Under general supervision of UCLA faculty member, students work with various UCLA faculty and staff in production of live concert events, in UCLA recording studio, or as part of media production team led by UCLA faculty or staff. Written evaluation of apprenticeship work is provided by those supervising it directly. May be repeated for credit. Individual contract with workplace supervisor required. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 91A",
+        "title": "Rock/Pop Studio Ensemble I",
+        "units": 2,
+        "description": "Activity, five hours. Course 91A is requisite to 91B. Performance-based introduction to popular music styles, forms, and competencies through immersion in studio performance techniques. Students play in groups to develop ensemble, create material, and produce recordings. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 91B",
+        "title": "Rock/Pop Studio Ensemble II",
+        "units": 2,
+        "description": "Activity, five hours. Requisite: course 91A. Performance-based introduction to popular music styles, forms, and competencies through immersion in studio performance techniques. Students play in groups to develop ensemble, create material, and produce recordings. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MSC IND 91A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 95",
+        "title": "Introduction to Community or Corporate Internships in Music Industry",
+        "units": 4,
+        "description": "Tutorial, eight hours. Entry-level community or corporate internship for lower-division students who have completed 90 or fewer units. Internship in supervised setting in community organization, agency, or private business. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for maximum of 8 units. Individual contract with supervising faculty member required. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND M103",
+        "title": "Music, Mind, and Brain",
+        "units": 4,
+        "description": "(Same as Neuroscience M170.) Seminar, three hours; outside study, nine hours. Multidisciplinary approach to understanding brain mechanisms mediating music perception, performance, and cognition. Students' natural interest in music serves as springboard for learning basic concepts about theories of mind, and how brain works to determine perception of harmony and rhythm, emotion and meaning in music, and musical creativity. Designed to help students understand methodologies currently used to investigate brain-behavior correlates. Broad understanding of research topics in cognitive neuroscience; introduction to fundamental principles in neurophysiology, psychophysiology, and neuroanatomy. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND M176",
+        "title": "Music and Capitalism in West",
+        "units": 4,
+        "description": "(Same as Ethnomusicology M176.) Lecture, four hours. Follows history of western capitalism and how it has shaped music-making and listening to present time. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND M181",
+        "title": "Forensic Musicology",
+        "units": 4,
+        "description": "(Same as Musicology CM181.) Seminar, three hours. Survey of critical issues and recent developments in field of forensic musicology-application of musical analysis to law of music copyright. Instructors include professionals in music industry. Study of fundamentals of music analysis and copyright law, review of key music copyright infringement cases from both legal and musicological perspectives, outlining of procedural aspects of copyright case, and defining of working relationship between attorney and musicologist. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MSC IND M182",
+        "title": "Music Industry",
+        "units": 4,
+        "description": "(Same as Ethnomusicology CM182, Music CM182, and Musicology CM186.) Lecture, four hours; discussion, one hour; outside study, seven hours. Limited to Ethnomusicology, Music, and Musicology majors. Examination of influence of music industry on way music is created, performed, listened to, evaluated, and used today. Historical approach taken, beginning with music published in 18th century and continuing through development of audio recordings to MTV and popular music today. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

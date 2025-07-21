@@ -1,0 +1,178 @@
+[
+    {
+        "id": "GLB HLT 100",
+        "title": "Global Health and Development",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary examination of key issues in area of global health, with focus on developing world. Provides basis for understanding current debates that frame global health problems and actions in and across nations with strikingly different political-economic contexts. Discussion of how local and international communities attempt to address challenges of global health problems and how interventions play out through range of policy and programmatic approaches. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 110A",
+        "title": "Field Studies in Global Health",
+        "units": 4,
+        "description": "Seminar, three hours. Enforced corequisite: course 110B. Exploration of issues regarding global health in important locations around world. Hands-on experiential course offered for students participating in UCLA Travel Study Program. Field trips included to gain first-hand experience. May be repeated with topic and/or location change. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 110B",
+        "title": "Field Studies in Global Health",
+        "units": 4,
+        "description": "Seminar, three hours. Enforced corequisite: course 110A. Exploration of issues regarding global health in important locations around world. Hands-on experiential course offered for students participating in UCLA Travel Study Program. Field trips included to gain first-hand experience. May be repeated with topic and/or location change. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 130",
+        "title": "Critical Global Health: Cases and Concepts",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 100. In-depth study of global health challenges and responses through consideration of how concrete cases-anthropological, clinical, historical, public health-help confront broad problems related to human suffering and wellbeing, and how social science concepts help dissect these problems in ways that open up new possibilities. Use of concrete, vivid case each week to help learners grasp useful critical concept. Drawing on history, social theory, political economy, ethnography, and journalism, studied cases illustrate origins, politics, and lived experiences of contemporary global health dilemmas. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLB HLT 100"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 140",
+        "title": "Equity-Focused Program Evaluation in Global Health: Theory and Practice",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 100. Interdisciplinary approach to provide solid understanding of equity-focused evaluation theories and practices. Discussions are guided by principles of equity and human rights-based approach to global health. Focus on evaluation of policies, programs, and equitable delivery of health services for most vulnerable and marginalized populations. Case studies to learn about equity-focused research and evaluation concepts and methodology. Case study topics include impact of COVID-19 pandemic and response to it in relation to our students. For instance, COVID-19 has had greater impact on African American, Latin American, and indigenous communities than on white populations, and it has unmasked disparities in access to health care, education, and technology, which often reflect in student performance. Students are encouraged to examine relevance of class discussions in their own communities and in terms of their aspirations for creating better, more equitable, and healthier world. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLB HLT 100"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 150",
+        "title": "Migration and Health",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to history, current status, and future of migration and health using social determinants of health model to foster multidisciplinary analysis of status of migrant health around world. Exploration of social determinants of health affecting migrating populations, including gender, race, ethnicity, socioeconomic status, poverty, religion, politics, governance, and environment. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 160",
+        "title": "Selected Topics in Global Health",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Examination of one or more topics related to global health. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLB HLT 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLB HLT 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 191",
+        "title": "Variable Topics Senior Research Seminar: Global Health",
+        "units": 4,
+        "description": "Seminar, three hours. Requisite: course 100. Designed for Global Health minors. Research seminar on selected topics in Global Health. Reading, discussion, and development of culminating project. Consult Schedule of Classes for topic to be offered in specific term. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLB HLT 100"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 195CE",
+        "title": "Internships in Global Health",
+        "units": 4,
+        "description": "Tutorial, to be arranged; fieldwork, eight to 10 hours. Limited to juniors/seniors. Internship in private, governmental, or nonprofit setting coordinated through Center for Community Learning. Students complete weekly written assignments, attend biweekly meetings with graduate student coordinator, and write final research paper. Faculty sponsor and graduate student coordinator construct series of reading assignments that examine issues related to internship site. May be applied toward minor requirements. May be repeated for credit with consent of Center for Community Learning. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 199",
+        "title": "Directed Research in Global Health",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research under guidance of faculty mentor. Culminating paper required. May be applied toward requirements via petition. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLB HLT 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

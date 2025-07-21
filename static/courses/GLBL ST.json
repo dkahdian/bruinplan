@@ -1,0 +1,363 @@
+[
+    {
+        "id": "GLBL ST 1",
+        "title": "Introduction to Globalization",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to concept and history of globalization, and to political, economic, social, and environmental dimensions of global integration today. Topics include finance and trade, colonialism, Industrial Revolution, urbanization, immigration, and climate change, among others. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 10",
+        "title": "International Diplomacy and Foreign Affairs",
+        "units": 2,
+        "description": "Lecture, 15 hours; discussion, 15 hours. Limited to high school students participating in Model United Nations (UN) Summer Institute. One-week intensive summer course, including lectures in international relations and outside study. Development of position papers in simulation of United Nations and final presentation in respective UN committees. Particular emphasis on public speaking and cooperative debate. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 102",
+        "title": "Globalization: Markets and Resources",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Examination of how domestic and international politics determine how global economy is governed. Topics include monetary and capital policy, trade, international investment, and migration. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 103",
+        "title": "Globalization: Governance and Conflict",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Exploration of globalization of governance and its effect on outbreak, management, and resolution of disputes, violence, and conflict. Review of international and regional institutions and their interaction with contemporary issues, which may include terrorism, human rights, climate change, and cybersecurity. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 104",
+        "title": "Globalization: Culture and Society",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Investigation of circulation of peoples, goods, and media to examine interactions of globalization with local culture and formation of global cultures through practices and processes of globalization. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 110A",
+        "title": "Globalization in Context",
+        "units": 5,
+        "description": "Lecture, six hours. Requisite: course 100B. Corequisite: course 110B. Culture, economy, history, and politics of different locations around world and how they are affected by globalization. Field trips included to gain first-hand experience of these processes. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 100B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 110B",
+        "title": "Globalization in Context Research Seminar",
+        "units": 5,
+        "description": "Seminar, six hours. Requisite: course 100B. Corequisite: course 110A. Individual research projects on different aspects of globalization process in locations around world. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 100B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 112AD",
+        "title": "Globalization in Context: Markets and Resources",
+        "units": 5,
+        "description": "Lecture, six hours. Requisite: course 102. Corequisite: course 112BD. Examination of development of markets and businesses in globalized world. Field trips included to gain first-hand experience of these processes. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 102"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 112BD",
+        "title": "Globalization in Context Seminar: World Markets and Resources",
+        "units": 5,
+        "description": "Seminar, six hours. Requisite: course 102. Corequisite: course 112AD. Examination of role of markets and businesses in globalized world. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 102"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 113AD",
+        "title": "Globalization in Context: Governance and Conflict",
+        "units": 5,
+        "description": "Lecture, six hours. Requisites: courses 1, 103. Corequisite: course 113BD. History, politics, and philosophy of human rights; and how their globalization in modern history involves peaceful governance and international conflict. Study of different cultural histories and political experiences in which claims to racial or gender equality, equal economic opportunity, and religious freedom have emerged across the world. Students learn why imperialism, colonialism, and capitalism reinforce these man-made inequalities, and how interdisciplinary discourses account for human rights violations in conflict zones. Field trips included to gain first-hand experience of these processes. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 1"},
+            {"type": "requisite","course": "GLBL ST 103"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 113BD",
+        "title": "Globalization in Context Seminar: World Governance",
+        "units": 5,
+        "description": "Seminar, six hours. Requisites: courses 1, 103. Corequisite: course 113AD. Study of international institutions dedicated to upholding human rights codified in the Universal Declaration of Human Rights, and developed over decades. Examples include the Hague Peace Conventions, the United Nations, the International Court of Justice, the International Criminal Court, the International Criminal Tribunal for the Former Yugoslavia, and the International Criminal Tribunal for Rwanda. Field trips included to gain first-hand experience of these institutions. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 1"},
+            {"type": "requisite","course": "GLBL ST 103"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 114AD",
+        "title": "Globalization in Context: Culture and Society",
+        "units": 5,
+        "description": "Lecture, six hours. Requisite: course 104. Corequisite: course 114BD. Culture, economy, history, and politics of race, gender, and religion and how they are affected by globalization. Field trips included to gain first-hand experience of these processes. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 104"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 114BD",
+        "title": "Globalization in Context Seminar: World Culture and Society",
+        "units": 5,
+        "description": "Seminar, six hours. Requisite: course 104. Corequisite: course 114AD. Individual research projects on different aspects of globalization process in locations around world, including racial and gender identities. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 104"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 120",
+        "title": "Introduction to International Business",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Over last five decades, world has increasingly become globalized, presenting many new opportunities for businesses and entrepreneurs. However, recent world events have demonstrated volatile nature of globalization and pitfalls that can also manifest for firms doing business in global setting. Students gain understanding of dynamic environment of international business, and how firm managers navigate complex world of international business to capitalize upon opportunities and mitigate against risks. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 125",
+        "title": "Los Angeles as Global City: Exporter and Importer of Global Culture",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Study of phenomenon of globalization through prominent case of Los Angeles. Focus on how city produces global culture, including filmed entertainment and culture of celebrity and food; and how it absorbs cultural inputs from world over. Emphasis on interactive relationship between export and import of global culture. City's distinct cultural milieu influences nature of its cultural exports, but its viability as cultural capital depends on its ability to accommodate integrate diversity of cultures. Study creates immersive experience through films, guest speakers, and urban field trips. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 140",
+        "title": "Hollywood and the Immigrant Experience in America",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Hollywood movies and television shows often marginalize performers from Asian, Indian, and Middle Eastern backgrounds and contain negative cultural stereotypes of them. Over the last decade, artists from these immigrant communities have started a marked change in the entertainment industry and are challenging the dominant narrative. Examination of works and writings of unique artists who are redefining the American immigrant experience in the popular imagination. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 141",
+        "title": "Hollywood and Tales of Underrepresented Communities",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Hollywood movies and television shows often marginalize performers from Central American, South American, and Native American backgrounds and contain negative stereotypes of them. But in recent times, artists from these communities have risen in cultural prominence and they are challenging the dominant narrative. Examination of the works, performances, and writings of artists who are redefining the diversity of the American experience in the popular imagination. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 145",
+        "title": "Rethinking Global Capitalism: Race, Class, Gender, History",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Reconsideration of histories and geographies of global capitalism. Displacing industrial revolution from Britain out into colonial world, transatlantic slave trade, and attempted genocide of indigenous peoples in Americas, study of new map of global capitalism and new histories of globalization. Study covers capitalism; embodiment and gender; capitalism and environmental crisis; and new issues in digital capitalism, gig economy, and social media. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 160",
+        "title": "Selected Topics in Global Studies",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Examination of one or more topics related to global studies. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 188A",
+        "title": "Special Topics in Global Studies",
+        "units": 4,
+        "description": "Seminar, three hours. Program-sponsored experimental or temporary courses, such as those taught by resident or visiting faculty members. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 188B",
+        "title": "Special Topics in Global Studies",
+        "units": 4,
+        "description": "Seminar, three hours. Program-sponsored experimental or temporary courses, such as those taught by resident or visiting faculty members. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 191",
+        "title": "Variable Topics Research Seminars: Global Studies-Senior Seminar",
+        "units": 4,
+        "description": "Seminar, three hours. Enforced requisites: courses 110A, 110B. Limited to senior Global Studies majors. Organized on topics basis with readings, discussions, papers, and development of culminating project. May not be repeated for credit. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 110A"},
+            {"type": "requisite","course": "GLBL ST 110B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 192",
+        "title": "Undergraduate Practicum in Global Studies",
+        "units": 2,
+        "description": "Seminar, two hours; practicum, to be arranged. Limited to juniors/seniors. Training and supervised practicum for advanced undergraduate students to serve as undergraduate course assistants in global studies courses. Students assist in preparation and presentation of materials and development of innovative programs with guidance of faculty members. May not be applied toward major requirements. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 194",
+        "title": "Research Group Seminars",
+        "units": 1,
+        "description": "Seminar, two hours. Designed to encourage participation and stimulate progress in specific research areas for undergraduate students who are part of departmental research group or internship. Discussion of research methods or current literature in field of global studies or of research of faulty members or students. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 199",
+        "title": "Directed Research in Global Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research under guidance of faculty mentor. Culminating paper required. May be applied toward requirements via petition. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 199A",
+        "title": "Directed Research in Global Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to senior Global Studies majors. Supervised individual research under guidance of faculty mentor. Culminating paper required or comprehensive outline if pursuing departmental honors. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 199B",
+        "title": "Directed Individual Research in Global Studies",
+        "units": 4,
+        "description": "Tutorial, one hour. Requisite: course 199A. Limited to senior Global Studies majors. Supervised individual research or investigation under guidance of faculty mentor. Final drafting and submission of senior thesis. Culminating paper of 35 to 50 pages required. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "GLBL ST 199A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST M161",
+        "title": "Special Topics in Global Studies and Public Policy",
+        "units": 4,
+        "description": "(Same as Public Policy CM191G.) Seminar, three hours. Examination of one or more topics related to public policy and global studies. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "GLBL ST M177",
+        "title": "Superfoods: Cultural and Global Perspectives",
+        "units": 4,
+        "description": "(Same as Food Studies M177 and International Development Studies M177.) Seminar, four hours. Exploration of superfoods, which are nutrient rich foods considered beneficial for well-being, health, and longevity, as they are high in minerals, vitamins, and antioxidants. While superfoods have been part of cultures' diets for centuries, in recent decades they have been researched in scientific and medical communities. Citizens globally have begun to increasingly demand and consume foods that are nutritious, organic, and sustainable. It is important also to address issues such as marketing, misinformation, and hyper about superfoods. Surge of interest in superfoods is increasingly important in context of ongoing global inequities with regards to food access and production. Study addresses paradox that communities cope simultaneously with malnutrition/hunger and obesity, and how farming practices for superfoods and staple crops are related. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

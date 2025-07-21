@@ -1,0 +1,281 @@
+[
+    {
+        "id": "SOC SC 10",
+        "title": "Introduction to Critical Internet Studies",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, one hour. In today's digitally connected world, the Internet is more than just a tool for communication; it is a complex, evolving network that shapes how we interact with information, identity, and power. The Internet has become central to every facet of modern life-from political discourse to cultural production. Study of the political, social, and cultural dimensions of the Internet, exploring how it has transformed society and raised important questions about governance, regulation, and access. Students engage critically with topics such as the origins of the Internet, its infrastructure, and how it is governed, alongside questions of who owns and controls digital spaces. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 101",
+        "title": "Theories of Information Society",
+        "units": 4,
+        "description": "Lecture, two and one half hours; discussion, one hour. Exploration of seminal theories that have shaped scholarship on the information society, internet studies, and digital media. Through a critical examination of canonical texts and contemporary debates, students gain an in-depth understanding of how digital technologies transform social, cultural, political, and economic landscapes. Topics include the evolution of network societies, the digital divide, media convergence, and the cultural politics of information technology. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 102",
+        "title": "Technology, Power, and Society",
+        "units": 4,
+        "description": "Lecture, three and one half hours; discussion, one hour. Recommended requisite: course 101. Consideration of the ways in which data, data science, and datafication have developed. By foregrounding data as a central organizing theme in contemporary politics, economics, and knowledge-making, study prepares students to understand current phenomena by examining their historical precedent, methodological, and theoretical underpinnings. Drawing from multiple disciplines, exploration of topics such as the histories of data and datafication; the making of technological systems; science and technology as sources of social power and authority; race, gender, postcolonial, and intersectional approaches; regulatory and policy interventions; and public engagement with data and technology. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 103",
+        "title": "Critical History of Computing and the Internet",
+        "units": 4,
+        "description": "Lecture, two and one half hours; discussion, one hour. Exploration of the rich and complex histories of computing and the internet, recontextualizing dominant narratives within a global context and intersectional frameworks. Through study of early knowledge machines like the abacus and Jacquard looms and historical milestones such as World War II, the Cold War, and the rise of Silicon Valley, analysis of how these technologies were shaped by political, cultural, and social forces. By connecting historical developments to contemporary issues such as surveillance, social media, and artificial intelligence, students gain tools to challenge techno-utopian narratives and better understand the profound societal impact of digital technologies. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 11",
+        "title": "Mathematics Studio for Data Science",
+        "units": 1,
+        "description": "Studio, one to two hours. Designed for students who feel that their ability to participate in research opportunities is limited by their data science skills, and that their ability to acquire data science skills is limited by discomfort with mathematics. Review, preview, and practice of commonly used mathematics skills. Focus on topics relevant to data science, and especially to social science questions. All students who want to practice mathematics in a friendly and supportive environment are welcome. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 110A",
+        "title": "Social Science in Context: Perspectives and Methods in Study of Culture and Society",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to social science perspectives and methods for study of culture and society through combination of theoretical discussions and practical exercises. Students gain understanding of interaction of persons, societies, cultures, environments, and time. Examination of relationships between language, culture, and society to gain insights into processes of social reproduction of identities, power relations, and inequality. Students are exposed to working parts of social research: ethics of studying people and communities, gathering and analyzing of data (e.g., observations, interviews, and surveys), and interpretation and presentation of findings. Students gain informed and responsible values and attitudes towards just society, intercultural understanding, informed and active citizenship, ethical research practices, and lifelong learning. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 110B",
+        "title": "Social Science in Context: Understanding New Zealand from Colonialism to Neoliberalism",
+        "units": 4,
+        "description": "Lecture, eight hours (four weeks). Offered as part of summer UCLA Travel Study Program to New Zealand. Examination of life in Aotearoa, also known as New Zealand. Focus on historical events and social processes as well as axes of difference such as ethnicity and class and ways in which they have shaped and continue to influence cultural, political, social structures, and norms and values in New Zealand. Students learn to employ social science theories and concepts to gain deeper understanding of issues New Zealand faces. Through readings, classroom discussions, field trips, which provide valuable firsthand experiences, local guest speakers, and unique opportunity of exploring forces that shape society and culture in context of one of most celebrated democracies in world, students gain greater insight into social and political relations and events elsewhere in world, including U.S. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 188",
+        "title": "Academic Innovation in Industry",
+        "units": 1,
+        "description": "Lecture, one hour (six weeks). Exploration of how to apply disciplinary knowledge to industry problems and technology trends. Students build skills to enable them to create novel ways of meeting challenges, build network intelligence, and communication their ideas and expertise. Students also learn problem-solving techniques like lean startup approach. Uses case study approach to show how social scientists have connected with recent technology trends to produce impactful innovation. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 201",
+        "title": "Qualitative Social Science Research Methods",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students in the social sciences and related fields. Study of key concepts and approaches to qualitative research. Students gain understanding of ethical dilemmas and practical challenges associated with fieldwork and human subjects research, and hands-on experience with qualitative research methods. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 202",
+        "title": "Quantitative Data Analysis in Social Sciences",
+        "units": 4,
+        "description": "Seminar, three hours; laboratory, one hour. Introduction to descriptive and inferential statistics and data analysis. Covers process for taking variation in the world and turning it into data. Development of tools and concepts for exploring variation in data, modeling variation, and, evaluating models. Students gain ability to understand and explain what the most basic statistical formulas are doing. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 203",
+        "title": "Advanced Quantitative Analysis in Social Sciences",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: knowledge of basic statistics. Advanced training in data analysis and statistics. Exploration of variation in data, development of models, and evaluation of these models through processing real-world data. Use of R and Jupyter notebooks to produce visualizations, conduct analyses, and write results. Models used extend skills to multivariate models (models with more than one explanatory variable), including multiple regression with both quantitative and categorical explanatory variables. Introduction also to models in which the explanatory variables interact with one another. Students carry out data analysis projects, produce a written data analysis report, and present their work. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 210",
+        "title": "Data in Theory and Practice",
+        "units": 4,
+        "description": "Seminar, three hours. Big data is touted as revolutionizing social science by providing researchers unprecedented access to information about every aspect of social life, from micro-level social interactions to global health trends. The availability of large-scale datasets, along with the development of new analytic tools to organize and analyze data, holds the promise of accelerating the growth and accuracy of social scientific knowledge. But data itself is a fundamentally social phenomenon, with a distinctive history of development and usage. Consideration of the meaning and significance of data for the social sciences. Exploration of the intertwined histories of data and the mode of power Michel Foucault famously identified as \"governmentality\". Consideration of recent debates about the uses (and abuses) of data in the social sciences. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 230A",
+        "title": "Community-Based Research I",
+        "units": 4,
+        "description": "Lecture, three hours; fieldwork, two hours. Part one of two-part series. Students learn the principles, ethics, and methods of community-based research; and the place and purpose of scholarly inquiry. Working in teams, students conduct small-scale research projects in collaboration with local community organizations. Work is divided fairly among team members with each team member contributing based on their skills and talents. Teams work closely with the instructor and organization contacts on all aspects of the research design, execution, and data analysis. Teams learn all relevant background information about the community organization being worked with; develop a research design, data collection methods, and protocols; recruit participants; and engage in data collection. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 230B",
+        "title": "Community-Based Research II",
+        "units": 4,
+        "description": "Lecture, three hours; fieldwork, two hours. Part two of two-part series. Students continue to learn and practice the principles, ethics, and methods of community-based research; and the place and purpose of scholarly inquiry. Students continue to develop projects in consultation with the instructor and peer reviewers. Work is divided fairly among team members with each team member contributing based on their skills and talents. Teams work closely with the instructor and people at the organization on all aspects of the research analysis and write-up. Focus on project management and writing of final report. Each team produces a report that describes the research project aims, design, data collection and analysis, results, and implications to be shared with the community organization. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 400A",
+        "title": "Social Science Research and Perspectives",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of contribution of social science research to addressing complex social problems. Students engage wide array of disciplinary perspectives, research methods, and analytical approaches. Emphasis placed on development of multidisciplinary, integrative approaches to social science research. Students learn how to identify and frame social problem; how to identify, interpret, and evaluate relevant research; and how to synthesize research findings generated from different theoretical, methodological, and disciplinary approaches. Development of essential research, writing, and analytic skills. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 400B",
+        "title": "Social Science Research and Perspectives",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of contribution of social science research to addressing complex social problems. Students engage wide array of disciplinary perspectives, research methods, and analytical approaches. Emphasis placed on development of multidisciplinary, integrative approaches to social science research. Students learn how to identify and frame social problem; how to identify, interpret, and evaluate relevant research; and how to synthesize research findings generated from different theoretical, methodological, and disciplinary approaches. Development of essential research, writing, and analytic skills. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 401",
+        "title": "Qualitative Social Science Research Methods",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to range of qualitative approaches used in social science research and analysis through combination of theoretical discussions and practical experience. Examination of practical and epistemological issues in qualitative research in workshop format. Covers practical workings of qualitative research: gathering data through interviews, focus groups, observation, questionnaires, and archival research; strategies for recording, coding, and analyzing qualitative data; and evaluating and presenting qualitative research. Prepares students to undertake research using qualitative methods through collaborative class research project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 402",
+        "title": "Quantitative Data Analysis in Social Science",
+        "units": 4,
+        "description": "Lecture, two and one half hours; discussion, one hour. Introduction to fundamentals of data analysis and statistics, focusing on application of statistical methods in social problems research. Students develop skills and strategies for evaluating research evidence, and for comparing and synthesizing results of studies that adopt different research methodologies. Descriptive statistics, inferential statistics, probability, statistical tests, correlation, and causation, and regression analysis. Other topics include organizing quantitative data (e.g., tables, graphs), methods for describing data with respect to central tendency, dispersion, and association. At course end students should be able to perform data analysis using appropriate software, to interpret results, and to make critical evaluations of quantitative social science research. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 403",
+        "title": "Quantitative Evidence and Analysis in Social Sciences",
+        "units": 4,
+        "description": "Seminar, three hours; laboratory, one hour. Advanced training in data analysis and statistics, and training in strategies for evaluating research evidence and comparing results of studies that adopt varying research methodologies. Students gain experience working with large datasets, and with designing, testing, and validating statistical modeling techniques. Students are familiarized with datasets most relevant to their individual research interests. Students receive general training and individualized mentoring in selecting appropriate dataset for their major research paper (MRP). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 404",
+        "title": "Research Design in Social Science",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Introduction to main components of research projects, focusing on research questions, theoretical frameworks, and research design. Students design feasible research plan for individual project. Students identify research topic and specify research question; identify existing data for original analysis; compare theoretical frameworks for social scientific analysis of data; assess relevant evidence and literature; and explore approaches to data analysis. Students submit assignments, and complete research proposal. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 410",
+        "title": "Engaged Social Science",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of theory and practice of engaged social science, tracing its historical development from policy studies and related fields to more activist modalities of critique and intervention. Drawing on classic and contemporary studies in sociology, anthropology, political science, environmental studies, and social justice, to engage students in larger debates about politics of knowledge in relation to issues, such as poverty, racism, public health, refugees, gang culture, gender hierarchies, public education, and citizenship. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 419",
+        "title": "Data Analysis",
+        "units": 4,
+        "description": "Lecture, three hours. Workshop in which students develop research and analysis skills related to establishing and executing data analysis plan. Students engage in intensive peer-review process, working collaboratively in small groups. Students receive detailed feedback from instructor, teaching assistants, and faculty readers, and are expected to routinely revise their work. Students refine their presentation skills and prepare three- to five-minute presentation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 420",
+        "title": "Research Design and Analysis",
+        "units": 4,
+        "description": "Seminar, three hours. Guided completion of major research paper (MRP). Students receive detailed feedback from instructor, revise literature review, finalize analysis, tighten rhetoric, and improve organization of manuscript to transform it into final research paper. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 43",
+        "title": "Python for Social Sciences",
+        "units": 5,
+        "description": "Lecture, four hours; laboratory, one hour. Introduction to data science in the social sciences with emphasis on the Python programming language. Students learn to read, manipulate, and analyze data. Study of methods used to analyze quantitative data, textual data, and spatial data using real-world data sets. No prior experience in programming and data science required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 430",
+        "title": "Community-Based Research",
+        "units": 4,
+        "description": "Lecture, three hours; fieldwork, two hours. Study of principles, ethics, and methods of community-based research (CBR), and place and purpose of scholarly inquiry. Working in teams, students conduct small-scale research projects in collaboration with local community organizations. Teams work closely with instructors and organization agents on all aspects of research design, execution, and data analysis. Students apply quantitative and qualitative research methods skills acquired in courses 401 and 402 to research projects. Attendance at research site meetings, team meetings, and weekly on-campus class meetings required. Each team produces and submits final research report to community partner by end of quarter. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 430A",
+        "title": "Community-Based Research I",
+        "units": 4,
+        "description": "Lecture, three hours; fieldwork, two hours. Part one of two-part series. Students learn principles, ethics, and methods of community-based research (CBR), and place and purpose of scholarly inquiry. Working in teams, students conduct small-scale research projects in collaboration with local community organizations. Research projects are selected in consultation with instructor and community organization to be completed within quarter. Teams work closely with instructors and organization agents on all aspects of research. Teams develop research design, data collection methods and protocols, recruit participants, and engage in data collection. Students apply quantitative and qualitative research methods skills acquired in courses 401 and 402 to their research projects. Students are expected to attend meetings at research sites, team meetings, and weekly class meetings on campus. In Progress grading (credit to be given only on completion of course 430B).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 430B",
+        "title": "Community-Based Research II",
+        "units": 4,
+        "description": "Lecture, three hours; fieldwork, two hours. Part two of two-part series. Focus on data analysis and writing of final report. Working in teams, students develop data analysis plan, identify units of analysis, develop coding scheme, determine statistical inquiries, and conduct data analysis (including statistical analyses of quantitative data and coding of qualitative data) and interpretation of results. Work is divided fairly among team members with each team member contributing based on their skills and talents. Teams work closely with instructors and organization agents on all aspects of research and write-up. Students are expected to attend all meetings at research sites, team meetings, and weekly class meetings on campus. Each team produces and submits final research report to instructor and community partner. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 45",
+        "title": "R for Social Sciences",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Designed for students who never thought they would become programmers. No prior experience with R required. Students learn fundamental data management and data manipulation skills necessary for creating analysis datasets. Students gain fundamental skills of data management, which are important regardless of which programming language is used, and develop a strong foundation in the R programming language. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOC SC M240",
+        "title": "Data and Society",
+        "units": 4,
+        "description": "(Same as Digital Humanities M221.) Seminar, three hours. Introduction to way data and computing technologies increasingly play pivotal role in social life. Students pose critical questions about social impact of data, while also gaining literacy in engaging digital and data tools. Students learn to recognize historically and institutionally produced biases in data research and science. Engagement is encouraged with how to work with data for social justice aims. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

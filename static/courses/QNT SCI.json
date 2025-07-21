@@ -1,0 +1,71 @@
+[
+    {
+        "id": "QNT SCI 402",
+        "title": "Quantum Information",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: Physics 245. Density matrix evolution, decoherence, characterization of quantum states, distance measures between quantum states, fidelity, quantum error correction, entropy and information, and quantum information theory. May not be repeated for credit. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PHYSICS 245"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "QNT SCI 403",
+        "title": "Theory of Quantum Devices",
+        "units": 4,
+        "description": "Lecture, four hours. Requisites: course 402, Physics 245. Study of advanced theories, with some elements of quantum transport and advanced many-body physics. Introduction and comparison of different types of physical building blocks available for quantum computing. Addresses practical issues, such as scalability and comparison between different physical platforms and associated devices. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "QNT SCI 402"},
+            {"type": "requisite","course": "PHYSICS 245"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "QNT SCI 410",
+        "title": "Quantum Optics Laboratory",
+        "units": 4,
+        "description": "Laboratory, eight hours. Limited to Master of Quantum Science and Technology students. Examination and use of modern optics, including lasers, optics, fibers, polarization manipulation, and photon counting. Use of techniques of quantum optics to demonstrate concepts of quantum mechanics, including superposition, quantum measurement, hidden variable theories, and Bell's inequality. Application of quantum optics to quantum information science. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "QNT SCI 411",
+        "title": "Ensemble Quantum Computing Laboratory",
+        "units": 4,
+        "description": "Laboratory, four to eight hours. Limited to Master of Quantum Science and Technology students. Introduction to dynamics of ensembles of quantum mechanical spins, theoretical description in language of density matrices, and experimental techniques using nuclear magnetic resonance to prepare, manipulate, and measure their properties. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "QNT SCI 412",
+        "title": "Solid State Quantum Computing Laboratory",
+        "units": 4,
+        "description": "Laboratory, four to eight hours. Requisites: courses 410, 411. Introduction to materials, devices, and techniques of semiconductor-based qubit technology. Students choose total of 10 weeks of laboratory modules from among following list according to their interests and availability: semiconductor device processing and metrology; transmission electron microsocopy (TEM); pulsed control of NV- centers in diamond; quantum options and single photon interferometry; quantum key distribution and quantum random number generation; quantum zeno effects. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "QNT SCI 410"},
+            {"type": "requisite","course": "QNT SCI 411"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "QNT SCI 597",
+        "title": "Master of Quantum Science and Technology Comprehensive Examination Preparation",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to Master of Quantum Science and Technology students. Students conduct an independent research project in the field of quantum science and technology in a supervised setting, either a research group at UCLA (or other affiliated and approved university setting) or through an internship at a company, national laboratory, or similar institution. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "QNT SCI M205",
+        "title": "Quantum Programming",
+        "units": 4,
+        "description": "(Same as Computer Science M238.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisite: Mathematics 115A. History of quantum computing; notion of qubit; four postulates that provide interface to quantum mechanics; concepts of quantum circuit and universal gate set; quantum teleportation; superdense coding; no-cloning theorem; suite of fundamental quantum algorithms including Shor's algorithm, Grover's algorithm, and quantum approximate optimization algorithm; several quantum programming languages and how they compare; quantum simulators; quantum compilers; quantum error correction; quantum advantage. Students implement several quantum algorithms in multiple languages and run them on both simulators and quantum computer. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 115A"}
+        ],
+        "equivalentCourses": []
+    }
+]

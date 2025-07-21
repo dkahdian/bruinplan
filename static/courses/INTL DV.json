@@ -1,0 +1,258 @@
+[
+    {
+        "id": "INTL DV 1",
+        "title": "Introduction to International Development Studies",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Exploration of historical and contemporary context of socioeconomic inequalities between Global South and Global North. Focus on cultural, political, and economic realities of developing world, which includes countries of Asia, eastern Europe, Africa, Middle East, and Latin America. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 110",
+        "title": "Culture, Power, and Development",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Broad introduction to theoretical traditions in development studies, with focus on dynamics of culture, power, markets, states and social movements, with selected case studies in developing nations and comparative case analysis across Global South and North. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INTL DV 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 130",
+        "title": "Theory and History in International Development",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Social scientific survey of debates over policies contributing to economic development and underdevelopment. Topics include measurement and statistics, social and industrial policies, inequality, poverty, and historical differences for development paths across Europe, Asia, Africa, and Latin America. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INTL DV 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 140",
+        "title": "Decolonizing Political Economy: Colonialism and Development",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Introduction to approaches and intellectual traditions of critical development studies. Violence of colonization and struggle for decolonization were two of defining processes of 20th century. Consideration of how development as global good can be reconciled with its origins in colonialism, and how development became hegemonic way of imagining decolonization. Particular focus on voices of critique and special emphasis to models of development that emerged from Africa, Middle East, and South Asia. Discussion of relationship between rival notions of development and competing ideas of international relations. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INTL DV 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 160",
+        "title": "Selected Topics in International Development Studies",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Examination of one or more topics related to international development. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 188",
+        "title": "Special Courses in International Development Studies",
+        "units": 4,
+        "description": "Seminar, three hours. Program-sponsored experimental or temporary courses on selected contemporary topics in international development taught by visiting instructors or affiliated faculty members. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INTL DV 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INTL DV 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 191",
+        "title": "Variable Topics Research Seminars: International Development Studies-Senior Seminar",
+        "units": 4,
+        "description": "Seminar, three hours. Requisites: three courses from 110, M120, 130, 140. Limited to senior International Development Studies majors. Organized on topics basis with readings, discussions, papers. May not be repeated for credit. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 3,"options": [{"type": "requisite","course": "INTL DV 110"},{"type": "requisite","course": "INTL DV M120"},{"type": "requisite","course": "INTL DV 130"},{"type": "requisite","course": "INTL DV 140"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 192",
+        "title": "Undergraduate Practicum in International Development Studies",
+        "units": 2,
+        "description": "Seminar, two hours; practicum, to be arranged. Limited to juniors/seniors. Training and supervised practicum for advanced undergraduate students to serve as undergraduate course assistants in international development studies courses. Students assist in preparation and presentation of materials and development of innovative programs with guidance of faculty members. Consult academic counselor for further information. May not be applied toward major requirements. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 193",
+        "title": "Colloquia and Speaker Series",
+        "units": 1,
+        "description": "Seminar, two hours. Introduction to current scholarship in field of international development studies or of topics related to guest speaker series. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 194",
+        "title": "Research Group Seminar",
+        "units": 1,
+        "description": "Seminar, two hours. Designed to encourage participation and stimulate progress in specific research areas for undergraduate students who are part of departmental research group or internship. Discussion of research methods and current literature in field of international development studies or of research of faulty members or students. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 195",
+        "title": "Community or Corporate Internships in International Development Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged; fieldwork, 10 to 12 hours. Limited to juniors/seniors. Supervised internship in corporate, community, governmental, or nonprofit setting coordinated by International Development Studies. Additional supervision to be provided by internship site supervisor. Students meet with adviser and provide final reports of their experience. May be repeated for credit. Individual contract with supervising faculty member required. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 198A",
+        "title": "Honors Research in International Development Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average in courses for major, formal application to honors program. Requisites: courses 110, M120, 130. Limited to junior/senior International Development Studies majors. Research, discussion, and planning of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INTL DV 110"},
+            {"type": "requisite","course": "INTL DV M120"},
+            {"type": "requisite","course": "INTL DV 130"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 198B",
+        "title": "Honors Research in International Development Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average in courses for major, formal application to honors program. Enforced requisite: course 198A. Limited to junior/senior International Development Studies majors. Research, discussion, and planning of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. In Progress grading (credit to be given only on completion of course 198C).",
+        "requisites": [
+            {"type": "requisite","course": "INTL DV 198A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 198C",
+        "title": "Honors Research in International Development Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Preparation: 3.5 grade-point average in courses for major, formal application to honors program. Enforced requisite: course 198B. Limited to junior/senior International Development Studies majors. Final drafting and submission of honors thesis under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INTL DV 198B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 199",
+        "title": "Directed Research in International Development Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to junior/senior International Development Studies majors. Supervised intensive directed research program in which students conduct interdisciplinary research under guidance of faculty mentor. Culminating paper required. May be applied toward major via petition. May not be repeated. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV M120",
+        "title": "Political Economy of Development",
+        "units": 4,
+        "description": "(Same as Political Science M167C.) Lecture, three or four hours; discussion, one hour (when scheduled). Requisite: course 1. Political economy approach to puzzle of why some countries are rich and others are poor and why, among latter, some have been able to achieve rapid rates of economic growth and others have not. Explanation and review of logic behind most important arguments that have been advanced to account for differences across countries in rates and levels of economic development. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INTL DV 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV M150",
+        "title": "Political Economy of Climate Change",
+        "units": 4,
+        "description": "(Same as Political Science M152.) Lecture, three hours; discussion, one hour (when scheduled). Requisite: course 1. Exploration of how governments at international, national, and regional levels are addressing-or not addressing-extraordinary challenge of climate change. Use of combination of readings, lectures, and discussions to better understand causes, consequences, and policies to address most important political problem of our time-not just in U.S., but in other major countries as well. Concentration on challenge of mitigating, rather than adapting to, climate change; and concentration on energy use, rather than agriculture, forestry, and land use. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INTL DV 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INTL DV M177",
+        "title": "Superfoods: Cultural and Global Perspectives",
+        "units": 4,
+        "description": "(Same as Food Studies M177 and Global Studies M177.) Seminar, four hours. Exploration of superfoods, which are nutrient rich foods considered beneficial for well-being, health, and longevity, as they are high in minerals, vitamins, and antioxidants. While superfoods have been part of cultures' diets for centuries, in recent decades they have been researched in scientific and medical communities. Citizens globally have begun to increasingly demand and consume foods that are nutritious, organic, and sustainable. It is important also to address issues such as marketing, misinformation, and hyper about superfoods. Surge of interest in superfoods is increasingly important in context of ongoing global inequities with regards to food access and production. Study addresses paradox that communities cope simultaneously with malnutrition/hunger and obesity, and how farming practices for superfoods and staple crops are related. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

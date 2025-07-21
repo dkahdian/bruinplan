@@ -1,0 +1,1788 @@
+[
+    {
+        "id": "ETHNMUS 101",
+        "title": "Introduction to Ethnomusicology",
+        "units": 4,
+        "description": "Lecture, four hours. Introduction to history of field of ethnomusicology, basic fieldwork and analysis methods, and current issues in research. Introduction also of career opportunities for ethnomusicology graduates. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 106A",
+        "title": "Traditional North American Indian Music",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Native North American traditional music and its role in tribal societies. California, Southwest, Pacific Northwest, Northern and Southern Plains, Great Lakes/Eastern Woodlands, and Southeastern culture areas included. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 106B",
+        "title": "Contemporary North American Indian Music",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Contemporary Native North American musical expression, including popular styles (folk, country, rock), intertribal Indian musical genres (powwow), syncretic religious music, and traditional/historic Pan-Indian music. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 108B",
+        "title": "Music of Latin America: Latin South America",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Course M108A is not requisite to 108B. Survey of traditional and contemporary musical culture. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 10A",
+        "title": "Music Theory and Musicianship I",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Enforced requisite: course M6A with grade of C or better. Course 10A is enforced requisite to course 10B. Students must receive grade of C or better to proceed to next course in sequence. Basic technical terms of Western music and various non-Western musical cultures around the world; reading and writing Western music notation and some non-Western notational traditions; rhythm and intervals as they manifest themselves in distinct traditions; musical symbols, such as dynamics and articulation marks; vocabulary of ornamentations in Western and non-Western traditions; pitch organization systems of the world. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS M6A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 10B",
+        "title": "Music Theory and Musicianship II",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Enforced requisite: course 10A with grade of C or better. Introductory level harmony as practiced in Western classical music; Western music polyphony as a compositional technique and style; introduction to musical textures in Western and non-Western musical traditions; harmonic and formal analysis in Western and non-Western musical traditions; knowledge of various compositional techniques. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 10A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 113",
+        "title": "Music of Brazil",
+        "units": 4,
+        "description": "Lecture, three hours. History of ethnic and art music in Brazil, with some reference to Portuguese antecedents. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 117",
+        "title": "American Popular Music",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour. Survey of history and characteristics of American popular music and its relationship to American culture, with emphasis on 20th-century popular music and its major composers, including comparison between traditional pre-1950 popular music and trends in post-1950 popular music. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 122",
+        "title": "Global Dynamics of K-Pop",
+        "units": 4,
+        "description": "Lecture, four hours. Focused study on K-pop-South Korea's most significant cultural export. Close attention is paid to global influences that have shaped Korean popular music in earlier decades and in turn, unprecedented global reach of K-pop in recent history. Study is divided into three units: contextualizing K-pop, transnational flows in K-pop, and critical takes on K-pop. Each unit features distinctive case studies, and lectures draw out some of broader linkages between units as they relate to modern Korean history, Cold War geopolitical formations and legacies, modern South Korean state and economy, and spread of Korean popular culture. Study draws on wide array of scholarly articles, journalistic pieces, music videos, webinars, and online resources while foregrounding larger issues that emerge through cultural analysis. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 135",
+        "title": "Indo-Persian Musical Cultures: Mapping Musical Connections",
+        "units": 4,
+        "description": "Lecture, four hours. Study of connections between musical cultures of Indian subcontinent, Central Asia, and Iran. Exploration of musical ideas, forms, theories, instruments, styles, lyrics, etc. that make visible cultural continuities across broad Indo-Persianate world. Connected histories developed in these vast areas are not just through official language and religion of courts-Persian and Islam-but through trade, wandering Sufis, Persian poetry, scholars, and musicians, engendering deep and long-lasting connections. Focus is both historical and contemporary. Readings include articles and book chapters on musical cultures of Central and South Asia. By exploring diversity of commonalities in Indo-Persian musical cultures, understanding of often hidden similarities across different ethnic, cultural, geographical, and political boundaries is enhanced. Study elucidates values, ideas, and goals that relate individuals and groups across different places and cultures. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 136A",
+        "title": "Music of Africa",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Introduction to music of Africa through general discussion of select topics such as continent and its peoples, function, musician, instruments, musical structure and related arts, and contemporary music. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 142",
+        "title": "Music and Culture in Afghanistan and Central Asia",
+        "units": 4,
+        "description": "Lecture, four hours. Survey of music of Afghanistan, Turkmenistan, Tajikistan, Uzbekistan, and Xinjiang, including traditional and popular styles. Examination of modal systems and specific music genres of these regions, and exploration of cultural contexts, communicative functions, forms, styles, instruments, and musical philosophies. Consideration of interrelationships between musical genres and other art forms (dance, theater, visual arts, and literature) and analysis of how these types of music have intersected with issues of race, class, gender, religion, ritual, politics, social movements, and cultural identity. Includes detailed introduction to musical terms and concepts throughout. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 143",
+        "title": "Musical Traditions around Iran: Baluchistan, Kurdistan, Azerbaijan, and Iraq",
+        "units": 4,
+        "description": "Lecture, four hours. Introduction to selected types of music around Iran with particular attention to Baluchistan, Kurdistan, Azerbaijan, and Iraq. Study of structures and genres of music in urban and rural communities. Examination of how music-making relates to aspects of current Middle Eastern life such as religious observance, gender relations, ethnic and national identity, and process of globalization. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 144",
+        "title": "Special Topics in Iranian Music",
+        "units": 4,
+        "description": "Seminar, three hours. Requisites: courses 5 or M25, and 8. Exploration of topics on musical cultures and styles in Iran focusing on specific sociopolitical contexts, sexuality and gender studies, politics and resistance, religion, mysticism and spirituality, and role of musical discourses and practices in Iran and in its multiple diasporas (particularly Los Angeles). Topics announced in advance. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ETHNMUS 5"},{"type": "requisite","course": "ETHNMUS M25"}]},
+            {"type": "requisite","course": "ETHNMUS 8"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 145",
+        "title": "Analyzing Rhythm in Persian Music",
+        "units": 4,
+        "description": "Seminar, three hours. Requisites: courses 5 or M25, and 8. Examination of rhythm principles of Iranian music. Through theoretical and applied methods, exploration of experience of musical rhythm in Iran. Students learn various rhythmic functionalities in order to gain deeper understanding and appreciation for Iran's traditional, folklore, religious, and mystical musical styles. Examination of core rhythmic elements in Iranian music both through ethnomusicological literature on and by practicing Persian percussion in class. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ETHNMUS 5"},{"type": "requisite","course": "ETHNMUS M25"}]},
+            {"type": "requisite","course": "ETHNMUS 8"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 146",
+        "title": "Folk Music of South Asia",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Illustrated survey of some regional genres, styles, and musical instruments found in India and Pakistan, with special reference to religious, social, economic, and cultural context of their occurrence. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 147",
+        "title": "Survey of Classical Music in India",
+        "units": 4,
+        "description": "Lecture, four hours. Examination of melodic, metric, and formal structures of Indian classical music in context of religious, sociocultural, and historical background of country. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 148",
+        "title": "Global and Local South Asian Popular Music",
+        "units": 4,
+        "description": "Lecture, four hours. India, South Asia, and South Asian diasporas are home to vast array of popular musics. Bollywood (or Hindi film music) dates from 1940s to present day and has spread to countries as diverse as Ghana, Greece, Israel, and western world from 1950s. Older history of popular music in India delves into cosmopolitan colonial cultures of jazz, minstrelsy and traveling theatre, and global circulation of gramophone discs. With advent of cassettes, then CDs, VCDs, MP3s, and now online platforms, popular musics have proliferated. These include rustic vernacular styles like Bhojpuri pop; music of downtrodden groups such as Chamar pop or Gaana; Sufi popular music highlighting religious harmony; pop-style Hindu devotional songs; and recently, militant Hindutva pop. Popular musics have also emerged from South Asian diasporas, such as Chutney and Soca from Trinidad, or Bhangra from United Kingdom Punjabis. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 15",
+        "title": "American Life in Music",
+        "units": 4,
+        "description": "Lecture, three hours. Impact of ethnicity, race, gender, and other social processes on American music in late 20th century; use of and creativity in music to respond to and shape contemporary social processes. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 157",
+        "title": "History of Chinese Opera",
+        "units": 4,
+        "description": "Lecture, four hours. Survey of dramatic elements in Chinese operas, incorporating singing, dance, and acrobatics. Emphasis on traditional and modern Peking opera and its relation to Cantonese and other genres. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 158",
+        "title": "Studies in Chinese Instrumental Music",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Survey of Chinese musical instruments and their musical styles, classifications system, specific musical notation, and use in context of Chinese society. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 160",
+        "title": "Survey of Music in Japan",
+        "units": 4,
+        "description": "Lecture, three hours. Survey of main genres of Japanese traditional music, including Gagaku, Buddhist chant, Biwa music, Koto music, Shamisen music, and music used in various theatrical forms. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161A",
+        "title": "Advanced World Music Performance Organizations: Music and Dance of American Indians",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161B",
+        "title": "Advanced World Music Performance Organizations: Music of Bali",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161E",
+        "title": "Advanced World Music Performance Organizations: Music and Dance of Ghana",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161G",
+        "title": "Advanced World Music Performance Organizations: Music of Japan",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161H",
+        "title": "Advanced World Music Performance Organizations: Music of Java",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161J",
+        "title": "Advanced World Music Performance Organizations: Music of Korea",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161K",
+        "title": "Advanced World Music Performance Organizations: Music of Mexico",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161L",
+        "title": "Advanced World Music Performance Organizations: Music of Persia",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161M",
+        "title": "Advanced World Music Performance Organizations: Music of Thailand",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161N",
+        "title": "Advanced World Music Performance Organizations: Music of Near East",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161P",
+        "title": "Advanced World Music Performance Organizations: African American Music Ensemble",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Performance of diverse range of vocal repertoire including spirituals, gospel, freedom/Civil Rights songs, and other works by African-diasporic composers, including anthems, hymn arrangements, and various forms of contemporary choral music. Tracing development of this music from 1600s to present, African American choral music is medium performed a cappella or with instrumental accompaniment. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 161Z",
+        "title": "Advanced World Music Performance Organizations: Open Ensemble",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Limited to Ethnomusicology majors. Advanced study of traditional vocal and instrumental world music. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 162",
+        "title": "Advanced Private Instruction in Music",
+        "units": 2,
+        "description": "Studio, one hour; outside practice, five hours. Preparation: two years of courses 91A through 91Z or 92. Limited to Ethnomusicology majors. Advanced private or semiprivate music instruction with distinguished community-based musician, that must be arranged by students and approved by course instructor. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 163",
+        "title": "Theory, Practice, and Improvisation in Iranian Music",
+        "units": 4,
+        "description": "Seminar, three hours. Requisites: courses 5 or M25, and 8. Designed to expose students from wide background of experience, outlooks, and training to many facets of art and craft of improvisation in Iranian music. Examination of how organization of radif (collection of melodic figures preserved through oral tradition that provides basis of improvisation), and master and disciple teaching and tutoring, shape improvisational and performance practices in Iranian traditional music. Comparison of radif to num,ber of related musical cultures: Arabic maqam, Turkish makam, and number of ragas from North Indian tradition. Includes in part workshop format in which students are encouraged to bring their own musical instruments, or for vocalist to join in, in exploring radif. Students read about theoretical issues of radif, and learn how to memorize, compose, and improvise important parts of radif. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ETHNMUS 5"},{"type": "requisite","course": "ETHNMUS M25"}]},
+            {"type": "requisite","course": "ETHNMUS 8"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 164",
+        "title": "World Music Composition",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours; outside study, six hours. Requisites: courses 20A, 20B, 20C. Limited to Ethnomusicology majors. Examination in composition using variety of Western and non-Western musical systems. Final project required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 20A"},
+            {"type": "requisite","course": "ETHNMUS 20B"},
+            {"type": "requisite","course": "ETHNMUS 20C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 168A",
+        "title": "Advanced World Music Specializations: Music of China-Ensemble",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Advanced performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 168B",
+        "title": "Advanced World Music Specializations: Music of China-Zheng",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Advanced performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 168C",
+        "title": "Advanced World Music Specializations: Music of China-Qin",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Advanced performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 168F",
+        "title": "Advanced World Music Specializations: Music of India-Ensemble",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Advanced performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 168G",
+        "title": "Advanced World Music Specializations: Music of India-Tabla",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Advanced performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 168M",
+        "title": "Advanced World Music Specializations: Music of Balkans-Ensemble",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Advanced performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 168N",
+        "title": "Advanced World Music Specializations: Music of Balkans-Choir",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Advanced performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 168O",
+        "title": "Advanced World Music Specializations: Music of Balkans-Instrumental Music",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Advanced performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 171",
+        "title": "Music and Diverse Worlds of Gender and Sexuality",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Exploration of diverse worlds of gender, sexuality, and music across multiple global locations. Introduction to theoretical approaches to study of gender and sexuality by theorists such as Judith Butler, Kimberl\u00e9 Crenshaw, Jack Halberstam, bell hooks, and Sherry Ortner. Exploration of gender critically as highly plural, fluid, and intersectional phenomenon of social organization. As embodied arts existing in often liminal and highly-charged performing spaces and intertwined with pleasure, music and dance frequently foreground issues surrounding body, gender, and sexuality. While being spaces for performing of hegemonic gender identities they can reveal contradictions of normative gender identities (albeit not always intentionally or consciously), and they are also central part of many gender and sexual minority subcultures. Study of gender, performing arts, and power as inseparable, and as manifested in multiple forms of intersectionality, notably including race, class, and age. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 174",
+        "title": "Aesthetics of Music",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Designed for nonmajors. Historical survey of musical aesthetic thought and practice. Selected readings and musical examples. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 175",
+        "title": "Sociology of Music",
+        "units": 4,
+        "description": "Lecture, four hours. Designed for Ethnomusicology, Music History, and Music majors. Introduction to sociology of music, its principles and basic concepts, and its critical significance for sociomusicological inquiry, including study of popular music, ethnomusicology, and cultural politics of music. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 177",
+        "title": "Music, Internet, and Social Media",
+        "units": 4,
+        "description": "Lecture, four hours. Innovations in media and technology accompany and contribute to fundamental changes in social and economic organization. Such shifts are often spoken of as revolutions, notably, recent digital or Internet revolution. Exploration of impact of Internet-based social media on ways in which people make music, connect through music, and live from music in diverse global contexts. Examination of how social media are social in new ways, and how they offer new potentials (and new limitations and challenges) for music. Examination of rise of Web 2.0; and exploration of how social media affects music in relation to artistic and creative work, affect and experience, livelihoods and remuneration, and music industries. Examination of both utopian and dystopian discourses in connection with music, Internet, and social media; and exploration of potential for marginalized people, as well as for corporate and political control. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 181",
+        "title": "Anthropology of Music",
+        "units": 4,
+        "description": "Lecture, four hours. Designed for Ethnomusicology, Music History, and Anthropology majors. Cross-cultural examination of music in context of social behavior and how musical patterns reflect patterns exhibited in other cultural systems, including economic, political, religious, and social structure. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 183",
+        "title": "Study of Ethnomusicology",
+        "units": 4,
+        "description": "Lecture, three hours; outside study, nine hours. Requisites: courses M6A, M6B, M6C, 20A, 20B, 20C. Designed for Ethnomusicology majors. Introduction to history of field, basic fieldwork and analysis methods, and current issues in research. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS M6A"},
+            {"type": "requisite","course": "ETHNMUS M6B"},
+            {"type": "requisite","course": "ETHNMUS M6C"},
+            {"type": "requisite","course": "ETHNMUS 20A"},
+            {"type": "requisite","course": "ETHNMUS 20B"},
+            {"type": "requisite","course": "ETHNMUS 20C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 185",
+        "title": "Information Literacy and Research Skills",
+        "units": 2,
+        "description": "Tutorial, two hours. Limited to Ethnomusicology majors. Designed to assist students with becoming information literate. How to locate, identify, and critically evaluate and use print and electronic information effectively and ethically. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 186",
+        "title": "Senior Recital or Project",
+        "units": 2,
+        "description": "Tutorial, one hour. Limited to seniors. Final project for students who, with approval from their faculty advisers, perform one-hour recital or have their compositions performed in one-hour recital. Organization and arrangement of rehearsal schedule with appropriate accompaniment and preparation of program for performance. Grades are assigned in term recital is performed or composition is completed and performed. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 188",
+        "title": "Special Courses in Ethnomusicology",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Selected topics in ethnomusicology. Consult Schedule of Classes for topics and instructors. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 195A",
+        "title": "Community or Corporate Internships in Ethnomusicology",
+        "units": 2,
+        "description": "Tutorial, six to 12 hours. Limited to juniors/seniors with minimum cumulative 3.0 grade-point average. Internship in supervised setting in community agency or private business. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for maximum of 8 units. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 195B",
+        "title": "Community or Corporate Internships in Public Ethnomusicology",
+        "units": 2,
+        "description": "Tutorial, six to 12 hours. Limited to seniors in public ethnomusicology emphasis. Internship in supervised setting in community agency or business. Students meet on regular basis with instructor and provide weekly reports of their experience. May be repeated for maximum of 8 units. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 197E",
+        "title": "Individual Studies in Ethnomusicology",
+        "units": 2,
+        "description": "Tutorial, one hour; outside study, five to 11 hours. Preparation: 3.0 grade-point average. Limited to seniors. Individual intensive study in ethnomusicology, with scheduled meetings to be arranged between faculty member and student. Tangible evidence of mastery of subject matter resulting in final research project required. May be repeated for maximum of 8 units. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 199",
+        "title": "Directed Research or Senior Project in Ethnomusicology",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to junior/senior Ethnomusicology majors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for maximum of 8 units. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 207",
+        "title": "Seminar: North American Indian Music",
+        "units": 4,
+        "description": "Seminar, three hours. Requisite: course 106A or 106B. Survey of representative musical styles of Native North American Indians, including problems of transcription, methods of analysis, symbolic implications of song texts. Emphasis on interrelationship between music and cultural context. Influence of Western music in acculturative contexts. S/U or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ETHNMUS 106A"},{"type": "requisite","course": "ETHNMUS 106B"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 208",
+        "title": "Seminar: Latin American Music",
+        "units": 4,
+        "description": "Seminar, three hours. Review of bibliographic, methodological, and philosophical bases of musical research in Latin America, working from both general and specific perspectives. Exploration of research problems and investigations on specific musical cultures and distinct genres of musical expression. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 20A",
+        "title": "Musical Cultures of World: Europe and Americas",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Enforced requisites: courses 10A and 10B, or Music 20C with grades of C or better. Traditional and popular musics from many different countries, with introduction to basic ethnomusicological concepts and development of listening and analytical skills. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "requisite","course": "ETHNMUS 10A"},{"type": "requisite","course": "ETHNMUS 10B"}]},{"type": "requisite","course": "MUSC 20C"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 20B",
+        "title": "Musical Cultures of World: Africa and Near East",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Enforced requisites: courses 10A and 10B, or Music 20C with grades of C or better. Traditional and popular musics from many different countries, with introduction to basic ethnomusicological concepts and development of listening and analytical skills. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "requisite","course": "ETHNMUS 10A"},{"type": "requisite","course": "ETHNMUS 10B"}]},{"type": "requisite","course": "MUSC 20C"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 20C",
+        "title": "Musical Cultures of World: Asia",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Enforced requisites: courses 10A and 10B, or Music 20C with grades of C or better. Traditional and popular musics from many different countries, with introduction to basic ethnomusicological concepts and development of listening and analytical skills. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "requisite","course": "ETHNMUS 10A"},{"type": "requisite","course": "ETHNMUS 10B"}]},{"type": "requisite","course": "MUSC 20C"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 21",
+        "title": "Global Popular Musics I: Emergence of Recording Industries and Major Styles",
+        "units": 4,
+        "description": "Lecture, four hours. Exploration of what pop music is, how it became global, and what globalization and glocalization are. Pop music here is defined not just as music which has a wide audience base (which is popular), but music whose existence is result of technologies of recording, mass production, and mass distribution. Examination of rise of music industries and mass-produced music in countries across world in early 20th century, exploring issues of technology, capitalism, industry, trade, and migrations associated with colonialism. Study of how pop music from U.S. and numerous countries across world was global, transregional, and globalized before era of globalization in 1990s, as recording gave music new potential to travel. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 215A",
+        "title": "Ethnomusicological Perspectives and Paradigms I: Late 19th Century to 1980s",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Limited to graduate ethnomusicology students. Basic literature and schools of thought in field of ethnomusicology and related social science fields. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 215B",
+        "title": "Ethnomusicological Perspectives and Paradigms II: 1960s to Present",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Limited to graduate ethnomusicology students. Basic literature and schools of thought in field of ethnomusicology and related social science fields. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 216A",
+        "title": "Ethnomusicological Methods I",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Limited to graduate ethnomusicology students. Basic research techniques and perspectives on conducting research and writing it up in ethnomusicology. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 216B",
+        "title": "Ethnomusicological Methods II",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Limited to graduate ethnomusicology students. Introduction to basic ethnographic fieldwork techniques and practices in ethnomusicology. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 22",
+        "title": "Global Popular Musics II: From Cassettes to Digital and Online Media",
+        "units": 4,
+        "description": "Lecture, four hours. Exploration of multiplicitous world of global pop beyond major pop genres and their industries established in early-to-mid 20th century. Examination of dramatic decentralization of media that took place with advent of cassette technology and explosion of new forms of popular music that are listened to on recordings as much as in live settings. Examination also of how major pop genres are appropriated and localized in contexts both intended and unintended by their producers at new intensities of speed and scale and further and further distance from urban, industrial, and political centers of power. Exploration of how this loosening of central control releases quagmires of exploitation, piracy, and creativity in world of popular and recorded music, and, later, with rise of Internet and social media. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 230",
+        "title": "European Musics: Politics, Identities, Nationalisms",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Designed for graduate students. European classical, popular, and traditional musics, with particular attention to way in which music mirrors, negotiates, and contests ideas about and practices of national and other forms of identity, ideas developed in other domains of discourse and practice such as philosophy, history, literature, art, and folklore. Examination of way musicians, ordinary people, and politicians have used music to affect political processes involved in contesting and resolving tensions created between and among these identity formations. Historical period coverage primarily from 19th and 20th centuries, with examples from all over European continent. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 233A",
+        "title": "European Traditional and Popular Music",
+        "units": 0,
+        "description": "Discussion, one hour. Review of literature on European traditional and popular music, with special attention to modern issues and processes. May be repeated for credit. In Progress grading (credit to be given only on completion of courses 233B and 233C).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 233B",
+        "title": "European Traditional and Popular Music",
+        "units": 0,
+        "description": "Discussion, one hour. Review of literature on European traditional and popular music, with special attention to modern issues and processes. May be repeated for credit. In Progress grading (credit to be given only on completion of course 233C).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 233C",
+        "title": "European Traditional and Popular Music",
+        "units": 4,
+        "description": "Discussion, one hour. Review of literature on European traditional and popular music, with special attention to modern issues and processes. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 237",
+        "title": "Seminar: African Music",
+        "units": 4,
+        "description": "Seminar, three hours. Requisite: course 136A or C136B. Analysis of literature and schools of thought in African music scholarship from late 19th century to present, including some analysis of musical, historical, social, and cultural aspects of indigenous and contemporary art forms. S/U or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ETHNMUS 136A"},{"type": "requisite","course": "ETHNMUS C136B"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 248",
+        "title": "Classical Music of India",
+        "units": 4,
+        "description": "Lecture, three hours; outside study, nine hours. Requisite: course 146 or 147. Study of history, theory, and practice of north and south Indian classical music. Emphasis on music history and traditional theory and analysis of present-day forms, styles, techniques, and musical instruments. Concurrent participation in Indian performance group (course 91F) required. S/U or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ETHNMUS 146"},{"type": "requisite","course": "ETHNMUS 147"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 251",
+        "title": "Music of Indonesia",
+        "units": 4,
+        "description": "Lecture, three hours; outside study, nine hours. Requisite: course 20C. Emphasis on music and related performing arts of Java, Bali, and other Indonesian islands. Concurrent participation in one Indonesian performance group (course 91B or 91H) required. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 20C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 252",
+        "title": "Seminar: Music of Mainland Southeast Asia",
+        "units": 4,
+        "description": "Seminar, three hours. Requisite: course 20C. Presentation of materials concerning musical performance traditions of Laos, Cambodia, Vietnam, Thailand, and Burma, both in mainland Southeast Asia and in American context, with perspectives from archaeology, history, performance theory, applied anthropology, and ethnomusicology. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 20C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 262",
+        "title": "Musical Ethnography",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Examination of selected book-length ethnographies, most published in last 10 years, as both literary genre and research procedure. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 263",
+        "title": "Perspectives in Popular Music Research",
+        "units": 4,
+        "description": "Seminar, three hours. Investigation of theoretical paradigms, issues, and research models of popular music, with emphasis on world music genres, local/global markets, mass mediation, appropriation and aesthetics of style, ethnographic methods, and impact of popular music studies on ethnomusicology. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 264",
+        "title": "Urbanism and Music",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Theoretical and methodological issues in study of city as cultural entity that affects and is affected by music making. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 265",
+        "title": "Religion and Music",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Cross-cultural examination of role of musical expression as spiritual medium and as artistic expression in world's religions. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 267",
+        "title": "Music and Ecstasy",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Relationship between music and consciousness in different world cultures and role music plays in ecstatic experiences. Phenomena include trance, spirit possession, shamanism, religious ecstasy, mysticism, and artistic inspiration. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 268",
+        "title": "Modernity and Musical Experience",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, 10 hours. Limited to graduate students. Examination of possibilities for subject-centered musical ethnography to account for fragmented musical experience in modern world. Consideration of local and world musics in relation to modernity, postmodernity, globality, notions of self and subject, power, and media images. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 275",
+        "title": "Seminar: Aesthetics of Music",
+        "units": 6,
+        "description": "Seminar, three hours. Specific topics in Western and non-Western aesthetic thought, including value, meaning (semiotics), historical development of theoretical perspectives and critical theory, and interpretation. May be repeated once for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 279",
+        "title": "Seminar: Systematic Musicology",
+        "units": 4,
+        "description": "Seminar, three hours. Requisite: course 170. Exploration of specific topics in general field of systematic musicology covering disciplines such as anthropology, acoustics, aesthetics, music perception, philosophy, organology, sociology, and experimental approaches. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 170"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 280",
+        "title": "Teaching World Music and Music Appreciation",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: two ethnomusicology courses or concurrent enrollment in course 20A, 20B, or 20C. Designed for ethnomusicology and musicology graduate students. Practical overview of current pedagogical philosophies and texts used in teaching introductory music survey courses, specifically music appreciation and general world music. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 283",
+        "title": "Seminar: Study of Musical Instruments (Organology)",
+        "units": 6,
+        "description": "Seminar, three hours. Requisites: courses 201, 202. Musical instruments studied in terms of their structures, performance contexts, cultural significance, and patterns of change. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 201"},
+            {"type": "requisite","course": "ETHNMUS 202"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 284",
+        "title": "Seminar: Anthropology of Music",
+        "units": 4,
+        "description": "Seminar, three hours. Requisites: courses 201, 202. Analysis of current anthropological paradigms and issues that have major impact on ethnomusicology. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 201"},
+            {"type": "requisite","course": "ETHNMUS 202"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 285",
+        "title": "Seminar: Comparative Music Theory",
+        "units": 6,
+        "description": "Seminar, three hours. Comparative study of codified music theories of select cultures-Western and non-Western-considered in themselves and as expressions of their societies. Theory considered as science of music; its place between cultural values and artistic practice in different civilizations. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 287",
+        "title": "Seminar: Folk Music",
+        "units": 4,
+        "description": "Seminar, three hours. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 289",
+        "title": "Research Design and Grant Writing in Ethnomusicology",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Design of dissertation research proposal, locating and applying for dissertation fieldwork grants, organizing and presenting advanced academic proposals with sophisticated methods and professional writing skills. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 291",
+        "title": "Ethnomusicology Colloquium Series",
+        "units": 1,
+        "description": "Research group meeting, one hour. Limited to graduate ethnomusicology students. Introduction to new trends and issues in discipline of ethnomusicology in effort to strengthen and stimulate intellectual community within department. Topics vary from term to term and consist of presentations by guest lecturers, faculty members, and students. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 292A",
+        "title": "Seminar: Special Topics in Ethnomusicology",
+        "units": 4,
+        "description": "Seminar, four hours. Designed for graduate students. Utilization of special interests and expertise of regular and visiting faculty; topics of current interest presently offered in ethnomusicology program. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 292B",
+        "title": "Seminar: Special Topics in Ethnomusicology",
+        "units": 4,
+        "description": "Seminar, four hours. Designed for graduate students. Utilization of special interests and expertise of regular and visiting faculty; topics of current interest presently offered in ethnomusicology program. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 292C",
+        "title": "Seminar: Special Topics in Ethnomusicology",
+        "units": 4,
+        "description": "Seminar, four hours. Designed for graduate students. Utilization of special interests and expertise of regular and visiting faculty; topics of current interest presently offered in ethnomusicology program. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 292D",
+        "title": "Seminar: Special Topics in Ethnomusicology",
+        "units": 4,
+        "description": "Seminar, four hours. Designed for graduate students. Utilization of special interests and expertise of regular and visiting faculty; topics of current interest presently offered in ethnomusicology program. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 30",
+        "title": "Music and Media",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Exploration of ways music is mediated to people by industry, technologies, and corporations. Survey of leading theorists of media and exploration of case studies. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 40",
+        "title": "Music and Religion",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Survey of nature, role, and power of music in religious rituals around world, covering music and ritual of Hinduism, Buddhism, Judaism, Christianity, and Islam, as well as religious traditions of Native Americans and syncretic religious practices in Americas such as African American gospel music, Brazilian Candomble, Cuban Santer\u00eda, and Haitian vodoun. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 45",
+        "title": "Music of Bollywood and Beyond",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. History and development of South Asian film scores in their filmic context, especially omnipresent songs that most distinctively characterize this genre. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 46",
+        "title": "India through Music",
+        "units": 5,
+        "description": "Lecture, five hours; discussion, one hour; outside study, nine hours. Exploration of major aspects of society, history, and culture in India through music. There is abundance of incredibly rich musical culture in this region. Introduction to as much diversity as possible, spanning villages to cities and global contexts; high- and low-brow musics; those spanning problematic categories of folk, classical, and popular; and those from powerful as well as oppressed and marginalized peoples. Music as lens to look more deeply into social and cultural world and to explore layers of history ranging form Persianate empires, British Empire, nationhood, and contemporary globalization. Highlights lines of power in particular, notably, those of caste, class, gender, colonialism, and nationalism. Minoritized and disenfranchised people and their music are as prominent as dominant styles and provide contextualization and critique. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 46W",
+        "title": "India through Music",
+        "units": 5,
+        "description": "Lecture, five hours; discussion, one hour; outside study, nine hours. Requisite: English Composition 3. Not open for credit to students with credit for course 46. Exploration of major aspects of society, history, and culture in India through music. There is abundance of incredibly rich musical culture in this region. Introduction to as much diversity as possible, spanning villages to cities and global contexts; high- and low-brow musics; those spanning problematic categories of folk, classical, and popular; and those from powerful as well as oppressed and marginalized peoples. Music as lens to look more deeply into social and cultural world and to explore layers of history ranging form Persianate empires, British Empire, nationhood, and contemporary globalization. Highlights lines of power in particular, notably, those of caste, class, gender, colonialism, and nationalism. Minoritized and disenfranchised people and their music are as prominent as dominant styles and provide contextualization and critique. Satisfies Writing II requirement. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 495A",
+        "title": "Teaching Apprentice Practicum",
+        "units": 2,
+        "description": "Eight weekly two-hour seminar sessions, plus intensive training session during Fall Quarter registration week. Preparation: appointment as teaching apprentice in Ethnomusicology Department. Required of all new teaching apprentices. Special course dealing with problems and practices of teaching ethnomusicology and systematic musicology at college level. May not be applied toward degree requirements. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 495B",
+        "title": "Teaching with Technology",
+        "units": 2,
+        "description": "Seminar, three hours; outside study, three hours. Limited to graduate ethnomusicology students. Training in presentation, spreadsheet, web design, and digitization software, and its application in classroom and in preparation of electronic teaching portfolio. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 5",
+        "title": "Music Around World",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour; outside study, 10 hours. Overview of world's musical traditions by selecting one or two case studies from each of nine musical world regions: Pacific, East Asia, Southeast Asia, South Asia, Middle East, Africa, Europe, Latin America, and U.S. and Canada. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 596",
+        "title": "Directed Individual Studies",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Only 4 units may be applied toward MA minimum course requirements. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 597",
+        "title": "Preparation for Master's Comprehensive Examination or PhD Qualifying Examinations",
+        "units": 2,
+        "description": "Tutorial, to be arranged. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 598",
+        "title": "Guidance of MA Thesis",
+        "units": 4,
+        "description": "Tutorial, to be arranged. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 599",
+        "title": "Guidance of PhD Dissertation",
+        "units": 4,
+        "description": "Tutorial, to be arranged. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 60",
+        "title": "J.S. Bach in His World and Ours",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Examination of life and music of J.S. Bach in historical and cultural context of his era through its musical manifestations in present, including changes in performance styles, scholarly studies, reception, and contemporary fan culture. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 68A",
+        "title": "World Music Specializations: Music of China-Ensemble",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 68B",
+        "title": "World Music Specializations: Music of China-Chinese Opera",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 68C",
+        "title": "World Music Specializations: Music of China-Chinese Folk Dance",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 68F",
+        "title": "World Music Specializations: Music of India-Ensemble",
+        "units": 2,
+        "description": "Activity, three hours; outside practice, three hours. Performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 68G",
+        "title": "World Music Specializations: Music of India-Tabla",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 68M",
+        "title": "World Music Specializations: Music of Balkans-Ensemble",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 68N",
+        "title": "World Music Specializations: Music of Balkans-Choir",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 68O",
+        "title": "World Music Specializations: Music of Balkans-Instrumental Music",
+        "units": 1,
+        "description": "Activity, two hours; outside practice, one hour. Performance of specializations in traditional vocal music, instrumental music, and dance. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 7",
+        "title": "Introduction to Music and Culture of Iran",
+        "units": 4,
+        "description": "Lecture, four hours. Examination of Persian music in historical, social, linguistic, and cultural contexts. Discussion of musical forms, rules of improvisation, structure of modal system and rhythmic cycles, religious music, and traditional and modern pop music. Consideration of interrelationships between musical genres and other art forms (dance, theater, visual arts, and literature) and analysis of how these types of music have intersected with issues of race, class, gender, religion, ritual, politics, social movements, and cultural identity. Includes detailed introduction to musical terms and concepts throughout. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 8",
+        "title": "Current Practices in Iranian Music-Making",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to contemporary practices of Iranian music-making, with particular focus on social, cultural, religious, and political issues since 1979 Iranian Revolution. Consideration of interrelationships between musical genres. Analysis of how these types of music have intersected with issues of language, race, class, gender, ritual, politics, social movements, and cultural identity. Survey of evolution of Iranian musical practices during four decades of Iranian Revolution. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 83",
+        "title": "Basic Principles of Ethnomusicology",
+        "units": 4,
+        "description": "Lecture, four hours. Introduction to history of ethnomusicology field, basic fieldwork and analysis methods, and current issues in research. Study highlights the field's interdisciplinary nature-for example, through connections with anthropology, historical musicology, music technology, gender studies, cultural studies, critical race theory, and postcolonial theory-considering implications for research. Discussion of career opportunities for ethnomusicology graduates. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91A",
+        "title": "World Music Performance Organizations: Music and Dance of American Indians",
+        "units": 2,
+        "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91B",
+        "title": "World Music Performance Organizations: Music of Bali",
+        "units": 2,
+        "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91E",
+        "title": "World Music Performance Organizations: Music and Dance of Ghana",
+        "units": 2,
+        "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91G",
+        "title": "World Music Performance Organizations: Music of Japan",
+        "units": 2,
+        "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91H",
+        "title": "World Music Performance Organizations: Music of Java",
+        "units": 2,
+        "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91J",
+        "title": "World Music Performance Organizations: Music of Korea",
+        "units": 2,
+        "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91K",
+        "title": "World Music Performance Organizations: Music of Mexico",
+        "units": 2,
+        "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91L",
+        "title": "World Music Performance Organizations: Music of Persia",
+        "units": 2,
+        "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91N",
+        "title": "World Music Performance Organizations: Music of Near East",
+        "units": 2,
+        "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91P",
+        "title": "World Music Performance Organizations: African American Music Ensemble",
+        "units": 2,
+        "description": "Activity, three hours. Performance of diverse range of vocal repertoire including spirituals, gospel, freedom/Civil Rights songs, and other works by African-diasporic composers, including anthems, hymn arrangements, and various forms of contemporary choral music. Tracing development of this music from 1600s to present, African American choral music is medium performed a cappella or with instrumental accompaniment. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 91Z",
+        "title": "World Music Performance Organizations: Open Ensemble",
+        "units": 2,
+        "description": "Activity, three hours. Group performance of traditional vocal and instrumental music of world cultures. May be repeated for credit without limitation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 92",
+        "title": "Private Instruction in Music",
+        "units": 2,
+        "description": "Studio, one hour. Limited to Ethnomusicology majors. Private or semiprivate music instruction with distinguished community-based musician, that must be arranged by students and approved by course instructor. May be repeated for credit without limitation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C100",
+        "title": "Audiovisual Archiving in 21st Century",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for Ethnomusicology majors. Examination of history, present state, and future of audiovisual archives, with specific focus on ethics, copyright, contracts, fieldwork, preservation, and access and issues related to technology, space, budgets, and staffing. Concurrently scheduled with course C200. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C121",
+        "title": "Tibetan Pop Music: Tibet, Exile, China, and World",
+        "units": 4,
+        "description": "Lecture, four hours. Pop music is key part of contemporary Tibet, emerging in 1980s in Tibet and exile, and even earlier if mass-disseminated socialist songs of Tibet as compulsory, state-produced popular music is considered. Exploration of multifaceted world of pop music in and of Tibet and Tibet within China of Mao Zedong and socialism, and that of market socialists from Deng Xiaoping to Xi Jinping. Exploration of ways in which Tibetan pop music is voice for Tibetans in Tibet, numerically small minority in China, and in small exile population. Focus on Tibetan pop music exposes students to plethora of issues relevant to musics of small, minority, and stateless people, and of myriad political dimensions of pop music-turbulent, crude, subtle, social, and economic. Concurrently scheduled with course C221. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C136B",
+        "title": "Music of Africa",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Introduction to music of various African cultures and regions. Through readings, lectures, viewing of films, and analysis of music, students gain greater understanding of diverse musical traditions found on African continent and become more cognizant of contributions that people of Africa have made to world music. Concurrently scheduled with course C236B. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C140",
+        "title": "Music of Arab World",
+        "units": 4,
+        "description": "Seminar, three hours. Limited to junior/senior Ethnomusicology majors. Investigation of historical and cultural backgrounds, main musical styles, relationship between theory and practice and emphasis on mode and improvisation, and 20th- and 21st-century trends in music of Arabic-speaking Near East. Concurrent participation in Near East performance ensemble (course 91N or 161N) required. Concurrently scheduled with course C240. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C141",
+        "title": "Music of Turkey and Iran",
+        "units": 4,
+        "description": "Seminar, three hours. Limited to junior/senior Ethnomusicology majors. Comparative study of music of Iran and other related areas, including Turkey, with particular reference to their historical and cultural background, sources on music theory and aesthetics, instruments, style, technique of improvisation, and contemporary practice. Concurrent participation in Near East performance ensemble (course 91N or 161N) required. Concurrently scheduled with course C241. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C150",
+        "title": "Music and Politics in East Asia",
+        "units": 4,
+        "description": "Lecture, four hours. Limited to Ethnomusicology, Music, Music History, World Arts and Cultures, Chinese, Japanese, Korean, and East Asian Studies majors. Political imperatives have long had direct and often explicit impact on music sound and context in East Asia. Examination of interaction of ideology and musical practice in medieval Korea and in contemporary Korea, Japan, Taiwan, and China. Concurrently scheduled with course C250. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C155",
+        "title": "Intangible Cultural Heritage Worldwide",
+        "units": 4,
+        "description": "Lecture, three hours. Designed for Ethnomusicology, Music History, and World Arts and Cultures majors. Through critical reading of publications by scholars, officials, and culture-bearers involved in intangible cultural heritage policy and practice, examination of history of heritage conservation; concepts of tangible and intangible heritage; pioneering roles of Japan, South Korea, and UNESCO in making intangible cultural heritage focal point of much cultural policy worldwide; tensions among international ideals, nation-state nationalisms, regionalism, ethnicity, and indigeneity in creating intangible cultural heritage policies in different settings; U.S. equivalents to intangible cultural heritage policies and practices in other countries; roles of private individuals, community initiative, and professional organizations in cultural preservation schemes; and related concept of sustainability. Concurrently scheduled with course C255. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C156A",
+        "title": "Music in China",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 20C. Limited to Ethnomusicology majors. Survey of traditional, popular, and Western-influenced musics currently widespread in China, including musical analysis of different genres; examination of contexts in which they exist. Investigation of profound effect of Confucian and Communist ideologies on music. Concurrently scheduled with course C256A. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 20C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C159",
+        "title": "Music on China's Periphery",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Designed for undergraduate ethnomusicology, music, music history, and world arts and cultures majors. Survey of musics from China's border regions and neighboring countries: technical musical characteristics and important contextual issues related to traditional and modern styles from Mongolia, Uighurs of Xinjiang, Tibet, Tibeto-Burman peoples, Hmong, and indigenous peoples of Taiwan. Concurrently scheduled with course C259. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C165",
+        "title": "Selected Topics in Composition",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Evaluation of important musical concepts and approaches to enable students to develop greater compositional technique and understanding. Ways composers of jazz, European classical, and other musical genres have successfully approached use of extended compositional forms. Examination of way in which world music traditions have interfaced with jazz and other types of music to create new musical languages. Use of concepts, structural paradigms, and inspiration from literature, visual arts, and other sources to develop student compositions. May be repeated once for credit. Concurrently scheduled with course C270. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C178",
+        "title": "Aesthetic and Philosophical Foundations in Systematic Musicology",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Limited to Ethnomusicology majors. Comprehensive overview of critical approaches to aesthetics in systematic musicology. Exploration of aesthetics and philosophy of music, sociology of music, critical theory, hermeneutics, and music criticism. Concurrently scheduled with course C204. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C184",
+        "title": "Public Ethnomusicology",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Designed for Ethnomusicology majors. How music industry functions and how products are created, marketed, and consumed. Techniques of pure research, basic and theoretical in nature, contrasted with those of applied research, practical and policy-oriented in approach. Concurrently scheduled with course C286. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C200",
+        "title": "Audiovisual Archiving in 21st Century",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for Ethnomusicology majors. Examination of history, present state, and future of audiovisual archives, with specific focus on ethics, copyright, contracts, fieldwork, preservation, and access and issues related to technology, space, budgets, and staffing. Concurrently scheduled with course C100. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C204",
+        "title": "Aesthetic and Philosophical Foundations in Systematic Musicology",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Limited to Ethnomusicology majors. Comprehensive overview of critical approaches to aesthetics in systematic musicology. Exploration of aesthetics and philosophy of music, sociology of music, critical theory, hermeneutics, and music criticism. Concurrently scheduled with course C178. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C221",
+        "title": "Tibetan Pop Music: Tibet, Exile, China, and World",
+        "units": 4,
+        "description": "Lecture, four hours. Pop music is key part of contemporary Tibet, emerging in 1980s in Tibet and exile, and even earlier if mass-disseminated socialist songs of Tibet as compulsory, state-produced popular music is considered. Exploration of multifaceted world of pop music in and of Tibet and Tibet within China of Mao Zedong and socialism, and that of market socialists from Deng Xiaoping to Xi Jinping. Exploration of ways in which Tibetan pop music is voice for Tibetans in Tibet, numerically small minority in China, and in small exile population. Focus on Tibetan pop music exposes students to plethora of issues relevant to musics of small, minority, and stateless people, and of myriad political dimensions of pop music-turbulent, crude, subtle, social, and economic. Concurrently scheduled with course C121. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C236B",
+        "title": "Music of Africa",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Introduction to music of various African cultures and regions. Through readings, lectures, viewing of films, and analysis of music, students gain greater understanding of diverse musical traditions found on African continent and become more cognizant of contributions that people of Africa have made to world music. Concurrently scheduled with course C136B. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C240",
+        "title": "Music of Arab World",
+        "units": 4,
+        "description": "Seminar, three hours. Limited to graduate ethnomusicology students. Investigation of historical and cultural backgrounds, main musical styles, relationship between theory and practice and emphasis on mode and improvisation, and 20th- and 21st-century trends in music of Arabic-speaking Near East. Concurrent participation in Near East performance ensemble (course 91N or 161N) required. Concurrently scheduled with course C140. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C241",
+        "title": "Music of Turkey and Iran",
+        "units": 4,
+        "description": "Seminar, three hours. Limited to graduate ethnomusicology students. Comparative study of music of Iran and other related areas, including Turkey, with particular reference to their historical and cultural background, sources on music theory and aesthetics, instruments, style, technique of improvisation, and contemporary practice. Concurrent participation in Near East performance ensemble (course 91N or 161N) required. Concurrently scheduled with course C141. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C250",
+        "title": "Music and Politics in East Asia",
+        "units": 4,
+        "description": "Lecture, four hours. Designed for graduate students. Political imperatives have long had direct and often explicit impact on music sound and context in East Asia. Examination of interaction of ideology and musical practice in medieval Korea and in contemporary Korea, Japan, Taiwan, and China. Concurrently scheduled with course C150. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C255",
+        "title": "Intangible Cultural Heritage Worldwide",
+        "units": 4,
+        "description": "Lecture, three hours. Designed for ethnomusicology, music history, and world arts and cultures graduate students. Through critical reading of publications by scholars, officials, and culture-bearers involved in intangible cultural heritage policy and practice, examination of history of heritage conservation; concepts of tangible and intangible heritage; pioneering roles of Japan, South Korea, and UNESCO in making intangible cultural heritage focal point of much cultural policy worldwide; tensions among international ideals, nation-state nationalisms, regionalism, ethnicity, and indigeneity in creating intangible cultural heritage policies in different settings; U.S. equivalents to intangible cultural heritage policies and practices in other countries; roles of private individuals, community initiative, and professional organizations in cultural preservation schemes; and related concept of sustainability. Concurrently scheduled with course C155. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C256A",
+        "title": "Music in China",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 20C. Limited to Ethnomusicology majors. Survey of traditional, popular, and Western-influenced musics currently widespread in China, including musical analysis of different genres; examination of contexts in which they exist. Investigation of profound effect of Confucian and Communist ideologies on music. Concurrently scheduled with course C156A. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS 20C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C259",
+        "title": "Music on China's Periphery",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Designed for graduate Ethnomusicology, Music, Musicology, and World Arts and Cultures majors. Survey of musics from China's border regions and neighboring countries: technical musical characteristics and important contextual issues related to traditional and modern styles from Mongolia, Uighurs of Xinjiang, Tibet, Tibeto-Burman peoples, Hmong, and indigenous peoples of Taiwan. Concurrently scheduled with course C159. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C270",
+        "title": "Selected Topics in Composition",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Limited to graduate students. Evaluation of important musical concepts and approaches to enable students to develop greater compositional technique and understanding. Ways composers of jazz, European classical, and other musical genres have successfully approached use of extended compositional forms. Examination of way in which world music traditions have interfaced with jazz and other types of music to create new musical languages. Use of concepts, structural paradigms, and inspiration from literature, visual arts, and other sources to develop student compositions. May be repeated once for credit. Concurrently scheduled with course C165. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS C286",
+        "title": "Public Ethnomusicology",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Designed for Ethnomusicology majors. How music industry functions and how products are created, marketed, and consumed. Techniques of pure research, basic and theoretical in nature, contrasted with those of applied research, practical and policy-oriented in approach. Concurrently scheduled with course C184. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS CM120",
+        "title": "Bibliography and Research Methods in Rap Music/Hip-Hop Studies",
+        "units": 4,
+        "description": "(Same as African American Studies CM110.) Seminar, three hours. Requisite: course M119. Designed for juniors/seniors conducting research on hip-hop in preparation for capstone projects such as honors or senior thesis. In-depth examination of intellectual history of rap music/hip-hop studies scholarship. Examination of readings related to intellectual history of rap music scholarship and allied traditions (including breakdance and graffiti). Exploration of broad range of research methods and archival/library centers specific to hip-hop studies. Concurrently scheduled with course CM220. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS M119"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS CM182",
+        "title": "Music Industry",
+        "units": 4,
+        "description": "(Same as Music CM182, Musicology CM186, and Music Industry M182.) Lecture, four hours; discussion, one hour; outside study, seven hours. Limited to Ethnomusicology, Music, and Musicology majors. Examination of influence of music industry on way music is created, performed, listened to, evaluated, and used today. Historical approach taken, beginning with music published in 18th century and continuing through development of audio recordings to MTV and popular music today. Concurrently scheduled with course CM288. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS CM220",
+        "title": "Bibliography and Research Methods in Rap Music/Hip-Hop Studies",
+        "units": 4,
+        "description": "(Same as African American Studies CM210.) Seminar, three hours. Preparation: ongoing work or preparatory research in rap music/hip-hop studies. Designed for graduate students conducting research on hip-hop in preparation for comprehensive examination preparation, and graduate research projects including master's thesis and dissertation. In-depth examination of intellectual history of rap music/hip-hop studies scholarship. Examination of readings related to intellectual history of rap music scholarship and allied traditions (including breakdance and graffiti). Exploration of broad range of research methods and archival/library centers specific to hip-hop studies. Concurrently scheduled with course CM120. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS CM288",
+        "title": "Music Industry",
+        "units": 4,
+        "description": "(Same as Music CM282 and Musicology CM288.) Lecture, four hours; discussion, one hour; outside study, eight hours. Limited to Ethnomusicology, Music, and Musicology majors. Examination of influence of music industry on way music is created, performed, listened to, evaluated, and used today. Historical approach taken, beginning with music published in 18th century and continuing through development of audio recordings to MTV and popular music today. Concurrently scheduled with course CM182. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M103",
+        "title": "Creating Musical Community",
+        "units": 4,
+        "description": "(Same as Global Jazz Studies M103, Music M103, and Musicology M103.) Seminar, four hours; discussion, one hour. Limited to school of music majors. Faculty and students make music together in different modes. Students learn certain repertoire, refine it, and bring it to concert performance. Students critically engage musical literacies and notion of social contract that forms basis of musical notation. Drawing from American music folk game traditions, highlights complex history of this country and way in which entire body is used as resource when instruments are unavailable. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M108A",
+        "title": "Music of Latin America: Mexico, Central America, and Caribbean Isles",
+        "units": 5,
+        "description": "(Same as Chicana/o and Central American Studies M108A.) Lecture, four hours; discussion, one hour. Survey of traditional and contemporary musical culture. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M109",
+        "title": "Jazz in Gendered Perspectives",
+        "units": 4,
+        "description": "(Same as African American Studies M109, Gender Studies M109, and Global Jazz Studies M109.) Lecture, four hours; discussion, one hour. Examination of the intersectionality of race, gender, class, sexuality, age, disability, positionality, and gendered notions about improvisation, instrumental/vocal performance, and composition and their impact on the historical development of jazz. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M110A",
+        "title": "African American Musical Heritage",
+        "units": 5,
+        "description": "(Formerly numbered M12A.) (Same as African American Studies M116A and Global Jazz Studies M110A.) Lecture, four hours; discussion, one hour. Sociocultural history and survey of African American music covering Africa and its impact on Americas; music of 17th through 19th centuries; minstrelsy and its impact on representation of blacks in film, television, and theater; religious music, including hymns, spirituals, and gospel; black music of Caribbean and Central and South America; and music of black Los Angeles. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M110B",
+        "title": "African American Musical Heritage",
+        "units": 5,
+        "description": "(Formerly numbered M12B.) (Same as African American Studies M116B and Global Jazz Studies M110B.) Lecture, four hours; discussion, one hour. Sociocultural history and survey of African American music covering blues, pre-1947 jazz styles, rhythm 'n' blues, soul, funk, disco, hip-hop, and symbiotic relationship between recording industry and effects of cultural politics on black popular music productions. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M111",
+        "title": "Ellingtonia",
+        "units": 4,
+        "description": "(Same as African American Studies M111 and Global Jazz Studies M111.) Lecture, three hours. Music of Duke Ellington, his life, and far-reaching influence of his efforts. Ellington's music, known as Ellingtonia, is one of largest and perhaps most important bodies of music ever produced in U.S. Covers many contributions of other artists who worked with Ellington, such as composer Billy Strayhorn and musicians Johnny Hodges, Cooties Williams, and Mercer Ellington. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M115",
+        "title": "Musical Aesthetics in Los Angeles",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies M115.) Lecture, three hours. Confronting aesthetics from classical perspective of art as intuition, examination on cross-cultural basis of diverse musical contexts within vast multicultural metropolis of Los Angeles, with focus on various musical networks and specific experiences of Chicano/Latino, African American, American Indian, Asian, rock culture, Western art music tradition, and commercial music industry. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M116",
+        "title": "Chicano/Latino Music in U.S.",
+        "units": 5,
+        "description": "(Same as Chicana/o and Central American Studies M116.) Lecture, four hours; discussion, one hour. Historical and analytical examination of musical expression of Latino peoples who have inhabited present geographical boundaries of U.S. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M119",
+        "title": "Cultural History of Rap",
+        "units": 5,
+        "description": "(Same as African American Studies M107 and Global Jazz Studies M119.) Lecture, four hours; discussion, one hour. Introduction to development of rap music and hip-hop culture, with emphasis on musical and verbal qualities, philosophical and political ideologies, gender representation, and influences on cinema and popular culture. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M123",
+        "title": "Global Hip Hop",
+        "units": 4,
+        "description": "(Same as African American Studies M123.) Lecture, four hours. Overview of the emergence and development of rap music throughout the world. Exploration of the development of hip-hop culture in the U.S., and the historical development of the genre in various global locales. Exploration moves through significant regions in hip-hop culture throughout the world, providing histories and genealogies of geographical musical areas. Discussion throughout of more abstract concepts pertinent to rap music such as the emergence of a global hip-hop culture, race as it pertains in rap music, post-regionalism, gender and sexuality in rap music, and the relationship between rap and protest. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M128",
+        "title": "Exploration in Rhythms",
+        "units": 2,
+        "description": "(Same as Global Jazz Studies M128.) Lecture, two hours; outside study, four hours. Preparation: ability to read melodic or rhythmic notation. Investigation and exploration of musical time and rhythm in 20th- and 21st-century classical, jazz, world, and popular music. Concepts explored include meter, pulse, rhythmic cycles, hemiolas, and polyrhythms. P/NP or Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M130",
+        "title": "Culture of Jazz Aesthetics",
+        "units": 4,
+        "description": "(Same as Anthropology M158 and Global Jazz Studies M130.) Lecture, three hours. Recommended requisite: course 20A or 20B or 20C or Anthropology 3 or 4. Aesthetics of jazz from point of view of musicians who shaped jazz as art form in 20th century. Listening to and interacting with professional jazz musicians who answer questions and give musical demonstrations. Analytical resources and historical knowledge of musicians and ethnomusicologists combined with those interested in jazz as cultural tradition. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M131",
+        "title": "Development of Latin Jazz",
+        "units": 4,
+        "description": "(Same as Global Jazz Studies M131 and Music M131.) Lecture, four hours; discussion, one hour. Survey of historical and stylistic development of musical style referred to today as Latin jazz. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M134",
+        "title": "Introduction to Armenian Music",
+        "units": 4,
+        "description": "(Same as Armenian M134 and Music M134.) Lecture, three hours. Some amount of formal music study and experience as vocalist or instrumentalist desirable but not essential. Introduction to history, tradition, and scope of music of Armenia. Focus on number of different genres and approaches, and interactions between music and culture, society, and history. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M173",
+        "title": "Selected Topics in Music and Religion in Popular Culture",
+        "units": 5,
+        "description": "(Same as Musicology M173.) Seminar, two hours. Enforced corequisite: attendance, but not enrollment, in course M73 lecture. Exploration of connections of music, religion, and popular culture among American Jews and Christians. Credit for both courses M73 and M173 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M176",
+        "title": "Music and Capitalism in West",
+        "units": 4,
+        "description": "(Same as Music Industry M176.) Lecture, four hours. Follows history of western capitalism and how it has shaped music-making and listening to present time. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M211",
+        "title": "Seminar: African American Music",
+        "units": 4,
+        "description": "(Same as African American Studies M211.) Seminar, three hours. Requisites: courses M110A, M110B. Designed for graduate students. In-depth examination of intellectual history of African American music scholarship. Intensive investigation of problems, theories, interdisciplinary methods/schools of research, and bibliography related to study of African American music. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS M110A"},
+            {"type": "requisite","course": "ETHNMUS M110B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M25",
+        "title": "Global Pop",
+        "units": 5,
+        "description": "(Same as Global Jazz Studies M25.) Lecture, four hours; discussion, one hour. Development of world music or world beat, including its meaning and importance to contemporary culture as well as its history and impact. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M261",
+        "title": "Gender and Music in Cross-Cultural Perspective",
+        "units": 4,
+        "description": "(Same as Gender Studies M261.) Seminar, three hours. Designed to foster in-depth understanding of gender in study of music as culture. Topics range from ethnography of gender and sexuality, (de)codification of messages of resistance, and gender representation to gendered politics via musical production. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M35",
+        "title": "Blues, Society, and American Culture",
+        "units": 5,
+        "description": "(Same as Global Jazz Studies M35.) Lecture, four hours; discussion, one hour. Sociocultural history and survey of blues music tradition from its roots in West Africa to its emergence in African American oral culture, with emphasis on philosophical underpinnings and social and political impact of blues and its influence on development of country, jazz, gospel, rhythm and blues, rock, hip-hop music, and other mediums. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M50A",
+        "title": "Jazz in American Culture: Late 19th Century through 1940s",
+        "units": 5,
+        "description": "(Same as Global Jazz Studies M50A.) Lecture, four hours; discussion, one hour. Course M50A is not requisite to M50B. Survey of development of jazz in American culture. Discussion of different compositional/performance techniques and approaches that distinguish different sub-styles of jazz from one another, as well as key historical figures that shaped development of jazz from its early years through modern jazz. Important historical social issues (segregation, Depression, World War II, Civil Rights Movement) that intersect with history of U.S. and jazz music. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M50B",
+        "title": "Jazz in American Culture: 1940s to Present",
+        "units": 5,
+        "description": "(Same as Global Jazz Studies M50B.) Lecture, four hours; discussion, one hour. Course M50A is not requisite to M50B. Survey of development of jazz in American culture. Discussion of different compositional/performance techniques and approaches that distinguish different sub-styles of jazz from one another, as well as key historical figures that shaped development of jazz from its early years through modern jazz. Important historical social issues (segregation, Depression, World War II, Civil Rights Movement) that intersect with history of U.S. and jazz music. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M6A",
+        "title": "Introduction to Global Musicianship",
+        "units": 2,
+        "description": "(Same as Music M6A and Musicology M6A.) Laboratory, four hours. Course M6A is enforced requisite to M6B, which is enforced requisite to M6C. Students must receive grade of C- or better to proceed to next course in sequence. Introduction to global musicianship through in-depth exploration of basic musical elements through performance, aural skills, and active listening. Engages with melodic information represented in solf\u00e8ge, harmonic information in Nashville number system, and rhythmic information in both Western notation and digital audio workstation grid visualization. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M6B",
+        "title": "Introduction to Musicianship",
+        "units": 2,
+        "description": "(Same as Music M6B and Musicology M6B.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6A with grade of C- or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as tonal and modal harmony, rhythm, improvisation, composition, notation, and ear training to prepare students for later theory courses, participation in music ensembles, advanced study in music, and professional careers. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS M6A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M6C",
+        "title": "Introduction to Musicianship",
+        "units": 2,
+        "description": "(Same as Music M6C and Musicology M6C.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6B with grade of C- or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as tonal and modal harmony, rhythm, improvisation, composition, notation, and ear training to prepare students for later theory courses, participation in music ensembles, advanced study in music, and professional careers. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ETHNMUS M6B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M73",
+        "title": "Music and Religion in Popular Culture",
+        "units": 5,
+        "description": "(Same as Musicology M73.) Lecture, four hours; discussion, one hour. Survey of popular music in religious traditions since the 1970s. Growth of music in Jewish denominations, including Orthodox, Reform, and Conservative, and Christian contemporary music, from evangelical to cross-over artists performing in mainstream. Credit for both courses M73 and M173 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ETHNMUS M80",
+        "title": "Jewish American Experience through Music",
+        "units": 5,
+        "description": "(Same as Jewish Studies M80 and Musicology M80.) Lecture, four hours; discussion, one hour. In synagogue and on stage, and from LP recordings to YouTube, Jews in America have varied musical experiences. Music of synagogue, celebrations at home, in community, and theater are all interesting developments of Jewish music. New Opportunities in entertainment industry brought new possibilities for Jews in popular music, rock, and film scores. Exploration of various examples of Jews responding and adapting to their American context and becoming American through music. Exploration of different music genres and contexts. Presentations by guest composers and performers. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

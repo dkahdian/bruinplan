@@ -1,0 +1,2283 @@
+[
+    {
+        "id": "SOCIOL 1",
+        "title": "Introductory Sociology",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Survey of characteristics of social life, processes of social interaction, and tools of sociological investigation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 10",
+        "title": "Social Thought and Origins of Sociology",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Introduction to history of social thought, with special emphasis on theoretical precursors to development of discipline of sociology. Exposition and analysis of selected social theorists and concepts, especially from the 17th to 19th centuries. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 101",
+        "title": "Development of Sociological Theory",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Comparative survey of basic concepts and theories in sociology from 1850 to 1920. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 102",
+        "title": "Contemporary Sociological Theory",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 101. Critical examination of significant theoretical formulations from 1920 to present. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 101"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 106A",
+        "title": "Field Research Methods I",
+        "units": 6,
+        "description": "Lecture, two hours; discussion, two hours; fieldwork, eight to 10 hours. Research practicum in which students write field notes on their experiences in and observations of intensive internship field placement. Readings focus on fieldwork roles and relations, observing and describing, writing field notes, field interviewing, ethical issues, and preliminary data analysis. Fieldwork and extensive field notes required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 106B",
+        "title": "Field Research Methods II",
+        "units": 6,
+        "description": "Lecture, two hours; discussion, two hours; fieldwork, 10 hours. Requisite: course 106A. Collection and analysis of both field notes and unstructured interview data from student field placement. Use of techniques of qualitative data analysis, including qualitative coding, analytic memoing, and grounded theory methods, to analyze these materials and to write ethnographic paper. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 106A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 110",
+        "title": "Comparative and Historical Methods",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Recommended requisite: course 101. Introduction to range of comparative and historical methods alongside broader questions and issues in this area of sociology. Students learn about using theories to analyze real-world cases; making comparisons between societies and other social units; developing sociological explanations for historical events; and generalizing about social patterns and changes over time. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 111",
+        "title": "Social Networks",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Analysis of how social networks create social structure, how social actors utilize them, and their unexpected effects. Topics include job search, firm efficiency, and social movements. Visualization programs, computer simulations, and research project. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 112",
+        "title": "Introduction to Mathematical Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Requisites: Mathematics 2, 3A (course whose content includes introductions to probability theory, matrix algebra, and differential and integral calculus), Statistics 10. Mathematical treatment of several sociological phenomena, such as occupational mobility, population growth, organizational structure, and friendship patterns, each covered in some detail, including initial development and subsequent evaluation and modification (emphasizing both deductive and computational aspects of mathematics). Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 2"},
+            {"type": "requisite","course": "MATH 3A"},
+            {"type": "requisite","course": "STATS 10"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 113",
+        "title": "Statistical and Computer Methods for Social Research",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Requisite: Statistics 10. Continuation of Statistics 10, covering more advanced statistical techniques such as multiple regression, analysis of variance, or factor analysis. Content varies. Students learn how to use computer and write papers analyzing prepared data sets. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "STATS 10"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 114",
+        "title": "Social Data Science",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Data analysis, and way social theory and data are linked. Covers data and computing environment, regression analysis, causal analysis, and machine learning. Offers tools for conducting quantitative analyses of social phenomenon, including emerging computational methods. Integrates substance and method. Draws on literature in social inequality to demonstrate applications of studied methods. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 116",
+        "title": "Social Demography",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Studies of past, present, and future trends in population growth. Sociological theories of causes and consequences of population growth and redistribution. Emphasis on correlates of fertility, mortality, and migration. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 117",
+        "title": "Family Demography",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of demographic behaviors, such as marriage, divorce, and childbearing, associated with family and household organization. Sociological approach to understanding causes and consequences of trends and differentials in family formation and dissolution. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 119",
+        "title": "Primate Societies",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Selected topics on diverse behaviors and cultural forms of primate cousins, with special focus on baboons, chimpanzees, and gorillas. Examination of primate socioecology, sexual competition, demography and kinship, politics, communication, and interactions within and between groups. Implications for our lives as human primates. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 121",
+        "title": "Sociology of Religion",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of classic and contemporary work in social scientific study of religion. Analysis of definition of religion, role of religion in modern life, and role of categories like Islam in contemporary U.S. politics. Focus on complicated question of what it means to say someone or something is religious: does that mean they are moral, believe in God, or are part of community of believers? Students gain better sense of how to think and talk about religion. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 122",
+        "title": "Sociology of Violence",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Exploration of macro-, meso-, and micro-level theories of violence, why states organize violence, why civilizations participate in violence, and physical, structural, and symbolic violence. Discussion of how various social categories such as race, ethnicity, religion, class, gender, and sex are implicated in violence and examination of cases of interstate war, genocide, civil war, terrorism, and pogroms from around world.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 123",
+        "title": "Social Change",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. How does social change occur? This question is linked to fundamental debates in sociology about structure (degree to which individual's actions are constrained by social forces) and agency (degree to which individuals can choose their own courses of action). Major theories (Marxist, Weberian, demographic, and strategic action) of social change take different views of structure and agency. Consideration of these theoretical issues in context of social change by considering empirical examples. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 126",
+        "title": "Study of Norms",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Properties of norms, of normatively governed conduct, of lay and professional methods for describing, producing, using, and validating norms in contrasting settings of socially organized activities; relevance of these properties for programmatic problems of analytic sociology. Fieldwork required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 127",
+        "title": "Mind and Society",
+        "units": 4,
+        "description": "Lecture, two and one half hours; discussion, one hour. Requisite: course 1. Study of social production of modes of thought and forms of knowledge. Study of ways in which bodies of knowledge and cognitive styles are produced, used, and transformed in everyday, organizational, and extraordinary contexts. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 128",
+        "title": "Sociology of Emotions",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Designed for juniors/seniors. Sociological theories and explanations of social conditions shaping and producing emotional experiences; effects of individual expression of emotions on social conditions; relations between thought, sensations, and emotions; self and emotions; social construction of emotions. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 129",
+        "title": "Sociology of Time",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Conceptualizations of time seen from scientific, philosophical, historical, and sociological perspectives; cyclical and linear time in primitive, ancient, and medieval societies; ritual, the sacred, and experience of the eternal; structuring of urban, modern, and postmodern societies by clock, calendar, and schedule; future value orientation and notion of progress; time, labor, and social domination. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 130",
+        "title": "Self and Society",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of social processes shaping experience, definition, and enactment of self and personal identity. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 131",
+        "title": "Careers in Sociology",
+        "units": 4,
+        "description": "Lecture, three hours. Limited to juniors/seniors. Examination of possible career paths for Sociology majors, including such fields as business, nonprofit sector, government, healthcare, entertainment, and other areas. Development of career-relevant materials and skills. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 132",
+        "title": "Social Psychology: Sociological Approaches",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Survey of contribution of sociologists to theory and research in social psychology, including theories of social control; conformity and deviation; reference groups; and interaction process. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 133",
+        "title": "Collective Behavior",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Designed for juniors/seniors. Characteristics of crowds, mobs, publics, social movements, and revolutions; their relation to social unrest and their role in developing and changing social organization. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 134",
+        "title": "Culture and Personality",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Designed for juniors/seniors. Theories of relation of variations in personality to culture and group life, in primitive and modern societies, and influence of social role on behavior. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 135",
+        "title": "Sociology of Body",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of body as social construction that is situated within particular social and historical context. Students gain understanding of how bodies become gendered, raced, classed, and sexualized in ways that create and reinforce social institutions and relations of power. Analysis of reciprocal processes of structuration: how body is shaped by social expectations and symbolic exchange, how meanings are attached to bodies and different body parts, and how these interpretations in turn shape social relations. Critical evaluation of embodiment experience, and contribution of sociological theories and data to understanding this process. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 138",
+        "title": "Death, Dying, and Afterlife",
+        "units": 4,
+        "description": "(Formerly numbered M138.) Lecture, three hours; discussion, one hour. Social analysis of social inequities in death, understanding of what constitutes good death, how we make sense of bad deaths, how to dispose of death, and what constitutes appropriate grieving. Death remains at foundation of discipline of sociology. Suicide does not occur randomly but is stratified according to social factors such as age, gender, race, sexual orientation, and class. Review of strength of sociological argument and evaluation of explanatory potential of different theories to make sense of death. Examination of historic and contemporary studies to examine how research and conceptualizations of death and dying have changed, and social responses to these phenomena. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 140",
+        "title": "Negotiating Medical Care: Physician-Patient Conversations",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Overview of how physician-patient interaction influences kinds of treatment patients receive. Focus on routine primary care medical visits and study of how some of our most significant health-care epidemics are affected by communication that takes place in these everyday medical visits. Topics include how communication between clinicians and patients has changed over years, normative structure of medical visit, and how communication adds to series of public health problems currently faced. Students learn how to analyze actual interactions between physicians and patients with hands-on exercises to give them tools to examine these conversations. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 141A",
+        "title": "Migration and Labor in Mexico-U.S. Context",
+        "units": 5,
+        "description": "Seminar, 20 hours. Mexico-U.S. migration is largest and oldest continuous international population flow of contemporary world. In recent decades, prompted by swift economic transformations, rural and urban Mexicans from every corner of Mexico have joined this migratory flow, settling well beyond southwestern region and into far-reaching areas of U.S. interior. Migration is binding U.S. and Mexico stronger than ever, putting this complex and multilayered phenomena at top of bilateral agenda. Examination of sociological dynamics of international migration and labor as they apply to Mexico-U.S. context, including demographic, political, and economic dynamics of migration, economic and social infrastructures that support cross-border mobility, and connections of migration with binational, national, regional, and local labor markets. Comparative insights to contrast this flow with other contemporary population streams. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 141B",
+        "title": "Migration and Labor in Mexico-U.S. Context: Research Seminar",
+        "units": 5,
+        "description": "Seminar, 10 hours; fieldwork, 10 hours. Development of qualitative micro-study and research paper on migration and labor in Mexico-U.S. context. Research topic of interest to be selected so students become familiar with commonly employed qualitative methods of research. Designed to help students understand basics of methodological reasoning, how to formulate research questions, and how to frame and investigate one particular issue related to migration and labor. How to make ethical decisions about conducting research. Development of student abilities as researchers by conducting secondary and primary research culminating in final research paper to be presented to faculty members and peers. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 143",
+        "title": "Human Health and Society",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisites: courses 1, 20, 101. Exploration of long-run historical trends in relationship between human health and social organization, drawing on historical, anthropological, demographic, and sociological concepts, theories, and data. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 1"},
+            {"type": "requisite","course": "SOCIOL 20"},
+            {"type": "requisite","course": "SOCIOL 101"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 145",
+        "title": "Sociology of Deviant Behavior",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of leading sociological approaches to study of deviation and general survey of major types of deviation in American society. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 147A",
+        "title": "Sociology of Crime",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Sociological theories of social origins, organization, and meanings of crime and criminal behaviors. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 147B",
+        "title": "Sociology of Criminal Justice",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of structures and routine decision-making processes of key criminal justice institutions, including police, courts, probation and parole, jails and prisons. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 149",
+        "title": "Youth, Trouble, and Juvenile Justice",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of processes through which youth become involved in juvenile justice system. Analysis of this system as people-processing and people-changing institution as context for considering critical issues in juvenile justice. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 151",
+        "title": "Comparative Immigration",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Survey of immigration of Europeans, Asians, and Hispanics to the U.S. since the mid-19th century. Overview of immigration experience on ethno-racial groups that migrated voluntarily to this country, with emphasis on immediate postimmigration settlement. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 152",
+        "title": "Comparative Acculturation and Assimilation",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 151. Comparison of acculturation and assimilation of Europeans, Africans, Mexicans, and Asians in the U.S., with emphasis on long-term cultural consequences of immigration. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 151"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 154",
+        "title": "Race and Ethnicity in Latin America",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in political, economic, and social lives of Latin American nations. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 156",
+        "title": "Race and Ethnicity in American Life",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Role of race and ethnicity in the U.S., including interplay between racial and ethnic structures and meanings. Special attention to comparison of African American and European American experiences and to transformation of Asian American and Latino communities and the nation generally, wrought by renewal of mass migration in second half of the 20th century. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 157",
+        "title": "Social Stratification",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Analysis of American social structure in terms of evaluational differentiation. Topics include criteria for differentiation, bases for evaluation, types of stratification, composition of strata and status systems, mobility, consequences of stratification, and problems of methodology. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 158",
+        "title": "Urban Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Description and analysis of urbanization and urbanism in the U.S. and world. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 168",
+        "title": "Organizations and Society",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Sociological analysis of organizations and their social environment. Introduction to basic theories, concepts, methods, and research on behavior of organizations in society. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 169",
+        "title": "Law and Society",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Specific topics may include law in preindustrial and industrialized societies, legalization of contemporary social relations, participants' experiences of legal processes, lay perceptions of justice, social movements toward equal justice, roles of lawyers and judges, social impact of court decisions. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 170",
+        "title": "Medical Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Provides majors in Sociology and other social sciences, as well as students preparing for health sciences careers, with understanding of health-seeking behavior and interpersonal and organizational relations that are involved in receipt and delivery of health services. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 171",
+        "title": "Occupations and Professions",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Description and analysis of representative occupations and professions, with emphasis on contemporary U.S. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 172",
+        "title": "Entrepreneurship",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Description and analysis of entrepreneurship, with special reference to historical origins, ideology, international comparisons, women and ethnic minority participation, legal and illegal forms, public and private auspices. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 173",
+        "title": "Economy and Society",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Sociology of economic life, with emphasis on principal economic institutions of the U.S. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 180A",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Study of selected topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit and may be applied as elective units toward Sociology major. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 180B",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Study of selected topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit and may be applied as elective units toward Sociology major. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 180C",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Study of selected topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit and may be applied as elective units toward Sociology major. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 180D",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Study of selected topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit and may be applied as elective units toward Sociology major. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 180E",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Study of selected topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit and may be applied as elective units toward Sociology major. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 180F",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Study of selected topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit and may be applied as elective units toward Sociology major. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 180G",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Study of selected topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit and may be applied as elective units toward Sociology major. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 181A",
+        "title": "Sociology of Global China",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Analyses of how domestic developments create impetus for China's global expansion, and assessment of global China's variegated and uneven consequences. Concrete case studies include Belt and Road Initiative, soft power and cultural diplomacy, internal colonization of Hong Kong and Xinjiang, China in Africa, U.S.-China trade war, and New Cold War. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 181B",
+        "title": "Sociology of Contemporary China",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Survey of changes in Chinese society from beginning of 20th century to present. Topics include social mobility and inequality, family and household, and population. Emphasis on changes post-Reform Era and in present. Focus on interaction of economic and political change plus family organization. Contrasts and similarities between China and West, China's place in social sciences, and challenges due to social organization that originated from studying Western societies. May be taken independently for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 182",
+        "title": "Political Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Contributions of sociology to study of politics, including analysis of political aspects of social systems, social context of action, and social bases of power. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 183",
+        "title": "Comparative and Historical Sociology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 1. Survey of central themes of comparative and historical studies in sociology. Various aspects of development of modern society, including development of nation-state, emergence of capitalism, industrialization, and population growth. Variation in contemporary society, viewed from variety of theoretical perspectives. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 185",
+        "title": "American Society",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Analysis of major institutions in the U.S. in historical and international perspective, with emphasis on topics such as industrialization, work, state, politics, community, family, religion, and American culture. Theories of social change, conflict, and order applied to case of the U.S. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 186",
+        "title": "Latin American Societies",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Social structure and social conflict in Latin America, with special attention to racial and class structures and dilemmas of economic and political development. Country and specific focus varies each term. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191A",
+        "title": "Undergraduate Seminar: Self and Identity",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to junior/senior Sociology majors. Examination of cultural, historical, and interactional contexts shaping definition, enactment, and experience of self. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191B",
+        "title": "Undergraduate Seminar: Sociology of Humor and Laughter",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to junior/senior Sociology majors. Selected topics. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191C",
+        "title": "Undergraduate Seminar: Money and Emotions",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to junior/senior Sociology majors. Selected topics. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191D",
+        "title": "Undergraduate Seminar: Sociology of Development",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Taught in Spanish. Selected topics on development in Third World from global perspective. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191E",
+        "title": "Undergraduate Seminar: Population Growth Models",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Selected topics. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191F",
+        "title": "Undergraduate Seminar: Sociology of Globalization",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Great extension of social relations across globe has occurred over last 50 years. What are causes and mechanisms of this process, how far has it transformed human societies, and how far will it go in future? Economic, cultural, political, and military aspects of globalization, with focus on extent to which global expansion of capitalism, nation-state system, and American imperialism reinforce or undercut each other, producing new lines of division and conflict across world. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191H",
+        "title": "Honors Seminars: Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. In-depth introduction to process of producing scholarly sociological research for students who intend to write undergraduate thesis for departmental honors. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191I",
+        "title": "Undergraduate Seminar: Health and Inequality",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. During past century, social inequalities in health and survival were widening in the U.S. as in other developed societies. Broad overview of these trends and their causes. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191J",
+        "title": "Undergraduate Seminar: Mexican Society",
+        "units": 5,
+        "description": "Seminar, three hours. Selected topics on contemporary Mexican society and vital transformations it has undergone in recent years. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191K",
+        "title": "Undergraduate Seminar: Cigarettes and Western Civilization-Sociological History of Smoking",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Use of history of tobacco and cigarette smoking to explore important themes in sociology, history, and culture. History of tobacco from its roots in Native American culture, its contribution to foundation of European colonies in New World, its cultural incorporation in western Europe, its role in rise of industrial way of life and health consequences, and its demise as legitimate soft drug for modern urban people. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191L",
+        "title": "Undergraduate Seminar: Environmental Justice and Sustainability",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Sociological approach to study of environmental issues and problems. Topics include ecopolitics and ecofeminism, environmental racism, global environmental change, sustainable development, and society-environment interface. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191M",
+        "title": "Undergraduate Seminar: Social Ecology",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Fundamentals of sociological approach to social ecology, also known as human ecology. Study of adaptation of population to its environment. Topics include density, maintaining personal space, space and territoriality, and effects of environment on humans. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191NY",
+        "title": "Undergraduate Seminar: Urban and Suburban Sociology in New York City",
+        "units": 5,
+        "description": "Seminar, eight hours. Limited to students in summer UCLA Travel Study Program. Cutting-edge urban issues in country's largest city, including New York's attempt to plan for city of 9.2 million, rebuilding of World Trade Center, Robert Moses (New York's master builder), urban economic development, green New York, transportation systems, urban politics, house and architectural styles, including New York's famous skyscrapers, historic preservation, crime and police departments, ghetto, education, urban poor, public housing, and search for affordable housing. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191O",
+        "title": "Undergraduate Seminar: Ideals of Love in Historical Perspective",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Exploration of historically specific understandings of love. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191P",
+        "title": "Undergraduate Seminar: Politics of Reproduction",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Social and human reproduction is global policy issue. Government efforts to influence reproduction are important feature of modern state: political intervention into private life, intimacy, and sexuality. Exploration of politics of reproduction-intersection between politics and life cycle or between public sphere and private lives-and coverage of broad range of issues addressing prevention and promotion of reproduction from historical-comparative approach. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191Q",
+        "title": "Undergraduate Seminar: Communication in Medical Care",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Sociology dimensions of patient care in primary care context. Use of microsociological methods to examine main facets of American primary care medical visits, including detailed analysis of interactional conduct of those visits and development of microanalytical constructs into quantitative measures. Emphasis on direct contact with empirical materials and development of observational and analytic skills. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191R",
+        "title": "Undergraduate Seminar: Cultural Sociology",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Introduction to classic theoretical approaches and contemporary developments in study of social worlds dedicated to creating and handling cultural institutions such as literature, journalism, film/television, art, architecture, music, dance, and museums. Discussion of such issues as contemporary validity of distinction between high and popular/low culture, relationship of mainstream and marginal culture, how culture expresses and reinforces social inequality, organizational context of culture, and how people express and decipher meaning in cultural objects. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191S",
+        "title": "Undergraduate Seminar: Sociology of Gender and Sexuality",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Sexuality is important site for enactment of gender and gender identity. Sexual preference and sexual behavior can also form basis for social identity, repression, discrimination, and privilege, independent of gender. Social factors such as social class, ethnicity, generation, and networks shape our sexual practices and choice of partners. Reading and writing about variety of original sociological, historical, and anthropological texts and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191T",
+        "title": "Undergraduate Seminar: War and Society",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Study of relationship between society's military and its social organization in general, with particular attention to shock-based civic militarism characteristic of the West. Topics include honor, discipline, bureaucracy, conscription, logistics, total war, guerilla war, terrorism, and counterinsurgency. Reading, discussion, and development of culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 191V",
+        "title": "Variable Topics Research Seminars: Sociology",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. Study of selected topics of sociological interest. Reading, discussion, and development of culminating project. Consult Schedule of Classes for topics and instructors. May be repeated for credit and may be applied as elective units toward Sociology major. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 194",
+        "title": "Research Group Seminars: Sociology",
+        "units": 2,
+        "description": "Seminar, two hours. Designed for undergraduate students who are part of research group. Discussion of research methods and current literature in field. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 195",
+        "title": "Community or Corporate Internships in Sociology",
+        "units": 4,
+        "description": "Tutorial, three hours. Limited to juniors/seniors. Internship in community agency or business to be supervised jointly by Center for Community Learning and faculty adviser. Students meet on regular basis with instructor and provide weekly reports of their experience. Normally only 4 units of internship are allowed. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 195CE",
+        "title": "Community and Corporate Internships in Sociology",
+        "units": 4,
+        "description": "Tutorial, to be arranged; fieldwork, eight to 10 hours. Limited to juniors/seniors. Internship in corporate, governmental, or nonprofit setting coordinated through Center for Community Learning. Students complete weekly written assignments, attend biweekly meetings with graduate student coordinator, and write final research paper. Faculty sponsor and graduate student coordinator construct series of reading assignments that examine issues related to internship site. May be repeated for credit with consent of Center for Community Learning. No more than 4 units may be applied toward major; units applied must be taken for letter grade. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 198A",
+        "title": "Honors Research in Sociology",
+        "units": 4,
+        "description": "Tutorial, one hour. Requisite: course 191H. Limited to sociology honors program students. Design of research project to serve as student's honors thesis. Research proposal, detailed bibliography, and regular meetings with sponsoring faculty member required. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 191H"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 198B",
+        "title": "Honors Research in Sociology",
+        "units": 4,
+        "description": "Tutorial, one hour. Requisites: courses 191H, 198A. Limited to sociology honors program students. Continuation of work initiated in course 198A. Development of honors thesis in consultation with instructor. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 191H"},
+            {"type": "requisite","course": "SOCIOL 198A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 198C",
+        "title": "Honors Research in Sociology",
+        "units": 4,
+        "description": "Tutorial, one hour. Requisites: courses 191H, 198B. Limited to sociology honors program students. Completion of honors thesis under direct supervision of honors faculty director. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 191H"},
+            {"type": "requisite","course": "SOCIOL 198B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 199",
+        "title": "Directed Research in Sociology",
+        "units": 2,
+        "description": "Tutorial, one hour. Preparation: 3.0 grade-point average in major. Requisites: course 1, and Political Science 6 or Statistics 10 or 13. Limited to junior/senior Sociology majors. Independent intensive study designed for students who want to do research under guidance of faculty mentor. Scheduled meetings to be arranged between faculty member and student. Culminating paper or project required. May be repeated for maximum of 16 units, but only 8 units may be applied toward major. Individual contract required; see undergraduate counselor. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 1"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "POL SCI 6"},{"type": "requisite","course": "STATS 10"},{"type": "requisite","course": "STATS 13"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 199A",
+        "title": "Directed Research in Language and Social Behavior",
+        "units": 4,
+        "description": "Tutorial, one hour. Limited to junior/senior Language and Social Behavior minors. Independent intensive study designed for students who want to do research under guidance of member of Language and Social Behavior minor faculty advisory committee. Scheduled meetings to be arranged between faculty member and student. Culminating paper or project required. Individual contract required; see undergraduate counselor. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 199B",
+        "title": "Directed Research in Language and Social Behavior",
+        "units": 4,
+        "description": "Tutorial, one hour. Limited to junior/senior Language and Social Behavior minors. Independent intensive study designed for students who want to do research under guidance of member of Language and Social Behavior minor faculty advisory committee. Scheduled meetings to be arranged between faculty member and student. Culminating paper or project required. Individual contract required; see undergraduate counselor. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 20",
+        "title": "Introduction to Sociological Research Methods",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to methods used in contemporary sociological research, with focus on issues of research design, data collection, and analysis of data. Fieldwork may be required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 201A",
+        "title": "Proseminar: Sociology",
+        "units": 2,
+        "description": "Seminar, two hours every other week. Required of first-year graduate sociology students. Introduction to range of theoretical and research interests represented by department faculty members. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 201B",
+        "title": "Proseminar: Sociology",
+        "units": 2,
+        "description": "Seminar, two hours every other week. Required of first-year graduate sociology students. Introduction to range of theoretical and research interests represented by department faculty members. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 201C",
+        "title": "Proseminar: Sociology",
+        "units": 2,
+        "description": "Seminar, two hours every other week. Required of first-year graduate sociology students. Introduction to range of theoretical and research interests represented by department faculty members. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 202A",
+        "title": "Theory and Research in Sociology",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, two hours. Required of first-year graduate sociology students. Examination of interrelations of theory, method, and substance in exemplary sociological works, with analytical and skills-centered orientation. In Progress grading (credit to be given only on completion of course 202B).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 202B",
+        "title": "Theory and Research in Sociology",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, two hours. Required of first-year graduate sociology students. Examination of interrelations of theory, method, and substance in exemplary sociological works, with analytical and skills-centered orientation. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 203",
+        "title": "How to Write a Lot",
+        "units": 4,
+        "description": "Seminar, three hours. Designed to help graduate students develop regular and productive writing practices. Appropriate for students in their second year or beyond who have one full draft of their MA paper written and want to revise and publish it in timely manner. Development of regular writing schedules and protecting them from competing demands. Learning of specific genres of writing for academic journals, books, and op-eds. Editing of students' own work and that of classmates. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 204",
+        "title": "Topics in Sociological Theorizing",
+        "units": 4,
+        "description": "Seminar, four hours. Examination of selected issues and problems in classical or contemporary sociological theory. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 205",
+        "title": "Family and Social Change",
+        "units": 4,
+        "description": "Lecture, three hours. Examination of sources of change in family and household organization, with major focus on relationships among economic institutions, family structure, and content of family life. Consideration of concepts, theories, and data about kinship. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 208A",
+        "title": "Social Network Methods",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Requisites: courses 210A, 210B. Techniques for measuring characteristics of networks and positions in networks. Centrality of positions, centralization and density of networks, structural equivalence, cliques. Readings of exemplars of network research. Computer programs. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210A"},
+            {"type": "requisite","course": "SOCIOL 210B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 208B",
+        "title": "Social Network Methods",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Requisites: courses 210A, 210B. Techniques for measuring characteristics of networks and positions in networks. Centrality of positions, centralization and density of networks, structural equivalence, cliques. Readings of exemplars of network research. Computer programs. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210A"},
+            {"type": "requisite","course": "SOCIOL 210B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 208C",
+        "title": "Machine Learning for Social Scientists",
+        "units": 4,
+        "description": "Lecture, three hours. Requisites: courses 210A, 210B, or consent of instructor. Conceptual, mathematical, and computational foundations of machine learning, with special focus on social science applications. Survey of supervised and unsupervised methods, including Na\u00efve Bayes, k-means, logistic regression, decision trees (classification and regression), topic models, and neural networks. Practicalities of implementation on range of data types. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210A"},
+            {"type": "requisite","course": "SOCIOL 210B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 210A",
+        "title": "Intermediate Statistical Methods I",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, two hours. Intermediate statistical methods using computers: probability theory, sampling distributions, hypothesis testing, interval estimation, multiple regression and correlation, experimental design, analysis of variance and covariance, contingency tables, sampling theory. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 210B",
+        "title": "Intermediate Statistical Methods II",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, two hours. Intermediate statistical methods using computers: probability theory, sampling distributions, hypothesis testing, interval estimation, multiple regression and correlation, experimental design, analysis of variance and covariance, contingency tables, sampling theory. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 210C",
+        "title": "Intermediate Statistical Methods III",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 210B. Survey of advanced statistical methods used in social research, with focus on problems for which classical linear regression model is inappropriate, including categorical data, structural equations, longitudinal data, incomplete and erroneous data, and complex samples. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 211A",
+        "title": "Comparative and Historical Methods: Strategies of Research and Conceptualization",
+        "units": 4,
+        "description": "Lecture, three hours. Topics include relationship of theory and fact to social sciences, logic of comparative and historical analysis, and substantive paradigms of comparative and historical analysis. Reading involves methodological examination of basic works in representative problem areas. In Progress grading (credit to be given only on completion of course 211B).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 211B",
+        "title": "Comparative and Historical Methods: Research Techniques",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 211A. Topics include problem of evidence, quantitative and qualitative data. Techniques of data analysis, including use of manuscript census, content analysis, collective biography, and secondary analysis. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 211A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 212A",
+        "title": "Quantitative Data Analysis",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 210A, 210B. Course 212A is enforced requisite to 212B. Analysis and interpretation of primarily nonexperimental quantitative data, with focus on sample survey and census data. Extensive practice at utilizing statistical methods encountered in previous courses, culminating in term paper proposal in style of American Sociological Review or similar journal article. Topics include simple tabular analysis, correlation, log-linear analysis, ordinary least squares regression, regression with interactions, robust regression, diagnostic procedures, and methods for handling complex sample survey designs. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210A"},
+            {"type": "requisite","course": "SOCIOL 210B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 212B",
+        "title": "Quantitative Data Analysis",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Enforced requisite: course 212A. Analysis and interpretation of primarily nonexperimental quantitative data, with focus on sample survey and census data. Extensive practice at utilizing statistical methods encountered in previous courses, culminating in term paper in style of American Sociological Review or similar journal article. Topics include missing data; binomial, multinomial, and ordinal logistic regression; factor analysis and scale construction; methods for causal inference, including fixed effects and propensity score matching; and primer on advanced topics, including structural equations and multilevel models. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 212A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 212C",
+        "title": "Study Design and Other Issues in Quantitative Data Analysis",
+        "units": 4,
+        "description": "Lecture, three hours. Designed for graduate and undergraduate students who have had some exposure to statistics and quantitative methods. Introduction to study design, including experimental, longitudinal, cohort, time-series designs, contextual, and other designs. Discussion of suitability of various design classes for specific analytic goals, as well as their comparative strengths and weaknesses. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 213B",
+        "title": "Applied Event History Analysis",
+        "units": 4,
+        "description": "Lecture, three hours. Preparation: exposure to binary response models. Requisites: courses 210A, 210B. Introduction to regression-like analyses in which outcome is time to event. Topics include logit models for discrete-time event history models; piecewise exponential hazards models; proportional hazards; nonproportional hazards; parametric survival models; heterogeneity; multilevel survival models. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210A"},
+            {"type": "requisite","course": "SOCIOL 210B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 216A",
+        "title": "Survey Research Design",
+        "units": 4,
+        "description": "Lecture, three hours. Recommended requisite: course 210A. Past, present, and future of survey research; survey modes; survey errors; survey sampling; response rates; questionnaire design; reliability and validity of survey items; survey administration and management; ethics and costs. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 216B",
+        "title": "Survey Research Design",
+        "units": 4,
+        "description": "Lecture, three hours. Practical application of survey design skills. Students design and implement individual survey data collection projects and collectively review and evaluate their projects' results and challenges. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 217A",
+        "title": "Analyzing Ethnographies",
+        "units": 4,
+        "description": "Seminar, three hours. Analysis of ethnographic monographs. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 217B",
+        "title": "Ethnographic Fieldwork",
+        "units": 4,
+        "description": "Seminar, three hours. Recommended requisite: course 217A. Theories and techniques of ethnographic fieldwork. Kinds of problems amenable to ethnographic approaches, methods, and techniques for doing fieldwork, and ethnical problems involved in such research. In Progress grading (credit to be given only on completion of course 217C).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 217C",
+        "title": "Ethnographic Fieldwork",
+        "units": 4,
+        "description": "Seminar, three hours. Recommended requisite: course 217A. Theories and techniques of ethnographic fieldwork. Kinds of problems amenable to ethnographic approaches, methods, and techniques for doing fieldwork, and ethnical problems involved in such research. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 220",
+        "title": "Self and Society",
+        "units": 4,
+        "description": "Lecture, three hours. Examination of social and cultural processes shaping definition and experience of the self, embodied interactional practices through which the self is constructed in everyday and institutional contexts, formation and transformation of self during life course, and construction of collective identity. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 222",
+        "title": "Foundations of Ethnomethodological, Phenomenological, and Analytical Sociologies",
+        "units": 4,
+        "description": "Lecture, three hours. Designed for graduate students. Basic issues, methods, and topics of ethnomethodological, phenomenological, conversation-analytic, and related varieties of inquiry. themes such as world of everyday life, problem of rationality, rules/norms and tacit knowledge, problem of social order, speaking and discourse, constitutive practices, and production of ordinary interaction in first part; guest presentations by affiliated faculty in second part. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 223",
+        "title": "Phenomenological and Interactionist Perspectives on Selected Topics",
+        "units": 4,
+        "description": "Lecture, three hours. Comparison of phenomenological and symbolic interactionist perspectives by examining particular body of live or currently unresolved substantive issues. Topics vary; attention on development of phenomenological and interactionist thought on topic of concern, with special concern for ambiguities and divergences both within and between two approaches. When relevant, attention to logical and historical relations of phenomenology and interactionism of pragmatist, existentialist, and ordinary language philosophies. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 226A",
+        "title": "Introduction to Theory and Major Empirical Research in Social Demography",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. Requisite: course 210A. Survey and critical examination of population theories and related major empirical research. Emphasis on interrelation of cultural, socioeconomic, and demographic factors. Introduction to elementary demographic methods utilizing microcomputers. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 226B",
+        "title": "Introduction to Theory and Major Empirical Research in Social Demography",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. Requisite: course 210A. Survey and critical examination of population theories and related major empirical research. Emphasis on interrelation of cultural, socioeconomic, and demographic factors. Introduction to elementary demographic methods utilizing microcomputers. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 227",
+        "title": "Sociology of Knowledge",
+        "units": 4,
+        "description": "Lecture, three hours. Designed for graduate students. Survey of theories and research concerning social determinants of systems of knowledge and role of intellectual and artistic elites in Western societies. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 228",
+        "title": "Critical Issues in Macrosociology",
+        "units": 4,
+        "description": "Lecture, three hours. Conceptual introduction to area of macrosociology in which exemplary works are read, studied for substance and methods, and critiqued in seminar and in written papers. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 230A",
+        "title": "Comparative Ethnicity, Race, and Nationalism",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation for independent research in area of comparative ethnicity, race, and nationalism through close reading of key theoretical and empirical works. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 230B",
+        "title": "Comparative Ethnicity, Race, and Nationalism",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation for independent research in area of comparative ethnicity, race, and nationalism through close reading of key theoretical and empirical works. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 230C",
+        "title": "Comparative Ethnicity, Race, and Nationalism",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to comparative and historical sociology of race and ethnicity to demonstrate merits of double comparative approach to race, one that strives to be as comparative at level of theory (attending to relationship between race and other forms of social classification, including ethnicity and nationality) as it does at level of research. Exploration of cases from wide variety of countries, including Australia, Brazil, Colombia, Dominican Republic, Haiti, Mexico, modern China, modern Japan, Nazi Germany, Nicaragua, Rwanda, South Africa, Sudan, and U.S. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 232",
+        "title": "Class, Politics, and Society",
+        "units": 4,
+        "description": "Lecture, four hours. Nature of class structure and how it affects relation of class structure to politics and political power. Issue of salience of class versus other identities such as gender, age, race, and nationalism. Examination of contemporary globalization tendencies of capitalism. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 233",
+        "title": "Foundations of Political Sociology",
+        "units": 4,
+        "description": "Lecture, three hours. Designed for graduate students. Survey of field of political sociology, oriented around critical themes in major theoretical traditions and contemporary exemplars. Special attention to competing perspectives on power, theory of state, and relationship of class structure to politics. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 234",
+        "title": "Sociology of Development",
+        "units": 4,
+        "description": "Seminar, three hours; discussion, one hour. Readings and discussion of theoretical, historical, and specific issues in sociology of development (e.g., world system theory, developmental state, import substitution industrialization, export promotion industrialization, neoliberalism in Latin America, new approaches). S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 235A",
+        "title": "Race/Ethnicity in U.S.",
+        "units": 4,
+        "description": "Lecture, three hours. Survey of theoretical and empirical literature on race, ethnicity, and immigrant groups in U.S. to provide comparative analysis of racial/ethnic groups as well as provide detailed knowledge of particular racial/ethnic groups, to situate contemporary experiences within historical contexts, to understand structural integration into U.S. society (i.e., structural assimilation or socioeconomic mobility), and to examine theoretical approaches to understanding race and ethnicity in contemporary society. Preparation for field examination in race and ethnicity. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 235B",
+        "title": "Race/Ethnicity in U.S.",
+        "units": 4,
+        "description": "Lecture, three hours. Survey of theoretical and empirical literature on race, ethnicity, and immigrant groups in U.S. to provide comparative analysis of racial/ethnic groups as well as provide detailed knowledge of particular racial/ethnic groups, to situate contemporary experiences within historical contexts, to understand structural integration into U.S. society (i.e., structural assimilation or socioeconomic mobility), and to examine theoretical approaches to understanding race and ethnicity in contemporary society. Preparation for field examination in race and ethnicity. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 236A",
+        "title": "International Migration",
+        "units": 4,
+        "description": "Lecture, three hours. Comprehensive overview of key current theoretical debates in study of international migration, with focus on exploration of possibilities of comparative (historical and cross-national) research program in field, linking North American, European, and other global experiences of immigration. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 236C",
+        "title": "International Migration",
+        "units": 4,
+        "description": "Lecture, three hours. Designed for students beginning or undertaking original research in field of international migration. Outside lectures, oral presentations of student projects, circulation of completed or draft student papers. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 237",
+        "title": "Seminar: Theory and Research in Comparative Social Analysis",
+        "units": 2,
+        "description": "Seminar, two hours. Designed for graduate students. Emphasis on one issue of particular importance for comparative analysis of capitalism and socialism, North America and Western Europe, developed capitalist and socialist countries and Third World, and implications for theory construction and social research. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 239A",
+        "title": "Social Stratification, Mobility, and Inequality",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisites: courses 210A, 210B. Course 239A is enforced requisite to 239B. Introduction to literature on social stratification, mobility, and inequality in U.S. and abroad, with focus on concepts, data, methods, and facts about occupational and class structure; intergenerational transmission of socioeconomic status; effects of family, school, and labor market on socioeconomic achievement, careers, and inequality; earnings, income, and wealth distribution; poverty; social mobility; socioeconomic factors and marriage; gender and ethnic stratification; and health disparities. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210A"},
+            {"type": "requisite","course": "SOCIOL 210B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 239B",
+        "title": "Social Stratification, Mobility, and Inequality",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisites: courses 210A, 210B, 239A. Introduction to literature on social stratification, mobility, and inequality in U.S. and abroad, with focus on concepts, data, methods, and facts about occupational and class structure; intergenerational transmission of socioeconomic status; effects of family, school, and labor market on socioeconomic achievement, careers, and inequality; earnings, income, and wealth distribution; poverty; social mobility; socioeconomic factors and marriage; gender and ethnic stratification; and health disparities. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210A"},
+            {"type": "requisite","course": "SOCIOL 210B"},
+            {"type": "requisite","course": "SOCIOL 239A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 240",
+        "title": "Sociology of Education",
+        "units": 4,
+        "description": "Lecture, three hours. Overview of social scientific study of education, with special focus on sociology (along with history and philosophy). Examination of contemporary sociology of education's focus on stratification at two levels. Examination of how scholars have studied schools' role in maintaining or altering stratification and inequality by looking at quantitative and qualitative approaches to race, class, gender, and sexuality in education. Examination of how focus on stratification can exist alongside, provide foundation for, or obfuscate other longstanding commitments in study of schooling including moral character, citizenship, ethnic nationalism, and maintenance of particular economic, racial, and sexual order. Examination of classic philosophical texts and recent sociological and historical work on how broader structures of government, culture, and social institutions affect what schools do and what actors believe they are supposed to do. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 241",
+        "title": "Theories of Gender in Society",
+        "units": 4,
+        "description": "Lecture, one hour; discussion, two hours. Gender stratification in society and sociology; extent of gender diversity in human societies past and present; why gender is absent in classical macrosociology; can masculinist paradigms make space for gender or does feminist-informed sociology necessitate fresh approach? S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 244B",
+        "title": "Conversation Analysis II",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, two hours. Requisite: course C244A. Continuation of introduction to some structures basic to organization of conversational interaction: organization of repair, and practices of word selection and reference to persons, places, time, and action. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL C244A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 244C",
+        "title": "Conversation Analysis III",
+        "units": 6,
+        "description": "Lecture, three hours; discussion, two hours. Requisites: courses 244A, 244B. Continuation of introduction to some structures basic to organization of conversational interaction: practices of action formation, storytelling organization, and overall structural organization of single conversations. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 244A"},
+            {"type": "requisite","course": "SOCIOL 244B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 245",
+        "title": "Cultural Sociology: Classical and Contemporary Approaches",
+        "units": 4,
+        "description": "Lecture, one hour; discussion, two hours. Exploration of classical approaches to cultural dimension of social life-Weberian, Durkheimian, Parsonian, and critical-and living traditions they have spawned. Examination of contemporary efforts at constructing new cultural sociology. Theoretical focus, with consideration of case studies. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 246",
+        "title": "Sociology of Culture",
+        "units": 4,
+        "description": "Seminar, three hours. Theoretical and methodological issues in structural approaches to culture. Perspectives include cultural economics, political economy, and production of culture. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 247",
+        "title": "Sociology of Emotions",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. Designed for graduate students. Sociological theories of emotional expression; experiential approaches to emotions: motivational, cognitive, psychophysiological, and behavioral; repression, social oppression, and emotions; creativity and expressed affect; thought, sensations, and emotions; specific emotions; cultural differences in emotional expression; measurement of emotions. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 248",
+        "title": "Selected Topics in Culture and Society",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminar on selected topics on culture and society. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 250",
+        "title": "Sociology of Health",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of literature of human health as product of society. Macro focus and micro focus used to examine relevance of macro organizational features of national society (culture, economy, politics) while maintaining awareness of micro pathways that link these wider influences to personal experience (mind, body, emotion). Main focus on modern industrial societies and organized around many leading issues in sociology of health. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 251",
+        "title": "Social Movements",
+        "units": 4,
+        "description": "Seminar, three hours. In-depth exploration of current theoretical debates and empirical research on social movements, collective action, and contentious politics, examining case studies, comparative analyses, and large-N investigations, with focus on developing student expertise in understanding social movement research and conceptualizing research projects. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 253",
+        "title": "Politics of Reproduction, Gender, and Family",
+        "units": 4,
+        "description": "Seminar, three hours. Human reproduction and its regulation have long been focus of contentious politics around world and remain topical today. Reproduction refers both to biological and social reproduction; their interdependence shapes policies and practices pertaining to them. Government efforts to influence fertility behavior call attention to one important feature of modern states: political intervention into private life, intimacy, and sexuality. Politics of reproduction refers to intersection between politics and life cycle, or between public sphere and private lives. Expansion of state into bodies and lives of citizens has blurred lines between public and private interests. Exploration of diverse aspects of politics of reproduction, their gendering, and their impact on changing family forms to encourage students to think comparatively and historically about these issues in different contexts and cultures. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 254",
+        "title": "Human Capital, Social Capital, and Cultural Capital",
+        "units": 4,
+        "description": "Lecture, three hours. Designed for graduate students. Intellectual history of these concepts, points of difference and similarity among these concepts, current exemplars of research that utilize these concepts, and critical reflection on research traditions. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 256",
+        "title": "Demography",
+        "units": 4,
+        "description": "Lecture, four hours. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 257",
+        "title": "Demography of Marriage Formation and Dissolution",
+        "units": 4,
+        "description": "Discussion, three hours. Requisite: course 210A. Extensive and intensive critical examination of major approaches to analysis of marriage formation and dissolution, with focus primarily on demographic literature. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 210A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 260",
+        "title": "Economy and Society",
+        "units": 4,
+        "description": "Discussion, two hours. Designed for graduate students. Review and critique of major analytical traditions in economy and society. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 265",
+        "title": "Problems in Organization Theory",
+        "units": 4,
+        "description": "Lecture, four hours. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 266",
+        "title": "Selected Problems in Analysis of Conversation",
+        "units": 4,
+        "description": "Lecture, three hours. Requisites: courses 244A, 244B. Variable topics/formats course. Consult instructor for topics and formats to be offered in specific term. May be repeated for credit with topic change. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 244A"},
+            {"type": "requisite","course": "SOCIOL 244B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 268",
+        "title": "Selected Problems in Psychoanalytic Sociology",
+        "units": 4,
+        "description": "Discussion, three hours. Recommended preparation: at least one year of methods courses. Selected problems in interpretation of sociology and psychoanalysis, which may be substantive (group development, socialization, culture, deviance, collective behavior) or methodological; latter focuses on clinical fieldwork and experimental use of psychoanalytic and sociological techniques. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 272",
+        "title": "Topics in Political Sociology",
+        "units": 4,
+        "description": "Lecture, four hours. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 278",
+        "title": "Sociology of Latin America",
+        "units": 4,
+        "description": "Lecture, one hour; discussion, two hours. Designed for graduate students. Selected topics in sociological study of Latin America. Possible topics include social movements, race and ethnicity, stratification, and social development. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 281",
+        "title": "Selected Problems in Mathematical Sociology",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of some mathematical models of sociological processes. Possible topics include models of small groups, social mobility, kinship relations, organizations, social interaction. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 282",
+        "title": "Sociology of Medicine",
+        "units": 4,
+        "description": "Seminar, three hours. Review of major concepts and issues in sociology of medicine. Topics include medicine, culture, and capitalism, professions and power, challenge of managed care, sick role and social control, interactionism and negotiation of sickness, sickness and self, debates over medicalization and demedicalization. Designed as preparation for field examination in sociology of health and medicine and specifically for themes traditionally included under medical sociology/sociology of medicine. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 283",
+        "title": "Communication in Medical Care",
+        "units": 4,
+        "description": "Seminar, three hours. Review and development of empirical knowledge about doctor-patient relationship. Analysis of nature and dynamics of routine office visits, with focus on nature and role of norms in regulating doctor-patient conduct, role of expertise and power in doctor-patient relationship, and methodological questions concerning how doctor-patient relationship can be analyzed. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 284",
+        "title": "Topics in Mental Health and Illness",
+        "units": 4,
+        "description": "Lecture, two to three hours. Requisite: course M148. Designed for graduate students. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL M148"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285A",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285B",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285C",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285D",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285E",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285F",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285G",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285H",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285I",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285J",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285K",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285L",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285M",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 285N",
+        "title": "Special Topics in Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Seminars on selected current topics of sociological interest. Consult Schedule of Classes for topics and instructors. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 287",
+        "title": "Topics in Chinese Society",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: at least two upper-division courses on China in any social sciences discipline. Introduction to current research questions in Chinese sociology, as well as major themes in study of Chinese society, both historical and contemporary, including demographic, economic, political, and social change before and after 1949. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 289A",
+        "title": "Practicum in Conversation Analysis: Data Analysis",
+        "units": 2,
+        "description": "Laboratory, two hours. Requisites: courses 244A, 244B. Practice in analysis of conversational data. May be repeated for credit. S/U grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 244A"},
+            {"type": "requisite","course": "SOCIOL 244B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 289B",
+        "title": "Practicum in Conversation Analysis: Developing Work in Progress",
+        "units": 4,
+        "description": "Seminar, three hours. Requisites: courses 244A, 244B. Opportunity to advance research projects in progress and to develop skills of constructive criticism in discussing work of others. S/U grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 244A"},
+            {"type": "requisite","course": "SOCIOL 244B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 295",
+        "title": "Working Group in Sociology",
+        "units": 1,
+        "description": "Discussion, two hours. Variable topics, including sociology of gender; ethnography; social networks; race, ethnicity, immigration; and social demography and stratification. Advanced study and analysis of current topics in specialized areas of sociology. Discussion of current research and literature in research specialty of faculty member teaching course. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 298",
+        "title": "Workshop in Culture and Society",
+        "units": 4,
+        "description": "Seminar, two hours every other week. Interdisciplinary workshop for graduate students and faculty pursuing theory and research in topics related to interplay of culture and society, whether social, literary, or philosophical in nature. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 40",
+        "title": "American Racism: Psychosocial Analysis",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Examination of long-standing history of American racism, beginning with institution of slavery, Jim Crow legislation, separate but equal doctrine, Brown versus Board of Education, Civil Rights legislation of 1960s, and Obama presidency. Focus on persistence over time of racist beliefs and mechanisms through which racism becomes passed on from one generation to next. Racism toward African Americans and harms it has inflicted on African American community, as well as on nation as whole. Examination of psychology and sociology of racism through video clips, social scientific texts, essays by prominent American humanists, and American literature that deals centrally with racism. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 495",
+        "title": "Supervised Teaching of Sociology",
+        "units": 2,
+        "description": "Seminar, two hours. Preparation: appointment as teaching assistant in Sociology Department. Special course for teaching assistants designed to deal with problems and techniques of teaching introductory sociology. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 501",
+        "title": "Cooperative Program",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Preparation: consent of UCLA graduate adviser and graduate dean, and host campus instructor, department chair, and graduate dean. Used to record enrollment of UCLA students in courses taken under cooperative arrangements with USC. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 51",
+        "title": "Sociology of Migration",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to fundamental theories, themes, and research methods used in sociological research through comparative study of international migration. Examination of theoretical debates and empirical analysis of causes and consequences of transnational migration in countries of origin and destination, with focus on issues of race, ethnicity, social networks, development, citizenship, and state in comparative context. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 595",
+        "title": "Directed Research for Master's Paper",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Directed research for and writing of MA degree paper under guidance of student's MA committee chair. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 596",
+        "title": "Directed Individual Study and Research in Sociology",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 597",
+        "title": "Individual Study for Examinations",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Preparation for qualifying examinations. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 599",
+        "title": "Research in Sociology for PhD Candidates",
+        "units": 4,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 97",
+        "title": "Variable Topics Research Seminars: Sociology",
+        "units": 4,
+        "description": "Seminar, three hours. Requisite: course 1. Designed for freshman/sophomores. Study of selected topics in sociology at introductory level. May be repeated for credit. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL C191N",
+        "title": "Undergraduate Seminar: Urban and Suburban Sociology",
+        "units": 5,
+        "description": "Seminar, three hours. Limited to juniors/seniors. History and present condition of cities and suburbs in America, with stress on global cities such as New York and Los Angeles, and comparisons to London and Shanghai. Process of suburbanization as it began in early 19th century and still continues. Analysis of city politics, house and architectural styles, crime, urban terror, public housing and ghettos, segregation and integration of neighborhoods, question of gentrification, immigration, urban culture (especially art, museums, and movie and music industries), and environmentalism. Concurrently scheduled with course C297. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL C244A",
+        "title": "Conversational Structures I",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to various structures employed in organization of conversational interaction, such as turn-taking, action sequencing, and repair. Concurrently scheduled with course CM124A. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL C258",
+        "title": "Talk and Social Institutions",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour. Practices of communication and social interaction in number of major institutional sites in contemporary society. Setting varies but may include emergency services, police and courts, medicine, news interviews, and political oratory. Concurrently scheduled with course CM125. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL C297",
+        "title": "Urban and Suburban Sociology",
+        "units": 5,
+        "description": "Seminar, three hours. History and present condition of cities and suburbs in America, with stress on global cities such as New York and Los Angeles, and comparisons to London and Shanghai. Process of suburbanization as it began in early 19th century and still continues. Analysis of city politics, house and architectural styles, crime, urban terror, public housing and ghettos, segregation and integration of neighborhoods, question of gentrification, immigration, urban culture (especially art, museums, and movie and music industries), and environmentalism. Concurrently scheduled with course C191N. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL CM124A",
+        "title": "Conversational Structures I",
+        "units": 4,
+        "description": "(Same as Communication M144A.) Lecture, three hours; discussion, one hour. Introduction to various structures employed in organization of conversational interaction, such as turn-taking, action sequencing, and repair. Concurrently scheduled with course C244A. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL CM125",
+        "title": "Talk and Social Institutions",
+        "units": 4,
+        "description": "(Same as Communication M125.) Lecture, four hours; discussion, one hour. Designed for juniors/seniors. Practices of communication and social interaction in number of major institutional sites in contemporary society. Setting varies but may include emergency services, police and courts, medicine, news interviews, and political oratory. Concurrently scheduled with course C258. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M115",
+        "title": "Environmental Sociology",
+        "units": 4,
+        "description": "(Same as Environment M133 and Society and Genetics M133.) Lecture, three hours; discussion, one hour. Relationship between society and environment. Analysis in detail of interrelations between social factors (such as class, race, gender, and religion) and environmental factors (such as pollution, waste disposal, sustainability, and global warming). P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M118",
+        "title": "Simulating Society: Exploring Artificial Communities",
+        "units": 5,
+        "description": "(Same as Honors Collegium M148.) Seminar, three hours; computer laboratory, one hour. Examination of social behavior through computer simulations of behavior in artificial communities. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M120",
+        "title": "Disability Rights Law",
+        "units": 4,
+        "description": "(Same as Disability Studies M149.) Lecture, four hours. Examination of disability-related issues impacting people of all ages across wide spectrum of settings in both public and private sectors-from preschool to higher education, from military to workplace, and from intensely urban environments to online and virtual worlds. Topics range from persistent and recurring disputes to novel controversies fueled by new technologies and changing times. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M124B",
+        "title": "Conversational Structures II",
+        "units": 4,
+        "description": "(Same as Communication M144B.) Lecture, three hours; discussion, one hour. Requisite: course M124A. Consideration of some more expanded sequence structures, story structures, topical sequences, and overall structural organization of single conversations. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL M124A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M136",
+        "title": "Eating Society: Science and Politics of Food from Individual to Planetary Health",
+        "units": 4,
+        "description": "(Same as Food Studies M136 and Society and Genetics M136.) Lecture, three hours; discussion, one hour. Questions of food and health are both individual and social. Students gain tools for understanding relationships between individual eaters, medicine, and social organization of food production and processing through set of research frameworks newly emergent in range of social and health sciences. Topics include individual and social ramifications of microbiome science; understanding how human gut microbes and health are shaped by pasteurization, processing, and food safety practices; One Health approaches that encompass human and animal health, discussing examples such as antibiotic resistance and emerging infectious disease as effects of large-scale agriculture; planetary health frameworks that link individual human metabolic health to issues of sustainable agriculture, for example how pesticides and fertilizers tie diets to environments; and resilience of cultural food systems in face of environmental pollution as issue of reproductive health. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M137",
+        "title": "Historical Sociology of Urban/Rural Relations and Food Production",
+        "units": 4,
+        "description": "(Same as Food Studies M167.) Lecture, three hours; discussion, one hour. Historical examination of food supply and food production in relation to urban and rural regions. Topics include food logistics such as storage, transportation, and distribution, as well as human population growth and migration, famine and hunger, and agricultural advances and environmental impacts. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M139",
+        "title": "Asian Community: Border-Crossing, Diasporic Formation, and Social Transformation",
+        "units": 4,
+        "description": "(Same as Asian American Studies M179.) Lecture, three hours; discussion, one hour. Exploration of critical issues facing broad Asian community, in context of globalization and international migration, through social science lens of migration studies and diaspora studies. Examination of how movements of people, ideas, capital, and goods create new trends and patterns of diasporic formation, integration, and social transformation at individual, group, and societal levels in non-Western contexts. Students engage in intellectually stimulating discussions and debates on immigration and immigrant integration in Asian world; and on anxieties, tensions, conflicts, and accommodation in age of globalization. Students also discuss challenges, possibilities, and opportunities of building cohesive Asian community. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M144",
+        "title": "Stress and Society: Biology and Inequality",
+        "units": 4,
+        "description": "(Same as Society and Genetics M144.) Lecture, three hours; discussion, one hour. Integrative view of health disparities, one of most pressing problems of society, through investigation of effects of socioeconomic status (SES) on health and disease, using specific lens of stress biology. Topics include introduction to fundamentals of physiology of stress, integration of literature on poverty and SES with studies on physiological consequences of poverty, and introduction of concepts of life course by following stress biology through childhood development and into adulthood. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M148",
+        "title": "Sociology of Mental Illness",
+        "units": 4,
+        "description": "(Same as Disability Studies M148.) Lecture, three hours; discussion, one hour. Analysis of major sociological and social psychological models of madness. Study of social processes involved in production, recognition, labeling, and treatment of mental illness. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M150",
+        "title": "Sociology of Aging",
+        "units": 4,
+        "description": "(Same as Gerontology M150.) Lecture, three hours; discussion, one hour. Study of sociological processes shaping definition, experience, and response to aging in contemporary society. Topics include race, class, and gender in aging over life course; interpersonal relations and social worlds of aged; caregiving relations and institutions; professions concerned with aged and aging. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M153",
+        "title": "Chinese Immigration",
+        "units": 4,
+        "description": "(Same as Asian American Studies M130C.) Lecture, three hours; discussion, one hour. Survey of sociological studies of Chinese immigration, with focus on international context, organization, and institutions of Chinese America and its interactions with social environment. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M155",
+        "title": "Latinos in U.S.",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies M155A.) Lecture, three hours; discussion, one hour. Designed for juniors/seniors. Exploration of history and social conditions of Latinos in Los Angeles as well as nationally, with particular emphasis on their location in larger social structure and on comparisons with other minority groups. Topics include migration, family, education, and work issues. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M161",
+        "title": "Comparative American Indian Societies",
+        "units": 4,
+        "description": "(Same as American Indian Studies M161.) Lecture, three hours. Requisite: course 1 or American Indian Studies M10. Comparative and historical study of political, economic, and cultural change in indigenous North American societies. Several theories of social change, applied to selected case studies. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SOCIOL 1"},{"type": "requisite","course": "AM IND M10"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M162",
+        "title": "Sociology of Gender",
+        "units": 5,
+        "description": "(Same as Gender Studies M162.) Lecture, three hours; discussion, one hour. Enforced requisite: course 1 or Gender Studies 10. Examination of processes by which gender is socially constructed. Topics include distinction between biological sex and sociological gender, causes and consequences of gender inequality, and recent changes in gender relations in modern industrial societies. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SOCIOL 1"},{"type": "requisite","course": "GENDER 10"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M163",
+        "title": "Gender and Work",
+        "units": 4,
+        "description": "(Same as Gender Studies M163.) Lecture, three hours. Requisite: course 1 or Gender Studies 10. Exploration of relationship of gender to work, concentrating on the U.S. experience but also including some comparative material. Particular emphasis on analysis of causes and consequences of job segregation by gender and of wage inequality. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SOCIOL 1"},{"type": "requisite","course": "GENDER 10"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M164",
+        "title": "Politics of Reproduction and Everyday Life",
+        "units": 4,
+        "description": "(Same as Gender Studies M164.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Social and human reproduction is global policy issue. Government efforts to influence reproduction are important feature of modern state: political intervention into private life, intimacy, and sexuality. Exploration of politics of reproduction-intersection between politics and life cycle or between public sphere and private lives-and coverage of broad range of issues addressing prevention and promotion of reproduction from historical-comparative approach. Reading, discussion, and development of culminating project. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M165",
+        "title": "Sociology of Race and Labor",
+        "units": 4,
+        "description": "(Same as African American Studies M165 and Labor Studies M165.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Exploration of relationship between race/ethnicity, employment, and U.S. labor movement. Analysis of underlying racial divisions in workforce and how they evolved historically. Consideration of circumstances under which workers and unions have excluded people of color from jobs and unions, as well as circumstances under which workers and unions have organized people of color into unions in efforts to improve their wages and working conditions. Impact of globalization on these dynamics. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M174",
+        "title": "Sociology of Family",
+        "units": 4,
+        "description": "(Same as Gender Studies M174.) Lecture, three hours; discussion, one hour. Theory and research dealing with modern family, its structure, and functions, including historical changes, variant family patterns, family as institution, and influence of contemporary society on family. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M175",
+        "title": "Sociology of Education",
+        "units": 5,
+        "description": "(Same as Education M108.) Lecture, four hours; discussion, one hour. Study of how U.S. educational system both promotes socioeconomic opportunities and maintains socioeconomic inequalities: historical and theoretical perspectives on role of education in U.S. society; trends in educational attainment; ways in which family background, class, race, and gender affect educational achievement and attainment; stratification between and within schools; effects of education on socioeconomic attainment, family, health, attitudes, and social participation; educational policies to improve school quality and address socioeconomic inequalities. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M176",
+        "title": "Sociology of Mass Communication",
+        "units": 4,
+        "description": "(Same as Communication M147.) Lecture, four hours; discussion, one hour (when scheduled). Studies in relationship between mass communication and social organization. Topics include history and organization of major media institutions, social forces that shape production of mass media news and entertainment, selected studies in media content, and effects of media on society. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M178",
+        "title": "Sociology of Caribbean",
+        "units": 4,
+        "description": "(Same as African American Studies M178.) Lecture, three hours; discussion, one hour. Limited to juniors/seniors. Historical sociology of Caribbean, with emphasis on colonialism and decolonization, development and underdevelopment, race-making institutions and evolution of race relations, nationalism and migration. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M191DC",
+        "title": "CAPPP Washington, DC, Research Seminars",
+        "units": 8,
+        "description": "(Same as Communication M191DC, History M191DC, Political Science M191DC, and Public Affairs M191DC.) Seminar, three hours. Limited to CAPPP Program students. Seminars for undergraduate students in Center for American Politics and Public Policy's program in Washington, DC. Focus on development and execution of original empirical research based on experiences from Washington, DC-based field placements. Study of variety of qualitative methods (observation, interviewing, etc.), with comparison to quantitative analysis. Examination of features of solid and significant research; intensive writing. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M194DC",
+        "title": "Quarter in Washington, DC, Research Seminar",
+        "units": 4,
+        "description": "(Same as History M194DC and Political Science M194DC.) Seminar, three hours. Limited to Quarter in Washington students and other students enrolled in UC Washington Center programs. Seminars for undergraduate students in Center for American Politics and Public Policy's program in Washington, DC. Focus on development and execution of original empirical research based on experiences from Washington, DC-based field placements. Study of variety of qualitative methods (observation, interviewing, etc.), with comparison to quantitative analysis. Examination of features of solid and significant research; intensive writing. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M195DC",
+        "title": "Quarter in Washington, DC, Internships",
+        "units": 4,
+        "description": "(Same as Community Engagement and Social Change M195DC, History M195DC, Political Science M195DC, and Public Affairs M195DC.) Tutorial, four hours. Limited to junior/senior Quarter in Washington program students. Internships in Washington, DC, through Center for American Politics and Public Policy. Students meet on regular basis with instructor and provide periodic reports of their experience. Individual contract with supervising faculty member required. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M206",
+        "title": "Understanding Fertility: Theories and Methods",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M222.) Lecture, three hours. Preparation: one formal or social demography course. Requisite: Biostatistics 100A. Application of demographic theories and methods to describe fertility trends and differentials and social and proximate determinants of fertility, with emphasis on understanding key proximate determinants. For advanced students interested in population, demography of health, and social demography. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOSTAT 100A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M213A",
+        "title": "Introduction to Demographic Methods",
+        "units": 4,
+        "description": "(Same as Biostatistics M208, Community Health Sciences M208, and Economics M208.) Lecture, four hours. Preparation: one introductory statistics course. Introduction to methods of demographic analysis. Topics include demographic rates, standardization, decomposition of differences, life tables, survival analysis, cohort analysis, birth interval analysis, models of population growth, stable populations, population projection, and demographic data sources. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M213C",
+        "title": "Population Models and Dynamics",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M209.) Lecture, three hours. Requisite: course M213A. Population models and their dynamics in population processes. How demographic models are used in estimation of population size, age structure, and associated dynamics. Computer simulations of demographic processes to gauge conclusions from demographic models. Estimation of demographic models in human population and broader relevance of demographic analysis to study of any population or system, including health and social systems. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL M213A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M225A",
+        "title": "Applications of Economic Theory: California Population Research Topical Seminar Series",
+        "units": 4,
+        "description": "(Same as Economics M204A.) Seminar, three hours. Limited to California Center for Population Research (CCPR) affiliates. Examination of issues such as demography, health, aging, labor, and broad array of topics concerned with effects of economic, social, and political transformations on human behavior both in U.S. and abroad. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M231",
+        "title": "Race, Class, and Gender: Constructing Black Womanhood and Black Manhood in America",
+        "units": 4,
+        "description": "(Same as African American Studies M200G.) Seminar, four hours. Race, class, gender, and sexual identity are axes of stratification, identity, and experience. They are not merely identities but structural locations that are often taken for granted and rarely confronted, challenged, or contested. Many times one or more of these go unrecognized. Exploration of multiple and intersecting ways these concepts shape society, individual life chances, and daily social interactions for African Americans. Examination of race, class, and gender inequalities as individual aspects of social life. How race, class, gender, and sexual identity shape societies and individual experiences in interaction with each other. How these inequalities shape and are shaped by social institutions, including cultural institutions, economy, and family, within context of experiences of black women and black men in contemporary U.S. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M236B",
+        "title": "International Migration",
+        "units": 4,
+        "description": "(Same as Geography M224.) Lecture, three hours. Further exploration of key current theoretical debates in study of international migration, with emphasis on exploring both theoretical debates of field and empirical data and case studies on which those debates hinge, to encourage students to undertake research in field. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M238",
+        "title": "Sociology of Gender and Sexuality",
+        "units": 4,
+        "description": "(Same as Gender Studies M238.) Seminar, three hours. Designed for graduate students. Analysis of current American feminist theory relevant to sociologists. Exploration of critiques of second wave feminism by working class feminists and/or feminists of color, feminist scholars from other countries, and recent so-called antifeminist feminists. Discussion of directions for future feminist sociology. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M249",
+        "title": "Culture, Brain, and Development",
+        "units": 4,
+        "description": "(Same as Psychology M247.) Seminar, three hours. General introduction to interrelations of culture, brain, and development, including both social and cognitive development. Special attention to effects of social change on culture and human development. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M252",
+        "title": "Selected Topics in Sociology of Gender",
+        "units": 4,
+        "description": "(Same as Gender Studies M252.) Lecture, two hours; discussion, two hours. Designed for graduate students. Seminar on selected topics in sociology of gender. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M255",
+        "title": "Cross-Cultural Perspectives on Gender",
+        "units": 4,
+        "description": "(Same as Gender Studies M255.) Seminar, three hours. How does gender manifest itself in lives of different groups of women in U.S. and abroad? Are universal analytical categories or united feminist movements possible or is gender too different cross-culturally? S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M262",
+        "title": "Black Families and Relationships",
+        "units": 4,
+        "description": "(Same as African American Studies M200C.) Seminar, three hours. Evaluation of social, cultural, and historical forces that affect socialization, stability, and interaction in black intimate relationships, beginning with theoretical framework from black feminism to analysis of economic and other expectations for partners in cohabiting and other types of unions. Examination of family life for both middle-class and low-income populations. Exploration of notions of black sexuality, including images of hyper-masculinity and femininity within black body and critical interrogation of notions of blackness and authenticity in racial identification. Contribution to greater understanding of black intimate relationships in different contexts, including lesbian and gay identities, Caribbean and other ethnic identities, and interracial intimacies. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M263",
+        "title": "Social Demography of Los Angeles",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M263.) Lecture, three hours. Designed for graduate students. Use of city of Los Angeles to examine major social and demographic factors that characterize cities in the U.S. Examination of role of these factors in affecting health outcomes. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M275",
+        "title": "Contemporary Issues of American Indians",
+        "units": 4,
+        "description": "(Same as American Indian Studies M200C and Anthropology M244P.) Seminar, three hours. Introduction to most important issues facing American Indians as individuals, communities, tribes, and organizations in contemporary world, building on historical background presented in American Indian Studies M200A and cultural and expressive experience of American Indians presented in American Indian Studies M200B. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M280",
+        "title": "Trafficking, Gender, Health, and Human Rights",
+        "units": 4,
+        "description": "(Same as Law M577.) Seminar, four hours. Review and critical assessment of diverse literature on international traffic of persons, with emphasis on significance of sociological, legal, and gender aspects of trafficking. Primary focus on trafficking for sex work and blurred lines between discourse on commercial sex trade and trafficking. Additional issues include role of political and economic transition, militarization, health implications of trafficking, trafficking for nonsexual labor, and role of advocacy. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M402",
+        "title": "Practices of Evaluation in Health Services: Theory and Methodology",
+        "units": 4,
+        "description": "(Same as Health Policy M422.) Lecture, four hours. Requisites: Health Policy 200A, 200B. Introduction to evaluation of health services programs and policies. Exposure to basic theoretical concepts and specific evaluation methodologies and designs. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M5",
+        "title": "Social Organization of Black Communities",
+        "units": 5,
+        "description": "(Same as African American Studies M5.) Lecture, four hours; discussion, one hour; field trips. Analysis and interpretation of social organization of black communities, with focus on origins and development of black communities, competing theories and research findings, defining characteristics and contemporary issues. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M72A",
+        "title": "Sex from Biology to Gendered Society",
+        "units": 6,
+        "description": "(Same as Communication M72A, Clusters M72A, and Society and Genetics M72A.) Lecture, three hours; discussion, two hours. Course M72A is enforced requisite to M72B, which is enforced requisite to M72CW. Limited to first-year freshmen. Examination of many ways in which sex and sexual identity shape and are shaped by biological and social forces, approached from complementary perspectives of anthropology, biology, medicine, and sociology. Specific topics include biological origins of sex differences, intersex, gender identity, gender inequality, homosexuality, sex differences, sex/gender and law, and politics of sex research. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M72B",
+        "title": "Sex from Biology to Gendered Society",
+        "units": 6,
+        "description": "(Same as Communication M72B, Clusters M72B, and Society and Genetics M72B.) Lecture, three hours; discussion, two hours. Enforced requisite: course M72A. Limited to first-year freshmen. Examination of many ways in which sex and sexual identity shape and are shaped by biological and social forces, approached from complementary perspectives of anthropology, biology, medicine, and sociology. Specific topics include biological origins of sex differences, intersex, gender identity, gender inequality, homosexuality, sex differences, sex/gender and law, and politics of sex research. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL M72A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SOCIOL M72CW",
+        "title": "Sex from Biology to Gendered Society: Special Topics",
+        "units": 6,
+        "description": "(Same as Communication M72CW, Clusters M72CW, and Society and Genetics M72CW.) Seminar, three hours. Enforced requisite: course M72B. Limited to first-year freshmen. Topics may include politics of reproduction, sexuality, sexual identity, social construction of gender, and reproductive technologies. Satisfies Writing II requirement. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SOCIOL M72B"}
+        ],
+        "equivalentCourses": []
+    }
+]

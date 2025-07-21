@@ -46,7 +46,7 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 - [x] **Component-based architecture** for maintainability
 - [x] **Department and course filtering** UI
 - [x] **Quarter-by-quarter planning interface** with drag-and-drop scheduling
-- [ ] **Data expansion** to all UCLA departments and majors
+- [x] **Data expansion**: All UCLA departments and subjects now included (168 subject files in `static/courses/`)
 - [ ] **Essential pages** (About, Help, etc.)
 
 ### Phase 2: Enhanced User Experience
@@ -66,7 +66,7 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 
 ## Current Status
 
-**🎯 MVP Progress**: Phase 1 implementation is ~95% complete
+**🎯 MVP Progress**: Phase 1 implementation is ~98% complete
 - ✅ **Advanced graph visualization** with Cytoscape.js, smooth animations, and incremental updates
 - ✅ **Complete prerequisite system** with equivalent courses and diamond group satisfaction
 - ✅ **Major requirement lists** with sectioned layouts and completion tracking
@@ -74,10 +74,10 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 - ✅ **Modern UI architecture** with SvelteKit, TypeScript, and Tailwind CSS
 - ✅ **Component-based design** for maintainability and extensibility
 - ✅ **Quarter-based planning system** with drag-and-drop scheduling
-- 🔄 **Data expansion** beyond Mathematics department
+- ✅ **Data expansion**: All departments and subjects now included (168 subject files in `static/courses/`, each a JSON array of courses)
 - 🔄 **Basic pages**: about, home, report bug, etc
 
-**🚀 Launch Timeline**: Core functionality is complete and ready. Targeting full MVP launch once data expansion is finished.
+**🚀 Launch Timeline**: Core functionality and data expansion are complete. Targeting full MVP launch after essential pages are finished.
 
 ---
 
@@ -104,6 +104,9 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 
 ### Data Management
 - **JSON-Based Course Database**: Structured course and major requirement data
+  - Courses are now split into 168 per-subject files: `static/courses/[SUBJECT].json`
+  - Each file is a JSON array of course objects (not an object with a `courses` array)
+  - `equivalentCourses` is always an empty array for now (future support planned)
 - **localStorage Persistence**: Client-side completion tracking without backend
 - **Svelte Stores**: Reactive state management for completion status
 - **TypeScript Type Safety**: Comprehensive type definitions for all data structures

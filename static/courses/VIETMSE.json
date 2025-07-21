@@ -1,0 +1,284 @@
+[
+    {
+        "id": "VIETMSE 1",
+        "title": "Introductory Vietnamese",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, three hours. Coverage of basic Vietnamese grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 100A",
+        "title": "Advanced Vietnamese",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Vietnamese placement test. Designed to strengthen and build on language skills previously acquired at beginning and intermediate levels. Content-based readings and discussion, with various aspects of Vietnam, particularly its culture. Readings include both authentic original works and simplified texts. May be taken independently for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 100B",
+        "title": "Advanced Vietnamese",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Vietnamese placement test. Designed to strengthen and build on language skills previously acquired at beginning and intermediate levels. Content-based readings and discussion, with various aspects of Vietnam, particularly its culture. Readings include both authentic original works and simplified texts. Each course may be taken independently for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 100C",
+        "title": "Advanced Vietnamese",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Vietnamese placement test. Designed to strengthen and build on language skills previously acquired at beginning and intermediate levels. Content-based readings and discussion, with various aspects of Vietnam, particularly its culture. Readings include both authentic original works and simplified texts. May be taken independently for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 109",
+        "title": "Advanced Tutorial Instruction in Vietnamese",
+        "units": 2,
+        "description": "Tutorial, two hours. Requisite: course 6 or Vietnamese placement test. Tutorial and guided independent study to help students develop advanced to superior proficiency in oral and written Vietnamese. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 155FL",
+        "title": "Readings in Vietnamese",
+        "units": 2,
+        "description": "Seminar, two hours. Requisite: course 3 or 3A. Enforced corequisite: course M155. Additional work in Vietnamese to augment work assigned in course M155, including reading, writing, and other exercises in Vietnamese. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "VIETMSE 3"},{"type": "requisite","course": "VIETMSE 3A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 170",
+        "title": "Variable Topics in Vietnamese Linguistics, Languages, and Cultures",
+        "units": 4,
+        "description": "Lecture, three hours. Knowledge of Vietnamese may be required. Critical analysis of language and culture in Vietnam, exploring notion of Vietnam as culture area, surveying literary landscape through poetry and short stories. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 180A",
+        "title": "Vietnam: History and Civilization to 1858",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Recommended preparation: at least one Asian history course. Exploration of Vietnamese society and culture from origins to early 19th century, with emphasis on examination of ways in which interactions between indigenous and Chinese/Southeast Asian political and cultural forces helped shape religious, literary, and social traditions. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 180B",
+        "title": "Vietnam: History and Civilization, 1858 to Present",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Recommended preparation: at least one Asian history or civilization course. Exploration of Vietnamese history and civilization during colonial and postcolonial eras, with emphasis on profound changes that swept through Vietnamese society during period of extended political and military conflict. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 1A",
+        "title": "Introductory Vietnamese for Heritage Learners",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, three hours. Not open to students who have learned, from whatever source, enough Vietnamese to qualify for more advanced courses. Designed for Vietnamese-heritage learners who have some limited knowledge of Vietnamese or have had no formal instruction in Vietnamese. Emphasis on spelling, basic grammar, reading, writing, daily conversation, and polite forms. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 2",
+        "title": "Introductory Vietnamese",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 1 with grade of C or better. Coverage of basic Vietnamese grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 297B",
+        "title": "Topics in Contemporary Vietnamese Culture",
+        "units": 4,
+        "description": "Seminar, three hours. Selected topics in Vietnamese contemporary culture, including diasporic culture, with emphasis on cultural production. Primary materials combined with theoretical readings. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 2A",
+        "title": "Introductory Vietnamese for Heritage Learners",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 1A with grade of C or better or Vietnamese placement test. Not open to students who have learned, from whatever source, enough Vietnamese to qualify for more advanced courses. Designed for Vietnamese-heritage learners who have some limited knowledge of Vietnamese or have had no formal instruction in Vietnamese. Emphasis on spelling, basic grammar, reading, writing, daily conversation, and polite forms. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 1A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 3",
+        "title": "Introductory Vietnamese",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 2 with grade of C or better. Coverage of basic Vietnamese grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 2"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 3A",
+        "title": "Introductory Vietnamese for Heritage Learners",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 2A with grade of C or better or Vietnamese placement test. Not open to students who have learned, from whatever source, enough Vietnamese to qualify for more advanced courses. Designed for Vietnamese-heritage learners who have some limited knowledge of Vietnamese or have had no formal instruction in Vietnamese. Emphasis on spelling, basic grammar, reading, writing, daily conversation, and polite forms. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 2A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 3R",
+        "title": "Introductory Vietnamese Reading and Writing",
+        "units": 5,
+        "description": "Lecture, five hours. Recommended preparation: speaking and listening skills in Vietnamese. Training in reading and writing skills at elementary level, equivalent to completion of one year of Vietnamese. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 4",
+        "title": "Intermediate Vietnamese",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 3 with grade of C or better. Reinforcement of basic Vietnamese grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 40",
+        "title": "War in Vietnamese Popular Culture",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Knowledge of Vietnamese not required. Focus on popular culture produced and consumed by, or about, people in Vietnam and diasporas. Materials include theoretical and other scholarly texts, as well as literature, music, visual art, films, and comics. Reading of scholarly writings for argument, date, and methods, and learning to apply theoretical frameworks in readings and lectures to analysis of popular cultural productions. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 5",
+        "title": "Intermediate Vietnamese",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 4 with grade of C or better. Reinforcement of basic Vietnamese grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 4"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 6",
+        "title": "Intermediate Vietnamese",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, three hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Vietnamese grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "VIETMSE 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 8",
+        "title": "Elementary Vietnamese: Intensive",
+        "units": 15,
+        "description": "Lecture, 10 hours; discussion, 10 hours. Intensive course equivalent to courses 1, 2, and 3. Coverage of basic Vietnamese grammar, with equal emphasis on reading, writing, conversation, and comprehension. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE C255",
+        "title": "Topics in Vietnamese Cinema and/or Literature",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Knowledge of Vietnamese not required. Critical and historical examination of literary and/or filmic representations connected to social practices such as empire, nation, diaspora, and globalization. Original language course materials available for interested students. May be concurrently scheduled with course C155. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE CM155",
+        "title": "Topics in Vietnamese Cinema and/or Literature",
+        "units": 4,
+        "description": "(Same as Asian American Studies M173.) Lecture, three hours; discussion, one hour. Knowledge of Vietnamese not required. Critical and historical examination of literary and/or filmic representations connected to social practices such as empire, nation, diaspora, and globalization. Original language course materials available for interested students. May be concurrently scheduled with course C255. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "VIETMSE M186",
+        "title": "Korea and Vietnam: Comparative Modern Histories",
+        "units": 4,
+        "description": "(Same as Korean M186.) Seminar, three hours. Comparative survey of intertwined and parallel histories of Korea and Vietnam, organized chronologically, but structured around key themes that serve as basis for comparison. Modern experiences of colonized Vietnam and Korea have many significant parallels, including imposition of colonial control, transition to modernized societies within context of colonialism, and shared experiences of World War II. Both were also divided after war between communist regimes in north and strongly anticommunist regimes in south. Each also experienced warfare after division and direct involvement of U.S. during height of cold war between 1950s and 1970s. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

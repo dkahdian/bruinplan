@@ -1,0 +1,237 @@
+[
+    {
+        "id": "SEASIAN 130",
+        "title": "Topics in Southeast Asian Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: one course from Comparative Literature 1A, 1B, 1C, 1D, 2AW, 2BW, 2CW, or English Composition 3 or 3H. Knowledge of Southeast Asian languages not required. Advanced exploration of Southeast Asia through in-depth reading of texts from region. Topics include censorship, politics, language, and literature. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COM LIT 1A"},{"type": "requisite","course": "COM LIT 1B"},{"type": "requisite","course": "COM LIT 1C"},{"type": "requisite","course": "COM LIT 1D"},{"type": "requisite","course": "COM LIT 2AW"},{"type": "requisite","course": "COM LIT 2BW"},{"type": "requisite","course": "COM LIT 2CW"},{"type": "requisite","course": "ENGCOMP 3"},{"type": "requisite","course": "ENGCOMP 3H"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 135",
+        "title": "Religion and Society in Southeast Asia",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Critical issues related to major religious traditions in Southeast Asia, with emphasis on reading and reflecting on recent scholarship regarding complex interactions between religion, state, and society in contemporary Southeast Asia. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 157",
+        "title": "Gender Issues in Southeast Asia",
+        "units": 4,
+        "description": "Seminar, three hours. Critical examination of gender issues in one or more Southeast Asian countries as they connect to social historical contexts nationally, regionally, or globally. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 160",
+        "title": "Majorities and Minorities in Southeast Asia",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. Focus on political, cultural, and historical relationships between majority ethnic groups and minorities in possibly most culturally, religiously, and ethnically diverse regions of world-Southeast Asia. Provides productive framework to discuss nature of Southeast Asia's extreme diversity, and resulting multicultural relationships, in comparative and historical context-both regionally and, to some extent, globally. Discussions and assignments around gaining appreciation of experiences and perspectives of region's many different types of minority peoples. Critical examination of majorityhood as lived experience and as factor that informs minority rights issues. Includes discussion of significant current events related to minority-majority relationships in Southeast Asia. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 170A",
+        "title": "Topics in Southeast Asian Studies",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of Southeast Asian culture through in-depth reading of texts and/or visual documents. Topics include literature, religion, folklore, cultural history, and society. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 170B",
+        "title": "Topics in Southeast Asian Studies",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of Southeast Asian culture through in-depth reading of texts and/or visual documents. Topics include literature, religion, folklore, cultural history, and society. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 170C",
+        "title": "Topics in Southeast Asian Studies",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of Southeast Asian culture through in-depth reading of texts and/or visual documents. Topics include literature, religion, folklore, cultural history, and society. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 197",
+        "title": "Individual Studies in Southeast Asian",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors and graduate students who desire more advanced or specialized treatment of one language offered in program beyond introductory and intermediate courses currently offered. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required; see academic coordinator. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 205",
+        "title": "Southeast Asian Culture and History",
+        "units": 4,
+        "description": "Seminar, three hours. Designed to expose graduate students to study of Southeast Asia as region across multiple disciplines. Discussions led by instructor and guest faculty members about core elements of their discipline's engagement with Southeast Asia, as well as latest trends in theory and research in that area. Reading of classic texts, as well as research articles representing current state of field. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 50",
+        "title": "Southeast Asian Societies and Cultures",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. General introduction to varied and diverse region of Southeast Asia. Designed to acquaint students with broad themes that characterize societies, cultures, and civilizations of this vitally important part of globe. Study of historical trajectories that have led eleven countries of region to present situations. Emphasis on examinations of these societies and important contemporary issues relating to geography, topography, politics, culture, literature, gender issues, religion, human rights, and environment. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 70",
+        "title": "Modern Southeast Asian Literature",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to modern literatures of Southeast Asia. Designed to expose students to range of literatures, predominantly novels and short stories, that were written across this region in response to dramatic changes caused by colonialism and its aftermath. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 90",
+        "title": "Modern Literatures in Southeast Asia",
+        "units": 4,
+        "description": "Lecture, three hours. Knowledge of Southeast Asian languages not required. Exploration of diversity of Southeast Asia in such areas as traditional culture, modernization, politics, and literature through modern literary texts. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN C120",
+        "title": "Ghosts, Spirits, and Witches: Supernatural in Southeast Asia",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. From magical tattoos, tree spirits, and faith healing to angry ghosts and disemboweled flying vampires, exploration of fantastic supernatural world of Southeast Asia through folk tales, urban myths, published accounts, popular films, and other media. Study of wide variety of supernatural creatures and local specialists that populate imagination of this diverse region. Exploration also of unique regional concepts of power, morality, and justice that animate and frame Southeast Asian attitudes towards supernatural phenomena in modern world. Concurrently scheduled with course C220. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN C140",
+        "title": "Zomia: Peoples, Societies, and Cultures of Upland Southeast Asia",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Recommended requisite: prior course in Asian cultures or history. Multidisciplinary survey of peoples of upland Southeast Asia and critical issues affecting them. Topics include history, culture, human rights, ethnicity, religion, politics. Concurrently scheduled with course C240. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN C150",
+        "title": "Indigenous Peoples of Southeast Asia",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. In Southeast Asia, indigeneity is multi-layered concept. Most of population is native, yet there are specific ethnic groups that are legally designated or otherwise recognized as indigenous peoples. Ideas about indigeneity also vary across time and space, among indigenous peoples themselves, in ways that do not always align with elements valorized in anthropological, political, or global advocacy contexts. Offers local/national and regional orientation to modern plight of indigenous peoples in Southeast Asia, but situation politically within wider, global discussions and debates about indigenous activism and advocacy, as well as global academic scholarship pertaining to indigenous peoples. Study of most pertinent issues relating to modern indigenous realities in Southeast Asia. Students gain foundation to engage in comparative discussion with regard to indigenous peoples in Americas and elsewhere. Concurrently scheduled with course C250. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN C220",
+        "title": "Ghosts, Spirits, and Witches: Supernatural in Southeast Asia",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. From magical tattoos, tree spirits, and faith healing to angry ghosts and disemboweled flying vampires, exploration of fantastic supernatural world of Southeast Asia through folk tales, urban myths, published accounts, popular films, and other media. Study of wide variety of supernatural creatures and local specialists that populate imagination of this diverse region. Exploration also of unique regional concepts of power, morality, and justice that animate and frame Southeast Asian attitudes towards supernatural phenomena in modern world. Concurrently scheduled with course C120. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN C240",
+        "title": "Zomia: Peoples, Societies, and Cultures of Upland Southeast Asia",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Recommended requisite: prior course in Asian cultures or history. Multidisciplinary survey of peoples of upland Southeast Asia and critical issues affecting them. Topics include history, culture, human rights, ethnicity, religion, politics. Concurrently scheduled with course C140. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN C250",
+        "title": "Indigenous Peoples of Southeast Asia",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. In Southeast Asia, indigeneity is multi-layered concept. Most of population is native, yet there are specific ethnic groups that are legally designated or otherwise recognized as indigenous peoples. Ideas about indigeneity also vary across time and space, among indigenous peoples themselves, in ways that do not always align with elements valorized in anthropological, political, or global advocacy contexts. Offers local/national and regional orientation to modern plight of indigenous peoples in Southeast Asia, but situation politically within wider, global discussions and debates about indigenous activism and advocacy, as well as global academic scholarship pertaining to indigenous peoples. Study of most pertinent issues relating to modern indigenous realities in Southeast Asia. Students gain foundation to engage in comparative discussion with regard to indigenous peoples in Americas and elsewhere. Concurrently scheduled with course C150. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN M20",
+        "title": "Visible Language: Study of Writing",
+        "units": 5,
+        "description": "(Same as Asian M20, Indo-European Studies M20, Near Eastern Languages M20, and Slavic M20.) Lecture, three hours; discussion, one hour. Consideration of concrete means of language representation in writing systems. Earliest representations of language known are those of Near East dating to end of 4th millennium BC. While literate civilizations of Egypt, Indus Valley, China, and Mesoamerica left little evidence of corresponding earliest developments, their antiquity and, in case of China and Mesoamerica, their evident isolation mark these centers as loci of independent developments in writing. Basic characteristics of early scripts, assessment of modern alphabetic writing systems, and presentation of conceptual basis of semiotic language representation. Origins and development of early non-Western writing systems. How Greco-Roman alphabet arose in 1st millennium BC and how it compares to other modern writing systems. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SEASIAN M60",
+        "title": "Religious Traditions in Southeast Asia",
+        "units": 4,
+        "description": "(Same as Religion M60E.) Lecture, three hours. Introduction to historical development and contemporary practice of religions in Southeast Asia. Examination of indigenous religious beliefs and major textually based religions introduced to region, including Hinduism, Buddhism, Islam, and Christianity. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

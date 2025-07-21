@@ -1,0 +1,458 @@
+[
+    {
+        "id": "COMPTNG 10A",
+        "title": "Introduction to Programming",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C&plus;&plus;; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 10A",
+        "title": "Introduction to Programming",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. No prior programming experience assumed. Basic principles of programming, using C&plus;&plus;; algorithmic, procedural problem solving; program design and development; basic data types, control structures and functions; functional arrays and pointers; introduction to classes for programmer-defined data types. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 10B",
+        "title": "Intermediate Programming",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion, algorithms for sorting and searching. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COMPTNG 10A"},{"type": "requisite","course": "COM SCI 31"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 10B",
+        "title": "Intermediate Programming",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Object oriented programming in C++; operator overloading; memory management, copy and move constructors, copy and move assignment operators, destructors; iterators; data structures and their implementation, linked lists, binary search trees; inheritance and polymorphism; recursion, algorithms for sorting and searching. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COMPTNG 10A"},{"type": "requisite","course": "COM SCI 31"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 10C",
+        "title": "Advanced Programming",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C&plus;&plus;, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 10B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 10C",
+        "title": "Advanced Programming",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10B. More advanced algorithms and data structuring techniques; additional emphasis on algorithmic efficiency; advanced features of C&plus;&plus;, such as inheritance and virtual functions; graph algorithms. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 10B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 110",
+        "title": "Parallel and Distributed Computing",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10B or equivalent familiarity with programming in C or C&plus;&plus; language. Introduction to programming of parallel computers. Shared and distributed memory parallel architectures; currently available parallel machines; parallel algorithms and program development; estimation of algorithmic performance; distributed computing; selected advanced topics. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 10B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 110",
+        "title": "Parallel and Distributed Computing",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10B or equivalent familiarity with programming in C or C&plus;&plus; language. Introduction to programming of parallel computers. Shared and distributed memory parallel architectures; currently available parallel machines; parallel algorithms and program development; estimation of algorithmic performance; distributed computing; selected advanced topics. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 10B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 130",
+        "title": "Cryptography",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; laboratory, three hours. Requisites: course 10B, Mathematics 115A. Design and analysis of cryptosystems for confidentiality and authentication. Classical cryptosystems and their security, modern private-key cryptosystems and applications, public-key cryptography and applications; generating prime numbers, factoring integers, discrete logarithms, digital signatures, perfect secrecy. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 10B"},
+            {"type": "requisite","course": "MATH 115A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 130",
+        "title": "Cryptography",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; laboratory, three hours. Requisites: course 10B, Mathematics 115A. Design and analysis of cryptosystems for confidentiality and authentication. Classical cryptosystems and their security, modern private-key cryptosystems and applications, public-key cryptography and applications; generating prime numbers, factoring integers, discrete logarithms, digital signatures, perfect secrecy. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 10B"},
+            {"type": "requisite","course": "MATH 115A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 15",
+        "title": "Introduction to Lisp and Symbolic Computation",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10A. Introduction to symbolic computation using Lisp programming language. Basics: list structures, recursion, function abstraction. Advanced topics: knowledge representation, higher-order functions, problem-solving algorithms and heuristics. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 10A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 15",
+        "title": "Introduction to Lisp and Symbolic Computation",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Enforced requisite: course 10A. Introduction to symbolic computation using Lisp programming language. Basics: list structures, recursion, function abstraction. Advanced topics: knowledge representation, higher-order functions, problem-solving algorithms and heuristics. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 10A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 16A",
+        "title": "Python with Applications I",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A, Computer Science 31, or equivalent, with grades of C- or better. In-depth introduction to Python programming language for students who have already taken beginning programming course in strongly typed, compiled language (C++, C, or Fortran). Core Python language constructs, applications, text processing, data visualization, interaction with spreadsheets and SQL databases, and creation of graphical user interfaces. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COMPTNG 10A"},{"type": "requisite","course": "COM SCI 31"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 16A",
+        "title": "Python with Applications I",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A, Computer Science 31, or equivalent, with grades of C- or better. In-depth introduction to Python programming language for students who have already taken beginning programming course in strongly typed, compiled language (C++, C, or Fortran). Core Python language constructs, applications, text processing, data visualization, interaction with spreadsheets and SQL databases, and creation of graphical user interfaces. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COMPTNG 10A"},{"type": "requisite","course": "COM SCI 31"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 16B",
+        "title": "Python with Applications II",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisite: course 16A or equivalent. In-depth application of Python programming language to problems arising in variety of areas of current interest such as machine learning, computer vision, statistical analysis, numerical analysis, and data acquisition. Advanced Python programming techniques to improve computational efficiency. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 16A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 16B",
+        "title": "Python with Applications II",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisite: course 16A or equivalent. In-depth application of Python programming language to problems arising in variety of areas of current interest such as machine learning, computer vision, statistical analysis, numerical analysis, and data acquisition. Advanced Python programming techniques to improve computational efficiency. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 16A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 187",
+        "title": "Advanced Variable Topics in Programming",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Variable topics in programming and mathematics of programming not covered in regular program in computing courses. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 187",
+        "title": "Advanced Variable Topics in Programming",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Variable topics in programming and mathematics of programming not covered in regular program in computing courses. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 20A",
+        "title": "Principles of Java Language with Applications",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in class design and design of interactive web pages. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COMPTNG 10A"},{"type": "requisite","course": "COM SCI 31"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 20A",
+        "title": "Principles of Java Language with Applications",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours; laboratory, eight hours. Requisite: course 10A or Computer Science 31. Not open for credit to students with credit for course 3. Introduction to Java computer language. Class and interface hierarchies; graphics components and graphical user interfaces; streams; multithreading; event and exception handling. Issues in class design and design of interactive web pages. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COMPTNG 10A"},{"type": "requisite","course": "COM SCI 31"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 285C",
+        "title": "Seminar: Computational Algebra",
+        "units": 4,
+        "description": "Seminar, three hours. Considered equivalent to Mathematics 285A through 285L for purposes of degree requirements. Topics in various computational fields by means of lectures and informal conferences with staff members. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 285C",
+        "title": "Seminar: Computational Algebra",
+        "units": 4,
+        "description": "Seminar, three hours. Considered equivalent to Mathematics 285A through 285L for purposes of degree requirements. Topics in various computational fields by means of lectures and informal conferences with staff members. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 285D",
+        "title": "Seminar: Logic and Theory of Computation",
+        "units": 4,
+        "description": "Seminar, three hours. Considered equivalent to Mathematics 285A through 285L for purposes of degree requirements. Topics in various computational fields by means of lectures and informal conferences with staff members. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 285D",
+        "title": "Seminar: Logic and Theory of Computation",
+        "units": 4,
+        "description": "Seminar, three hours. Considered equivalent to Mathematics 285A through 285L for purposes of degree requirements. Topics in various computational fields by means of lectures and informal conferences with staff members. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 285J",
+        "title": "Seminar: Scientific Computation",
+        "units": 4,
+        "description": "Seminar, three hours. Considered equivalent to Mathematics 285A through 285L for purposes of degree requirements. Topics in various computational fields by means of lectures and informal conferences with staff members. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 285J",
+        "title": "Seminar: Scientific Computation",
+        "units": 4,
+        "description": "Seminar, three hours. Considered equivalent to Mathematics 285A through 285L for purposes of degree requirements. Topics in various computational fields by means of lectures and informal conferences with staff members. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 285K",
+        "title": "Seminar: Randomness and Computation",
+        "units": 4,
+        "description": "Seminar, three hours. Considered equivalent to Mathematics 285A through 285L for purposes of degree requirements. Topics in various computational fields by means of lectures and informal conferences with staff members. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 285K",
+        "title": "Seminar: Randomness and Computation",
+        "units": 4,
+        "description": "Seminar, three hours. Considered equivalent to Mathematics 285A through 285L for purposes of degree requirements. Topics in various computational fields by means of lectures and informal conferences with staff members. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 285L",
+        "title": "Seminar: Computational Statistics",
+        "units": 4,
+        "description": "Seminar, three hours. Considered equivalent to Mathematics 285A through 285L for purposes of degree requirements. Topics in various computational fields by means of lectures and informal conferences with staff members. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 285L",
+        "title": "Seminar: Computational Statistics",
+        "units": 4,
+        "description": "Seminar, three hours. Considered equivalent to Mathematics 285A through 285L for purposes of degree requirements. Topics in various computational fields by means of lectures and informal conferences with staff members. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 296",
+        "title": "Participating Seminar: Logic and Theory of Computaion",
+        "units": 1,
+        "description": "Seminar, to be arranged. Seminar and discussion by staff and students. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 296",
+        "title": "Participating Seminar: Logic and Theory of Computaion",
+        "units": 1,
+        "description": "Seminar, to be arranged. Seminar and discussion by staff and students. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 40A",
+        "title": "Introduction to Programming for Internet",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C- or better. Introduction to programming for World Wide Web for students with strong foundation in programming. HTML5 and CSS3 markup languages to design websites; client-side scripting with JavaScript to enable event-driven interactivity, animations, and cookie tracking; server-side scripting with PHP to render HTML pages, store, and retrieve data on server; and introduction to databases through SQLite3. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COMPTNG 10A"},{"type": "requisite","course": "COM SCI 31"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COMPTNG 10B"},{"type": "requisite","course": "COMPTNG 16A"},{"type": "requisite","course": "COMPTNG 20A"},{"type": "requisite","course": "COM SCI 32"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 40A",
+        "title": "Introduction to Programming for Internet",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisites: course 10A or Computer Science 31 or equivalent, and one from course 10B, 16A, 20A, Computer Science 32, or equivalent, with grades of C- or better. Introduction to programming for World Wide Web for students with strong foundation in programming. HTML5 and CSS3 markup languages to design websites; client-side scripting with JavaScript to enable event-driven interactivity, animations, and cookie tracking; server-side scripting with PHP to render HTML pages, store, and retrieve data on server; and introduction to databases through SQLite3. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COMPTNG 10A"},{"type": "requisite","course": "COM SCI 31"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "COMPTNG 10B"},{"type": "requisite","course": "COMPTNG 16A"},{"type": "requisite","course": "COMPTNG 20A"},{"type": "requisite","course": "COM SCI 32"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 97",
+        "title": "Special Topics in Programming",
+        "units": 1,
+        "description": "Lecture, one to three hours; discussion, zero to one hour. Enforced requisite: course 10A. Variable topics in programming not covered in regular program in computing courses. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 10A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 97",
+        "title": "Special Topics in Programming",
+        "units": 1,
+        "description": "Lecture, one to three hours; discussion, zero to one hour. Enforced requisite: course 10A. Variable topics in programming not covered in regular program in computing courses. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COMPTNG 10A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "COMPTNG 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

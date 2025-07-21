@@ -1,0 +1,319 @@
+[
+    {
+        "id": "ELTS 103",
+        "title": "Topics in Medical Humanities",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of selected topics in interdisciplinary field of medical humanities, which seeks to examine how arts, humanities, and social sciences can be brought into productive dialog with medical discourse, education, and praxis. Taught in English. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 112",
+        "title": "Medieval Foundations of European Civilization",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to and tracing of genealogy of some of most important medieval concepts and institutions, such as empire and state, religion, university, architecture and visual arts, identity, class, race, and sexuality, foundational for European civilization. Exploration of birth of modern nations from their medieval foundation. Examination of cultural production: how and why certain values were created and then passed on. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 140",
+        "title": "European Crime Novel",
+        "units": 4,
+        "description": "Lecture, three hours. Focus on Italian crime novel, but in larger context of European crime fiction. Readings include some of most important and interesting contemporary authors of Italian detective fiction-Camilleri, Carlotto, de Giovanni, Pastor-to see what crime fiction can say about nation in age of globalization, and about Italy in European Union. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 150",
+        "title": "European Folk and Fairy Tales",
+        "units": 4,
+        "description": "Lecture, three hours. Study of characteristics, history, and scholarship of folktale/fairytale genre in European contexts. Comparison, analysis, and interpretation of tales. Instruction and texts in English. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 151",
+        "title": "Valkyries and Dragonslayers: V\u00f6lsung/Nibelung Tradition",
+        "units": 4,
+        "description": "Lecture, three hours. Study of medieval Norse and German traditions of V\u00f6lsung and Nibelung families (Eddas, sagas, Nibelungenlied), as well as modern versions in various media (e.g., Wagner's Ring Cycle, Fritz Lang's Nibelungen films), in their historic and cultural contexts. Instruction and texts in English. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 167",
+        "title": "European Identities in Classic Hollywood and Los Angeles, 1924-1950",
+        "units": 4,
+        "description": "(Formerly numbered Scandinavian 167.) Lecture, three hours. Exploration of myriad European identities within classic Hollywood studio system and within city of Los Angeles as site of cultural production. In-depth analyses and historicizing of impact of European \u00e9migr\u00e9s and exiles on American cinema, especially development of film noir as key genre. Discussion of European identities including film artists from France (Maurice Chevalier, Ren\u00e9 Clair, Jean Renoir), Germany and Austria (Fritz Lang, Ernst Lubitsch, Robert Siodmak, Billy Wilder), Italy (Frank Capra), and Sweden (Ingrid Bergman, Greta Garbo, Warner Oland, Victor Sj\u00f6str\u00f6m). Includes compelling urban humanities component. Investigation of history of Los Angeles as growing urban metropolis that emerges as key locus of American and global mass media culture. Examination of how films and secondary scholarship further reveal how inextricably Europeans in Los Angeles-including artistic and intellectual exiles from Hitler's Nazi-occupied Europe in 1930s and 1940s-shaped this key 20th-century art form. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 187",
+        "title": "Capstone Seminar",
+        "units": 4,
+        "description": "Seminar, three hours. Required of all European Languages and Transcultural Studies majors. Students engage in analysis, critique, interpretation, historical research, and contextualization with eye to culminating project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ELTS 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ELTS 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 191",
+        "title": "Variable Topics Research Seminar",
+        "units": 4,
+        "description": "Seminar, three hours. Research seminars on topics to be announced each term. Topics include major writers, genres, cultural movements, or theoretical practices. Reading, discussion, and development of culminating project. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 20",
+        "title": "Copenhagen and Nordic Model of Sustainability",
+        "units": 5,
+        "description": "Lecture, three hours. Introductory exploration of field of urban humanities before backdrop of Nordic model of sustainability through case study of city of Copenhagen. Investigation of how city's human-centered design, planning, and general sustainability are reflected in Scandinavian cultural traditions in architecture, design, film, history, literature, television, urban planning, and beyond. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 200",
+        "title": "Graduate Methodology and Professionalization Seminar",
+        "units": 4,
+        "description": "Seminar, three hours. Covers wide array of topics related to methodologies, concepts, and theories of transcultural and transnational literary and cultural studies in European context. Taught in English. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 202",
+        "title": "Studies in History of Ideas",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of key concept or idea in European thought, examined transhistorically and/or transnationally. Taught in English. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 203",
+        "title": "Topics in Medical Humanities",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of selected topic in interdisciplinary field of medical humanities, which seeks to examine how arts, humanities, and social sciences can be brought into productive dialog with medical discourse, education, and praxis. Taught in English. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 204",
+        "title": "Studies in Translation: Theory, Method, Practice",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction to principles of literary translation and techniques of literary analysis; practice of translation (to and from English); readings and research in translation studies, philology, linguistics, cultural studies, media, and technology. Taught in English. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 205",
+        "title": "Major Works and Figures in Transnational Context",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of major European figure or work, where notion of European may understood broadly. Author, artist, or work selected by instructor and placed in broad transnational and/or transhistorical context. Taught in English. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 206",
+        "title": "Topics in Cultural Studies",
+        "units": 4,
+        "description": "Seminar, three hours. In-depth exploration of major historical event through its representation in cultural production. Readings include cultural texts, documentary or archival material, essays on politics, and aesthetics, memory, urban space, architecture. Development of techniques in contextualized literary analysis. Taught in English. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 207",
+        "title": "Topics in Literary Studies",
+        "units": 4,
+        "description": "Seminar, three hours. Conceptual, thematic, or problem-driven approach to questions in literary studies, with emphasis on both establishing and interrogating trends, debates, assumptions. Taught in English. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 208",
+        "title": "Topics in Film, Media, and Visual Culture",
+        "units": 4,
+        "description": "Seminar, three hours. National or transnational exploration of movements, theories, questions, and problems in film, media, and visual cultures. Taught in English. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 30",
+        "title": "The Modern View of Nature: Early Modern Europe to Today",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Investigation of the genealogy of the modern view of nature from early European modernity (circa 1500 CE) to the present. Today, it is common to think of human culture as an entity separate from nature, with the prevailing belief that nature serves merely as a backdrop to the unfolding drama of human history. In the modern view of nature, rational, superior humans are seen as the masters of an inert, inferior nature. Study traces how the modern view of nature originated and evolved in early modern Europe during the era of European colonialism, an institution which imposed systems of plantation capitalism throughout the world, from Africa to the Caribbean, the Americas, Asia, and Oceania. Investigation of how the nature/culture divide became a defining part of global capitalism, a totalizing framework that organizes the relationship between those deemed human and the rest of nature. Examination also of how various contemporary artists and writers seek to challenge the widespread assumptions underlying the modern view of nature by offering examples of how communities are embedded in the ecologies they inhabit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 495",
+        "title": "Second Language Teaching in Context",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Theory and practice of language teaching. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 56",
+        "title": "Cosmopolitanism",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Whether regarding digital communication, mass transportation, climate change, or international war, the idea that individuals and communities have become interconnected is beyond doubt. Under these circumstances, consideration of what moral, ethical, socioeconomic, and political challenges are faced in the 21st century; how people understand themselves as citizens not only of one nation, but also of this simultaneously divided and shared world; and how European artists and thinkers have negotiated between patriotism and cosmopolitanism since antiquity, and their American counterparts in the 20th and 21st centuries. Interdisciplinary approach to the examination of cosmopolitanism, also known as global citizenship or world citizenship. This concept serves as a focal point for elucidating humanistic and social scientific inquiries into universal norms, patriotic sentiments, cultural and racial diversities, and empathic identifications with strangers in need. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS C101XP",
+        "title": "Between Los Angeles and Europe: New Approaches to Transatlantic European Studies",
+        "units": 4,
+        "description": "Lecture, three hours; community-engaged projects, three hours. Examination of rich migration history between Los Angeles and Europe with view to German-speaking world. Overview of transatlantic cultural, literary, and historical studies back to colonial era. Targeted investigation of complex transatlantic relations between Angelenos and German immigrants during 20th century, including World War II. Students apply newly acquired cultural, historical, and political knowledge to current transatlantic conversations. Offers innovative, scholarly, and praxis-oriented approaches to transatlantic European studies through integration of lesson into community-engaged projects. Illumination of limits of monolingual or state-centric configurations of disciplinary knowledge in addition to exemplifying interdisciplinary, multilingual, and transnational studies of Europe, in general, and Germany, in particular. Concurrently scheduled with course C201XP. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS C201XP",
+        "title": "Between Los Angeles and Europe: New Approaches to Transatlantic European Studies",
+        "units": 4,
+        "description": "Lecture, three hours; community-engaged projects, three hours. Examination of rich migration history between Los Angeles and Europe with view to German-speaking world. Overview of transatlantic cultural, literary, and historical studies back to colonial era. Targeted investigation of complex transatlantic relations between Angelenos and German immigrants during 20th century, including World War II. Students apply newly acquired cultural, historical, and political knowledge to current transatlantic conversations. Offers innovative, scholarly, and praxis-oriented approaches to transatlantic European studies through integration of lesson into community-engaged projects. Illumination of limits of monolingual or state-centric configurations of disciplinary knowledge in addition to exemplifying interdisciplinary, multilingual, and transnational studies of Europe, in general, and Germany, in particular. Concurrently scheduled with course C101XP. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS CM126",
+        "title": "Cold-War Central European Culture",
+        "units": 4,
+        "description": "(Same as Central and East European Studies CM126.) Lecture, three hours. Examination of cold-war Central European culture through prism of prose fiction, essays, and film from 1947 to 1989. Analysis of strategies of Polish, Czech, Hungarian, and East German writers as articulation of tensions, contradictions, and compromises informing communist rule in central and eastern Europe, with focus on culture as node of resistance as well as accommodation to communist system. Concurrently scheduled with course CM226. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS CM226",
+        "title": "Cold-War Central European Culture",
+        "units": 4,
+        "description": "(Same as Central and East European Studies CM226.) Lecture, three hours. Examination of cold-war Central European culture through prism of prose fiction, essays, and film from 1947 to 1989. Analysis of strategies of Polish, Czech, Hungarian, and East German writers as articulation of tensions, contradictions, and compromises informing communist rule in central and eastern Europe, with focus on culture as node of resistance as well as accommodation to communist system. Concurrently scheduled with course CM126. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS M125",
+        "title": "Interwar Central European Prose",
+        "units": 4,
+        "description": "(Same as Central and Eastern European Studies M125.) Lecture, three hours. Analysis of selected novels, stories, plays, and essays of representative authors of 1920s and 1930s in translation. Special attention to relation between literature and historical and ethnic concerns. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ELTS M25",
+        "title": "Global Food Studies: Ecocultural Sustainability and Diversity",
+        "units": 5,
+        "description": "(Same as Food Studies M25.) Lecture, three hours; discussion, one hour. Food is culture-and has been a global force since the first formation of human societies. The intercontinental movement of tomatoes, sugarcane, rice, tobacco, and spices has directly influenced populations, economies, empires, and ecologies; while food today shapes our local and transnational experiences of nationality, ethnicity, gender, sexuality, race, labor, and natural ecosystems. Interdisciplinary exploration of how people use food to imagine themselves as individuals and/or as part of a group as well as a wider globally-interconnected ecosystem. Identification of the importance of food in different eras and cultures by exploring the way nationality, race, gender, socioeconomic status, etc. influence global food choices or practices. Examination also of how a diverse range of cultures are maintained or transformed through food. Through the examination of scholarly research and global culinary traditions, exploration of the complex relationship that societies, nations, and ecosystems have with food. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

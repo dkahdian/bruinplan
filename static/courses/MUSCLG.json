@@ -1,0 +1,1137 @@
+[
+    {
+        "id": "MUSCLG 1",
+        "title": "Issues and Methods in Musicology",
+        "units": 4,
+        "description": "(Formerly numbered 101.) Seminar, three hours. Introduction for Musicology majors and minors to practical aspects and fundamental issues of musicology as academic discipline. How musicologists go about establishing, editing, performing, analyzing, and interpreting musical texts. Exposure to kinds of activities, philosophies, and styles of scholarship that continue to shape field of musicology. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 125A",
+        "title": "History of Western Music: Era of Church and Patron",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Requisite: course M6A (may be taken concurrently). Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in era of church and court patronage, through selected topics, repertoires, and analytical techniques. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 125B",
+        "title": "History of Western Music: Era of Empires and Marketplaces",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Requisite: course M6B (may be taken concurrently), 125A. Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in era of empires and marketplaces, through selected topics, repertoires, and analytical techniques. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG M6B"},
+            {"type": "requisite","course": "MUSCLG 125A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 125C",
+        "title": "History of Western Music: Modern and Postmodern Era",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Requisite: course M6C (may be taken concurrently), 125B. Course 125A is requisite to 125B, which is requisite to 125C. Students must receive grade of C or better to proceed to next course in sequence. Introduction to history, culture, and structure of Western music, in modern and postmodern eras, through selected topics, repertoires, and analytical techniques. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG M6C"},
+            {"type": "requisite","course": "MUSCLG 125B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 126",
+        "title": "Musics, Cultures, and Their Interpretation",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Requisite or corequisite: M6A. Designed to supplement broad historical survey in Musicology 125 series by focusing on interlocking questions of how cultures make music, and how music makes cultures. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG M6A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 127",
+        "title": "Music, Sound, and Structure",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Requisite or corequisite: M6A. Designed to supplement broad historical survey in Musicology 125 series by focusing on interlocking questions of musical structure and meaning. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG M6A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 128",
+        "title": "History of Popular Music",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Requisite or corequisite: M6A. Introduction to study of popular music through American history, with emphasis on music of Americas, Afro-diasporic music, and socioeconomic structure of music making in industrial society. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG M6A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 12W",
+        "title": "Writing about Music",
+        "units": 5,
+        "description": "Lecture, four hours; laboratory, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Emphasis on learning specific skills, incorporating technical description, historical contextualization, subjective reaction, and certain stylistic conventions necessary in writing about music. Satisfies Writing II requirement. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ENGCOMP 3"},{"type": "requisite","course": "ENGCOMP 3H"},{"type": "requisite","course": "ESL 36"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 13",
+        "title": "Punk: Music, History, Subculture",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Developments in punk music in their historical and subcultural contexts. Survey of prepunk and musical antecedents in 1960s, rise of punk in 1970s, and tracing of its expressive trajectories to present day. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 135A",
+        "title": "History of Opera: Baroque and Classical Periods",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Designed for undergraduate students. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 135B",
+        "title": "History of Opera: Romantic Period",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Designed for undergraduate students. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 135C",
+        "title": "History of Opera: 20th Century",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Designed for undergraduate students. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 140",
+        "title": "Music, Media, and Consumer Society",
+        "units": 4,
+        "description": "Lecture, four hours. Consideration of impact of recording technologies (gramophone, tape recorder, Walkman, sampler), broadcast media (radio, television, MTV, Internet), and global capitalism (record labels, advertising, Muzak) on way we consume and are consumed by music. How music functions and malfunctions on records, under movies, behind ads, and in semiotic fabric of everyday life. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 160",
+        "title": "Selected Topics in American Musical",
+        "units": 5,
+        "description": "Seminar, 90 minutes. Enforced corequisite: attendance, but not enrollment, in course 60 lecture. Exploration of connections and disconnects between American musical on stage and American film musicals. Credit for both courses 60 and 160 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 162",
+        "title": "Selected Topics in Music of Mozart",
+        "units": 5,
+        "description": "Seminar, two hours. Preparation: ability to read music and engage in melodic, harmonic, and formal analysis. Enforced corequisite: attendance, but not enrollment, in course 62 lecture. Limited to Musicology majors and minors. Intensive discussion of selected pieces by Mozart and of certain topics important to fuller understanding of his contributions to musical culture of Enlightenment, as well as to contemporary culture. Credit for both courses 62 and 162 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 163",
+        "title": "Bach: Study of Selected Works",
+        "units": 5,
+        "description": "Seminar, two hours. Enforced corequisite: attendance, but not enrollment, in course 63 lecture. Limited to Musicology majors and minors. Examination of Bach's music in greater depth. Credit for both courses 63 and 163 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 164",
+        "title": "Selected Topics in African American Popular Music of 1960s",
+        "units": 5,
+        "description": "Seminar, two hours. Enforced corequisite: attendance, but not enrollment, in course 64 lecture. Intensive discussion of developments in post-World War II African American popular music, with special attention to musical achievements of Motown Records, Stax, and other rhythm and blues, funk, and soul music centers of production. Relationships between musical forms and cultural issues of 1960s, including Civil Rights Movement, counterculture, black nationalism, capitalism, and separatism, and larger dimensions of African American experience as mediated through groove-based music. Credit for both courses 64 and 164 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 165",
+        "title": "Blues and Individual Expression",
+        "units": 5,
+        "description": "Seminar, two hours. Enforced corequisite: attendance, but not enrollment, in course 65 lecture. Limited to Musicology majors and minors. In-depth look at specific blues artists, with special attention to issues of authenticity, biography, personal and group identity, commercialism, musical style, and evolving history of American music and culture in 20th century. Credit for both courses 65 and 165 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 166",
+        "title": "Medievalism and Music History",
+        "units": 5,
+        "description": "Seminar, two hours. Enforced corequisite: attendance, but not enrollment, in course 66 lecture. Exploration of ways in which specific approaches and attitudes to past shape music history, composition, and performance, with special focus on folk music and early music revivals. Credit for both courses 66 and 166 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 168",
+        "title": "Selected Topics on Beatles",
+        "units": 5,
+        "description": "Seminar, two hours. Enforced corequisite: attendance, but not enrollment, in course 68 lecture. Intensive discussion in seminar setting of selected topics associated with Beatles. Credit for both courses 68 and 168 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 170",
+        "title": "Beethoven: Study of Selected Works",
+        "units": 5,
+        "description": "Seminar, 90 minutes. Corequisite: attendance, but not enrollment, in course 70 lecture. Designed to meet needs of students who read music and wish to examine Beethoven's music in greater depth. Credit for both courses 70 and 170 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 172",
+        "title": "Selected Topics in Sacred Music",
+        "units": 5,
+        "description": "Seminar, two hours. Enforced corequisite: attendance, but not enrollment, in course 72 lecture. Introduction to some ways that music has been held to embody, support, and enact sacredness, including experience of god(s), sense of transcendental, work of liturgy, and intersections of music, politics, and religion. Credit for both courses 72 and 172 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 177",
+        "title": "Selected Topics in Film and Music",
+        "units": 5,
+        "description": "Seminar, two hours. Enforced corequisite: attendance, but not enrollment, in course 7 lecture. Limited to Musicology majors and minors. In-depth exploration of issues in analysis and criticism of music in film. Credit for both courses 7 and 177 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 184A",
+        "title": "Capstone Seminar in Music History and Industry I: Developing Project/Connections",
+        "units": 2,
+        "description": "Seminar, three hours. Limited to senior Music History and Industry majors. Preparation, creation, and presentation of senior capstone project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 184B",
+        "title": "Capstone Seminar in Music History and Industry: Creating Project/Internship",
+        "units": 4,
+        "description": "Seminar, three hours. Requisite: course 184A. Limited to senior Music History and Industry majors. Preparation, creation, and presentation of senior capstone project. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG 184A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 184C",
+        "title": "Capstone Seminar in Music History and Industry: Presenting Project/Report",
+        "units": 2,
+        "description": "Seminar, three hours. Requisite: course 184B. Limited to senior Music History and Industry majors. Preparation, creation, and presentation of senior capstone project. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG 184B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 185",
+        "title": "Selected Topics in Rock and Roll",
+        "units": 5,
+        "description": "Seminar, two hours. Enforced corequisite: attendance, but not enrollment, in course 5 lecture. Intensive discussion in seminar setting of selected topics in rock and roll. Credit for both courses 5 and 185 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 187A",
+        "title": "Capstone Seminar I: Developing the Project",
+        "units": 2,
+        "description": "Seminar, three hours; discussion, one hour. Limited to Musicology majors in their final year of academic studies. Preparation, creation, and presentation of senior capstone project. Taken in Fall Quarter of senior year. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 187B",
+        "title": "Capstone Seminar II: Creating the Project",
+        "units": 4,
+        "description": "Seminar, three hours; discussion, one hour. Limited to Musicology majors in their final year of academic studies. Requisite: course 187A. Preparation, creation, and presentation of senior capstone project. Taken in Winter Quarter of senior year. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG 187A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 187C",
+        "title": "Capstone Seminar III: Presenting the Project",
+        "units": 2,
+        "description": "Seminar, three hours, discussion, one hour. Limited to Musicology majors in their final year of academic studies. Requisite: course 187B. Preparation, creation, and presentation of senior capstone project. Taken in Spring Quarter of senior year. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG 187B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 188",
+        "title": "Special Courses in Music History",
+        "units": 4,
+        "description": "Lecture, four hours. Special topics in music history for undergraduate students taught on temporary basis. Consult Schedule of Classes for topics and instructors. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 190",
+        "title": "Research Colloquia in Music History",
+        "units": 2,
+        "description": "Seminar, two hours. Designed for senior Musicology majors. Designed to bring together students undertaking supervised tutorial research in seminar setting with one or more faculty members to complete their capstone projects and share their work with their peers, as well as act as interlocutors for other course members. Students expected to present their work and to discuss and help critique work of others at similar stage of development. They may elect to showcase their work before academic publics (e.g., through organizing one conference or one special publication). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 191A",
+        "title": "Junior Variable Topics Research Seminars: History of Music-Middle Ages",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for junior Musicology majors. Special aspects of music of each period studied in depth. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 191B",
+        "title": "Junior Variable Topics Research Seminars: History of Music-Renaissance",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for junior Musicology majors. Special aspects of music of each period studied in depth. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 191C",
+        "title": "Junior Variable Topics Research Seminars: History of Music-Baroque",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for junior Musicology majors. Special aspects of music of each period studied in depth. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 191D",
+        "title": "Junior Variable Topics Research Seminars: History of Music-Classic",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for junior Musicology majors. Special aspects of music of each period studied in depth. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 191E",
+        "title": "Junior Variable Topics Research Seminars: History of Music-Romantic",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for junior Musicology majors. Special aspects of music of each period studied in depth. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 191F",
+        "title": "Junior Variable Topics Research Seminars: History of Music-20th Century",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for junior Musicology majors. Special aspects of music of each period studied in depth. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 191G",
+        "title": "Junior Variable Topics Research Seminars: History of Music-Other Topics",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for junior Musicology majors. Special aspects of music of each period studied in depth. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 191P",
+        "title": "Junior Variable Topics Seminars: History of Music-Performance Practice",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for junior Musicology majors. Special aspects of music of each period studied in depth. Practical issues in performance practice, specific questions of how musical performance intersects with cultural and political performance, and/or general issues of theory of performance in Western musics; proportion of each to be determined by repertory and historical context selected by instructor. Reading, discussion, and development of culminating project. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 193C",
+        "title": "Music History Journal Club Seminars for Majors",
+        "units": 2,
+        "description": "Seminar, two hours. Limited to Musicology majors. Introduction to discipline through discussion of readings and lectures on current topics in field, with focus especially on its practice at UCLA, and addressing research methodologies and development of bibliographic control. Normally taken in junior year. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 193D",
+        "title": "Music History Performance/Analysis Seminars for Majors",
+        "units": 2,
+        "description": "Seminar, two hours. Recommended requisite: course 193C. Limited to Musicology majors. Introduction to how music historians engage with issues of musical performance. and of how historical concerns, theoretical issues, and methodologies can inform music as practice, especially as it is performed, recorded, listened to, danced to, and otherwise consumed. Continued attention to issues of bibliographic control. Normally taken in senior year. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 195",
+        "title": "Community Internships in Music",
+        "units": 2,
+        "description": "Tutorial, one hour; fieldwork, 10 hours. Limited to juniors/seniors. Internship in supervised setting in community agency or business related to music or music history. Students meet on regular basis with instructor and provide periodic reports of their experiences and final project. May be repeated for credit. Individual contract with supervising faculty member required. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 197",
+        "title": "Individual Studies in Music History",
+        "units": 2,
+        "description": "Tutorial, two hours. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 198",
+        "title": "Honors Research in Music History",
+        "units": 2,
+        "description": "Tutorial, two hours. Preparation: completion of minimum of four upper-division music history courses with departmental grade-point average of 3.5 or better and overall GPA of 3.0. Limited to junior/senior Musicology majors. One- to two-term independent research study project under supervision of appropriate faculty member, culminating in department honors thesis of approximately 25 pages. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 199",
+        "title": "Directed Research in Music History",
+        "units": 1,
+        "description": "Tutorial, one hour. Preparation: 3.0 grade-point average. Limited to junior/senior Musicology majors. Supervised individual research under guidance of faculty mentor. Culminating paper or project required. May be repeated for maximum of 8 units. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 2",
+        "title": "Musicology Toolkit",
+        "units": 2,
+        "description": "Laboratory, two hours. Workshop-based course in which students apply the issues and methods from course 1 in a focused, community-engaged way to develop skillsets appropriate to musicology and related fields. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 200A",
+        "title": "Introduction to Music Scholarship",
+        "units": 6,
+        "description": "Seminar, three hours. Designed for graduate musicology, ethnomusicology, and music students. Introduction to history of different fields of music scholarship (with strong focus on musicology) and to selected debates in those fields. Practical tools for research, logic and structure of arguments, evidence, critical thinking and critique, historiography, rhetoric and voice, and archival and ethnographic research. Introduction to practical written forms such as abstract, grant proposal, paper/book proposal, and review. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 200B",
+        "title": "Critical, Cultural, and Social Theory",
+        "units": 6,
+        "description": "Seminar, three hours. Designed for graduate musicology, ethnomusicology, and music students. Introduction to issues surrounding music as social, cultural, and historical practice, with strong emphasis on critical, cultural, and social theory. May include introduction to social theory, materialist theories of culture, postcolonialism, critical theory, or overview of cultural theory or of group of theories selected by instructor, including feminism, performance studies, sociology, historiography, urban studies, anthropology, philosophy, psychoanalysis, poststructuralism, gender, race, and sexuality studies, lesbian, gay, bisexual, transgender, and queer studies, disability studies, and so on. Introduction to set body of theory in its relation to study of music. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 200C",
+        "title": "Music Aesthetics, Analysis, and Philosophy",
+        "units": 6,
+        "description": "Seminar, three hours. Designed for graduate musicology, ethnomusicology, and music students. Exploration of selected philosophical, aesthetic, and/or analytical perspectives on music to gain insight into selected analytical and philosophical approaches to phenomenon of music and to acquire skills in analyzing and interpreting variety of repertoires. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 202",
+        "title": "Professional Development in Musicology",
+        "units": 1,
+        "description": "Fieldwork, one hour. Two professionalization workshops, each led by different faculty members in musicology, one work-in-progress workshop led by senior graduate students, and department-sponsored lectures. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 245",
+        "title": "Seminar: Analytical/Repertoire Topics",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate musicology students. Coverage of analytical topics that vary from year to year. May be repeated for credit. Meets with course 246; concurrent enrollment in both courses not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 246",
+        "title": "Audit Seminar: Analytical/Repertoire Topics",
+        "units": 2,
+        "description": "Seminar, three hours. Requisite or corequisite: course 200A. Specific topics vary from year to year. May not be applied toward MA or PhD degree requirements. May be repeated for credit. Meets with course 245; concurrent enrollment in both courses not allowed. S/U grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG 200A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 248",
+        "title": "Seminar: Special Topics in Musicology",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of topics in musicology through variety of approaches that may include historical, theoretical, or analytical approaches to subjects within musicology. Topics announced in advance. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 250",
+        "title": "Seminar: Theoretical Topics",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate musicology students. Coverage of theoretical topics that vary from year to year. May be repeated for credit. Meets with course 251; concurrent enrollment in both courses not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 251",
+        "title": "Audit Seminar: Theoretical Topics",
+        "units": 2,
+        "description": "Seminar, three hours. Requisite or corequisite: course 200A. Specific topics vary from year to year. May not be applied toward MA or PhD degree requirements. May be repeated for credit. Meets with course 250; concurrent enrollment in both courses not allowed. S/U grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG 200A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 255",
+        "title": "Seminar: Historical Topics",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate musicology students. Coverage of historical topics that vary from year to year. May be repeated for credit. Meets with course 256; concurrent enrollment in both courses not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 256",
+        "title": "Audit Seminar: Historical Topics",
+        "units": 2,
+        "description": "Seminar, three hours. Requisite or corequisite: course 200A. Specific topics vary from year to year. May not be applied toward MA or PhD degree requirements. May be repeated for credit. Meets with course 255; concurrent enrollment in both courses not allowed. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 259",
+        "title": "Audit Seminar: Mapping Sonic Urban Geography of Los Angeles in 1940s",
+        "units": 2,
+        "description": "Seminar, three hours. Limited to departmental graduate students and those in Urban Humanities Certificate Program. Exploration of methodologies and conceptual frameworks for mapping sonic urban geography of Los Angeles in 1940s. In-depth critical discussion of current theories of music and space and of most recently developed methodologies for undertaking ethnographic or anthropological study of sound, including recording and mapping soundscapes. May not be applied toward MA or PhD degree requirements. May be repeated for credit. Meets with course 260; concurrent enrollment in both courses not allowed. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 260",
+        "title": "Mapping Sonic Urban Geography of Los Angeles in 1940s",
+        "units": 4,
+        "description": "Seminar, three hours. Limited to departmental graduate students and those in Urban Humanities Certificate Program. Exploration of methodologies and conceptual frameworks for mapping sonic urban geography of Los Angeles in 1940s. In-depth critical discussion of current theories of music and space and of most recently developed methodologies for undertaking ethnographic or anthropological study of sound, including recording and mapping soundscapes. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 261",
+        "title": "Topics in Performance Practice",
+        "units": 4,
+        "description": "Seminar, three hours. Designed for graduate students. Investigation of primary source readings in performance practices across history of Western music; analytical reports and practical applications in class demonstrations. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 28A",
+        "title": "Collegium Musicum: Medieval Period",
+        "units": 2,
+        "description": "Lecture, three hours. Preparation: ability to read music. Group performance of Western vocal and instrumental music. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 28B",
+        "title": "Collegium Musicum: Renaissance Period",
+        "units": 2,
+        "description": "Lecture, three hours. Preparation: ability to read music. Group performance of Western vocal and instrumental music. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 28C",
+        "title": "Collegium Musicum: 17th and 18th Centuries",
+        "units": 2,
+        "description": "Lecture, three hours. Preparation: ability to read music. Group performance of Western vocal and instrumental music. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 291",
+        "title": "Teaching Western Musical Canon",
+        "units": 1,
+        "description": "Seminar, three hours. Workshop series designed to prepare graduate musicology students to teach Western musical canon at undergraduate level. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 296",
+        "title": "Research Topics in Musicology",
+        "units": 2,
+        "description": "Seminar, two to four hours. Preparation: consultation with instructor. Designed for graduate musicology students. Advanced study and analysis of current topics in musicology. Discussion of current research and literature in research specialty of faculty member teaching course. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 298",
+        "title": "Seminar: Research Methods",
+        "units": 2,
+        "description": "Seminar, two hours. Limited to second-year graduate musicology students and students with master's degrees. Development of advanced knowledge and bibliographic control in three historically separate areas of musicological specialization. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 299",
+        "title": "Dissertation Research Colloquium",
+        "units": 2,
+        "description": "Seminar, two hours. Preparation: advancement to PhD candidacy. Presentation of ongoing dissertation research. Analysis and discussion of presentations. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 35",
+        "title": "Introduction to Opera",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Exploration of history of opera from its origins in Florentine Camerata in Italy in early 17th century, through ages of Enlightenment and Romanticism, and ending with modern era of early 20th century. History of opera, biography of composers and singers, operatic conventions, dramaturgy, plot, stagings, hermeneutics of opera, and musical style, with focus on learning appreciation of music of opera within rich context of its compelling history. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 495",
+        "title": "Introductory Practicum for Teaching Apprentices in Musicology",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: appointment as teaching apprentice in Music or Musicology Department. Required of all new teaching apprentices. Special course dealing with problems and practices of teaching music at college level. May not be applied toward degree requirements. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 5",
+        "title": "History of Rock and Roll",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Analysis of forms, practices, and meanings of rock and roll music, broadly conceived, from its origin to present. Emphasis on how this music has reflected and influenced changes in sexual, racial, and class identities and attitudes. Credit for both courses 5 and 185 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 596",
+        "title": "Directed Individual Studies in Musicology",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate students. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 597",
+        "title": "Preparation for MA Comprehensive Examination or PhD Qualifying Examinations",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Preparation: completion of all MA or PhD course and language requirements. Limited to graduate students. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 599",
+        "title": "Guidance of PhD Dissertation",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Preparation: advancement to PhD candidacy. Limited to graduate students. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 60",
+        "title": "American Musical",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, 90 minutes. Survey of American musical in 20th century, beginning with its roots in operetta, vaudeville, and Gilbert and Sullivan, and focusing on its connections to politics, technology, film, opera, and variety of popular musical styles, including Tin Pan Alley, jazz, and rock. Credit for both courses 60 and 160 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 61",
+        "title": "Music in Los Angeles",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Exploration of history of music in Los Angeles. From Spanish missions and history of Los Angeles to greater emphasis on music in 20th century, with special focus on European \u00e9migr\u00e9s, internment and postwar history of Japanese American community, Chicano and Mexican American music to present, African American traditions including jazz on Central Avenue, 1960s Laurel Canyon and rock scene, and more recent history that includes developments in punk and hip-hop. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 62",
+        "title": "Mozart",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Designed for students who do not read music. Life, works, and mythology of Wolfgang Amadeus Mozart, in context of both his age and our own. Credit for both courses 62 and 162 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 63",
+        "title": "Bach",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Designed for undergraduate students. Life and works of Johann Sebastian Bach. Credit for both courses 63 and 163 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 64",
+        "title": "Motown and Soul: African American Popular Music of 1960s",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Survey of developments in post-World War II African American popular music, with special attention to musical achievements of Motown Records, Stax, and other rhythm and blues, funk, and soul music centers of production. Relationships between musical forms and cultural issues of 1960s, including Civil Rights Movement, counterculture, black nationalism, capitalism, and separatism, and larger dimensions of African American experience as mediated through groove-based music. Credit for both courses 64 and 164 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 65",
+        "title": "Blues in American Music",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. History of blues, both as specific genre and as range of techniques and approaches that have been at center of American music and culture, from 19th-century roots to present. Exploration of commonly accepted blues mainstream exemplified by figures like Bessie Smith, Robert Johnson, and B.B. King, but also central role blues has played in jazz, folk, country, gospel, rock, soul, and rap. While following evolution of music through 20th century, examination of how blues has served as metaphor for African American culture as it permeates American traditions. Credit for both courses 65 and 165 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 66",
+        "title": "Getting Medieval",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Exploration of idea of medievalism in music and culture from Wagner to video games. Music covered includes film scores, opera, Gregorian chant, early music revival, folk songs, progressive rock, and Goth. Credit for both courses 66 and 166 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 68",
+        "title": "Beatles",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Examination of life and music of Beatles within social and historical context of 1960s. Credit for both courses 68 and 168 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 69",
+        "title": "Music and Politics",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Exploration and demonstration of various ways in which music is informed by and informs politics. From individual performances to mass demonstrations, music is recognizable as a political act and tool that is not simply representative, but also constitutive, meaning that music creates belief systems (politics). Examination of development and use of music by social movements, political parties, and nations, and critical listening practices to better hear world around us and sounds that compose its futures. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 7",
+        "title": "Film and Music",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. History of music and cinema, particularly ways music is used to produce meanings in conjunction with visual image. Credit for both courses 7 and 177 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 70",
+        "title": "Beethoven",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Designed for undergraduate students. Life and works of Ludwig van Beethoven. Credit for both courses 70 and 170 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 71",
+        "title": "Listening",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Introduction to humanistic study of listening, as perceptual modality for engaging others and world, with focus on experience, history, politics, and ethics of listening. Hearing is shared perceptive faculty among able-bodied people, but listening practices are shaped by history, society, and culture. Hearing people listen differently depending on when, where, and how they live, as well as who they are as individuals. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 72",
+        "title": "Sacred Music",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Study of forms and liturgies of Western church music. Credit for both courses 72 and 172 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 75",
+        "title": "History of Jazz",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. History and analysis of variety of jazz styles, from late 19th-century forerunners to present, with emphasis on social meanings of musical practices. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 79",
+        "title": "Dancehall, Rap, Reggaeton: Beats, Rhymes, and Routes in African Diaspora",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Survey of histories of three closely connected music genres: Jamaican dancehall, U.S. rap, and Puerto Rican/Panamanian reggaeton. Introduction to major performers in each genre, comparison of stylistic traits associated with each music, and exploration of technologies associated with contemporary music production. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 8",
+        "title": "History of Electronic Dance Music",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Survey of groove-based electrified dance music from its origins in 1960s pop and soul to present, covering disco, house, techno, ambient, rave, and jungle. Emphasis on interaction of technology, musical structures, psychoactive drugs, and club cultures to induce altered states of musical consciousness; promise (versus reality of) political and spiritual transformation; electronic dance music as new art music. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 88",
+        "title": "Sophomore Seminars: Music History",
+        "units": 2,
+        "description": "Seminar, two hours. Designed for sophomore Musicology majors or students interested in pursuing Musicology major. Introduction to music history as academic discipline, with particular emphasis on musicology at UCLA. Study of music and its history and consideration of theoretical issues central to musicology as it is practiced today, including gender and sexuality, music and politics, race, popular music studies, and jazz studies. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 9",
+        "title": "American Popular Song",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. American popular music before advent of rock and roll in 1950s, with special emphasis on song tradition of Tin Pan Alley. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 94",
+        "title": "Music and Internet",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Survey of changes undergone by music in digital environment. As music becomes increasingly pervasive-found everywhere, yet living nowhere special-what social, economic, political, and aesthetic forces are determining centers of attention? Examination of formative force of Internet on sounds themselves. What kinds of noises develop logically within digital context, where creative freedoms and public disinterest are equally apparent? What does Internet sound like? P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG C281",
+        "title": "Forensic Musicology",
+        "units": 4,
+        "description": "Seminar, three hours. Survey of critical issues and recent developments in field of forensic musicology-application of musical analysis to law of music copyright. Instructors include professionals in music industry. Study of fundamentals of music analysis and copyright law, review of key music copyright infringement cases from both legal and musicological perspectives, outlining of procedural aspects of copyright case, and defining of working relationship between attorney and musicologist. Concurrently scheduled with course CM181. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG C490T",
+        "title": "Early Music Ensemble",
+        "units": 4,
+        "description": "Activity, four hours. Preparation: audition. Group performance of Western vocal and instrumental music from historical periods prior to 1800. Early instruments may be used at instructor's discretion. May be repeated for credit without limitation. May be concurrently scheduled with course CM90T. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG CM181",
+        "title": "Forensic Musicology",
+        "units": 4,
+        "description": "(Same as Music Industry M181.) Seminar, three hours. Survey of critical issues and recent developments in field of forensic musicology-application of musical analysis to law of music copyright. Instructors include professionals in music industry. Study of fundamentals of music analysis and copyright law, review of key music copyright infringement cases from both legal and musicological perspectives, outlining of procedural aspects of copyright case, and defining of working relationship between attorney and musicologist. Concurrently scheduled with course C281. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG CM186",
+        "title": "Music Industry",
+        "units": 4,
+        "description": "(Same as Ethnomusicology CM182, Music CM182, and Music Industry M182.) Lecture, four hours; discussion, one hour; outside study, seven hours. Limited to Ethnomusicology, Music, and Musicology majors. Examination of influence of music industry on way music is created, performed, listened to, evaluated, and used today. Historical approach taken, beginning with music published in 18th century and continuing through development of audio recordings to MTV and popular music today. Concurrently scheduled with Musicology CM288. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG CM288",
+        "title": "Music Industry",
+        "units": 4,
+        "description": "(Same as Ethnomusicology CM288 and Music CM282.) Lecture, four hours; discussion, one hour; outside study, seven hours. Limited to Ethnomusicology, Music, and Musicology majors. Examination of influence of music industry on way music is created, performed, listened to, evaluated, and used today. Historical approach taken, beginning with music published in 18th century and continuing through development of audio recordings to MTV and popular music today. Concurrently scheduled with course CM186. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG CM90T",
+        "title": "Early Music Ensemble",
+        "units": 4,
+        "description": "(Same as Music M90T.) Activity, four hours. Preparation: audition. Group performance of Western vocal and instrumental music from historical periods prior to 1800. Early instruments may be used at instructor's discretion. May be repeated for credit without limitation. May be concurrently scheduled with course C490T. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M103",
+        "title": "Creating Musical Community",
+        "units": 4,
+        "description": "(Same as Ethnomusicology M103, Global Jazz Studies M103, and Music M103.) Seminar, four hours; discussion, one hour. Limited to school of music majors. Faculty and students make music together in different modes. Students learn certain repertoire, refine it, and bring it to concert performance. Students critically engage musical literacies and notion of social contract that forms basis of musical notation. Drawing from American music folk game traditions, highlights complex history of this country and way in which entire body is used as resource when instruments are unavailable. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M112",
+        "title": "Disability and Musical-Dramatic Arts: Representation, Embodiment, Themes, and Practices",
+        "units": 5,
+        "description": "(Same as Disability Studies M112.) Lecture, four hours; discussion, one hour. Exploration of ways disability and impairment factor into musical and musical-dramatic creation and performance, considered historically and aspirationally in terms of representation, embodiment, thematics, and developing practices. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M113",
+        "title": "Variable Topics on Music and Disability",
+        "units": 4,
+        "description": "(Same as Disability Studies M113.) Seminar, four hours. Analysis and critique of depiction of disability and music. Topics may include introduction to disability studies; exploring work and creative strategies of disabled musicians; music technologies and instrument design; representation of disability in music; and more. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M136",
+        "title": "Music and Gender",
+        "units": 5,
+        "description": "(Same as Gender Studies M136.) Lecture, four hours; discussion, one hour. Analysis of gender ideologies in several musical cultures; representations of gender, body, and sexuality by both male and female musicians; contributions of women to Western art and popular musics; methods in feminist and gay/lesbian theory and criticism. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M137",
+        "title": "Lesbian, Gay, Bisexual, Transgender, and Queer Perspectives in Pop Music",
+        "units": 5,
+        "description": "(Same as Lesbian, Gay, Bisexual, Transgender, and Queer Studies M137.) Lecture, four hours; discussion, one hour. Survey of English-language popular music in 20th century, with focus on lesbians, gay men, and members of other sexual minorities as creators, performers, and audience members. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M173",
+        "title": "Selected Topics in Music and Religion in Popular Culture",
+        "units": 5,
+        "description": "(Same as Ethnomusicology M173.) Seminar, two hours. Enforced corequisite: attendance, but not enrollment, in course M73 lecture. Exploration of connections of music, religion, and popular culture among American Jews and Christians. Credit for both courses M73 and M173 not allowed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M176",
+        "title": "Careers in Humanities",
+        "units": 4,
+        "description": "(Same as Comparative Literature M191P and English M191P.) Seminar, three hours. Challenges misassumptions regarding humanities majors and their practical applications to life after graduation. Exploration of wide range of careers, with hands-on practice in crafting professional narrative. Guest lectures from UCLA professionals and alumni-all experts in career planning and local industry. Students engage with workplace leaders, and simultaneously build professional dossier-on paper or online-in preparation for life after UCLA with a humanities degree. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M201",
+        "title": "Repertory and Analysis",
+        "units": 2,
+        "description": "(Same as Music M201.) Seminar, two hours. Requisite or corequisite: course 200A. Exploration of defined repertory through readings and analysis. Specific topics vary. May be repeated for credit. S/U grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG 200A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M3",
+        "title": "Introduction to Classical Music",
+        "units": 5,
+        "description": "(Formerly numbered Musicology 3.) (Same as Music M14.) Lecture, four hours; discussion, one hour. Survey of music of Western classical tradition, with emphasis on historical context, musical meanings, and creation of tradition itself. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M67",
+        "title": "Popular Jewish and Israeli Music",
+        "units": 5,
+        "description": "(Same as Jewish Studies M67.) Lecture, four hours; discussion, one hour. Music of Jews is diverse. With history of several thousand years and series of developments in modernity, music in Jewish life covers variety of styles found in many contexts. Exploration of music of Jews within last 100 years, with focus on popular music of Jews in America and Israel. Examination of music in Israel, with focus on songs of land of Israel, Israeli rock, and Muzika Mizrachit (Middle Eastern popular music). P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M6A",
+        "title": "Introduction to Global Musicianship",
+        "units": 2,
+        "description": "(Same as Ethnomusicology M6A and Music M6A.) Laboratory, four hours. Course M6A is enforced requisite to M6B, which is enforced requisite to M6C. Students must receive grade of C- or better to proceed to next course in sequence. Introduction to global musicianship through in-depth exploration of basic musical elements through performance, aural skills, and active listening. Engages with melodic information represented in solf\u00e8ge, harmonic information in Nashville number system, and rhythmic information in both Western notation and digital audio workstation grid visualization. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M6B",
+        "title": "Introduction to Musicianship",
+        "units": 2,
+        "description": "(Same as Ethnomusicology M6B and Music M6B.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6A with grade of C- or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as tonal and modal harmony, rhythm, improvisation, composition, notation, and ear training to prepare students for later theory courses, participation in music ensembles, advanced study in music, and professional careers. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG M6A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M6C",
+        "title": "Introduction to Musicianship",
+        "units": 2,
+        "description": "(Same as Ethnomusicology M6C and Music M6C.) Laboratory, four hours. Preparation: placement examination. Enforced requisite: course M6B with grade of C- or better. Introduction to musicianship through in-depth exploration of basic common musical elements and training in aural recognition, sight singing, dictation, and keyboard skills. Focus on topics such as tonal and modal harmony, rhythm, improvisation, composition, notation, and ear training to prepare students for later theory courses, participation in music ensembles, advanced study in music, and professional careers. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MUSCLG M6B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M73",
+        "title": "Music and Religion in Popular Culture",
+        "units": 5,
+        "description": "(Same as Ethnomusicology M73.) Lecture, four hours; discussion, one hour. Survey of popular music in religious traditions since the 1970s. Growth of music in Jewish denominations, including Orthodox, Reform, and Conservative, and Christian contemporary music, from evangelical to cross-over artists performing in mainstream. Credit for both courses M73 and M173 not allowed. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M80",
+        "title": "Jewish American Experience through Music",
+        "units": 5,
+        "description": "(Same as Ethnomusicology M80 and Jewish Studies M80.) Lecture, four hours; discussion, one hour. In synagogue and on stage, and from LP recordings to YouTube, Jews in America have varied musical experiences. Music of synagogue, celebrations at home, in community, and theater are all interesting developments of Jewish music. New Opportunities in entertainment industry brought new possibilities for Jews in popular music, rock, and film scores. Exploration of various examples of Jews responding and adapting to their American context and becoming American through music. Exploration of different music genres and contexts. Presentations by guest composers and performers. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MUSCLG M82",
+        "title": "Music and Holocaust: Individual Experience",
+        "units": 5,
+        "description": "(Same as Jewish Studies M82.) Lecture, three hours; discussion, one hour. Roles of music during Holocaust are as varied as people who experienced it. Music was composed and performed by prisoners in almost every concentration camp; music was means for some individuals to gain favorable treatment, while others weaponized it. Traces development of European musical culture under Nazi regime (1933-45), focusing on how individuals interacted with music throughout Holocaust. Study of some of newest developments in Holocaust music research, including role American and European non-governmental organizations played in creation of artistic hubs in campus of southern France. Exploration also of cultural representations of Holocaust, and role of music in society's collective memory. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

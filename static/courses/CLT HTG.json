@@ -1,0 +1,736 @@
+[
+    {
+        "id": "CLT HTG 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 210",
+        "title": "Cultural Materials Science II: Characterization Methods in Conservation of Materials",
+        "units": 4,
+        "description": "Lecture, four hours. Preparation: general chemistry, inorganic and organic chemistry, materials science. Principles and methods of materials characterization in conservation: optical and electron microscopy, X-ray and electron spectroscopy, X-ray diffraction, infrared spectroscopy, reflectance spectroscopy and multispectral imaging spectroscopy, chromatography, design of archaeological and ethnographic materials characterization procedures. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 210",
+        "title": "Cultural Materials Science II: Characterization Methods in Conservation of Materials",
+        "units": 4,
+        "description": "Lecture, four hours. Preparation: general chemistry, inorganic and organic chemistry, materials science. Principles and methods of materials characterization in conservation: optical and electron microscopy, X-ray and electron spectroscopy, X-ray diffraction, infrared spectroscopy, reflectance spectroscopy and multispectral imaging spectroscopy, chromatography, design of archaeological and ethnographic materials characterization procedures. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 210L",
+        "title": "Cultural Materials Science Laboratory: Technical Study",
+        "units": 4,
+        "description": "Laboratory, four hours. Requisites: course M215 (or 216) and one course from 260 through 264. Corequisite: course 210. Research-based laboratory through object-based problem-solving approach in conservation materials science. Experimental techniques, characterization, and analysis of archaeological and ethnographic materials (using materials science principles and reverse engineering processes) to determine technological features, defects, and products of alteration. Hands-on experience with noninvasive imaging and spectroscopic techniques, sampling and sample preparation methods, analysis of microsamples. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CLT HTG M215"},{"type": "requisite","course": "CLT HTG 216"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CLT HTG 260"},{"type": "requisite","course": "CLT HTG 261"},{"type": "requisite","course": "CLT HTG 262"},{"type": "requisite","course": "CLT HTG 263"},{"type": "requisite","course": "CLT HTG 264"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 210L",
+        "title": "Cultural Materials Science Laboratory: Technical Study",
+        "units": 4,
+        "description": "Laboratory, four hours. Requisites: course M215 (or 216) and one course from 260 through 264. Corequisite: course 210. Research-based laboratory through object-based problem-solving approach in conservation materials science. Experimental techniques, characterization, and analysis of archaeological and ethnographic materials (using materials science principles and reverse engineering processes) to determine technological features, defects, and products of alteration. Hands-on experience with noninvasive imaging and spectroscopic techniques, sampling and sample preparation methods, analysis of microsamples. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CLT HTG M215"},{"type": "requisite","course": "CLT HTG 216"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CLT HTG 260"},{"type": "requisite","course": "CLT HTG 261"},{"type": "requisite","course": "CLT HTG 262"},{"type": "requisite","course": "CLT HTG 263"},{"type": "requisite","course": "CLT HTG 264"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 211",
+        "title": "Science Fundamentals in Conservation of Materials",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to important scientific parameters in conservation of materials that are of great importance for both fundamental science and practical applications. Students gain better understanding of intrinsic properties of materials, mechanisms of deterioration, and conservation treatments. General chemistry, physics, and physical chemistry (atomic structure bonding, etc.), fluid transfer in porous materials, diffusion, interfaces, surface tension, wetting, adsorption, adhesion, dissolution and crystallization, mechanical properties (properties/characterization), phase transformations (glass, metals, polymers). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 211",
+        "title": "Science Fundamentals in Conservation of Materials",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to important scientific parameters in conservation of materials that are of great importance for both fundamental science and practical applications. Students gain better understanding of intrinsic properties of materials, mechanisms of deterioration, and conservation treatments. General chemistry, physics, and physical chemistry (atomic structure bonding, etc.), fluid transfer in porous materials, diffusion, interfaces, surface tension, wetting, adsorption, adhesion, dissolution and crystallization, mechanical properties (properties/characterization), phase transformations (glass, metals, polymers). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 216",
+        "title": "Science of Conservation Materials and Methods",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, two hours. Recommended requisite: laboratory safety fundamental concepts course by Office of Environment, Health, and Safety. Introduction to physical, chemical, and mechanical properties of conservation materials (employed for preservation of archaeological and cultural materials) and their aging characteristics. Science and application methods of traditional organic and inorganic systems and introduction of novel technology based on biomineralization processes and nanostructured materials. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 216",
+        "title": "Science of Conservation Materials and Methods",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, two hours. Recommended requisite: laboratory safety fundamental concepts course by Office of Environment, Health, and Safety. Introduction to physical, chemical, and mechanical properties of conservation materials (employed for preservation of archaeological and cultural materials) and their aging characteristics. Science and application methods of traditional organic and inorganic systems and introduction of novel technology based on biomineralization processes and nanostructured materials. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 222",
+        "title": "Conservation and Community",
+        "units": 4,
+        "description": "Laboratory, four hours. Designed for graduate conservation students. Introduction to work as conservators with indigenous repositories housing cultural collections. Students learn different models for tribal museums and cultural centers, and importance of material selection and properties in baskets they are treating. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 222",
+        "title": "Conservation and Community",
+        "units": 4,
+        "description": "Laboratory, four hours. Designed for graduate conservation students. Introduction to work as conservators with indigenous repositories housing cultural collections. Students learn different models for tribal museums and cultural centers, and importance of material selection and properties in baskets they are treating. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 224",
+        "title": "Issues in Preservation and Management of Archaeological and Cultural Sites",
+        "units": 4,
+        "description": "Seminar, three hours. Designed to offer practical model of preservation and management planning for heritage sites that reflects real case-study scenarios. Adaptive management planning following iterative processes for sustainable heritage preservation addressing threats and challenges such as climate change and global warming, conflicts, and neglect. Consideration of significance and value of heritage sites and role of stakeholders. Investigation of methods of evaluation of physical condition and development of risk assessments to address physical risks in milieu of site preservation management, including visitors' organization, urban development, socioeconomic growth, and tourist development. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 224",
+        "title": "Issues in Preservation and Management of Archaeological and Cultural Sites",
+        "units": 4,
+        "description": "Seminar, three hours. Designed to offer practical model of preservation and management planning for heritage sites that reflects real case-study scenarios. Adaptive management planning following iterative processes for sustainable heritage preservation addressing threats and challenges such as climate change and global warming, conflicts, and neglect. Consideration of significance and value of heritage sites and role of stakeholders. Investigation of methods of evaluation of physical condition and development of risk assessments to address physical risks in milieu of site preservation management, including visitors' organization, urban development, socioeconomic growth, and tourist development. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 230",
+        "title": "Conservation Laboratory: Ceramics, Glass, Glazes",
+        "units": 4,
+        "description": "(Formerly numbered Conservation of Archaeological and Ethnographic Materials 230.) Laboratory, four hours. Requisite: course 260. Recommended: course M215. Hands-on study in deterioration and conservation of ceramics and glass. Evaluation of use of conservation materials in joining, gap-filling, and restoration of ceramics and experience in their use provided. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 260"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 230",
+        "title": "Conservation Laboratory: Ceramics, Glass, Glazes",
+        "units": 4,
+        "description": "(Formerly numbered Conservation of Archaeological and Ethnographic Materials 230.) Laboratory, four hours. Requisite: course 260. Recommended: course M215. Hands-on study in deterioration and conservation of ceramics and glass. Evaluation of use of conservation materials in joining, gap-filling, and restoration of ceramics and experience in their use provided. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 260"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 231",
+        "title": "Conservation Laboratory: Stone and Adobe",
+        "units": 4,
+        "description": "Laboratory, four hours. Enforced requisite: course 261. Research-based laboratory on conservation of stone and adobe. Conservation issues on cleaning, consolidation, protection, and structural instability. Characterization, diagnostic assessment, and development of conservation treatment proposals. Testing of materials. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 261"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 231",
+        "title": "Conservation Laboratory: Stone and Adobe",
+        "units": 4,
+        "description": "Laboratory, four hours. Enforced requisite: course 261. Research-based laboratory on conservation of stone and adobe. Conservation issues on cleaning, consolidation, protection, and structural instability. Characterization, diagnostic assessment, and development of conservation treatment proposals. Testing of materials. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 261"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 232",
+        "title": "Conservation Laboratory: Organic Materials I",
+        "units": 4,
+        "description": "Laboratory, four hours. Enforced requisite: course 262. Designed for graduate conservation students. How to recognize characteristic deterioration problems found in organic materials from archaeological and ethnographic contexts and introduction to typical treatments used historically and currently for these materials. Materials focus on wood, bark and barkcloth, paper, and plastics and rubber. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 262"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 232",
+        "title": "Conservation Laboratory: Organic Materials I",
+        "units": 4,
+        "description": "Laboratory, four hours. Enforced requisite: course 262. Designed for graduate conservation students. How to recognize characteristic deterioration problems found in organic materials from archaeological and ethnographic contexts and introduction to typical treatments used historically and currently for these materials. Materials focus on wood, bark and barkcloth, paper, and plastics and rubber. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 262"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 234",
+        "title": "Conservation Laboratory: Metals I",
+        "units": 4,
+        "description": "Laboratory, four hours. Enforced requisite: course 263. Recommended: course 215. Recommended corequisite: course M210. Designed for graduate conservation students. Hands-on work to study deterioration and conservation of metallic artifacts and composite objects containing metals (copper and copper alloys, and silver). Corrosion of ancient metals and their deterioration processes, conservation, problems in stability, issues with composite objects, their deterioration and stabilization, cleaning, joining, and gap-filling. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 263"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 234",
+        "title": "Conservation Laboratory: Metals I",
+        "units": 4,
+        "description": "Laboratory, four hours. Enforced requisite: course 263. Recommended: course 215. Recommended corequisite: course M210. Designed for graduate conservation students. Hands-on work to study deterioration and conservation of metallic artifacts and composite objects containing metals (copper and copper alloys, and silver). Corrosion of ancient metals and their deterioration processes, conservation, problems in stability, issues with composite objects, their deterioration and stabilization, cleaning, joining, and gap-filling. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 263"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 238",
+        "title": "Conservation Laboratory: Organic Materials II",
+        "units": 4,
+        "description": "Laboratory, four hours. Enforced requisite: course 262. Designed for graduate conservation students. Typical treatments used historically and currently for deterioration problems found in organic materials from archaeological and ethnographic contexts. Materials include plant and animal fibers, feathers, and quills. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 262"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 238",
+        "title": "Conservation Laboratory: Organic Materials II",
+        "units": 4,
+        "description": "Laboratory, four hours. Enforced requisite: course 262. Designed for graduate conservation students. Typical treatments used historically and currently for deterioration problems found in organic materials from archaeological and ethnographic contexts. Materials include plant and animal fibers, feathers, and quills. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 262"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 239",
+        "title": "Conservation Laboratory: Metals II",
+        "units": 4,
+        "description": "Laboratory, four hours; outside study, eight hours. Requisites: courses 234, 263. Recommended: courses M210, M215. Treatment of conservation problems of metallic artifacts made of iron, steel, cast iron, gold, zinc, and aluminum that have some importance in ethnographic objects. Practical work on metallic artifacts. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 234"},
+            {"type": "requisite","course": "CLT HTG 263"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 239",
+        "title": "Conservation Laboratory: Metals II",
+        "units": 4,
+        "description": "Laboratory, four hours; outside study, eight hours. Requisites: courses 234, 263. Recommended: courses M210, M215. Treatment of conservation problems of metallic artifacts made of iron, steel, cast iron, gold, zinc, and aluminum that have some importance in ethnographic objects. Practical work on metallic artifacts. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 234"},
+            {"type": "requisite","course": "CLT HTG 263"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 241",
+        "title": "Conservation Laboratory: Organic Materials III",
+        "units": 4,
+        "description": "(Formerly numbered Conservation of Archaeological and Ethnographic Materials 241.) Laboratory, four hours. Enforced requisites: courses 232, 238, 262. Designed for graduate conservation students. Treatment of organic materials from archaeological and ethnographic contexts and introduction to typical treatments used historically and currently for these materials. Materials include wood, gourd, paper, bark, and barkcloth. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 232"},
+            {"type": "requisite","course": "CLT HTG 238"},
+            {"type": "requisite","course": "CLT HTG 262"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 241",
+        "title": "Conservation Laboratory: Organic Materials III",
+        "units": 4,
+        "description": "(Formerly numbered Conservation of Archaeological and Ethnographic Materials 241.) Laboratory, four hours. Enforced requisites: courses 232, 238, 262. Designed for graduate conservation students. Treatment of organic materials from archaeological and ethnographic contexts and introduction to typical treatments used historically and currently for these materials. Materials include wood, gourd, paper, bark, and barkcloth. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 232"},
+            {"type": "requisite","course": "CLT HTG 238"},
+            {"type": "requisite","course": "CLT HTG 262"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 25",
+        "title": "Preservation of Cultural Heritage through Technology and Sustainability",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to principles, ethics, methods, and challenges of conserving cultural heritage, including mobile and immobile heritage. Study of history and significance of cultural heritage, factors that contribute to its deterioration, and various approaches used to conserve and protect it. Addresses impact of climate change, global issues, digital technology, and need for sustainability by presenting case studies from around the world. Case studies include Michelangelo's Sistine Chapel ceiling, Abu Simbel temples, Parthenon marbles, Gullah Geechee Cultural Heritage Corridor, and Mark Rothko's murals at Harvard University. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 25",
+        "title": "Preservation of Cultural Heritage through Technology and Sustainability",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to principles, ethics, methods, and challenges of conserving cultural heritage, including mobile and immobile heritage. Study of history and significance of cultural heritage, factors that contribute to its deterioration, and various approaches used to conserve and protect it. Addresses impact of climate change, global issues, digital technology, and need for sustainability by presenting case studies from around the world. Case studies include Michelangelo's Sistine Chapel ceiling, Abu Simbel temples, Parthenon marbles, Gullah Geechee Cultural Heritage Corridor, and Mark Rothko's murals at Harvard University. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 250",
+        "title": "Conservation Laboratory: Rock Art, Wall Paintings, and Mosaics",
+        "units": 4,
+        "description": "(Formerly numbered M250.) Laboratory, four hours. Requisites: courses 210, 210L, 264. Recommended: course M215. Research-based laboratory on conservation of rock art, wall paintings (archaeological and modern composites on cements), mosaics, and decorated architectural surfaces. Experimental techniques and analysis of materials (using materials science and reverse engineering processes) for characterization of technology, constituent materials, and alteration products; development of conservation treatment proposals, testing of conservation products, and methods and conservation treatment. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 210"},
+            {"type": "requisite","course": "CLT HTG 210L"},
+            {"type": "requisite","course": "CLT HTG 264"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 250",
+        "title": "Conservation Laboratory: Rock Art, Wall Paintings, and Mosaics",
+        "units": 4,
+        "description": "(Formerly numbered M250.) Laboratory, four hours. Requisites: courses 210, 210L, 264. Recommended: course M215. Research-based laboratory on conservation of rock art, wall paintings (archaeological and modern composites on cements), mosaics, and decorated architectural surfaces. Experimental techniques and analysis of materials (using materials science and reverse engineering processes) for characterization of technology, constituent materials, and alteration products; development of conservation treatment proposals, testing of conservation products, and methods and conservation treatment. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CLT HTG 210"},
+            {"type": "requisite","course": "CLT HTG 210L"},
+            {"type": "requisite","course": "CLT HTG 264"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 251",
+        "title": "Contemporary Development in Conservation",
+        "units": 4,
+        "description": "Seminar, two hours. Designed for graduate conservation students. Seminar series of invited international experts in archaeological and ethnographic conservation, who address contemporary issues in conservation of cultural materials. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 251",
+        "title": "Contemporary Development in Conservation",
+        "units": 4,
+        "description": "Seminar, two hours. Designed for graduate conservation students. Seminar series of invited international experts in archaeological and ethnographic conservation, who address contemporary issues in conservation of cultural materials. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 260",
+        "title": "Structure, Properties, and Deterioration of Materials: Ceramics, Glass, Glazes",
+        "units": 2,
+        "description": "Lecture, three hours. General introduction to different types of ancient ceramic and glass materials. Relationship between composition (chemistry), structure (crystals, molecular arrangement, and microstructure), and properties of ceramics, glass, glazes. Nature of frit and faience deterioration explained using basic concepts from physics and chemistry. Chemical, optical, and structural properties. Deterioration phenomena, defects, and products of alteration of ceramics and vitreous artifacts. Hands-on examination of variety of samples and artifacts. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 260",
+        "title": "Structure, Properties, and Deterioration of Materials: Ceramics, Glass, Glazes",
+        "units": 2,
+        "description": "Lecture, three hours. General introduction to different types of ancient ceramic and glass materials. Relationship between composition (chemistry), structure (crystals, molecular arrangement, and microstructure), and properties of ceramics, glass, glazes. Nature of frit and faience deterioration explained using basic concepts from physics and chemistry. Chemical, optical, and structural properties. Deterioration phenomena, defects, and products of alteration of ceramics and vitreous artifacts. Hands-on examination of variety of samples and artifacts. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 261",
+        "title": "Structure, Properties, and Deterioration of Materials: Stone and Adobe",
+        "units": 2,
+        "description": "Lecture, three hours. Introduction to igneous, sedimentary, and metamorphic rocks (geological context, mineralogical composition, macrostructure, and microstructure). Clay minerals: composition, structure, and properties. Rocks and stone: geographical distribution and occurrence, and usage by ancient cultures. Adobe: clay-based manmade materials. Mechanical and petrophysical properties of stone and adobe. Relationships between composition/structure and properties. Intrinsic and structural stability, resistance to weathering. Deterioration mechanisms and factors (physical, chemical, and biochemical). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 261",
+        "title": "Structure, Properties, and Deterioration of Materials: Stone and Adobe",
+        "units": 2,
+        "description": "Lecture, three hours. Introduction to igneous, sedimentary, and metamorphic rocks (geological context, mineralogical composition, macrostructure, and microstructure). Clay minerals: composition, structure, and properties. Rocks and stone: geographical distribution and occurrence, and usage by ancient cultures. Adobe: clay-based manmade materials. Mechanical and petrophysical properties of stone and adobe. Relationships between composition/structure and properties. Intrinsic and structural stability, resistance to weathering. Deterioration mechanisms and factors (physical, chemical, and biochemical). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 262",
+        "title": "Structure, Properties, and Deterioration of Materials: Organics I",
+        "units": 2,
+        "description": "Lecture, one hour; laboratory, one hour. General introduction to different types of organic materials used to produce ethnographic and archaeological cultural heritage. Relationship between material composition, processing, and properties of natural and manufactured materials using basic concepts from biology and chemistry. Structural stability and deterioration phenomena of these materials as found in cultural collections. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 262",
+        "title": "Structure, Properties, and Deterioration of Materials: Organics I",
+        "units": 2,
+        "description": "Lecture, one hour; laboratory, one hour. General introduction to different types of organic materials used to produce ethnographic and archaeological cultural heritage. Relationship between material composition, processing, and properties of natural and manufactured materials using basic concepts from biology and chemistry. Structural stability and deterioration phenomena of these materials as found in cultural collections. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 263",
+        "title": "Structure, Properties, and Deterioration of Materials: Metals",
+        "units": 2,
+        "description": "Lecture, three hours. General introduction to different types of ancient and ethnographic metals. Relationship between composition (chemistry), structure (crystals, molecular arrangement, and microstructure), and properties of metals explained using basic concepts from physics and chemistry. Chemical, optical, and structural properties. Deterioration phenomena, defects, and products of alteration of metallic artifacts. Hands-on examination of variety of samples and artifacts. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 263",
+        "title": "Structure, Properties, and Deterioration of Materials: Metals",
+        "units": 2,
+        "description": "Lecture, three hours. General introduction to different types of ancient and ethnographic metals. Relationship between composition (chemistry), structure (crystals, molecular arrangement, and microstructure), and properties of metals explained using basic concepts from physics and chemistry. Chemical, optical, and structural properties. Deterioration phenomena, defects, and products of alteration of metallic artifacts. Hands-on examination of variety of samples and artifacts. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 264",
+        "title": "Structure, Properties, and Deterioration of Materials: Rock Art, Wall Paintings, Mosaics",
+        "units": 2,
+        "description": "Lecture, three hours. Recommended preparation: basic knowledge of general chemistry and materials science. Introduction to materials and techniques of rock art, wall paintings (including painted surfaces on cement and composite decorative architectural surfaces), and mosaics. Archaeological and ethnographic context, techniques, and materials. Pigments, colorants, and binding media. Chemical, optical, and structural properties. Relationship between composition (chemistry), structure (crystals, molecular arrangement, and microstructure), and properties explained using basic concepts from physics and chemistry. Intrinsic attributes and resistance to weathering. Causes, sources, and mechanisms of deterioration (physical, chemical, and biochemical). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 264",
+        "title": "Structure, Properties, and Deterioration of Materials: Rock Art, Wall Paintings, Mosaics",
+        "units": 2,
+        "description": "Lecture, three hours. Recommended preparation: basic knowledge of general chemistry and materials science. Introduction to materials and techniques of rock art, wall paintings (including painted surfaces on cement and composite decorative architectural surfaces), and mosaics. Archaeological and ethnographic context, techniques, and materials. Pigments, colorants, and binding media. Chemical, optical, and structural properties. Relationship between composition (chemistry), structure (crystals, molecular arrangement, and microstructure), and properties explained using basic concepts from physics and chemistry. Intrinsic attributes and resistance to weathering. Causes, sources, and mechanisms of deterioration (physical, chemical, and biochemical). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 265",
+        "title": "Structure, Properties, and Deterioration of Materials: Organics II",
+        "units": 2,
+        "description": "Lecture, one hour; laboratory, one hour. General introduction to plant-based organic materials used to produce ethnographic and archaeological cultural heritage: wood, bark, paper, bast fibers, grasses. Relationship between materials, processing, and properties of natural materials using basic concepts from biology and chemistry. Structural stability and deterioration phenomena of these materials as found in cultural collections. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 265",
+        "title": "Structure, Properties, and Deterioration of Materials: Organics II",
+        "units": 2,
+        "description": "Lecture, one hour; laboratory, one hour. General introduction to plant-based organic materials used to produce ethnographic and archaeological cultural heritage: wood, bark, paper, bast fibers, grasses. Relationship between materials, processing, and properties of natural materials using basic concepts from biology and chemistry. Structural stability and deterioration phenomena of these materials as found in cultural collections. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 288",
+        "title": "Special Topics in Conservation",
+        "units": 2,
+        "description": "Lecture, three hours; laboratory, one hour. Special topics on theoretical and practical subjects in conservation such as focused materials studies, new conservation approaches, advanced scientific applications, or current special work by core program faculty or visiting scholars. If appropriate, field trips may be arranged. May be repeated for credit with topic or instructor change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 288",
+        "title": "Special Topics in Conservation",
+        "units": 2,
+        "description": "Lecture, three hours; laboratory, one hour. Special topics on theoretical and practical subjects in conservation such as focused materials studies, new conservation approaches, advanced scientific applications, or current special work by core program faculty or visiting scholars. If appropriate, field trips may be arranged. May be repeated for credit with topic or instructor change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 290",
+        "title": "Conservation Program Internship",
+        "units": 6,
+        "description": "Fieldwork, 20 or 40 hours. Open only to Conservation MA program graduate students who have completed first year of conservation program coursework. Supervised conservation-related professional and research-based training in field through participation in field projects (i.e., archaeological excavation, site management, indigenous site preservation and consultation), as well as in museum, library, archive, and collections conservation and science departments, regional and national laboratories, or at other similar venues. All intern placements must be preapproved by program and developed in collaboration between student, faculty members, and host institution/agency. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 290",
+        "title": "Conservation Program Internship",
+        "units": 6,
+        "description": "Fieldwork, 20 or 40 hours. Open only to Conservation MA program graduate students who have completed first year of conservation program coursework. Supervised conservation-related professional and research-based training in field through participation in field projects (i.e., archaeological excavation, site management, indigenous site preservation and consultation), as well as in museum, library, archive, and collections conservation and science departments, regional and national laboratories, or at other similar venues. All intern placements must be preapproved by program and developed in collaboration between student, faculty members, and host institution/agency. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 30",
+        "title": "Caring for Black History: Preservation of African American Cultural Heritage",
+        "units": 4,
+        "description": "Lecture, three hours. Covers efforts to preserve African American cultural heritage from both within Black communities and in the wider American cultural heritage field. Discussion of how preservation of physical items and histories is linked to American values, connecting cultural heritage conservation to social movements. Study of 19th-century efforts by African American to preserve their own history, to current campaigns both within and outside of Black communities. Uncovers roots of current diversity, equity, and inclusion challenges in cultural heritage professions. Students play a part in the preservation of cultural heritage through hands-on projects with African American cultural items. Connects material with local, Los-Angeles-based community preservation efforts. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 30",
+        "title": "Caring for Black History: Preservation of African American Cultural Heritage",
+        "units": 4,
+        "description": "Lecture, three hours. Covers efforts to preserve African American cultural heritage from both within Black communities and in the wider American cultural heritage field. Discussion of how preservation of physical items and histories is linked to American values, connecting cultural heritage conservation to social movements. Study of 19th-century efforts by African American to preserve their own history, to current campaigns both within and outside of Black communities. Uncovers roots of current diversity, equity, and inclusion challenges in cultural heritage professions. Students play a part in the preservation of cultural heritage through hands-on projects with African American cultural items. Connects material with local, Los-Angeles-based community preservation efforts. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 596",
+        "title": "Directed Individual Studies",
+        "units": 2,
+        "description": "Tutorial, seven hours. Limited to graduate conservation students. Individual guided studies that may include conservation research and/or surveys or treatment projects carried out at Villa laboratories or at local collection or analytical facility. To be arranged with program faculty members, and supervision may be shared between faculty members and outside specialists. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 596",
+        "title": "Directed Individual Studies",
+        "units": 2,
+        "description": "Tutorial, seven hours. Limited to graduate conservation students. Individual guided studies that may include conservation research and/or surveys or treatment projects carried out at Villa laboratories or at local collection or analytical facility. To be arranged with program faculty members, and supervision may be shared between faculty members and outside specialists. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 597",
+        "title": "Preparation for PhD Qualifying Examination",
+        "units": 2,
+        "description": "Tutorial, to be arranged. May not be applied toward PhD course requirement. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 597",
+        "title": "Preparation for PhD Qualifying Examination",
+        "units": 2,
+        "description": "Tutorial, to be arranged. May not be applied toward PhD course requirement. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 598",
+        "title": "MA Thesis Preparation",
+        "units": 2,
+        "description": "Tutorial, two hours; laboratory, one hour. Development of research paper on conservation topic or treatment-based investigation that can be theoretical in scope or practically oriented. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 598",
+        "title": "MA Thesis Preparation",
+        "units": 2,
+        "description": "Tutorial, two hours; laboratory, one hour. Development of research paper on conservation topic or treatment-based investigation that can be theoretical in scope or practically oriented. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 599",
+        "title": "PhD Dissertation and Preparation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. May not be applied toward PhD course requirement. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 599",
+        "title": "PhD Dissertation and Preparation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. May not be applied toward PhD course requirement. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG C120",
+        "title": "Field Methods in Archaeological Conservation: Readiness, Response, and Recovery",
+        "units": 4,
+        "description": "Laboratory, four hours. Overview of risks (direct and indirect) and materials vulnerability of in situ cultural heritage and movable archaeological materials in emergency situations (rescue excavations, disasters, conflicts), with emphasis on readiness, first aid response, and recovery. Readiness focuses on preparedness and preventive measures, including reburials, shelters, rescue excavations, and documentation as well as developing inventories and awareness campaigns. First aid response covers development of on-site emergency risk assessments to evaluate damage and putting triage theory into practice, salvage rescue operations, emergency temporary in situ stabilization and protection (using locally available materials), and training. Recovery is based on documentation, lifting methods, handling, transportation, and storage. Emphasis on finding practical solutions to prevent and mitigate damage and to recover and safeguard archaeological artifacts. Concurrently scheduled with course C220. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG C120",
+        "title": "Field Methods in Archaeological Conservation: Readiness, Response, and Recovery",
+        "units": 4,
+        "description": "Laboratory, four hours. Overview of risks (direct and indirect) and materials vulnerability of in situ cultural heritage and movable archaeological materials in emergency situations (rescue excavations, disasters, conflicts), with emphasis on readiness, first aid response, and recovery. Readiness focuses on preparedness and preventive measures, including reburials, shelters, rescue excavations, and documentation as well as developing inventories and awareness campaigns. First aid response covers development of on-site emergency risk assessments to evaluate damage and putting triage theory into practice, salvage rescue operations, emergency temporary in situ stabilization and protection (using locally available materials), and training. Recovery is based on documentation, lifting methods, handling, transportation, and storage. Emphasis on finding practical solutions to prevent and mitigate damage and to recover and safeguard archaeological artifacts. Concurrently scheduled with course C220. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG C142",
+        "title": "Managing Collections for Museums, Libraries, and Archives",
+        "units": 4,
+        "description": "Lecture, two hours; activity, two hours. How conservators work together with curators, collections managers, mount makers, designers, and registrars to permit collections to be both accessed and preserved. Concurrently scheduled with course C242. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG C142",
+        "title": "Managing Collections for Museums, Libraries, and Archives",
+        "units": 4,
+        "description": "Lecture, two hours; activity, two hours. How conservators work together with curators, collections managers, mount makers, designers, and registrars to permit collections to be both accessed and preserved. Concurrently scheduled with course C242. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG C220",
+        "title": "Field Methods in Archaeological Conservation: Readiness, Response, and Recovery",
+        "units": 4,
+        "description": "Laboratory, four hours. Overview of risks (direct and indirect) and materials vulnerability of in situ cultural heritage and movable archaeological materials in emergency situations (rescue excavations, disasters, conflicts), with emphasis on readiness, first aid response, and recovery. Readiness focuses on preparedness and preventive measures, including reburials, shelters, rescue excavations, and documentation as well as developing inventories and awareness campaigns. First aid response covers development of on-site emergency risk assessments to evaluate damage and putting triage theory into practice, salvage rescue operations, emergency temporary in situ stabilization and protection (using locally available materials), and training. Recovery is based on documentation, lifting methods, handling, transportation, and storage. Emphasis on finding practical solutions to prevent and mitigate damage and to recover and safeguard archaeological artifacts. Concurrently scheduled with course C120. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG C220",
+        "title": "Field Methods in Archaeological Conservation: Readiness, Response, and Recovery",
+        "units": 4,
+        "description": "Laboratory, four hours. Overview of risks (direct and indirect) and materials vulnerability of in situ cultural heritage and movable archaeological materials in emergency situations (rescue excavations, disasters, conflicts), with emphasis on readiness, first aid response, and recovery. Readiness focuses on preparedness and preventive measures, including reburials, shelters, rescue excavations, and documentation as well as developing inventories and awareness campaigns. First aid response covers development of on-site emergency risk assessments to evaluate damage and putting triage theory into practice, salvage rescue operations, emergency temporary in situ stabilization and protection (using locally available materials), and training. Recovery is based on documentation, lifting methods, handling, transportation, and storage. Emphasis on finding practical solutions to prevent and mitigate damage and to recover and safeguard archaeological artifacts. Concurrently scheduled with course C120. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG C242",
+        "title": "Managing Collections for Museums, Libraries, and Archives",
+        "units": 4,
+        "description": "Lecture, two hours; activity, two hours. Designed for graduate conservation students. How conservators work together with curators, collections managers, mount makers, designers, and registrars to permit collections to be both accessed and preserved. Concurrently scheduled with course C142. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG C242",
+        "title": "Managing Collections for Museums, Libraries, and Archives",
+        "units": 4,
+        "description": "Lecture, two hours; activity, two hours. Designed for graduate conservation students. How conservators work together with curators, collections managers, mount makers, designers, and registrars to permit collections to be both accessed and preserved. Concurrently scheduled with course C142. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG M215",
+        "title": "Cultural Materials Science I: Analytical Imaging and Documentation in Conservation of Materials",
+        "units": 4,
+        "description": "(Same as Materials Science M213.) Lecture, two hours; laboratory, two hours. Basic and advanced techniques on digital photography, computer-aided recording tools, and scientific imaging to determine and document condition (defects) and technological features of archaeological and ethnographic materials. Development of basic theoretical knowledge on imaging and photonics technology and practical skills on conservation photo-documentation, analytical (forensic) photography, and advanced new imaging technologies. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG M215",
+        "title": "Cultural Materials Science I: Analytical Imaging and Documentation in Conservation of Materials",
+        "units": 4,
+        "description": "(Same as Materials Science M213.) Lecture, two hours; laboratory, two hours. Basic and advanced techniques on digital photography, computer-aided recording tools, and scientific imaging to determine and document condition (defects) and technological features of archaeological and ethnographic materials. Development of basic theoretical knowledge on imaging and photonics technology and practical skills on conservation photo-documentation, analytical (forensic) photography, and advanced new imaging technologies. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG M221",
+        "title": "Principles, Practice, and Ethics in Conservation of Cultural Heritage",
+        "units": 4,
+        "description": "(Formerly numbered 221.) (Same as Art History M272B.) Seminar, three hours. Introduction to preservation of cultural heritage materials, including what should be preserved and why, as well as who should be involved in decision-making process. Use of several examples of issues and problems involved in preservation of works of art, from L.A. Murals to Sistine Chapel, from ancient wall paintings to Statue of Liberty. Discussion of issues of preservation and restoration of these cultural heritage materials both in museum and outdoor environment contexts. Materials and techniques used to make cultural heritage materials, in relation to preservation efforts needed to prevent decay and loss. Introduction to examples of conservation issues related to sites, buildings, monuments, and collections. Ethical and contextual aspects with reference to changing values in conservation of cultural materials, illustrating how cultural materials may have been treated differently according to those values. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG M221",
+        "title": "Principles, Practice, and Ethics in Conservation of Cultural Heritage",
+        "units": 4,
+        "description": "(Formerly numbered 221.) (Same as Art History M272B.) Seminar, three hours. Introduction to preservation of cultural heritage materials, including what should be preserved and why, as well as who should be involved in decision-making process. Use of several examples of issues and problems involved in preservation of works of art, from L.A. Murals to Sistine Chapel, from ancient wall paintings to Statue of Liberty. Discussion of issues of preservation and restoration of these cultural heritage materials both in museum and outdoor environment contexts. Materials and techniques used to make cultural heritage materials, in relation to preservation efforts needed to prevent decay and loss. Introduction to examples of conservation issues related to sites, buildings, monuments, and collections. Ethical and contextual aspects with reference to changing values in conservation of cultural materials, illustrating how cultural materials may have been treated differently according to those values. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG M240",
+        "title": "Environmental Protection of Collections for Museums, Libraries, and Archives",
+        "units": 4,
+        "description": "(Formerly numbered Conservation of Archaeological and Ethnographic Materials M240.) (Same as Information Studies M238.) Lecture, two hours; laboratory, two hours. Requisite: Information Studies 432. Required of graduate conservation students. Review of environmental and biological agents of deterioration, including light, temperature, relative humidity, pollution, insects, and fungi. Emphasis on monitoring to identify agents and understanding of materials sensitivities, along with protective measures for collections. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INF STD 432"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG M240",
+        "title": "Environmental Protection of Collections for Museums, Libraries, and Archives",
+        "units": 4,
+        "description": "(Formerly numbered Conservation of Archaeological and Ethnographic Materials M240.) (Same as Information Studies M238.) Lecture, two hours; laboratory, two hours. Requisite: Information Studies 432. Required of graduate conservation students. Review of environmental and biological agents of deterioration, including light, temperature, relative humidity, pollution, insects, and fungi. Emphasis on monitoring to identify agents and understanding of materials sensitivities, along with protective measures for collections. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INF STD 432"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG M244",
+        "title": "Collection Management for Archives, Libraries, and Museums",
+        "units": 4,
+        "description": "(Same as Information Studies M244.) Lecture, two hours; fieldwork, two hours. How conservators work together with curators, collections managers, mount makers, designers, and registrars to permit collections to be both accessed and preserved. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CLT HTG M244",
+        "title": "Collection Management for Archives, Libraries, and Museums",
+        "units": 4,
+        "description": "(Same as Information Studies M244.) Lecture, two hours; fieldwork, two hours. How conservators work together with curators, collections managers, mount makers, designers, and registrars to permit collections to be both accessed and preserved. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

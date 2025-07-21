@@ -1,0 +1,405 @@
+[
+    {
+        "id": "LGBTQS 165SL",
+        "title": "Queer Activism and Engagement",
+        "units": 4,
+        "description": "Lecture, three hours; fieldwork, five hours. Benefits students pursuing minor in Lesbian, Gay, Bisexual, Transgender, and Queer (LGBTQ) Studies, those passionate about social justice, or those who want to learn new skills about community engagement. Offers opportunity to work in LGBTQ-related community organizations, to reflect on political and theoretical issues involved in such work and such organizations, and to draw ideas from various courses they have already taken and test them in settings outside UCLA. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 170",
+        "title": "Queer Cultures after Stonewall: Sexual Dissidence, Performance, and Community in 1970s",
+        "units": 5,
+        "description": "Lecture, four hours. Exploration of intense burst of culture-making among lesbians and gay men in U.S. and Canada in decade following Stonewall Rebellion in literature and performing arts through formal and thematic analysis, exploration of social contexts of creation and reception, and wide-ranging interpretive study. No extensive training in literary, musical, visual, or media analysis is required; conceptual and analytical frameworks to be used are provided. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 180XP",
+        "title": "Lesbian, Gay, Bisexual, and Transgender Institutions and Organizations",
+        "units": 4,
+        "description": "(Formerly numbered 180SL.) Lecture, three hours; fieldwork, five hours. Preparation: one prior lesbian, gay, bisexual, and transgender studies course. Service-learning course that offers opportunity for students to work in lesbian, gay, bisexual, and transgender-related community organizations, to reflect on political and theoretical issues involved in such work and such organizations, and to draw ideas from various courses they have already taken and test them in settings outside UCLA. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 181",
+        "title": "Variable Topics in Queer Diversities",
+        "units": 4,
+        "description": "Lecture, four hours. Study of topics about queer diversities from lesbian, gay, bisexual, and transgender studies perspective. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 182",
+        "title": "Variable Topics in Education, Law, and Public Policy",
+        "units": 4,
+        "description": "Lecture, four hours. Study of law, education, and public policy topics from lesbian, gay, bisexual, and transgender studies perspective. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 183",
+        "title": "Variable Topics in Queer Subjectivities/Theories/History",
+        "units": 4,
+        "description": "Lecture, four hours. Study of topics about queer subjectivities/theories/history from lesbian, gay, bisexual, and transgender studies perspective. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 184",
+        "title": "Variable Topics in Science, Health, and Genetics",
+        "units": 4,
+        "description": "Lecture, four hours. Study of science, health, and genetics topics from lesbian, gay, bisexual, and transgender studies perspective. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 187",
+        "title": "Selected Topics in Lesbian, Gay, Bisexual, and Transgender Studies",
+        "units": 4,
+        "description": "Lecture, four hours. Study of selected topics in lesbian, gay, bisexual, and transgender studies. Consult Schedule of Classes for topics and instructors. May be repeated for credit with consent of instructor. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "LGBTQS 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "LGBTQS 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 194",
+        "title": "Research Group or Internship Seminars: Lesbian, Gay, Bisexual, and Transgender Studies",
+        "units": 4,
+        "description": "Seminar, two hours. Preparation: completion of four courses toward minor. Requisite: course M114. Corequisite: course 195. Designed for seniors who are doing internship in lesbian, gay, bisexual, or transgender organization. Discussion of organization theoretical and political issues in context of internship and relation of those issues to ideas explored in minor courses already taken. May be repeated for credit. P/NP grading.",
+        "requisites": [
+            {"type": "requisite","course": "LGBTQS M114"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 195",
+        "title": "Community or Corporate Internships in Lesbian, Gay, Bisexual, and Transgender Studies",
+        "units": 2,
+        "description": "Tutorial, one hour. Preparation: completion of four courses toward minor. Requisite: course M114. Corequisite: course 194. Limited to seniors. Internship in supervised setting in lesbian, gay, bisexual, or transgender community organization. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for credit. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "LGBTQS M114"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 197",
+        "title": "Individual Studies in Lesbian, Gay, Bisexual, and Transgender Studies",
+        "units": 2,
+        "description": "Tutorial, one hour. Requisite: course M114. Limited to juniors/seniors. Directed program of independent study or research on specific topic within lesbian, gay, bisexual, and transgender studies, with scheduled meetings to be arranged between faculty member and student. Tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "LGBTQS M114"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M101A",
+        "title": "Premodern Queer Literatures and Cultures",
+        "units": 5,
+        "description": "(Same as English M101A and Gender Studies M105A.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Survey of discrete period of queer literature from beginning to circa 1850. Works by such writers as Sappho, Plato, Marlowe, Shakespeare, and Thomas Gray may be included. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M101B",
+        "title": "Queer Literatures and Cultures, 1850 to 1970",
+        "units": 5,
+        "description": "(Same as English M101B and Gender Studies M105B.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Survey of discrete period of queer literature and culture from circa 1850 to 1970. Works by such authors as Walt Whitman, Radclyffe Hall, Gertrude Stein, Virginia Woolf, Langston Hughes, Tennessee Williams, Henry Blake Fuller, and James Baldwin may be included. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M101C",
+        "title": "Queer Literatures and Cultures after 1970",
+        "units": 5,
+        "description": "(Same as English M101C and Gender Studies M105C.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Examination of cultural production, specifically literature, produced by queers after Stonewall rebellion in New York in 1969, widely regarded as origins or beginning of modern lesbian and gay rights movement in U.S. Writings and films by such authors as Andrew Holleran, Leslie Feinberg, Achy Obejas, Essex Hemphill, Audre Lorde, Cheryl Dunye, and Alison Bechdel may be included. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M101D",
+        "title": "Studies in Queer Literatures and Cultures",
+        "units": 5,
+        "description": "(Same as English M101D and Gender Studies M105D.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Variable specialized studies course in queer literatures and cultures. Topics focus on particular problem or issue in terms of its relationship to queer cultures and writings. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M107B",
+        "title": "Studies in Gender and Sexuality",
+        "units": 5,
+        "description": "(Same as English M107B and Gender Studies M107B.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Examination of literary and cultural production through lens of gender and sexuality. Depending on instructor, emphasis may be historical, regional, national, comparative, or thematic and include other intersectional vectors of identity and representation such as race and ethnicity. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M114",
+        "title": "Introduction to Lesbian, Gay, Bisexual, Transgender, and Queer Studies",
+        "units": 5,
+        "description": "(Same as Gender Studies M114.) Lecture, three hours; discussion, one hour. Introduction to history, politics, culture, and scientific study of lesbians, gay men, bisexuals, transgendered, and queer people; examination of sexuality and gender as categories for investigation; interdisciplinary theories and research on minority sexualities and genders. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M115",
+        "title": "Topics in Study of Sexual and Gender Orientation",
+        "units": 4,
+        "description": "(Same as Gender Studies M115.) Lecture/discussion, three hours. Requisite: course M114 or Gender Studies 10. Studies in arts, humanities, social sciences, and/or life sciences on aspects of sexual orientation, gender identity, and lesbian, gay, and/or bisexual issues; variable topics may include cultural representations, historical and political change, life and health experiences, and queer or transgender theories; multiethnic and cross-cultural emphases. May be repeated for credit. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "LGBTQS M114"},{"type": "requisite","course": "GENDER 10"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M116",
+        "title": "Sexuality and City: Queer Los Angeles",
+        "units": 4,
+        "description": "(Same as Gender Studies M116.) Lecture, three hours. Requisite: course M114. Investigation of history, culture, and political economy of lesbian, gay, bisexual, and transgender Los Angeles.",
+        "requisites": [
+            {"type": "requisite","course": "LGBTQS M114"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M118",
+        "title": "Queering American History",
+        "units": 4,
+        "description": "(Same as Gender Studies M118.) Lecture, four hours. Enforced requisite: one prior lesbian, gay, bisexual, and transgender studies course. History of sexual and gender minorities in U.S. Topics include changing norms, romantic friendships, medical discourse, liberation politics, post-Stonewall culture, AIDS, transgender movement, queer theory, and politics. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M125",
+        "title": "Exploring Intersections of Ability and Sexuality",
+        "units": 4,
+        "description": "(Same as Disability Studies M125.) Lecture, three hours. Exploration of identity as means of understanding cultural formations, dominant/nondominant power dynamics, and systems of visual representation. Intersectional approach to explore how ability and sexuality intersect, overlap, and change notions of identity. Use of scholarly texts from disability studies, lesbian, gay, bisexual, and transgender studies, popular culture, performance, and film to investigate factors that shape ability and sexuality as basis for identity. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M126",
+        "title": "Feminist and Queer Theory",
+        "units": 5,
+        "description": "(Same as English M126 and Gender Studies M126.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: English Composition 3. Recommended: one course from English 120, 121, Gender Studies 102, 103, or 104. Investigation of key concepts and debates in study of gender, sexuality, and kinship, with focus on their interrelated significance for making of culture. Readings to be interdisciplinary, with possible emphasis on impact of changing ideas of gender and sexuality on specific historical cultures. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M132",
+        "title": "Border Consciousness",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies M132.) Lecture, three hours; discussion, one hour (when scheduled). Investigation through history, popular culture, and mass media of bilingual and bicultural identities produced by geographical and cultural space between Mexico and U.S. Special attention to border consciousness as site of conflict and resistance. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M133",
+        "title": "Chicana Lesbian Literature",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies M133 and Gender Studies M133.) Lecture, four hours. Exploration of intersection of radical First and Third World feminist politics, lesbian sexuality and its relationship to Chicana identity, representation of lesbianism in Chicana literature, meaning of familia in Chicana lesbian lives, and impact of Chicana lesbian theory on Chicana/Chicano studies. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M135",
+        "title": "Bilingual Writing Workshop",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies CM135 and Gender Studies M135C.) Seminar, four hours. Limited to juniors/seniors. Writing sample required; access to course web page mandatory; need not be bilingual to enroll. Technical instruction, analysis, and theoretical discussion of bilingual creative expression through genre of short fiction. Bilingualism as both politics and aesthetics to be central theme. Discussion and analysis of Chicana/Chicano and Latina/Latino short story collections. Peer critique of weekly writing assignments. Emphasis on narrative techniques such as characterization, plot, conflict, setting, point of view, and dialogue, and magical realism as prevailing Chicanesque/Latinesque style. Some attention to process of manuscript preparation, public reading, and publication. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M136",
+        "title": "Censored! Art on Trial",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies M136.) Lecture, four hours. Examination of censorship in visual arts, particularly art of queer Chicana/Chicano and Latina/Latino artists such as Alma Lopez, Ester Hern\u00e1ndez, and Alex Donis. Other censored artists include feminist artist Yolanda L\u00f3pez, queer artists Robert Mapplethorpe and David Wojnarowicz, painter Christ Ofili, photographers Sally Mann and Andres Serrano, printmaker Enrique Chagoya, muralist Noni Olabisi, writer Salman Rushdie, and four performance artists-Karen Finley, Tim Miller, John Fleck, and Holly Hughes-whose work was vetoed by chair of National Endowment for Arts (NEA) in 1990 after they had successfully passed through NEA's peer review process and who came to be known as NEA Four. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M137",
+        "title": "Lesbian, Gay, Bisexual, Transgender, and Queer Perspectives in Pop Music",
+        "units": 5,
+        "description": "(Same as Musicology M137.) Lecture, four hours; discussion, one hour. Survey of English-language popular music in 20th century, with focus on lesbians, gay men, and members of other sexual minorities as creators, performers, and audience members. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M141",
+        "title": "African American Women's History",
+        "units": 4,
+        "description": "(Same as African American Studies M141.) Lecture, four hours. Historical examination of black women's experiences in U.S. from antebellum era to present. By situating black women's experiences within major historical transitions in American history, exploration of key themes, including gender formation, sexuality, labor and class, collective action, gender and sexual violence, reproduction, and role of law. How have intersecting forms of oppression impacted black women's historical lives? How is difference constructed through interrelated and overlapping ideologies of race and gender? How do historians uncover black women's historical lives and what are challenges to such discoveries? Examination of black women's individual and collective struggles for freedom from racism, sexism, and heteropatriarchy, as well as black women's participation in and challenge to social movements, including suffrage, women's liberation, civil rights, and black power. Investigation of black women's intellectual history including their cultural productions. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M142",
+        "title": "Race, Gender, and Punishment",
+        "units": 4,
+        "description": "(Same as African American Studies M142.) Seminar, four hours. Interdisciplinary examination of historical and contemporary development of modern prison industrial complex in U.S., with attention to impact of prison industrial complex on immigrants, including undocumented residents, homeless populations, women, African Americans, and transgender nonconforming and lesbian, gay, bisexual, and transgender communities. Why does U.S. have largest prison population in world? What historical conditions and ideologies gave rise to this massive explosion in U.S. prisoner population? What policies have fueled mass imprisonment? Who is imprisoned? How have politicians used imprisonment as response to economic transformations and perceived social disorders? How is current crisis analogous to or distinct from regimes of racialized punishment in prior historical moments? Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M147A",
+        "title": "Psychology of Lesbian Experience",
+        "units": 4,
+        "description": "(Same as Gender Studies M147A and Psychology M147A.) Lecture, two hours; discussion, one hour. Requisite: course M114 or Gender Studies 10 or Psychology 10. Designed for juniors/seniors. Review of research and theory in psychology and gender studies to examine various aspects of lesbian experience, impact of heterosexism/stigma, gender role socialization, minority status of women and lesbians, identity development within a multicultural society, changes in psychological theories about lesbians in sociohistorical context. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "LGBTQS M114"},{"type": "requisite","course": "GENDER 10"},{"type": "requisite","course": "PSYCH 10"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M167",
+        "title": "Contested Sexualities",
+        "units": 4,
+        "description": "(Same as Gender Studies M167.) Lecture, three hours; discussion, one hour. Sociological perspectives on formation, control, and resistance of lesbian, gay, bisexual, and transgendered people. Variable topics include identity and community; age, class, gender, and racial diversity; and analysis of contemporary issues affecting contested sexualities. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M186",
+        "title": "Special Topics in Labor Studies and Lesbian, Gay, Bisexual, Transgender, and Queer Studies",
+        "units": 4,
+        "description": "(Same as Labor Studies M186.) Lecture, three hours. Variable topics in labor studies and lesbian, gay, bisexual, transgender, and queer studies. May be repeated for credit with topic and/or instructor change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M191D",
+        "title": "Topics in Queer Literatures and Cultures",
+        "units": 5,
+        "description": "(Same as English M191D and Gender Studies M191D.) Seminar, three or four hours. Enforced requisite: English Composition 3. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "LGBTQS M191E",
+        "title": "Topics in Gender and Sexuality",
+        "units": 5,
+        "description": "(Same as English M191E and Gender Studies M191E.) Seminar, three or four hours. Enforced requisite: English Composition 3. Consult Schedule of Classes for author, period, genre, or subject to be studied in specific term. May be repeated for credit with topic or instructor change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    }
+]

@@ -1,0 +1,1500 @@
+[
+    {
+        "id": "CH ENGR 10",
+        "title": "Introduction to Chemical and Biomolecular Engineering",
+        "units": 1,
+        "description": "Lecture, one hour; outside study, two hours. General introduction to field of chemical and biomolecular engineering. Description of how chemical and biomolecular engineering analysis and design skills are applied for creative solution of current technological problems in production of microelectronic devices, design of chemical plants for minimum environmental impact, application of nanotechnology to chemical sensing, and genetic-level design of recombinant microbes for chemical synthesis. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 100",
+        "title": "Fundamentals of Chemical and Biomolecular Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Chemistry 20B, 20L (not enforced), Mathematics 32B (may be taken concurrently), Physics 1A. Introduction to analysis and design of industrial chemical processes. Material and energy balances. Introduction to programming in MATLAB. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "PHYSICS 1A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 101A",
+        "title": "Transport Phenomena I",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Mathematics 33A, 33B. Enforced corequisite: course 109. Introduction to analysis of fluid flow in chemical, biological, materials, and molecular processes. Fundamentals of momentum transport, Newton law of viscosity, mass and momentum conservation in laminar flow, Navier/Stokes equations, and engineering analysis of flow systems. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 33A"},
+            {"type": "requisite","course": "MATH 33B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 101B",
+        "title": "Transport Phenomena II: Heat Transfer",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 101A. Introduction to analysis of heat transfer in chemical, biological, materials, and molecular processes. Fundamentals of thermal energy transport, molecular-level heat transfer in gases, liquids, and solids, forced and free convection, radiation, and engineering analysis of heat transfer in process systems. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 101C",
+        "title": "Mass Transfer",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 101B. Introduction to analysis of mass transfer in systems of interest to chemical engineering practice. Fundamentals of mass species transport, Fick law of diffusion, diffusion in chemically reacting flows, interphase mass transfer, multicomponent systems. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 102A",
+        "title": "Thermodynamics I",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Introduction to thermodynamics of chemical and biological processes. Work, energy, heat, and first law of thermodynamics. Second law, extremum principles, entropy, and free energy. Ideal and real gases, property evaluation. Thermodynamics of flow systems. Applications of first and second laws in biological processes and living organisms. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 102B",
+        "title": "Thermodynamics II",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 102A. Fundamentals of classical and statistical thermodynamics in chemical and biological sciences. Phase equilibria in single and multicomponent systems. Thermodynamics of ideal and nonideal solutions. Chemical reaction equilibria. Statistical ensembles and partition functions. Statistical thermodynamics of ideal gases. Intermolecular interactions and liquid state. Thermodynamics of polymers and biological macromolecules. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 103",
+        "title": "Separation Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 100, 101B. Application of principles of heat, mass, and momentum transport to design and operation of separation processes such as distillation, gas absorption, filtration, and reverse osmosis. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 100"},
+            {"type": "requisite","course": "CH ENGR 101B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 104A",
+        "title": "Chemical and Biomolecular Engineering Laboratory I",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisite: course 100. Enforced corequisite: course 101B. Recommended: course 102B. Investigation of basic transport phenomena in 10 predetermined experiments, collection of data for statistical analysis and individually written technical reports and group presentations. Design and performance of one original experimental study involving transport, separation, or another aspect of chemical and biomolecular engineering. Basic statistics: mean, standard deviation, confidence limits, comparison of two means and of multiple means, single and multiple variable linear regression, and brief introduction to factorial design of experiments. Oral and poster presentations. Technical writing of sections of technical reports and their contents; writing clearly, concisely, and consistently; importance of word choices and punctuation in multicultural engineering environment and of following required formatting. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 100"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 104B",
+        "title": "Chemical and Biomolecular Engineering Laboratory II",
+        "units": 6,
+        "description": "Lecture, four hours; laboratory, eight hours; outside study, four hours; other, two hours. Enforced requisites: courses 101C, 103, 104A. Course consists of four experiments in chemical engineering unit operations, each of two weeks duration. Students present their results both written and orally. Written report includes sections on theory, experimental procedures, scaleup and process design, and error analysis. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"},
+            {"type": "requisite","course": "CH ENGR 103"},
+            {"type": "requisite","course": "CH ENGR 104A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 104C",
+        "title": "Semiconductor Processing",
+        "units": 3,
+        "description": "Lecture, four hours; outside study, five hours. Enforced requisite: course 101C. Enforced corequisite: course 104CL. Basic engineering principles of semiconductor unit operations, including fabrication and characterization of semiconductor devices. Investigation of processing steps used to make CMOS devices, including wafer cleaning, oxidation, diffusion, lithography, chemical vapor deposition, plasma etching, metallization, and statistical design of experiments and error analysis. Presentation of student results in both written and oral form. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 104CL",
+        "title": "Semiconductor Processing Laboratory",
+        "units": 3,
+        "description": "Laboratory, four hours; outside study, five hours. Enforced requisite: course 101C. Enforced corequisite: course 104C. Series of experiments that emphasize basic engineering principles of semiconductor unit operations, including fabrication and characterization of semiconductor devices. Investigation of processing steps used to make CMOS devices, including wafer cleaning, oxidation, diffusion, lithography, chemical vapor deposition, plasma etching, and metallization. Hands-on device testing includes transistors, diodes, and capacitors. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 104D",
+        "title": "Molecular Biotechnology Laboratory: From Gene to Product",
+        "units": 6,
+        "description": "Lecture, two hours; laboratory, eight hours; outside study, eight hours. Enforced requisites: courses 101C, C125. Integration of molecular and engineering techniques in modern biotechnology. Cloning of protein-coding gene into plasmid, transformation of construct into E. coli, production of gene product in bioreactor, downstream processing of bioreactor broth to purify recombinant protein, and characterization of purified protein. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"},
+            {"type": "requisite","course": "CH ENGR C125"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 106",
+        "title": "Chemical Reaction Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 100, 101C, 102B. Fundamentals of chemical kinetics and catalysis. Introduction to analysis and design of homogeneous and heterogeneous chemical reactors. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 100"},
+            {"type": "requisite","course": "CH ENGR 101C"},
+            {"type": "requisite","course": "CH ENGR 102B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 107",
+        "title": "Process Dynamics and Control",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 101C, 103 (or C125), 106 (or C115). Principles of dynamics modeling and start-up behavior of chemical engineering processes. Chemical process control elements. Design and applications of chemical process computer control. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 103"},{"type": "requisite","course": "CH ENGR C125"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 106"},{"type": "requisite","course": "CH ENGR C115"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 108A",
+        "title": "Process Economics and Analysis",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 103 (or C125), 104A, 106 (or C115). Integration of chemical engineering fundamentals such as transport phenomena, thermodynamics, separation operations, and reaction engineering and simple economic principles for purpose of designing chemical processes and evaluating alternatives. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 103"},{"type": "requisite","course": "CH ENGR C125"}]},
+            {"type": "requisite","course": "CH ENGR 104A"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 106"},{"type": "requisite","course": "CH ENGR C115"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 108B",
+        "title": "Chemical Process Computer-Aided Design and Analysis",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 103 (or C125), 106 (or C115), 108A, Civil and Environmental Engineering M20 (or Mechanical and Aerospace Engineering M20). Introduction to application of some mathematical and computing methods to chemical engineering design problems; use of simulation programs as automated method of performing steady state material and energy balance calculations. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 103"},{"type": "requisite","course": "CH ENGR C125"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 106"},{"type": "requisite","course": "CH ENGR C115"}]},
+            {"type": "requisite","course": "CH ENGR 108A"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "C&EE M20"},{"type": "requisite","course": "MECH&AE M20"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 109",
+        "title": "Numerical and Mathematical Methods in Chemical and Biological Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: Civil and Environmental Engineering M20 or Mechanical and Aerospace Engineering M20. Enforced corequisite: course 101A. Numerical methods for computation of solution of systems or linear and nonlinear algebraic equations, ordinary differential equations, and partial equations. Chemical and biomolecular engineering examples used throughout to illustrate application of these methods. Use of MATLAB as platform (programming environment) to write programs based on numerical methods to solve various problems arising in chemical engineering. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "C&EE M20"},{"type": "requisite","course": "MECH&AE M20"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 110",
+        "title": "Intermediate Engineering Thermodynamics",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Enforced requisite: course 102B. Principles and engineering applications of statistical and phenomenological thermodynamics. Determination of partition function in terms of simple molecular models and spectroscopic data; nonideal gases; phase transitions and adsorption; nonequilibrium thermodynamics and coupled transport processes. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 113",
+        "title": "Air Pollution Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; preparation, two hours; outside study, six hours. Enforced requisites: courses 101C, 102B. Integrated approach to air pollution, including concentrations of atmospheric pollutants, air pollution standards, air pollution sources and control technology, and relationship of air quality to emission sources. Links air pollution to multimedia environmental assessment. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"},
+            {"type": "requisite","course": "CH ENGR 102B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 188",
+        "title": "Special Courses in Chemical Engineering",
+        "units": 4,
+        "description": "Seminar, four hours; outside study, eight hours. Special topics in chemical engineering for undergraduate students taught on experimental or temporary basis, such as those taught by resident and visiting faculty members. May be repeated once for credit with topic or instructor change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 194",
+        "title": "Research Group Seminars: Chemical Engineering",
+        "units": 4,
+        "description": "Seminar, four hours; outside study, eight hours. Designed for undergraduate students who are part of research group. Discussion of research methods and current literature in field. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 199",
+        "title": "Directed Research in Chemical Engineering",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research or investigation of selected topic under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit with school approval. Individual contract required; enrollment petitions available in Office of Academic and Student Affairs. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 2",
+        "title": "Technology and Environment",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Natural and anthropogenic flows of materials at global and regional scales. Case studies of natural cycles include global warming (CO2 cycles), stratospheric ozone depletion (chlorine and ozone cycles), and global nitrogen cycles. Flow of materials in industrial economies compared and contrasted with natural flows; presentation of lifecycle methods for evaluating environmental impact of processes and products. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 200",
+        "title": "Advanced Engineering Thermodynamics",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 102B. Phenomenological and statistical thermodynamics of chemical and physical systems with engineering applications. Presentation of role of atomic and molecular spectra and intermolecular forces in interpretation of thermodynamic properties of gases, liquids, solids, and plasmas. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 201",
+        "title": "Methods of Molecular Simulation",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 200 or Chemistry C223A or Physics 215A. Modern simulation techniques for classical molecular systems. Monte Carlo and molecular dynamics in various ensembles. Applications to liquids, solids, and polymers. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 200"},{"type": "requisite","course": "CHEM C223A"},{"type": "requisite","course": "PHYSICS 215A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 210",
+        "title": "Advanced Chemical Reaction Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisites: courses 101C, 106. Principles of chemical reactor analysis and design. Particular emphasis on simultaneous effects of chemical reaction and mass transfer on noncatalytic and catalytic reactions in fixed and fluidized beds. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"},
+            {"type": "requisite","course": "CH ENGR 106"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 217",
+        "title": "Electrochemical Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course C114. Transport phenomena in electrochemical systems; relationships between molecular transport, convection, and electrode kinetics, along with applications to industrial electrochemistry, fuel cell design, and modern battery technology. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR C114"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 220",
+        "title": "Advanced Mass Transfer",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 101C. Advanced treatment of mass transfer, with applications to industrial separation processes, gas cleaning, pulmonary bioengineering, controlled release systems, and reactor design; molecular and constitutive theories of diffusion, interfacial transport, membrane transport, convective mass transfer, concentration boundary layers, turbulent transport. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 222A",
+        "title": "Stochastic Modeling and Simulation of Chemical Processes",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Introduction, definition, rationale of stochastic processes. Distribution, moments, correlation. Mean square calculus. Wiener process, white noise, Poisson process. Generalized functions. Linear systems with stochastic inputs, ergodicity. Application to chemical process modeling and simulation. Markov chains and processes. Ito integrals, stochastic difference, and differential equations. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 222B",
+        "title": "Stochastic Optimization and Control",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 222A. Introduction to linear and nonlinear systems theory and estimation theory. Prediction, Kalman filter, smoothing of discrete and continuous systems. Stochastic control, systems with multiplicative noise. Applications to control of chemical processes. Stochastic optimization, stochastic linear and dynamic programming. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 222A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 223",
+        "title": "Design for Environment",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Limited to graduate chemical engineering, materials science and engineering, or Master of Engineering program students. Design of products for meeting environmental objectives; lifecycle inventories; lifecycle impact assessment; design for energy efficiency; design for waste minimization, computer-aided design tools, materials selection methods. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 230",
+        "title": "Reaction Kinetics",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisites: courses 106, 200. Macroscopic descriptions: reaction rates, relaxation times, thermodynamic correlations of reaction rate constants. Molecular descriptions: kinetic theory of gases, models of elementary processes. Applications: absorption and dispersion measurements, unimolecular reactions, photochemical reactions, hydrocarbon pyrolysis and oxidation, explosions, polymerization. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 106"},
+            {"type": "requisite","course": "CH ENGR 200"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 231",
+        "title": "Molecular Dynamics",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 106 or 110. Analysis and design of molecular-beam systems. Molecular-beam sampling of reactive mixtures in combustion chambers or gas jets. Molecular-beam studies of gas-surface interactions, including energy accommodations and heterogeneous reactions. Applications to air pollution control and to catalysis. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 106"},{"type": "requisite","course": "CH ENGR 110"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 232",
+        "title": "Combustion Processes",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 106, 200, or Mechanical and Aerospace Engineering C132A. Fundamentals: change equations for multicomponent reactive mixtures, rate laws. Applications: combustion, including burning of (1) premixed gases or (2) condensed fuels. Detonation. Sound absorption and dispersion. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 106"},{"type": "requisite","course": "CH ENGR 200"},{"type": "requisite","course": "MECH&AE C132A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 233",
+        "title": "Frontiers in Biotechnology",
+        "units": 2,
+        "description": "Lecture, one hour. Requisite: Life Sciences 3. Integration of science and business in biotechnology. Academic research leading to licensing and founding of companies that turn research breakthroughs into marketable products. Invited lecturers from academia and industry cover emerging areas of biotechnology from combination of science, engineering, and business points of view. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "LIFESCI 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 234",
+        "title": "Plasma Chemistry and Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Designed for graduate chemistry or engineering students. Application of chemistry, physics, and engineering principles to design and operation of plasma and ion-beam reactors used in etching, deposition, oxidation, and cleaning of materials. Examination of atomic, molecular, and ionic phenomena involved in plasma and ion-beam processing of semiconductors, etc. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 236",
+        "title": "Chemical Vapor Deposition",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisites: courses 210, C216. Chemical vapor deposition is widely used to deposit thin films that comprise microelectronic devices. Topics include reactor design, transport phenomena, gas and surface chemical kinetics, structure and composition of deposited films, and relationship between process conditions and film properties. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 210"},
+            {"type": "requisite","course": "CH ENGR C216"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 250",
+        "title": "Computer-Aided Chemical Process Design",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 108B. Application of optimization methods in chemical process design; computer aids in process engineering; process modeling; systematic flowsheet invention; process synthesis; optimal design and operation of large-scale chemical processing systems. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 108B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 259",
+        "title": "Theory of Applied Mathematics for Chemical Engineers",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Recommended preparation: multivariable calculus. Review of functional analysis concepts. Vector spaces, norms, convexity, convergence, continuity, Banach/Hilbert/Sobolev spaces. Linear functionals. Orthonormal sets, linear operators and their spectrum. Minimum distance problems, least squares. Lagrange multipliers, nonlinear duality, variational methods. Finite difference and finite element approximation of partial differential equations (PDEs). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 260",
+        "title": "Non-Newtonian Fluid Mechanics",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 102A. Principles of non-Newtonian fluid mechanics. Stress constitutive equations. Rheology of polymeric liquids and dispersed systems. Applications in viscometry, polymer processing, biorheology, oil recovery, and drag reduction. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 260",
+        "title": "Non-Newtonian Fluid Mechanics",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 102A. Principles of non-Newtonian fluid mechanics. Stress constitutive equations. Rheology of polymeric liquids and dispersed systems. Applications in viscometry, polymer processing, biorheology, oil recovery, and drag reduction. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 270",
+        "title": "Principles of Reaction and Transport Phenomena",
+        "units": 4,
+        "description": "Lecture, four hours; laboratory, eight hours. Fundamentals in transport phenomena, chemical reaction kinetics, and thermodynamics at molecular level. Topics include Boltzmann equation, microscopic chemical kinetics, transition state theory, and statistical analysis. Examination of engineering applications related to state-of-art research areas in chemical engineering. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 270",
+        "title": "Principles of Reaction and Transport Phenomena",
+        "units": 4,
+        "description": "Lecture, four hours; laboratory, eight hours. Fundamentals in transport phenomena, chemical reaction kinetics, and thermodynamics at molecular level. Topics include Boltzmann equation, microscopic chemical kinetics, transition state theory, and statistical analysis. Examination of engineering applications related to state-of-art research areas in chemical engineering. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 270R",
+        "title": "Advanced Research in Semiconductor Manufacturing",
+        "units": 6,
+        "description": "Laboratory, nine hours; outside study, nine hours. Limited to graduate chemical engineering students in MS semiconductor manufacturing option. Supervised research in processing semiconductor materials and devices. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 270R",
+        "title": "Advanced Research in Semiconductor Manufacturing",
+        "units": 6,
+        "description": "Laboratory, nine hours; outside study, nine hours. Limited to graduate chemical engineering students in MS semiconductor manufacturing option. Supervised research in processing semiconductor materials and devices. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 283C",
+        "title": "Analysis and Control of Infinite Dimensional Systems",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisites: courses M280A, M282A. Designed for graduate students. Introduction to advanced dynamical analysis and controller synthesis methods for nonlinear infinite dimensional systems. Topics include (1) linear operator and stability theory (basic results on Banach and Hilbert spaces, semigroup theory, convergence theory in function spaces), (2) nonlinear model reduction (linear and nonlinear Galerkin method, proper orthogonal decomposition), (3) nonlinear and robust control of nonlinear hyperbolic and parabolic partial differential equations (PDEs), (4) applications to transport-reaction processes. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR M280A"},
+            {"type": "requisite","course": "CH ENGR M282A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 283C",
+        "title": "Analysis and Control of Infinite Dimensional Systems",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisites: courses M280A, M282A. Designed for graduate students. Introduction to advanced dynamical analysis and controller synthesis methods for nonlinear infinite dimensional systems. Topics include (1) linear operator and stability theory (basic results on Banach and Hilbert spaces, semigroup theory, convergence theory in function spaces), (2) nonlinear model reduction (linear and nonlinear Galerkin method, proper orthogonal decomposition), (3) nonlinear and robust control of nonlinear hyperbolic and parabolic partial differential equations (PDEs), (4) applications to transport-reaction processes. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR M280A"},
+            {"type": "requisite","course": "CH ENGR M282A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 284A",
+        "title": "Optimization in Vector Spaces",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisites: Electrical Engineering 236A, 236B. Review of functional analysis concepts. Convexity, convergence, continuity. Minimum distance problems for Hilbert and Banach spaces. Lagrange multiplier theorem in Banach spaces. Nonlinear duality theory. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "EC ENGR 236A"},
+            {"type": "requisite","course": "EC ENGR 236B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 284A",
+        "title": "Optimization in Vector Spaces",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisites: Electrical Engineering 236A, 236B. Review of functional analysis concepts. Convexity, convergence, continuity. Minimum distance problems for Hilbert and Banach spaces. Lagrange multiplier theorem in Banach spaces. Nonlinear duality theory. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "EC ENGR 236A"},
+            {"type": "requisite","course": "EC ENGR 236B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 290",
+        "title": "Special Topics",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Advanced and current study of one or more aspects of chemical engineering, such as chemical process dynamics and control, fuel cells and batteries, membrane transport, advanced chemical engineering analysis, polymers, optimization in chemical process design. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298A",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298B",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298C",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298D",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298F",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298G",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298H",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298J",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298L",
+        "title": "Research Seminars",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298M",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298N",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298O",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298P",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298S",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298T",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298V",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 298Z",
+        "title": "Research Seminar",
+        "units": 2,
+        "description": "Seminar, to be arranged. Requisites for each offering announced in advance by department. Lectures, discussions, student presentations, and projects in areas of current interest. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 299",
+        "title": "Departmental Seminar",
+        "units": 2,
+        "description": "Seminar, two hours. Limited to graduate chemical engineering students. Seminars by leading academic and industrial chemical engineers on development or application of recent technological advances in discipline. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 45",
+        "title": "Biomolecular Engineering Fundamentals",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Recommended requisites: Chemistry 20A, 20L, 30A, 30L. Intended for those students who have not taken Life Sciences 2, 3, and Chemistry 153A. Fundamentals of modern biomolecular engineering. Topics include structure and function of biomolecules, central dogma of molecular biology, cellular information and energy processing, and experimental methods, with strong emphasis on applications in medicine, industry, and bioenergy. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 495A",
+        "title": "Teaching Assistant Training Seminar",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours; one-day intensive training at beginning of Fall Quarter. Limited to graduate chemical engineering students. Required of all new teaching assistants. Special seminar on communicating chemical engineering principles, concepts, and methods; teaching assistant preparation, organization, and presentation of material, including use of grading, advising, and rapport with students. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 495B",
+        "title": "Teaching with Technology for Teaching Assistants",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to graduate chemical engineering students. Designed for teaching assistants interested in learning more about effective use of technology and ways to incorporate that technology into their classrooms for benefit of student learning. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 596",
+        "title": "Directed Individual or Tutorial Studies",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate chemical engineering students. Petition forms to request enrollment may be obtained from assistant dean, Graduate Studies. Supervised investigation of advanced technical problems. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 597A",
+        "title": "Preparation for MS Comprehensive Examination",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate chemical engineering students in MS semiconductor manufacturing option. Reading and preparation for MS comprehensive examination. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 597B",
+        "title": "Preparation for PhD Preliminary Examination",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate chemical engineering students. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 597C",
+        "title": "Preparation for PhD Oral Qualifying Examination",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate chemical engineering students. Preparation for oral qualifying examination, including preliminary research on dissertation. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 597C",
+        "title": "Preparation for PhD Oral Qualifying Examination",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate chemical engineering students. Preparation for oral qualifying examination, including preliminary research on dissertation. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 598",
+        "title": "Research for and Preparation of MS Thesis",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate chemical engineering students. Supervised independent research for MS candidates, including thesis prospectus. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 598",
+        "title": "Research for and Preparation of MS Thesis",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate chemical engineering students. Supervised independent research for MS candidates, including thesis prospectus. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 599",
+        "title": "Research for and Preparation of PhD Dissertation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate chemical engineering students. Usually taken after students have been advanced to candidacy. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 599",
+        "title": "Research for and Preparation of PhD Dissertation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate chemical engineering students. Usually taken after students have been advanced to candidacy. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C111",
+        "title": "Cryogenics and Low-Temperature Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 102A, 102B (or Materials Science 130). Fundamentals of cryogenics and cryoengineering science pertaining to industrial low-temperature processes. Basic approaches to analysis of cryofluids and envelopes needed for operation of cryogenic systems; low-temperature behavior of matter, optimization of cryosystems and other special conditions. Concurrently scheduled with course C211. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102A"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 102B"},{"type": "requisite","course": "MAT SCI 130"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C111",
+        "title": "Cryogenics and Low-Temperature Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 102A, 102B (or Materials Science 130). Fundamentals of cryogenics and cryoengineering science pertaining to industrial low-temperature processes. Basic approaches to analysis of cryofluids and envelopes needed for operation of cryogenic systems; low-temperature behavior of matter, optimization of cryosystems and other special conditions. Concurrently scheduled with course C211. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102A"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 102B"},{"type": "requisite","course": "MAT SCI 130"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C112",
+        "title": "Polymer Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 101A, Chemistry 30A. Formation of polymers, criteria for selecting reaction scheme, polymerization techniques, polymer characterization. Mechanical properties. Rheology of macromolecules, polymer process engineering. Diffusion in polymeric systems. Polymers in biomedical applications and in microelectronics. Concurrently scheduled with course C212. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101A"},
+            {"type": "requisite","course": "CHEM 30A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C115",
+        "title": "Biochemical Reaction Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 101C. Use of previously learned concepts of biophysical chemistry, thermodynamics, transport phenomena, and reaction kinetics to develop tools needed for technical design and economic analysis of biological reactors. May be concurrently scheduled with course CM215. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C116",
+        "title": "Surface and Interface Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Introduction to surfaces and interfaces of engineering materials, particularly catalytic surface and thin films for solid-state electronic devices. Topics include classification of crystals and surfaces, analysis of structure and composition of crystals and their surfaces and interfaces. Examination of engineering applications, including catalytic surfaces, interfaces in microelectronics, and solid-state laser. May be concurrently scheduled with course C216. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C118",
+        "title": "Multimedia Environmental Assessment",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; preparation, two hours; outside study, five hours. Recommended requisites: courses 101C, 102B. Pollutant sources, estimation of source releases, waste minimization, transport and fate of chemical pollutants in environment, intermedia transfers of pollutants, multimedia modeling of chemical partitioning in environment, exposure assessment and fundamentals of risk assessment, risk reduction strategies. Concurrently scheduled with course C218. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C119",
+        "title": "Pollution Prevention for Chemical Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 108A. Systematic methods for design of environment-friendly processes. Development of methods at molecular, unit-operation, and network levels. Synthesis of mass exchange, heat exchange, and reactor networks. Concurrently scheduled with course C219. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 108A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C121",
+        "title": "Membrane Science and Technology",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 101A, 101C, 103. Fundamentals of membrane science and technology, with emphasis on separations at micro, nano, and molecular/angstrom scale with membranes. Relationship between structure/morphology of dense and porous membranes and their separation characteristics. Use of nanotechnology for design of selective membranes and models of membrane transport (flux and selectivity). Examples provided from various fields/applications, including biotechnology, microelectronics, chemical processes, sensors, and biomedical devices. Concurrently scheduled with course C221. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101A"},
+            {"type": "requisite","course": "CH ENGR 101C"},
+            {"type": "requisite","course": "CH ENGR 103"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C124",
+        "title": "Cell Material Interactions",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course 45. Introduction to design and synthesis of biomaterials for regenerative medicine, in vitro cell culture, and drug delivery. Biological principles of cellular microenvironment and design of extracellular matrix analogs using biological and engineering principles. Biomaterials for growth factor, and DNA and siRNA delivery as therapeutics and to facilitate tissue regeneration. Use of stem cells in tissue engineering. Concurrently scheduled with course C224. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 45"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C125",
+        "title": "Bioseparations and Bioprocess Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced corequisite: course 101C. Separation strategies, unit operations, and economic factors used to design processes for isolating and purifying materials like whole cells, enzymes, food additives, or pharmaceuticals that are products of biological reactors. Concurrently scheduled with course CM225. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C126",
+        "title": "Viruses and Biotechnology",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course CM145. Introduction of viruses and their varied roles in biotechnology, from utilization of viral enzymes to biotechnologies used to combat viral infectious diseases. Basic concepts of virology. Focus on use of viruses, including bacteriophages, and viral proteins as tools in biotechnology. Examples include bacteriophage display, virus-based nanomaterials, and viral vectors for gene delivery, and vaccines. Covers case studies of viral diseases and biotechnological strategies for diagnosis, prevention, and treatment. Examples include human immunodeficiency virus and coronaviruses. Students conduct literature searches and write paper on relevant topic of their choice. Concurrently scheduled with course C226. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR CM145"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C128",
+        "title": "Hydrogen",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: Chemistry 20A. Electronic, physical, and chemical properties of hydrogen. Various methods of production, including production through methane steam reforming, electrolysis, and thermochemical cycles. Description in depth of several uses of hydrogen, including hydrogen combustion and hydrogen fuel cells. Concurrently scheduled with course C228. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C135",
+        "title": "Advanced Process Control",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 107. Introduction to advanced process control. Topics include (1) Lyapunov stability for autonomous nonlinear systems including converse theorems, (2) input to state stability, interconnected systems, and small gain theorems, (3) design of nonlinear and robust controllers for various classes of nonlinear systems, (4) model predictive control of linear and nonlinear systems, (5) advanced methods for tuning of classical controllers, and (6) introduction to control of distributed parameter systems. Concurrently scheduled with course C235. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 107"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C135",
+        "title": "Advanced Process Control",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 107. Introduction to advanced process control. Topics include (1) Lyapunov stability for autonomous nonlinear systems including converse theorems, (2) input to state stability, interconnected systems, and small gain theorems, (3) design of nonlinear and robust controllers for various classes of nonlinear systems, (4) model predictive control of linear and nonlinear systems, (5) advanced methods for tuning of classical controllers, and (6) introduction to control of distributed parameter systems. Concurrently scheduled with course C235. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 107"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C140",
+        "title": "Fundamentals of Aerosol Technology",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Enforced requisite: course 101C. Technology of particle/gas systems with applications to gas cleaning, commercial production of fine particles, and catalysis. Particle transport and deposition, optical properties, experimental methods, dynamics and control of particle formation processes. Concurrently scheduled with course C240. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C140",
+        "title": "Fundamentals of Aerosol Technology",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Enforced requisite: course 101C. Technology of particle/gas systems with applications to gas cleaning, commercial production of fine particles, and catalysis. Particle transport and deposition, optical properties, experimental methods, dynamics and control of particle formation processes. Concurrently scheduled with course C240. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C146",
+        "title": "Systems Biology: Intracellular Network Identification and Analysis",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisites: course CM145, Mathematics 31A, 31B, 32A, 33B. Systems approach to intracellular network identification and analysis. Transcriptional regulatory networks, protein networks, and metabolic networks. Data from genome sequencing, large-scale expression analysis, and other high-throughput techniques provide bases for systems identification and analysis. Discussion of gene-metabolic network synthesis. Concurrently scheduled with course C246. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR CM145"},
+            {"type": "requisite","course": "MATH 31A"},
+            {"type": "requisite","course": "MATH 31B"},
+            {"type": "requisite","course": "MATH 32A"},
+            {"type": "requisite","course": "MATH 33B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C146",
+        "title": "Systems Biology: Intracellular Network Identification and Analysis",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisites: course CM145, Mathematics 31A, 31B, 32A, 33B. Systems approach to intracellular network identification and analysis. Transcriptional regulatory networks, protein networks, and metabolic networks. Data from genome sequencing, large-scale expression analysis, and other high-throughput techniques provide bases for systems identification and analysis. Discussion of gene-metabolic network synthesis. Concurrently scheduled with course C246. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR CM145"},
+            {"type": "requisite","course": "MATH 31A"},
+            {"type": "requisite","course": "MATH 31B"},
+            {"type": "requisite","course": "MATH 32A"},
+            {"type": "requisite","course": "MATH 33B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C211",
+        "title": "Cryogenics and Low-Temperature Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Fundamentals of cryogenics and cryoengineering science pertaining to industrial low-temperature processes. Basic approaches to analysis of cryofluids and envelopes needed for operation of cryogenic systems; low-temperature behavior of matter, optimization of cryosystems and other special conditions. Concurrently scheduled with course C111. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C211",
+        "title": "Cryogenics and Low-Temperature Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Fundamentals of cryogenics and cryoengineering science pertaining to industrial low-temperature processes. Basic approaches to analysis of cryofluids and envelopes needed for operation of cryogenic systems; low-temperature behavior of matter, optimization of cryosystems and other special conditions. Concurrently scheduled with course C111. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C212",
+        "title": "Polymer Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 101A, Chemistry 30A. Formation of polymers, criteria for selecting reaction scheme, polymerization techniques, polymer characterization. Mechanical properties. Rheology of macromolecules, polymer process engineering. Diffusion in polymeric systems. Polymers in biomedical applications and in microelectronics. Concurrently scheduled with course C112. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101A"},
+            {"type": "requisite","course": "CHEM 30A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C212",
+        "title": "Polymer Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 101A, Chemistry 30A. Formation of polymers, criteria for selecting reaction scheme, polymerization techniques, polymer characterization. Mechanical properties. Rheology of macromolecules, polymer process engineering. Diffusion in polymeric systems. Polymers in biomedical applications and in microelectronics. Concurrently scheduled with course C112. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101A"},
+            {"type": "requisite","course": "CHEM 30A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C216",
+        "title": "Surface and Interface Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Introduction to surfaces and interfaces of engineering materials, particularly catalytic surface and thin films for solid-state electronic devices. Topics include classification of crystals and surfaces, analysis of structure and composition of crystals and their surfaces and interfaces. Examination of engineering applications, including catalytic surfaces, interfaces in microelectronics, and solid-state laser. May be concurrently scheduled with course C116. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C218",
+        "title": "Multimedia Environmental Assessment",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; preparation, two hours; outside study, five hours. Recommended requisites: courses 101C, 102B. Pollutant sources, estimation of source releases, waste minimization, transport and fate of chemical pollutants in environment, intermedia transfers of pollutants, multimedia modeling of chemical partitioning in environment, exposure assessment and fundamentals of risk assessment, risk reduction strategies. Concurrently scheduled with course C118. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C219",
+        "title": "Pollution Prevention for Chemical Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 108A. Systematic methods for design of environment-friendly processes. Development of methods at molecular, unit-operation, and network levels. Synthesis of mass exchange, heat exchange, and reactor networks. Concurrently scheduled with course C119. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 108A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C221",
+        "title": "Membrane Science and Technology",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 101A, 101C, 103. Fundamentals of membrane science and technology, with emphasis on separations at micro, nano, and molecular/angstrom scale with membranes. Relationship between structure/morphology of dense and porous membranes and their separation characteristics. Use of nanotechnology for design of selective membranes and models of membrane transport (flux and selectivity). Examples provided from various fields/applications, including biotechnology, microelectronics, chemical processes, sensors, and biomedical devices. Concurrently scheduled with course C121. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101A"},
+            {"type": "requisite","course": "CH ENGR 101C"},
+            {"type": "requisite","course": "CH ENGR 103"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C224",
+        "title": "Cell Material Interactions",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course 45. Introduction to design and synthesis of biomaterials for regenerative medicine, in vitro cell culture, and drug delivery. Biological principles of cellular microenvironment and design of extracellular matrix analogs using biological and engineering principles. Biomaterials for growth factor, and DNA and siRNA delivery as therapeutics and to facilitate tissue regeneration. Use of stem cells in tissue engineering. Concurrently scheduled with course C124. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 45"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C226",
+        "title": "Viruses and Biotechnology",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course CM145. Introduction of viruses and their varied roles in biotechnology, from utilization of viral enzymes to biotechnologies used to combat viral infectious diseases. Basic concepts of virology. Focus on use of viruses, including bacteriophages, and viral proteins as tools in biotechnology. Examples include bacteriophage display, virus-based nanomaterials, and viral vectors for gene delivery, and vaccines. Covers case studies of viral diseases and biotechnological strategies for diagnosis, prevention, and treatment. Examples include human immunodeficiency virus and coronaviruses. Students conduct literature searches and write paper on relevant topic of their choice. Concurrently scheduled with course C126. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR CM145"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C226",
+        "title": "Viruses and Biotechnology",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course CM145. Introduction of viruses and their varied roles in biotechnology, from utilization of viral enzymes to biotechnologies used to combat viral infectious diseases. Basic concepts of virology. Focus on use of viruses, including bacteriophages, and viral proteins as tools in biotechnology. Examples include bacteriophage display, virus-based nanomaterials, and viral vectors for gene delivery, and vaccines. Covers case studies of viral diseases and biotechnological strategies for diagnosis, prevention, and treatment. Examples include human immunodeficiency virus and coronaviruses. Students conduct literature searches and write paper on relevant topic of their choice. Concurrently scheduled with course C126. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR CM145"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C228",
+        "title": "Hydrogen",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: Chemistry 20A. Electronic, physical, and chemical properties of hydrogen. Various methods of production, including production through methane steam reforming, electrolysis, and thermochemical cycles. Description in depth of several uses of hydrogen, including hydrogen combustion and hydrogen fuel cells. Concurrently scheduled with course C128. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C228",
+        "title": "Hydrogen",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: Chemistry 20A. Electronic, physical, and chemical properties of hydrogen. Various methods of production, including production through methane steam reforming, electrolysis, and thermochemical cycles. Description in depth of several uses of hydrogen, including hydrogen combustion and hydrogen fuel cells. Concurrently scheduled with course C128. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C235",
+        "title": "Advanced Process Control",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 107. Introduction to advanced process control. Topics include (1) Lyapunov stability for autonomous nonlinear systems including converse theorems, (2) input to state stability, interconnected systems, and small gain theorems, (3) design of nonlinear and robust controllers for various classes of nonlinear systems, (4) model predictive control of linear and nonlinear systems, (5) advanced methods for tuning of classical controllers, and (6) introduction to control of distributed parameter systems. Concurrently scheduled with course C135. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 107"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C235",
+        "title": "Advanced Process Control",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 107. Introduction to advanced process control. Topics include (1) Lyapunov stability for autonomous nonlinear systems including converse theorems, (2) input to state stability, interconnected systems, and small gain theorems, (3) design of nonlinear and robust controllers for various classes of nonlinear systems, (4) model predictive control of linear and nonlinear systems, (5) advanced methods for tuning of classical controllers, and (6) introduction to control of distributed parameter systems. Concurrently scheduled with course C135. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 107"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C240",
+        "title": "Fundamentals of Aerosol Technology",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Enforced requisite: course 101C. Technology of particle/gas systems with applications to gas cleaning, commercial production of fine particles, and catalysis. Particle transport and deposition, optical properties, experimental methods, dynamics and control of particle formation processes. Concurrently scheduled with course C140. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C240",
+        "title": "Fundamentals of Aerosol Technology",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Enforced requisite: course 101C. Technology of particle/gas systems with applications to gas cleaning, commercial production of fine particles, and catalysis. Particle transport and deposition, optical properties, experimental methods, dynamics and control of particle formation processes. Concurrently scheduled with course C140. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C246",
+        "title": "Systems Biology: Intracellular Network Identification and Analysis",
+        "units": 4,
+        "description": "(Formerly numbered 246.) Lecture, four hours; outside study, eight hours. Requisites: course CM245, Mathematics 31A, 31B, 32A, 33B. Systems approach to intracellular network identification and analysis. Transcriptional regulatory networks, protein networks, and metabolic networks. Data from genome sequencing, large-scale expression analysis, and other high-throughput techniques provide bases for systems identification and analysis. Discussion of gene-metabolic network synthesis. Concurrently scheduled with course C146. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR CM245"},
+            {"type": "requisite","course": "MATH 31A"},
+            {"type": "requisite","course": "MATH 31B"},
+            {"type": "requisite","course": "MATH 32A"},
+            {"type": "requisite","course": "MATH 33B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR C246",
+        "title": "Systems Biology: Intracellular Network Identification and Analysis",
+        "units": 4,
+        "description": "(Formerly numbered 246.) Lecture, four hours; outside study, eight hours. Requisites: course CM245, Mathematics 31A, 31B, 32A, 33B. Systems approach to intracellular network identification and analysis. Transcriptional regulatory networks, protein networks, and metabolic networks. Data from genome sequencing, large-scale expression analysis, and other high-throughput techniques provide bases for systems identification and analysis. Discussion of gene-metabolic network synthesis. Concurrently scheduled with course C146. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR CM245"},
+            {"type": "requisite","course": "MATH 31A"},
+            {"type": "requisite","course": "MATH 31B"},
+            {"type": "requisite","course": "MATH 32A"},
+            {"type": "requisite","course": "MATH 33B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM114",
+        "title": "Electrochemical Processes",
+        "units": 4,
+        "description": "(Same as Materials Science CM163.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 102B, Mechanical and Aerospace Engineering 105A (or Materials Science 130). Fundamentals of electrochemistry and engineering applications to industrial electrochemical processes. Primary emphasis on fundamental approach to analyze electrochemical processes. Specific topics include electrochemical reactions on metal and semiconductor surfaces, electrodeposition, electroless deposition, electrosynthesis, fuel cells, aqueous and non-aqueous batteries, solid-state electrochemistry. May be concurrently scheduled with course CM214. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102B"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MECH&AE 105A"},{"type": "requisite","course": "MAT SCI 130"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM114",
+        "title": "Electrochemical Processes",
+        "units": 4,
+        "description": "(Same as Materials Science CM163.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: course 102B, Mechanical and Aerospace Engineering 105A (or Materials Science 130). Fundamentals of electrochemistry and engineering applications to industrial electrochemical processes. Primary emphasis on fundamental approach to analyze electrochemical processes. Specific topics include electrochemical reactions on metal and semiconductor surfaces, electrodeposition, electroless deposition, electrosynthesis, fuel cells, aqueous and non-aqueous batteries, solid-state electrochemistry. May be concurrently scheduled with course CM214. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102B"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MECH&AE 105A"},{"type": "requisite","course": "MAT SCI 130"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM127",
+        "title": "Synthetic Biology for Biofuels",
+        "units": 4,
+        "description": "(Same as Chemistry CM127.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Chemistry 153A. Engineering microorganisms for complex phenotype is common goal of metabolic engineering and synthetic biology. Production of advanced biofuels involves designing and constructing novel metabolic networks in cells. Such efforts require profound understanding of biochemistry, protein structure, and biological regulations and are aided by tools in bioinformatics, systems biology, and molecular biology. Fundamentals of metabolic biochemistry, protein structure and function, and bioinformatics. Use of systems modeling for metabolic networks to design microorganisms for energy applications. Concurrently scheduled with course CM227. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 153A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM127",
+        "title": "Synthetic Biology for Biofuels",
+        "units": 4,
+        "description": "(Same as Chemistry CM127.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Chemistry 153A. Engineering microorganisms for complex phenotype is common goal of metabolic engineering and synthetic biology. Production of advanced biofuels involves designing and constructing novel metabolic networks in cells. Such efforts require profound understanding of biochemistry, protein structure, and biological regulations and are aided by tools in bioinformatics, systems biology, and molecular biology. Fundamentals of metabolic biochemistry, protein structure and function, and bioinformatics. Use of systems modeling for metabolic networks to design microorganisms for energy applications. Concurrently scheduled with course CM227. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 153A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM145",
+        "title": "Molecular Biotechnology for Engineers",
+        "units": 4,
+        "description": "(Same as Bioengineering CM145.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course 45 or Life Sciences 7C. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed mutagenesis and protein engineering, DNA-based diagnostics and DNA microarrays, antibody and protein-based diagnostics, genomics and bioinformatics, isolation of human genes, gene therapy, and tissue engineering. Concurrently scheduled with course CM245. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 45"},{"type": "requisite","course": "LIFESCI 7C"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM145",
+        "title": "Molecular Biotechnology for Engineers",
+        "units": 4,
+        "description": "(Same as Bioengineering CM145.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course 45 or Life Sciences 7C. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed mutagenesis and protein engineering, DNA-based diagnostics and DNA microarrays, antibody and protein-based diagnostics, genomics and bioinformatics, isolation of human genes, gene therapy, and tissue engineering. Concurrently scheduled with course CM245. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 45"},{"type": "requisite","course": "LIFESCI 7C"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM214",
+        "title": "Electrochemical Processes",
+        "units": 4,
+        "description": "(Same as Materials Science CM263.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: courses 102B, Mechanical and Aerospace Engineering 105A (or Materials Science 130). Fundamentals of electrochemistry and engineering applications to industrial electrochemical processes. Primary emphasis on fundamental approach to analyze electrochemical processes. Specific topics include electrochemical reactions on metal and semiconductor surfaces, electrodeposition, electroless deposition, electrosynthesis, fuel cells, aqueous and non-aqueous batteries, solid-state electrochemistry. May be concurrently scheduled with course CM114. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102B"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MECH&AE 105A"},{"type": "requisite","course": "MAT SCI 130"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM214",
+        "title": "Electrochemical Processes",
+        "units": 4,
+        "description": "(Same as Materials Science CM263.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: courses 102B, Mechanical and Aerospace Engineering 105A (or Materials Science 130). Fundamentals of electrochemistry and engineering applications to industrial electrochemical processes. Primary emphasis on fundamental approach to analyze electrochemical processes. Specific topics include electrochemical reactions on metal and semiconductor surfaces, electrodeposition, electroless deposition, electrosynthesis, fuel cells, aqueous and non-aqueous batteries, solid-state electrochemistry. May be concurrently scheduled with course CM114. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 102B"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MECH&AE 105A"},{"type": "requisite","course": "MAT SCI 130"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM215",
+        "title": "Biochemical Reaction Engineering",
+        "units": 4,
+        "description": "(Same as Bioengineering M215.) Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 101C. Use of previously learned concepts of biophysical chemistry, thermodynamics, transport phenomena, and reaction kinetics to develop tools needed for technical design and economic analysis of biological reactors. May be concurrently scheduled with course C115. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM215",
+        "title": "Biochemical Reaction Engineering",
+        "units": 4,
+        "description": "(Same as Bioengineering M215.) Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: course 101C. Use of previously learned concepts of biophysical chemistry, thermodynamics, transport phenomena, and reaction kinetics to develop tools needed for technical design and economic analysis of biological reactors. May be concurrently scheduled with course C115. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM225",
+        "title": "Bioseparations and Bioprocess Engineering",
+        "units": 4,
+        "description": "(Same as Bioengineering M225.) Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced corequisite: course 101C. Separation strategies, unit operations, and economic factors used to design processes for isolating and purifying materials like whole cells, enzymes, food additives, or pharmaceuticals that are products of biological reactors. Concurrently scheduled with course C125. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM225",
+        "title": "Bioseparations and Bioprocess Engineering",
+        "units": 4,
+        "description": "(Same as Bioengineering M225.) Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced corequisite: course 101C. Separation strategies, unit operations, and economic factors used to design processes for isolating and purifying materials like whole cells, enzymes, food additives, or pharmaceuticals that are products of biological reactors. Concurrently scheduled with course C125. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM227",
+        "title": "Synthetic Biology for Biofuels",
+        "units": 4,
+        "description": "(Same as Chemistry CM227.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Chemistry 153A. Engineering microorganisms for complex phenotype is common goal of metabolic engineering and synthetic biology. Production of advanced biofuels involves designing and constructing novel metabolic networks in cells. Such efforts require profound understanding of biochemistry, protein structure, and biological regulations and are aided by tools in bioinformatics, systems biology, and molecular biology. Fundamentals of metabolic biochemistry, protein structure and function, and bioinformatics. Use of systems modeling for metabolic networks to design microorganisms for energy applications. Concurrently scheduled with course CM127. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 153A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM227",
+        "title": "Synthetic Biology for Biofuels",
+        "units": 4,
+        "description": "(Same as Chemistry CM227.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Chemistry 153A. Engineering microorganisms for complex phenotype is common goal of metabolic engineering and synthetic biology. Production of advanced biofuels involves designing and constructing novel metabolic networks in cells. Such efforts require profound understanding of biochemistry, protein structure, and biological regulations and are aided by tools in bioinformatics, systems biology, and molecular biology. Fundamentals of metabolic biochemistry, protein structure and function, and bioinformatics. Use of systems modeling for metabolic networks to design microorganisms for energy applications. Concurrently scheduled with course CM127. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 153A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM245",
+        "title": "Molecular Biotechnology for Engineers",
+        "units": 4,
+        "description": "(Same as Bioengineering CM245.) Lecture, four hours; discussion, one hour; outside study, seven hours. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed mutagenesis and protein engineering, DNA-based diagnostics and DNA microarrays, antibody and protein-based diagnostics, genomics and bioinformatics, isolation of human genes, gene therapy, and tissue engineering. Concurrently scheduled with course CM145. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR CM245",
+        "title": "Molecular Biotechnology for Engineers",
+        "units": 4,
+        "description": "(Same as Bioengineering CM245.) Lecture, four hours; discussion, one hour; outside study, seven hours. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed mutagenesis and protein engineering, DNA-based diagnostics and DNA microarrays, antibody and protein-based diagnostics, genomics and bioinformatics, isolation of human genes, gene therapy, and tissue engineering. Concurrently scheduled with course CM145. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR M153",
+        "title": "Introduction to Microscale and Nanoscale Manufacturing",
+        "units": 4,
+        "description": "(Same as Bioengineering M153, Electrical and Computer Engineering M153, and Mechanical and Aerospace Engineering M183B.) Lecture, three hours; laboratory, four hours; outside study, five hours. Enforced requisites: Chemistry 20A, Physics 1A, 1B, 1C, 4AL. Introduction to general manufacturing methods, mechanisms, constrains, and microfabrication and nanofabrication. Focus on concepts, physics, and instruments of various microfabrication and nanofabrication techniques that have been broadly applied in industry and academia, including various photolithography technologies, physical and chemical deposition methods, and physical and chemical etching methods. Hands-on experience for fabricating microstructures and nanostructures in modern clean-room environment. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "PHYSCI 1A"},
+            {"type": "requisite","course": "PHYSCI 1B"},
+            {"type": "requisite","course": "PHYSCI 1C"},
+            {"type": "requisite","course": "PHYSCI 4AL"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR M153",
+        "title": "Introduction to Microscale and Nanoscale Manufacturing",
+        "units": 4,
+        "description": "(Same as Bioengineering M153, Electrical and Computer Engineering M153, and Mechanical and Aerospace Engineering M183B.) Lecture, three hours; laboratory, four hours; outside study, five hours. Enforced requisites: Chemistry 20A, Physics 1A, 1B, 1C, 4AL. Introduction to general manufacturing methods, mechanisms, constrains, and microfabrication and nanofabrication. Focus on concepts, physics, and instruments of various microfabrication and nanofabrication techniques that have been broadly applied in industry and academia, including various photolithography technologies, physical and chemical deposition methods, and physical and chemical etching methods. Hands-on experience for fabricating microstructures and nanostructures in modern clean-room environment. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "PHYSCI 1A"},
+            {"type": "requisite","course": "PHYSCI 1B"},
+            {"type": "requisite","course": "PHYSCI 1C"},
+            {"type": "requisite","course": "PHYSCI 4AL"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR M280A",
+        "title": "Linear Dynamic Systems",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M240A and Mechanical and Aerospace Engineering M270A.) Lecture, four hours; outside study, eight hours. Requisite: Electrical and Computer Engineering 141 or Mechanical and Aerospace Engineering 171A. State-space description of linear time-invariant (LTI) and time-varying (LTV) systems in continuous and discrete time. Linear algebra concepts such as eigenvalues and eigenvectors, singular values, Cayley/Hamilton theorem, Jordan form; solution of state equations; stability, controllability, observability, realizability, and minimality. Stabilization design via state feedback and observers; separation principle. Connections with transfer function techniques. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "EC ENGR 141"},{"type": "requisite","course": "MECH&AE 171A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR M280A",
+        "title": "Linear Dynamic Systems",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M240A and Mechanical and Aerospace Engineering M270A.) Lecture, four hours; outside study, eight hours. Requisite: Electrical and Computer Engineering 141 or Mechanical and Aerospace Engineering 171A. State-space description of linear time-invariant (LTI) and time-varying (LTV) systems in continuous and discrete time. Linear algebra concepts such as eigenvalues and eigenvectors, singular values, Cayley/Hamilton theorem, Jordan form; solution of state equations; stability, controllability, observability, realizability, and minimality. Stabilization design via state feedback and observers; separation principle. Connections with transfer function techniques. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "EC ENGR 141"},{"type": "requisite","course": "MECH&AE 171A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR M280C",
+        "title": "Optimal Control",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M240C and Mechanical and Aerospace Engineering M270C.) Lecture, four hours; outside study, eight hours. Requisite: Electrical and Computer Engineering 240B or Mechanical and Aerospace Engineering 270B. Applications of variational methods, Pontryagin maximum principle, Hamilton/Jacobi/Bellman equation (dynamic programming) to optimal control of dynamic systems modeled by nonlinear ordinary differential equations. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "EC ENGR 240B"},{"type": "requisite","course": "MECH&AE 270B"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR M280C",
+        "title": "Optimal Control",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M240C and Mechanical and Aerospace Engineering M270C.) Lecture, four hours; outside study, eight hours. Requisite: Electrical and Computer Engineering 240B or Mechanical and Aerospace Engineering 270B. Applications of variational methods, Pontryagin maximum principle, Hamilton/Jacobi/Bellman equation (dynamic programming) to optimal control of dynamic systems modeled by nonlinear ordinary differential equations. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "EC ENGR 240B"},{"type": "requisite","course": "MECH&AE 270B"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR M282A",
+        "title": "Nonlinear Dynamic Systems",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M242A and Mechanical and Aerospace Engineering M272A.) Lecture, four hours; outside study, eight hours. Requisite: course M280A or Electrical and Computer Engineering M240A or Mechanical and Aerospace Engineering M270A. State-space techniques for studying solutions of time-invariant and time-varying nonlinear dynamic systems with emphasis on stability. Lyapunov theory (including converse theorems), invariance, center manifold theorem, input-to-state stability and small-gain theorem. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR M280A"},{"type": "requisite","course": "EC ENGR M240A"},{"type": "requisite","course": "MECH&AE M270A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR M282A",
+        "title": "Nonlinear Dynamic Systems",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M242A and Mechanical and Aerospace Engineering M272A.) Lecture, four hours; outside study, eight hours. Requisite: course M280A or Electrical and Computer Engineering M240A or Mechanical and Aerospace Engineering M270A. State-space techniques for studying solutions of time-invariant and time-varying nonlinear dynamic systems with emphasis on stability. Lyapunov theory (including converse theorems), invariance, center manifold theorem, input-to-state stability and small-gain theorem. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR M280A"},{"type": "requisite","course": "EC ENGR M240A"},{"type": "requisite","course": "MECH&AE M270A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR M297",
+        "title": "Seminar: Systems, Dynamics, and Control Topics",
+        "units": 2,
+        "description": "(Same as Electrical and Computer Engineering M248S and Mechanical and Aerospace Engineering M299A.) Seminar, two hours; outside study, six hours. Limited to graduate engineering students. Presentations of research topics by leading academic researchers from fields of systems, dynamics, and control. Students who work in these fields present their papers and results. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "CH ENGR M297",
+        "title": "Seminar: Systems, Dynamics, and Control Topics",
+        "units": 2,
+        "description": "(Same as Electrical and Computer Engineering M248S and Mechanical and Aerospace Engineering M299A.) Seminar, two hours; outside study, six hours. Limited to graduate engineering students. Presentations of research topics by leading academic researchers from fields of systems, dynamics, and control. Students who work in these fields present their papers and results. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

@@ -1,0 +1,789 @@
+[
+    {
+        "id": "FRNCH 1",
+        "title": "Elementary French",
+        "units": 4,
+        "description": "Lecture, two and one half hours. Taught in French. Introductory study of French language and culture. Focus on interactive activities and application of concepts learned through outside self-study and foundational learning. Emphasis on proficiency, communication, and task-based learning to develop skills in listening, speaking, reading, and writing, as well as cultural awareness. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 100",
+        "title": "Written Expression: Techniques of Description and Narration",
+        "units": 5,
+        "description": "Lecture, three hours. Requisite: course 5. Taught in French. Writing assignments follow close analysis of relevant texts, film, and related grammatical structures. Examination of vocabulary and structures associated with descriptive writing and French verb tense system required for narration. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 101",
+        "title": "Advanced Expository Writing: Techniques of Argumentation",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 5. Study of rhetorical devices and revision of related grammatical structures. Writing assignments follow analysis of relevant texts. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 104",
+        "title": "Theory and Correction of Diction",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6. Study of individual sounds (vowels, consonants, and semi-vowels), including rhythm, intonation, and phrasing, and of learning sound-spelling correspondences to help sight read accurately. Thorough study of symbols of International Phonetic Alphabet (IPA) to give students tools to work on pronunciation systematically. Standard French serves as model, with examination of pronunciation changes and various dialects that are spoken in Francophone world to improve listening comprehension and pronunciation. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 105",
+        "title": "Structure of French",
+        "units": 4,
+        "description": "Lecture, three hours. Prior background in linguistics not required. Introduction to linguistic analysis of French in areas of phonology, morphology, syntax, and language variation. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 107",
+        "title": "Advanced Oral Expression",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 6. Discussion and analysis of current events and sociocultural issues; techniques of argumentation. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 108",
+        "title": "Advanced Practical Translation",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 5. Translation of literary, sociocultural, and journalistic texts. May include editorials, polemical issues, film subtitles, biography and interview, formal and informal reporting, advertising and idiomatic language. Comparative stylistics of translation. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 109",
+        "title": "French for Professional Purposes: Language and Communication in Professional Environment",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 6. Oral and written communication in professional environment, including job search (r\u00e9sum\u00e9 and cover letter), correspondence (professional letter and e-mail), and how to understand and negotiate work life in French-speaking company. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 110XP",
+        "title": "French in Community",
+        "units": 5,
+        "description": "Lecture, three hours; fieldwork, four hours. Requisite: course 5. Prepares students for the business world by building a bridge between their academic learning and the local business community. Students work directly with local Francophone companies (e.g., small businesses, local chambers of commerce, and associations serving the Francophone communities). They develop their cultural awareness and French language competencies in class through readings and discussions, and apply their knowledge to their fieldwork. Their intercultural competencies are a tremendous asset for the partner company as well as their ability to perform both in English and French. By working closely with their community partners, students develop important business relationships. Students have the option to take the Dipl\u00f4me du Fran\u00e7ais Professionnel delivered by the Chambre du Commerce et d'Industrie de Paris. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 114A",
+        "title": "Survey of French Literature: Medieval and Renaissance Literature",
+        "units": 5,
+        "description": "Lecture, three hours. Requisite: course 12. Masterpieces of medieval and Renaissance literature, including examples of epic (La Chanson de Roland), romance (Chr\u00e9tien de Troyes' Yvain), and Renaissance prose and poetry (including Marot, Du Bellay, Ronsard, Rabelais, Marguerite de Navarre, and Montaigne). P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 12"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 114B",
+        "title": "Survey of French Literature: 17th and 18th Centuries",
+        "units": 5,
+        "description": "Lecture, three hours. Requisite: course 12. Study of selections from major works of classicism and Enlightenment, including those by Racine, Pascal, La Fayette, La Fontaine, Laclos, Diderot, Voltaire, and Rousseau. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 12"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 114C",
+        "title": "Survey of French Literature: 19th and 20th Centuries",
+        "units": 5,
+        "description": "Lecture, three hours. Requisite: course 5. Taught in French. Study of major literary movements and writers of period, including works by Balzac, Baudelaire, Duras, Flaubert, Gide, Hugo, Proust, Robbe-Grillet, Sartre, Stendhal, and Zola. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 115",
+        "title": "Studies in Medieval French Culture and Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Study of medieval French culture and literature, including lyric poetry and narrative romance, history of medieval warfare, comedy, and class structures. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 116",
+        "title": "Studies in Renaissance French Culture and Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Taught in French. Study of Renaissance French culture and literature, including la Pl\u00e9iade and 16th-century poetry, linguistic and poetic revolution, novel and early prose, and late French humanism. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 117",
+        "title": "Studies in 17th-Century French Culture and Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Study of 17th-century French culture and literature, including theater, philosophers, moralists, novelists, and cultural, political, social, religious, and courtly aspects. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 118",
+        "title": "Studies in 18th-Century French Culture and Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Taught in French. Study of 18th-century French culture and literature, including satire, novel, theater, philosophers, and theoretical writings. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 119",
+        "title": "Studies in 19th-Century French Culture and Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Study of 19th-century French culture and literature, including Romanticism, generation of 1848, naturalism and symbolism, and genres and trends from 1885 through World War I. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 12",
+        "title": "Introduction to Study of French and Francophone Literature",
+        "units": 5,
+        "description": "Lecture, two hours; discussion, one hour. Enforced requisite: course 6. Principles of literary analysis as applied to selected texts in poetry, theater, and prose by French and Francophone writers. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 120",
+        "title": "Studies in 20th-Century French Culture and Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 5. Taught in French. Study of 20th-century French culture and literature, including early 20th-century writers, surrealism, literature from 1915 to 1945, post-World War II literature, existentialism, new novel, theater, and poetry. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 121",
+        "title": "Studies in Francophone Cultures and Literatures",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Study of Francophone cultures and literatures, including works by poets, playwrights, and novelists from Caribbean, North Africa, Quebec, and sub-Saharan Africa, immigrant narratives, and colonialism and postcolonial studies. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 130",
+        "title": "Contemporary French and Francophone Cultures",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 5. Taught in French. Study of contemporary France and Francophone world (Africa, Asia, Caribbean, Quebec), government, institutions, and cultural, economic, social, and political issues. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 133",
+        "title": "French and Francophone Short Story",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: French 5. Taught in French. Survey of short fiction forms in France and Francophone world. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 135",
+        "title": "Eco-Citizenship: Encounters with Eco-Citizens",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6. Taught in French. Not open to students with credit for course 165. Exploration of what eco-citizen is, what it means to be eco-citizen, if we are eco-citizens, and why. Answers to these questions by studying sustainability in France. Study of French cities (i.e., Nantes) that act as real-life laboratories. Using reading, videos, and podcasts, students make observations and draw some conclusions regarding concept of eco-citizenship. Study of some theories on eco-citizenship developed by French thinkers. Exploration of how French citizens aspire to be eco-citizens. Students meet with them formally and informally through readings, videos, and virtual meetings. Examination of several experiments put in place by these cities, and assessment of whether these are successes or failures. Comparison and contrast of actions to protect environment developed in Los Angeles and at UCLA. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 136",
+        "title": "French and Francophone Autobiography",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 5. Taught in French. Rhetoric of genre and its relation to broad questions of identity, gender, race, and class. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 137",
+        "title": "French and Francophone Intellectual History",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: French 5. Taught in French. Exploration of themes that address particular problem of French literature, civilization, or ideas. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 138",
+        "title": "Contemporary French Theory",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 12 or 100. Taught in French. Study of French theorists (Barthes, Baudrillard, Cixous, Derrida, Foucault, Irigaray) and major concepts in contemporary French thought, with attention to its influence on and application to literary and nonliterary texts. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "FRNCH 12"},{"type": "requisite","course": "FRNCH 100"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 139",
+        "title": "Paris: Study of French Capital",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 5. Taught in French. Textual and visual exploration of historical and imaginary (re)constructions of Paris, beginning with its earliest history and gradual formation of this great urban complex in maps from Renaissance to 20th century. Study of city's streets and quarters, traffic and transportation, multiple layers of past, present, and future, and fl\u00e2neurs and insurrectionists through wide range of literary and critical texts. Readings cover mainly 19th and 20th centuries-Honor\u00e9 de Balzac, Charles Baudelaire, Emile Zola, Marcel Proust, Louis-Ferdinand C\u00e9line, and others. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 14",
+        "title": "Introduction to French Culture and Civilization in English",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course 14W. Study of contemporary French institutions and issues in cultural, political, and socioeconomic realms. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 140",
+        "title": "Nantes: Shape of City",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6. Taught in French. Not open for credit to students with credit for course 170. Metaphorical and virtual exploration of city of Nantes in western France to discover rich culture. Study of French government's repressive measures against Breton culture, and especially Breton language. Examination of Nantes's dark part, i.e. 18th-century slave trade. Study of how people today made it their mission to recover this repressed memory, and to create connections with African countries, victims of slave trade. Examination of Nantes's industrial part and how in recent years old and abandoned industrial sites are transformed into inclusive spaces such as village solidaire, place to combat homelessness and promote social connections for all. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 141",
+        "title": "French Cinema",
+        "units": 4,
+        "description": "Lecture, three hours. Study of French cinema and cinematographers in generic, thematic, and sociocultural aspects. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 142",
+        "title": "Francophone Cinema",
+        "units": 4,
+        "description": "Lecture, three hours. Study of Francophone (Africa, Caribbean, postcolonial communities in France) cinema and cinematographers in generic, thematic, and sociocultural aspects. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 14W",
+        "title": "Introduction to French Culture and Civilization in English",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3 or 3H or English as a Second Language 36. Not open for credit to students with credit for course 14. Study of contemporary French institutions and issues in cultural, political, and socioeconomic realms. Satisfies Writing II requirement. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ENGCOMP 3"},{"type": "requisite","course": "ENGCOMP 3H"},{"type": "requisite","course": "ESL 36"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 16",
+        "title": "Society And Self in Early Modern France",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Role of religion, politics, and sociability in constructing self and understanding its relation with society in early modern France. Development of students' critical thought and knowledge of French and European intellectual tradition. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 160",
+        "title": "Francophone Cultures in English",
+        "units": 4,
+        "description": "Lecture, three hours. Study of historical, anthropological, legal, literary, or filmic texts to provide students with broad view of some main issues in field of colonial and postcolonial Francophone studies. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 161",
+        "title": "French and Francophone Theater in Translation",
+        "units": 4,
+        "description": "Lecture, three hours. Through plays of 20th century, analysis of struggles of individuals and social groups in contexts that are historical, political, philosophical (existentialism, absurd), and cultural (colonialism and conformism). May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 163",
+        "title": "French and Francophone Short Story in Translation",
+        "units": 4,
+        "description": "Lecture, three hours. Survey of short fiction forms in France and Francophone world. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 164",
+        "title": "French and Francophone Novel in Translation",
+        "units": 4,
+        "description": "Lecture, three hours. Study of French novels. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 165",
+        "title": "Eco-Citizenship: Encounters with Eco-Citizens in Translation",
+        "units": 4,
+        "description": "Lecture, three hours. Not open to students with credit for course 135. Exploration of what eco-citizen is, what it means to be eco-citizen, if we are eco-citizens, and why. Answers to these questions by studying sustainability in France. Study of French cities (i.e., Nantes) that act as real-life laboratories. Using reading, videos, and podcasts, students make observations and draw some conclusions regarding concept of eco-citizenship. Study of some theories on eco-citizenship developed by French thinkers. Exploration of how French citizens aspire to be eco-citizens. Students meet with them formally and informally through readings, videos, and virtual meetings. Examination of several experiments put in place by these cities, and assessment of whether these are successes or failures. Comparison and contrast of actions to protect environment developed in Los Angeles and at UCLA. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 166",
+        "title": "French and Francophone Autobiography in Translation",
+        "units": 4,
+        "description": "Lecture, three hours. Rhetoric of genre and its relation to broad questions of identity, gender, race, and class. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 167",
+        "title": "French and Francophone Intellectual History in Translation",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of French and Francophone writers, historians, and thinkers. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 169",
+        "title": "Paris: Study of French Capital in Translation",
+        "units": 4,
+        "description": "Lecture, three hours. Textual and visual exploration of historical and imaginary (re)constructions of Paris, beginning with its earliest history and gradual formation of this great urban complex in maps from Renaissance to 20th century. Study of city's streets and quarters, traffic and transportation, multiple layers of past, present, and future, and fl\u00e2neurs and insurrectionists through wide range of literary and critical texts. Readings cover mainly 19th and 20th centuries-Victor Hugo, Charles Baudelaire, Jules Verne, Emile Zola, Andr\u00e9 Breton, Walter Benjamin, Roland Barthes, and others. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 170",
+        "title": "Nantes: Shape of City in Translation",
+        "units": 4,
+        "description": "Lecture, three hours. Not open for credit to students with credit for course 140. Metaphorical and virtual exploration of city of Nantes in western France to discover rich culture. Study of French government's repressive measures against Breton culture, and especially Breton language. Examination of Nantes's dark part, i.e. 18th-century slave trade. Study of how people today made it their mission to recover this repressed memory, and to create connections with African countries, victims of slave trade. Examination of Nantes's industrial part and how in recent years old and abandoned industrial sites are transformed into inclusive spaces such as village solidaire, place to combat homelessness and promote social connections for all. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 191A",
+        "title": "Variable Topics Research Seminars in Translation",
+        "units": 4,
+        "description": "Seminar, three hours. Research seminars on topics to be announced each term. Topics include major writers, genres, cultural movements, or theoretical practices. Reading, discussion, and development of culminating project. May be repeated for credit with consent of major adviser. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 191B",
+        "title": "Variable Topics Research Seminars: French",
+        "units": 4,
+        "description": "Seminar, three hours. Taught in French. Research seminars on topics to be announced each term. Topics include major writers, genres, cultural movements, or theoretical practices. Reading, discussion, and development of culminating project. May be repeated for credit with consent of major adviser. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 195",
+        "title": "Community or Corporate Internships in French",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Internship in supervised setting in community agency or business. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for credit. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 198",
+        "title": "Honors Research in French",
+        "units": 4,
+        "description": "Tutorial, three hours. Limited to junior/senior French majors with 3.5 departmental and 3.25 overall grade-point averages. Development and completion of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 199",
+        "title": "Directed Research or Senior Project in French",
+        "units": 2,
+        "description": "Tutorial, three hours. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 2",
+        "title": "Elementary French",
+        "units": 4,
+        "description": "Lecture, two and one half hours. Enforced requisite: course 1 with grade of C- or better. Taught in French. Introductory study of French language and culture. Focus on interactive activities and application of concepts learned through outside self-study and foundational learning. Emphasis on proficiency, communication, and task-based learning to develop skills in listening, speaking, reading, and writing, as well as cultural awareness. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 200",
+        "title": "Contemporary French Theories",
+        "units": 4,
+        "description": "Lecture, three hours. Introductory study of French structuralist and poststructuralist thought in literature, linguistics, psychoanalysis, anthropology, philosophy, and feminism, that may include texts by Althusser, Barthes, Deleuze, Derrida, Foucault, Genette, Irigaray, Kristeva, Lacan, Lyotard, and others. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 201",
+        "title": "Techniques of Literary Analysis",
+        "units": 4,
+        "description": "Lecture, three hours. Practice in close analysis of literary texts, including explication de teste. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 202",
+        "title": "Cultural Studies",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to theoretical approaches to popular and mass culture, and to postcolonial and Francophone cultures. Topics include emergent disciplines and theories such as sociology and structuralism, city, revolution, avant-garde strategies, media, diaspora during postwar modernization, Algerian War, May 68, and beyond. Theorists include Barthes, de Certeau, Bourdieu, Baudrillard, Lyotard, Ross, Rey Chow, Virilio. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 203",
+        "title": "Contemporary Francophone Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Study of Francophone African, Caribbean, Vietnamese, or Quebec literatures and cultures, with specific attention to issues of cultural contact, language, colonialism, anticolonialism, nationalism, resistance and dissidence, and postcolonial theory. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 204",
+        "title": "Studies in Autobiography",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to theories of autobiography and subjectivity, and to genre of autobiography in literatures in French across centuries. Topics include early modern approaches to self-writing, Rousseau and emergence of modern self, women's autobiography in France and Francophone world. Theorists may include Georges Gusdorf, Philippe Lejeune, Paul de Man, Jacques Derrida, Helene Cixous, Michel Foucault, Pierre Bourdieu, Toril Moi. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 205",
+        "title": "Studies in Cinema and Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Discussion of selected topics in French and Francophone cinema and literature. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 207",
+        "title": "Studies in History of Ideas",
+        "units": 4,
+        "description": "Seminar, three hours. Particular problems in French literature and ideas. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 208",
+        "title": "Studies in Literary Criticism",
+        "units": 4,
+        "description": "Seminar, three hours. Readings in literary criticism, theory, and literature from any period of French literature. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 209",
+        "title": "Studies in Literary Genre",
+        "units": 4,
+        "description": "Seminar, three hours. Advanced research and study of literary genres such as poetry, drama, fiction, autobiography, or performance and of theory of these genres. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 214",
+        "title": "Problematics of Medieval Language and Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to Old French and problematics of medieval literature. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 215",
+        "title": "Studies in Middle Ages",
+        "units": 4,
+        "description": "Seminar, three hours. Examination of nature of cross-cultural, crosslinguistic, and cross-confessional exchange in medieval and early modern periods and France's role in it. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 216",
+        "title": "Renaissance",
+        "units": 4,
+        "description": "Lecture, three hours. French literature of 16th century studied within historical, intellectual, and cultural contexts. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 217",
+        "title": "17th Century",
+        "units": 4,
+        "description": "Lecture, three hours. Readings in 17th-century literature studied within historical, cultural, and literary contexts. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 218",
+        "title": "Enlightenment",
+        "units": 4,
+        "description": "Lecture, three hours. Readings in 18th-century French literature and thought: novels, satires, plays, and other key Enlightenment philosophies. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 219",
+        "title": "19th Century",
+        "units": 4,
+        "description": "Lecture, three hours. Readings in 19th-century literature, covering development of novel, lyric poetry, and theater from Romantic period to fin-de-siecle. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 220",
+        "title": "20th Century",
+        "units": 4,
+        "description": "Lecture, three hours. Overview, both historical and analytical, of 20th-century French literature set in context of several key critical topics that interrogate canonical interpretation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 296",
+        "title": "Research Methods and Writing",
+        "units": 2,
+        "description": "Seminar, two hours. Advanced study of current topics in literary and cultural analysis and in critical theory. Discussion of current research and literature in research specialty of faculty member teaching course. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 3",
+        "title": "Elementary French",
+        "units": 4,
+        "description": "Lecture, two and one half hours. Enforced requisite: course 2 with grade of C- or better. Taught in French. Introductory study of French language and culture. Focus on interactive activities and application of concepts learned through outside self-study and foundational learning. Emphasis on proficiency, communication, and task-based learning to develop skills in listening, speaking, reading, and writing, as well as cultural awareness. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 2"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 4",
+        "title": "Intermediate French",
+        "units": 4,
+        "description": "Lecture, four hours. Enforced requisite: course 3 with grade of C- or better. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 41",
+        "title": "French Cinema and Culture",
+        "units": 5,
+        "description": "Lecture/screenings, five hours; discussion, one hour. Introduction to French culture and literature through study of films of cultural and literary significance. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 5",
+        "title": "Intermediate French",
+        "units": 4,
+        "description": "Lecture, four hours. Enforced requisite: course 4 with grade of C- or better. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 4"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 596",
+        "title": "Directed Individual Studies or Research",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 597",
+        "title": "Preparation for Second-Year Review or PhD Qualifying Examinations",
+        "units": 2,
+        "description": "Tutorial, to be arranged. May be repeated for maximum of 16 units. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 598",
+        "title": "Research for and Preparation of MA Thesis",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Maximum of 4 units may be applied toward MA degree requirements. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 599",
+        "title": "Research for and Preparation of PhD Dissertation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 6",
+        "title": "Intermediate French",
+        "units": 4,
+        "description": "Lecture, four hours. Enforced requisite: course 5 with grade of C- or better. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 60",
+        "title": "French and Francophone Novel",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Study of literary masterpieces produced by writers from France and Francophone world (Canada, Africa, Caribbean, etc.) from 17th to early 21st century. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 8",
+        "title": "Intensive First-Year French",
+        "units": 12,
+        "description": "Lecture, 15 hours. All-in-French intensive language program equivalent to first year of college French and designed to develop basic language skills. Additional work in language and media laboratory required. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 9",
+        "title": "Intensive Second-Year French",
+        "units": 8,
+        "description": "Lecture, 10 hours; media laboratory, three hours. Enforced requisite: course 3. Intensive course equivalent to first two terms of intermediate French and designed to improve proficiency in reading, writing, and speaking. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FRNCH 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FRNCH M210",
+        "title": "Paleography of Latin and Vernacular Manuscripts, 900 to 1500",
+        "units": 4,
+        "description": "(Same as Classics M218, English M215, and History M218.) Lecture, three hours; discussion, two hours. Introduction to history of Latin and vernacular manuscript book from 900 to 1500 to (1) train students to make informed judgments with regard to place and date of origin, (2) provide training in accurate reading and transcription of later medieval scripts, and (3) examine manuscript book as witness to changing society that produced it. Focus on relationship between Latin manuscripts and vernacular manuscripts with regard to their respective presentation of written texts. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

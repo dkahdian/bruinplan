@@ -1,0 +1,154 @@
+[
+    {
+        "id": "INDO 1",
+        "title": "Introductory Indonesian",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Not open to students who have learned enough Indonesian to qualify for more advanced courses. Coverage of basic Indonesian grammar, with equal emphasis on reading, writing, listening, and speaking skills. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 100A",
+        "title": "Advanced Indonesian",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Indonesian placement test. Preparation for more advanced study of specialized academic subjects, including but not limited to social sciences and humanities. Students read authentic materials in Indonesian concerning various issues. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INDO 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 100B",
+        "title": "Advanced Indonesian",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Indonesian placement test. Preparation for more advanced study of specialized academic subjects, including but not limited to social sciences and humanities. Students read authentic materials in Indonesian concerning various issues. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INDO 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 100C",
+        "title": "Advanced Indonesian",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Indonesian placement test. Preparation for more advanced study of specialized academic subjects, including but not limited to social sciences and humanities. Students read authentic materials in Indonesian concerning various issues. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INDO 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 109",
+        "title": "Advanced Tutorial Instruction in Indonesian",
+        "units": 2,
+        "description": "Tutorial, two hours. Requisite: course 6 or Indonesian placement test. Tutorial and guided independent study to help students develop advanced to superior proficiency in oral and written Indonesian. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INDO 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 2",
+        "title": "Introductory Indonesian",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisite: course 1 with grade of C or better. Not open to students who have learned enough Indonesian to qualify for more advanced courses. Coverage of basic Indonesian grammar, with equal emphasis on reading, writing, listening, and speaking skills. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INDO 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 3",
+        "title": "Introductory Indonesian",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisite: course 2 with grade of C or better. Not open to students who have learned enough Indonesian to qualify for more advanced courses. Coverage of basic Indonesian grammar, with equal emphasis on reading, writing, listening, and speaking skills. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INDO 2"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 4",
+        "title": "Intermediate Indonesian",
+        "units": 5,
+        "description": "Lecture, five hours. Designed to expand language skills acquired in introductory courses and to equip students with good command of communicative competence in Indonesian. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 5",
+        "title": "Intermediate Indonesian",
+        "units": 5,
+        "description": "Lecture, five hours. Enforced requisite: course 4 with grade of C or better. Designed to expand language skills acquired in introductory courses and to equip students with good command of communicative competence in Indonesian. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INDO 4"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 6",
+        "title": "Intermediate Indonesian",
+        "units": 5,
+        "description": "Lecture, five hours. Enforced requisite: course 5. Designed to expand language skills acquired in introductory courses and to equip students with good command of communicative competence in Indonesian. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "INDO 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "INDO 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

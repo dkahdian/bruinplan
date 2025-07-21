@@ -1,0 +1,1160 @@
+[
+    {
+        "id": "HLT POL 100",
+        "title": "Health Care Systems and Health Policy",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour. Limited to nonmajors. Not open for credit to students with credit for course 120. Structure and function of U.S. health care system, health care policy, and issues and forces shaping its future. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 120",
+        "title": "Health Care Systems: Structures, Functions, and Policies",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Limited to Public Health majors. Not open for credit to students with credit for course 100. Introduction to health policy and management focusing on basic concepts underlying health care organization, finance, and policy. Topics include development of U.S. health care system, comparisons to international health care systems, trends in health care spending, role of public and private insurance, care delivery, disparities in health status and health care, and current landscape of health policy reform. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 140",
+        "title": "Foundations of Maternal and Child Health",
+        "units": 4,
+        "description": "Seminar, four hours. Introduction to field of maternal and child health, with focus on major issues affecting health and well-being of children and families over life course. Emphasis on health, prevention, and supportive programs at different stages of child's life; application of life course health development framework to understand health disparities and implications for policy and practice. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 141",
+        "title": "Pharmaceuticals and Health",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to pharmaceutical industry, its connections with government research and regulations, and its marketing and pricing decisions. Exploration of the role of public health in fostering development of new and more advanced pharmaceuticals that support individual and population health. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 142",
+        "title": "How Health Happens",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Health develops in homes, communities, workplaces, and in economic, social, and legal environments. The health of a population is a reflection of the values and priorities of the society of which it is a part. Introduction to factors that influence individual health and the health of populations. Topics include economic policy; environment of cities; and shared culture, unequally and at times uneasily. Emphasis primarily on the determinants of health in the U.S., with occasional international perspective for the insights it provides. Study provides students with a holistic understanding of what it takes to create a healthier society with greater health equity. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 200A",
+        "title": "Health Systems Organization and Financing",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to graduate health services students. In-depth analysis of health services systems in U.S., using relevant theories, concepts, and models. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 200B",
+        "title": "Health Systems Organization and Financing",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to graduate health services students. In-depth analysis of health services systems in U.S., using relevant theories, concepts, and models. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 202",
+        "title": "Introduction to Statistics and Research Methods for Health Services Research",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, two hours. Overview of statistical and research methods for health services research. Preparation for subsequent graduate coursework in statistics and leading independent research projects. Students learn to develop analytical skills involving distributions, probability, and descriptive statistics and how they can be applied to public health. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 206",
+        "title": "Discrimination in Health Care",
+        "units": 4,
+        "description": "Lecture, three hours. Overview of health services issues associated with organization, financing, and delivery of healthcare services to vulnerable populations within domestic and international contexts to gain understanding of social, political, economic, and cultural issues that lead to disparities in access, quality, and cost of healthcare services that lead to vulnerability for particular population groups. Introduction to strategies that have been adopted to address these health disparities. Analysis and development of policy and management options that serve needs of vulnerable populations within healthcare system. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 207",
+        "title": "Addressing Inequalities: Comparative Law and Policy Analysis Tools for Examining Barriers and Paths Forward",
+        "units": 4,
+        "description": "Seminar, four hours. Preparation: completion of one year of graduate studies (masters or doctoral). Laws and policies in the U.S. and countries around the world often structure into their details inequalities across age, class, disability, gender, gender identity, immigration status, race, sexual orientation, and other human characteristics. Students gain skills to carry out comparative law and policy analysis that enable them to analyze the extent to which laws exacerbate inequalities. Demonstration of series of approaches for examining how laws and policies can reduce inequalities at a national scale, as well as the impact of laws and policies on biased norms. Students select an area for which they would like to develop and analyze comparative data. Study is suited to doctoral students interested in studying and addressing inequalities and master's students with strong research backgrounds. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 208",
+        "title": "Equity Issues in Health Services Research",
+        "units": 2,
+        "description": "Seminar, two hours. Preparation: admission to the UCLA National Clinician Scholars Program or equivalent postdoctoral fellowship, or permission of the instructor. Study builds skills for understanding, critiquing, and designing health services research to reflect principles of health equity and justice. Faculty and students meet to discuss and critique health services research studies that have changed or have potential to change the equitable provision of health care services or to close disparities in population health. Interprofessional practice and community partnerships are emphasized in critiquing research. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 214",
+        "title": "Measurement of Effectiveness and Outcomes of Health Care",
+        "units": 4,
+        "description": "Lecture, three hours. Requisites: courses 200A, 200B, M422. Historical perspective for development of health status measures and their utilization in assessment of outcomes and effectiveness in medical care. Review of current methods in context of current research and practice. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"},
+            {"type": "requisite","course": "HLT POL M422"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 215A",
+        "title": "Healthcare Quality and Performance Management",
+        "units": 4,
+        "description": "Lecture, four hours. Management and operations of individual units and organizations of American healthcare system. Exploration of ways in which they actually function and how to ensure their quality and effectiveness. Examination of roles, activities, and daily challenges of managers and how these challenges can best be met on day-to-day basis. Emphasis on applied practice with intent being improvement of student managerial competencies and on development of skills to manage operational processes in delivery of health services, primarily directed to improving effectiveness, efficiency, performance, and quality of healthcare services. Quality improvement (QI) techniques such as performance measurement, rapid cycle testing, breakthrough series, and interorganizational collaboration benefit quality and productivity. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 215B",
+        "title": "Applied Methods for Improvement/Implementation Science",
+        "units": 4,
+        "description": "Lecture, four hours. Planning and management of improvement programs in current work of students and future roles as change agents and leaders of healthcare systems. Training in skills and analytic methods for applying improvement science in clinical settings and health systems. Completion of improvement projects that demonstrate student competence in improvement science. Emphasis on case studies and applications so students gain skills in improvement project design and implementation. Analyses of cases, individual improvement projects, and class discussions to allow students to apply this knowledge to organizational examples. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 216",
+        "title": "Special Topics in Health Services: Quality Assessment and Assurance",
+        "units": 4,
+        "description": "Seminar, four hours. Fundamental issues in quality assessment, quality assurance, and measurement of health status. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 217",
+        "title": "Evidence-Based Medicine and Organizational Change",
+        "units": 4,
+        "description": "Lecture, three hours. Requisites: courses 200A, 200B, M422. Designed for graduate students in public health or other health sciences disciplines. Participation of students in critical review and discussion of selected papers dealing with course topics, including clinical trials, meta-analysis, small and large area variations in care, and development and implementation of clinical guidelines. Emphasis on implications for health policy. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"},
+            {"type": "requisite","course": "HLT POL M422"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 221",
+        "title": "Tobacco: Prevention, Use, and Public Policy",
+        "units": 4,
+        "description": "(Formerly numbered C221.) Lecture, four hours. Designed for juniors/seniors and graduate students. Study of tobacco use and its health consequences, including interplay of historical, biological, sociocultural, political, and economic forces with knowledge, attitudes, and behavior choices of individuals. Introduction to prevention interventions, cessation interventions, anti-tobacco efforts in U.S., and international trends in tobacco use. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 224",
+        "title": "Proposal Writing for Health Services Research",
+        "units": 4,
+        "description": "(Formerly numbered 424.) Seminar, four hours. Requisites: courses 225A, 225B. Designed for MS and PhD students with strong prior training in research design and methods. Introduction to conceptualization and writing of competitive research grant proposals. Focus on National Institutes of Health (NIH) and Agency for Healthcare Research and Quality (AHRQ) funding mechanisms. Elements of the grant review process-structure, process, scoring, funding decisions. Application of grant writing principles to develop a research proposal following NIH guidelines. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 225A"},
+            {"type": "requisite","course": "HLT POL 225B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 225A",
+        "title": "Health Services Research Design",
+        "units": 6,
+        "description": "Lecture, four hours; laboratory, two hours. Limited to departmental MS and PhD students. Introduction to scope of health services research, conceptualization and design of health services research, choice and assessment of measures for such research, and methods for studies involving direct data collection. Broad overview to conducting health services research, alternative research paradigms, building conceptual models of what students are trying to study, designing and testing measures, and direct data collection issues of survey and questionnaire design, sampling, community engagement, and research ethics. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 225B",
+        "title": "Health Services Research Design",
+        "units": 6,
+        "description": "Lecture, four hours; laboratory, two hours. Requisite: course 225A. Limited to departmental MS and PhD students. Development of conceptual models for health services research, identification and use of secondary data sources, study design, and its operationalization through regression models. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 225A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 225C",
+        "title": "Research Methods for Improvement/Implementation Science",
+        "units": 4,
+        "description": "Lecture, four hours. Enforced requisite: course 215A or 215B. Design and implementation of studies of dynamic interventions, including improvement initiatives and pragmatic clinical trials. Provides skills in research methods for improvement and implementation studies in clinical settings (including community-based settings) and health systems. Completion of improvement research projects that demonstrate student competence in design and implementation. Fundamentals in research design and methods for conducting rigorous inferential evaluation in real world of implementation science, with emphasis on methods for generalizing results of improvement and implementation studies involving dynamic testing. Emphasis on case studies and applications so students gain skills in design and implementation. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "HLT POL 215A"},{"type": "requisite","course": "HLT POL 215B"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 226A",
+        "title": "Readings in Health Services Research",
+        "units": 4,
+        "description": "Seminar, four hours. Limited to departmental MS and PhD students. Introduction to research literature in health policy, population health, and health management, with a particular focus on key theoretical models and conceptual frameworks. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 226B",
+        "title": "Readings in Health Services Research",
+        "units": 4,
+        "description": "Seminar, four hours. Limited to departmental MS and PhD students. Introduction to research literature in health policy, population health, and health management, with a particular focus on key theoretical models and conceptual frameworks. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 227A",
+        "title": "Special Topics in Health Services: Seminar Series",
+        "units": 2,
+        "description": "Seminar, two hours. Designed for doctoral students. Presentation of proposed or ongoing research projects by faculty members and students, with discussion to determine relevant methodological and policy issues, as well as to offer constructive criticism. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 227B",
+        "title": "Special Topics in Health Services: Current Research Issues",
+        "units": 2,
+        "description": "Seminar, two hours. Designed for doctoral students. Review of articles in health services journals nominated as best published during previous year. Analysis of articles to determine contribution to theory, methods, and/or implications for management or policy in health services organizations or health services as field. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 230A",
+        "title": "Health Economics: Low- and Middle-Income Countries' Perspectives",
+        "units": 2,
+        "description": "Seminar, two hours; discussion, two hours. Development of student thinking on how microeconomic theories help us understand determinants of health and behaviors of consumers and providers in health sector. Offers critical framework in evaluating efficiency of health systems in improving health of populations. Health economics field provides public policy tools to evaluate distributional benefits/penalties of policies such as sin taxes, and to assess extent market failures motivate role of governments in financing, organization, and delivery of health care. Emphasis on low- and middle-income country (LMIC) settings. In Progress grading (credit to be given only on completion of course 230B).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 230B",
+        "title": "Health Economics: Low- and Middle-Income Countries' Perspectives",
+        "units": 2,
+        "description": "Seminar, two hours; discussion, two hours. Development of student thinking on how microeconomic theories help us understand determinants of health and behaviors of consumers and providers in health sector. Offers critical framework in evaluating efficiency of health systems in improving health of populations. Health economics field provides public policy tools to evaluate distributional benefits/penalties of policies such as sin taxes, and to assess extent market failures motivate role of governments in financing, organization, and delivery of health care. Emphasis on low- and middle-income country (LMIC) settings. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 231",
+        "title": "History of Public Health",
+        "units": 4,
+        "description": "Discussion, three hours. Designed for doctoral students. Emphasis on topics which illuminate current issues in public health policy. Discussion of historical perspectives on healthcare providers, healthcare institutions, healthcare reform movements, public health activities, childbirth, and AIDS. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 232",
+        "title": "Leadership Capstone Seminar",
+        "units": 4,
+        "description": "Seminar, four hours. Preparation: completion of summer internship requirement. Designed for graduate students completing their master's training in health management and health policy. Examination of leaders and leadership in healthcare and other organizations to provide broad introduction to literature on skills, behaviors, and characteristics of organizational leaders. Relationship and importance of vision, values, change, strategy, and communication. Identification of characteristics of successful leaders. Students evaluate their own leadership style and identify opportunities to further develop their leadership abilities. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 234",
+        "title": "Health Services Organization and Management Theory",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, two hours. Preparation: two upper-division social sciences courses. Application of contemporary organization and management theory to systems that provide personal health-care services. Environmental characteristics, missions/goals, structure, and processes of health services organizations. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 235",
+        "title": "Law, Social Change, and Health Service Policy",
+        "units": 4,
+        "description": "Lecture, four hours. Preparation: two upper-division political science or sociology courses. Requisite: course 100. Legal issues affecting policy formulation for environmental, preventive, and curative health service programs. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 100"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 237C",
+        "title": "Issues in Health Services Methodologies",
+        "units": 6,
+        "description": "Lecture, four hours; discussion, two hours. Requisites: courses 237A, 237B, Biostatistics 200A, 200B (or 201). Designed for doctoral students. Intended to train students in statistical and economic methods used in health services research, with focus on practical application of advanced regression models. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 237A"},
+            {"type": "requisite","course": "HLT POL 237B"},
+            {"type": "requisite","course": "BIOSTAT 200A"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOSTAT 200B"},{"type": "requisite","course": "BIOSTAT 201"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 238A",
+        "title": "Health Economics Seminar",
+        "units": 1,
+        "description": "Seminar, 90 minutes. Designed for graduate students with interests in health economics. Recommended preparation: some prior exposure to graduate-level health economics and microeconomics. Study of latest research, new theories, hypotheses, research methods, and findings in health economics; and how such research applies to the most important public health and health policy and management problems the U.S. and other countries are facing. Through listening to health economists who make presentations, students are encouraged to ask important questions and engage in dialog on important issues, especially those that may improve doctoral dissertations. In Progress grading (credit to be given only on completion of courses 238B and 238C).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 238B",
+        "title": "Health Economics Seminar",
+        "units": 1,
+        "description": "Seminar, 90 minutes. Designed for graduate students with interests in health economics. Recommended preparation: some prior exposure to graduate-level health economics and microeconomics. Study of latest research, new theories, hypotheses, research methods, and findings in health economics; and how such research applies to the most important public health and health policy and management problems the U.S. and other countries are facing. Through listening to health economists who make presentations, students are encouraged to ask important questions and engage in dialog on important issues, especially those that may improve doctoral dissertations. In Progress grading (credit to be given only on completion of course 238C).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 238C",
+        "title": "Health Economics Seminar",
+        "units": 2,
+        "description": "Seminar, 90 minutes. Designed for graduate students with interests in health economics. Recommended preparation: some prior exposure to graduate-level health economics and microeconomics. Study of latest research, new theories, hypotheses, research methods, and findings in health economics; and how such research applies to the most important public health and health policy and management problems the U.S. and other countries are facing. Through listening to health economists who make presentations, students are encouraged to ask important questions and engage in dialog on important issues, especially those that may improve doctoral dissertations. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 238C",
+        "title": "Health Economics Seminar",
+        "units": 2,
+        "description": "Seminar, 90 minutes. Designed for graduate students with interests in health economics. Recommended preparation: some prior exposure to graduate-level health economics and microeconomics. Study of latest research, new theories, hypotheses, research methods, and findings in health economics; and how such research applies to the most important public health and health policy and management problems the U.S. and other countries are facing. Through listening to health economists who make presentations, students are encouraged to ask important questions and engage in dialog on important issues, especially those that may improve doctoral dissertations. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 239A",
+        "title": "Special Topics in Health Services: Introduction to Decision Analysis and Cost-Effectiveness Analysis",
+        "units": 4,
+        "description": "Lecture, four hours. Requisites: courses 200A and 200B, or M233. Techniques to assess broad spectrum of medical technologies: therapeutic and diagnostic tests and procedures, clinical practice patterns, public health interventions, and pharmaceuticals. Demonstration of how decision analysis provides basic framework for conducting various economic evaluations. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "requisite","course": "HLT POL 200A"},{"type": "requisite","course": "HLT POL 200B"}]},{"type": "requisite","course": "HLT POL M233"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 239A",
+        "title": "Special Topics in Health Services: Introduction to Decision Analysis and Cost-Effectiveness Analysis",
+        "units": 4,
+        "description": "Lecture, four hours. Requisites: courses 200A and 200B, or M233. Techniques to assess broad spectrum of medical technologies: therapeutic and diagnostic tests and procedures, clinical practice patterns, public health interventions, and pharmaceuticals. Demonstration of how decision analysis provides basic framework for conducting various economic evaluations. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "requisite","course": "HLT POL 200A"},{"type": "requisite","course": "HLT POL 200B"}]},{"type": "requisite","course": "HLT POL M233"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 239B",
+        "title": "Special Topics in Health Services: Advanced Topics in Decision Analysis and Cost-Effectiveness Analysis",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 239A. How to conduct uncertainty analyses, understand methods used to construct quality-adjusted life years (QALYs), conduct Markov analyses, critically analyze large-scale published cost-effectiveness analyses (CEAs), effectively present strengths and limitations of published CEAs to peers, and use advanced features of TreeAge software to construct and analyze CEA models, including Markov models. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 239A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 239B",
+        "title": "Special Topics in Health Services: Advanced Topics in Decision Analysis and Cost-Effectiveness Analysis",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 239A. How to conduct uncertainty analyses, understand methods used to construct quality-adjusted life years (QALYs), conduct Markov analyses, critically analyze large-scale published cost-effectiveness analyses (CEAs), effectively present strengths and limitations of published CEAs to peers, and use advanced features of TreeAge software to construct and analyze CEA models, including Markov models. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 239A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 240",
+        "title": "Global Health Institutions, Policies, and Systems",
+        "units": 4,
+        "description": "Lecture, four hours. Introduction to global health, from health policy and management perspective. Examination of institutions, from global to local, through lenses including governance, financing, history, and agenda-setting. Discussion of major topics in global health systems, such as human resources and health IT. Through series of short assignments, students' work culminates in final presentation that examines these many dimensions of single topic in global health. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 240",
+        "title": "Global Health Institutions, Policies, and Systems",
+        "units": 4,
+        "description": "Lecture, four hours. Introduction to global health, from health policy and management perspective. Examination of institutions, from global to local, through lenses including governance, financing, history, and agenda-setting. Discussion of major topics in global health systems, such as human resources and health IT. Through series of short assignments, students' work culminates in final presentation that examines these many dimensions of single topic in global health. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 241",
+        "title": "Economics of Health Policy",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course M236 or doctoral standing. Second-level health economics course, with emphasis on health policy applications, designed to provide more nuanced view of health economics than does course M236. Provides more training for master's students interested in policy, as well as material and insights for doctoral students who may find it useful in thinking about dissertation topics. Emphasis on special characteristics of health and healthcare and how these characteristics can result in market failure and various policy tools that can be used to deal with these failures. Because U.S. is only developed country that has traditionally relied on private insurance, course goes into more detail on that topic. Alternative conceptual models to traditional market one, discussion of proposed U.S. reforms, and examination of systems in selected other countries. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "HLT POL M236"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 241",
+        "title": "Economics of Health Policy",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course M236 or doctoral standing. Second-level health economics course, with emphasis on health policy applications, designed to provide more nuanced view of health economics than does course M236. Provides more training for master's students interested in policy, as well as material and insights for doctoral students who may find it useful in thinking about dissertation topics. Emphasis on special characteristics of health and healthcare and how these characteristics can result in market failure and various policy tools that can be used to deal with these failures. Because U.S. is only developed country that has traditionally relied on private insurance, course goes into more detail on that topic. Alternative conceptual models to traditional market one, discussion of proposed U.S. reforms, and examination of systems in selected other countries. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "HLT POL M236"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 243",
+        "title": "Population Health Approach to Autism Spectrum Disorder",
+        "units": 4,
+        "description": "Lecture, three hours. Overview of impact that Autism Spectrum Disorder has on individuals, families, and communities, including access to services, ongoing therapies, and adult vocational and residential placement. Covers opportunities for research and national policy. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 244",
+        "title": "Telehealth and Technology",
+        "units": 4,
+        "description": "Lecture, four hours. Preparation: working knowledge of Excel, PowerPoint, Internet, and smartphone devices. Connects multiple aspects of Telehealth and how to deploy them in health-care operations setting. Exploration of new devices/technologies, connectivity in wireless world, delivery modalities, and user experience/interface (UX/UI) design. Study teaches ways to apply new technology to facilitate efficient health-care business operations. Students learn how to implement Telehealth interventions, understand its challenges, and optimize data visualization for decision making. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 249",
+        "title": "Advanced Research Topics in Health Policy and Management",
+        "units": 2,
+        "description": "Seminar, to be arranged. Limited to Public Health graduate students. Seminars may be organized in special topics. Advanced study and analysis of current topics in health policy and management. Discussion of current research and literature in research specialty of faculty member teaching course. May be repeated for credit with topic change. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 249S",
+        "title": "Special Topics in Health Services: Introduction to Implementation Science",
+        "units": 4,
+        "description": "Seminar, four hours. Preparation: good grasp of social science research methods. Designed to provide basic understanding of science of implementing innovations and evidence-based approaches in real-world practice settings. Includes exposure to terminology, conceptual frameworks, research designs and methods, and their appropriate applications across various practice settings and populations. Interactive class discussion and guest lectures by experts in implementation science. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 251",
+        "title": "Project Management for Health-Care Organizations",
+        "units": 4,
+        "description": "Lecture, four hours. Exploration of opportunities for using project management, change management, and process improvement techniques to enhance execution of project and improvement initiatives within health-care organizations. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 253",
+        "title": "Transforming Health System in U.S.: Where Have We Been, Where Are We Going, and How Can We Get There?",
+        "units": 4,
+        "description": "Seminar, four hours. Systematic examination of requirements and opportunities to transform U.S. health care system to produce substantially better results and for significantly lower expenditures. Inquiry assesses preconditions and infrastructure required to support transformation, and leading efforts underway in U.S. and globally. Students gain deeper understanding of current context, exposure to promising tools and approaches, and increased knowledge of key drivers of transformation. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 260",
+        "title": "World Health",
+        "units": 4,
+        "description": "Lecture, two hours. Designed for graduate students. Overview of world health, with emphasis on healthcare outside U.S. Key areas include burden of infectious diseases, health economics, and impact of healthcare policy on healthcare delivery. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 265",
+        "title": "Challenges in Clinical Health Services Research",
+        "units": 4,
+        "description": "Lecture, four hours. Requisites: courses 200A, 200B. Designed to prepare students for challenges involved in conducting health services research on clinical topics and populations. Topics include formulating appropriate questions, identifying sources, mechanism of conducting field studies, identifying funding sources, writing grants, and publishing findings. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 266A",
+        "title": "Community-Based Participatory Health Research: Methods and Applications",
+        "units": 4,
+        "description": "Lecture, one hour; discussion, one hour; fieldwork, two hours. Limited to clinical scholars fellows. Mentoring of field experiences with introduction to critical issues in conducting research in community settings. Review of assignments, interventions, and evaluation designs for community settings and discussion of practical issues in partnering with communities. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 266B",
+        "title": "Community-Based Participatory Health Research: Methods and Applications",
+        "units": 4,
+        "description": "Lecture, one hour; discussion, one hour; fieldwork, two hours. Limited to clinical scholars fellows. Mentoring of field experiences with introduction to critical issues in conducting research in community settings. Review of assignments, interventions, and evaluation designs for community settings and discussion of practical issues in partnering with communities. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 280",
+        "title": "Health Reform: Policy, Research, and Implementation Issues",
+        "units": 4,
+        "description": "Seminar, three hours. Requisites: courses 200A, 200B. Limited to second-year MPH and doctoral students. Analysis of components of major federal healthcare reform legislative initiative to identify important policy, research, and implementation issues. Application of principles of stakeholder analysis to understand how and why this legislation was constructed and how it passed Congress. Conducting of policy analyses of selected components through completion of written assignments. Examination of respective roles of federal and state government in implementing and administering various components. Identification of significant implementation and administrative challenges at federal and state levels and development of possible strategies for addressing those challenges. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 281",
+        "title": "Policy Making amid Health, Economic, and Social Crises: Pandemics and Beyond",
+        "units": 4,
+        "description": "Seminar, four hours. Preparation: one year of graduate coursework. In past two decades there have been four respiratory pandemics. While COVID-19 led to most devastating health and economic consequences, threat it presented is not unique. Climate change and environmental degradation, increasing encroachment on animal habitats are together increasing rate of emerging disease outbreaks. In nearly every case, pandemics have highlighted and been worsened by underlying health, social, and economic inequalities. Focus on what can be done to address underlying inequalities, as well as what can be done to improve response to simultaneous health, economic, and social crises. Students learn comparative policy methods, analyze area of particular interest, and study what approaches states and countries have taken in the past and impact of these approaches. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 282",
+        "title": "Mental Health Policy: Investing in Children's Mental Health",
+        "units": 4,
+        "description": "Seminar, four hours. Interactive analysis of major policy problems and opportunities related to mental health for children and adolescent populations. Focus on which programs and policies represent the best investments in mental health for children and youth; if society is making those investments, particularly in the U.S.; and how better investments can be made. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 284",
+        "title": "Gender, the Economy, and Health: Law and Policy Approaches to Reducing Inequities",
+        "units": 4,
+        "description": "Lecture, four hours. Focus on the relationship between gender inequality, the economy, and health. Overview of the evidence pulled together by the World Health Organization (WHO) Commission on the Social Determinants of Health and others on how gender inequality broadly and economic inequality and discrimination specifically impact health across sexes and genders. Examination of how national policies and laws can address gender inequalities in the economy, discrimination, and health. Examination of gender discrimination; intersectional discrimination; sexual harassment; how inequalities in care drive gender disparities; and examples of effective approaches to law, policy, and norm change. Guest speakers bring expertise on approaches at the national, regional, and global level to change. Students have the opportunity to select an area into which to dive more deeply. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 286",
+        "title": "American Political Institutions and Health Policy",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. To effectively participate in policy process as analyst, policymaker, advocate, or citizen, it is necessary to understand institutional and political context within which policy is made. Introduction to federal and state policy-making, with focus on health policy. Discussion of federalism and constitutionalism. Examination of stakeholders, public, interest groups, and nature of issue space for health policy. Structure and process of political institutions at federal level, Congress, President, executive agencies, courts, and administrative law. State responsibilities and federal/state relations. How analysis enters policy process with examination of roles of federal analytic agencies and private research and advocacy groups. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 288",
+        "title": "Role and Impact of Technology on Health Services",
+        "units": 4,
+        "description": "Lecture, four hours. Examination of role and impact of technology on health services in the U.S. from point of view of system itself. Exploration of various types of technologies for their policy, economic, and organizational impact. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 289",
+        "title": "Healthcare Disparities",
+        "units": 4,
+        "description": "Seminar, three hours. Limited to graduate students. Exploration of what constitutes and explains disparity in healthcare. Emphasis on understanding history of disparities in U.S. to understand current state of disparities, and on evaluating effectiveness of ongoing strategies to eliminate them, such as increasing insurance coverage and delivery of culturally competent healthcare. Examination of sociological models that explain disparities in healthcare and evaluation and expansion on these models. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 400",
+        "title": "Field Studies in Health Services",
+        "units": 4,
+        "description": "Fieldwork, to be arranged. Preparation: summer internship. Required of all graduating MPH students. Continuation of summer placement in organizations for delivery, financing, and evaluation of health services. Preparation of consulting report based on organizational problem or project from summer internship. Exposure to selected professional development issues. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 401",
+        "title": "Public Health Informatics",
+        "units": 4,
+        "description": "Lecture, three hours. Preparation: general familiarity and understanding of basic information technologies. Recommended requisite: course 251. Introduction to field of public health informatics and examination of impact of information technology on practice of public health. Entire process, from systems conceptualization and design to project planning and development to system implementation and use. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 403",
+        "title": "Healthcare Financial Accounting",
+        "units": 4,
+        "description": "Lecture, four hours. Introduction to basic concepts of accounting, providing basis for understanding of language of business. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 415",
+        "title": "Organizational Analysis",
+        "units": 4,
+        "description": "Seminar, four hours. Introduction to important questions and perspectives relevant to understanding organizational behavior and change in healthcare and public health environments. Active paradigms in organizational theory, particularly perspectives important for understanding delivery system change. Examination of empirical research to clarify how important organizational constructs have been operationalized and to highlight methodology-related challenges of studying organizations in healthcare/public health. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 423",
+        "title": "Advanced Evaluation Theory and Methods for Health Services",
+        "units": 4,
+        "description": "Lecture, four hours. Designed for departmental MS and PhD students. Familiarity with current theoretical concepts in evaluation to gain skills in integrating theory into program implementation and evaluation design. Development of student ability to apply various evaluation methodologies most appropriate to variety of settings both within and outside health care and public health, and consideration of advantages and disadvantages of potential design. Examination of shift in field of evaluation over past decade from principal focus on program efficacy (i.e., internal validity) to more balanced approach considering efficacy in content of feasibility, reach, cost, and sustainability (i.e., external validity) and evaluation designs that have emerged (e.g., pragmatic and adaptive trials). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 430",
+        "title": "Healthcare Innovation and E-Health",
+        "units": 4,
+        "description": "Lecture, four hours. Introduction of new technologies in healthcare e-commerce/Internet/new media area, with emphasis on general background, review of applications, and discussion of organizational and managerial issues dealing with successful use and implementation of technologies. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 431",
+        "title": "Organizational Behavior and Human Resources in Healthcare Organizations",
+        "units": 4,
+        "description": "Lecture, four hours. Managerial skills and behaviors applied to components of organizations at several levels: individual, interpersonal, group, intergroup, and system. Core human resources skills required by managers. Unique features of health services organizations stressed as applications are presented. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 432",
+        "title": "Management of Healthcare Delivery Organizations",
+        "units": 4,
+        "description": "Seminar, four hours. Preparation: summer internship, work experience in health services. Readings, case analyses, and term papers concerned with operations, performance management, and service quality of healthcare delivery institutions. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 433",
+        "title": "Health Care Strategy",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Enforced requisites: courses 200A, 200B, 234, M236, Management 403. Conceptual, analytical, and technical aspects of policy and strategy formulation in health services organizations. Special attention to structure and dynamics of competitive markets, corporate-level strategic planning and marketing, managerial ethics and values, organizational creativity/innovation. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"},
+            {"type": "requisite","course": "HLT POL 234"},
+            {"type": "requisite","course": "HLT POL M236"},
+            {"type": "requisite","course": "MGMT 403"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 435",
+        "title": "Innovations and Current Trends in Ambulatory Care",
+        "units": 4,
+        "description": "Lecture, three hours. Requisites: courses 200A, 200B. Examination of U.S. ambulatory care delivery system, with focus on more recent trends that are highlighted under Patient Protection and Affordable Care Act of 2010. Structure of ambulatory care service delivery system, infrastructure challenges, financing and quality of care, role of healthcare reform in shaping future of ambulatory care, concepts of chronic care/disease management, medical home, and accountable care organizations, measurement, implementation, and impact of these models. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 436",
+        "title": "Healthcare Financial Management",
+        "units": 4,
+        "description": "Lecture, four hours. Requisites: courses 234, 403. Designed to prepare students for financial management responsibilities in health care. Practical approach for identifying, analyzing, and making recommendations regarding fiscal issues facing health care organizations. Topics include revenue capture and cost classifications, break-even analysis under diverse payer scenarios, financial statement analytics, operational and capital budgeting, variance analysis, forecasting and pro forma, sensitivity analysis, FTE calculations, and utilization of financial dashboards. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 234"},
+            {"type": "requisite","course": "HLT POL 403"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 437",
+        "title": "Essentials of Health Care Law",
+        "units": 4,
+        "description": "Lecture, three hours. General survey of legal aspects of health services management including governance, agency, informed consent, medical malpractice, and contracts. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 438",
+        "title": "Issues and Problems of Local Health Administration",
+        "units": 4,
+        "description": "Lecture, three hours. Preparation: one health services course. Requisites: course 100, Epidemiology 100. Overview of administrative issues currently faced by local health departments, including providing public health programs during fiscal constraint, quality improvement, interagency relationships and partnerships, and political and public interactions. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 100"},
+            {"type": "requisite","course": "EPIDEM 100"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 439",
+        "title": "Data Software for Public Health Professionals",
+        "units": 4,
+        "description": "Lecture, two hours; activity, one hour. Development of software skills around data analytics (e.g., Excel), including use of formulas and functions, formatting and manipulating datasets, developing visualizations including charts and tables, using lookup and database functions, and implementing basic analytic methods. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 440A",
+        "title": "Healthcare Information Systems and Technology",
+        "units": 4,
+        "description": "Lecture, four hours. Preparation: completion of summer internship. Provides strong foundation in health information technology (HIT) for those working in healthcare, with emphasis on development of knowledge and skill to plan, manage, and implement HIT systems in healthcare delivery organizations with clinical and business partners and evolving HIT spaces. Background and evolution of HIT; how it is planned, implemented, and managed; and how it can be productively used by healthcare delivery organizations, external research organizations, regulatory organizations, providers, and patients/consumers. Fundamentals of technology, electronic medical records (EMR), electronic health records (EHR), personal health records (PHR), meaningful use, interoperability, and health information exchanges (HIE). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 440B",
+        "title": "Health Information Systems: Organization and Management",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, three hours. Requisite: course 440A. Health and administrative research using clinical records. Principles of planning for routine and special studies. Individual investigation in methods of obtaining and processing data to meet needs of programs in institution and agency. Introduction to principles of medical auditing; analysis of medical and health services. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 440A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 441",
+        "title": "Data Analytics: Identifying, Collecting, and Analyzing Data in Health Care",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 439 or proof of waiver examination. Exploration of data sources and uses in health care, e.g., electronic medical records, social media, wireless biosensors, system and facility data. Review of hands-on techniques including data management, development of indexes and metrics, choosing and implementing analysis methods and visualizations. Discussion of role of data collection and processing within health care system. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 439"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 442",
+        "title": "Integrated Health Systems",
+        "units": 4,
+        "description": "Lecture, four hours. Requisites: courses 200A, 200B. Position of integrated health systems in U.S. and how they function. Introduction to important technical and organizational developments. Exploration of changes in organization and delivery of healthcare as result of growth of integrated health systems. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 445",
+        "title": "Health-Care Marketing",
+        "units": 4,
+        "description": "Lecture, four hours. Requisites: Public Health 200A, 200B. Introduction to concepts of health-care marketing. Exploration of principles of market-driven decision-making process. Examination of development of key elements in annual marketing process and of consumer, competitor, company analysis, market segmentation, and target markets. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB HLT 200A"},
+            {"type": "requisite","course": "PUB HLT 200B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 446",
+        "title": "Health-Care Operations Management",
+        "units": 4,
+        "description": "Lecture, four hours. Health-care managers are charged with reducing costs and improving financial outcomes in their organizations while simultaneously improving patient service and satisfaction. Focus on operations improvement and how health-care organizations can get things done. Review of integrated, systematic approach and wide variety of operations improvement tools. Designed to further prepare students for entry into managerial positions in health-care organizations by making them aware of importance of operations techniques and strategies at all career levels, and providing them with sufficient knowledge of health-care operations so they can provide departmental input to organization's leadership. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 450",
+        "title": "Healthcare Financial Applications",
+        "units": 2,
+        "description": "Lecture, two hours. Requisites: courses 200A, 200B. Study of healthcare financial management, including variables of cost of funds, availability of physicians to provide necessary patients, efficiency of operations, and legal constraints. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 501",
+        "title": "Cooperative Program",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Preparation: consent of UCLA graduate adviser and graduate dean, and host campus instructor, department chair, and graduate dean. Used to record enrollment of UCLA students in courses taken under cooperative arrangements with USC. No more than 8 units may be applied toward master's degree minimum total course requirement; may not be applied toward minimum graduate course requirement. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 596",
+        "title": "Directed Individual Study or Research",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate students. Individual guided studies under direct faculty supervision. Only 4 units may be applied toward MPH and MS minimum total course requirement. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 597",
+        "title": "Preparation for Master's Comprehensive or Doctoral Qualifying Examinations",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate students. May not be applied toward any degree course requirements. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 598",
+        "title": "Master's Thesis Research",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Only 4 units may be applied toward MPH and MS minimum total course requirement; may not be applied toward minimum graduate course requirement. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 599",
+        "title": "Doctoral Dissertation Research",
+        "units": 2,
+        "description": "Tutorial, to be arranged. May not be applied toward any degree course requirements. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M110",
+        "title": "Ethnic, Cultural, and Gender Issues in America's Healthcare Systems",
+        "units": 4,
+        "description": "(Same as Asian American Studies M161.) Lecture, three hours. Designed for juniors/seniors. Introduction to study of gender, ethnicity, and cultural diversity related to health status and healthcare delivery in U.S. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M168",
+        "title": "Healthcare for American Indians",
+        "units": 4,
+        "description": "(Same as American Indian Studies CM168.) Lecture, two hours; discussion, one hour. Identification of traditional health beliefs, health practices, and healthcare systems of American Indian tribes to understand role of U.S. government in healthcare services for Indian people. Description of health problems that have affected American Indian people and definition of contemporary health issues and measures taken to raise health status of American Indian people. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M203A",
+        "title": "Microeconomic Analysis for Public Health and Policy",
+        "units": 4,
+        "description": "(Same as Public Policy M201A.) Lecture, four hours. Requisite: Mathematics 3A or 3B or 31A. Course M203A is requisite to M203B. Basic concepts of microeconomics, with emphasis on their application to actual situations and their use in problem solving and focus on theory of choice. Extensive use of differential calculus. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 3A"},{"type": "requisite","course": "MATH 3B"},{"type": "requisite","course": "MATH 31A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M203B",
+        "title": "Microeconomic Analysis for Public Health and Policy",
+        "units": 4,
+        "description": "(Same as Public Policy M204A.) Lecture, four hours. Requisites: course M203A, and one course from Mathematics 3A, 3B, or 31A. Basic concepts of microeconomics, with emphasis on their application to actual situations and their use in problem solving and focus on theories of firms and markets. Extensive use of differential calculus. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL M203A"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 3A"},{"type": "requisite","course": "MATH 3B"},{"type": "requisite","course": "MATH 31A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M204A",
+        "title": "Seminar: Pharmaceutical Economics and Policy",
+        "units": 1,
+        "description": "(Same as Economics M204L.) Seminar, three hours every other week. Requisite: course M236. Limited to graduate public health and economics students. Various topics in economics of pharmaceutical industry, including rates of innovation, drug regulation, and economic impact of pharmaceuticals. In Progress grading (credit to be given only on completion of courses M204B and M204C).",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL M236"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M204B",
+        "title": "Seminar: Pharmaceutical Economics and Policy",
+        "units": 1,
+        "description": "(Same as Economics M204M.) Seminar, three hours every other week. Requisite: course M236. Limited to graduate public health and economics students. Various topics in economics of pharmaceutical industry, including rates of innovation, drug regulation, and economic impact of pharmaceuticals. In Progress grading (credit to be given only on completion of course M204C).",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL M236"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M204C",
+        "title": "Seminar: Pharmaceutical Economics and Policy",
+        "units": 2,
+        "description": "(Same as Economics M204N.) Seminar, three hours every other week. Requisite: course M236. Limited to graduate public health and economics students. Various topics in economics of pharmaceutical industry, including rates of innovation, drug regulation, and economic impact of pharmaceuticals. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL M236"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M205",
+        "title": "Pharmaceutical Policy",
+        "units": 4,
+        "description": "(Formerly numbered 205.) (Same as Public Policy M265.) Lecture, three hours. Policy issues pertaining to pharmaceutical sector. Topics include determinants of expenditures on drugs, price setting in industry, health insurance coverage for pharmaceuticals, and research and development process. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M210",
+        "title": "System Science in Population Health",
+        "units": 4,
+        "description": "(Formerly numbered M201.) (Same as Epidemiology M210.) Lecture, three hours. Emphasis on methods that help to understand how systems operate and how to intervene on them. Exploration of how to characterize human-centered problems that arise, and how to handle complexity as core design and development challenge. Examination of different traditions of studying and modeling (representing) systems, both conceptually and quantitatively, to address questions that arise in public health. Consideration of utility and limitations of these methods for providing insight to stakeholders who are addressing population health problem. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M228",
+        "title": "Introduction to Mixed Methods Research",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M228.) Seminar, three hours; discussion, one hour. Limited to graduate students. Highly recommended: courses 225A and 225B, or completion of coursework in basic research design and methods. Introduction to mixed methods research, with emphasis on its application to public health research. Equips students with skills to critique mixed method research designs and to design mixed methods research investigation for health issue of interest. Study of different mixed methods research designs commonly used in public health and health services research, including feasibility studies, convergent parallel design, sequential mixed methods, and multiphase studies. Use of combination of didactic and applied techniques. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M233",
+        "title": "Health Policy Analysis",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M252.) Lecture, three hours. Requisites: courses 200A, M236, M287. Conceptual and procedural tools for analysis of health policy, emphasizing role of analysis during various phases of lifecycle of public policy. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL M236"},
+            {"type": "requisite","course": "HLT POL M287"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M236",
+        "title": "Microeconomic Theory of Health Sector",
+        "units": 4,
+        "description": "(Same as Public Policy M268.) Lecture, four hours; discussion, two hours. Preparation: intermediate microeconomics. Microeconomic aspects of health-care system, including health manpower substitution, choice of efficient modes of treatment, market efficiency, and competition. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M242",
+        "title": "Determinants of Health",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M232.) Lecture, three hours; discussion, one hour. Designed for graduate students. Critical analysis of models for what determines health and evidence for social, economic, environmental, genetic, health system, and other factors that influence health of populations and defined subgroups. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M248",
+        "title": "Primary Health Care",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M248.) Lecture, four hours. Strongly recommended requisite: Public Health 200A, 200B. Recommended requisite: course 240 or Community Health Sciences 200. Primary Health care (PHC) is considered to be foundation of all health systems and should be able to resolve 80 percent or more of population's health problems. Overview of organization, structure, and functions of primary health care with emphasis on low- and middle-income country settings. Study of history and origins of PHC, roles and functions of PHC in health systems, different organizational and managerial approaches to organizing and delivering health care within PHC framework, and tools for measuring how well PHC programs and services are functioning. Review and critical analysis of evidence-based on PHC effectiveness and impact and present detailed case studies of PHC programs in diverse settings around world. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M249Q",
+        "title": "Editorial Board Apprenticeship",
+        "units": 2,
+        "description": "(Same as Psychiatry M210.) Seminar, two hours. Designed for postdoctoral fellows and advanced PhD students. Participation in peer review process for academic journal, Health Psychology, with consideration of interface between behavioral science, health, and medicine. Reading and discussion of submissions and advising of editor on suitability for full review. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M252",
+        "title": "Medicare Reform",
+        "units": 4,
+        "description": "(Same as Public Policy M267.) Lecture, three hours; outside study, nine hours. Designed for graduate students. Analytical and managerial skills learned earlier to be used to analyze problems with existing medicare program and to develop specific options for reforming features of program to accommodate coming pressures generated by retirement of baby-boom generation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M255",
+        "title": "Obesity, Physical Activity, and Nutrition Seminar",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M234.) Seminar, three hours; outside study, one hour. Designed for graduate students. Multidisciplinary introduction at graduate level to epidemiology, physiology, and current state of preventive and therapeutic interventions for obesity in adults and children, including public health policy approaches to healthy nutrition and physical activity promotion. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M259",
+        "title": "Smoking, Drinking, Shooting, and Driving: Understanding Public Health Policy in U.S.",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M259.) Lecture, two hours; discussion, two hours. Recommended requisite: course 286. Overview of essential theories regarding development, implementation, and impact of public health policies in U.S. with emphasis on state and local governments. Students develop skills in public health policy research (laws, regulations, statutes, ordinances) and engage in critically analyzing evidence for different approaches currently used to address some of main causes of death and disability in U.S. including tobacco, alcohol, firearms, food and nutrition, and motor vehicle safety. Readings, case studies, exploration of public use data, group discussions, and directed individual research. Students engage in discussion and debate regarding contemporary challenges and emerging trends. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M269",
+        "title": "Healthcare Policy and Finance",
+        "units": 4,
+        "description": "(Same as Public Policy M269.) Seminar, three hours; outside study, nine hours. Exploration of demand for health insurance, policies for public insurance (Medicaid and Medicare), uninsured, and health insurance reform. Examination of effects of managed care on health and costs, consumer protection movement, and rise of competitive healthcare markets. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M274",
+        "title": "Health Status and Health Behaviors of Racial and Ethnic Minority Populations",
+        "units": 4,
+        "description": "(Same as Psychology M274.) Lecture, two hours; discussion, one hour. Limited to graduate students. Overview of physical and mental health behaviors and status of major racial/ethnic groups in U.S. Where appropriate, discussion of international issues as well. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M285",
+        "title": "Ethical Theory and Applications in Public Health",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M249L.) Lecture, two hours (MPH day program) or four hours (MPH for Health Professionals). Requisites: courses 200A, 200B. Case conferences, based on real-life experience, focus on ethical issues in health services organization and management, including ethical issues related to conflict of interest, quality of care, health insurance selection, choice of drugs, reproductive rights, AIDS, and resource allocation. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M287",
+        "title": "Politics of Health Policy",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M287 and Public Policy M266.) Lecture, three hours; discussion, one hour. Examination of politics of health policy process through analysis of case studies such as environmental protection, pandemic preparedness and response, preventive health services for women, and racial and income inequality and health. Examination of framework for assessing evidence-based policy making and effects of political structure and current political divisions, including efforts such as to repeal and dismantle Affordable Care Act. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M290",
+        "title": "Evolving Paradigms of Prevention: Interventions in Early Childhood",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M237.) Seminar, three hours; fieldwork, one hour. Designed for graduate students. Introduction to use of early childhood interventions as means of preventing adverse health and developmental outcomes. Concepts of developmental vulnerability, approaches to assessment, models of service delivery, evaluation and cost-benefit issues, funding, and other policy issues. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M411",
+        "title": "Issues in Cancer Prevention and Control",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M411.) Lecture, four hours. Designed for juniors, seniors, and graduate students. Introduction to causes and characteristics of cancer epidemic, cancer control goals for nation, and interventions designed to encourage smoking cessation/prevention, cancer screening, and other dietary, psychosocial, and lifestyle changes. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M420",
+        "title": "Children with Special Healthcare Needs: Systems Perspective",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M420 and Social Welfare M290I.) Lecture, three hours; fieldwork, one hour. Examination and evaluation of principles, policies, programs, and practices that have evolved to identify, assess, and meet special needs of infants, children, and adolescents with developmental disabilities or chronic illness and their families. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M422",
+        "title": "Practices of Evaluation in Health Services: Theory and Methodology",
+        "units": 4,
+        "description": "(Same as Sociology M402.) Lecture, four hours. Requisites: courses 200A, 200B. Introduction to evaluation of health services programs and policies. Exposure to basic theoretical concepts and specific evaluation methodologies and designs. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL 200A"},
+            {"type": "requisite","course": "HLT POL 200B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M428",
+        "title": "Child and Family Health Program Community Leadership Seminar",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M428.) Seminar, three hours. Designed for graduate students. Examination of characteristics of community-based organizations (CBOs) and role of leadership in decision-making process involved in major issues facing maternal and child health in Los Angeles County. Focus on specific leadership competencies that are or should be employed by organizations effective in shaping maternal and child health programs and policies (or any population-level policies and programs). Leaders from CBOs in Los Angeles meet with students, comment on their practicum experiences, and underscore community leadership concepts demonstrated by those CBOs. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M434",
+        "title": "Building Advocacy Skills: Reproductive Health Focus",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M430.) Seminar, three hours. Recommended requisite: one prior health policy course such as Community Health Sciences 247 or Health Policy 235. Designed for School of Public Health graduate and doctoral students. Skills-building course to develop competency in assessing, developing, and implementing advocacy strategies for reproductive health initiatives. Introduction to legislative and community advocacy initiatives and to policymaking process, including policy analysis and development of resources necessary for legislative advocacy. Identification of advocacy goals and objectives, development of advocacy plan, coalition building, organizational capacity building, media relations, and message development for various audiences. Students learn about range of former and current reproductive health advocacy campaigns. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M449A",
+        "title": "Child Health, Programs, and Policies",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M436A.) Lecture, four hours. Course M449A is requisite to M449B. Examination of history of child health policy trends and determinants of health, structure, and function of health service system; needs, programs, and policies affecting especially at-risk populations. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT POL M449B",
+        "title": "Child Health, Programs, and Policies",
+        "units": 4,
+        "description": "(Same as Community Health Sciences M436B.) Lecture, four hours. Requisite: course M449A. Examination of history of child health policy trends and determinants of health, structure, and function of health service system; needs, programs, and policies affecting especially at-risk populations. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT POL M449A"}
+        ],
+        "equivalentCourses": []
+    }
+]

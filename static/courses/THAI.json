@@ -1,0 +1,163 @@
+[
+    {
+        "id": "THAI 1",
+        "title": "Introductory Thai",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Coverage of basic Thai grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 100A",
+        "title": "Advanced Thai",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Thai placement test. Reinforcement of basic grammar and vocabulary acquired at beginning and intermediate levels. Coverage of more advanced topics on various aspects of Thai society. Broadening of skills in conversation and composition. Reading of selected texts and authentic materials. May be taken independently for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "THAI 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 100B",
+        "title": "Advanced Thai",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Thai placement test. Reinforcement of basic grammar and vocabulary acquired at beginning and intermediate levels. Coverage of more advanced topics on various aspects of Thai society. Broadening of skills in conversation and composition. Reading of selected texts and authentic materials. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "THAI 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 100C",
+        "title": "Advanced Thai",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 6 with grade of C or better or Thai placement test. Reinforcement of basic grammar and vocabulary acquired at beginning and intermediate levels. Coverage of more advanced topics on various aspects of Thai society. Broadening of skills in conversation and composition. Reading of selected texts and authentic materials. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "THAI 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 109",
+        "title": "Advanced Tutorial Instruction in Thai",
+        "units": 2,
+        "description": "Tutorial, two hours. Requisite: course 6 or Thai placement test. Tutorial and guided independent study to help students develop advanced to superior proficiency in oral and written Thai. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "THAI 6"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 2",
+        "title": "Introductory Thai",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisite: course 1 with grade of C or better. Coverage of basic Thai grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "THAI 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 3",
+        "title": "Introductory Thai",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisite: course 2 with grade of C or better. Coverage of basic Thai grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "THAI 2"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 3R",
+        "title": "Thai Scripts",
+        "units": 5,
+        "description": "Lecture, five hours. Recommended preparation: speaking and listening skills in Thai and Thai placement test. Training in reading and writing at introductory level. Completion of course 3R is equivalent to completion of one year of college-level Thai. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 4",
+        "title": "Intermediate Thai",
+        "units": 5,
+        "description": "Lecture, five hours. Reinforcement of basic Thai grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 5",
+        "title": "Intermediate Thai",
+        "units": 5,
+        "description": "Lecture, five hours. Enforced requisite: course 4 with grade of C or better. Reinforcement of basic Thai grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "THAI 4"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 6",
+        "title": "Intermediate Thai",
+        "units": 5,
+        "description": "Lecture, five hours. Enforced requisite: course 5 with grade of C or better. Reinforcement of basic Thai grammar and coverage of more advanced topics. Broadening of skills in conversation and composition; reading of selected texts. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "THAI 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "THAI 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

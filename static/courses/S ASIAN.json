@@ -1,0 +1,242 @@
+[
+    {
+        "id": "S ASIAN 110A",
+        "title": "Elementary Sanskrit",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to script and grammar, with reading exercises and attention to significance of Sanskrit for understanding of other Indo-European languages. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 110B",
+        "title": "Intermediate Sanskrit",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 110A. Advanced aspects of grammar and reading of literary texts. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "S ASIAN 110A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 110C",
+        "title": "Advanced Sanskrit",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 110B. Reading of entire Bhagavadgitaor comparable amount of other Sanskrit literature. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "S ASIAN 110B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 115",
+        "title": "Readings in Sanskrit",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 110C. Extensive reading in such texts as best serve students' needs. May be repeated for credit with consent of instructor. P/NP (undergraduates), S/U (graduates), or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "S ASIAN 110C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 150",
+        "title": "Classical Indian Literature in Translation",
+        "units": 4,
+        "description": "Lecture, three hours. Knowledge of Asian languages not required. Survey of some landmarks of classical Indian literature from second millennium BCE into second millennium CE, including both poetry and prose, high art and more popular genres, and secular and religious texts, examined in their social and institutional contexts. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 155",
+        "title": "Topics in South Asian Cinema and Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Knowledge of Hindi/Urdu not required. Critical analysis of language and culture in South Asian diaspora as represented in films and/or literature. May be repeated once for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 170",
+        "title": "Variable Topics in South Asian Linguistics, Languages, and Cultures",
+        "units": 4,
+        "description": "Lecture, three hours. Knowledge of Hindi/Urdu may be required. Critical analysis of language and culture in South Asian linguistic area, exploring notions of India as linguistic area and as cultural area. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 175",
+        "title": "Introduction to Indic Philosophy",
+        "units": 4,
+        "description": "Lecture, three hours. Survey of main trends in Indian philosophy from ancient to modern times. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 185",
+        "title": "Women and Gender in Ancient India",
+        "units": 4,
+        "description": "Lecture, three hours. Knowledge of Asian languages not required. Examination of position and function of women in ancient India, primarily through study of key religious and legal texts. Topics include women's life cycle, relation to social institutions, and challenges to these ideals, especially in narrative literature. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 230",
+        "title": "Selected Readings in Sanskrit Texts",
+        "units": 4,
+        "description": "Lecture, three hours. May be repeated for credit with consent of instructor. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 234A",
+        "title": "Introduction to Panini's Grammar",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 110C. Reading of selected passages of text, with introduction to Panini's technique. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "S ASIAN 110C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 234B",
+        "title": "Introduction to Panini's Grammar",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 110C. Reading of selected passages of text, with introduction to Panini's technique. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "S ASIAN 110C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 236A",
+        "title": "Pali",
+        "units": 4,
+        "description": "Lecture, three hours. Preparation: knowledge of Sanskrit equivalent to course 110B. Grammatical studies and reading of texts. Comparative considerations. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 236B",
+        "title": "Prakrits",
+        "units": 4,
+        "description": "Lecture, three hours. Preparation: knowledge of Sanskrit equivalent to course 110B. Grammatical studies and reading of texts. Comparative considerations. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 243",
+        "title": "Translation Workshop: Premodern Sanskrit, Pali, and/or Prakrit Texts",
+        "units": 2,
+        "description": "Seminar, two hours. Requisite: course 110C. Translation, grammatical analysis, and discussion of selections from premodern Sanskrit, Pali, and/or Prakrit texts. S/U grading.",
+        "requisites": [
+            {"type": "requisite","course": "S ASIAN 110C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN C260",
+        "title": "Buddhism in India",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Knowledge of Indian languages not required. Overview of social and doctrinal history of Buddhism from its origin to its disappearance in India, based not only on texts but on archaeological, art historical, and inscriptional sources. Examination of both formal doctrine and actual practices and on what learned Buddhists wrote and ordinary Buddhists did, saw, and made. Concurrently scheduled with course CM160. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN CM160",
+        "title": "Buddhism in India",
+        "units": 4,
+        "description": "(Same as Religion M161D.) Lecture, three hours; discussion, one hour. Knowledge of Indian languages not required. Overview of social and doctrinal history of Buddhism from its origin to its disappearance in India, based not only on texts but on archaeological, art historical, and inscriptional sources. Examination of both formal doctrine and actual practices and on what learned Buddhists wrote and ordinary Buddhists did, saw, and made. Concurrently scheduled with course C260. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN M222A",
+        "title": "Vedic",
+        "units": 4,
+        "description": "(Same as Indo-European Studies M222A and Iranian M222A.) Lecture, three hours. Preparation: knowledge of Sanskrit equivalent to course 110C. Characteristics of Vedic dialect and readings in Rig-Vedic hymns. May not be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN M222B",
+        "title": "Vedic",
+        "units": 4,
+        "description": "(Same as Indo-European Studies M222B and Iranian M222B.) Lecture, three hours. Preparation: knowledge of Sanskrit equivalent to course 110C. Characteristics of Vedic dialect and readings in Rig-Vedic hymns. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "S ASIAN M60",
+        "title": "Religion in Classical India: Introduction",
+        "units": 5,
+        "description": "(Same as Religion M60D.) Lecture, three hours; discussion, one hour. Introduction to religions of classical India-Vedic, Brahmanical, Hindu, Jain, and Buddhist-paying equal attention to change and continuity, with emphasis on chronological development. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

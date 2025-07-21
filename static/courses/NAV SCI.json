@@ -1,0 +1,120 @@
+[
+    {
+        "id": "NAV SCI 101A",
+        "title": "Navigation",
+        "units": 4,
+        "description": "Lecture, four hours. Study of principles of piloting, celestial, and electronic navigation employed in determining a ship's position at sea. Celestial and electronic theory, mathematical analysis, sextant sights, and use of navigational aids. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 101B",
+        "title": "Naval Operations and Seamanship",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 101A. Study of rules of road, shiphandling, and basic concepts of multiple ship formations and maneuvering. In-depth analysis of problems associated with operations on high seas and inland waters applying to civil and U.S. Naval craft. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "NAV SCI 101A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 102B",
+        "title": "Leadership and Management",
+        "units": 4,
+        "description": "Lecture, four hours. Examination of current and classical leadership and management theories, with emphasis on their application to junior military officer's role as a leader/manager. Topics include managerial functions, performance appraisal, motivation theories, group dynamics, leadership theories, and communication. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 102C",
+        "title": "Leadership and Ethics",
+        "units": 4,
+        "description": "Lecture, four hours. Recommended requisite for Naval Science ROTC midshipmen: course 102B. Capstone and second of two core leadership courses that provide academic foundation of NROTC leadership development. Integration of intellectual exploration of Western moral traditions and ethical philosophy with military leadership, core values, professional ethics, Uniform Code of Military Justice, and Navy regulations. Provides midshipmen with basic understanding of major moral traditions, including relativism, utilitarianism, Kantian ethics, natural law theory, divine command theory, and virtue ethics. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 103",
+        "title": "Evolution of Warfare",
+        "units": 4,
+        "description": "Study of evolution of warfare, including historical and comparative consideration of influence that leadership, political, economic, and sociological and technological development factors have had on warfare and influence they continue to exert in age of limited warfare.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 104",
+        "title": "Fundamentals of Maneuver Warfare",
+        "units": 4,
+        "description": "Seminar, four hours. Study of fundamentals of maneuver warfare, with particular emphasis on doctrine, tactics, and equipment used. Examination of topics through study of political and military objectives by focusing on historical examples from Revolutionary War to modern times. Examination of contemporary doctrine through study of recent operations. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 197",
+        "title": "Individual Studies in Naval Science",
+        "units": 1,
+        "description": "Tutorial, four hours. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 1A",
+        "title": "Introduction to Naval Science",
+        "units": 3,
+        "description": "Lecture, three hours. Introduction to organization of Naval Service, various components of Navy, career opportunities, shipboard damage control, fire fighting, Naval and Marine Corps operations, and some customs and traditions of Naval Service. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 1B",
+        "title": "Naval Ship Systems I",
+        "units": 4,
+        "description": "Lecture, four hours. Introduction to naval engineering, with emphasis on steam, nuclear, diesel, and gas turbine propulsion systems and their associated auxiliary components. Basic thermodynamic theory, electrical theory, stability, and buoyancy. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 20A",
+        "title": "Naval Ship Systems II",
+        "units": 4,
+        "description": "Study of naval weapon systems, with emphasis on infrared, radar, and sonar principles. Target designation and acquisition, methods of solving fire control problem, target detection systems. Analysis of transfer and feedback functions inherent in weapon systems.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI 20B",
+        "title": "Seapower and Maritime Affairs",
+        "units": 3,
+        "description": "Lecture, three hours. Conceptual study of seapower, with emphasis on historical development of naval and commercial power. Seapower examined in relation to economic, political, and cultural strengths, with focus on current abilities of specific nations to use oceans to attain national objectives. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NAV SCI Z",
+        "title": "Naval Science Laboratory",
+        "units": 0,
+        "description": "Laboratory, to be arranged. Mandatory for and limited to Naval Science ROTC midshipmen. Provides midshipmen with general military training and practical command and staff leadership experiences through classroom instruction and performance of various tasks and interactive processes within framework of organized midshipmen-run military unit, with oversight by active-duty military staff. As integral part of naval science curriculum, provides professional experiences designed to develop leadership potential and orientation for active duty. No grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

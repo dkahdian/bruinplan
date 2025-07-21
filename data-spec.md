@@ -47,23 +47,29 @@ This document describes the structure and expected contents of the core data fil
 
 ---
 
-## 3. `courses.json`
+## 3. `courses/[subject].json`
 
-- **Location:** `static/courses.json`
-- **Format:** Array of course objects.
-- **Purpose:** Directory of all offered courses for fast lookup/search.
+- **Location:** `static/courses/[SUBJECT].json`
+- **Format:** JSON array of course objects (not an object with a `courses` array).
+- **Purpose:** All courses offered by a specific subject/department, with full details. There are currently 168 such files (as of July 2025).
 
 ```json
 [
   {
-    "id": "COURSE_CODE",   // e.g. "MATH 31A"
-    "title": "Course Title" // e.g. "Differential and Integral Calculus"
+    "id": "COURSE_CODE",
+    "title": "Course Title",
+    "units": NUMBER,
+    "description": "...",
+    "requisites": [ /* see below */ ],
+    "equivalentCourses": [] // always empty for now
   },
   // ...
 ]
 ```
+- **Requisites** can be objects describing course requirements or grouped requirements (see subject files for examples).
+- **equivalentCourses** is always an empty array for every course (intentional; not yet supported in production).
 
----
+----
 
 ## 4. `majors/[major].json`
 
@@ -115,7 +121,7 @@ This document describes the structure and expected contents of the core data fil
   ]
 }
 ```
-- **Requisites** can be objects describing course requirements or grouped requirements (see Mathematics.json for examples).
+- **Requisites** can be objects describing course requirements or grouped requirements (see ./static/courses/ for examples).
 
 ---
 
@@ -127,7 +133,7 @@ This document describes the structure and expected contents of the core data fil
 
 - Every `SUBJECT_CODE` referenced in any file (such as in `majors.json` Dependencies) **must** exist in `subjects.json` under some school/subjectArea.
 - Every major listed in `majors.json` **must** have a corresponding file in `majors/[Major Name].json` (with the same name and capitalization, spaces preserved).
-- Every `SUBJECT_CODE` in `subjects.json` **should** have a corresponding file in `courses/[Subject Name].json` (with the subject name matching the `name` field in `subjects.json`).
+- Every `SUBJECT_CODE` in `subjects.json` **must** have a corresponding file in `static/courses/[SUBJECT_CODE].json` (with the subject name matching the `name` field in `subjects.json`).
 - Every course in `courses.json` **must** have a unique `id` and `title`.
 - All files are UTF-8 encoded JSON.
 - All codes (subject, course, school) are strings and should match across files.

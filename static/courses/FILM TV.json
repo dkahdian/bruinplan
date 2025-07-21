@@ -1,0 +1,2721 @@
+[
+    {
+        "id": "FILM TV 101A",
+        "title": "Junior Symposium",
+        "units": 1,
+        "description": "Laboratory, three hours. Course 101A is enforced requisite to 101B, which is enforced requisite to 101C. Limited to Film and Television majors. Structured forum in which juniors meet on regular basis to discuss curricular issues, meet with faculty members, and have exposure to array of guest speakers from within film industry. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 102A",
+        "title": "Senior Symposium",
+        "units": 1,
+        "description": "Laboratory, three hours. Enforced requisite: course 101A. Course 102A is enforced requisite to 102B, which is enforced requisite to 102C. Limited to Film and Television majors. Structured forum in which seniors meet on regular basis to discuss curricular issues, meet with faculty members, and have exposure to array of guest speakers from within film and television industry. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 101A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 102B",
+        "title": "Senior Symposium",
+        "units": 1,
+        "description": "Laboratory, three hours. Enforced requisite: course 102A. Limited to Film and Television majors. Structured forum in which seniors meet on regular basis to discuss curricular issues, meet with faculty members, and have exposure to array of guest speakers from within film and television industry. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 102A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 102C",
+        "title": "Senior Symposium",
+        "units": 1,
+        "description": "Laboratory, three hours. Enforced requisite: course 102B. Limited to Film and Television majors. Structured forum in which seniors meet on regular basis to discuss curricular issues, meet with faculty members, and have exposure to array of guest speakers from within film and television industry. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 102B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 104",
+        "title": "Film and Television Symposium",
+        "units": 1,
+        "description": "Laboratory, three hours. Structured forum in which students discuss curricular issues, meet with faculty members, and have exposure to array of guest speakers from within film industry. May be repeated three times for credit. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 106B",
+        "title": "History of European Motion Picture",
+        "units": 6,
+        "description": "Lecture/screenings, six hours; discussion, one hour. Historical and critical survey, with examples, of European motion picture both as developing art form and as medium of mass communication. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 106C",
+        "title": "History of African, Asian, and Latin American Film",
+        "units": 6,
+        "description": "Lecture/screenings, six hours; discussion, one hour. Critical, historical, aesthetic, and social study-together with exploration of ethnic significance-of Asian, African, Latin American, and Mexican films. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 107",
+        "title": "Experimental Film",
+        "units": 6,
+        "description": "Lecture/screenings, six hours; discussion, one hour. Study and analysis of unconventional developments in motion pictures. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 108",
+        "title": "History of Documentary Film",
+        "units": 6,
+        "description": "Lecture/screenings, six hours; discussion, one hour. Philosophy of documentary approach in motion pictures. Development of critical standards and examination of techniques of teaching and persuasion used in selected documentary, educational, and propaganda films. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 109",
+        "title": "Advanced Topics in Documentary: New Documentary Forms",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; screenings, three hours. Examination of today's documentary modes of representation and genres focusing on rise and diversification of nonfiction modes since new millennium. From short form to series based, virtual reality to interactive, crowd sourced to animated, study of new documentary forms and platforms as situated within complex media environment. Exploration of theoretical models through which documentaries can be understood, questioned, and critically approached. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 10A",
+        "title": "American Television History",
+        "units": 5,
+        "description": "Lecture/screenings, four hours; discussion, one hour. Critical survey of American television history from its inception to present. Examination of interrelationships between program forms, industrial paradigms, social trends, and culture. Starting with television's hybrid origins in radio, theater, and film, contextualization, viewing, and discussion of key television shows, as well as Hollywood films that comment on radio and television. Consideration of television programs and series in terms of sociocultural issues (consumerism, lifestyle, gender, race, national identity) and industrial practice (programming, policy, regulation, business). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 112",
+        "title": "Film and Social Change",
+        "units": 6,
+        "description": "Lecture/screenings, six hours; discussion, one hour. Development of documentary and dramatic films in relation to and as force in social development. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 113",
+        "title": "Film Authors",
+        "units": 5,
+        "description": "Lecture/screenings, four hours; discussion, one hour. In-depth study of specific film author (director or writer). May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 114",
+        "title": "Film Genres",
+        "units": 5,
+        "description": "Lecture/screenings, four hours; discussion, one hour. Study of specific film genre (e.g., Western, gangster cycle, musical, silent epic, comedy, social drama). May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 122D",
+        "title": "Film Editing: Overview of History, Technique, and Practice",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of film editing techniques, how they have evolved, and continue to evolve. Examination of history of editing, as well as current editing trends, terminology, and workflow. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 122E",
+        "title": "Digital Cinematography",
+        "units": 4,
+        "description": "Lecture, three hours. With lectures, screenings, and demonstrations, study of principles of digital cinematography. How tools and techniques affect visual storytelling process. Topics include formats, aspect ratios, cameras, lenses, special effects, internal menu picture manipulation, lighting, composition, coverage, high definition, digital exhibition, filtration, multiple-camera shooting. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 122J",
+        "title": "Disney Feature: Then and Now",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, three hours. Study and analysis of Disney's animated features. Evaluation of why Disney's animated features have dominated until recently and ramifications of this dominance on animation and society. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 122M",
+        "title": "Film and Television Directing",
+        "units": 4,
+        "description": "Lecture, three hours. Through discussions, screenings, demonstrations, and guests, exploration of script, previsualization, directing actors, directing camera coverage in relationship to story, practical on-set directing, and directing for camera. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 122N",
+        "title": "History of Animation in American Film and Television",
+        "units": 5,
+        "description": "Lecture, six hours. Survey of art of animation in America from its precinema origins to recent films of Disney, Pixar, DreamWorks, Ghibli, and others. Place of animation in pop culture, racial imagery and ethnic stereotypes, growth of art form, and how it reflects American society. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 126",
+        "title": "Acting for Film and Television",
+        "units": 4,
+        "description": "Studio, six hours. Projects in acting for television, video, and film. May be repeated twice for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 128",
+        "title": "Media and Ethnicity",
+        "units": 4,
+        "description": "Lecture, three hours. Utilizing Asian American experience, exploration of impact and uses of media on contemporary American ethnic communities. Role and techniques of media influence besides community utilization and production. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 130",
+        "title": "Introduction to Speculative Television Writing",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of basic structural rules of television, developing characters, and developing basic command of tone through studying existing television series and then crafting scenes for those existing television series. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 131",
+        "title": "Introduction to Television Writing",
+        "units": 6,
+        "description": "Lecture, three hours. Introduction to television pilot form, covering style and content, as well as principles behind network needs and how pilots are chosen across broadcast, cable, and digital platforms. Students write series outline and first act of original pilot. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 132",
+        "title": "Television Writing Workshop",
+        "units": 6,
+        "description": "Laboratory, three hours. Students outline first 10 pages of pilot for original one-hour drama or dramedy, or half-hour comedy series. Examination of topics such as pitching; television writing format and structure 101; current trends in television writing; how to write compelling characters and stories; and how to take idea from concept through logline, beat sheet, and outline to final professional first draft. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 133A",
+        "title": "Intermediate Television Writing Variety/Sketch Comedy",
+        "units": 8,
+        "description": "Lecture, three hours. Recommended requisite: course 131. Examination of writing for sketch, talk, and other hybrid comedic television shows. Review of various types of parody including monologues, commercial parodies, slice-of-life comedy, character-driven comedy, physical comedy, comedy of absurd, and political and topical satire. Students write one comedy sketch and portfolio of monologue jokes. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 133B",
+        "title": "Intermediate Television Writing One-Hour Drama/Half-Hour Dramedy Series",
+        "units": 6,
+        "description": "Lecture, three hours. Recommended requisite: course 131. Examination of one-hour drama and dramedy formats, covering style, content, and structural analysis. Review of principles behind network needs and how pilots are chosen across broadcast, cable and digital platforms. Students write series outline and first draft of original pilot series. Open to works in progress and rewrites. Offered summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 134",
+        "title": "Intermediate Screenwriting Workshop",
+        "units": 4,
+        "description": "Seminar, three hours. Problems in film and television writing. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 135A",
+        "title": "Advanced Screenwriting Workshop",
+        "units": 6,
+        "description": "Laboratory, three hours. Requisite: course 134. Course 135A is requisite to 135B, which is requisite to 135C. Course in film and television writing. First act of original screenplay to be developed. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 134"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 135B",
+        "title": "Advanced Screenwriting Workshop",
+        "units": 6,
+        "description": "Laboratory, three hours. Requisite: course 135A. Limited to Film and Television majors. Designed for seniors. Course in film and television writing. Second act of original screenplay to be developed. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 135A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 135C",
+        "title": "Advanced Screenwriting Workshop",
+        "units": 8,
+        "description": "Laboratory, three hours. Requisite: course 135B. Limited to Film and Television majors. Designed for seniors. Course in film and television writing. Third act of original screenplay to be developed. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 135B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 140",
+        "title": "Interactive Expression",
+        "units": 4,
+        "description": "Lecture, six hours. Introduction to history and practice of interactive media, with emphasis on uniqueness of computer-mediated expression. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 146",
+        "title": "Art and Practice of Motion Picture Producing",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of role of producer as both artist and business person. Comparative analysis of screenplays and completed films. Emphasis on assembly of creative team and analysis of industrial context, both independent and studio. Screenings viewed outside of class and on reserve at Powell Library. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 150",
+        "title": "Cinematography",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Requisite: course 101A. Corequisite: course 154. Limited to Film and Television majors. Introduction to motion imaging photography for thorough understanding of fundamental tools and principles of cinematography to create images that support and enhance story of film, achieve comprehension of principles of motion imaging photography through lectures, discussions, and screenings, develop skills of cinematographer by shooting exercises during laboratory period, and acquire appreciation of art of cinematography. Language and skills of image construction provided, as well as image analysis and deconstruction. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 101A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 151",
+        "title": "Introduction to Experimental Filmmaking",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, to be arranged. Techniques of image manipulation, design, and art direction. Production and completion of exercise (no longer than three minutes). May be repeated twice for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 152",
+        "title": "Film and Television Sound Recording",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, to be arranged. Limited to Film and Television majors. Introduction to principles and practices of film and television sound recording, including supervised exercises. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 153",
+        "title": "Motion Picture Lighting",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Enforced requisites: courses 52, 101A, 185. Limited to Film and Television majors. Introduction to principles and tools of lighting used in visual storytelling through lectures, discussions, and screenings. Creative lighting techniques covering topics such as people, environment, spatial relationships, movement, color, special effects, and continuity. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 52"},
+            {"type": "requisite","course": "FILM TV 101A"},
+            {"type": "requisite","course": "FILM TV 185"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 154",
+        "title": "Film Editing",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Requisite: course 101A. Corequisite: course 150. Limited to Film and Television majors. Introduction to artistic and technical problems of film editing, with practical experience in editing of image and synchronous sound. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 101A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 155",
+        "title": "Introduction to Digital Media and Tools",
+        "units": 4,
+        "description": "Lecture, six hours; laboratory, one hour. Enforced requisite: course 101A. Limited to Film and Television majors. Instruction and exercises in basic concepts and software of virtual production environments and digital postproduction tools. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 101A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 163",
+        "title": "Directing Cameras",
+        "units": 4,
+        "description": "Laboratory, three hours. Enforced requisite: course 101A. Limited to Film and Television majors. Investigation of expressive potential of image within and beyond narrative from directorial perspective. Experiments with working methodologies that stimulate visual creativity and positioning image as fundamental element of cinematic expression. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 101A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 164",
+        "title": "Directing Actors",
+        "units": 4,
+        "description": "Laboratory, four hours. Exercises in analysis of script and character for purpose of directing actors. Emphasis on eliciting best possible performance from actors. May be repeated twice for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 175A",
+        "title": "Undergraduate Film Production",
+        "units": 12,
+        "description": "Lecture, four hours; laboratory, eight hours. Requisite: 185. Course 175A is requisite to 175B. Limited to Film and Television majors. Writing, preproduction, and production of short film not to exceed 12 minutes, including credits. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 185"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 175B",
+        "title": "Undergraduate Film Production",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, eight hours. Enforced requisite: course 175A. Limited to Film and Television majors. Completion of postproduction (editing, creation of sound tracks) for short film begun in course 175A. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 175A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 178",
+        "title": "Film and Television Production Laboratory",
+        "units": 2,
+        "description": "Laboratory, to be arranged. Supervised laboratory experience in various aspects of film and television production. May be repeated for maximum of 12 units, but only 8 units may be applied toward Film and Television major. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 179",
+        "title": "Digital Film and Television Production",
+        "units": 2,
+        "description": "Laboratory, six hours. Supervised laboratory experience in various aspects of film and television production. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 18",
+        "title": "Media Parks: Cinematic and Television History of Theme Parks",
+        "units": 2,
+        "description": "Seminar, nine hours. Intensive examination and discussion of history and evolution of relationship between moving image media (film, television, and video games) and theme parks, in conjunction with site visits and screenings of related media. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 180A",
+        "title": "Animation Fundamentals",
+        "units": 5,
+        "description": "Lecture, six hours; laboratory, six hours. Fundamentals of animation through exercises and preparation of short animated film. Students create 10-second film in one of traditional techniques (non-computer), with music and/or sound effects. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 180B",
+        "title": "Writing for Animation",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, six hours. Analysis and practice of effective visual storytelling through creation of three production storyboards. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 180C",
+        "title": "Stop Motion Fundamentals Workshop",
+        "units": 2,
+        "description": "Lecture, six hours; laboratory, six hours. Exercises designed to teach technical skills, processes, and principles of motion and timing. Use of range of materials, building animation performances in split-second increments arranged to give illusion of movement. Exploration of early history of stop motion. Collaborative creation of stop-motion film with each student directing and animating portion of film. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 182",
+        "title": "Power, Identity, and Justice",
+        "units": 4,
+        "description": "Lecture, three hours. Examination of how politics, economics, labor, and identity intersect and affect representation, employment, and industry cultures, especially of groups long underserved in mainstream film, television, and media industry. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 183A",
+        "title": "Producing I: Film and Television Development",
+        "units": 4,
+        "description": "Lecture, three hours. Open to nonmajors. Critical analysis of contemporary entertainment industries and practical approach to understanding and implementing producer's role in development of feature film and television scripts. Through scholarly and trade journal readings, in-class discussions, script analysis, and select guest speakers, exposure to various entities that comprise feature film and television development process. Basic introduction to story and exploration of proper technique for evaluating screenplays and teleplays through writing of coverage. May be taken independently for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 183B",
+        "title": "Producing II: Entertainment Economics",
+        "units": 4,
+        "description": "Lecture, three hours. Open to nonmajors. Critical understanding of strategies and operating principles that drive flow of revenue in entertainment industry. Exploration of theoretical frameworks and development of critical perspective, while studying industrial processes through which movie and television properties are financed and exploited throughout all revenue streams. May be taken independently for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 183C",
+        "title": "Producing III: Marketing, Distribution, and Exhibition",
+        "units": 4,
+        "description": "Lecture, three hours. Open to nonmajors. Marketing and distribution of feature films across multiple exhibition platforms and subsequent reception and consumption by audiences. Focus on engagement between distributor, exhibitor, and audience and analysis of various conceptual frameworks and industrial strategies within which these relationships are conceived and operate. May be taken independently for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 184B",
+        "title": "Overview of Contemporary Television Industry",
+        "units": 4,
+        "description": "Lecture, three hours. Examination of evolving economic structures and business practices in contemporary Hollywood television industry, with emphasis on operations of networks and cable companies, series development, marketing, and network branding from 1947 to present. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 185",
+        "title": "Intermediate Undergraduate Film Production",
+        "units": 6,
+        "description": "Laboratory, six hours. Requisites: courses 52, 154, 155, 163. Limited to Film and Television majors. Instruction and exercises in all stages of film production. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 52"},
+            {"type": "requisite","course": "FILM TV 154"},
+            {"type": "requisite","course": "FILM TV 155"},
+            {"type": "requisite","course": "FILM TV 163"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 187A",
+        "title": "Global Film and Television Development",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of film and television development practices in key international markets. Introduction to key international markets, prominent global development and production entities, and their properties and development strategies. Designed to blend theory with practical application. Students read both academic literature and trade publications addressing development practices in U.S. and around world, and gain understanding of mechanisms that drive development in domestic and international territories. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 187B",
+        "title": "Domestic and Global Entertainment Industry Careers and Strategies",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of select film and television career paths and strategies in U.S. and major international markets. Introduction to typical and atypical career paths and strategies of producers, screenwriters, directors, and creative executives in U.S. and abroad. Students take part in moderated discussions with domestic and international industry professionals and read both academic literature and trade publications addressing current state of domestic and global media industries. Through readings and discussions, students gain understanding of rapidly changing global entertainment landscape, and current and future employment trends and project development strategies. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 187C",
+        "title": "Scripted and Unscripted Series Development for Domestic and Global Streaming Services",
+        "units": 4,
+        "description": "Lecture, three hours. Designed to enhance students' understanding of processes involved in domestic and international fiction and nonfiction development of properties for streaming services. Students are acquainted with common business and creative practices, while expanding their critical and practical understanding of quickly evolving and transforming global streaming landscape. Examination of creative development processes and strategies for scripted and unscripted series for streaming services in U.S., and similarities and differences in business as well as creative approaches in major international territories. Examination of latest trends in fiction and nonfiction development, including strategies to work with international coproduction partners and developing projects using pre-viz and virtual production techniques. Covers streaming markets in North American, Europe, Asia, and Central and South America. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 188A",
+        "title": "Special Courses in Film, Television, and Digital Media",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Special topics in film, television, and digital media for undergraduate students taught on experimental or temporary basis. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 194",
+        "title": "Internship Seminars: Film, Television, and Digital Media",
+        "units": 2,
+        "description": "Seminar, two hours. Designed for students currently in departmental internships. General introduction to contemporary film and television industries and discussion and engagement with and expansion on internship experiences. Common business practices and expansion of critical understanding of industry at large. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 195",
+        "title": "Corporate Internships in Film, Television, and Digital Media",
+        "units": 2,
+        "description": "Tutorial, one hour; internship, eight hours. Limited to juniors/seniors. Corporate internship in supervised setting in business related to film, television, and digital media industries. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for credit. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 195CE",
+        "title": "Corporate Internships in Film, Television, and Digital Media",
+        "units": 4,
+        "description": "Tutorial, one hour; fieldwork, eight to 10 hours. Limited to juniors/seniors. Corporate internship in supervised setting in business related to film, television, and digital media industries. Examination of issues related to internship site through series of reading assignments constructed by faculty sponsor and graduate student coordinator. May be repeated for credit with consent of Center for Community Engagement. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 199",
+        "title": "Directed Research or Senior Project in Film, Television, and Digital Media",
+        "units": 2,
+        "description": "Tutorial, three hours. Limited to senior Film and Television majors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be taken for maximum of 8 units. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 1A",
+        "title": "Freshman Symposium",
+        "units": 1,
+        "description": "Laboratory, three hours. Course 1A is enforced requisite to 1B, which is enforced requisite to 1C. Limited to Film and Television majors. Structured forum in which freshmen meet on regular basis to discuss curricular issues, meet with faculty members from department, and have exposure to array of guest speakers from media industries. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 1B",
+        "title": "Freshman Symposium",
+        "units": 1,
+        "description": "Laboratory, three hours. Enforced requisite: course 1A. Limited to Film and Television majors. Structured forum in which freshmen meet on regular basis to discuss curricular issues, meet with faculty members from department, and have exposure to array of guest speakers from media industries. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 1A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 1C",
+        "title": "Freshman Symposium",
+        "units": 1,
+        "description": "Laboratory, three hours. Enforced requisite: course 1B. Limited to Film and Television majors. Structured forum in which freshmen meet on regular basis to discuss curricular issues, meet with faculty members from department, and have exposure to array of guest speakers from media industries. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 1B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 200",
+        "title": "Seminar: Research, Methods, and Resources",
+        "units": 6,
+        "description": "Seminar, three hours; laboratory, four to six hours (additional screenings and/or video laboratory work as required). Designed for graduate students. Examination and study of research methods, techniques, and resources related to film and television research, including development of computer skills for preparation of bibliographies, online database searching and retrieval and, when appropriate, use of computer/videodisc technology for research. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 201A",
+        "title": "Seminar: Media Industries and Cultures of Production-Foundations",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, three hours. Critical survey of various scholarly traditions and methods (ethnographic, sociological, political-economic, geographic) that have been used to study film and television production practices as cultural, social, and industrial phenomena, as basis for individual student research projects. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 201B",
+        "title": "Seminar: Media Industries and Cultures of Production-Transmedia",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, three hours. Examination of contemporary production studies research and transmedia practices, including innovations in marketing, licensing, distribution, industrial organization, creative work, new technologies, and evolving relations between fans and producers in digital economy. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 202",
+        "title": "Seminar: Media Audiences and Cultures of Consumption",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, three hours. Critical study of reception and use of television and electronic media and examination of theoretical approaches to culture and audience research. Consideration of issues of cultural taste, consumerism, style/lifestyle, identity, and relationships between audience, industry, and mass-marketed images/commodities. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 203",
+        "title": "Seminar: Film and Other Arts",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four to six hours. Designed for graduate students. Studies in interrelationships between film and fine arts, or performing arts, or literature, with emphasis on ways these other arts have influenced film. May be repeated twice for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 204",
+        "title": "Seminar: Visual Analysis",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, two to four hours. Study of visual analysis (or textual analysis), using DVD accessing features, as approach to learning what makes film great and distinct art form. Exploration of role of visual style in narrative fiction filmmaking to attempt to understand some ways it can operate. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 205",
+        "title": "Seminar: Videographic Scholarship",
+        "units": 6,
+        "description": "Seminar, three hours; laboratory, three hours. Prior technical knowledge not required; technical assistance is available. Creation of individual original research projects in film/television history and analysis destined for audio-visual medium, finalized as high-resolutions DVDs. Projects may be extensions of research intended for print publication, dissertation chapters, conference presentations, teaching, etc. Equal emphasis on acquiring basic skills needed to create visual essays and on methods of research for this new form of scholarly research. Comparison of limits and advantages of print versus audio-visual publication. Use of Adobe Production Suite. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 206A",
+        "title": "Seminar: European Film History",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four to six hours. Designed for graduate students. Studies in different periods of European cinemas or movements. Topics may include Italian neorealism, French film of 1930s, French New Wave and crime film, Weimar cinema, and Soviet silent cinema. See annual departmental listings for special topics. May be repeated twice for credit with topic change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 206B",
+        "title": "Seminar: Selected Topics in American Film History",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, three hours. Seminar with focus on specific topic or period in American film history. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 206C",
+        "title": "Seminar: American Film History",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four hours. Introduction to industrial, social, and aesthetic history of American film. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 206D",
+        "title": "Seminar: Silent Film",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, two to four hours. Discussion of silent film from its beginning in 1895 to transition to sound cinema in 1927 to 1930. Film viewings discussed in terms of genre, national cinema, formal developments, and directors. Readings on film historical and theoretical issues. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 207",
+        "title": "Seminar: Experimental Media",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four to six hours. Designed for graduate students. Studies of form, style, politics, and history of experimental, innovative, avant-garde, and minority film and video. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 208A",
+        "title": "Seminar: Film Structure",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four to six hours. Designed for graduate students. Examination of various film conventions, both fictional and nonfictional, and of role of structure in motion picture. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 208B",
+        "title": "Seminar: Classical Film Theory",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four hours. Study of principal topics and lines of inquiry that characterize theoretical writings of Arnheim, Eisenstein, Bazin, Kracauer, etc. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 208C",
+        "title": "Seminar: Contemporary Film Theory",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four to six hours. Requisite: course 208B. Designed for graduate students. Study of redefinition of aims and methods of film theory through contemporary writings. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 208B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 209A",
+        "title": "Seminar: Documentary Film",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four to six hours. Designed for graduate students. Nonfictional film and its relation to contemporary culture. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 209D",
+        "title": "Seminar: Animated Film",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, three hours. Designed for graduate students. Critical study of animated film: its historical development, structure, style, use, and relation to contemporary culture. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 210",
+        "title": "Viewing and Reading Media",
+        "units": 4,
+        "description": "Lecture, three hours; media viewings, three hours. Study engages media originating on different platforms and deriving from different modes of production, cultural locations, and various critical approaches. Each approach considers various components of what can be read in individual work including form and aesthetics, organization (narrative/non-narrative, fiction/non-fiction), orientation to spectator or user, industrial or artisanal production context, and relation to historical or cultural moment. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 211",
+        "title": "Seminar: Historiography",
+        "units": 6,
+        "description": "(Formerly numbered 211A.) Seminar, three hours. Limited to MA and PhD candidates. Examination of function and methods of historiography/history as branch of field of media studies by examining variety of methodologies, debates, and strategies thatt have shaped often provocative, contradictory, and contested ways that history has been imagined and applied to field of media studies. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 212",
+        "title": "Cinema and Media Studies Graduate Colloquium",
+        "units": 2,
+        "description": "Lecture, two hours. Exchange with scholars inside and outside department through lectures and academic paper presentation and offers students practice in presenting papers for professional conferences, CV writing seminars, job market/interview preparation seminars, and discussion of current topics and trajectory of area of cinema and media studies. May be repeated for maximum of 14 units. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 213",
+        "title": "Capstone Seminar",
+        "units": 6,
+        "description": "Seminar, three hours. Limited to Film and Television MA candidates. Capstone course for cinema and media studies master's program. Students write, revise, and present comprehensive essay on preapproved topic derived from their MA coursework. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 215",
+        "title": "Seminar: Text and Context in Intermedia Age",
+        "units": 6,
+        "description": "Seminar, three hours. Limited to Film and Television MA and PhD candidates. Introduction to range of textual and contextual approaches to studying cinema and media. Broad historical overview of intellectual history of field, combining foundational works with more recent publications that address similar theoretical questions. Combines foundational writings in cultural and critical theory with key works in cinema and media studies that deploy these theories to analyze screen texts, cultures, institutions, and industries. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 216",
+        "title": "Film, Costume, and Character",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, three hours. Exploration of integration of costume design into filmmaking process and illumination of work required to bring characters from written page to life. Discussion of practice of costume design. Analysis of films from various genres. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 217A",
+        "title": "Seminar: American Television History",
+        "units": 6,
+        "description": "Seminar, three hours; screenings, four hours. Critical survey of U.S. television industry from its inception to present. Examination of programming and changes within industry by considering range of technological, economic, aesthetic, social, and cultural dimensions. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 217B",
+        "title": "Seminar: Selected Topics in Television History",
+        "units": 6,
+        "description": "Seminar, three hours; screenings, three hours. Advanced critical seminar, with focus on specific topic or area (historical period, industry, programming, genre, or social formation) in domestic or international television. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 218",
+        "title": "Seminar: Culture, Media, and Society",
+        "units": 6,
+        "description": "Seminar, three hours; screenings/discussion, four hours. Emphasis on discourse of other(s). Thematization of other is concerned with theories of difference rather than similarity or identity-with how other cultures enter into politics of representation and representation of politics through metaphors of (1) difference without opposition, (2) heterogeneity without hierarchy, and/or (3) otherness without ethnocentrism. Examination of how women, national minorities, and Third World peoples have been rendered others; place of cinematic apparatus in this process and how academization of others is positioned vis-\u00e0-vis mainstream critical discourse. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 219",
+        "title": "Seminar: Film and Society",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four to six hours. Designed for graduate students. Study of ways film affects and is affected by social behavior, belief, and value systems; considered in relation to role of media in society. May be repeated once for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 220",
+        "title": "Seminar: Television and Society",
+        "units": 6,
+        "description": "Seminar, four hours; screenings/discussion, three hours. Designed for graduate students. Study of ways television forms affect and are affected by social behavior, belief, and value systems; study of technological and economic aspects of medium. May be repeated once for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 221",
+        "title": "Seminar: Film Authors",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four to six hours. Designed for graduate students. Intensive examination of works of outstanding creators of films. May be repeated twice for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 222",
+        "title": "Seminar: Film Genres",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four to six hours. Designed for graduate students. Studies of patterns, styles, and themes of such genres as Western, gangster, war, science fiction, comedy, etc. May be repeated twice for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 223",
+        "title": "Seminar: Visual Perception",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, three hours. Aesthetic, psychological, physiological, and phenomenological approaches to vision as they relate to ways in which viewers experience and see film, television, and digital media. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 224",
+        "title": "Computer Applications for Film Study",
+        "units": 6,
+        "description": "Lecture, three hours; film screenings, three hours. Survey of computer applications relevant to film study, principally computer-videodisc systems and image capture technology. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 225",
+        "title": "Seminar: Videogame Theory",
+        "units": 6,
+        "description": "Seminar, three hours; laboratory, three hours. Videogame theory, with exploration of nature of medium, rather than looking at history, industrial practice, social effects, or any other of many interesting questions that games also raise. Acknowledgment of roots in film, television, and media studies and investigation of emerging videogame field. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 246",
+        "title": "Seminar: Issues in Electronic Culture",
+        "units": 6,
+        "description": "Seminar, three hours; laboratory, three hours. Critical studies seminar with major hands-on laboratory component that explores impact of new digital technologies on contemporary culture and aesthetics. Students do laboratory projects using visualization, image manipulation tools, and Internet authoring tools. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 270",
+        "title": "Seminar: Film Criticism",
+        "units": 6,
+        "description": "Seminar, three hours; film screenings, four to six hours. Designed for graduate students. Study of key aesthetic questions of analysis and evaluation in relation to central works of motion picture criticism. May be repeated once for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 271",
+        "title": "Seminar: Television Criticism",
+        "units": 6,
+        "description": "Seminar, four hours; screenings/discussion, three hours. Designed for graduate students. Analysis of major forms of television production and criticism it has elicited. May be repeated once for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 273",
+        "title": "Seminar: Contemporary Film and Television Criticism",
+        "units": 6,
+        "description": "Seminar, three hours; film and television screenings, four to six hours. Limited to Film and Television PhD candidates. Study and practice of analytic and critical response, with emphasis on contemporary film and television. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 274",
+        "title": "Seminar: Research Design",
+        "units": 6,
+        "description": "Seminar, three hours. Designed for second-year Film and Television PhD students. Examination of general principles that govern formulation of major research projects and preparation of prospectus for PhD dissertation. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 274A",
+        "title": "Research Design 1: Initial Research Design",
+        "units": 6,
+        "description": "Seminar, three hours. Introduction to components of dissertation prospectus including development of fields of study, situating one's work in relation to fields of audio/visual material. Study helps prepare students for comprehensive examinations and decide which fields of study best align with chosen methodological approaches. Establishment of a literature review, work plan, bibliography, filmography, and/or archive of visual/audio media. Development of research questions, bibliographic research, literature review, methodology of evidence gathering in relation to project. Setting and justification of project scope. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 274B",
+        "title": "Research Design 2: Bibliography",
+        "units": 6,
+        "description": "Seminar, three hours. Building reading lists and reading texts essential to development of dissertation project. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 274C",
+        "title": "Research Design 3: Writing Prospectus",
+        "units": 6,
+        "description": "Seminar, three hours. Workshop in writing dissertation prospectus. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 276",
+        "title": "Seminar: Non-Western Films",
+        "units": 6,
+        "description": "Seminar, three hours (additional hours as required); film screenings, three hours. Designed for graduate students. Study of aesthetic and ideological impulses of selected films from Asia, Africa, and Latin America. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 277",
+        "title": "Seminar: Narrative Studies",
+        "units": 6,
+        "description": "Seminar, four hours; screenings/discussion, three hours. Designed for graduate students. Study of writings on theory of narrative structure and their significance for analysis of film forms. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 282A",
+        "title": "TV Development 1",
+        "units": 4,
+        "description": "Seminar, three hours. Basic tenets and analysis of television scripted shows and contemporary industry production and business practices. Development of original show concepts and pitch for review and feedback by class, instructor, and guests. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 282B",
+        "title": "TV Development 2",
+        "units": 4,
+        "description": "Seminar, three hours. Advanced analysis of television scripted shows and contemporary industry production and business practices. Continued development of original show concepts and series proposals for review and feedback by class, instructor, and guests. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 283A",
+        "title": "Fundamentals of Writing for Television",
+        "units": 4,
+        "description": "Lecture, three hours. Comprehensive overview of today's television landscape for writers, with emphasis on new structures and formats ushered in by on-demand, digital television revolution. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 283B",
+        "title": "Writing Half-Hour Comedy Pilot and Series Bible",
+        "units": 8,
+        "description": "Seminar, three hours. Enforced requisite: course 430. Examination of basics of half-hour pilot format, style, and content, and learning of principles behind network needs and choices in choosing pilots. Workshop in which to discuss ideas and issues with class and instructor. Weekly progress on original half-hour pilot and series bible required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 430"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 283C",
+        "title": "Running Television Comedy Room",
+        "units": 4,
+        "description": "Seminar, three hours. Enforced requisite: course 283B. Practical knowledge about skills necessary to be writer/executive producer of half-hour comedy show. Focus on community building, collaboration, and leadership skills needed to successfully function in writers' room, as well as breaking stories, writing, and rewriting television scripts. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 283B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 284A",
+        "title": "Writing One-Hour Drama Speculative Episode",
+        "units": 4,
+        "description": "Seminar, three hours. Basic tenets and analysis of television drama shows and contemporary industry production and business practices. Students write speculative (spec) episode for existing one-hour drama series. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 284B",
+        "title": "Writing One-Hour Drama Pilot and Series Bible",
+        "units": 8,
+        "description": "Seminar, three hours. Enforced requisite: course 430. Examination of basics of drama pilot format, style, and content, and learning of principles behind network needs and choices in choosing pilots. Workshop in which to discuss ideas and issues with class and instructor. Weekly progress on original drama pilot and series bible required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 430"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 284C",
+        "title": "Running Television Drama Room",
+        "units": 4,
+        "description": "Seminar, three hours. Enforced requisite: course 284B. Practical knowledge about skills necessary to be writer/executive producer of one-hour drama show. Focus on community building, collaboration, and leadership skills needed to successfully function in writers' room, as well as breaking stories, writing, and rewriting television scripts. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 284B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 285",
+        "title": "The Limited Series",
+        "units": 8,
+        "description": "Seminar, three hours. Writing workshop and seminar that investigates, through reading scripts and viewing episodes of celebrated limited series, creation of an original limited series for television including broadcast, cable, streaming, and new media formats. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 286",
+        "title": "Television Speculative Script",
+        "units": 4,
+        "description": "Seminar, three hours. Writing workshop in which students write a speculative episode for an existing one-hour drama series of a half-hour comedy/dramedy series. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 287A",
+        "title": "Introduction to Art and Business of Producing I",
+        "units": 4,
+        "description": "Seminar, three hours. Introduction for first-year producers program students to producer's role in navigating unique dynamic between art and commerce in entertainment industry. Overview of development, production, and distribution of feature films for worldwide theatrical market, including identifying material, attracting elements, and understanding basics of studio and independent financing and distribution. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 287B",
+        "title": "Introduction to Art and Business of Producing II",
+        "units": 4,
+        "description": "Seminar, three hours. Requisite: course 287A. Builds on principles taught in course 287A and presents continuation of study of development, production, and distribution of feature films for worldwide theatrical market, including identifying material, attracting talent elements, and understanding basics of studio and independent financing and distribution. Minimum of two unproduced screenplays to be presented for review by class and instructor to begin identifying potential thesis projects. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 287A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 287C",
+        "title": "Introduction to Art and Business of Producing III",
+        "units": 4,
+        "description": "Seminar, three hours. Requisites: courses 287A, 287B. Builds on principles taught in courses 287A and 287B. Presentation of screenplays prepared in course 287B for review by class and instructor with goal of isolating and identifying primary and secondary thesis projects. Discussions of script analysis and creating set of viable development notes for primary projects. Completion of written outline for original projects and pitching of primary projects to panel of industry executives for further feedback. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 287A"},
+            {"type": "requisite","course": "FILM TV 287B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 288A",
+        "title": "Feature Film Development I",
+        "units": 4,
+        "description": "Lecture, three hours. Course 288A is requisite to 288B. Practical hands-on approach to understanding and implementing producer's role in development of feature film screenplay and negotiating particulars of production process. Through in-class discussions, script analysis, story notes, and select guest speakers, exposure to various entities that comprise feature film development process. Basic introduction to story and exploration of proper technique for evaluating screenplays through writing of coverage. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 288B",
+        "title": "Feature Film Development II",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 288A. Practical hands-on approach to understanding and implementing producer's role in development of feature film screenplay and negotiating particulars of production process. Through in-class discussions, script analysis, story notes, and select guest speakers, exposure to various entities that comprise feature film development process. Deeper evaluation of screenplay through writing of story notes. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 288A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 289A",
+        "title": "Current Business Practices in Film and Television",
+        "units": 4,
+        "description": "Discussion, three hours. Requisite: course C247. Designed for graduate students. Examination of current status of financing/production/distribution agreements, union agreements, music, copyright, etc., necessary to understand film and television industry. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV C247"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 289B",
+        "title": "Strategy",
+        "units": 4,
+        "description": "Lecture, three hours. Course 289A is not requisite to 289B. Examination of business realities of industry, with focus on techniques for analyzing behavior, making strategic decisions, and overcoming obstacles to achieving results as producer, writer, or director. Assignments designed to assist students in articulating and achieving their goals and to help them effectively transition from classroom to their careers in entertainment industry. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 289C",
+        "title": "Independent Spirit: Creative Strategies for Financing and Distributing Independent Features",
+        "units": 4,
+        "description": "Lecture, three hours. Course 289B is not requisite to 289C. Key insights into financing and distribution of independent or specialty films. Topics include film finance, production, marketing, distribution, agents, and new technology, with emphasis on applying this knowledge to individual student projects. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 290A",
+        "title": "Thesis Workshop 1",
+        "units": 4,
+        "description": "Seminar, three hours. Forum for roundtable strategy sessions and mock story meetings with instructor, students, and various industry guests. Development of one story idea for thesis project. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 290B",
+        "title": "Thesis Workshop 2",
+        "units": 4,
+        "description": "Seminar, three hours. Forum for roundtable strategy sessions and mock story meetings. Students must make concrete weekly progress on thesis project and adapt strategy based on feedback received. Development of marketing and business strategies for story idea set up in course 290A. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 290C",
+        "title": "It's a Wrap: Preparation for Your Entertainment Career",
+        "units": 4,
+        "description": "Seminar, three hours. Final stages of thesis preparation for evaluation. Guidance provided by instructor on how to effectively present selected project. Requirements include industry-related book reports, script analysis, pitching selected concept, weekly research to understand marketplace, accumulation and updating of data, and justification for potential buyers comprised of industry professionals. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 291A",
+        "title": "Studios versus Independents: Navigation Process",
+        "units": 4,
+        "description": "Lecture, three hours. Tools necessary for producer to navigate Hollywood entertainment industry. Topics discussed through lectures and guest speakers include impact of difficulty to navigate relationship between art and commerce in craft of filmmaking, rapid advance of new technologies, diverse new means of building finance capital for emerging producing entities, and what future may hold for truly independent filmmaker. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 291B",
+        "title": "Feature Film Marketing",
+        "units": 4,
+        "description": "Lecture, three hours. Course 291A is not requisite to 291B. Examination of numerous groups that are responsible for specific marketing components and make up marketing departments. Distribution and in-theater marketing, trailers, publicity, promotions, research, and media. Mechanics and levels of intuition required to make sure movies are seen by public. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 291C",
+        "title": "Feature Film Distribution and Exhibition",
+        "units": 4,
+        "description": "Lecture, three hours. Course 291B is not requisite to 291C. Investigation of philosophy, structure, and major players that make up entertainment industry, with emphasis on film distribution and exhibition. Through lectures, readings, and guest speakers, exploration of interrelated arenas of production, marketing, business affairs, media, and impact of international market on distribution and exhibition of studio releases. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 292A",
+        "title": "Overview of Network Television Management",
+        "units": 4,
+        "description": "Lecture, three hours. Designed to expand basic understanding of network and cable television business. Exploration of role of showrunner, executives from networks and production companies, packaging agents, and studios responsible for developing and creating programming. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 292B",
+        "title": "Adapting Intellectual Property for Television",
+        "units": 4,
+        "description": "Seminar, three hours. Advanced examination of techniques and strategies for concept ideation, property acquisition, and television adaption. Development of television series concepts based on preexisting material. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 292C",
+        "title": "Running Shows: Producing for Broadcast and Cable",
+        "units": 4,
+        "description": "Lecture, three hours. Course 292B is not requisite to 292C. Exploration of role of writers-producers or showrunners in creating television shows. Designed to train writers who typically enter field as staff writers and to develop concrete tools of producers. Training of next generation of nonwriting network and studio development executives whose job it is to assist writers-producers in highly collaborative process of creating, developing, producing, and scheduling television programming. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 294A",
+        "title": "Contracts and Negotiation",
+        "units": 4,
+        "description": "Lecture, three hours. Survey of range of contracts involved in studio productions, including literary submission and option agreements, artist employment, director employment, writer collaboration agreements, coproduction agreements, music rights license, etc. Actual studio agreements referenced to illuminate potential consequences of each transaction. Negotiation strategy exercises. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 294B",
+        "title": "Entertainment Law, Business Practices, and Negotiation Strategies",
+        "units": 4,
+        "description": "Lecture, three hours. Course 294A is not requisite to 294B. Introduction to feature-length motion picture business and law from perspective of independent and studio producer. Students establish working knowledge of entertainment law and business practices through basic understanding of important legal concepts and business considerations in connection with development, production and distribution, material terms of fundamental rights and talent agreements, and negotiation strategy. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 294C",
+        "title": "International Financing and Distribution",
+        "units": 4,
+        "description": "Lecture, three hours. Course 294B is not requisite to 294C. Legal-based course dealing with independent finance and distribution of feature films. Topics include fundamentals of film financing, domestic distribution, international distribution, European coproductions, role of foreign sales agents and of bankers and completion bond companies. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 295A",
+        "title": "Art of Presentation",
+        "units": 4,
+        "description": "Lecture, three hours. Cultivation of skills needed for students to present themselves and their project goals with clarity and precision to industry professionals. Oral presentations designed to enhance student ability to deliver convincing arguments on range of topics. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 295B",
+        "title": "Advanced Film and Television Producing Workshop for Producers, Writers, and Directors",
+        "units": 4,
+        "description": "Lecture, three hours. Course 295A is not requisite to 295B. Designed to help producers, as well as screenwriters and directors, focus on networking opportunities and to develop strategies to bring their feature and television projects to marketplace. Case-study documents (drafts of screenplays, dailies, etc.) from current or recently produced projects provided. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 295C",
+        "title": "Advanced Producing: Role of Successful Producer",
+        "units": 4,
+        "description": "Lecture, three hours. Designed to provide producers with comprehensive understanding of business acumen involved in purchasing scripts for studios and independent production companies. Through script analysis and in-class discussions, students encouraged to examine not just story elements, but marketing assets inherent in pieces of material. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 296A",
+        "title": "Role of Talent Agencies",
+        "units": 4,
+        "description": "Lecture, three hours. Introductory overview of various departments at agencies, including motion picture literary, talent, story, packaging, and television, and examination of various interactions among each. Exercises encourage producers, writers, and directors to learn how to work effectively with individuals at talent agencies. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 296B",
+        "title": "Who Represents Me?",
+        "units": 4,
+        "description": "Lecture, three hours. Course 296A is not requisite to 296B. In-depth analysis of different forms of representation offered by agents, managers, business managers, and lawyers and detail of legal rights and responsibilities of each. Exercises require students to represent rights holders in series of potential projects. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 297A",
+        "title": "Digital Media Producing 1",
+        "units": 4,
+        "description": "Seminar, three hours. Overview of changing world of storytelling through development of new technologies and new media. Conceptualization and pitch of innovative, original, digital media concepts with interactive or participatory story elements for review and feedback by class, instructor, and guests. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 297B",
+        "title": "Digital Media Producing 2",
+        "units": 4,
+        "description": "Seminar, three hours. Examination and analysis of creative and physical production processes for producing content for digital platforms. Development of production plans for original scripted and unscripted digital and web-based series. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 297C",
+        "title": "Digital Media Producing 3",
+        "units": 4,
+        "description": "Seminar, three hours. Overview of changing world of storytelling through development of new technologies and new media. Development of short teaser trailer or website using digital and web-based resources to promote student original digital media project proposal. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 298A",
+        "title": "Special Studies in Film and Television",
+        "units": 2,
+        "description": "Seminar, three hours; film screenings, three hours. Designed for graduate students. Seminar study of problems in film and television, organized on topic basis. May be repeated once for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 33",
+        "title": "Introductory Screenwriting",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Not open for credit to students with credit for course C132/C430. Structural analysis of feature films and development of professional screenwriters' vocabulary for constructing, deconstructing, and reconstructing their own work. Screenings of films and selected film sequences in class and by assignment. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 34",
+        "title": "Introduction to Television Writing",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 33. Development of fundamental skills necessary to explore writing of original television scripts. Offers comprehensive overview of process of television writing. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 33"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 37",
+        "title": "Writing for Television: Big Ideas for Small Screen",
+        "units": 2,
+        "description": "Seminar, nine hours. Intensive introduction to television pilot form, covering style and content and how to analyze television shows and industry process of television development. Students develop beat sheet and outline for first act of original pilot episode, write teaser of original pilot episode, and create series treatment. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 4",
+        "title": "Introduction to Art and Technique of Filmmaking",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Students acquire understanding of practical and aesthetic challenges undertaken by artists and professionals in making of motion pictures and television. Examination of film as both art and industry: storytelling, sound and visual design, casting and performance, editing, finance, advertising, and distribution. Exploration of American and world cinema from filmmaker's perspective. Honing of analytical skills and development of critical vocabulary for study of filmmaking as technical, artistic, and cultural phenomenon. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 400",
+        "title": "Film Image Design Laboratory",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, six hours. Limited to graduate film and television students. Conception and design of nonnarrative film imagery. One-minute experiments in relation of meaning to technique, including manipulation of optics, photochemistry, elements of electronic processes, and display of time and motion. May be repeated once for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 400B",
+        "title": "Introduction to Cinematography II",
+        "units": 2,
+        "description": "Lecture, three hours; laboratory, three hours. Continuation of study of cinematography with emphasis on lighting. Instructor meets individually with teams of director/cinematographer to prepare for shooting six-minute projects. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 401",
+        "title": "Film Analysis for Filmmakers",
+        "units": 4,
+        "description": "Lecture/screenings, five hours. Limited to graduate film and television students. Drawing heavily from array of historical examples, examination of many expressive strategies usable in creation of moving image art forms. Unifying theory and practice, presentation of approach to viewing great films of past that empowers filmmakers to use sound and images to tell original stories in present. Focus on strategic decision making in areas of writing, design, cinematography, editing, sound, and performance to enable filmmakers to discover their own personal style for telling stories on screen. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 402A",
+        "title": "Advanced Narrative Directing Workshop",
+        "units": 4,
+        "description": "Laboratory, six or 12 hours; fieldwork, to be arranged. Requisites: courses 405, 409, 410A, 410B, 410C, 433. Limited to nine graduate film and television students. Production of 10- to 15-minute fiction film or project. Students budget and preproduce their projects by end of first term. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 405"},
+            {"type": "requisite","course": "FILM TV 409"},
+            {"type": "requisite","course": "FILM TV 410A"},
+            {"type": "requisite","course": "FILM TV 410B"},
+            {"type": "requisite","course": "FILM TV 410C"},
+            {"type": "requisite","course": "FILM TV 433"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 402B",
+        "title": "Advanced Narrative Directing Workshop",
+        "units": 8,
+        "description": "Laboratory, 12 hours; fieldwork, to be arranged. Requisite: course 402A. Limited to nine graduate film and television students. Production of 10- to 15-minute fiction film or project. In second term students must complete photography on location and/or in studio. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 402A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 402C",
+        "title": "Advanced Narrative Directing Workshop",
+        "units": 4,
+        "description": "Laboratory, four hours. Requisites: courses 402A, 402B. Completion of postproduction on projects started in courses 402A and 402B. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 402A"},
+            {"type": "requisite","course": "FILM TV 402B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 404",
+        "title": "Emerging Techniques and Technologies in Cinematography",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, two hours. Requisite: course 410B. Designed to keep students abreast of ever-changing tools and techniques of cinematography. Exploration of developing concepts and familiarization with emerging technology and equipment. Focus may change to reflect changes in current technology. May be repeated twice for credit. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 410B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 404A",
+        "title": "Advanced Abstract/Experimental Media Workshop",
+        "units": 8,
+        "description": "Lecture/discussion/laboratory, 12 hours; fieldwork, to be arranged. Requisites: courses 405, 409, 410A, 410B, 410C, 433. Limited to 10 students per section. Production of 20-minute abstract or experimental film, video, or multimedia project. Students plan, design, and shoot their projects in first term and work as crew for each other in rotating assignments. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 405"},
+            {"type": "requisite","course": "FILM TV 409"},
+            {"type": "requisite","course": "FILM TV 410A"},
+            {"type": "requisite","course": "FILM TV 410B"},
+            {"type": "requisite","course": "FILM TV 410C"},
+            {"type": "requisite","course": "FILM TV 433"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 404B",
+        "title": "Advanced Abstract/Experimental Media Workshop",
+        "units": 8,
+        "description": "Lecture/discussion/laboratory, 12 hours; fieldwork, to be arranged. Requisites: courses 405, 409, 410A, 410B, 410C, 433. Limited to 10 students per section. Production of 20-minute abstract or experimental film, video, or multimedia project. In second term students must complete postproduction of their projects. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 405"},
+            {"type": "requisite","course": "FILM TV 409"},
+            {"type": "requisite","course": "FILM TV 410A"},
+            {"type": "requisite","course": "FILM TV 410B"},
+            {"type": "requisite","course": "FILM TV 410C"},
+            {"type": "requisite","course": "FILM TV 433"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 404C",
+        "title": "Advanced Abstract/Experimental Media Workshop",
+        "units": 8,
+        "description": "Lecture/discussion/laboratory, 12 hours; fieldwork, to be arranged. Requisites: courses 404A, 404B. Completion of all stages of production and postproduction on projects started in courses 404A and 404B. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 404A"},
+            {"type": "requisite","course": "FILM TV 404B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 405",
+        "title": "Introduction to Color Grading",
+        "units": 4,
+        "description": "Lecture, one hour; laboratory, two hours. Requisite: course 410B. Students achieve an understanding and command of tools and techniques of color correction in Davinci Resolve through lectures, discussions, workshops, and screenings. Increases student's  appreciation and skill set in art of color grading in cinematography. Each student conforms, grades, and outputs a project of their choosing for a final project. May be repeated once for credit. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 410B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 407",
+        "title": "Video Documentary Workshop",
+        "units": 8,
+        "description": "Laboratory, 12 hours. Limited to graduate film and television students. Exploration of documentary video, including screening variety of international works and producing short documentary project using single-camera field production techniques. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 408A",
+        "title": "Avid Editing 1",
+        "units": 4,
+        "description": "Studio, four hours; laboratory, to be arranged. Individual instruction in Avid nonlinear editing system. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 408B",
+        "title": "Avid Editing 2",
+        "units": 4,
+        "description": "Studio, four hours; laboratory, to be arranged. Individual instruction in Avid nonlinear editing system. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 409",
+        "title": "Directing Actors for Camera Workshop",
+        "units": 4,
+        "description": "Workshop, six hours; laboratory, to be arranged; laboratory preparation, two to four hours. Limited to MFA production program students. Team-taught with five weeks designed to give director actor/camera techniques, and five weeks to offer basic strategies to elicit good performances from actors. Emphasis on problems faced when directing actors for film. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 410A",
+        "title": "Symposium",
+        "units": 2,
+        "description": "Seminar, three hours. Limited to and required of first-year MFA production program students. Exploration of principal concepts of film and television production within context of preproduction, production, and postproduction, providing forum for synthesis of knowledge gained in various first-year technical craft courses. Exploration of strategies for learning production within academic environment. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 410B",
+        "title": "Cinematography",
+        "units": 2,
+        "description": "Seminar, three hours. Limited to and required of first-year MFA production program students. Production workshop designed to give hands-on experience in all aspects of film production (tools and practicum of medium) as each student writes/directs/edits six-minute film. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 410C",
+        "title": "Postproduction",
+        "units": 2,
+        "description": "Seminar, three hours. Limited to and required of first-year MFA production program students. Production workshop designed to give hands-on experience in all aspects of film production (tools and practicum of medium) as each student writes/directs/edits six-minute film. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 410D",
+        "title": "Postproduction Sound",
+        "units": 2,
+        "description": "Seminar, three hours. Requisites: courses 405, 409. Limited to and required of first-year MFA production program students. Technical and aesthetic aspects of postproduction sound recording, editing, and rerecording for film and television. Application of principles of sound design to student films while using UCLA's John Candy Room and Scoring Stage for Automatic Dialogue Replacement (ADR), Foley, and mixing. Use of Pro Tools LE for recording, editing, and mixing, selection and use of microphones and mixing consoles, and incorporation of Final Cut Pro soundtracks into mix environment. Students record ADR and Foley and present mix of edited dialogue/ADR, Foley, sfx, and music tracks by end of term. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 405"},
+            {"type": "requisite","course": "FILM TV 409"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 410E",
+        "title": "Production",
+        "units": 12,
+        "description": "Lecture, three hours; fieldwork, 24 to 40 hours. Requisites: courses 401, 409, 410A through 410D. Limited to and required of first-year MFA production/directing students. Designed to give hands-on experience in film production. Students prepare and direct six-minute films and serve in preassigned crew positions for each other. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 401"},
+            {"type": "requisite","course": "FILM TV 409"},
+            {"type": "requisite","course": "FILM TV 410A"},
+            {"type": "requisite","course": "FILM TV 410B"},
+            {"type": "requisite","course": "FILM TV 410C"},
+            {"type": "requisite","course": "FILM TV 410D"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 411A",
+        "title": "Modes of Making: Experimental",
+        "units": 4,
+        "description": "Seminar, three hours; laboratory, one hour. Exploration of multiple and alternative modes of filmmaking and platforms for creative expression. Students are exposed to wide variety of media types and invited to undertake their own experiments, paying equal attention to form and content. Each student completes series of small-scale, low-tech, low-stakes film projects designed to fuel curiosity and open creative pathways, while also developing sense of community and learning to offer and accept feedback that is both supportive and challenging. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 411B",
+        "title": "Modes of Making: Documentary",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Exploration of craft and form of documentary filmmaking through series of synchronous and asynchronous film projects. Viewing, discussion, and practicing of interview, v\u00e9rit\u00e9, animated, and hybrid documentary approaches. Students work in partnerships and small crews to rotate and produce work in collaboration. Contemporary debates around documentary representation and film ethics are incorporated into classroom discussions and critiques. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 411C",
+        "title": "Modes of Making: Narrative Fiction",
+        "units": 8,
+        "description": "Lecture, four hours; laboratory, four hours. Students work individually and in teams to complete small-scale film projects and exercises to develop specific building blocks needed for narrative fiction filmmaking. Course modules provide introduction to each element of narrative filmmaking, from preproduction to completion. Students gain experience with each key crew position and develop basic collaborative skills needed to work effectively with-and as part of-film crew. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 412A",
+        "title": "Tools and Techniques: Editing I",
+        "units": 4,
+        "description": "Laboratory, three hours. Technical and aesthetic components of editing. Basic instruction in use of editing hardware and software. Deepening knowledge of requisite editing software and hands-on skills needed for editing in non-fiction mode. Training in digital workflow and duties and responsibilities of digital imaging technician and assistant editor. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 412B",
+        "title": "Tools and Techniques: Editing II",
+        "units": 4,
+        "description": "Laboratory, three hours. Advances understanding of video editing process and of Avid Media Composer software. Material covered is in support of projects created in courses 411B and 411C. Includes screenings concentrating on editing techniques. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 412C",
+        "title": "Tools and Techniques: Editing III",
+        "units": 4,
+        "description": "Laboratory, three hours. Offers hands-on support and technical knowledge in editing for students in parallel with their crew-based productions in course 411C. Advanced-level training in use of requisite editing software; and deepening skills in digital workflow, color grading, and final output. Focus on practical skill development, with hands-on practices always contextualized and motivated by creative and conceptual goals. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 413A",
+        "title": "Tools and Techniques: Sound I",
+        "units": 4,
+        "description": "Laboratory, three hours. Theory and technique behind production sound and field recording including operation of Sound Devices MixPre-6 audio recorder, and use of wired and wireless microphones and boom poles. Students also learn vocabulary and theory about how sound is experienced, and how those experiences can be translated into creative context. Students listen to and record audio without visual component, then acquire tools and techniques to prepare for documentary work. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 413B",
+        "title": "Tools and Techniques: Sound II",
+        "units": 4,
+        "description": "Laboratory, three hours. Theory and technique behind production sound and field recording including operation of Sound Devices MixPre-6 audio recorder, and use of wired and wireless microphones and boom poles. Students also learn vocabulary and theory about how sound is experienced, and how those experiences can be translated into creative context. Students take a finished short film through a complete post-production sound process, from spotting to a finished mix. Students finish films completed in course 411B through a similar process. Development of hands-on skills needed for the craft of media making in a narrative fiction mode. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 413C",
+        "title": "Tools and Techniques: Sound III",
+        "units": 4,
+        "description": "Laboratory, three hours. Advanced exercises in the theory and technique behind production sound and field recording, including operation of Sound Devices MixPre-6 audio recorder, and use of wired and wireless microphones and boom poles. Students take a finished short film through a complete post-production sound process, from spotting to a finished mix. Students finish films completed in course 411C through a similar process. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 414A",
+        "title": "Tools and Techniques: Cinematography I",
+        "units": 4,
+        "description": "Laboratory, three hours. Introduction to design elements of cinematography with special emphasis on support for course 411A. Tools and techniques required for motion picture capture including lens choice, camera settings, composition, movement, lighting design, and color design to use as visual art forms. Assignments train students on proper set etiquette and production procedures, as well as allow for experimentation and technical growth. Experimental films are more often transformed in post-production process, requiring an open-minded approach for filmmaking in this course. Hands-on exercises and workshops of increasing complexity designed to understand skills used for visualizing and executing design, compositional balance, and exposure of cinematographic storytelling. Study of documentary filmmaking techniques such as v\u00e9rit\u00e9 filmmaking, documentary coverage, and interview setups. Exploration of simple lighting concepts for documentary. Creation of micro- and short-form experimental and documentary \ufb01lms in variety of aesthetic and conceptual modes. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 414B",
+        "title": "Tools and Techniques: Cinematography II",
+        "units": 4,
+        "description": "Laboratory, three hours. Introduction to design elements of cinematography. Tools and techniques required for motion picture capture including lens choice, camera settings, composition, movement, lighting design, and color design to use to document a variety of events. Assignments train students on proper field production etiquette and procedures, as well as allow for experimentation and technical growth. Hands-on exercises and workshops of increasing complexity designed to understand skills used for visualizing and executing design, compositional balance, and exposure of cinematographic storytelling. Development of hands-on skills needed for the craft of media making in a fiction mode including basic camera, lighting, and production techniques for shooting scripted scenes. Creation of micro- and short-form documentaries and scripted scenes in a variety of aesthetic and conceptual modes. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 414C",
+        "title": "Tools and Techniques: Cinematography III",
+        "units": 4,
+        "description": "Laboratory, three hours. Introduction to design elements of cinematography with special emphasis on supporting course 411C. Study of preproduction visualization tools and techniques for cinematographers with emphasis on lighting, lens, camera, composition, movement, and color design. Assignments train students on proper field production etiquette and procedures, as well as allow for experimentation and technical growth. Hands-on exercises and workshops of increasing complexity designed to understand skills used for visualizing and executing design, compositional balance, and exposure of cinematographic fiction storytelling. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 415",
+        "title": "Themes and Issues: Foundations of Directing",
+        "units": 4,
+        "description": "(Formerly numbered 413.) Seminar, three hours. Provides intellectual and creative toolkit for subsequent undertakings in filmmaking, media making, and audio-visual storytelling. These source materials are agnostic with regard to certain questions of origin (genre, nation, format, portal, duration) and yet deeply rooted in politics and histories of representation that catalyze and inform racial, gendered, sexual, and ethnic lenses and visions. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 418",
+        "title": "Cinematography and Directing",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, six hours. Requisite: course 417. Limited to graduate film and television students. Supervised filming of short dramatic projects on sound stage and at exterior locations that explore complexity of process, emphasizing balance and collaboration essential to both directing and photography in its varied technical, production, and creative aspects. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 417"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 419",
+        "title": "Advanced Cinematography",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour; laboratory, one hour. Requisites: courses 417, 418. Limited to graduate film and television students. Advanced study of principles of cinematography, with emphasis on exposure, lighting, and selection of film, camera, and lenses. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 417"},
+            {"type": "requisite","course": "FILM TV 418"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 423A",
+        "title": "Direction of Actors for Film and Television",
+        "units": 4,
+        "description": "Lecture, four hours; laboratory. Preparation: first film project. Limited to graduate film and television students. Required of all production majors shooting fiction thesis. Exercises in analysis of script and character for purpose of directing actors in film and television productions. Emphasis on eliciting best possible performance from actors. May be repeated twice for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 423B",
+        "title": "Advanced Direction of Actors for Film and Television",
+        "units": 4,
+        "description": "Studio laboratory, six hours. Requisite: course 423A. Limited to graduate film and television students. Advanced study and practice of directing actors before camera. Emphasis on developing techniques to immediately enhance communication between director and actor on set in order to maintain continuity from shot to shot. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 423A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 430",
+        "title": "Introduction to Film and Television Writing",
+        "units": 6,
+        "description": "Lecture, three hours. Introduction to film and television writing. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 433",
+        "title": "Writing Short Screenplays",
+        "units": 4,
+        "description": "Lecture, three hours. Limited to and required of first-year MFA production program students. Conception, development, and writing of six-minute dramatic film script to be produced in courses 410A, 410B, 410C. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 434",
+        "title": "Advanced Screenwriting",
+        "units": 8,
+        "description": "Seminar, three hours. Enforced requisite: course 430. Advanced problems in writing of original film and television screenplays. May be repeated for credit. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 430"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 435",
+        "title": "Advanced Writing for Short Film and Television Screenplays",
+        "units": 4,
+        "description": "Discussion, three hours. Requisite: course 410C. Limited to graduate film and television students. Conception, development, and writing of dramatic film script to be produced as advanced or thesis project. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 410C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 437",
+        "title": "Adaptation for Screen",
+        "units": 8,
+        "description": "Seminar, three hours. Enforced requisite: course 430. Students analyze techniques of dramatic adaptation and apply them by writing their own scripted adaptations. Students read selected texts and view their filmed versions in order to learn various approaches to adaptation. Students workshop their own screenplays adapted from preselected list of stories. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 430"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 438",
+        "title": "Advanced Screenwriting: Rewrite",
+        "units": 8,
+        "description": "Seminar, three hours. Enforced requisites: courses 430, 434. Workshop in which students rewrite first draft of original screenplay that was written in course 434. Discussion of problems particular to rewrites: how to take notes and make them one's own; how to do deep-read on line-by-line basis of script; overall rewriting strategies; what is best for situation and script. Reading and discussion of student rewrites. Particular attention directed to how people talk about scripts that are not their own; how they avoid giving feedback based on how they might write something and how they move toward giving feedback that honors intention and integrity of script. May be repeated once for credit. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 430"},
+            {"type": "requisite","course": "FILM TV 434"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 440",
+        "title": "Festival Strategies",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of film, television, streaming, and specialized festivals. Emphasis on strategies and practical knowledge necessary to navigate local, regional, and global festivals, whether as producer, director, animator, screenwriter, or scholar/programmer. Dialog and exchange of diverse ideas, perspectives and real-world experiences among students, faculty, and special industry guests. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 451",
+        "title": "Advanced Design for Film and Television",
+        "units": 4,
+        "description": "Laboratory, to be arranged. Limited to graduate film and television students. Advanced study and practice of techniques and methods of design for motion pictures. Art direction for advanced workshop productions. May be repeated for maximum of 12 units. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 452B",
+        "title": "Postproduction Sound",
+        "units": 2,
+        "description": "Laboratory, three hours. Limited to Production MFA students. Technical and aesthetic aspects of postproduction sound recording, editing, and rerecording for film and television. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 453",
+        "title": "Postproduction Sound Design",
+        "units": 2,
+        "description": "Lecture, three hours. Designed to give film students insight into world of postproduction sound and to provide knowledge and tools necessary to complete postwork on their projects. Exploration of all areas of postproduction sound design from editing to final mixing. How to effectively use sound design to enhance storytelling capability of films, evaluate music choices, pick composer, music edit, create sound design to enhance story points, discover design opportunities, and select right sound effects. How to edit dialogue, prep for Automatic Dialogue Replacement and Foley sessions, and supervise final sound mix. Screening of numerous film clips to provide examples of postsound choices that demonstrate effective use of sound design. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 459A",
+        "title": "Directing for Film and Television",
+        "units": 4,
+        "description": "Lecture, three hours. Limited to graduate film and television students. Analysis and exploration, with specific scenes, of differences and many similarities in directorial approach to same literary material in theater, film, and television. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 459B",
+        "title": "Directing for Film and Television",
+        "units": 4,
+        "description": "Lecture, three hours. Limited to graduate film and television students. Analysis and exploration, with specific scenes, of differences and many similarities in directorial approach to same literary material in theater, film, and television. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 464A",
+        "title": "Advanced Film Directing",
+        "units": 8,
+        "description": "Studio, to be arranged. Limited to graduate film and television students. Special problems in direction of fictional and documentary films. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 464B",
+        "title": "Advanced Film Directing",
+        "units": 8,
+        "description": "Studio, to be arranged. Limited to graduate film and television students. Special problems in direction of fictional and documentary films. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 465",
+        "title": "Narrative Television Workshop",
+        "units": 8,
+        "description": "Laboratory, eight hours. Supervised exercises in television multicamera direction, with emphasis on creative use of composition and sound, and communication with those in front of and behind camera. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 469",
+        "title": "Contemporary Topics: UCLA Filmmakers",
+        "units": 4,
+        "description": "Seminar, two hours. Analysis of films made both outside and within traditional studio system, identification of materials and tools utilized to such purposes, exploration of story and themes of works within larger political and cultural framework, and development and articulation of personal storytelling voice rooted in specifics of history, background, and life experience. Designed as series of online master classes with visiting filmmakers, their collaborators, and occasional guest scholars participating in moderated discussions. Each class concludes with informal discussion with students. Weekly contextual readings and screenings. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 472",
+        "title": "Commercials",
+        "units": 4,
+        "description": "Lecture, four hours. Limited to MFA students. Designed to give students opportunity to explore one very specific kind of filmmaking. Through exploration of advertising, students gain knowledge about what kind of work is salable in American and foreign markets and how to work within distinct confines of commercial genre. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 480",
+        "title": "Timing for Animation",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Process of animation timing through lectures and assignments. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 482A",
+        "title": "Advanced Animation Workshop",
+        "units": 4,
+        "description": "Lecture, three hours; studio, to be arranged. Requisites: courses 181A, 181B, 181C. Advanced organization and integration of various creative arts used in animation, resulting in production of complete animated film. May be repeated for maximum of 16 units. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 181A"},
+            {"type": "requisite","course": "FILM TV 181B"},
+            {"type": "requisite","course": "FILM TV 181C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 482B",
+        "title": "Advanced Animation Workshop",
+        "units": 4,
+        "description": "Lecture, three hours; studio, to be arranged. Requisites: courses 181A, 181B, 181C. Advanced organization and integration of various creative arts used in animation, resulting in production of complete animated film. May be repeated for maximum of 16 units. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 181A"},
+            {"type": "requisite","course": "FILM TV 181B"},
+            {"type": "requisite","course": "FILM TV 181C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 483A",
+        "title": "Advanced Computer Animation",
+        "units": 4,
+        "description": "Lecture, six hours; laboratory, four hours. Requisites: courses C481A, C481C, 489A. Recommended: course C481B. Course 483A is requisite to 483B, which is requisite to 483C. Creation and production of complete and original advanced computer animated film. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV C481A"},
+            {"type": "requisite","course": "FILM TV C481C"},
+            {"type": "requisite","course": "FILM TV 489A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 483B",
+        "title": "Advanced Computer Animation",
+        "units": 4,
+        "description": "Lecture, six hours; laboratory, four hours. Requisite: course 483A. Creation and production of complete and original advanced computer animated film. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 483A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 483C",
+        "title": "Advanced Computer Animation",
+        "units": 4,
+        "description": "Lecture, six hours; laboratory, four hours. Requisite: course 483B. Creation and production of complete and original advanced computer animated film. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 483B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 484A",
+        "title": "Visual Thinking and Organization for Animation",
+        "units": 4,
+        "description": "Lecture, six hours; laboratory, four hours. Course 484A is requisite to 484B. Systematic approach to analyzing and communicating two-dimensional and three-dimensional form and applying traditional compositional approaches to animation. May be repeated for maximum of 16 units. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 484B",
+        "title": "Visual Thinking and Organization for Animation",
+        "units": 4,
+        "description": "Lecture, six hours; laboratory, four hours. Requisite: course 484A. Systematic approach to analyzing and communicating two-dimensional and three-dimensional form and applying traditional compositional approaches to animation. May be repeated for maximum of 16 units. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 484A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 485",
+        "title": "Legal Issues in Animation",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Examination of legal issues in animation, including copyright, contracts, constitutional issues in animation, competing rights, employer/employee relationships, and representation in animation. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 486",
+        "title": "Directed Individual Study: Preparation to Advance to Candidacy for MFA in Production",
+        "units": 2,
+        "description": "Tutorial, four to eight hours. Limited to MFA production program students. Specialized development and organization of proposed thesis project prior to advancement to candidacy. Should be taken term before student plans to advance to candidacy. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 487",
+        "title": "Directed Individual Study: Postproduction Laboratory",
+        "units": 4,
+        "description": "Laboratory, eight hours. Limited to MFA production program students. Completion of projects in final stages of postproduction. May not be repeated. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 488A",
+        "title": "Interactive Animation",
+        "units": 4,
+        "description": "Lecture, six hours; laboratory, to be arranged. Requisites: courses C481A, C481C, 489A. Organization and integration of various creative arts used in animation and interactive media to form complete study of selective interactive animation project. May be repeated for maximum of 16 units. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV C481A"},
+            {"type": "requisite","course": "FILM TV C481C"},
+            {"type": "requisite","course": "FILM TV 489A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 488B",
+        "title": "Advanced Interactive Animation",
+        "units": 4,
+        "description": "Lecture, six hours; laboratory, to be arranged. Requisite: course 488A. Organization and integration of various creative arts used in animation and interactive animation to form completed project of selected interactive topic. May be repeated for maximum of 16 units. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 488A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 489A",
+        "title": "Computer Animation in Film and Video",
+        "units": 4,
+        "description": "Lecture, six hours; laboratory, four to eight hours; other, to be arranged. Preparation: completed animated film. Requisites: courses 181A, 181C. Instruction in and supervised production of computer animation. May be repeated for maximum of 16 units. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 181A"},
+            {"type": "requisite","course": "FILM TV 181C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 489B",
+        "title": "Production in Computer Animation",
+        "units": 4,
+        "description": "Lecture, six hours; laboratory, four to eight hours. Requisite: course 489A. Instruction in creation, preparation, and production of complete and original computer animation film or tape. May be repeated for maximum of 16 units. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 489A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 495A",
+        "title": "Practice of Teaching Film and Television",
+        "units": 2,
+        "description": "Seminar, three hours. Required of all teaching assistants and associates in critical studies program. Orientation and preparation of graduate students who have responsibility to assist in teaching undergraduate courses in department; discussion of problems common to teaching experience. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 496",
+        "title": "Practice of Teaching Film and Television",
+        "units": 2,
+        "description": "Discussion, two hours. Required once of all teaching assistants and associates in department. Orientation and preparation of graduate students who have responsibility to assist in teaching undergraduate courses in department; discussion of problems common to teaching experience. May not be applied toward MA, MFA, or PhD. May be repeated. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 498",
+        "title": "Professional Internship in Film and Television",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Full- or part-time at studio or on professional project. Designed for MFA program advanced students. Internship at various film, television, or theater facilities accentuating creative contribution, organization, and work of professionals in their various specialties. Given only when projects can be scheduled. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 501",
+        "title": "Cooperative Program",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Preparation: consent of graduate adviser and graduate dean, and host campus instructor, department chair, and graduate dean. Used to record enrollment of UCLA students in courses taken under cooperative arrangements with USC. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 51",
+        "title": "Digital Media Studies",
+        "units": 5,
+        "description": "Lecture, three hours; laboratory, one hour. Introduction to history, theory, and authoring skills of digital media, art, and culture. P/NP or Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 596A",
+        "title": "Directed Individual Studies: Research",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate students. May be repeated with consent of instructor. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 596B",
+        "title": "Directed Individual Studies: Writing",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate students. May be repeated with consent of instructor. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 596C",
+        "title": "Directed Individual Studies: Directing",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate students. May be repeated with consent of instructor. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 596F",
+        "title": "Directed Individual Studies: Production",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate students. May be repeated with consent of instructor. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 597",
+        "title": "Preparation for PhD Qualifying Examinations in Film and Television",
+        "units": 2,
+        "description": "Tutorial, to be arranged. May be taken for maximum of 12 units. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 598",
+        "title": "MA Thesis in Film and Television",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Preparation: advancement to MA candidacy. Research and writing for MA thesis. May be taken for maximum of 12 units. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 599",
+        "title": "PhD Dissertation in Film and Television",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Preparation: advancement to PhD candidacy. Research and writing for PhD dissertation. May be repeated. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 6A",
+        "title": "History of American Motion Picture",
+        "units": 6,
+        "description": "Lecture/screenings, six hours; discussion, one hour. Historical and critical survey, with examples, of American motion picture both as developing art form and as medium of mass communication. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 72",
+        "title": "Production Practice in Film, Television, and Digital Media",
+        "units": 2,
+        "description": "Lecture, three hours; laboratory, three hours. Exploration of research, analysis, and conceptualization of dramatic narrative and laboratory experience in one or more various aspects of contemporary production and postproduction practices for entertainment media, including theater, film, video, and digital media. May be repeated for maximum of 8 units. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 75",
+        "title": "Lighting for Film and Television",
+        "units": 2,
+        "description": "Laboratory, 10 hours. Offered as one-week intensive course. Introduction to concepts and practice of lighting for film through discussion and intensive hands-on, laboratory experience for directors of photography, camera operators, gaffers, key grips, assistant camera, and grips. Crew rotation changes per camera setup. Review of dailies. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 84A",
+        "title": "Overview of Contemporary Film Industry",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of evolving economic structures and business practices in contemporary Hollywood film industry, with emphasis on operations of studios and independent distribution companies, their development, marketing, and distribution systems, and their relationship to independent producers, talent, and agencies. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C118",
+        "title": "Intermediate Cinematography",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, four hours. Enforced requisite: course 101A. Intermediate study of principles of cinematography, with emphasis on exposure, lighting, and selection of film, camera, and lenses. Concurrently scheduled with course C416. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 101A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C120",
+        "title": "Digital Cinematography",
+        "units": 4,
+        "description": "Lecture, three hours. Requisites: courses 100A, 185. Advanced study of principles of digital cinematography, with emphasis on electronic exposure control, lighting, formats, cameras, and lenses. Concurrently scheduled with course C420. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 100A"},
+            {"type": "requisite","course": "FILM TV 185"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C142",
+        "title": "Digital Imagery and Visualization",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Introductory hands-on investigation of techniques of digital still imaging and aesthetics of digital image, in context of examining dynamics of cultural constructions and visual codes. Students conceive and produce several digital image visualizations. May be repeated once for credit. Concurrently scheduled with course C242. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C143",
+        "title": "Moving Digital Image",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Investigation of different ways of creating and manipulating linear moving images (digital video) on desktop computers, exploring both creative and theoretical aspects of this production environment. Students conceive and produce number of short projects. Concurrently scheduled with course C243. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C144",
+        "title": "Interactive Multimedia Authoring",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Introduction to expressive and aesthetic potential of interactive digital media and its theoretical issues. Exploration of methodologies and tools for media integration, interface design, and interactive audiovisual construction. Students conceive, produce, and master individual interactive multimedia projects. May be repeated once for credit. Concurrently scheduled with course C244. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C145",
+        "title": "Creative Authoring for World Wide Web",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Exploration of creative aspects of World Wide Web as medium for personal/collective expression. Students produce Web works and serve them online. Contextualization of medium by looking at its history, embedded ideology, and sociopolitical consequences. May be repeated once for credit. Concurrently scheduled with course C245. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C147",
+        "title": "Production Management: Physical Production for Creatives",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Analysis of procedure, problems, and budgets in planning feature-length script for film and television production, with emphasis on role of producer and creative organizational techniques of producing. Concurrently scheduled with course C247. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C148",
+        "title": "Advanced Digital Media Workgroup",
+        "units": 4,
+        "description": "Laboratory, two hours; discussion, four hours. Designed for students with previous laboratory course experience to provide opportunity to create larger-scale digital media works with advanced software tools and techniques in small process-oriented, creative workshop environment. May be repeated twice for credit. Concurrently scheduled with course C248. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C152C",
+        "title": "Digital Audio Postproduction",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Enforced requisites: courses 101A, 185. Limited to Film and Television majors. Through discussion, demonstrations, and laboratory assignments, exploration of digital audio tools and procedures available to today's filmmakers. Coverage of many technical, equipment, and software step-by-steps, with emphasis on creative process. Concurrently scheduled with course C452C. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 101A"},
+            {"type": "requisite","course": "FILM TV 185"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C154B",
+        "title": "Advanced Film Editing",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Preparation: submission of rough cut of existing project or proposal to edit work of another director. Enforced requisites: courses 154, 185. Limited to Film and Television majors in postproduction phase with advanced knowledge of organization and operation of postproduction process. Students may also propose to edit significant scene given to them by instructor. Concurrently scheduled with course C454B. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 154"},
+            {"type": "requisite","course": "FILM TV 185"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C157",
+        "title": "Lighting for Film and Television",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, six hours. Requisite: course 52. Limited to Film and Television majors. Lectures, supervised exercises on stage or in exterior, screenings of scenes, and discussions aimed at learning to master lighting to create appropriate mood or atmosphere of premeditated scene recorded on film or through electronic system. May be repeated twice for credit. Concurrently scheduled with course C417. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 52"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C158",
+        "title": "Digital Workflow",
+        "units": 2,
+        "description": "Lecture, three hours; laboratory, two hours. Requisites: courses 52, 185. Limited to departmental majors. Through discussions, demonstrations, outside speakers, and laboratory assignments, demystification of ever-changing world of digital workflow. Students plan, schedule, and budget their overall workflow in preproduction. May be repeated once for credit. Concurrently scheduled with course C454C. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 52"},
+            {"type": "requisite","course": "FILM TV 185"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C168",
+        "title": "Creative Location Film Production",
+        "units": 8,
+        "description": "Lecture, four hours; discussion, four hours; laboratory, to be arranged. Limited to directing or producer's program students. Problems of location, production, directing, and cinematography in various real-life practical locations. Practical application of solving problems and communication within limitations of production experience. Concurrently scheduled with course C468. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C181A",
+        "title": "Introduction to Animation",
+        "units": 5,
+        "description": "Lecture, three hours; laboratory, three hours. Drawing experience not required. Fundamentals of animation through preparation of short animated film. Concurrently scheduled with course C481A. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C181B",
+        "title": "Writing for Animation",
+        "units": 4,
+        "description": "Lecture, six hours; studio, to be arranged. Requisite: course C181A or consent of instructor. Research and practice in creative writing and planning for animated film. May be repeated for maximum of 16 units. Concurrently scheduled with course C481B. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV C181A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C181C",
+        "title": "Animation Workshop",
+        "units": 4,
+        "description": "Studio, six hours. Preparation: storyboard at first class meeting. Requisite: course C181A. Organization and integration of various creative arts used in animation to form complete study of selected topic. May be repeated for maximum of 16 units. Concurrently scheduled with course C481C. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV C181A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C186A",
+        "title": "Advanced Documentary Workshop",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours; fieldwork, four to six hours. Requisite: course 185. Course 186A is requisite to 186B, which is requisite to 186C. Introductory viewing and discussion of selected documentaries and instruction in various production skills necessary to create video documentaries. Completion of series of exercises from conceptualization through postproduction, culminating in production of short documentary. Concurrently scheduled with course C403A. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 185"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C186B",
+        "title": "Advanced Documentary Workshop",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours; fieldwork, four to six hours. Requisite: course C186A. Intermediate viewing and discussion of selected documentaries and instruction in various production skills necessary to create video documentaries. Completion of series of exercises from conceptualization through postproduction, culminating in production of short documentary. Concurrently scheduled with course C403B. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV C186A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C186C",
+        "title": "Advanced Documentary Workshop",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours; fieldwork, four to six hours. Requisite: course C186B. Advanced viewing and discussion of selected documentaries and instruction in various production skills necessary to create video documentaries. Completion of series of exercises from conceptualization through postproduction, culminating in production of short documentary. Concurrently scheduled with course C403C. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV C186B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C242",
+        "title": "Digital Imagery and Visualization",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Introductory hands-on investigation of techniques of digital still imaging and aesthetics of digital image, in context of examining dynamics of cultural constructions and visual codes. Students conceive and produce several digital image visualizations. May be repeated once for credit. Concurrently scheduled with course C142. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C243",
+        "title": "Moving Digital Image",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Investigation of different ways of creating and manipulating linear moving images (digital video) on desktop computers, exploring both creative and theoretical aspects of this production environment. Students conceive and produce number of short projects. Concurrently scheduled with course C143. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C244",
+        "title": "Interactive Multimedia Authoring",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Introduction to expressive and aesthetic potential of interactive digital media and its theoretical issues. Exploration of methodologies and tools for media integration, interface design, and interactive audiovisual construction. Students conceive, produce, and master individual interactive multimedia projects. May be repeated once for credit. Concurrently scheduled with course C144. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C245",
+        "title": "Creative Authoring for World Wide Web",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Exploration of creative aspects of World Wide Web as medium for personal/collective expression. Students produce Web works and serve them online. Contextualization of medium by looking at its history, embedded ideology, and sociopolitical consequences. May be repeated once for credit. Concurrently scheduled with course C145. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C247",
+        "title": "Production Management: Physical Production for Creatives",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Analysis of procedure, problems, and budgets in planning feature-length script for film and television production, with emphasis on role of producer and creative organizational techniques of producing. Concurrently scheduled with course C147. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C248",
+        "title": "Advanced Digital Media Workgroup",
+        "units": 4,
+        "description": "Laboratory, two hours; discussion, four hours. Designed for students with previous laboratory course experience to provide opportunity to create larger-scale digital media works with advanced software tools and techniques in small process-oriented, creative workshop environment. May be repeated twice for credit. Concurrently scheduled with course C148. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C403A",
+        "title": "Advanced Documentary Workshop",
+        "units": 4,
+        "description": "Lecture/discussion/laboratory, 16 to 24 hours; fieldwork, to be arranged. Requisites: courses 409, 410A, 410B, 410C, 433. Limited to graduate film and television students. Production of advanced individual documentary film or video projects. Students conceptualize, research, write, shoot (on location), and edit projects to completion. May be repeated once for credit. Concurrently scheduled with courses C186A. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 409"},
+            {"type": "requisite","course": "FILM TV 410A"},
+            {"type": "requisite","course": "FILM TV 410B"},
+            {"type": "requisite","course": "FILM TV 410C"},
+            {"type": "requisite","course": "FILM TV 433"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C403B",
+        "title": "Advanced Documentary Workshop",
+        "units": 4,
+        "description": "Lecture/discussion/laboratory, 16 to 24 hours; fieldwork, to be arranged. Requisites: courses 409, 410A, 410B, 410C, 433. Limited to graduate film and television students. Production of advanced individual documentary film or video projects. Students conceptualize, research, write, shoot (on location), and edit projects to completion. May be repeated once for credit. Concurrently scheduled with courses C186B. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 409"},
+            {"type": "requisite","course": "FILM TV 410A"},
+            {"type": "requisite","course": "FILM TV 410B"},
+            {"type": "requisite","course": "FILM TV 410C"},
+            {"type": "requisite","course": "FILM TV 433"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C403C",
+        "title": "Advanced Documentary Workshop",
+        "units": 4,
+        "description": "Lecture/discussion/laboratory, 16 to 24 hours; fieldwork, to be arranged. Requisites: courses 409, 410A, 410B, 410C, 433. Limited to graduate film and television students. Production of advanced individual documentary film or video projects. Students conceptualize, research, write, shoot (on location), and edit projects to completion. May be repeated once for credit. Concurrently scheduled with courses C186C. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV 409"},
+            {"type": "requisite","course": "FILM TV 410A"},
+            {"type": "requisite","course": "FILM TV 410B"},
+            {"type": "requisite","course": "FILM TV 410C"},
+            {"type": "requisite","course": "FILM TV 433"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C416",
+        "title": "Intermediate Cinematography",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, four hours. Intermediate study of principles of cinematography, with emphasis on exposure, lighting, and selection of film, camera, and lenses. Concurrently scheduled with course C118. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C417",
+        "title": "Lighting for Film and Television",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, six hours. Limited to graduate film and television students. Lectures, supervised exercises on stage or in exterior, screenings of scenes, and discussions aimed at learning to master lighting to create appropriate mood or atmosphere of premeditated scene recorded on film or through electronic system. May be repeated twice for credit. Concurrently scheduled with course C157. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C420",
+        "title": "Digital Cinematography",
+        "units": 4,
+        "description": "Lecture, three hours. Advanced study of principles of digital cinematography, with emphasis on electronic exposure control, lighting, formats, cameras, and lenses. Concurrently scheduled with course C120. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C452C",
+        "title": "Digital Audio Postproduction",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, three hours. Limited to Film and Television majors. Through discussion, demonstrations, and laboratory assignments, exploration of digital audio tools and procedures available to today's filmmakers. Coverage of many technical, equipment, and software step-by-steps, with emphasis on creative process. Concurrently scheduled with course C152C. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C454B",
+        "title": "Advanced Film Editing",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, one hour. Preparation: submission of rough cut of existing project or proposal to edit work of another director. Limited to film and television students in postproduction phase with advanced knowledge of organization and operation of postproduction process. Students may also propose to edit significant scene given to them by instructor. Concurrently scheduled with course C154B. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C454C",
+        "title": "Digital Workflow",
+        "units": 2,
+        "description": "Lecture, three hours; laboratory, two hours. Limited to departmental majors. Through discussions, demonstrations, outside speakers, and laboratory assignments, demystification of ever-changing world of digital workflow. Students plan, schedule, and budget their overall workflow in preproduction. May be repeated once for credit. Concurrently scheduled with course C158. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C468",
+        "title": "Creative Location Film Production",
+        "units": 8,
+        "description": "Lecture, four hours; discussion, four hours; laboratory, to be arranged. Limited to directing or producer's program students. Problems of location, production, directing, and cinematography in various real-life practical locations. Practical application of solving problems and communication within limitations of production experience. Concurrently scheduled with course C168. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C481A",
+        "title": "Introduction to Animation",
+        "units": 5,
+        "description": "Lecture, three hours; laboratory, three hours. Drawing experience not required. Fundamentals of animation through preparation of short animated film. Concurrently scheduled with course C181A. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C481B",
+        "title": "Writing for Animation",
+        "units": 4,
+        "description": "Lecture, six hours; studio, to be arranged. Requisite: course C481A or consent of instructor. Research and practice in creative writing and planning for animated film. May be repeated for maximum of 16 units. Concurrently scheduled with course C181B. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV C481A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV C481C",
+        "title": "Animation Workshop",
+        "units": 4,
+        "description": "Studio, six hours. Preparation: storyboard at first class meeting. Requisite: course C181A. Organization and integration of various creative arts used in animation to form complete study of selected topic. May be repeated for maximum of 16 units. Concurrently scheduled with course C181C. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "FILM TV C181A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV CM129",
+        "title": "Contemporary Topics in Theater, Film, and Television",
+        "units": 2,
+        "description": "(Same as Theater CM129.) Lecture, two hours; screenings, two hours. Limited to junior/senior and graduate theater/film and television students. Examination of creative process in theater, film, and television, with consideration of writing, direction, production, and performance. Overview of individual contributions in collaborative effort; examination of distinctiveness and interrelations among these arts. Individual units include participation of leading members of theater, film, and television professions. May be repeated twice for credit. Concurrently scheduled with course CM229. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV CM229",
+        "title": "Contemporary Topics in Theater, Film, and Television",
+        "units": 2,
+        "description": "(Same as Theater CM229.) Lecture, two hours; screenings, two hours. Limited to junior/senior and graduate theater/film and television students. Examination of creative process in theater, film, and television, with consideration of writing, direction, production, and performance. Overview of individual contributions in collaborative effort; examination of distinctiveness and interrelations among these arts. Individual units include participation of leading members of theater, film, and television professions. May be repeated twice for credit. Concurrently scheduled with course CM129. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV M111",
+        "title": "Women and Film",
+        "units": 6,
+        "description": "(Same as Gender Studies M111.) Lecture, eight hours; discussion, one hour. Historical issues and critical approaches to women and cinema that may include authorship, stardom, female genres, and images of women in Hollywood cinema, alternative cinema, and independent cinema from silent era to present. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV M117",
+        "title": "Chicanos in Film/Video",
+        "units": 5,
+        "description": "(Same as Chicana/o and Central American Studies M114.) Lecture/screenings, five hours; discussion, one hour. Goal is to gain nuanced understanding of Chicano cinema as political, socioeconomic, cultural, and aesthetic practice. Examination of representation of Mexican Americans and Chicanos in four Hollywood genres-silent greaser films, social problem films, Westerns, and gang films-that are major genres that account for films about or with Mexican Americans produced between 1908 and 1980. Examination of recent Chicano-produced films that subvert or signify on these Hollywood genres, including Zoot Suit, Ballad of Gregorio Cortez, and Born in East L.A. Consideration of shorter, more experimental work that critiques Hollywood image of Chicanos. Guest speakers include both pioneer and up-and-coming filmmakers. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV M124",
+        "title": "Sex, Race, and Difference in Transnational Film",
+        "units": 6,
+        "description": "(Same as Gender Studies M124.) Lecture, three hours; discussion, one hour. Drawing on feminist media studies, training of students in media literacy so they acquire necessary skills to critically interrogate film as medium of communication and to appreciate how film provides lens to examine some of most critical issues of our time. Development of understanding of transnationality to examine how circulations of capital, labor, and commodities transect, render problematic, and sometimes reinforce national borders. Examination of role of film in both exemplifying and representing these conditions of transnationality. How films enable understanding of historical and contemporary relationships between mobility, coercion, and migration; colonialism and settler colonialism; Orientalism, geopolitics, and sexuality; cultural identity and diaspora; transnational conceptions of sexual desire and embodiment; immigration and religious difference; and criminalization of racial difference. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV M177",
+        "title": "Film and Television Acting Workshop",
+        "units": 2,
+        "description": "(Same as Theater M178.) Laboratory, four hours. Workshop providing opportunities for students to rehearse, perform, and evaluate scenes. Three different production styles to which performers may need to adjust are (1) preproduction rehearsals with director, (2) single-camera experience, and (3) multiple-camera experience. May be repeated twice for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "FILM TV M50",
+        "title": "Introduction to Visual Culture",
+        "units": 5,
+        "description": "(Same as English M50.) Lecture, three hours; discussion, one hour; laboratory, two hours. Enforced requisite: satisfaction of Entry-Level Writing requirement. Study of how visual media, including advertising, still and moving images, and narrative films, influence contemporary aesthetics, politics, and knowledge. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

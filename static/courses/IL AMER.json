@@ -1,0 +1,267 @@
+[
+    {
+        "id": "IL AMER 1",
+        "title": "Elementary Zapotec",
+        "units": 4,
+        "description": "Lecture, five hours. Introduction to Zapotec language of Tlacolula Valley of Oaxaca. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 115A",
+        "title": "Advanced Nahuatl",
+        "units": 4,
+        "description": "Lecture, four hours. Requisites: courses 15A, 15B, 15C. Course 115A is requisite to 115B, which is requisite to 115C. Taught primarily in Nahuatl. Examination of Nahuatl (Aztec) language of central Mexico at intermediate level. Coverage of Nahuatl grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 15A"},
+            {"type": "requisite","course": "IL AMER 15B"},
+            {"type": "requisite","course": "IL AMER 15C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 115B",
+        "title": "Advanced Nahuatl",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 115A. Taught primarily in Nahuatl. Examination of Nahuatl (Aztec) language of central Mexico at intermediate level. Coverage of Nahuatl grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 115A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 115C",
+        "title": "Advanced Nahuatl",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 115B. Taught primarily in Nahuatl. Examination of Nahuatl (Aztec) language of central Mexico at intermediate level. Coverage of Nahuatl grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 115B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 119A",
+        "title": "Advanced Quechua",
+        "units": 4,
+        "description": "Lecture, five hours. Requisite: course 18C. Course 119A is requisite to 119B, which is requisite to 119C. Readings in Quechua. Dialectal and stylistic variation. Discussions mainly in Quechua. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 18C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 119B",
+        "title": "Advanced Quechua",
+        "units": 4,
+        "description": "Lecture, five hours. Requisite: course 119A. Readings in Quechua. Dialectal and stylistic variation. Discussions mainly in Quechua. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 119A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 119C",
+        "title": "Advanced Quechua",
+        "units": 4,
+        "description": "Lecture, five hours. Requisite: course 119B. Readings in Quechua. Dialectal and stylistic variation. Discussions mainly in Quechua. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 119B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 15A",
+        "title": "Intermediate Nahuatl",
+        "units": 4,
+        "description": "Lecture, four hours. Enforced requisites: courses 5A, 5B, 5C. Course 15A is enforced requisite to 15B, which is enforced requisite to 15C. Taught primarily in Nahuatl. Examination of Nahuatl (Aztec) language of central Mexico at intermediate level. Coverage of Nahuatl grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 5A"},
+            {"type": "requisite","course": "IL AMER 5B"},
+            {"type": "requisite","course": "IL AMER 5C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 15B",
+        "title": "Intermediate Nahuatl",
+        "units": 4,
+        "description": "Lecture, four hours. Enforced requisite: course 15A. Taught primarily in Nahuatl. Examination of Nahuatl (Aztec) language of central Mexico at intermediate level. Coverage of Nahuatl grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 15A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 15C",
+        "title": "Intermediate Nahuatl",
+        "units": 4,
+        "description": "Lecture, four hours. Enforced requisite: course 15B. Taught primarily in Nahuatl. Examination of Nahuatl (Aztec) language of central Mexico at intermediate level. Coverage of Nahuatl grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 15B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 17",
+        "title": "Intensive Elementary Quechua",
+        "units": 12,
+        "description": "Lecture, 15 hours; laboratory, five hours. Intensive course equivalent to courses 18A, 18B, 18C. Language of Incas and its present-day dialects, as spoken in Andean South America. Offered in summer only. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 18A",
+        "title": "Elementary Quechua",
+        "units": 4,
+        "description": "Lecture, five hours. Course 18A is enforced requisite to 18B, which is enforced requisite to 18C. Language of Incas and present-day Quechua language, as spoken in Andean South America. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 18B",
+        "title": "Elementary Quechua",
+        "units": 4,
+        "description": "Lecture, five hours. Enforced requisite: course 18A. Language of Incas and present-day Quechua language, as spoken in Andean South America. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 18A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 18C",
+        "title": "Elementary Quechua",
+        "units": 4,
+        "description": "Lecture, five hours. Enforced requisite: course 18B. Language of Incas and present-day Quechua language, as spoken in Andean South America. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 18B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 191",
+        "title": "Variable Topics Research Seminars: Indigenous Languages",
+        "units": 2,
+        "description": "Seminar, three hours. Research seminars on selected topics on various indigenous languages. Reading, discussion, and development of culminating project. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 2",
+        "title": "Elementary Zapotec",
+        "units": 4,
+        "description": "Lecture, five hours. Enforced requisite: course 1. Introduction to Zapotec language of Tlacolula Valley of Oaxaca. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 3",
+        "title": "Elementary Zapotec",
+        "units": 4,
+        "description": "Lecture, five hours. Enforced requisite: course 2. Introduction to Zapotec language of Tlacolula Valley of Oaxaca. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 2"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 596",
+        "title": "Directed Studies in Quechua",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Requisites: courses 119A, 119B, 119C. Directed individual study or research in Quechua. Four units may be applied toward MA course requirements. May be repeated for credit. S/U grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 119A"},
+            {"type": "requisite","course": "IL AMER 119B"},
+            {"type": "requisite","course": "IL AMER 119C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 5A",
+        "title": "Elementary Nahuatl",
+        "units": 4,
+        "description": "Lecture, four hours. Course 5A is enforced requisite to 5B, which is enforced requisite to 5C. Introduction to Aztec language of central Mexico. Coverage of basic Nahuatl grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 5B",
+        "title": "Elementary Nahuatl",
+        "units": 4,
+        "description": "Lecture, four hours. Enforced requisite: course 5A. Introduction to Aztec language of central Mexico. Coverage of basic Nahuatl grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 5A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 5C",
+        "title": "Elementary Nahuatl",
+        "units": 4,
+        "description": "Lecture, four hours. Enforced requisite: course 5B. Introduction to Aztec language of central Mexico. Coverage of basic Nahuatl grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "IL AMER 5B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "IL AMER 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

@@ -1,0 +1,767 @@
+[
+    {
+        "id": "PUB AFF 10",
+        "title": "Social Problems and Social Change",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to social scientific approaches to study of social problems and their solutions. Using selected contemporary social problems as cases, and drawing on variety of sources (such as scholarly readings, video clips, and guest speakers), exploration of how social problems and their solutions come to be defined, roles that economic, political, educational, and cultural institutions play in perpetuating or solving social problems, and how individuals, social advocates, and communities can lead or impede social change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 110",
+        "title": "Urban Revolution: Space and Society in Global Context",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of potentialities and challenges of 21st-century urban revolution in global context. Introduction of theoretical frameworks and conceptual methods used by urban studies and planning to study cities and urban transformations, and historical and contemporary analysis of urbanization to learn about key urban processes such as agglomeration, segregation, gentrification, and suburbanization. Students learn about institutions and policies governing transportation and housing, and forms of community organizing and civil society that seek to redress urban inequalities. Introduction to key theories of space and utopian visions of urbanism. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 111",
+        "title": "Microeconomics: Market Failures and Inequality",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisites: courses 40 (or Economics 1 or 11 or equivalent introductory economics course), 60 (or Political Science 6 or Statistics 10 or equivalent introductory statistics course). Introduction to economic theory for policy analysis. Broad focus on evaluating rationale for government intervention in economy, in particular to address market failures and issues of economic inequality. Major emphasis on market failures in context of environmental sustainability, and economic inequality arising from markets for human capital, health, housing, and labor. Students are expected to have working knowledge of basic statistical and economic concepts. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "PUB AFF 40"},{"type": "requisite","course": "ECON 1"},{"type": "requisite","course": "ECON 11"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "PUB AFF 60"},{"type": "requisite","course": "POL SCI 6"},{"type": "requisite","course": "STATS 10"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 112",
+        "title": "Social Movements",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to theories, real-life examples, and applied skills for understanding and contributing to social movements. Examination of how and why social movements emerge; how and why people join, lead, stay, or drop out of movements; and strategies and tactics by which social movements enact change. Draws upon wide range of social movements inside and outside of U.S. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 113",
+        "title": "Policy Analysis: Approaches to Addressing Social Problems",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to applied policy analysis designed to train students in logic of public policy analysis, introduce them to general skills required to do policy analysis, and to prepare them in persuasive presentation of their work. Development of skills fundamental to effective policy analysis and argumentation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 114",
+        "title": "People, Organizations, and Systems",
+        "units": 4,
+        "description": "Lecture, three hours. Theoretical approaches to human service organizations to explore social ecology of helping relationships and problem-solving processes in which helpers and clients in organizations engage. Examination of organizational structures/function. Study of interplay between individual clients, organizations, larger systems, and social and cultural backdrop. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 115",
+        "title": "Using Quantitative Methods to Understand Social Problems and their Potential Solutions",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Requisite: course 60 or equivalent introductory statistics course. Course in R preferred. Introduction to multivariate quantitative research models used to answer questions in social science. Students gain practical and intuitive understanding of multivariate regression, program evaluation, and research methods, and apply knowledge by analyzing real world data. Focus on practical analytic tools using statistical software. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB AFF 60"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 116",
+        "title": "Using Qualitative Methods to Understand Social Problems and Their Potential Solutions",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Introduction to qualitative research methods with focus on ethnographic observations, interviewing, and focus groups. Students practice conducting variety of qualitative methods. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 120",
+        "title": "Urban Poverty and Public Policy",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of how neighborhoods characterized by concentrated poverty affect urban residents. Evaluation of relative efficacy of various public policies that aim to improve life chances of urban poor. Use of explicitly political lens, evaluating roles that elite institutions, mass behavior, class and race-based power disparities, and public opinion play in development and implementation of urban policy. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 121",
+        "title": "Race, Class, Gender, and Spatial Inequality",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to economic and sociological approaches to analyzing dimensions, causes, and consequences of inequality in society. Introduction to public policy concepts and tools for analyzing key urban, labor, and social policies that may help to alleviate inequality in society. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 123",
+        "title": "History and Public Policy",
+        "units": 4,
+        "description": "Seminar, three hours. Consideration of the deep history of racialized displacement in Los Angeles to generate new lines of critique and possibility into the contemporary struggle over displacement. Study engages in a case-study approach to explore the histories of race, gender, sovereignty, conquest, property, public policy, commons, class, and economies of shelter. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 128",
+        "title": "Practical Applications of Research on Emerging Adults",
+        "units": 4,
+        "description": "Lecture, three hours. Focus on practical applications of research on critical transition period in human development-emerging adulthood-with particular emphasis on experiences of college students. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 134",
+        "title": "Politics of U.S. Health Policy",
+        "units": 4,
+        "description": "Lecture, three hours. Students gain firm understanding of process of health policy making in U.S. primarily through lens of debate over national health care reform culminating in passage of Patient Protection and Affordable Care Act (ACA) of 2010 and efforts of opponents to repeal or overturn it. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 135",
+        "title": "Firearm Violence Prevention Policy",
+        "units": 4,
+        "description": "Lecture, three hours. Examination of range of topics connected to contemporary debates about firearm violence in U.S. Exploration of causes and consequences of firearm violence in different contexts. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 136",
+        "title": "Cannabis Policy and Society",
+        "units": 4,
+        "description": "Lecture, three hours. Designed to enable students to formulate responsible opinions on cannabis legalization, industry, regulation, and taxation; to defend them with good analysis; and to understand logic behind opinions that may differ from their own. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 137",
+        "title": "Gangs, Criminal Justice, and Mass Incarceration",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of criminal justice policies that surround gangs, sentencing, prisons, incarceration, and rehabilitation. Students develop understanding of how to communicate knowledge and research regarding criminal justice system, gangs, and mass incarceration. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 140",
+        "title": "Race, Rights, and Citizenship: Encounters with Bureaucracies",
+        "units": 4,
+        "description": "Lecture, three hours. Examination of role of bureaucracies in emergence of, persistence of, and experience of social inequality. Exploration of dilemmas that bureaucrats face as they do their jobs, and experiences of residents who interact with bureaucrats. Consideration of how peoples' experience of bureaucracies are associated with socioeconomic standing, and reflection on how experiences with bureaucracies convey messages about race, citizenship, and belonging. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 145",
+        "title": "California Policy Issues",
+        "units": 4,
+        "description": "Lecture, three hours. Application of policy analysis to California issues. Guest lectures from practitioners and academics along with readings and videos. Written reports and oral presentations required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 148",
+        "title": "U.S. Housing Policy and Geography of Opportunity",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of contemporary levels of racial inequality through lens of U.S. housing policy. Study includes historical overview of federal policies; evaluation of ways by which living in racially segregated, high-poverty neighborhoods constrain opportunity and social mobility; exploration of most prevalent affordable housing policies; and evaluation of their respective program designs and outcomes. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 149",
+        "title": "International Housing Policy",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Study of housing policies in diverse range of countries, contrasting those with U.S. housing policy. Examination of policies in different contexts to better understand how institutional, economic, legal, and cultural contexts shape housing policies and housing outcomes. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 154",
+        "title": "Green Transportation",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to transportation planning and policy from environmental perspective. How to encourage alternatives to private car and reduce air pollution and greenhouse gas emissions. Planning for autonomous vehicles, bicycle, parking, pedestrian, and transit. Environmental justice in transportation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 155",
+        "title": "Economics and Equity in Transportation Systems and Policies",
+        "units": 4,
+        "description": "Lecture, three hours. Discussion of different transportation systems and operational characteristics, and how these reflect on individual traveler experiences. Study of individual aspects of urban travel-why and how people travel-and introduction to a range of microeconomic concepts for understanding and analyzing individual traveler behavior. Introduction to the ways transportation system and policy challenges can be addressed and to a range of microeconomic concepts and tools. Development of skills for applying these tools in transportation systems and policy evaluations. In transportation engineering and public policy, a basic understanding of how decisions are made (at various scales), and how the impacts of those decisions can be distributed across society, is critical for future transportation professionals and creating a transportation system that serves the broad needs of society. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 158XP",
+        "title": "Trees in City",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction of foundational urban ecological concepts using case of urban trees. Includes wide range of disciplines as well as practitioner and community organizing perspectives to understand social and ecological implications of urban vegetation. Students partner with environmental non-profit located in Los Angeles. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 162",
+        "title": "U.S. Environmental Politics",
+        "units": 4,
+        "description": "Lecture, three hours. Examination of political forces that contribute to environmental policy outcomes in U.S. Exploration of how political identity, distributive conflict, economic mobilization, representation gaps, and inequality in exposure to environmental risks and benefits shape individual attitudes and collective decision making about environmental issues, including climate change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 170",
+        "title": "Civil Society, Nonprofit Organizations, and Philanthropy: Comparative Perspectives",
+        "units": 4,
+        "description": "Seminar, three hours. Increased importance of nonprofits, rise of philanthropy, and (re-)discovery of civil society have moved this set of institutions closer to center of policy agendas. Introduction of conceptual and historical background. Examination of organizational performance and impact. Exploration of key policy issues. Comparative perspective between U.S. and other countries and fields. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 172",
+        "title": "Development and Its Governance",
+        "units": 4,
+        "description": "Lecture, three hours. Exploration of how economics, institutions, and politics interact to constrain and shape development strategies-emphasizing tension between normative visions of good economic policy and good governance and practical challenge of identifying practical ways of fostering change in specific settings. Focus on challenges of development in low- and middle-income settings, with exploration of governance challenges within U.S. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 174",
+        "title": "Cultural Policy and Cultural Diplomacy: Soft Power, Creative Economy, Innovation, and Arts",
+        "units": 4,
+        "description": "Lecture, three hours. Culture is one of most complex concepts in social sciences. Review of cultural policies at international, national, and local levels. Exploration of culture as system of meaning and identity, as well as culture as art and creative expression. Examination of use of culture in international relations and cultural diplomacy. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 175",
+        "title": "Communications and Conflict in Public Affairs",
+        "units": 4,
+        "description": "Lecture, four hours. Interactive course that prepares students for successful work with collaborators, policymakers, and public. Students gain interpersonal skills, cultural competency; learn effective communication, conflict resolution, and negotiate their interests successfully; learn to engage constituencies and build community around shared goals. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 177",
+        "title": "Truth and Consequences: Problems in Contemporary American Journalism",
+        "units": 4,
+        "description": "Lecture, three hours. American journalism faces multiple crises such as fake news, alternative facts, false equivalence, the Big Lie, fast-spreading disinformation, and relentless economic pressures, all of which predated the presidency of Donald Trump but were exacerbated by him. Public trust in the media is at near-record lows. Consideration of how this happened, what can be done about it, and the duty of citizenship when concept of truth is disputed. Examination of American media by a veteran New York Times correspondent and editor, with regular guest lectures from senior media and polling figures. Readings drawn from current books and publications; regular short writing assignments culminate in a final essay diagnosing the media ills and make concrete suggestions for improvement. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 180",
+        "title": "Lawyers, Law, and Public Affairs",
+        "units": 4,
+        "description": "Lecture, three hours. Interplay between public affairs, public policy, and law represents one of most significant and fundamental aspects of American democracy. Students gain tools necessary for understanding how law shapes public policy, and how public policy shapes law. Covers key skills for understanding legal reasoning and shows how those skills operate in various substantive legal policy areas. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 187AX",
+        "title": "Experiential Learning Capstone",
+        "units": 5,
+        "description": "(Formerly numbered 187A.) Lecture, two hours; discussion, one hour. Course 187AX is requisite to 187BX, which is requisite to 187CX. Limited to and required for senior Public Affairs majors. Students apply public affairs course concepts and methods to internship experience; refine understanding of concepts and methods based on internship experience; gain new knowledge about specific topics related to their internship; and develop new skills needed to complete capstone project. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 187BX",
+        "title": "Experiential Learning Capstone",
+        "units": 5,
+        "description": "(Formerly numbered 187B.) Lecture, two hours; discussion, one hour. Requisite: course 187AX. Limited to and required for senior Public Affairs majors. Students apply public affairs course concepts and methods to internship experience; refine understanding of concepts and methods based on internship experience; gain new knowledge about specific topics related to their internship; and develop new skills needed to complete capstone project. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB AFF 187AX"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 187CX",
+        "title": "Experiential Learning Capstone",
+        "units": 5,
+        "description": "(Formerly numbered 187C.) Lecture, two hours; discussion, one hour. Requisite: course 187BX. Limited to and required for senior Public Affairs majors. Students apply public affairs course concepts and methods to internship experience; refine understanding of concepts and methods based on internship experience; gain new knowledge about specific topics related to their internship; and develop new skills needed to complete capstone project. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB AFF 187BX"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB AFF 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB AFF 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 191A",
+        "title": "Variable Topics Seminar: Public Affairs",
+        "units": 4,
+        "description": "Seminar, three hours; outside study, nine hours. Emerging issues in public affairs. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 195",
+        "title": "Community or Corporate Internships in Public Affairs",
+        "units": 2,
+        "description": "Tutorial, to be arranged; fieldwork, six to 12 hours. Limited to juniors/seniors. Internship in supervised setting in corporate, governmental, or nonprofit/community organization setting related to Public Affairs. Students meet with instructor and provide periodic reports of their experience. Individual contract with supervising faculty member required. May be repeated for credit. May not be used toward Public Affairs major capstone requirement; consult with undergraduate adviser. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 195CE",
+        "title": "Community or Corporate Internships in Public Affairs",
+        "units": 4,
+        "description": "Tutorial, to be arranged; fieldwork, eight to 10 hours. Limited to juniors/seniors. Internship in corporate, governmental, or nonprofit settings coordinated through Center for Community Engagement. Students complete weekly written assignments, attend biweekly meetings with graduate student instructor, and write final research paper. May be repeated for credit with consent of Center for Community Engagement. No more than 8 units may be applied toward major; units applied must be taken for letter grade. May not be applied toward concentration or distribution requirements. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 196",
+        "title": "Research Apprenticeship in Public Affairs",
+        "units": 2,
+        "description": "Tutorial, three hours per week per unit. Limited to juniors/seniors. Research apprenticeship for upper-division students under guidance of faculty mentor. May be repeated for credit. Individual contract required. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 198A",
+        "title": "Honors Research in Public Affairs",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to senior Public Affairs majors. Requisites: courses 115, 116. Course 198A is requisite to 198B, which is requisite to 198C. Development and completion of research project and thesis under direct supervision of faculty member. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB AFF 115"},
+            {"type": "requisite","course": "PUB AFF 116"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 198B",
+        "title": "Honors Research in Public Affairs",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to senior Public Affairs majors. Requisites: courses 115, 116, 198A. Development and completion of research project and thesis under direct supervision of faculty member. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB AFF 115"},
+            {"type": "requisite","course": "PUB AFF 116"},
+            {"type": "requisite","course": "PUB AFF 198A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 198C",
+        "title": "Honors Research in Public Affairs",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to senior Public Affairs majors. Requisites: courses 115, 116, 198B. Development and completion of research project and thesis under direct supervision of faculty member. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB AFF 115"},
+            {"type": "requisite","course": "PUB AFF 116"},
+            {"type": "requisite","course": "PUB AFF 198B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 199",
+        "title": "Directed Research or Senior Project in Public Affairs",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for maximum of 16 units. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 20",
+        "title": "Power, Politics, and Policy Change",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to key institutions of government, politics, and policy in U.S., covering their history, contemporary forms, and internal dynamics. Includes various scales and branches of government as well as institutions that exercise power and influence in public decision making and social action, such as corporations, unions, media, social movements, and civil society. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 30",
+        "title": "Comparative Analysis of Wealth, Policy, and Power",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Exploration of strategic interactions that give rise to social problems around world, what can be done to address them, and how different polities have tried (and sometimes failed) to mount effective response. Applications include climate change, antivaccination movement, protest and repression, war and formation of states, corruption, and human and drug trafficking. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 40",
+        "title": "Microeconomics for Public Affairs",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to principles of microeconomics with focus on social and policy problems. Study of decisions by firms and individuals, and implications for allocation of resources. Application of economic models to public issues such as social safety net, minimum wage, education, inequality, and poverty. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 50",
+        "title": "Foundations and Debates in Public Thought",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Introduction of core concepts of democracy and equality and challenges to implementation posed by race, class, and gender inequality. Review of standards by which political systems can be judged to be democratic and identification of obstacles to their mutual implementation. Focus on inequality, its historical causes and modern consequences. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 60",
+        "title": "Using Data to Learn about Society: Introduction to Empirical Research and Statistics",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, two hours. Not open for credit to students with credit for Economics 41, Political Science 6, Statistics 10, 12, 13, or 15. Introduction to statistics through examination of topics of public interest. Familiarization with research design principles and hands-on data analysis using statistical software. Students learn how to find and organize quantitative data; summarize, display, and interpret data; draw inferences from samples (including understanding margins of error, standard errors, and confidence intervals); test hypotheses about associations between two variables (including tests of proportion, t-tests, chi-squared, correlation); and communicate findings to lay audience. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 70",
+        "title": "Information, Evidence, and Persuasion",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of sources and varieties of knowledge produced in social sciences. Evaluation of types of evidence, arguments, and persuasion on social problems and public issues. Examination of public life of evidence and arguments by different actors in social policy-making, persuasion, and propaganda process. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 70W",
+        "title": "Information, Evidence, and Persuasion",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Enforced requisite: English Composition 3. Not open for credit to students with credit for course 70. Examination of sources and varieties of knowledge produced in social sciences. Evaluation of types of evidence, arguments, and persuasion on social problems and public issues. Examination of public life of evidence and arguments by different actors in social policymaking, persuasion, and propaganda process. Satisfies Writing II requirement. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 80",
+        "title": "How Social Environments Shape Human Development",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Overview of major theoretical, conceptual, and empirical traditions in study of human development. Exploration of how diverse cultural, social, socioeconomic, and historical contexts interact with biological, cognitive, and psychological processes to affect individuals during key developmental periods (such as early childhood, childhood, adolescence, early adulthood, and late adulthood). Topics may include historical changes in families, schools, neighborhoods, and workplace; economic conditions of families, schools, and neighborhoods; enduring effects of childhood on adult well-being; and impact of ascribed characteristics such as gender, race, and nationality on individuals' environments, pathways, and outcomes. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 87",
+        "title": "Introduction to the Professional Workplace",
+        "units": 2,
+        "description": "Lecture, two hours. Students are prepared to participate in a professional workspace. Development of soft skills including written and oral communications, empathetic listening, conflict resolution, goal-setting, strategic thinking, and self-awareness. Topics include career skills workshops (including difficult conversations and managing up, r\u00e9sum\u00e9 and cover letter writing, and interviewing and networking skills), community impact training, and career paths training. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 95",
+        "title": "Introduction to Community or Corporate Internships in Public Affairs",
+        "units": 2,
+        "description": "Tutorial, two hours; fieldwork, eight hours. Limited to freshmen/sophomores. Entry-level internship in supervised setting in corporate, governmental, or nonprofit/community organization setting related to public affairs. Students meet on regular basis with instructor and provide periodic reports of their experience. Individual contract with supervising faculty member required. May be repeated for credit. May not be used toward Public Affairs major capstone requirement; consult with undergraduate adviser. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M109",
+        "title": "Introduction to Cities and Planning",
+        "units": 4,
+        "description": "(Same as Urban Planning M120.) Lecture, three hours; discussion, one hour. Survey of urban history and evolution in U.S., urban social theory, current growth trends, system of cities, urban economy and economic restructuring, traditional and alternative location theories, urban transportation, and residential location and segregation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M117B",
+        "title": "Network Science Using R",
+        "units": 4,
+        "description": "(Same as Public Policy CM177.) Lecture, three hours. No prior knowledge of R required. Designed for juniors and seniors. Network analysis offers framework for understanding how relationships between people, places, and institutions affect public policy outcomes. For example, why individuals decide to protest or vote, amount of education they pursue, or effect of human interference in ecosystem can all be considered using network analysis. Weekly introduction of concept from network analysis, followed by working through it using popular statistical programming language R. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M117C",
+        "title": "Community-Engaged Research Methods",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies M129 and Labor Studies M129.) Lecture, four hours. Students are trained in designing, drafting, piloting, and administering new survey focused on transitions to adulthood. Written in collaboration with labor and community partners serving Latinx, Asian Americans and Pacific Islanders, Black, and Indigenous youth and low-wage workers, this survey gathers data on workforce development, labor rights, education, health, mental health, and civic engagement of young people residing in Black, Indigenous, and people of color communities. Students are exposed to historical development of racial statistics, role of racial statistics in contemporary life, and critical quantitative science. Includes testing questions on racial identity and attitudes, gender identity, workforce development, labor rights, healing and wellness, and other topics determined by labor and community partners. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M117DX",
+        "title": "Data Analysis for Educational Equity and Improvement",
+        "units": 4,
+        "description": "(Formerly numbered M117D.) (Same as Public Policy CM126XP.) Lecture, three hours. Requisite: course 60. Exploration of challenge of making data useful for decision-making from cleaning data and deciding which analyses to conduct; to conducting those analyses carefully, thoughtfully, and in reproducible way; to displaying results, interpreting them, and communicating them clearly. Focus on challenge of making survey data useful to educators so that they can use those data to reflect on school and district policies and practices and, ultimately, use information to improve students' school experiences. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PUB AFF 60"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M122",
+        "title": "Participatory Action Research on Youth Organizing for Racial Justice",
+        "units": 4,
+        "description": "(Same as African American Studies M129B, American Indian Studies M129, Asian American Studies M128, and Chicana/o and Central American Studies M129B.) Lecture, four hours. Students are trained to conduct participatory action research on grassroots youth organizing across California. Students gain historical and theoretical background on multi-racial and inclusive organizing. Students learn how to collect and analyze data pertaining to pressing organizing issues. Study and critical analysis of youth organizing strategies. Weekly training modules on data collection and grassroots organizing strategies that prepare students for internships in grassroots youth organizing groups serving Asian American, Black, Latinx, and Native American communities. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M124",
+        "title": "Child Welfare Policy in America",
+        "units": 4,
+        "description": "(Same as Social Welfare M151.) Lecture, three hours. Limited to juniors/seniors. Examination of public child welfare system in the U.S. Review of social policies and programs that impact children. History of social policies and programs for children, including discussion of orphanages, foster care, and adoptions. Transformation of public child welfare system into child protection system. Impact of welfare reform on child policies and programs in the U.S. Major programs designed to provide safety net for disadvantaged children, including welfare, food stamps, child care, child support, and children's allowance programs. Review of research and analysis in this area. Overview of social policies and programs that impact children in the U.S. Examination of comparative policies in other countries. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M125",
+        "title": "Creating Safe and Welcoming Schools",
+        "units": 4,
+        "description": "(Formerly numbered 125.) (Same as Education M177.) Lecture, two hours; discussion, one hour. Examination of historical context and causes of school violence, theories, and diverse perceptions of school climate and safety. Special emphasis on impact of school climate on oppressed groups and how social contexts such as poverty and how neighborhood resources influence school safety. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M129XP",
+        "title": "Intergenerational Communication across Lifespan",
+        "units": 4,
+        "description": "(Same as Gerontology M142XP and Social Welfare M142XP.) Lecture, three hours; fieldwork, one hour. Limited to juniors/seniors. What do you say to your parents in conversation? How do you talk to your grandparents? Does your family talk well to one another as group? How do you communicate well with boss who is 30 years older than you? Individuals of all ages interact with one another, and their interactions have significance throughout their lives. Introduction to psychological, interpersonal, and societal issues related to intergenerational communication across lifespan. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M130",
+        "title": "Biomedical, Social, and Policy Frontiers in Human Aging",
+        "units": 5,
+        "description": "(Same as Gerontology M108 and Social Welfare M108.) Lecture, four hours. Limited to juniors/seniors. Course of human aging charted in ways that are based on variety of recent research frontiers. Use of conceptual frameworks to increase relevance of aging to students' lives and enhance their critical thinking-biopsychosocial approach that is based on recognition that aging is inherently interdisciplinary phenomenon, and life course perspective that is distinguished by analytical framework it provides for understanding interplay between human lives and changing social structures, and allows students to understand how events, successes, and losses at one stage of life can have important effects later in life. Focus on individuals as they age within one particular sociohistorical context. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M131",
+        "title": "Diversity in Aging: Roles of Gender and Ethnicity",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies M106B, Gender Studies M104C, Gerontology M104C, and Social Welfare M104C.) Lecture, four hours. Exploration of complexity of variables related to diversity of aging population and variability in aging process. Examination of gender and ethnicity within context of both physical and social aging, in multidisciplinary perspective utilizing faculty from variety of fields to address issues of diversity. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M142",
+        "title": "Latino Social Policy",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies CM177.) Lecture, three hours; discussion, one hour (when scheduled). Examination of social welfare of Latinos (Chicanos, Puerto Ricans, and Cubans) in U.S. through assessment and critical analysis of social policy issues affecting them. Survey of social, economic, cultural, and political circumstances affecting ability of Latinos to access public benefits and human services. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M153",
+        "title": "Parking and City",
+        "units": 4,
+        "description": "(Same as Urban Planning CM151.) Lecture, three hours. Requisite: course 40 or Economics 1 or 11. Parking is misunderstood link between transportation and land use. Transportation engineers typically assume that free parking simply is there at end of most trips, while urban planners treat parking as transportation issue that engineers must study. No profession is intellectually responsible for parking, and everyone seems to assume that someone else is doing hard thinking. Mistakes in planning for parking help to explain why planning for transportation and land use has in many ways gone slowly, subtly, incrementally wrong. Study of theory and practice of planning for parking and examination of how planning for parking in U.S. has become planning for free parking. Exploration of new ways to improve planning for parking, transportation, and land use. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "PUB AFF 40"},{"type": "requisite","course": "ECON 1"},{"type": "requisite","course": "ECON 11"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M157",
+        "title": "Built Environment and Health",
+        "units": 4,
+        "description": "(Same as Urban Planning CM157.) Lecture, three hours. Exploration of important linkages between urban-built environment and public-health outcomes using ecological, urban planning, and community-based lenses through theory and series of case studies. Knowledge of these linkages is used to propose ecological solutions to issues at nexus of built environment and public health. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M159",
+        "title": "Politics of Water",
+        "units": 4,
+        "description": "(Same as Urban Planning M168.) Lecture, three hours; discussion, one hour. Access to safe and sustainable water provision is major challenge for governments. Examination of political, economic, and social dimensions of water provision in Asia, Africa, Latin America, and U.S. Key issues include water and state building, market reforms and globalization, social mobilization, and citizen demand making strategies, role of crisis in citizen claims making. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M160",
+        "title": "Urban Sustainability",
+        "units": 4,
+        "description": "(Same as Urban Planning M161.) Lecture, three hours. In 21st century, majority of Earth's population now lives in urban areas and virtually no part of globe remains untouched by human influence. Cities constitute crucibles of most pressing social and environmental challenges but are also potential centers of innovation for addressing those challenges. Examination of theory and practice from geography and related fields to understand many articulations of urban sustainability and how it might be achieved. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M161",
+        "title": "Environmental Justice through Multiple Lenses",
+        "units": 4,
+        "description": "(Same as Environment M167 and Urban Planning M167.) Lecture, three hours. Examination of intersection between race, economic class, and environment in U.S., with focus on issues related to social justice. Because environmental inequality is highly complex phenomenon, multidisciplinary and multipopulation approach taken, using alternative ways of understanding, interpreting, and taking action. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M164",
+        "title": "Science, Technology, and Public Policy",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering CM182 and Public Policy CM182.) Lecture, three hours. Recent and continuing advances in science and technology are raising profoundly important public policy issues. Consideration of selection of critical policy issues, each of which has substantial ethical, social, economic, political, scientific, and technological aspects. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M165",
+        "title": "Advanced Technology: Public Policy, Regulation, and Law",
+        "units": 4,
+        "description": "(Same as Public Policy CM175.) Lecture, three hours. Examination of cutting-edge public policy and regulatory issues implicated by advanced technologies such as artificial intelligence, drones, autonomous vehicles, blockchain/Bitcoin, etc. Exploration of whether and how such new technologies should be regulated. Exploration of how policymakers should balance need to promote investment and innovation against need to protect public against potential misuse and abuse of these new technologies. Exploration of many issues raised by these technologies such as privacy, national security, network neutrality, intellectual property rights, and more. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M176XP",
+        "title": "Making Films about Food",
+        "units": 5,
+        "description": "(Same as Community Engagement and Social Change M176XP and Food Studies M176XP.) Lecture, three hours. Introduction to documentary video production and distribution. Students work on assignments in pairs and small groups to create 8- to 10-minute video about one of several Los Angeles partner organizations that advocate for healthy, local, sustainable food. Consideration, through video production, of challenges posed by existing farming, ranching, and distribution methods, and strategies these groups are pursuing to create more sustainable food pathways. Students look at social media communication strategies to help think through intervention in face of historically entrenched industrial food production and regulations that remain favorable to mass-produced, processed food items. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M179A",
+        "title": "Social Movements in Theory and Practice",
+        "units": 4,
+        "description": "(Same as Public Policy M179.) Lecture, three hours. Social movement is group of people pressuring for political or social change over long periods of time. Study focuses on how mass movements form, when and where they are likely to form, what types of tactics they choose, how those tactics affect their success, and role new technologies play. Weekly focus on one specific topic, such as nonviolence or social media, with historic and more recent movements used as case studies. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M191DC",
+        "title": "CAPPP Washington, DC, Research Seminars",
+        "units": 8,
+        "description": "(Same as Communication M191DC, History M191DC, Political Science M191DC, and Sociology M191DC.) Seminar, three hours. Limited to CAPPP Program students. Seminars for undergraduate students in Center for American Politics and Public Policy's program in Washington, DC. Focus on development and execution of original empirical research based on experiences from Washington, DC-based field placements. Study of variety of qualitative methods (observation, interviewing, etc.), with comparison to quantitative analysis. Examination of features of solid and significant research; intensive writing. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M191P",
+        "title": "Variable Topics Seminar: Public Policy",
+        "units": 4,
+        "description": "(Same as Public Policy CM191B.) Seminar, three hours; discussion, one hour (when scheduled); outside study, eight hours. Emerging issues in public policy. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "PUB AFF M195DC",
+        "title": "Quarter in Washington, DC, Internships",
+        "units": 4,
+        "description": "(Same as Community Engagement and Social Change M195DC, History M195DC, Political Science M195DC, and Sociology M195DC.) Tutorial, four hours. Limited to junior/senior Quarter in Washington program students. Internships in Washington, DC, through Center for American Politics and Public Policy. Students meet on regular basis with instructor and provide periodic reports of their experience. Individual contract with supervising faculty member required. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "id": "NEURBIO 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO 197",
+        "title": "Individual Studies in Neurobiology",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned readings and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO 199",
+        "title": "Directed Research in Neurobiology",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Studies in neuroscience and related subject areas appropriate for training of particular students, which includes reading assignments or laboratory work leading to final oral or written report. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO 225",
+        "title": "Functional Organization of Visual System",
+        "units": 2,
+        "description": "Seminar, three hours. Preparation: basic neuroscience course. Recommended: neuroanatomy, neurophysiology, and/or neural systems courses. Designed for neuroscientists, cell biologists, and psychologists. Basic organizational, physiological, and functional principles of visual system and how visual information is processed at different levels of nervous system. Structure, microcircuitry organization and function of retina, central visual nuclei, and primary cortical areas mediating visual behavior. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO 270",
+        "title": "Joint Seminar: Neuroscience Lectures",
+        "units": 1,
+        "description": "Seminar, one hour. Formal lectures on current research topics in neuroscience by speakers from national, international, and local neuroscience communities. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO M169",
+        "title": "History of Neurosciences",
+        "units": 4,
+        "description": "(Same as Medical History M169.) Lecture, one hour; discussion, two hours. Development of neurosciences, especially neuroanatomy and neurophysiology, from Enlightenment era through latter 20th century. Emphasis on fundamental nerve functions, cell communication, and technological, conceptual, and cultural influences that have shaped understanding of brain and nervous system. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO M169",
+        "title": "History of Neurosciences",
+        "units": 4,
+        "description": "(Same as Medical History M169.) Lecture, one hour; discussion, two hours. Development of neurosciences, especially neuroanatomy and neurophysiology, from Enlightenment era through latter 20th century. Emphasis on fundamental nerve functions, cell communication, and technological, conceptual, and cultural influences that have shaped understanding of brain and nervous system. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO M171",
+        "title": "Variable Topics Research Seminars: Contemporary Biology",
+        "units": 2,
+        "description": "(Same as Physiological Science M171.) Seminar, two hours. Limited to undergraduate fellows in Integrated and Interdisciplinary Undergraduate Research Program. Presentations of scientific data from primary research articles and from students' own research. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO M171",
+        "title": "Variable Topics Research Seminars: Contemporary Biology",
+        "units": 2,
+        "description": "(Same as Physiological Science M171.) Seminar, two hours. Limited to undergraduate fellows in Integrated and Interdisciplinary Undergraduate Research Program. Presentations of scientific data from primary research articles and from students' own research. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO M200F",
+        "title": "Cellular Neurophysiology",
+        "units": 4,
+        "description": "(Same as Neuroscience M202 and Physiological Science M202.) Lecture, three hours; discussion, two hours. Requisites: Physiological Science 111A (or M180A or Physics 5C), 166. Advanced course in cellular physiology of neurons. Action and membrane potentials, channels and channel blockers, gates, ion pumps and neuronal homeostasis, synaptic receptors, drug-receptor interactions, transmitter release, modulation by second messengers, and sensory transduction. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "PHYSCI 111A"},{"type": "requisite","course": "PHYSCI M180A"},{"type": "requisite","course": "PHYSICS 5C"}]},
+            {"type": "requisite","course": "PHYSCI 166"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO M200F",
+        "title": "Cellular Neurophysiology",
+        "units": 4,
+        "description": "(Same as Neuroscience M202 and Physiological Science M202.) Lecture, three hours; discussion, two hours. Requisites: Physiological Science 111A (or M180A or Physics 5C), 166. Advanced course in cellular physiology of neurons. Action and membrane potentials, channels and channel blockers, gates, ion pumps and neuronal homeostasis, synaptic receptors, drug-receptor interactions, transmitter release, modulation by second messengers, and sensory transduction. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "PHYSCI 111A"},{"type": "requisite","course": "PHYSCI M180A"},{"type": "requisite","course": "PHYSICS 5C"}]},
+            {"type": "requisite","course": "PHYSCI 166"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO M200G",
+        "title": "Biology of Learning and Memory",
+        "units": 4,
+        "description": "(Same as Neuroscience M220 and Psychology M208.) Lecture, four hours. Molecular, cellular, circuit, systems, neuroanatomy, theory, and models of learning and memory. Cross-disciplinary focus on learning and memory to provide integrative view of subject that emphasizes emerging findings that take advantage of novel groundbreaking models. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO M200G",
+        "title": "Biology of Learning and Memory",
+        "units": 4,
+        "description": "(Same as Neuroscience M220 and Psychology M208.) Lecture, four hours. Molecular, cellular, circuit, systems, neuroanatomy, theory, and models of learning and memory. Cross-disciplinary focus on learning and memory to provide integrative view of subject that emphasizes emerging findings that take advantage of novel groundbreaking models. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURBIO M255",
+        "title": "Seminar: Neural and Behavioral Endocrinology",
+        "units": 2,
+        "description": "(Same as Physiological Science M255 and Psychology M294.) Lecture, one hour; discussion, one hour. Topics include hormonal biochemistry and pharmacology. Hypothalamic/hypophyseal interactions, both hormonal and neural. Structure and function of hypothalamus. Hormonal control of reproductive and other behaviors. Sexual differentiation of brain and behavior. Stress: hormonal, behavioral, and neural aspects. Aging of reproductive behaviors and function. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

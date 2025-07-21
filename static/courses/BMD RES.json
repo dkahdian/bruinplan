@@ -1,0 +1,189 @@
+[
+    {
+        "id": "BMD RES 100HA",
+        "title": "Advanced Research in Genes, Genetics, and Genomics",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, 10 hours. Requisite: course 10H. Course 100HA is requisite to 100HB, which is requisite to 100HC. Designed for undergraduates who are committed to pursuing research. Advanced research training in genetics, cell and developmental biology, bioinformatics, functional genomics. Techniques include electron microscopy, other light microscopies, immunohistochemistry. Part of Undergraduate Research Consortium in Functional Genomics sponsored by Howard Hughes Medical Institute Professors Program. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BMD RES 10H"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 100HB",
+        "title": "Advanced Research in Genes, Genetics, and Genomics",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, 10 hours. Requisite: course 100HA. Designed for undergraduates who are committed to pursuing research. Advanced research training in genetics, cell and developmental biology, bioinformatics, functional genomics. Techniques include electron microscopy, other light microscopies, immunohistochemistry. Part of Undergraduate Research Consortium in Functional Genomics sponsored by Howard Hughes Medical Institute Professors Program. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BMD RES 100HA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 100HC",
+        "title": "Advanced Research in Genes, Genetics, and Genomics",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, 10 hours. Requisite: course 100HB. Designed for undergraduates who are committed to pursuing research. Advanced research training in genetics, cell and developmental biology, bioinformatics, functional genomics. Techniques include electron microscopy, other light microscopies, immunohistochemistry. Part of Undergraduate Research Consortium in Functional Genomics sponsored by Howard Hughes Medical Institute Professors Program. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BMD RES 100HB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 10H",
+        "title": "Research Training in Genes, Genetics, and Genomics",
+        "units": 6,
+        "description": "Lecture, 90 minutes; laboratory, six hours; computer laboratory, 90 minutes. Limited to 30 students. Basic training in biological research, including techniques in genetics, model organism, bioinformatics, functional genomics, electron microscopy. Part of Undergraduate Research Consortium in Functional Genomics sponsored by Howard Hughes Medical Institute Professors Program. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BMD RES 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BMD RES 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 193H",
+        "title": "Journal Club Seminars: Current Topics in Biomedical Research",
+        "units": 2,
+        "description": "Seminar, three hours. Limited to Biomedical Research minor students. Presentation and discussion of recent papers from primary literature in biosciences. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 194H",
+        "title": "Research Group Seminars: Data Presentation in Biomedical Research",
+        "units": 2,
+        "description": "Seminar, three hours. Requisite: course 193H. Limited to Biomedical Research minor students. Preparation of oral presentations based on student laboratory research at UCLA. May be repeated for credit. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BMD RES 193H"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 199",
+        "title": "Directed Biomedical Research",
+        "units": 4,
+        "description": "Tutorial, 12 hours. Limited to Biomedical Research minor students. Supervised individual research under guidance of faculty mentor. Culminating report describing progress and signed by student and faculty mentor required. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 1A",
+        "title": "Science in Your Time",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Exploration of current topics in biology from media sources like news organizations and TED Talks, tracing information back to primary research. Students learn to critically evaluate primary sources. Discussion of bias in system producing primary research from undergraduate education through tenured faculty, and medicine and national science funding (National Institutes of Health and National Science Foundation). Addresses lack of Black and Latinx representation and its impact on science valued by current system. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 5HA",
+        "title": "Biomedical Research: Concepts and Strategies",
+        "units": 4,
+        "description": "Lecture, three hours. Designed for freshmen/sophomores. Exploration of scientific concepts and experimental approaches through seminars by UCLA faculty members on their cutting-edge research. Topics may include areas of study such as cancer, stem cells, and infectious disease, as well as more basic research in cell and molecular biology. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 5HB",
+        "title": "Biomedical Research: Essential Skills and Concepts",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Requisite: course 5HA. Designed for freshmen/sophomores. Exploration of scientific concepts and experimental approaches through seminars by UCLA faculty members on their cutting-edge research. Topics may include areas of study such as cancer, stem cells, and infectious disease, as well as more basic research in cell and molecular biology. Student investigation of one or more laboratories on campus and presentation of brief synopsis of single research project from one laboratory. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BMD RES 5HA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BMD RES M6H",
+        "title": "Experiments in Cell and Tissue Culture",
+        "units": 5,
+        "description": "(Same as Molecular, Cell, and Developmental Biology M6H.) Lecture, three hours; discussion; one hour. Answering important questions in biology often involves executing experiments using cultured cells or tissues in the laboratory. Discussion of the fundamentals of cell and tissue culture, how to carry out successful experiments, and how to work through experimental challenges. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

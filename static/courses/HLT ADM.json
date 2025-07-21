@@ -1,0 +1,174 @@
+[
+    {
+        "id": "HLT ADM 400",
+        "title": "Field Studies",
+        "units": 4,
+        "description": "Fieldwork, to be arranged. Culmination of fieldwork process that takes approximately one year from internship search process, through actual field placement, to this integrative course. Deliberate consideration and reflection on relationship between summer practicum and principles and competencies of health-care management and policy learned during academic year. Students complete professional management or policy-related consulting report base don organizational problem or health policy issue on which students focused during summer. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 401",
+        "title": "Health Care Organization and Financing",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to Master of Healthcare Administration students. In-depth analysis of organization of health services systems in U.S., using relevant theories, concepts, and models. Discussion of various mechanisms for payment and insurance schemes. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 402",
+        "title": "Management and Organizational Behavior in Health Systems",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Application of contemporary management and organization behavioral theory to systems that provide personal health-care services. Environmental characteristics, decision-making, structure and culture, and processes of health services organizations. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 403",
+        "title": "Health-Care Information Systems and Technology",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Provides strong foundation in health information technology (HIT) for those working in health care, with emphasis on development of knowledge and skill to plan, manage, and implement HIT systems in health-care delivery organizations with clinical and business partners and evolving HIT spaces. Background and evolution of HIT; how it is planned, implemented, and managed; and how it can be productively used by health-care delivery organizations, external research organizations, regulatory organizations, providers, and patients/consumers. Fundamentals of technology, electronic medical records (EMR), electronic health records (EHR), personal health records (PHR), meaningful use, interoperability, and health information exchanges (HIE). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 404",
+        "title": "Health-Care Strategy",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Conceptual, analytical, and technical aspects of environmental assessment and strategy formulation in health delivery organizations, biopharma, and medical technology. Special attention to structure and dynamics of competitive markets, corporate-level strategic planning and marketing, managerial ethics and values, organizational creativity/innovation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 405",
+        "title": "Leadership and Ethics",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Preparation: completion of immersion course 596. Examination of leaders and leadership in health care and other organizations to provide broad introduction to literature on skills, behaviors, and characteristics of organizational leaders. Relationship and importance of vision, values, change, strategy, and communication. Identification of characteristics of successful leaders. Students evaluate their own leadership style and identify opportunities to further develop their leadership abilities. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "HLT ADM 596"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 406",
+        "title": "Health-Care Marketing",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to concepts of health-care marketing. Exploration of principles of market-driven decision-making process. Examination of development of key elements in annual marketing process and of consumer, competitor, company analysis, market segmentation, and target markets. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 407",
+        "title": "Digital Health Transformation",
+        "units": 4,
+        "description": "Lecture, three hours; activity, one hour. Prepares students to lead digital health transformation by deepening knowledge of health technologies driving innovative health-care delivery. Ten learning modules build analytic and leadership competencies required to advance and accelerate digital health transformation in one's organization, whether it is startup or large, mature health system. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 408",
+        "title": "Human Resource Management in Health Care",
+        "units": 4,
+        "description": "Lecture, three hours; activity, one hour. Management of human resources in health care system including human resource planning and staffing, training and development, performance appraisal, job design and analysis, and compensation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 411",
+        "title": "Microeconomic Theory for Health Sector",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Microeconomic aspects of health-care system, including health manpower substitution, choice of efficient modes of treatment, market efficiency, and competition. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 412",
+        "title": "Statistics for Health Management Decision-Making",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Sampling situations, with special attention to those occurring in biological and social sciences. Topics include distributions, tests of hypotheses, estimation, types of error, significance and confidence levels, and sample size. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 413",
+        "title": "Health-Care Operations Management",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Development of skills in analyzing and improving health-care systems and processes by integrating systems analysis, quality management, operations research techniques, exploratory data analytics, and data visualization. Emphasis on use of organizational data, especially time-stamp data, to study processes and outcomes of care, particularly as it relates to flow analysis and improving flow. Hands-on use of computer-based modeling tools, including spreadsheets and spreadsheet add-ins focus on formulating, designing, and constructing models; drawing conclusions from model results; and translating results into written end-user reports to support process improvement and quality improvement efforts. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 414",
+        "title": "Health-Care Financial Accounting",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Examination of purpose and methods of financial accounting (including for profit, not for profit, and governmental), function and organization of finance department, and special industry characteristics affecting financial management (to include third party payers, price or rate-setting and cost-shifting, taxation and health-care incentives, and emerging health-care organizations). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 415",
+        "title": "Health-Care Financial Management",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Concepts of financial management and managerial accounting as applied within health-care industry. Builds managerial financial decision-making skills and key analytical methods used in applications of health-care financial management. Students gain understanding and respond to financial recommendations of advisors, lenders, investors, and other stakeholders by applying concepts such as time value of money, financing approaches, capital planning, and budgeting. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 416",
+        "title": "Quality Improvement and Performance Excellence",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Limited to Master of Healthcare Administration students. In-depth analysis of organization of health services systems in U.S., using relevant theories, concepts, and models. Discussion of various mechanisms for payment and insurance schemes. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 417",
+        "title": "Data Analytics and Visualization",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Exploration of data sources and uses in health care, e.g., electronic medical records, social media, wireless biosensors, system and facility data. Review of hands-on techniques including data management, development of indexes and metrics, choosing and implementing analysis methods and visualizations. Discussion of role of data collection and processing within health care system. Elevate analytical skills and increase capabilities to leverage data to drive strong leadership decisions within management functions, health-care organizations, and health-care industry at large. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 418",
+        "title": "Health Reform: Policy and Implementation",
+        "units": 4,
+        "description": "Lecture, three hours; activity, one hour. Examination of politics of health policy process and how problems are considered for governmental action, how solutions are identified, and how political forces act on them. Emphasis on both understanding how public policy is made, and how to influence process and how to understand formulation of policy in response to problems and political will of leaders. Covers how health policy is developed, adopted, and implemented; political, institutional, economic, social, and other factors that influence and shape process; and how health care managers can be engaged in policymaking or interpreting policy decisions they must comply with as health care leaders. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 596",
+        "title": "Directed Individual Study or Research",
+        "units": 1,
+        "description": "Tutorial, to be arranged with MHA program faculty member. Limited to graduate students. Professional development seminars and workshops. Only 1 unit may be applied toward MHA minimum total course requirement. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "HLT ADM 597",
+        "title": "Preparation for Master's Comprehensive Capstone Project",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Limited to graduate students. Reading and preparation for master's comprehensive capstone project. Mandatory and supplemental topic lists approved by student advisory committee. Only 1 unit may be applied toward MHA minimum total course requirement. May be repeated for credit. S/U and letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

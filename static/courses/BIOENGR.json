@@ -1,0 +1,1534 @@
+[
+    {
+        "id": "BIOENGR 10",
+        "title": "Introduction to Bioengineering",
+        "units": 2,
+        "description": "Lecture, two hours; discussion, one hour; outside study, three hours. Preparation: high school biology, chemistry, mathematics, physics. Introduction to scientific and technological bases for established and emerging subfields of bioengineering, including biosensors, bioinstrumentation, and biosignal processing, biomechanics, biomaterials, tissue engineering, biotechnology, biological imaging, biomedical optics and lasers, neuroengineering, and biomolecular machines. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 100",
+        "title": "Bioengineering Fundamentals",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Mathematics 32A, Physics 1A. Fundamental basis for analysis and design of biological and biomedical devices and systems. Classical and statistical thermodynamic analysis of biological systems. Material, energy, charge, and force balances. Introduction to network analysis. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 32A"},
+            {"type": "requisite","course": "PHYSICS 1A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 110",
+        "title": "Biotransport and Bioreaction Processes",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: course 100, Mathematics 33B. Introduction to analysis of fluid flow, heat transfer, mass transfer, binding events, and biochemical reactions in systems of interest to bioengineers, including cells, tissues, organs, human body, extracorporeal devices, tissue engineering systems, and bioartificial organs. Introduction to pharmacokinetic analysis. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 100"},
+            {"type": "requisite","course": "MATH 33B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 120",
+        "title": "Biomedical Transducers",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Mathematics 32B, Physics 1C. Principles of transduction of various physical and biomedical parameters into electrical signals. Theory and design of basic circuits to amplify, measure, and filter these signals. Theory of operation and design of electrocardiogram, blood pressure transducer, Coulter Counter, and other biomedical instrumentation. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 32B"},
+            {"type": "requisite","course": "PHYSICS 1C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 121",
+        "title": "Introduction to Microcontrollers",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course 120 or equivalent. Hands-on introduction to basic and advanced concepts involved in development of projects using microcontrollers in robotics and motion, light and sound, sensing and data acquisition, signal amplification and filtering, communication with specialty integrated circuits, and computer interface using the Processing language. Use of the Arduino Integrated Development Environment (IDE) to explore digital and analog input/output, Serial Peripheral Interface (SPI) and Inter-Integrated Circuit (I2C), Inter-Integrated Circuit Sound (I2S), interrupts, timing, use and writing of software libraries, and other topics. Exploration also of ESP32 and RP2040 microcontrollers. Students construct and analyze first-order passive filters, operational amplifier (op-amp) circuits, and related material. Students are equipped to make creative software and hardware projects, and develop their own instrumentation for subsequent laboratory or design projects. Project-based homework has small theory component. Includes final design project. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 120"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 122",
+        "title": "Introduction to Medical Imaging",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, four hours; outside study, hour hours. Requisites: Mathematics 33A, Physics 1C, or consent of instructor. Introduction of principles and survey of technology and applications in field of biomedical imaging. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 33A"},
+            {"type": "requisite","course": "PHYSICS 1C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 132",
+        "title": "Nanogenerators for Bioengineering",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Addresses fundamentals, materials, processes, manufacturing, and devices fabrication for nanogenerators. Showcases key biomedical applications, in particular, nanogenerators made for circulatory system, neural system, cell modulation, microbe disinfection, and biodegradable electronics. Functionality of nanogenerators can serve for energy, sensing, and therapy purposes in bioengineering. Nanogenerators can be key components to realize autonomous intelligent closed-loop sensing and therapeutic system on human body for personalized health care to conquer medical fields in Internet of Things era. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 165EW",
+        "title": "Bioengineering Ethics",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, three hours; outside study, five hours. All professions have ethical rules that derive from moral theory. Bioethics is well-established discipline that addresses ethical problems about life, such as when do fertilized eggs become people? Should ending of life ever be assisted? At what cost should it be maintained? Unlike physicians, bioengineers do not make these decisions in practice. Engineering ethics addresses ethical problems about producing devices from molecules to bridges, such as when do concerns about risk outweigh concerns about cost? When are weapons too dangerous to design? At what point does benefit of committing to building devices outweigh need to wait for more scientific confirmation of their effectiveness? Bioengineers must be aware of consequences of applying such devices to all living systems. Emphasis on research and writing within engineering environments. Satisfies engineering writing requirement. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 167L",
+        "title": "Bioengineering Laboratory",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisite: Chemistry 20L. Laboratory experiments in fluorescence microscopy, bioconjugation, soft lithography, and cell culture culminate in design of engineered surface for cell growth. Introduction to techniques used in laboratories and their underlying physical or chemical properties. Case studies connect laboratory techniques to current biomedical engineering research and reinforce experimental design skills. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20L"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 170",
+        "title": "Cell Engineering and Laboratory",
+        "units": 4,
+        "description": "Lecture, four hours; laboratory, four hours; outside study, four hours. Preparation: general background on cell biology, calculus, and differential equations. Comprehensive introduction of cell engineering. Topics include quantitative and experimental analysis of cell behavior such as cell growth, migration and differentiation, biomaterial fabrication, cell-material interactions, cell signaling, tissue remodeling, and immuno-modulation/isolation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 175",
+        "title": "Machine Learning and Data-Driven Modeling in Bioengineering",
+        "units": 4,
+        "description": "(Formerly numbered C175.) Lecture, four hours; laboratory, two hours; outside study, six hours. Requisites: Civil Engineering M20 or Mechanical and Aerospace Engineering M20 or Computer Science 31, Mathematics 32B, 33A. Overview of foundational data analysis and machine-learning methods in bioengineering, focusing on how these techniques can be applied to interpret experimental observations. Topics include probabilities, distributions, cross-validation, analysis of variance, reproducible computational workflows, dimensionality reduction, regression, hidden Markov models, and clustering. Students gain theoretical and practical knowledge of data analysis and machine-learning methods relevant to bioengineering. Application of these methods to experimental data from bioengineering studies. Students become sufficiently familiar with these techniques to design studies incorporating such analyses, execute analysis, and work in teams using similar approaches, and ensure correctness of their results. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "C&EE M20"},{"type": "requisite","course": "MECH&AE M20"},{"type": "requisite","course": "COM SCI 31"}]},
+            {"type": "requisite","course": "MATH 32B"},
+            {"type": "requisite","course": "MATH 33A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 176",
+        "title": "Principles of Biocompatibility",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Enforced requisites: course 100, Mathematics 33B, Physics 1C. Biocompatibility at systemic, tissue, cellular, and molecular levels. Biomechanical compatibility, stress/strain constitutive equations, cellular and molecular response to mechanical signals, biochemical and cellular compatibility, immune response. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 100"},
+            {"type": "requisite","course": "MATH 33B"},
+            {"type": "requisite","course": "PHYSICS 1C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 177A",
+        "title": "Bioengineering Capstone Design I",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisites: courses 167L, 176. Lectures, seminars, and discussions on aspects of biomedical device and therapeutic design, including topics such as need finding, intellectual property, entrepreneurship, regulation, and project management. Working in teams, students develop innovative solutions to address current problems in medicine and biology. Sourcing and ordering of materials and supplies relevant to student projects. Exploration of different experimental and computational methods. Scientific presentation of progress. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 167L"},
+            {"type": "requisite","course": "BIOENGR 176"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 177B",
+        "title": "Bioengineering Capstone Design II",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, six hours; outside study, four hours. Enforced requisite: course 177A. Lectures, seminars, and discussions on aspects of biomedical device and therapeutic design, including meetings with scientific/clinical advisers and guest lectures from scientists in industry. Working in teams, students develop innovative solutions to address current problems in medicine and biology. Students conduct directed experiments and computational modeling, give oral presentations, write reports, and participate in bioengineering design competition. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 177A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 177C",
+        "title": "Bioengineering Industry Capstone and Cooperative Education Program",
+        "units": 12,
+        "description": "Activity, 12 hours. Preparation: summer industry experience. Immersive career experience is important for acquiring real world experience, professional development, and preparation for post-graduation. Students gain greater depth in these skills by extending a summer experience. Students continue projects with industry mentors, and are evaluated using a rubric based on ABET standards for engineering design and knowledge. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 180",
+        "title": "System Integration in Biology, Engineering, and Medicine I",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: courses 100, 110, Life Sciences 7A, Physics 1C. Exploration of cardiovascular, pulmonary, and renal systems through normal physiology, pathophysiology, and engineering design principles. Focus on homeostatic regulation and the engineering principles of select therapeutic devices. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 100"},
+            {"type": "requisite","course": "BIOENGR 110"},
+            {"type": "requisite","course": "LIFESCI 7A"},
+            {"type": "requisite","course": "PHYSICS 1C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 180L",
+        "title": "System Integration in Biology, Engineering, and Medicine I Laboratory",
+        "units": 4,
+        "description": "Lecture, one hour; laboratory, four hours; clinical visits, four hours; outside study, three hours. Corequisite: course 180. Hands-on experimentation and clinical applications of selected medical therapeutic devices associated with cardiovascular and pulmonary disorders. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 194",
+        "title": "Research Group Seminars: Bioengineering",
+        "units": 4,
+        "description": "Seminar, three hours. Limited to bioengineering undergraduate students who are part of research group. Study and analysis of current topics in bioengineering. Discussion of current research literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 199",
+        "title": "Directed Research in Bioengineering",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit with school approval. Individual contract required; enrollment petitions available in Office of Academic and Student Affairs. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 220",
+        "title": "Introduction to Medical Informatics",
+        "units": 2,
+        "description": "Lecture, two hours; outside study, four hours. Designed for graduate students. Introduction to research topics and issues in medical informatics for students new to field. Definition of this emerging field of study, current research efforts, and future directions in research. Key issues in medical informatics to expose students to different application domains, such as information system architectures, data and process modeling, information extraction and representations, information retrieval and visualization, health services research, telemedicine. Emphasis on current research endeavors and applications. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 221",
+        "title": "Human Anatomy and Physiology for Medical and Imaging Informatics",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Designed for graduate students. Introduction to basic human anatomy and physiology, with particular emphasis on understanding and visualization of anatomy and physiology through medical images. Topics relevant to acquisition, representation, and dissemination of anatomical knowledge in computerized clinical applications. Topics include chest, cardiac, neurology, gastrointestinal/genitourinary, endocrine, and musculoskeletal systems. Introduction to basic imaging physics (magnetic resonance, computed tomography, ultrasound, computed radiography) to provide context for imaging modalities predominantly used to view human anatomy. Geared toward nonphysicians who require more formal understanding of human anatomy/physiology. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 223A",
+        "title": "Biomedical Data Sciences Research Laboratory I",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, two hours; outside study, eight hours. Requisites: Computer Science 31, 32, Program in Computing 16A, 16B. Course 223A is requisite to 223B, which is requisite to 223C. Designed for graduate students. Researchers and faculty from the school of medicine present challenges and datasets from the health care system. Small student teams choose a project and develop a data science solution. Potential projects cover a variety of topics including medical image analysis, natural language processing of clinical text, and waveform analysis of biosignals. Review of research topics such as experimental design and statistical analysis as well as introducing data science techniques related to image analysis and artificial intelligence. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "COM SCI 31"},
+            {"type": "requisite","course": "COM SCI 32"},
+            {"type": "requisite","course": "COMPTNG 16A"},
+            {"type": "requisite","course": "COMPTNG 16B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 223B",
+        "title": "Biomedical Data Sciences Research Laboratory II",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, two hours; outside study, eight hours. Requisite: course 223A. Designed for graduate students. Teams from course 223A refine projects with target goal of either clinical deployment or scientific publication. Teams present updates weekly and contribute to group discussions to help optimize algorithms and perform analyses that answer their research questions. Covers various topics related to translational research and publishing scientific articles including statistical hypothesis testing, scientific writing, and the peer review process. Teams produce a research article that can potentially be submitted to a scientific conference or journal. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 223A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 223C",
+        "title": "Programming Laboratory for Medical and Imaging Informatics III",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, two hours; outside study, eight hours. Requisite: course 223B. Designed for graduate students. Programming laboratory to support coursework in other medical and imaging informatics core curriculum courses. Exposure to programming concepts for medical applications, with focus on basic abstraction techniques used to extract meaningful features from medical text and imaging data and visualize results. Integrated with topics presented in courses 224B and M226 to reinforce concepts presented with practical experience. Projects focus on medical information retrieval, knowledge representation, and visualization. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 223B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 224A",
+        "title": "Physics and Informatics of Medical Imaging",
+        "units": 4,
+        "description": "Lecture, four hours; laboratory, eight hours. Requisites: Mathematics 33A, 33B. Designed for graduate students. Introduction to principles of medical imaging and imaging informatics for nonphysicists. Overview of core imaging modalities: X ray, computed tomography (CT), and magnetic resonance (MR). Topics include signal generation, localization, and quantization. Image representation and analysis techniques such as Markov random fields, spatial characterization (atlases), denoising, energy representations, and clinical imaging workstation design. Provides basic understanding of issues related to basic medical image acquisition and analysis. Current research efforts with focus on clinical applications and new types of information made available through these modalities. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 33A"},
+            {"type": "requisite","course": "MATH 33B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 224B",
+        "title": "Advances in Imaging Informatics",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Overview of informatics-based applications of medical imaging with focus on various advances in field, such as content-based image retrieval, computer-aided detection/diagnosis, and imaging genomics. Introduction to core concepts in information retrieval (IR), reviewing seminal papers on evaluating IR systems and their use in medicine (e.g., teaching files, case-based retrieval, etc.). Examination of specific techniques for image feature extraction and processing, feature representation, indexing and querying, and classification (machine/deep learning). Survey of clinical applications of these techniques and ongoing challenges. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 242",
+        "title": "Biophotonics",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Introduction of principles and survey applications in field of biophotonics. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 256",
+        "title": "Drug Delivery Devices: Innovation and Translation",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Introduction to modern topics in drug delivery devices and relevant biomedical applications. Topics provide comprehensive and critical examination of current and emerging research and development on drug delivery devices, with emphasis on innovation and translation. Topics include bioresponsive drug delivery systems, drug delivery reservoirs, MEMS and micro/nanorobots for drug delivery, nanomedicine-device combination products, and development and regulation of drug delivery devices. Students acquire theoretical and practical knowledge of drug delivery devices. Students gain ability to identify advanced approaches for drug delivery mediated by devices in effective and safe manner, from systemic administration to site-specific release; design appropriate mechanisms, materials, and structures for engineering drug delivery devices to deliver different therapeutics for treating variety of diseases; and propose methods and relevant experiments to validate efficacy of certain drug delivery devices. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 271",
+        "title": "Biotechnology of Cellular Therapies",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Examination of how to design cells and cellular systems to perform therapeutic tasks in complex physiological environments. Discussion of immune system as case study of engineering functionality based on certain required specifications (e.g., not attacking self, recognition of pathogens, preventing cancer). Discussion also of methods and techniques used to genetically modify, separate, and analyze cells, which-just like in chemical synthesis and purification of drugs-are important to creating therapies with well-defined properties based on cells. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 275",
+        "title": "Machine Learning and Data-Driven Modeling in Bioengineering",
+        "units": 4,
+        "description": "(Formerly numbered C275.) Lecture, four hours; laboratory, two hours; outside study, six hours. Requisites: Civil Engineering M20 or Mechanical and Aerospace Engineering M20 or Computer Science 31, Mathematics 32B, 33A. Overview of foundational data analysis and machine-learning methods in bioengineering, focusing on how these techniques can be applied to interpret experimental observations. Topics include probabilities, distributions, cross-validation, analysis of variance, reproducible computational workflows, dimensionality reduction, regression, hidden Markov models, and clustering. Students gain theoretical and practical knowledge of data analysis and machine-learning methods relevant to bioengineering. Application of these methods to experimental data from bioengineering studies. Students become sufficiently familiar with these techniques to design studies incorporating such analyses, execute analysis, and work in teams using similar approaches, and ensure correctness of their results. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "C&EE M20"},{"type": "requisite","course": "MECH&AE M20"},{"type": "requisite","course": "COM SCI 31"}]},
+            {"type": "requisite","course": "MATH 32B"},
+            {"type": "requisite","course": "MATH 33A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 281",
+        "title": "Advanced Bioconjugate Design and Methods",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course C205. Builds upon basic concepts of chemical ligation covered in course C205, and focuses on current state-of-art methods and designs for precise bioconjugate formation, especially in context of living cells. Focus on recently developed bioconjugate methods from primary literature, and their applications in bioengineering. Students gain deep understanding of principles of bioconjugation: coupling of biologically active molecules to substrates, devices, or one another, especially for applications in living cells and in vivo. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR C205"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 282",
+        "title": "Biomaterial Interfaces",
+        "units": 4,
+        "description": "Lecture, four hours; laboratory, eight hours. Requisite: course CM178 or CM278. Function, utility, and biocompatibility of biomaterials depend critically on their surface and interfacial properties. Discussion of morphology and composition of biomaterials and nanoscales, mesoscales, and macroscales, techniques for characterizing structure and properties of biomaterial interfaces, and methods for designing and fabricating biomaterials with prescribed structure and properties in vitro and in vivo. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR CM178"},{"type": "requisite","course": "BIOENGR CM278"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295A",
+        "title": "Seminar: Research Topics in Bioengineering-Biomaterial Research",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295B",
+        "title": "Seminar: Research Topics in Bioengineering-Biomaterials and Tissue Engineering Research",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295C",
+        "title": "Seminar: Research Topics in Bioengineering-Minimally Invasive and Laser Research",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295D",
+        "title": "Seminar: Research Topics in Bioengineering-Hybrid Device Research",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295E",
+        "title": "Seminar: Research Topics in Bioengineering-Molecular Cell Bioengineering Research",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295F",
+        "title": "Seminar: Research Topics in Bioengineering-Biopolymer Materials and Chemistry",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295G",
+        "title": "Seminar: Research Topics in Bioengineering-Biomicrofluidics and Bionanotechnology Research",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295H",
+        "title": "Seminar: Research Topics in Bioengineering-Biomimetic System Research",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295J",
+        "title": "Seminar: Research Topics in Bioengineering-Neural Tissue Engineering and Regenerative Medicine",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295K",
+        "title": "Seminar: Research Topics in Bioengineering-Research in Synthetic Immunology and Microbiology",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in research specialty of faculty member teaching course. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295L",
+        "title": "Seminar: Research Topics in Bioengineering-Cell and Tissue Engineering",
+        "units": 2,
+        "description": "Seminar, one to four hours; outside study, two to five hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in cell engineering, mechanobiology, immunoengineering, and regenerative medicine. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295M",
+        "title": "Seminar: Research Topics in Bioengineering-Research in Biological Systems Engineering",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in systems biology, immune engineering, computational analysis of cell signaling, machine learning, quantitative molecular biology. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295N",
+        "title": "Seminar: Research Topics in Bioengineering-Research in Biophotonics",
+        "units": 2,
+        "description": "Seminar, one to four hours; outside study, two to five hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in biophotonics, medical imaging, and computational imaging. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295O",
+        "title": "Seminar: Research Topics in Bioengineering-Research in Modeling of Drug Effects",
+        "units": 2,
+        "description": "Seminar, one to four hours; outside study, two to five hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in protein-protein interaction network modeling, clinical estimation of drug effects, drug repurposing, and drug pathways. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295P",
+        "title": "Seminar: Research Topics in Bioengineering-Research in Wearable Bioelectronics for Personalized Health Care",
+        "units": 2,
+        "description": "Seminar, one to four hours; outside study, two to five hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in biomedical instrumentations. Discussion of current research and literature in biomaterials synthesis, biosensors and bioelectronics fabrications, circuitry and signal processing. Student presentation of projects every week in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295Q",
+        "title": "Seminar: Research Topics in Bioengineering-Biomolecular Engineering and Microbial Biosensing Research",
+        "units": 2,
+        "description": "Seminar, one to four hours; outside study, two to five hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in molecular and cellular engineering, glycoengineering, genetic engineering, biosensor development and transcriptional signaling. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 295R",
+        "title": "Seminar: Research Topics in Bioengineering-Research in RNA Nanotechnology",
+        "units": 2,
+        "description": "Seminar, one to four hours; outside study, two to five hours. Limited to bioengineering graduate students. Advanced study and analysis of current topics in bioengineering. Discussion of current research and literature in RNA nanotechnology, nucleic acid self-assembly, molecular engineering, and synthetic biology. Student presentation of projects in research specialty. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 298",
+        "title": "Special Studies in Bioengineering",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Study of selected topics in bioengineering taught by resident and visiting faculty members. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 299",
+        "title": "Seminar: Bioengineering Topics",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Designed for graduate bioengineering students. Seminar by leading academic and industrial bioengineers from UCLA, other universities, and bioengineering companies such as Baxter, Amgen, Medtronics, and Guidant on development and application of recent technological advances in discipline. Exploration of cutting-edge developments and challenges in wound healing models, stem cell biology, angiogenesis, signal transduction, gene therapy, cDNA microarray technology, bioartificial cultivation, nano- and micro-hybrid devices, scaffold engineering, and bioinformatics. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 495",
+        "title": "Teaching Assistant Training Seminar",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Limited to graduate bioengineering students. Required of all departmental teaching assistants. May be taken concurrently while holding TA appointment. Seminar on communicating bioengineering and biomedical engineering principles, concepts, and methods; teaching assistant preparation, organization, and presentation of material, including use of visual aids, grading, advising, and rapport with students. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 596",
+        "title": "Directed Individual or Tutorial Studies",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate bioengineering students. Petition forms to request enrollment may be obtained from program office. Supervised investigation of advanced technical problems. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 597A",
+        "title": "Preparation for MS Comprehensive Examination",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate bioengineering students. Reading and preparation for MS comprehensive examination. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 597B",
+        "title": "Preparation for PhD Preliminary Examination",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate bioengineering students. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 597C",
+        "title": "Preparation for PhD Oral Qualifying Examination",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate bioengineering students. Preparation for oral qualifying examination, including preliminary research on dissertation. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 598",
+        "title": "Research for and Preparation of MS Thesis",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate bioengineering students. Supervised independent research for MS candidates, including thesis prospectus. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 599",
+        "title": "Research for and Preparation of PhD Dissertation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to graduate bioengineering students. Usually taken after students have been advanced to candidacy. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C101",
+        "title": "Engineering Principles for Drug Delivery",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Mathematics 33B, Physics 1B. Application of engineering principles for designing and understanding delivery of therapeutics. Discussion of physics and mathematics required for understanding colloidal stability. Analysis of concepts related to both modeling and experimentation of endocytosis and intracellular trafficking mechanisms. Analysis of diffusion of drugs, coupled with computational and engineering mathematics approaches. Concurrently scheduled with course C201. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 33B"},
+            {"type": "requisite","course": "PHYSICS 1B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C102",
+        "title": "Physiology for Engineers",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Study of human physiology. Focus on major organ systems. Topics include bulk tissue function, tissue organization, and molecular components responsible for organ function. Emphasis on quantitative relationships and engineering principles related to biological homeostasis. Where appropriate, study of changes to homeostasis and how those changes affect physiological outcomes. Modular lectures, with conceptually-motivated practice problems, are supplemented with quantitative homework assignments, which allow for more in-depth quantitative analyses. Concurrently scheduled with course C202. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C104",
+        "title": "Physical Chemistry of Biomacromolecules",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, 30A, Life Sciences 7A. To understand biological materials and design synthetic replacements, it is imperative to understand their physical chemistry. Biomacromolecules such as protein or DNA can be analyzed and characterized by applying fundamentals of polymer physical chemistry. Investigation of polymer structure and conformation, bulk and solution thermodynamics and phase behavior, polymer networks, and viscoelasticity. Application of engineering principles to problems involving biomacromolecules such as protein conformation, solvation of charged species, and separation and characterization of biomacromolecules. Concurrently scheduled with course C204. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "CHEM 30A"},
+            {"type": "requisite","course": "LIFESCI 7A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C105",
+        "title": "Engineering of Bioconjugates",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Chemistry 20A, 20B, 20L. Highly recommended: one organic chemistry course. Bioconjugate chemistry is science of coupling biomolecules for wide range of applications. Oligonucleotides may be coupled to one surface in gene chip, or one protein may be coupled to one polymer to enhance its stability in serum. Wide variety of bioconjugates are used in delivery of pharmaceuticals, in sensors, in medical diagnostics, and in tissue engineering. Basic concepts of chemical ligation, including choice and design of conjugate linkers depending on type of biomolecule and desired application, such as degradable versus nondegradable linkers. Presentation and discussion of design and synthesis of synthetic bioconjugates for some sample applications. Concurrently scheduled with course C205. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "CHEM 20L"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C106",
+        "title": "Topics in Bioelectricity for Bioengineers",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20B, Life Sciences 7A, Mathematics 33B, Physics 1C. Coverage in depth of physical processes associated with biological membranes and channel proteins, with specific emphasis on electrophysiology. Basic physical principles governing electrostatics in dielectric media, building on complexity to ultimately address action potentials and signal propagation in nerves. Topics include Nernst/Planck and Poisson/Boltzmann equations, Nernst potential, Donnan equilibrium, GHK equations, energy barriers in ion channels, cable equation, action potentials, Hodgkin/Huxley equations, impulse propagation, axon geometry and conduction, dendritic integration. Concurrently scheduled with course C206. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "LIFESCI 7A"},
+            {"type": "requisite","course": "MATH 33B"},
+            {"type": "requisite","course": "PHYSICS 1C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C107",
+        "title": "Polymer Chemistry for Bioengineers",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course C104 or C105. Fundamental concepts of polymer synthesis, including step-growth, chain growth (ionic, radical, metal catalyzed), and ring-opening, with focus on factors that can be used to control chain length, chain length distribution, and chain-end functionality, chain copolymerization, and stereochemistry in polymerizations. Presentation of applications of use of different polymerization techniques. Concepts of step-growth, chain-growth, ring-opening, and coordination polymerization, and effects of synthesis route on polymer properties. Lectures include both theory and practical issues demonstrated through examples. Concurrently scheduled with course C207. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR C104"},{"type": "requisite","course": "BIOENGR C105"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C131",
+        "title": "Nanopore Sensing",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: courses 100, 120, Life Sciences 7A, Physics 1A, 1B, 1C. Analysis of sensors based on measurements of fluctuating ionic conductance through artificial or protein nanopores. Physics of pore conductance. Applications to single molecule detection and DNA sequencing. Review of current literature and technological applications. History and instrumentation of resistive pulse sensing, theory and instrumentation of electrical measurements in electrolytes, nanopore fabrication, ionic conductance through pores and GHK equation, patch clamp and single channel measurements and instrumentation, noise issues, protein engineering, molecular sensing, DNA sequencing, membrane engineering, and future directions of field. Concurrently scheduled with course C231. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 100"},
+            {"type": "requisite","course": "BIOENGR 120"},
+            {"type": "requisite","course": "LIFESCI 7A"},
+            {"type": "requisite","course": "PHYSICS 1A"},
+            {"type": "requisite","course": "PHYSICS 1B"},
+            {"type": "requisite","course": "PHYSICS 1C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C135",
+        "title": "Orthopaedic Biomechanical Engineering",
+        "units": 4,
+        "description": "(Formerly numbered 125.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: Physics 1A, 1B. Overview of central topics of orthopaedic biomechanical engineering, with focus on orthopaedic implant performance and how to evaluate new and existing implants. Topics include orthopaedic and biomechanical terminology and basic anatomy; introduction to free body diagrams and calculations of joint reaction forces; material versus structural properties; introduction to stress analysis; mechanisms of fracture patterns and fracture fixation; biomechanics of total joint replacement; contemporary bearing materials and tribology; design and evaluation of total joint replacements; and introduction to spine biomechanics, spine implants, and pure moment testing. Concurrently scheduled with course C235. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PHYSICS 1A"},
+            {"type": "requisite","course": "PHYSICS 1B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C139A",
+        "title": "Biomolecular Materials Science I",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Overview of chemical and physical foundations of biomolecular materials science that concern materials aspects of molecular biology, cell biology, and bioengineering. Understanding of different types of interactions that exist between biomolecules, such as van der Waals interactions, entropically modulated electrostatic interactions, hydrophobic interactions, hydration and solvation interactions, polymer-mediated interactions, depletion interactions, molecular recognition, and others. Illustration of these ideas using examples from bioengineering and biomedical engineering. Students should be able to make simple calculations and estimates that allow them to engage broad spectrum of bioengineering problems, such as those in drug and gene delivery and tissue engineering. May be taken independently for credit. Concurrently scheduled with course C239A. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C139B",
+        "title": "Biomolecular Materials Science II",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Course C139A is not requisite to C139B. Overview of chemical and physical foundations of biomolecular materials science that concern materials aspects of molecular biology, cell biology, and bioengineering. Understanding of different basic types of biomolecules, with emphasis on nucleic acids, proteins, and lipids. Study of how biological and biomimetic systems organize into their functional forms via self-assembly and how these structures impart biological function. Illustration of these ideas using examples from bioengineering and biomedical engineering. Case study on current topics, including drug delivery, gene therapy, cancer therapeutics, emerging pathogens, and relation of self-assembly to disease states. May be taken independently for credit. Concurrently scheduled with course C239B. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C147",
+        "title": "Applied Tissue Engineering: Clinical and Industrial Perspective",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: course CM102, Chemistry 20A, 20B, 20L, Life Sciences 7A. Overview of central topics of tissue engineering, with focus on how to build artificial tissues into regulated clinically viable products. Topics include biomaterials selection, cell source, delivery methods, FDA approval processes, and physical/chemical and biological testing. Case studies include skin and artificial skin, bone and cartilage, blood vessels, neurotissue engineering, and liver, kidney, and other organs. Clinical and industrial perspectives of tissue engineering products. Manufacturing constraints, clinical limitations, and regulatory challenges in design and development of tissue-engineering devices. Concurrently scheduled with course C247. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR CM102"},
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "CHEM 20L"},
+            {"type": "requisite","course": "LIFESCI 7A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C155",
+        "title": "Fluid-Particle and Fluid-Structure Interactions in Microflows",
+        "units": 4,
+        "description": "Lecture, four hours; laboratory, one hour; outside study, seven hours. Enforced requisite: course 110. Introduction to Navier/Stokes equations, assumptions, and simplifications. Analytical framework for calculating simple flows and numerical methods to solve and gain intuition for complex flows. Forces on particles in Stokes flow and finite-inertia flows. Flows induced around particles with and without finite inertia and implications for particle-particle interactions. Secondary flows induced by structures and particles in confined flows. Particle separations by fluid dynamic forces: field-flow fractionation, inertial focusing, structure-induced separations. Application concepts in internal biological flows and separations for biotechnology. Helps students become sufficiently fluent with fluid mechanics vocabulary and techniques, design and model microfluidic systems to manipulate fluids, cells, and particles, and develop strong intuition for how fluid and particles behave in arbitrarily structured microchannels over range of Reynolds numbers. Concurrently scheduled with course C255. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 110"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C166",
+        "title": "Wearable Bioelectronics",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Practice of human health care may be on cusp of revolution, driven by unprecedented level of personalization enabled by advances in technology, specifically, transformation of wearable devices from curiosities that provide qualitative information for fitness enthusiasts to sophisticated systems that produce clinical-grade data for physicians. Introduction of cutting-edge research in field of wearable bioelectronics. Addresses fundamentals, materials, processes, and devices for wearable bioelectronics, showcasing key applications including device fabrication, manufacturing, and health-care applications. Concurrently scheduled with course C266. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C179",
+        "title": "Biomaterials-Tissue Interactions",
+        "units": 4,
+        "description": "Lecture, three hours; outside study, nine hours. Requisite: course CM178. In-depth exploration of host cellular response to biomaterials: vascular response, interface, and clotting, biocompatibility, animal models, inflammation, infection, extracellular matrix, cell adhesion, and role of mechanical forces. Concurrently scheduled with course C279. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR CM178"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C183",
+        "title": "Targeted Drug Delivery and Controlled Drug Release",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, 20L. New therapeutics require comprehensive understanding of modern biology, physiology, biomaterials, and engineering. Targeted delivery of genes and drugs and their controlled release are important in treatment of challenging diseases and relevant to tissue engineering and regenerative medicine. Drug pharmacodynamics and clinical pharmacokinetics. Application of engineering principles (diffusion, transport, kinetics) to problems in drug formulation and delivery to establish rationale for design and development of novel drug delivery systems that can provide spatial and temporal control of drug release. Introduction to biomaterials with specialized structural and interfacial properties. Exploration of both chemistry of materials and physical presentation of devices and compounds used in delivery and release. Concurrently scheduled with course C283. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "CHEM 20L"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C185",
+        "title": "Introduction to Tissue Engineering",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: course CM102 or CM202, Chemistry 20A, 20B, 20L. Tissue engineering applies principles of biology and physical sciences with engineering approach to regenerate tissues and organs. Guiding principles for proper selection of three basic components for tissue engineering: cells, scaffolds, and molecular signals. Concurrently scheduled with course C285. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR CM102"},{"type": "requisite","course": "BIOENGR CM202"}]},
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "CHEM 20L"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C188",
+        "title": "Special Courses in Bioengineering",
+        "units": 4,
+        "description": "(Formerly numbered 188.) Lecture, four hours; discussion, one hour; outside study, seven hours. Special topics in bioengineering for undergraduate students taught on experimental or temporary basis, such as those taught by resident and visiting faculty members. May be repeated for credit with topic or instructor change. Concurrently scheduled with course C288. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C201",
+        "title": "Engineering Principles for Drug Delivery",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Mathematics 33B, Physics 1B. Application of engineering principles for designing and understanding delivery of therapeutics. Discussion of physics and mathematics required for understanding colloidal stability. Analysis of concepts related to both modeling and experimentation of endocytosis and intracellular trafficking mechanisms. Analysis of diffusion of drugs, coupled with computational and engineering mathematics approaches. Concurrently scheduled with course C101. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 33B"},
+            {"type": "requisite","course": "PHYSICS 1B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C202",
+        "title": "Physiology for Engineers",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Study of human physiology. Focus on major organ systems. Topics include bulk tissue function, tissue organization, and molecular components responsible for organ function. Emphasis on quantitative relationships and engineering principles related to biological homeostasis. Where appropriate, study of changes to homeostasis and how those changes affect physiological outcomes. Modular lectures, with conceptually-motivated practice problems, are supplemented with quantitative homework assignments, which allow for more in-depth quantitative analyses. Concurrently scheduled with course C102. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C204",
+        "title": "Physical Chemistry of Biomacromolecules",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, 30A, Life Sciences 7A. To understand biological materials and design synthetic replacements, it is imperative to understand their physical chemistry. Biomacromolecules such as protein or DNA can be analyzed and characterized by applying fundamentals of polymer physical chemistry. Investigation of polymer structure and conformation, bulk and solution thermodynamics and phase behavior, polymer networks, and viscoelasticity. Application of engineering principles to problems involving biomacromolecules such as protein conformation, solvation of charged species, and separation and characterization of biomacromolecules. Concurrently scheduled with course C104. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "CHEM 30A"},
+            {"type": "requisite","course": "LIFESCI 7A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C205",
+        "title": "Engineering of Bioconjugates",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisites: Chemistry 20A, 20B, 20L. Highly recommended: one organic chemistry course. Bioconjugate chemistry is science of coupling biomolecules for wide range of applications. Oligonucleotides may be coupled to one surface in gene chip, or one protein may be coupled to one polymer to enhance its stability in serum. Wide variety of bioconjugates are used in delivery of pharmaceuticals, in sensors, in medical diagnostics, and in tissue engineering. Basic concepts of chemical ligation, including choice and design of conjugate linkers depending on type of biomolecule and desired application, such as degradable versus nondegradable linkers. Presentation and discussion of design and synthesis of synthetic bioconjugates for some sample applications. Concurrently scheduled with course C105. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "CHEM 20L"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C206",
+        "title": "Topics in Bioelectricity for Bioengineers",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: Chemistry 20B, Life Sciences 7A, Mathematics 33B, Physics 1C. Coverage in depth of physical processes associated with biological membranes and channel proteins, with specific emphasis on electrophysiology. Basic physical principles governing electrostatics in dielectric media, building on complexity to ultimately address action potentials and signal propagation in nerves. Topics include Nernst/Planck and Poisson/Boltzmann equations, Nernst potential, Donnan equilibrium, GHK equations, energy barriers in ion channels, cable equation, action potentials, Hodgkin/Huxley equations, impulse propagation, axon geometry and conduction, dendritic integration. Concurrently scheduled with course C106. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "LIFESCI 7A"},
+            {"type": "requisite","course": "MATH 33B"},
+            {"type": "requisite","course": "PHYSICS 1C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C207",
+        "title": "Polymer Chemistry for Bioengineers",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: course C204 or C205. Fundamental concepts of polymer synthesis, including step-growth, chain growth (ionic, radical, metal catalyzed), and ring-opening, with focus on factors that can be used to control chain length, chain length distribution, and chain-end functionality, chain copolymerization, and stereochemistry in polymerizations. Presentation of applications of use of different polymerization techniques. Concepts of step-growth, chain-growth, ring-opening, and coordination polymerization, and effects of synthesis route on polymer properties. Lectures include both theory and practical issues demonstrated through examples. Concurrently scheduled with course C107. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR C204"},{"type": "requisite","course": "BIOENGR C205"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C231",
+        "title": "Nanopore Sensing",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: courses 100, 120, Life Sciences 7A, Physics 1A, 1B, 1C. Analysis of sensors based on measurements of fluctuating ionic conductance through artificial or protein nanopores. Physics of pore conductance. Applications to single molecule detection and DNA sequencing. Review of current literature and technological applications. History and instrumentation of resistive pulse sensing, theory and instrumentation of electrical measurements in electrolytes, nanopore fabrication, ionic conductance through pores and GHK equation, patch clamp and single channel measurements and instrumentation, noise issues, protein engineering, molecular sensing, DNA sequencing, membrane engineering, and future directions of field. Concurrently scheduled with course C131. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 100"},
+            {"type": "requisite","course": "BIOENGR 120"},
+            {"type": "requisite","course": "LIFESCI 7A"},
+            {"type": "requisite","course": "PHYSICS 1A"},
+            {"type": "requisite","course": "PHYSICS 1B"},
+            {"type": "requisite","course": "PHYSICS 1C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C235",
+        "title": "Orthopaedic Biomechanical Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Requisites: Physics 1A, 1B. Overview of central topics of orthopaedic biomechanical engineering, with focus on orthopaedic implant performance and how to evaluate new and existing implants. Topics include orthopaedic and biomechanical terminology and basic anatomy; introduction to free body diagrams and calculations of joint reaction forces; material versus structural properties; introduction to stress analysis; mechanisms of fracture patterns and fracture fixation; biomechanics of total joint replacement; contemporary bearing materials and tribology; design and evaluation of total joint replacements; and introduction to spine biomechanics, spine implants, and pure moment testing. Concurrently scheduled with course C135. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PHYSICS 1A"},
+            {"type": "requisite","course": "PHYSICS 1B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C239A",
+        "title": "Biomolecular Materials Science I",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Overview of chemical and physical foundations of biomolecular materials science that concern materials aspects of molecular biology, cell biology, and bioengineering. Understanding of different types of interactions that exist between biomolecules, such as van der Waals interactions, entropically modulated electrostatic interactions, hydrophobic interactions, hydration and solvation interactions, polymer-mediated interactions, depletion interactions, molecular recognition, and others. Illustration of these ideas using examples from bioengineering and biomedical engineering. Students should be able to make simple calculations and estimates that allow them to engage broad spectrum of bioengineering problems, such as those in drug and gene delivery and tissue engineering. May be taken independently for credit. Concurrently scheduled with course C139A. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C239B",
+        "title": "Biomolecular Materials Science II",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Course C239A is not requisite to C239B. Overview of chemical and physical foundations of biomolecular materials science that concern materials aspects of molecular biology, cell biology, and bioengineering. Understanding of different basic types of biomolecules, with emphasis on nucleic acids, proteins, and lipids. Study of how biological and biomimetic systems organize into their functional forms via self-assembly and how these structures impart biological function. Illustration of these ideas using examples from bioengineering and biomedical engineering. Case study on current topics, including drug delivery, gene therapy, cancer therapeutics, emerging pathogens, and relation of self-assembly to disease states. May be taken independently for credit. Concurrently scheduled with course C139B. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C247",
+        "title": "Applied Tissue Engineering: Clinical and Industrial Perspective",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: course CM202, Chemistry 20A, 20B, 20L, Life Sciences 7A. Overview of central topics of tissue engineering, with focus on how to build artificial tissues into regulated clinically viable products. Topics include biomaterials selection, cell source, delivery methods, FDA approval processes, and physical/chemical and biological testing. Case studies include skin and artificial skin, bone and cartilage, blood vessels, neurotissue engineering, and liver, kidney, and other organs. Clinical and industrial perspectives of tissue engineering products. Manufacturing constraints, clinical limitations, and regulatory challenges in design and development of tissue-engineering devices. Concurrently scheduled with course C147. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR CM202"},
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "CHEM 20L"},
+            {"type": "requisite","course": "LIFESCI 7A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C255",
+        "title": "Fluid-Particle and Fluid-Structure Interactions in Microflows",
+        "units": 4,
+        "description": "Lecture, four hours; laboratory, one hour; outside study, seven hours. Enforced requisite: course 110. Introduction to Navier/Stokes equations, assumptions, and simplifications. Analytical framework for calculating simple flows and numerical methods to solve and gain intuition for complex flows. Forces on particles in Stokes flow and finite-inertia flows. Flows induced around particles with and without finite inertia and implications for particle-particle interactions. Secondary flows induced by structures and particles in confined flows. Particle separations by fluid dynamic forces: field-flow fractionation, inertial focusing, structure-induced separations. Application concepts in internal biological flows and separations for biotechnology. Helps students become sufficiently fluent with fluid mechanics vocabulary and techniques, design and model microfluidic systems to manipulate fluids, cells, and particles, and develop strong intuition for how fluid and particles behave in arbitrarily structured microchannels over range of Reynolds numbers. Concurrently scheduled with course C155. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR 110"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C266",
+        "title": "Wearable Bioelectronics",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Practice of human health care may be on cusp of revolution, driven by unprecedented level of personalization enabled by advances in technology, specifically, transformation of wearable devices from curiosities that provide qualitative information for fitness enthusiasts to sophisticated systems that produce clinical-grade data for physicians. Introduction of cutting-edge research in field of wearable bioelectronics. Addresses fundamentals, materials, processes, and devices for wearable bioelectronics, showcasing key applications including device fabrication, manufacturing, and health-care applications. Concurrently scheduled with course C166. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C279",
+        "title": "Biomaterials-Tissue Interactions",
+        "units": 4,
+        "description": "Lecture, three hours; outside study, nine hours. Requisite: course CM278. In-depth exploration of host cellular response to biomaterials: vascular response, interface, and clotting, biocompatibility, animal models, inflammation, infection, extracellular matrix, cell adhesion, and role of mechanical forces. Concurrently scheduled with course C179. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR CM278"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C283",
+        "title": "Targeted Drug Delivery and Controlled Drug Release",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, 20L. New therapeutics require comprehensive understanding of modern biology, physiology, biomaterials, and engineering. Targeted delivery of genes and drugs and their controlled release are important in treatment of challenging diseases and relevant to tissue engineering and regenerative medicine. Drug pharmacodynamics and clinical pharmacokinetics. Application of engineering principles (diffusion, transport, kinetics) to problems in drug formulation and delivery to establish rationale for design and development of novel drug delivery systems that can provide spatial and temporal control of drug release. Introduction to biomaterials with specialized structural and interfacial properties. Exploration of both chemistry of materials and physical presentation of devices and compounds used in delivery and release. Concurrently scheduled with course C183. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "CHEM 20L"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C285",
+        "title": "Introduction to Tissue Engineering",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisites: course CM102 or CM202, Chemistry 20A, 20B, 20L. Tissue engineering applies principles of biology and physical sciences with engineering approach to regenerate tissues and organs. Guiding principles for proper selection of three basic components for tissue engineering: cells, scaffolds, and molecular signals. Concurrently scheduled with course C185. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR CM102"},{"type": "requisite","course": "BIOENGR CM202"}]},
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "CHEM 20B"},
+            {"type": "requisite","course": "CHEM 20L"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR C288",
+        "title": "Special Courses in Bioengineering",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Special topics in bioengineering for graduate students taught on experimental or temporary basis, such as those taught by resident and visiting faculty members. May be repeated for credit with topic or instructor change. Concurrently scheduled with course C188. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM140",
+        "title": "Introduction to Biomechanics",
+        "units": 4,
+        "description": "(Same as Mechanical and Aerospace Engineering CM140.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mechanical and Aerospace Engineering 101, 102, and 156A or 166A. Introduction to mechanical functions of human body; skeletal adaptations to optimize load transfer, mobility, and function. Dynamics and kinematics. Fluid mechanics applications. Heat and mass transfer. Power generation. Laboratory simulations and tests. Concurrently scheduled with course CM240. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MECH&AE 101"},
+            {"type": "requisite","course": "MECH&AE 102"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MECH&AE 156A"},{"type": "requisite","course": "MECH&AE 166A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM145",
+        "title": "Molecular Biotechnology for Engineers",
+        "units": 4,
+        "description": "(Same as Chemical Engineering CM145.) Lecture, four hours; discussion, one hour; outside study, seven hours. Requisite: Chemical Engineering 45 or Life Sciences 7C. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed mutagenesis and protein engineering, DNA-based diagnostics and DNA microarrays, antibody and protein-based diagnostics, genomics and bioinformatics, isolation of human genes, gene therapy, and tissue engineering. Concurrently scheduled with course CM245. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "CH ENGR 45"},{"type": "requisite","course": "LIFESCI 7C"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM178",
+        "title": "Introduction to Biomaterials",
+        "units": 4,
+        "description": "(Same as Materials Science CM180.) Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, and 20L, or Materials Science 104. Engineering materials used in medicine and dentistry for repair and/or restoration of damaged natural tissues. Topics include relationships between material properties, suitability to task, surface chemistry, processing and treatment methods, and biocompatibility. Concurrently scheduled with course CM278. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 3,"options": [{"type": "requisite","course": "CHEM 20A"},{"type": "requisite","course": "CHEM 20B"},{"type": "requisite","course": "CHEM 20L"}]},{"type": "requisite","course": "MAT SCI 104"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM178",
+        "title": "Introduction to Biomaterials",
+        "units": 4,
+        "description": "(Same as Materials Science CM180.) Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, and 20L, or Materials Science 104. Engineering materials used in medicine and dentistry for repair and/or restoration of damaged natural tissues. Topics include relationships between material properties, suitability to task, surface chemistry, processing and treatment methods, and biocompatibility. Concurrently scheduled with course CM278. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 3,"options": [{"type": "requisite","course": "CHEM 20A"},{"type": "requisite","course": "CHEM 20B"},{"type": "requisite","course": "CHEM 20L"}]},{"type": "requisite","course": "MAT SCI 104"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM186",
+        "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
+        "units": 5,
+        "description": "(Same as Computational and Systems Biology M186, Computer Science CM186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling and computer simulation methods for studying biological/biomedical processes and systems at multiple levels of organization. Intermediate linear and nonlinear control system, multicompartmental, epidemiological, pharmacokinetic, and other biomodeling methods applied to life sciences problems at molecular, cellular, organ, and population levels. Both theory- and data-driven modeling, with focus on translating biomodeling goals and data into dynamical mathematical models, and implementing them for simulation, quantification, and analysis. Numerical simulation, optimization, and parameter identifiability and search algorithms, with model discrimination and analysis and software exercises in PC laboratory assignments. Concurrently scheduled with course CM286. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 5,"options": [{"type": "requisite","course": "LIFESCI 30A"},{"type": "requisite","course": "LIFESCI 30B"},{"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 32A"},{"type": "requisite","course": "MATH M32T"}]},{"type": "requisite","course": "MATH 33A"},{"type": "requisite","course": "MATH 33B"}]},{"type": "group","needs": 5,"options": [{"type": "requisite","course": "MATH 31A"},{"type": "requisite","course": "MATH 31B"},{"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 32A"},{"type": "requisite","course": "MATH M32T"}]},{"type": "requisite","course": "MATH 33A"},{"type": "requisite","course": "MATH 33B"}]}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM186",
+        "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
+        "units": 5,
+        "description": "(Same as Computational and Systems Biology M186, Computer Science CM186, and Ecology and Evolutionary Biology M178.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling and computer simulation methods for studying biological/biomedical processes and systems at multiple levels of organization. Intermediate linear and nonlinear control system, multicompartmental, epidemiological, pharmacokinetic, and other biomodeling methods applied to life sciences problems at molecular, cellular, organ, and population levels. Both theory- and data-driven modeling, with focus on translating biomodeling goals and data into dynamical mathematical models, and implementing them for simulation, quantification, and analysis. Numerical simulation, optimization, and parameter identifiability and search algorithms, with model discrimination and analysis and software exercises in PC laboratory assignments. Concurrently scheduled with course CM286. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 5,"options": [{"type": "requisite","course": "LIFESCI 30A"},{"type": "requisite","course": "LIFESCI 30B"},{"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 32A"},{"type": "requisite","course": "MATH M32T"}]},{"type": "requisite","course": "MATH 33A"},{"type": "requisite","course": "MATH 33B"}]},{"type": "group","needs": 5,"options": [{"type": "requisite","course": "MATH 31A"},{"type": "requisite","course": "MATH 31B"},{"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 32A"},{"type": "requisite","course": "MATH M32T"}]},{"type": "requisite","course": "MATH 33A"},{"type": "requisite","course": "MATH 33B"}]}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM187",
+        "title": "Research Communication in Computational and Systems Biology",
+        "units": 4,
+        "description": "(Same as Computational and Systems Biology M187 and Computer Science CM187.) Lecture, four hours; outside study, eight hours. Requisites: course M182 or CM186 or Computational and Systems Biology M150; and research experience (course 199, Computational and Systems Biology 199, Computer Science 199, or equivalent). Closely directed, interactive, and real research experience in active quantitative systems biology research laboratory. Direction on how to focus on topics of current interest in scientific community, appropriate to student interests and capabilities. Critiques of oral presentations and written progress reports explain how to proceed with search for research results. Major emphasis on effective research reporting, both oral and written. Concurrently scheduled with course CM287. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR M182"},{"type": "requisite","course": "BIOENGR CM186"},{"type": "requisite","course": "C&S BIO M150"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR 199"},{"type": "requisite","course": "C&S BIO 199"},{"type": "requisite","course": "COM SCI 199"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM187",
+        "title": "Research Communication in Computational and Systems Biology",
+        "units": 4,
+        "description": "(Same as Computational and Systems Biology M187 and Computer Science CM187.) Lecture, four hours; outside study, eight hours. Requisites: course M182 or CM186 or Computational and Systems Biology M150; and research experience (course 199, Computational and Systems Biology 199, Computer Science 199, or equivalent). Closely directed, interactive, and real research experience in active quantitative systems biology research laboratory. Direction on how to focus on topics of current interest in scientific community, appropriate to student interests and capabilities. Critiques of oral presentations and written progress reports explain how to proceed with search for research results. Major emphasis on effective research reporting, both oral and written. Concurrently scheduled with course CM287. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR M182"},{"type": "requisite","course": "BIOENGR CM186"},{"type": "requisite","course": "C&S BIO M150"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR 199"},{"type": "requisite","course": "C&S BIO 199"},{"type": "requisite","course": "COM SCI 199"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM240",
+        "title": "Introduction to Biomechanics",
+        "units": 4,
+        "description": "(Same as Mechanical and Aerospace Engineering CM240.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mechanical and Aerospace Engineering 101, 102, and 156A or 166A. Introduction to mechanical functions of human body; skeletal adaptations to optimize load transfer, mobility, and function. Dynamics and kinematics. Fluid mechanics applications. Heat and mass transfer. Power generation. Laboratory simulations and tests. Concurrently scheduled with course CM140. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MECH&AE 101"},
+            {"type": "requisite","course": "MECH&AE 102"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MECH&AE 156A"},{"type": "requisite","course": "MECH&AE 166A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM240",
+        "title": "Introduction to Biomechanics",
+        "units": 4,
+        "description": "(Same as Mechanical and Aerospace Engineering CM240.) Lecture, four hours; discussion, two hours; outside study, six hours. Requisites: Mechanical and Aerospace Engineering 101, 102, and 156A or 166A. Introduction to mechanical functions of human body; skeletal adaptations to optimize load transfer, mobility, and function. Dynamics and kinematics. Fluid mechanics applications. Heat and mass transfer. Power generation. Laboratory simulations and tests. Concurrently scheduled with course CM140. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MECH&AE 101"},
+            {"type": "requisite","course": "MECH&AE 102"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MECH&AE 156A"},{"type": "requisite","course": "MECH&AE 166A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM245",
+        "title": "Molecular Biotechnology for Engineers",
+        "units": 4,
+        "description": "(Same as Chemical Engineering CM245.) Lecture, four hours; discussion, one hour; outside study, seven hours. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed mutagenesis and protein engineering, DNA-based diagnostics and DNA microarrays, antibody and protein-based diagnostics, genomics and bioinformatics, isolation of human genes, gene therapy, and tissue engineering. Concurrently scheduled with course CM145. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM245",
+        "title": "Molecular Biotechnology for Engineers",
+        "units": 4,
+        "description": "(Same as Chemical Engineering CM245.) Lecture, four hours; discussion, one hour; outside study, seven hours. Selected topics in molecular biology that form foundation of biotechnology and biomedical industry today. Topics include recombinant DNA technology, molecular research tools, manipulation of gene expression, directed mutagenesis and protein engineering, DNA-based diagnostics and DNA microarrays, antibody and protein-based diagnostics, genomics and bioinformatics, isolation of human genes, gene therapy, and tissue engineering. Concurrently scheduled with course CM145. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM278",
+        "title": "Introduction to Biomaterials",
+        "units": 4,
+        "description": "(Same as Materials Science CM280.) Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, and 20L, or Materials Science 104. Engineering materials used in medicine and dentistry for repair and/or restoration of damaged natural tissues. Topics include relationships between material properties, suitability to task, surface chemistry, processing and treatment methods, and biocompatibility. Concurrently scheduled with course CM178. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 3,"options": [{"type": "requisite","course": "CHEM 20A"},{"type": "requisite","course": "CHEM 20B"},{"type": "requisite","course": "CHEM 20L"}]},{"type": "requisite","course": "MAT SCI 104"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM278",
+        "title": "Introduction to Biomaterials",
+        "units": 4,
+        "description": "(Same as Materials Science CM280.) Lecture, three hours; discussion, two hours; outside study, seven hours. Requisites: Chemistry 20A, 20B, and 20L, or Materials Science 104. Engineering materials used in medicine and dentistry for repair and/or restoration of damaged natural tissues. Topics include relationships between material properties, suitability to task, surface chemistry, processing and treatment methods, and biocompatibility. Concurrently scheduled with course CM178. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 3,"options": [{"type": "requisite","course": "CHEM 20A"},{"type": "requisite","course": "CHEM 20B"},{"type": "requisite","course": "CHEM 20L"}]},{"type": "requisite","course": "MAT SCI 104"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM286",
+        "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
+        "units": 5,
+        "description": "(Same as Computer Science CM286.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling and computer simulation methods for studying biological/biomedical processes and systems at multiple levels of organization. Intermediate linear and nonlinear control system, multicompartmental, epidemiological, pharmacokinetic, and other biomodeling methods applied to life sciences problems at molecular, cellular, organ, and population levels. Both theory- and data-driven modeling, with focus on translating biomodeling goals and data into dynamical mathematical models, and implementing them for simulation, quantification, and analysis. Numerical simulation, optimization, and parameter identifiability and search algorithms, with model discrimination and analysis and software exercises in PC laboratory assignments. Concurrently scheduled with course CM186. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 5,"options": [{"type": "requisite","course": "LIFESCI 30A"},{"type": "requisite","course": "LIFESCI 30B"},{"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 32A"},{"type": "requisite","course": "MATH M32T"}]},{"type": "requisite","course": "MATH 33A"},{"type": "requisite","course": "MATH 33B"}]},{"type": "group","needs": 5,"options": [{"type": "requisite","course": "MATH 31A"},{"type": "requisite","course": "MATH 31B"},{"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 32A"},{"type": "requisite","course": "MATH M32T"}]},{"type": "requisite","course": "MATH 33A"},{"type": "requisite","course": "MATH 33B"}]}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM286",
+        "title": "Computational Systems Biology: Modeling and Simulation of Biological Systems",
+        "units": 5,
+        "description": "(Same as Computer Science CM286.) Lecture, four hours; laboratory, two hours; discussion, one hour. Requisites: Life Sciences 30A, 30B, Mathematics 32A or M32T, 33A, and 33B; or Mathematics 31A, 31B, 32A or M32T, 33A, and 33B. Dynamic biosystem modeling and computer simulation methods for studying biological/biomedical processes and systems at multiple levels of organization. Intermediate linear and nonlinear control system, multicompartmental, epidemiological, pharmacokinetic, and other biomodeling methods applied to life sciences problems at molecular, cellular, organ, and population levels. Both theory- and data-driven modeling, with focus on translating biomodeling goals and data into dynamical mathematical models, and implementing them for simulation, quantification, and analysis. Numerical simulation, optimization, and parameter identifiability and search algorithms, with model discrimination and analysis and software exercises in PC laboratory assignments. Concurrently scheduled with course CM186. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 5,"options": [{"type": "requisite","course": "LIFESCI 30A"},{"type": "requisite","course": "LIFESCI 30B"},{"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 32A"},{"type": "requisite","course": "MATH M32T"}]},{"type": "requisite","course": "MATH 33A"},{"type": "requisite","course": "MATH 33B"}]},{"type": "group","needs": 5,"options": [{"type": "requisite","course": "MATH 31A"},{"type": "requisite","course": "MATH 31B"},{"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 32A"},{"type": "requisite","course": "MATH M32T"}]},{"type": "requisite","course": "MATH 33A"},{"type": "requisite","course": "MATH 33B"}]}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM287",
+        "title": "Research Communication in Computational and Systems Biology",
+        "units": 4,
+        "description": "(Same as Computer Science CM287.) Lecture, four hours; outside study, eight hours. Requisites: course M182 or CM286 or Computational and Systems Biology M150; and research experience (course 199, Computational and Systems Biology 199, Computer Science 199, or equivalent). Closely directed, interactive, and real research experience in active quantitative systems biology research laboratory. Direction on how to focus on topics of current interest in scientific community, appropriate to student interests and capabilities. Critiques of oral presentations and written progress reports explain how to proceed with search for research results. Major emphasis on effective research reporting, both oral and written. Concurrently scheduled with course CM187. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR M182"},{"type": "requisite","course": "BIOENGR CM286"},{"type": "requisite","course": "C&S BIO M150"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR 199"},{"type": "requisite","course": "C&S BIO 199"},{"type": "requisite","course": "COM SCI 199"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR CM287",
+        "title": "Research Communication in Computational and Systems Biology",
+        "units": 4,
+        "description": "(Same as Computer Science CM287.) Lecture, four hours; outside study, eight hours. Requisites: course M182 or CM286 or Computational and Systems Biology M150; and research experience (course 199, Computational and Systems Biology 199, Computer Science 199, or equivalent). Closely directed, interactive, and real research experience in active quantitative systems biology research laboratory. Direction on how to focus on topics of current interest in scientific community, appropriate to student interests and capabilities. Critiques of oral presentations and written progress reports explain how to proceed with search for research results. Major emphasis on effective research reporting, both oral and written. Concurrently scheduled with course CM187. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR M182"},{"type": "requisite","course": "BIOENGR CM286"},{"type": "requisite","course": "C&S BIO M150"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR 199"},{"type": "requisite","course": "C&S BIO 199"},{"type": "requisite","course": "COM SCI 199"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M153",
+        "title": "Introduction to Microscale and Nanoscale Manufacturing",
+        "units": 4,
+        "description": "(Same as Chemical Engineering M153, Electrical and Computer Engineering M153, and Mechanical and Aerospace Engineering M183B.) Lecture, three hours; laboratory, four hours; outside study, five hours. Enforced requisites: Chemistry 20A, Physics 1A, 1B, 1C, 4AL. Introduction to general manufacturing methods, mechanisms, constrains, and microfabrication and nanofabrication. Focus on concepts, physics, and instruments of various microfabrication and nanofabrication techniques that have been broadly applied in industry and academia, including various photolithography technologies, physical and chemical deposition methods, and physical and chemical etching methods. Hands-on experience for fabricating microstructures and nanostructures in modern clean-room environment. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "PHYSICS 1A"},
+            {"type": "requisite","course": "PHYSICS 1B"},
+            {"type": "requisite","course": "PHYSICS 1C"},
+            {"type": "requisite","course": "PHYSICS 4AL"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M153",
+        "title": "Introduction to Microscale and Nanoscale Manufacturing",
+        "units": 4,
+        "description": "(Same as Chemical Engineering M153, Electrical and Computer Engineering M153, and Mechanical and Aerospace Engineering M183B.) Lecture, three hours; laboratory, four hours; outside study, five hours. Enforced requisites: Chemistry 20A, Physics 1A, 1B, 1C, 4AL. Introduction to general manufacturing methods, mechanisms, constrains, and microfabrication and nanofabrication. Focus on concepts, physics, and instruments of various microfabrication and nanofabrication techniques that have been broadly applied in industry and academia, including various photolithography technologies, physical and chemical deposition methods, and physical and chemical etching methods. Hands-on experience for fabricating microstructures and nanostructures in modern clean-room environment. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CHEM 20A"},
+            {"type": "requisite","course": "PHYSICS 1A"},
+            {"type": "requisite","course": "PHYSICS 1B"},
+            {"type": "requisite","course": "PHYSICS 1C"},
+            {"type": "requisite","course": "PHYSICS 4AL"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M182",
+        "title": "Dynamic Biosystem Modeling and Simulation Methodology",
+        "units": 4,
+        "description": "(Same as Computer Science M182.) Lecture, four hours; discussion, one hour; laboratory, two hours; outside study, five hours. Requisites: Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B. Recommended requisite or corequisite: Mathematics 3C, 32A, or 32T. For undergraduate students in life, computational, engineering, and mathematical sciences. Active learning approach. Introduction to explicit modeling and simulation of dynamic biological systems. Basic methodology for transforming biology, biochemistry, and physiology into system diagrams, graphs, and mathematical expressions for studying their behavior. Structural models, formulated from basic conservation and mass action laws and feedback concepts, are further transformed into first-order differential equations, and implemented in simulation diagrams for quantifying and exploring biosystem properties. Examples show how to use these explicit models to gain clarity on nature of biosystem phenomena, and frame questions and explore new ideas for research. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "requisite","course": "LIFESCI 30A"},{"type": "requisite","course": "LIFESCI 30B"}]},{"type": "group","needs": 2,"options": [{"type": "requisite","course": "MATH 3A"},{"type": "requisite","course": "MATH 3B"}]},{"type": "group","needs": 2,"options": [{"type": "requisite","course": "MATH 31A"},{"type": "requisite","course": "MATH 31B"}]}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M182",
+        "title": "Dynamic Biosystem Modeling and Simulation Methodology",
+        "units": 4,
+        "description": "(Same as Computer Science M182.) Lecture, four hours; discussion, one hour; laboratory, two hours; outside study, five hours. Requisites: Life Sciences 30A and 30B, or Mathematics 3A and 3B, or 31A and 31B. Recommended requisite or corequisite: Mathematics 3C, 32A, or 32T. For undergraduate students in life, computational, engineering, and mathematical sciences. Active learning approach. Introduction to explicit modeling and simulation of dynamic biological systems. Basic methodology for transforming biology, biochemistry, and physiology into system diagrams, graphs, and mathematical expressions for studying their behavior. Structural models, formulated from basic conservation and mass action laws and feedback concepts, are further transformed into first-order differential equations, and implemented in simulation diagrams for quantifying and exploring biosystem properties. Examples show how to use these explicit models to gain clarity on nature of biosystem phenomena, and frame questions and explore new ideas for research. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "requisite","course": "LIFESCI 30A"},{"type": "requisite","course": "LIFESCI 30B"}]},{"type": "group","needs": 2,"options": [{"type": "requisite","course": "MATH 3A"},{"type": "requisite","course": "MATH 3B"}]},{"type": "group","needs": 2,"options": [{"type": "requisite","course": "MATH 31A"},{"type": "requisite","course": "MATH 31B"}]}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M184",
+        "title": "Introduction to Computational and Systems Biology",
+        "units": 2,
+        "description": "(Same as Computational and Systems Biology M184 and Computer Science M184.) Lecture, two hours; outside study, four hours. Enforced requisites: one course from Civil Engineering M20, Computer Science 31, Mechanical and Aerospace Engineering M20, or Program in Computing 10A; and Life Sciences 30B or Mathematics 3B or 31B. Survey course designed to introduce students to computational and systems modeling and computation in biology and medicine, providing motivation, flavor, culture, and cutting-edge contributions in computational biosciences and aiming for more informed basis for focused studies by students with computational and systems biology interests. Presentations by individual UCLA researchers discussing their active computational and systems biology research. P/NP grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "C&EE M20"},{"type": "requisite","course": "COM SCI 31"},{"type": "requisite","course": "MECH&AE M20"},{"type": "requisite","course": "COMPTNG 10A"}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "LIFESCI 30B"},{"type": "requisite","course": "MATH 3B"},{"type": "requisite","course": "MATH 31B"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M209",
+        "title": "Signal and Image Processing for Biomedicine",
+        "units": 4,
+        "description": "(Same as Physics and Biology and Medicine M209.) Lecture, four hours; laboratory, four hours. Preparation: basic calculus or linear algebra and undergraduate probability. Mathematics and statistical fundamentals prevalent in biomedical physics studies. Notion and basic descriptions of linear shift-invariance and point spread functions in continuous and discrete time. Sampling theory and Fourier analysis. Signal representation of vector spaces, projection theorem, and least-squares approximations. Discussion of signal subspace methods, correlation and independence, principal component analysis, and independent component analysis. Basic ideas in inverse problems and optimization. Application in medical and signal processing. Development of geometric and informatics intuitions behind mathematics and statistics. Light derivations and MATLAB programming. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M214A",
+        "title": "Digital Speech Processing",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M214A.) Lecture, three hours; laboratory, two hours; outside study, seven hours. Requisite: Electrical and Computer Engineering 113. Theory and applications of digital processing of speech signals. Mathematical models of human speech production and perception mechanisms, speech analysis/synthesis. Techniques include linear prediction, filter-bank models, and homomorphic filtering. Applications to speech synthesis, automatic recognition, and hearing aids. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "EC ENGR 113"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M215",
+        "title": "Biochemical Reaction Engineering",
+        "units": 4,
+        "description": "(Same as Chemical Engineering CM215.) Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced requisite: Chemical Engineering 101C. Use of previously learned concepts of biophysical chemistry, thermodynamics, transport phenomena, and reaction kinetics to develop tools needed for technical design and economic analysis of biological reactors. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "CH ENGR 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M217",
+        "title": "Biomedical Imaging",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M217.) Lecture, three hours; discussion, one hour; outside study, eight hours. Requisite: Electrical and Computer Engineering 114 or 211A. Optical imaging modalities in biomedicine. Other nonoptical imaging modalities discussed briefly for comparison purposes. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "EC ENGR 114"},{"type": "requisite","course": "EC ENGR 211A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M219",
+        "title": "Principles and Applications of Magnetic Resonance Imaging",
+        "units": 4,
+        "description": "(Same as Physics and Biology in Medicine M219.) Lecture, three hours; discussion, one hour. Basic principles of magnetic resonance (MR), physics, and image formation. Emphasis on hardware, Bloch equations, analytic expressions, image contrast mechanisms, spin and gradient echoes, Fourier transform imaging methods, structure of pulse sequences, and various scanning parameters. Introduction to advanced techniques in rapid imaging, quantitative imaging, and spectroscopy. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M225",
+        "title": "Bioseparations and Bioprocess Engineering",
+        "units": 4,
+        "description": "(Same as Chemical Engineering CM225.) Lecture, four hours; discussion, one hour; outside study, seven hours. Enforced corequisite: Chemical Engineering 101C. Separation strategies, unit operations, and economic factors used to design processes for isolating and purifying materials like whole cells, enzymes, food additives, or pharmaceuticals that are products of biological reactors. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M226",
+        "title": "Medical Knowledge Representation",
+        "units": 4,
+        "description": "(Same as Information Studies M253.) Seminar, four hours; outside study, eight hours. Designed for graduate students. Issues related to medical knowledge representation and its application in healthcare processes. Topics include data structures used for representing knowledge (conceptual graphs, frame-based models), different data models for representing spatio-temporal information, rule-based implementations, current statistical methods for discovery of knowledge (data mining, statistical classifiers, and hierarchical classification), and basic information retrieval. Review of work in constructing ontologies, with focus on problems in implementation and definition. Common medical ontologies, coding schemes, and standardized indices/terminologies (SNOMED, UMLS). Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M227",
+        "title": "Medical Information Infrastructures and Internet Technologies",
+        "units": 4,
+        "description": "(Same as Information Studies M254.) Lecture, four hours; outside study, eight hours. Designed for graduate students. Introduction to networking, communications, and information infrastructures in medical environment. Exposure to basic concepts related to networking at several levels: low-level (TCP/IP, services), medium-level (network topologies), and high-level (distributed computing, Web-based services) implementations. Commonly used medical communication protocols (HL7, DICOM) and current medical information systems (HIS, RIS, PACS). Advances in networking, such as wireless health systems, peer-to-peer topologies, grid/cloud computing. Introduction to security and encryption in networked environments. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M228",
+        "title": "Medical Decision Making",
+        "units": 4,
+        "description": "(Same as Information Studies M255.) Lecture, four hours; outside study, eight hours. Designed for graduate students. Overview of issues related to medical decision making. Introduction to concept of evidence-based medicine and decision processes related to process of care and outcomes. Basic probability and statistics to understand research results and evaluations, and algorithmic methods for decision-making processes (Bayes theorem, decision trees). Study design, hypothesis testing, and estimation. Focus on technical advances in medical decision support systems and expert systems, with review of classic and current research. Introduction to common statistical and decision-making software packages to familiarize students with current tools. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M229",
+        "title": "Advanced Topics in Magnetic Resonance Imaging",
+        "units": 4,
+        "description": "(Same as Physics and Biology in Medicine M229.) Lecture, four hours. Requisite: course M219. Designed for students interested in pursuing research related to development or translation of new magnetic resonance imaging (MRI) technique. Basic tools and understanding of recent MRI developments that have had high impact on field, involve novel pulse sequence design or image reconstructions, and enable imaging of anatomy or function in way that surpasses what is currently possible with any modality. Topics include in-depth sequence simulation, RF pulse design, rapid image acquisition, parallel imaging, compressed sensing, image reconstruction and processing, motion encoding and compensation, chemical-shift imaging and understanding, and understanding/avoiding artifacts. Programming exercises in MATLAB to provide hands-on experience. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR M219"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M233A",
+        "title": "Medtech Innovation I: Entrepreneurial Opportunities in Medical Technology",
+        "units": 4,
+        "description": "(Same as Management M271A.) Lecture, three hours; outside study, nine hours. Designed for graduate and professional students in engineering, dentistry, design, law, management, and medicine. Focus on understanding how to identify unmet clinical needs, properly filtering through these needs using various acceptance criteria, and selecting promising needs for which potential medtech solutions are explored. Students work in groups to expedite traditional research and development processes to invent and implement new medtech devices that increase quality of clinical care and result in improved patient outcomes in hospital system. Introduction to intellectual property basics and various medtech business models. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M233B",
+        "title": "Medtech Innovation II: Prototyping and New Venture Development",
+        "units": 4,
+        "description": "(Same as Management M271B.) Lecture, three hours; outside study, nine hours. Requisite: course M233A. Designed for graduate and professional students in engineering, dentistry, design, law, management, and medicine. Development of medtech solutions for unmet clinical needs previously identified in course M233A. Steps necessary to commercialize viable medtech solutions. Exploration of concept selection, business plan development, intellectual property filing, financing strategies, and device prototyping. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR M233A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M236",
+        "title": "Contrast Mechanisms and Quantification in Magnetic Resonance Imaging",
+        "units": 4,
+        "description": "(Same as Physics and Biology in Medicine M236.) Lecture, four hours. Requisite: Physics and Biology in Medicine M219. Introduction to magnetic resonance contrast mechanisms and quantification techniques in magnetic resonance imaging. Topics include exogenous and endogenous contrast mechanisms, measuring tissue perfusion and permeability, advanced diffusion and q-space analysis, chemical exchange and magnetization transfer imaging, and relaxometry. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR M219"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M248",
+        "title": "Introduction to Molecular Imaging",
+        "units": 4,
+        "description": "(Same as Pharmacology M248 and Physics and Biology in Medicine M248.) Lecture, three hours; laboratory, one hour; outside study, seven hours. Exploration of role of molecular imaging in modern biology and medicine, including imaging physics, instrumentation, image processing, and applications of imaging for range of modalities. Practical experience provided through series of imaging laboratories. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M250B",
+        "title": "Microelectromechanical Systems (MEMS) Fabrication",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M250B and Mechanical and Aerospace Engineering M280B.) Lecture, three hours; discussion, one hour; outside study, eight hours. Enforced requisite: course M153. Advanced discussion of micromachining processes used to construct MEMS. Coverage of many lithographic, deposition, and etching processes, as well as their combination in process integration. Materials issues such as chemical resistance, corrosion, mechanical properties, and residual/intrinsic stress. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR M153"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M252",
+        "title": "Microelectromechanical Systems (MEMS) Device Physics and Design",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M252 and Mechanical and Aerospace Engineering M282.) Lecture, four hours; discussion, one hour; outside study, seven hours. Introduction to MEMS design. Design methods, design rules, sensing and actuation mechanisms, microsensors, and microactuators. Designing MEMS to be produced with both foundry and nonfoundry processes. Computer-aided design for MEMS. Design project required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M260",
+        "title": "Neuroengineering",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M255 and Neuroscience M206.) Lecture, four hours; laboratory, three hours; outside study, five hours. Requisites: Mathematics 32A, Physics 1B or 5C. Introduction to principles and technologies of bioelectricity and neural signal recording, processing, and stimulation. Topics include bioelectricity, electrophysiology (action potentials, local field potentials, EEG, ECOG), intracellular and extracellular recording, microelectrode technology, neural signal processing (neural signal frequency bands, filtering, spike detection, spike sorting, stimulation artifact removal), brain-computer interfaces, deep-brain stimulation, and prosthetics. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 32A"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "PHYSICS 1B"},{"type": "requisite","course": "PHYSICS 5C"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M261A",
+        "title": "Evaluation of Research Literature in Neuroengineering",
+        "units": 2,
+        "description": "(Same as Electrical and Computer Engineering M256A and Neuroscience M212A.) Discussion, two hours; outside study, four hours. Critical discussion and analysis of current literature related to neuroengineering research. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M261B",
+        "title": "Evaluation of Research Literature in Neuroengineering",
+        "units": 2,
+        "description": "(Same as Electrical and Computer Engineering M256B and Neuroscience M212B.) Discussion, two hours; outside study, four hours. Critical discussion and analysis of current literature related to neuroengineering research. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M261C",
+        "title": "Evaluation of Research Literature in Neuroengineering",
+        "units": 2,
+        "description": "(Same as Electrical and Computer Engineering M256C and Neuroscience M212C.) Discussion, two hours; outside study, four hours. Critical discussion and analysis of current literature related to neuroengineering research. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M261C",
+        "title": "Evaluation of Research Literature in Neuroengineering",
+        "units": 2,
+        "description": "(Same as Electrical and Computer Engineering M256C and Neuroscience M212C.) Discussion, two hours; outside study, four hours. Critical discussion and analysis of current literature related to neuroengineering research. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M263",
+        "title": "Anatomy of Central Nervous System",
+        "units": 4,
+        "description": "(Same as Neuroscience M203.) Lecture, 75 minutes; discussion/laboratory, two hours. Prior to first laboratory meeting, students must complete Bloodborne Pathogens training course through UCLA Environment, Health and Safety. Study of anatomical locations of and relationships between ascending and descending sensory and motor systems from spinal cord to cerebral cortex. Covers cranial nerves and brainstem anatomy along with anatomy of ventricular and vascular systems of brain. Subcortical forebrain areas covered in detail. Integrated anatomy laboratory includes brain dissections and overview of tools for MRI analysis. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M263",
+        "title": "Anatomy of Central Nervous System",
+        "units": 4,
+        "description": "(Same as Neuroscience M203.) Lecture, 75 minutes; discussion/laboratory, two hours. Prior to first laboratory meeting, students must complete Bloodborne Pathogens training course through UCLA Environment, Health and Safety. Study of anatomical locations of and relationships between ascending and descending sensory and motor systems from spinal cord to cerebral cortex. Covers cranial nerves and brainstem anatomy along with anatomy of ventricular and vascular systems of brain. Subcortical forebrain areas covered in detail. Integrated anatomy laboratory includes brain dissections and overview of tools for MRI analysis. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M273",
+        "title": "Micro- and Nanoscale Biosensing for Molecular Diagnostics",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M275.) Lecture, four hours; discussion, one hour; outside study, seven hours. Covers state-of-art and emerging biosensors in context of molecular diagnostics. Students learn relevant biology and biochemistry pertinent to molecular diagnostics. Students gain thorough understanding of interfaces between bioparticles, biofluids, and electronics. Topics include biosensor performance parameters, modes of detection, sample preparation challenges, microfluidics, and emerging wearable biosensing platforms, as well as proteomics, genomics, and DNA sequencing technologies. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M273",
+        "title": "Micro- and Nanoscale Biosensing for Molecular Diagnostics",
+        "units": 4,
+        "description": "(Same as Electrical and Computer Engineering M275.) Lecture, four hours; discussion, one hour; outside study, seven hours. Covers state-of-art and emerging biosensors in context of molecular diagnostics. Students learn relevant biology and biochemistry pertinent to molecular diagnostics. Students gain thorough understanding of interfaces between bioparticles, biofluids, and electronics. Topics include biosensor performance parameters, modes of detection, sample preparation challenges, microfluidics, and emerging wearable biosensing platforms, as well as proteomics, genomics, and DNA sequencing technologies. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M284",
+        "title": "Functional Neuroimaging: Techniques and Applications",
+        "units": 3,
+        "description": "(Same as Neuroscience M285, Physics and Biology in Medicine M285, Psychiatry M285, and Psychology M278.) Lecture, three hours. In-depth examination of activation imaging, including MRI and electrophysiological methods, data acquisition and analysis, experimental design, and results obtained thus far in human systems. Strong focus on understanding technologies, how to design activation imaging paradigms, and how to interpret results. Laboratory visits and design and implementation of functional MRI experiment. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M284",
+        "title": "Functional Neuroimaging: Techniques and Applications",
+        "units": 3,
+        "description": "(Same as Neuroscience M285, Physics and Biology in Medicine M285, Psychiatry M285, and Psychology M278.) Lecture, three hours. In-depth examination of activation imaging, including MRI and electrophysiological methods, data acquisition and analysis, experimental design, and results obtained thus far in human systems. Strong focus on understanding technologies, how to design activation imaging paradigms, and how to interpret results. Laboratory visits and design and implementation of functional MRI experiment. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M296A",
+        "title": "Advanced Modeling Methodology for Dynamic Biomedical Systems",
+        "units": 4,
+        "description": "(Same as Computer Science M296A and Medicine M270C.) Lecture, four hours; outside study, eight hours. Requisite: Electrical Engineering 141 or 142 or Mathematics 115A or Mechanical and Aerospace Engineering 171A. Development of dynamic systems modeling methodology for physiological, biomedical, pharmacological, chemical, and related systems. Control system, multicompartmental, noncompartmental, and input/output models, linear and nonlinear. Emphasis on model applications, limitations, and relevance in biomedical sciences and other limited data environments. Problem solving in PC laboratory. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "EC ENGR 141"},{"type": "requisite","course": "EC ENGR 142"},{"type": "requisite","course": "MATH 115A"},{"type": "requisite","course": "MECH&AE 171A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M296A",
+        "title": "Advanced Modeling Methodology for Dynamic Biomedical Systems",
+        "units": 4,
+        "description": "(Same as Computer Science M296A and Medicine M270C.) Lecture, four hours; outside study, eight hours. Requisite: Electrical Engineering 141 or 142 or Mathematics 115A or Mechanical and Aerospace Engineering 171A. Development of dynamic systems modeling methodology for physiological, biomedical, pharmacological, chemical, and related systems. Control system, multicompartmental, noncompartmental, and input/output models, linear and nonlinear. Emphasis on model applications, limitations, and relevance in biomedical sciences and other limited data environments. Problem solving in PC laboratory. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "EC ENGR 141"},{"type": "requisite","course": "EC ENGR 142"},{"type": "requisite","course": "MATH 115A"},{"type": "requisite","course": "MECH&AE 171A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M296B",
+        "title": "Optimal Parameter Estimation and Experiment Design for Biomedical Systems",
+        "units": 4,
+        "description": "(Same as Biomathematics M270, Computer Science M296B, and Medicine M270D.) Lecture, four hours; outside study, eight hours. Requisite: course CM286 or M296A or Biomathematics 220. Estimation methodology and model parameter estimation algorithms for fitting dynamic system models to biomedical data. Model discrimination methods. Theory and algorithms for designing optimal experiments for developing and quantifying models, with special focus on optimal sampling schedule design for kinetic models. Exploration of PC software for model building and optimal experiment design via applications in physiology and pharmacology. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "BIOENGR CM286"},{"type": "requisite","course": "BIOENGR M296A"},{"type": "requisite","course": "BIOMATH 220"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M296C",
+        "title": "Advanced Topics and Research in Biomedical Systems Modeling and Computing",
+        "units": 4,
+        "description": "(Same as Computer Science M296C and Medicine M270E.) Lecture, four hours; outside study, eight hours. Requisite: course M296B. Research techniques and experience on special topics involving models, modeling methods, and model/computing in biological and medical sciences. Review and critique of literature. Research problem searching and formulation. Approaches to solutions. Individual MS- and PhD-level project training. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR M296B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "BIOENGR M296D",
+        "title": "Introduction to Computational Cardiology",
+        "units": 4,
+        "description": "(Same as Computer Science M296D.) Lecture, four hours; outside study, eight hours. Requisite: course CM186. Introduction to mathematical modeling and computer simulation of cardiac electrophysiological process. Ionic models of action potential (AP). Theory of AP propagation in one-dimensional and two-dimensional cardiac tissue. Simulation on sequential and parallel supercomputers, choice of numerical algorithms, to optimize accuracy and to provide computational stability. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "BIOENGR CM186"}
+        ],
+        "equivalentCourses": []
+    }
+]

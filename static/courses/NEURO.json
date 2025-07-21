@@ -1,0 +1,439 @@
+[
+    {
+        "id": "NEURO 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 201",
+        "title": "Cell, Developmental, and Molecular Neurobiology",
+        "units": 6,
+        "description": "Lecture, six hours. Fundamental topics concerning cellular, developmental, and molecular neurobiology, including intracellular signaling, cell-cell communication, neurogenesis and migration, synapse formation and elimination, programmed neuronal death, and neurotropic factors. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 205",
+        "title": "Systems Neuroscience",
+        "units": 4,
+        "description": "Lecture/discussion, four hours. Introduction to fundamentals of systems neuroscience, with emphasis on integration of molecular mechanisms, cellular processes, anatomical circuits, and behavioral analysis to understand function of neural systems. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 207",
+        "title": "Integrity of Scientific Investigation: Education, Research, and Career Implications",
+        "units": 2,
+        "description": "Discussion, two hours. Designed for graduate students. Debate on topics related to ethical conduct of scientific investigation, with emphasis on critical thinking. Topics include scientific misconduct, mentoring, data ownership, authorship, peer review, use of animals and humans in biomedical research, conflicts of interest, technology, and scientific integrity. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 210A",
+        "title": "Introduction to Current Literature in Neuroscience",
+        "units": 2,
+        "description": "Discussion, two hours. Critical discussion of current research literature related to topics of the five core courses in neuroscience graduate curriculum. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 210B",
+        "title": "Introduction to Current Literature in Neuroscience",
+        "units": 2,
+        "description": "Discussion, two hours. Critical discussion of current research literature related to topics of the five core courses in neuroscience graduate curriculum. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 210C",
+        "title": "Introduction to Current Literature in Neuroscience",
+        "units": 2,
+        "description": "Discussion, two hours. Critical discussion of current research literature related to topics of the five core courses in neuroscience graduate curriculum. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 211A",
+        "title": "Evaluation of Research Literature in Neuroscience",
+        "units": 2,
+        "description": "Discussion, two hours. Advanced critical analysis of current research in neuroscience. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 211B",
+        "title": "Evaluation of Research Literature in Neuroscience",
+        "units": 2,
+        "description": "Discussion, two hours. Advanced critical analysis of current research in neuroscience. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 211C",
+        "title": "Evaluation of Research Literature in Neuroscience",
+        "units": 2,
+        "description": "Discussion, two hours. Advanced critical analysis of current research in neuroscience. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 215",
+        "title": "Variable Topics Research Literature Seminars: Neuroscience",
+        "units": 1,
+        "description": "Seminar, two hours. Critical discussion and analysis of current literature for various neuroscience research topics. Only one topic may be taken twice for credit and applied toward neuroscience graduate requirements. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 222",
+        "title": "Brain Imaging and Brain Stimulation",
+        "units": 4,
+        "description": "Lecture, four hours. Limited to graduate students in neuroscience, bioengineering, psychology, and School of Medicine. Introduction to fields of brain imaging and brain stimulation, including various imaging modalities and neurostimulation strategies. Introduction to use of brain imaging in isolation or in combination with brain stimulation to understand neural circuitry, systems, and networks in health and disease. Encourages critical thinking about opportunities and limitations of two fields, and how to overcome them by combining two approaches for investigation of brain systems and functions. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 240",
+        "title": "Phenotypic Measurement of Complex Traits",
+        "units": 4,
+        "description": "Lecture, three hours. Preparation: background in human genetics helpful. Integrative approach to understanding gene to behavior pathways by examination of levels of phenotype expression across systems (cell, brain, organism), across species (invertebrate, fly, mouse, human), and throughout development across varying environmental milieus. Using examples from human disorders such as schizophrenia and Alzheimer's disease, linking of these diverse approaches in genetic research to map out integrative system of understanding basis of complex human behavior. Emphasis on basic understanding of methods used at each level of phenotype analysis, along with major resources that can be accessed to gain insight to gene-behavioral links. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 245",
+        "title": "Optical Approaches in Neuroscience",
+        "units": 4,
+        "description": "Lecture, four hours. State-of-art, light-microscopy-based approaches in neuroscience. Background material on basic optical principles and microscope design, as well as certification in use of lasers. Technical approaches commonly used in study of nervous system, including imaging modalities such as two-photon microscopy, methods for imaging and stimulating neuronal activity, and advanced microscopy approaches such as FRET and FLIM. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 250",
+        "title": "Neural Development and Repair",
+        "units": 4,
+        "description": "Lecture, four hours. Specific training in neural development and repair. Each module offers different research topic and provides perspective on its relevance to human diseases, treatments, and unmet needs for future research. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 255",
+        "title": "Functional Organization of Behavior",
+        "units": 2,
+        "description": "Lecture, two hours. Changes in neuronal properties supporting changes in learned behavior. Different types of learning. Role of neurotransmitters and second messengers in changing ion channels of neurons to support associative learning versus long-term potentiation of neurotransmission. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 259",
+        "title": "Introduction to Dynamical Systems",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. Introduction to essential concepts of modeling and dynamics, with applications at various levels of physiology and neuroscience. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 260",
+        "title": "Introduction to Signal Processing for Neuroscientists",
+        "units": 4,
+        "description": "Lecture, four hours. Limited to Neuroscience graduate students. Introductory principles for handling some common types of time-varying data used to measure brain activity (spikes, local field potentials, calcium transients). Analysis of data with simple computer scripts for team-based projects. May not be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 265",
+        "title": "Essentials of Neuro-Oncology",
+        "units": 4,
+        "description": "Lecture, 90 minutes; discussion, 90 minutes. Preparation: competence in general statistics, neurobiology, and neuroanatomy. Introduction to essential topics in clinical neuro-oncology and neuro-oncology research. Exposure to multidisciplinary field of neuro-oncology through weekly meetings consisting of lectures from expert faculty and in-depth journal club or topical discussions on both fundamental and contemporary topics in neuro-oncology. Students learn various types of central nervous system tumors, and how they are diagnosed, treated, and monitored. Unique aspects of treating neuro-oncology patients, including issues associated with changes in quality of life, neurocognition, and psychological concerns. Discussion of current and new approaches to neuro-oncology. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 270",
+        "title": "Brain Architecture",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. Preparation: first-year neuroscience graduate core courses. Overview of brain architecture including theoretical and methodological approaches for brain connectomic research. Evolution and development of nervous system, comparative neuroanatomy and behavioral neuroanatomy as well as classical and modern data collection methods, image processing pipelines for neuroanatomic data, and neuroinformatics principles. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 275",
+        "title": "Advanced Techniques in Neurobiology",
+        "units": 2,
+        "description": "Lecture, one hour; laboratory, one hour. Preparation: basic biology and chemistry. Designed to provide introduction and, when possible, practical demonstration of a number of techniques used in neurochemical research, with emphasis on techniques used for identification, measurement, and visualization of compounds thought to be important as mediators of intercellular communication in central nervous system. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 286A",
+        "title": "Electroencephalography Methods and Analysis I",
+        "units": 4,
+        "description": "Lecture, three hours. Recommended preparation: one term of graduate level statistics, biostatistics. Students master fundamentals of electroencephalograph (EEG), including understanding of neural origins of EEG signals, principles of data recording, standard methods for experiment designs, data processing, feature extraction, and most common statistical approaches to inference. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 286B",
+        "title": "Electroencephalography Methods and Analysis II",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 286A, or consent of instructor. Exploration of advanced topics in electroencephalography (EEG). Includes advanced recording, processing and analysis techniques, custom deployment of EEG in basic (e.g., multimodal integration) and translational (e.g., biomarker development) applications, and examination of current limitations and controversies of EEG. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "NEURO 286A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 287",
+        "title": "Dynamics of Neural Microcircuits",
+        "units": 4,
+        "description": "(Formerly numbered M287.) Lecture, two hours; discussion, two hours. Development of integrative understanding of neural microcircuits that underlie specific functions of sensory processing, generation, and coordination of motor activity, as well as generation and modulation of neural rhythms. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 596",
+        "title": "Directed Individual Study or Research",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 597",
+        "title": "Preparation for PhD Qualifying Examinations",
+        "units": 4,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 599",
+        "title": "Dissertation Research for PhD Candidates",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Designed for students requiring special instruction or time to work on dissertation. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO C251",
+        "title": "Computational Neuroscience for Interdisciplinary Scientists",
+        "units": 4,
+        "description": "Lecture, two hours; laboratory, one hour. Requisites: course M101A or Psychology 115; Life Sciences 30A and 30B, or Mathematics 3A, 3B, and 3C, or 31A, 31B, and 32A; Life Sciences 40 or Psychology 100A or Statistics 10 or 13. Designed for students in both experimental and computational tracks to acquire significant breadth and depth in computational neuroscience. Highly interdisciplinary study in computational neuroscience. Integrates data-driven modeling, simulations, and analyses of neural dynamics to train students in hypothesis-driven approach to computational modeling. Students can immediately apply acquired knowledge and skills in research or industry settings. Concurrently scheduled with course C151. S/U or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "NEURO M101A"},{"type": "requisite","course": "PSYCH 115"}]},
+            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "requisite","course": "LIFESCI 30A"},{"type": "requisite","course": "LIFESCI 30B"}]},{"type": "group","needs": 3,"options": [{"type": "requisite","course": "MATH 3A"},{"type": "requisite","course": "MATH 3B"},{"type": "requisite","course": "MATH 3C"}]},{"type": "group","needs": 3,"options": [{"type": "requisite","course": "MATH 31A"},{"type": "requisite","course": "MATH 31B"},{"type": "requisite","course": "MATH 32A"}]}]},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "LIFESCI 40"},{"type": "requisite","course": "PSYCH 100A"},{"type": "requisite","course": "STATS 10"},{"type": "requisite","course": "STATS 13"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO C277",
+        "title": "Drugs of Abuse: Translational Neurobiology",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: Neuroscience M101A. Course ranges from synapse to society. Provides intensive didactic on current neuroscientific basis for understanding substance abuse and blends that material with relevant topics such as epidemiology, co-occurring disorders, treatment options, prevention, and public policies, with emphasis on communication of course materials to general public. Concurrently scheduled with course C177. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "NEURO M101A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO CM223",
+        "title": "Neurobiology of Sleep",
+        "units": 4,
+        "description": "(Same as Physiological Science CM223.) Lecture, three hours; discussion, one hour. Detailed look into science of sleep. Cellular and molecular mechanisms of falling asleep, many discrete brain structures involved in control of sleep wakefulness, and homeostatic regulation of sleep. How our sleep needs shaped by our evolutionary history, age, and gender. Latest insights into question of function of sleep, critical role sleep plays in memory formation and, close association between sleep and metabolism. Sleep disorders are considered as they provide insights into mechanisms underlying sleep. For background on science of sleep and circadian rhythms, completion of Physiological Science C126 is highly recommended. Concurrently scheduled with course CM123. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO CM272",
+        "title": "Neuroimaging and Brain Mapping",
+        "units": 4,
+        "description": "(Same as Physiological Science M272 and Psychology M213.) Lecture, three hours. Requisites: courses M201, M202. Theory, methods, applications, assumptions, and limitations of neuroimaging. Techniques, biological questions, and results. Brain structure, brain function, and their relationship discussed with regard to imaging. Concurrently scheduled with course C172. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "NEURO M201"},
+            {"type": "requisite","course": "NEURO M202"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M202",
+        "title": "Cellular Neurophysiology",
+        "units": 4,
+        "description": "(Same as Neurobiology M200F and Physiological Science M202.) Lecture, three hours; discussion, two hours. Requisites: Physiological Science 111A (or M180A or Physics 5C), 166. Advanced course in cellular physiology of neurons. Action and membrane potentials, channels and channel blockers, gates, ion pumps and neuronal homeostasis, synaptic receptors, drug-receptor interactions, transmitter release, modulation by second messengers, and sensory transduction. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "PHYSCI 111A"},{"type": "requisite","course": "PHYSCI M180A"},{"type": "requisite","course": "PHYSICS 5C"}]},
+            {"type": "requisite","course": "PHYSCI 166"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M203",
+        "title": "Anatomy of Central Nervous System",
+        "units": 4,
+        "description": "(Same as Bioengineering M263.) Lecture, 75 minutes; discussion/laboratory, two hours. Prior to first laboratory meeting, students must complete Bloodborne Pathogens training course through UCLA Environment, Health and Safety. Study of anatomical locations of and relationships between ascending and descending sensory and motor systems from spinal cord to cerebral cortex. Covers cranial nerves and brainstem anatomy along with anatomy of ventricular and vascular systems of brain. Subcortical forebrain areas covered in detail. Integrated anatomy laboratory includes brain dissections and overview of tools for MRI analysis. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M206",
+        "title": "Neuroengineering",
+        "units": 4,
+        "description": "(Same as Bioengineering M260 and Electrical and Computer Engineering M255.) Lecture, four hours; laboratory, three hours; outside study, five hours. Requisites: Mathematics 32A, Physics 1B or 5C. Introduction to principles and technologies of bioelectricity and neural signal recording, processing, and stimulation. Topics include bioelectricity, electrophysiology (action potentials, local field potentials, EEG, ECOG), intracellular and extracellular recording, microelectrode technology, neural signal processing (neural signal frequency bands, filtering, spike detection, spike sorting, stimulation artifact removal), brain-computer interfaces, deep-brain stimulation, and prosthetics. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MATH 32A"},
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "PHYSICS 1B"},{"type": "requisite","course": "PHYSICS 5C"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M212A",
+        "title": "Evaluation of Research Literature in Neuroengineering",
+        "units": 2,
+        "description": "(Same as Bioengineering M261A and Electrical and Computer Engineering M256A.) Discussion, two hours. Critical discussion and analysis of current literature related to neuroengineering research. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M212B",
+        "title": "Evaluation of Research Literature in Neuroengineering",
+        "units": 2,
+        "description": "(Same as Bioengineering M261B and Electrical and Computer Engineering M256B.) Discussion, two hours. Critical discussion and analysis of current literature related to neuroengineering research. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M212C",
+        "title": "Evaluation of Research Literature in Neuroengineering",
+        "units": 2,
+        "description": "(Same as Bioengineering M261C and Electrical and Computer Engineering M256C.) Discussion, two hours. Critical discussion and analysis of current literature related to neuroengineering research. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M220",
+        "title": "Biology of Learning and Memory",
+        "units": 4,
+        "description": "(Same as Neurobiology M200G and Psychology M208.) Lecture, four hours. Molecular, cellular, circuit, systems, neuroanatomy, theory, and models of learning and memory. Cross-disciplinary focus on learning and memory to provide integrative view of subject that emphasizes emerging findings that take advantage of novel groundbreaking models. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M230",
+        "title": "Molecular and Cellular Mechanisms of Neural Integration",
+        "units": 5,
+        "description": "(Same as Physiological Science M210 and Physiology M210.) Lecture, four hours; discussion, one hour. Requisite: course M202. Introduction to mechanisms of synaptic processing. Selected problems of current interest, including regulation and modulation of transmitter release, molecular biology and physiology of receptors, cellular basis of integration in sensory perception and learning, neural nets and oscillators, and molecular events in development and sexual differentiation. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "NEURO M202"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M233",
+        "title": "Mechanisms and Relief of Pain",
+        "units": 2,
+        "description": "(Same as Oral Biology M204.) Lecture, two hours. Advanced treatment of neuroanatomical, neurophysiological, and biochemical bases of pain perception. Topics include classical pain theories, pain receptors and pathways, endogenous mechanisms of pain modulation, and pharmacological basis for treatment of pain disorders. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M248",
+        "title": "Brain and Behavioral Development during Adolescence",
+        "units": 4,
+        "description": "(Same as Psychology M248.) Seminar, three hours. Foundational and emerging work on adolescent brain and behavioral development. Topics include cognition, risk taking, emotion, identity, stress, relationships, and population diversity. Discussions of assigned readings and presentations by guest faculty and scientists. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M273",
+        "title": "Neural Basis of Memory",
+        "units": 4,
+        "description": "(Same as Psychiatry M270.) Lecture, two hours; discussion, one hour. Anatomical, physiological, and neurological data integrated into models for how behavioral phenomena of memory arise. Discussion of invertebrate memory, cortical conditioning, hippocampus and declarative memory, and frontal lobes and primary memory.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M284A",
+        "title": "Principles of Neuroimaging I",
+        "units": 4,
+        "description": "(Same as Psychiatry M284A and Psychology M288A.) Lecture, four and one half hours. Preparation: competence in integral calculus, electricity and magnetism, computer programming (any language), general statistics. Requisite: Psychiatry 292. Course M284A is requisite to M284B. Instrumental imaging methods for study of nervous system, with emphasis on quantitative understanding and data interpretation and features common to modalities. X-ray computed tomography, magnetic resonance imaging, positron emission tomography, magnetoencephalography, transcranial magneto stimulation, near infrared imaging. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "PSYCTRY 292"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M284B",
+        "title": "Principles of Neuroimaging II",
+        "units": 4,
+        "description": "(Same as Psychiatry M284B and Psychology M288B.) Lecture, four and one half hours. Preparation: competence in integral calculus, electricity and magnetism, computer programming (any language), general statistics. Requisite: course M284A. Instrumental imaging methods for study of nervous system, with emphasis on quantitative understanding and data interpretation and features common to modalities. X-ray computed tomography, magnetic resonance imaging, positron emission tomography, magnetoencephalography, transcranial magneto stimulation, near infrared imaging. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "NEURO M284A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M285",
+        "title": "Functional Neuroimaging: Techniques and Applications",
+        "units": 3,
+        "description": "(Same as Bioengineering M284, Physics and Biology in Medicine M285, Psychiatry M285, and Psychology M278.) Lecture, three hours. In-depth examination of activation imaging, including MRI and electrophysiological methods, data acquisition and analysis, experimental design, and results obtained thus far in human systems. Strong focus on understanding technologies, how to design activation imaging paradigms, and how to interpret results. Laboratory visits and design and implementation of functional MRI experiment. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "NEURO M297",
+        "title": "Methods in Developmental Cognitive Neuroscience",
+        "units": 4,
+        "description": "(Same as Psychology M297.) Seminar, three hours. Survey of methods and tools used to address developmental cognitive neuroscience questions. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

@@ -240,130 +240,55 @@ data/                             # Temporary processing data
 └── validation-report.json      # Final validation results
 ```
 
-## Phase 2: Course Requirements Expansion (TODO)
+## Phase 2: Course Requirements Expansion (Finished)
 
-### 2.1 Challenges
+### 2.1 Status
+- **Status (July 2025)**: All courses are now split into 168 subject files in `static/courses/[SUBJECT].json`.
+- **Format**: Each file is a JSON array of course objects, matching the previous `courses.json` format.
+- **equivalentCourses**: This field is always an empty array for every course (intentional; not yet supported in production).
 - **Scale**: Thousands of courses across all departments
 - **Data Source**: UCLA course catalog has different structure than major pages
 - **Complexity**: Course descriptions, prerequisites, units, scheduling info
 - **Maintenance**: Course data changes more frequently than major requirements
 
-### 2.2 Proposed Approach
-1. **Department-by-Department**: Expand one department at a time
-2. **Automated Parsing**: Similar HTML scraping approach as majors
-3. **Incremental Updates**: Support for updating existing course data
-4. **Validation Pipeline**: Extensive validation for course data integrity
+### 2.2 Current Approach: heavily manual
+1. **Getting subject codes and lists**: a list of subjects is available on the UCLA website (obtained with Puppeteer) 
+2. **Getting course links**: A list of courses by subject is also available on the UCLA website (obtained with Puppeteer)
+3. **Data cleaning**: After all data is obtained, the raw test needs to be cleaned (remove duplicate lines, common header/footer, for example)
+4. **AI parse to JSON**: An AI agent works course-by-course, converting each course to a JSON format. At this point, requisites are still empty
+5. **Requisites parsing**: Another AI agent works course-by-course, extracting the requisite structure from the course information
+6. **Data validation**: Done extensively by hand and using python scripts.
 
 ### 2.3 Data Structure
-- Follow existing `course-spec.md` format
-- Store courses by department in `static/courses/[Department].json`
-- Maintain course ID consistency across all data
+- Each file in `static/courses/[SUBJECT].json` is a JSON array of course objects.
+- Each course object includes: `id`, `title`, `units`, `description`, `requisites`, and `equivalentCourses` (always empty for now).
+- Course objects are sorted by course ID within each file.
+- Each course references a number of prerequisites, possibly nested in groups:
+  - All subject areas for prerequisites are valid (i.e. every prerequisite can point to a file in static/courses/)
+  - Some prerequiste courses may be missing (for courses that no longer exist, data is unavailable)
 
-## Phase 3: Prerequisite Enforcement Levels (TODO)
+## Phase 3: Prerequisite Enforcement Levels and other finer details (TODO - Future plan)
 
-### 3.1 Challenges
-- **Enforcement Inconsistency**: Different departments have different enforcement policies
-- **Data Source**: Not explicitly stated in catalogs
-- **Complexity**: Enforcement can vary by semester, professor, or special circumstances
-- **Maintenance**: Policies change over time
+### 3.1 Data
+- **Enforcement Inconsistency**: Different departments have different enforcement policies, which may change over time. This feature will require continuous fetching with a backend.
+- **Data Source**: Detailed course schedules are located at https://sa.ucla.edu/ro/public/soc. This site shows:
+  - Prerequisites enforcement levels
+  - List of courses offered per quarter
+  - Number of seats available in the current quarter
+  - Course times, locations, and instructors
+- **Complexity**: Writing an integrated script that can handle the format of this website is a challenge in itself. This script would have to clean, parse, format, and store data without help from AI agents (which would precipitously raise costs and runtime).
+- **Integration**: Consider integrating grades information from UCLAGrades and professor ratings from BruinWalk here.
 
-### 3.2 Proposed Approach
-1. **Conservative Defaults**: Default to "Enforced" for all prerequisites
-2. **Department Overrides**: Allow department-specific enforcement policies
-3. **Manual Curation**: Require manual review for enforcement levels
-4. **Community Input**: Allow user feedback on enforcement accuracy
+### 3.2 Current Status
+1. **Static data**: JSON files are treated as static, and are not updated regularly.
+2. **No enforcement levels**: All prerequisites give a standard warning, regardless of whether or not they are enforced.
 
 ### 3.3 Implementation Strategy
-- Add enforcement level field to course prerequisite data
-- Create override system for department-specific policies
-- Implement user feedback mechanism for enforcement corrections
-- Regular review and update process
-
-## Implementation Timeline
-
-### Phase 1: Major Requirements (Immediate Priority)
-- **Week 1**: Implement URL generation and HTML fetching scripts
-- **Week 2**: Build 404 detection and URL correction system
-- **Week 3**: Develop HTML to JSON parsing pipeline
-- **Week 4**: Create validation and quality assurance tools
-- **Week 5**: Process all major requirements and validate results
-
-### Phase 2: Course Requirements (Future)
-- **Month 2-3**: Design and implement course data expansion
-- **Month 4-6**: Process all UCLA departments
-- **Month 7**: Validation and quality assurance
-
-### Phase 3: Prerequisite Enforcement (Future)
-- **Month 8-12**: Research and implement enforcement levels
-- **Ongoing**: Community feedback and maintenance
-
-## Quality Assurance Strategy
-
-### Automated Testing
-- Schema validation for all generated JSON files
-- Course ID format validation
-- Requirement logic consistency checks
-- Unit count verification
-
-### Manual Review Process
-- Spot-check generated major files against UCLA catalog
-- Verify complex requirement interpretations
-- Test major files in BruinPlan interface
-- Community feedback integration
-
-### Continuous Monitoring
-- Regular re-parsing of major pages for updates
-- Automated detection of catalog changes
-- Version control for all data files
-- Change logging and review process
-
-## Data Migration Strategy
-
-### Backward Compatibility
-- Maintain existing Mathematics major files
-- Ensure new data format matches existing structure
-- Gradual rollout with fallback mechanisms
-
-### User Experience
-- Progressive loading of major data
-- Clear indication of data availability
-- Graceful handling of missing data
-
-### Performance Considerations
-- Lazy loading of major requirement data
-- Efficient JSON parsing and caching
-- Minimal impact on app startup time
-
-## Risk Mitigation
-
-### Technical Risks
-- **UCLA Catalog Changes**: Monitor for structural changes to catalog HTML
-- **Rate Limiting**: Implement respectful scraping practices
-- **Data Quality**: Extensive validation and manual review
-- **Parsing Errors**: Robust error handling and fallback strategies
-
-### Legal/Ethical Risks
-- **Terms of Service**: Ensure compliance with UCLA website ToS
-- **Data Usage**: Use publicly available data only
-- **Attribution**: Proper attribution of data sources
-- **Rate Limiting**: Respectful scraping practices
-
-## Success Metrics
-
-### Quantitative Metrics
-- **Coverage**: Number of majors successfully processed
-- **Accuracy**: Percentage of requirements correctly parsed
-- **Validation Pass Rate**: Percentage of majors passing validation
-- **Processing Time**: Time required for full data expansion
-
-### Qualitative Metrics
-- **User Feedback**: Quality of generated major requirement data
-- **Usability**: How well parsed data works in BruinPlan interface
-- **Maintainability**: Ease of updating and maintaining data
-- **Extensibility**: How easily the system can be extended to new data types
-
-## Conclusion
-
-This data expansion will transform BruinPlan from a Mathematics-focused tool to a comprehensive UCLA course planning system. The phased approach ensures quality while allowing for iterative improvements and user feedback integration.
-
-The major requirements expansion (Phase 1) is immediately actionable with the existing `majors-raw.txt` data and will provide the most significant user value. Course requirements and prerequisite enforcement levels can be addressed in future phases as the system matures.
+- Write a comprehensive script that:
+  - Extracts all course offerings and information for the quarter in real time
+  - Extracts all prerequisites (with levels) in real time
+  - Extracts enrollment restrictions in real time
+  - Note that this script will be slow (to prevent being rate-limited) and will run only seldom (maybe once per week? month? quarter?)
+- Write a simpler script that:
+  - Extracts seat counts on demand for an individual course (checking every x minutes) to notify users when courses open up
+  - Students can set up notifications on their phones (similar to ClassRabbit)

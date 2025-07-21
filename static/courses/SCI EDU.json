@@ -1,0 +1,92 @@
+[
+    {
+        "id": "SCI EDU 100XP",
+        "title": "Classroom Practices in High School Science",
+        "units": 5,
+        "description": "Seminar, three hours; service learning fieldwork, three hours. Recommended requisite: course 1XP or 10XP. Introduction for prospective science teachers to field of secondary education and teaching and learning of science in high school classrooms. Pairs of students are placed in local high school classrooms to observe, participate, and assist mentor teachers in instruction. Discussion of learning in high school culture, cognitive development of students at this level, and best means to teach appropriate science concepts at this level. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCI EDU 10XP",
+        "title": "Classroom Practices in Middle School Science",
+        "units": 2,
+        "description": "Seminar, 90 minutes; fieldwork, three hours. Introduction for prospective science teachers to field of secondary education and teaching and learning of science in middle school classrooms. Pairs of students are placed in local middle school classrooms to observe, participate, and assist mentor teachers in instruction. Discussion of learning in middle school culture, cognitive development of students at this level, and best means to teach appropriate science concepts at this level. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCI EDU 15XP",
+        "title": "Exploration of K-12 Classroom Practices in Science Education",
+        "units": 3,
+        "description": "Seminar, two hours; fieldwork, two hours. Introduction to field of K-12 science education including equity and access, pedagogy, and career exploration. Examination of broad range of student developmental levels and science learning progressions from kindergarten to high school. Pairs of students are placed in local elementary, middle, or high school classrooms to observe, participate, and assist mentor teachers in instruction. Students engage in fieldwork lesson study including identifying Next Generation Science Standards (NGSS), lesson development, lesson implementation, and lesson reflection. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCI EDU 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCI EDU 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCI EDU 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCI EDU 1XP",
+        "title": "Classroom Practices in Elementary School Science",
+        "units": 2,
+        "description": "(Formerly numbered 1SL.) Seminar, 90 minutes; fieldwork, three hours per week for eight weeks. Introduction for prospective science teachers to field of elementary education and teaching and learning of science in elementary school classrooms. Pairs of students are placed in local elementary school classrooms to observe, participate, and assist mentor teachers in instruction. Introduction to inquiry-based learning practices, national and California standards, reading and learning differences in children, and cognitive ability of elementary-age children as it relates to introduction of concepts, curricular planning, classroom management, and learning assessment. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCI EDU 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCI EDU 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SCI EDU 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

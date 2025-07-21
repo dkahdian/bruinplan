@@ -1,0 +1,56 @@
+[
+    {
+        "id": "MED HIS 107A",
+        "title": "Historical Development of Medical Sciences",
+        "units": 4,
+        "description": "Lecture, three hours. Major contributions of medicine and medical personalities from earliest times. Contributions of medicine and medical personalities from earliest times through 1650. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MED HIS 107B",
+        "title": "Historical Development of Medical Sciences",
+        "units": 4,
+        "description": "Lecture, three hours. Major contributions of medicine and medical personalities from earliest times. Subject in the period from 1650 through the 19th century. Illustrated lectures, class discussion, and required readings from selected texts. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MED HIS 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MED HIS 596",
+        "title": "Directed Individual Studies in Medical History",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Investigation of subjects in medical history selected by students with advice and direction of instructor. Individual reports and conferences. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MED HIS 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MED HIS M169",
+        "title": "History of Neurosciences",
+        "units": 4,
+        "description": "(Same as Neurobiology M169.) Lecture, one hour; discussion, two hours. Development of neurosciences, especially neuroanatomy and neurophysiology, from Enlightenment era through latter 20th century. Emphasis on fundamental nerve functions, cell communication, and technological, conceptual, and cultural influences that have shaped understanding of brain and nervous system. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

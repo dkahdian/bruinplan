@@ -1,0 +1,329 @@
+[
+    {
+        "id": "TURKIC 101A",
+        "title": "Elementary Turkish",
+        "units": 5,
+        "description": "Lecture, five hours. Course 101A is requisite to 101B, which is requisite to 101C. Grammar, reading, conversation, and elementary composition drills. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 101B",
+        "title": "Elementary Turkish",
+        "units": 5,
+        "description": "Lecture, five hours. Requisite: course 101A. Grammar, reading, conversation, and elementary composition drills. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "TURKIC 101A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 101C",
+        "title": "Elementary Turkish",
+        "units": 5,
+        "description": "Lecture, five hours. Requisite: course 101B. Grammar, reading, conversation, and elementary composition drills. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "TURKIC 101B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 102A",
+        "title": "Intermediate Turkish",
+        "units": 4,
+        "description": "Lecture, five hours. Requisites: courses 101A, 101B, 101C. Designed to improve reading, listening, speaking, and writing skills, as well as vocabulary and grammar. Intermediate-level reading of texts and listening to recordings about various themes. Students improve verbal communication skills in an interactive classroom environment through speaking activities such as pair work, group work, role-play, and presentations. Writing tasks include structured paragraphs and opinion-based compositions. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "TURKIC 101A"},
+            {"type": "requisite","course": "TURKIC 101B"},
+            {"type": "requisite","course": "TURKIC 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 102B",
+        "title": "Intermediate Turkish",
+        "units": 4,
+        "description": "Lecture, five hours. Requisites: courses 101A, 101B, 101C. Focus on expanding vocabulary and grammatical structures while reinforcing communication strategies in a variety of real-life contexts. Analysis of intermediate-level texts, dialogues, and recordings related to different themes. Students participate in discussion, role-play, and structured writing activities to enhance fluency and accuracy in Turkish. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "TURKIC 101A"},
+            {"type": "requisite","course": "TURKIC 101B"},
+            {"type": "requisite","course": "TURKIC 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 102C",
+        "title": "Intermediate Turkish",
+        "units": 4,
+        "description": "Lecture, five hours. Requisites: courses 101A, 101B, 101C. Builds upon previous coursework while introducing more complex language structures and deeper cultural discussions. Students are exposed to a variety of authentic texts, videos, and dialogues, helping them engage in more advanced discussions and written tasks. Grammar topics include reported speech, conditional clauses, and comparative sentence structures. Students are encouraged to analyze social issues, express opinions, and participate in debates in Turkish. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "TURKIC 101A"},
+            {"type": "requisite","course": "TURKIC 101B"},
+            {"type": "requisite","course": "TURKIC 101C"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 111A",
+        "title": "Elementary Uzbek",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Elementary grammar, reading, and composition exercises; elementary conversation.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 111B",
+        "title": "Elementary Uzbek",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Elementary grammar, reading, and composition exercises; elementary conversation.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 111C",
+        "title": "Elementary Uzbek",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Elementary grammar, reading, and composition exercises; elementary conversation.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 112A",
+        "title": "Advanced Uzbek",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Descriptive Uzbek grammar, reading, and analysis of Uzbek literary and folkloric texts. High-style composition and conversation.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 112B",
+        "title": "Advanced Uzbek",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Descriptive Uzbek grammar, reading, and analysis of Uzbek literary and folkloric texts. High-style composition and conversation.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 112C",
+        "title": "Advanced Uzbek",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Descriptive Uzbek grammar, reading, and analysis of Uzbek literary and folkloric texts. High-style composition and conversation.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 116A",
+        "title": "Advanced Azeri",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: placement test. Proficiency-based course in descriptive Azeri grammar. Reading and analysis of Azeri literary and folkloric texts in new writing system. High-style composition and conversation. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 116B",
+        "title": "Advanced Azeri",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: placement test. Proficiency-based course in descriptive Azeri grammar. Reading and analysis of Azeri literary and folkloric texts in new writing system. High-style composition and conversation. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 116C",
+        "title": "Advanced Azeri",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour; laboratory, one hour. Preparation: placement test. Proficiency-based course in descriptive Azeri grammar. Reading and analysis of Azeri literary and folkloric texts in new writing system. High-style composition and conversation. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 160",
+        "title": "Turkish Tradition",
+        "units": 4,
+        "description": "Lecture/discussion. Preparation: entrance examination. Survey of cultural history of the Turks, as seen primarily through their literature, from their early history to the present.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 165",
+        "title": "Islamic Literary Heritage of Central Asia",
+        "units": 4,
+        "description": "Lecture, two hours; discussion, one hour. Systematic survey of Islamic documents produced in Turkish and Persian in Central Asia, with reading of primary sources in English translation. Study of special characteristics of Central Asian Islam.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 170",
+        "title": "Turco-Mongolian Nomadic Empires",
+        "units": 4,
+        "description": "Lecture, three hours. Required of students in Turkic program. Survey of history of Turkic and Mongolian dominions from the 3rd century BC to AD 19th century (Hsiung-nu, Hsien-pi, Juan-Juan, T'u-Chueh, Uyghur, Khitan, Karakhanid, Seljuq, Kara-Khitay, Khorazmian, Jengiz-Khanite).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 180",
+        "title": "Modern Turkic Languages and Peoples",
+        "units": 4,
+        "description": "Lecture, three hours. Required of students in Turkic program and recommended for students in Soviet studies. Ethnic and linguistic survey of the Turkic peoples.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 197",
+        "title": "Individual Studies in Turkic",
+        "units": 2,
+        "description": "Tutorial, one hour. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 199",
+        "title": "Directed Research or Senior Project in Turkic",
+        "units": 2,
+        "description": "Tutorial, one hour. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 210A",
+        "title": "Readings in Ottoman I",
+        "units": 4,
+        "description": "Lecture, three hours. Examination of printed texts in Ottoman from 19th and 20th centuries to improve student competence to read, transliterate, and translate Ottoman texts. Readings include selections from newspapers, almanacs, travel books, and literary and historical texts. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 211",
+        "title": "Ottoman Diplomatics",
+        "units": 4,
+        "description": "Lecture, three hours. Requisites: courses 210A, 210B, 210C. Organization and contents of Ottoman archives; reading and discussion of documents and registers. Introduction to use of Ottoman archive materials as a source for historical research.",
+        "requisites": [
+            {"type": "requisite","course": "TURKIC 210A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 596",
+        "title": "Directed Individual Study",
+        "units": 2,
+        "description": "Tutorial, to be arranged. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 597",
+        "title": "Examination Preparation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 599",
+        "title": "PhD Dissertation Research and Preparation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC M115A",
+        "title": "Elementary Azeri",
+        "units": 4,
+        "description": "(Same as Iranian M115A.) Lecture, five hours. Knowledge of Russian, Turkish, and Iranian helpful. Grammatical competence at elementary level; knowledge of basic facts of Azeri grammar; reading competence with help of dictionary; ability to write simple compositions; basic conversational skill. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC M115B",
+        "title": "Elementary Azeri",
+        "units": 4,
+        "description": "(Same as Iranian M115B.) Lecture, five hours. Knowledge of Russian, Turkish, and Iranian helpful. Grammatical competence at elementary level; knowledge of basic facts of Azeri grammar; reading competence with help of dictionary; ability to write simple compositions; basic conversational skill. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "TURKIC M115C",
+        "title": "Elementary Azeri",
+        "units": 4,
+        "description": "(Same as Iranian M115C.) Lecture, five hours. Knowledge of Russian, Turkish, and Iranian helpful. Grammatical competence at elementary level; knowledge of basic facts of Azeri grammar; reading competence with help of dictionary; ability to write simple compositions; basic conversational skill. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "id": "ASL 1",
+        "title": "Elementary American Sign Language",
+        "units": 5,
+        "description": "Lecture, five hours. Introduction to fundamentals of American sign language. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 2",
+        "title": "Elementary American Sign Language",
+        "units": 5,
+        "description": "Lecture, five hours. Enforced requisite: course 1. Introduction to fundamentals of American sign language. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ASL 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 3",
+        "title": "Elementary American Sign Language",
+        "units": 5,
+        "description": "Lecture, five hours. Enforced requisite: course 2. Introduction to fundamentals of American sign language. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ASL 2"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 4",
+        "title": "Intermediate American Sign Language",
+        "units": 5,
+        "description": "Lecture, five hours. Enforced requisite: course 3 or 8. Intermediate American sign language. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ASL 3"},{"type": "requisite","course": "ASL 8"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 5",
+        "title": "Intermediate American Sign Language",
+        "units": 5,
+        "description": "Lecture, five hours. Enforced requisite: course 4. Intermediate American sign language. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ASL 4"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 6",
+        "title": "Intermediate American Sign Language",
+        "units": 5,
+        "description": "Lecture, five hours. Enforced requisite: course 5. Intermediate American sign language. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ASL 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 8",
+        "title": "Intensive Elementary American Sign Language",
+        "units": 15,
+        "description": "Lecture, 20 hours. Not open to students with credit for course 3 or students who have learned, from whatever source, enough American sign language to qualify for more advanced courses. Intensive elementary instruction in American sign language equivalent to courses 1, 2, and 3. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL M115",
+        "title": "Enforcing Normalcy: Deaf and Disability Studies",
+        "units": 4,
+        "description": "(Same as Disability Studies M115.) Lecture, three hours. Exploration of historical, medical, social, political, philosophical, and cultural influences that have constructed categories of normalcy, disability, and deafness. Building on writing of Michel Foucault and critical work in field of disability studies, inquiry into institutions that have enforced standards of normalcy throughout 19th and 20th centuries to present. Primary attention to rise of medical authority in West, history of eugenics, and contemporary bioethics issues confronting disability and deaf communities. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL M120",
+        "title": "History of Deaf Communities in America",
+        "units": 4,
+        "description": "(Same as History M147E.) Lecture, three hours; discussion, one hour (when scheduled). Designed for juniors/seniors. Study of history and culture of deaf communities in America (circa 1800 to present) by exploring major events impacting deaf people, including development of sign language, deaf education, audism, politics of deafness, eugenics, deaf revolution movements, and role of hearing technology. Historical development of emergence, growth, and survival of America's deaf community and development of deaf identity over time. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL M121",
+        "title": "History of Mass Media and Deaf Community",
+        "units": 4,
+        "description": "(Formerly numbered 121.) (Same as Disability Studies M162.) Lecture, three hours. Historical survey of mass media (print, film, television, and Internet) as sources and interpreters of deafness and deaf people within context of U.S. social and cultural history. Examination of historical changes in products of mass media within deaf community and ways of critiquing media sources. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ASL M187",
+        "title": "Special Topics in Disability Studies and Deaf Studies",
+        "units": 4,
+        "description": "(Same as Disability Studies M187D.) Lecture, three hours; discussion, one hour (when scheduled). Variable topics in disability studies and deaf studies. Topics may include art and literature; autism and ableism; dance and music; Deaflympics; history; policy; race, gender, and sexuality; and technology. May be repeated for credit with topic and/or instructor change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

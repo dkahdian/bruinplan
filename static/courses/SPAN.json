@@ -1,0 +1,1316 @@
+[
+    {
+        "id": "SPAN 1",
+        "title": "Elementary Spanish",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Taught in Spanish. Laboratory is online. Introductory Spanish language and culture course that is proficiency-oriented, communicative, and task-based to help develop communicative competence in four skill areas (listening, speaking, reading, and writing), as well as cultural competence. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 10",
+        "title": "Intensive Elementary Spanish",
+        "units": 12,
+        "description": "Lecture, 20 hours. Intensive elementary instruction in speaking, listening, reading, and writing equivalent to courses 1, 2, and 3, with emphasis on Spanish grammar and Hispanic culture. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 100A",
+        "title": "Introduction to Study of Spanish Grammar: Phonology and Morphology",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course M35. Analysis of phonemic and morphological systems of Spanish. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN M35"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 100B",
+        "title": "Introduction to Study of Spanish Grammar: Syntax",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course M35. Study of syntactical systems of Spanish. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN M35"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 105",
+        "title": "Advanced Spanish Grammar",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 25. Comprehensive review of Spanish grammar with attention given to advanced concepts and structures that are not covered in lower-level courses. Development of writing skills through application of grammar concepts. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 25"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 107",
+        "title": "Advanced Spanish Grammar for Heritage Speakers",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 27. Stresses acquisition of standard and formal registers and advanced grammatical structures, accentuation, orthography, and avoidance of vocabulary and sentence structure. Draws from existing linguistic background to perfect grammar and writing in Spanish. Comprehensive review of Spanish grammar with attention given to advanced concepts and structures that are not covered in lower-level courses. Development of writing skills through application of grammar concepts. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 27"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 119",
+        "title": "Introduction to Literary Analysis",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 25 or 27. Introduction to methods of analyzing literary work in Spanish, Spanish-American, and Chicana/Chicano literature. Special attention to four major genres: poetry, narrative, drama, and essay. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 11A",
+        "title": "Catalan Language and Culture I",
+        "units": 4,
+        "description": "Lecture, six hours. Part one of two-term accelerated language sequence equivalent to three terms of traditional instruction. Introduction to Catalan language and culture from wide range of activities focused on task-based and communicative approaches. Study involves variety of activities, which are designed to develop learners' listening, reading, speaking, and writing skills. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 11B",
+        "title": "Catalan Language and Culture II",
+        "units": 4,
+        "description": "Lecture, six hours. Requisite: course 11A or equivalent. Part two of two-term accelerated language sequence equivalent to three terms of traditional instruction. Study offers more advanced knowledge of Catalan language and culture from wide range of activities focused on task-based and communicative approaches. Study involves variety of activities, which are designed to develop learners' listening, reading, speaking, and writing skills. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 11A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 120",
+        "title": "Literature in Historical Context",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour. Requisite: course 25 or 27. Introduction to different ways of looking at literary works as historical phenomena. Presentation of major models for writing history-great narratives, cyclic, teleological, sacred, and profane conceptions. Traditional concepts of literary history and problems of mixed categories (historical epochs versus epochs of style, national history, and world literature). P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 12A",
+        "title": "Basque Language and Culture I",
+        "units": 4,
+        "description": "Lecture, five hours. Introduction to Basque language and culture. Part I of three-term language sequence with emphasis on listening, speaking, reading, writing, and cultural competence. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 12B",
+        "title": "Basque Language and Culture II",
+        "units": 4,
+        "description": "Lecture, five hours. Requisite: course 12A. Introduction to Basque language and culture. Part II of three-term language sequence with emphasis on listening, speaking, reading, writing, and cultural competence. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 12A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 12C",
+        "title": "Basque Language and Culture III",
+        "units": 4,
+        "description": "Lecture, five hours. Requisite: course 12B. Introduction to Basque language and culture. Part III of three-term language sequence with emphasis on listening, speaking, reading, writing, and cultural competence. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 12B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 130",
+        "title": "Topics in Medieval Studies",
+        "units": 4,
+        "description": "Lecture, four hours. Requisites: courses 25 or 27, and 119. Exploration of medieval Iberian literatures: lyric poetry, prose, and history of peninsula, with emphasis on its literary and linguistic diversity. Possible topics include Convivencia (peaceful coexistence), Europe and Orient, beginnings of Inquisition, oral versus written traditions, origins of Hispano-Christian expansion beyond peninsula, and flowering of Al-Andalus. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]},
+            {"type": "requisite","course": "SPAN 119"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 135",
+        "title": "Topics in Early Modern Studies",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour (when scheduled). Enforced requisites: courses 25 or 27, and 119. Exploration of 16th and 17th centuries, with focus on early modern period of Spain and Spanish America. Possible topics include Spanish colonization and indigenous responses, transatlantic literary and visual baroque, race and religion in construction of early modern nation, transatlantic fictions, early modern identities and theatrical representations, literature and historiography, transatlantic poetics and poetry. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]},
+            {"type": "requisite","course": "SPAN 119"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 140",
+        "title": "Topics in Modern Studies",
+        "units": 4,
+        "description": "Lecture, four hours. Requisites: courses 25 or 27, and 119. Exploration of major literary movements and writers of 18th and 19th centuries in Spain and Spanish America. Possible topics include Enlightenment, Romanticism, nation-building literature, realism and naturalism, and works by Cadalso, Concolorcorvo, Lizardi, Larra, Sarmiento, B\u00e9cquer, Isaacs, Mera, Villaverde, and Gald\u00f3s. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]},
+            {"type": "requisite","course": "SPAN 119"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 150",
+        "title": "Topics in Contemporary Studies",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 25 or 27, and 119. Exploration of main trends that characterize contemporary Latin American and Spanish literatures and cultures and main concepts used to address them. Possible topics include transculturation and heterogeneity, race and ethnicity, vanguard movements, lettered and popular cultures, literary modernization in Latin American boom, literature and revolution, autobiography, women's writing, border literature, and postmodernist fiction. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]},
+            {"type": "requisite","course": "SPAN 119"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 155",
+        "title": "Topics in U.S. Latina/o Studies",
+        "units": 4,
+        "description": "(Formerly numbered 155C.) Lecture, four hours. Enforced requisite: course 25 or 27. Exploration of spread of Spanish-American literature and culture throughout North America, including literatures that are outgrowth of civil rights movements of 1960s, recent demographic changes, new transnational identities, and mixed citizenships of U.S. Latinas and Latinos. Chicano, Puerto Rican, Cuban American, Central American-American, South American-American, and Jewish Latino literatures may be included. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 160",
+        "title": "Topics in Spanish Linguistics",
+        "units": 4,
+        "description": "Lecture, four hours. Requisite: course 25 or 27. Exploration of origin of language, how Spanish is acquired, evolution of Spanish from Latin to early modern period, how Spanish varies in world, how to teach Spanish, Spanish in contact with other languages. Possible topics include Spanish in Los Angeles, history of Spanish language, first- and second-language acquisition, language and cognition. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 170",
+        "title": "Topics in Interdisciplinary and Transhistorical Studies",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour (when scheduled). Requisite: course 25 or 27, 119. Comparative study of cultural production in Latin American, Afro-Luso-Brazilian, and Iberian contexts across diverse historical periods, regional, and ethnic traditions, and aesthetic modes. Possible topics include Afrolatinidad; diaspora; feminism; folklore; gender; globalization; indigeneity and indigenous studies (Andean, Mesoamerican, Amazonian, Tupi, and Tapuia); migration and immigration; music (1960s Latin American protest songs, nueva canci\u00f3n, m\u00fasica regional, punk, rap, folk); popular culture; regionalisms. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]},
+            {"type": "requisite","course": "SPAN 119"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 171",
+        "title": "Topics in Spanish and Digital Humanities",
+        "units": 4,
+        "description": "Lecture, four hours. Interdisciplinary study of the tools, methodologies, and theoretical underpinnings inherent to the burgeoning field of digital humanities and how they form a significant tool for new research in the humanities. Emphasis on both practical skill acquisition and theoretical engagement, to leverage digital resources effectively in the pursuit of advanced research endeavors as applied to the languages, literatures, and cultures of the Spanish-speaking and Luso-Brazilian worlds. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 175",
+        "title": "Topics in Creative Writing and Translation",
+        "units": 4,
+        "description": "Seminar, three hours. Requisites: courses 25 or 27, and 119. Exploration of art of translation or creative writing. Guest speakers or instructors include professional literary translators, poets, novelists, playwrights, and filmmakers who discuss theory, methodology, and practice of their art. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]},
+            {"type": "requisite","course": "SPAN 119"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 180",
+        "title": "Topics in Visual Culture",
+        "units": 4,
+        "description": "(Formerly numbered M180.) Lecture, four hours; discussion, one hour (when scheduled). Requisites: courses 25 or 27, 119. Study of visual knowledge production in Latin America and Iberia as complex relation between visual subjects, practices, and representation. Objects of analysis may include architecture and urban design, digital media and other technologies, documentaries, fashion, fictional and experimental films, graphic novels and other media, maps and cartography, photography, plastic arts and art history, theater and performance, video, among others. May be repeated four times for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]},
+            {"type": "requisite","course": "SPAN 119"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 187A",
+        "title": "Advanced Tutorial in Community and Culture I",
+        "units": 1,
+        "description": "Tutorial, one hour. Requisite: course 25 or 27. Designed as adjunct to upper-division course in Hispanic literature, language, and culture. Exploration of topics in greater depth through supplemental readings, papers, community service, or other activities. May be repeated once for credit. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 187B",
+        "title": "Advanced Tutorial in Community and Culture II",
+        "units": 2,
+        "description": "Tutorial, one hour. Requisite: course 25 or 27. Designed as adjunct to upper-division course in Hispanic literature, language, and culture. Exploration of topics in greater depth through supplemental readings, papers, community service, or other activities. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 191A",
+        "title": "Variable Topics in Spanish: Studies in Hispanic Literature and Linguistics",
+        "units": 4,
+        "description": "Seminar, three hours. Limited to 15 junior/senior Spanish majors. Variable topics course with readings, discussions, and development of culminating paper. Consult Schedule of Classes or department counselor for topic to be offered in specific term. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 191B",
+        "title": "Variable Topics in Spanish: Studies in Hispanic Culture and Civilization",
+        "units": 4,
+        "description": "Seminar, three hours. Advanced variable topics course that studies diverse aspects of Hispanic culture, civilization, and history. Classroom discussions, development of culminating paper, and examinations in Spanish. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 191C",
+        "title": "Senior Capstone Seminar",
+        "units": 4,
+        "description": "Seminar, three hours. Enforced requisites: courses 119, 120, and at least three upper-division elective courses required for majors. Limited to senior Spanish majors. Knowledge from previous coursework used to address current trends in discipline; students work with one faculty member on one focused research topic. Culminating paper required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 119"},
+            {"type": "requisite","course": "SPAN 120"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 195",
+        "title": "Community Internships in Spanish",
+        "units": 4,
+        "description": "Tutorial, one hour; fieldwork, 10 hours. Requisite: course 25 or 27. Limited to juniors/seniors. Internship in supervised setting in community agency or business. Students meet on regular basis with instructor and provide journal of their experience. Final research paper required. May be repeated for credit. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 197",
+        "title": "Individual Studies in Spanish",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. Eight units of courses 197 and/or 199 may be applied toward major requirements. May be repeated for maximum of 8 units. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 198A",
+        "title": "Senior Honors Research in Spanish I",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Course 198A is enforced requisite to 198B. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 198B",
+        "title": "Senior Honors Research in Spanish II",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Preparation: completion of minimum of six upper-division major core courses with 3.7 grade-point average. Enforced requisite: course 198A. Limited to juniors/seniors. Development and completion of honors thesis under direct supervision of faculty member. May not be applied toward major requirements. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 198A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 199",
+        "title": "Directed Research in Spanish",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Requisite: course 25. Limited to juniors/seniors. Supervised individual research under guidance of faculty mentor. Culminating paper required. Eight units of courses 197 and/or 199 may be applied toward major requirements. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 25"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 1G",
+        "title": "Reading Course for Graduate Students",
+        "units": 4,
+        "description": "Lecture, three hours. Knowledge of Spanish not required. May not be applied toward degree requirements. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 2",
+        "title": "Elementary Spanish",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Taught in Spanish. Laboratory is online. Introductory Spanish language and culture course that is proficiency-oriented, communicative, and task-based to help develop communicative competence in four skill areas (listening, speaking, reading, and writing), as well as cultural competence. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 202A",
+        "title": "Phonology",
+        "units": 4,
+        "description": "Lecture, three hours. Study of the sound structure of Spanish and main phonological processes that map underlying representations into surface representations. Bearing of phonological theory on study of meter.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 202B",
+        "title": "Morphology",
+        "units": 4,
+        "description": "Lecture, three hours. Study of derivational and inflectional word formation processes and their interaction with syntactic structure.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 204A",
+        "title": "Generative Syntax and Semantics",
+        "units": 4,
+        "description": "Lecture, three hours. Study of syntactic structure of Spanish and relation between underlying representations and logical form within a principles-and-parameters framework. Bearing of syntactic and semantic structure on study of literature.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 204B",
+        "title": "Generative Syntax and Semantics",
+        "units": 4,
+        "description": "Lecture, three hours. Study of syntactic structure of Spanish and relation between underlying representations and logical form within a principles-and-parameters framework. Bearing of syntactic and semantic structure on study of literature.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 209",
+        "title": "Dialectology",
+        "units": 4,
+        "description": "Lecture, three hours. Major dialect areas of peninsular and American Spanish, with distinguishing features of each. Influence and contribution of cultural and historical features, including indigenous languages, to their formation.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 221",
+        "title": "Medieval Lyric Poetry",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on Spanish lyric poetry from the beginning to 1500.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 222",
+        "title": "Medieval Epic and Narrative Poetry",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on Spanish epic and narrative poetry from the beginning to 1500.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 223",
+        "title": "Medieval Prose",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on Spanish prose from the beginning to 1500.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 224",
+        "title": "Poetry of the Golden Age",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on Spanish poetry from 1500 to 1700.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 225",
+        "title": "Drama of the Golden Age",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on the comedia.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 226",
+        "title": "Prose of the Golden Age",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on fictional, didactic, religious, and historical writings.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 227",
+        "title": "Cervantes",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on works of Cervantes.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 228",
+        "title": "The Enlightenment",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on representative works of the period.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 229",
+        "title": "Romanticism",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on representative works of the period.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 230",
+        "title": "Realism and Naturalism",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on literary works, principally novels, from 1850 to 1898.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 231",
+        "title": "Major Currents in Modern Spanish Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Introduction to major literary currents, including symbolism, Parnassianism, and the Generation of 1898.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 232",
+        "title": "Spanish Prose Literature from 1898 to the Civil War",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on representative essays, novels, and short stories of the period.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 233",
+        "title": "Spanish Prose Literature after the Civil War",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on representative essays, novels, and short stories of the period.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 234",
+        "title": "Spanish Drama and Poetry from 1898 to the Civil War",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on representative plays and poems.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 235",
+        "title": "Spanish Drama and Poetry after the Civil War",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on representative plays and poems of the period.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 237",
+        "title": "Literature of the Spanish Conquest",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on chronicles, poems, and indigenous accounts of the Spanish Conquest.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 238",
+        "title": "Baroque, Enlightenment, and Neoclassicism in Colonial Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Readings of and lectures on representative texts.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 239",
+        "title": "Romanticism and Realism in Spanish-American Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Intensive study of Romanticism and realism in Spanish-American literature.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 240",
+        "title": "Major Currents in Modern Spanish-American Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Study of principal trends in modern Spanish-American literature, particularly naturalismo and modernismo.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 241A",
+        "title": "Contemporary Spanish-American Short Story",
+        "units": 4,
+        "description": "Lecture, three hours. Study of important short story writers from modernism to the present.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 241B",
+        "title": "Contemporary Spanish-American Short Story",
+        "units": 4,
+        "description": "Lecture, three hours. Study of important short story writers from modernism to the present.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 243A",
+        "title": "Contemporary Spanish-American Poetry",
+        "units": 4,
+        "description": "Lecture, three hours. Intensive study of important poets of Spanish America from modernism to the present.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 243B",
+        "title": "Contemporary Spanish-American Poetry",
+        "units": 4,
+        "description": "Lecture, three hours. Intensive study of important poets of Spanish America from modernism to the present.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 244A",
+        "title": "Contemporary Spanish-American Novel",
+        "units": 4,
+        "description": "Lecture, three hours. Study of important novelists from modernism to the present.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 244B",
+        "title": "Contemporary Spanish-American Novel",
+        "units": 4,
+        "description": "Lecture, three hours. Study of important novelists from modernism to the present.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 245",
+        "title": "Contemporary Spanish-American Essay",
+        "units": 4,
+        "description": "Lecture, three hours. Study of important Spanish-American essayists of the 20th century.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 246",
+        "title": "Contemporary Spanish-American Drama",
+        "units": 4,
+        "description": "Lecture, three hours. Study of principal Spanish-American dramatists and theater movements in the 20th century.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 25",
+        "title": "Advanced Spanish Composition",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 5. Emphasis on development of communicative abilities, both verbal and written, as well as on increasing comprehension of variety of forms of cultural production in Spanish language and on preparation for more advanced Spanish courses. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 5"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 256A",
+        "title": "Studies in Spanish Linguistics",
+        "units": 4,
+        "description": "Lecture, two hours. Study of problems in analysis and description of the contemporary Spanish language.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 256B",
+        "title": "Studies in Spanish Linguistics",
+        "units": 4,
+        "description": "Lecture, two hours. Study of problems in analysis and description of the contemporary Spanish language.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 257",
+        "title": "Studies in Dialectology",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 262A",
+        "title": "Studies in Medieval Spanish Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 262B",
+        "title": "Studies in Medieval Spanish Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 264A",
+        "title": "Studies in Golden Age Spanish Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 264B",
+        "title": "Studies in Golden Age Spanish Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 265",
+        "title": "Cervantes",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 27",
+        "title": "Advanced Spanish Composition for Heritage Speakers",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 7B or equivalent. Not open for credit to students with credit for course 25. Practice in reading and writing of Spanish for students with oral proficiency in Spanish (in lieu of course 25). P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 7B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 270A",
+        "title": "Studies in 18th-Century Spanish Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 270B",
+        "title": "Studies in 18th-Century Spanish Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 271A",
+        "title": "Studies in 19th-Century Spanish Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 271B",
+        "title": "Studies in 19th-Century Spanish Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 272A",
+        "title": "Studies in 20th-Century Spanish Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 272B",
+        "title": "Studies in 20th-Century Spanish Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 277A",
+        "title": "Studies in Colonial Spanish-American Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 277B",
+        "title": "Studies in Colonial Spanish-American Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 278A",
+        "title": "Studies in 19th-Century Spanish-American Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 278B",
+        "title": "Studies in 19th-Century Spanish-American Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 280A",
+        "title": "Studies in Contemporary Spanish-American Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 281",
+        "title": "Studies in Chicano Literature",
+        "units": 4,
+        "description": "Discussion, two hours.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 28A",
+        "title": "Spanish for Special Purposes: Medical",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 3. Practice in speaking, reading, and writing Spanish using appropriate vocabulary and cultural situations for students with special interest in fields such as medicine, business, law, etc. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 28B",
+        "title": "Spanish for Special Purposes: Business",
+        "units": 4,
+        "description": "Lecture, three hours. Recommended requisite: course 3. Introduction to Spanish language and its diverse cultures in variety of business settings. Offers opportunities to practice simple language that may be useful in airports, hotels, restaurants, and informal and professional settings where Spanish is target language. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 290",
+        "title": "Special Topics",
+        "units": 4,
+        "description": "Lecture, two hours. Variable topics; consult Schedule of Classes or department counselor for topics to be offered in a specific term.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 291A",
+        "title": "Colonial Studies Research Group",
+        "units": 2,
+        "description": "Research group meeting, two hours. Limited to graduate students. Course 291A is requisite to 291B. Discussion and analysis of colonial manuscripts. Specific topics vary from year to year. Production of student papers for publication and/or presentation at conferences or symposia. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 291B",
+        "title": "Colonial Studies Research Group",
+        "units": 2,
+        "description": "Research group meeting, two hours. Requisite: course 291A. Limited to graduate students. Discussion and analysis of colonial manuscripts. Specific topics vary from year to year. Production of student papers for publication and/or presentation at conferences or symposia. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 291A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 296",
+        "title": "Graduate Research Group",
+        "units": 2,
+        "description": "Research group meeting, two hours. Limited to graduate students. Designed to bring together graduate students in seminar setting with one or more faculty members to discuss and critique individual research projects, especially dissertation research. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 2G",
+        "title": "Reading Course for Graduate Students",
+        "units": 4,
+        "description": "Lecture, three hours. Enforced requisite: course 1G. May not be applied toward degree requirements. S/U grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 1G"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 3",
+        "title": "Elementary Spanish",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Enforced requisite: course 2 with grade of C or better or Spanish placement test. Taught in Spanish. Laboratory is online. Introductory Spanish language and culture course that is proficiency-oriented, communicative, and task-based to help develop communicative competence in four skill areas (listening, speaking, reading, and writing), as well as cultural competence. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 2"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 370",
+        "title": "Teaching Spanish in Secondary School",
+        "units": 4,
+        "description": "Lecture, three hours. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 4",
+        "title": "Intermediate Spanish",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Taught in Spanish. Laboratory is online. Intermediate Spanish language and culture course designed to increase communicative ability. Acquisition of cultural competence and introduction to study of literature. Comprehension of conversations and stretches of connected discourse, reading of texts with minimum use of dictionary, writing with increased grammatical accuracy and control of sentence structure, coherence, and text organization, talking about past, present, and future events, and expression of preferences, feelings, beliefs, and opinions. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 42",
+        "title": "Iberian Cultures",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spain, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 44",
+        "title": "Latin American Cultures",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, one hour. Required of majors. Lectures taught in English; discussion sections taught in either Spanish or English. Highlights of civilization of Spanish America, with emphasis on artistic, economic, social, and historical development as background for upper-division courses. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 490",
+        "title": "Using Technology in Foreign Language Classroom",
+        "units": 4,
+        "description": "Discussion, two hours. Designed for graduate students. Theory and practice of using technology in foreign language classroom. Computer applications that facilitate instruction of grammar, discourse, culture, and composition, as well as evaluation and communication between students and instructor. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 495",
+        "title": "Teaching Spanish at College Level",
+        "units": 4,
+        "description": "Seminar, to be arranged. Designed for graduate Spanish and Portuguese students. Basic concepts of modern theories of language and language acquisition which underlie modern methods of second language teaching. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 5",
+        "title": "Intermediate Spanish",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Taught in Spanish. Laboratory is online. Intermediate Spanish language and culture course designed to increase communicative ability. Acquisition of cultural competence and introduction to study of literature. Comprehension of conversations and stretches of connected discourse, reading of texts with minimum use of dictionary, writing with increased grammatical accuracy and control of sentence structure, coherence, and text organization, talking about past, present, and future events, and expression of preferences, feelings, beliefs, and opinions. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 596",
+        "title": "Directed Individual Study or Research",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Study or research in areas or subjects not offered as regular courses. The number of units that can be applied toward MA requirements varies by area/track of study within the department. Consult the department for details. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 597",
+        "title": "Preparation for Graduate Examinations",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Preparation: official acceptance of candidacy by department. Individual preparation for MA comprehensive examination or PhD qualifying examinations. May be taken only once for each degree examination and only in term that comprehensive or qualifying examinations are to be taken. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 598",
+        "title": "Research for MA Thesis",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Research in preparation of MA thesis. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 599",
+        "title": "Research for PhD Dissertation",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to students who have passed PhD qualifying examinations. Research for and preparation of PhD dissertation. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 60A",
+        "title": "Hispanic Literatures in Translation: Spanish Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Class readings and analysis of selected works in translation. Classroom discussion, papers, and examinations in English.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 60B",
+        "title": "Hispanic Literatures in Translation: Spanish-American Literature",
+        "units": 4,
+        "description": "Lecture, three hours. Class readings and analysis of selected works in translation. Classroom discussion, papers, and examinations in English.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 60C",
+        "title": "Hispanic Literatures in Translation: Don Quijote",
+        "units": 4,
+        "description": "Lecture, three hours. Class readings and analysis of selected works in translation. Classroom discussion, papers, and examinations in English.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 7A",
+        "title": "Introductory Spanish for Heritage Speakers",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Laboratory is online. Designed for students who are from Spanish-speaking family background and have some knowledge of Spanish. Introductory course to further develop communicative abilities, both verbal and written, and to increase knowledge of grammatical structures and achieve communicative competence. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 7B",
+        "title": "Intermediate Spanish for Heritage Speakers",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, two hours. Enforced requisite: course 3 or 7A or Spanish placement test. Laboratory is online. Designed for students who are from Spanish-speaking family background and have some knowledge of Spanish. Intermediate course to further develop communicative abilities, both verbal and written, and to increase knowledge of grammatical structures and achieve communicative competence. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 3"},{"type": "requisite","course": "SPAN 7A"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 88",
+        "title": "Lower-Division Seminar",
+        "units": 4,
+        "description": "Seminar, three hours. Knowledge of Spanish not essential. Variable topics courses designed to explore various themes and issues pertinent to Hispanic literature and culture.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 8A",
+        "title": "Spanish Conversation",
+        "units": 2,
+        "description": "Discussion, three hours. Course 8A is open to students with credit for course 4 or equivalent. Students who have completed course 3 with grade of B or better may be admitted. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 4"},{"type": "requisite","course": "SPAN 3"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 8B",
+        "title": "Spanish Conversation",
+        "units": 2,
+        "description": "Discussion, three hours. Course 8A is open to students with credit for course 4 or equivalent. Students who have completed course 3 with grade of B or better may be admitted. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 97",
+        "title": "Variable Topics in Spanish",
+        "units": 2,
+        "description": "Lecture, two hours. Variable topics course with lectures, discussions, and papers; consult Schedule of Classes or department counselor for topic to be offered in specific term. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 9A",
+        "title": "Advanced Conversation",
+        "units": 2,
+        "description": "Discussion, three hours. Enforced requisite: course 8B. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 8B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN 9B",
+        "title": "Advanced Conversation",
+        "units": 2,
+        "description": "Discussion, three hours. Enforced requisite: course 8B. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 8B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M122",
+        "title": "Foundations in Visual Culture in Iberian, Latin American, and Luso-Brazilian Worlds",
+        "units": 4,
+        "description": "(Same as Portuguese M122.) Lecture, four hours. Requisite: course 25 or 27 or Portuguese 25 or 26 or 27. Taught in English. Addresses specificities of visual culture in Spanish- and Portuguese-speaking worlds. Through critical engagement with wide range of visual materials-from 16th-century maps of Americas to YouTube videos of street protects in Chile; from Modernist architectural designs for new national capitals to telenovelas and colonial photographs; and everything in between-introduction to practices, processes, objects of study, and interdisciplinary critical frameworks of field of visual culture studies. By examining manifestations of visual culture from Iberian, Latin American, and Luso-Brazilian contexts, students gain culturally specific foundations of visual knowledge and skills of visual literacy. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"},{"type": "requisite","course": "PORTGSE 25"},{"type": "requisite","course": "PORTGSE 26"},{"type": "requisite","course": "PORTGSE 27"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M165XP",
+        "title": "Taking It to Street: Spanish in Community",
+        "units": 5,
+        "description": "(Same as Chicana/o and Central American Studies M167XP.) Seminar, three hours; fieldwork, 10 hours. Enforced requisite: course 25 or 27. Service learning course to give students opportunity to use cultural and linguistic knowledge acquired in Spanish classes in real-world settings. Students required to spend minimum of eight to 10 hours per week at agreed on site in Latino community. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "SPAN 25"},{"type": "requisite","course": "SPAN 27"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M172XP",
+        "title": "Topics in Community Engagement",
+        "units": 5,
+        "description": "(Formerly numbered M172SL.) (Same as Chicana/o and Central American Studies M170XP.) Seminar, four hours; field project, four to six hours. Requisite: course 25. Introduction to community engagement in various forms. Exploration of methods of community involvement and change making processes within variety of professional contexts in community. Students engage in experiential research, service, and/or learning to broaden their understanding of Spanish-speaking and Latinx communities. Students have opportunity to use cultural and linguistic knowledge acquired in Spanish classes in real-world settings. Topics may include oral tradition, immigrant narratives, visual culture and community, language and identity in community, urban spaces, etc. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "SPAN 25"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M200",
+        "title": "Research Resources",
+        "units": 4,
+        "description": "(Same as Portuguese M200.) Lecture, three hours. Identification and use of research resources for graduate students.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M201A",
+        "title": "Literary Theory and Criticism",
+        "units": 4,
+        "description": "(Same as Portuguese M201A.) Lecture, three hours. Definition, discussion, and application of main currents of contemporary literary theory and criticism. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M201B",
+        "title": "Literary Theory and Criticism",
+        "units": 4,
+        "description": "(Same as Portuguese M201B.) Lecture, three hours. Definition, discussion, and application of main currents of contemporary literary theory and criticism. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M205A",
+        "title": "Development of Portuguese and Spanish Languages",
+        "units": 4,
+        "description": "(Same as Portuguese M205A.) Lecture, three hours. Intensive study of historical development of Portuguese and Spanish languages from their origin in spoken Latin.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M205B",
+        "title": "Development of Portuguese and Spanish Languages",
+        "units": 4,
+        "description": "(Same as Portuguese M205B.) Lecture, three hours. Intensive study of historical development of Portuguese and Spanish languages from their origin in spoken Latin.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M247",
+        "title": "Chicano Literature",
+        "units": 4,
+        "description": "(Same as Chicana/o and Central American Studies M247.) Lecture, three hours. Study of major movements and authors of Mexican American literature. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M251A",
+        "title": "Studies in Galegan-Portuguese and Old Spanish",
+        "units": 4,
+        "description": "(Same as Portuguese M251A.) Lecture, two hours. Study of problems related to historical development of Galegan-Portuguese and Old Spanish.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M251B",
+        "title": "Studies in Galegan-Portuguese and Old Spanish",
+        "units": 4,
+        "description": "(Same as Portuguese M251A-M251B.) Lecture, two hours. Study of problems related to historical development of Galegan-Portuguese and Old Spanish.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M280B",
+        "title": "Studies in Contemporary Spanish-American Literature",
+        "units": 4,
+        "description": "(Formerly numbered 280B.) (Same as Comparative Literature M281.) Seminar, three hours. Preparation: reading knowledge of one foreign language. In-depth study of topic of Latin American literature in comparative context. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M296T",
+        "title": "Translation Research Group",
+        "units": 2,
+        "description": "(Same as English M296T and Portuguese M296T.) Research group meeting, two hours. Limited to graduate students. Designed to bring together graduate students in seminar setting with one or more faculty members to discuss and translate Hispanic literary works from Spanish or Portuguese to English. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M297A",
+        "title": "Proseminar I",
+        "units": 2,
+        "description": "(Same as Portuguese M297A.) Proseminar, two hours. Limited to graduate students. Introduction to doctoral study and to professions. Designed to bring together first-year graduate students in seminar setting to discuss how to define their own work in relation to literary, linguistic, and/or cultural studies, broader humanities field, and our various communities. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M297B",
+        "title": "Proseminar II",
+        "units": 2,
+        "description": "(Same as Portuguese M297B.) Proseminar, two hours. Limited to graduate students. Designed to bring together third-year graduate students in seminar setting to discuss transition to independent research, conception of dissertation, presentation of research findings (publications and conferences), and preparation for job market. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "SPAN M35",
+        "title": "Spanish, Portuguese, and Nature of Language",
+        "units": 5,
+        "description": "(Same as Portuguese M35.) Lecture, three hours; discussion, one hour. Introduction to language study within context of Romance languages, focusing on Spanish and Portuguese. Nature of language: structure, diversity, evolution, social and cultural settings, literary uses. Study of language and its relation to other areas of human knowledge. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

@@ -1,0 +1,316 @@
+[
+    {
+        "id": "I A STD 1",
+        "title": "Introduction to International and Area Studies",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to international and area studies from interdisciplinary framework, covering themes related to international politics and markets, as well as international societies and cultures, to illuminate and clarify profoundly international character of world we live in and to introduce set of contemporary issues and challenges that cross borders and affect every region of world. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 10",
+        "title": "Explorations in International Studies",
+        "units": 2,
+        "description": "Lecture, two hours. Exploration of key international events through active learning, designed to develop understanding of international issues and diverse skill set, including persuasive speaking, critical thinking, research skills, problem solving, teamwork, expository writing, and leadership skills. May be repeated for credit without limitation. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 110A",
+        "title": "Field Studies in International and Area Studies",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of culture, economy, history, and politics of important locations around world. Hands-on experiential programs offered for students participating in UCLA Travel Study Program. Field trips included to gain first-hand experience. May be repeated with topic and/or location change. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 110B",
+        "title": "Field Studies in International and Area Studies",
+        "units": 4,
+        "description": "Seminar, three hours. Exploration of culture, economy, history, and politics of important locations around world. Hands-on experiential programs offered for students participating in UCLA Travel Study Program. Field trips included to gain first-hand experience. May be repeated with topic and/or location change. Offered in summer only. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 111A",
+        "title": "Art of Citizen Diplomacy",
+        "units": 2,
+        "description": "Seminar, two hours. Examination of theory, tools, and practice of civic engagement by highlighting student leadership. Provides students with practical tools in leadership, civic responsibility, and conflict resolution in order to tackle global issues such as climate change, gender equality, income equality, and human rights. Class activities to understand how ordinary citizens can build bridges between cultures. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 111B",
+        "title": "Introduction to Experiential Learning Abroad",
+        "units": 2,
+        "description": "Seminar, two hours. Intended for students planning to participate in international study abroad program during upcoming summer. Practical tools in effective listening, intercultural understanding, understanding multiple narratives, sharpening leadership skills, and articulating thoughts. Prepares students for study abroad experiences and offers them tools to appreciate their travel. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 111C",
+        "title": "Engaging Global Cultures: Reflecting on Fieldwork",
+        "units": 2,
+        "description": "Seminar, two hours. Academic venue for students who have attended study abroad programs to reflect on and share their experiences in order to enhance benefits of program in which they participated. Practical tools in active listening and applying knowledge acquired during international travel. Students analyze complex layers of intercultural communication, world affairs, and conflict. Post-study abroad follow-up activities, including presentations on campus and in community, other on-campus education activities, and writing of journal article. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 160",
+        "title": "Selected Topics in International and Area Studies",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Examination of one or more topics related to international and area studies. May be repeated for credit with topic change. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 188",
+        "title": "Special Courses in International and Area Studies",
+        "units": 4,
+        "description": "Seminar, three hours. Program-sponsored experimental or temporary courses, such as those taught by resident or visiting faculty members. May be repeated for credit with topic change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 191",
+        "title": "Variable Topics Senior Research Seminars: International and Area Studies",
+        "units": 4,
+        "description": "Seminar, three hours. Enforced requisite: course 1. Limited to senior international and area studies majors. Organized on topics basis with readings, discussions, papers, and development of culminating project. May not be repeated for credit. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I A STD 1"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 193",
+        "title": "Colloquia and Speaker Series",
+        "units": 1,
+        "description": "Seminar, two hours. Introduction to current scholarship in field of international and area studies. Attendance at selected presentations with required response papers. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 195CE",
+        "title": "Community and Corporate Internships in International and Area Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged; fieldwork, eight to 10 hours. Limited to juniors/seniors. Internship in corporate, governmental, or nonprofit setting coordinated through Center for Community Learning. Students complete weekly written assignments, attend biweekly meetings with graduate student coordinator, and write final research paper. Faculty sponsor and graduate student coordinator construct series of reading assignments that examine issues related to internship site. May be applied toward major requirements. May be repeated for credit with consent of Center for Community Learning. Individual contract with supervising faculty member required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 198A",
+        "title": "Honors Research in International and Area Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to international and area studies honors program students. Supervised individual research or investigation under guidance of faculty mentor. Development and planning of honors thesis. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 198B",
+        "title": "Honors Research in International and Area Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 198A. Limited to international and area studies honors program students. Supervised individual research or investigation under guidance of faculty mentor. Continued development and refinement of honors thesis. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I A STD 198A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 198C",
+        "title": "Honors Research in International and Area Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 198B. Limited to international and area studies honors program students. Final drafting and submission of completed honors thesis. Culminating paper of 35 to 50 pages required. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I A STD 198B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 199",
+        "title": "Directed Research in International and Area Studies",
+        "units": 4,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research under guidance of faculty mentor. Culminating paper required. May be applied toward requirements via petition. May be repeated for credit. Individual contract required. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 31",
+        "title": "Introduction to Southeast Asia",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary survey designed as introduction to modern Southeast Asia. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 33",
+        "title": "Introduction to East Asia",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary survey designed as introduction to modern East Asia. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 40",
+        "title": "Introduction to Europe",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary survey designed as introduction to modern Europe. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 50",
+        "title": "Introduction to Latin America",
+        "units": 5,
+        "description": "Lecture, three hours; discussion, one hour (when scheduled). Interdisciplinary survey designed as introduction to modern Latin America. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD M6A",
+        "title": "Elementary Amharic",
+        "units": 4,
+        "description": "(Same as African American Studies M9A.) Lecture, five hours. Course M6A is requisite to M6B, which is requisite to M6C. Introduction to Amharic, Semitic language that is official language of Ethiopia. Coverage of basic Amharic grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD M6B",
+        "title": "Elementary Amharic",
+        "units": 4,
+        "description": "(Same as African American Studies M9B.) Lecture, five hours. Requisite: course M6A. Introduction to Amharic, Semitic language that is official language of Ethiopia. Coverage of basic Amharic grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I A STD M6A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD M6C",
+        "title": "Elementary Amharic",
+        "units": 4,
+        "description": "(Same as African American Studies M9C.) Lecture, five hours. Requisite: course M6B. Introduction to Amharic, Semitic language that is official language of Ethiopia. Coverage of basic Amharic grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I A STD M6B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD M7A",
+        "title": "Elementary Yoruba",
+        "units": 4,
+        "description": "(Same as African American Studies M7A.) Lecture, five hours. Course M7A is requisite to M7B, which is requisite to M7C. Introduction to Yoruba, one of major languages of West Africa, which is spoken widely throughout southwest Nigeria, Benin, and Togo. Coverage of basic Yoruba grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD M7B",
+        "title": "Elementary Yoruba",
+        "units": 4,
+        "description": "(Same as African American Studies M7B.) Lecture, five hours. Requisite: course M7A. Introduction to Yoruba, one of major languages of West Africa, which is spoken widely throughout southwest Nigeria, Benin, and Togo. Coverage of basic Yoruba grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I A STD M7A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD M7C",
+        "title": "Elementary Yoruba",
+        "units": 4,
+        "description": "(Same as African American Studies M7C.) Lecture, five hours. Requisite: course M7B. Introduction to Yoruba, one of major languages of West Africa, which is spoken widely throughout southwest Nigeria, Benin, and Togo. Coverage of basic Yoruba grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I A STD M7B"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD M8A",
+        "title": "Elementary Tigrinya",
+        "units": 4,
+        "description": "(Same as African American Studies M8A.) Lecture, five hours. Course M8A is requisite to M8B, which is requisite to M8C. Introduction to Tigrinya, a language spoken in the Horn of Africa, in Eritrea and Ethiopia. Coverage of basic Tigrinya grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I A STD M8B",
+        "title": "Elementary Tigrinya",
+        "units": 4,
+        "description": "(Same as African American Studies M8B.) Lecture, five hours. Requisite: course M8A. Introduction to Tigrinya, a language spoken in the Horn of Africa, in Eritrea and Ethiopia. Coverage of basic Tigrinya grammar, with equal emphasis on reading, writing, conversation, and comprehension. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I A STD M8A"}
+        ],
+        "equivalentCourses": []
+    }
+]

@@ -1,0 +1,336 @@
+[
+    {
+        "id": "I E STD 131",
+        "title": "European Archaeology, Neolithic to Bronze Age",
+        "units": 4,
+        "description": "Lecture, four hours. Survey of European cultures from beginning of food-producing economy in 7th millennium BC to beginning of Bronze Age in 3rd millennium BC. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 132",
+        "title": "European Archaeology: The Bronze Age",
+        "units": 4,
+        "description": "Requisite: course 131. Survey of European cultures from around 3000 BC to the period of destruction of the Mycenaean culture about 1200 BC. Aegean area and rest of Europe.",
+        "requisites": [
+            {"type": "requisite","course": "I E STD 131"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 140",
+        "title": "Food in Language and Myth",
+        "units": 4,
+        "description": "Lecture, three hours; discussion, one hour. Introduction to study of food in fields of linguistics and mythology. What is special about language used to talk about food, what is history of food words, and how does language impact appreciation of food? How do myths and narratives revolving around food function in different cultures? Students explore history of food words and learn how to analyze food myths. Students become aware of how language in food is manipulated and how to tell more effective stories about food. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 189",
+        "title": "Advanced Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 189HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 200",
+        "title": "Proseminar: Indo-European Studies",
+        "units": 2,
+        "description": "Seminar, two hours every other week. Required of graduate Indo-European studies students during first year. Introduction to graduate-level research in Indo-European studies. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 205",
+        "title": "Indo-European Phonology",
+        "units": 4,
+        "description": "Lecture, three hours. Requisites: course M150, Linguistics 110. Study of proto-Indo-European phonology and its historical development into most important of oldest attested descendant languages. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I E STD M150"},
+            {"type": "requisite","course": "LING 110"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 210",
+        "title": "Indo-European Morphology",
+        "units": 4,
+        "description": "Lecture, three hours. Comparative study of proto-Indo-European nominal and verbal morphology and its historical development into most important of oldest attested descendant languages. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 215",
+        "title": "Indo-European Syntax",
+        "units": 4,
+        "description": "Lecture, three hours. Requisite: course 210. Comparative and historical study of syntax in proto-Indo-European and most important of oldest attested descendant languages. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I E STD 210"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 240",
+        "title": "Comparative and Historical Grammar of Anatolian",
+        "units": 2,
+        "description": "Lecture, three hours. Requisites: courses M150, M168A. Survey of comparative and historical grammar of Anatolian languages, with special focus on its implications for Indo-European reconstruction and for language change broadly. Grammatical features are observed in context through readings of representative texts from Anatolian languages including Hittite, Luwian, Lycian, and Palaic. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I E STD M150"},
+            {"type": "requisite","course": "I E STD M168A"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 250A",
+        "title": "European Archaeology",
+        "units": 4,
+        "description": "Seminar, three hours. Studies in ancient European archaeological materials and their relationship to Near East, Western Siberia, and Central Asia. May be repeated for credit. In Progress grading (credit to be given only on completion of course 250B).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 250B",
+        "title": "European Archaeology",
+        "units": 4,
+        "description": "Seminar, three hours. Studies in ancient European archaeological materials and their relationship to Near East, Western Siberia, and Central Asia. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 280A",
+        "title": "Seminar: Indo-European Linguistics",
+        "units": 2,
+        "description": "Seminar, three hours. Selected topics in Indo-European comparative grammar for advanced graduate students. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 280B",
+        "title": "Seminar: Indo-European Linguistics",
+        "units": 2,
+        "description": "Seminar, three hours. Requisite: course 210. Selected topics in Indo-European comparative grammar for advanced graduate students. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I E STD 210"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 281A",
+        "title": "Seminar: Indo-European Linguistics",
+        "units": 2,
+        "description": "Seminar, three hours. Requisite: course 210. Selected topics in Indo-European comparative grammar for advanced graduate students. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I E STD 210"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 281B",
+        "title": "Seminar: Indo-European Linguistics",
+        "units": 2,
+        "description": "Seminar, three hours. Requisite: course 210. Selected topics in Indo-European comparative grammar for advanced graduate students. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "I E STD 210"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 596",
+        "title": "Directed Individual Studies",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 597",
+        "title": "Preparation for PhD Qualifying Examinations",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 599",
+        "title": "Research for PhD Dissertation",
+        "units": 2,
+        "description": "Tutorial, to be arranged. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 89",
+        "title": "Honors Seminars",
+        "units": 1,
+        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 89HC",
+        "title": "Honors Contracts",
+        "units": 1,
+        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD C160",
+        "title": "Indo-European Comparative Mythology and Poetics",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: familiarity with at least one ancient Indo-European language. Comparison of major Indo-European mythological and poetic traditions and reconstruction of their common sources. Topics include divinities and their names; symbolic systems in social context; myths, folk narratives, belief systems; relations with other traditions; literary continuations of mythopoetic material. Concurrently scheduled with course C260. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD C260",
+        "title": "Indo-European Comparative Mythology and Poetics",
+        "units": 4,
+        "description": "Seminar, three hours. Preparation: ability to read original sources in at least one ancient Indo-European language. Comparison of major Indo-European mythological and poetic traditions and reconstruction of their common sources. Topics include divinities and their names; symbolic systems in social context; myths, folk narratives, belief systems; relations with other traditions; literary continuations of mythopoetic material. Concurrently scheduled with course C160. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M150",
+        "title": "Introduction to Indo-European Linguistics",
+        "units": 5,
+        "description": "(Same as Linguistics M150.) Lecture, four hours; discussion, one hour (when scheduled). Enforced requisite: Linguistics 1 or 20. Indo-European languages (ancient and modern), including their relationships, chief characteristics, writing systems, and sociolinguistic contexts; nature of reconstructed Indo-European proto-language and proto-culture. One or more Indo-European languages may be investigated in detail. P/NP or letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "LING 1"},{"type": "requisite","course": "LING 20"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M168A",
+        "title": "Elementary Hittite",
+        "units": 4,
+        "description": "(Formerly numbered M168.) (Same as Ancient Near East M168A.) Lecture, three hours. Recommended preparation: knowledge of language with case system. Introduction to Hittite grammar by series of graded lessons covering morphology and syntax, followed by readings of selected texts from variety of genres. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M168B",
+        "title": "Elementary Hittite",
+        "units": 4,
+        "description": "(Same as Ancient Near East M168B.) Lecture, three hours. Recommended requisite: course M168A. Readings of selected Hittite texts from variety of genres and historical periods. Individual topics in synchronic and historical grammar of Hittite and in history and culture of Hittites are treated in detail. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M172",
+        "title": "Elementary Luwian",
+        "units": 4,
+        "description": "(Same as Ancient Near East M172.) Lecture, three hours. Recommended preparation: knowledge of language with case system. Introduction to Luwian grammar through lectures covering morphology and syntax, and readings of selected hieroglyphic and cuneiform texts. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M20",
+        "title": "Visible Language: Study of Writing",
+        "units": 5,
+        "description": "(Same as Asian M20, Near Eastern Languages M20, Slavic M20, and Southeast Asian M20.) Lecture, three hours; discussion, one hour. Consideration of concrete means of language representation in writing systems. Earliest representations of language known are those of Near East dating to end of 4th millennium BC. While literate civilizations of Egypt, Indus Valley, China, and Mesoamerica left little evidence of corresponding earliest developments, their antiquity and, in case of China and Mesoamerica, their evident isolation mark these centers as loci of independent developments in writing. Basic characteristics of early scripts, assessment of modern alphabetic writing systems, and presentation of conceptual basis of semiotic language representation. Origins and development of early non-Western writing systems. How Greco-Roman alphabet arose in 1st millennium BC and how it compares to other modern writing systems. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M222A",
+        "title": "Vedic",
+        "units": 4,
+        "description": "(Same as Iranian M222A and South Asian M222A.) Lecture, three hours. Preparation: knowledge of Sanskrit equivalent to South Asian 110C. Characteristics of Vedic dialect and readings in Rig-Vedic hymns. May not be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M222B",
+        "title": "Vedic",
+        "units": 4,
+        "description": "(Same as Iranian M222B and South Asian M222B.) Lecture, three hours. Preparation: knowledge of Sanskrit equivalent to South Asian 110C. Characteristics of Vedic dialect and readings in Rig-Vedic hymns. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M230A",
+        "title": "Old Iranian",
+        "units": 4,
+        "description": "(Same as Iranian M230A.) Lecture, four hours. Studies in grammars and texts of Old Persian and Avestan. Comparative considerations. May not be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M230B",
+        "title": "Old Iranian",
+        "units": 4,
+        "description": "(Same as Iranian M230B.) Lecture, four hours. Studies in grammars and texts of Old Persian and Avestan. Comparative considerations. May be repeated for credit. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M238",
+        "title": "Analyzing Historical Texts",
+        "units": 4,
+        "description": "(Same as History M266C and Linguistics M238.) Seminar, four hours. Designed for graduate students. Analysis of linguistic structure and ethnohistorical context of legal and other documents written by native-speaking scribes and translators. Topics include paleographic technique and text analysis software. May be repeated for credit. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "I E STD M70",
+        "title": "Language and Evolution",
+        "units": 5,
+        "description": "(Same as Linguistics M4.) Lecture, three hours; discussion, one hour. Homo Sapiens is only species on Earth with capacity to create infinite number of utterances from small inventory of speech sounds. How and why our species developed this ability is question of fundamental scientific and humanistic importance. Survey of origin of human language from number of intellectual perspectives, including linguistics, anthropology, and evolutionary biology. Exploration of relationship between language faculty and linguistic theory. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

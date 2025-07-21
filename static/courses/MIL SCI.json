@@ -1,0 +1,179 @@
+[
+    {
+        "id": "MIL SCI 11",
+        "title": "Foundations of Officership",
+        "units": 2,
+        "description": "Lecture, one hour. Introduction to issues and competencies that are central to commissioned officer's responsibilities. Framework established to understand officership, leadership, military customs, briefings, and life skills such as physical fitness, nutrition, and time management. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 110",
+        "title": "U.S. Military History",
+        "units": 3,
+        "description": "Lecture, three hours; discussion, one hour. Survey of American military history from 1860 to the present. Causes of war, strategy, tactics, and technological developments set against economic, political, and diplomatic concerns. Impact of warfare on society.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 12",
+        "title": "Basic Military Leadership",
+        "units": 2,
+        "description": "Lecture, one hour. Requisite: course 11. Introduction to fundamentals of leadership, Army leadership values, ethics, and counseling techniques. Foundation of basic leadership fundamentals central to commissioned officer's responsibilities established. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MIL SCI 11"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 13",
+        "title": "Leadership Development",
+        "units": 2,
+        "description": "Lecture, one hour. Requisite: course 12. Introduction to military problem solving, methodology students can use in their daily lives. Experiential exercises in goal setting and military writing style. Broad overview of life in Army. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MIL SCI 12"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 131",
+        "title": "Tactical Planning and Analysis",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, four hours. Introduction to leadership development process used to evaluate military leadership performance. Examination of how to conduct individual and small unit training as well as introduction to basic principles of tactics. Emphasis on study of reasoning skills, troop leading procedures, and military orders process. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 132",
+        "title": "Army Officership and Communication",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, four hours. Examination of officership that culminates in detailed case study. Interpersonal communication, with focus on general communication theory as well as written and spoken communication skills. Presentation of information briefing to receive feedback from both instructor and fellow students. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 133",
+        "title": "Leadership and Problem Solving",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, four hours. Examination of role communications, values, and ethics play in effective leadership, including ethical decision making, consideration of others, transactional and transformational leadership, and survey of Army leadership doctrine. Emphasis on improving oral and written communication abilities and leadership development and assessment. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 141",
+        "title": "Leadership and Management",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, four hours. Interactive course to develop student proficiency in planning and executing complex training operations. Counseling techniques and development of skills needed to lead various organizations. Exploration of training management, leadership skills, and developmental counseling techniques. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 142",
+        "title": "Leadership, Ethics, and Military Law",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, four hours. Interactive course to enhance student understanding of organizational culture, leadership, and ethics. Understanding and enhancement of leader-member relations, assessment of organizational culture and ethical climate, and how to effect change in organizations. Exploration of foundations of military law and law of war. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 143",
+        "title": "Officership: Professional Military Leadership",
+        "units": 4,
+        "description": "Lecture, three hours; laboratory, four hours. Capstone interactive leadership course to prepare students for challenges of being commissioned officers in U.S. Army by discussing various leadership challenges and case studies. Study of military units, with specific emphasis on joint operations involving Army, Navy, Air Force, and Marine Corps assets, military operations other than war, and global war on terror. Other topics include personnel administration, maintenance management, and financial planning. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 188SA",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 188SB",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 1,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MIL SCI 188SA"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 188SC",
+        "title": "Individual Studies for USIE Facilitators",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MIL SCI 188SB"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 197",
+        "title": "Individual Studies in Military Science",
+        "units": 2,
+        "description": "Tutorial, four hours. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 21",
+        "title": "Individual Leadership Development",
+        "units": 3,
+        "description": "Lecture, two hours. Introduction to various individual leadership personality types, in combined lecture, discussion, and experiential learning, to assist students in development of their own individual leadership style. Additional emphasis on military factors and principles of leadership, goal setting, basic communication, and consideration of others. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 22",
+        "title": "Leadership Development and Military Planning",
+        "units": 3,
+        "description": "Lecture, two hours. Requisite: course 21. Discussion of various methods of communication, planning, and decision making, through combined lecture, discussion, and experiential learning, with focus on written communication and group communication essential for leadership development. Introduction to and application of military planning process in developing operations orders. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MIL SCI 21"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI 23",
+        "title": "Subordinate Development and Army Organization",
+        "units": 3,
+        "description": "Lecture, two hours. Requisite: course 22. Discussion/application of team-building techniques and subordinate development, through combined lecture, discussion, and experiential learning, with additional focus on commissioned officer, branches, and Army organization. Application of counseling techniques, motivation, and consideration of ethics and values for modern leaders. P/NP or letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "MIL SCI 22"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "MIL SCI Z",
+        "title": "Leadership Laboratory",
+        "units": 0,
+        "description": "Laboratory, three hours (lower-division cadets) or four hours (upper-division cadets). All cadets must be concurrently enrolled in a military science course; upper-division cadets must also be under a contracted obligation with department. Designed to allow cadets to apply leadership techniques and military skills taught in classroom and to develop their confidence as future military officers. No grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    }
+]

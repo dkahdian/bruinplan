@@ -1,0 +1,841 @@
+[
+    {
+        "id": "ENGR 102",
+        "title": "Synthetic Biosystems and Nanosystems Design",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisites: course M101, Life Sciences 3. Introduction to current progress in engineering to integrate biosciences and nanosciences into synthetic systems, where biological components are reengineered and rewired to perform desirable functions in both intracellular and cell-free environments. Discussion of basic technologies and systems analysis that deal with dynamic behavior, noise, and uncertainties. Design project in which students are challenged to design novel biosystems and nanosystems for nontrivial task required. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGR M101"},
+            {"type": "requisite","course": "LIFESCI 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 110",
+        "title": "Introduction to Technology Management and Economics for Engineers",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Fundamental principles of micro-level (individual, firm, and industry) and macro-level (government, international) economics as they relate to technology management. How individuals, firms, and governments impact successful commercialization of high technology products and services. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 111",
+        "title": "Introduction to Finance and Marketing for Engineers",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Critical components of finance and marketing research and practice as they impact management of technology commercialization. Internal (within firm) and external (in marketplace) marketing and financing of high-technology innovation. Concepts include present value, future value, discounted cash flow, internal rate of return, return on assets, return on equity, return on investment, interest rates, cost of capital, and product, price, positioning, and promotion. Use of market research, segmentation, and forecasting in management of technological innovation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 112",
+        "title": "Laboratory to Market, Entrepreneurship for Engineers",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Critical components of entrepreneurship, finance, marketing, human resources, and accounting disciplines as they impact management of technology commercialization. Topics include intellectual property management, team building, market forecasting, and entrepreneurial finance. Students work in small teams studying technology management plans to bring new technologies to market. Students select from set of available technology concepts, many generated at UCLA, that are in need of plans for movement from laboratory to market. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 113",
+        "title": "Product Strategy",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Designed for juniors/seniors. Introduction to current management concept of product development. Topics include product strategy, product platform, and product lines; competitive strategy, vectors of differentiation, product pricing, first-to-market versus fast-follower; growth strategy, growth through acquisition, and new ventures; product portfolio management. Case studies, class projects, group discussions, and guest lectures by speakers from industry. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 116",
+        "title": "Statistics for Management Decisions",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Management as well as engineering decisions nearly always take place in environment characterized by uncertainty. Probability provides mathematical framework for understanding how to make rational decisions when outcomes of actions are uncertain. Application of probability to problem of reasoning from sample data, encompassing estimation, hypothesis testing, and regression analysis. Discussion of specific analytical techniques needed in later courses in program. Development of basic understanding of statistical analysis. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 120",
+        "title": "Entrepreneurship for Scientists and Engineers",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Designed for seniors and graduate students. Identification of business opportunities and outline of basic requisites for viable business plans, followed by specific topics related to securing basic assets and resources needed to execute those plans. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 160",
+        "title": "Entrepreneurship and Venture Initiation for Engineers",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Not open to students with credit for Management 160. Focus on process and methodology for starting new venture. Introduction to entrepreneurship from perspective of entrepreneur. Examination of core concepts and frameworks on idea generation, market analysis, fundraising, corporate structures, and financial accounting for entrepreneurial endeavors. Focus on fundamentals of building business, and also emphasis on inherent experiential nature of entrepreneurship and need for constant learning on this subject. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 163",
+        "title": "Entrepreneurship and New Product Development for Engineers",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Limited to juniors/seniors. Not open to students with credit for Management 163. Designed to deepen understanding of innovations and innovative processes related to creating new products. Inquiry into why, what, and how of making new products. New products are essential to any business (start-up or well-established) and thriving economies. Making successful new products requires various types of innovation. Availability of digital technologies and global outsources have accelerated pace of these innovations. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 170",
+        "title": "Project-Based Technology Bootcamp for Social Impact",
+        "units": 4,
+        "description": "Seminar, two hours; offsite work, five hours; outside study; five hours. Study of design thinking covering various business, technology, and interpersonal topics such as data analysis, user interface and user experience, how to pitch, and collaboration. Application of learned skills to define social-impact problem and build solution in student teams coached by industry professionals. May be repeated for credit. P/NP or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 180",
+        "title": "Engineering of Complex Systems",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, two hours; outside study, six hours. Designed for junior/senior engineering majors. Holistic view of engineering discipline, covering lifecycle of engineering, processes, and techniques used in industry today. Multidisciplinary systems engineering perspective in which aspects of electrical, mechanical, material, and software engineering are incorporated. Three specific case studies in communication, sensor, and processing systems included to help students understand these concepts. Special attention paid to link material covered to engineering curriculum offered by UCLA to help students integrate and enhance their understanding of knowledge already acquired. Motivation of students to continue their learning and reinforce lifelong learning habits. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 181EW",
+        "title": "Ethical Negotiation in Technology",
+        "units": 4,
+        "description": "Lecture, five hours; discussion, three hours; outside study, four hours. Requisite: English Composition 3, 3D, 3DS, 3E, or 3SL. Not open for credit to students with credit for course 182EW, 183EW, 185EW, or 188EW. Focuses on negotiation and complex ethical issues that emerge as result in areas such as biotechnology, information technology, nanotechnology, and energy technology. Discussion of nature of these issues; their ethical, legal, and social ramifications; and what society values in relation to these issues. Writing and revision of about 20 pages total, including two essays and one analysis of a negotiation from an ethical perspective. Satisfies engineering writing requirement. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ENGCOMP 3"},{"type": "requisite","course": "ENGCOMP 3D"},{"type": "requisite","course": "ENGCOMP 3DS"},{"type": "requisite","course": "ENGCOMP 3E"},{"type": "requisite","course": "ENGCOMP 3SL"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 182EW",
+        "title": "Technology and Law",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, three hours; outside study, five hours. Requisite: English Composition 3, 3D, 3DX, 3E, or 3SL. Not open for credit to students with credit for course 181EW, 183EW, 185EW, or 188EW. Places engineering in broader societal context through examination of some of key ethical, legal, and regulatory issues and frameworks relevant to design and deployment of emerging technology products and services. Historical examination of ethical and legal frameworks generally and in relation to technology. Exploration of series of specific contemporary technology-related topics to examine their broader ramifications. Topics may include driverless cars, algorithms and artificial intelligence, social media, digital privacy, and impact of technology on employment. Offers students tools enabling them to think more proactively and holistically about ethical and societal dimensions of their work as technology creators. Satisfies engineering writing requirement. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ENGCOMP 3"},{"type": "requisite","course": "ENGCOMP 3D"},{"type": "requisite","course": "ENGCOMP 3DX"},{"type": "requisite","course": "ENGCOMP 3E"},{"type": "requisite","course": "ENGCOMP 3SL"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 183EW",
+        "title": "Engineering and Society",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, three hours; outside study, five hours. Enforced requisite: English Composition 3, 3D, 3DS, 3E, or 3SL. Not open for credit to students with credit for course 181EW, 182EW, 185EW, or 188EW. Limited to sophomore/junior/senior engineering students. Professional and ethical considerations in practice of engineering. Impact of technology on society and on development of moral and ethical values. Contemporary environmental, biological, legal, and other issues created by new technologies. Emphasis on research and writing within engineering environments. Writing and revision of about 20 pages total, including two individual technical essays and one team-written research report. Readings address technical issues and writing form. Satisfies engineering writing requirement. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ENGCOMP 3"},{"type": "requisite","course": "ENGCOMP 3D"},{"type": "requisite","course": "ENGCOMP 3DS"},{"type": "requisite","course": "ENGCOMP 3E"},{"type": "requisite","course": "ENGCOMP 3SL"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 184",
+        "title": "Humanities-Informed Science, Technology, Engineering, and Mathematics",
+        "units": 4,
+        "description": "",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 185EW",
+        "title": "Art of Engineering Endeavors",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, three hours; outside study, five hours. Enforced requisite: English Composition 3, 3D, 3DS, 3E, or 3SL. Not open for credit to students with credit for course 181EW, 182EW, 183EW, or 188EW. Designed for junior/senior engineering students. Nontechnical skills and experiences necessary for engineering career success. Importance of group dynamics in engineering practice. Teamwork and effective group skills in engineering environments. Organization and control of multidisciplinary complex engineering projects. Forms of leadership and qualities and characteristics of effective leaders. How engineering, computer sciences, and technology relate to major ethical and social issues. Societal demands on practice of engineering. Emphasis on research and writing in engineering environments. Satisfies engineering writing requirement. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ENGCOMP 3"},{"type": "requisite","course": "ENGCOMP 3D"},{"type": "requisite","course": "ENGCOMP 3DS"},{"type": "requisite","course": "ENGCOMP 3E"},{"type": "requisite","course": "ENGCOMP 3SL"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 186",
+        "title": "Ethics for Computer Scientists",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, one hour; outside study, seven hours. Equips students with a deep understanding of ethical challenges in contemporary technology, applying foundational ethical theories to ongoing technological advancements. Focus on responsible innovation, societal impact, and sustainable practices in computer science. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 186W",
+        "title": "Ethics for Computer Scientists",
+        "units": 5,
+        "description": "Lecture, four hours; discussion, four hours; outside study, eight hours. Requisite: English Composition 3. Students are equipped to understand ethical challenges in contemporary computer technology. Examination of the impact of technologies and their alignment or misalignment with societal values. Exploration of the ramifications of technology on core ethical principles, encompassing agency, responsibility, and privacy. Students draft 15-20 pages of revised prose and complete informal writing assignments. May be repeated once for credit. Satisfies Writing II requirement. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGCOMP 3"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 188",
+        "title": "Special Courses in Engineering",
+        "units": 4,
+        "description": "Seminar, four hours; outside study, eight hours. Special topics in engineering for undergraduate students taught on experimental or temporary basis, such as those taught by resident and visiting faculty members. May be repeated for credit with topic or instructor change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 188EW",
+        "title": "Experimental Courses in Engineering Ethics",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, three hours; outside study, five hours. Enforced requisite: English Composition 3, 3D, 3DS, 3E, or 3SL. Not open for credit to students with credit for course 181EW, 182EW, 183EW, or 185EW. Limited to junior/senior engineering students. Professional and ethical considerations in practice of engineering and computer science. Emphasis on research and writing within engineering and computer science. Writing and revision of about 20 pages total, including two individual technical essays. Readings address technical issues and writing form. Satisfies engineering writing requirement. Letter grading.",
+        "requisites": [
+            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ENGCOMP 3"},{"type": "requisite","course": "ENGCOMP 3D"},{"type": "requisite","course": "ENGCOMP 3DS"},{"type": "requisite","course": "ENGCOMP 3E"},{"type": "requisite","course": "ENGCOMP 3SL"}]}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 19",
+        "title": "Fiat Lux Freshman Seminars",
+        "units": 1,
+        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 191",
+        "title": "Seminar Series in Engineering Research",
+        "units": 1,
+        "description": "Seminar, one hour. Seminar series in cutting-edge engineering research at UCLA. Each seminar is given by UCLA graduate student researcher or post-doctoral scholar. Designed to be accessible to undergraduate students in any science, technology, engineering, and mathematics (STEM) major. Offers undergraduate students window into excitement of graduate student research experience. Also offers opportunity for graduate students to learn about what their peers are doing. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 192",
+        "title": "Fundamentals of Engineering Mentorship",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Principles and practical techniques for instruction of hands-on engineering design projects. Curriculum planning, project preparation, classroom management, team collaboration, diversity awareness, fostering of group cohesion, and emergency procedures. Preparation of lessons and projects for academic year courses and high school summer outreach program, with practice presentations. May be repeated for credit. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 195",
+        "title": "Internship Studies in Engineering",
+        "units": 1,
+        "description": "Tutorial, one hour. Limited to juniors/seniors. Internship studies course supervised by associate dean or designated faculty members. Further supervision to be provided by organization for which students are doing internship. Students may be required to meet on regular basis with instructor and provide periodic reports of their experience. May not be applied toward major requirements. May be repeated for credit. Individual contract with associate dean required. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 199",
+        "title": "Directed Research in Engineering",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit with school approval. Individual contract required; enrollment petitions available in Office of Academic and Student Affairs. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1A",
+        "title": "Introduction to Engineering Design: Variable Topics",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Introduction to engineering design while building teamwork and communication skills. Examination of engineering majors and careers. Completion of hands-on engineering design projects, preparation of short report describing projects, and presentation of results. Specific project details and relevant majors explored vary with instructor. May be repeated once for credit with topic or instructor change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1AR",
+        "title": "Introduction to Engineering Design: Autonomous Rover",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Students use concepts and tools in mechanical engineering, electrical engineering, and computer science to design and build rovers that operate under wireless control, and can autonomously navigate and respond to environmental cues. Students design robot chassis, connect motors and control/sensory electronics, and program system to map its environment and achieve mission objectives. Student team projects culminate in final competition and oral presentation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1BI",
+        "title": "Introduction to Engineering Design: Bionics",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Students use concepts in mechanical engineering, bioengineering, electrical engineering, and computer science to develop a robotic hand/arm that can complete series of unique tasks. Lecture topics cover mechanical design, bionics, rehabilitation, musculoskeletal systems modeling, controls, motors and actuation, and programming. Student projects culminate in oral presentation and final competition that tests versatility and robustness of robotic arm. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1CO",
+        "title": "Introduction to Engineering Design: Coffee",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Introduction to concepts and techniques in chemical engineering, computer-aided design, 3D printing, circuitry, mass and heat transfer, process control, and machining. Nonmathematical introduction to how engineers approach and solve problems, as elucidated by process of roasting and brewing coffee. Various laboratory experiments test how different physical and chemical processes affect sensory qualities of coffee. Study culminates in competition and presentation to peers and guests. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1CR",
+        "title": "Introduction to Engineering Design: Combat Robotics",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Introduction to practical and theoretical engineering concepts involved in different combat robot designs. Student teams learn computer-aided design, manufacturing, and basic electronics to design, build, and fight one-pound combat robots. No prior experience or coursework needed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1DR",
+        "title": "Introduction to Engineering Design: Drones",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Introduction to autonomous drone engineering, exploring airframe structure and software controls. Airframe topics include computer-aided design, manufacturing, drone propulsion, and electronics. Software controls topics include implementing professional flight software, data analysis, and real-time system responses. Students work in teams to design, build, and test drone that competes in task-based competition. Students present and explain their design choices. No prior experience or coursework required. Study led by experienced undergraduate members of UCLA unmanned aerial systems group. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1EC",
+        "title": "Introduction to Engineering Design: Electrocardiogram",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Students learn and use concepts and techniques in electrical circuit design and analysis, cardiac electrophysiology, biophysics, microcontrollers, and computer programming. Students work in teams to design, construct, and test circuit boards capable of measuring human electrocardiograms by capturing data with microcontroller, with computer analysis and display. Students present their designs orally and in writing. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1GD",
+        "title": "Introduction to Engineering Design: Game Development in Unity",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Study covers basics of C# programming language, Unity architecture, input, physics, gameplay logic, game design documents, and more. Students create their own original game from scratch, playable by any user with computer and Internet connection. No prior experience with college mathematics, general programming, or game development is assumed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1GK",
+        "title": "Introduction to Engineering Design: Go-Karts",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Students learn and use concepts and techniques in computer-aided design, finite element analysis, machining, electric motor performance, steering linkages, and general mechanical design and assembly to work in teams and construct and test go-karts. Students present their designs orally and in writing. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1IT",
+        "title": "Introduction to Engineering Design: Internet of Things",
+        "units": 2,
+        "description": "(Formerly numbered 96I.) Lecture, one hour; laboratory, one hour; outside study, four hours. Recommended for undergraduate Aerospace Engineering, Bioengineering, Computer Science, Electrical Engineering, and Mechanical Engineering majors. Introduction to engineering design while building teamwork and communication skills and examination of engineering majors offered at UCLA and of engineering careers. Hands-on experience with state-of-art Internet of things (IoT) technology to offer students opportunity to rapidly develop innovative and inspiring systems that provide ideal introduction to computing systems and IoT applications specific to their major field. IoT technology has become one of the most important advances in technology history with applications ranging from wearable devices for healthcare to residential monitoring systems, natural resource protection and management, intelligent vehicles and transportation systems, robotics systems, and energy conservation. Completion of hands-on engineering design projects, preparation of short report describing projects, and presentation of results. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1ML",
+        "title": "Introduction to Engineering Design: Machine Learning",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Students learn basics of machine learning using popular programming language Python. Lectures cover topics in Python, machine learning, and LaTeX. Laboratory assignments challenge students to explore and engage with content from each lecture. Homework assignments culminate in final project in which students develop and train neural network image classifier, built using PyTorch, that performs significantly better than random guessing. Students report on how they chose components of their neural network. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1PH",
+        "title": "Introduction to Engineering Design: 3D Pharmaceuticals",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. 3D pharming is emerging field that tries to achieve more patient-specific drug dosages and delivery rates, which can be tailored towards each patient's age, weight, height, genotype, etc. This direction in medicine has become possible with development of 3D-printed pill capsules and laser print bioinks-aqueous hydrogel formulations with correct mechanical properties to interact with 3D printer, on demand. Bioinks are able to dissolve drugs and polymerize into solid to form drug delivery vehicle. Students learn basic fundamentals of how to 3D print pill capsule and polymerize hydrogel within it. Students are guided through process of designing research experiment, analyzing data, and presenting their findings to others. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1PL",
+        "title": "Introduction to Engineering Design: Planes",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Introduction to basics of airplane engineering. Students work in teams to design and construct foam-and-3D-printed, fixed-wing aircraft to complete two missions. Students learn basic physics of aerodynamics, applications of MATLAB and Solidworks, how to use figure of merit (FOM) charts to make design decisions, and manufacturing techniques. Study led by experienced undergraduate members of UCLA Design Build Fly group. No prior experience or coursework needed. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1RK",
+        "title": "Introduction to Engineering Design: Rockets",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Introduction to rocket engineering, exploring launch vehicle structure, trajectory, stability, and propulsion. Topics include computer-aided design, structural analysis, conventional and additive manufacturing, aerodynamic analysis, flight dynamics, and electronics. Students work in teams to design, build, test, and launch solid-propellant rockets. Students present and explain their design choices. No prior experience or coursework required. Course led by experienced undergraduate members of UCLA rocket engineering club. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1TR",
+        "title": "Introduction to Engineering Design for Engineering Transfer Students",
+        "units": 2,
+        "description": "Lecture, three hours; outside study, three hours. Designed for incoming engineering transfer students. Study of engineering design tools for prototyping through basic training workshops that include concepts in coding, circuits, computer aided design, and fabrication. Students utilize these skills to work in teams and complete a final technical project that involves designing, fabricating, and preparing a prototype for a performance test in a real-world situation. Teams are required to submit an oral design-review presentation on their experience. Students learn about the engineering design process and develop an engineering mindset. No prior experience or coursework is necessary. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1UW",
+        "title": "Introduction to Engineering Design: Underwater Robotics",
+        "units": 2,
+        "description": "Laboratory, three hours; outside study, three hours. Students develop skills in computer-aided design, 3D printing, mechanical design, electronics, and manufacturing. These concepts are applied to team-based design and construction of controllable underwater robots. Students design chassis, electronics bay, and how to seal robot. Students team projects culminate in oral presentation and underwater obstacle course competition. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 1XP",
+        "title": "Introduction to Community-Engaged Engineering Design: Variable Topics",
+        "units": 2,
+        "description": "Laboratory, two hours; outside study, four hours. Students work in small groups on projects that address the needs of a community partner. Potential projects include measuring environmental pollutants, building homes, educating local middle school students, and other activities. May be repeated for credit. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 2",
+        "title": "Technology and Society",
+        "units": 2,
+        "description": "Lecture, two hours; discussion, one hour; outside study, three hours. Introduction of broader societal opportunities, impacts, and challenges associated with technology. Drawing from historical and contemporary examples, consideration of some of ethical, policy, and legal questions spurred by rapid technological change. Development of perspectives to take broad, contextualized view of role of technology in society. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 20",
+        "title": "First-Year Engineering Transition Bridge",
+        "units": 2,
+        "description": "Seminar, 18 hours (two weeks). Designed primarily for new students to help them understand UCLA, its culture, structure (quarter system), and academic policies; and to facilitate their transition from high school to college. Examination of research on first-year experience of college students, studying at UCLA versus high school, policies and procedures, and campus resources. Advanced preparation and early exposure to fall quarter mathematics, chemistry, and computer science curricula. Collaborative learning techniques and community-building activities are integral processes to both day and evening programs. Intensive classroom instruction and collaborative learning workshops. May be repeated for credit. Offered in summer only. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 200",
+        "title": "Program Management Principles for Engineers and Professionals",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Designed for graduate students. Practical review of necessary processes and procedures to successfully manage technology programs. Review of fundamentals of program planning, organizational structure, implementation, and performance tracking methods to provide program manager with necessary information to support decision-making process that provides high-quality products on time and within budget. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 201",
+        "title": "Systems Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Designed for graduate students. Practical review of major elements of system engineering process. Coverage of key elements: system requirements and flow down, product development cycle, functional analysis, system synthesis and trade studies, budget allocations, risk management metrics, review and audit activities and documentation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 202",
+        "title": "Reliability, Maintainability, and Supportability",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 201. Designed for graduate students with one to two years work experience. Integrated logistic support (ILS) is major driver of system life-cycle cost and one key element of system engineering activities. Overview of engineering disciplines critical to this function-reliability, maintainability, and supportability-and their relationships, taught using probability theory. Topics also include fault detections and isolations and parts obsolescence. Discussion of 6-sigma process, one effective design and manufacturing methodology, to ensure system reliability, maintainability, and supportability. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGR 201"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 203",
+        "title": "System Architecture",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Requisite: course 201. Designed for graduate students with BS degrees in engineering or science and one to two years work experience in selected domain. Art and science of architecting. Introduction to architecting methodology-paradigm and tools. Principles of architecting through analysis of architecture designs of major existing systems. Discussion of selected elements of architectural practices, such as representation models, design progression, and architecture frameworks. Examination of professionalization of system architecting. Letter grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGR 201"}
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 204",
+        "title": "Trusted Systems Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Trust is placed in information systems to behave properly, but cyber threats and breaches have become routine, including penetration of financial, medical, government, and national security systems. To build systems that can protect confidentiality, integrity, and availability involves more than composing systems from network security, computer security, data security, cryptography, etc. One can use most secure components, and resulting system could still be vulnerable. Skills learned ensure that systems are architected, designed, implemented, tested, and operated for specific levels of trust. Aspects include assessing vulnerability and risk for systems, establishing protection principles, and using them as guide to formulate system architectures; translating architecture into system design and verifying correctness of design; and constructing and following trusted development and implementation process. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 205",
+        "title": "Model-Based Systems Engineering",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Model-based systems engineering (MBSE) and systems modeling language (SysML) taught through lectures and readings, individual projects, and one group project. Lectures and readings to provide students with conceptual framework and vocabulary. Individual projects enable students to develop basic skills for creating SysML requirements and structural and behavioral diagrams. In group project students learn how to package, compartmentalize, and integrate smaller efforts while being constrained to meet schedules. Industry-recognized credentials may be obtained, as course covers Object Management Group (OMG) Certified Systems Modeling Professional (OCSMP) tests, such as Model User and Model Builder Fundamentals and Model Builder Intermediate. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 206",
+        "title": "Engineering for Systems Assurance",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Recommended requisites: course 204, Computer Science 236. Systems are constructed to perform complex functions and services. How to understand needs of users, analysis of requirements and derived requirements, creation of various system architecture products, and design and integration of various components into systems that perform these functions and services. System assurance addresses confidence that systems meet specified operational requirements based on evidence provided by applying assurance techniques. Introduction, investigation, and analysis of framework of assurance to accomplish total system assurance. Development of secure, reliable, and dependable systems that range from commercial realm such as air traffic control, Supervisory Control and Data Acquisition (SCADA), and autonomous vehicles to military realm such as command, control, communication, intelligence, and cyber. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 21",
+        "title": "Computing Immersion Summer Experience",
+        "units": 2,
+        "description": "Seminar, 18 hours (three weeks). Designed primarily for new students to help them understand UCLA, its culture, structure (quarter system), and academic policies; and to facilitate their transition from high school/community college to university. Designed to immerse incoming computing students in foundation concepts and principles of computer science, with focus on fundamental computer programming principles, methodologies, and techniques. Basic concepts of programming and C++ computing language. Offered in summer only. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 210",
+        "title": "Operations and Supply Chain Management",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Introduction to strategic and operating issues and decisions involved in managing enterprises. Operational processes use organization's resources to transform inputs into goods and utilizes them to provide service, or does both. Conceptual framework and set of analytical tools provided to enable students to better understand why processes behave as they do. Given this understanding, students are able to involve themselves in organization's defining strategic decisions, those related to key processes affecting organizational unit's performance. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 211",
+        "title": "Financial Management",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Introduction to concepts reflecting material generally covered in certain MBA core and elective courses. Integration of both theory-to introduce essential conceptual building blocks in accounting and finance-and empirical practice-to emphasize how these theories are actually implemented in real world. Cases, comprehensive problems, and recent events presented to provide students with as much hands-on experience in applying material presented as possible. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 212",
+        "title": "Intellectual Property Law and Strategy",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Prior knowledge of legal doctrines or materials not required. Intellectual property law is not just topic for lawyers. Engineers who have design responsibilities must understand how legal system in some instances protects their designs and in other instances stands as obstacle to what would otherwise be most efficient design choice. Engineers with management responsibilities must understand intellectual property law implications for everything from pricing to strategic partnerships. Examination of intellectual property law, not only by learning fundamental rules associated with patent, copyright, trademark, and trade secret protection, but by studying business strategies that these rules support. Examples and case studies to be taken from across content, technology, and pharmaceutical industries. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 213",
+        "title": "Data and Business Analytics",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Coverage of wide variety of spreadsheet models that can be used to solve business and engineering problems, with emphasis on mastery of Excel spreadsheet modeling as integral part of analytic decision making. Managerial models include data modeling, regression and forecasting, linear programming, network and distribution models, integer programming, nonlinear programming, and Monte Carlo simulation. Problems from operations, finance, and marketing taught by spreadsheet examples and describe general managerial situations from various industries and disciplines. Development of spreadsheet models to facilitate decision making. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 214",
+        "title": "Management Communication",
+        "units": 4,
+        "description": "Lecture, four hours. Exploration of knowledge, attributes, skills, and strategies necessary to succeed communicatively in workplace, with focus on business presentation skills, visual and verbal persuasion skills, and interpersonal communication skills. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 215",
+        "title": "Entrepreneurship for Engineers",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Limited to graduate engineering students. Topics in starting and developing high-tech enterprises and intended for students who wish to complement their technical education with introduction to entrepreneurship. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 216",
+        "title": "Product Management",
+        "units": 4,
+        "description": "Lecture, four hours; outside study, eight hours. Study is built around the notion that product management is about managing the life cycle of the product. Focus on defining, developing, launching, scaling, and end of life for products. Consideration of why a product is needed in the market, why a particular solution is the right product, and why a particular solution creates value for the customers and the company. Focus on products that have technological characteristics in the consumer products domain, the fundamentals of which are also applicable to products within enterprise, industrial, medical, and automotive sectors. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 22",
+        "title": "Summer Bridge Review for Enhancing Engineering Students",
+        "units": 2,
+        "description": "Seminar, 18 hours (two weeks). Designed primarily for new students to help them understand UCLA, its culture, structure (quarter system), and academic policies; and to facilitate their transition from community college to university. Intensive introduction of advanced topics covered in upper-division engineering courses. May be repeated for credit. Offered in summer only. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 23",
+        "title": "Finding Industry Internship",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Designed to engage engineering students in process of formal career development. Students learn about various components of internship/job application and practice preparing relevant materials. Prepares students for career-related social interactions. Development of skills and insights to successfully secure future opportunities, such as first industry internship. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 24",
+        "title": "Finding Undergraduate Research Opportunity",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Designed to engage engineering students, primarily those without prior experience, in process of soliciting, securing, and beginning research. Students learn about various methods and resources used to obtain laboratory position. Exploration of opportunities and guidance on how to approach those openings. Offers students smooth transition into research laboratory. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 25",
+        "title": "Communicating Undergraduate Research Results",
+        "units": 2,
+        "description": "Seminar, two hours; outside study, four hours. Designed to engage engineering students in process of communicating formal research. Students learn about various components required in publishing research. Offers templates and examples as guides for understanding technical presentations and writing. Development of skills and insights to successfully publish first research project. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 26",
+        "title": "Finding Entry-Level Job",
+        "units": 2,
+        "description": "Seminar, two hours; discussion, two hours; outside study, two hours. Designed to engage engineering students in process of getting ready to graduate and need help joining workforce. Focus on how to apply to entry-level positions in engineering field, and specifically industries that value engineering degree over technical experience. Offers suggestions to overcome typical barriers students encounter in securing entry-level position including students with no industry internships, lack of professional network, lack of hands-on technical experience, low grade-point average, lack of student organization extracurricular activities, international students, Deferred Action for Childhood Arrivals (DACA) students, and other low-confidence students. Students learn about various components of job application, practice preparing relevant materials, and prepare for career-related social interactions. Students develop skills and insights to successfully secure entry-level job as soon as possible after graduation. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 299",
+        "title": "Capstone Project",
+        "units": 4,
+        "description": "Activity, 10 hours. Preparation: completion of minimum of four 200-level courses in online MS program. Project course that satisfies UCLA final comprehensive examination requirement of MS online degree in Engineering. Project is completed under individual guidance from UCLA Engineering faculty member and incorporates advanced knowledge learned in MS program of study. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 470A",
+        "title": "Engineer in Technical Environment",
+        "units": 3,
+        "description": "Lecture, three hours; outside study, six hours. Limited to Engineering Executive Program students. Theory and application of quantitative methods in analysis and synthesis of engineering systems for purpose of making management decisions. Optimization of outputs with respect to dollar costs, time, material, energy, information, and manpower. Case studies and individual projects. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 470B",
+        "title": "Engineer in Technical Environment",
+        "units": 3,
+        "description": "Lecture, three hours; outside study, six hours. Limited to Engineering Executive Program students. Theory and application of quantitative methods in analysis and synthesis of engineering systems for purpose of making management decisions. Optimization of outputs with respect to dollar costs, time, material, energy, information, and manpower. Case studies and individual projects. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 470C",
+        "title": "Engineer in Technical Environment",
+        "units": 3,
+        "description": "Lecture, three hours; outside study, six hours. Limited to Engineering Executive Program students. Theory and application of quantitative methods in analysis and synthesis of engineering systems for purpose of making management decisions. Optimization of outputs with respect to dollar costs, time, material, energy, information, and manpower. Case studies and individual projects. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 470D",
+        "title": "Engineer in Technical Environment",
+        "units": 3,
+        "description": "Lecture, three hours; outside study, six hours. Limited to Engineering Executive Program students. Theory and application of quantitative methods in analysis and synthesis of engineering systems for purpose of making management decisions. Optimization of outputs with respect to dollar costs, time, material, energy, information, and manpower. Case studies and individual projects. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 471A",
+        "title": "Engineer in General Environment",
+        "units": 3,
+        "description": "Lecture, three hours. Limited to Engineering Executive Program students. Influences of human relations, laws, social sciences, humanities, and fine arts on development and utilization of natural and human resources. Interaction of technology and society past, present, and future. Change agents and resistance to change. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 471B",
+        "title": "Engineer in General Environment",
+        "units": 3,
+        "description": "Lecture, three hours. Limited to Engineering Executive Program students. Influences of human relations, laws, social sciences, humanities, and fine arts on development and utilization of natural and human resources. Interaction of technology and society past, present, and future. Change agents and resistance to change. In Progress grading (credit to be given only on completion of course 471C).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 471C",
+        "title": "Engineer in General Environment",
+        "units": 1,
+        "description": "Lecture, 90 minutes. Limited to Engineering Executive Program students. Influences of human relations, laws, social sciences, humanities, and fine arts on development and utilization of natural and human resources. Interaction of technology and society past, present, and future. Change agents and resistance to change. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 472A",
+        "title": "Engineer in Business Environment",
+        "units": 3,
+        "description": "Lecture, three hours. Limited to Engineering Executive Program students. Language of business for engineering executive. Accounting, finance, business economics, business law, and marketing. Laboratory in organization and management problem solving. Analysis of actual business problems of firm, community, and nation, provided through cooperation and participation with California business corporations and government agencies. In Progress grading (credit to be given on completion of course 472B).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 472B",
+        "title": "Engineer in Business Environment",
+        "units": 3,
+        "description": "Lecture, three hours. Limited to Engineering Executive Program students. Language of business for engineering executive. Accounting, finance, business economics, business law, and marketing. Laboratory in organization and management problem solving. Analysis of actual business problems of firm, community, and nation, provided through cooperation and participation with California business corporations and government agencies. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 472C",
+        "title": "Engineer in Business Environment",
+        "units": 3,
+        "description": "Lecture, three hours. Limited to Engineering Executive Program students. Language of business for engineering executive. Accounting, finance, business economics, business law, and marketing. Laboratory in organization and management problem solving. Analysis of actual business problems of firm, community, and nation, provided through cooperation and participation with California business corporations and government agencies. In Progress grading (credit to be given on completion of course 472D).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 472D",
+        "title": "Engineer in Business Environment",
+        "units": 1,
+        "description": "Lecture, 90 minutes. Limited to Engineering Executive Program students. Language of business for engineering executive. Accounting, finance, business economics, business law, and marketing. Laboratory in organization and management problem solving. Analysis of actual business problems of firm, community, and nation, provided through cooperation and participation with California business corporations and government agencies. S/U or letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 473A",
+        "title": "Analysis and Synthesis of Large-Scale System",
+        "units": 3,
+        "description": "Lecture, two and one half hours; outside study, six hours. Limited to students in Engineering Executive Program. Problem area of modern industry or government is selected as class project, and its solution is synthesized using quantitative tools and methods. Project also serves as laboratory in organization for goal-oriented technical group. In Progress grading (credit to be given only on completion of course 473B).",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 473B",
+        "title": "Analysis and Synthesis of Large-Scale System",
+        "units": 3,
+        "description": "Lecture, two and one half hours; outside study, six hours. Limited to students in Engineering Executive Program. Problem area of modern industry or government is selected as class project, and its solution is synthesized using quantitative tools and methods. Project also serves as laboratory in organization for goal-oriented technical group. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 495A",
+        "title": "Teaching Assistant Training Seminar",
+        "units": 4,
+        "description": "Seminar, four hours; outside study, eight hours. Preparation: appointment as teaching assistant. Limited to graduate engineering students. Seminar on communication of engineering principles, concepts, and methods, preparation, organization of material, presentation, use of visual aids, grading, advising, and rapport with students. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 501",
+        "title": "Cooperative Program",
+        "units": 2,
+        "description": "Tutorial, to be arranged. Preparation: consent of UCLA graduate adviser and graduate dean, and host campus instructor, department chair, and graduate dean. Used to record enrollment of UCLA students in courses taken under cooperative arrangements with USC. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 87",
+        "title": "Introduction to Engineering Disciplines",
+        "units": 4,
+        "description": "Lecture, four hours; discussion, four hours; outside study, four hours. Introduction to engineering as professional opportunity for freshman students by exploring difference between engineering disciplines and functions engineers perform. Development of skills and techniques for academic excellence through team process. Investigation of national need underlying current effort to increase participation of historically underrepresented groups in U.S. technological work force. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 95",
+        "title": "Internship Studies in Engineering",
+        "units": 1,
+        "description": "Tutorial, one hour. Limited to first years/sophomores. Internship studies course supervised by associate dean or designated faculty members. Further supervision to be provided by organization for which students are doing internship. Students may be required to meet on regular basis with instructor and provide periodic reports of their experience. May not be applied toward major requirements. May be repeated for credit. Individual contract with associate dean required. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 96A",
+        "title": "Introduction to Engineering Design",
+        "units": 2,
+        "description": "Lecture, one hour; laboratory, one hour; outside study, four hours. Introduction to engineering design while building teamwork and communication skills and examination of engineering majors offered at UCLA and of engineering careers. Completion of hands-on engineering design projects, preparation of short report describing projects, and presentation of results. Specific project details and relevant majors explored vary with instructor. May be repeated once for credit with topic or instructor change. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 96B",
+        "title": "Introduction to Engineering Design: Digital Imaging",
+        "units": 2,
+        "description": "Lecture, one hour; laboratory, one hour; outside study, four hours. Recommended for undergraduate Aerospace Engineering, Bioengineering, Computer Science, Electrical Engineering, and Mechanical Engineering majors. Introduction to engineering design while building teamwork and communication skills and examination of engineering majors offered at UCLA and of engineering careers. Hands-on experience with state-of-art solid-state imaging devices. How to focus, expose, record, and manipulate telescopic images. Development of photographic technology from early chemical experiments to wide spread use of cell phone camera. Completion of hands-on engineering design projects, preparation of short report describing projects, and presentation of results. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 96C",
+        "title": "Cybernetics: Introduction to Robotic Control Systems",
+        "units": 2,
+        "description": "Lecture, one hour; laboratory, one hour; outside study, four hours. Complete introduction to robotics control systems that are critical and rapidly growing engineering technology with expanding societal impact. Designed to support entry-level students with primary principles of modern control systems. Students are provided with essential background in formal principles. Includes breakthrough technology providing hands-on experience with physical robotics control systems. Extensive use of graphical and animation methods to support understanding of mathematical concepts. Hands-on systems are provided in laboratory sections for each student for system design and characterization. Students connect personal computers to robotic control system and have real-time access for configuration and control. Convenient computing tools are provided to support each design method, as well as real-time visualization and performance characterization. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 96E",
+        "title": "Introduction to Engineering Design: Electrocardiogram",
+        "units": 2,
+        "description": "Lecture, 90 minutes; laboratory, 90 minutes; outside study, three hours. Students learn and use concepts and techniques in electrical circuit design and analysis, cardiac electrophysiology, biophysics, microcontrollers, and computer programming. Students work in teams to design, construct, and test circuit boards capable of measuring human electrocardiograms by capturing data with microcontroller, with computer analysis and display. Students present their designs orally and in writing. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 96G",
+        "title": "Introduction to Engineering Design: Go-Karts",
+        "units": 2,
+        "description": "Lecture, 90 minutes; laboratory, 90 minutes; outside study, three hours. Students learn and use concepts and techniques in computer-aided design, finite element analysis, machining, electric motor performance, steering linkages, and general mechanical design and assembly to work in teams and construct and test go-karts. Students present their designs orally and in writing. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 96R",
+        "title": "Introduction to Engineering Design: Rockets",
+        "units": 2,
+        "description": "Lecture, 90 minutes; laboratory, 90 minutes; outside study, three hours. Introduction to basic concepts in aerospace engineering, computer-aided design, finite element analysis, 3D printing, carbon fiber layup, telemetry, general mechanical design and assembly, and machine shop fabrication. Concepts applied to team-based design, construction, and testing of small 3D-printed rockets and larger, high-power rockets. Students present their designs orally and in writing, and evaluate their performance against other student teams. Rockets fired from Mojave Desert launch site in class field trip. No prior experience or coursework needed. Study led by experienced undergraduate members of Bruin Rocket Project. Meetings, and design and fabrication homework, make use of Makerspace facilities and tools. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR 99",
+        "title": "Student Research Program",
+        "units": 1,
+        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR M103",
+        "title": "Environmental Nanotechnology: Implications and Applications",
+        "units": 4,
+        "description": "(Same as Civil Engineering M165.) Lecture, four hours; discussion, two hours; outside study, six hours. Recommended requisite: course M101. Introduction to potential implications of nanotechnology to environmental systems as well as potential application of nanotechnology to environmental protection. Technical contents include three multidisciplinary areas: (1) physical, chemical, and biological properties of nanomaterials, (2) transport, reactivity, and toxicity of nanoscale materials in natural environmental systems, and (3) use of nanotechnology for energy and water production, plus environmental protection, monitoring, and remediation. Letter grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR M495I",
+        "title": "Teaching Preparation Seminar: Writing for Engineers",
+        "units": 4,
+        "description": "(Same as English Composition M495I.) Seminar, two and one half hours; outside study, nine and one half hours. Limited to graduate students. Required of all teaching assistants for Engineering writing courses not exempt by appropriate departmental or program training. Training and mentoring, with focus on composition pedagogy, assessment of student writing, guidance of revision process, and specialized writing problems that may occur in engineering writing contexts. Practical concerns of preparing students to write course assignments, marking and grading essays, and conducting peer reviews and conferences. S/U grading.",
+        "requisites": [
+        ],
+        "equivalentCourses": []
+    },
+    {
+        "id": "ENGR M495J",
+        "title": "Supervised Teaching of Writing for Engineers",
+        "units": 2,
+        "description": "(Same as English Composition M495J.) Seminar, one hour; outside study, five hours. Enforced requisite: course M495I. Required of all teaching assistants in their initial term of teaching Engineering writing courses. Mentoring in group and individual meetings. Continued focus on composition pedagogy, assessment of student writing, guidance of revision process, and specialized writing problems that may occur in engineering writing contexts. Practical concerns of preparing students to write course assignments, marking and grading essays, and conducting peer reviews and conferences. S/U grading.",
+        "requisites": [
+            {"type": "requisite","course": "ENGR M495I"}
+        ],
+        "equivalentCourses": []
+    }
+]
