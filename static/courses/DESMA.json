@@ -1,1562 +1,1396 @@
 [
-    {
-        "id": "DESMA 1",
-        "title": "Code and Art",
-        "units": 4,
-        "description": "Studio, 30 hours. Limited to high school students. Exploration of what code can do within the visual arts and what can be done with it. Focus on exercises with templates that can be modified and adjusted for new learners, and that can be extended by people with prior knowledge in this area. Includes series of short exercises covering a wide range of possibilities and a final project. Exploration of range of experiences including drawing, coding for the web, interactive performance, and generative art. Creation of software within visual arts realm. Builds a foundation for future learning. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 1",
-        "title": "Code and Art",
-        "units": 4,
-        "description": "Studio, 30 hours. Limited to high school students. Exploration of what code can do within the visual arts and what can be done with it. Focus on exercises with templates that can be modified and adjusted for new learners, and that can be extended by people with prior knowledge in this area. Includes series of short exercises covering a wide range of possibilities and a final project. Exploration of range of experiences including drawing, coding for the web, interactive performance, and generative art. Creation of software within visual arts realm. Builds a foundation for future learning. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 10",
-        "title": "Design Culture",
-        "units": 5,
-        "description": "Lecture, three hours; outside study, 12 hours. Open to nonmajors. Understanding design process, with emphasis on development of visual language; study of historic, scientific, technological, economic, and cultural factors influencing design in physical environment. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 10",
-        "title": "Design Culture",
-        "units": 5,
-        "description": "Lecture, three hours; outside study, 12 hours. Open to nonmajors. Understanding design process, with emphasis on development of visual language; study of historic, scientific, technological, economic, and cultural factors influencing design in physical environment. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 101",
-        "title": "Media Arts: Introduction",
-        "units": 5,
-        "description": "Lecture, three hours; outside study, 12 hours. Limited to and required of Design | Media Arts majors. Survey of media arts, their history, aesthetics, and cultural roles from late-19th century to present. Investigation of media arts within broad historical and cultural framework. Discussion of parallels and links with other cultural forms, including history of technology and various art and design practices. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 101",
-        "title": "Media Arts: Introduction",
-        "units": 5,
-        "description": "Lecture, three hours; outside study, 12 hours. Limited to and required of Design | Media Arts majors. Survey of media arts, their history, aesthetics, and cultural roles from late-19th century to present. Investigation of media arts within broad historical and cultural framework. Discussion of parallels and links with other cultural forms, including history of technology and various art and design practices. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 104",
-        "title": "Design Futures",
-        "units": 5,
-        "description": "Lecture, three hours; outside study, 12 hours. Preparation: completion of preparation for major courses. Open to nonmajors with consent of instructor. Critical examination of design practice and theory of 20th and 21st centuries, incorporating historical as well as speculative methodologies. Consideration of how various design practices and techniques related to each other across cultures and media, with strong emphasis on communication design. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 104",
-        "title": "Design Futures",
-        "units": 5,
-        "description": "Lecture, three hours; outside study, 12 hours. Preparation: completion of preparation for major courses. Open to nonmajors with consent of instructor. Critical examination of design practice and theory of 20th and 21st centuries, incorporating historical as well as speculative methodologies. Consideration of how various design practices and techniques related to each other across cultures and media, with strong emphasis on communication design. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 107",
-        "title": "Games Histories and Analyses",
-        "units": 5,
-        "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Study traces rich historical trajectory of games across history, from ancient board games like Senet and Go through medieval chess variants, industrial-era parlor games, early arcade experiences, and into the complex digital platforms of today. Examination of games as not merely as entertainment but as reflections of their cultural, social, and technological contexts. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 107",
-        "title": "Games Histories and Analyses",
-        "units": 5,
-        "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Study traces rich historical trajectory of games across history, from ancient board games like Senet and Go through medieval chess variants, industrial-era parlor games, early arcade experiences, and into the complex digital platforms of today. Examination of games as not merely as entertainment but as reflections of their cultural, social, and technological contexts. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 110",
-        "title": "Tangible Media",
-        "units": 5,
-        "description": "(Formerly numbered 152.) Studio, six hours; outside study, nine hours. Requisites: courses 22, 28, and 101 or 104. Through workshops, readings, lectures, critiques, and discussions, reevaluation of role of desktop computers (and their mice, trackpads, keyboards, screens, and gamepads) plays in forming our understanding of what is technically possible, sensible, logical, foolish, magical, and intuitive. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 110",
-        "title": "Tangible Media",
-        "units": 5,
-        "description": "(Formerly numbered 152.) Studio, six hours; outside study, nine hours. Requisites: courses 22, 28, and 101 or 104. Through workshops, readings, lectures, critiques, and discussions, reevaluation of role of desktop computers (and their mice, trackpads, keyboards, screens, and gamepads) plays in forming our understanding of what is technically possible, sensible, logical, foolish, magical, and intuitive. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 111",
-        "title": "Art and the Internet",
-        "units": 5,
-        "description": "(Formerly numbered 161.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 28, 140. Exploration of creative, technical, and critical tools to realize Internet-based projects. Focus on students gaining deeper understanding of Internet as creative platform-where did it come from, how does it work, how do you make things for it, and what do you want to say? Technical workshops on HTML, CSS, JavaScript, and design support development of series of studio projects using variety of network tools. Examination through discussion of cultural, social, political, and philosophical implications of Internet. Consideration of roles of race, gender, sexuality, disability, class, and influence within increasingly networked world, and strategies of response as artists and designers. Examination and challenging of structuring power relationships, inequities, and biases embedded within network tools, technologies, and media. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "requisite","course": "DESMA 140"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 111",
-        "title": "Art and the Internet",
-        "units": 5,
-        "description": "(Formerly numbered 161.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 28, 140. Exploration of creative, technical, and critical tools to realize Internet-based projects. Focus on students gaining deeper understanding of Internet as creative platform-where did it come from, how does it work, how do you make things for it, and what do you want to say? Technical workshops on HTML, CSS, JavaScript, and design support development of series of studio projects using variety of network tools. Examination through discussion of cultural, social, political, and philosophical implications of Internet. Consideration of roles of race, gender, sexuality, disability, class, and influence within increasingly networked world, and strategies of response as artists and designers. Examination and challenging of structuring power relationships, inequities, and biases embedded within network tools, technologies, and media. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "requisite","course": "DESMA 140"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 112",
-        "title": "Performing User",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Exploration of how technologies used daily choreograph actions, provoke performance, and open spaces for improvisation. Creation of performative gestures that reinterpret ideas of the user interacting with a system. Study is structured around four performance assignments, dealing with themes such as instructions, errors, remote presence, and anonymity. Students learn to critique each other's work constructively-experiencing with an open mind, and thoughtfully and articulately responding. Performance activities are supplemented with attendance at performance events in Los Angeles, study of prior performance art engaging technology, short readings, and technical workshops. Focus on consideration of context, function, and meaning of these technologies; and translating this into novel ways of performing with them. No technical experience required, but a desire to take risks and step outside of one's comfort zone is necessary. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 112",
-        "title": "Performing User",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Exploration of how technologies used daily choreograph actions, provoke performance, and open spaces for improvisation. Creation of performative gestures that reinterpret ideas of the user interacting with a system. Study is structured around four performance assignments, dealing with themes such as instructions, errors, remote presence, and anonymity. Students learn to critique each other's work constructively-experiencing with an open mind, and thoughtfully and articulately responding. Performance activities are supplemented with attendance at performance events in Los Angeles, study of prior performance art engaging technology, short readings, and technical workshops. Focus on consideration of context, function, and meaning of these technologies; and translating this into novel ways of performing with them. No technical experience required, but a desire to take risks and step outside of one's comfort zone is necessary. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 113",
-        "title": "Generative Art",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Generative art is a form where the artist creates a system and the system creates the work. While not limited to artists working with code and software, it is the most prominent method of exploration. Examination of history of artists working with code from 1960s to present. Exploration of artists who have written their own code to explore media including plotter drawings, film, CD-ROMs, websites, and contemporary generative art. Reading of historical and contemporary writing while creating new and original work within this arts practice field. Students write their own code to create their own generative art systems. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 113",
-        "title": "Generative Art",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Generative art is a form where the artist creates a system and the system creates the work. While not limited to artists working with code and software, it is the most prominent method of exploration. Examination of history of artists working with code from 1960s to present. Exploration of artists who have written their own code to explore media including plotter drawings, film, CD-ROMs, websites, and contemporary generative art. Reading of historical and contemporary writing while creating new and original work within this arts practice field. Students write their own code to create their own generative art systems. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 114",
-        "title": "Arts Research and Practice",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Arts research is an approach to inquiry-a methodology that relies on artistic means to interrogate, reflect upon, and understand ideas, situations, relationships, experiences, and structures. Like traditional research, arts-based inquiry seeks to raise awareness, broaden insight and understanding, and produce knowledge. Unlike traditional research, the value of arts-based research lies in its ability to evoke experience, celebrate nuance, validate feeling, and promote reflexivity. Study engages theory and practice within broader context of contemporary art, digital culture, and technology. Review of methods for exploring art as a tool for inquiry, data collection, knowledge production, and analysis. Emphasis on collaborative research strategies to deepen understandings of art as epistemology. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 114",
-        "title": "Arts Research and Practice",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Arts research is an approach to inquiry-a methodology that relies on artistic means to interrogate, reflect upon, and understand ideas, situations, relationships, experiences, and structures. Like traditional research, arts-based inquiry seeks to raise awareness, broaden insight and understanding, and produce knowledge. Unlike traditional research, the value of arts-based research lies in its ability to evoke experience, celebrate nuance, validate feeling, and promote reflexivity. Study engages theory and practice within broader context of contemporary art, digital culture, and technology. Review of methods for exploring art as a tool for inquiry, data collection, knowledge production, and analysis. Emphasis on collaborative research strategies to deepen understandings of art as epistemology. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 115",
-        "title": "Art and Science Collaboration",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Biodesigners use cells, DNA molecules, proteins, and living tissues to highlight ethical, social, and aesthetic issues that influence contemporary life. Introduction to how biodesign blurs distinctions between science and design through combination of design and scientific processes, creating wide public debate. Introduction to new sciences that influence food we eat, clothes we wear, and environment in which we reside. Students are challenged to think outside the box, explore divergent and convergent thinking, and seek out knowledge and inspiration from ideas that drive nano- and biotechnology. Peer collaboration is encouraged to develop speculative design projects that address issues covered. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 115",
-        "title": "Art and Science Collaboration",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Biodesigners use cells, DNA molecules, proteins, and living tissues to highlight ethical, social, and aesthetic issues that influence contemporary life. Introduction to how biodesign blurs distinctions between science and design through combination of design and scientific processes, creating wide public debate. Introduction to new sciences that influence food we eat, clothes we wear, and environment in which we reside. Students are challenged to think outside the box, explore divergent and convergent thinking, and seek out knowledge and inspiration from ideas that drive nano- and biotechnology. Peer collaboration is encouraged to develop speculative design projects that address issues covered. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 116",
-        "title": "Sonic Media",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Examination of realm of sound as an artistic medium. Exploration of its conceptual, theoretical, and practical dimensions. From exploring sound perception, memory, and human orientation to embracing everyday auditory encounters, study delves into various approaches for crafting and showcasing sound-based media projects. Overview of sound art and sound design practices. Topics span from fundamental sound theory and acoustics to psychoacoustics, sound compositions, and spatial audio. Covers techniques such as editing and mixing to employ effects and automation. Includes areas such as field recordings, voice, and sound synthesis. Students gain honed listening skills and a robust theoretical framework, empowering them to articulate interests and creative visions through sound. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 116",
-        "title": "Sonic Media",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Examination of realm of sound as an artistic medium. Exploration of its conceptual, theoretical, and practical dimensions. From exploring sound perception, memory, and human orientation to embracing everyday auditory encounters, study delves into various approaches for crafting and showcasing sound-based media projects. Overview of sound art and sound design practices. Topics span from fundamental sound theory and acoustics to psychoacoustics, sound compositions, and spatial audio. Covers techniques such as editing and mixing to employ effects and automation. Includes areas such as field recordings, voice, and sound synthesis. Students gain honed listening skills and a robust theoretical framework, empowering them to articulate interests and creative visions through sound. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 125",
-        "title": "Game Design",
-        "units": 5,
-        "description": "(Formerly numbered 157.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, and 101 or 104. Introduction to game design, with focus on developing conceptual and practical skills that form basis for both digital and nondigital game development. Development of four playable game projects that explore various aspects of game design: rule design, game balance, multiplayer strategy, complexity, randomness, polemics, narrative, physical interaction, and aesthetic and pragmatic aspects of physical game design. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 125",
-        "title": "Game Design",
-        "units": 5,
-        "description": "(Formerly numbered 157.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, and 101 or 104. Introduction to game design, with focus on developing conceptual and practical skills that form basis for both digital and nondigital game development. Development of four playable game projects that explore various aspects of game design: rule design, game balance, multiplayer strategy, complexity, randomness, polemics, narrative, physical interaction, and aesthetic and pragmatic aspects of physical game design. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 126",
-        "title": "Game Engine",
-        "units": 5,
-        "description": "(Formerly numbered 158.) Studio, six hours; outside study, nine hours. Requisites: courses 28, and 101 or 104. Introduction of fundamentals of programming interactive projects in game development software. Focus on familiarizing students with game engines, computer programming concepts, player experience, and other skills that are foundational to making digital games. Lectures, exercises, and class projects teach skills needed to create digital games including custom rules, interactive physics systems, vectors, generative or randomized levels, save data, custom input systems, score-keeping, and sound. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 126",
-        "title": "Game Engine",
-        "units": 5,
-        "description": "(Formerly numbered 158.) Studio, six hours; outside study, nine hours. Requisites: courses 28, and 101 or 104. Introduction of fundamentals of programming interactive projects in game development software. Focus on familiarizing students with game engines, computer programming concepts, player experience, and other skills that are foundational to making digital games. Lectures, exercises, and class projects teach skills needed to create digital games including custom rules, interactive physics systems, vectors, generative or randomized levels, save data, custom input systems, score-keeping, and sound. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 127",
-        "title": "Interactive Animation",
-        "units": 5,
-        "description": "(Formerly numbered 155.) Studio, six hours; outside study, nine hours. Requisites: course 101 or 104. Exploration of traditional and experimental animation techniques that are central to 2D and 3D interactive digital projects and video games. Development of skills and concepts that are integral to animation workflows and game engine animation systems including traditional animation principles, 2D sprite animation, rigging 2D and 3D game objects, and character controller implementation. Students experiment with common and alternative input methods for real-time interactivity. Readings, screenings, and in-class gameplay sessions supplement lessons. P/NP or letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 127",
-        "title": "Interactive Animation",
-        "units": 5,
-        "description": "(Formerly numbered 155.) Studio, six hours; outside study, nine hours. Requisites: course 101 or 104. Exploration of traditional and experimental animation techniques that are central to 2D and 3D interactive digital projects and video games. Development of skills and concepts that are integral to animation workflows and game engine animation systems including traditional animation principles, 2D sprite animation, rigging 2D and 3D game objects, and character controller implementation. Students experiment with common and alternative input methods for real-time interactivity. Readings, screenings, and in-class gameplay sessions supplement lessons. P/NP or letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 128",
-        "title": "Worldbuilding",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Requisites: courses 101 or 104, and 131. Worldbuilding is an art that has been around for thousands of years as a central component in ancient cosmologies, mythologies, and theologies. It thrives today within contexts of comics, computer games, serialized fiction, television series, theme parks, and transmedia marketing enterprise (and their discontents). Worldbuilding is the process of creating a framework where narrative unfolds. Study covers worldbuilding concepts and techniques through written assignments, class presentations, discussions, multi-component creative project, and technical demos. Focus on building rich and compelling navigable environments using software, sound, text, and visuals as well as printed/physical materials. Use of Unity 3D game engine as the primary worldbuilding tool with additional preferred image making tools. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]},
-            {"type": "requisite","course": "DESMA 131"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 128",
-        "title": "Worldbuilding",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Requisites: courses 101 or 104, and 131. Worldbuilding is an art that has been around for thousands of years as a central component in ancient cosmologies, mythologies, and theologies. It thrives today within contexts of comics, computer games, serialized fiction, television series, theme parks, and transmedia marketing enterprise (and their discontents). Worldbuilding is the process of creating a framework where narrative unfolds. Study covers worldbuilding concepts and techniques through written assignments, class presentations, discussions, multi-component creative project, and technical demos. Focus on building rich and compelling navigable environments using software, sound, text, and visuals as well as printed/physical materials. Use of Unity 3D game engine as the primary worldbuilding tool with additional preferred image making tools. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]},
-            {"type": "requisite","course": "DESMA 131"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 129",
-        "title": "Collaborative Game Lab",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Requisites: courses 24 or 28, and 101 or 104. Focus on collaborative game design and development and discourse around collaboration and cooperation models. Games are complex interdisciplinary cultural artifacts and are often created through team based efforts merging many possible combinations of technical, formal conceptual skills and perspectives. Students work in teams and learn strategies and approaches to successful collaboration. Projects include developing and participating in workshops, working on a large collaborative group game project, and engaging with class guests through written interviews and writing. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 24"},{"type": "requisite","course": "DESMA 28"}]},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 129",
-        "title": "Collaborative Game Lab",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Requisites: courses 24 or 28, and 101 or 104. Focus on collaborative game design and development and discourse around collaboration and cooperation models. Games are complex interdisciplinary cultural artifacts and are often created through team based efforts merging many possible combinations of technical, formal conceptual skills and perspectives. Students work in teams and learn strategies and approaches to successful collaboration. Projects include developing and participating in workshops, working on a large collaborative group game project, and engaging with class guests through written interviews and writing. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 24"},{"type": "requisite","course": "DESMA 28"}]},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 130",
-        "title": "Experiments in Virtuality",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Requisites: course 101 or 104. Virtuality is a realm of potential, defined by its proximity to reality and our bodies-it is not software or platform specific. Study provides a framework for students to develop projects that explore different kinds of virtual platforms and spaces. Focus on tools, workflows, and modalities that correspond to the instructor's unique specialization, which may include expanded cinema, mixed-reality live performance practices, projection mapping, spatialized sound, or virtual reality. Discussions, individual research, readings, and screenings center on building collaborative projects, linear and nonlinear storytelling, spatial design, and approaches to expression through designing and interfacing with the virtual. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 130",
-        "title": "Experiments in Virtuality",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Requisites: course 101 or 104. Virtuality is a realm of potential, defined by its proximity to reality and our bodies-it is not software or platform specific. Study provides a framework for students to develop projects that explore different kinds of virtual platforms and spaces. Focus on tools, workflows, and modalities that correspond to the instructor's unique specialization, which may include expanded cinema, mixed-reality live performance practices, projection mapping, spatialized sound, or virtual reality. Discussions, individual research, readings, and screenings center on building collaborative projects, linear and nonlinear storytelling, spatial design, and approaches to expression through designing and interfacing with the virtual. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 131",
-        "title": "Three-Dimensional Modeling and Motion",
-        "units": 5,
-        "description": "(Formerly numbered 156.) Studio, six hours; outside study, nine hours. Requisite: course 101 or 104. Introduction to theories of three-dimensional form, spatial design, and lighting, using three-dimensional visualization and video tools. Tools originally designed for motion to be used to construct form. Use of aspects of time, such as speed and duration, to contemplate form and interaction. Exploration of virtual versus real form. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 131",
-        "title": "Three-Dimensional Modeling and Motion",
-        "units": 5,
-        "description": "(Formerly numbered 156.) Studio, six hours; outside study, nine hours. Requisite: course 101 or 104. Introduction to theories of three-dimensional form, spatial design, and lighting, using three-dimensional visualization and video tools. Tools originally designed for motion to be used to construct form. Use of aspects of time, such as speed and duration, to contemplate form and interaction. Exploration of virtual versus real form. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 140",
-        "title": "Word + Image",
-        "units": 5,
-        "description": "(Formerly numbered 154.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 21, 22, 25, and 101 or 104. Focus on relationship of type to content, image, and materials. Acquisition of knowledge of and sensitivity to typography in context of complex communication problems in print and digital media. Research, concept and content development, and articulation of methodology for visualization. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 140",
-        "title": "Word + Image",
-        "units": 5,
-        "description": "(Formerly numbered 154.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 21, 22, 25, and 101 or 104. Focus on relationship of type to content, image, and materials. Acquisition of knowledge of and sensitivity to typography in context of complex communication problems in print and digital media. Research, concept and content development, and articulation of methodology for visualization. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 141",
-        "title": "Web Design and User Interface and Experience",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Online interaction today focuses on information through living, social platforms. Study goes beyond an average user's perspective to critically examine the web through historical, political, and social lenses. Students are encouraged to holistically approach the web and its constituent code as a living kit of parts to be harnessed in novel and innovative ways. Examination of leading concepts of people-centered interactive design. User interface (UI) designers are focused on the design of the tool, while user interface (UX) designers are focused on a person's experience of that tool. As digital technology industries rapidly alter ways of doing and thinking, design can amplify, shift, comment on, and/or criticize these changes. The role of designers today is to style and shape content, extracting information from abstract datasets, writing scenarios, and creating systems, all with a critical eye. Students are trained to research, analyze, prototype, and develop design concepts for digital media for distinct social and cultural contexts. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 141",
-        "title": "Web Design and User Interface and Experience",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Online interaction today focuses on information through living, social platforms. Study goes beyond an average user's perspective to critically examine the web through historical, political, and social lenses. Students are encouraged to holistically approach the web and its constituent code as a living kit of parts to be harnessed in novel and innovative ways. Examination of leading concepts of people-centered interactive design. User interface (UI) designers are focused on the design of the tool, while user interface (UX) designers are focused on a person's experience of that tool. As digital technology industries rapidly alter ways of doing and thinking, design can amplify, shift, comment on, and/or criticize these changes. The role of designers today is to style and shape content, extracting information from abstract datasets, writing scenarios, and creating systems, all with a critical eye. Students are trained to research, analyze, prototype, and develop design concepts for digital media for distinct social and cultural contexts. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 142",
-        "title": "Design Systems",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Exploration of the development of design identities in the form of multi-component, multi-stage, or cross-media projects. Development of series and systems that include visual and verbal components to create a cohesive identity across deliverables that either communicate, reinforce, or build upon a message. Analysis of various cultural institutions and their design systems including digital signage, wayfinding, website, and printed ephemera. Feedback through group and instructor critiques aid in crafting effective messaging solutions. Project components may range from identity systems (logotype, typeface, color palette, sub-brands) to materials including print collateral, interactive web/digital projects (including sound and video), signage systems, and advertising. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 142",
-        "title": "Design Systems",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Exploration of the development of design identities in the form of multi-component, multi-stage, or cross-media projects. Development of series and systems that include visual and verbal components to create a cohesive identity across deliverables that either communicate, reinforce, or build upon a message. Analysis of various cultural institutions and their design systems including digital signage, wayfinding, website, and printed ephemera. Feedback through group and instructor critiques aid in crafting effective messaging solutions. Project components may range from identity systems (logotype, typeface, color palette, sub-brands) to materials including print collateral, interactive web/digital projects (including sound and video), signage systems, and advertising. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 143",
-        "title": "Disability and the Web",
-        "units": 5,
-        "description": "Studio, six hours. Introduction to universal design, assistive technology, and disability justice. Students work hands-on in partnership with community organizations that support people with disabilities to learn about assistive technology, identify access issues, and prototype solutions on the web. Engagement with and expansion of existing accessibility best practices to interrogate role of art and design in understanding accessibility and disability. Students learn and employ a human-centered approach to begin creating more inclusive web experiences. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 143",
-        "title": "Disability and the Web",
-        "units": 5,
-        "description": "Studio, six hours. Introduction to universal design, assistive technology, and disability justice. Students work hands-on in partnership with community organizations that support people with disabilities to learn about assistive technology, identify access issues, and prototype solutions on the web. Engagement with and expansion of existing accessibility best practices to interrogate role of art and design in understanding accessibility and disability. Students learn and employ a human-centered approach to begin creating more inclusive web experiences. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 144",
-        "title": "Type in Motion",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Typographic vocabulary is expanded through the use of time-based composition, sound, and animation. The application of kinetic media enables motion, scale change, and sequence to typographic communication. By experiencing the rhythmic and expressive use of type in motion, investigation of varying type size, weight, spatial relationships, form and counter form, and movement within a word, while preserving typographic principles. Students are exposed to a more interpretive use of typography, which can be applied to a variety of applications such as film and television titles, commercials, information kiosks, interactive signage, websites, and presentations. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 144",
-        "title": "Type in Motion",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Typographic vocabulary is expanded through the use of time-based composition, sound, and animation. The application of kinetic media enables motion, scale change, and sequence to typographic communication. By experiencing the rhythmic and expressive use of type in motion, investigation of varying type size, weight, spatial relationships, form and counter form, and movement within a word, while preserving typographic principles. Students are exposed to a more interpretive use of typography, which can be applied to a variety of applications such as film and television titles, commercials, information kiosks, interactive signage, websites, and presentations. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 145",
-        "title": "Design Research",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Study of concepts and techniques of design research. Application of them individually and in groups to specific areas of interest. Emphasis on research methodologies for creative practices. Study maintains and strengthens attention to design research theory and praxis. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 145",
-        "title": "Design Research",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Study of concepts and techniques of design research. Application of them individually and in groups to specific areas of interest. Emphasis on research methodologies for creative practices. Study maintains and strengthens attention to design research theory and praxis. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 146",
-        "title": "Ecological Arts and Justice Practice",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 25, 101 or 104. Investigation of ecological art practices grounded in environmental justice. Research of Southern California ecologies with historical and ongoing issues of environmental injustice. Students investigate environmental wrong-doings of the region, critically and creatively implement community-based design methods, do site visits, and engage with the natural environment by conducting fieldwork to develop research-based interdisciplinary design and art projects using a wide range of media, grounded in storytelling and place-based artistic fieldwork practices. Prior knowledge of ecology or environmental justice not required. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 146",
-        "title": "Ecological Arts and Justice Practice",
-        "units": 5,
-        "description": "Studio, six hours. Requisites: courses 25, 101 or 104. Investigation of ecological art practices grounded in environmental justice. Research of Southern California ecologies with historical and ongoing issues of environmental injustice. Students investigate environmental wrong-doings of the region, critically and creatively implement community-based design methods, do site visits, and engage with the natural environment by conducting fieldwork to develop research-based interdisciplinary design and art projects using a wide range of media, grounded in storytelling and place-based artistic fieldwork practices. Prior knowledge of ecology or environmental justice not required. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 150",
-        "title": "Professional Practices",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Exploration of issues in the business side of design media arts careers-as a freelancer, full-time staffer, or one's own studio practice. Topics include understanding common studio structures and roles, developing studio credentials, billing and booking practices, proposal and contract writing, pricing models, and copyright and other legal matters. Consideration also of shifting studio processes, interviewing tips, negotiating, and other workplace issues. Features occasional guest panelists. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 150",
-        "title": "Professional Practices",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Exploration of issues in the business side of design media arts careers-as a freelancer, full-time staffer, or one's own studio practice. Topics include understanding common studio structures and roles, developing studio credentials, billing and booking practices, proposal and contract writing, pricing models, and copyright and other legal matters. Consideration also of shifting studio processes, interviewing tips, negotiating, and other workplace issues. Features occasional guest panelists. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 153",
-        "title": "Video",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisite: course 101 or 104. Use of video technology (video systems, cameras, displays, editing, and storage) to integrate image, sound, time, and motion. Emphasis on expression, continuity, and sequential patterns for video communication. P/NP or letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 153",
-        "title": "Video",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisite: course 101 or 104. Use of video technology (video systems, cameras, displays, editing, and storage) to integrate image, sound, time, and motion. Emphasis on expression, continuity, and sequential patterns for video communication. P/NP or letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 159",
-        "title": "Capstone Senior Project in Design Media Arts",
-        "units": 5,
-        "description": "(Formerly numbered 159A.) Studio, six hours; outside study, nine hours. Requisites: courses 8, 10, 21, 22, 24, 25, 28, 101, and 104, and 160, 171, 172, or 173. Preparation: completion of preparation for major courses. Students should have completed six core, upper-division studio courses. Limited to seniors and should be completed in last year. Focus on creating final project that can be showcased at Senior Show. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 8"},
-            {"type": "requisite","course": "DESMA 10"},
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "requisite","course": "DESMA 101"},
-            {"type": "requisite","course": "DESMA 104"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 160"},{"type": "requisite","course": "DESMA 171"},{"type": "requisite","course": "DESMA 172"},{"type": "requisite","course": "DESMA 173"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 159",
-        "title": "Capstone Senior Project in Design Media Arts",
-        "units": 5,
-        "description": "(Formerly numbered 159A.) Studio, six hours; outside study, nine hours. Requisites: courses 8, 10, 21, 22, 24, 25, 28, 101, and 104, and 160, 171, 172, or 173. Preparation: completion of preparation for major courses. Students should have completed six core, upper-division studio courses. Limited to seniors and should be completed in last year. Focus on creating final project that can be showcased at Senior Show. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 8"},
-            {"type": "requisite","course": "DESMA 10"},
-            {"type": "requisite","course": "DESMA 21"},
-            {"type": "requisite","course": "DESMA 22"},
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 25"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "requisite","course": "DESMA 101"},
-            {"type": "requisite","course": "DESMA 104"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 160"},{"type": "requisite","course": "DESMA 171"},{"type": "requisite","course": "DESMA 172"},{"type": "requisite","course": "DESMA 173"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 159B",
-        "title": "Capstone Senior Project: Video and Animation",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, 101, 104, 153, 156, and 160, 171, 172, or 173. Limited to seniors. Linear media, including storyboarding, video, animation, modeling, editing, postproduction, and lighting. Focus on creating final project that can be showcased at Senior Show. Students can take two different courses in different terms or the same course twice in different terms. Total units for courses 159A, 159B, and 159C may not exceed 10 units, with maximum of 5 units per term. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "requisite","course": "DESMA 101"},
-            {"type": "requisite","course": "DESMA 104"},
-            {"type": "requisite","course": "DESMA 153"},
-            {"type": "requisite","course": "DESMA 156"},
-            {"type": "requisite","course": "DESMA 160"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 171"},{"type": "requisite","course": "DESMA 172"},{"type": "requisite","course": "DESMA 173"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 159B",
-        "title": "Capstone Senior Project: Video and Animation",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, 101, 104, 153, 156, and 160, 171, 172, or 173. Limited to seniors. Linear media, including storyboarding, video, animation, modeling, editing, postproduction, and lighting. Focus on creating final project that can be showcased at Senior Show. Students can take two different courses in different terms or the same course twice in different terms. Total units for courses 159A, 159B, and 159C may not exceed 10 units, with maximum of 5 units per term. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "requisite","course": "DESMA 101"},
-            {"type": "requisite","course": "DESMA 104"},
-            {"type": "requisite","course": "DESMA 153"},
-            {"type": "requisite","course": "DESMA 156"},
-            {"type": "requisite","course": "DESMA 160"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 171"},{"type": "requisite","course": "DESMA 172"},{"type": "requisite","course": "DESMA 173"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 159C",
-        "title": "Capstone Senior Project: Visual Communication and Image",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, 101, 104, 154, and 160, 171, 172, or 173. Visual communication, editorial design, photography, typography, branding, and narrative environments. Limited to seniors. Visual communication, editorial design, photography, typography, branding, and narrative environments. Focus on creating final project that can be showcased at Senior Show. Students can take two different courses in different terms or the same course twice in different terms. Total units for courses 159A, 159B, and 159C may not exceed 10 units, with maximum of 5 units per term. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "requisite","course": "DESMA 101"},
-            {"type": "requisite","course": "DESMA 104"},
-            {"type": "requisite","course": "DESMA 154"},
-            {"type": "requisite","course": "DESMA 160"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 171"},{"type": "requisite","course": "DESMA 172"},{"type": "requisite","course": "DESMA 173"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 159C",
-        "title": "Capstone Senior Project: Visual Communication and Image",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, 101, 104, 154, and 160, 171, 172, or 173. Visual communication, editorial design, photography, typography, branding, and narrative environments. Limited to seniors. Visual communication, editorial design, photography, typography, branding, and narrative environments. Focus on creating final project that can be showcased at Senior Show. Students can take two different courses in different terms or the same course twice in different terms. Total units for courses 159A, 159B, and 159C may not exceed 10 units, with maximum of 5 units per term. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "requisite","course": "DESMA 101"},
-            {"type": "requisite","course": "DESMA 104"},
-            {"type": "requisite","course": "DESMA 154"},
-            {"type": "requisite","course": "DESMA 160"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 171"},{"type": "requisite","course": "DESMA 172"},{"type": "requisite","course": "DESMA 173"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 160",
-        "title": "Special Topics in Design | Media Arts",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisite: course 101 or 104. Selected topics in design and media arts explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for credit with topic change. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 160",
-        "title": "Special Topics in Design | Media Arts",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisite: course 101 or 104. Selected topics in design and media arts explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for credit with topic change. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 163",
-        "title": "Narrative",
-        "units": 5,
-        "description": "Lecture, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisite: course 101 or 104. Provides wider understanding of arts that parallels world of 20th-century visual languages. Study of threads that allow viewer to connect story of one art form to another in richer context. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 163",
-        "title": "Narrative",
-        "units": 5,
-        "description": "Lecture, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisite: course 101 or 104. Provides wider understanding of arts that parallels world of 20th-century visual languages. Study of threads that allow viewer to connect story of one art form to another in richer context. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 171",
-        "title": "Topics in Interactivity and Games",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisites: courses 101 or 104, 157. Selected topics in interactive media and games explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for maximum of 15 units. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]},
-            {"type": "requisite","course": "DESMA 157"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 171",
-        "title": "Topics in Interactivity and Games",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisites: courses 101 or 104, 157. Selected topics in interactive media and games explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for maximum of 15 units. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]},
-            {"type": "requisite","course": "DESMA 157"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 172",
-        "title": "Topics in Video and Animation",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisites: courses 101 or 104, and 153 or 156. Selected topics in video and animation explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for maximum of 15 units. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 153"},{"type": "requisite","course": "DESMA 156"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 172",
-        "title": "Topics in Video and Animation",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisites: courses 101 or 104, and 153 or 156. Selected topics in video and animation explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for maximum of 15 units. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 153"},{"type": "requisite","course": "DESMA 156"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 173",
-        "title": "Topics in Visual Communication and Image",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisites: courses 24, 28, 101 or 104, 154. Selected topics in visual communication and image explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for maximum of 15 units. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]},
-            {"type": "requisite","course": "DESMA 154"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 173",
-        "title": "Topics in Visual Communication and Image",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisites: courses 24, 28, 101 or 104, 154. Selected topics in visual communication and image explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for maximum of 15 units. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 24"},
-            {"type": "requisite","course": "DESMA 28"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DESMA 101"},{"type": "requisite","course": "DESMA 104"}]},
-            {"type": "requisite","course": "DESMA 154"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 189",
-        "title": "Advanced Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 189",
-        "title": "Advanced Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 195A",
-        "title": "Community or Corporate Internships in Design | Media Arts",
-        "units": 2,
-        "description": "Tutorial, six hours. Limited to juniors/seniors. Internship in supervised setting in community agency or business related to design. Students meet on regular basis with instructor and provide periodic reports of their experience. Courses 195A and 195B may be repeated for combined maximum of 8 units. Individual contract with supervising faculty member required. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 195A",
-        "title": "Community or Corporate Internships in Design | Media Arts",
-        "units": 2,
-        "description": "Tutorial, six hours. Limited to juniors/seniors. Internship in supervised setting in community agency or business related to design. Students meet on regular basis with instructor and provide periodic reports of their experience. Courses 195A and 195B may be repeated for combined maximum of 8 units. Individual contract with supervising faculty member required. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 195B",
-        "title": "Community or Corporate Internships in Design | Media Arts",
-        "units": 4,
-        "description": "Tutorial, 12 hours. Limited to juniors/seniors. Internship in supervised setting in community agency or business related to design. Students meet on regular basis with instructor and provide periodic reports of their experience. Courses 195A and 195B may be repeated for combined maximum of 8 units. Individual contract with supervising faculty member required. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 195B",
-        "title": "Community or Corporate Internships in Design | Media Arts",
-        "units": 4,
-        "description": "Tutorial, 12 hours. Limited to juniors/seniors. Internship in supervised setting in community agency or business related to design. Students meet on regular basis with instructor and provide periodic reports of their experience. Courses 195A and 195B may be repeated for combined maximum of 8 units. Individual contract with supervising faculty member required. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 198",
-        "title": "Honors Research in Design | Media Arts",
-        "units": 4,
-        "description": "Tutorial, two hours. Preparation: 3.0 grade-point average overall. Limited to juniors/seniors. Development and completion of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated once for credit. Individual contract required. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 198",
-        "title": "Honors Research in Design | Media Arts",
-        "units": 4,
-        "description": "Tutorial, two hours. Preparation: 3.0 grade-point average overall. Limited to juniors/seniors. Development and completion of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated once for credit. Individual contract required. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 199",
-        "title": "Directed Research in Design | Media Arts",
-        "units": 2,
-        "description": "Tutorial, four hours. Preparation: 3.0 grade-point average in major. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 199",
-        "title": "Directed Research in Design | Media Arts",
-        "units": 2,
-        "description": "Tutorial, four hours. Preparation: 3.0 grade-point average in major. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 2",
-        "title": "Artificial Intelligence and Art",
-        "units": 4,
-        "description": "Studio, 30 hours. Limited to high school students. Exploration of how artificial intelligence (AI) interacts with the visual arts, and automated algorithms as a tool for creative expression. Starting from early collage and montage practices, exploration of how artists have used cultural fragments as their medium to explore meaning through juxtaposition and appropriation. Study of how computational methods enabled artists to explore such practices with increasing fidelity and magnitudes of data. Consideration of recent surge in interest in the field of AI, and what that might mean for understanding art. Discussion of topics such as perception, augmentation, deep fakes, surveillance, privacy, and automation. Includes short lectures, discussions, workshops, time to work in class, and feedback sessions. No prior programming or machine learning knowledge required. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 2",
-        "title": "Artificial Intelligence and Art",
-        "units": 4,
-        "description": "Studio, 30 hours. Limited to high school students. Exploration of how artificial intelligence (AI) interacts with the visual arts, and automated algorithms as a tool for creative expression. Starting from early collage and montage practices, exploration of how artists have used cultural fragments as their medium to explore meaning through juxtaposition and appropriation. Study of how computational methods enabled artists to explore such practices with increasing fidelity and magnitudes of data. Consideration of recent surge in interest in the field of AI, and what that might mean for understanding art. Discussion of topics such as perception, augmentation, deep fakes, surveillance, privacy, and automation. Includes short lectures, discussions, workshops, time to work in class, and feedback sessions. No prior programming or machine learning knowledge required. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 200",
-        "title": "Design|Media Arts Faculty Seminar",
-        "units": 2,
-        "description": "Seminar, two hours. Limited to graduate design|media arts students. Designed to familiarize new graduate students with departmental faculty members and their creative work and research to help students select their faculty advisers. May be repeated once for credit. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 200",
-        "title": "Design|Media Arts Faculty Seminar",
-        "units": 2,
-        "description": "Seminar, two hours. Limited to graduate design|media arts students. Designed to familiarize new graduate students with departmental faculty members and their creative work and research to help students select their faculty advisers. May be repeated once for credit. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 21",
-        "title": "Digital Image",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. For drawing, exploration of relationship between concept and image creation while fostering development of sound drawing and observation skills. For color, exploration of development of fundamental skills in mixing and applying pigments with brush on watercolor paper, as well as use of computer as tool for working with colors. Combination of painting and software to be predominant way of exploring and presenting ideas regarding color. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 21",
-        "title": "Digital Image",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. For drawing, exploration of relationship between concept and image creation while fostering development of sound drawing and observation skills. For color, exploration of development of fundamental skills in mixing and applying pigments with brush on watercolor paper, as well as use of computer as tool for working with colors. Combination of painting and software to be predominant way of exploring and presenting ideas regarding color. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 22",
-        "title": "Fabrication and Materials",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. Study combines aspects of industrial design, sculpture, engineering, fabrication, traditional crafts, and other practices to give students a survey of many different ways of making. Through assignments and projects investigating the affordances of materials and the potentials of fabrication, students engage with concepts of extraction, resources, supply chains, measurement, scale, pattern, repetition, translation, 3D modeling, and meaning making. Students work to produce their own relationship to materials and physical making while forming a personal aesthetic language. Concept, process, and results of assignments are documented and archived to demonstrate progress. Students learn tools, techniques, software, fabricate objects, and discuss their work. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 22",
-        "title": "Fabrication and Materials",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. Study combines aspects of industrial design, sculpture, engineering, fabrication, traditional crafts, and other practices to give students a survey of many different ways of making. Through assignments and projects investigating the affordances of materials and the potentials of fabrication, students engage with concepts of extraction, resources, supply chains, measurement, scale, pattern, repetition, translation, 3D modeling, and meaning making. Students work to produce their own relationship to materials and physical making while forming a personal aesthetic language. Concept, process, and results of assignments are documented and archived to demonstrate progress. Students learn tools, techniques, software, fabricate objects, and discuss their work. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 24",
-        "title": "Video and Motion",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. Introduction and integration of design tools and digital technologies for application to visual thinking and fundamentals of design. Exploration of aesthetics and fundamentals of motion and application to design and media arts through introduction of basic concepts and tools for design of moving images. Includes discussions, student presentations, critique, software tutorials, and studio time for project development. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 24",
-        "title": "Video and Motion",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. Introduction and integration of design tools and digital technologies for application to visual thinking and fundamentals of design. Exploration of aesthetics and fundamentals of motion and application to design and media arts through introduction of basic concepts and tools for design of moving images. Includes discussions, student presentations, critique, software tutorials, and studio time for project development. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 25",
-        "title": "Typography",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. Focus on three typographic basics: letter, text, and grid. Introduction to fundamentals of typography. Assignments designed to develop understanding of form, scale, and shape of letters as single elements and as texture in layout. Emphasis on grid (structure and layout) and information hierarchy to create successful typographic messages. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 25",
-        "title": "Typography",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. Focus on three typographic basics: letter, text, and grid. Introduction to fundamentals of typography. Assignments designed to develop understanding of form, scale, and shape of letters as single elements and as texture in layout. Emphasis on grid (structure and layout) and information hierarchy to create successful typographic messages. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 252A",
-        "title": "Coding for the Arts",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Limited to majors. Introduction to computer programming within context of art and design. Exploration of conceptual space enabled by electronic media through exercises, presentations, discussions, and critiques. Weekly exercises balance concept and technique to reveal potential of computer as medium and tool. Experience with programming basics includes procedural and object-oriented programming, two- and three-dimensional graphics, file I/O, color models, and image processing. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 252A",
-        "title": "Coding for the Arts",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Limited to majors. Introduction to computer programming within context of art and design. Exploration of conceptual space enabled by electronic media through exercises, presentations, discussions, and critiques. Weekly exercises balance concept and technique to reveal potential of computer as medium and tool. Experience with programming basics includes procedural and object-oriented programming, two- and three-dimensional graphics, file I/O, color models, and image processing. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 252B",
-        "title": "Virtuality",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Limited to Design|Media Arts majors. Introduction to essential 3D computer graphics techniques, concepts, and implementations. Students complete short exercises to better understand workflows used to create 3D digital art and adjacent media including but not limited to 3D models and animation, virtual and augmented reality, video games, motion capture, photogrammetry, 3D scanning, and physics simulations. Offers technical, formal, and theoretical background for 3D computer graphics to inspire new perspectives on potential of artmaking in virtual spaces. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 252B",
-        "title": "Virtuality",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Limited to Design|Media Arts majors. Introduction to essential 3D computer graphics techniques, concepts, and implementations. Students complete short exercises to better understand workflows used to create 3D digital art and adjacent media including but not limited to 3D models and animation, virtual and augmented reality, video games, motion capture, photogrammetry, 3D scanning, and physics simulations. Offers technical, formal, and theoretical background for 3D computer graphics to inspire new perspectives on potential of artmaking in virtual spaces. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 252C",
-        "title": "Materiality",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Enforced requisite: course 252A. Limited to Design|Media Arts majors. Exploration of use of electromechanical actuators and sensors, custom interface design, microcontroller programming, and building kinetic and interactive physical artworks. Practical electronics theory, programming for embedded systems, two-dimensional and three-dimensional CAD, basic milling, laser cutting, mold making, circuit building, and other sculptural electronics fabrication techniques. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 252A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 252C",
-        "title": "Materiality",
-        "units": 5,
-        "description": "Studio, six hours; outside study, nine hours. Enforced requisite: course 252A. Limited to Design|Media Arts majors. Exploration of use of electromechanical actuators and sensors, custom interface design, microcontroller programming, and building kinetic and interactive physical artworks. Practical electronics theory, programming for embedded systems, two-dimensional and three-dimensional CAD, basic milling, laser cutting, mold making, circuit building, and other sculptural electronics fabrication techniques. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DESMA 252A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 266",
-        "title": "Creating Context and Collaborative Projects",
-        "units": 3,
-        "description": "Studio, three hours; outside study, six hours. Focus on collaborative, cooperative, and curatorial artists' practice that takes place beyond traditional and familiar venues. Study of examples of impactful historical and ongoing initiatives, specifically those that endeavor to create context for new artistic practices. Students work collaboratively to organize a culminating public facing event. May be repeated once for credit. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 266",
-        "title": "Creating Context and Collaborative Projects",
-        "units": 3,
-        "description": "Studio, three hours; outside study, six hours. Focus on collaborative, cooperative, and curatorial artists' practice that takes place beyond traditional and familiar venues. Study of examples of impactful historical and ongoing initiatives, specifically those that endeavor to create context for new artistic practices. Students work collaboratively to organize a culminating public facing event. May be repeated once for credit. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 269",
-        "title": "Graduate Seminar",
-        "units": 4,
-        "description": "Seminar, four hours. Designed for graduate design | media arts students. Survey of critical theories in media art and design. Critical examination of student work by peers, faculty members, and expert guests. Must be taken twice for MFA degree. May be repeated for credit with consent of adviser. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 269",
-        "title": "Graduate Seminar",
-        "units": 4,
-        "description": "Seminar, four hours. Designed for graduate design | media arts students. Survey of critical theories in media art and design. Critical examination of student work by peers, faculty members, and expert guests. Must be taken twice for MFA degree. May be repeated for credit with consent of adviser. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 27",
-        "title": "Three-Dimensional Modeling",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. Introduction to foundational principles of 3D modeling including clean topology and edge flow design, non-uniform rational B-splines (NURBS) modeling, UV map and texturing methods, lighting basics, and rendering techniques. Focus on sustainable and organized workflow practices. Students develop thoughtful projects and their own style in 3D modeling software. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 27",
-        "title": "Three-Dimensional Modeling",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. Introduction to foundational principles of 3D modeling including clean topology and edge flow design, non-uniform rational B-splines (NURBS) modeling, UV map and texturing methods, lighting basics, and rendering techniques. Focus on sustainable and organized workflow practices. Students develop thoughtful projects and their own style in 3D modeling software. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 272",
-        "title": "Introduction to Art | Science",
-        "units": 5,
-        "description": "Seminar, three hours. For past 50 years artists have increasingly moved from being inspired by scientific innovation and discovery to actually collaborating with scientists and even residing and working in science laboratories. History of science in relation to artists' interpretation of scientific work to current works that are created in response to recent developments in biotechnology and nanotechnology. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 272",
-        "title": "Introduction to Art | Science",
-        "units": 5,
-        "description": "Seminar, three hours. For past 50 years artists have increasingly moved from being inspired by scientific innovation and discovery to actually collaborating with scientists and even residing and working in science laboratories. History of science in relation to artists' interpretation of scientific work to current works that are created in response to recent developments in biotechnology and nanotechnology. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 28",
-        "title": "Interactivity",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. Introduction to concept of interactivity and field of media art that follows history of computer as media for artistic exploration in relation to print, animation, and interactivity. Discussion of potential and ideas related to interactivity, with focus on required skills for creating interactive work. Development of programming skills in service of creating examples of media art. Concepts and skills taught enhance student ability to excel in future courses about Internet, animation, interactive media, and game design. Discussion and readings on four themes-form/programming, motion, interactivity/programming, and interface. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 28",
-        "title": "Interactivity",
-        "units": 4,
-        "description": "Studio, six hours; outside study, six hours. Introduction to concept of interactivity and field of media art that follows history of computer as media for artistic exploration in relation to print, animation, and interactivity. Discussion of potential and ideas related to interactivity, with focus on required skills for creating interactive work. Development of programming skills in service of creating examples of media art. Concepts and skills taught enhance student ability to excel in future courses about Internet, animation, interactive media, and game design. Discussion and readings on four themes-form/programming, motion, interactivity/programming, and interface. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 282",
-        "title": "Contemporary Topics in Media Arts",
-        "units": 3,
-        "description": "Seminar, two hours; outside study, seven hours. Through discussions, readings, screenings, and critical writing, addresses a set of themes related to creative practices in moving image and computational media, and their historical and political roots. These include critical race theory, posthumanism, privacy, technology and power, identity and virtuality, digital aesthetics, play, and non-human authorship. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 282",
-        "title": "Contemporary Topics in Media Arts",
-        "units": 3,
-        "description": "Seminar, two hours; outside study, seven hours. Through discussions, readings, screenings, and critical writing, addresses a set of themes related to creative practices in moving image and computational media, and their historical and political roots. These include critical race theory, posthumanism, privacy, technology and power, identity and virtuality, digital aesthetics, play, and non-human authorship. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 289",
-        "title": "Special Topics in Media Arts",
-        "units": 3,
-        "description": "Seminar, three hours; outside study, six hours. Examination of topics relevant to media arts theory and practice, with scheduled meetings to be arranged between faculty member and student as needed. Topics announced in advance. May be taken for maximum of 18 units. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 289",
-        "title": "Special Topics in Media Arts",
-        "units": 3,
-        "description": "Seminar, three hours; outside study, six hours. Examination of topics relevant to media arts theory and practice, with scheduled meetings to be arranged between faculty member and student as needed. Topics announced in advance. May be taken for maximum of 18 units. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 299",
-        "title": "Professional Practice",
-        "units": 2,
-        "description": "Seminar, two hours; outside study, four hours. Limited to graduate Design|Media Arts majors. Focus on professional training. Covers various topics related to professional practice in the field of media arts aimed at preparing students for different aspects of post-graduate life including finding and preparing for academic jobs, artist residencies, public art commissions, grant writing, gallery representation, non-profit and freelance work, PhD studies, and communication and documentation strategies. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 299",
-        "title": "Professional Practice",
-        "units": 2,
-        "description": "Seminar, two hours; outside study, four hours. Limited to graduate Design|Media Arts majors. Focus on professional training. Covers various topics related to professional practice in the field of media arts aimed at preparing students for different aspects of post-graduate life including finding and preparing for academic jobs, artist residencies, public art commissions, grant writing, gallery representation, non-profit and freelance work, PhD studies, and communication and documentation strategies. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 3",
-        "title": "Game Design",
-        "units": 4,
-        "description": "Studio, 30 hours. Limited to high school students. Development of fundamental skills to create games and game art that express personal and subjective approach to game making. Artistic vision combined with technological expertise to teach students fundamentals of designing games, building game worlds, creating game characters, and making playable games for mobile platforms. Use of current software and technology, including Maya and Unity3D. Creation of game projects that students exhibit and can use for college applications. Offered only as part of UCLA Game Lab Summer Institute. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 3",
-        "title": "Game Design",
-        "units": 4,
-        "description": "Studio, 30 hours. Limited to high school students. Development of fundamental skills to create games and game art that express personal and subjective approach to game making. Artistic vision combined with technological expertise to teach students fundamentals of designing games, building game worlds, creating game characters, and making playable games for mobile platforms. Use of current software and technology, including Maya and Unity3D. Creation of game projects that students exhibit and can use for college applications. Offered only as part of UCLA Game Lab Summer Institute. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 4",
-        "title": "Audio Video Design",
-        "units": 2,
-        "description": "Studio, 30 hours. Limited to high school students. Creation of storyboard for short documentary, commercial, or music video. Students shoot and edit their own work by learning fundamentals of preproduction and postproduction using latest digital software, Adobe Premiere and After Effects, to create their work. Burning of DVD of finished production. Visits from professional video producer to help guide students in creating their own videos. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 4",
-        "title": "Audio Video Design",
-        "units": 2,
-        "description": "Studio, 30 hours. Limited to high school students. Creation of storyboard for short documentary, commercial, or music video. Students shoot and edit their own work by learning fundamentals of preproduction and postproduction using latest digital software, Adobe Premiere and After Effects, to create their work. Burning of DVD of finished production. Visits from professional video producer to help guide students in creating their own videos. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 403",
-        "title": "Graduate Critique",
-        "units": 2,
-        "description": "Seminar, three hours; outside study, three hours. Limited to DMA graduate students. Students meet with instructor in small classroom setting to exchange ideas through presentation of current projects and research, discussion, research papers, and reports. Instructors vary quarterly between senate faculty, and visiting instructors and professions. Instructors may also invite visiting critics to contribute. May be repeated for credit. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 403",
-        "title": "Graduate Critique",
-        "units": 2,
-        "description": "Seminar, three hours; outside study, three hours. Limited to DMA graduate students. Students meet with instructor in small classroom setting to exchange ideas through presentation of current projects and research, discussion, research papers, and reports. Instructors vary quarterly between senate faculty, and visiting instructors and professions. Instructors may also invite visiting critics to contribute. May be repeated for credit. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 404",
-        "title": "Graduate Tutorial",
-        "units": 3,
-        "description": "Tutorial, three hours; outside study, six hours. Limited to first- and second-year departmental graduate students. Development of body of work while working toward MFA degree, with one-to-one interaction between students and faculty members. May be repeated for credit. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 404",
-        "title": "Graduate Tutorial",
-        "units": 3,
-        "description": "Tutorial, three hours; outside study, six hours. Limited to first- and second-year departmental graduate students. Development of body of work while working toward MFA degree, with one-to-one interaction between students and faculty members. May be repeated for credit. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 495",
-        "title": "Teaching Assistant Training Practicum",
-        "units": 2,
-        "description": "Seminar, three hours; outside study, three hours. Forum for first-year teaching assistants for discussion and exploration of teaching pedagogy and classroom mechanics. Problems and practices of teaching design at college level, as well as role of teaching assistants within department. Designed to help new teaching assistants develop teaching skills and to orient them to department and University policies and resources. May not be applied toward degree requirements. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 495",
-        "title": "Teaching Assistant Training Practicum",
-        "units": 2,
-        "description": "Seminar, three hours; outside study, three hours. Forum for first-year teaching assistants for discussion and exploration of teaching pedagogy and classroom mechanics. Problems and practices of teaching design at college level, as well as role of teaching assistants within department. Designed to help new teaching assistants develop teaching skills and to orient them to department and University policies and resources. May not be applied toward degree requirements. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 5",
-        "title": "Introduction to Design | Media Arts",
-        "units": 4,
-        "description": "Studio, 40 hours. Limited to high school students. Two-week summer course designed to meet needs of high school students interested in exploring their creative potential within fields of design media arts, with focus on concepts of narrative and storytelling. Introduction to and exploration of variety of media such as graphic, web, game, and video design with goal of combining and integrating these media to express and realize their narrative projects. Students work with most current software and technology in each discipline area, developing diverse skill sets while cultivating conceptual capabilities around storytelling project, and with experienced instructors and professionals in field to develop projects utilizing this comprehensive and integrative approach. Culminates in portfolios that may be used for college applications. Possible field trips. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 5",
-        "title": "Introduction to Design | Media Arts",
-        "units": 4,
-        "description": "Studio, 40 hours. Limited to high school students. Two-week summer course designed to meet needs of high school students interested in exploring their creative potential within fields of design media arts, with focus on concepts of narrative and storytelling. Introduction to and exploration of variety of media such as graphic, web, game, and video design with goal of combining and integrating these media to express and realize their narrative projects. Students work with most current software and technology in each discipline area, developing diverse skill sets while cultivating conceptual capabilities around storytelling project, and with experienced instructors and professionals in field to develop projects utilizing this comprehensive and integrative approach. Culminates in portfolios that may be used for college applications. Possible field trips. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 596",
-        "title": "Directed Individual Study or Research",
-        "units": 2,
-        "description": "Tutorial, to be arranged. May be repeated for credit with consent of adviser. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 596",
-        "title": "Directed Individual Study or Research",
-        "units": 2,
-        "description": "Tutorial, to be arranged. May be repeated for credit with consent of adviser. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 597",
-        "title": "Preparation for MFA Comprehensive Examination",
-        "units": 4,
-        "description": "Tutorial, to be arranged. Designed for second-year MFA students to prepare for comprehensive examination. May be repeated for credit with consent of adviser. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 597",
-        "title": "Preparation for MFA Comprehensive Examination",
-        "units": 4,
-        "description": "Tutorial, to be arranged. Designed for second-year MFA students to prepare for comprehensive examination. May be repeated for credit with consent of adviser. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 598",
-        "title": "MA Research and Thesis Preparation",
-        "units": 4,
-        "description": "Tutorial, to be arranged. Designed for second-year MA students. May not be applied toward minimum graduate course or unit requirements for MA degree. May be repeated for credit. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 598",
-        "title": "MA Research and Thesis Preparation",
-        "units": 4,
-        "description": "Tutorial, to be arranged. Designed for second-year MA students. May not be applied toward minimum graduate course or unit requirements for MA degree. May be repeated for credit. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 6",
-        "title": "Art/Science and Technology Studio/Laboratory",
-        "units": 4,
-        "description": "Studio/laboratory, 40 hours. Limited to high school students. Two-week summer course, including lectures, required screenings, laboratory visits, field trips, and outside study. Exploration of creative aspects of scientific research and innovation to gain broad understanding of impact of science on contemporary art and popular culture, with focus on new sciences of biotechnology and nanotechnology. Development of proposals and ideas that could serve as prototypes for either art projects or scientific research study. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 6",
-        "title": "Art/Science and Technology Studio/Laboratory",
-        "units": 4,
-        "description": "Studio/laboratory, 40 hours. Limited to high school students. Two-week summer course, including lectures, required screenings, laboratory visits, field trips, and outside study. Exploration of creative aspects of scientific research and innovation to gain broad understanding of impact of science on contemporary art and popular culture, with focus on new sciences of biotechnology and nanotechnology. Development of proposals and ideas that could serve as prototypes for either art projects or scientific research study. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 7",
-        "title": "Critical Game Culture",
-        "units": 5,
-        "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Introduction to critical issues in the culture and history of games. Consideration of games and game culture in relation to contemporary social issues such as economics and class, environment, violence, gender identity, and cross-cultural representation. Weekly focus on a different subject or topic related to games and games culture, combining reading, lecture, discussion, game examples, and opportunities for hands-on gameplay. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 7",
-        "title": "Critical Game Culture",
-        "units": 5,
-        "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Introduction to critical issues in the culture and history of games. Consideration of games and game culture in relation to contemporary social issues such as economics and class, environment, violence, gender identity, and cross-cultural representation. Weekly focus on a different subject or topic related to games and games culture, combining reading, lecture, discussion, game examples, and opportunities for hands-on gameplay. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 8",
-        "title": "Media Histories",
-        "units": 5,
-        "description": "Lecture, three hours; outside study, 12 hours. Synthetic overview of optical media and aesthetic movements covering past two centuries: photography and industrialization/Romanticism (1850 to 1900), cinema and modernism (1900 to 1950), television and postmodernism (1950 to 2000), and digital media and unimodernism (2000 to 2050). How such movements can inform generative work and how understanding these media becomes essential in emerging era of digital humanities. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 8",
-        "title": "Media Histories",
-        "units": 5,
-        "description": "Lecture, three hours; outside study, 12 hours. Synthetic overview of optical media and aesthetic movements covering past two centuries: photography and industrialization/Romanticism (1850 to 1900), cinema and modernism (1900 to 1950), television and postmodernism (1950 to 2000), and digital media and unimodernism (2000 to 2050). How such movements can inform generative work and how understanding these media becomes essential in emerging era of digital humanities. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 89",
-        "title": "Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 89",
-        "title": "Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 9",
-        "title": "Art, Science, and Technology",
-        "units": 5,
-        "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Exploration and survey of cultural impact of scientific and cultural innovations, technology-driven art inspired by science, and art/science collaborative projects. Introduction to vast array of cutting-edge research taking place on campus; scientific guest lecturers. Emphasis on art projects that use technology and respond to new scientific concepts. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 9",
-        "title": "Art, Science, and Technology",
-        "units": 5,
-        "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Exploration and survey of cultural impact of scientific and cultural innovations, technology-driven art inspired by science, and art/science collaborative projects. Introduction to vast array of cutting-edge research taking place on campus; scientific guest lecturers. Emphasis on art projects that use technology and respond to new scientific concepts. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 99",
-        "title": "Student Research Program",
-        "units": 1,
-        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DESMA 99",
-        "title": "Student Research Program",
-        "units": 1,
-        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    }
+  {
+    "id": "DESMA 1",
+    "title": "Code and Art",
+    "units": 4,
+    "description": "Studio, 30 hours. Limited to high school students. Exploration of what code can do within the visual arts and what can be done with it. Focus on exercises with templates that can be modified and adjusted for new learners, and that can be extended by people with prior knowledge in this area. Includes series of short exercises covering a wide range of possibilities and a final project. Exploration of range of experiences including drawing, coding for the web, interactive performance, and generative art. Creation of software within visual arts realm. Builds a foundation for future learning. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 10",
+    "title": "Design Culture",
+    "units": 5,
+    "description": "Lecture, three hours; outside study, 12 hours. Open to nonmajors. Understanding design process, with emphasis on development of visual language; study of historic, scientific, technological, economic, and cultural factors influencing design in physical environment. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 101",
+    "title": "Media Arts: Introduction",
+    "units": 5,
+    "description": "Lecture, three hours; outside study, 12 hours. Limited to and required of Design | Media Arts majors. Survey of media arts, their history, aesthetics, and cultural roles from late-19th century to present. Investigation of media arts within broad historical and cultural framework. Discussion of parallels and links with other cultural forms, including history of technology and various art and design practices. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 104",
+    "title": "Design Futures",
+    "units": 5,
+    "description": "Lecture, three hours; outside study, 12 hours. Preparation: completion of preparation for major courses. Open to nonmajors with consent of instructor. Critical examination of design practice and theory of 20th and 21st centuries, incorporating historical as well as speculative methodologies. Consideration of how various design practices and techniques related to each other across cultures and media, with strong emphasis on communication design. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 107",
+    "title": "Games Histories and Analyses",
+    "units": 5,
+    "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Study traces rich historical trajectory of games across history, from ancient board games like Senet and Go through medieval chess variants, industrial-era parlor games, early arcade experiences, and into the complex digital platforms of today. Examination of games as not merely as entertainment but as reflections of their cultural, social, and technological contexts. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 110",
+    "title": "Tangible Media",
+    "units": 5,
+    "description": "(Formerly numbered 152.) Studio, six hours; outside study, nine hours. Requisites: courses 22, 28, and 101 or 104. Through workshops, readings, lectures, critiques, and discussions, reevaluation of role of desktop computers (and their mice, trackpads, keyboards, screens, and gamepads) plays in forming our understanding of what is technically possible, sensible, logical, foolish, magical, and intuitive. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 111",
+    "title": "Art and the Internet",
+    "units": 5,
+    "description": "(Formerly numbered 161.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 28, 140. Exploration of creative, technical, and critical tools to realize Internet-based projects. Focus on students gaining deeper understanding of Internet as creative platform-where did it come from, how does it work, how do you make things for it, and what do you want to say? Technical workshops on HTML, CSS, JavaScript, and design support development of series of studio projects using variety of network tools. Examination through discussion of cultural, social, political, and philosophical implications of Internet. Consideration of roles of race, gender, sexuality, disability, class, and influence within increasingly networked world, and strategies of response as artists and designers. Examination and challenging of structuring power relationships, inequities, and biases embedded within network tools, technologies, and media. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 140"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 112",
+    "title": "Performing User",
+    "units": 5,
+    "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Exploration of how technologies used daily choreograph actions, provoke performance, and open spaces for improvisation. Creation of performative gestures that reinterpret ideas of the user interacting with a system. Study is structured around four performance assignments, dealing with themes such as instructions, errors, remote presence, and anonymity. Students learn to critique each other's work constructively-experiencing with an open mind, and thoughtfully and articulately responding. Performance activities are supplemented with attendance at performance events in Los Angeles, study of prior performance art engaging technology, short readings, and technical workshops. Focus on consideration of context, function, and meaning of these technologies; and translating this into novel ways of performing with them. No technical experience required, but a desire to take risks and step outside of one's comfort zone is necessary. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 113",
+    "title": "Generative Art",
+    "units": 5,
+    "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Generative art is a form where the artist creates a system and the system creates the work. While not limited to artists working with code and software, it is the most prominent method of exploration. Examination of history of artists working with code from 1960s to present. Exploration of artists who have written their own code to explore media including plotter drawings, film, CD-ROMs, websites, and contemporary generative art. Reading of historical and contemporary writing while creating new and original work within this arts practice field. Students write their own code to create their own generative art systems. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 114",
+    "title": "Arts Research and Practice",
+    "units": 5,
+    "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Arts research is an approach to inquiry-a methodology that relies on artistic means to interrogate, reflect upon, and understand ideas, situations, relationships, experiences, and structures. Like traditional research, arts-based inquiry seeks to raise awareness, broaden insight and understanding, and produce knowledge. Unlike traditional research, the value of arts-based research lies in its ability to evoke experience, celebrate nuance, validate feeling, and promote reflexivity. Study engages theory and practice within broader context of contemporary art, digital culture, and technology. Review of methods for exploring art as a tool for inquiry, data collection, knowledge production, and analysis. Emphasis on collaborative research strategies to deepen understandings of art as epistemology. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 115",
+    "title": "Art and Science Collaboration",
+    "units": 5,
+    "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Biodesigners use cells, DNA molecules, proteins, and living tissues to highlight ethical, social, and aesthetic issues that influence contemporary life. Introduction to how biodesign blurs distinctions between science and design through combination of design and scientific processes, creating wide public debate. Introduction to new sciences that influence food we eat, clothes we wear, and environment in which we reside. Students are challenged to think outside the box, explore divergent and convergent thinking, and seek out knowledge and inspiration from ideas that drive nano- and biotechnology. Peer collaboration is encouraged to develop speculative design projects that address issues covered. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 116",
+    "title": "Sonic Media",
+    "units": 5,
+    "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Examination of realm of sound as an artistic medium. Exploration of its conceptual, theoretical, and practical dimensions. From exploring sound perception, memory, and human orientation to embracing everyday auditory encounters, study delves into various approaches for crafting and showcasing sound-based media projects. Overview of sound art and sound design practices. Topics span from fundamental sound theory and acoustics to psychoacoustics, sound compositions, and spatial audio. Covers techniques such as editing and mixing to employ effects and automation. Includes areas such as field recordings, voice, and sound synthesis. Students gain honed listening skills and a robust theoretical framework, empowering them to articulate interests and creative visions through sound. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 125",
+    "title": "Game Design",
+    "units": 5,
+    "description": "(Formerly numbered 157.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, and 101 or 104. Introduction to game design, with focus on developing conceptual and practical skills that form basis for both digital and nondigital game development. Development of four playable game projects that explore various aspects of game design: rule design, game balance, multiplayer strategy, complexity, randomness, polemics, narrative, physical interaction, and aesthetic and pragmatic aspects of physical game design. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 126",
+    "title": "Game Engine",
+    "units": 5,
+    "description": "(Formerly numbered 158.) Studio, six hours; outside study, nine hours. Requisites: courses 28, and 101 or 104. Introduction of fundamentals of programming interactive projects in game development software. Focus on familiarizing students with game engines, computer programming concepts, player experience, and other skills that are foundational to making digital games. Lectures, exercises, and class projects teach skills needed to create digital games including custom rules, interactive physics systems, vectors, generative or randomized levels, save data, custom input systems, score-keeping, and sound. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 127",
+    "title": "Interactive Animation",
+    "units": 5,
+    "description": "(Formerly numbered 155.) Studio, six hours; outside study, nine hours. Requisites: course 101 or 104. Exploration of traditional and experimental animation techniques that are central to 2D and 3D interactive digital projects and video games. Development of skills and concepts that are integral to animation workflows and game engine animation systems including traditional animation principles, 2D sprite animation, rigging 2D and 3D game objects, and character controller implementation. Students experiment with common and alternative input methods for real-time interactivity. Readings, screenings, and in-class gameplay sessions supplement lessons. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 128",
+    "title": "Worldbuilding",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Requisites: courses 101 or 104, and 131. Worldbuilding is an art that has been around for thousands of years as a central component in ancient cosmologies, mythologies, and theologies. It thrives today within contexts of comics, computer games, serialized fiction, television series, theme parks, and transmedia marketing enterprise (and their discontents). Worldbuilding is the process of creating a framework where narrative unfolds. Study covers worldbuilding concepts and techniques through written assignments, class presentations, discussions, multi-component creative project, and technical demos. Focus on building rich and compelling navigable environments using software, sound, text, and visuals as well as printed/physical materials. Use of Unity 3D game engine as the primary worldbuilding tool with additional preferred image making tools. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 131"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 129",
+    "title": "Collaborative Game Lab",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Requisites: courses 24 or 28, and 101 or 104. Focus on collaborative game design and development and discourse around collaboration and cooperation models. Games are complex interdisciplinary cultural artifacts and are often created through team based efforts merging many possible combinations of technical, formal conceptual skills and perspectives. Students work in teams and learn strategies and approaches to successful collaboration. Projects include developing and participating in workshops, working on a large collaborative group game project, and engaging with class guests through written interviews and writing. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 24"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 28"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 130",
+    "title": "Experiments in Virtuality",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Requisites: course 101 or 104. Virtuality is a realm of potential, defined by its proximity to reality and our bodies-it is not software or platform specific. Study provides a framework for students to develop projects that explore different kinds of virtual platforms and spaces. Focus on tools, workflows, and modalities that correspond to the instructor's unique specialization, which may include expanded cinema, mixed-reality live performance practices, projection mapping, spatialized sound, or virtual reality. Discussions, individual research, readings, and screenings center on building collaborative projects, linear and nonlinear storytelling, spatial design, and approaches to expression through designing and interfacing with the virtual. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 131",
+    "title": "Three-Dimensional Modeling and Motion",
+    "units": 5,
+    "description": "(Formerly numbered 156.) Studio, six hours; outside study, nine hours. Requisite: course 101 or 104. Introduction to theories of three-dimensional form, spatial design, and lighting, using three-dimensional visualization and video tools. Tools originally designed for motion to be used to construct form. Use of aspects of time, such as speed and duration, to contemplate form and interaction. Exploration of virtual versus real form. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 140",
+    "title": "Word + Image",
+    "units": 5,
+    "description": "(Formerly numbered 154.) Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 21, 22, 25, and 101 or 104. Focus on relationship of type to content, image, and materials. Acquisition of knowledge of and sensitivity to typography in context of complex communication problems in print and digital media. Research, concept and content development, and articulation of methodology for visualization. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 141",
+    "title": "Web Design and User Interface and Experience",
+    "units": 5,
+    "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Online interaction today focuses on information through living, social platforms. Study goes beyond an average user's perspective to critically examine the web through historical, political, and social lenses. Students are encouraged to holistically approach the web and its constituent code as a living kit of parts to be harnessed in novel and innovative ways. Examination of leading concepts of people-centered interactive design. User interface (UI) designers are focused on the design of the tool, while user interface (UX) designers are focused on a person's experience of that tool. As digital technology industries rapidly alter ways of doing and thinking, design can amplify, shift, comment on, and/or criticize these changes. The role of designers today is to style and shape content, extracting information from abstract datasets, writing scenarios, and creating systems, all with a critical eye. Students are trained to research, analyze, prototype, and develop design concepts for digital media for distinct social and cultural contexts. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 142",
+    "title": "Design Systems",
+    "units": 5,
+    "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Exploration of the development of design identities in the form of multi-component, multi-stage, or cross-media projects. Development of series and systems that include visual and verbal components to create a cohesive identity across deliverables that either communicate, reinforce, or build upon a message. Analysis of various cultural institutions and their design systems including digital signage, wayfinding, website, and printed ephemera. Feedback through group and instructor critiques aid in crafting effective messaging solutions. Project components may range from identity systems (logotype, typeface, color palette, sub-brands) to materials including print collateral, interactive web/digital projects (including sound and video), signage systems, and advertising. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 143",
+    "title": "Disability and the Web",
+    "units": 5,
+    "description": "Studio, six hours. Introduction to universal design, assistive technology, and disability justice. Students work hands-on in partnership with community organizations that support people with disabilities to learn about assistive technology, identify access issues, and prototype solutions on the web. Engagement with and expansion of existing accessibility best practices to interrogate role of art and design in understanding accessibility and disability. Students learn and employ a human-centered approach to begin creating more inclusive web experiences. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 144",
+    "title": "Type in Motion",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Typographic vocabulary is expanded through the use of time-based composition, sound, and animation. The application of kinetic media enables motion, scale change, and sequence to typographic communication. By experiencing the rhythmic and expressive use of type in motion, investigation of varying type size, weight, spatial relationships, form and counter form, and movement within a word, while preserving typographic principles. Students are exposed to a more interpretive use of typography, which can be applied to a variety of applications such as film and television titles, commercials, information kiosks, interactive signage, websites, and presentations. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 145",
+    "title": "Design Research",
+    "units": 5,
+    "description": "Studio, six hours. Requisites: courses 21, 22, 24, 25, 28, and 101 or 104. Study of concepts and techniques of design research. Application of them individually and in groups to specific areas of interest. Emphasis on research methodologies for creative practices. Study maintains and strengthens attention to design research theory and praxis. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 146",
+    "title": "Ecological Arts and Justice Practice",
+    "units": 5,
+    "description": "Studio, six hours. Requisites: courses 25, 101 or 104. Investigation of ecological art practices grounded in environmental justice. Research of Southern California ecologies with historical and ongoing issues of environmental injustice. Students investigate environmental wrong-doings of the region, critically and creatively implement community-based design methods, do site visits, and engage with the natural environment by conducting fieldwork to develop research-based interdisciplinary design and art projects using a wide range of media, grounded in storytelling and place-based artistic fieldwork practices. Prior knowledge of ecology or environmental justice not required. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 150",
+    "title": "Professional Practices",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Exploration of issues in the business side of design media arts careers-as a freelancer, full-time staffer, or one's own studio practice. Topics include understanding common studio structures and roles, developing studio credentials, billing and booking practices, proposal and contract writing, pricing models, and copyright and other legal matters. Consideration also of shifting studio processes, interviewing tips, negotiating, and other workplace issues. Features occasional guest panelists. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 153",
+    "title": "Video",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisite: course 101 or 104. Use of video technology (video systems, cameras, displays, editing, and storage) to integrate image, sound, time, and motion. Emphasis on expression, continuity, and sequential patterns for video communication. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 159",
+    "title": "Capstone Senior Project in Design Media Arts",
+    "units": 5,
+    "description": "(Formerly numbered 159A.) Studio, six hours; outside study, nine hours. Requisites: courses 8, 10, 21, 22, 24, 25, 28, 101, and 104, and 160, 171, 172, or 173. Preparation: completion of preparation for major courses. Students should have completed six core, upper-division studio courses. Limited to seniors and should be completed in last year. Focus on creating final project that can be showcased at Senior Show. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 8"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 10"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 21"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 22"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 25"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 101"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 104"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 160"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 171"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 172"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 173"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 159B",
+    "title": "Capstone Senior Project: Video and Animation",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, 101, 104, 153, 156, and 160, 171, 172, or 173. Limited to seniors. Linear media, including storyboarding, video, animation, modeling, editing, postproduction, and lighting. Focus on creating final project that can be showcased at Senior Show. Students can take two different courses in different terms or the same course twice in different terms. Total units for courses 159A, 159B, and 159C may not exceed 10 units, with maximum of 5 units per term. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 101"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 104"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 153"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 156"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 160"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 171"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 172"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 173"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 159C",
+    "title": "Capstone Senior Project: Visual Communication and Image",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisites: courses 24, 28, 101, 104, 154, and 160, 171, 172, or 173. Visual communication, editorial design, photography, typography, branding, and narrative environments. Limited to seniors. Visual communication, editorial design, photography, typography, branding, and narrative environments. Focus on creating final project that can be showcased at Senior Show. Students can take two different courses in different terms or the same course twice in different terms. Total units for courses 159A, 159B, and 159C may not exceed 10 units, with maximum of 5 units per term. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 101"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 104"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 154"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 160"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 171"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 172"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 173"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 160",
+    "title": "Special Topics in Design | Media Arts",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisite: course 101 or 104. Selected topics in design and media arts explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for credit with topic change. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 163",
+    "title": "Narrative",
+    "units": 5,
+    "description": "Lecture, six hours; outside study, nine hours. Preparation: completion of preparation for major courses. Requisite: course 101 or 104. Provides wider understanding of arts that parallels world of 20th-century visual languages. Study of threads that allow viewer to connect story of one art form to another in richer context. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 171",
+    "title": "Topics in Interactivity and Games",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisites: courses 101 or 104, 157. Selected topics in interactive media and games explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for maximum of 15 units. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 157"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 172",
+    "title": "Topics in Video and Animation",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisites: courses 101 or 104, and 153 or 156. Selected topics in video and animation explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for maximum of 15 units. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 153"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 156"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 173",
+    "title": "Topics in Visual Communication and Image",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Completion of preparation for major and upper-division core courses required. Requisites: courses 24, 28, 101 or 104, 154. Selected topics in visual communication and image explored through variety of approaches that may include projects, readings, discussion, research papers, and oral presentations. Topics announced in advance. May be repeated for maximum of 15 units. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 24"
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 28"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DESMA 101"
+          },
+          {
+            "type": "requisite",
+            "course": "DESMA 104"
+          }
+        ]
+      },
+      {
+        "type": "requisite",
+        "course": "DESMA 154"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 189",
+    "title": "Advanced Honors Seminars",
+    "units": 1,
+    "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 19",
+    "title": "Fiat Lux Freshman Seminars",
+    "units": 1,
+    "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 195A",
+    "title": "Community or Corporate Internships in Design | Media Arts",
+    "units": 2,
+    "description": "Tutorial, six hours. Limited to juniors/seniors. Internship in supervised setting in community agency or business related to design. Students meet on regular basis with instructor and provide periodic reports of their experience. Courses 195A and 195B may be repeated for combined maximum of 8 units. Individual contract with supervising faculty member required. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 195B",
+    "title": "Community or Corporate Internships in Design | Media Arts",
+    "units": 4,
+    "description": "Tutorial, 12 hours. Limited to juniors/seniors. Internship in supervised setting in community agency or business related to design. Students meet on regular basis with instructor and provide periodic reports of their experience. Courses 195A and 195B may be repeated for combined maximum of 8 units. Individual contract with supervising faculty member required. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 198",
+    "title": "Honors Research in Design | Media Arts",
+    "units": 4,
+    "description": "Tutorial, two hours. Preparation: 3.0 grade-point average overall. Limited to juniors/seniors. Development and completion of honors thesis or comprehensive research project under direct supervision of faculty member. May be repeated once for credit. Individual contract required. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 199",
+    "title": "Directed Research in Design | Media Arts",
+    "units": 2,
+    "description": "Tutorial, four hours. Preparation: 3.0 grade-point average in major. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 2",
+    "title": "Artificial Intelligence and Art",
+    "units": 4,
+    "description": "Studio, 30 hours. Limited to high school students. Exploration of how artificial intelligence (AI) interacts with the visual arts, and automated algorithms as a tool for creative expression. Starting from early collage and montage practices, exploration of how artists have used cultural fragments as their medium to explore meaning through juxtaposition and appropriation. Study of how computational methods enabled artists to explore such practices with increasing fidelity and magnitudes of data. Consideration of recent surge in interest in the field of AI, and what that might mean for understanding art. Discussion of topics such as perception, augmentation, deep fakes, surveillance, privacy, and automation. Includes short lectures, discussions, workshops, time to work in class, and feedback sessions. No prior programming or machine learning knowledge required. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 200",
+    "title": "Design|Media Arts Faculty Seminar",
+    "units": 2,
+    "description": "Seminar, two hours. Limited to graduate design|media arts students. Designed to familiarize new graduate students with departmental faculty members and their creative work and research to help students select their faculty advisers. May be repeated once for credit. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 21",
+    "title": "Digital Image",
+    "units": 4,
+    "description": "Studio, six hours; outside study, six hours. For drawing, exploration of relationship between concept and image creation while fostering development of sound drawing and observation skills. For color, exploration of development of fundamental skills in mixing and applying pigments with brush on watercolor paper, as well as use of computer as tool for working with colors. Combination of painting and software to be predominant way of exploring and presenting ideas regarding color. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 22",
+    "title": "Fabrication and Materials",
+    "units": 4,
+    "description": "Studio, six hours; outside study, six hours. Study combines aspects of industrial design, sculpture, engineering, fabrication, traditional crafts, and other practices to give students a survey of many different ways of making. Through assignments and projects investigating the affordances of materials and the potentials of fabrication, students engage with concepts of extraction, resources, supply chains, measurement, scale, pattern, repetition, translation, 3D modeling, and meaning making. Students work to produce their own relationship to materials and physical making while forming a personal aesthetic language. Concept, process, and results of assignments are documented and archived to demonstrate progress. Students learn tools, techniques, software, fabricate objects, and discuss their work. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 24",
+    "title": "Video and Motion",
+    "units": 4,
+    "description": "Studio, six hours; outside study, six hours. Introduction and integration of design tools and digital technologies for application to visual thinking and fundamentals of design. Exploration of aesthetics and fundamentals of motion and application to design and media arts through introduction of basic concepts and tools for design of moving images. Includes discussions, student presentations, critique, software tutorials, and studio time for project development. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 25",
+    "title": "Typography",
+    "units": 4,
+    "description": "Studio, six hours; outside study, six hours. Focus on three typographic basics: letter, text, and grid. Introduction to fundamentals of typography. Assignments designed to develop understanding of form, scale, and shape of letters as single elements and as texture in layout. Emphasis on grid (structure and layout) and information hierarchy to create successful typographic messages. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 252A",
+    "title": "Coding for the Arts",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Limited to majors. Introduction to computer programming within context of art and design. Exploration of conceptual space enabled by electronic media through exercises, presentations, discussions, and critiques. Weekly exercises balance concept and technique to reveal potential of computer as medium and tool. Experience with programming basics includes procedural and object-oriented programming, two- and three-dimensional graphics, file I/O, color models, and image processing. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 252B",
+    "title": "Virtuality",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Limited to Design|Media Arts majors. Introduction to essential 3D computer graphics techniques, concepts, and implementations. Students complete short exercises to better understand workflows used to create 3D digital art and adjacent media including but not limited to 3D models and animation, virtual and augmented reality, video games, motion capture, photogrammetry, 3D scanning, and physics simulations. Offers technical, formal, and theoretical background for 3D computer graphics to inspire new perspectives on potential of artmaking in virtual spaces. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 252C",
+    "title": "Materiality",
+    "units": 5,
+    "description": "Studio, six hours; outside study, nine hours. Enforced requisite: course 252A. Limited to Design|Media Arts majors. Exploration of use of electromechanical actuators and sensors, custom interface design, microcontroller programming, and building kinetic and interactive physical artworks. Practical electronics theory, programming for embedded systems, two-dimensional and three-dimensional CAD, basic milling, laser cutting, mold making, circuit building, and other sculptural electronics fabrication techniques. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DESMA 252A"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 266",
+    "title": "Creating Context and Collaborative Projects",
+    "units": 3,
+    "description": "Studio, three hours; outside study, six hours. Focus on collaborative, cooperative, and curatorial artists' practice that takes place beyond traditional and familiar venues. Study of examples of impactful historical and ongoing initiatives, specifically those that endeavor to create context for new artistic practices. Students work collaboratively to organize a culminating public facing event. May be repeated once for credit. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 269",
+    "title": "Graduate Seminar",
+    "units": 4,
+    "description": "Seminar, four hours. Designed for graduate design | media arts students. Survey of critical theories in media art and design. Critical examination of student work by peers, faculty members, and expert guests. Must be taken twice for MFA degree. May be repeated for credit with consent of adviser. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 27",
+    "title": "Three-Dimensional Modeling",
+    "units": 4,
+    "description": "Studio, six hours; outside study, six hours. Introduction to foundational principles of 3D modeling including clean topology and edge flow design, non-uniform rational B-splines (NURBS) modeling, UV map and texturing methods, lighting basics, and rendering techniques. Focus on sustainable and organized workflow practices. Students develop thoughtful projects and their own style in 3D modeling software. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 272",
+    "title": "Introduction to Art | Science",
+    "units": 5,
+    "description": "Seminar, three hours. For past 50 years artists have increasingly moved from being inspired by scientific innovation and discovery to actually collaborating with scientists and even residing and working in science laboratories. History of science in relation to artists' interpretation of scientific work to current works that are created in response to recent developments in biotechnology and nanotechnology. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 28",
+    "title": "Interactivity",
+    "units": 4,
+    "description": "Studio, six hours; outside study, six hours. Introduction to concept of interactivity and field of media art that follows history of computer as media for artistic exploration in relation to print, animation, and interactivity. Discussion of potential and ideas related to interactivity, with focus on required skills for creating interactive work. Development of programming skills in service of creating examples of media art. Concepts and skills taught enhance student ability to excel in future courses about Internet, animation, interactive media, and game design. Discussion and readings on four themes-form/programming, motion, interactivity/programming, and interface. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 282",
+    "title": "Contemporary Topics in Media Arts",
+    "units": 3,
+    "description": "Seminar, two hours; outside study, seven hours. Through discussions, readings, screenings, and critical writing, addresses a set of themes related to creative practices in moving image and computational media, and their historical and political roots. These include critical race theory, posthumanism, privacy, technology and power, identity and virtuality, digital aesthetics, play, and non-human authorship. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 289",
+    "title": "Special Topics in Media Arts",
+    "units": 3,
+    "description": "Seminar, three hours; outside study, six hours. Examination of topics relevant to media arts theory and practice, with scheduled meetings to be arranged between faculty member and student as needed. Topics announced in advance. May be taken for maximum of 18 units. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 299",
+    "title": "Professional Practice",
+    "units": 2,
+    "description": "Seminar, two hours; outside study, four hours. Limited to graduate Design|Media Arts majors. Focus on professional training. Covers various topics related to professional practice in the field of media arts aimed at preparing students for different aspects of post-graduate life including finding and preparing for academic jobs, artist residencies, public art commissions, grant writing, gallery representation, non-profit and freelance work, PhD studies, and communication and documentation strategies. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 3",
+    "title": "Game Design",
+    "units": 4,
+    "description": "Studio, 30 hours. Limited to high school students. Development of fundamental skills to create games and game art that express personal and subjective approach to game making. Artistic vision combined with technological expertise to teach students fundamentals of designing games, building game worlds, creating game characters, and making playable games for mobile platforms. Use of current software and technology, including Maya and Unity3D. Creation of game projects that students exhibit and can use for college applications. Offered only as part of UCLA Game Lab Summer Institute. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 4",
+    "title": "Audio Video Design",
+    "units": 2,
+    "description": "Studio, 30 hours. Limited to high school students. Creation of storyboard for short documentary, commercial, or music video. Students shoot and edit their own work by learning fundamentals of preproduction and postproduction using latest digital software, Adobe Premiere and After Effects, to create their work. Burning of DVD of finished production. Visits from professional video producer to help guide students in creating their own videos. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 403",
+    "title": "Graduate Critique",
+    "units": 2,
+    "description": "Seminar, three hours; outside study, three hours. Limited to DMA graduate students. Students meet with instructor in small classroom setting to exchange ideas through presentation of current projects and research, discussion, research papers, and reports. Instructors vary quarterly between senate faculty, and visiting instructors and professions. Instructors may also invite visiting critics to contribute. May be repeated for credit. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 404",
+    "title": "Graduate Tutorial",
+    "units": 3,
+    "description": "Tutorial, three hours; outside study, six hours. Limited to first- and second-year departmental graduate students. Development of body of work while working toward MFA degree, with one-to-one interaction between students and faculty members. May be repeated for credit. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 495",
+    "title": "Teaching Assistant Training Practicum",
+    "units": 2,
+    "description": "Seminar, three hours; outside study, three hours. Forum for first-year teaching assistants for discussion and exploration of teaching pedagogy and classroom mechanics. Problems and practices of teaching design at college level, as well as role of teaching assistants within department. Designed to help new teaching assistants develop teaching skills and to orient them to department and University policies and resources. May not be applied toward degree requirements. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 5",
+    "title": "Introduction to Design | Media Arts",
+    "units": 4,
+    "description": "Studio, 40 hours. Limited to high school students. Two-week summer course designed to meet needs of high school students interested in exploring their creative potential within fields of design media arts, with focus on concepts of narrative and storytelling. Introduction to and exploration of variety of media such as graphic, web, game, and video design with goal of combining and integrating these media to express and realize their narrative projects. Students work with most current software and technology in each discipline area, developing diverse skill sets while cultivating conceptual capabilities around storytelling project, and with experienced instructors and professionals in field to develop projects utilizing this comprehensive and integrative approach. Culminates in portfolios that may be used for college applications. Possible field trips. May be repeated for credit without limitation. Offered only as part of Summer Institute. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 596",
+    "title": "Directed Individual Study or Research",
+    "units": 2,
+    "description": "Tutorial, to be arranged. May be repeated for credit with consent of adviser. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 597",
+    "title": "Preparation for MFA Comprehensive Examination",
+    "units": 4,
+    "description": "Tutorial, to be arranged. Designed for second-year MFA students to prepare for comprehensive examination. May be repeated for credit with consent of adviser. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 598",
+    "title": "MA Research and Thesis Preparation",
+    "units": 4,
+    "description": "Tutorial, to be arranged. Designed for second-year MA students. May not be applied toward minimum graduate course or unit requirements for MA degree. May be repeated for credit. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 6",
+    "title": "Art/Science and Technology Studio/Laboratory",
+    "units": 4,
+    "description": "Studio/laboratory, 40 hours. Limited to high school students. Two-week summer course, including lectures, required screenings, laboratory visits, field trips, and outside study. Exploration of creative aspects of scientific research and innovation to gain broad understanding of impact of science on contemporary art and popular culture, with focus on new sciences of biotechnology and nanotechnology. Development of proposals and ideas that could serve as prototypes for either art projects or scientific research study. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 7",
+    "title": "Critical Game Culture",
+    "units": 5,
+    "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Introduction to critical issues in the culture and history of games. Consideration of games and game culture in relation to contemporary social issues such as economics and class, environment, violence, gender identity, and cross-cultural representation. Weekly focus on a different subject or topic related to games and games culture, combining reading, lecture, discussion, game examples, and opportunities for hands-on gameplay. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 8",
+    "title": "Media Histories",
+    "units": 5,
+    "description": "Lecture, three hours; outside study, 12 hours. Synthetic overview of optical media and aesthetic movements covering past two centuries: photography and industrialization/Romanticism (1850 to 1900), cinema and modernism (1900 to 1950), television and postmodernism (1950 to 2000), and digital media and unimodernism (2000 to 2050). How such movements can inform generative work and how understanding these media becomes essential in emerging era of digital humanities. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 89",
+    "title": "Honors Seminars",
+    "units": 1,
+    "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 9",
+    "title": "Art, Science, and Technology",
+    "units": 5,
+    "description": "Lecture, three hours; discussion, one hour; outside study, 11 hours. Exploration and survey of cultural impact of scientific and cultural innovations, technology-driven art inspired by science, and art/science collaborative projects. Introduction to vast array of cutting-edge research taking place on campus; scientific guest lecturers. Emphasis on art projects that use technology and respond to new scientific concepts. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DESMA 99",
+    "title": "Student Research Program",
+    "units": 1,
+    "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  }
 ]

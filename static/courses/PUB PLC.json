@@ -1,1198 +1,1240 @@
 [
-    {
-        "id": "PUB PLC 105",
-        "title": "Leadership in Public Interest",
-        "units": 4,
-        "description": "Lecture, three hours. Examination of prevailing models, theories, and practices of leadership in public settings and application of them through case studies, films, and situational articles. Participation in group projects and discussions designed to improve understanding of role of leadership in mobilizing people groups to do difficult work. Introduction to literature and theory on leadership, examination of leadership and group dynamics, and challenge of leadership in times of stress and change. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 10A",
-        "title": "Introduction to Policy Analysis",
-        "units": 5,
-        "description": "Lecture, three hours; workshops and outside study, three hours. Overview of contemporary policy analysis to develop analytical skills with applications in business, economics, government, law, and medicine. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 10B",
-        "title": "California Policy Issues",
-        "units": 4,
-        "description": "Lecture, three hours; outside study, nine hours. Application of policy analysis to California issues. Guest lectures from practitioners and academics along with readings and videos. Student written reports and oral presentations required. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 10C",
-        "title": "Public Policy for Crime, Cannabis, and Other Drugs",
-        "units": 5,
-        "description": "Lecture, three hours; outside study, twelve hours. Application of policy analysis, including critical analysis, problem solving, and substantive policy research, to develop knowledge and understanding about drug and crime policy, with focus on cannabis. Guest lectures by instructors and guest academics and practitioners, with readings from academic literature and policy reports. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 10D",
-        "title": "Public Policy and Urban Homelessness",
-        "units": 5,
-        "description": "Lecture, three hours; outside study, film review, and field/volunteer work, nine hours. Application of policy analysis to issues and solutions concerning homelessness. Guest lectures from local policymakers. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 113",
-        "title": "Politics of U.S. Health Policy",
-        "units": 4,
-        "description": "Lecture, three hours. Every modern nation faces similar health system challenges, such as promoting health and longevity, providing effective treatments, balancing benefits and burdens of medical technology, and controlling healthcare costs that grow faster than national income. U.S. seems uniquely disadvantaged with lower life expectancy, problematic quality of medical services, lack of insurance for millions, and highest costs in world, hampering families, businesses, and government. What political dynamics produced this result and influence possibility and direction of ongoing policy change? Examination of meaning of health and healthcare; international experience; current status, organization, and financing of U.S. healthcare system; and factors that affect national health policymaking, including comprehensive healthcare reform: framing of problems, role of public opinion, influence of interest groups, composition and organization of Congress, and opportunities for and applications of presidential leadership. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 187",
-        "title": "Research Seminar: Public Policy",
-        "units": 4,
-        "description": "Seminar, three hours; outside study, nine hours. Requisite: course 10A or Public Affairs 10. Limited to and required of seniors in Public Affairs minor. Production of research project that examines in depth one particular policy issue in its social context, including political pressures involved and problems of implementation. Emphasis on skills of data acquisition and analysis, conceptualization, and written analysis and presentation. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "PUB PLC 10A"},{"type": "requisite","course": "PUB AFF 10"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 188SA",
-        "title": "Individual Studies for USIE Facilitators",
-        "units": 1,
-        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 188SB",
-        "title": "Individual Studies for USIE Facilitators",
-        "units": 1,
-        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC 188SA"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 188SC",
-        "title": "Individual Studies for USIE Facilitators",
-        "units": 2,
-        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC 188SB"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 189",
-        "title": "Advanced Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 189HC",
-        "title": "Honors Contracts",
-        "units": 1,
-        "description": "Tutorial, three hours. Limited to students in College Honors and departmental honors programs. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 191A",
-        "title": "Variable Topics Research Seminars: Public Policy",
-        "units": 4,
-        "description": "Seminar, three hours; outside study, nine hours. Examination of particular subfields of policy studies (e.g., international policy, crime policy, policy history) in depth, with specific topics to be identified by instructor. Reading, discussion, and development of culminating project. Must be taken for credit if applied toward Public Affairs minor. May be repeated for credit with topic change. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 191C",
-        "title": "Variable Topics Research Seminars: Public Policy",
-        "units": 2,
-        "description": "Seminar, two hours; outside study, four hours. Examination of particular subfields of policy studies (e.g., international policy, crime policy, policy history) in depth, with specific topics to be identified by instructor. Reading, discussion, and development of culminating project. Must be taken for credit if applied toward Public Affairs minor. May be repeated for credit with topic change. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 197",
-        "title": "Individual Studies in Public Policy",
-        "units": 2,
-        "description": "Tutorial, four hours. Preparation: 3.0 grade-point average. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 201",
-        "title": "Principles of Microeconomic Theory I",
-        "units": 4,
-        "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. First course in two-term sequence (see course 204) to prepare students for economic analysis of public policy, with review of economic principles and basic microeconomic theory and policy applications. Consumer theory and demand, producer theory and supply, equilibrium of product and factor markets. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 202",
-        "title": "Politics and Policymaking",
-        "units": 4,
-        "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Designed to provide background necessary to develop strategies for shaping policy through different institutions such as legislatures, bureaucracies, courts, and media. Consideration of models of decision-making and delegation and their application to real-world cases. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 203",
-        "title": "Statistical Methods of Policy Analysis I",
-        "units": 4,
-        "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. First course in two-term sequence (see course 208). Review of statistical principles useful to policy research and analysis. Topics include descriptive statistics, expectations, univariate distribution, probability, covariance and correlations, statistical independence, random sampling, estimators, unbiasedness and efficiency, statistical inference, confidence intervals, and hypothesis testing. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 204",
-        "title": "Principles of Microeconomic Theory II",
-        "units": 4,
-        "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisite: course 201. Second course in two-term sequence (see course 201) covering both theory and policy applications. Topics include monopoly, factor markets, general equilibrium, welfare economics, externalities, public goods, uncertainty, and intertemporal optimization. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC 201"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 205",
-        "title": "Qualitative Methods for Policy Analysis",
-        "units": 4,
-        "description": "Lecture, three hours. Introduction to use of qualitative methods in policy analysis. Students gain exposure to techniques of interviewing, participant observation/ethnography, comparative-case studies, and archival research. Consideration of research design matters including questions and situations for which qualitative methods are ideally suited, and how to use qualitative data when they are best available. Focus maintained on practical dimensions of qualitative methods in policy research including sampling and inferences, instrument design, directed inductive analysis, data gathering and coding under time pressure, and professional ethics. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 206",
-        "title": "Political Economy of Policy Adoption and Implementation",
-        "units": 4,
-        "description": "Lecture, three hours; outside study, nine hours. Analysis of how policy is formed, adopted, and implemented. How policies are formulated, by whom, how policy agendas are set, how to define relationships between politicians, bureaucrats, lobbyists, and media experts. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 208",
-        "title": "Statistical Methods of Policy Analysis II",
-        "units": 4,
-        "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisite: course 203. Second core course in statistics and quantitative methods for MPP degree. Quantitative studies of public policy, covering regression analysis and its application to public policy questions. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC 203"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 209",
-        "title": "Management in the 21st Century",
-        "units": 4,
-        "description": "Lecture, three hours; outside study, nine hours. Focus on practical management skills to prepare students for workplace. Examination of design, management, and leadership of teams in organizational settings, decision-making strategies in face of challenges, and negotiation as invaluable skill. Examples from public and private sectors, as well as experiential learning through exercises, cases, and simulations. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 210",
-        "title": "Methods of Policy Analysis",
-        "units": 4,
-        "description": "Lecture, three hours; discussion, one hour (when scheduled); outside study, nine hours. Preparatory course that precedes three-term 298A, 298B, 298C sequence in which students prepare major public policy projects and papers that are case studies of policy evaluation and implementation and are equivalent to professional master's theses. Papers build on prior core courses, internship experience, and policy cluster courses. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 224A",
-        "title": "Introduction to Geographic Information Systems",
-        "units": 4,
-        "description": "Lecture, three hours. Preparation: one graduate-level statistics course, familiarity with one packaged statistics program. Principles of Geographic Information Systems (GIS) and applied techniques of using spatial data for mapping and analysis. Topics include data quality, data manipulation, spatial analysis, and information systems. Use of mapping and spatial analysis to address planning problem. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 224B",
-        "title": "Advanced Geographic Information Systems",
-        "units": 4,
-        "description": "Studio, three hours. Requisite: course M224A. Advanced topics in geographic information systems (GIS) utilizing geoprocessing tools in ArcMap, map design, and spatial analysis. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC M224A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 225",
-        "title": "Education Policy and Education Inequality",
-        "units": 4,
-        "description": "Seminar, three hours; outside study, nine hours. Preparation: statistics background through multiple regression analysis. Limited to graduate students. Examination of policies that may reduce socioeconomic and ethnic disparities in educational success. Topics include international and national comparisons of educational outcomes, private and public school choice, school accountability policies, interventions to improve school or teacher quality, parenting and preschool interventions, and supplemental educational services. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 233",
-        "title": "Immigration Policy and Politics",
-        "units": 4,
-        "description": "Seminar, three hours. Introduction to politics of immigration. Examination of development and dynamics of immigration policymaking in historical and contemporary perspective. Focus on issues including creation of illegal immigration, border militarization, detention, deportation, public opinion, political behavior, and assimilation. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 234A",
-        "title": "Voting Rights Policy and Law I",
-        "units": 4,
-        "description": "(Formerly numbered M296A.) Clinic, three hours. Collaborative course taught from perspective of social science research, civil rights, and voting rights. Exposes students to voting rights act theory, case law, history, research, and implementation. Faculty guest experts from across campus provide their perspective on how to study, research, and document various aspects related to voting rights. Includes factors such as history of discrimination against minority group in areas of employment, education, housing, and political representation. Students learn and implement in-depth study of methodology and statistical approach to document presence or absence of vote dilution or vote denial in different jurisdictions. Discussion of history and legal principles of federal Voting Rights Act and California Voting Rights Act led by leading voting rights attorney. May be repeated for credit. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 234B",
-        "title": "Voting Rights Policy and Law II",
-        "units": 4,
-        "description": "(Formerly numbered M296B.) Clinic, three hours. Requisite: course 234A. Collaborative course taught from perspective of social science research, civil rights, and voting rights. Exposes students to voting rights act theory, case law, history, research, and implementation. Faculty guest experts from across campus provide their perspective on how to study, research, and document various aspects related to voting rights. Includes factors such as history of discrimination against minority group in areas of employment, education, housing, and political representation. Focus on practical aspects of voting rights lawsuit. Students learn in greater detail legal theory relevant to bringing successful voting rights challenge, and how to assemble and present social science evidence. Students read case law on prior Voting Rights Act decisions, review accompanying expert reports, and work in teams on aspects of lawsuit. S/U or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC 234A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 234C",
-        "title": "Voting Rights Policy and Law III",
-        "units": 4,
-        "description": "(Formerly numbered M296C.) Clinic, three hours. Requisites: courses 234A, 234B. Collaborative course taught from perspective of social science research, civil rights, and voting rights. Exposes students to voting rights act theory, case law, history, research, and implementation. Faculty guest experts from across campus provide their perspective on how to study, research, and document various aspects related to voting rights. Includes factors such as history of discrimination against minority group in areas of employment, education, housing, and political representation. Students continue work on all aspects of voting rights cases including preparation of expert research reports, legal argumentation and filings, depositions, and other case-related matters. S/U or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC 234A"},
-            {"type": "requisite","course": "PUB PLC 234B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 236",
-        "title": "Criminal Justice Policy on Trial",
-        "units": 4,
-        "description": "Seminar, three hours. Survey of several criminal justice policy areas including labor market effects of incarceration, bias in policing and sentencing, cash bail, and drug policy. Introduction to recent research. Students engage in discussions about current policy, and develop and present policy proposal. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 251",
-        "title": "Public Budgeting and Finance",
-        "units": 4,
-        "description": "Lecture, three hours; outside study, nine hours. Limited to graduate students. How financial resources are allocated through budget processes at federal, state, and local levels of government in the U.S. and how each level of government finances its operations and capital investment programs, with particular attention to California. Students are organized into small groups to facilitate review of assigned readings and to report key information to class. Based on assigned readings, development of budget strategy matrix outlining best practices budget strategies to use in various resources availability contexts. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 252",
-        "title": "Today's Los Angeles: Institutions and Leaders that Make It Work",
-        "units": 4,
-        "description": "Seminar, four hours. Focus on institutions and leaders that make up Los Angeles region and influence its policies and quality of life. Institutions studied include political, governmental, business, economic, media, labor, citizen advocacy, educational, cultural, sports and entertainment, and philanthropic sectors; and how they combine to affect region in which we live. Consideration of how leadership and institutional structures in each of these sectors advance or constrain progress; how Los Angeles addresses issues such as transportation, real estate development, housing, homelessness, poverty, and health care, among others; and how it can better do so. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 272",
-        "title": "Tools for Causal Inference",
-        "units": 4,
-        "description": "Seminar, three hours. Students strengthen critical analysis of empirical evidence. Review of purpose and objectives of impact evaluation. Evaluation of common but often problematic approaches: cross-sectional and before-after comparisons, and case studies of program beneficiaries. Examination of suite of experimental and quasi-experimental approaches: randomized controlled trials, matching, regression discontinuities, and difference-in-differences. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 273",
-        "title": "Survey Analysis",
-        "units": 4,
-        "description": "Seminar, three hours. Exploration of large-sample size survey use in public policy and related social science disciplines. Topics may include social-psychology of survey response (especially with regard to attitudes and evaluations), issues of question wording and context, interviewer effects, and social desirability pressures; survey-based randomized experiments and unobtrusive measures of behaviors and attitudes; general issues of quantitative research including model specification, random and systematic measurement error, logic of causal analysis, and alternative meanings of statistical importance; and practical considerations in survey analysis including questionnaire construction, sampling and data collection, weighting, variable coding and transformations, scale construction, reliability, and missing values. Students construct and pretest online survey specific to each one's interests. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 274",
-        "title": "Social Media and Public Policy",
-        "units": 4,
-        "description": "Lecture, three hours. Influence of social media on public discourse and public policy, in U.S. and overseas, has been far-reaching and dramatic. Exploration of positive and negative impacts of social media on individuals and society. Topics include tension between free expression and censorship; and public policy implications and responses (or lack thereof) to use of social media as platform for disseminating fake news, conspiracy theories, white nationalism, racism, and violence. Consideration of whether government should impose content rules on social media companies (as Federal Communications Commission does for broadcast media), or whether corporate terms and conditions of service as self-regulatory model should be relied on. Exploration of how to measure relative impact of social media versus money/campaign contributions on current U.S. political system. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 287A",
-        "title": "International Environmental Law and Policy",
-        "units": 4,
-        "description": "Seminar, three hours. Exploration of how society addresses international environmental issues that transcend national boundaries, using cases and conceptual topics. Cases include in-depth discussions of climate change and biodiversity protection, with briefer coverage of ozone depletion, long-range air pollution, endangered species trade, and global fisheries management. Conceptual sessions examine historical and causal structure of global environmental problems; foundations of international politics and law; and government functions such as scientific assessment, negotiation, organizational management, implementation, and compliance monitoring. Additional topics may include exploration of links between environment and other issues such as trade, security, and development. Emphasizing a synthetic perspective, study applies research insights to advance practical understanding of current challenges. Study also uses theory to analyze specific issues, and evidence to refine theoretical claims. Concurrently scheduled with LAW 438. In Progress grading (credit to be given only on completion of course 287B).",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 287B",
-        "title": "International Environmental Law and Policy",
-        "units": 2,
-        "description": "Seminar, three hours. Exploration of how society addresses international environmental issues that transcend national boundaries, using cases and conceptual topics. Cases include in-depth discussions of climate change and biodiversity protection, with briefer coverage of ozone depletion, long-range air pollution, endangered species trade, and global fisheries management. Conceptual sessions examine historical and causal structure of global environmental problems; foundations of international politics and law; and government functions such as scientific assessment, negotiation, organizational management, implementation, and compliance monitoring. Additional topics may include exploration of links between environment and other issues such as trade, security, and development. Emphasizing a synthetic perspective, study applies research insights to advance practical understanding of current challenges. Study also uses theory to analyze specific issues, and evidence to refine theoretical claims. Concurrently scheduled with LAW 438. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 289A",
-        "title": "Future Law: Legal and Governance Responses to Transformative Societal Trends",
-        "units": 3,
-        "description": "Seminar, three hours. Examination of challenges to law and government from disruptive technologies and environmental stresses. Topics include artificial intelligence, engineered environmental control, human modification and capabilities enhancement, lifespan extension, and severe environmental change. Consideration of likely or plausible trends in the next decade; resulting disruption to law and policy; and potential responses, both likely and desirable. Study is unavoidably speculative, but aims to keep it disciplined by present knowledge. Application of legal and institutional knowledge to new problems. Consideration of large-scale challenges originating outside the sphere of law that are likely to drive changes in substantive legal arrangements. Expectations for reading, engagement in critical and informed discussion, and quality of written work is high; and overall workload is demanding. Concurrently scheduled with Law 489. In Progress grading (credit to be given only on completion of course 289B).",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 289B",
-        "title": "Future Law: Legal and Governance Responses to Transformative Societal Trends",
-        "units": 1,
-        "description": "Seminar, three hours. Examination of challenges to law and government from disruptive technologies and environmental stresses. Topics include artificial intelligence, engineered environmental control, human modification and capabilities enhancement, lifespan extension, and severe environmental change. Consideration of likely or plausible trends in the next decade; resulting disruption to law and policy; and potential responses, both likely and desirable. Study is unavoidably speculative, but aims to keep it disciplined by present knowledge. Application of legal and institutional knowledge to new problems. Consideration of large-scale challenges originating outside the sphere of law that are likely to drive changes in substantive legal arrangements. Expectations for reading, engagement in critical and informed discussion, and quality of written work is high; and overall workload is demanding. Concurrently scheduled with Law 489. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 291A",
-        "title": "Public Policy Variable Topics Seminar",
-        "units": 4,
-        "description": "Seminar, three hours. Emerging issues in public policy. May be repeated for credit. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 291I",
-        "title": "Special Topics in Public Policy: International Policy",
-        "units": 4,
-        "description": "Seminar, three hours. Emerging issues in international policy. May be repeated for credit. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 291R",
-        "title": "Special Topics in Public Policy: Policy Research",
-        "units": 4,
-        "description": "Seminar, three hours. Emerging issues in policy research. May be repeated for credit. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 297A",
-        "title": "Public Policy Special Topics",
-        "units": 2,
-        "description": "Lecture, three hours. Study of emerging issues in public policy. May be repeated for credit. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 297B",
-        "title": "Public Policy Analysis Lectures",
-        "units": 2,
-        "description": "Lecture, two hours. Limited to second-year MPP students. Venue for policymakers, practitioners, and academics to present, discuss, and analyze current policy questions. Attending, formally analyzing, and engaging with policy professionals at these lectures adds to pedagogical and intellectual maturity of students as they gain greater understanding of broad range of policy-related topics. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 297D",
-        "title": "Public Policy Student-Initiated Special Topics",
-        "units": 2,
-        "description": "Seminar, three hours. Student-initiated and -facilitated special topics on emerging issues in public policy. May be repeated for credit. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 297P",
-        "title": "Public Policy Seminar Series",
-        "units": 2,
-        "description": "(Formerly numbered 297C.) Seminar, two hours; discussion, one hour. Weekly social science research lectures covering range of policy-relevant topics and discussion of research findings with professor. Examination of quality and relevance of research findings and connections between research, public policy curriculum, and real-world policy problems. May be repeated for credit. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 298A",
-        "title": "Applied Policy Project I",
-        "units": 1,
-        "description": "Seminar, two hours; outside study, two hours. Recommended requisite: course 210. Limited to MPP students. First course of year-long sequence designed to ensure that students and their teams are fully prepared to launch their projects at start of winter quarter. Students form teams that are assigned to seminars and instructors, identify clients, select and refine policy questions motivating their projects, develop and refine basic work plans, learn about various methods of data collection. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 298B",
-        "title": "Applied Policy Project II",
-        "units": 3,
-        "description": "Seminar, three hours; outside study, six hours. Requisite: course 298A. Preparation: completion of MPP core curriculum, two policy cluster courses, and internship (unless waived). Next course in five-course sequence. Students work with their APP Coordinator to prepare major public policy projects and papers that are case studies of policy evaluation and implementation and are equivalent to professional master's theses. Papers build on prior core courses, internship experience, and policy cluster courses. In Progress grading (credit to be given only on completion of course 298D).",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC 298A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 298C",
-        "title": "Applied Policy Project III",
-        "units": 2,
-        "description": "Seminar, one hour; outside study, five hours. Requisite: course 298A. Preparation: completion of MPP core curriculum, two policy cluster courses, and internship (unless waived). Next course in five-course sequence. Students work with their individual APP Adviser to prepare major public policy projects and papers that are case studies of policy evaluation and implementation and are equivalent to professional master's theses. Papers build on prior core courses, internship experience, and policy cluster courses. In Progress grading (credit to be given only on completion of course 298D).",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC 298A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 298D",
-        "title": "Applied Policy Project IV",
-        "units": 1,
-        "description": "(Formerly numbered 298C.) Seminar, three hours; outside study, six hours. Preparation: completion of MPP core curriculum, two policy cluster courses, and internship (unless waived). Requisites: courses 298B, 298C. Fourth course in five-course sequence in which students prepare major public policy projects and papers that are case studies of policy evaluation and implementation and are equivalent to professional master's theses. Papers build on prior core courses, internship experience, and policy cluster courses. Working with their individual APP Adviser, students complete the written report started in courses 298B and 298C. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC 298B"},
-            {"type": "requisite","course": "PUB PLC 298C"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 298E",
-        "title": "Applied Policy Project V",
-        "units": 1,
-        "description": "(Formerly numbered 298D.) Seminar, one hour; outside study, two hours. Requisites: courses 298B, 298C. Preparation: completion of MPP core curriculum, two policy cluster courses, and internship (unless waived). Fifth course in five-course sequence in which students complete research and report writing for their year-long projects, conduct oral presentations of their applied policy projects, and give written feedback on other student presentations. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC 298B"},
-            {"type": "requisite","course": "PUB PLC 298C"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 496",
-        "title": "Public Policy Internships",
-        "units": 4,
-        "description": "Fieldwork, four hours. Public policy internships for Master of Public Policy (MPP) and MPP/dual degree students. May not be repeated for credit. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 501",
-        "title": "Cooperative Program",
-        "units": 2,
-        "description": "Preparation: consent of UCLA department chair and graduate dean, and host campus instructor, department chair, and graduate dean. Used to record enrollment of UCLA students in courses taken under cooperative arrangements with USC. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 596",
-        "title": "Directed Studies",
-        "units": 2,
-        "description": "Tutorial, to be arranged. Limited to graduate students. Individual programming for selected students to permit pursuit of a subject in greater depth. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 89",
-        "title": "Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 89HC",
-        "title": "Honors Contracts",
-        "units": 1,
-        "description": "Tutorial, three hours. Limited to students in College Honors and departmental honors programs. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC 99",
-        "title": "Student Research Program",
-        "units": 1,
-        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C115",
-        "title": "Environmental and Resource Economics and Policy",
-        "units": 4,
-        "description": "Lecture, three hours. Requisites: Economics 11, 143. Survey of ways economics is used to define, analyze, and resolve problems of environmental management. Overview of analytical questions addressed by environmental economists that bear on public policies. Concurrently scheduled with course CM250. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "ECON 11"},
-            {"type": "requisite","course": "ECON 143"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C135",
-        "title": "Crime and Public Policy",
-        "units": 4,
-        "description": "Seminar, three hours. Crime is one of most costly social problems faced by societies across world. Examination of crime trends, criminogenic factors that influence them, and policy initiatives that influence them, largely in U.S. context. Criminal justice policy community is increasingly focused on best and evidence-based practice, and often derives implication and policy recommendation from existing empirical research. Focus on basic empirical and theoretical research on determinants of criminal offending and effectiveness, and effects of policy interventions meant to address criminal offending. Concurrently scheduled with course C235. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C183",
-        "title": "Science Policy and Expertise",
-        "units": 4,
-        "description": "Lecture, three hours. Introduction to social analysis of science and expertise by considering three overlapping themes: social conditions that affect production of scientific knowledge, debates about expertise and democracy in technical and policy decision-making, and current controversies about expertise and autonomy of science (e.g., conflicts of interest in funding of biomedical research and recent charges of politicization of science). Concurrently scheduled with course C283. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C226",
-        "title": "Data Analysis for Educational Equity and Improvement",
-        "units": 4,
-        "description": "Lecture, three hours. Requisite: Public Affairs 60. Exploration of challenge of making data useful for decision-making from cleaning data and deciding which analyses to conduct; to conducting those analyses carefully, thoughtfully, and in reproducible way; to displaying results, interpreting them, and communicating them clearly. Focus on challenge of making survey data useful to educators so that they can use those data to reflect on school and district policies and practices and, ultimately, use information to improve students' school experiences. Concurrently scheduled with course CM126XP. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB AFF 60"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C235",
-        "title": "Crime and Public Policy",
-        "units": 4,
-        "description": "Seminar, three hours. Crime is one of most costly social problems faced by societies across world. Examination of crime trends, criminogenic factors that influence them, and policy initiatives that influence them, largely in U.S. context. Criminal justice policy community is increasingly focused on best and evidence-based practice, and often derives implication and policy recommendation from existing empirical research. Focus on basic empirical and theoretical research on determinants of criminal offending and effectiveness, and effects of policy interventions meant to address criminal offending. Concurrently scheduled with course C135. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C271",
-        "title": "International Development",
-        "units": 4,
-        "description": "Lecture, three hours. Why are some countries rich, while other countries are poor? What can policymakers do to reduce poverty? Discussion of current research on these questions. Study of both methodologies used to answer questions in development economics, like natural experiments and randomized control trials, as well as relationship between development and institutions, education, growth, culture, and gender. Reading intensive, seminar-style course. Students are expected to read academic articles in economics and actively participate in discussions. Students also learn how to use data to evaluate policies. Concurrently scheduled with course CM171. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C275",
-        "title": "Advanced Technology: Public Policy, Regulation, and Law",
-        "units": 4,
-        "description": "Lecture, three hours. Examination of cutting-edge public policy and regulatory issues implicated by advanced technologies such as artificial intelligence, drones, autonomous vehicles, blockchain/Bitcoin, etc. Exploration of whether and how such new technologies should be regulated. Exploration of how policymakers should balance need to promote investment and innovation against need to protect public against potential misuse and abuse of these new technologies. Exploration of many issues raised by these technologies such as privacy, national security, network neutrality, intellectual property rights, and more. Concurrently scheduled with course CM175. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C277",
-        "title": "Network Science Using R",
-        "units": 4,
-        "description": "Lecture, three hours. No prior knowledge of R required. Designed for graduate students. Network analysis offers framework for understanding how relationships between people, places, and institutions affect public policy outcomes. For example, why individuals decide to protest or vote, amount of education they pursue, or effect of human interference in ecosystem can all be considered using network analysis. Weekly introduction of concept from network analysis, followed by working through it using popular statistical programming language R. Concurrently scheduled with course CM177. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C279",
-        "title": "Social Movements in Theory and Practice",
-        "units": 4,
-        "description": "Lecture, three hours. Social movement is group of people pressuring for political or social change over long periods of time. Study focuses on how mass movements form, when and where they are likely to form, what types of tactics they choose, how those tactics affect their success, and role new technologies play. Weekly focus on one specific topic, such as nonviolence or social media, with historic and more recent movements used as case studies. Concurrently scheduled with course CM179. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C283",
-        "title": "Science Policy and Expertise",
-        "units": 4,
-        "description": "Lecture, three hours. Introduction to social analysis of science and expertise by considering three overlapping themes: social conditions that affect production of scientific knowledge, debates about expertise and democracy in technical and policy decision-making, and current controversies about expertise and autonomy of science (e.g., conflicts of interest in funding of biomedical research and recent charges of politicization of science). Concurrently scheduled with course C183. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C291B",
-        "title": "Variable Topics Seminar: Public Policy",
-        "units": 4,
-        "description": "Seminar, three hours; discussion, one hour (when scheduled) outside study, eight hours. Emerging issues in public policy. May be repeated for credit. Concurrently scheduled with course CM191B. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC C291G",
-        "title": "Special Topics in Global Studies and Public Policy",
-        "units": 4,
-        "description": "Seminar, three hours. Examination of one or more topics related to public policy and global studies. May be repeated for credit with topic change. Concurrently scheduled with course CM191G. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC CM126XP",
-        "title": "Data Analysis for Educational Equity and Improvement",
-        "units": 4,
-        "description": "(Formerly numbered CM126.) (Same as Public Affairs M117DX.) Lecture, three hours. Requisite: Public Affairs 60. Exploration of challenge of making data useful for decision-making from cleaning data and deciding which analyses to conduct; to conducting those analyses carefully, thoughtfully, and in reproducible way; to displaying results, interpreting them, and communicating them clearly. Focus on challenge of making survey data useful to educators so that they can use those data to reflect on school and district policies and practices and, ultimately, use information to improve students' school experiences. Concurrently scheduled with course C226. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB AFF 60"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC CM171",
-        "title": "International Development",
-        "units": 4,
-        "description": "(Same as Economics M112A.) Lecture, three hours. Requisite: Economics 102 or 111. Why are some countries rich, while other countries are poor? What can policymakers do to reduce poverty? Discussion of current research on these questions. Study of both methodologies used to answer questions in development economics, like natural experiments and randomized control trials, as well as relationship between development and institutions, education, growth, culture, and gender. Reading intensive, seminar-style course. Students are expected to read academic articles in economics and actively participate in discussions. Students also learn how to use data to evaluate policies. Concurrently scheduled with course C271. P/NP or letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "ECON 102"},{"type": "requisite","course": "ECON 111"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC CM175",
-        "title": "Advanced Technology: Public Policy, Regulation, and Law",
-        "units": 4,
-        "description": "(Same as Public Affairs M165.) Lecture, three hours. Examination of cutting-edge public policy and regulatory issues implicated by advanced technologies such as artificial intelligence, drones, autonomous vehicles, blockchain/Bitcoin, etc. Exploration of whether and how such new technologies should be regulated. Exploration of how policymakers should balance need to promote investment and innovation against need to protect public against potential misuse and abuse of these new technologies. Exploration of many issues raised by these technologies such as privacy, national security, network neutrality, intellectual property rights, and more. Concurrently scheduled with course C275. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC CM177",
-        "title": "Network Science Using R",
-        "units": 4,
-        "description": "(Same as Public Affairs M117B.) Lecture, three hours. No prior knowledge of R required. Designed for juniors and seniors. Network analysis offers framework for understanding how relationships between people, places, and institutions affect public policy outcomes. For example, why individuals decide to protest or vote, amount of education they pursue, or effect of human interference in ecosystem can all be considered using network analysis. Weekly introduction of concept from network analysis, followed by working through it using popular statistical programming language R. Concurrently scheduled with course C277. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC CM179",
-        "title": "Social Movements in Theory and Practice",
-        "units": 4,
-        "description": "(Same as Public Affairs M179A.) Lecture, three hours. Social movement is group of people pressuring for political or social change over long periods of time. Study focuses on how mass movements form, when and where they are likely to form, what types of tactics they choose, how those tactics affect their success, and role new technologies play. Weekly focus on one specific topic, such as nonviolence or social media, with historic and more recent movements used as case studies. Concurrently scheduled with course C279. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC CM182",
-        "title": "Science, Technology, and Public Policy",
-        "units": 4,
-        "description": "(Same as Electrical and Computer Engineering CM182 and Public Affairs M164.) Lecture, three hours. Recent and continuing advances in science and technology are raising profoundly important public policy issues. Consideration of selection of critical policy issues, each of which has substantial ethical, social, economic, political, scientific, and technological aspects. Concurrently scheduled with course CM282. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC CM191B",
-        "title": "Variable Topics Seminar: Public Policy",
-        "units": 4,
-        "description": "(Same as Public Affairs M191P.) Seminar, three hours; discussion, one hour (when scheduled); outside study, eight hours. Emerging issues in public policy. May be repeated for credit. Concurrently scheduled with course C291B. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC CM191G",
-        "title": "Special Topics in Global Studies and Public Policy",
-        "units": 4,
-        "description": "(Same as Global Studies M161.) Seminar, three hours. Examination of one or more topics related to public policy and global studies. May be repeated for credit with topic change. Concurrently scheduled with course C291G. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC CM250",
-        "title": "Environmental and Resource Economics and Policy",
-        "units": 4,
-        "description": "(Same as Urban Planning M267.) Lecture, three hours. Requisites: courses 204 and 208, or Urban Planning 207 and 220B. Survey of ways economics is used to define, analyze, and resolve problems of environmental management. Overview of analytical questions addressed by environmental economists that bear on public policies. Concurrently scheduled with course C115. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "requisite","course": "PUB PLC 204"},{"type": "requisite","course": "PUB PLC 208"}]},{"type": "group","needs": 2,"options": [{"type": "requisite","course": "URBN PL 207"},{"type": "requisite","course": "URBN PL 220B"}]}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC CM282",
-        "title": "Science, Technology, and Public Policy",
-        "units": 4,
-        "description": "(Same as Electrical and Computer Engineering CM282.) Lecture, three hours. Recent and continuing advances in science and technology are raising profoundly important public policy issues. Consideration of selection of critical policy issues, each of which has substantial ethical, social, economic, political, scientific, and technological aspects. Concurrently scheduled with course CM182. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M120",
-        "title": "Race, Inequality, and Public Policy",
-        "units": 4,
-        "description": "(Same as African American Studies M120.) Lecture, three hours; discussion, one hour. Background in economics, sociology, or urban studies preferred but not required. Survey course to examine major debates and current controversies concerning public policy responses to social problems in urban America. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M201A",
-        "title": "Microeconomic Analysis for Public Health and Policy",
-        "units": 4,
-        "description": "(Same as Health Policy M203A.) Lecture, four hours. Requisite: Mathematics 3A or 3B or 31A. Course M201A is requisite to M204A. Basic concepts of microeconomics, with emphasis on their application to actual situations and their use in problem solving and focus on theory of choice. Extensive use of differential calculus. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 3A"},{"type": "requisite","course": "MATH 3B"},{"type": "requisite","course": "MATH 31A"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M204A",
-        "title": "Microeconomic Analysis for Public Health and Policy",
-        "units": 4,
-        "description": "(Same as Health Policy M203B.) Lecture, four hours. Requisites: course M201A, and one course from Mathematics 3A, 3B, or 31A. Basic concepts of microeconomics, with emphasis on their application to actual situations and their use in problem solving and focus on theories of firms and markets. Extensive use of differential calculus. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "PUB PLC M201A"},
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "MATH 3A"},{"type": "requisite","course": "MATH 3B"},{"type": "requisite","course": "MATH 31A"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M212",
-        "title": "Child Welfare Policy",
-        "units": 4,
-        "description": "(Same as Social Welfare M290J.) Lecture, three hours. Development of social policy as it affects families and children from different cultural backgrounds and as it is given form in public child welfare system. Examination of development of infrastructure to support needs of children and families. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M213",
-        "title": "Mental Health Policy",
-        "units": 4,
-        "description": "(Same as Social Welfare M290K.) Lecture, three hours. Examination of evolution of social policy and services for mentally ill, with emphasis on political, economic, ideological, and sociological factors that affect views of mentally ill and services they are provided. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M214",
-        "title": "Poverty, Poor, and Welfare Reform",
-        "units": 4,
-        "description": "(Same as Social Welfare M290L and Urban Planning M246.) Lecture, three hours. Major policy and research issues concerning poverty and social welfare policy directed toward poor in U.S. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M215",
-        "title": "Health Policy",
-        "units": 4,
-        "description": "(Same as Social Welfare M290M.) Lecture, three hours. Introduction to contemporary issues in healthcare financing and delivery, providing historical perspective on emergence of these issues. Examination of major public programs and their relationship to issues of access and cost. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M216",
-        "title": "Public Policy for Children and Youth",
-        "units": 4,
-        "description": "(Same as Social Welfare M290N.) Lecture, three hours. Policy issues that affect children and adolescents in relation to their interaction with schools and community, with emphasis on impact of policy across federal, state, and local levels. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M217",
-        "title": "Graduate Seminar in Environmental Economics and Policy",
-        "units": 4,
-        "description": "(Same as Environmental Health Sciences M217.) Seminar, four hours. Preparation: undergraduate-level statistics, basic undergraduate microeconomics. Introduction to applied scholarship in environmental economics and policy. Enables students to become more proficient consumers and producers of social science research that explores questions of environmental policy and sustainability broadly construed. Topics include health and economic impacts of climate change, adaptation to climate change, efficient and equitable design of environmental policies (e.g., cap and trade, carbon taxes). Developmental of detailed empirical research proposal and short presentation. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M218",
-        "title": "Research Design and Methods for Social Policy",
-        "units": 4,
-        "description": "(Same as Urban Planning M204.) Lecture, three hours; outside study, nine hours. Limited to graduate students. How to become more sophisticated consumers and producers of qualitative and quantitative policy research. In first half of course, formal principles of research design; in second half, various data collection methods, including ethnography, interviewing, and survey design. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M218",
-        "title": "Research Design and Methods for Social Policy",
-        "units": 4,
-        "description": "(Same as Urban Planning M204.) Lecture, three hours; outside study, nine hours. Limited to graduate students. How to become more sophisticated consumers and producers of qualitative and quantitative policy research. In first half of course, formal principles of research design; in second half, various data collection methods, including ethnography, interviewing, and survey design. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M220",
-        "title": "Transportation and Land Use: Urban Form",
-        "units": 4,
-        "description": "(Same as Urban Planning M250.) Lecture, three hours. Historical evolution of urban form and transportation systems, intrametropolitan location theory, recent trends in urban form, spatial mismatch hypothesis, jobs/housing balance, transportation in strong central city and polycentric city, neotraditional town planning debate, rail transit and urban form. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M220",
-        "title": "Transportation and Land Use: Urban Form",
-        "units": 4,
-        "description": "(Same as Urban Planning M250.) Lecture, three hours. Historical evolution of urban form and transportation systems, intrametropolitan location theory, recent trends in urban form, spatial mismatch hypothesis, jobs/housing balance, transportation in strong central city and polycentric city, neotraditional town planning debate, rail transit and urban form. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M221",
-        "title": "Travel Behavior Analysis",
-        "units": 4,
-        "description": "(Same as Civil Engineering M287 and Urban Planning M253.) Lecture, three hours. Requisites: courses 201 or M201A, and 203, or Urban Planning 207 and 220B. Descriptions of travel patterns in metropolitan areas, recent trends and projections into future, overview of travel forecasting methods, trip generation, trip distribution, mode split traffic assignment, critique of traditional travel forecasting methods and new approaches to travel behavior analysis. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "group","needs": 1,"options": [{"type": "requisite","course": "PUB PLC 201"},{"type": "requisite","course": "PUB PLC M201A"}]},{"type": "requisite","course": "PUB PLC 203"}]},{"type": "group","needs": 2,"options": [{"type": "requisite","course": "URBN PL 207"},{"type": "requisite","course": "URBN PL 220B"}]}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M221",
-        "title": "Travel Behavior Analysis",
-        "units": 4,
-        "description": "(Same as Civil Engineering M287 and Urban Planning M253.) Lecture, three hours. Requisites: courses 201 or M201A, and 203, or Urban Planning 207 and 220B. Descriptions of travel patterns in metropolitan areas, recent trends and projections into future, overview of travel forecasting methods, trip generation, trip distribution, mode split traffic assignment, critique of traditional travel forecasting methods and new approaches to travel behavior analysis. Letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "group","needs": 2,"options": [{"type": "group","needs": 1,"options": [{"type": "requisite","course": "PUB PLC 201"},{"type": "requisite","course": "PUB PLC M201A"}]},{"type": "requisite","course": "PUB PLC 203"}]},{"type": "group","needs": 2,"options": [{"type": "requisite","course": "URBN PL 207"},{"type": "requisite","course": "URBN PL 220B"}]}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M222",
-        "title": "Transportation Economics, Finance, and Policy",
-        "units": 4,
-        "description": "(Same as Urban Planning M256.) Lecture, three hours. Overview of transportation finance and economics; concepts of efficiency and equity in transportation finance; historical evolution of highway and transit finance; current issues in highway finance; private participation in road finance, toll roads, road costs and cost allocation, truck charges, congestion pricing; current issues in transit finance; transit fare and subsidy policies, contracting and privatization of transit services. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M222",
-        "title": "Transportation Economics, Finance, and Policy",
-        "units": 4,
-        "description": "(Same as Urban Planning M256.) Lecture, three hours. Overview of transportation finance and economics; concepts of efficiency and equity in transportation finance; historical evolution of highway and transit finance; current issues in highway finance; private participation in road finance, toll roads, road costs and cost allocation, truck charges, congestion pricing; current issues in transit finance; transit fare and subsidy policies, contracting and privatization of transit services. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M223",
-        "title": "Transportation and Climate Change",
-        "units": 4,
-        "description": "(Same as Urban Planning M258.) Lecture, three hours. How to reduce greenhouse gas emissions from transportation. Critical analysis of policies to improve fuel economy, promote electric vehicles, and reduce vehicle travel. History and legal frameworks of environmental regulation. Analytical methods to quantify carbon emissions and estimate emission reductions. Focus on climate change, but consideration of other environmental consequences of transportation, from air pollution to stormwater runoff. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M223",
-        "title": "Transportation and Climate Change",
-        "units": 4,
-        "description": "(Same as Urban Planning M258.) Lecture, three hours. How to reduce greenhouse gas emissions from transportation. Critical analysis of policies to improve fuel economy, promote electric vehicles, and reduce vehicle travel. History and legal frameworks of environmental regulation. Analytical methods to quantify carbon emissions and estimate emission reductions. Focus on climate change, but consideration of other environmental consequences of transportation, from air pollution to stormwater runoff. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M227",
-        "title": "Politics, Power, and Philanthropy",
-        "units": 4,
-        "description": "(Same as Social Welfare M290S and Urban Planning M287.) Lecture, three hours; outside study, nine hours. Use of political economy perspective to analyze forces that have shaped rise and characteristics of nonprofit sector and its constituent elements. Examination of social history of nonprofit sector in U.S. Exploration of legal and policy environments and distinct organizational forms. Comparative perspective between U.S. and other countries. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M228",
-        "title": "Nonprofit Organizations and Philanthropy: Management and Policy",
-        "units": 4,
-        "description": "(Same as Social Welfare M241E and Urban Planning M288.) Lecture, three hours; outside study, nine hours. Increased importance of nonprofit organizations-as service providers, vehicles of humanitarian assistance, policy advocates, social entrepreneurs, innovators, and as instruments of government reform-have moved this set of institutions closer to center of social welfare, urban planning and public policy agendas. Introduction of conceptual background, examination of theories and aspects of organizational behavior, and management models and policy frameworks. Lectures, seminar-type discussion, in-class presentations, and guest presentations. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M228B",
-        "title": "Global Public Affairs: Governing in Interconnected World",
-        "units": 4,
-        "description": "(Same as Social Welfare M215 and Urban Planning M231.) Lecture, three hours; outside work, nine hours. Conceptually, focus on interplay between three major institutional complexes of modern, globalizing societies and organizations that operate within them: state, market, and civil society. Study moves between abstract theory and concrete examples, offers sense of where these institutions and organizations have come from, and helps chart their present trajectories. From perspective of governance, assessment of roles and configurations of institutions and organizations to address today's challenges. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M229",
-        "title": "Law and Management of Nonprofit Organizations",
-        "units": 2,
-        "description": "(Same as Management M225.) Lecture, three hours. Introduction to important legal, financial, and management issues confronting nonprofit organizations. Topics include how to start nonprofit tax-exempt organizations, qualifying and maintaining tax-exempt status under IRC Code Section 501(c)(3), corporate governance, political and legislative activity restrictions, and strategic planning, fundraising, nonprofit accounting, and employment law. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M230",
-        "title": "Immigration Policy and Activism",
-        "units": 4,
-        "description": "(Same as Chicana/o and Central American Studies M278.) Seminar, three hours. Highlighting roles of race, gender, sexuality, and citizenship status, exploration of how immigrant rights activists organize for legalization and against detention, deportation, and border militarization. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M231",
-        "title": "Politics of Hood",
-        "units": 4,
-        "description": "(Same as Chicana/o and Central American Studies M206.) Seminar, three hours. Limited to graduate students. Investigation of root causes and consequences of critical problems impacting people who live in hood including poverty, incarceration, gentrification, welfare, public education, health disparities, and segregation, among other political issues. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M232",
-        "title": "Chicana/o and Intersectional Marxisms",
-        "units": 4,
-        "description": "(Same as Chicana/o and Central American Studies M257.) Seminar, three hours. Examination of relationship between Marxism, intersectionality, and early-Chicana/o Marxist influenced intellectual thought. Focus on key debates and texts on connections between race, gender, sexuality, and capitalism. Review of key articles and books examining Chicana/o identity, labor, family, sexuality, and activism through Marxist theoretical framework. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M240",
-        "title": "Theories of Regional Economic Development I",
-        "units": 4,
-        "description": "(Same as Geography M230A and Urban Planning M236A.) Lecture, three hours; discussion, one hour. Introduction to theories of location of economic activity, trade, and other forms of contact between regions, process of regional growth and decline, reasons for different levels of economic development, relations between more and less developed regions. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M243",
-        "title": "Community Development and Housing Policies: Roles of State, Civil Society, and Nonprofits",
-        "units": 4,
-        "description": "(Same as Social Welfare M290U and Urban Planning M275.) Lecture, three hours; outside study, nine hours. Designed for graduate students. Examination of role of U.S. housing policy and role of government agencies and community organizations. Is problem housing or economic development? Should interventions be directed toward inner city housing markets or through neighborhood strategies? What lessons can be learned from experiences of other countries? Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M243B",
-        "title": "Housing Policy and Planning",
-        "units": 4,
-        "description": "(Same as Urban Planning M296.) Lecture, three hours. Study of housing policy and planning focused partly on California given rapid changes occurring in state, with consideration of experiences from other states and countries and to what extent they are relevant here. Specific topics likely include policies such as social housing, rent control, and housing finance, issues of household formation, housing supply, housing submarkets, and gentrification, as well as planning processes related to housing production and Affirmatively Furthering Fair Housing. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M244",
-        "title": "Shared Mobility Policy and Planning",
-        "units": 4,
-        "description": "(Same as Urban Planning M255.) Lecture, three hours. Introduction to planning, analysis, and management of shared mobility systems, with particular focus on public transit. Overview of shared mobility policy and planning context; introduction to transportation planning and project evaluation processes; high-speed rail and airports and aviation; public transit policy and planning, including performance evaluation and route planning; taxis and ADA paratransit, ride-hailing, car-, bike-, and scooter-share; implications of vehicle automation for shared mobility in the years ahead. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M247B",
-        "title": "Comparative Perspective on States, Markets and Civil Society",
-        "units": 4,
-        "description": "(Same as Social Welfare M290X and Urban Planning M210B.) Lecture, two and one half hours. Governance is about solving and managing societal problems, such as climate change, poverty, migration, security, mobility, pollution, or trade relations. Contemporary governance is complex set of laws, rules, and regulations involving rights and responsibilities of three institutional complexes of modern societies (state, market, and civil society), interests that guide them, and legitimacy and resources they command. Actors often reach across systemic, jurisdictional, and national boundaries; their relationships can be cooperative, neutral, or fraught with conflict, and governance outcomes can vary significantly. These dynamics involve fundamental challenges and, consequently, require significant governance readiness. Lectures, debates, in-class exercises, and student presentations. Exploration of several issues in more detail, e.g., types of state capacities, democracy, crisis management, governance innovation, and specific policy fields such as infrastructure or global finance. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M253",
-        "title": "Lesbian, Gay, Bisexual, and Transgender Law and Public Policy Research",
-        "units": 4,
-        "description": "(Same as Law M675.) Lecture, three hours. Exploration of relevance of public policy research to lesbian, gay, bisexual, and transgender (LGBT) legal issues. Topics include LGBT identity and demographics, legal recognition of same-sex couples, parenting, workplace discrimination, transgender rights, intersections of race and sexuality, LGBT youth and safe schools, LGBT health disparities, and Don't Ask, Don't Tell. Discussion of social science research that has informed various areas of LGBT law. Themes include doctrinal and other reasons why research has become more central to LGBT legal advancements in past decade, different types of public policy research, limitations of current data and research on LGBT issues, difficulties in translating social science research into evidence in courtroom, impact that dominant LGBT rights frame of equality has on social science research, challenges in conducting objective research, and effective presentation of social science research before legislators, judges, juries, media, and other audiences. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M261",
-        "title": "Aging Policy, Elderly and Families",
-        "units": 4,
-        "description": "(Same as Social Welfare M290P.) Lecture, three hours; outside study, nine hours. Designed for graduate students. Examination of theoretical models and concepts of policy process and application to aging policy. Analysis of decision-making processes that affect social policies. Description of historical development of contemporary policy. Exploration of current proposals and issues. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M265",
-        "title": "Pharmaceutical Policy",
-        "units": 4,
-        "description": "(Same as Health Policy and Management M205.) Lecture, three hours. Policy issues pertaining to pharmaceutical sector. Topics include determinants of expenditures on drugs, price setting in industry, health insurance coverage for pharmaceuticals, and research and development process. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M266",
-        "title": "Politics of Health Policy",
-        "units": 4,
-        "description": "(Same as Community Health Sciences M287 and Health Policy and Management M287.) Lecture, three hours; discussion, one hour. Examination of politics of health policy process through analysis of case studies such as environmental protection, pandemic preparedness and response, preventive health services for women, and racial and income inequality and health. Examination of framework for assessing evidence-based policy making and effects of political structure and current political divisions, including efforts such as to repeal and dismantle Affordable Care Act. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M267",
-        "title": "Medicare Reform",
-        "units": 4,
-        "description": "(Same as Health Policy M252.) Lecture, three hours; outside study, nine hours. Designed for graduate students. Analytical and managerial skills learned earlier to be used to analyze problems with existing Medicare program and to develop specific options for reforming features of program to accommodate coming pressures generated by retirement of baby-boom generation. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M268",
-        "title": "Microeconomic Theory of Health Sector",
-        "units": 4,
-        "description": "(Same as Health Policy M236.) Lecture, four hours; discussion, two hours. Preparation: intermediate microeconomics. Microeconomic aspects of health-care system, including health manpower substitution, choice of efficient modes of treatment, market efficiency, and competition. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M269",
-        "title": "Healthcare Policy and Finance",
-        "units": 4,
-        "description": "(Same as Health Policy M269.) Seminar, three hours; outside study, nine hours. Exploration of demand for health insurance, policies for public insurance (Medicaid and Medicare), uninsured, and health insurance reform. Examination of effects of managed care on health and costs, consumer protection movement, and rise of competitive healthcare markets. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M270",
-        "title": "Economic Principles and Economic Development in Indigenous Communities",
-        "units": 4,
-        "description": "(Same as American Indian Studies M207.) Seminar, two hours; discussion, one hour. Limited to graduate students. Familiarization with fundamental concepts, themes, and principles of economic development. Focus on indigenous communities broadly and contrasted with other regions, countries, and communities. Introduction to important concepts such as opportunity cost, economic trade-offs, adverse selection, moral hazard, and discount rates through use of existing research and case studies. These basic concepts are important for graduate students who will be analyzing and evaluating research conducted on and for indigenous peoples and governments. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M276A",
-        "title": "Introduction to Programming and Data Management",
-        "units": 4,
-        "description": "(Same as Education M260A.) Lecture, three hours. Fundamental skills of data management. Development of strong foundation in R programming language. R is most popular language for statistical analysis and one of most popular languages for data science applications (e.g., web-scraping, interactive maps, network analysis). Students become proficient in data management and R programming through weekly problem sets, completed in groups. No prior experience with R required. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M276B",
-        "title": "Fundamentals of Programming",
-        "units": 4,
-        "description": "(Same as Education M260B.) Lecture, three hours. Recommended requisite: course M276A. Second course in programming/data science sequence designed for students who do not have programming background. Uses primarily R programming language. Organized around practical programming skills/concepts that are fundamental across modern object-oriented programming languages (e.g., Python, Javascript). Topics include organizing files, folders, and scripts; reading (importing) and writing (exporting) data; using Git and GitHub for version control and collaboration; iteration (e.g., loops); conditional execution; writing functions; strings and regular expressions. These general programming skills are prerequisite for flashier data science applications (e.g., web-scraping, interactive maps). Students become proficient in programming skills/concepts through weekly problem sets, completed in groups. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M280A",
-        "title": "Research and Development Policy",
-        "units": 4,
-        "description": "(Same as Management-PhD M251.) Lecture, three hours. Examination of research and development as process and as element of goal-oriented organization. Factors affecting invention and innovation; transfer of technology; organizational and behavioral considerations; coupling of science, technology, and organizational goals; assessing of and forecasting technological futures. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M281",
-        "title": "Political Environment of American Business",
-        "units": 4,
-        "description": "(Same as Management M293A.) Lecture, three hours. Evaluation of certain criticisms made by business of American political system. Designed to provide clearer understanding of principal features of American politics, especially as they influence business enterprise. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M286",
-        "title": "Policy Analysis of Emerging Environmental Technologies",
-        "units": 4,
-        "description": "(Same as Urban Planning M268.) Lecture, three hours. Acquisition and utilization of economic, finance, planning, and policy analytic tools needed to evaluate factors that drive market adoption from early to middle market phases. Rooftop solar, electric vehicle, and energy efficiency as focal examples, with emphasis on role of policy and planning incentives intended to spur adoption. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M291C",
-        "title": "Special Topics in Public Affairs",
-        "units": 4,
-        "description": "(Same as Social Welfare M203X and Urban Planning M210A.) Seminar, three hours; outside study, nine hours. Advanced seminar on emerging issues across public policy, social welfare, and urban planning. May be repeated for credit. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M297C",
-        "title": "Current Issues in Public Affairs",
-        "units": 2,
-        "description": "(Same as Social Welfare M297B and Urban Planning M297B.) Lecture, one to two hours. Introduction to wide range of current issues in public affairs. Luskin school faculty present material from their research and teaching. Assigned readings are distributed in advance of each meeting. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M297F",
-        "title": "Career Planning and Management",
-        "units": 2,
-        "description": "(Same as Social Welfare M297F and Urban Planning M297F.) Tutorial, six hours. Designed to meet professional development needs of first-year Public Policy, Social Welfare, and Urban Planning students. Development of career management skills while balancing busy life of graduate student. More than just deciding on chosen career path, career planning and management involves taking concrete steps to become career ready. Students gain fundamental career management skills to be competitive on job market, including creating competitive r\u00e9sum\u00e9 and practicing interviewing articulately. Offers opportunity to learn professional development skills to assist with career planning strategies. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "PUB PLC M495",
-        "title": "Teaching Luskin Public Affairs",
-        "units": 2,
-        "description": "(Same as Social Welfare M495 and Urban Planning M495.) Seminar, to be arranged. Designed for graduate students. Required of all new teaching assistants. Classroom practice in teaching, with individual and group instruction on related educational methods, materials, and evaluation. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    }
+  {
+    "id": "PUB PLC 105",
+    "title": "Leadership in Public Interest",
+    "units": 4,
+    "description": "Lecture, three hours. Examination of prevailing models, theories, and practices of leadership in public settings and application of them through case studies, films, and situational articles. Participation in group projects and discussions designed to improve understanding of role of leadership in mobilizing people groups to do difficult work. Introduction to literature and theory on leadership, examination of leadership and group dynamics, and challenge of leadership in times of stress and change. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 10A",
+    "title": "Introduction to Policy Analysis",
+    "units": 5,
+    "description": "Lecture, three hours; workshops and outside study, three hours. Overview of contemporary policy analysis to develop analytical skills with applications in business, economics, government, law, and medicine. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 10B",
+    "title": "California Policy Issues",
+    "units": 4,
+    "description": "Lecture, three hours; outside study, nine hours. Application of policy analysis to California issues. Guest lectures from practitioners and academics along with readings and videos. Student written reports and oral presentations required. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 10C",
+    "title": "Public Policy for Crime, Cannabis, and Other Drugs",
+    "units": 5,
+    "description": "Lecture, three hours; outside study, twelve hours. Application of policy analysis, including critical analysis, problem solving, and substantive policy research, to develop knowledge and understanding about drug and crime policy, with focus on cannabis. Guest lectures by instructors and guest academics and practitioners, with readings from academic literature and policy reports. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 10D",
+    "title": "Public Policy and Urban Homelessness",
+    "units": 5,
+    "description": "Lecture, three hours; outside study, film review, and field/volunteer work, nine hours. Application of policy analysis to issues and solutions concerning homelessness. Guest lectures from local policymakers. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 113",
+    "title": "Politics of U.S. Health Policy",
+    "units": 4,
+    "description": "Lecture, three hours. Every modern nation faces similar health system challenges, such as promoting health and longevity, providing effective treatments, balancing benefits and burdens of medical technology, and controlling healthcare costs that grow faster than national income. U.S. seems uniquely disadvantaged with lower life expectancy, problematic quality of medical services, lack of insurance for millions, and highest costs in world, hampering families, businesses, and government. What political dynamics produced this result and influence possibility and direction of ongoing policy change? Examination of meaning of health and healthcare; international experience; current status, organization, and financing of U.S. healthcare system; and factors that affect national health policymaking, including comprehensive healthcare reform: framing of problems, role of public opinion, influence of interest groups, composition and organization of Congress, and opportunities for and applications of presidential leadership. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 187",
+    "title": "Research Seminar: Public Policy",
+    "units": 4,
+    "description": "Seminar, three hours; outside study, nine hours. Requisite: course 10A or Public Affairs 10. Limited to and required of seniors in Public Affairs minor. Production of research project that examines in depth one particular policy issue in its social context, including political pressures involved and problems of implementation. Emphasis on skills of data acquisition and analysis, conceptualization, and written analysis and presentation. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "PUB PLC 10A"
+          },
+          {
+            "type": "requisite",
+            "course": "PUB AFF 10"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 188SA",
+    "title": "Individual Studies for USIE Facilitators",
+    "units": 1,
+    "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 188SB",
+    "title": "Individual Studies for USIE Facilitators",
+    "units": 1,
+    "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC 188SA"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 188SC",
+    "title": "Individual Studies for USIE Facilitators",
+    "units": 2,
+    "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC 188SB"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 189",
+    "title": "Advanced Honors Seminars",
+    "units": 1,
+    "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 189HC",
+    "title": "Honors Contracts",
+    "units": 1,
+    "description": "Tutorial, three hours. Limited to students in College Honors and departmental honors programs. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 19",
+    "title": "Fiat Lux Freshman Seminars",
+    "units": 1,
+    "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 191A",
+    "title": "Variable Topics Research Seminars: Public Policy",
+    "units": 4,
+    "description": "Seminar, three hours; outside study, nine hours. Examination of particular subfields of policy studies (e.g., international policy, crime policy, policy history) in depth, with specific topics to be identified by instructor. Reading, discussion, and development of culminating project. Must be taken for credit if applied toward Public Affairs minor. May be repeated for credit with topic change. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 191C",
+    "title": "Variable Topics Research Seminars: Public Policy",
+    "units": 2,
+    "description": "Seminar, two hours; outside study, four hours. Examination of particular subfields of policy studies (e.g., international policy, crime policy, policy history) in depth, with specific topics to be identified by instructor. Reading, discussion, and development of culminating project. Must be taken for credit if applied toward Public Affairs minor. May be repeated for credit with topic change. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 197",
+    "title": "Individual Studies in Public Policy",
+    "units": 2,
+    "description": "Tutorial, four hours. Preparation: 3.0 grade-point average. Limited to juniors/seniors. Individual intensive study, with scheduled meetings to be arranged between faculty member and student. Assigned reading and tangible evidence of mastery of subject matter required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 201",
+    "title": "Principles of Microeconomic Theory I",
+    "units": 4,
+    "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. First course in two-term sequence (see course 204) to prepare students for economic analysis of public policy, with review of economic principles and basic microeconomic theory and policy applications. Consumer theory and demand, producer theory and supply, equilibrium of product and factor markets. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 202",
+    "title": "Politics and Policymaking",
+    "units": 4,
+    "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Designed to provide background necessary to develop strategies for shaping policy through different institutions such as legislatures, bureaucracies, courts, and media. Consideration of models of decision-making and delegation and their application to real-world cases. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 203",
+    "title": "Statistical Methods of Policy Analysis I",
+    "units": 4,
+    "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. First course in two-term sequence (see course 208). Review of statistical principles useful to policy research and analysis. Topics include descriptive statistics, expectations, univariate distribution, probability, covariance and correlations, statistical independence, random sampling, estimators, unbiasedness and efficiency, statistical inference, confidence intervals, and hypothesis testing. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 204",
+    "title": "Principles of Microeconomic Theory II",
+    "units": 4,
+    "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisite: course 201. Second course in two-term sequence (see course 201) covering both theory and policy applications. Topics include monopoly, factor markets, general equilibrium, welfare economics, externalities, public goods, uncertainty, and intertemporal optimization. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC 201"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 205",
+    "title": "Qualitative Methods for Policy Analysis",
+    "units": 4,
+    "description": "Lecture, three hours. Introduction to use of qualitative methods in policy analysis. Students gain exposure to techniques of interviewing, participant observation/ethnography, comparative-case studies, and archival research. Consideration of research design matters including questions and situations for which qualitative methods are ideally suited, and how to use qualitative data when they are best available. Focus maintained on practical dimensions of qualitative methods in policy research including sampling and inferences, instrument design, directed inductive analysis, data gathering and coding under time pressure, and professional ethics. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 206",
+    "title": "Political Economy of Policy Adoption and Implementation",
+    "units": 4,
+    "description": "Lecture, three hours; outside study, nine hours. Analysis of how policy is formed, adopted, and implemented. How policies are formulated, by whom, how policy agendas are set, how to define relationships between politicians, bureaucrats, lobbyists, and media experts. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 208",
+    "title": "Statistical Methods of Policy Analysis II",
+    "units": 4,
+    "description": "Lecture, three hours; discussion, one hour; outside study, eight hours. Requisite: course 203. Second core course in statistics and quantitative methods for MPP degree. Quantitative studies of public policy, covering regression analysis and its application to public policy questions. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC 203"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 209",
+    "title": "Management in the 21st Century",
+    "units": 4,
+    "description": "Lecture, three hours; outside study, nine hours. Focus on practical management skills to prepare students for workplace. Examination of design, management, and leadership of teams in organizational settings, decision-making strategies in face of challenges, and negotiation as invaluable skill. Examples from public and private sectors, as well as experiential learning through exercises, cases, and simulations. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 210",
+    "title": "Methods of Policy Analysis",
+    "units": 4,
+    "description": "Lecture, three hours; discussion, one hour (when scheduled); outside study, nine hours. Preparatory course that precedes three-term 298A, 298B, 298C sequence in which students prepare major public policy projects and papers that are case studies of policy evaluation and implementation and are equivalent to professional master's theses. Papers build on prior core courses, internship experience, and policy cluster courses. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 224A",
+    "title": "Introduction to Geographic Information Systems",
+    "units": 4,
+    "description": "Lecture, three hours. Preparation: one graduate-level statistics course, familiarity with one packaged statistics program. Principles of Geographic Information Systems (GIS) and applied techniques of using spatial data for mapping and analysis. Topics include data quality, data manipulation, spatial analysis, and information systems. Use of mapping and spatial analysis to address planning problem. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 224B",
+    "title": "Advanced Geographic Information Systems",
+    "units": 4,
+    "description": "Studio, three hours. Requisite: course M224A. Advanced topics in geographic information systems (GIS) utilizing geoprocessing tools in ArcMap, map design, and spatial analysis. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC M224A"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 225",
+    "title": "Education Policy and Education Inequality",
+    "units": 4,
+    "description": "Seminar, three hours; outside study, nine hours. Preparation: statistics background through multiple regression analysis. Limited to graduate students. Examination of policies that may reduce socioeconomic and ethnic disparities in educational success. Topics include international and national comparisons of educational outcomes, private and public school choice, school accountability policies, interventions to improve school or teacher quality, parenting and preschool interventions, and supplemental educational services. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 233",
+    "title": "Immigration Policy and Politics",
+    "units": 4,
+    "description": "Seminar, three hours. Introduction to politics of immigration. Examination of development and dynamics of immigration policymaking in historical and contemporary perspective. Focus on issues including creation of illegal immigration, border militarization, detention, deportation, public opinion, political behavior, and assimilation. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 234A",
+    "title": "Voting Rights Policy and Law I",
+    "units": 4,
+    "description": "(Formerly numbered M296A.) Clinic, three hours. Collaborative course taught from perspective of social science research, civil rights, and voting rights. Exposes students to voting rights act theory, case law, history, research, and implementation. Faculty guest experts from across campus provide their perspective on how to study, research, and document various aspects related to voting rights. Includes factors such as history of discrimination against minority group in areas of employment, education, housing, and political representation. Students learn and implement in-depth study of methodology and statistical approach to document presence or absence of vote dilution or vote denial in different jurisdictions. Discussion of history and legal principles of federal Voting Rights Act and California Voting Rights Act led by leading voting rights attorney. May be repeated for credit. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 234B",
+    "title": "Voting Rights Policy and Law II",
+    "units": 4,
+    "description": "(Formerly numbered M296B.) Clinic, three hours. Requisite: course 234A. Collaborative course taught from perspective of social science research, civil rights, and voting rights. Exposes students to voting rights act theory, case law, history, research, and implementation. Faculty guest experts from across campus provide their perspective on how to study, research, and document various aspects related to voting rights. Includes factors such as history of discrimination against minority group in areas of employment, education, housing, and political representation. Focus on practical aspects of voting rights lawsuit. Students learn in greater detail legal theory relevant to bringing successful voting rights challenge, and how to assemble and present social science evidence. Students read case law on prior Voting Rights Act decisions, review accompanying expert reports, and work in teams on aspects of lawsuit. S/U or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC 234A"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 234C",
+    "title": "Voting Rights Policy and Law III",
+    "units": 4,
+    "description": "(Formerly numbered M296C.) Clinic, three hours. Requisites: courses 234A, 234B. Collaborative course taught from perspective of social science research, civil rights, and voting rights. Exposes students to voting rights act theory, case law, history, research, and implementation. Faculty guest experts from across campus provide their perspective on how to study, research, and document various aspects related to voting rights. Includes factors such as history of discrimination against minority group in areas of employment, education, housing, and political representation. Students continue work on all aspects of voting rights cases including preparation of expert research reports, legal argumentation and filings, depositions, and other case-related matters. S/U or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC 234A"
+      },
+      {
+        "type": "requisite",
+        "course": "PUB PLC 234B"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 236",
+    "title": "Criminal Justice Policy on Trial",
+    "units": 4,
+    "description": "Seminar, three hours. Survey of several criminal justice policy areas including labor market effects of incarceration, bias in policing and sentencing, cash bail, and drug policy. Introduction to recent research. Students engage in discussions about current policy, and develop and present policy proposal. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 251",
+    "title": "Public Budgeting and Finance",
+    "units": 4,
+    "description": "Lecture, three hours; outside study, nine hours. Limited to graduate students. How financial resources are allocated through budget processes at federal, state, and local levels of government in the U.S. and how each level of government finances its operations and capital investment programs, with particular attention to California. Students are organized into small groups to facilitate review of assigned readings and to report key information to class. Based on assigned readings, development of budget strategy matrix outlining best practices budget strategies to use in various resources availability contexts. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 252",
+    "title": "Today's Los Angeles: Institutions and Leaders that Make It Work",
+    "units": 4,
+    "description": "Seminar, four hours. Focus on institutions and leaders that make up Los Angeles region and influence its policies and quality of life. Institutions studied include political, governmental, business, economic, media, labor, citizen advocacy, educational, cultural, sports and entertainment, and philanthropic sectors; and how they combine to affect region in which we live. Consideration of how leadership and institutional structures in each of these sectors advance or constrain progress; how Los Angeles addresses issues such as transportation, real estate development, housing, homelessness, poverty, and health care, among others; and how it can better do so. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 272",
+    "title": "Tools for Causal Inference",
+    "units": 4,
+    "description": "Seminar, three hours. Students strengthen critical analysis of empirical evidence. Review of purpose and objectives of impact evaluation. Evaluation of common but often problematic approaches: cross-sectional and before-after comparisons, and case studies of program beneficiaries. Examination of suite of experimental and quasi-experimental approaches: randomized controlled trials, matching, regression discontinuities, and difference-in-differences. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 273",
+    "title": "Survey Analysis",
+    "units": 4,
+    "description": "Seminar, three hours. Exploration of large-sample size survey use in public policy and related social science disciplines. Topics may include social-psychology of survey response (especially with regard to attitudes and evaluations), issues of question wording and context, interviewer effects, and social desirability pressures; survey-based randomized experiments and unobtrusive measures of behaviors and attitudes; general issues of quantitative research including model specification, random and systematic measurement error, logic of causal analysis, and alternative meanings of statistical importance; and practical considerations in survey analysis including questionnaire construction, sampling and data collection, weighting, variable coding and transformations, scale construction, reliability, and missing values. Students construct and pretest online survey specific to each one's interests. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 274",
+    "title": "Social Media and Public Policy",
+    "units": 4,
+    "description": "Lecture, three hours. Influence of social media on public discourse and public policy, in U.S. and overseas, has been far-reaching and dramatic. Exploration of positive and negative impacts of social media on individuals and society. Topics include tension between free expression and censorship; and public policy implications and responses (or lack thereof) to use of social media as platform for disseminating fake news, conspiracy theories, white nationalism, racism, and violence. Consideration of whether government should impose content rules on social media companies (as Federal Communications Commission does for broadcast media), or whether corporate terms and conditions of service as self-regulatory model should be relied on. Exploration of how to measure relative impact of social media versus money/campaign contributions on current U.S. political system. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 287A",
+    "title": "International Environmental Law and Policy",
+    "units": 4,
+    "description": "Seminar, three hours. Exploration of how society addresses international environmental issues that transcend national boundaries, using cases and conceptual topics. Cases include in-depth discussions of climate change and biodiversity protection, with briefer coverage of ozone depletion, long-range air pollution, endangered species trade, and global fisheries management. Conceptual sessions examine historical and causal structure of global environmental problems; foundations of international politics and law; and government functions such as scientific assessment, negotiation, organizational management, implementation, and compliance monitoring. Additional topics may include exploration of links between environment and other issues such as trade, security, and development. Emphasizing a synthetic perspective, study applies research insights to advance practical understanding of current challenges. Study also uses theory to analyze specific issues, and evidence to refine theoretical claims. Concurrently scheduled with LAW 438. In Progress grading (credit to be given only on completion of course 287B).",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 287B",
+    "title": "International Environmental Law and Policy",
+    "units": 2,
+    "description": "Seminar, three hours. Exploration of how society addresses international environmental issues that transcend national boundaries, using cases and conceptual topics. Cases include in-depth discussions of climate change and biodiversity protection, with briefer coverage of ozone depletion, long-range air pollution, endangered species trade, and global fisheries management. Conceptual sessions examine historical and causal structure of global environmental problems; foundations of international politics and law; and government functions such as scientific assessment, negotiation, organizational management, implementation, and compliance monitoring. Additional topics may include exploration of links between environment and other issues such as trade, security, and development. Emphasizing a synthetic perspective, study applies research insights to advance practical understanding of current challenges. Study also uses theory to analyze specific issues, and evidence to refine theoretical claims. Concurrently scheduled with LAW 438. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 289A",
+    "title": "Future Law: Legal and Governance Responses to Transformative Societal Trends",
+    "units": 3,
+    "description": "Seminar, three hours. Examination of challenges to law and government from disruptive technologies and environmental stresses. Topics include artificial intelligence, engineered environmental control, human modification and capabilities enhancement, lifespan extension, and severe environmental change. Consideration of likely or plausible trends in the next decade; resulting disruption to law and policy; and potential responses, both likely and desirable. Study is unavoidably speculative, but aims to keep it disciplined by present knowledge. Application of legal and institutional knowledge to new problems. Consideration of large-scale challenges originating outside the sphere of law that are likely to drive changes in substantive legal arrangements. Expectations for reading, engagement in critical and informed discussion, and quality of written work is high; and overall workload is demanding. Concurrently scheduled with Law 489. In Progress grading (credit to be given only on completion of course 289B).",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 289B",
+    "title": "Future Law: Legal and Governance Responses to Transformative Societal Trends",
+    "units": 1,
+    "description": "Seminar, three hours. Examination of challenges to law and government from disruptive technologies and environmental stresses. Topics include artificial intelligence, engineered environmental control, human modification and capabilities enhancement, lifespan extension, and severe environmental change. Consideration of likely or plausible trends in the next decade; resulting disruption to law and policy; and potential responses, both likely and desirable. Study is unavoidably speculative, but aims to keep it disciplined by present knowledge. Application of legal and institutional knowledge to new problems. Consideration of large-scale challenges originating outside the sphere of law that are likely to drive changes in substantive legal arrangements. Expectations for reading, engagement in critical and informed discussion, and quality of written work is high; and overall workload is demanding. Concurrently scheduled with Law 489. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 291A",
+    "title": "Public Policy Variable Topics Seminar",
+    "units": 4,
+    "description": "Seminar, three hours. Emerging issues in public policy. May be repeated for credit. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 291I",
+    "title": "Special Topics in Public Policy: International Policy",
+    "units": 4,
+    "description": "Seminar, three hours. Emerging issues in international policy. May be repeated for credit. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 291R",
+    "title": "Special Topics in Public Policy: Policy Research",
+    "units": 4,
+    "description": "Seminar, three hours. Emerging issues in policy research. May be repeated for credit. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 297A",
+    "title": "Public Policy Special Topics",
+    "units": 2,
+    "description": "Lecture, three hours. Study of emerging issues in public policy. May be repeated for credit. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 297B",
+    "title": "Public Policy Analysis Lectures",
+    "units": 2,
+    "description": "Lecture, two hours. Limited to second-year MPP students. Venue for policymakers, practitioners, and academics to present, discuss, and analyze current policy questions. Attending, formally analyzing, and engaging with policy professionals at these lectures adds to pedagogical and intellectual maturity of students as they gain greater understanding of broad range of policy-related topics. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 297D",
+    "title": "Public Policy Student-Initiated Special Topics",
+    "units": 2,
+    "description": "Seminar, three hours. Student-initiated and -facilitated special topics on emerging issues in public policy. May be repeated for credit. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 297P",
+    "title": "Public Policy Seminar Series",
+    "units": 2,
+    "description": "(Formerly numbered 297C.) Seminar, two hours; discussion, one hour. Weekly social science research lectures covering range of policy-relevant topics and discussion of research findings with professor. Examination of quality and relevance of research findings and connections between research, public policy curriculum, and real-world policy problems. May be repeated for credit. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 298A",
+    "title": "Applied Policy Project I",
+    "units": 1,
+    "description": "Seminar, two hours; outside study, two hours. Recommended requisite: course 210. Limited to MPP students. First course of year-long sequence designed to ensure that students and their teams are fully prepared to launch their projects at start of winter quarter. Students form teams that are assigned to seminars and instructors, identify clients, select and refine policy questions motivating their projects, develop and refine basic work plans, learn about various methods of data collection. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 298B",
+    "title": "Applied Policy Project II",
+    "units": 3,
+    "description": "Seminar, three hours; outside study, six hours. Requisite: course 298A. Preparation: completion of MPP core curriculum, two policy cluster courses, and internship (unless waived). Next course in five-course sequence. Students work with their APP Coordinator to prepare major public policy projects and papers that are case studies of policy evaluation and implementation and are equivalent to professional master's theses. Papers build on prior core courses, internship experience, and policy cluster courses. In Progress grading (credit to be given only on completion of course 298D).",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC 298A"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 298C",
+    "title": "Applied Policy Project III",
+    "units": 2,
+    "description": "Seminar, one hour; outside study, five hours. Requisite: course 298A. Preparation: completion of MPP core curriculum, two policy cluster courses, and internship (unless waived). Next course in five-course sequence. Students work with their individual APP Adviser to prepare major public policy projects and papers that are case studies of policy evaluation and implementation and are equivalent to professional master's theses. Papers build on prior core courses, internship experience, and policy cluster courses. In Progress grading (credit to be given only on completion of course 298D).",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC 298A"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 298D",
+    "title": "Applied Policy Project IV",
+    "units": 1,
+    "description": "(Formerly numbered 298C.) Seminar, three hours; outside study, six hours. Preparation: completion of MPP core curriculum, two policy cluster courses, and internship (unless waived). Requisites: courses 298B, 298C. Fourth course in five-course sequence in which students prepare major public policy projects and papers that are case studies of policy evaluation and implementation and are equivalent to professional master's theses. Papers build on prior core courses, internship experience, and policy cluster courses. Working with their individual APP Adviser, students complete the written report started in courses 298B and 298C. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC 298B"
+      },
+      {
+        "type": "requisite",
+        "course": "PUB PLC 298C"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 298E",
+    "title": "Applied Policy Project V",
+    "units": 1,
+    "description": "(Formerly numbered 298D.) Seminar, one hour; outside study, two hours. Requisites: courses 298B, 298C. Preparation: completion of MPP core curriculum, two policy cluster courses, and internship (unless waived). Fifth course in five-course sequence in which students complete research and report writing for their year-long projects, conduct oral presentations of their applied policy projects, and give written feedback on other student presentations. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC 298B"
+      },
+      {
+        "type": "requisite",
+        "course": "PUB PLC 298C"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 496",
+    "title": "Public Policy Internships",
+    "units": 4,
+    "description": "Fieldwork, four hours. Public policy internships for Master of Public Policy (MPP) and MPP/dual degree students. May not be repeated for credit. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 501",
+    "title": "Cooperative Program",
+    "units": 2,
+    "description": "Preparation: consent of UCLA department chair and graduate dean, and host campus instructor, department chair, and graduate dean. Used to record enrollment of UCLA students in courses taken under cooperative arrangements with USC. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 596",
+    "title": "Directed Studies",
+    "units": 2,
+    "description": "Tutorial, to be arranged. Limited to graduate students. Individual programming for selected students to permit pursuit of a subject in greater depth. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 89",
+    "title": "Honors Seminars",
+    "units": 1,
+    "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 89HC",
+    "title": "Honors Contracts",
+    "units": 1,
+    "description": "Tutorial, three hours. Limited to students in College Honors and departmental honors programs. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC 99",
+    "title": "Student Research Program",
+    "units": 1,
+    "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C115",
+    "title": "Environmental and Resource Economics and Policy",
+    "units": 4,
+    "description": "Lecture, three hours. Requisites: Economics 11, 143. Survey of ways economics is used to define, analyze, and resolve problems of environmental management. Overview of analytical questions addressed by environmental economists that bear on public policies. Concurrently scheduled with course CM250. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "ECON 11"
+      },
+      {
+        "type": "requisite",
+        "course": "ECON 143"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C135",
+    "title": "Crime and Public Policy",
+    "units": 4,
+    "description": "Seminar, three hours. Crime is one of most costly social problems faced by societies across world. Examination of crime trends, criminogenic factors that influence them, and policy initiatives that influence them, largely in U.S. context. Criminal justice policy community is increasingly focused on best and evidence-based practice, and often derives implication and policy recommendation from existing empirical research. Focus on basic empirical and theoretical research on determinants of criminal offending and effectiveness, and effects of policy interventions meant to address criminal offending. Concurrently scheduled with course C235. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C183",
+    "title": "Science Policy and Expertise",
+    "units": 4,
+    "description": "Lecture, three hours. Introduction to social analysis of science and expertise by considering three overlapping themes: social conditions that affect production of scientific knowledge, debates about expertise and democracy in technical and policy decision-making, and current controversies about expertise and autonomy of science (e.g., conflicts of interest in funding of biomedical research and recent charges of politicization of science). Concurrently scheduled with course C283. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C226",
+    "title": "Data Analysis for Educational Equity and Improvement",
+    "units": 4,
+    "description": "Lecture, three hours. Requisite: Public Affairs 60. Exploration of challenge of making data useful for decision-making from cleaning data and deciding which analyses to conduct; to conducting those analyses carefully, thoughtfully, and in reproducible way; to displaying results, interpreting them, and communicating them clearly. Focus on challenge of making survey data useful to educators so that they can use those data to reflect on school and district policies and practices and, ultimately, use information to improve students' school experiences. Concurrently scheduled with course CM126XP. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB AFF 60"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C235",
+    "title": "Crime and Public Policy",
+    "units": 4,
+    "description": "Seminar, three hours. Crime is one of most costly social problems faced by societies across world. Examination of crime trends, criminogenic factors that influence them, and policy initiatives that influence them, largely in U.S. context. Criminal justice policy community is increasingly focused on best and evidence-based practice, and often derives implication and policy recommendation from existing empirical research. Focus on basic empirical and theoretical research on determinants of criminal offending and effectiveness, and effects of policy interventions meant to address criminal offending. Concurrently scheduled with course C135. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C271",
+    "title": "International Development",
+    "units": 4,
+    "description": "Lecture, three hours. Why are some countries rich, while other countries are poor? What can policymakers do to reduce poverty? Discussion of current research on these questions. Study of both methodologies used to answer questions in development economics, like natural experiments and randomized control trials, as well as relationship between development and institutions, education, growth, culture, and gender. Reading intensive, seminar-style course. Students are expected to read academic articles in economics and actively participate in discussions. Students also learn how to use data to evaluate policies. Concurrently scheduled with course CM171. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C275",
+    "title": "Advanced Technology: Public Policy, Regulation, and Law",
+    "units": 4,
+    "description": "Lecture, three hours. Examination of cutting-edge public policy and regulatory issues implicated by advanced technologies such as artificial intelligence, drones, autonomous vehicles, blockchain/Bitcoin, etc. Exploration of whether and how such new technologies should be regulated. Exploration of how policymakers should balance need to promote investment and innovation against need to protect public against potential misuse and abuse of these new technologies. Exploration of many issues raised by these technologies such as privacy, national security, network neutrality, intellectual property rights, and more. Concurrently scheduled with course CM175. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C277",
+    "title": "Network Science Using R",
+    "units": 4,
+    "description": "Lecture, three hours. No prior knowledge of R required. Designed for graduate students. Network analysis offers framework for understanding how relationships between people, places, and institutions affect public policy outcomes. For example, why individuals decide to protest or vote, amount of education they pursue, or effect of human interference in ecosystem can all be considered using network analysis. Weekly introduction of concept from network analysis, followed by working through it using popular statistical programming language R. Concurrently scheduled with course CM177. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C279",
+    "title": "Social Movements in Theory and Practice",
+    "units": 4,
+    "description": "Lecture, three hours. Social movement is group of people pressuring for political or social change over long periods of time. Study focuses on how mass movements form, when and where they are likely to form, what types of tactics they choose, how those tactics affect their success, and role new technologies play. Weekly focus on one specific topic, such as nonviolence or social media, with historic and more recent movements used as case studies. Concurrently scheduled with course CM179. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C283",
+    "title": "Science Policy and Expertise",
+    "units": 4,
+    "description": "Lecture, three hours. Introduction to social analysis of science and expertise by considering three overlapping themes: social conditions that affect production of scientific knowledge, debates about expertise and democracy in technical and policy decision-making, and current controversies about expertise and autonomy of science (e.g., conflicts of interest in funding of biomedical research and recent charges of politicization of science). Concurrently scheduled with course C183. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C291B",
+    "title": "Variable Topics Seminar: Public Policy",
+    "units": 4,
+    "description": "Seminar, three hours; discussion, one hour (when scheduled) outside study, eight hours. Emerging issues in public policy. May be repeated for credit. Concurrently scheduled with course CM191B. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC C291G",
+    "title": "Special Topics in Global Studies and Public Policy",
+    "units": 4,
+    "description": "Seminar, three hours. Examination of one or more topics related to public policy and global studies. May be repeated for credit with topic change. Concurrently scheduled with course CM191G. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC CM126XP",
+    "title": "Data Analysis for Educational Equity and Improvement",
+    "units": 4,
+    "description": "(Formerly numbered CM126.) (Same as Public Affairs M117DX.) Lecture, three hours. Requisite: Public Affairs 60. Exploration of challenge of making data useful for decision-making from cleaning data and deciding which analyses to conduct; to conducting those analyses carefully, thoughtfully, and in reproducible way; to displaying results, interpreting them, and communicating them clearly. Focus on challenge of making survey data useful to educators so that they can use those data to reflect on school and district policies and practices and, ultimately, use information to improve students' school experiences. Concurrently scheduled with course C226. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB AFF 60"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC CM171",
+    "title": "International Development",
+    "units": 4,
+    "description": "(Same as Economics M112A.) Lecture, three hours. Requisite: Economics 102 or 111. Why are some countries rich, while other countries are poor? What can policymakers do to reduce poverty? Discussion of current research on these questions. Study of both methodologies used to answer questions in development economics, like natural experiments and randomized control trials, as well as relationship between development and institutions, education, growth, culture, and gender. Reading intensive, seminar-style course. Students are expected to read academic articles in economics and actively participate in discussions. Students also learn how to use data to evaluate policies. Concurrently scheduled with course C271. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "ECON 102"
+          },
+          {
+            "type": "requisite",
+            "course": "ECON 111"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC CM175",
+    "title": "Advanced Technology: Public Policy, Regulation, and Law",
+    "units": 4,
+    "description": "(Same as Public Affairs M165.) Lecture, three hours. Examination of cutting-edge public policy and regulatory issues implicated by advanced technologies such as artificial intelligence, drones, autonomous vehicles, blockchain/Bitcoin, etc. Exploration of whether and how such new technologies should be regulated. Exploration of how policymakers should balance need to promote investment and innovation against need to protect public against potential misuse and abuse of these new technologies. Exploration of many issues raised by these technologies such as privacy, national security, network neutrality, intellectual property rights, and more. Concurrently scheduled with course C275. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC CM177",
+    "title": "Network Science Using R",
+    "units": 4,
+    "description": "(Same as Public Affairs M117B.) Lecture, three hours. No prior knowledge of R required. Designed for juniors and seniors. Network analysis offers framework for understanding how relationships between people, places, and institutions affect public policy outcomes. For example, why individuals decide to protest or vote, amount of education they pursue, or effect of human interference in ecosystem can all be considered using network analysis. Weekly introduction of concept from network analysis, followed by working through it using popular statistical programming language R. Concurrently scheduled with course C277. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC CM179",
+    "title": "Social Movements in Theory and Practice",
+    "units": 4,
+    "description": "(Same as Public Affairs M179A.) Lecture, three hours. Social movement is group of people pressuring for political or social change over long periods of time. Study focuses on how mass movements form, when and where they are likely to form, what types of tactics they choose, how those tactics affect their success, and role new technologies play. Weekly focus on one specific topic, such as nonviolence or social media, with historic and more recent movements used as case studies. Concurrently scheduled with course C279. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC CM182",
+    "title": "Science, Technology, and Public Policy",
+    "units": 4,
+    "description": "(Same as Electrical and Computer Engineering CM182 and Public Affairs M164.) Lecture, three hours. Recent and continuing advances in science and technology are raising profoundly important public policy issues. Consideration of selection of critical policy issues, each of which has substantial ethical, social, economic, political, scientific, and technological aspects. Concurrently scheduled with course CM282. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC CM191B",
+    "title": "Variable Topics Seminar: Public Policy",
+    "units": 4,
+    "description": "(Same as Public Affairs M191P.) Seminar, three hours; discussion, one hour (when scheduled); outside study, eight hours. Emerging issues in public policy. May be repeated for credit. Concurrently scheduled with course C291B. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC CM191G",
+    "title": "Special Topics in Global Studies and Public Policy",
+    "units": 4,
+    "description": "(Same as Global Studies M161.) Seminar, three hours. Examination of one or more topics related to public policy and global studies. May be repeated for credit with topic change. Concurrently scheduled with course C291G. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC CM250",
+    "title": "Environmental and Resource Economics and Policy",
+    "units": 4,
+    "description": "(Same as Urban Planning M267.) Lecture, three hours. Requisites: courses 204 and 208, or Urban Planning 207 and 220B. Survey of ways economics is used to define, analyze, and resolve problems of environmental management. Overview of analytical questions addressed by environmental economists that bear on public policies. Concurrently scheduled with course C115. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "group",
+            "needs": 2,
+            "options": [
+              {
+                "type": "requisite",
+                "course": "PUB PLC 204"
+              },
+              {
+                "type": "requisite",
+                "course": "PUB PLC 208"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "needs": 2,
+            "options": [
+              {
+                "type": "requisite",
+                "course": "URBN PL 207"
+              },
+              {
+                "type": "requisite",
+                "course": "URBN PL 220B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC CM282",
+    "title": "Science, Technology, and Public Policy",
+    "units": 4,
+    "description": "(Same as Electrical and Computer Engineering CM282.) Lecture, three hours. Recent and continuing advances in science and technology are raising profoundly important public policy issues. Consideration of selection of critical policy issues, each of which has substantial ethical, social, economic, political, scientific, and technological aspects. Concurrently scheduled with course CM182. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M120",
+    "title": "Race, Inequality, and Public Policy",
+    "units": 4,
+    "description": "(Same as African American Studies M120.) Lecture, three hours; discussion, one hour. Background in economics, sociology, or urban studies preferred but not required. Survey course to examine major debates and current controversies concerning public policy responses to social problems in urban America. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M201A",
+    "title": "Microeconomic Analysis for Public Health and Policy",
+    "units": 4,
+    "description": "(Same as Health Policy M203A.) Lecture, four hours. Requisite: Mathematics 3A or 3B or 31A. Course M201A is requisite to M204A. Basic concepts of microeconomics, with emphasis on their application to actual situations and their use in problem solving and focus on theory of choice. Extensive use of differential calculus. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "MATH 3A"
+          },
+          {
+            "type": "requisite",
+            "course": "MATH 3B"
+          },
+          {
+            "type": "requisite",
+            "course": "MATH 31A"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M204A",
+    "title": "Microeconomic Analysis for Public Health and Policy",
+    "units": 4,
+    "description": "(Same as Health Policy M203B.) Lecture, four hours. Requisites: course M201A, and one course from Mathematics 3A, 3B, or 31A. Basic concepts of microeconomics, with emphasis on their application to actual situations and their use in problem solving and focus on theories of firms and markets. Extensive use of differential calculus. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "PUB PLC M201A"
+      },
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "MATH 3A"
+          },
+          {
+            "type": "requisite",
+            "course": "MATH 3B"
+          },
+          {
+            "type": "requisite",
+            "course": "MATH 31A"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M212",
+    "title": "Child Welfare Policy",
+    "units": 4,
+    "description": "(Same as Social Welfare M290J.) Lecture, three hours. Development of social policy as it affects families and children from different cultural backgrounds and as it is given form in public child welfare system. Examination of development of infrastructure to support needs of children and families. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M213",
+    "title": "Mental Health Policy",
+    "units": 4,
+    "description": "(Same as Social Welfare M290K.) Lecture, three hours. Examination of evolution of social policy and services for mentally ill, with emphasis on political, economic, ideological, and sociological factors that affect views of mentally ill and services they are provided. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M214",
+    "title": "Poverty, Poor, and Welfare Reform",
+    "units": 4,
+    "description": "(Same as Social Welfare M290L and Urban Planning M246.) Lecture, three hours. Major policy and research issues concerning poverty and social welfare policy directed toward poor in U.S. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M215",
+    "title": "Health Policy",
+    "units": 4,
+    "description": "(Same as Social Welfare M290M.) Lecture, three hours. Introduction to contemporary issues in healthcare financing and delivery, providing historical perspective on emergence of these issues. Examination of major public programs and their relationship to issues of access and cost. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M216",
+    "title": "Public Policy for Children and Youth",
+    "units": 4,
+    "description": "(Same as Social Welfare M290N.) Lecture, three hours. Policy issues that affect children and adolescents in relation to their interaction with schools and community, with emphasis on impact of policy across federal, state, and local levels. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M217",
+    "title": "Graduate Seminar in Environmental Economics and Policy",
+    "units": 4,
+    "description": "(Same as Environmental Health Sciences M217.) Seminar, four hours. Preparation: undergraduate-level statistics, basic undergraduate microeconomics. Introduction to applied scholarship in environmental economics and policy. Enables students to become more proficient consumers and producers of social science research that explores questions of environmental policy and sustainability broadly construed. Topics include health and economic impacts of climate change, adaptation to climate change, efficient and equitable design of environmental policies (e.g., cap and trade, carbon taxes). Developmental of detailed empirical research proposal and short presentation. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M218",
+    "title": "Research Design and Methods for Social Policy",
+    "units": 4,
+    "description": "(Same as Urban Planning M204.) Lecture, three hours; outside study, nine hours. Limited to graduate students. How to become more sophisticated consumers and producers of qualitative and quantitative policy research. In first half of course, formal principles of research design; in second half, various data collection methods, including ethnography, interviewing, and survey design. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M220",
+    "title": "Transportation and Land Use: Urban Form",
+    "units": 4,
+    "description": "(Same as Urban Planning M250.) Lecture, three hours. Historical evolution of urban form and transportation systems, intrametropolitan location theory, recent trends in urban form, spatial mismatch hypothesis, jobs/housing balance, transportation in strong central city and polycentric city, neotraditional town planning debate, rail transit and urban form. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M221",
+    "title": "Travel Behavior Analysis",
+    "units": 4,
+    "description": "(Same as Civil Engineering M287 and Urban Planning M253.) Lecture, three hours. Requisites: courses 201 or M201A, and 203, or Urban Planning 207 and 220B. Descriptions of travel patterns in metropolitan areas, recent trends and projections into future, overview of travel forecasting methods, trip generation, trip distribution, mode split traffic assignment, critique of traditional travel forecasting methods and new approaches to travel behavior analysis. Letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "group",
+            "needs": 2,
+            "options": [
+              {
+                "type": "group",
+                "needs": 1,
+                "options": [
+                  {
+                    "type": "requisite",
+                    "course": "PUB PLC 201"
+                  },
+                  {
+                    "type": "requisite",
+                    "course": "PUB PLC M201A"
+                  }
+                ]
+              },
+              {
+                "type": "requisite",
+                "course": "PUB PLC 203"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "needs": 2,
+            "options": [
+              {
+                "type": "requisite",
+                "course": "URBN PL 207"
+              },
+              {
+                "type": "requisite",
+                "course": "URBN PL 220B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M222",
+    "title": "Transportation Economics, Finance, and Policy",
+    "units": 4,
+    "description": "(Same as Urban Planning M256.) Lecture, three hours. Overview of transportation finance and economics; concepts of efficiency and equity in transportation finance; historical evolution of highway and transit finance; current issues in highway finance; private participation in road finance, toll roads, road costs and cost allocation, truck charges, congestion pricing; current issues in transit finance; transit fare and subsidy policies, contracting and privatization of transit services. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M223",
+    "title": "Transportation and Climate Change",
+    "units": 4,
+    "description": "(Same as Urban Planning M258.) Lecture, three hours. How to reduce greenhouse gas emissions from transportation. Critical analysis of policies to improve fuel economy, promote electric vehicles, and reduce vehicle travel. History and legal frameworks of environmental regulation. Analytical methods to quantify carbon emissions and estimate emission reductions. Focus on climate change, but consideration of other environmental consequences of transportation, from air pollution to stormwater runoff. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M227",
+    "title": "Politics, Power, and Philanthropy",
+    "units": 4,
+    "description": "(Same as Social Welfare M290S and Urban Planning M287.) Lecture, three hours; outside study, nine hours. Use of political economy perspective to analyze forces that have shaped rise and characteristics of nonprofit sector and its constituent elements. Examination of social history of nonprofit sector in U.S. Exploration of legal and policy environments and distinct organizational forms. Comparative perspective between U.S. and other countries. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M228",
+    "title": "Nonprofit Organizations and Philanthropy: Management and Policy",
+    "units": 4,
+    "description": "(Same as Social Welfare M241E and Urban Planning M288.) Lecture, three hours; outside study, nine hours. Increased importance of nonprofit organizations-as service providers, vehicles of humanitarian assistance, policy advocates, social entrepreneurs, innovators, and as instruments of government reform-have moved this set of institutions closer to center of social welfare, urban planning and public policy agendas. Introduction of conceptual background, examination of theories and aspects of organizational behavior, and management models and policy frameworks. Lectures, seminar-type discussion, in-class presentations, and guest presentations. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M228B",
+    "title": "Global Public Affairs: Governing in Interconnected World",
+    "units": 4,
+    "description": "(Same as Social Welfare M215 and Urban Planning M231.) Lecture, three hours; outside work, nine hours. Conceptually, focus on interplay between three major institutional complexes of modern, globalizing societies and organizations that operate within them: state, market, and civil society. Study moves between abstract theory and concrete examples, offers sense of where these institutions and organizations have come from, and helps chart their present trajectories. From perspective of governance, assessment of roles and configurations of institutions and organizations to address today's challenges. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M229",
+    "title": "Law and Management of Nonprofit Organizations",
+    "units": 2,
+    "description": "(Same as Management M225.) Lecture, three hours. Introduction to important legal, financial, and management issues confronting nonprofit organizations. Topics include how to start nonprofit tax-exempt organizations, qualifying and maintaining tax-exempt status under IRC Code Section 501(c)(3), corporate governance, political and legislative activity restrictions, and strategic planning, fundraising, nonprofit accounting, and employment law. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M230",
+    "title": "Immigration Policy and Activism",
+    "units": 4,
+    "description": "(Same as Chicana/o and Central American Studies M278.) Seminar, three hours. Highlighting roles of race, gender, sexuality, and citizenship status, exploration of how immigrant rights activists organize for legalization and against detention, deportation, and border militarization. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M231",
+    "title": "Politics of Hood",
+    "units": 4,
+    "description": "(Same as Chicana/o and Central American Studies M206.) Seminar, three hours. Limited to graduate students. Investigation of root causes and consequences of critical problems impacting people who live in hood including poverty, incarceration, gentrification, welfare, public education, health disparities, and segregation, among other political issues. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M232",
+    "title": "Chicana/o and Intersectional Marxisms",
+    "units": 4,
+    "description": "(Same as Chicana/o and Central American Studies M257.) Seminar, three hours. Examination of relationship between Marxism, intersectionality, and early-Chicana/o Marxist influenced intellectual thought. Focus on key debates and texts on connections between race, gender, sexuality, and capitalism. Review of key articles and books examining Chicana/o identity, labor, family, sexuality, and activism through Marxist theoretical framework. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M240",
+    "title": "Theories of Regional Economic Development I",
+    "units": 4,
+    "description": "(Same as Geography M230A and Urban Planning M236A.) Lecture, three hours; discussion, one hour. Introduction to theories of location of economic activity, trade, and other forms of contact between regions, process of regional growth and decline, reasons for different levels of economic development, relations between more and less developed regions. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M243",
+    "title": "Community Development and Housing Policies: Roles of State, Civil Society, and Nonprofits",
+    "units": 4,
+    "description": "(Same as Social Welfare M290U and Urban Planning M275.) Lecture, three hours; outside study, nine hours. Designed for graduate students. Examination of role of U.S. housing policy and role of government agencies and community organizations. Is problem housing or economic development? Should interventions be directed toward inner city housing markets or through neighborhood strategies? What lessons can be learned from experiences of other countries? Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M243B",
+    "title": "Housing Policy and Planning",
+    "units": 4,
+    "description": "(Same as Urban Planning M296.) Lecture, three hours. Study of housing policy and planning focused partly on California given rapid changes occurring in state, with consideration of experiences from other states and countries and to what extent they are relevant here. Specific topics likely include policies such as social housing, rent control, and housing finance, issues of household formation, housing supply, housing submarkets, and gentrification, as well as planning processes related to housing production and Affirmatively Furthering Fair Housing. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M244",
+    "title": "Shared Mobility Policy and Planning",
+    "units": 4,
+    "description": "(Same as Urban Planning M255.) Lecture, three hours. Introduction to planning, analysis, and management of shared mobility systems, with particular focus on public transit. Overview of shared mobility policy and planning context; introduction to transportation planning and project evaluation processes; high-speed rail and airports and aviation; public transit policy and planning, including performance evaluation and route planning; taxis and ADA paratransit, ride-hailing, car-, bike-, and scooter-share; implications of vehicle automation for shared mobility in the years ahead. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M247B",
+    "title": "Comparative Perspective on States, Markets and Civil Society",
+    "units": 4,
+    "description": "(Same as Social Welfare M290X and Urban Planning M210B.) Lecture, two and one half hours. Governance is about solving and managing societal problems, such as climate change, poverty, migration, security, mobility, pollution, or trade relations. Contemporary governance is complex set of laws, rules, and regulations involving rights and responsibilities of three institutional complexes of modern societies (state, market, and civil society), interests that guide them, and legitimacy and resources they command. Actors often reach across systemic, jurisdictional, and national boundaries; their relationships can be cooperative, neutral, or fraught with conflict, and governance outcomes can vary significantly. These dynamics involve fundamental challenges and, consequently, require significant governance readiness. Lectures, debates, in-class exercises, and student presentations. Exploration of several issues in more detail, e.g., types of state capacities, democracy, crisis management, governance innovation, and specific policy fields such as infrastructure or global finance. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M253",
+    "title": "Lesbian, Gay, Bisexual, and Transgender Law and Public Policy Research",
+    "units": 4,
+    "description": "(Same as Law M675.) Lecture, three hours. Exploration of relevance of public policy research to lesbian, gay, bisexual, and transgender (LGBT) legal issues. Topics include LGBT identity and demographics, legal recognition of same-sex couples, parenting, workplace discrimination, transgender rights, intersections of race and sexuality, LGBT youth and safe schools, LGBT health disparities, and Don't Ask, Don't Tell. Discussion of social science research that has informed various areas of LGBT law. Themes include doctrinal and other reasons why research has become more central to LGBT legal advancements in past decade, different types of public policy research, limitations of current data and research on LGBT issues, difficulties in translating social science research into evidence in courtroom, impact that dominant LGBT rights frame of equality has on social science research, challenges in conducting objective research, and effective presentation of social science research before legislators, judges, juries, media, and other audiences. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M261",
+    "title": "Aging Policy, Elderly and Families",
+    "units": 4,
+    "description": "(Same as Social Welfare M290P.) Lecture, three hours; outside study, nine hours. Designed for graduate students. Examination of theoretical models and concepts of policy process and application to aging policy. Analysis of decision-making processes that affect social policies. Description of historical development of contemporary policy. Exploration of current proposals and issues. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M265",
+    "title": "Pharmaceutical Policy",
+    "units": 4,
+    "description": "(Same as Health Policy and Management M205.) Lecture, three hours. Policy issues pertaining to pharmaceutical sector. Topics include determinants of expenditures on drugs, price setting in industry, health insurance coverage for pharmaceuticals, and research and development process. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M266",
+    "title": "Politics of Health Policy",
+    "units": 4,
+    "description": "(Same as Community Health Sciences M287 and Health Policy and Management M287.) Lecture, three hours; discussion, one hour. Examination of politics of health policy process through analysis of case studies such as environmental protection, pandemic preparedness and response, preventive health services for women, and racial and income inequality and health. Examination of framework for assessing evidence-based policy making and effects of political structure and current political divisions, including efforts such as to repeal and dismantle Affordable Care Act. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M267",
+    "title": "Medicare Reform",
+    "units": 4,
+    "description": "(Same as Health Policy M252.) Lecture, three hours; outside study, nine hours. Designed for graduate students. Analytical and managerial skills learned earlier to be used to analyze problems with existing Medicare program and to develop specific options for reforming features of program to accommodate coming pressures generated by retirement of baby-boom generation. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M268",
+    "title": "Microeconomic Theory of Health Sector",
+    "units": 4,
+    "description": "(Same as Health Policy M236.) Lecture, four hours; discussion, two hours. Preparation: intermediate microeconomics. Microeconomic aspects of health-care system, including health manpower substitution, choice of efficient modes of treatment, market efficiency, and competition. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M269",
+    "title": "Healthcare Policy and Finance",
+    "units": 4,
+    "description": "(Same as Health Policy M269.) Seminar, three hours; outside study, nine hours. Exploration of demand for health insurance, policies for public insurance (Medicaid and Medicare), uninsured, and health insurance reform. Examination of effects of managed care on health and costs, consumer protection movement, and rise of competitive healthcare markets. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M270",
+    "title": "Economic Principles and Economic Development in Indigenous Communities",
+    "units": 4,
+    "description": "(Same as American Indian Studies M207.) Seminar, two hours; discussion, one hour. Limited to graduate students. Familiarization with fundamental concepts, themes, and principles of economic development. Focus on indigenous communities broadly and contrasted with other regions, countries, and communities. Introduction to important concepts such as opportunity cost, economic trade-offs, adverse selection, moral hazard, and discount rates through use of existing research and case studies. These basic concepts are important for graduate students who will be analyzing and evaluating research conducted on and for indigenous peoples and governments. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M276A",
+    "title": "Introduction to Programming and Data Management",
+    "units": 4,
+    "description": "(Same as Education M260A.) Lecture, three hours. Fundamental skills of data management. Development of strong foundation in R programming language. R is most popular language for statistical analysis and one of most popular languages for data science applications (e.g., web-scraping, interactive maps, network analysis). Students become proficient in data management and R programming through weekly problem sets, completed in groups. No prior experience with R required. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M276B",
+    "title": "Fundamentals of Programming",
+    "units": 4,
+    "description": "(Same as Education M260B.) Lecture, three hours. Recommended requisite: course M276A. Second course in programming/data science sequence designed for students who do not have programming background. Uses primarily R programming language. Organized around practical programming skills/concepts that are fundamental across modern object-oriented programming languages (e.g., Python, Javascript). Topics include organizing files, folders, and scripts; reading (importing) and writing (exporting) data; using Git and GitHub for version control and collaboration; iteration (e.g., loops); conditional execution; writing functions; strings and regular expressions. These general programming skills are prerequisite for flashier data science applications (e.g., web-scraping, interactive maps). Students become proficient in programming skills/concepts through weekly problem sets, completed in groups. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M280A",
+    "title": "Research and Development Policy",
+    "units": 4,
+    "description": "(Same as Management-PhD M251.) Lecture, three hours. Examination of research and development as process and as element of goal-oriented organization. Factors affecting invention and innovation; transfer of technology; organizational and behavioral considerations; coupling of science, technology, and organizational goals; assessing of and forecasting technological futures. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M281",
+    "title": "Political Environment of American Business",
+    "units": 4,
+    "description": "(Same as Management M293A.) Lecture, three hours. Evaluation of certain criticisms made by business of American political system. Designed to provide clearer understanding of principal features of American politics, especially as they influence business enterprise. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M286",
+    "title": "Policy Analysis of Emerging Environmental Technologies",
+    "units": 4,
+    "description": "(Same as Urban Planning M268.) Lecture, three hours. Acquisition and utilization of economic, finance, planning, and policy analytic tools needed to evaluate factors that drive market adoption from early to middle market phases. Rooftop solar, electric vehicle, and energy efficiency as focal examples, with emphasis on role of policy and planning incentives intended to spur adoption. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M291C",
+    "title": "Special Topics in Public Affairs",
+    "units": 4,
+    "description": "(Same as Social Welfare M203X and Urban Planning M210A.) Seminar, three hours; outside study, nine hours. Advanced seminar on emerging issues across public policy, social welfare, and urban planning. May be repeated for credit. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M297C",
+    "title": "Current Issues in Public Affairs",
+    "units": 2,
+    "description": "(Same as Social Welfare M297B and Urban Planning M297B.) Lecture, one to two hours. Introduction to wide range of current issues in public affairs. Luskin school faculty present material from their research and teaching. Assigned readings are distributed in advance of each meeting. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M297F",
+    "title": "Career Planning and Management",
+    "units": 2,
+    "description": "(Same as Social Welfare M297F and Urban Planning M297F.) Tutorial, six hours. Designed to meet professional development needs of first-year Public Policy, Social Welfare, and Urban Planning students. Development of career management skills while balancing busy life of graduate student. More than just deciding on chosen career path, career planning and management involves taking concrete steps to become career ready. Students gain fundamental career management skills to be competitive on job market, including creating competitive résumé and practicing interviewing articulately. Offers opportunity to learn professional development skills to assist with career planning strategies. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "PUB PLC M495",
+    "title": "Teaching Luskin Public Affairs",
+    "units": 2,
+    "description": "(Same as Social Welfare M495 and Urban Planning M495.) Seminar, to be arranged. Designed for graduate students. Required of all new teaching assistants. Classroom practice in teaching, with individual and group instruction on related educational methods, materials, and evaluation. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  }
 ]

@@ -1,314 +1,163 @@
 [
-    {
-        "id": "DUTCH 103A",
-        "title": "Elementary Dutch",
-        "units": 4,
-        "description": "Lecture, four hours; language laboratory. Course 103A is requisite to 103B. Introduction to standard language of Netherlands and one of three standard languages of Belgium. Practice in grammar, listening, speaking, reading, and writing. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 103A",
-        "title": "Elementary Dutch",
-        "units": 4,
-        "description": "Lecture, four hours; language laboratory. Course 103A is requisite to 103B. Introduction to standard language of Netherlands and one of three standard languages of Belgium. Practice in grammar, listening, speaking, reading, and writing. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 103B",
-        "title": "Elementary Dutch",
-        "units": 4,
-        "description": "Lecture, four hours; language laboratory. Requisite: course 103A. Introduction to standard language of Netherlands and one of three standard languages of Belgium. Practice in grammar, listening, speaking, reading, and writing. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DUTCH 103A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 103B",
-        "title": "Elementary Dutch",
-        "units": 4,
-        "description": "Lecture, four hours; language laboratory. Requisite: course 103A. Introduction to standard language of Netherlands and one of three standard languages of Belgium. Practice in grammar, listening, speaking, reading, and writing. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DUTCH 103A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 103C",
-        "title": "Intermediate Dutch",
-        "units": 4,
-        "description": "Lecture, four hours; language laboratory. Requisite: course 103B. Grammatical exercises, conversation, reading and analysis of simple texts. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DUTCH 103B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 103C",
-        "title": "Intermediate Dutch",
-        "units": 4,
-        "description": "Lecture, four hours; language laboratory. Requisite: course 103B. Grammatical exercises, conversation, reading and analysis of simple texts. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DUTCH 103B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 104A",
-        "title": "Accelerated Dutch",
-        "units": 6,
-        "description": "Lecture, four hours; discussion, one hour; laboratory, two hours. Covers material in courses 103A, 103B, 103C in two terms rather than three. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 104A",
-        "title": "Accelerated Dutch",
-        "units": 6,
-        "description": "Lecture, four hours; discussion, one hour; laboratory, two hours. Covers material in courses 103A, 103B, 103C in two terms rather than three. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 104B",
-        "title": "Accelerated Dutch",
-        "units": 6,
-        "description": "Lecture, four hours; discussion, one hour; laboratory, two hours. Covers material in courses 103A, 103B, 103C in two terms rather than three. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 104B",
-        "title": "Accelerated Dutch",
-        "units": 6,
-        "description": "Lecture, four hours; discussion, one hour; laboratory, two hours. Covers material in courses 103A, 103B, 103C in two terms rather than three. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 113",
-        "title": "Modern Dutch and Flemish Literature in Translation",
-        "units": 4,
-        "description": "Lecture, three hours. Readings and analysis of works by selected authors of Netherlands and northern (Flemish) Belgium such as Boon, Claus, Couperus, Hermans, Mulisch, Multatuli, and Reve and selected poets such as Campert, Gezelle, Gorter, Kloos, Lucebert, Nijhoff, Van Ostaijen, and Vroman. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 113",
-        "title": "Modern Dutch and Flemish Literature in Translation",
-        "units": 4,
-        "description": "Lecture, three hours. Readings and analysis of works by selected authors of Netherlands and northern (Flemish) Belgium such as Boon, Claus, Couperus, Hermans, Mulisch, Multatuli, and Reve and selected poets such as Campert, Gezelle, Gorter, Kloos, Lucebert, Nijhoff, Van Ostaijen, and Vroman. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 120",
-        "title": "Introduction to Dutch Studies",
-        "units": 4,
-        "description": "Lecture, three hours. Brief review of Dutch grammar. Reading and discussion of selections from contemporary Dutch literature, contemporary Dutch literary criticism, and modern Dutch linguistics. Emphasis on developing reading skill and on acquiring familiarity with and appreciation of scope of 20th-century Neerlandistiek. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 120",
-        "title": "Introduction to Dutch Studies",
-        "units": 4,
-        "description": "Lecture, three hours. Brief review of Dutch grammar. Reading and discussion of selections from contemporary Dutch literature, contemporary Dutch literary criticism, and modern Dutch linguistics. Emphasis on developing reading skill and on acquiring familiarity with and appreciation of scope of 20th-century Neerlandistiek. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 131",
-        "title": "Introduction to Modern Dutch Literature",
-        "units": 4,
-        "description": "Discussion, three hours. Requisite: course 103B or 120. Selected works of literature of Netherlands and northern (Flemish) Belgium from mid-1850s to present, including novels by such writers as Multatuli, Couperus, Hermans, Mulisch, and Reve and poetry by such groups as symbolist Beweging van Tachtig and post-War Beweging van Vijftig. P/NP or letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DUTCH 103B"},{"type": "requisite","course": "DUTCH 120"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 131",
-        "title": "Introduction to Modern Dutch Literature",
-        "units": 4,
-        "description": "Discussion, three hours. Requisite: course 103B or 120. Selected works of literature of Netherlands and northern (Flemish) Belgium from mid-1850s to present, including novels by such writers as Multatuli, Couperus, Hermans, Mulisch, and Reve and poetry by such groups as symbolist Beweging van Tachtig and post-War Beweging van Vijftig. P/NP or letter grading.",
-        "requisites": [
-            {"type": "group","needs": 1,"options": [{"type": "requisite","course": "DUTCH 103B"},{"type": "requisite","course": "DUTCH 120"}]}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 189",
-        "title": "Advanced Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 189",
-        "title": "Advanced Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 189HC",
-        "title": "Honors Contracts",
-        "units": 1,
-        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 189HC",
-        "title": "Honors Contracts",
-        "units": 1,
-        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 199",
-        "title": "Directed Research or Senior Project in Dutch",
-        "units": 4,
-        "description": "Tutorial, three hours. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 199",
-        "title": "Directed Research or Senior Project in Dutch",
-        "units": 4,
-        "description": "Tutorial, three hours. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 596",
-        "title": "Directed Individual Study or Research in Dutch",
-        "units": 4,
-        "description": "Tutorial, to be arranged with faculty member who directs study or research (course section to be identified by two-letter code using initials of sponsoring instructor-see department for ID number). May be repeated once. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 596",
-        "title": "Directed Individual Study or Research in Dutch",
-        "units": 4,
-        "description": "Tutorial, to be arranged with faculty member who directs study or research (course section to be identified by two-letter code using initials of sponsoring instructor-see department for ID number). May be repeated once. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 597",
-        "title": "Preparation for PhD Qualifying Examinations",
-        "units": 4,
-        "description": "Tutorial, to be arranged with faculty member who directs study (see department for ID number). S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 597",
-        "title": "Preparation for PhD Qualifying Examinations",
-        "units": 4,
-        "description": "Tutorial, to be arranged with faculty member who directs study (see department for ID number). S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 89",
-        "title": "Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 89",
-        "title": "Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 89HC",
-        "title": "Honors Contracts",
-        "units": 1,
-        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 89HC",
-        "title": "Honors Contracts",
-        "units": 1,
-        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 99",
-        "title": "Student Research Program",
-        "units": 1,
-        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DUTCH 99",
-        "title": "Student Research Program",
-        "units": 1,
-        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    }
+  {
+    "id": "DUTCH 103A",
+    "title": "Elementary Dutch",
+    "units": 4,
+    "description": "Lecture, four hours; language laboratory. Course 103A is requisite to 103B. Introduction to standard language of Netherlands and one of three standard languages of Belgium. Practice in grammar, listening, speaking, reading, and writing. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 103B",
+    "title": "Elementary Dutch",
+    "units": 4,
+    "description": "Lecture, four hours; language laboratory. Requisite: course 103A. Introduction to standard language of Netherlands and one of three standard languages of Belgium. Practice in grammar, listening, speaking, reading, and writing. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DUTCH 103A"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 103C",
+    "title": "Intermediate Dutch",
+    "units": 4,
+    "description": "Lecture, four hours; language laboratory. Requisite: course 103B. Grammatical exercises, conversation, reading and analysis of simple texts. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DUTCH 103B"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 104A",
+    "title": "Accelerated Dutch",
+    "units": 6,
+    "description": "Lecture, four hours; discussion, one hour; laboratory, two hours. Covers material in courses 103A, 103B, 103C in two terms rather than three. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 104B",
+    "title": "Accelerated Dutch",
+    "units": 6,
+    "description": "Lecture, four hours; discussion, one hour; laboratory, two hours. Covers material in courses 103A, 103B, 103C in two terms rather than three. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 113",
+    "title": "Modern Dutch and Flemish Literature in Translation",
+    "units": 4,
+    "description": "Lecture, three hours. Readings and analysis of works by selected authors of Netherlands and northern (Flemish) Belgium such as Boon, Claus, Couperus, Hermans, Mulisch, Multatuli, and Reve and selected poets such as Campert, Gezelle, Gorter, Kloos, Lucebert, Nijhoff, Van Ostaijen, and Vroman. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 120",
+    "title": "Introduction to Dutch Studies",
+    "units": 4,
+    "description": "Lecture, three hours. Brief review of Dutch grammar. Reading and discussion of selections from contemporary Dutch literature, contemporary Dutch literary criticism, and modern Dutch linguistics. Emphasis on developing reading skill and on acquiring familiarity with and appreciation of scope of 20th-century Neerlandistiek. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 131",
+    "title": "Introduction to Modern Dutch Literature",
+    "units": 4,
+    "description": "Discussion, three hours. Requisite: course 103B or 120. Selected works of literature of Netherlands and northern (Flemish) Belgium from mid-1850s to present, including novels by such writers as Multatuli, Couperus, Hermans, Mulisch, and Reve and poetry by such groups as symbolist Beweging van Tachtig and post-War Beweging van Vijftig. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "group",
+        "needs": 1,
+        "options": [
+          {
+            "type": "requisite",
+            "course": "DUTCH 103B"
+          },
+          {
+            "type": "requisite",
+            "course": "DUTCH 120"
+          }
+        ]
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 189",
+    "title": "Advanced Honors Seminars",
+    "units": 1,
+    "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 189HC",
+    "title": "Honors Contracts",
+    "units": 1,
+    "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 19",
+    "title": "Fiat Lux Freshman Seminars",
+    "units": 1,
+    "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 199",
+    "title": "Directed Research or Senior Project in Dutch",
+    "units": 4,
+    "description": "Tutorial, three hours. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 596",
+    "title": "Directed Individual Study or Research in Dutch",
+    "units": 4,
+    "description": "Tutorial, to be arranged with faculty member who directs study or research (course section to be identified by two-letter code using initials of sponsoring instructor-see department for ID number). May be repeated once. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 597",
+    "title": "Preparation for PhD Qualifying Examinations",
+    "units": 4,
+    "description": "Tutorial, to be arranged with faculty member who directs study (see department for ID number). S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 89",
+    "title": "Honors Seminars",
+    "units": 1,
+    "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 89HC",
+    "title": "Honors Contracts",
+    "units": 1,
+    "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DUTCH 99",
+    "title": "Student Research Program",
+    "units": 1,
+    "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  }
 ]

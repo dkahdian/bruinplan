@@ -1,550 +1,299 @@
 [
-    {
-        "id": "DGT HUM 101",
-        "title": "Introduction to Digital Humanities",
-        "units": 4,
-        "description": "Lecture, 75 minutes; discussion, 75 minutes. Foundation course for students in Digital Humanities minor, providing theoretical and conceptual framework for understanding genesis of digital world. Use of contemporary cultural-historical methodology to focus on rise of new media and information technologies in 19th, 20th, and 21st centuries, such as photography, film, radio, television, Internet, and World Wide Web and their impact on how individuals, groups, and cultures experienced their worlds. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 101",
-        "title": "Introduction to Digital Humanities",
-        "units": 4,
-        "description": "Lecture, 75 minutes; discussion, 75 minutes. Foundation course for students in Digital Humanities minor, providing theoretical and conceptual framework for understanding genesis of digital world. Use of contemporary cultural-historical methodology to focus on rise of new media and information technologies in 19th, 20th, and 21st centuries, such as photography, film, radio, television, Internet, and World Wide Web and their impact on how individuals, groups, and cultures experienced their worlds. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 110",
-        "title": "User Experience and Design",
-        "units": 4,
-        "description": "Seminar, three hours. Requisite: course 101. Introduction to fields of user experience (UX) research and design. Covers UX design methods and process, including ethnographic field research, persona-scenario development, information architecture, prototyping, and usability testing. Students learn by hands-on practice in human-centered process: how to understand users, how to design interface and interaction for users, and how to evaluate and communicate user experience design with users. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 110",
-        "title": "User Experience and Design",
-        "units": 4,
-        "description": "Seminar, three hours. Requisite: course 101. Introduction to fields of user experience (UX) research and design. Covers UX design methods and process, including ethnographic field research, persona-scenario development, information architecture, prototyping, and usability testing. Students learn by hands-on practice in human-centered process: how to understand users, how to design interface and interaction for users, and how to evaluate and communicate user experience design with users. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 112",
-        "title": "Information and Visualization",
-        "units": 5,
-        "description": "Lecture, three hours. Requisite: course 101. Designed for introductory exposure to Python, GitHub, word embeddings, and network visualization. How can information visualization reveal and critique structures of power and forms of hegemonic representation in the historic and cultural record? Practice-centered study focuses on both critique and creation as interwoven approaches to information visualization. Culminates in collaborative, playful data-centered storytelling committed to alternative narratives and liberatory futures. Introduction to transdisciplinary skills of quantification, visual literacy, and data communication. Through hands on practice, group self-directed tutorials, individual and collaborative work, and aligned workshops, students are exposed to tools and techniques such as Web scraping, OpenRefine, Tableau, Plotly, Neo4j, GitHub, digital storytelling, digital publishing, and data journalism. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 112",
-        "title": "Information and Visualization",
-        "units": 5,
-        "description": "Lecture, three hours. Requisite: course 101. Designed for introductory exposure to Python, GitHub, word embeddings, and network visualization. How can information visualization reveal and critique structures of power and forms of hegemonic representation in the historic and cultural record? Practice-centered study focuses on both critique and creation as interwoven approaches to information visualization. Culminates in collaborative, playful data-centered storytelling committed to alternative narratives and liberatory futures. Introduction to transdisciplinary skills of quantification, visual literacy, and data communication. Through hands on practice, group self-directed tutorials, individual and collaborative work, and aligned workshops, students are exposed to tools and techniques such as Web scraping, OpenRefine, Tableau, Plotly, Neo4j, GitHub, digital storytelling, digital publishing, and data journalism. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 120",
-        "title": "Social Media Data Analytics",
-        "units": 4,
-        "description": "Lecture, three hours; laboratory, one hour. Requisite: course 101 or consent of instructor. Social media data analytics, with focus on questions of power, privilege, identity, whose voices count and in what spaces, as well as how data science and digital humanities may be used to challenge power structures. Study of how social media has been used both to undermine and to support social justice and political change movements, ways in which social media data is currently used by corporate entities, and ethical data usage. Students learn digital research methods including quantitative and qualitative data analytics, statistics, as well as data visualization to examine social media data. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 120",
-        "title": "Social Media Data Analytics",
-        "units": 4,
-        "description": "Lecture, three hours; laboratory, one hour. Requisite: course 101 or consent of instructor. Social media data analytics, with focus on questions of power, privilege, identity, whose voices count and in what spaces, as well as how data science and digital humanities may be used to challenge power structures. Study of how social media has been used both to undermine and to support social justice and political change movements, ways in which social media data is currently used by corporate entities, and ethical data usage. Students learn digital research methods including quantitative and qualitative data analytics, statistics, as well as data visualization to examine social media data. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 125",
-        "title": "Data Analysis for Social and Cultural Research",
-        "units": 4,
-        "description": "Seminar, three hours. Requisite: course 101 or consent of instructor. Data analysis and statistical methods tailored for students in humanities and social sciences, with focus on topics and issues related to social justice. Study of descriptive and inferential statistics as applied in humanistic research. Consideration of how to generate evidence-based, statistically sound arguments, applying methods learned throughout the course to a collaborative project. Students learn statistical methods, R Studio environment and language, and how to communicate their arguments in cogent narratives supported by evidence. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 125",
-        "title": "Data Analysis for Social and Cultural Research",
-        "units": 4,
-        "description": "Seminar, three hours. Requisite: course 101 or consent of instructor. Data analysis and statistical methods tailored for students in humanities and social sciences, with focus on topics and issues related to social justice. Study of descriptive and inferential statistics as applied in humanistic research. Consideration of how to generate evidence-based, statistically sound arguments, applying methods learned throughout the course to a collaborative project. Students learn statistical methods, R Studio environment and language, and how to communicate their arguments in cogent narratives supported by evidence. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 131",
-        "title": "Digital Mapping and Critical Geographic Information Systems",
-        "units": 4,
-        "description": "Seminar, three hours. Requisite: course 101 or consent of instructor. Introduction to digital mapping and critical geographic information systems. Study of basic data types including geographic, structured, and unstructured. Students engage with fundamental mapping practices such as geolocating structured data, working with open data through web mapping technologies, georeferencing historical maps, and creating location-based narratives and visualizations. Through project-based learning, students discover how to manage and apply data to wide range of digital mapping technologies. Consideration of how to incorporate these concepts into humanities and social sciences research. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 131",
-        "title": "Digital Mapping and Critical Geographic Information Systems",
-        "units": 4,
-        "description": "Seminar, three hours. Requisite: course 101 or consent of instructor. Introduction to digital mapping and critical geographic information systems. Study of basic data types including geographic, structured, and unstructured. Students engage with fundamental mapping practices such as geolocating structured data, working with open data through web mapping technologies, georeferencing historical maps, and creating location-based narratives and visualizations. Through project-based learning, students discover how to manage and apply data to wide range of digital mapping technologies. Consideration of how to incorporate these concepts into humanities and social sciences research. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 140",
-        "title": "Coding for Humanities",
-        "units": 4,
-        "description": "Seminar, three hours. Requisites: course 101. Introduction to coding, with focus on Python. Study of basic structural elements such as lists, if statements, dictionaries, loops, functions, and classes. Consideration of how to apply these concepts to research in humanities and social sciences, and project-based learning. Students discover how to manage and display data with added impact. Content and goals are guided by freedom to research more effectively and freedom of speech. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 140",
-        "title": "Coding for Humanities",
-        "units": 4,
-        "description": "Seminar, three hours. Requisites: course 101. Introduction to coding, with focus on Python. Study of basic structural elements such as lists, if statements, dictionaries, loops, functions, and classes. Consideration of how to apply these concepts to research in humanities and social sciences, and project-based learning. Students discover how to manage and display data with added impact. Content and goals are guided by freedom to research more effectively and freedom of speech. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 150",
-        "title": "Advanced Topics in Digital Humanities",
-        "units": 4,
-        "description": "Seminar, three hours. Requisite: course 101. Introduction to advanced research methods or thematic issues in digital humanities such as database and visualization technologies, social media technologies, application programming interfaces, and digital mapping to acquire familiarity with particular set of technologies by learning practical research methods and theoretical issues to carry out advanced research in this area. Consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 150",
-        "title": "Advanced Topics in Digital Humanities",
-        "units": 4,
-        "description": "Seminar, three hours. Requisite: course 101. Introduction to advanced research methods or thematic issues in digital humanities such as database and visualization technologies, social media technologies, application programming interfaces, and digital mapping to acquire familiarity with particular set of technologies by learning practical research methods and theoretical issues to carry out advanced research in this area. Consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 151",
-        "title": "Advanced Topics in Urban Humanities",
-        "units": 4,
-        "description": "Seminar, three hours. Introduction to advanced research topics in urban humanities. Looking at specific subject matters related to notion of spatial equity in context of Los Angeles, exploration of how certain spatial technologies such as geographic information systems (GIS) cartography, mobile telephony, real-time data collection, social media, digital databases, and interactive web platforms can be deployed to research and document urban experience. Familiarization with digital tools used to study urban issues, from affordable housing to access to public space and employment, to civic participation. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 151",
-        "title": "Advanced Topics in Urban Humanities",
-        "units": 4,
-        "description": "Seminar, three hours. Introduction to advanced research topics in urban humanities. Looking at specific subject matters related to notion of spatial equity in context of Los Angeles, exploration of how certain spatial technologies such as geographic information systems (GIS) cartography, mobile telephony, real-time data collection, social media, digital databases, and interactive web platforms can be deployed to research and document urban experience. Familiarization with digital tools used to study urban issues, from affordable housing to access to public space and employment, to civic participation. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 187",
-        "title": "Capstone Seminar in Digital Humanities",
-        "units": 4,
-        "description": "Seminar, three hours. Requisite: course 101. Students are guided in development and realization of collaborative digital humanities research project. Students learn to develop and refine research question, carry out advanced research in digital humanities, and present results of their research to their peers. Students participate in structured trainings, work with classmates to select suitable research topics, give weekly updates about their research process, and develop presentation of project. Librarians and members of Digital Research Consortium introduce students to available digital collections, archives, and other resources at UCLA. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 187",
-        "title": "Capstone Seminar in Digital Humanities",
-        "units": 4,
-        "description": "Seminar, three hours. Requisite: course 101. Students are guided in development and realization of collaborative digital humanities research project. Students learn to develop and refine research question, carry out advanced research in digital humanities, and present results of their research to their peers. Students participate in structured trainings, work with classmates to select suitable research topics, give weekly updates about their research process, and develop presentation of project. Librarians and members of Digital Research Consortium introduce students to available digital collections, archives, and other resources at UCLA. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 189",
-        "title": "Advanced Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 189",
-        "title": "Advanced Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 189HC",
-        "title": "Honors Contracts",
-        "units": 1,
-        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 189HC",
-        "title": "Honors Contracts",
-        "units": 1,
-        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 195",
-        "title": "Community or Corporate Internships in Digital Humanities",
-        "units": 4,
-        "description": "Tutorial, two hours; fieldwork, eight hours. Limited to juniors/seniors. Internship in supervised setting in community agency or business. Placements to be arranged by instructor. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for credit. Individual contract with supervising faculty member required. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 195",
-        "title": "Community or Corporate Internships in Digital Humanities",
-        "units": 4,
-        "description": "Tutorial, two hours; fieldwork, eight hours. Limited to juniors/seniors. Internship in supervised setting in community agency or business. Placements to be arranged by instructor. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for credit. Individual contract with supervising faculty member required. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 196",
-        "title": "Research Apprenticeship in Digital Humanities",
-        "units": 4,
-        "description": "Tutorial, three hours per week per unit. Limited to juniors/seniors. Entry-level research apprenticeship for upper-division students under guidance of faculty mentor. May be repeated for credit. Individual contract required. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 196",
-        "title": "Research Apprenticeship in Digital Humanities",
-        "units": 4,
-        "description": "Tutorial, three hours per week per unit. Limited to juniors/seniors. Entry-level research apprenticeship for upper-division students under guidance of faculty mentor. May be repeated for credit. Individual contract required. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 198",
-        "title": "Honors Research in Digital Humanities",
-        "units": 4,
-        "description": "Tutorial, one hour. Requisite: course 101. Limited to juniors/seniors. Development and completion of significant research project under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 198",
-        "title": "Honors Research in Digital Humanities",
-        "units": 4,
-        "description": "Tutorial, one hour. Requisite: course 101. Limited to juniors/seniors. Development and completion of significant research project under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 199",
-        "title": "Directed Research in Digital Humanities",
-        "units": 2,
-        "description": "Tutorial, one hour. Requisite: course 101. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 199",
-        "title": "Directed Research in Digital Humanities",
-        "units": 2,
-        "description": "Tutorial, one hour. Requisite: course 101. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 201",
-        "title": "Introduction to Digital Humanities",
-        "units": 5,
-        "description": "Seminar, three hours; laboratory, one hour. Introduction to field of digital humanities. Historical overview of field from its beginning in post-World War II era to present, highlighting major intellectual problems, disciplinary paradigms, and institutional challenges that are posed by digital humanities. Examination of major epistemological, methodological, technological, and institutional challenges posed by digital humanities through number of specific projects that address fundamental problems in creating, interpreting, preserving, and transmitting human cultural record. How digital technologies and tools, ranging from map visualizations and modeling environments to database structures and interface design, are arguments that make certain assumptions about, and even transform, objects of study. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 201",
-        "title": "Introduction to Digital Humanities",
-        "units": 5,
-        "description": "Seminar, three hours; laboratory, one hour. Introduction to field of digital humanities. Historical overview of field from its beginning in post-World War II era to present, highlighting major intellectual problems, disciplinary paradigms, and institutional challenges that are posed by digital humanities. Examination of major epistemological, methodological, technological, and institutional challenges posed by digital humanities through number of specific projects that address fundamental problems in creating, interpreting, preserving, and transmitting human cultural record. How digital technologies and tools, ranging from map visualizations and modeling environments to database structures and interface design, are arguments that make certain assumptions about, and even transform, objects of study. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 250",
-        "title": "Special Topics in Digital Humanities",
-        "units": 4,
-        "description": "Seminar, three hours. Enforced requisite: course 201. Introduction to advanced research method or thematic issue in digital humanities, such as digital textual analysis, digital mapping database and visualization technologies, or social media technologies. Acquisition of familiarity with particular set of technologies by learning practical research methods and theoretical issues to carry out advanced research in this area. Examination of critiques of theoretical underpinnings of such technologies and issues that they raise. May be repeated for credit with topic change. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 201"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 250",
-        "title": "Special Topics in Digital Humanities",
-        "units": 4,
-        "description": "Seminar, three hours. Enforced requisite: course 201. Introduction to advanced research method or thematic issue in digital humanities, such as digital textual analysis, digital mapping database and visualization technologies, or social media technologies. Acquisition of familiarity with particular set of technologies by learning practical research methods and theoretical issues to carry out advanced research in this area. Examination of critiques of theoretical underpinnings of such technologies and issues that they raise. May be repeated for credit with topic change. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 201"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 299",
-        "title": "Special Projects in Digital Humanities",
-        "units": 2,
-        "description": "Tutorial, one hour. Enforced requisite: course 201. Limited to and required of graduate students in Digital Humanities Graduate Certificate Program. Supervised research and investigation under guidance of faculty mentor. Culminating project required. May be repeated for maximum of 12 units. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 201"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 299",
-        "title": "Special Projects in Digital Humanities",
-        "units": 2,
-        "description": "Tutorial, one hour. Enforced requisite: course 201. Limited to and required of graduate students in Digital Humanities Graduate Certificate Program. Supervised research and investigation under guidance of faculty mentor. Culminating project required. May be repeated for maximum of 12 units. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 201"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 30",
-        "title": "Los Angeles Tech City: Digital Technologies and Spatial Justice",
-        "units": 5,
-        "description": "Lecture, two and one half hours; studio, two hours. Investigation of spatial justice and injustice in multi-ethnic city of Los Angeles through Lens of three thematic technologies that built and transformed Los Angeles into global metropolis: cars and highways, networking technologies culminating in Internet and World Wide Web, and film and broadcast media. Use of innovative forms of investigation and communication, from digital mapping to video-sensing, to integrate interpretative and historical approaches of humanities with material and projective practices of design. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 30",
-        "title": "Los Angeles Tech City: Digital Technologies and Spatial Justice",
-        "units": 5,
-        "description": "Lecture, two and one half hours; studio, two hours. Investigation of spatial justice and injustice in multi-ethnic city of Los Angeles through Lens of three thematic technologies that built and transformed Los Angeles into global metropolis: cars and highways, networking technologies culminating in Internet and World Wide Web, and film and broadcast media. Use of innovative forms of investigation and communication, from digital mapping to video-sensing, to integrate interpretative and historical approaches of humanities with material and projective practices of design. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 596",
-        "title": "Directed Individual Study or Research",
-        "units": 2,
-        "description": "Tutorial, three hours. To be arranged with faculty member who directs study or research. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 596",
-        "title": "Directed Individual Study or Research",
-        "units": 2,
-        "description": "Tutorial, three hours. To be arranged with faculty member who directs study or research. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 89",
-        "title": "Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 89",
-        "title": "Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 89HC",
-        "title": "Honors Contracts",
-        "units": 1,
-        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 89HC",
-        "title": "Honors Contracts",
-        "units": 1,
-        "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 99",
-        "title": "Student Research Program",
-        "units": 1,
-        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM 99",
-        "title": "Student Research Program",
-        "units": 1,
-        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM M121",
-        "title": "Race, Gender, and Data",
-        "units": 4,
-        "description": "(Same as Community Engagement and Social Change M121.) Seminar, three hours. Requisite: course 101. Data plays a crucial role in political representation, governmental resource allocation, and policy decisions. Investigation of how data does or does not ascribe a quantitative value to a human life by employing a community-engaged emphasis to study how emerging digital models link data with social justice organizing. Students learn to read datasets produced by governmental entities such as the U.S. Census Bureau, Bureau of Labor Statistics, and Department of Health and Human Services. Assignments include working on a community-engaged data project that evaluates and addresses key concerns facing communities-of-color. Introduction to critical data studies and applied data ethics. Studio sessions include lessons on finding and analyzing datasets relevant to racial and gender justice themes; and to generating data visualizations, digital stories, and maps using the latest software tools. No prior knowledge of statistics or quantitative analysis is required. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM M121",
-        "title": "Race, Gender, and Data",
-        "units": 4,
-        "description": "(Same as Community Engagement and Social Change M121.) Seminar, three hours. Requisite: course 101. Data plays a crucial role in political representation, governmental resource allocation, and policy decisions. Investigation of how data does or does not ascribe a quantitative value to a human life by employing a community-engaged emphasis to study how emerging digital models link data with social justice organizing. Students learn to read datasets produced by governmental entities such as the U.S. Census Bureau, Bureau of Labor Statistics, and Department of Health and Human Services. Assignments include working on a community-engaged data project that evaluates and addresses key concerns facing communities-of-color. Introduction to critical data studies and applied data ethics. Studio sessions include lessons on finding and analyzing datasets relevant to racial and gender justice themes; and to generating data visualizations, digital stories, and maps using the latest software tools. No prior knowledge of statistics or quantitative analysis is required. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DGT HUM 101"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM M145",
-        "title": "Literary Texts and Literary Languages: Strategies of Analysis and Digital Tools",
-        "units": 4,
-        "description": "(Same as Russian M145.) Lecture, three hours. Lectures and readings in English. Non-obligatory additional materials in Russian. Formal, quantitative, and computational methods for analysis of poetry and prose. Digital tools for analysis. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM M145",
-        "title": "Literary Texts and Literary Languages: Strategies of Analysis and Digital Tools",
-        "units": 4,
-        "description": "(Same as Russian M145.) Lecture, three hours. Lectures and readings in English. Non-obligatory additional materials in Russian. Formal, quantitative, and computational methods for analysis of poetry and prose. Digital tools for analysis. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM M155",
-        "title": "Decolonizing Refugee Data from Rome to Vietnam",
-        "units": 4,
-        "description": "(Same as Classics M155.) Lecture, three hours. Investigation of the politics of forced displacement in ancient and modern contexts through lens of critical refugee studies and with aid from digital archaeology tools. Focus on Greco-Roman antiquity and contemporary Vietnamese history. Study moves beyond understanding refugee experiences through sensationalized visualizations, dehumanizing statistics, and state-centered policies. Instead, students gain understanding through refugee narratives and materiality. Examination of how refugees have been discussed, portrayed, and treated. Exploration of refugeehood through the perspectives and experiences of refugees themselves. Students gain hands-on experience working with digitized artifacts from the Vietnamese Heritage Museum. Students create digital exhibits that feature museum artifacts alongside those from the ancient Greco-Roman world to aid in better understanding refugeehood across space and time. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM M155",
-        "title": "Decolonizing Refugee Data from Rome to Vietnam",
-        "units": 4,
-        "description": "(Same as Classics M155.) Lecture, three hours. Investigation of the politics of forced displacement in ancient and modern contexts through lens of critical refugee studies and with aid from digital archaeology tools. Focus on Greco-Roman antiquity and contemporary Vietnamese history. Study moves beyond understanding refugee experiences through sensationalized visualizations, dehumanizing statistics, and state-centered policies. Instead, students gain understanding through refugee narratives and materiality. Examination of how refugees have been discussed, portrayed, and treated. Exploration of refugeehood through the perspectives and experiences of refugees themselves. Students gain hands-on experience working with digitized artifacts from the Vietnamese Heritage Museum. Students create digital exhibits that feature museum artifacts alongside those from the ancient Greco-Roman world to aid in better understanding refugeehood across space and time. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM M221",
-        "title": "Data and Society",
-        "units": 4,
-        "description": "(Same as Social Science M240.) Seminar, three hours. Introduction to way data and computing technologies increasingly play pivotal role in social life. Students pose critical questions about social impact of data, while also gaining literacy in engaging digital and data tools. Students learn to recognize historically and institutionally produced biases in data research and science. Engagement is encouraged with how to work with data for social justice aims. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DGT HUM M221",
-        "title": "Data and Society",
-        "units": 4,
-        "description": "(Same as Social Science M240.) Seminar, three hours. Introduction to way data and computing technologies increasingly play pivotal role in social life. Students pose critical questions about social impact of data, while also gaining literacy in engaging digital and data tools. Students learn to recognize historically and institutionally produced biases in data research and science. Engagement is encouraged with how to work with data for social justice aims. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    }
+  {
+    "id": "DGT HUM 101",
+    "title": "Introduction to Digital Humanities",
+    "units": 4,
+    "description": "Lecture, 75 minutes; discussion, 75 minutes. Foundation course for students in Digital Humanities minor, providing theoretical and conceptual framework for understanding genesis of digital world. Use of contemporary cultural-historical methodology to focus on rise of new media and information technologies in 19th, 20th, and 21st centuries, such as photography, film, radio, television, Internet, and World Wide Web and their impact on how individuals, groups, and cultures experienced their worlds. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 110",
+    "title": "User Experience and Design",
+    "units": 4,
+    "description": "Seminar, three hours. Requisite: course 101. Introduction to fields of user experience (UX) research and design. Covers UX design methods and process, including ethnographic field research, persona-scenario development, information architecture, prototyping, and usability testing. Students learn by hands-on practice in human-centered process: how to understand users, how to design interface and interaction for users, and how to evaluate and communicate user experience design with users. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 112",
+    "title": "Information and Visualization",
+    "units": 5,
+    "description": "Lecture, three hours. Requisite: course 101. Designed for introductory exposure to Python, GitHub, word embeddings, and network visualization. How can information visualization reveal and critique structures of power and forms of hegemonic representation in the historic and cultural record? Practice-centered study focuses on both critique and creation as interwoven approaches to information visualization. Culminates in collaborative, playful data-centered storytelling committed to alternative narratives and liberatory futures. Introduction to transdisciplinary skills of quantification, visual literacy, and data communication. Through hands on practice, group self-directed tutorials, individual and collaborative work, and aligned workshops, students are exposed to tools and techniques such as Web scraping, OpenRefine, Tableau, Plotly, Neo4j, GitHub, digital storytelling, digital publishing, and data journalism. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 120",
+    "title": "Social Media Data Analytics",
+    "units": 4,
+    "description": "Lecture, three hours; laboratory, one hour. Requisite: course 101 or consent of instructor. Social media data analytics, with focus on questions of power, privilege, identity, whose voices count and in what spaces, as well as how data science and digital humanities may be used to challenge power structures. Study of how social media has been used both to undermine and to support social justice and political change movements, ways in which social media data is currently used by corporate entities, and ethical data usage. Students learn digital research methods including quantitative and qualitative data analytics, statistics, as well as data visualization to examine social media data. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 125",
+    "title": "Data Analysis for Social and Cultural Research",
+    "units": 4,
+    "description": "Seminar, three hours. Requisite: course 101 or consent of instructor. Data analysis and statistical methods tailored for students in humanities and social sciences, with focus on topics and issues related to social justice. Study of descriptive and inferential statistics as applied in humanistic research. Consideration of how to generate evidence-based, statistically sound arguments, applying methods learned throughout the course to a collaborative project. Students learn statistical methods, R Studio environment and language, and how to communicate their arguments in cogent narratives supported by evidence. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 131",
+    "title": "Digital Mapping and Critical Geographic Information Systems",
+    "units": 4,
+    "description": "Seminar, three hours. Requisite: course 101 or consent of instructor. Introduction to digital mapping and critical geographic information systems. Study of basic data types including geographic, structured, and unstructured. Students engage with fundamental mapping practices such as geolocating structured data, working with open data through web mapping technologies, georeferencing historical maps, and creating location-based narratives and visualizations. Through project-based learning, students discover how to manage and apply data to wide range of digital mapping technologies. Consideration of how to incorporate these concepts into humanities and social sciences research. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 140",
+    "title": "Coding for Humanities",
+    "units": 4,
+    "description": "Seminar, three hours. Requisites: course 101. Introduction to coding, with focus on Python. Study of basic structural elements such as lists, if statements, dictionaries, loops, functions, and classes. Consideration of how to apply these concepts to research in humanities and social sciences, and project-based learning. Students discover how to manage and display data with added impact. Content and goals are guided by freedom to research more effectively and freedom of speech. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 150",
+    "title": "Advanced Topics in Digital Humanities",
+    "units": 4,
+    "description": "Seminar, three hours. Requisite: course 101. Introduction to advanced research methods or thematic issues in digital humanities such as database and visualization technologies, social media technologies, application programming interfaces, and digital mapping to acquire familiarity with particular set of technologies by learning practical research methods and theoretical issues to carry out advanced research in this area. Consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 151",
+    "title": "Advanced Topics in Urban Humanities",
+    "units": 4,
+    "description": "Seminar, three hours. Introduction to advanced research topics in urban humanities. Looking at specific subject matters related to notion of spatial equity in context of Los Angeles, exploration of how certain spatial technologies such as geographic information systems (GIS) cartography, mobile telephony, real-time data collection, social media, digital databases, and interactive web platforms can be deployed to research and document urban experience. Familiarization with digital tools used to study urban issues, from affordable housing to access to public space and employment, to civic participation. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 187",
+    "title": "Capstone Seminar in Digital Humanities",
+    "units": 4,
+    "description": "Seminar, three hours. Requisite: course 101. Students are guided in development and realization of collaborative digital humanities research project. Students learn to develop and refine research question, carry out advanced research in digital humanities, and present results of their research to their peers. Students participate in structured trainings, work with classmates to select suitable research topics, give weekly updates about their research process, and develop presentation of project. Librarians and members of Digital Research Consortium introduce students to available digital collections, archives, and other resources at UCLA. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 189",
+    "title": "Advanced Honors Seminars",
+    "units": 1,
+    "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 189HC",
+    "title": "Honors Contracts",
+    "units": 1,
+    "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to upper-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 19",
+    "title": "Fiat Lux Freshman Seminars",
+    "units": 1,
+    "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 195",
+    "title": "Community or Corporate Internships in Digital Humanities",
+    "units": 4,
+    "description": "Tutorial, two hours; fieldwork, eight hours. Limited to juniors/seniors. Internship in supervised setting in community agency or business. Placements to be arranged by instructor. Students meet on regular basis with instructor and provide periodic reports of their experience. May be repeated for credit. Individual contract with supervising faculty member required. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 196",
+    "title": "Research Apprenticeship in Digital Humanities",
+    "units": 4,
+    "description": "Tutorial, three hours per week per unit. Limited to juniors/seniors. Entry-level research apprenticeship for upper-division students under guidance of faculty mentor. May be repeated for credit. Individual contract required. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 198",
+    "title": "Honors Research in Digital Humanities",
+    "units": 4,
+    "description": "Tutorial, one hour. Requisite: course 101. Limited to juniors/seniors. Development and completion of significant research project under direct supervision of faculty member. May be repeated for credit. Individual contract required. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 199",
+    "title": "Directed Research in Digital Humanities",
+    "units": 2,
+    "description": "Tutorial, one hour. Requisite: course 101. Limited to juniors/seniors. Supervised individual research or investigation under guidance of faculty mentor. Culminating paper or project required. May be repeated for credit. Individual contract required. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 201",
+    "title": "Introduction to Digital Humanities",
+    "units": 5,
+    "description": "Seminar, three hours; laboratory, one hour. Introduction to field of digital humanities. Historical overview of field from its beginning in post-World War II era to present, highlighting major intellectual problems, disciplinary paradigms, and institutional challenges that are posed by digital humanities. Examination of major epistemological, methodological, technological, and institutional challenges posed by digital humanities through number of specific projects that address fundamental problems in creating, interpreting, preserving, and transmitting human cultural record. How digital technologies and tools, ranging from map visualizations and modeling environments to database structures and interface design, are arguments that make certain assumptions about, and even transform, objects of study. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 250",
+    "title": "Special Topics in Digital Humanities",
+    "units": 4,
+    "description": "Seminar, three hours. Enforced requisite: course 201. Introduction to advanced research method or thematic issue in digital humanities, such as digital textual analysis, digital mapping database and visualization technologies, or social media technologies. Acquisition of familiarity with particular set of technologies by learning practical research methods and theoretical issues to carry out advanced research in this area. Examination of critiques of theoretical underpinnings of such technologies and issues that they raise. May be repeated for credit with topic change. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 201"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 299",
+    "title": "Special Projects in Digital Humanities",
+    "units": 2,
+    "description": "Tutorial, one hour. Enforced requisite: course 201. Limited to and required of graduate students in Digital Humanities Graduate Certificate Program. Supervised research and investigation under guidance of faculty mentor. Culminating project required. May be repeated for maximum of 12 units. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 201"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 30",
+    "title": "Los Angeles Tech City: Digital Technologies and Spatial Justice",
+    "units": 5,
+    "description": "Lecture, two and one half hours; studio, two hours. Investigation of spatial justice and injustice in multi-ethnic city of Los Angeles through Lens of three thematic technologies that built and transformed Los Angeles into global metropolis: cars and highways, networking technologies culminating in Internet and World Wide Web, and film and broadcast media. Use of innovative forms of investigation and communication, from digital mapping to video-sensing, to integrate interpretative and historical approaches of humanities with material and projective practices of design. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 596",
+    "title": "Directed Individual Study or Research",
+    "units": 2,
+    "description": "Tutorial, three hours. To be arranged with faculty member who directs study or research. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 89",
+    "title": "Honors Seminars",
+    "units": 1,
+    "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 89HC",
+    "title": "Honors Contracts",
+    "units": 1,
+    "description": "Tutorial, three hours. Limited to students in College Honors Program. Designed as adjunct to lower-division lecture course. Individual study with lecture course instructor to explore topics in greater depth through supplemental readings, papers, or other activities. May be repeated for maximum of 4 units. Individual honors contract required. Honors content noted on transcript. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM 99",
+    "title": "Student Research Program",
+    "units": 1,
+    "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM M121",
+    "title": "Race, Gender, and Data",
+    "units": 4,
+    "description": "(Same as Community Engagement and Social Change M121.) Seminar, three hours. Requisite: course 101. Data plays a crucial role in political representation, governmental resource allocation, and policy decisions. Investigation of how data does or does not ascribe a quantitative value to a human life by employing a community-engaged emphasis to study how emerging digital models link data with social justice organizing. Students learn to read datasets produced by governmental entities such as the U.S. Census Bureau, Bureau of Labor Statistics, and Department of Health and Human Services. Assignments include working on a community-engaged data project that evaluates and addresses key concerns facing communities-of-color. Introduction to critical data studies and applied data ethics. Studio sessions include lessons on finding and analyzing datasets relevant to racial and gender justice themes; and to generating data visualizations, digital stories, and maps using the latest software tools. No prior knowledge of statistics or quantitative analysis is required. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DGT HUM 101"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM M145",
+    "title": "Literary Texts and Literary Languages: Strategies of Analysis and Digital Tools",
+    "units": 4,
+    "description": "(Same as Russian M145.) Lecture, three hours. Lectures and readings in English. Non-obligatory additional materials in Russian. Formal, quantitative, and computational methods for analysis of poetry and prose. Digital tools for analysis. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM M155",
+    "title": "Decolonizing Refugee Data from Rome to Vietnam",
+    "units": 4,
+    "description": "(Same as Classics M155.) Lecture, three hours. Investigation of the politics of forced displacement in ancient and modern contexts through lens of critical refugee studies and with aid from digital archaeology tools. Focus on Greco-Roman antiquity and contemporary Vietnamese history. Study moves beyond understanding refugee experiences through sensationalized visualizations, dehumanizing statistics, and state-centered policies. Instead, students gain understanding through refugee narratives and materiality. Examination of how refugees have been discussed, portrayed, and treated. Exploration of refugeehood through the perspectives and experiences of refugees themselves. Students gain hands-on experience working with digitized artifacts from the Vietnamese Heritage Museum. Students create digital exhibits that feature museum artifacts alongside those from the ancient Greco-Roman world to aid in better understanding refugeehood across space and time. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DGT HUM M221",
+    "title": "Data and Society",
+    "units": 4,
+    "description": "(Same as Social Science M240.) Seminar, three hours. Introduction to way data and computing technologies increasingly play pivotal role in social life. Students pose critical questions about social impact of data, while also gaining literacy in engaging digital and data tools. Students learn to recognize historically and institutionally produced biases in data research and science. Engagement is encouraged with how to work with data for social justice aims. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  }
 ]

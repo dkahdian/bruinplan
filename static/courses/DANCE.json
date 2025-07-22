@@ -1,1432 +1,720 @@
 [
-    {
-        "id": "DANCE 1",
-        "title": "Global Perspectives on Dance",
-        "units": 5,
-        "description": "Lecture, three hours; discussion, one hour. Examination of practices of choreography, improvisation, and technique in different cultural settings and historical eras. Introduction to field of dance studies through analysis of broad spectrum of philosophies and practices within global context, with focus on creative act of dance-making, thinking and understanding act of improvising, and diverse ways of training one's body. By framing process of analysis within array of historical periods and cultural settings, development of capacity to engage with dance as lived social and artistic practice while refining critical seeing, thinking, and writing skills. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 1",
-        "title": "Global Perspectives on Dance",
-        "units": 5,
-        "description": "Lecture, three hours; discussion, one hour. Examination of practices of choreography, improvisation, and technique in different cultural settings and historical eras. Introduction to field of dance studies through analysis of broad spectrum of philosophies and practices within global context, with focus on creative act of dance-making, thinking and understanding act of improvising, and diverse ways of training one's body. By framing process of analysis within array of historical periods and cultural settings, development of capacity to engage with dance as lived social and artistic practice while refining critical seeing, thinking, and writing skills. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 10",
-        "title": "Beginning Martial Arts",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of Tai Chi Chuan and other martial arts forms. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 10",
-        "title": "Beginning Martial Arts",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of Tai Chi Chuan and other martial arts forms. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 101",
-        "title": "Theories of Dance",
-        "units": 5,
-        "description": "Lecture, four hours; discussion, two hours. Enforced requisite: course 45. Ideas of dance, choreography, and movement have achieved broad resonance in contemporary performance, art, politics, culture, and studies of social behavior. Examination of concepts and approaches to dance studies and deployments of its vocabulary within field and beyond, concentrated in four principal approaches: history, ethnography, choreographic analysis, and critical theory. Use of key ideas in dance to investigate allied areas of performance, embodiment, social constructions of identity and difference, and relationship between aesthetics and politics. Design of dance performances to illustrate link between theory and practice. How dance creates alternative modes of history and knowledge in range of cultural contexts. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 45"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 101",
-        "title": "Theories of Dance",
-        "units": 5,
-        "description": "Lecture, four hours; discussion, two hours. Enforced requisite: course 45. Ideas of dance, choreography, and movement have achieved broad resonance in contemporary performance, art, politics, culture, and studies of social behavior. Examination of concepts and approaches to dance studies and deployments of its vocabulary within field and beyond, concentrated in four principal approaches: history, ethnography, choreographic analysis, and critical theory. Use of key ideas in dance to investigate allied areas of performance, embodiment, social constructions of identity and difference, and relationship between aesthetics and politics. Design of dance performances to illustrate link between theory and practice. How dance creates alternative modes of history and knowledge in range of cultural contexts. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 45"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 11",
-        "title": "Yoga",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of yoga. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 11",
-        "title": "Yoga",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of yoga. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 114",
-        "title": "Performance Practicum",
-        "units": 1,
-        "description": "Studio, three to 12 hours. Rehearsal and performance in selected choreographic/theatrical work. May be repeated for credit without limitation. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 114",
-        "title": "Performance Practicum",
-        "units": 1,
-        "description": "Studio, three to 12 hours. Rehearsal and performance in selected choreographic/theatrical work. May be repeated for credit without limitation. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 116",
-        "title": "Advanced Improvisation in Dance",
-        "units": 2,
-        "description": "Studio, four hours. Enforced requisite: course 16. Development of aesthetic perspective through use of imagery, sound, and other art. Concentration and projection. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 16"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 116",
-        "title": "Advanced Improvisation in Dance",
-        "units": 2,
-        "description": "Studio, four hours. Enforced requisite: course 16. Development of aesthetic perspective through use of imagery, sound, and other art. Concentration and projection. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 16"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 117A",
-        "title": "Theories and Methods in Dance Composition III: Locations",
-        "units": 4,
-        "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisites: courses 16, 67A, 67B. Examination of how location of dancing impacts its meaning. How does occasion of dance, concert, festival, ritual, or celebration influence experience of it? What are factors that need to be considered when locating dance in one particular place? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Examination of range of locations for dances, including proscenium stages, theaters in round, parks, sidewalks, temples, amphitheaters, village squares, and other site-specific locations that endow dance with specific significance and how various artists have worked with place in construction of new dances. Use of these analyses to assist in creative process for making new dances. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 16"},
-            {"type": "requisite","course": "DANCE 67A"},
-            {"type": "requisite","course": "DANCE 67B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 117A",
-        "title": "Theories and Methods in Dance Composition III: Locations",
-        "units": 4,
-        "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisites: courses 16, 67A, 67B. Examination of how location of dancing impacts its meaning. How does occasion of dance, concert, festival, ritual, or celebration influence experience of it? What are factors that need to be considered when locating dance in one particular place? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Examination of range of locations for dances, including proscenium stages, theaters in round, parks, sidewalks, temples, amphitheaters, village squares, and other site-specific locations that endow dance with specific significance and how various artists have worked with place in construction of new dances. Use of these analyses to assist in creative process for making new dances. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 16"},
-            {"type": "requisite","course": "DANCE 67A"},
-            {"type": "requisite","course": "DANCE 67B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 117B",
-        "title": "Theories and Methods in Dance Composition IV: Impacts",
-        "units": 4,
-        "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisites: courses 16, 67A, 67B. Examination of relation of dance to its audience. Synthesis of analyses undertaken in previous courses to determine how dances move their viewers. How do dances appeal to or address their audiences? How do dance vocabulary, sequencing, and location combine to create particular effects? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Different approaches to dance result in highly distinctive kinds of responses from audiences. Focus on creation of three in-depth studies, each of which endeavors to construct distinctive kind of response from viewers. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 16"},
-            {"type": "requisite","course": "DANCE 67A"},
-            {"type": "requisite","course": "DANCE 67B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 117B",
-        "title": "Theories and Methods in Dance Composition IV: Impacts",
-        "units": 4,
-        "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisites: courses 16, 67A, 67B. Examination of relation of dance to its audience. Synthesis of analyses undertaken in previous courses to determine how dances move their viewers. How do dances appeal to or address their audiences? How do dance vocabulary, sequencing, and location combine to create particular effects? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Different approaches to dance result in highly distinctive kinds of responses from audiences. Focus on creation of three in-depth studies, each of which endeavors to construct distinctive kind of response from viewers. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 16"},
-            {"type": "requisite","course": "DANCE 67A"},
-            {"type": "requisite","course": "DANCE 67B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 117C",
-        "title": "Advanced Topics in Choreography",
-        "units": 4,
-        "description": "Lecture, four hours; studio, two hours; outside study, six hours. Enforced requisites: courses 16, 67A, 67B. Directed exploration in composition, with focus on developing theme-based choreographic works that are informed by theoretical engagement with selected topics through lectures, readings, and discussion. Thematic topics include contemporary issues and concerns such as image, essence, and abstraction; home, history, and memory; interculturalism; constructing identity. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 16"},
-            {"type": "requisite","course": "DANCE 67A"},
-            {"type": "requisite","course": "DANCE 67B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 117C",
-        "title": "Advanced Topics in Choreography",
-        "units": 4,
-        "description": "Lecture, four hours; studio, two hours; outside study, six hours. Enforced requisites: courses 16, 67A, 67B. Directed exploration in composition, with focus on developing theme-based choreographic works that are informed by theoretical engagement with selected topics through lectures, readings, and discussion. Thematic topics include contemporary issues and concerns such as image, essence, and abstraction; home, history, and memory; interculturalism; constructing identity. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 16"},
-            {"type": "requisite","course": "DANCE 67A"},
-            {"type": "requisite","course": "DANCE 67B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 118",
-        "title": "Advanced Performance Practicum",
-        "units": 1,
-        "description": "Studio, three to 12 hours. Rehearsal and performance in selected choreographic/theatrical work, participation-based. Students perform in work led by MFA students, such as in an MFA choreography class or MFA capstone project that culminates in a showing or performance. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 118",
-        "title": "Advanced Performance Practicum",
-        "units": 1,
-        "description": "Studio, three to 12 hours. Rehearsal and performance in selected choreographic/theatrical work, participation-based. Students perform in work led by MFA students, such as in an MFA choreography class or MFA capstone project that culminates in a showing or performance. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 12",
-        "title": "Beginning Special Topics",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of variable movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 12",
-        "title": "Beginning Special Topics",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of variable movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 13",
-        "title": "Beginning Ballet",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of ballet as movement practice. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 13",
-        "title": "Beginning Ballet",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of ballet as movement practice. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 15",
-        "title": "Beginning Modern/Postmodern Dance",
-        "units": 2,
-        "description": "Laboratory, four hours. Study of modern and/or postmodern movement practice. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 15",
-        "title": "Beginning Modern/Postmodern Dance",
-        "units": 2,
-        "description": "Laboratory, four hours. Study of modern and/or postmodern movement practice. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 158",
-        "title": "Choreographing Gender",
-        "units": 4,
-        "description": "Lecture, three hours; laboratory, two hours. Designed for juniors/seniors. Analysis of aesthetic codes and theatrical choreographic approaches as they intersect with construction of gender in U.S., with close attention to race, class, and sexuality. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 158",
-        "title": "Choreographing Gender",
-        "units": 4,
-        "description": "Lecture, three hours; laboratory, two hours. Designed for juniors/seniors. Analysis of aesthetic codes and theatrical choreographic approaches as they intersect with construction of gender in U.S., with close attention to race, class, and sexuality. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 16",
-        "title": "Beginning Improvisation in Dance",
-        "units": 2,
-        "description": "Laboratory, four hours. Introduction to creative exploration in movement through improvisational and compositional exercises that access and develop imagination, find relationship between imagination and dance making, and enrich movement vocabulary. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 16",
-        "title": "Beginning Improvisation in Dance",
-        "units": 2,
-        "description": "Laboratory, four hours. Introduction to creative exploration in movement through improvisational and compositional exercises that access and develop imagination, find relationship between imagination and dance making, and enrich movement vocabulary. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 160",
-        "title": "Topics in Body Mechanics",
-        "units": 4,
-        "description": "Lecture, three hours; studio, one hour. Designed for juniors/seniors. Variable topics course with discussion of injury prevention, anatomy for dancers, and study of biological and physical principles of human movement as related to dance. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 160",
-        "title": "Topics in Body Mechanics",
-        "units": 4,
-        "description": "Lecture, three hours; studio, one hour. Designed for juniors/seniors. Variable topics course with discussion of injury prevention, anatomy for dancers, and study of biological and physical principles of human movement as related to dance. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 170",
-        "title": "Advanced Production",
-        "units": 1,
-        "description": "Laboratory, three hours; outside study, up to three hours. Requisite: course 70. Further development and application of practical perspectives on producing events in department, including but not limited to theatrical support and planning and executing lecture series. Provides students with advanced practical knowledge necessary, as well as opportunity to study nature of this component in world arts and cultures/dance studies. May be repeated for credit without limitation. P/NP grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 70"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 170",
-        "title": "Advanced Production",
-        "units": 1,
-        "description": "Laboratory, three hours; outside study, up to three hours. Requisite: course 70. Further development and application of practical perspectives on producing events in department, including but not limited to theatrical support and planning and executing lecture series. Provides students with advanced practical knowledge necessary, as well as opportunity to study nature of this component in world arts and cultures/dance studies. May be repeated for credit without limitation. P/NP grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 70"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 174A",
-        "title": "Projects in Dance",
-        "units": 2,
-        "description": "Laboratory, four hours. Individualized major projects in choreography, performance, cultural studies, production, and media. May be repeated for credit without limitation. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 174A",
-        "title": "Projects in Dance",
-        "units": 2,
-        "description": "Laboratory, four hours. Individualized major projects in choreography, performance, cultural studies, production, and media. May be repeated for credit without limitation. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 182",
-        "title": "Dance and Visual Media",
-        "units": 4,
-        "description": "Lecture, four hours. Examination of aesthetic differences between dance, film, and video and exploration of new aesthetic when they are combined. Analysis of record and documentary dance film, choreo-cinema, and impact of MTV, as well as integration of media with performance. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 182",
-        "title": "Dance and Visual Media",
-        "units": 4,
-        "description": "Lecture, four hours. Examination of aesthetic differences between dance, film, and video and exploration of new aesthetic when they are combined. Analysis of record and documentary dance film, choreo-cinema, and impact of MTV, as well as integration of media with performance. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 186A",
-        "title": "Senior Projects in Dance",
-        "units": 4,
-        "description": "Lecture, four hours; outside study, eight hours. Requisite: 8 units of choreography as creative inquiry courses. Course 186A is requisite to 186B. Limited to senior Dance majors by permission of instructor. Application of concepts, skills, and content from interdisciplinary major to individual projects. Methodologies may include critical, comparative, ethnographic, and performance approaches. Lecture/seminar format with Dance faculty during first term; faculty-directed presentations of individual projects during second term. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 186A",
-        "title": "Senior Projects in Dance",
-        "units": 4,
-        "description": "Lecture, four hours; outside study, eight hours. Requisite: 8 units of choreography as creative inquiry courses. Course 186A is requisite to 186B. Limited to senior Dance majors by permission of instructor. Application of concepts, skills, and content from interdisciplinary major to individual projects. Methodologies may include critical, comparative, ethnographic, and performance approaches. Lecture/seminar format with Dance faculty during first term; faculty-directed presentations of individual projects during second term. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 186B",
-        "title": "Senior Projects in Dance",
-        "units": 4,
-        "description": "Lecture, four hours: outside study, eight hours. Requisite: course 186A. Limited to senior Dance majors. Application of concepts, skills, and content from the interdisciplinary major to individual projects. Methodologies may include critical, comparative, ethnographic, and performance approaches. Faculty-directed presentation of individual projects. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 186A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 186B",
-        "title": "Senior Projects in Dance",
-        "units": 4,
-        "description": "Lecture, four hours: outside study, eight hours. Requisite: course 186A. Limited to senior Dance majors. Application of concepts, skills, and content from the interdisciplinary major to individual projects. Methodologies may include critical, comparative, ethnographic, and performance approaches. Faculty-directed presentation of individual projects. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 186A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 188SA",
-        "title": "Individual Studies for USIE Facilitators",
-        "units": 1,
-        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 188SA",
-        "title": "Individual Studies for USIE Facilitators",
-        "units": 1,
-        "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 188SB",
-        "title": "Individual Studies for USIE Facilitators",
-        "units": 1,
-        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 188SA"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 188SB",
-        "title": "Individual Studies for USIE Facilitators",
-        "units": 1,
-        "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 188SA"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 188SC",
-        "title": "Individual Studies for USIE Facilitators",
-        "units": 2,
-        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 188SB"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 188SC",
-        "title": "Individual Studies for USIE Facilitators",
-        "units": 2,
-        "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 188SB"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 189",
-        "title": "Advanced Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 189",
-        "title": "Advanced Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 211A",
-        "title": "Advanced Choreography",
-        "units": 4,
-        "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 211A",
-        "title": "Advanced Choreography",
-        "units": 4,
-        "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 211B",
-        "title": "Advanced Choreography",
-        "units": 4,
-        "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 211B",
-        "title": "Advanced Choreography",
-        "units": 4,
-        "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 211C",
-        "title": "Advanced Choreography",
-        "units": 4,
-        "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 211C",
-        "title": "Advanced Choreography",
-        "units": 4,
-        "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 211D",
-        "title": "Advanced Choreography",
-        "units": 4,
-        "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 211D",
-        "title": "Advanced Choreography",
-        "units": 4,
-        "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 44",
-        "title": "World Dance Histories",
-        "units": 5,
-        "description": "Lecture, three hours; discussion, two hours. Comparative framework for looking at dance practices through time as they have developed around world, questioning relation of dance to culture and politics and providing students with tools for investigating histories of any given dance form. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 44",
-        "title": "World Dance Histories",
-        "units": 5,
-        "description": "Lecture, three hours; discussion, two hours. Comparative framework for looking at dance practices through time as they have developed around world, questioning relation of dance to culture and politics and providing students with tools for investigating histories of any given dance form. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 441",
-        "title": "Dance Production Practicum",
-        "units": 2,
-        "description": "Laboratory, four to eight hours (one or two hours may be individualized consultation). Skills and understanding of production components in roles of stage manager, production assistants, and producer. May be repeated for maximum of 8 units. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 441",
-        "title": "Dance Production Practicum",
-        "units": 2,
-        "description": "Laboratory, four to eight hours (one or two hours may be individualized consultation). Skills and understanding of production components in roles of stage manager, production assistants, and producer. May be repeated for maximum of 8 units. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 45",
-        "title": "Introduction to Dance Studies",
-        "units": 4,
-        "description": "Lecture, three hours. Enforced requisite: course 44. Introduction to discipline of dance studies, with focus on study of corporeality as key contemporary perspective on body. Multidisciplinary approach to dancing bodies conceptualized as social constructs, including attention to gender, race, class, and national identity. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 44"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 45",
-        "title": "Introduction to Dance Studies",
-        "units": 4,
-        "description": "Lecture, three hours. Enforced requisite: course 44. Introduction to discipline of dance studies, with focus on study of corporeality as key contemporary perspective on body. Multidisciplinary approach to dancing bodies conceptualized as social constructs, including attention to gender, race, class, and national identity. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 44"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 452",
-        "title": "Directed Field Study in Dance Education",
-        "units": 2,
-        "description": "Seminar, one hour; field study, two hours minimum. Directed field study to provide teaching experience in community school or other approved site. No more than 4 units may be applied toward MA degree requirements. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 452",
-        "title": "Directed Field Study in Dance Education",
-        "units": 2,
-        "description": "Seminar, one hour; field study, two hours minimum. Directed field study to provide teaching experience in community school or other approved site. No more than 4 units may be applied toward MA degree requirements. S/U grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 490",
-        "title": "Projects in Choreography and Performance",
-        "units": 2,
-        "description": "Tutorial, one three-hour rehearsal per unit per week minimum. Creation, casting, and rehearsing of culminating concert, reflecting professional achievement in choreography or performance, in first term. In second term, direction of on-stage rehearsals for culminating concert by each student leading to fully staged performance. May be repeated for maximum of 16 units. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 490",
-        "title": "Projects in Choreography and Performance",
-        "units": 2,
-        "description": "Tutorial, one three-hour rehearsal per unit per week minimum. Creation, casting, and rehearsing of culminating concert, reflecting professional achievement in choreography or performance, in first term. In second term, direction of on-stage rehearsals for culminating concert by each student leading to fully staged performance. May be repeated for maximum of 16 units. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 498",
-        "title": "Professional Internship in Dance",
-        "units": 4,
-        "description": "Seminar, to be arranged. Full- or part-time supervised fieldwork. Limited to MFA students. Internship in dance, theater, film, or television organization. Participation in creative, administrative, or technical work of professionals in their specialties. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 498",
-        "title": "Professional Internship in Dance",
-        "units": 4,
-        "description": "Seminar, to be arranged. Full- or part-time supervised fieldwork. Limited to MFA students. Internship in dance, theater, film, or television organization. Participation in creative, administrative, or technical work of professionals in their specialties. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 5",
-        "title": "Moving Voice",
-        "units": 2,
-        "description": "Studio, three hours. Experiential Investigation of voice as it relates to resonant, physical body. Working with primal qualities of voice and how it interfaces with breath, physical anatomy, and space around us. Physical approach to singing, with singing being defined in its broadest sense as all possible sounds emitted by human voice. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 5",
-        "title": "Moving Voice",
-        "units": 2,
-        "description": "Studio, three hours. Experiential Investigation of voice as it relates to resonant, physical body. Working with primal qualities of voice and how it interfaces with breath, physical anatomy, and space around us. Physical approach to singing, with singing being defined in its broadest sense as all possible sounds emitted by human voice. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 52",
-        "title": "Intermediate Special Topics",
-        "units": 2,
-        "description": "Studio, three hours. Intermediate-level study of variable movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 52",
-        "title": "Intermediate Special Topics",
-        "units": 2,
-        "description": "Studio, three hours. Intermediate-level study of variable movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 56",
-        "title": "Intermediate West African Dance",
-        "units": 2,
-        "description": "Studio, three hours. Intermediate-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 56",
-        "title": "Intermediate West African Dance",
-        "units": 2,
-        "description": "Studio, three hours. Intermediate-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 59",
-        "title": "Intermediate Hip-Hop Dance",
-        "units": 2,
-        "description": "Studio, three hours. Intermediate-level study of hip-hop movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 59",
-        "title": "Intermediate Hip-Hop Dance",
-        "units": 2,
-        "description": "Studio, three hours. Intermediate-level study of hip-hop movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 6",
-        "title": "Beginning West African Dance",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 6",
-        "title": "Beginning West African Dance",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 60",
-        "title": "Intermediate Martial Arts",
-        "units": 2,
-        "description": "Studio, three hours. Intermediate-level study of Tai Chi Chuan and other martial arts forms. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 60",
-        "title": "Intermediate Martial Arts",
-        "units": 2,
-        "description": "Studio, three hours. Intermediate-level study of Tai Chi Chuan and other martial arts forms. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 63",
-        "title": "Intermediate Ballet",
-        "units": 2,
-        "description": "Studio, three hours. Intermediate-level study of ballet as movement practice. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 63",
-        "title": "Intermediate Ballet",
-        "units": 2,
-        "description": "Studio, three hours. Intermediate-level study of ballet as movement practice. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 65",
-        "title": "Intermediate Modern/Postmodern Dance",
-        "units": 2,
-        "description": "Studio, four hours. Intermediate-level work in modern and/or postmodern movement practices. Technical training with emphasis on increasing skill. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 65",
-        "title": "Intermediate Modern/Postmodern Dance",
-        "units": 2,
-        "description": "Studio, four hours. Intermediate-level work in modern and/or postmodern movement practices. Technical training with emphasis on increasing skill. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 67A",
-        "title": "Theories and Methods in Dance Composition I: Languages",
-        "units": 4,
-        "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisite: course 16. Examination of diverse movement sources from which dances are made. How do different choreographers envision vocabularies of movement they use? How do they select or create movement out of which they create dance? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Readings about and viewing of videos of selected artists' work and their different strategies for creating languages of their dances for comparison. Use of these analyses to assist in creative process for making new dances. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 16"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 67A",
-        "title": "Theories and Methods in Dance Composition I: Languages",
-        "units": 4,
-        "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisite: course 16. Examination of diverse movement sources from which dances are made. How do different choreographers envision vocabularies of movement they use? How do they select or create movement out of which they create dance? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Readings about and viewing of videos of selected artists' work and their different strategies for creating languages of their dances for comparison. Use of these analyses to assist in creative process for making new dances. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 16"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 67B",
-        "title": "Theories and Methods in Dance Composition II: Processes",
-        "units": 4,
-        "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisite: course 67A. Examination of diverse processes through which creation of dance can take place. How do different choreographers conceptualize creative process of dance-making? What kinds of strategies do they use for sequencing their materials? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Readings about and viewing of videos of selected artists' work and their different strategies for their processes of creating dances for comparison. Use of these analyses to assist in creative process for making new dances. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 67A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 67B",
-        "title": "Theories and Methods in Dance Composition II: Processes",
-        "units": 4,
-        "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisite: course 67A. Examination of diverse processes through which creation of dance can take place. How do different choreographers conceptualize creative process of dance-making? What kinds of strategies do they use for sequencing their materials? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Readings about and viewing of videos of selected artists' work and their different strategies for their processes of creating dances for comparison. Use of these analyses to assist in creative process for making new dances. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 67A"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 70",
-        "title": "Production Practicum",
-        "units": 2,
-        "description": "Lecture, 90 minutes; activity, three and one half hours. Introduction to practical perspectives on producing events in world arts and cultures, including but not limited to theatrical support and planning and executing lecture series. Introduction to professional stage production principles and hands-on experience in technical theater. May be repeated once for credit. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 70",
-        "title": "Production Practicum",
-        "units": 2,
-        "description": "Lecture, 90 minutes; activity, three and one half hours. Introduction to practical perspectives on producing events in world arts and cultures, including but not limited to theatrical support and planning and executing lecture series. Introduction to professional stage production principles and hands-on experience in technical theater. May be repeated once for credit. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 89",
-        "title": "Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 89",
-        "title": "Honors Seminars",
-        "units": 1,
-        "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 9",
-        "title": "Beginning Hip-Hop Dance",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of hip-hop movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 9",
-        "title": "Beginning Hip-Hop Dance",
-        "units": 2,
-        "description": "Studio, three hours. Beginning-level study of hip-hop movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 99",
-        "title": "Student Research Program",
-        "units": 1,
-        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE 99",
-        "title": "Student Research Program",
-        "units": 1,
-        "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C106A",
-        "title": "Advanced West African Dance",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. Concurrently scheduled with course C406A. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C106A",
-        "title": "Advanced West African Dance",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. Concurrently scheduled with course C406A. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C109A",
-        "title": "Advanced Hip-Hop Dance",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of hip-hop movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C409A. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C109A",
-        "title": "Advanced Hip-Hop Dance",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of hip-hop movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C409A. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C112A",
-        "title": "Advanced Special Topics",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of variable movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C412A. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C112A",
-        "title": "Advanced Special Topics",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of variable movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C412A. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C113A",
-        "title": "Advanced Ballet",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of ballet as movement practice. May be repeated for credit without limitation. Concurrently scheduled with course C413A. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C113A",
-        "title": "Advanced Ballet",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of ballet as movement practice. May be repeated for credit without limitation. Concurrently scheduled with course C413A. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C115",
-        "title": "Advanced Modern/Postmodern Dance",
-        "units": 2,
-        "description": "Studio, six hours. Advanced-level work in modern and/or postmodern movement practices. Technical training, with emphasis on increased understanding of movement principles and ability to apply these to performance. May be repeated for credit without limitation. Concurrently scheduled with course C415. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C115",
-        "title": "Advanced Modern/Postmodern Dance",
-        "units": 2,
-        "description": "Studio, six hours. Advanced-level work in modern and/or postmodern movement practices. Technical training, with emphasis on increased understanding of movement principles and ability to apply these to performance. May be repeated for credit without limitation. Concurrently scheduled with course C415. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C122",
-        "title": "Music and Dance Collaborations",
-        "units": 4,
-        "description": "Studio, four hours. Requisites: courses 67A, 67B. Designed for dance students who have had prior coursework/experience in choreography and for music students who have had prior coursework/experience in music composition. Opportunity for directors, choreographers, and composers to work together creating and developing material in their respective disciplines. Exploration of different forms and ways of approaching creative process of making dance and music, presenting material on weekly basis, and developing skills for discussion, critique, and review. Concurrently scheduled with course C222. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 67A"},
-            {"type": "requisite","course": "DANCE 67B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C122",
-        "title": "Music and Dance Collaborations",
-        "units": 4,
-        "description": "Studio, four hours. Requisites: courses 67A, 67B. Designed for dance students who have had prior coursework/experience in choreography and for music students who have had prior coursework/experience in music composition. Opportunity for directors, choreographers, and composers to work together creating and developing material in their respective disciplines. Exploration of different forms and ways of approaching creative process of making dance and music, presenting material on weekly basis, and developing skills for discussion, critique, and review. Concurrently scheduled with course C222. P/NP or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 67A"},
-            {"type": "requisite","course": "DANCE 67B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C145XP",
-        "title": "Selected Topics in Dance Studies",
-        "units": 4,
-        "description": "Lecture, four hours; outside study, eight hours. Designed for juniors/seniors. Selected topics in study of dance and corporeality. Consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Concurrently scheduled with course C245XP. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C145XP",
-        "title": "Selected Topics in Dance Studies",
-        "units": 4,
-        "description": "Lecture, four hours; outside study, eight hours. Designed for juniors/seniors. Selected topics in study of dance and corporeality. Consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Concurrently scheduled with course C245XP. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C152",
-        "title": "History and Theory of Modern/Postmodern Dance",
-        "units": 4,
-        "description": "Lecture, four hours; studio, two hours; outside study, six hours. Introduction to key figures in creation of modern dance, with special attention to their theories and philosophies and tracing of radical shift to postmodern dance that occurred in mid-20th century. Contemporary developments, both historical and theoretical. Student projects involve choreography and writing. Concurrently scheduled with course C252. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C152",
-        "title": "History and Theory of Modern/Postmodern Dance",
-        "units": 4,
-        "description": "Lecture, four hours; studio, two hours; outside study, six hours. Introduction to key figures in creation of modern dance, with special attention to their theories and philosophies and tracing of radical shift to postmodern dance that occurred in mid-20th century. Contemporary developments, both historical and theoretical. Student projects involve choreography and writing. Concurrently scheduled with course C252. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C171",
-        "title": "Dance Production: Variable Topics",
-        "units": 4,
-        "description": "Lecture, four hours; laboratory, two hours. Foundational experience in range of dance production practices, including but not limited to lighting design, set design, costume design, and stage management. Practical training in area covered, combined with theoretical inquiry into practice and opportunities for students to reflect on their own work and that of others. Completion of production project required. May be repeated for maximum of 12 units. Concurrently scheduled with course C271. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C171",
-        "title": "Dance Production: Variable Topics",
-        "units": 4,
-        "description": "Lecture, four hours; laboratory, two hours. Foundational experience in range of dance production practices, including but not limited to lighting design, set design, costume design, and stage management. Practical training in area covered, combined with theoretical inquiry into practice and opportunities for students to reflect on their own work and that of others. Completion of production project required. May be repeated for maximum of 12 units. Concurrently scheduled with course C271. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C174B",
-        "title": "Projects in Dance",
-        "units": 4,
-        "description": "Laboratory, six hours. Individualized final showing, video viewing and comparison paper in choreography, performance, cultural studies, production, and media. May be repeated for credit without limitation. Concurrently scheduled with course C274B. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C174B",
-        "title": "Projects in Dance",
-        "units": 4,
-        "description": "Laboratory, six hours. Individualized final showing, video viewing and comparison paper in choreography, performance, cultural studies, production, and media. May be repeated for credit without limitation. Concurrently scheduled with course C274B. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C180",
-        "title": "Dance for Camera",
-        "units": 4,
-        "description": "Lecture, two hours; laboratory, two hours. Introduction to making dance for camera. Students acquire and apply basic video production skills for creation of movement-based projects. With rudimentary tools-to film, frame, set up shots, storyboard, design shot lists, and set-up lists, log and capture, edit, and export footage-students create their own dance for camera video projects. Students gain deeper understanding of conceptualization, practice, theory, history, and current state of dance for camera. Concurrently scheduled with course C280. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C180",
-        "title": "Dance for Camera",
-        "units": 4,
-        "description": "Lecture, two hours; laboratory, two hours. Introduction to making dance for camera. Students acquire and apply basic video production skills for creation of movement-based projects. With rudimentary tools-to film, frame, set up shots, storyboard, design shot lists, and set-up lists, log and capture, edit, and export footage-students create their own dance for camera video projects. Students gain deeper understanding of conceptualization, practice, theory, history, and current state of dance for camera. Concurrently scheduled with course C280. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C184",
-        "title": "Production Arts Seminar",
-        "units": 4,
-        "description": "Seminar, four hours. Theory and practice of production administration, including hands-on case studies for producing public events in arts and academia. Topics include, but are not limited to, history and theories of producing, mission statements, budgeting, marketing, public relations, fund-raising, legalities, and archiving. Concurrently scheduled with course C243. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C184",
-        "title": "Production Arts Seminar",
-        "units": 4,
-        "description": "Seminar, four hours. Theory and practice of production administration, including hands-on case studies for producing public events in arts and academia. Topics include, but are not limited to, history and theories of producing, mission statements, budgeting, marketing, public relations, fund-raising, legalities, and archiving. Concurrently scheduled with course C243. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C222",
-        "title": "Music and Dance Collaborations",
-        "units": 4,
-        "description": "Studio, four hours. Requisites: courses 67A, 67B. Designed for dance students who have had prior coursework/experience in choreography and for music students who have had prior coursework/experience in music composition. Opportunity for directors, choreographers, and composers to work together creating and developing material in their respective disciplines. Exploration of different forms and ways of approaching creative process of making dance and music, presenting material on weekly basis, and developing skills for discussion, critique, and review. Concurrently scheduled with course C122. S/U or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 67A"},
-            {"type": "requisite","course": "DANCE 67B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C222",
-        "title": "Music and Dance Collaborations",
-        "units": 4,
-        "description": "Studio, four hours. Requisites: courses 67A, 67B. Designed for dance students who have had prior coursework/experience in choreography and for music students who have had prior coursework/experience in music composition. Opportunity for directors, choreographers, and composers to work together creating and developing material in their respective disciplines. Exploration of different forms and ways of approaching creative process of making dance and music, presenting material on weekly basis, and developing skills for discussion, critique, and review. Concurrently scheduled with course C122. S/U or letter grading.",
-        "requisites": [
-            {"type": "requisite","course": "DANCE 67A"},
-            {"type": "requisite","course": "DANCE 67B"}
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C243",
-        "title": "Production Arts Seminar",
-        "units": 4,
-        "description": "Seminar, four hours. Theory and practice of production administration, including hands-on case studies for producing public events in arts and academia. Topics include, but are not limited to, history and theories of producing, mission statements, budgeting, marketing, public relations, fund-raising, legalities, and archiving. Concurrently scheduled with course C184. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C243",
-        "title": "Production Arts Seminar",
-        "units": 4,
-        "description": "Seminar, four hours. Theory and practice of production administration, including hands-on case studies for producing public events in arts and academia. Topics include, but are not limited to, history and theories of producing, mission statements, budgeting, marketing, public relations, fund-raising, legalities, and archiving. Concurrently scheduled with course C184. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C245XP",
-        "title": "Selected Topics in Dance Studies",
-        "units": 4,
-        "description": "Lecture, four hours; outside study, eight hours. Designed for graduate students. Selected topics in study of dance and corporeality. Consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Concurrently scheduled with course C145XP. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C245XP",
-        "title": "Selected Topics in Dance Studies",
-        "units": 4,
-        "description": "Lecture, four hours; outside study, eight hours. Designed for graduate students. Selected topics in study of dance and corporeality. Consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Concurrently scheduled with course C145XP. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C252",
-        "title": "History and Theory of Modern/Postmodern Dance",
-        "units": 4,
-        "description": "Lecture, four hours; studio, two hours; outside study, six hours. Introduction to key figures in creation of modern dance, with special attention to their theories and philosophies and tracing of radical shift to postmodern dance that occurred in mid-20th century. Contemporary developments, both historical and theoretical. Student projects involve choreography and writing. Concurrently scheduled with course C152. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C252",
-        "title": "History and Theory of Modern/Postmodern Dance",
-        "units": 4,
-        "description": "Lecture, four hours; studio, two hours; outside study, six hours. Introduction to key figures in creation of modern dance, with special attention to their theories and philosophies and tracing of radical shift to postmodern dance that occurred in mid-20th century. Contemporary developments, both historical and theoretical. Student projects involve choreography and writing. Concurrently scheduled with course C152. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C271",
-        "title": "Dance Production: Variable Topics",
-        "units": 4,
-        "description": "Lecture, four hours; laboratory, two hours. Foundational experience in range of dance production practices, including but not limited to lighting design, set design, costume design, and stage management. Practical training in area covered, combined with theoretical inquiry into practice and opportunities for students to reflect on their own work and that of others. Completion of production project required. May be repeated for maximum of 12 units. Concurrently scheduled with course C171. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C271",
-        "title": "Dance Production: Variable Topics",
-        "units": 4,
-        "description": "Lecture, four hours; laboratory, two hours. Foundational experience in range of dance production practices, including but not limited to lighting design, set design, costume design, and stage management. Practical training in area covered, combined with theoretical inquiry into practice and opportunities for students to reflect on their own work and that of others. Completion of production project required. May be repeated for maximum of 12 units. Concurrently scheduled with course C171. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C274B",
-        "title": "Projects in Dance",
-        "units": 4,
-        "description": "Laboratory, six hours. Individualized final showing, video viewing and comparison paper in choreography, performance, cultural studies, production, and media. May be repeated for credit without limitation. Concurrently scheduled with course C174B. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C274B",
-        "title": "Projects in Dance",
-        "units": 4,
-        "description": "Laboratory, six hours. Individualized final showing, video viewing and comparison paper in choreography, performance, cultural studies, production, and media. May be repeated for credit without limitation. Concurrently scheduled with course C174B. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C280",
-        "title": "Dance for Camera",
-        "units": 4,
-        "description": "Lecture, two hours; laboratory, two hours. Introduction to making dance for camera. Students acquire and apply basic video production skills for creation of movement-based projects. With rudimentary tools-to film, frame, set up shots, storyboard, design shot lists, and set-up lists, log and capture, edit, and export footage-students create their own dance for camera video projects. Students gain deeper understanding of conceptualization, practice, theory, history, and current state of dance for camera. Concurrently scheduled with course C180. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C280",
-        "title": "Dance for Camera",
-        "units": 4,
-        "description": "Lecture, two hours; laboratory, two hours. Introduction to making dance for camera. Students acquire and apply basic video production skills for creation of movement-based projects. With rudimentary tools-to film, frame, set up shots, storyboard, design shot lists, and set-up lists, log and capture, edit, and export footage-students create their own dance for camera video projects. Students gain deeper understanding of conceptualization, practice, theory, history, and current state of dance for camera. Concurrently scheduled with course C180. Letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C406A",
-        "title": "Advanced West African Dance",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. May be repeated for credit without limitation. Concurrently scheduled with course C106A. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C406A",
-        "title": "Advanced West African Dance",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. May be repeated for credit without limitation. Concurrently scheduled with course C106A. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C409A",
-        "title": "Advanced Hip-Hop Dance",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of hip-hop movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C109A. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C409A",
-        "title": "Advanced Hip-Hop Dance",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of hip-hop movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C109A. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C412A",
-        "title": "Advanced Special Topics",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of variable movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C112A. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C412A",
-        "title": "Advanced Special Topics",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of variable movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C112A. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C413A",
-        "title": "Advanced Ballet",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of ballet as movement practice. May be repeated for credit without limitation. Concurrently scheduled with course C113A. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C413A",
-        "title": "Advanced Ballet",
-        "units": 2,
-        "description": "Studio, three hours. Advanced-level study of ballet as movement practice. May be repeated for credit without limitation. Concurrently scheduled with course C113A. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C415",
-        "title": "Advanced Modern/Postmodern Dance",
-        "units": 2,
-        "description": "Studio, six hours. Advanced-level work in modern and/or postmodern movement practices. Technical training, with emphasis on increased understanding of movement principles and ability to apply these to performance. May be repeated for credit without limitation. Concurrently scheduled with course C115. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE C415",
-        "title": "Advanced Modern/Postmodern Dance",
-        "units": 2,
-        "description": "Studio, six hours. Advanced-level work in modern and/or postmodern movement practices. Technical training, with emphasis on increased understanding of movement principles and ability to apply these to performance. May be repeated for credit without limitation. Concurrently scheduled with course C115. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE CM168",
-        "title": "Art-Making beyond the Campus",
-        "units": 4,
-        "description": "(Same as World Arts and Cultures CM168.) Lecture, four hours; outside study, eight hours. Designed for juniors/seniors. Focus on understanding bureaucratic structures and regional histories conditioning creation of art in real world, including such practical issues as publicity and grant-writing. Concurrently scheduled with course CM268. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE CM168",
-        "title": "Art-Making beyond the Campus",
-        "units": 4,
-        "description": "(Same as World Arts and Cultures CM168.) Lecture, four hours; outside study, eight hours. Designed for juniors/seniors. Focus on understanding bureaucratic structures and regional histories conditioning creation of art in real world, including such practical issues as publicity and grant-writing. Concurrently scheduled with course CM268. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE CM268",
-        "title": "Art-Making beyond the Campus",
-        "units": 4,
-        "description": "(Same as World Arts and Cultures CM268.) Lecture, four hours; outside study, eight hours. Designed for graduate students. Focus on understanding bureaucratic structures and regional histories conditioning creation of art in real world, including such practical issues as publicity and grant-writing. Concurrently scheduled with course CM168. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE CM268",
-        "title": "Art-Making beyond the Campus",
-        "units": 4,
-        "description": "(Same as World Arts and Cultures CM268.) Lecture, four hours; outside study, eight hours. Designed for graduate students. Focus on understanding bureaucratic structures and regional histories conditioning creation of art in real world, including such practical issues as publicity and grant-writing. Concurrently scheduled with course CM168. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE M157",
-        "title": "Rechoreographing Disability",
-        "units": 4,
-        "description": "(Same as Disability Studies M157.) Seminar, four hours. Through study of range of performance by, featuring, or about people who identify as disabled, reading and discussion of range of writing about experiences of disability and process of making work about disability by key artists and thinkers. Introduction to concept of choreography as political/cultural idea broadly defined as scored movement and organization and behavior of bodies, as well as choreography as poetic form for expression of ideas, creative tool, or product. Viewing and discussion of work, and embodying ideas through movement and dance-making. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "DANCE M157",
-        "title": "Rechoreographing Disability",
-        "units": 4,
-        "description": "(Same as Disability Studies M157.) Seminar, four hours. Through study of range of performance by, featuring, or about people who identify as disabled, reading and discussion of range of writing about experiences of disability and process of making work about disability by key artists and thinkers. Introduction to concept of choreography as political/cultural idea broadly defined as scored movement and organization and behavior of bodies, as well as choreography as poetic form for expression of ideas, creative tool, or product. Viewing and discussion of work, and embodying ideas through movement and dance-making. P/NP or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    }
+  {
+    "id": "DANCE 1",
+    "title": "Global Perspectives on Dance",
+    "units": 5,
+    "description": "Lecture, three hours; discussion, one hour. Examination of practices of choreography, improvisation, and technique in different cultural settings and historical eras. Introduction to field of dance studies through analysis of broad spectrum of philosophies and practices within global context, with focus on creative act of dance-making, thinking and understanding act of improvising, and diverse ways of training one's body. By framing process of analysis within array of historical periods and cultural settings, development of capacity to engage with dance as lived social and artistic practice while refining critical seeing, thinking, and writing skills. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 10",
+    "title": "Beginning Martial Arts",
+    "units": 2,
+    "description": "Studio, three hours. Beginning-level study of Tai Chi Chuan and other martial arts forms. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 101",
+    "title": "Theories of Dance",
+    "units": 5,
+    "description": "Lecture, four hours; discussion, two hours. Enforced requisite: course 45. Ideas of dance, choreography, and movement have achieved broad resonance in contemporary performance, art, politics, culture, and studies of social behavior. Examination of concepts and approaches to dance studies and deployments of its vocabulary within field and beyond, concentrated in four principal approaches: history, ethnography, choreographic analysis, and critical theory. Use of key ideas in dance to investigate allied areas of performance, embodiment, social constructions of identity and difference, and relationship between aesthetics and politics. Design of dance performances to illustrate link between theory and practice. How dance creates alternative modes of history and knowledge in range of cultural contexts. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 45"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 11",
+    "title": "Yoga",
+    "units": 2,
+    "description": "Studio, three hours. Beginning-level study of yoga. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 114",
+    "title": "Performance Practicum",
+    "units": 1,
+    "description": "Studio, three to 12 hours. Rehearsal and performance in selected choreographic/theatrical work. May be repeated for credit without limitation. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 116",
+    "title": "Advanced Improvisation in Dance",
+    "units": 2,
+    "description": "Studio, four hours. Enforced requisite: course 16. Development of aesthetic perspective through use of imagery, sound, and other art. Concentration and projection. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 16"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 117A",
+    "title": "Theories and Methods in Dance Composition III: Locations",
+    "units": 4,
+    "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisites: courses 16, 67A, 67B. Examination of how location of dancing impacts its meaning. How does occasion of dance, concert, festival, ritual, or celebration influence experience of it? What are factors that need to be considered when locating dance in one particular place? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Examination of range of locations for dances, including proscenium stages, theaters in round, parks, sidewalks, temples, amphitheaters, village squares, and other site-specific locations that endow dance with specific significance and how various artists have worked with place in construction of new dances. Use of these analyses to assist in creative process for making new dances. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 16"
+      },
+      {
+        "type": "requisite",
+        "course": "DANCE 67A"
+      },
+      {
+        "type": "requisite",
+        "course": "DANCE 67B"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 117B",
+    "title": "Theories and Methods in Dance Composition IV: Impacts",
+    "units": 4,
+    "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisites: courses 16, 67A, 67B. Examination of relation of dance to its audience. Synthesis of analyses undertaken in previous courses to determine how dances move their viewers. How do dances appeal to or address their audiences? How do dance vocabulary, sequencing, and location combine to create particular effects? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Different approaches to dance result in highly distinctive kinds of responses from audiences. Focus on creation of three in-depth studies, each of which endeavors to construct distinctive kind of response from viewers. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 16"
+      },
+      {
+        "type": "requisite",
+        "course": "DANCE 67A"
+      },
+      {
+        "type": "requisite",
+        "course": "DANCE 67B"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 117C",
+    "title": "Advanced Topics in Choreography",
+    "units": 4,
+    "description": "Lecture, four hours; studio, two hours; outside study, six hours. Enforced requisites: courses 16, 67A, 67B. Directed exploration in composition, with focus on developing theme-based choreographic works that are informed by theoretical engagement with selected topics through lectures, readings, and discussion. Thematic topics include contemporary issues and concerns such as image, essence, and abstraction; home, history, and memory; interculturalism; constructing identity. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 16"
+      },
+      {
+        "type": "requisite",
+        "course": "DANCE 67A"
+      },
+      {
+        "type": "requisite",
+        "course": "DANCE 67B"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 118",
+    "title": "Advanced Performance Practicum",
+    "units": 1,
+    "description": "Studio, three to 12 hours. Rehearsal and performance in selected choreographic/theatrical work, participation-based. Students perform in work led by MFA students, such as in an MFA choreography class or MFA capstone project that culminates in a showing or performance. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 12",
+    "title": "Beginning Special Topics",
+    "units": 2,
+    "description": "Studio, three hours. Beginning-level study of variable movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 13",
+    "title": "Beginning Ballet",
+    "units": 2,
+    "description": "Studio, three hours. Beginning-level study of ballet as movement practice. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 15",
+    "title": "Beginning Modern/Postmodern Dance",
+    "units": 2,
+    "description": "Laboratory, four hours. Study of modern and/or postmodern movement practice. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 158",
+    "title": "Choreographing Gender",
+    "units": 4,
+    "description": "Lecture, three hours; laboratory, two hours. Designed for juniors/seniors. Analysis of aesthetic codes and theatrical choreographic approaches as they intersect with construction of gender in U.S., with close attention to race, class, and sexuality. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 16",
+    "title": "Beginning Improvisation in Dance",
+    "units": 2,
+    "description": "Laboratory, four hours. Introduction to creative exploration in movement through improvisational and compositional exercises that access and develop imagination, find relationship between imagination and dance making, and enrich movement vocabulary. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 160",
+    "title": "Topics in Body Mechanics",
+    "units": 4,
+    "description": "Lecture, three hours; studio, one hour. Designed for juniors/seniors. Variable topics course with discussion of injury prevention, anatomy for dancers, and study of biological and physical principles of human movement as related to dance. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 170",
+    "title": "Advanced Production",
+    "units": 1,
+    "description": "Laboratory, three hours; outside study, up to three hours. Requisite: course 70. Further development and application of practical perspectives on producing events in department, including but not limited to theatrical support and planning and executing lecture series. Provides students with advanced practical knowledge necessary, as well as opportunity to study nature of this component in world arts and cultures/dance studies. May be repeated for credit without limitation. P/NP grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 70"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 174A",
+    "title": "Projects in Dance",
+    "units": 2,
+    "description": "Laboratory, four hours. Individualized major projects in choreography, performance, cultural studies, production, and media. May be repeated for credit without limitation. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 182",
+    "title": "Dance and Visual Media",
+    "units": 4,
+    "description": "Lecture, four hours. Examination of aesthetic differences between dance, film, and video and exploration of new aesthetic when they are combined. Analysis of record and documentary dance film, choreo-cinema, and impact of MTV, as well as integration of media with performance. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 186A",
+    "title": "Senior Projects in Dance",
+    "units": 4,
+    "description": "Lecture, four hours; outside study, eight hours. Requisite: 8 units of choreography as creative inquiry courses. Course 186A is requisite to 186B. Limited to senior Dance majors by permission of instructor. Application of concepts, skills, and content from interdisciplinary major to individual projects. Methodologies may include critical, comparative, ethnographic, and performance approaches. Lecture/seminar format with Dance faculty during first term; faculty-directed presentations of individual projects during second term. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 186B",
+    "title": "Senior Projects in Dance",
+    "units": 4,
+    "description": "Lecture, four hours: outside study, eight hours. Requisite: course 186A. Limited to senior Dance majors. Application of concepts, skills, and content from the interdisciplinary major to individual projects. Methodologies may include critical, comparative, ethnographic, and performance approaches. Faculty-directed presentation of individual projects. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 186A"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 188SA",
+    "title": "Individual Studies for USIE Facilitators",
+    "units": 1,
+    "description": "Tutorial, to be arranged. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to discuss selected USIE seminar topic, conduct preparatory research, and begin preparation of syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 188SB",
+    "title": "Individual Studies for USIE Facilitators",
+    "units": 1,
+    "description": "Tutorial, to be arranged. Enforced requisite: course 188SA. Enforced corequisite: Honors Collegium 101E. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor to finalize course syllabus. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 188SA"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 188SC",
+    "title": "Individual Studies for USIE Facilitators",
+    "units": 2,
+    "description": "Tutorial, to be arranged. Enforced requisite: course 188SB. Limited to junior/senior USIE facilitators. Individual study in regularly scheduled meetings with faculty mentor while facilitating USIE 88S course. Individual contract with faculty mentor required. May not be repeated. Letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 188SB"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 189",
+    "title": "Advanced Honors Seminars",
+    "units": 1,
+    "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to undergraduate lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 19",
+    "title": "Fiat Lux Freshman Seminars",
+    "units": 1,
+    "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 211A",
+    "title": "Advanced Choreography",
+    "units": 4,
+    "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 211B",
+    "title": "Advanced Choreography",
+    "units": 4,
+    "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 211C",
+    "title": "Advanced Choreography",
+    "units": 4,
+    "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 211D",
+    "title": "Advanced Choreography",
+    "units": 4,
+    "description": "Lecture, two hours; studio, two hours. Theoretical aspects of advanced choreography for students who have reached level of self-initiation of substantial creative works. Refinement and realistic self-evaluation; critical counsel by acknowledged choreographers. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 44",
+    "title": "World Dance Histories",
+    "units": 5,
+    "description": "Lecture, three hours; discussion, two hours. Comparative framework for looking at dance practices through time as they have developed around world, questioning relation of dance to culture and politics and providing students with tools for investigating histories of any given dance form. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 441",
+    "title": "Dance Production Practicum",
+    "units": 2,
+    "description": "Laboratory, four to eight hours (one or two hours may be individualized consultation). Skills and understanding of production components in roles of stage manager, production assistants, and producer. May be repeated for maximum of 8 units. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 45",
+    "title": "Introduction to Dance Studies",
+    "units": 4,
+    "description": "Lecture, three hours. Enforced requisite: course 44. Introduction to discipline of dance studies, with focus on study of corporeality as key contemporary perspective on body. Multidisciplinary approach to dancing bodies conceptualized as social constructs, including attention to gender, race, class, and national identity. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 44"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 452",
+    "title": "Directed Field Study in Dance Education",
+    "units": 2,
+    "description": "Seminar, one hour; field study, two hours minimum. Directed field study to provide teaching experience in community school or other approved site. No more than 4 units may be applied toward MA degree requirements. S/U grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 490",
+    "title": "Projects in Choreography and Performance",
+    "units": 2,
+    "description": "Tutorial, one three-hour rehearsal per unit per week minimum. Creation, casting, and rehearsing of culminating concert, reflecting professional achievement in choreography or performance, in first term. In second term, direction of on-stage rehearsals for culminating concert by each student leading to fully staged performance. May be repeated for maximum of 16 units. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 498",
+    "title": "Professional Internship in Dance",
+    "units": 4,
+    "description": "Seminar, to be arranged. Full- or part-time supervised fieldwork. Limited to MFA students. Internship in dance, theater, film, or television organization. Participation in creative, administrative, or technical work of professionals in their specialties. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 5",
+    "title": "Moving Voice",
+    "units": 2,
+    "description": "Studio, three hours. Experiential Investigation of voice as it relates to resonant, physical body. Working with primal qualities of voice and how it interfaces with breath, physical anatomy, and space around us. Physical approach to singing, with singing being defined in its broadest sense as all possible sounds emitted by human voice. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 52",
+    "title": "Intermediate Special Topics",
+    "units": 2,
+    "description": "Studio, three hours. Intermediate-level study of variable movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 56",
+    "title": "Intermediate West African Dance",
+    "units": 2,
+    "description": "Studio, three hours. Intermediate-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 59",
+    "title": "Intermediate Hip-Hop Dance",
+    "units": 2,
+    "description": "Studio, three hours. Intermediate-level study of hip-hop movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 6",
+    "title": "Beginning West African Dance",
+    "units": 2,
+    "description": "Studio, three hours. Beginning-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 60",
+    "title": "Intermediate Martial Arts",
+    "units": 2,
+    "description": "Studio, three hours. Intermediate-level study of Tai Chi Chuan and other martial arts forms. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 63",
+    "title": "Intermediate Ballet",
+    "units": 2,
+    "description": "Studio, three hours. Intermediate-level study of ballet as movement practice. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 65",
+    "title": "Intermediate Modern/Postmodern Dance",
+    "units": 2,
+    "description": "Studio, four hours. Intermediate-level work in modern and/or postmodern movement practices. Technical training with emphasis on increasing skill. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 67A",
+    "title": "Theories and Methods in Dance Composition I: Languages",
+    "units": 4,
+    "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisite: course 16. Examination of diverse movement sources from which dances are made. How do different choreographers envision vocabularies of movement they use? How do they select or create movement out of which they create dance? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Readings about and viewing of videos of selected artists' work and their different strategies for creating languages of their dances for comparison. Use of these analyses to assist in creative process for making new dances. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 16"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 67B",
+    "title": "Theories and Methods in Dance Composition II: Processes",
+    "units": 4,
+    "description": "Seminar, two hours; studio, two hours; outside study, eight hours. Enforced requisite: course 67A. Examination of diverse processes through which creation of dance can take place. How do different choreographers conceptualize creative process of dance-making? What kinds of strategies do they use for sequencing their materials? Answers to these questions in relation to broad range of artistic approaches, acknowledging that dance-making occurs distinctively in different cultural contexts and different historical moments. Readings about and viewing of videos of selected artists' work and their different strategies for their processes of creating dances for comparison. Use of these analyses to assist in creative process for making new dances. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 67A"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 70",
+    "title": "Production Practicum",
+    "units": 2,
+    "description": "Lecture, 90 minutes; activity, three and one half hours. Introduction to practical perspectives on producing events in world arts and cultures, including but not limited to theatrical support and planning and executing lecture series. Introduction to professional stage production principles and hands-on experience in technical theater. May be repeated once for credit. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 89",
+    "title": "Honors Seminars",
+    "units": 1,
+    "description": "Seminar, three hours. Limited to 20 students. Designed as adjunct to lower-division lecture course. Exploration of topics in greater depth through supplemental readings, papers, or other activities and led by lecture course instructor. May be applied toward honors credit for eligible students. Honors content noted on transcript. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 9",
+    "title": "Beginning Hip-Hop Dance",
+    "units": 2,
+    "description": "Studio, three hours. Beginning-level study of hip-hop movement practices. May be repeated for credit without limitation. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE 99",
+    "title": "Student Research Program",
+    "units": 1,
+    "description": "Tutorial (supervised research or other scholarly work), three hours per week per unit. Entry-level research for lower-division students under guidance of faculty mentor. Students must be in good academic standing and enrolled in minimum of 12 units (excluding this course). Individual contract required; consult Undergraduate Research Center. May be repeated. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C106A",
+    "title": "Advanced West African Dance",
+    "units": 2,
+    "description": "Studio, three hours. Advanced-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. Concurrently scheduled with course C406A. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C109A",
+    "title": "Advanced Hip-Hop Dance",
+    "units": 2,
+    "description": "Studio, three hours. Advanced-level study of hip-hop movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C409A. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C112A",
+    "title": "Advanced Special Topics",
+    "units": 2,
+    "description": "Studio, three hours. Advanced-level study of variable movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C412A. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C113A",
+    "title": "Advanced Ballet",
+    "units": 2,
+    "description": "Studio, three hours. Advanced-level study of ballet as movement practice. May be repeated for credit without limitation. Concurrently scheduled with course C413A. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C115",
+    "title": "Advanced Modern/Postmodern Dance",
+    "units": 2,
+    "description": "Studio, six hours. Advanced-level work in modern and/or postmodern movement practices. Technical training, with emphasis on increased understanding of movement principles and ability to apply these to performance. May be repeated for credit without limitation. Concurrently scheduled with course C415. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C122",
+    "title": "Music and Dance Collaborations",
+    "units": 4,
+    "description": "Studio, four hours. Requisites: courses 67A, 67B. Designed for dance students who have had prior coursework/experience in choreography and for music students who have had prior coursework/experience in music composition. Opportunity for directors, choreographers, and composers to work together creating and developing material in their respective disciplines. Exploration of different forms and ways of approaching creative process of making dance and music, presenting material on weekly basis, and developing skills for discussion, critique, and review. Concurrently scheduled with course C222. P/NP or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 67A"
+      },
+      {
+        "type": "requisite",
+        "course": "DANCE 67B"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C145XP",
+    "title": "Selected Topics in Dance Studies",
+    "units": 4,
+    "description": "Lecture, four hours; outside study, eight hours. Designed for juniors/seniors. Selected topics in study of dance and corporeality. Consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Concurrently scheduled with course C245XP. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C152",
+    "title": "History and Theory of Modern/Postmodern Dance",
+    "units": 4,
+    "description": "Lecture, four hours; studio, two hours; outside study, six hours. Introduction to key figures in creation of modern dance, with special attention to their theories and philosophies and tracing of radical shift to postmodern dance that occurred in mid-20th century. Contemporary developments, both historical and theoretical. Student projects involve choreography and writing. Concurrently scheduled with course C252. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C171",
+    "title": "Dance Production: Variable Topics",
+    "units": 4,
+    "description": "Lecture, four hours; laboratory, two hours. Foundational experience in range of dance production practices, including but not limited to lighting design, set design, costume design, and stage management. Practical training in area covered, combined with theoretical inquiry into practice and opportunities for students to reflect on their own work and that of others. Completion of production project required. May be repeated for maximum of 12 units. Concurrently scheduled with course C271. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C174B",
+    "title": "Projects in Dance",
+    "units": 4,
+    "description": "Laboratory, six hours. Individualized final showing, video viewing and comparison paper in choreography, performance, cultural studies, production, and media. May be repeated for credit without limitation. Concurrently scheduled with course C274B. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C180",
+    "title": "Dance for Camera",
+    "units": 4,
+    "description": "Lecture, two hours; laboratory, two hours. Introduction to making dance for camera. Students acquire and apply basic video production skills for creation of movement-based projects. With rudimentary tools-to film, frame, set up shots, storyboard, design shot lists, and set-up lists, log and capture, edit, and export footage-students create their own dance for camera video projects. Students gain deeper understanding of conceptualization, practice, theory, history, and current state of dance for camera. Concurrently scheduled with course C280. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C184",
+    "title": "Production Arts Seminar",
+    "units": 4,
+    "description": "Seminar, four hours. Theory and practice of production administration, including hands-on case studies for producing public events in arts and academia. Topics include, but are not limited to, history and theories of producing, mission statements, budgeting, marketing, public relations, fund-raising, legalities, and archiving. Concurrently scheduled with course C243. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C222",
+    "title": "Music and Dance Collaborations",
+    "units": 4,
+    "description": "Studio, four hours. Requisites: courses 67A, 67B. Designed for dance students who have had prior coursework/experience in choreography and for music students who have had prior coursework/experience in music composition. Opportunity for directors, choreographers, and composers to work together creating and developing material in their respective disciplines. Exploration of different forms and ways of approaching creative process of making dance and music, presenting material on weekly basis, and developing skills for discussion, critique, and review. Concurrently scheduled with course C122. S/U or letter grading.",
+    "requisites": [
+      {
+        "type": "requisite",
+        "course": "DANCE 67A"
+      },
+      {
+        "type": "requisite",
+        "course": "DANCE 67B"
+      }
+    ],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C243",
+    "title": "Production Arts Seminar",
+    "units": 4,
+    "description": "Seminar, four hours. Theory and practice of production administration, including hands-on case studies for producing public events in arts and academia. Topics include, but are not limited to, history and theories of producing, mission statements, budgeting, marketing, public relations, fund-raising, legalities, and archiving. Concurrently scheduled with course C184. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C245XP",
+    "title": "Selected Topics in Dance Studies",
+    "units": 4,
+    "description": "Lecture, four hours; outside study, eight hours. Designed for graduate students. Selected topics in study of dance and corporeality. Consult Schedule of Classes for topics to be offered in specific term. May be repeated for credit with topic change. Concurrently scheduled with course C145XP. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C252",
+    "title": "History and Theory of Modern/Postmodern Dance",
+    "units": 4,
+    "description": "Lecture, four hours; studio, two hours; outside study, six hours. Introduction to key figures in creation of modern dance, with special attention to their theories and philosophies and tracing of radical shift to postmodern dance that occurred in mid-20th century. Contemporary developments, both historical and theoretical. Student projects involve choreography and writing. Concurrently scheduled with course C152. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C271",
+    "title": "Dance Production: Variable Topics",
+    "units": 4,
+    "description": "Lecture, four hours; laboratory, two hours. Foundational experience in range of dance production practices, including but not limited to lighting design, set design, costume design, and stage management. Practical training in area covered, combined with theoretical inquiry into practice and opportunities for students to reflect on their own work and that of others. Completion of production project required. May be repeated for maximum of 12 units. Concurrently scheduled with course C171. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C274B",
+    "title": "Projects in Dance",
+    "units": 4,
+    "description": "Laboratory, six hours. Individualized final showing, video viewing and comparison paper in choreography, performance, cultural studies, production, and media. May be repeated for credit without limitation. Concurrently scheduled with course C174B. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C280",
+    "title": "Dance for Camera",
+    "units": 4,
+    "description": "Lecture, two hours; laboratory, two hours. Introduction to making dance for camera. Students acquire and apply basic video production skills for creation of movement-based projects. With rudimentary tools-to film, frame, set up shots, storyboard, design shot lists, and set-up lists, log and capture, edit, and export footage-students create their own dance for camera video projects. Students gain deeper understanding of conceptualization, practice, theory, history, and current state of dance for camera. Concurrently scheduled with course C180. Letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C406A",
+    "title": "Advanced West African Dance",
+    "units": 2,
+    "description": "Studio, three hours. Advanced-level study of dances originating from Mandingo culture in sub-Saharan Africa. May be repeated for credit without limitation. May be repeated for credit without limitation. Concurrently scheduled with course C106A. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C409A",
+    "title": "Advanced Hip-Hop Dance",
+    "units": 2,
+    "description": "Studio, three hours. Advanced-level study of hip-hop movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C109A. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C412A",
+    "title": "Advanced Special Topics",
+    "units": 2,
+    "description": "Studio, three hours. Advanced-level study of variable movement practices. May be repeated for credit without limitation. Concurrently scheduled with course C112A. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C413A",
+    "title": "Advanced Ballet",
+    "units": 2,
+    "description": "Studio, three hours. Advanced-level study of ballet as movement practice. May be repeated for credit without limitation. Concurrently scheduled with course C113A. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE C415",
+    "title": "Advanced Modern/Postmodern Dance",
+    "units": 2,
+    "description": "Studio, six hours. Advanced-level work in modern and/or postmodern movement practices. Technical training, with emphasis on increased understanding of movement principles and ability to apply these to performance. May be repeated for credit without limitation. Concurrently scheduled with course C115. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE CM168",
+    "title": "Art-Making beyond the Campus",
+    "units": 4,
+    "description": "(Same as World Arts and Cultures CM168.) Lecture, four hours; outside study, eight hours. Designed for juniors/seniors. Focus on understanding bureaucratic structures and regional histories conditioning creation of art in real world, including such practical issues as publicity and grant-writing. Concurrently scheduled with course CM268. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE CM268",
+    "title": "Art-Making beyond the Campus",
+    "units": 4,
+    "description": "(Same as World Arts and Cultures CM268.) Lecture, four hours; outside study, eight hours. Designed for graduate students. Focus on understanding bureaucratic structures and regional histories conditioning creation of art in real world, including such practical issues as publicity and grant-writing. Concurrently scheduled with course CM168. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "DANCE M157",
+    "title": "Rechoreographing Disability",
+    "units": 4,
+    "description": "(Same as Disability Studies M157.) Seminar, four hours. Through study of range of performance by, featuring, or about people who identify as disabled, reading and discussion of range of writing about experiences of disability and process of making work about disability by key artists and thinkers. Introduction to concept of choreography as political/cultural idea broadly defined as scored movement and organization and behavior of bodies, as well as choreography as poetic form for expression of ideas, creative tool, or product. Viewing and discussion of work, and embodying ideas through movement and dance-making. P/NP or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  }
 ]

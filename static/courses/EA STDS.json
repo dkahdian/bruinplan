@@ -1,74 +1,34 @@
 [
-    {
-        "id": "EA STDS 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "EA STDS 19",
-        "title": "Fiat Lux Freshman Seminars",
-        "units": 1,
-        "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "EA STDS 291A",
-        "title": "Variable Topics in East Asian Studies",
-        "units": 4,
-        "description": "Seminar, three hours. Selected topics on East Asia. May be repeated for credit with topic change. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "EA STDS 291A",
-        "title": "Variable Topics in East Asian Studies",
-        "units": 4,
-        "description": "Seminar, three hours. Selected topics on East Asia. May be repeated for credit with topic change. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "EA STDS 291B",
-        "title": "Variable Topics in East Asian Studies",
-        "units": 4,
-        "description": "Seminar, three hours. Selected topics on East Asia. May be repeated for credit with topic change. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "EA STDS 291B",
-        "title": "Variable Topics in East Asian Studies",
-        "units": 4,
-        "description": "Seminar, three hours. Selected topics on East Asia. May be repeated for credit with topic change. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "EA STDS M265",
-        "title": "Graduate Writing: Form, Process, and Thought",
-        "units": 4,
-        "description": "(Same as History M265.) Seminar, three hours. Designed for East Asian Studies MA students and East Asia-focused doctoral students, but open to all graduate students. Focus on essential skill and craft of graduate-level writing. Consideration of everything from basics about process-drafts and editing-to professional-level questions of relation of form to content, and of writing for broader publics. Specific skills and techniques are connected with the fundamental theories and principles at stake in academic inquiry, and student capacities to participate fully in disciplinary and interdisciplinary work are built. May be repeated once for credit. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    },
-    {
-        "id": "EA STDS M265",
-        "title": "Graduate Writing: Form, Process, and Thought",
-        "units": 4,
-        "description": "(Same as History M265.) Seminar, three hours. Designed for East Asian Studies MA students and East Asia-focused doctoral students, but open to all graduate students. Focus on essential skill and craft of graduate-level writing. Consideration of everything from basics about process-drafts and editing-to professional-level questions of relation of form to content, and of writing for broader publics. Specific skills and techniques are connected with the fundamental theories and principles at stake in academic inquiry, and student capacities to participate fully in disciplinary and interdisciplinary work are built. May be repeated once for credit. S/U or letter grading.",
-        "requisites": [
-        ],
-        "equivalentCourses": []
-    }
+  {
+    "id": "EA STDS 19",
+    "title": "Fiat Lux Freshman Seminars",
+    "units": 1,
+    "description": "Seminar, one hour. Discussion of and critical thinking about topics of current intellectual importance, taught by faculty members in their areas of expertise and illuminating many paths of discovery at UCLA. P/NP grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "EA STDS 291A",
+    "title": "Variable Topics in East Asian Studies",
+    "units": 4,
+    "description": "Seminar, three hours. Selected topics on East Asia. May be repeated for credit with topic change. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "EA STDS 291B",
+    "title": "Variable Topics in East Asian Studies",
+    "units": 4,
+    "description": "Seminar, three hours. Selected topics on East Asia. May be repeated for credit with topic change. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  },
+  {
+    "id": "EA STDS M265",
+    "title": "Graduate Writing: Form, Process, and Thought",
+    "units": 4,
+    "description": "(Same as History M265.) Seminar, three hours. Designed for East Asian Studies MA students and East Asia-focused doctoral students, but open to all graduate students. Focus on essential skill and craft of graduate-level writing. Consideration of everything from basics about process-drafts and editing-to professional-level questions of relation of form to content, and of writing for broader publics. Specific skills and techniques are connected with the fundamental theories and principles at stake in academic inquiry, and student capacities to participate fully in disciplinary and interdisciplinary work are built. May be repeated once for credit. S/U or letter grading.",
+    "requisites": [],
+    "equivalentCourses": []
+  }
 ]
