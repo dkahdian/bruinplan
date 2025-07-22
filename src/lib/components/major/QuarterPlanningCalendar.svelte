@@ -13,18 +13,15 @@
 		formatQuarterCode,
 		initializeSchedulingService 
 	} from '../../services/schedulingServices.js';
-	import type { Major } from '../../types.js';
+	import type { Major, Course } from '../../types.js';
 	import { getAllMajorCourses } from '../../services/data/loadMajors.js';
-	import { courseMapStore, loadCourses } from '../../services/data/loadCourses.js';
 	import QuarterDisplay from './QuarterDisplay.svelte';
 	
 	export let major: Major;
+	export let courseMap: Map<string, Course>;
 		
 	// Get all courses for this major
 	$: allMajorCourses = getAllMajorCourses(major);
-	
-	// Get all available courses for searching (reactive to courseMapStore changes)
-	$: availableCourses = Array.from($courseMapStore.values());
 	
 	// Calculate quarter range - always start from current quarter
 	$: currentQuarter = getCurrentQuarterCode();
@@ -42,15 +39,6 @@
 	onMount(async () => {
 		// Initialize scheduling service to load localStorage data
 		initializeSchedulingService();
-		
-		// Load courses if not already loaded
-		if ($courseMapStore.size === 0) {
-			try {
-				await loadCourses();
-			} catch (error) {
-				console.error('Failed to load courses on mount:', error);
-			}
-		}
 		
 		// Update quarter range based on existing schedules
 		const newRange = getSmartQuarterRange(get(courseSchedulesStore));
@@ -141,10 +129,10 @@
 		{#each quarters as quarterCode, index}
 			<QuarterDisplay
 				{quarterCode}
+				{courseMap}
 				courses={coursesByQuarter[quarterCode] || []}
 				isLastQuarter={index === quarters.length - 1}
 				canRemove={quarters.length > 1}
-				availableCourses={availableCourses}
 				onRemoveQuarter={handleRemoveQuarter}
 			/>
 		{/each}

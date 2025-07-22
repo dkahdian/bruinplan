@@ -17,8 +17,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "RELIGN M4"},
-            {"type": "course", "courseId": "RELIGN 11"}
+            {
+              "type": "course",
+              "courseId": "RELIGN M4"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 11"
+            }
           ]
         },
         {
@@ -27,36 +33,126 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "AN N EA 10W"},
-            {"type": "course", "courseId": "ANTHRO 3"},
-            {"type": "course", "courseId": "ASIAN M60"},
-            {"type": "course", "courseId": "HIST 1A"},
-            {"type": "course", "courseId": "HIST 1B"},
-            {"type": "course", "courseId": "HIST 1C"},
-            {"type": "course", "courseId": "HIST 9A"},
-            {"type": "course", "courseId": "HIST 9C"},
-            {"type": "course", "courseId": "HIST 9D"},
-            {"type": "course", "courseId": "HIST 9E"},
-            {"type": "course", "courseId": "HIST M10A"},
-            {"type": "course", "courseId": "HIST 10B"},
-            {"type": "course", "courseId": "HIST 11A"},
-            {"type": "course", "courseId": "HIST 11B"},
-            {"type": "course", "courseId": "PHILOS 2"},
-            {"type": "course", "courseId": "PHILOS 21"},
-            {"type": "course", "courseId": "RELIGN M10"},
-            {"type": "course", "courseId": "RELIGN M20"},
-            {"type": "course", "courseId": "RELIGN M40"},
-            {"type": "course", "courseId": "RELIGN M50"},
-            {"type": "course", "courseId": "RELIGN 55"},
-            {"type": "course", "courseId": "RELIGN M60A"},
-            {"type": "course", "courseId": "RELIGN M60B"},
-            {"type": "course", "courseId": "RELIGN M60C"},
-            {"type": "course", "courseId": "RELIGN M60D"},
-            {"type": "course", "courseId": "RELIGN M60E"},
-            {"type": "course", "courseId": "RELIGN M60W"},
-            {"type": "course", "courseId": "RELIGN M61"},
-            {"type": "course", "courseId": "RELIGN M61W"},
-            {"type": "course", "courseId": "RELIGN M70"}
+            {
+              "type": "course",
+              "courseId": "AN N EA 10W"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 3"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIAN M60"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 1B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 1C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9E"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M10A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 10B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 11A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 11B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 2"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 21"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M10"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M20"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M40"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M50"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 55"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M60A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M60B"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M60C"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M60D"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M60E"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M60W"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M61"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M61W"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M70"
+            }
           ]
         }
       ]
@@ -72,7 +168,10 @@
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "RELIGN 101"}
+            {
+              "type": "course",
+              "courseId": "RELIGN 101"
+            }
           ]
         },
         {
@@ -81,15 +180,42 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ANTHRO 130"},
-            {"type": "course", "courseId": "ANTHRO 142P"},
-            {"type": "course", "courseId": "RELIGN 110"},
-            {"type": "course", "courseId": "RELIGN 120"},
-            {"type": "course", "courseId": "RELIGN 150"},
-            {"type": "course", "courseId": "RELIGN 160"},
-            {"type": "course", "courseId": "RELIGN 177"},
-            {"type": "course", "courseId": "RELIGN 180"},
-            {"type": "course", "courseId": "RELIGN M186C"}
+            {
+              "type": "course",
+              "courseId": "ANTHRO 130"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 142P"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 110"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 120"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 150"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 160"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 177"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 180"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M186C"
+            }
           ]
         },
         {
@@ -98,85 +224,322 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "AN N EA 162"},
-            {"type": "course", "courseId": "ANTHRO 114P"},
-            {"type": "course", "courseId": "ANTHRO 162"},
-            {"type": "course", "courseId": "ANTHRO 168P"},
-            {"type": "course", "courseId": "ARABIC 120"},
-            {"type": "course", "courseId": "ART HIS CM115A"},
-            {"type": "course", "courseId": "ART HIS C120"},
-            {"type": "course", "courseId": "ART HIS 150A"},
-            {"type": "course", "courseId": "ART HIS 152A"},
-            {"type": "course", "courseId": "ART HIS 154A"},
-            {"type": "course", "courseId": "ART HIS 154B"},
-            {"type": "course", "courseId": "ART HIS 156"},
-            {"type": "course", "courseId": "ASIAN 151"},
-            {"type": "course", "courseId": "ASIAN 162"},
-            {"type": "course", "courseId": "CHIN 165"},
-            {"type": "course", "courseId": "CHIN C175"},
-            {"type": "course", "courseId": "CLASSIC 166A"},
-            {"type": "course", "courseId": "CLASSIC 166B"},
-            {"type": "course", "courseId": "CLASSIC M167"},
-            {"type": "course", "courseId": "ENGL 111A"},
-            {"type": "course", "courseId": "ENGL 111B"},
-            {"type": "course", "courseId": "ENGL 111C"},
-            {"type": "course", "courseId": "ENGL 145"},
-            {"type": "course", "courseId": "ENGL 156"},
-            {"type": "course", "courseId": "GREEK 130"},
-            {"type": "course", "courseId": "HEBREW 120"},
-            {"type": "course", "courseId": "HEBREW 130"},
-            {"type": "course", "courseId": "HIST 108A"},
-            {"type": "course", "courseId": "HIST 121B"},
-            {"type": "course", "courseId": "HIST 174A"},
-            {"type": "course", "courseId": "HIST M182C"},
-            {"type": "course", "courseId": "HIST 185B"},
-            {"type": "course", "courseId": "IRANIAN 170"},
-            {"type": "course", "courseId": "JAPAN 161"},
-            {"type": "course", "courseId": "JEWISH M150A"},
-            {"type": "course", "courseId": "KOREA 165"},
-            {"type": "course", "courseId": "KOREA 172"},
-            {"type": "course", "courseId": "PHILOS 100B"},
-            {"type": "course", "courseId": "PHILOS 104"},
-            {"type": "course", "courseId": "PHILOS 107"},
-            {"type": "course", "courseId": "PHILOS 155A"},
-            {"type": "course", "courseId": "RELIGN M105A"},
-            {"type": "course", "courseId": "RELIGN M105B"},
-            {"type": "course", "courseId": "RELIGN M105C"},
-            {"type": "course", "courseId": "RELIGN M106A"},
-            {"type": "course", "courseId": "RELIGN M107"},
-            {"type": "course", "courseId": "RELIGN M108"},
-            {"type": "course", "courseId": "RELIGN 110"},
-            {"type": "course", "courseId": "RELIGN 113"},
-            {"type": "course", "courseId": "RELIGN M115"},
-            {"type": "course", "courseId": "RELIGN M118B"},
-            {"type": "course", "courseId": "RELIGN M132"},
-            {"type": "course", "courseId": "RELIGN M133"},
-            {"type": "course", "courseId": "RELIGN M135"},
-            {"type": "course", "courseId": "RELIGN 140"},
-            {"type": "course", "courseId": "RELIGN M142C"},
-            {"type": "course", "courseId": "RELIGN M155"},
-            {"type": "course", "courseId": "RELIGN 156"},
-            {"type": "course", "courseId": "RELIGN 158"},
-            {"type": "course", "courseId": "RELIGN M161A"},
-            {"type": "course", "courseId": "RELIGN M161B"},
-            {"type": "course", "courseId": "RELIGN M161C"},
-            {"type": "course", "courseId": "RELIGN M161D"},
-            {"type": "course", "courseId": "RELIGN M172"},
-            {"type": "course", "courseId": "RELIGN M173C"},
-            {"type": "course", "courseId": "RELIGN M174D"},
-            {"type": "course", "courseId": "RELIGN M174E"},
-            {"type": "course", "courseId": "RELIGN M175"},
-            {"type": "course", "courseId": "RELIGN M178"},
-            {"type": "course", "courseId": "RELIGN M179"},
-            {"type": "course", "courseId": "RELIGN M182A"},
-            {"type": "course", "courseId": "RELIGN M182B"},
-            {"type": "course", "courseId": "RELIGN M184A"},
-            {"type": "course", "courseId": "RELIGN M185D"},
-            {"type": "course", "courseId": "RELIGN M186A"},
-            {"type": "course", "courseId": "RELIGN M186B"},
-            {"type": "course", "courseId": "RELIGN M186C"},
-            {"type": "course", "courseId": "WL ARTS C142"},
-            {"type": "course", "courseId": "WL ARTS C151"}
+            {
+              "type": "course",
+              "courseId": "AN N EA 162"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 114P"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 162"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 168P"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 120"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS CM115A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS C120"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 150A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 152A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 154A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 154B"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 156"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIAN 151"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIAN 162"
+            },
+            {
+              "type": "course",
+              "courseId": "CHIN 165"
+            },
+            {
+              "type": "course",
+              "courseId": "CHIN C175"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 166A"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 166B"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC M167"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 111A"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 111B"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 111C"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 145"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 156"
+            },
+            {
+              "type": "course",
+              "courseId": "GREEK 130"
+            },
+            {
+              "type": "course",
+              "courseId": "HEBREW 120"
+            },
+            {
+              "type": "course",
+              "courseId": "HEBREW 130"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 108A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 121B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 174A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M182C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 185B"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN 170"
+            },
+            {
+              "type": "course",
+              "courseId": "JAPAN 161"
+            },
+            {
+              "type": "course",
+              "courseId": "JEWISH M150A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 165"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 172"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 100B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 104"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 107"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 155A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M105A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M105B"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M105C"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M106A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M107"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M108"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 110"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 113"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M115"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M118B"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M132"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M133"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M135"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 140"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M142C"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M155"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 156"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 158"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M161A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M161B"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M161C"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M161D"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M172"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M173C"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M174D"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M174E"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M175"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M178"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M179"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M182A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M182B"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M184A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M185D"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M186A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M186B"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M186C"
+            },
+            {
+              "type": "course",
+              "courseId": "WL ARTS C142"
+            },
+            {
+              "type": "course",
+              "courseId": "WL ARTS C151"
+            }
           ]
         },
         {
@@ -185,92 +548,350 @@
           "description": "Select five additional courses from the theory and methods and religious ideas, practices, and institutions in contexts lists.",
           "needs": 5,
           "options": [
-            {"type": "course", "courseId": "ANTHRO 130"},
-            {"type": "course", "courseId": "ANTHRO 142P"},
-            {"type": "course", "courseId": "RELIGN 110"},
-            {"type": "course", "courseId": "RELIGN 120"},
-            {"type": "course", "courseId": "RELIGN 150"},
-            {"type": "course", "courseId": "RELIGN 160"},
-            {"type": "course", "courseId": "RELIGN 177"},
-            {"type": "course", "courseId": "RELIGN 180"},
-            {"type": "course", "courseId": "RELIGN M186C"},
-            {"type": "course", "courseId": "AN N EA 162"},
-            {"type": "course", "courseId": "ANTHRO 114P"},
-            {"type": "course", "courseId": "ANTHRO 162"},
-            {"type": "course", "courseId": "ANTHRO 168P"},
-            {"type": "course", "courseId": "ARABIC 120"},
-            {"type": "course", "courseId": "ART HIS CM115A"},
-            {"type": "course", "courseId": "ART HIS C120"},
-            {"type": "course", "courseId": "ART HIS 150A"},
-            {"type": "course", "courseId": "ART HIS 152A"},
-            {"type": "course", "courseId": "ART HIS 154A"},
-            {"type": "course", "courseId": "ART HIS 154B"},
-            {"type": "course", "courseId": "ART HIS 156"},
-            {"type": "course", "courseId": "ASIAN 151"},
-            {"type": "course", "courseId": "ASIAN 162"},
-            {"type": "course", "courseId": "CHIN 165"},
-            {"type": "course", "courseId": "CHIN C175"},
-            {"type": "course", "courseId": "CLASSIC 166A"},
-            {"type": "course", "courseId": "CLASSIC 166B"},
-            {"type": "course", "courseId": "CLASSIC M167"},
-            {"type": "course", "courseId": "ENGL 111A"},
-            {"type": "course", "courseId": "ENGL 111B"},
-            {"type": "course", "courseId": "ENGL 111C"},
-            {"type": "course", "courseId": "ENGL 145"},
-            {"type": "course", "courseId": "ENGL 156"},
-            {"type": "course", "courseId": "GREEK 130"},
-            {"type": "course", "courseId": "HEBREW 120"},
-            {"type": "course", "courseId": "HEBREW 130"},
-            {"type": "course", "courseId": "HIST 108A"},
-            {"type": "course", "courseId": "HIST 121B"},
-            {"type": "course", "courseId": "HIST 174A"},
-            {"type": "course", "courseId": "HIST M182C"},
-            {"type": "course", "courseId": "HIST 185B"},
-            {"type": "course", "courseId": "IRANIAN 170"},
-            {"type": "course", "courseId": "JAPAN 161"},
-            {"type": "course", "courseId": "JEWISH M150A"},
-            {"type": "course", "courseId": "KOREA 165"},
-            {"type": "course", "courseId": "KOREA 172"},
-            {"type": "course", "courseId": "PHILOS 100B"},
-            {"type": "course", "courseId": "PHILOS 104"},
-            {"type": "course", "courseId": "PHILOS 107"},
-            {"type": "course", "courseId": "PHILOS 155A"},
-            {"type": "course", "courseId": "RELIGN M105A"},
-            {"type": "course", "courseId": "RELIGN M105B"},
-            {"type": "course", "courseId": "RELIGN M105C"},
-            {"type": "course", "courseId": "RELIGN M106A"},
-            {"type": "course", "courseId": "RELIGN M107"},
-            {"type": "course", "courseId": "RELIGN M108"},
-            {"type": "course", "courseId": "RELIGN 113"},
-            {"type": "course", "courseId": "RELIGN M115"},
-            {"type": "course", "courseId": "RELIGN M118B"},
-            {"type": "course", "courseId": "RELIGN M132"},
-            {"type": "course", "courseId": "RELIGN M133"},
-            {"type": "course", "courseId": "RELIGN M135"},
-            {"type": "course", "courseId": "RELIGN 140"},
-            {"type": "course", "courseId": "RELIGN M142C"},
-            {"type": "course", "courseId": "RELIGN M155"},
-            {"type": "course", "courseId": "RELIGN 156"},
-            {"type": "course", "courseId": "RELIGN 158"},
-            {"type": "course", "courseId": "RELIGN M161A"},
-            {"type": "course", "courseId": "RELIGN M161B"},
-            {"type": "course", "courseId": "RELIGN M161C"},
-            {"type": "course", "courseId": "RELIGN M161D"},
-            {"type": "course", "courseId": "RELIGN M172"},
-            {"type": "course", "courseId": "RELIGN M173C"},
-            {"type": "course", "courseId": "RELIGN M174D"},
-            {"type": "course", "courseId": "RELIGN M174E"},
-            {"type": "course", "courseId": "RELIGN M175"},
-            {"type": "course", "courseId": "RELIGN M178"},
-            {"type": "course", "courseId": "RELIGN M179"},
-            {"type": "course", "courseId": "RELIGN M182A"},
-            {"type": "course", "courseId": "RELIGN M182B"},
-            {"type": "course", "courseId": "RELIGN M184A"},
-            {"type": "course", "courseId": "RELIGN M185D"},
-            {"type": "course", "courseId": "RELIGN M186A"},
-            {"type": "course", "courseId": "RELIGN M186B"},
-            {"type": "course", "courseId": "WL ARTS C142"},
-            {"type": "course", "courseId": "WL ARTS C151"}
+            {
+              "type": "course",
+              "courseId": "ANTHRO 130"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 142P"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 110"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 120"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 150"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 160"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 177"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 180"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M186C"
+            },
+            {
+              "type": "course",
+              "courseId": "AN N EA 162"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 114P"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 162"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 168P"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 120"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS CM115A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS C120"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 150A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 152A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 154A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 154B"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 156"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIAN 151"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIAN 162"
+            },
+            {
+              "type": "course",
+              "courseId": "CHIN 165"
+            },
+            {
+              "type": "course",
+              "courseId": "CHIN C175"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 166A"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 166B"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC M167"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 111A"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 111B"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 111C"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 145"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 156"
+            },
+            {
+              "type": "course",
+              "courseId": "GREEK 130"
+            },
+            {
+              "type": "course",
+              "courseId": "HEBREW 120"
+            },
+            {
+              "type": "course",
+              "courseId": "HEBREW 130"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 108A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 121B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 174A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M182C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 185B"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN 170"
+            },
+            {
+              "type": "course",
+              "courseId": "JAPAN 161"
+            },
+            {
+              "type": "course",
+              "courseId": "JEWISH M150A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 165"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 172"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 100B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 104"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 107"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 155A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M105A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M105B"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M105C"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M106A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M107"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M108"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 113"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M115"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M118B"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M132"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M133"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M135"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 140"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M142C"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M155"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 156"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 158"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M161A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M161B"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M161C"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M161D"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M172"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M173C"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M174D"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M174E"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M175"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M178"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M179"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M182A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M182B"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M184A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M185D"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M186A"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN M186B"
+            },
+            {
+              "type": "course",
+              "courseId": "WL ARTS C142"
+            },
+            {
+              "type": "course",
+              "courseId": "WL ARTS C151"
+            }
           ]
         },
         {
@@ -279,7 +900,10 @@
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "RELIGN 191"}
+            {
+              "type": "course",
+              "courseId": "RELIGN 191"
+            }
           ]
         }
       ]
@@ -295,9 +919,18 @@
           "description": "Take three courses of RELIGN 198.",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "RELIGN 198"},
-            {"type": "course", "courseId": "RELIGN 198"},
-            {"type": "course", "courseId": "RELIGN 198"}
+            {
+              "type": "course",
+              "courseId": "RELIGN 198"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 198"
+            },
+            {
+              "type": "course",
+              "courseId": "RELIGN 198"
+            }
           ]
         }
       ]

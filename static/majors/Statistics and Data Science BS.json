@@ -40,8 +40,7 @@
           "title": "Elective",
           "description": "Select one course from: Statistics 10 through 15",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -120,9 +119,8 @@
               "type": "group",
               "title": "Statistics Elective",
               "description": "Select from Statistics 112 through 199 (except courses 147, M148, 182, 184, 186, 188S, and 189).",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             }
           ]
         }

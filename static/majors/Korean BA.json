@@ -1,6 +1,6 @@
 {
   "name": "Korean BA",
-  "overview": "### **Overview**\n\n**Study Abroad**\nEarly acquisition of Asian language skills aids in the timely completion of major requirements and enriches appreciation of Asian cultures. Students are encouraged, therefore, to complete up to a year of language study in approved programs of study abroad.\n\n### **Learning Outcomes**\n\n1.  Demonstrated advanced knowledge of written and spoken Korean.\n2.  Broad knowledge of Korean history, literature, thoughts, and religions from the ancient to the modern era.\n3.  Engagement in critical comparisons of historical and other narratives.\n4.  Relation of historical and cultural developments in Korea with other countries in East Asia and beyond.\n5.  Discussion of the scholarly literature about a topic in an area of expertise.\n6.  Analysis of texts, cultural objects, and historical developments based on disciplinary knowledge.\n7.  Conduct research projects using primary and second source materials critically and persuasively.\n\n### **Entry to the Major**\n\n**Transfer Students**\nTransfer applicants to the Korean major with 90 or more units must complete as many of the following introductory courses as possible prior to admission to UCLA: two years of Korean and one Korean civilization course. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
+  "overview": "### **Overview**",
   "college": "College of Letters and Science",
   "department": "Asian Languages and Cultures",
   "degreeLevel": "Undergraduate",
@@ -17,9 +17,18 @@
           "description": "Select one course from the following, or complete an equivalent course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "KOREA 6"},
-            {"type": "course", "courseId": "KOREA 6A"},
-            {"type": "course", "courseId": "KOREA 10"}
+            {
+              "type": "course",
+              "courseId": "KOREA 6"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 6A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 10"
+            }
           ]
         },
         {
@@ -28,12 +37,30 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ASIAN 30"},
-            {"type": "course", "courseId": "KOREA 40"},
-            {"type": "course", "courseId": "KOREA 50"},
-            {"type": "course", "courseId": "KOREA M60"},
-            {"type": "course", "courseId": "KOREA 70"},
-            {"type": "course", "courseId": "KOREA 80"}
+            {
+              "type": "course",
+              "courseId": "ASIAN 30"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 40"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 50"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA M60"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 70"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 80"
+            }
           ]
         }
       ]
@@ -49,33 +76,114 @@
           "description": "Select five language courses from the following. Courses 101A, 101B, and 101C, or course 101I may be selected.",
           "needs": 5,
           "options": [
-            {"type": "course", "courseId": "KOREA 100A"},
-            {"type": "course", "courseId": "KOREA 100B"},
-            {"type": "course", "courseId": "KOREA 100C"},
-            {"type": "course", "courseId": "KOREA 101A"},
-            {"type": "course", "courseId": "KOREA 101B"},
-            {"type": "course", "courseId": "KOREA 101C"},
-            {"type": "course", "courseId": "KOREA 102A"},
-            {"type": "course", "courseId": "KOREA 102B"},
-            {"type": "course", "courseId": "KOREA 102C"},
-            {"type": "course", "courseId": "KOREA 103A"},
-            {"type": "course", "courseId": "KOREA 103B"},
-            {"type": "course", "courseId": "KOREA 103C"},
-            {"type": "course", "courseId": "KOREA 104"},
-            {"type": "course", "courseId": "KOREA C105A"},
-            {"type": "course", "courseId": "KOREA C105B"},
-            {"type": "course", "courseId": "KOREA C105C"},
-            {"type": "course", "courseId": "KOREA 106A"},
-            {"type": "course", "courseId": "KOREA 106B"},
-            {"type": "course", "courseId": "KOREA 106C"},
-            {"type": "course", "courseId": "KOREA 107A"},
-            {"type": "course", "courseId": "KOREA 107B"},
-            {"type": "course", "courseId": "KOREA 107C"},
-            {"type": "course", "courseId": "KOREA CM120"},
-            {"type": "course", "courseId": "KOREA 124"},
-            {"type": "course", "courseId": "KOREA 165"},
-            {"type": "course", "courseId": "KOREA 176"},
-            {"type": "course", "courseId": "KOREA 178"}
+            {
+              "type": "course",
+              "courseId": "KOREA 100A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 100B"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 100C"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 101A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 101B"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 101C"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 102A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 102B"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 102C"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 103A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 103B"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 103C"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 104"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA C105A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA C105B"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA C105C"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 106A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 106B"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 106C"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 107A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 107B"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 107C"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA CM120"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 124"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 165"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 176"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 178"
+            }
           ]
         },
         {
@@ -84,10 +192,22 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "KOREA 130A"},
-            {"type": "course", "courseId": "KOREA 130B"},
-            {"type": "course", "courseId": "KOREA C150"},
-            {"type": "course", "courseId": "KOREA C151"}
+            {
+              "type": "course",
+              "courseId": "KOREA 130A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 130B"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA C150"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA C151"
+            }
           ]
         },
         {
@@ -96,28 +216,94 @@
           "description": "Select three elective courses on Korea from the following list or from the Korean language or literature course lists if not used to fulfill another requirement:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "KOREA CM127"},
-            {"type": "course", "courseId": "KOREA C149"},
-            {"type": "course", "courseId": "KOREA 154"},
-            {"type": "course", "courseId": "KOREA 155"},
-            {"type": "course", "courseId": "KOREA CM160"},
-            {"type": "course", "courseId": "KOREA 165"},
-            {"type": "course", "courseId": "KOREA 172"},
-            {"type": "course", "courseId": "KOREA 175"},
-            {"type": "course", "courseId": "KOREA C177"},
-            {"type": "course", "courseId": "KOREA 180A"},
-            {"type": "course", "courseId": "KOREA 180B"},
-            {"type": "course", "courseId": "KOREA 180C"},
-            {"type": "course", "courseId": "KOREA 181"},
-            {"type": "course", "courseId": "KOREA 182"},
-            {"type": "course", "courseId": "KOREA 183"},
-            {"type": "course", "courseId": "KOREA 184A"},
-            {"type": "course", "courseId": "KOREA 184B"},
-            {"type": "course", "courseId": "KOREA 185"},
-            {"type": "course", "courseId": "KOREA M186"},
-            {"type": "course", "courseId": "KOREA 187"},
-            {"type": "course", "courseId": "KOREA 191A"},
-            {"type": "course", "courseId": "KOREA 191B"}
+            {
+              "type": "course",
+              "courseId": "KOREA CM127"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA C149"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 154"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 155"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA CM160"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 165"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 172"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 175"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA C177"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 180A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 180B"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 180C"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 181"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 182"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 183"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 184A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 184B"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 185"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA M186"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 187"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 191A"
+            },
+            {
+              "type": "course",
+              "courseId": "KOREA 191B"
+            }
           ]
         },
         {
@@ -125,21 +311,20 @@
           "title": "Additional Upper-Division Elective Courses within the Department (Outside Korea)",
           "description": "Complete two additional upper-division elective courses within the department but outside Korea.",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
     {
       "id": "honors",
       "title": "Honors Program",
-      "description": "The honors program is a three-term sequence (Asian 198A-198B-198C), taken in addition to requirements for the major, that culminates in the submission of a 40- to 60-page thesis. In most circumstances courses 198A-198B-198C are taken in the senior year (fall, winter, and spring quarters), although students also have the option of taking course 198A in spring quarter of their junior year. Students are expected to use an Asian language in their research, with the scope of language work to be determined in consultation with their faculty adviser.\n\n**Admission**\nThe honors program is open to majors with a 3.5 grade-point average in upper-division courses in the major and a 3.0 overall GPA. Students should apply for admission by spring quarter of their junior year and, at the time of admission, must have completed at least two upper-division courses in their major. For application forms and more information, contact the departmental undergraduate adviser.\n\n**Requirements**\nHighest honors, honors, or no honors are awarded as determined by the faculty thesis director and the departmental honors committee.\n\n*   To qualify for graduation with departmental **honors**, students must (1) complete all requirements for the major, (2) have a cumulative grade-point average of 3.5 or better in upper-division courses required for the major and an overall GPA of 3.0 or better, and (3) complete Asian 198A-198B-198C.\n*   To qualify for graduation with departmental **highest honors**, students must (1) complete all requirements for the major, (2) have a cumulative grade-point average of 3.8 or better in upper-division courses required for the major and an overall GPA of 3.5 or better, and (3) complete Asian 198A-198B-198C with a grade of A in each course.",
+      "description": "The honors program is a three-term sequence (Asian 198A-198B-198C), taken in addition to requirements for the major, that culminates in the submission of a 40- to 60-page thesis. In most circumstances courses 198A-198B-198C are taken in the senior year (fall, winter, and spring quarters), although students also have the option of taking course 198A in spring quarter of their junior year. Students are expected to use an Asian language in their research, with the scope of language work to be determined in consultation with their faculty adviser.",
       "requirements": [
         {
           "type": "group",
           "title": "Honors Program Participation",
           "description": "The honors program is optional and requires admission (see section description for details).",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -147,9 +332,18 @@
               "description": "Complete the three-term honors research sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "ASIAN 198A"},
-                {"type": "course", "courseId": "ASIAN 198B"},
-                {"type": "course", "courseId": "ASIAN 198C"}
+                {
+                  "type": "course",
+                  "courseId": "ASIAN 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIAN 198B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIAN 198C"
+                }
               ]
             }
           ]

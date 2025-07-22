@@ -60,13 +60,34 @@
           "description": "Select six courses from:",
           "needs": 6,
           "options": [
-            {"type": "course", "courseId": "DESMA 152"},
-            {"type": "course", "courseId": "DESMA 153"},
-            {"type": "course", "courseId": "DESMA 154"},
-            {"type": "course", "courseId": "DESMA 156"},
-            {"type": "course", "courseId": "DESMA 157"},
-            {"type": "course", "courseId": "DESMA 161"},
-            {"type": "course", "courseId": "DESMA 163"}
+            {
+              "type": "course",
+              "courseId": "DESMA 152"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 153"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 154"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 156"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 157"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 161"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 163"
+            }
           ]
         },
         {
@@ -75,10 +96,22 @@
           "description": "Select three courses from:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "DESMA 160"},
-            {"type": "course", "courseId": "DESMA 171"},
-            {"type": "course", "courseId": "DESMA 172"},
-            {"type": "course", "courseId": "DESMA 173"}
+            {
+              "type": "course",
+              "courseId": "DESMA 160"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 171"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 172"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 173"
+            }
           ]
         },
         {
@@ -87,9 +120,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "DESMA 159A"},
-            {"type": "course", "courseId": "DESMA 159B"},
-            {"type": "course", "courseId": "DESMA 159C"}
+            {
+              "type": "course",
+              "courseId": "DESMA 159A"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 159B"
+            },
+            {
+              "type": "course",
+              "courseId": "DESMA 159C"
+            }
           ]
         }
       ]

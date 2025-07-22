@@ -5,8 +5,6 @@ import { error } from '@sveltejs/kit';
 export const load = async ({ params, fetch }: { params: { majorId: string }, fetch: typeof globalThis.fetch }) => {
 	const { majorId } = params;
 	
-	console.log('Loading major with majorId:', majorId);
-	
 	if (!majorId) {
 		throw error(400, 'Major ID is required');
 	}

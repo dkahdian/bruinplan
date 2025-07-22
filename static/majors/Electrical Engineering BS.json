@@ -1,6 +1,6 @@
 {
   "name": "Electrical Engineering BS",
-  "overview": "The undergraduate curriculum provides all Electrical Engineering majors with preparation in the mathematical and scientific disciplines that lead to a set of courses that span the fundamentals of the three major departmental areas of signals and systems, circuits and embedded systems, and physical wave electronics. These collectively provide an understanding of inventions of importance to society, such as integrated circuits, embedded systems, photonic devices, automatic computation and control, and telecommunication devices and systems.\n\nStudents are encouraged to make use of their electrical engineering electives and a two-term capstone design course to pursue deeper knowledge within one of these areas according to their interests, whether for graduate study or preparation for employment. See the department website for examples of specializations.\n\nThe Electrical Engineering major is accredited by the Engineering Accreditation Commission of ABET.\n\nThe Electrical Engineering major is a designated capstone major. Undergraduate students complete a design course in which they integrate their knowledge of the discipline and engage in creative design within realistic and professional constraints. Students apply their knowledge and expertise gained in previous mathematics, science, and engineering coursework. Within a multidisciplinary team structure, students identify, formulate, and solve engineering problems and present their projects to the class.\n\nLearning Outcomes:\n1. Application of knowledge of mathematics, science, and engineering.\n2. Design of a system, component, or process to meet desired needs within realistic constraints.\n3. Function as a productive member of a multidisciplinary team.\n4. Effective communication.\n5. Identification, formulation, and solution of electrical engineering problems.",
+  "overview": "The undergraduate curriculum provides all Electrical Engineering majors with preparation in the mathematical and scientific disciplines that lead to a set of courses that span the fundamentals of the three major departmental areas of signals and systems, circuits and embedded systems, and physical wave electronics. These collectively provide an understanding of inventions of importance to society, such as integrated circuits, embedded systems, photonic devices, automatic computation and control, and telecommunication devices and systems.",
   "college": "Samueli School of Engineering",
   "department": "Electrical and Computer Engineering",
   "degreeLevel": "Undergraduate",
@@ -89,8 +89,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COM SCI M51A"},
-            {"type": "course", "courseId": "EC ENGR M16"}
+            {
+              "type": "course",
+              "courseId": "COM SCI M51A"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR M16"
+            }
           ]
         }
       ]
@@ -106,12 +112,30 @@
           "description": "Complete the following six courses:",
           "needs": 6,
           "options": [
-            {"type": "course", "courseId": "EC ENGR 101A"},
-            {"type": "course", "courseId": "EC ENGR 102"},
-            {"type": "course", "courseId": "EC ENGR 110"},
-            {"type": "course", "courseId": "EC ENGR 111L"},
-            {"type": "course", "courseId": "EC ENGR 113"},
-            {"type": "course", "courseId": "EC ENGR 131A"}
+            {
+              "type": "course",
+              "courseId": "EC ENGR 101A"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 102"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 110"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 111L"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 113"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 131A"
+            }
           ]
         },
         {
@@ -120,14 +144,38 @@
           "description": "Select six core courses from:",
           "needs": 6,
           "options": [
-            {"type": "course", "courseId": "COM SCI 33"},
-            {"type": "course", "courseId": "EC ENGR 101B"},
-            {"type": "course", "courseId": "EC ENGR 115A"},
-            {"type": "course", "courseId": "EC ENGR 121B"},
-            {"type": "course", "courseId": "EC ENGR 132A"},
-            {"type": "course", "courseId": "EC ENGR 133A"},
-            {"type": "course", "courseId": "EC ENGR 141"},
-            {"type": "course", "courseId": "EC ENGR 170A"}
+            {
+              "type": "course",
+              "courseId": "COM SCI 33"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 101B"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 115A"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 121B"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 132A"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 133A"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 141"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 170A"
+            }
           ]
         },
         {
@@ -135,24 +183,21 @@
           "title": "Technical Breadth",
           "description": "Complete three technical breadth courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Upper-Division Electrical and Computer Engineering Electives",
-          "description": "Complete twelve units of major field elective courses, at least 8 of which must be upper-division electrical and computer engineering courses\u2014the remaining 4 units may be from upper-division electrical and computer engineering courses or from another engineering school department. Electrical and Computer Engineering 100 and CM182 may not satisfy elective credit.",
+          "description": "Complete twelve units of major field elective courses, at least 8 of which must be upper-division electrical and computer engineering courses—the remaining 4 units may be from upper-division electrical and computer engineering courses or from another engineering school department. Electrical and Computer Engineering 100 and CM182 may not satisfy elective credit.",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Capstone Design",
           "description": "Complete one two-term electrical and computer engineering capstone design course (8 units).",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     }

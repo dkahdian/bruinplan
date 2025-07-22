@@ -17,38 +17,134 @@
           "description": "Select two history survey courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "HIST 1A"},
-            {"type": "course", "courseId": "HIST 1B"},
-            {"type": "course", "courseId": "HIST 1C"},
-            {"type": "course", "courseId": "HIST 2B"},
-            {"type": "course", "courseId": "HIST 2C"},
-            {"type": "course", "courseId": "HIST 3A"},
-            {"type": "course", "courseId": "HIST 3B"},
-            {"type": "course", "courseId": "HIST 3C"},
-            {"type": "course", "courseId": "HIST 3D"},
-            {"type": "course", "courseId": "HIST M4"},
-            {"type": "course", "courseId": "HIST 5"},
-            {"type": "course", "courseId": "HIST 8A"},
-            {"type": "course", "courseId": "HIST 8B"},
-            {"type": "course", "courseId": "HIST 8C"},
-            {"type": "course", "courseId": "HIST 9A"},
-            {"type": "course", "courseId": "HIST 9C"},
-            {"type": "course", "courseId": "HIST 9D"},
-            {"type": "course", "courseId": "HIST 9E"},
-            {"type": "course", "courseId": "HIST M10A"},
-            {"type": "course", "courseId": "HIST 10B"},
-            {"type": "course", "courseId": "HIST 11A"},
-            {"type": "course", "courseId": "HIST 11B"},
-            {"type": "course", "courseId": "HIST 12A"},
-            {"type": "course", "courseId": "HIST 12B"},
-            {"type": "course", "courseId": "HIST 12C"},
-            {"type": "course", "courseId": "HIST 13A"},
-            {"type": "course", "courseId": "HIST 13B"},
-            {"type": "course", "courseId": "HIST 13C"},
-            {"type": "course", "courseId": "HIST 14"},
-            {"type": "course", "courseId": "HIST 20"},
-            {"type": "course", "courseId": "HIST 21"},
-            {"type": "course", "courseId": "HIST 22"}
+            {
+              "type": "course",
+              "courseId": "HIST 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 1B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 1C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 2B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 2C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 3A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 3B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 3C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 3D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M4"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 5"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 8A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 8B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 8C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9E"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M10A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 10B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 11A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 11B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 12A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 12B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 12C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 13A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 13B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 13C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 14"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 20"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 21"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 22"
+            }
           ]
         },
         {
@@ -70,8 +166,7 @@
               "title": "Introduction to Historical Practice Series",
               "description": "Any course from History 97A through 97O",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             }
           ]
         },
@@ -80,8 +175,7 @@
           "title": "Additional Lower-Division History Courses",
           "description": "Select three additional lower-division history courses (except History 19, 89, 89HC, and 99).",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -95,40 +189,35 @@
           "title": "U.S. History",
           "description": "Two courses in U.S. history.",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Non-Western History",
           "description": "Two courses in non-Western history from the same area (i.e., Latin America, Asia, Near East, Africa).",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "European History or History of Science",
           "description": "Two courses in European history or in history of science.",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Topics in Historiography",
           "description": "One course from History 187A through C187R.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Capstone",
           "description": "One capstone seminar from the History 191 series.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -143,79 +232,298 @@
           "description": "Select one course from this list. This course will also fulfill a requirement in the Preparation or Major sections.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "HIST 1A"},
-            {"type": "course", "courseId": "HIST 1B"},
-            {"type": "course", "courseId": "HIST 2C"},
-            {"type": "course", "courseId": "HIST 3A"},
-            {"type": "course", "courseId": "HIST 8A"},
-            {"type": "course", "courseId": "HIST 9A"},
-            {"type": "course", "courseId": "HIST 9C"},
-            {"type": "course", "courseId": "HIST 9D"},
-            {"type": "course", "courseId": "HIST M10A"},
-            {"type": "course", "courseId": "HIST 11A"},
-            {"type": "course", "courseId": "HIST 11B"},
-            {"type": "course", "courseId": "HIST 14"},
-            {"type": "course", "courseId": "HIST 20"},
-            {"type": "course", "courseId": "HIST 21"},
-            {"type": "course", "courseId": "HIST 102A"},
-            {"type": "course", "courseId": "HIST M103A"},
-            {"type": "course", "courseId": "HIST M103B"},
-            {"type": "course", "courseId": "HIST M104A"},
-            {"type": "course", "courseId": "HIST M104B"},
-            {"type": "course", "courseId": "HIST M104C"},
-            {"type": "course", "courseId": "HIST M104D"},
-            {"type": "course", "courseId": "HIST 105A"},
-            {"type": "course", "courseId": "HIST 105B"},
-            {"type": "course", "courseId": "HIST M106"},
-            {"type": "course", "courseId": "HIST 107A"},
-            {"type": "course", "courseId": "HIST 107B"},
-            {"type": "course", "courseId": "HIST 108A"},
-            {"type": "course", "courseId": "HIST 108B"},
-            {"type": "course", "courseId": "HIST M110A"},
-            {"type": "course", "courseId": "HIST M110B"},
-            {"type": "course", "courseId": "HIST M110C"},
-            {"type": "course", "courseId": "HIST 111A"},
-            {"type": "course", "courseId": "HIST 111B"},
-            {"type": "course", "courseId": "HIST 121A"},
-            {"type": "course", "courseId": "HIST 121B"},
-            {"type": "course", "courseId": "HIST 122A"},
-            {"type": "course", "courseId": "HIST 122B"},
-            {"type": "course", "courseId": "HIST 122C"},
-            {"type": "course", "courseId": "HIST 124A"},
-            {"type": "course", "courseId": "HIST 125D"},
-            {"type": "course", "courseId": "HIST M127A"},
-            {"type": "course", "courseId": "HIST 128A"},
-            {"type": "course", "courseId": "HIST 128B"},
-            {"type": "course", "courseId": "HIST 129A"},
-            {"type": "course", "courseId": "HIST 130"},
-            {"type": "course", "courseId": "HIST M133A"},
-            {"type": "course", "courseId": "HIST 135A"},
-            {"type": "course", "courseId": "HIST 136A"},
-            {"type": "course", "courseId": "HIST 157A"},
-            {"type": "course", "courseId": "HIST 157B"},
-            {"type": "course", "courseId": "HIST 162B"},
-            {"type": "course", "courseId": "HIST 164B"},
-            {"type": "course", "courseId": "HIST 166A"},
-            {"type": "course", "courseId": "HIST 167A"},
-            {"type": "course", "courseId": "HIST 167B"},
-            {"type": "course", "courseId": "HIST 168A"},
-            {"type": "course", "courseId": "HIST 169A"},
-            {"type": "course", "courseId": "HIST 170A"},
-            {"type": "course", "courseId": "HIST M170C"},
-            {"type": "course", "courseId": "HIST 172A"},
-            {"type": "course", "courseId": "HIST 172B"},
-            {"type": "course", "courseId": "HIST M173C"},
-            {"type": "course", "courseId": "HIST 174A"},
-            {"type": "course", "courseId": "HIST M174D"},
-            {"type": "course", "courseId": "HIST 176A"},
-            {"type": "course", "courseId": "HIST 176E"},
-            {"type": "course", "courseId": "HIST M182A"},
-            {"type": "course", "courseId": "HIST M182B"},
-            {"type": "course", "courseId": "HIST M185D"},
-            {"type": "course", "courseId": "HIST M185F"},
-            {"type": "course", "courseId": "HIST M185G"},
-            {"type": "course", "courseId": "HIST M185I"},
-            {"type": "course", "courseId": "HIST M186A"}
+            {
+              "type": "course",
+              "courseId": "HIST 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 1B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 2C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 3A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 8A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 9D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M10A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 11A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 11B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 14"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 20"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 21"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 102A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M103A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M103B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M104A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M104B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M104C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M104D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 105A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 105B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M106"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 107A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 107B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 108A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 108B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M110A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M110B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M110C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 111A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 111B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 121A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 121B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 122A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 122B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 122C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 124A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 125D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M127A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 128A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 128B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 129A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 130"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M133A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 135A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 136A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 157A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 157B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 162B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 164B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 166A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 167A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 167B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 168A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 169A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 170A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M170C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 172A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 172B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M173C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 174A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M174D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 176A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 176E"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M182A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M182B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M185D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M185F"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M185G"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M185I"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M186A"
+            }
           ]
         }
       ]
@@ -229,7 +537,7 @@
           "type": "group",
           "title": "Honors Thesis Track (Optional)",
           "description": "Choose to complete the Honors Program.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -237,9 +545,18 @@
               "description": "The honors thesis must be completed in three terms by taking the following courses:",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "HIST 198A"},
-                {"type": "course", "courseId": "HIST 198B"},
-                {"type": "course", "courseId": "HIST 198C"}
+                {
+                  "type": "course",
+                  "courseId": "HIST 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 198B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 198C"
+                }
               ]
             }
           ]

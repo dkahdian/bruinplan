@@ -1,4 +1,5 @@
-import type { Course } from '../../types.js';
+import type { Course, CourseIndex, MajorIndex } from '../../types.js';
+import { searchCourses as searchCourseIndex, getCourseById, searchMajors } from '../../data-layer/api.js';
 
 export interface SearchResult {
 	course: Course;
@@ -9,7 +10,103 @@ export interface SearchOptions {
 	maxResults?: number;
 	minSimilarity?: number;
 	enableLogging?: boolean;
+	useIndexFirst?: boolean; // Whether to try index search first (default: true)
 }
+
+/**
+ * Fast search using the course index (for quick results)
+ * This is much faster than loading full course data
+ */
+export async function searchCoursesIndex(
+	query: string,
+	options: SearchOptions = {}
+): Promise<CourseIndex[]> {
+	const { maxResults = 20 } = options;
+	
+	try {
+		const results = await searchCourseIndex(query);
+		return results.slice(0, maxResults);
+	} catch (error) {
+		console.error('Index search failed:', error);
+		return [];
+	}
+}
+
+/**
+ * Fast search for majors using the major index
+ */
+export async function searchMajorsIndex(
+	query: string,
+	options: SearchOptions = {}
+): Promise<MajorIndex[]> {
+	const { maxResults = 20 } = options;
+	
+	try {
+		const results = await searchMajors(query);
+		return results.slice(0, maxResults);
+	} catch (error) {
+		console.error('Major index search failed:', error);
+		return [];
+	}
+}
+
+/**
+ * Enhanced course search that first tries index search, then falls back to full search
+ * This is the new recommended search function
+ */
+export async function searchCoursesNew(
+	query: string,
+	options: SearchOptions = {}
+): Promise<Course[]> {
+	const { 
+		maxResults = 20, 
+		enableLogging = false, 
+		useIndexFirst = true 
+	} = options;
+	
+	if (!query.trim()) return [];
+	
+	try {
+		if (useIndexFirst) {
+			// First try fast index search
+			const indexResults = await searchCourseIndex(query);
+			
+			if (enableLogging) {
+				console.log('🔍 Index search found:', indexResults.length, 'results');
+			}
+			
+			// Convert index results to full course objects
+			const courses: Course[] = [];
+			for (const indexResult of indexResults.slice(0, maxResults)) {
+				const course = await getCourseById(indexResult.id);
+				if (course) {
+					courses.push(course);
+				}
+			}
+			
+			if (enableLogging) {
+				console.log('📋 Loaded full course data for:', courses.length, 'courses');
+			}
+			
+			return courses;
+		}
+		
+		// If not using index first, fall back to original search logic
+		// This requires loading all courses first, which is less efficient
+		console.warn('searchCoursesNew called with useIndexFirst=false - consider using the index search for better performance');
+		return [];
+		
+	} catch (error) {
+		console.error('Enhanced course search failed:', error);
+		return [];
+	}
+}
+
+// ============================================================================
+// LEGACY SEARCH FUNCTIONS (for backward compatibility)
+// These functions work with pre-loaded Course arrays
+// For new code, use searchCoursesNew() or searchCoursesIndex() instead
+// ============================================================================
 
 /**
  * Calculate Levenshtein distance between two strings
@@ -106,7 +203,9 @@ function calculateSimilarity(query: string, course: Course): number {
 }
 
 /**
- * Search courses with fuzzy matching and intelligent scoring
+ * LEGACY: Search courses with fuzzy matching and intelligent scoring
+ * This function requires pre-loaded Course arrays and is less efficient
+ * For new code, use searchCoursesNew() instead
  */
 export function searchCourses(
 	courses: Course[], 

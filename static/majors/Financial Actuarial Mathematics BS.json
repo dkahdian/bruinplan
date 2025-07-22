@@ -23,8 +23,14 @@
               "description": "Select Mathematics 31A or 31AL.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "MATH 31A"},
-                {"type": "course", "courseId": "MATH 31AL"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 31A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31AL"
+                }
               ]
             },
             {
@@ -55,10 +61,22 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 11N"},
-            {"type": "course", "courseId": "MATH 42"},
-            {"type": "course", "courseId": "MATH 61"},
-            {"type": "course", "courseId": "MATH 70"}
+            {
+              "type": "course",
+              "courseId": "MATH 11N"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 42"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 61"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 70"
+            }
           ]
         },
         {
@@ -67,9 +85,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "ECON 1"},
-            {"type": "course", "courseId": "ECON 2"},
-            {"type": "course", "courseId": "ECON 11"}
+            {
+              "type": "course",
+              "courseId": "ECON 1"
+            },
+            {
+              "type": "course",
+              "courseId": "ECON 2"
+            },
+            {
+              "type": "course",
+              "courseId": "ECON 11"
+            }
           ]
         },
         {
@@ -92,8 +119,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "COMPTNG 10B"},
-                {"type": "course", "courseId": "COMPTNG 16A"}
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 16A"
+                }
               ]
             }
           ]
@@ -153,9 +186,18 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "MATH 174E"},
-                {"type": "course", "courseId": "ECON 141"},
-                {"type": "course", "courseId": "STATS C183"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 174E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ECON 141"
+                },
+                {
+                  "type": "course",
+                  "courseId": "STATS C183"
+                }
               ]
             }
           ]
@@ -163,23 +205,22 @@
         {
           "type": "group",
           "title": "Electives",
-          "description": "Select two courses from:\n- Economics: Select from Economics 101 through 199B.\n- Mathematics: Select from Mathematics 106 through 199.\n- Statistics: STATS 100C - Linear Models",
+          "description": "Select two courses from:",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
     {
       "id": "computing_specialization",
       "title": "Computing Specialization",
-      "description": "Majors may select a specialization in Computing by satisfying all the requirements for a bachelor\u2019s degree in the specified major and completing the specified courses.",
+      "description": "Majors may select a specialization in Computing by satisfying all the requirements for a bachelor’s degree in the specified major and completing the specified courses.",
       "requirements": [
         {
           "type": "group",
           "title": "Computing Specialization",
           "description": "Choose this specialization (optional)",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -193,8 +234,14 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "MATH 61"},
-                    {"type": "course", "courseId": "MATH 180"}
+                    {
+                      "type": "course",
+                      "courseId": "MATH 61"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MATH 180"
+                    }
                   ]
                 },
                 {
@@ -211,11 +258,26 @@
                   "description": "Select two courses from:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "COMPTNG 10C"},
-                    {"type": "course", "courseId": "COMPTNG 15"},
-                    {"type": "course", "courseId": "COMPTNG 16A"},
-                    {"type": "course", "courseId": "COMPTNG 20A"},
-                    {"type": "course", "courseId": "COMPTNG 40A"}
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 15"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 16A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 20A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 40A"
+                    }
                   ]
                 },
                 {
@@ -223,8 +285,7 @@
                   "title": "Mathematics Electives",
                   "description": "Select two courses from Mathematics 149 through 159.",
                   "needs": 2,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             }

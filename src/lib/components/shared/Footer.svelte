@@ -1,4 +1,4 @@
-<footer class="bg-gray-900 text-white py-12 mt-20">
+<footer class="bg-gray-900 text-white py-12 mt-10">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="text-center">
 			<h3 class="text-2xl font-bold mb-4">BruinPlan</h3>

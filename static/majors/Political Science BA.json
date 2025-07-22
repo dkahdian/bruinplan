@@ -17,11 +17,26 @@
           "description": "Select four courses from the following:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "POL SCI 10"},
-            {"type": "course", "courseId": "POL SCI 20"},
-            {"type": "course", "courseId": "POL SCI 30"},
-            {"type": "course", "courseId": "POL SCI 40"},
-            {"type": "course", "courseId": "POL SCI 50"}
+            {
+              "type": "course",
+              "courseId": "POL SCI 10"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 20"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 30"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 40"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 50"
+            }
           ]
         },
         {
@@ -30,9 +45,18 @@
           "description": "Complete one of the following courses (Statistics 10 or 12 may be substituted for POL SCI 6):",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "POL SCI 6"},
-            {"type": "course", "courseId": "STATS 10"},
-            {"type": "course", "courseId": "STATS 12"}
+            {
+              "type": "course",
+              "courseId": "POL SCI 6"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 10"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 12"
+            }
           ]
         }
       ]
@@ -47,8 +71,7 @@
           "title": "Upper-Division Courses",
           "description": "Select 10 courses from Political Science M105 through 199.",
           "needs": 10,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -61,9 +84,12 @@
           "type": "group",
           "title": "Honors Thesis",
           "description": "Complete the senior thesis requirement. This is an optional program for eligible students.",
-          "needs": 0,
+          "needs": 1,
           "options": [
-            {"type": "course", "courseId": "POL SCI 191H"}
+            {
+              "type": "course",
+              "courseId": "POL SCI 191H"
+            }
           ]
         }
       ]

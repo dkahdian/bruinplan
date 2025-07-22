@@ -7,18 +7,10 @@
   "degreeObjective": "Bachelor of Music (BM)",
   "sections": [
     {
-      "id": "learning-outcomes",
-      "title": "Learning Outcomes",
-      "description": "Upon completion of the major, students will have:\n1.  Demonstrated artistic proficiency on a primary instrument or in voice.\n2.  Demonstrated excellent aural musicianship skills and a working knowledge of music theory and music history.\n3.  Demonstrated artistic proficiency and flexibility as a performer and collaborator in varied settings, including chamber ensembles and large conducted ensembles.\n4.  Demonstrated knowledge of history and performance repertoire for a primary instrument or voice and representative works for chamber and large conducted ensembles from the major periods of Western classical music, including contemporary compositions.\n5.  Demonstrated ability to apply knowledge of compositional form, historical context, performance practices, extended techniques, nontraditional notation, and current issues to the performance of Western classical music.\n6.  Demonstrated knowledge about genres other than Western classical music or the scholarly study of music and/or the business practices associated with the music industry.\n7.  Conception, preparation, and performance of a public solo recital of Western classical music, including a printed program and program notes.",
-      "requirements": [
-      ]
-    },
-    {
       "id": "entry-to-the-major",
       "title": "Entry to the Major",
       "description": "Applicants are required to audition in their principal performance medium and interview with the music performance faculty.",
-      "requirements": [
-      ]
+      "requirements": []
     },
     {
       "id": "preparation",
@@ -28,12 +20,21 @@
         {
           "type": "group",
           "title": "Musicianship",
-          "description": "Complete the following courses with grades of C\u2013 or better:",
+          "description": "Complete the following courses with grades of C– or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC M6A"},
-            {"type": "course", "courseId": "MUSC M6B"},
-            {"type": "course", "courseId": "MUSC M6C"}
+            {
+              "type": "course",
+              "courseId": "MUSC M6A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC M6B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC M6C"
+            }
           ]
         },
         {
@@ -48,9 +49,18 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MUSC 20A"},
-                {"type": "course", "courseId": "MUSC 20B"},
-                {"type": "course", "courseId": "MUSC 20C"}
+                {
+                  "type": "course",
+                  "courseId": "MUSC 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 20B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 20C"
+                }
               ]
             },
             {
@@ -59,9 +69,18 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MUSC 21A"},
-                {"type": "course", "courseId": "MUSC 21B"},
-                {"type": "course", "courseId": "MUSC 21C"}
+                {
+                  "type": "course",
+                  "courseId": "MUSC 21A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 21B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 21C"
+                }
               ]
             }
           ]
@@ -83,24 +102,21 @@
                   "title": "Instrumental Studio (12 units)",
                   "description": "Select from MUSC 60A-J.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Chamber Ensembles (4 units)",
                   "description": "Select from MUSC C175A-G.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Large Conducted Ensembles (12 units)",
                   "description": "Select from MUSC C185D-H.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             },
@@ -115,24 +131,21 @@
                   "title": "Instrumental Studio (12 units)",
                   "description": "Select from MUSC 60S, 60T, 60U.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Chamber Ensembles, Keyboard Literature, and Accompanying (8 units)",
                   "description": "Select from MUSC C171, C175A-G, C186A.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Large Conducted Ensembles (6 units)",
                   "description": "Select from MUSC C185A-H.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             },
@@ -147,24 +160,21 @@
                   "title": "Instrumental Studio (12 units)",
                   "description": "Select from MUSC 60K-R.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Chamber Ensembles (6 units)",
                   "description": "Select from MUSC C175A-G.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Large Conducted Ensembles (12 units)",
                   "description": "Select from MUSC C185D, C185E.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             },
@@ -179,8 +189,7 @@
                   "title": "Voice Studio and Voice Coaching (18 units)",
                   "description": "Select from MUSC 61A, 61B.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
@@ -188,9 +197,18 @@
                   "description": "Complete MUSC 74A, 74B, and 74C.",
                   "needs": 3,
                   "options": [
-                    {"type": "course", "courseId": "MUSC 74A"},
-                    {"type": "course", "courseId": "MUSC 74B"},
-                    {"type": "course", "courseId": "MUSC 74C"}
+                    {
+                      "type": "course",
+                      "courseId": "MUSC 74A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MUSC 74B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MUSC 74C"
+                    }
                   ]
                 },
                 {
@@ -198,16 +216,14 @@
                   "title": "Large Conducted Ensembles (12 units)",
                   "description": "Select from MUSC C185A, C185B, C185C.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Language",
-                  "description": "Complete one college year\u2014or at least one course at level three\u2014of French, German, Italian, or Spanish.",
+                  "description": "Complete one college year—or at least one course at level three—of French, German, Italian, or Spanish.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             }
@@ -226,9 +242,18 @@
           "description": "Complete the following series with grades of C or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC 120A"},
-            {"type": "course", "courseId": "MUSC 120B"},
-            {"type": "course", "courseId": "MUSC 120C"}
+            {
+              "type": "course",
+              "courseId": "MUSC 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 120B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 120C"
+            }
           ]
         },
         {
@@ -237,9 +262,18 @@
           "description": "Complete the following series with grades of C or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC 102A"},
-            {"type": "course", "courseId": "MUSC 102B"},
-            {"type": "course", "courseId": "MUSC 102C"}
+            {
+              "type": "course",
+              "courseId": "MUSC 102A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 102B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 102C"
+            }
           ]
         },
         {
@@ -248,9 +282,18 @@
           "description": "Complete the following courses with grades of C or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC 140A"},
-            {"type": "course", "courseId": "MUSC 140B"},
-            {"type": "course", "courseId": "MUSC 140C"}
+            {
+              "type": "course",
+              "courseId": "MUSC 140A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 140B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 140C"
+            }
           ]
         },
         {
@@ -270,40 +313,35 @@
                   "title": "Advanced Instrumental Studio (10 units)",
                   "description": "Select from MUSC 160A-J.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Chamber Ensembles (4 units)",
                   "description": "Select from MUSC C175A-G.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Large Conducted Ensembles (12 units)",
                   "description": "Select from MUSC C185D-H.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Electives (8 units)",
                   "description": "Complete at least 8 units of upper-division electives from ethnomusicology, global jazz studies, music, music industry, or musicology.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Capstone Instrumental Recital",
-                  "description": "Complete one course from MUSC 167A-J. In senior year, each student must present a 45\u201355-minute senior recital.",
+                  "description": "Complete one course from MUSC 167A-J. In senior year, each student must present a 45–55-minute senior recital.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             },
@@ -318,40 +356,35 @@
                   "title": "Advanced Instrumental Studio (10 units)",
                   "description": "Select from MUSC 160S, 160T, 160U.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Chamber Ensembles, Keyboard Literature, and Accompanying (8 units)",
                   "description": "Select from MUSC C171, C175A-G, C186A.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Large Conducted Ensembles (6 units)",
                   "description": "Select from MUSC C185A-H.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Electives (12 units)",
                   "description": "Complete at least 12 units of upper-division electives from ethnomusicology, global jazz studies, music, music industry, or musicology.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Capstone Instrumental Recital",
-                  "description": "Complete one course from MUSC 167S, 167T, 167U. In senior year, each student must present a 45\u201355-minute senior recital.",
+                  "description": "Complete one course from MUSC 167S, 167T, 167U. In senior year, each student must present a 45–55-minute senior recital.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             },
@@ -366,40 +399,35 @@
                   "title": "Advanced Instrumental Studio (10 units)",
                   "description": "Select from MUSC 160K-R.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Chamber Ensembles (6 units)",
                   "description": "Select from MUSC C175A-G.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Large Conducted Ensembles (12 units)",
                   "description": "Select from MUSC C185D, C185E.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Electives (8 units)",
                   "description": "Complete at least 8 units of upper-division electives from ethnomusicology, global jazz studies, music, music industry, or musicology.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Capstone Instrumental Recital",
-                  "description": "Complete one course from MUSC 167K-R. In senior year, each student must present a 45\u201355-minute senior recital.",
+                  "description": "Complete one course from MUSC 167K-R. In senior year, each student must present a 45–55-minute senior recital.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             },
@@ -414,41 +442,43 @@
                   "title": "Advanced Voice Studio and Advanced Voice Coaching (15 units)",
                   "description": "Select from MUSC 161A, 161B.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Advanced Vocal Repertoire, Diction, and Interpretation (4 units)",
                   "description": "Select from MUSC C158A-G.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Large Conducted Ensembles (12 units)",
                   "description": "Select from MUSC C185A, C185B, C185C.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Electives (4 units)",
                   "description": "Complete at least 4 units of upper-division electives from ethnomusicology, global jazz studies, music, music industry, or musicology.",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
                   "title": "Capstone Voice Recital",
-                  "description": "Complete MUSC 161B and MUSC 168. In senior year, each student must present a 45\u201355-minute senior recital.",
+                  "description": "Complete MUSC 161B and MUSC 168. In senior year, each student must present a 45–55-minute senior recital.",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "MUSC 161B"},
-                    {"type": "course", "courseId": "MUSC 168"}
+                    {
+                      "type": "course",
+                      "courseId": "MUSC 161B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MUSC 168"
+                    }
                   ]
                 }
               ]
@@ -460,9 +490,8 @@
     {
       "id": "policies",
       "title": "Policies",
-      "description": "Music Theory Assessment\nAll entering first-year students are required to take the Music Theory Assessment Examination either during New Student Sessions or during zero week of the fall quarter. The examination score is used to determine eligibility and placement in first-year music core courses (Music M6A, M6B, M6C, and 20A, 20B, 20C, or 21A, 21B, 21C). Examination results may require enrollment in Music 3 as a requisite to both courses M6A and 20A/21A. Entering transfer students must also take the examination to determine placement.\n\nRecitals\nAll recitals are videotaped and archived; performances are evaluated by a jury.\n\nStrings Ensemble Substitution\nFor classical guitar, harp, and string bass, students may petition to substitute alternative courses if there are no suitable chamber ensembles offered during the academic year. For classical guitar, students may petition to substitute Music C185A, C185B, or appropriate ethnomusicology ensembles.",
-      "requirements": [
-      ]
+      "description": "Music Theory Assessment",
+      "requirements": []
     }
   ]
 }

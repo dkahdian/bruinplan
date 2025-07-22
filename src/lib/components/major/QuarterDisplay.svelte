@@ -12,28 +12,20 @@
 		handleCourseDragStart,
 		handleCourseDragEnd
 	} from '../../services/schedulingServices.js';
-	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import CourseSearchButton from '../shared/CourseSearchButton.svelte';
 	import ValidationIndicator from '../shared/ValidationIndicator.svelte';
 	import type { Course } from '../../types.js';
 
 	export let quarterCode: number;
+	export let courseMap: Map<string, Course>;
 	export let courses: string[] = [];
 	export let isLastQuarter: boolean = false;
 	export let canRemove: boolean = true;
-	export let availableCourses: Course[] = [];
 	export let onRemoveQuarter: (quarterCode: number) => void = () => {};
 
-	// Ensure availableCourses is loaded on mount if not provided
-	onMount(() => {
-		if (!availableCourses || availableCourses.length === 0) {
-			availableCourses = Array.from($courseMapStore.values());
-		}
-	});
-
-	// Calculate total units for this quarter (reactive to courseMapStore changes)
+	// Calculate total units for this quarter using the passed courseMap
 	$: totalUnits = courses.reduce((sum, courseId) => {
-		const course = $courseMapStore.get(courseId);
+		const course = courseMap.get(courseId);
 		return sum + (course?.units || 0);
 	}, 0);
 	
@@ -47,7 +39,7 @@
 	$: courseItems = courses.map(courseId => ({
 		id: courseId,
 		name: courseId, // Use courseId as name since Course interface doesn't have name
-		units: $courseMapStore.get(courseId)?.units || 0
+		units: courseMap.get(courseId)?.units || 0
 	}));
 
 	// Drag and drop state
@@ -192,9 +184,8 @@
 			<div class="space-y-2">
 				{#each courseItems as courseItem (courseItem.id)}
 					{@const courseErrors = validationErrors.filter(error => error.courseId === courseItem.id)}
-					{@const hasErrors = courseErrors.some(error => error.type === 'error')}
-					{@const hasWarnings = courseErrors.some(error => error.type === 'warning')}
-					{@const validationBgClass = hasErrors ? 'bg-red-200 border-red-300' : hasWarnings ? 'bg-orange-100 border-orange-300' : 'bg-purple-100 border-purple-300'}
+					{@const hasWarnings = courseErrors.length > 0}
+					{@const validationBgClass = hasWarnings ? 'bg-orange-100 border-orange-300' : 'bg-purple-100 border-purple-300'}
 					
 					<div 
 						class="flex flex-col p-2 rounded transition-colors cursor-move text-purple-800 {validationBgClass} {isDragging && draggedCourseId === courseItem.id ? 'opacity-50' : ''}"
@@ -207,7 +198,7 @@
 						<div class="flex items-center justify-between">
 							<div class="flex items-center gap-2">
 								<a
-									href={`/courses/${courseItem.id.replace(/\s+/g, '')}`}
+									href={`/courses/${courseItem.id.replace(/[^A-Z0-9]/g, '')}`}
 									class="font-medium text-sm text-purple-800 hover:text-blue-800 flex items-center gap-1"
 									title="View prerequisites for {courseItem.id}"
 									target="_blank"
@@ -242,7 +233,6 @@
 		<!-- Course Search Button -->
 		<div class="mt-2">
 			<CourseSearchButton
-				courses={availableCourses}
 				buttonText="+ Add Course"
 				placeholder="Search for courses..."
 				onCourseSelected={handleCourseAdd}

@@ -17,19 +17,58 @@
           "description": "Select four courses from:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "ART HIS 20"},
-            {"type": "course", "courseId": "ART HIS 21"},
-            {"type": "course", "courseId": "ART HIS 22"},
-            {"type": "course", "courseId": "ART HIS 23"},
-            {"type": "course", "courseId": "ART HIS 24"},
-            {"type": "course", "courseId": "ART HIS 25"},
-            {"type": "course", "courseId": "ART HIS 26"},
-            {"type": "course", "courseId": "ART HIS 27"},
-            {"type": "course", "courseId": "ART HIS 28"},
-            {"type": "course", "courseId": "ART HIS 29"},
-            {"type": "course", "courseId": "ART HIS 30"},
-            {"type": "course", "courseId": "ART HIS 31"},
-            {"type": "course", "courseId": "ART HIS 32"}
+            {
+              "type": "course",
+              "courseId": "ART HIS 20"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 21"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 22"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 23"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 24"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 25"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 26"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 27"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 28"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 29"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 30"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 31"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 32"
+            }
           ]
         }
       ]
@@ -51,37 +90,130 @@
               "description": "Select one course.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "ART HIS M110A"},
-                {"type": "course", "courseId": "ART HIS M110B"},
-                {"type": "course", "courseId": "ART HIS M110C"},
-                {"type": "course", "courseId": "ART HIS M111"},
-                {"type": "course", "courseId": "ART HIS M112A"},
-                {"type": "course", "courseId": "ART HIS M112B"},
-                {"type": "course", "courseId": "ART HIS M112C"},
-                {"type": "course", "courseId": "ART HIS M112D"},
-                {"type": "course", "courseId": "ART HIS M113A"},
-                {"type": "course", "courseId": "ART HIS M113B"},
-                {"type": "course", "courseId": "ART HIS M114A"},
-                {"type": "course", "courseId": "ART HIS M114B"},
-                {"type": "course", "courseId": "ART HIS M114C"},
-                {"type": "course", "courseId": "ART HIS C114D"},
-                {"type": "course", "courseId": "ART HIS CM115A"},
-                {"type": "course", "courseId": "ART HIS C115B"},
-                {"type": "course", "courseId": "ART HIS 115C"},
-                {"type": "course", "courseId": "ART HIS C115D"},
-                {"type": "course", "courseId": "ART HIS 115E"},
-                {"type": "course", "courseId": "ART HIS C115F"},
-                {"type": "course", "courseId": "ART HIS C116A"},
-                {"type": "course", "courseId": "ART HIS C116B"},
-                {"type": "course", "courseId": "ART HIS C117A"},
-                {"type": "course", "courseId": "ART HIS C117B"},
-                {"type": "course", "courseId": "ART HIS M118A"},
-                {"type": "course", "courseId": "ART HIS 119A"},
-                {"type": "course", "courseId": "ART HIS 119B"},
-                {"type": "course", "courseId": "ART HIS CM139A"},
-                {"type": "course", "courseId": "ART HIS C148A"},
-                {"type": "course", "courseId": "ART HIS C148B"},
-                {"type": "course", "courseId": "ART HIS 154A"}
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M110A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M110B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M110C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M111"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M112A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M112B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M112C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M112D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M113A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M113B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M114A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M114B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M114C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C114D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS CM115A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C115B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 115C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C115D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 115E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C115F"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C116A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C116B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C117A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C117B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M118A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 119A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 119B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS CM139A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C148A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C148B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 154A"
+                }
               ]
             },
             {
@@ -90,22 +222,70 @@
               "description": "Select one course.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "ART HIS 121A"},
-                {"type": "course", "courseId": "ART HIS 121B"},
-                {"type": "course", "courseId": "ART HIS 121C"},
-                {"type": "course", "courseId": "ART HIS 121D"},
-                {"type": "course", "courseId": "ART HIS 124"},
-                {"type": "course", "courseId": "ART HIS C125A"},
-                {"type": "course", "courseId": "ART HIS 125B"},
-                {"type": "course", "courseId": "ART HIS C126"},
-                {"type": "course", "courseId": "ART HIS C139B"},
-                {"type": "course", "courseId": "ART HIS C139C"},
-                {"type": "course", "courseId": "ART HIS CM141"},
-                {"type": "course", "courseId": "ART HIS C148C"},
-                {"type": "course", "courseId": "ART HIS C148E"},
-                {"type": "course", "courseId": "ART HIS C152B"},
-                {"type": "course", "courseId": "ART HIS C152C"},
-                {"type": "course", "courseId": "ART HIS 154B"}
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 121A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 121B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 121C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 121D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 124"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C125A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 125B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C126"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C139B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C139C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS CM141"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C148C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C148E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C152B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C152C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 154B"
+                }
               ]
             },
             {
@@ -114,36 +294,126 @@
               "description": "Select one course.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "ART HIS M118B"},
-                {"type": "course", "courseId": "ART HIS 127A"},
-                {"type": "course", "courseId": "ART HIS 127B"},
-                {"type": "course", "courseId": "ART HIS M127C"},
-                {"type": "course", "courseId": "ART HIS C128A"},
-                {"type": "course", "courseId": "ART HIS C128B"},
-                {"type": "course", "courseId": "ART HIS C128C"},
-                {"type": "course", "courseId": "ART HIS C129A"},
-                {"type": "course", "courseId": "ART HIS C129B"},
-                {"type": "course", "courseId": "ART HIS C129C"},
-                {"type": "course", "courseId": "ART HIS 130"},
-                {"type": "course", "courseId": "ART HIS C131A"},
-                {"type": "course", "courseId": "ART HIS C131B"},
-                {"type": "course", "courseId": "ART HIS C131C"},
-                {"type": "course", "courseId": "ART HIS 132"},
-                {"type": "course", "courseId": "ART HIS C133A"},
-                {"type": "course", "courseId": "ART HIS C133B"},
-                {"type": "course", "courseId": "ART HIS C133C"},
-                {"type": "course", "courseId": "ART HIS 133D"},
-                {"type": "course", "courseId": "ART HIS 133E"},
-                {"type": "course", "courseId": "ART HIS CM135A"},
-                {"type": "course", "courseId": "ART HIS CM135B"},
-                {"type": "course", "courseId": "ART HIS C136A"},
-                {"type": "course", "courseId": "ART HIS C142A"},
-                {"type": "course", "courseId": "ART HIS C142B"},
-                {"type": "course", "courseId": "ART HIS C145B"},
-                {"type": "course", "courseId": "ART HIS C148D"},
-                {"type": "course", "courseId": "ART HIS 154D"},
-                {"type": "course", "courseId": "ART HIS C160"},
-                {"type": "course", "courseId": "ART HIS C170A"}
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M118B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 127A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 127B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M127C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C128A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C128B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C128C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C129A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C129B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C129C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 130"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C131A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C131B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C131C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 132"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C133A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C133B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C133C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 133D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 133E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS CM135A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS CM135B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C136A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C142A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C142B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C145B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C148D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 154D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C160"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C170A"
+                }
               ]
             }
           ]
@@ -160,9 +430,18 @@
               "description": "Select one course.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "ART HIS C145A"},
-                {"type": "course", "courseId": "ART HIS C145B"},
-                {"type": "course", "courseId": "ART HIS C146A"}
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C145A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C145B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C146A"
+                }
               ]
             },
             {
@@ -171,27 +450,90 @@
               "description": "Select one course.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "ART HIS C148A"},
-                {"type": "course", "courseId": "ART HIS C148B"},
-                {"type": "course", "courseId": "ART HIS C148C"},
-                {"type": "course", "courseId": "ART HIS C148D"},
-                {"type": "course", "courseId": "ART HIS C148E"},
-                {"type": "course", "courseId": "ART HIS C149"},
-                {"type": "course", "courseId": "ART HIS 150A"},
-                {"type": "course", "courseId": "ART HIS C150B"},
-                {"type": "course", "courseId": "ART HIS C151"},
-                {"type": "course", "courseId": "ART HIS 152A"},
-                {"type": "course", "courseId": "ART HIS C152B"},
-                {"type": "course", "courseId": "ART HIS C152C"},
-                {"type": "course", "courseId": "ART HIS C152D"},
-                {"type": "course", "courseId": "ART HIS C153"},
-                {"type": "course", "courseId": "ART HIS 154A"},
-                {"type": "course", "courseId": "ART HIS 154B"},
-                {"type": "course", "courseId": "ART HIS C154C"},
-                {"type": "course", "courseId": "ART HIS 154D"},
-                {"type": "course", "courseId": "ART HIS C155"},
-                {"type": "course", "courseId": "ART HIS 156"},
-                {"type": "course", "courseId": "ART HIS C158A"}
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C148A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C148B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C148C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C148D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C148E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C149"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 150A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C150B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C151"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 152A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C152B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C152C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C152D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C153"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 154A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 154B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C154C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 154D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C155"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 156"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C158A"
+                }
               ]
             },
             {
@@ -200,37 +542,130 @@
               "description": "Select one course.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "ART HIS C115B"},
-                {"type": "course", "courseId": "ART HIS 115C"},
-                {"type": "course", "courseId": "ART HIS C115D"},
-                {"type": "course", "courseId": "ART HIS 115E"},
-                {"type": "course", "courseId": "ART HIS C115F"},
-                {"type": "course", "courseId": "ART HIS 121A"},
-                {"type": "course", "courseId": "ART HIS 121B"},
-                {"type": "course", "courseId": "ART HIS 121C"},
-                {"type": "course", "courseId": "ART HIS 121D"},
-                {"type": "course", "courseId": "ART HIS 124"},
-                {"type": "course", "courseId": "ART HIS C125A"},
-                {"type": "course", "courseId": "ART HIS 125B"},
-                {"type": "course", "courseId": "ART HIS C126"},
-                {"type": "course", "courseId": "ART HIS 127A"},
-                {"type": "course", "courseId": "ART HIS 127B"},
-                {"type": "course", "courseId": "ART HIS M127C"},
-                {"type": "course", "courseId": "ART HIS C129A"},
-                {"type": "course", "courseId": "ART HIS C129B"},
-                {"type": "course", "courseId": "ART HIS C129C"},
-                {"type": "course", "courseId": "ART HIS C131A"},
-                {"type": "course", "courseId": "ART HIS C131B"},
-                {"type": "course", "courseId": "ART HIS C131C"},
-                {"type": "course", "courseId": "ART HIS C133A"},
-                {"type": "course", "courseId": "ART HIS C133B"},
-                {"type": "course", "courseId": "ART HIS C133C"},
-                {"type": "course", "courseId": "ART HIS 133D"},
-                {"type": "course", "courseId": "ART HIS 133E"},
-                {"type": "course", "courseId": "ART HIS CM135A"},
-                {"type": "course", "courseId": "ART HIS CM135B"},
-                {"type": "course", "courseId": "ART HIS 137"},
-                {"type": "course", "courseId": "ART HIS C170A"}
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C115B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 115C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C115D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 115E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C115F"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 121A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 121B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 121C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 121D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 124"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C125A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 125B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C126"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 127A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 127B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M127C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C129A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C129B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C129C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C131A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C131B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C131C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C133A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C133B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C133C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 133D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 133E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS CM135A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS CM135B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 137"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C170A"
+                }
               ]
             },
             {
@@ -239,15 +674,42 @@
               "description": "Select one course.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "ART HIS CM139A"},
-                {"type": "course", "courseId": "ART HIS C139B"},
-                {"type": "course", "courseId": "ART HIS C139C"},
-                {"type": "course", "courseId": "ART HIS C140"},
-                {"type": "course", "courseId": "ART HIS CM141"},
-                {"type": "course", "courseId": "ART HIS C142A"},
-                {"type": "course", "courseId": "ART HIS C142B"},
-                {"type": "course", "courseId": "ART HIS 143"},
-                {"type": "course", "courseId": "ART HIS 144"}
+                {
+                  "type": "course",
+                  "courseId": "ART HIS CM139A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C139B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C139C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C140"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS CM141"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C142A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS C142B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 143"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 144"
+                }
               ]
             },
             {
@@ -256,22 +718,70 @@
               "description": "Select one course.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "ART HIS M110A"},
-                {"type": "course", "courseId": "ART HIS M110B"},
-                {"type": "course", "courseId": "ART HIS M110C"},
-                {"type": "course", "courseId": "ART HIS M111"},
-                {"type": "course", "courseId": "ART HIS M112A"},
-                {"type": "course", "courseId": "ART HIS M112B"},
-                {"type": "course", "courseId": "ART HIS M112C"},
-                {"type": "course", "courseId": "ART HIS M112D"},
-                {"type": "course", "courseId": "ART HIS M113A"},
-                {"type": "course", "courseId": "ART HIS M113B"},
-                {"type": "course", "courseId": "ART HIS M114A"},
-                {"type": "course", "courseId": "ART HIS M114B"},
-                {"type": "course", "courseId": "ART HIS M114C"},
-                {"type": "course", "courseId": "ART HIS CM115A"},
-                {"type": "course", "courseId": "ART HIS 119A"},
-                {"type": "course", "courseId": "ART HIS 119B"}
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M110A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M110B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M110C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M111"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M112A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M112B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M112C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M112D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M113A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M113B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M114A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M114B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS M114C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS CM115A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 119A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 119B"
+                }
               ]
             }
           ]
@@ -282,9 +792,18 @@
           "description": "Select five additional art history electives (20 units minimum) from courses 100 through 185. Courses 196, 197A, and 197B may also be included. With prior approval of the undergraduate adviser, one of these courses may be taken in another department.",
           "needs": 5,
           "options": [
-            {"type": "course", "courseId": "ART HIS 196"},
-            {"type": "course", "courseId": "ART HIS 197A"},
-            {"type": "course", "courseId": "ART HIS 197B"}
+            {
+              "type": "course",
+              "courseId": "ART HIS 196"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 197A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 197B"
+            }
           ]
         }
       ]
@@ -298,7 +817,7 @@
           "type": "group",
           "title": "Honors Program",
           "description": "This is an optional program. All senior Art History majors who have completed a minimum of six upper-division art history courses with a departmental grade-point average of 3.5 or better and an overall GPA of 3.0 or better are eligible to apply.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -306,8 +825,14 @@
               "description": "Complete the following courses with grades of A:",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "ART HIS 198A"},
-                {"type": "course", "courseId": "ART HIS 198B"}
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ART HIS 198B"
+                }
               ]
             }
           ]

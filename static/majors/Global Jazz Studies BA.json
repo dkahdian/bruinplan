@@ -1,6 +1,6 @@
 {
   "name": "Global Jazz Studies BA",
-  "overview": "The Global Jazz Studies major is a designated capstone major. The capstone project, usually done in the senior year, is tailored to each student and includes a seminar class (course 186A) and a capstone presentation such as a recital, lecture-demonstration, or lecture-recital (186B). The capstone experience provides an appropriate vehicle for the faculty to assess the students\u2019 accomplishments during their tenure in the program.",
+  "overview": "The Global Jazz Studies major is a designated capstone major. The capstone project, usually done in the senior year, is tailored to each student and includes a seminar class (course 186A) and a capstone presentation such as a recital, lecture-demonstration, or lecture-recital (186B). The capstone experience provides an appropriate vehicle for the faculty to assess the students’ accomplishments during their tenure in the program.",
   "college": "Herb Alpert School of Music",
   "department": "Global Jazz Studies",
   "degreeLevel": "Undergraduate",
@@ -17,8 +17,14 @@
           "description": "Select one course (5 units) from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ETHNMUS 20B"},
-            {"type": "course", "courseId": "ETHNMUS 20C"}
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 20B"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 20C"
+            }
           ]
         },
         {
@@ -27,8 +33,14 @@
           "description": "Complete 4 units from one or both of the following courses:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ETHNMUS 91E"},
-            {"type": "course", "courseId": "ETHNMUS 91P"}
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91E"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91P"
+            }
           ]
         },
         {
@@ -36,8 +48,7 @@
           "title": "World Music Specializations and Performance Organizations",
           "description": "Complete 4 units from: World Music Specializations: Ethnomusicology 68A through 68O or World Music Performance Organizations: Ethnomusicology 91A through 91Z (except 91E and 91P)",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -45,8 +56,14 @@
           "description": "Complete both of the following courses (10 units):",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "GJ STDS M110A"},
-            {"type": "course", "courseId": "GJ STDS M110B"}
+            {
+              "type": "course",
+              "courseId": "GJ STDS M110A"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS M110B"
+            }
           ]
         },
         {
@@ -54,8 +71,7 @@
           "title": "Jazz Performance",
           "description": "Complete 12 units from the following. Students must enroll in a studio each quarter. Global Jazz Studies 71A through 71I",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -63,9 +79,18 @@
           "description": "Complete the following three courses (6 units):",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC M6A"},
-            {"type": "course", "courseId": "MUSC M6B"},
-            {"type": "course", "courseId": "MUSC M6C"}
+            {
+              "type": "course",
+              "courseId": "MUSC M6A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC M6B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC M6C"
+            }
           ]
         }
       ]
@@ -86,8 +111,7 @@
               "title": "Studio Coursework (12 units)",
               "description": "Global Jazz Studies 171A through 171I",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "group",
@@ -95,7 +119,10 @@
               "description": "GJ STDS 175 - Jazz Combo",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "GJ STDS 175"}
+                {
+                  "type": "course",
+                  "courseId": "GJ STDS 175"
+                }
               ]
             },
             {
@@ -103,8 +130,7 @@
               "title": "Large Jazz Ensemble (8 units)",
               "description": "Global Jazz Studies 176A through 176G",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             }
           ]
         },
@@ -114,15 +140,42 @@
           "description": "Complete 24 units from:",
           "needs": 6,
           "options": [
-            {"type": "course", "courseId": "GJ STDS 122A"},
-            {"type": "course", "courseId": "GJ STDS 122B"},
-            {"type": "course", "courseId": "GJ STDS 122C"},
-            {"type": "course", "courseId": "GJ STDS 127A"},
-            {"type": "course", "courseId": "GJ STDS 127B"},
-            {"type": "course", "courseId": "GJ STDS 127C"},
-            {"type": "course", "courseId": "GJ STDS 129A"},
-            {"type": "course", "courseId": "GJ STDS 129B"},
-            {"type": "course", "courseId": "GJ STDS 129C"}
+            {
+              "type": "course",
+              "courseId": "GJ STDS 122A"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 122B"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 122C"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 127A"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 127B"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 127C"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 129A"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 129B"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 129C"
+            }
           ]
         },
         {
@@ -145,9 +198,18 @@
               "description": "Select one course, at least 4 units",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "AF AMER 108"},
-                {"type": "course", "courseId": "AF AMER M150D"},
-                {"type": "course", "courseId": "AF AMER M158C"}
+                {
+                  "type": "course",
+                  "courseId": "AF AMER 108"
+                },
+                {
+                  "type": "course",
+                  "courseId": "AF AMER M150D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "AF AMER M158C"
+                }
               ]
             },
             {
@@ -156,13 +218,34 @@
               "description": "Select one course, at least 4 units",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "GJ STDS M109"},
-                {"type": "course", "courseId": "GJ STDS M119"},
-                {"type": "course", "courseId": "GJ STDS M130"},
-                {"type": "course", "courseId": "GJ STDS M131"},
-                {"type": "course", "courseId": "GJ STDS 165"},
-                {"type": "course", "courseId": "GJ STDS 188"},
-                {"type": "course", "courseId": "GJ STDS 199"}
+                {
+                  "type": "course",
+                  "courseId": "GJ STDS M109"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GJ STDS M119"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GJ STDS M130"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GJ STDS M131"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GJ STDS 165"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GJ STDS 188"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GJ STDS 199"
+                }
               ]
             },
             {
@@ -171,10 +254,22 @@
               "description": "Select one course, at least 4 units",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "MSC IND 2"},
-                {"type": "course", "courseId": "MSC IND 104A"},
-                {"type": "course", "courseId": "MSC IND 107A"},
-                {"type": "course", "courseId": "MSC IND 115A"}
+                {
+                  "type": "course",
+                  "courseId": "MSC IND 2"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MSC IND 104A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MSC IND 107A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MSC IND 115A"
+                }
               ]
             }
           ]
@@ -185,8 +280,14 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "GJ STDS 186A"},
-            {"type": "course", "courseId": "GJ STDS 186B"}
+            {
+              "type": "course",
+              "courseId": "GJ STDS 186A"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 186B"
+            }
           ]
         }
       ]

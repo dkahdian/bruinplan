@@ -23,9 +23,18 @@
               "description": "Complete all three courses:",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "IRANIAN 1A"},
-                {"type": "course", "courseId": "IRANIAN 1B"},
-                {"type": "course", "courseId": "IRANIAN 1C"}
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 1A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 1B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 1C"
+                }
               ]
             },
             {
@@ -34,9 +43,18 @@
               "description": "Complete all three courses:",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "IRANIAN 20A"},
-                {"type": "course", "courseId": "IRANIAN 20B"},
-                {"type": "course", "courseId": "IRANIAN 20C"}
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 20B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 20C"
+                }
               ]
             }
           ]
@@ -47,9 +65,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "IRANIAN 55"},
-            {"type": "course", "courseId": "IRANIAN M60"},
-            {"type": "course", "courseId": "IRANIAN M60W"}
+            {
+              "type": "course",
+              "courseId": "IRANIAN 55"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN M60"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN M60W"
+            }
           ]
         }
       ]
@@ -71,16 +98,46 @@
               "description": "Select three courses from:",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "IRANIAN 102A"},
-                {"type": "course", "courseId": "IRANIAN 102B"},
-                {"type": "course", "courseId": "IRANIAN 102C"},
-                {"type": "course", "courseId": "IRANIAN 103A"},
-                {"type": "course", "courseId": "IRANIAN 103B"},
-                {"type": "course", "courseId": "IRANIAN 103C"},
-                {"type": "course", "courseId": "IRANIAN 120"},
-                {"type": "course", "courseId": "IRANIAN 140"},
-                {"type": "course", "courseId": "IRANIAN 141"},
-                {"type": "course", "courseId": "IRANIAN 142"}
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 102C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 103A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 103B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 103C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 120"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 140"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 141"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 142"
+                }
               ]
             },
             {
@@ -89,27 +146,90 @@
               "description": "Select an additional four courses from the following list or the required course list above:",
               "needs": 4,
               "options": [
-                {"type": "course", "courseId": "IRANIAN 102A"},
-                {"type": "course", "courseId": "IRANIAN 102B"},
-                {"type": "course", "courseId": "IRANIAN 102C"},
-                {"type": "course", "courseId": "IRANIAN 103A"},
-                {"type": "course", "courseId": "IRANIAN 103B"},
-                {"type": "course", "courseId": "IRANIAN 103C"},
-                {"type": "course", "courseId": "IRANIAN 120"},
-                {"type": "course", "courseId": "IRANIAN 140"},
-                {"type": "course", "courseId": "IRANIAN 141"},
-                {"type": "course", "courseId": "IRANIAN 142"},
-                {"type": "course", "courseId": "AN N EA CM163"},
-                {"type": "course", "courseId": "IRANIAN M110A"},
-                {"type": "course", "courseId": "IRANIAN M110B"},
-                {"type": "course", "courseId": "IRANIAN M110C"},
-                {"type": "course", "courseId": "IRANIAN 161A"},
-                {"type": "course", "courseId": "IRANIAN 161B"},
-                {"type": "course", "courseId": "IRANIAN 161C"},
-                {"type": "course", "courseId": "IRANIAN CM163"},
-                {"type": "course", "courseId": "IRANIAN 164"},
-                {"type": "course", "courseId": "IRANIAN 169"},
-                {"type": "course", "courseId": "IRANIAN 170"}
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 102C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 103A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 103B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 103C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 120"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 140"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 141"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 142"
+                },
+                {
+                  "type": "course",
+                  "courseId": "AN N EA CM163"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN M110A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN M110B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN M110C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 161A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 161B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 161C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN CM163"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 164"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 169"
+                },
+                {
+                  "type": "course",
+                  "courseId": "IRANIAN 170"
+                }
               ]
             }
           ]
@@ -120,26 +240,86 @@
           "description": "Select four upper-division courses from the Iranian studies subject area or from the following list:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "ART HIS 119A"},
-            {"type": "course", "courseId": "ART HIS 119B"},
-            {"type": "course", "courseId": "ART HIS C120"},
-            {"type": "course", "courseId": "HIST 105A"},
-            {"type": "course", "courseId": "HIST 105B"},
-            {"type": "course", "courseId": "HIST 105C"},
-            {"type": "course", "courseId": "IRANIAN 104"},
-            {"type": "course", "courseId": "IRANIAN M105A"},
-            {"type": "course", "courseId": "IRANIAN M105B"},
-            {"type": "course", "courseId": "IRANIAN M115A"},
-            {"type": "course", "courseId": "IRANIAN M115B"},
-            {"type": "course", "courseId": "IRANIAN M115C"},
-            {"type": "course", "courseId": "IRANIAN 130"},
-            {"type": "course", "courseId": "IRANIAN 131"},
-            {"type": "course", "courseId": "IRANIAN 132"},
-            {"type": "course", "courseId": "IRANIAN 150A"},
-            {"type": "course", "courseId": "IRANIAN 150B"},
-            {"type": "course", "courseId": "IRANIAN M178"},
-            {"type": "course", "courseId": "IRANIAN 187"},
-            {"type": "course", "courseId": "POL SCI 157"}
+            {
+              "type": "course",
+              "courseId": "ART HIS 119A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 119B"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS C120"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 105A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 105B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 105C"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN 104"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN M105A"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN M105B"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN M115A"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN M115B"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN M115C"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN 130"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN 131"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN 132"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN 150A"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN 150B"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN M178"
+            },
+            {
+              "type": "course",
+              "courseId": "IRANIAN 187"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 157"
+            }
           ]
         }
       ]

@@ -25,8 +25,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "SPAN 25"},
-            {"type": "course", "courseId": "SPAN 27"}
+            {
+              "type": "course",
+              "courseId": "SPAN 25"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 27"
+            }
           ]
         },
         {
@@ -35,8 +41,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "SPAN 42"},
-            {"type": "course", "courseId": "SPAN 44"}
+            {
+              "type": "course",
+              "courseId": "SPAN 42"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 44"
+            }
           ]
         },
         {
@@ -44,16 +56,14 @@
           "title": "Spanish Language",
           "description": "Complete the equivalent to the fifth level of Spanish.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Second Foreign Language",
           "description": "Complete the equivalent to the third level of a second foreign language.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -90,8 +100,14 @@
               "description": "Select one course from the following (only one may be applied):",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "LING 165A"},
-                {"type": "course", "courseId": "LING 165B"}
+                {
+                  "type": "course",
+                  "courseId": "LING 165A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 165B"
+                }
               ]
             }
           ]
@@ -101,8 +117,7 @@
           "title": "Linguistics Elective",
           "description": "Complete one upper-division elective course in the Linguistics Department (minimum 4 graded units).",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -110,10 +125,22 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "SPAN 100A"},
-            {"type": "course", "courseId": "SPAN 100B"},
-            {"type": "course", "courseId": "SPAN 119"},
-            {"type": "course", "courseId": "SPAN 160"}
+            {
+              "type": "course",
+              "courseId": "SPAN 100A"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 100B"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 119"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 160"
+            }
           ]
         },
         {
@@ -121,8 +148,7 @@
           "title": "Spanish Elective",
           "description": "Complete one additional upper-division Spanish course.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -135,7 +161,7 @@
           "type": "group",
           "title": "Honors Program Requirements",
           "description": "Qualified students may complete the honors program by satisfying GPA requirements and completing one of the following research options. The honors program is optional.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -149,8 +175,14 @@
                   "description": "Complete both courses.",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "LING 198A"},
-                    {"type": "course", "courseId": "LING 198B"}
+                    {
+                      "type": "course",
+                      "courseId": "LING 198A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LING 198B"
+                    }
                   ]
                 },
                 {
@@ -166,13 +198,13 @@
     {
       "id": "computing-specialization",
       "title": "Computing Specialization",
-      "description": "Students may select a specialization in Computing by (1) satisfying all the requirements for a bachelor\u2019s degree in the specified major and (2) completing the following courses. Students graduate with a bachelor\u2019s degree in their major and a specialization in Computing.",
+      "description": "Students may select a specialization in Computing by (1) satisfying all the requirements for a bachelor’s degree in the specified major and (2) completing the following courses. Students graduate with a bachelor’s degree in their major and a specialization in Computing.",
       "requirements": [
         {
           "type": "group",
           "title": "Computing Specialization",
           "description": "Complete all requirements to earn the specialization. This specialization is optional.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -192,9 +224,18 @@
                       "description": "Complete all three courses.",
                       "needs": 3,
                       "options": [
-                        {"type": "course", "courseId": "COMPTNG 10A"},
-                        {"type": "course", "courseId": "COMPTNG 10B"},
-                        {"type": "course", "courseId": "COMPTNG 10C"}
+                        {
+                          "type": "course",
+                          "courseId": "COMPTNG 10A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "COMPTNG 10B"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "COMPTNG 10C"
+                        }
                       ]
                     },
                     {
@@ -203,8 +244,14 @@
                       "description": "Complete both courses.",
                       "needs": 2,
                       "options": [
-                        {"type": "course", "courseId": "COM SCI 31"},
-                        {"type": "course", "courseId": "COM SCI 32"}
+                        {
+                          "type": "course",
+                          "courseId": "COM SCI 31"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "COM SCI 32"
+                        }
                       ]
                     }
                   ]
@@ -215,8 +262,14 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "LING 185A"},
-                    {"type": "course", "courseId": "MATH 61"}
+                    {
+                      "type": "course",
+                      "courseId": "LING 185A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MATH 61"
+                    }
                   ]
                 },
                 {
@@ -225,14 +278,38 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "LING C104"},
-                    {"type": "course", "courseId": "LING 127"},
-                    {"type": "course", "courseId": "LING 132"},
-                    {"type": "course", "courseId": "LING 165A"},
-                    {"type": "course", "courseId": "LING 165B"},
-                    {"type": "course", "courseId": "LING 165C"},
-                    {"type": "course", "courseId": "LING 180"},
-                    {"type": "course", "courseId": "LING 185B"}
+                    {
+                      "type": "course",
+                      "courseId": "LING C104"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LING 127"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LING 132"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LING 165A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LING 165B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LING 165C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LING 180"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LING 185B"
+                    }
                   ]
                 }
               ]

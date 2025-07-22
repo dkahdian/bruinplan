@@ -7,18 +7,10 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "learning-outcomes",
-      "title": "Learning Outcomes",
-      "description": "1. Demonstrated specific skills and expertise, including research, analysis, and writing. 2. Identification and analysis of appropriate ancient sources, material evidence, and other primary documents appropriate to the field. 3. Engagement with peers through presentation, discussion, and critique of student work. 4. Conception and execution of a project that identifies and engages with a specialized topic. 5. Working knowledge of scholarly discourse relative to a specialized topic.",
-      "requirements": [
-      ]
-    },
-    {
       "id": "entry-to-the-major",
       "title": "Entry to the Major",
       "description": "Transfer applicants to the Latin major with 90 or more units must complete as many of the following introductory courses as possible prior to admission to UCLA: one year of Latin and related courses in civilization, culture, history, linguistics, literature, and closely related languages. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
-      "requirements": [
-      ]
+      "requirements": []
     },
     {
       "id": "major-requirements",
@@ -55,9 +47,18 @@
                   "description": "Complete all three courses.",
                   "needs": 3,
                   "options": [
-                    {"type": "course", "courseId": "LATIN 1"},
-                    {"type": "course", "courseId": "LATIN 2"},
-                    {"type": "course", "courseId": "LATIN 3"}
+                    {
+                      "type": "course",
+                      "courseId": "LATIN 1"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LATIN 2"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "LATIN 3"
+                    }
                   ]
                 },
                 {
@@ -89,8 +90,7 @@
                   "title": "Additional Latin Courses",
                   "description": "Select six additional upper-division Latin courses.",
                   "needs": 6,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             },
@@ -100,17 +100,50 @@
               "description": "Select three upper-division courses from upper-division courses in classical civilization or the following listed ancient history courses.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "HIST 112A"},
-                {"type": "course", "courseId": "HIST 112B"},
-                {"type": "course", "courseId": "HIST M112C"},
-                {"type": "course", "courseId": "HIST 112D"},
-                {"type": "course", "courseId": "HIST M112E"},
-                {"type": "course", "courseId": "HIST 113A"},
-                {"type": "course", "courseId": "HIST 113B"},
-                {"type": "course", "courseId": "HIST 114A"},
-                {"type": "course", "courseId": "HIST 114B"},
-                {"type": "course", "courseId": "HIST 114C"},
-                {"type": "course", "courseId": "HIST 115"}
+                {
+                  "type": "course",
+                  "courseId": "HIST 112A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 112B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST M112C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 112D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST M112E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 113A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 113B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 114A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 114B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 114C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 115"
+                }
               ]
             },
             {
@@ -124,13 +157,13 @@
     {
       "id": "honors-program",
       "title": "Honors Program",
-      "description": "Admission: The honors program is open to Latin majors with a cumulative GPA of 3.5 or better in departmental courses and an overall GPA of 3.25 or better. Students with lower GPAs may petition. \nRequirements for Honors: Cumulative GPA of 3.5 or better in departmental courses, an overall GPA of 3.25 or better, and complete Classics 198A and 198B with grades of A- or better. \nRequirements for Highest Honors: Cumulative GPA of 3.85 or better in departmental courses, an overall GPA of 3.65 or better, and complete Classics 198A and 198B with grades of A.",
+      "description": "Admission: The honors program is open to Latin majors with a cumulative GPA of 3.5 or better in departmental courses and an overall GPA of 3.25 or better. Students with lower GPAs may petition. ",
       "requirements": [
         {
           "type": "group",
           "title": "Honors Thesis Track",
           "description": "All honors students are required to take Classics 191 (or an equivalent undergraduate seminar) in their junior year before beginning work on the honors thesis. Students must then enroll in Classics 198A and 198B in consecutive terms to write the thesis. Only course 198B may be applied toward the upper-division classical civilization requirement for the major.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -138,8 +171,14 @@
               "description": "Complete both courses for the honors thesis.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "CLASSIC 198A"},
-                {"type": "course", "courseId": "CLASSIC 198B"}
+                {
+                  "type": "course",
+                  "courseId": "CLASSIC 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CLASSIC 198B"
+                }
               ]
             }
           ]
@@ -150,8 +189,7 @@
       "id": "policies",
       "title": "Policies",
       "description": "Courses in related fields not offered by the department may be substituted by petition and with approval of the faculty undergraduate adviser.",
-      "requirements": [
-      ]
+      "requirements": []
     }
   ]
 }

@@ -17,9 +17,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "CHEM 20A"},
-            {"type": "course", "courseId": "CHEM 20B"},
-            {"type": "course", "courseId": "CHEM 20L"}
+            {
+              "type": "course",
+              "courseId": "CHEM 20A"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 20B"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 20L"
+            }
           ]
         },
         {
@@ -32,8 +41,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "C&EE M20"},
-            {"type": "course", "courseId": "COM SCI 31"}
+            {
+              "type": "course",
+              "courseId": "C&EE M20"
+            },
+            {
+              "type": "course",
+              "courseId": "COM SCI 31"
+            }
           ]
         },
         {
@@ -42,11 +57,26 @@
           "description": "Complete the following five courses:",
           "needs": 5,
           "options": [
-            {"type": "course", "courseId": "MATH 31A"},
-            {"type": "course", "courseId": "MATH 31B"},
-            {"type": "course", "courseId": "MATH 32A"},
-            {"type": "course", "courseId": "MATH 32B"},
-            {"type": "course", "courseId": "MATH 33A"}
+            {
+              "type": "course",
+              "courseId": "MATH 31A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 33A"
+            }
           ]
         },
         {
@@ -55,8 +85,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 33B"},
-            {"type": "course", "courseId": "MECH&AE 82"}
+            {
+              "type": "course",
+              "courseId": "MATH 33B"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 82"
+            }
           ]
         },
         {
@@ -65,10 +101,22 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "PHYSICS 1A"},
-            {"type": "course", "courseId": "PHYSICS 1B"},
-            {"type": "course", "courseId": "PHYSICS 1C"},
-            {"type": "course", "courseId": "PHYSICS 4AL"}
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1C"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 4AL"
+            }
           ]
         },
         {
@@ -77,17 +125,50 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "C&EE 58XP"},
-            {"type": "course", "courseId": "ENVIRON 12"},
-            {"type": "course", "courseId": "EPS SCI 3"},
-            {"type": "course", "courseId": "EPS SCI 15"},
-            {"type": "course", "courseId": "EPS SCI 16"},
-            {"type": "course", "courseId": "EPS SCI 17"},
-            {"type": "course", "courseId": "EPS SCI 20"},
-            {"type": "course", "courseId": "LIFESCI 7A"},
-            {"type": "course", "courseId": "MIMG 5"},
-            {"type": "course", "courseId": "MIMG 6"},
-            {"type": "course", "courseId": "NEUROSC 10"}
+            {
+              "type": "course",
+              "courseId": "C&EE 58XP"
+            },
+            {
+              "type": "course",
+              "courseId": "ENVIRON 12"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 3"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 15"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 16"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 17"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 20"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7A"
+            },
+            {
+              "type": "course",
+              "courseId": "MIMG 5"
+            },
+            {
+              "type": "course",
+              "courseId": "MIMG 6"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 10"
+            }
           ]
         }
       ]
@@ -103,13 +184,34 @@
           "description": "Complete the following 7 courses:",
           "needs": 7,
           "options": [
-            {"type": "course", "courseId": "C&EE 103"},
-            {"type": "course", "courseId": "C&EE 108"},
-            {"type": "course", "courseId": "C&EE 120"},
-            {"type": "course", "courseId": "C&EE 135A"},
-            {"type": "course", "courseId": "C&EE 150"},
-            {"type": "course", "courseId": "C&EE 153"},
-            {"type": "course", "courseId": "C&EE 190"}
+            {
+              "type": "course",
+              "courseId": "C&EE 103"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 108"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 120"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 135A"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 150"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 153"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 190"
+            }
           ]
         },
         {
@@ -118,8 +220,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "CH ENGR 102A"},
-            {"type": "course", "courseId": "MECH&AE 105A"}
+            {
+              "type": "course",
+              "courseId": "CH ENGR 102A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 105A"
+            }
           ]
         },
         {
@@ -128,8 +236,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "C&EE 91"},
-            {"type": "course", "courseId": "MECH&AE 101"}
+            {
+              "type": "course",
+              "courseId": "C&EE 91"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 101"
+            }
           ]
         },
         {
@@ -138,8 +252,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "C&EE C104"},
-            {"type": "course", "courseId": "MAT SCI 104"}
+            {
+              "type": "course",
+              "courseId": "C&EE C104"
+            },
+            {
+              "type": "course",
+              "courseId": "MAT SCI 104"
+            }
           ]
         },
         {
@@ -148,8 +268,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "C&EE 107"},
-            {"type": "course", "courseId": "MECH&AE 103"}
+            {
+              "type": "course",
+              "courseId": "C&EE 107"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 103"
+            }
           ]
         },
         {
@@ -158,8 +284,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "C&EE 110"},
-            {"type": "course", "courseId": "C&EE C111"}
+            {
+              "type": "course",
+              "courseId": "C&EE 110"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C111"
+            }
           ]
         },
         {
@@ -167,8 +299,7 @@
           "title": "Technical Breadth Courses",
           "description": "Complete three technical breadth courses (12 units) selected from an approved list available in the Office of Academic and Student Affairs.",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -176,51 +307,186 @@
           "description": "Select at least eight major field elective courses (32 units) from the lists below with at least two design courses, one of which must be a capstone design course and two of which must be laboratory courses. The laboratory courses must be taken from two distinct areas. Courses applied toward the required course requirement may not also be applied toward the major field elective requirement.",
           "needs": 8,
           "options": [
-            {"type": "course", "courseId": "C&EE C104"},
-            {"type": "course", "courseId": "C&EE C105"},
-            {"type": "course", "courseId": "C&EE C106"},
-            {"type": "course", "courseId": "C&EE C111"},
-            {"type": "course", "courseId": "C&EE C182"},
-            {"type": "course", "courseId": "C&EE 108L"},
-            {"type": "course", "courseId": "C&EE 116XP"},
-            {"type": "course", "courseId": "C&EE 154"},
-            {"type": "course", "courseId": "C&EE 155"},
-            {"type": "course", "courseId": "C&EE C159"},
-            {"type": "course", "courseId": "C&EE C164"},
-            {"type": "course", "courseId": "C&EE M165"},
-            {"type": "course", "courseId": "C&EE M166"},
-            {"type": "course", "courseId": "C&EE 156A"},
-            {"type": "course", "courseId": "C&EE 156B"},
-            {"type": "course", "courseId": "C&EE 157B"},
-            {"type": "course", "courseId": "C&EE 157C"},
-            {"type": "course", "courseId": "C&EE 125"},
-            {"type": "course", "courseId": "C&EE 120L"},
-            {"type": "course", "courseId": "C&EE 129L"},
-            {"type": "course", "courseId": "C&EE 121"},
-            {"type": "course", "courseId": "C&EE 123"},
-            {"type": "course", "courseId": "C&EE 157A"},
-            {"type": "course", "courseId": "C&EE C158"},
-            {"type": "course", "courseId": "C&EE 157L"},
-            {"type": "course", "courseId": "C&EE 151"},
-            {"type": "course", "courseId": "C&EE 152"},
-            {"type": "course", "courseId": "C&EE 130"},
-            {"type": "course", "courseId": "C&EE 132"},
-            {"type": "course", "courseId": "C&EE 135B"},
-            {"type": "course", "courseId": "C&EE M135C"},
-            {"type": "course", "courseId": "C&EE 142"},
-            {"type": "course", "courseId": "C&EE 135L"},
-            {"type": "course", "courseId": "C&EE 140L"},
-            {"type": "course", "courseId": "C&EE 141"},
-            {"type": "course", "courseId": "C&EE 143"},
-            {"type": "course", "courseId": "C&EE 148"},
-            {"type": "course", "courseId": "C&EE 144"},
-            {"type": "course", "courseId": "C&EE 147"},
-            {"type": "course", "courseId": "C&EE 180"},
-            {"type": "course", "courseId": "C&EE C181"},
-            {"type": "course", "courseId": "C&EE C183"},
-            {"type": "course", "courseId": "C&EE C184"},
-            {"type": "course", "courseId": "C&EE C185"},
-            {"type": "course", "courseId": "C&EE C186"}
+            {
+              "type": "course",
+              "courseId": "C&EE C104"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C105"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C106"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C111"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C182"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 108L"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 116XP"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 154"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 155"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C159"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C164"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE M165"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE M166"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 156A"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 156B"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 157B"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 157C"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 125"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 120L"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 129L"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 121"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 123"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 157A"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C158"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 157L"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 151"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 152"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 130"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 132"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 135B"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE M135C"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 142"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 135L"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 140L"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 141"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 143"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 148"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 144"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 147"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE 180"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C181"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C183"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C184"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C185"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE C186"
+            }
           ]
         }
       ]

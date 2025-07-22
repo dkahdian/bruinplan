@@ -16,8 +16,7 @@
           "title": "Transfer Student Requirement",
           "description": "Transfer applicants to the Central and East European Languages and Cultures major with 90 or more units must complete the following introductory course prior to admission to UCLA: one culture, history, or civilization course on one or more European nations.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -32,8 +31,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "C&EE ST 91"},
-            {"type": "course", "courseId": "SLAVC 90"}
+            {
+              "type": "course",
+              "courseId": "C&EE ST 91"
+            },
+            {
+              "type": "course",
+              "courseId": "SLAVC 90"
+            }
           ]
         }
       ]
@@ -55,9 +60,18 @@
               "description": "Complete the three-course Czech sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "CZCH 101A"},
-                {"type": "course", "courseId": "CZCH 101B"},
-                {"type": "course", "courseId": "CZCH 101C"}
+                {
+                  "type": "course",
+                  "courseId": "CZCH 101A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CZCH 101B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CZCH 101C"
+                }
               ]
             },
             {
@@ -66,9 +80,18 @@
               "description": "Complete the three-course Hungarian sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "HNGAR 101A"},
-                {"type": "course", "courseId": "HNGAR 101B"},
-                {"type": "course", "courseId": "HNGAR 101C"}
+                {
+                  "type": "course",
+                  "courseId": "HNGAR 101A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HNGAR 101B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HNGAR 101C"
+                }
               ]
             },
             {
@@ -77,9 +100,18 @@
               "description": "Complete the three-course Polish sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "POLSH 101A"},
-                {"type": "course", "courseId": "POLSH 101B"},
-                {"type": "course", "courseId": "POLSH 101C"}
+                {
+                  "type": "course",
+                  "courseId": "POLSH 101A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "POLSH 101B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "POLSH 101C"
+                }
               ]
             },
             {
@@ -88,9 +120,18 @@
               "description": "Complete the three-course Romanian sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "ROMANIA 101A"},
-                {"type": "course", "courseId": "ROMANIA 101B"},
-                {"type": "course", "courseId": "ROMANIA 101C"}
+                {
+                  "type": "course",
+                  "courseId": "ROMANIA 101A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ROMANIA 101B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ROMANIA 101C"
+                }
               ]
             },
             {
@@ -103,9 +144,18 @@
               "description": "Complete the three-course Serbian/Croatian sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "SRB CRO 101A"},
-                {"type": "course", "courseId": "SRB CRO 101B"},
-                {"type": "course", "courseId": "SRB CRO 101C"}
+                {
+                  "type": "course",
+                  "courseId": "SRB CRO 101A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SRB CRO 101B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SRB CRO 101C"
+                }
               ]
             },
             {
@@ -118,9 +168,18 @@
               "description": "Complete the three-course Ukrainian sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "UKRN 101A"},
-                {"type": "course", "courseId": "UKRN 101B"},
-                {"type": "course", "courseId": "UKRN 101C"}
+                {
+                  "type": "course",
+                  "courseId": "UKRN 101A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "UKRN 101B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "UKRN 101C"
+                }
               ]
             }
           ]
@@ -137,9 +196,18 @@
               "description": "Complete the three-course Advanced Czech sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "CZCH 102A"},
-                {"type": "course", "courseId": "CZCH 102B"},
-                {"type": "course", "courseId": "CZCH 102C"}
+                {
+                  "type": "course",
+                  "courseId": "CZCH 102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CZCH 102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CZCH 102C"
+                }
               ]
             },
             {
@@ -148,9 +216,18 @@
               "description": "Complete the three-course Advanced Hungarian sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "HNGAR 102A"},
-                {"type": "course", "courseId": "HNGAR 102B"},
-                {"type": "course", "courseId": "HNGAR 102C"}
+                {
+                  "type": "course",
+                  "courseId": "HNGAR 102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HNGAR 102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HNGAR 102C"
+                }
               ]
             },
             {
@@ -159,9 +236,18 @@
               "description": "Complete the three-course Advanced Polish sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "POLSH 102A"},
-                {"type": "course", "courseId": "POLSH 102B"},
-                {"type": "course", "courseId": "POLSH 102C"}
+                {
+                  "type": "course",
+                  "courseId": "POLSH 102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "POLSH 102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "POLSH 102C"
+                }
               ]
             },
             {
@@ -170,9 +256,18 @@
               "description": "Complete the three-course Advanced Romanian sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "ROMANIA 102A"},
-                {"type": "course", "courseId": "ROMANIA 102B"},
-                {"type": "course", "courseId": "ROMANIA 102C"}
+                {
+                  "type": "course",
+                  "courseId": "ROMANIA 102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ROMANIA 102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ROMANIA 102C"
+                }
               ]
             },
             {
@@ -181,9 +276,18 @@
               "description": "Complete the three-course Advanced Serbian/Croatian sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "SRB CRO 102A"},
-                {"type": "course", "courseId": "SRB CRO 102B"},
-                {"type": "course", "courseId": "SRB CRO 102C"}
+                {
+                  "type": "course",
+                  "courseId": "SRB CRO 102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SRB CRO 102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SRB CRO 102C"
+                }
               ]
             },
             {
@@ -192,9 +296,18 @@
               "description": "Complete the three-course Advanced Ukrainian sequence.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "UKRN 102A"},
-                {"type": "course", "courseId": "UKRN 102B"},
-                {"type": "course", "courseId": "UKRN 102C"}
+                {
+                  "type": "course",
+                  "courseId": "UKRN 102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "UKRN 102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "UKRN 102C"
+                }
               ]
             },
             {
@@ -203,20 +316,62 @@
               "description": "Select any three courses from the Russian elective list.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "RUSSN 100A"},
-                {"type": "course", "courseId": "RUSSN 100B"},
-                {"type": "course", "courseId": "RUSSN 100C"},
-                {"type": "course", "courseId": "RUSSN 101A"},
-                {"type": "course", "courseId": "RUSSN 101B"},
-                {"type": "course", "courseId": "RUSSN 101C"},
-                {"type": "course", "courseId": "RUSSN 102A"},
-                {"type": "course", "courseId": "RUSSN 102B"},
-                {"type": "course", "courseId": "RUSSN 102C"},
-                {"type": "course", "courseId": "RUSSN 103A"},
-                {"type": "course", "courseId": "RUSSN 103B"},
-                {"type": "course", "courseId": "RUSSN 103C"},
-                {"type": "course", "courseId": "RUSSN 130A"},
-                {"type": "course", "courseId": "RUSSN 140A"}
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 100A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 100B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 100C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 101A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 101B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 101C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 102C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 103A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 103B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 103C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 130A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "RUSSN 140A"
+                }
               ]
             }
           ]
@@ -227,27 +382,90 @@
           "description": "Select three courses (12 units) from the following lists. One of the three courses may be selected from the Additional Russian Electives list. No more than 8 units may be from the 187 series (Czech, Hungarian, Polish, Romanian, Serbian/Croatian, Ukrainian 187A through 187M).",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "C&EE ST M120"},
-            {"type": "course", "courseId": "C&EE ST M125"},
-            {"type": "course", "courseId": "C&EE ST CM126"},
-            {"type": "course", "courseId": "CZCH 155"},
-            {"type": "course", "courseId": "HIST 120A"},
-            {"type": "course", "courseId": "HIST 120B"},
-            {"type": "course", "courseId": "HIST 120C"},
-            {"type": "course", "courseId": "HIST 120D"},
-            {"type": "course", "courseId": "POLSH 152A"},
-            {"type": "course", "courseId": "POLSH 152B"},
-            {"type": "course", "courseId": "POLSH 152C"},
-            {"type": "course", "courseId": "ROMANIA 152"},
-            {"type": "course", "courseId": "RUSSN CM124G"},
-            {"type": "course", "courseId": "UKRN 152"},
-            {"type": "course", "courseId": "RUSSN M118"},
-            {"type": "course", "courseId": "RUSSN 119"},
-            {"type": "course", "courseId": "RUSSN 120"},
-            {"type": "course", "courseId": "RUSSN C124C"},
-            {"type": "course", "courseId": "RUSSN C124D"},
-            {"type": "course", "courseId": "RUSSN C124N"},
-            {"type": "course", "courseId": "RUSSN C124T"}
+            {
+              "type": "course",
+              "courseId": "C&EE ST M120"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE ST M125"
+            },
+            {
+              "type": "course",
+              "courseId": "C&EE ST CM126"
+            },
+            {
+              "type": "course",
+              "courseId": "CZCH 155"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 120B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 120C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 120D"
+            },
+            {
+              "type": "course",
+              "courseId": "POLSH 152A"
+            },
+            {
+              "type": "course",
+              "courseId": "POLSH 152B"
+            },
+            {
+              "type": "course",
+              "courseId": "POLSH 152C"
+            },
+            {
+              "type": "course",
+              "courseId": "ROMANIA 152"
+            },
+            {
+              "type": "course",
+              "courseId": "RUSSN CM124G"
+            },
+            {
+              "type": "course",
+              "courseId": "UKRN 152"
+            },
+            {
+              "type": "course",
+              "courseId": "RUSSN M118"
+            },
+            {
+              "type": "course",
+              "courseId": "RUSSN 119"
+            },
+            {
+              "type": "course",
+              "courseId": "RUSSN 120"
+            },
+            {
+              "type": "course",
+              "courseId": "RUSSN C124C"
+            },
+            {
+              "type": "course",
+              "courseId": "RUSSN C124D"
+            },
+            {
+              "type": "course",
+              "courseId": "RUSSN C124N"
+            },
+            {
+              "type": "course",
+              "courseId": "RUSSN C124T"
+            }
           ]
         },
         {
@@ -256,9 +474,18 @@
           "description": "During their senior year, students must also take the following courses in which they complete a capstone senior thesis:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "SLAVC 191TA"},
-            {"type": "course", "courseId": "SLAVC 191TB"},
-            {"type": "course", "courseId": "SLAVC 191TC"}
+            {
+              "type": "course",
+              "courseId": "SLAVC 191TA"
+            },
+            {
+              "type": "course",
+              "courseId": "SLAVC 191TB"
+            },
+            {
+              "type": "course",
+              "courseId": "SLAVC 191TC"
+            }
           ]
         }
       ]
@@ -272,7 +499,7 @@
           "type": "group",
           "title": "Honors Program Track",
           "description": "This is an optional track for eligible students.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -280,9 +507,18 @@
               "description": "Complete the following three-course sequence during senior year (fall, winter, and spring terms respectively).",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "SLAVC 198A"},
-                {"type": "course", "courseId": "SLAVC 198B"},
-                {"type": "course", "courseId": "SLAVC 198C"}
+                {
+                  "type": "course",
+                  "courseId": "SLAVC 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SLAVC 198B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SLAVC 198C"
+                }
               ]
             }
           ]

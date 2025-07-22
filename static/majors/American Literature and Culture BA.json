@@ -10,22 +10,13 @@
       "id": "capstone",
       "title": "Capstone Program",
       "description": "The American Literature and Culture major is a designated capstone program. Students have the option of completing a capstone seminar or other culminating work that enables them to use knowledge and skills acquired through previous coursework to engage, under the guidance of a faculty member, in literary research or other creative projects that result in a final paper or other product.",
-      "requirements": [
-      ]
-    },
-    {
-      "id": "learning-outcomes",
-      "title": "Learning Outcomes",
-      "description": "1. Proficiency in a broad knowledge/skill set including research methods, critical thinking, and analytical writing.\n2. Familiarity with basic project material including data from multiple sources.\n3. Familiarity with relevant scholarly and current debates in the field.\n4. Conception and execution of an independent project.\n5. Demonstrated seminar or workshop skills.\n6. Demonstrated oral and written communication skills.\n7. Demonstrated defense-of-scholarship skills.",
-      "requirements": [
-      ]
+      "requirements": []
     },
     {
       "id": "entry-to-the-major",
       "title": "Entry to the Major",
-      "description": "Transfer applicants to the American Literature and Culture major with 90 or more units must complete the following introductory courses prior to admission to UCLA: one English composition course, one English critical reading and writing course, and either (1) level five or equivalent in any one foreign language or (2) level three or equivalent in one foreign language and two additional courses in foreign language or literature in translation.\n\nRefer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
-      "requirements": [
-      ]
+      "description": "Transfer applicants to the American Literature and Culture major with 90 or more units must complete the following introductory courses prior to admission to UCLA: one English composition course, one English critical reading and writing course, and either (1) level five or equivalent in any one foreign language or (2) level three or equivalent in one foreign language and two additional courses in foreign language or literature in translation.",
+      "requirements": []
     },
     {
       "id": "preparation",
@@ -42,9 +33,18 @@
           "description": "Select one course from",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ENGL 4W"},
-            {"type": "course", "courseId": "ENGL 4HW"},
-            {"type": "course", "courseId": "ENGL 4WX"}
+            {
+              "type": "course",
+              "courseId": "ENGL 4W"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 4HW"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 4WX"
+            }
           ]
         },
         {
@@ -66,16 +66,14 @@
               "title": "Option 1",
               "description": "Level five or equivalent in any one foreign language.",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "group",
               "title": "Option 2",
               "description": "Level three or equivalent in one foreign language and two additional courses in foreign language or literature in translation.",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             }
           ]
         }
@@ -94,25 +92,70 @@
           "options": [
             {
               "type": "group",
-              "title": "Origins\u2014Beginnings, Events, and Trajectories",
+              "title": "Origins—Beginnings, Events, and Trajectories",
               "description": "Studying the Making of America in Its Myriad Beginnings and Manifestations. Select at least two from this area. Note: Courses ENGL M101B, 106, 123, 131, 139, 169 are only applicable when treating American topics.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "ENGL 100"},
-                {"type": "course", "courseId": "ENGL M102A"},
-                {"type": "course", "courseId": "ENGL M104A"},
-                {"type": "course", "courseId": "ENGL 166A"},
-                {"type": "course", "courseId": "ENGL 166B"},
-                {"type": "course", "courseId": "ENGL 166C"},
-                {"type": "course", "courseId": "ENGL 167A"},
-                {"type": "course", "courseId": "ENGL 167B"},
-                {"type": "course", "courseId": "ENGL 170A"},
-                {"type": "course", "courseId": "ENGL M101B"},
-                {"type": "course", "courseId": "ENGL 106"},
-                {"type": "course", "courseId": "ENGL 123"},
-                {"type": "course", "courseId": "ENGL 131"},
-                {"type": "course", "courseId": "ENGL 139"},
-                {"type": "course", "courseId": "ENGL 169"}
+                {
+                  "type": "course",
+                  "courseId": "ENGL 100"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M104A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 166A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 166B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 166C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 167A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 167B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 170A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M101B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 106"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 123"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 131"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 139"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 169"
+                }
               ]
             },
             {
@@ -121,53 +164,194 @@
               "description": "Studying People, Collectives and Movements across the Diverse Geographies of the Americas. Select at least two from this area. Note: Courses ENGL M101B, M101C, M101D, M103, M107A, M107B, 108, 109, 118E, M118F, 119, 119XP, M126, 132, 133, 134, 139 are only applicable when treating American topics.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "ENGL 100"},
-                {"type": "course", "courseId": "ENGL M102A"},
-                {"type": "course", "courseId": "ENGL M102B"},
-                {"type": "course", "courseId": "ENGL M104A"},
-                {"type": "course", "courseId": "ENGL M104B"},
-                {"type": "course", "courseId": "ENGL M104C"},
-                {"type": "course", "courseId": "ENGL M104D"},
-                {"type": "course", "courseId": "ENGL M104E"},
-                {"type": "course", "courseId": "ENGL M105A"},
-                {"type": "course", "courseId": "ENGL M105B"},
-                {"type": "course", "courseId": "ENGL M105C"},
-                {"type": "course", "courseId": "ENGL M105D"},
-                {"type": "course", "courseId": "ENGL M105E"},
-                {"type": "course", "courseId": "ENGL 106"},
-                {"type": "course", "courseId": "ENGL 115A"},
-                {"type": "course", "courseId": "ENGL 117"},
-                {"type": "course", "courseId": "ENGL 135"},
-                {"type": "course", "courseId": "ENGL 168"},
-                {"type": "course", "courseId": "ENGL 170B"},
-                {"type": "course", "courseId": "ENGL 170C"},
-                {"type": "course", "courseId": "ENGL 172C"},
-                {"type": "course", "courseId": "ENGL 173A"},
-                {"type": "course", "courseId": "ENGL 173B"},
-                {"type": "course", "courseId": "ENGL 173C"},
-                {"type": "course", "courseId": "ENGL 174A"},
-                {"type": "course", "courseId": "ENGL 174B"},
-                {"type": "course", "courseId": "ENGL 174C"},
-                {"type": "course", "courseId": "ENGL 175"},
-                {"type": "course", "courseId": "ENGL 176"},
-                {"type": "course", "courseId": "ENGL 177"},
-                {"type": "course", "courseId": "ENGL M101B"},
-                {"type": "course", "courseId": "ENGL M101C"},
-                {"type": "course", "courseId": "ENGL M101D"},
-                {"type": "course", "courseId": "ENGL M103"},
-                {"type": "course", "courseId": "ENGL M107A"},
-                {"type": "course", "courseId": "ENGL M107B"},
-                {"type": "course", "courseId": "ENGL 108"},
-                {"type": "course", "courseId": "ENGL 109"},
-                {"type": "course", "courseId": "ENGL 118E"},
-                {"type": "course", "courseId": "ENGL M118F"},
-                {"type": "course", "courseId": "ENGL 119"},
-                {"type": "course", "courseId": "ENGL 119XP"},
-                {"type": "course", "courseId": "ENGL M126"},
-                {"type": "course", "courseId": "ENGL 132"},
-                {"type": "course", "courseId": "ENGL 133"},
-                {"type": "course", "courseId": "ENGL 134"},
-                {"type": "course", "courseId": "ENGL 139"}
+                {
+                  "type": "course",
+                  "courseId": "ENGL 100"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M104A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M104B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M104C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M104D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M104E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M105A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M105B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M105C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M105D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M105E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 106"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 115A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 117"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 135"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 168"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 170B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 170C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 172C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 173A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 173B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 173C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 174A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 174B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 174C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 175"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 176"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 177"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M101B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M101C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M101D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M103"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M107A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M107B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 108"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 109"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 118E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M118F"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 119"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 119XP"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M126"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 132"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 133"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 134"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 139"
+                }
               ]
             },
             {
@@ -176,42 +360,150 @@
               "description": "Select at least two from this area. Note: Courses ENGL 114, 115C, 115D, 115E, M115XP, 116A, 116B, 121, 122, 123, 124, 125, M126, 127, 129, 139, 169, 169R, 179, 179R are only applicable when treating American topics.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "ENGL 115A"},
-                {"type": "course", "courseId": "ENGL 167A"},
-                {"type": "course", "courseId": "ENGL 167B"},
-                {"type": "course", "courseId": "ENGL 168"},
-                {"type": "course", "courseId": "ENGL 170A"},
-                {"type": "course", "courseId": "ENGL 170B"},
-                {"type": "course", "courseId": "ENGL 170C"},
-                {"type": "course", "courseId": "ENGL 172C"},
-                {"type": "course", "courseId": "ENGL 173A"},
-                {"type": "course", "courseId": "ENGL 173B"},
-                {"type": "course", "courseId": "ENGL 173C"},
-                {"type": "course", "courseId": "ENGL 174A"},
-                {"type": "course", "courseId": "ENGL 174B"},
-                {"type": "course", "courseId": "ENGL 174C"},
-                {"type": "course", "courseId": "ENGL 175"},
-                {"type": "course", "courseId": "ENGL 177"},
-                {"type": "course", "courseId": "ENGL 114"},
-                {"type": "course", "courseId": "ENGL 115C"},
-                {"type": "course", "courseId": "ENGL 115D"},
-                {"type": "course", "courseId": "ENGL 115E"},
-                {"type": "course", "courseId": "ENGL M115XP"},
-                {"type": "course", "courseId": "ENGL 116A"},
-                {"type": "course", "courseId": "ENGL 116B"},
-                {"type": "course", "courseId": "ENGL 121"},
-                {"type": "course", "courseId": "ENGL 122"},
-                {"type": "course", "courseId": "ENGL 123"},
-                {"type": "course", "courseId": "ENGL 124"},
-                {"type": "course", "courseId": "ENGL 125"},
-                {"type": "course", "courseId": "ENGL M126"},
-                {"type": "course", "courseId": "ENGL 127"},
-                {"type": "course", "courseId": "ENGL 129"},
-                {"type": "course", "courseId": "ENGL 139"},
-                {"type": "course", "courseId": "ENGL 169"},
-                {"type": "course", "courseId": "ENGL 169R"},
-                {"type": "course", "courseId": "ENGL 179"},
-                {"type": "course", "courseId": "ENGL 179R"}
+                {
+                  "type": "course",
+                  "courseId": "ENGL 115A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 167A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 167B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 168"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 170A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 170B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 170C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 172C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 173A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 173B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 173C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 174A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 174B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 174C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 175"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 177"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 114"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 115C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 115D"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 115E"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M115XP"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 116A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 116B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 121"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 122"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 123"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 124"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 125"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL M126"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 127"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 129"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 139"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 169"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 169R"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 179"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ENGL 179R"
+                }
               ]
             }
           ]
@@ -222,21 +514,66 @@
           "description": "Select one course from the following list. Note: Courses ENGL 180, 181A, 181B, 182E, 182F, 184, M191D, M191E are only applicable when treating American topics.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ENGL M105XP"},
-            {"type": "course", "courseId": "ENGL 183A"},
-            {"type": "course", "courseId": "ENGL 183B"},
-            {"type": "course", "courseId": "ENGL 183C"},
-            {"type": "course", "courseId": "ENGL M191A"},
-            {"type": "course", "courseId": "ENGL M191B"},
-            {"type": "course", "courseId": "ENGL M191C"},
-            {"type": "course", "courseId": "ENGL 180"},
-            {"type": "course", "courseId": "ENGL 181A"},
-            {"type": "course", "courseId": "ENGL 181B"},
-            {"type": "course", "courseId": "ENGL 182E"},
-            {"type": "course", "courseId": "ENGL 182F"},
-            {"type": "course", "courseId": "ENGL 184"},
-            {"type": "course", "courseId": "ENGL M191D"},
-            {"type": "course", "courseId": "ENGL M191E"}
+            {
+              "type": "course",
+              "courseId": "ENGL M105XP"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 183A"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 183B"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 183C"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL M191A"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL M191B"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL M191C"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 180"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 181A"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 181B"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 182E"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 182F"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 184"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL M191D"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL M191E"
+            }
           ]
         },
         {
@@ -244,8 +581,7 @@
           "title": "American Culture Courses from Other Departments",
           "description": "Complete two courses pertaining to American culture offered by other departments from a list of approved courses for the major. Courses 195 and 195CE are not applicable.",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -260,15 +596,42 @@
           "description": "Select one course from English 120 through 128:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ENGL 120"},
-            {"type": "course", "courseId": "ENGL 121"},
-            {"type": "course", "courseId": "ENGL 122"},
-            {"type": "course", "courseId": "ENGL 123"},
-            {"type": "course", "courseId": "ENGL 124"},
-            {"type": "course", "courseId": "ENGL 125"},
-            {"type": "course", "courseId": "ENGL 126"},
-            {"type": "course", "courseId": "ENGL 127"},
-            {"type": "course", "courseId": "ENGL 128"}
+            {
+              "type": "course",
+              "courseId": "ENGL 120"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 121"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 122"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 123"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 124"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 125"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 126"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 127"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 128"
+            }
           ]
         },
         {
@@ -277,9 +640,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "ENGL 191H"},
-            {"type": "course", "courseId": "ENGL 198A"},
-            {"type": "course", "courseId": "ENGL 198B"}
+            {
+              "type": "course",
+              "courseId": "ENGL 191H"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 198A"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 198B"
+            }
           ]
         }
       ]
@@ -287,9 +659,8 @@
     {
       "id": "policies",
       "title": "Policies",
-      "description": "### Preparation for the Major Policies\nA grade of C or better is required in each of English Composition 3, English 4W or 4HW or 4WX, 11, and 87. A foreign literature in translation course list is available from the department. Transfer students who have satisfied the College of Letters and Science foreign language requirement at the high-school level through the IGETC program may satisfy the departmental requirement with five foreign literature in translation courses. Courses satisfying the major foreign language requirement may be taken on a Passed/Not Passed (P/NP) grading basis.\n\n### The Major Policies\nEach course applied toward requirements for the major must be at least 4 units and be taken for a letter grade.\n\n### Honors Program Policies\n**Admission**: The honors program is open to majors with a 3.5 departmental and a 3.25 overall grade-point average (GPA). Students with lower GPAs may petition for admission but must achieve these GPAs before graduation to qualify for honors. Students should apply by winter quarter of the junior year. For application forms and more information, contact the departmental counselor.\n**Requirements**: In most cases, courses required for departmental honors are not eligible to fulfill requirements for the American Literature and Culture major. Potential exceptions should be discussed with a departmental counselor in advance. The thesis determines whether the student receives highest honors, honors, or no honors.",
-      "requirements": [
-      ]
+      "description": "### Preparation for the Major Policies",
+      "requirements": []
     }
   ]
 }

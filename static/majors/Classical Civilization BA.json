@@ -25,10 +25,22 @@
           "description": "Select one course from the following Greek or Latin options:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "GREEK 3"},
-            {"type": "course", "courseId": "GREEK 16"},
-            {"type": "course", "courseId": "LATIN 3"},
-            {"type": "course", "courseId": "LATIN 16"}
+            {
+              "type": "course",
+              "courseId": "GREEK 3"
+            },
+            {
+              "type": "course",
+              "courseId": "GREEK 16"
+            },
+            {
+              "type": "course",
+              "courseId": "LATIN 3"
+            },
+            {
+              "type": "course",
+              "courseId": "LATIN 16"
+            }
           ]
         },
         {
@@ -37,14 +49,38 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "CLASSIC 30"},
-            {"type": "course", "courseId": "CLASSIC 40W"},
-            {"type": "course", "courseId": "CLASSIC 41W"},
-            {"type": "course", "courseId": "CLASSIC 42"},
-            {"type": "course", "courseId": "CLASSIC 51A"},
-            {"type": "course", "courseId": "CLASSIC 51B"},
-            {"type": "course", "courseId": "CLASSIC 60"},
-            {"type": "course", "courseId": "CLASSIC 88GE"}
+            {
+              "type": "course",
+              "courseId": "CLASSIC 30"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 40W"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 41W"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 42"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 51A"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 51B"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 60"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 88GE"
+            }
           ]
         }
       ]
@@ -59,8 +95,7 @@
           "title": "Required Upper-Division Courses",
           "description": "Students must complete nine upper-division courses in the department (courses in related fields not offered by the department may be substituted by petition and with approval of the undergraduate adviser). No more than three may be selected from Greek 100 through 133 or Latin 100 through 133. Classics 198A and 198B may be applied as only one course toward the major.",
           "needs": 9,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -68,7 +103,10 @@
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "CLASSIC 191"}
+            {
+              "type": "course",
+              "courseId": "CLASSIC 191"
+            }
           ]
         }
       ]

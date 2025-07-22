@@ -17,8 +17,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "A&O SCI 1"},
-            {"type": "course", "courseId": "EPS SCI 15"}
+            {
+              "type": "course",
+              "courseId": "A&O SCI 1"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 15"
+            }
           ]
         },
         {
@@ -33,10 +39,22 @@
               "description": "Complete all four courses.",
               "needs": 4,
               "options": [
-                {"type": "course", "courseId": "CHEM 14A"},
-                {"type": "course", "courseId": "CHEM 14B"},
-                {"type": "course", "courseId": "CHEM 14C"},
-                {"type": "course", "courseId": "CHEM 14D"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14D"
+                }
               ]
             },
             {
@@ -45,12 +63,30 @@
               "description": "Complete all six courses.",
               "needs": 6,
               "options": [
-                {"type": "course", "courseId": "CHEM 20A"},
-                {"type": "course", "courseId": "CHEM 20B"},
-                {"type": "course", "courseId": "CHEM 20L"},
-                {"type": "course", "courseId": "CHEM 30A"},
-                {"type": "course", "courseId": "CHEM 30AL"},
-                {"type": "course", "courseId": "CHEM 30B"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20L"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30AL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30B"
+                }
               ]
             }
           ]
@@ -61,10 +97,22 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "LIFESCI 7A"},
-            {"type": "course", "courseId": "LIFESCI 7B"},
-            {"type": "course", "courseId": "LIFESCI 7C"},
-            {"type": "course", "courseId": "LIFESCI 7L"}
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7A"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7B"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7C"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7L"
+            }
           ]
         },
         {
@@ -79,8 +127,14 @@
               "description": "Complete both courses.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "LIFESCI 30A"},
-                {"type": "course", "courseId": "LIFESCI 30B"}
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30B"
+                }
               ]
             },
             {
@@ -89,9 +143,18 @@
               "description": "Complete all three courses.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MATH 3A"},
-                {"type": "course", "courseId": "MATH 3B"},
-                {"type": "course", "courseId": "MATH 3C"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 3A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3C"
+                }
               ]
             },
             {
@@ -100,10 +163,22 @@
               "description": "Complete all four courses.",
               "needs": 4,
               "options": [
-                {"type": "course", "courseId": "MATH 31A"},
-                {"type": "course", "courseId": "MATH 31AL"},
-                {"type": "course", "courseId": "MATH 31B"},
-                {"type": "course", "courseId": "MATH 32A"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 31A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31AL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 32A"
+                }
               ]
             }
           ]
@@ -114,8 +189,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "LIFESCI 40"},
-            {"type": "course", "courseId": "STATS 13"}
+            {
+              "type": "course",
+              "courseId": "LIFESCI 40"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 13"
+            }
           ]
         },
         {
@@ -130,11 +211,26 @@
               "description": "Complete all five courses.",
               "needs": 5,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 1A"},
-                {"type": "course", "courseId": "PHYSICS 1B"},
-                {"type": "course", "courseId": "PHYSICS 1C"},
-                {"type": "course", "courseId": "PHYSICS 4AL"},
-                {"type": "course", "courseId": "PHYSICS 4BL"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 4AL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 4BL"
+                }
               ]
             },
             {
@@ -143,9 +239,18 @@
               "description": "Complete all three courses.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 5A"},
-                {"type": "course", "courseId": "PHYSICS 5B"},
-                {"type": "course", "courseId": "PHYSICS 5C"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5C"
+                }
               ]
             }
           ]
@@ -171,13 +276,34 @@
           "description": "Select at least 4 laboratory units (one course) from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "EE BIOL 101"},
-            {"type": "course", "courseId": "EE BIOL 105"},
-            {"type": "course", "courseId": "EE BIOL 110"},
-            {"type": "course", "courseId": "EE BIOL 112"},
-            {"type": "course", "courseId": "EE BIOL 136"},
-            {"type": "course", "courseId": "EE BIOL 170"},
-            {"type": "course", "courseId": "EE BIOL 181"}
+            {
+              "type": "course",
+              "courseId": "EE BIOL 101"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 105"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 110"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 112"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 136"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 170"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 181"
+            }
           ]
         },
         {
@@ -186,18 +312,54 @@
           "description": "Select at least 4 units (one course) from the following list. Courses applied toward the laboratory requirement may not be applied. Students with credit for Ecology and Evolutionary Biology 170 cannot also take Physiological Science 166.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "EE BIOL 101"},
-            {"type": "course", "courseId": "EE BIOL 105"},
-            {"type": "course", "courseId": "EE BIOL 107"},
-            {"type": "course", "courseId": "EE BIOL 112"},
-            {"type": "course", "courseId": "EE BIOL 117"},
-            {"type": "course", "courseId": "EE BIOL 128"},
-            {"type": "course", "courseId": "EE BIOL 140"},
-            {"type": "course", "courseId": "EE BIOL 142"},
-            {"type": "course", "courseId": "EE BIOL 170"},
-            {"type": "course", "courseId": "EE BIOL C174"},
-            {"type": "course", "courseId": "EE BIOL 184"},
-            {"type": "course", "courseId": "PHYSCI 166"}
+            {
+              "type": "course",
+              "courseId": "EE BIOL 101"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 105"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 107"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 112"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 117"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 128"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 140"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 142"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 170"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C174"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 184"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 166"
+            }
           ]
         },
         {
@@ -206,40 +368,142 @@
           "description": "Select at least 4 units (one course) from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ANTHRO 128P"},
-            {"type": "course", "courseId": "BIOENGR CM186"},
-            {"type": "course", "courseId": "C&S BIO M186"},
-            {"type": "course", "courseId": "COM SCI CM186"},
-            {"type": "course", "courseId": "EE BIOL 100"},
-            {"type": "course", "courseId": "EE BIOL 116"},
-            {"type": "course", "courseId": "EE BIOL C119A"},
-            {"type": "course", "courseId": "EE BIOL C119B"},
-            {"type": "course", "courseId": "EE BIOL 122"},
-            {"type": "course", "courseId": "EE BIOL C126"},
-            {"type": "course", "courseId": "EE BIOL 128"},
-            {"type": "course", "courseId": "EE BIOL 129"},
-            {"type": "course", "courseId": "EE BIOL M131"},
-            {"type": "course", "courseId": "EE BIOL 133"},
-            {"type": "course", "courseId": "EE BIOL 136"},
-            {"type": "course", "courseId": "EE BIOL 137"},
-            {"type": "course", "courseId": "EE BIOL 140"},
-            {"type": "course", "courseId": "EE BIOL 142"},
-            {"type": "course", "courseId": "EE BIOL 143"},
-            {"type": "course", "courseId": "EE BIOL C146"},
-            {"type": "course", "courseId": "EE BIOL 151A"},
-            {"type": "course", "courseId": "EE BIOL 152"},
-            {"type": "course", "courseId": "EE BIOL 154"},
-            {"type": "course", "courseId": "EE BIOL 155"},
-            {"type": "course", "courseId": "EE BIOL M157"},
-            {"type": "course", "courseId": "EE BIOL 161"},
-            {"type": "course", "courseId": "EE BIOL 161L"},
-            {"type": "course", "courseId": "EE BIOL 162"},
-            {"type": "course", "courseId": "EE BIOL 170"},
-            {"type": "course", "courseId": "EE BIOL C172"},
-            {"type": "course", "courseId": "EE BIOL M178"},
-            {"type": "course", "courseId": "EE BIOL 183"},
-            {"type": "course", "courseId": "EE BIOL 184"},
-            {"type": "course", "courseId": "GEOG M110"}
+            {
+              "type": "course",
+              "courseId": "ANTHRO 128P"
+            },
+            {
+              "type": "course",
+              "courseId": "BIOENGR CM186"
+            },
+            {
+              "type": "course",
+              "courseId": "C&S BIO M186"
+            },
+            {
+              "type": "course",
+              "courseId": "COM SCI CM186"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 100"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 116"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C119A"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C119B"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 122"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C126"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 128"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 129"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL M131"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 133"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 136"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 137"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 140"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 142"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 143"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C146"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 151A"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 152"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 154"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 155"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL M157"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 161"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 161L"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 162"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 170"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C172"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL M178"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 183"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 184"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M110"
+            }
           ]
         },
         {
@@ -248,31 +512,106 @@
           "description": "Select at least 4 evolution units (one course) from the following list. Students with credit for Ecology and Evolutionary Biology 120 cannot also take course 185. Students with credit for Life Sciences 4 cannot also take course 107.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ANTHRO M128S"},
-            {"type": "course", "courseId": "EPS SCI CM173"},
-            {"type": "course", "courseId": "EE BIOL 116"},
-            {"type": "course", "courseId": "EE BIOL 117"},
-            {"type": "course", "courseId": "EE BIOL 120"},
-            {"type": "course", "courseId": "EE BIOL 121"},
-            {"type": "course", "courseId": "EE BIOL 130"},
-            {"type": "course", "courseId": "EE BIOL 133"},
-            {"type": "course", "courseId": "EE BIOL C135"},
-            {"type": "course", "courseId": "EE BIOL 140"},
-            {"type": "course", "courseId": "EE BIOL 143"},
-            {"type": "course", "courseId": "EE BIOL 144"},
-            {"type": "course", "courseId": "EE BIOL 144L"},
-            {"type": "course", "courseId": "EE BIOL C146"},
-            {"type": "course", "courseId": "EE BIOL 149"},
-            {"type": "course", "courseId": "EE BIOL 150"},
-            {"type": "course", "courseId": "EE BIOL 150L"},
-            {"type": "course", "courseId": "EE BIOL CM173"},
-            {"type": "course", "courseId": "EE BIOL C174"},
-            {"type": "course", "courseId": "EE BIOL 175"},
-            {"type": "course", "courseId": "EE BIOL 184"},
-            {"type": "course", "courseId": "EE BIOL 185"},
-            {"type": "course", "courseId": "EE BIOL 186"},
-            {"type": "course", "courseId": "LIFESCI 107"},
-            {"type": "course", "courseId": "SOC GEN M142"}
+            {
+              "type": "course",
+              "courseId": "ANTHRO M128S"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI CM173"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 116"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 117"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 120"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 121"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 130"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 133"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C135"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 140"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 143"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 144"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 144L"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C146"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 149"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 150"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 150L"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL CM173"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL C174"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 175"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 184"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 185"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 186"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 107"
+            },
+            {
+              "type": "course",
+              "courseId": "SOC GEN M142"
+            }
           ]
         },
         {
@@ -280,8 +619,7 @@
           "title": "Capstone Field Quarter",
           "description": "Complete one capstone field quarter consisting of 12 to 16 units from the Marine Biology Quarter (MBQ) or pre-approved equivalent (see undergraduate adviser).",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -289,33 +627,114 @@
           "description": "Select one additional course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "A&O SCI 102"},
-            {"type": "course", "courseId": "A&O SCI 103"},
-            {"type": "course", "courseId": "A&O SCI 104"},
-            {"type": "course", "courseId": "A&O SCI M105"},
-            {"type": "course", "courseId": "A&O SCI M106"},
-            {"type": "course", "courseId": "A&O SCI 130"},
-            {"type": "course", "courseId": "CHEM 103"},
-            {"type": "course", "courseId": "CHEM 153A"},
-            {"type": "course", "courseId": "EPS SCI 100"},
-            {"type": "course", "courseId": "EPS SCI 116"},
-            {"type": "course", "courseId": "EPS SCI 119"},
-            {"type": "course", "courseId": "EPS SCI C141"},
-            {"type": "course", "courseId": "EPS SCI 153"},
-            {"type": "course", "courseId": "EE BIOL 104"},
-            {"type": "course", "courseId": "EE BIOL M131"},
-            {"type": "course", "courseId": "EE BIOL M139"},
-            {"type": "course", "courseId": "EE BIOL 153"},
-            {"type": "course", "courseId": "EE BIOL 198B"},
-            {"type": "course", "courseId": "EE BIOL 199"},
-            {"type": "course", "courseId": "GEOG 101"},
-            {"type": "course", "courseId": "GEOG M110"},
-            {"type": "course", "courseId": "GEOG M118"},
-            {"type": "course", "courseId": "GEOG 130"},
-            {"type": "course", "courseId": "GEOG 182A"},
-            {"type": "course", "courseId": "MECH&AE 103"},
-            {"type": "course", "courseId": "MECH&AE 150A"},
-            {"type": "course", "courseId": "MCD BIO 172"}
+            {
+              "type": "course",
+              "courseId": "A&O SCI 102"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 103"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 104"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI M105"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI M106"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 130"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 103"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 153A"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 100"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 116"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 119"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C141"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 153"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 104"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL M131"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL M139"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 153"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 198B"
+            },
+            {
+              "type": "course",
+              "courseId": "EE BIOL 199"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 101"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M110"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M118"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 130"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 182A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 103"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 150A"
+            },
+            {
+              "type": "course",
+              "courseId": "MCD BIO 172"
+            }
           ]
         }
       ]
@@ -329,7 +748,7 @@
           "type": "group",
           "title": "Optional Programs and Specializations",
           "description": "These programs are optional and not required for the degree.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -337,8 +756,14 @@
               "description": "Highest honors are awarded to majors who have a GPA of 3.6 overall and a 3.6 in the major at graduation and who have successfully completed Ecology and Evolutionary Biology 198A and 198B.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "EE BIOL 198A"},
-                {"type": "course", "courseId": "EE BIOL 198B"}
+                {
+                  "type": "course",
+                  "courseId": "EE BIOL 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "EE BIOL 198B"
+                }
               ]
             },
             {
@@ -353,11 +778,26 @@
                   "description": "Complete COMPTNG 10A, 10B, 10C, and Program in Computing 30 and 60.",
                   "needs": 5,
                   "options": [
-                    {"type": "course", "courseId": "COMPTNG 10A"},
-                    {"type": "course", "courseId": "COMPTNG 10B"},
-                    {"type": "course", "courseId": "COMPTNG 10C"},
-                    {"type": "course", "courseId": "COMPTNG 30"},
-                    {"type": "course", "courseId": "COMPTNG 60"}
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 30"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 60"
+                    }
                   ]
                 },
                 {
@@ -366,9 +806,18 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "COM SCI CM186"},
-                    {"type": "course", "courseId": "PSYCH 186A"},
-                    {"type": "course", "courseId": "PSYCH 186B"}
+                    {
+                      "type": "course",
+                      "courseId": "COM SCI CM186"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 186A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 186B"
+                    }
                   ]
                 }
               ]

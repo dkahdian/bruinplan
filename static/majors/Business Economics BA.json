@@ -7,18 +7,10 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "learning-outcomes",
-      "title": "Learning Outcomes",
-      "description": "1. Understanding, through application of microeconomics, of the interaction of individuals and organizations in markets; and of the role of public policy in shaping those interactions.\n2. Understanding, through application of macroeconomics, of the functioning of market economies at regional, national, and global levels; and of the role of public policy in shaping those interactions.\n3. Understanding and application of accounting principles to analysis of business problems.\n4. Acquisition and use of data to evaluate hypotheses with tables, charts, and statistical analyses.\n5. Use of appropriate analytical perspectives and approaches to frame problems involving the interaction of people, organizations, markets, and society; identify effective strategic approaches to problem solving; and gather and organize key information to facilitate problem solving.",
-      "requirements": [
-      ]
-    },
-    {
       "id": "entry-to-the-major",
       "title": "Entry to the Major",
-      "description": "Admission\nApplications for admission by current UCLA students are handled exclusively by the Department of Economics. To apply, students must have completed at least one 12-unit term at UCLA in a regular session and all courses listed under preparation for the major. Students must apply no later than the end of the 8th regular quarter at UCLA. Final grades for all major preparation courses must be reflected on the degree audit report prior to submission. Applications are available on the undergraduate economics Bruin Learn website and are accepted online during the first three weeks of each quarter as well as summer session A.\n\nIn addition, they must have a minimum grade of a C or higher in each preparation course, have a minimum 3.0 grade-point average in all preparation courses, have a minimum 2.0 (C) grade-point average in their upper-division courses taken for the major before applying (Economics 101 applies on the major preparation grade-point average), and meet the primary score for the major. The requisite grade-point averages plus completion of the preparation for the major courses do not guarantee admission to the program.\n\nPre-Major\nWhile students are completing the preparation courses for the major, they may be classified as Business Economics pre-majors.\n\nTransfer Students\nTransfer students must be admitted to UCLA as an Economics pre-major or Business Economics pre-major in order to pursue either major. Transfer applicants to the Business Economics major must complete the following introductory courses prior to admission to UCLA: one microeconomics course, one macroeconomics course, two calculus courses from the mathematics/physical sciences sequence. Transfer credit is subject to department approval; consult with an undergraduate counselor before enrolling in any courses for the major.",
-      "requirements": [
-      ]
+      "description": "Admission",
+      "requirements": []
     },
     {
       "id": "preparation",
@@ -59,8 +51,14 @@
           "description": "Complete one course from Mathematics 31A or 31AL.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 31A"},
-            {"type": "course", "courseId": "MATH 31AL"}
+            {
+              "type": "course",
+              "courseId": "MATH 31A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31AL"
+            }
           ]
         },
         {
@@ -103,31 +101,28 @@
           "title": "Economics 106 series",
           "description": "Complete at least two courses from the Economics 106 series.",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Upper-Division Electives",
           "description": "Complete five upper-division elective courses in economics and management (no more than three management courses from Management 108, 109, 120A, 120B, 122, 123, 124, 126, 127A, 127B, 127C, 130A, 140, 159, 160, 161, 162, 163, 164, 165, 167, 168, 170 may be applied toward the elective requirement).",
           "needs": 5,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Economics Courses with Laboratories",
           "description": "In addition to Economics 103 and 103L, and 104 and 104L, at least two economics courses with laboratories must be completed and may be selected from either the Economics 106 series or an economics elective.",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
     {
       "id": "honors-program",
       "title": "Honors Program",
-      "description": "The departmental honors program is open to majors who have a cumulative grade-point average of at least 3.5 in the major and in all courses taken at UCLA prior to application.\n\nTo qualify for departmental honors at graduation, students must (1) select at least seven of the required upper-division economics courses from the approved list designated for departmental honors, (2) complete a two-term senior thesis acceptable to the departmental honors committee in Economics 198A and 198B, and (3) complete the major requirements with at least a 3.5 grade-point average in the economics courses. Highest honors are awarded at the discretion of the departmental honors committee based on grade-point average and quality of the senior thesis.",
+      "description": "The departmental honors program is open to majors who have a cumulative grade-point average of at least 3.5 in the major and in all courses taken at UCLA prior to application.",
       "requirements": [
         {
           "type": "group",
@@ -135,8 +130,14 @@
           "description": "Complete the following two courses in which a thesis is written:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "ECON 198A"},
-            {"type": "course", "courseId": "ECON 198B"}
+            {
+              "type": "course",
+              "courseId": "ECON 198A"
+            },
+            {
+              "type": "course",
+              "courseId": "ECON 198B"
+            }
           ]
         }
       ]
@@ -144,9 +145,8 @@
     {
       "id": "policies",
       "title": "Policies",
-      "description": "Preparation for the Major Policies\nEach course must be taken for a letter grade. Repetition of more than two pre-major economics courses or of any preparation course more than once, including equivalent courses taken elsewhere, results in automatic denial of admission to the major. This excludes courses taken prior to admission. For students admitted to UCLA prior to fall 2023, repetition of more than one preparation course or of any preparation course more than once, including equivalent courses taken elsewhere, results in automatic denial of admission to the major.\n\nThe Major Policies\nEach upper-division major course must be taken for a letter grade. Transfer credit for any of the major courses is subject to department approval; consult with an undergraduate counselor before enrolling in any courses for the major. Laboratory courses are required for all upper-division economics courses when they are offered and listed as mandatory co-requisite. To graduate, students must have a minimum 2.0 grade-point average in their upper-division major courses, with at least a C\u2013 in each course. (Economics 101 applies on the preparation for the major, therefore requiring a minimum grade of C.)",
-      "requirements": [
-      ]
+      "description": "Preparation for the Major Policies",
+      "requirements": []
     }
   ]
 }

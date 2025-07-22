@@ -1,6 +1,6 @@
 {
   "name": "Mathematics for Teaching BS",
-  "overview": "The Mathematics for Teaching major is designed primarily for students planning to teach mathematics at the high school level. It provides exposure to a broad range of mathematical topics, especially those appropriate for the prospective teacher. Students planning to pursue graduate studies in mathematics or related fields are encouraged to enter the Mathematics, Applied Mathematics, or Mathematics of Computation major.\nThe Mathematics for Teaching major is a designated capstone major. In their senior year, students complete a year-long course sequence that culminates in a model lesson presentation, paper, and portfolio. Through their capstone work, students demonstrate their familiarity with research and current issues in mathematics education, as well as their capacities to problem solve; reason quantitatively, geometrically, and algebraically; construct viable arguments; critique others\u2019 reasoning; and use tools strategically.",
+  "overview": "The Mathematics for Teaching major is designed primarily for students planning to teach mathematics at the high school level. It provides exposure to a broad range of mathematical topics, especially those appropriate for the prospective teacher. Students planning to pursue graduate studies in mathematics or related fields are encouraged to enter the Mathematics, Applied Mathematics, or Mathematics of Computation major.",
   "college": "College of Letters and Science",
   "department": "Mathematics",
   "degreeLevel": "Undergraduate",
@@ -17,8 +17,14 @@
           "description": "Select one from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 31A"},
-            {"type": "course", "courseId": "MATH 31AL"}
+            {
+              "type": "course",
+              "courseId": "MATH 31A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31AL"
+            }
           ]
         },
         {
@@ -51,8 +57,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "PHYSICS 1A"},
-            {"type": "course", "courseId": "PHYSICS 5A"}
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 5A"
+            }
           ]
         },
         {
@@ -94,8 +106,7 @@
               "title": "Program in Computing",
               "description": "Select from Program in Computing 10B through 97.",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             }
           ]
         }
@@ -128,8 +139,14 @@
           "description": "Select one course from the following group:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 110A"},
-            {"type": "course", "courseId": "MATH 117"}
+            {
+              "type": "course",
+              "courseId": "MATH 110A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 117"
+            }
           ]
         },
         {
@@ -138,8 +155,14 @@
           "description": "Select one course from the following group:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 120A"},
-            {"type": "course", "courseId": "MATH 123"}
+            {
+              "type": "course",
+              "courseId": "MATH 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 123"
+            }
           ]
         },
         {
@@ -148,8 +171,14 @@
           "description": "Select one course from the following group:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 170A"},
-            {"type": "course", "courseId": "STATS 100A"}
+            {
+              "type": "course",
+              "courseId": "MATH 170A"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 100A"
+            }
           ]
         },
         {
@@ -163,8 +192,7 @@
               "title": "Mathematics Elective",
               "description": "Any course from Mathematics 110B through 191H",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "course",
@@ -178,15 +206,42 @@
           "description": "Select one from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 131B"},
-            {"type": "course", "courseId": "MATH 131BH"},
-            {"type": "course", "courseId": "MATH 131C"},
-            {"type": "course", "courseId": "MATH 132"},
-            {"type": "course", "courseId": "MATH 132H"},
-            {"type": "course", "courseId": "MATH 133"},
-            {"type": "course", "courseId": "MATH 134"},
-            {"type": "course", "courseId": "MATH 135"},
-            {"type": "course", "courseId": "MATH 136"}
+            {
+              "type": "course",
+              "courseId": "MATH 131B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 131BH"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 131C"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 132"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 132H"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 133"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 134"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 135"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 136"
+            }
           ]
         },
         {
@@ -200,8 +255,7 @@
               "title": "Mathematics Elective",
               "description": "Any course from Mathematics 142 through 167",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             }
           ]
         },
@@ -211,9 +265,18 @@
           "description": "Complete the following three-course capstone series in the senior year:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MATH 105A"},
-            {"type": "course", "courseId": "MATH 105B"},
-            {"type": "course", "courseId": "MATH 105C"}
+            {
+              "type": "course",
+              "courseId": "MATH 105A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 105B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 105C"
+            }
           ]
         }
       ]
@@ -221,13 +284,13 @@
     {
       "id": "computing_specialization",
       "title": "Computing Specialization",
-      "description": "Majors may select a specialization in Computing by satisfying all the requirements for a bachelor\u2019s degree in the specified major and completing the following courses with a minimum grade of C\u2013 in each course and a combined grade-point average of at least 2.0. Students must petition for admission to this program and are advised to do so after they complete Program in Computing 10B (petitions should be filed in the Student Services Office). Students graduate with a bachelor\u2019s degree in their major and a specialization in Computing.",
+      "description": "Majors may select a specialization in Computing by satisfying all the requirements for a bachelor’s degree in the specified major and completing the following courses with a minimum grade of C– in each course and a combined grade-point average of at least 2.0. Students must petition for admission to this program and are advised to do so after they complete Program in Computing 10B (petitions should be filed in the Student Services Office). Students graduate with a bachelor’s degree in their major and a specialization in Computing.",
       "requirements": [
         {
           "type": "group",
           "title": "Optional Computing Specialization",
           "description": "This specialization is optional.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -241,8 +304,14 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "MATH 61"},
-                    {"type": "course", "courseId": "MATH 180"}
+                    {
+                      "type": "course",
+                      "courseId": "MATH 61"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MATH 180"
+                    }
                   ]
                 },
                 {
@@ -259,11 +328,26 @@
                   "description": "Select two courses from:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "COMPTNG 10C"},
-                    {"type": "course", "courseId": "COMPTNG 15"},
-                    {"type": "course", "courseId": "COMPTNG 16A"},
-                    {"type": "course", "courseId": "COMPTNG 20A"},
-                    {"type": "course", "courseId": "COMPTNG 40A"}
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 15"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 16A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 20A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 40A"
+                    }
                   ]
                 },
                 {
@@ -271,8 +355,7 @@
                   "title": "Mathematics Electives",
                   "description": "Select two courses from Mathematics 149 through 159.",
                   "needs": 2,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             }

@@ -23,12 +23,30 @@
               "description": "Complete all 6 courses.",
               "needs": 6,
               "options": [
-                {"type": "course", "courseId": "CHEM 14A"},
-                {"type": "course", "courseId": "CHEM 14B"},
-                {"type": "course", "courseId": "CHEM 14BL"},
-                {"type": "course", "courseId": "CHEM 14C"},
-                {"type": "course", "courseId": "CHEM 14CL"},
-                {"type": "course", "courseId": "CHEM 14D"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14BL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14CL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14D"
+                }
               ]
             },
             {
@@ -37,13 +55,34 @@
               "description": "Complete all 7 courses.",
               "needs": 7,
               "options": [
-                {"type": "course", "courseId": "CHEM 20A"},
-                {"type": "course", "courseId": "CHEM 20B"},
-                {"type": "course", "courseId": "CHEM 20L"},
-                {"type": "course", "courseId": "CHEM 30A"},
-                {"type": "course", "courseId": "CHEM 30AL"},
-                {"type": "course", "courseId": "CHEM 30B"},
-                {"type": "course", "courseId": "CHEM 30BL"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20L"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30AL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30BL"
+                }
               ]
             }
           ]
@@ -54,10 +93,22 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "LIFESCI 7A"},
-            {"type": "course", "courseId": "LIFESCI 7B"},
-            {"type": "course", "courseId": "LIFESCI 7C"},
-            {"type": "course", "courseId": "LIFESCI 7L"}
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7A"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7B"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7C"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7L"
+            }
           ]
         },
         {
@@ -86,8 +137,14 @@
                   "description": "Select one of:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "LIFESCI 40"},
-                    {"type": "course", "courseId": "STATS 13"}
+                    {
+                      "type": "course",
+                      "courseId": "LIFESCI 40"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "STATS 13"
+                    }
                   ]
                 }
               ]
@@ -116,8 +173,14 @@
                   "description": "Select one of:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "STATS 10"},
-                    {"type": "course", "courseId": "STATS 13"}
+                    {
+                      "type": "course",
+                      "courseId": "STATS 10"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "STATS 13"
+                    }
                   ]
                 }
               ]
@@ -134,8 +197,14 @@
                   "description": "Select one from:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "MATH 31A"},
-                    {"type": "course", "courseId": "MATH 31AL"}
+                    {
+                      "type": "course",
+                      "courseId": "MATH 31A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MATH 31AL"
+                    }
                   ]
                 },
                 {
@@ -152,8 +221,14 @@
                   "description": "Select one of:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "STATS 10"},
-                    {"type": "course", "courseId": "STATS 13"}
+                    {
+                      "type": "course",
+                      "courseId": "STATS 10"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "STATS 13"
+                    }
                   ]
                 }
               ]
@@ -172,11 +247,26 @@
               "description": "Complete all 5 courses.",
               "needs": 5,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 1A"},
-                {"type": "course", "courseId": "PHYSICS 1B"},
-                {"type": "course", "courseId": "PHYSICS 1C"},
-                {"type": "course", "courseId": "PHYSICS 4AL"},
-                {"type": "course", "courseId": "PHYSICS 4BL"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 4AL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 4BL"
+                }
               ]
             },
             {
@@ -185,9 +275,18 @@
               "description": "Complete all 3 courses.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 5A"},
-                {"type": "course", "courseId": "PHYSICS 5B"},
-                {"type": "course", "courseId": "PHYSICS 5C"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5C"
+                }
               ]
             }
           ]
@@ -202,14 +301,29 @@
         {
           "type": "group",
           "title": "Required Core",
-          "description": "Complete the following five courses. Neuroscience M101A must be completed with a grade of C\u2013 or better. Physiological Science 111A and Psychology 115 cannot be substituted for Neuroscience M101A.",
+          "description": "Complete the following five courses. Neuroscience M101A must be completed with a grade of C– or better. Physiological Science 111A and Psychology 115 cannot be substituted for Neuroscience M101A.",
           "needs": 5,
           "options": [
-            {"type": "course", "courseId": "CHEM 153A"},
-            {"type": "course", "courseId": "NEUROSC M101A"},
-            {"type": "course", "courseId": "NEUROSC M101B"},
-            {"type": "course", "courseId": "NEUROSC M101C"},
-            {"type": "course", "courseId": "NEUROSC 102"}
+            {
+              "type": "course",
+              "courseId": "CHEM 153A"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M101A"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M101B"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M101C"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 102"
+            }
           ]
         },
         {
@@ -218,60 +332,222 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "DIS STD M139"},
-            {"type": "course", "courseId": "MSC IND M103"},
-            {"type": "course", "courseId": "NEUROSC M119L"},
-            {"type": "course", "courseId": "NEUROSC CM123"},
-            {"type": "course", "courseId": "NEUROSC 140"},
-            {"type": "course", "courseId": "NEUROSC 142"},
-            {"type": "course", "courseId": "NEUROSC M161"},
-            {"type": "course", "courseId": "NEUROSC M170"},
-            {"type": "course", "courseId": "NEUROSC C172"},
-            {"type": "course", "courseId": "NEUROSC M176"},
-            {"type": "course", "courseId": "NEUROSC C177"},
-            {"type": "course", "courseId": "NEUROSC 178"},
-            {"type": "course", "courseId": "NEUROSC 179"},
-            {"type": "course", "courseId": "NEUROSC M187"},
-            {"type": "course", "courseId": "NEUROSC 191A"},
-            {"type": "course", "courseId": "PHYSCI M106"},
-            {"type": "course", "courseId": "PHYSCI CM123"},
-            {"type": "course", "courseId": "PHYSCI C130"},
-            {"type": "course", "courseId": "PHYSCI C144"},
-            {"type": "course", "courseId": "PHYSCI 175"},
-            {"type": "course", "courseId": "PHYSCI M176"},
-            {"type": "course", "courseId": "PSYCTRY 174"},
-            {"type": "course", "courseId": "PSYCTRY 176"},
-            {"type": "course", "courseId": "PSYCTRY M182"},
-            {"type": "course", "courseId": "PSYCH 110"},
-            {"type": "course", "courseId": "PSYCH 112A"},
-            {"type": "course", "courseId": "PSYCH 112B"},
-            {"type": "course", "courseId": "PSYCH 112C"},
-            {"type": "course", "courseId": "PSYCH 112E"},
-            {"type": "course", "courseId": "PSYCH 118"},
-            {"type": "course", "courseId": "PSYCH 119A"},
-            {"type": "course", "courseId": "PSYCH 119B"},
-            {"type": "course", "courseId": "PSYCH 119C"},
-            {"type": "course", "courseId": "PSYCH 119F"},
-            {"type": "course", "courseId": "PSYCH 119I"},
-            {"type": "course", "courseId": "PSYCH 119J"},
-            {"type": "course", "courseId": "PSYCH M119L"},
-            {"type": "course", "courseId": "PSYCH 119M"},
-            {"type": "course", "courseId": "PSYCH M119O"},
-            {"type": "course", "courseId": "PSYCH 119U"},
-            {"type": "course", "courseId": "PSYCH M119X"},
-            {"type": "course", "courseId": "PSYCH 120A"},
-            {"type": "course", "courseId": "PSYCH 120B"},
-            {"type": "course", "courseId": "PSYCH 124A"},
-            {"type": "course", "courseId": "PSYCH 124B"},
-            {"type": "course", "courseId": "PSYCH 124C"},
-            {"type": "course", "courseId": "PSYCH 124D"},
-            {"type": "course", "courseId": "PSYCH 124K"},
-            {"type": "course", "courseId": "PSYCH 127B"},
-            {"type": "course", "courseId": "PSYCH 137A"},
-            {"type": "course", "courseId": "PSYCH M139"},
-            {"type": "course", "courseId": "PSYCH 161"},
-            {"type": "course", "courseId": "PSYCH 164"},
-            {"type": "course", "courseId": "PSYCH M166"}
+            {
+              "type": "course",
+              "courseId": "DIS STD M139"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND M103"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M119L"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC CM123"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 140"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 142"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M161"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M170"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC C172"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M176"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC C177"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 178"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 179"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M187"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 191A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI M106"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI CM123"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI C130"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI C144"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 175"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI M176"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCTRY 174"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCTRY 176"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCTRY M182"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 110"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112E"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 118"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119F"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119I"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119J"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M119L"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119M"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M119O"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119U"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M119X"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 120B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 124A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 124B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 124C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 124D"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 124K"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 127B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 137A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M139"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 161"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 164"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M166"
+            }
           ]
         },
         {
@@ -280,27 +556,90 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "NEUROSC M145"},
-            {"type": "course", "courseId": "NEUROSC C177"},
-            {"type": "course", "courseId": "NEUROSC 180"},
-            {"type": "course", "courseId": "NEUROSC 181"},
-            {"type": "course", "courseId": "NEUROSC 182"},
-            {"type": "course", "courseId": "NEUROSC 186"},
-            {"type": "course", "courseId": "NEUROSC M187"},
-            {"type": "course", "courseId": "NEUROSC 191C"},
-            {"type": "course", "courseId": "PHYSICS C186"},
-            {"type": "course", "courseId": "PHYSCI M106"},
-            {"type": "course", "courseId": "PHYSCI 121"},
-            {"type": "course", "courseId": "PHYSCI C126"},
-            {"type": "course", "courseId": "PHYSCI C127"},
-            {"type": "course", "courseId": "PHYSCI M145"},
-            {"type": "course", "courseId": "PHYSCI 146"},
-            {"type": "course", "courseId": "PHYSCI 147"},
-            {"type": "course", "courseId": "PHYSCI 174"},
-            {"type": "course", "courseId": "PHYSCI 175"},
-            {"type": "course", "courseId": "PSYCH 119A"},
-            {"type": "course", "courseId": "PSYCH 162"},
-            {"type": "course", "courseId": "PSYCH M166"}
+            {
+              "type": "course",
+              "courseId": "NEUROSC M145"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC C177"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 180"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 181"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 182"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 186"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M187"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 191C"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS C186"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI M106"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 121"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI C126"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI C127"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI M145"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 146"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 147"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 174"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 175"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 162"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M166"
+            }
           ]
         },
         {
@@ -309,45 +648,162 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "NEUROSC M119N"},
-            {"type": "course", "courseId": "NEUROSC CM123"},
-            {"type": "course", "courseId": "NEUROSC M145"},
-            {"type": "course", "courseId": "NEUROSC C151"},
-            {"type": "course", "courseId": "NEUROSC M176"},
-            {"type": "course", "courseId": "NEUROSC C177"},
-            {"type": "course", "courseId": "NEUROSC M187"},
-            {"type": "course", "courseId": "NEUROSC 191B"},
-            {"type": "course", "courseId": "PHYSICS C186"},
-            {"type": "course", "courseId": "PHYSCI M106"},
-            {"type": "course", "courseId": "PHYSCI CM123"},
-            {"type": "course", "courseId": "PHYSCI C126"},
-            {"type": "course", "courseId": "PHYSCI C127"},
-            {"type": "course", "courseId": "PHYSCI C130"},
-            {"type": "course", "courseId": "PHYSCI M135"},
-            {"type": "course", "courseId": "PHYSCI 138"},
-            {"type": "course", "courseId": "PHYSCI C144"},
-            {"type": "course", "courseId": "PHYSCI M145"},
-            {"type": "course", "courseId": "PHYSCI 146"},
-            {"type": "course", "courseId": "PHYSCI 147"},
-            {"type": "course", "courseId": "PHYSCI 173"},
-            {"type": "course", "courseId": "PHYSCI M176"},
-            {"type": "course", "courseId": "PHYSCI 177"},
-            {"type": "course", "courseId": "PSYCH 112B"},
-            {"type": "course", "courseId": "PSYCH 112C"},
-            {"type": "course", "courseId": "PSYCH 119A"},
-            {"type": "course", "courseId": "PSYCH 119I"},
-            {"type": "course", "courseId": "PSYCH 119J"},
-            {"type": "course", "courseId": "PSYCH 119M"},
-            {"type": "course", "courseId": "PSYCH M119N"},
-            {"type": "course", "courseId": "PSYCH 119Q"},
-            {"type": "course", "courseId": "PSYCH M119X"},
-            {"type": "course", "courseId": "PSYCH 119Y"},
-            {"type": "course", "courseId": "PSYCH 120B"},
-            {"type": "course", "courseId": "PSYCH 124C"},
-            {"type": "course", "courseId": "PSYCH 137A"},
-            {"type": "course", "courseId": "PSYCH 162"},
-            {"type": "course", "courseId": "PSYCH 164"},
-            {"type": "course", "courseId": "PSYCH M166"}
+            {
+              "type": "course",
+              "courseId": "NEUROSC M119N"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC CM123"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M145"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC C151"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M176"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC C177"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC M187"
+            },
+            {
+              "type": "course",
+              "courseId": "NEUROSC 191B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS C186"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI M106"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI CM123"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI C126"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI C127"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI C130"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI M135"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 138"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI C144"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI M145"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 146"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 147"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 173"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI M176"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 177"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 112C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119I"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119J"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119M"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M119N"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119Q"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M119X"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 119Y"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 120B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 124C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 137A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 162"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 164"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M166"
+            }
           ]
         },
         {
@@ -362,10 +818,22 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "NEUROSC 101L"},
-                {"type": "course", "courseId": "NEUROSC M116A"},
-                {"type": "course", "courseId": "PSYCH M116A"},
-                {"type": "course", "courseId": "PSYCH 116B"}
+                {
+                  "type": "course",
+                  "courseId": "NEUROSC 101L"
+                },
+                {
+                  "type": "course",
+                  "courseId": "NEUROSC M116A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH M116A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 116B"
+                }
               ]
             },
             {
@@ -380,8 +848,14 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "NEUROSC C177"},
-                    {"type": "course", "courseId": "NEUROSC 192CX"}
+                    {
+                      "type": "course",
+                      "courseId": "NEUROSC C177"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "NEUROSC 192CX"
+                    }
                   ]
                 },
                 {
@@ -390,8 +864,14 @@
                   "description": "Complete two quarters of the following course:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "NEUROSC 192BX"},
-                    {"type": "course", "courseId": "NEUROSC 192BX"}
+                    {
+                      "type": "course",
+                      "courseId": "NEUROSC 192BX"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "NEUROSC 192BX"
+                    }
                   ]
                 }
               ]
@@ -408,8 +888,14 @@
                   "description": "Complete both courses in the series.",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "NEUROSC 198A"},
-                    {"type": "course", "courseId": "NEUROSC 198B"}
+                    {
+                      "type": "course",
+                      "courseId": "NEUROSC 198A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "NEUROSC 198B"
+                    }
                   ]
                 },
                 {
@@ -418,8 +904,14 @@
                   "description": "Complete both courses in the series.",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "NEUROSC 199A"},
-                    {"type": "course", "courseId": "NEUROSC 199B"}
+                    {
+                      "type": "course",
+                      "courseId": "NEUROSC 199A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "NEUROSC 199B"
+                    }
                   ]
                 }
               ]

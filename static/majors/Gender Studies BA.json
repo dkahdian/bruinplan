@@ -28,9 +28,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "GENDER 102"},
-            {"type": "course", "courseId": "GENDER 103"},
-            {"type": "course", "courseId": "GENDER 104"}
+            {
+              "type": "course",
+              "courseId": "GENDER 102"
+            },
+            {
+              "type": "course",
+              "courseId": "GENDER 103"
+            },
+            {
+              "type": "course",
+              "courseId": "GENDER 104"
+            }
           ]
         },
         {
@@ -38,8 +47,7 @@
           "title": "Elective Courses",
           "description": "Complete seven elective courses. One upper-division tutorial (minimum of 4 units) selected from course GENDER 195, 197, or 199 may be applied toward the elective requirement (this limit does not apply to course 198A or 198B).",
           "needs": 7,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "course",
@@ -56,7 +64,7 @@
           "type": "group",
           "title": "Honors Requirements",
           "description": "To qualify for honors at graduation, students must successfully complete three successive terms of honors research (courses 198A, 198B, 198C) with their faculty sponsor and receive a grade of B+ or better on their research paper/project. Course 198A may be applied toward the elective requirement; courses 198B and 198C are in addition to the minimum required courses.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -64,9 +72,18 @@
               "description": "Complete all three courses.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "GENDER 198A"},
-                {"type": "course", "courseId": "GENDER 198B"},
-                {"type": "course", "courseId": "GENDER 198C"}
+                {
+                  "type": "course",
+                  "courseId": "GENDER 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GENDER 198B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GENDER 198C"
+                }
               ]
             }
           ]

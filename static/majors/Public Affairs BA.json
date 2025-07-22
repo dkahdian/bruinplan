@@ -17,9 +17,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "PUB AFF 40"},
-            {"type": "course", "courseId": "PUB AFF 60"},
-            {"type": "course", "courseId": "PUB AFF 80"}
+            {
+              "type": "course",
+              "courseId": "PUB AFF 40"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 60"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 80"
+            }
           ]
         },
         {
@@ -28,11 +37,26 @@
           "description": "Select three courses from:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "PUB AFF 10"},
-            {"type": "course", "courseId": "PUB AFF 20"},
-            {"type": "course", "courseId": "PUB AFF 30"},
-            {"type": "course", "courseId": "PUB AFF 50"},
-            {"type": "course", "courseId": "PUB AFF 70"}
+            {
+              "type": "course",
+              "courseId": "PUB AFF 10"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 20"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 30"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 50"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 70"
+            }
           ]
         }
       ]
@@ -48,12 +72,30 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "PUB AFF M109"},
-            {"type": "course", "courseId": "PUB AFF 110"},
-            {"type": "course", "courseId": "PUB AFF 111"},
-            {"type": "course", "courseId": "PUB AFF 112"},
-            {"type": "course", "courseId": "PUB AFF 113"},
-            {"type": "course", "courseId": "PUB AFF 114"}
+            {
+              "type": "course",
+              "courseId": "PUB AFF M109"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 110"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 111"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 112"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 113"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 114"
+            }
           ]
         },
         {
@@ -62,8 +104,14 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "PUB AFF 115"},
-            {"type": "course", "courseId": "PUB AFF 116"}
+            {
+              "type": "course",
+              "courseId": "PUB AFF 115"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 116"
+            }
           ]
         },
         {
@@ -72,9 +120,18 @@
           "description": "Complete the following three-term capstone sequence:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "PUB AFF 187AX"},
-            {"type": "course", "courseId": "PUB AFF 187BX"},
-            {"type": "course", "courseId": "PUB AFF 187CX"}
+            {
+              "type": "course",
+              "courseId": "PUB AFF 187AX"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 187BX"
+            },
+            {
+              "type": "course",
+              "courseId": "PUB AFF 187CX"
+            }
           ]
         },
         {
@@ -82,8 +139,7 @@
           "title": "Upper-Division Electives",
           "description": "Complete three additional upper-division public affairs courses.",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -96,7 +152,7 @@
           "type": "group",
           "title": "Honors Program Participation",
           "description": "Choose to complete the Honors Program (optional). If chosen, all courses below are required.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -104,9 +160,18 @@
               "description": "Enroll in three contract research courses with their Luskin thesis advisor during their senior year. The sequence must be completed over three consecutive quarters, starting in the fall.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PUB AFF 198A"},
-                {"type": "course", "courseId": "PUB AFF 198B"},
-                {"type": "course", "courseId": "PUB AFF 198C"}
+                {
+                  "type": "course",
+                  "courseId": "PUB AFF 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PUB AFF 198B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PUB AFF 198C"
+                }
               ]
             }
           ]

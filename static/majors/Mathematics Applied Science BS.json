@@ -17,8 +17,14 @@
           "description": "Select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 31A"},
-            {"type": "course", "courseId": "MATH 31AL"}
+            {
+              "type": "course",
+              "courseId": "MATH 31A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31AL"
+            }
           ]
         },
         {
@@ -57,22 +63,20 @@
           "title": "Mathematics Upper Division",
           "description": "Select seven Mathematics Department courses from Mathematics 106 through 199.",
           "needs": 7,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Related Field Upper Division",
           "description": "Select seven upper-division courses in a related field from one or two other departments.",
           "needs": 7,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Specialization in Computing (Optional)",
           "description": "Students may complete the Specialization in Computing by taking Program in Computing 10B, 16A, 16B, and two additional upper-division Program in Computing courses. This is optional and does not reduce the requirements above.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "course",
@@ -91,8 +95,7 @@
               "title": "Upper Division COMPTNG Electives",
               "description": "Select two additional upper-division Program in Computing courses.",
               "needs": 2,
-              "options": [
-              ]
+              "options": []
             }
           ]
         }

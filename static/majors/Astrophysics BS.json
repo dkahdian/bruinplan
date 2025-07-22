@@ -21,8 +21,14 @@
           "description": "Select one of the following Mechanics courses. The Honors series is recommended for eligible students.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "PHYSICS 1A"},
-            {"type": "course", "courseId": "PHYSICS 1AH"}
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1AH"
+            }
           ]
         },
         {
@@ -31,8 +37,14 @@
           "description": "Select one of the following courses. The Honors series is recommended for eligible students.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "PHYSICS 1B"},
-            {"type": "course", "courseId": "PHYSICS 1BH"}
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1BH"
+            }
           ]
         },
         {
@@ -41,8 +53,14 @@
           "description": "Select one of the following courses. The Honors series is recommended for eligible students.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "PHYSICS 1C"},
-            {"type": "course", "courseId": "PHYSICS 1CH"}
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1C"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1CH"
+            }
           ]
         },
         {
@@ -67,8 +85,14 @@
           "description": "Select one course for Differential and Integral Calculus.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 31A"},
-            {"type": "course", "courseId": "MATH 31AL"}
+            {
+              "type": "course",
+              "courseId": "MATH 31A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31AL"
+            }
           ]
         },
         {
@@ -97,18 +121,30 @@
           "description": "Select one course from the following list or demonstrate ability to program:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COM SCI 30"},
-            {"type": "course", "courseId": "COM SCI 31"},
-            {"type": "course", "courseId": "COMPTNG 10A"}
+            {
+              "type": "course",
+              "courseId": "COM SCI 30"
+            },
+            {
+              "type": "course",
+              "courseId": "COM SCI 31"
+            },
+            {
+              "type": "course",
+              "courseId": "COMPTNG 10A"
+            }
           ]
         },
         {
           "type": "group",
           "title": "Recommended",
           "description": "The following course is recommended:",
-          "needs": 0,
+          "needs": 1,
           "options": [
-            {"type": "course", "courseId": "CHEM 20A"}
+            {
+              "type": "course",
+              "courseId": "CHEM 20A"
+            }
           ]
         }
       ]
@@ -168,13 +204,34 @@
           "description": "Select at least one course in astronomy from the elective list.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ASTR 140"},
-            {"type": "course", "courseId": "ASTR 141"},
-            {"type": "course", "courseId": "ASTR 142"},
-            {"type": "course", "courseId": "ASTR 143"},
-            {"type": "course", "courseId": "ASTR 144"},
-            {"type": "course", "courseId": "ASTR 145"},
-            {"type": "course", "courseId": "ASTR 146"}
+            {
+              "type": "course",
+              "courseId": "ASTR 140"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 141"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 142"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 143"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 144"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 145"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 146"
+            }
           ]
         },
         {
@@ -183,23 +240,74 @@
           "description": "Select two additional upper-division courses from the following list to bring the elective total to three.",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "ASTR 140"},
-            {"type": "course", "courseId": "ASTR 141"},
-            {"type": "course", "courseId": "ASTR 142"},
-            {"type": "course", "courseId": "ASTR 143"},
-            {"type": "course", "courseId": "ASTR 144"},
-            {"type": "course", "courseId": "ASTR 145"},
-            {"type": "course", "courseId": "ASTR 146"},
-            {"type": "course", "courseId": "EPS SCI 155"},
-            {"type": "course", "courseId": "EPS SCI C179"},
-            {"type": "course", "courseId": "PHYSICS 108"},
-            {"type": "course", "courseId": "PHYSICS M122"},
-            {"type": "course", "courseId": "PHYSICS 124"},
-            {"type": "course", "courseId": "PHYSICS 126"},
-            {"type": "course", "courseId": "PHYSICS 127"},
-            {"type": "course", "courseId": "PHYSICS 128"},
-            {"type": "course", "courseId": "PHYSICS 132"},
-            {"type": "course", "courseId": "PHYSICS C170M"}
+            {
+              "type": "course",
+              "courseId": "ASTR 140"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 141"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 142"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 143"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 144"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 145"
+            },
+            {
+              "type": "course",
+              "courseId": "ASTR 146"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 155"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C179"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 108"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS M122"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 124"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 126"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 127"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 128"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 132"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS C170M"
+            }
           ]
         }
       ]

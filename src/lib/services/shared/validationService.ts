@@ -103,15 +103,14 @@ export class ValidationService {
             
             let message: string;
             if (courseIds.length <= 3) {
-              message = `Needs ${missingCount} from {${courseIds.join(', ')}}`;
+              message = `Needs ${missingCount} from (${courseIds.join(', ')})`;
             } else {
               const displayedCourses = courseIds.slice(0, 3);
               const remainingCount = courseIds.length - 3;
-              message = `Needs ${missingCount} from {${displayedCourses.join(', ')}}...(and ${remainingCount} more)`;
+              message = `Needs ${missingCount} from (${displayedCourses.join(', ')})...(and ${remainingCount} more)`;
             }
             
             errors.push({
-              type: 'error',
               courseId,
               quarterCode,
               message
@@ -129,11 +128,7 @@ export class ValidationService {
         if (!prereqQuarter) {
           // Not scheduled at all
           if (addErrors) {
-            // All prerequisites are treated as warnings now
-            const errorType = 'warning';
-            
             errors.push({
-              type: errorType,
               courseId,
               quarterCode,
               message: `Missing ${prereqCourse}`,
@@ -146,11 +141,8 @@ export class ValidationService {
         // Check if prerequisite is scheduled before this course
         if (prereqQuarter !== 1 && prereqQuarter >= quarterCode) {
           if (addErrors) {
-            // All prerequisites are treated as warnings now
-            const errorType = 'warning';
-            
+            // All prerequisites are treated as warnings now            
             errors.push({
-              type: errorType,
               courseId,
               quarterCode,
               message: `Schedule ${prereqCourse} before this course`,
@@ -184,7 +176,6 @@ export class ValidationService {
     // If course is scheduled more than 2 quarters in the future, show warning
     if (quarterCode > currentQuarter + 20) { // 20 = 2 years ahead
       errors.push({
-        type: 'warning',
         courseId,
         quarterCode,
         message: `Course scheduled far in the future`
@@ -193,6 +184,7 @@ export class ValidationService {
     
     return errors;
   }
+
 }
 
 // Export singleton instance

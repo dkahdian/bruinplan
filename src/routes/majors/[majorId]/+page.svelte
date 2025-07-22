@@ -4,15 +4,17 @@
 -->
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import type { Major } from '../../../lib/types.js';
-	import { getAllMajorCourses, calculateRequiredCourseCount } from '../../../lib/services/data/loadMajors.js';
+	import type { Major, Course } from '../../../lib/types.js';
+	import { getAllMajorCourses, calculateRequiredCourseCount, loadMajorCourses } from '../../../lib/services/data/loadMajors.js';
+	import { courseMapStore } from '../../../lib/services/data/loadCourses.js';
 	import { 
 		schedulingService, 
-		completedCoursesStore, 
+		completedCoursesStore,
+		courseSchedulesStore,
 		initializeSchedulingService,
-		courseCompletionService
+		courseCompletionService,
+		validationService
 	} from '../../../lib/services/schedulingServices.js';
-	import { loadCourses } from '../../../lib/services/data/loadCourses.js';
 	import { MajorSection, QuarterPlanningCalendar } from '../../../lib/components/major/index.js';
 	import Footer from '../../../lib/components/shared/Footer.svelte';
 	
@@ -21,7 +23,8 @@
 	$: major = data.major;
 	$: majorId = data.majorId;
 	
-	// Initialize course map for the completion service on mount
+	// Course map for this major's courses only  
+	let majorCourseMap = new Map<string, Course>();
 	let coursesLoaded = false;
 	
 	// Get all courses for this major
@@ -30,29 +33,47 @@
 	// Calculate actual required course count (accounts for group needs)
 	$: totalRequiredCourses = calculateRequiredCourseCount(major);
 	
-	// Load completion data and initialize course map for the completion service
+	// Load completion data and initialize course map for this major only
 	onMount(async () => {
 		initializeSchedulingService();
 		
 		try {
-			// Load courses to initialize the global course map store
-			await loadCourses();
+			// Load only the courses needed for this specific major
+			majorCourseMap = await loadMajorCourses(major);
+			
+			// Also populate the global course map store for validation services
+			courseMapStore.set(majorCourseMap);
+			
 			coursesLoaded = true;
 		} catch (error) {
-			console.error('Failed to load course data:', error);
+			console.error('Failed to load course data for major:', error);
 			coursesLoaded = true; // Set to true even on error to show the UI
 		}
 	});
 
-	// Calculate actual completion progress using the new scheduling service
+	// Helper function to check if a course is effectively completed using our local course map
+	function isCourseEffectivelyCompleted(courseId: string): boolean {
+		// Check if the course itself is completed
+		if (courseCompletionService.isCompleted(courseId)) {
+			return true;
+		}
+		
+		// Check if any equivalent course is completed
+		const course = majorCourseMap.get(courseId);
+		const equivalentCourses = course?.equivalentCourses || [];
+		
+		return equivalentCourses.some(equivalent => courseCompletionService.isCompleted(equivalent));
+	}
+
+	// Calculate actual completion progress using the local course map
 	$: actualCompletedCourses = coursesLoaded ? (() => {
 		let actualCompleted = 0;
 		
 		function countActualCompleted(requirements: any[]) {
 			for (const req of requirements) {
 				if (req.type === 'course') {
-					// Use the new scheduling service that automatically handles equivalents
-					if (courseCompletionService.getCompletedCourseSource(req.courseId) !== null) {
+					// Use our local course map for equivalent checking
+					if (isCourseEffectivelyCompleted(req.courseId)) {
 						actualCompleted++;
 					}
 				} else if (req.type === 'group') {
@@ -60,7 +81,7 @@
 					let groupCompleted = 0;
 					for (const option of req.options) {
 						if (option.type === 'course') {
-							if (courseCompletionService.getCompletedCourseSource(option.courseId) !== null) {
+							if (isCourseEffectivelyCompleted(option.courseId)) {
 								groupCompleted++;
 							}
 						}
@@ -80,6 +101,17 @@
 	
 	// Calculate total completed courses across all majors
 	$: totalGlobalCompleted = $completedCoursesStore.size;
+	
+	// Calculate total planned courses (scheduled but not completed)
+	$: totalGlobalPlanned = (() => {
+		let plannedCount = 0;
+		for (const [courseId, quarterCode] of Object.entries($courseSchedulesStore)) {
+			if (quarterCode > 0 && !$completedCoursesStore.has(courseId)) {
+				plannedCount++;
+			}
+		}
+		return plannedCount;
+	})();
 
 	// Global drop zone for removing courses from plan
 	let isGlobalDragOver = false;
@@ -191,6 +223,7 @@
 			{#each major.sections as section, index}
 				<MajorSection 
 					{section}
+					courseMap={majorCourseMap}
 					onToggleCompletion={schedulingService.toggleCourseCompletion.bind(schedulingService)}
 					sectionIndex={index}
 				/>
@@ -200,7 +233,7 @@
 		<!-- Quarter Planning Sidebar -->
 		<div class="w-80 flex-shrink-0">
 			<div class="sticky top-4">
-				<QuarterPlanningCalendar {major} />
+				<QuarterPlanningCalendar {major} courseMap={majorCourseMap} />
 			</div>
 		</div>
 	</div>
@@ -208,11 +241,11 @@
 
 	
 	<!-- Completion Data Management (for testing/admin) -->
-	{#if totalGlobalCompleted > 0}
+	{#if totalGlobalCompleted > 0 || totalGlobalPlanned > 0}
 		<div class="mt-6 p-3 bg-gray-50 border border-gray-200 rounded text-sm">
 			<div class="flex items-center justify-between">
 				<span class="text-gray-600">
-					Course completion data is saved locally ({totalGlobalCompleted} courses marked complete)
+					Course data saved locally: {totalGlobalCompleted} completed, {totalGlobalPlanned} planned
 				</span>
 				<button
 					class="px-3 py-1 bg-red-100 hover:bg-red-200 text-red-700 rounded text-xs transition-colors"
@@ -224,13 +257,6 @@
 			</div>
 		</div>
 	{/if}
-
-		<!-- TODO: Add graph view toggle and visualization here -->
-	<div class="mt-8 p-4 bg-yellow-50 border border-yellow-200 rounded">
-		<p class="text-sm text-yellow-800">
-			<strong>Coming soon:</strong> Interactive prerequisite graph view, missing prerequisite detection, and completion tracking.
-		</p>
-	</div>
 </div>
 
 <Footer />

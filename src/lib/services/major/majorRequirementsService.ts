@@ -21,11 +21,9 @@ export class MajorRequirementsService {
     const isDirectlyCompleted = get(completedCoursesStore).has(courseId);
     const isScheduled = schedulingService.getSchedule(courseId) > 0;
     const courseErrors = get(validationErrorsStore).filter((error: ValidationError) => error.courseId === courseId);
-    const hasErrors = courseErrors.some((error: ValidationError) => error.type === 'error');
-    const hasWarnings = courseErrors.some((error: ValidationError) => error.type === 'warning');
+    const hasValidationIssues = courseErrors.length > 0;
     
-    const validationBgClass = hasErrors ? 'bg-red-200 border-red-300' : 
-                             hasWarnings ? 'bg-orange-100 border-orange-300' : 
+    const validationBgClass = hasValidationIssues ? 'bg-orange-100 border-orange-300' : 
                              (isScheduled && !isDirectlyCompleted) ? 'bg-purple-100 border-purple-300' : '';
     
     return {
@@ -34,8 +32,7 @@ export class MajorRequirementsService {
       isDirectlyCompleted,
       isScheduled,
       courseErrors,
-      hasErrors,
-      hasWarnings,
+      hasValidationIssues,
       validationBgClass
     };
   }

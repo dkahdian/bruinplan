@@ -6,17 +6,16 @@
 	import type { MajorSection as MajorSectionType, Course } from '../../types.js';
 	import { calculateSectionRequiredCount } from '../../services/data/loadMajors.js';
 	import { schedulingService, completedCoursesStore, courseSchedulesStore, courseCompletionService } from '../../services/schedulingServices.js';
-	import { courseMapStore } from '../../services/data/loadCourses.js';
 	import MajorSectionHeader from './MajorSectionHeader.svelte';
 	import MajorRequirementsList from './MajorRequirementsList.svelte';
 	
 	export let section: MajorSectionType;
+	export let courseMap: Map<string, Course>;
 	export let onToggleCompletion: (courseId: string) => void;
 	export let sectionIndex: number = 0;
 	
-	// Subscribe to all stores to ensure reactivity
+	// Subscribe to stores to ensure reactivity
 	$: userCompletedCourses = $completedCoursesStore;
-	$: courseMap = $courseMapStore;
 	$: courseSchedules = $courseSchedulesStore;
 	
 	// Different background colors for different sections
@@ -149,6 +148,7 @@
 	
 	<MajorRequirementsList 
 		requirements={section.requirements}
+		{courseMap}
 		{onToggleCompletion}
 	/>
 </section>

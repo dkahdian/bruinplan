@@ -1,6 +1,6 @@
 {
   "name": "Geography Environmental Studies BA",
-  "overview": "The major in Geography/Environmental Studies develops and deepens students\u2019 understanding of environmental issues; it explores problem-solving approaches from an interactive people/nature viewpoint and involves analysis of social, physical, and biotic environmental systems. The major\u2019s uniqueness lies in its emphasis on its geographical perspective of human impacts on natural systems, as well as of implications of global change on local and regional human systems.",
+  "overview": "The major in Geography/Environmental Studies develops and deepens students’ understanding of environmental issues; it explores problem-solving approaches from an interactive people/nature viewpoint and involves analysis of social, physical, and biotic environmental systems. The major’s uniqueness lies in its emphasis on its geographical perspective of human impacts on natural systems, as well as of implications of global change on local and regional human systems.",
   "college": "College of Letters and Science",
   "department": "Geography",
   "degreeLevel": "Undergraduate",
@@ -17,8 +17,14 @@
           "description": "Select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "GEOG 1"},
-            {"type": "course", "courseId": "GEOG 2"}
+            {
+              "type": "course",
+              "courseId": "GEOG 1"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 2"
+            }
           ]
         },
         {
@@ -27,9 +33,18 @@
           "description": "Select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "GEOG 3"},
-            {"type": "course", "courseId": "GEOG 4"},
-            {"type": "course", "courseId": "GEOG 6"}
+            {
+              "type": "course",
+              "courseId": "GEOG 3"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 4"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 6"
+            }
           ]
         },
         {
@@ -57,29 +72,98 @@
           "description": "Select six courses:",
           "needs": 6,
           "options": [
-            {"type": "course", "courseId": "GEOG 101"},
-            {"type": "course", "courseId": "GEOG M102"},
-            {"type": "course", "courseId": "GEOG M103"},
-            {"type": "course", "courseId": "GEOG 106"},
-            {"type": "course", "courseId": "GEOG 107"},
-            {"type": "course", "courseId": "GEOG 108"},
-            {"type": "course", "courseId": "GEOG 109"},
-            {"type": "course", "courseId": "GEOG M110"},
-            {"type": "course", "courseId": "GEOG 116"},
-            {"type": "course", "courseId": "GEOG 117"},
-            {"type": "course", "courseId": "GEOG M118"},
-            {"type": "course", "courseId": "GEOG 120"},
-            {"type": "course", "courseId": "GEOG M125"},
-            {"type": "course", "courseId": "GEOG M126"},
-            {"type": "course", "courseId": "GEOG M127"},
-            {"type": "course", "courseId": "GEOG 130"},
-            {"type": "course", "courseId": "GEOG M131"},
-            {"type": "course", "courseId": "GEOG 133"},
-            {"type": "course", "courseId": "GEOG 135"},
-            {"type": "course", "courseId": "GEOG 136"},
-            {"type": "course", "courseId": "GEOG 138"},
-            {"type": "course", "courseId": "GEOG 139B"},
-            {"type": "course", "courseId": "GEOG 139C"}
+            {
+              "type": "course",
+              "courseId": "GEOG 101"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M102"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M103"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 106"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 107"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 108"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 109"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M110"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 116"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 117"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M118"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 120"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M125"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M126"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M127"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 130"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M131"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 133"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 135"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 136"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 138"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 139B"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 139C"
+            }
           ]
         },
         {
@@ -88,22 +172,70 @@
           "description": "Select two courses:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "GEOG 140"},
-            {"type": "course", "courseId": "GEOG 141"},
-            {"type": "course", "courseId": "GEOG M142"},
-            {"type": "course", "courseId": "GEOG M144"},
-            {"type": "course", "courseId": "GEOG 145"},
-            {"type": "course", "courseId": "GEOG 148"},
-            {"type": "course", "courseId": "GEOG 150"},
-            {"type": "course", "courseId": "GEOG 151"},
-            {"type": "course", "courseId": "GEOG M153"},
-            {"type": "course", "courseId": "GEOG 158"},
-            {"type": "course", "courseId": "GEOG 159"},
-            {"type": "course", "courseId": "GEOG 160"},
-            {"type": "course", "courseId": "GEOG 161"},
-            {"type": "course", "courseId": "GEOG 162"},
-            {"type": "course", "courseId": "GEOG 169A"},
-            {"type": "course", "courseId": "GEOG 173A"}
+            {
+              "type": "course",
+              "courseId": "GEOG 140"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 141"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M142"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M144"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 145"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 148"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 150"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 151"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M153"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 158"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 159"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 160"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 161"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 162"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 169A"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 173A"
+            }
           ]
         },
         {
@@ -112,16 +244,46 @@
           "description": "Select two courses:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "GEOG 180"},
-            {"type": "course", "courseId": "GEOG 181A"},
-            {"type": "course", "courseId": "GEOG 181B"},
-            {"type": "course", "courseId": "GEOG 181C"},
-            {"type": "course", "courseId": "GEOG 182A"},
-            {"type": "course", "courseId": "GEOG 182B"},
-            {"type": "course", "courseId": "GEOG 182C"},
-            {"type": "course", "courseId": "GEOG 184"},
-            {"type": "course", "courseId": "GEOG 185"},
-            {"type": "course", "courseId": "GEOG M186"}
+            {
+              "type": "course",
+              "courseId": "GEOG 180"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 181A"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 181B"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 181C"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 182A"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 182B"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 182C"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 184"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 185"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG M186"
+            }
           ]
         },
         {
@@ -130,17 +292,50 @@
           "description": "Select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "GEOG 145"},
-            {"type": "course", "courseId": "GEOG 171A"},
-            {"type": "course", "courseId": "GEOG 171B"},
-            {"type": "course", "courseId": "GEOG 171C"},
-            {"type": "course", "courseId": "GEOG 172A"},
-            {"type": "course", "courseId": "GEOG 172C"},
-            {"type": "course", "courseId": "GEOG 173A"},
-            {"type": "course", "courseId": "GEOG 174A"},
-            {"type": "course", "courseId": "GEOG 175A"},
-            {"type": "course", "courseId": "GEOG 175B"},
-            {"type": "course", "courseId": "GEOG 176A"}
+            {
+              "type": "course",
+              "courseId": "GEOG 145"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 171A"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 171B"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 171C"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 172A"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 172C"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 173A"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 174A"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 175A"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 175B"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 176A"
+            }
           ]
         }
       ]

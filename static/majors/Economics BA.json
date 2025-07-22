@@ -17,10 +17,22 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "ECON 1"},
-            {"type": "course", "courseId": "ECON 2"},
-            {"type": "course", "courseId": "ECON 11"},
-            {"type": "course", "courseId": "ECON 41"}
+            {
+              "type": "course",
+              "courseId": "ECON 1"
+            },
+            {
+              "type": "course",
+              "courseId": "ECON 2"
+            },
+            {
+              "type": "course",
+              "courseId": "ECON 11"
+            },
+            {
+              "type": "course",
+              "courseId": "ECON 41"
+            }
           ]
         },
         {
@@ -35,8 +47,14 @@
               "description": "Select one course:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "MATH 31A"},
-                {"type": "course", "courseId": "MATH 31AL"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 31A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31AL"
+                }
               ]
             },
             {
@@ -87,22 +105,39 @@
           "type": "group",
           "title": "Upper-Division Economics Courses",
           "description": "Select from upper-division economics courses.",
-          "needs": 0,
-          "options": [
-          ]
+          "needs": 1,
+          "options": []
         },
         {
           "type": "group",
           "title": "Management Courses",
           "description": "Select up to two courses from the following list. Management 180 may only apply as the real estate finance topic.",
-          "needs": 0,
+          "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MGMT 120A"},
-            {"type": "course", "courseId": "MGMT 120B"},
-            {"type": "course", "courseId": "MGMT 122"},
-            {"type": "course", "courseId": "MGMT 127A"},
-            {"type": "course", "courseId": "MGMT 130A"},
-            {"type": "course", "courseId": "MGMT 170"}
+            {
+              "type": "course",
+              "courseId": "MGMT 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "MGMT 120B"
+            },
+            {
+              "type": "course",
+              "courseId": "MGMT 122"
+            },
+            {
+              "type": "course",
+              "courseId": "MGMT 127A"
+            },
+            {
+              "type": "course",
+              "courseId": "MGMT 130A"
+            },
+            {
+              "type": "course",
+              "courseId": "MGMT 170"
+            }
           ]
         }
       ]
@@ -116,7 +151,7 @@
           "type": "group",
           "title": "Optional Honors Track",
           "description": "Choose to complete the honors program track.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -124,8 +159,14 @@
               "description": "Complete the following two courses in which a thesis is written. To qualify for honors, students must also select at least seven upper-division economics courses from an approved list.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "ECON 198A"},
-                {"type": "course", "courseId": "ECON 198B"}
+                {
+                  "type": "course",
+                  "courseId": "ECON 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ECON 198B"
+                }
               ]
             }
           ]

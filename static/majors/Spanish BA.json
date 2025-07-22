@@ -1,6 +1,6 @@
 {
   "name": "Spanish BA",
-  "overview": "The Spanish major is a designated capstone major. Seniors complete a capstone seminar that provides a unique opportunity to work closely with a faculty member on a focused topic of research. Through their capstone work, students are expected to demonstrate mastery of the Spanish language, along with specific skills and expertise acquired in earlier coursework. Additionally, students acquire a working knowledge of scholarly discourse relative to a specialized topic, conceive and execute an associated project, and engage with a community of scholars, presenting their work to peers and helping to further peers\u2019 work through discussion and critique.",
+  "overview": "The Spanish major is a designated capstone major. Seniors complete a capstone seminar that provides a unique opportunity to work closely with a faculty member on a focused topic of research. Through their capstone work, students are expected to demonstrate mastery of the Spanish language, along with specific skills and expertise acquired in earlier coursework. Additionally, students acquire a working knowledge of scholarly discourse relative to a specialized topic, conceive and execute an associated project, and engage with a community of scholars, presenting their work to peers and helping to further peers’ work through discussion and critique.",
   "college": "College of Letters and Science",
   "department": "Spanish and Portuguese",
   "degreeLevel": "Undergraduate",
@@ -25,8 +25,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "SPAN 25"},
-            {"type": "course", "courseId": "SPAN 27"}
+            {
+              "type": "course",
+              "courseId": "SPAN 25"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 27"
+            }
           ]
         }
       ]
@@ -42,8 +48,14 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "SPAN 119"},
-            {"type": "course", "courseId": "SPAN 120"}
+            {
+              "type": "course",
+              "courseId": "SPAN 119"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 120"
+            }
           ]
         },
         {
@@ -51,8 +63,7 @@
           "title": "Upper-Division Electives",
           "description": "Complete eight upper-division Spanish elective courses in literature, culture, linguistics, media, service learning, or interdisciplinary studies, up to three of which may be from an outside department that deals with Spain or Spanish America and have been approved by the undergraduate adviser.",
           "needs": 8,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -60,7 +71,10 @@
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "SPAN 191C"}
+            {
+              "type": "course",
+              "courseId": "SPAN 191C"
+            }
           ]
         }
       ]
@@ -68,7 +82,7 @@
     {
       "id": "honors_program",
       "title": "Honors Program",
-      "description": "The departmental honors program is open to majors who have completed a minimum of six upper-division major courses with a 3.7 grade-point average or better in those six courses. On the basis of their coursework and special interests, students then consult with a faculty member in that field and formulate a research project that they pursue under the faculty member\u2019s guidance. Approval of the honors thesis by the faculty mentor is the final requirement for departmental honors. Portuguese 198A-198B and Spanish 198A-198B may not be applied toward the majors.",
+      "description": "The departmental honors program is open to majors who have completed a minimum of six upper-division major courses with a 3.7 grade-point average or better in those six courses. On the basis of their coursework and special interests, students then consult with a faculty member in that field and formulate a research project that they pursue under the faculty member’s guidance. Approval of the honors thesis by the faculty mentor is the final requirement for departmental honors. Portuguese 198A-198B and Spanish 198A-198B may not be applied toward the majors.",
       "requirements": [
         {
           "type": "group",
@@ -82,8 +96,14 @@
               "description": "Complete both courses for the Portuguese honors thesis.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "PORTGSE 198A"},
-                {"type": "course", "courseId": "PORTGSE 198B"}
+                {
+                  "type": "course",
+                  "courseId": "PORTGSE 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PORTGSE 198B"
+                }
               ]
             },
             {
@@ -92,8 +112,14 @@
               "description": "Complete both courses for the Spanish honors thesis.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "SPAN 198A"},
-                {"type": "course", "courseId": "SPAN 198B"}
+                {
+                  "type": "course",
+                  "courseId": "SPAN 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SPAN 198B"
+                }
               ]
             }
           ]

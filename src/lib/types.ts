@@ -145,7 +145,6 @@ export interface CourseSchedule {
 
 // Validation error/warning for courses
 export interface ValidationError {
-  type: 'error' | 'warning';
   courseId: string;
   quarterCode: number;
   message: string;
@@ -166,7 +165,20 @@ export interface QuarterDisplay {
 
 // Quarter range settings for the planning calendar
 export interface QuarterRangeSettings {
-  displayCount: number; // Default: 12, or smart default based on planned courses
+  displayCount: number; // Default: 3, or smart default based on planned courses
   startFromCurrent: boolean; // Always true - include current quarter
   showPerformanceWarning: boolean; // True if displayCount > 12
+}
+
+// Data layer index types
+export interface CourseIndex {
+  id: string;
+  title: string;
+  subject: string;
+}
+
+export interface MajorIndex {
+  name: string;
+  school: string;
+  department?: string;
 }

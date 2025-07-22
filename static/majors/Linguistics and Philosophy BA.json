@@ -1,6 +1,6 @@
 {
   "name": "Linguistics and Philosophy BA",
-  "overview": "The major combines the basic courses of the general linguistics program with that of philosophy, for students who are reflective about their beliefs or who wish to become so. Students enrich their knowledge about the nature, grammar, and history of human language, and are given the opportunity to ponder the foundations of almost any other subject to which they are exposed\u2014whether history, religion, government, law, or science.",
+  "overview": "The major combines the basic courses of the general linguistics program with that of philosophy, for students who are reflective about their beliefs or who wish to become so. Students enrich their knowledge about the nature, grammar, and history of human language, and are given the opportunity to ponder the foundations of almost any other subject to which they are exposed—whether history, religion, government, law, or science.",
   "college": "College of Letters and Science",
   "department": "Linguistics",
   "degreeLevel": "Undergraduate",
@@ -25,12 +25,30 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "PHILOS 7"},
-            {"type": "course", "courseId": "PHILOS 8"},
-            {"type": "course", "courseId": "PHILOS 21"},
-            {"type": "course", "courseId": "PHILOS 23"},
-            {"type": "course", "courseId": "PHILOS M24"},
-            {"type": "course", "courseId": "LING M7"}
+            {
+              "type": "course",
+              "courseId": "PHILOS 7"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 8"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 21"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 23"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS M24"
+            },
+            {
+              "type": "course",
+              "courseId": "LING M7"
+            }
           ]
         },
         {
@@ -38,8 +56,7 @@
           "title": "Foreign Language",
           "description": "Complete the equivalent to the sixth level of one foreign language or the equivalent to the third level of two different foreign languages.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -54,8 +71,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "LING 102"},
-            {"type": "course", "courseId": "LING 103"}
+            {
+              "type": "course",
+              "courseId": "LING 102"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 103"
+            }
           ]
         },
         {
@@ -64,8 +87,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "LING 119A"},
-            {"type": "course", "courseId": "LING 120A"}
+            {
+              "type": "course",
+              "courseId": "LING 119A"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 120A"
+            }
           ]
         },
         {
@@ -82,9 +111,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "LING 165B"},
-            {"type": "course", "courseId": "LING 165C"},
-            {"type": "course", "courseId": "LING 180"}
+            {
+              "type": "course",
+              "courseId": "LING 165B"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165C"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 180"
+            }
           ]
         },
         {
@@ -92,8 +130,7 @@
           "title": "Upper-Division Linguistics Elective",
           "description": "Complete one upper-division elective in the Linguistics Department (minimum 4 graded units).",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -117,9 +154,8 @@
               "type": "group",
               "title": "Philosophy 124-135",
               "description": "Courses from Philosophy 124 through 135 are also options.",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             },
             {
               "type": "course",
@@ -162,8 +198,14 @@
               "description": "Complete both courses:",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "LING 198A"},
-                {"type": "course", "courseId": "LING 198B"}
+                {
+                  "type": "course",
+                  "courseId": "LING 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 198B"
+                }
               ]
             },
             {
@@ -177,7 +219,7 @@
     {
       "id": "computing_specialization",
       "title": "Computing Specialization",
-      "description": "Students may select a specialization in Computing by (1) satisfying all the requirements for a bachelor\u2019s degree in the major and (2) completing the following courses. Students graduate with a bachelor\u2019s degree in their major and a specialization in Computing.",
+      "description": "Students may select a specialization in Computing by (1) satisfying all the requirements for a bachelor’s degree in the major and (2) completing the following courses. Students graduate with a bachelor’s degree in their major and a specialization in Computing.",
       "requirements": [
         {
           "type": "group",
@@ -191,9 +233,18 @@
               "description": "Complete all three courses:",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "COMPTNG 10A"},
-                {"type": "course", "courseId": "COMPTNG 10B"},
-                {"type": "course", "courseId": "COMPTNG 10C"}
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10C"
+                }
               ]
             },
             {
@@ -202,8 +253,14 @@
               "description": "Complete both courses:",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "COM SCI 31"},
-                {"type": "course", "courseId": "COM SCI 32"}
+                {
+                  "type": "course",
+                  "courseId": "COM SCI 31"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COM SCI 32"
+                }
               ]
             }
           ]
@@ -222,14 +279,38 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "LING C104"},
-            {"type": "course", "courseId": "LING 127"},
-            {"type": "course", "courseId": "LING 132"},
-            {"type": "course", "courseId": "LING 165A"},
-            {"type": "course", "courseId": "LING 165B"},
-            {"type": "course", "courseId": "LING 165C"},
-            {"type": "course", "courseId": "LING 180"},
-            {"type": "course", "courseId": "LING 185B"}
+            {
+              "type": "course",
+              "courseId": "LING C104"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 127"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 132"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165A"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165B"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165C"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 180"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 185B"
+            }
           ]
         }
       ]

@@ -22,8 +22,7 @@
               "title": "Introductory Earth Science",
               "description": "Complete one course: EPS SCI 1, CLUSTER 70A, or any course from Earth, Planetary, and Space Sciences 3 through 17.",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "course",
@@ -45,12 +44,30 @@
           "description": "Complete the following six courses:",
           "needs": 6,
           "options": [
-            {"type": "course", "courseId": "MATH 31A"},
-            {"type": "course", "courseId": "MATH 31B"},
-            {"type": "course", "courseId": "MATH 32A"},
-            {"type": "course", "courseId": "MATH 32B"},
-            {"type": "course", "courseId": "MATH 33A"},
-            {"type": "course", "courseId": "MATH 33B"}
+            {
+              "type": "course",
+              "courseId": "MATH 31A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 33A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 33B"
+            }
           ]
         },
         {
@@ -59,12 +76,30 @@
           "description": "Complete the following six courses:",
           "needs": 6,
           "options": [
-            {"type": "course", "courseId": "PHYSICS 1A"},
-            {"type": "course", "courseId": "PHYSICS 1B"},
-            {"type": "course", "courseId": "PHYSICS 1C"},
-            {"type": "course", "courseId": "PHYSICS 4AL"},
-            {"type": "course", "courseId": "PHYSICS 4BL"},
-            {"type": "course", "courseId": "PHYSICS 32"}
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1C"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 4AL"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 4BL"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 32"
+            }
           ]
         }
       ]
@@ -96,10 +131,22 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "EPS SCI 152"},
-            {"type": "course", "courseId": "EPS SCI 153"},
-            {"type": "course", "courseId": "EPS SCI 155"},
-            {"type": "course", "courseId": "EPS SCI M156"}
+            {
+              "type": "course",
+              "courseId": "EPS SCI 152"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 153"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 155"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI M156"
+            }
           ]
         },
         {
@@ -124,18 +171,54 @@
           "description": "Three additional 100-level Earth, Planetary, and Space Sciences courses are required from the lists below (courses other than M187, 189-199). Students may opt for one of the suggested course groups.",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "EPS SCI 111"},
-            {"type": "course", "courseId": "EPS SCI 112"},
-            {"type": "course", "courseId": "EPS SCI C122"},
-            {"type": "course", "courseId": "EPS SCI 136B"},
-            {"type": "course", "courseId": "EPS SCI 150"},
-            {"type": "course", "courseId": "EPS SCI 152"},
-            {"type": "course", "courseId": "EPS SCI 153"},
-            {"type": "course", "courseId": "EPS SCI 155"},
-            {"type": "course", "courseId": "EPS SCI M156"},
-            {"type": "course", "courseId": "EPS SCI 119"},
-            {"type": "course", "courseId": "A&O SCI C170"},
-            {"type": "course", "courseId": "PHYSICS M122"}
+            {
+              "type": "course",
+              "courseId": "EPS SCI 111"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 112"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C122"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 136B"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 150"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 152"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 153"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 155"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI M156"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 119"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI C170"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS M122"
+            }
           ]
         }
       ]
@@ -149,9 +232,12 @@
           "type": "group",
           "title": "Honors Thesis (Optional)",
           "description": "Students must complete a minimum of two terms (8 units) of the following course, leading to the preparation of a satisfactory honors thesis. Qualified students wishing to enter the program must submit a completed application form to the departmental honors committee near the end of their junior year.",
-          "needs": 0,
+          "needs": 1,
           "options": [
-            {"type": "course", "courseId": "EPS SCI 198"}
+            {
+              "type": "course",
+              "courseId": "EPS SCI 198"
+            }
           ]
         }
       ]

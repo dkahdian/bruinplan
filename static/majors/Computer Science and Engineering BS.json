@@ -1,6 +1,6 @@
 {
   "name": "Computer Science and Engineering BS",
-  "overview": "The Computer Science and Engineering curriculum at UCLA provides students with the education and training necessary to design, implement, test, and utilize the hardware and software of digital computers and digital systems. The curriculum has components spanning both the Computer Science and Electrical and Computer Engineering departments. The curriculum covers all aspects of computer systems from electronic design through logic design, MSI, LSI, and VLSI concepts; device utilization, machine language design, implementation and programming, operating system concepts, systems programming, networking fundamentals, and higher-level language skills; and their application. Students are prepared for employment in a wide spectrum of high-technology industries. The computer science and engineering program is accredited by the Computing Accreditation Commission and the Engineering Accreditation Commission of ABET.\n\nThe Computer Science and Engineering major is a designated capstone major. Computer Science and Engineering students complete a major product design course. Graduates are expected to apply the basic mathematical and scientific concepts that underlie modern computer science and engineering; design a software or digital hardware system, component, or process to meet desired needs within realistic constraints; function productively with others as part of a team; identify, formulate, and solve computer software- and hardware-related engineering problems; and demonstrate effective communication skills.\n\n**Learning Outcomes**\n*   Application of basic mathematical and scientific concepts that underlie the modern field.\n*   Design of a software or digital hardware system, component, or process to meet desired needs within realistic constraints.\n*   Function productively with others on a team, including those with different specialties within the field.\n*   Identification, formulation, and solution of computer software- and hardware-related engineering problems.\n*   Effective communication.",
+  "overview": "The Computer Science and Engineering curriculum at UCLA provides students with the education and training necessary to design, implement, test, and utilize the hardware and software of digital computers and digital systems. The curriculum has components spanning both the Computer Science and Electrical and Computer Engineering departments. The curriculum covers all aspects of computer systems from electronic design through logic design, MSI, LSI, and VLSI concepts; device utilization, machine language design, implementation and programming, operating system concepts, systems programming, networking fundamentals, and higher-level language skills; and their application. Students are prepared for employment in a wide spectrum of high-technology industries. The computer science and engineering program is accredited by the Computing Accreditation Commission and the Engineering Accreditation Commission of ABET.",
   "college": "Henry Samueli School of Engineering and Applied Science",
   "department": "Computer Science",
   "degreeLevel": "Undergraduate",
@@ -81,8 +81,14 @@
           "description": "select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COM SCI M51A"},
-            {"type": "course", "courseId": "EC ENGR M16"}
+            {
+              "type": "course",
+              "courseId": "COM SCI M51A"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR M16"
+            }
           ]
         },
         {
@@ -91,8 +97,14 @@
           "description": "select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "PHYSICS 4AL"},
-            {"type": "course", "courseId": "PHYSICS 4BL"}
+            {
+              "type": "course",
+              "courseId": "PHYSICS 4AL"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 4BL"
+            }
           ]
         }
       ]
@@ -140,8 +152,14 @@
           "description": "select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COM SCI M151B"},
-            {"type": "course", "courseId": "EC ENGR M116C"}
+            {
+              "type": "course",
+              "courseId": "COM SCI M151B"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR M116C"
+            }
           ]
         },
         {
@@ -150,8 +168,14 @@
           "description": "select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COM SCI M152A"},
-            {"type": "course", "courseId": "EC ENGR M116L"}
+            {
+              "type": "course",
+              "courseId": "COM SCI M152A"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR M116L"
+            }
           ]
         },
         {
@@ -160,11 +184,26 @@
           "description": "select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "C&EE 110"},
-            {"type": "course", "courseId": "EC ENGR 131A"},
-            {"type": "course", "courseId": "MATH 170A"},
-            {"type": "course", "courseId": "MATH 170E"},
-            {"type": "course", "courseId": "STATS 100A"}
+            {
+              "type": "course",
+              "courseId": "C&EE 110"
+            },
+            {
+              "type": "course",
+              "courseId": "EC ENGR 131A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 170A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 170E"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 100A"
+            }
           ]
         },
         {
@@ -173,7 +212,10 @@
           "description": "complete the following course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COM SCI 152B"}
+            {
+              "type": "course",
+              "courseId": "COM SCI 152B"
+            }
           ]
         },
         {
@@ -181,33 +223,29 @@
           "title": "Electrical and Computer Engineering Elective",
           "description": "Complete a minimum of 4 units and one elective course from Electrical and Computer Engineering 101A through M185.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Computer Science Elective",
           "description": "Complete a minimum of 12 units and three elective courses from Computer Science 111 through CM187, and up to 8 units of Computer Science 188.",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Technical Breadth",
           "description": "Complete 12 units of technical breadth courses from an approved list available in the Office of Academic and Student Affairs. Students who want to deepen their knowledge of electrical engineering are encouraged to select that discipline as their technical breadth area.",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
     {
       "id": "policies",
       "title": "Policies",
-      "description": "* A list of technical breadth courses is available in the Office of Academic and Student Affairs.\n* For information on UC, school, and general education requirements, see the Samueli school section in College and Schools.\n* Credit is not allowed for both Computer Science 170A and Electrical and Computer Engineering 133A unless at least one of them is applied as part of the technical breadth area.\n* Electrical and Computer Engineering 110, 131A, and CM182 may not satisfy elective credit.\n* A petition may be submitted to consider four units of Computer Science 194 or 199 for an elective. Credit is not guaranteed and is subject to vice chair review.\n* A multiple-listed (M) course offered in another department may be used instead of the same computer science course (e.g., Electrical and Computer Engineering M116C may be taken instead of Computer Science M151B). Credit is applied automatically.",
-      "requirements": [
-      ]
+      "description": "* A list of technical breadth courses is available in the Office of Academic and Student Affairs.",
+      "requirements": []
     }
   ]
 }

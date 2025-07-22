@@ -16,24 +16,21 @@
           "title": "English Composition",
           "description": "Complete one English composition course.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Literature Survey Courses",
           "description": "Complete two literature survey courses (at least one of which must be world literature).",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Foreign Language",
           "description": "Complete the equivalent of at least one year of foreign language.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -48,18 +45,54 @@
           "description": "Select two courses from the following. With approval of the director of undergraduate studies, a comparable and appropriate lower-division course in another department may be substituted for one of the courses.",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "COM LIT 1A"},
-            {"type": "course", "courseId": "COM LIT 1B"},
-            {"type": "course", "courseId": "COM LIT 1C"},
-            {"type": "course", "courseId": "COM LIT 1D"},
-            {"type": "course", "courseId": "COM LIT 1E"},
-            {"type": "course", "courseId": "COM LIT 2AW"},
-            {"type": "course", "courseId": "COM LIT 2BW"},
-            {"type": "course", "courseId": "COM LIT 2CW"},
-            {"type": "course", "courseId": "COM LIT 4AW"},
-            {"type": "course", "courseId": "COM LIT 4BW"},
-            {"type": "course", "courseId": "COM LIT 4CW"},
-            {"type": "course", "courseId": "COM LIT 4DW"}
+            {
+              "type": "course",
+              "courseId": "COM LIT 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 1B"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 1C"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 1D"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 1E"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 2AW"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 2BW"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 2CW"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 4AW"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 4BW"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 4CW"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 4DW"
+            }
           ]
         },
         {
@@ -67,16 +100,14 @@
           "title": "College Writing Requirement",
           "description": "Complete the College Writing requirement.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Literary Proficiency",
           "description": "Literary proficiency in at least one language other than English, to be demonstrated by admission into one upper-division literature course in the original language.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -94,24 +125,21 @@
           "title": "Upper-Division Comparative Literature",
           "description": "Select four courses from Comparative Literature M101 through 197.",
           "needs": 4,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Upper-Division Literature in Primary Language",
           "description": "Complete three upper-division literature courses using original language texts in the primary language area.",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Upper-Division Literature in Secondary Language",
           "description": "Complete two upper-division literature courses using original language texts in the secondary language area. (Students may petition the student services adviser to take two upper-division literature courses in translation if their primary literature area is in a language other than English).",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -124,23 +152,21 @@
           "type": "group",
           "title": "Honors Program Requirements",
           "description": "Departmental honors candidates must complete all requirements for the major plus the following. Candidates complete an honors research paper in two of the four required upper-division comparative literature courses, a fourth course in the primary literature area, and the following course with a core faculty member, in which they write an independent research paper of approximately 25 pages:",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
               "title": "Honors Research Papers",
               "description": "Complete an honors research paper (in addition to regular course requirements) in two of the four required upper-division comparative literature courses.",
               "needs": 2,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "group",
               "title": "Additional Primary Language Course",
               "description": "Complete a fourth course in the primary literature area.",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "course",

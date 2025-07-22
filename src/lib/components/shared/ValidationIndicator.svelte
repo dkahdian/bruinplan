@@ -6,16 +6,14 @@
   
   // Filter errors for this specific course
   $: courseErrors = errors.filter(error => error.courseId === courseId);
-  $: hasErrors = courseErrors.some(error => error.type === 'error');
-  $: hasWarnings = courseErrors.some(error => error.type === 'warning');
+  $: hasWarnings = courseErrors.length > 0;
   
-  // Get background color class - darker red for errors
-  $: backgroundClass = hasErrors ? 'bg-red-200' : hasWarnings ? 'bg-orange-100' : '';
+  // Get background color class - orange for warnings, red for errors
+  $: backgroundClass = hasWarnings ? 'bg-orange-100' : '';
   
   // Format error messages for display
   function formatMessage(error: ValidationError): string {
-    const emoji = error.type === 'error' ? '⚠️❌' : '⚠️';
-    return `${emoji} ${error.message}`;
+    return `⚠️ ${error.message}`;
   }
 </script>
 

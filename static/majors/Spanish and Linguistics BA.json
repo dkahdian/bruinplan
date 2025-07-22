@@ -16,31 +16,28 @@
           "title": "Spanish Language Proficiency",
           "description": "Complete two years of Spanish.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Introduction to Linguistics",
           "description": "Complete one introduction to linguistics course.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Civilization Course",
           "description": "Complete one Spanish or Spanish American civilization course.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
     {
       "id": "preparation",
       "title": "Preparation for the Major",
-      "description": "Complete four courses as follows: Each course must be taken for a letter grade and passed with a grade of C or better prior to beginning upper-division work in the major, except Linguistics 20, which must be passed with a grade of B\u2013 or better.",
+      "description": "Complete four courses as follows: Each course must be taken for a letter grade and passed with a grade of C or better prior to beginning upper-division work in the major, except Linguistics 20, which must be passed with a grade of B– or better.",
       "requirements": [
         {
           "type": "course",
@@ -52,8 +49,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "SPAN 25"},
-            {"type": "course", "courseId": "SPAN 27"}
+            {
+              "type": "course",
+              "courseId": "SPAN 25"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 27"
+            }
           ]
         },
         {
@@ -62,8 +65,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "SPAN M35"},
-            {"type": "course", "courseId": "PORTGSE M35"}
+            {
+              "type": "course",
+              "courseId": "SPAN M35"
+            },
+            {
+              "type": "course",
+              "courseId": "PORTGSE M35"
+            }
           ]
         },
         {
@@ -72,8 +81,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "SPAN 42"},
-            {"type": "course", "courseId": "SPAN 44"}
+            {
+              "type": "course",
+              "courseId": "SPAN 42"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 44"
+            }
           ]
         }
       ]
@@ -89,9 +104,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "SPAN 100A"},
-            {"type": "course", "courseId": "SPAN 100B"},
-            {"type": "course", "courseId": "SPAN 119"}
+            {
+              "type": "course",
+              "courseId": "SPAN 100A"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 100B"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 119"
+            }
           ]
         },
         {
@@ -100,9 +124,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "LING 103"},
-            {"type": "course", "courseId": "LING 120A"},
-            {"type": "course", "courseId": "LING 120B"}
+            {
+              "type": "course",
+              "courseId": "LING 103"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 120B"
+            }
           ]
         },
         {
@@ -111,9 +144,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "LING 160"},
-            {"type": "course", "courseId": "LING 165A"},
-            {"type": "course", "courseId": "LING 165B"}
+            {
+              "type": "course",
+              "courseId": "LING 160"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165A"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165B"
+            }
           ]
         },
         {
@@ -122,7 +164,10 @@
           "description": "Complete two courses from Spanish 160.",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "SPAN 160"}
+            {
+              "type": "course",
+              "courseId": "SPAN 160"
+            }
           ]
         },
         {
@@ -130,21 +175,20 @@
           "title": "Upper-Division Spanish Electives",
           "description": "Complete two additional upper-division Spanish electives.",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
     {
       "id": "honors",
       "title": "Honors Program",
-      "description": "The departmental honors program is open to majors who have completed a minimum of six upper-division major courses with a 3.7 grade-point average or better in those six courses. Eligibility is verified by the departmental counselor. On the basis of their coursework and special interests, students then consult with a faculty member in that field and formulate a research project that they pursue under the faculty member\u2019s guidance through Portuguese 198A-198B or Spanish 198A-198B. Portuguese 198A and Spanish 198A are 4-unit courses in which students research and prepare a draft of a thesis on a selected topic; Portuguese 198B and Spanish 198B are 2-unit courses in which students complete the final thesis draft of approximately 25 to 30 pages. Approval of the honors thesis by the faculty mentor is the final requirement for departmental honors. Portuguese 198A-198B and Spanish 198A-198B may not be applied toward the majors.",
+      "description": "The departmental honors program is open to majors who have completed a minimum of six upper-division major courses with a 3.7 grade-point average or better in those six courses. Eligibility is verified by the departmental counselor. On the basis of their coursework and special interests, students then consult with a faculty member in that field and formulate a research project that they pursue under the faculty member’s guidance through Portuguese 198A-198B or Spanish 198A-198B. Portuguese 198A and Spanish 198A are 4-unit courses in which students research and prepare a draft of a thesis on a selected topic; Portuguese 198B and Spanish 198B are 2-unit courses in which students complete the final thesis draft of approximately 25 to 30 pages. Approval of the honors thesis by the faculty mentor is the final requirement for departmental honors. Portuguese 198A-198B and Spanish 198A-198B may not be applied toward the majors.",
       "requirements": [
         {
           "type": "group",
           "title": "Honors Thesis Track",
           "description": "To earn departmental honors, select and complete one of the following two-course thesis tracks. This is an optional program.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -152,8 +196,14 @@
               "description": "Complete the Spanish thesis sequence.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "SPAN 198A"},
-                {"type": "course", "courseId": "SPAN 198B"}
+                {
+                  "type": "course",
+                  "courseId": "SPAN 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SPAN 198B"
+                }
               ]
             },
             {
@@ -162,8 +212,14 @@
               "description": "Complete the Portuguese thesis sequence.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "PORTGSE 198A"},
-                {"type": "course", "courseId": "PORTGSE 198B"}
+                {
+                  "type": "course",
+                  "courseId": "PORTGSE 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PORTGSE 198B"
+                }
               ]
             }
           ]

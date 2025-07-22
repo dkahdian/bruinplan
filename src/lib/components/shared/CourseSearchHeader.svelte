@@ -1,31 +1,55 @@
 <script lang="ts">
   import type { Course } from '../../types.js';
-  import { searchCourses } from '../../services/shared/searchService.js';
+  import { searchCoursesNew } from '../../services/shared/searchService.js';
 
   export let courseId: string;
   export let title: string;
-  export let courses: Course[] = [];
 
   let isSearchExpanded = false;
   let searchQuery = '';
   let searchResults: Course[] = [];
+  let isSearching = false;
   let searchContainer: HTMLDivElement;
 
-  // Search courses using the shared search service
-  $: if (searchQuery.trim() && courses.length > 0) {
-    searchResults = searchCourses(courses, searchQuery, {
-      maxResults: 10,
-      minSimilarity: 20, // Lower threshold for header search
-      enableLogging: false
-    });
-  } else {
-    searchResults = [];
+  // Search function with debouncing
+  async function performSearch(query: string) {
+    if (!query.trim()) {
+      searchResults = [];
+      isSearching = false;
+      return;
+    }
+
+    isSearching = true;
+    try {
+      searchResults = await searchCoursesNew(query, {
+        maxResults: 10,
+        enableLogging: false
+      });
+    } catch (error) {
+      console.error('Search failed:', error);
+      searchResults = [];
+    } finally {
+      isSearching = false;
+    }
+  }
+
+  // Debounced search with reactive statement
+  let searchTimeout: ReturnType<typeof setTimeout> | null = null;
+  $: {
+    if (searchTimeout) clearTimeout(searchTimeout);
+    
+    if (searchQuery.trim()) {
+      searchTimeout = setTimeout(() => performSearch(searchQuery), 200);
+    } else {
+      searchResults = [];
+      isSearching = false;
+    }
   }
   
   // Function to navigate to a selected course
   function selectCourse(selectedCourseId: string) {
     // Remove spaces from course ID for URL compatibility
-    const urlSafeCourseId = selectedCourseId.replace(/\s+/g, '');
+    const urlSafeCourseId = selectedCourseId.replace(/[^A-Z0-9]/g, '');
     // Navigate to the new course page
     window.location.href = `/courses/${urlSafeCourseId}`;
   }

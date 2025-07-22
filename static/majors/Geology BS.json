@@ -7,18 +7,10 @@
   "degreeObjective": "Bachelor of Science",
   "sections": [
     {
-      "id": "learning-outcomes",
-      "title": "Learning Outcomes",
-      "description": "1. Use of skills and knowledge set from coursework. 2. Definition of research methodology and data. 3. Placement of project into context of current state of understanding. 4. Completion of research project from conception to written report. 5. Oral presentation at a research symposium, or brief published report, of field experience results.",
-      "requirements": [
-      ]
-    },
-    {
       "id": "entry",
       "title": "Entry to the Major",
       "description": "Transfer applicants to the Geology major with 90 or more quarter units (60 semester units) must have completed one introductory Earth sciences course with laboratory, one calculus course, and one general chemistry course with laboratory for majors. A second calculus course and a second general chemistry course are recommended. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
-      "requirements": [
-      ]
+      "requirements": []
     },
     {
       "id": "preparation",
@@ -50,8 +42,7 @@
                   "title": "EPSS 3-17",
                   "description": "Earth, Planetary, and Space Sciences 3 through 17",
                   "needs": 1,
-                  "options": [
-                  ]
+                  "options": []
                 }
               ]
             },
@@ -69,8 +60,14 @@
               "description": "Select one course from the following.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "EPS SCI M71"},
-                {"type": "course", "courseId": "C&EE M20"}
+                {
+                  "type": "course",
+                  "courseId": "EPS SCI M71"
+                },
+                {
+                  "type": "course",
+                  "courseId": "C&EE M20"
+                }
               ]
             }
           ]
@@ -87,9 +84,18 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "CHEM 14A"},
-                {"type": "course", "courseId": "CHEM 14B"},
-                {"type": "course", "courseId": "CHEM 14BL"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14BL"
+                }
               ]
             },
             {
@@ -98,9 +104,18 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "CHEM 20A"},
-                {"type": "course", "courseId": "CHEM 20B"},
-                {"type": "course", "courseId": "CHEM 20L"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20L"
+                }
               ]
             }
           ]
@@ -117,9 +132,18 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MATH 3A"},
-                {"type": "course", "courseId": "MATH 3B"},
-                {"type": "course", "courseId": "MATH 3C"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 3A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3C"
+                }
               ]
             },
             {
@@ -128,10 +152,22 @@
               "description": "Complete all courses in this series.",
               "needs": 4,
               "options": [
-                {"type": "course", "courseId": "MATH 31A"},
-                {"type": "course", "courseId": "MATH 31B"},
-                {"type": "course", "courseId": "MATH 32A"},
-                {"type": "course", "courseId": "MATH 32B"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 31A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 32A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 32B"
+                }
               ]
             }
           ]
@@ -148,10 +184,22 @@
               "description": "Complete all courses in this series.",
               "needs": 4,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 1A"},
-                {"type": "course", "courseId": "PHYSICS 1B"},
-                {"type": "course", "courseId": "PHYSICS 4AL"},
-                {"type": "course", "courseId": "PHYSICS 4BL"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 4AL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 4BL"
+                }
               ]
             },
             {
@@ -160,8 +208,14 @@
               "description": "Complete all courses in this series.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 5A"},
-                {"type": "course", "courseId": "PHYSICS 5B"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5B"
+                }
               ]
             }
           ]
@@ -195,8 +249,14 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "EPS SCI 121"},
-            {"type": "course", "courseId": "EPS SCI 121F"}
+            {
+              "type": "course",
+              "courseId": "EPS SCI 121"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 121F"
+            }
           ]
         },
         {
@@ -205,27 +265,90 @@
           "description": "Complete five additional 100-level Earth, planetary, and space sciences courses (except Earth, Planetary, and Space Sciences M187, and 189 through 199). Students may opt to take courses from the following groups:",
           "needs": 5,
           "options": [
-            {"type": "course", "courseId": "EPS SCI 136A"},
-            {"type": "course", "courseId": "EPS SCI 150"},
-            {"type": "course", "courseId": "EPS SCI M171"},
-            {"type": "course", "courseId": "EPS SCI CM114A"},
-            {"type": "course", "courseId": "EPS SCI CM114B"},
-            {"type": "course", "courseId": "EPS SCI 116"},
-            {"type": "course", "courseId": "EPS SCI M118"},
-            {"type": "course", "courseId": "EPS SCI 103C"},
-            {"type": "course", "courseId": "EPS SCI C106"},
-            {"type": "course", "courseId": "EPS SCI C107"},
-            {"type": "course", "courseId": "EPS SCI C109"},
-            {"type": "course", "courseId": "EPS SCI C113"},
-            {"type": "course", "courseId": "EPS SCI 152"},
-            {"type": "course", "courseId": "EPS SCI 153"},
-            {"type": "course", "courseId": "EPS SCI C143"},
-            {"type": "course", "courseId": "EPS SCI 155"},
-            {"type": "course", "courseId": "EPS SCI C179"},
-            {"type": "course", "courseId": "EPS SCI C162"},
-            {"type": "course", "courseId": "EPS SCI C166"},
-            {"type": "course", "courseId": "EPS SCI 119"},
-            {"type": "course", "courseId": "EPS SCI 133"}
+            {
+              "type": "course",
+              "courseId": "EPS SCI 136A"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 150"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI M171"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI CM114A"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI CM114B"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 116"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI M118"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 103C"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C106"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C107"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C109"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C113"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 152"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 153"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C143"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 155"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C179"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C162"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI C166"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 119"
+            },
+            {
+              "type": "course",
+              "courseId": "EPS SCI 133"
+            }
           ]
         }
       ]
@@ -245,8 +368,7 @@
       "id": "policies",
       "title": "Policies",
       "description": "Preparation for the Major: Each course must be passed with a minimum grade of C-.",
-      "requirements": [
-      ]
+      "requirements": []
     }
   ]
 }

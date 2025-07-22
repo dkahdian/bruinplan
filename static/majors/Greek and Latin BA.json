@@ -31,9 +31,18 @@
               "description": "Complete all three courses.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "GREEK 1"},
-                {"type": "course", "courseId": "GREEK 2"},
-                {"type": "course", "courseId": "GREEK 3"}
+                {
+                  "type": "course",
+                  "courseId": "GREEK 1"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GREEK 2"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GREEK 3"
+                }
               ]
             },
             {
@@ -74,8 +83,7 @@
           "title": "1. Upper-Division Greek and Latin Courses",
           "description": "Complete eight upper-division Greek and Latin courses, of which at least four must be in each language, including Greek 110 or Latin 110. Greek and/or Latin 197 and 199 may be applied only by petition.",
           "needs": 8,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -83,17 +91,50 @@
           "description": "Select three upper-division courses. Options include any upper-division courses in classical civilization or the ancient history courses listed below.",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "HIST 112A"},
-            {"type": "course", "courseId": "HIST 112B"},
-            {"type": "course", "courseId": "HIST M112C"},
-            {"type": "course", "courseId": "HIST 112D"},
-            {"type": "course", "courseId": "HIST M112E"},
-            {"type": "course", "courseId": "HIST 113A"},
-            {"type": "course", "courseId": "HIST 113B"},
-            {"type": "course", "courseId": "HIST 114A"},
-            {"type": "course", "courseId": "HIST 114B"},
-            {"type": "course", "courseId": "HIST 114C"},
-            {"type": "course", "courseId": "HIST 115"}
+            {
+              "type": "course",
+              "courseId": "HIST 112A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 112B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M112C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 112D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M112E"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 113A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 113B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 114A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 114B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 114C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 115"
+            }
           ]
         },
         {
@@ -102,7 +143,10 @@
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "CLASSIC 191"}
+            {
+              "type": "course",
+              "courseId": "CLASSIC 191"
+            }
           ]
         }
       ]
@@ -118,8 +162,14 @@
           "description": "Students must enroll in Classics 198A and 198B in consecutive terms to write a thesis. To qualify for honors, students must complete Classics 198A and 198B with grades of A- or better. To qualify for highest honors, students must complete them with grades of A. Only course 198B may be applied toward the upper-division classical civilization requirement.",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "CLASSIC 198A"},
-            {"type": "course", "courseId": "CLASSIC 198B"}
+            {
+              "type": "course",
+              "courseId": "CLASSIC 198A"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 198B"
+            }
           ]
         }
       ]

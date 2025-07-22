@@ -14,12 +14,21 @@
         {
           "type": "group",
           "title": "Musicianship",
-          "description": "Complete the following courses with grades of C\u2013 or better:",
+          "description": "Complete the following courses with grades of C- or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC M6A"},
-            {"type": "course", "courseId": "MUSC M6B"},
-            {"type": "course", "courseId": "MUSC M6C"}
+            {
+              "type": "course",
+              "courseId": "MUSC M6A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC M6B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC M6C"
+            }
           ]
         },
         {
@@ -28,9 +37,18 @@
           "description": "Complete the following courses with grades of C or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC 20A"},
-            {"type": "course", "courseId": "MUSC 20B"},
-            {"type": "course", "courseId": "MUSC 20C"}
+            {
+              "type": "course",
+              "courseId": "MUSC 20A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 20B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 20C"
+            }
           ]
         },
         {
@@ -38,8 +56,7 @@
           "title": "Instrumental Studio",
           "description": "Complete up to 12 units from Music 60A through 60U in one instrument, determined through a rigorous proficiency test administered by the composition faculty.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -47,23 +64,50 @@
           "description": "Complete 12 units of the following course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MUSC 66"}
+            {
+              "type": "course",
+              "courseId": "MUSC 66"
+            }
           ]
         },
         {
           "type": "group",
           "title": "Large Conducted Ensembles",
-          "description": "Complete 12 units from the following courses using the student\u2019s major instrument, as assigned by the chair or designated faculty member.",
+          "description": "Complete 12 units from the following courses using the student’s major instrument, as assigned by the chair or designated faculty member.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MUSC C185A"},
-            {"type": "course", "courseId": "MUSC C185B"},
-            {"type": "course", "courseId": "MUSC C185C"},
-            {"type": "course", "courseId": "MUSC C185D"},
-            {"type": "course", "courseId": "MUSC C185E"},
-            {"type": "course", "courseId": "MUSC 185F"},
-            {"type": "course", "courseId": "MUSC C185G"},
-            {"type": "course", "courseId": "MUSC 185H"}
+            {
+              "type": "course",
+              "courseId": "MUSC C185A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185C"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185D"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185E"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 185F"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185G"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 185H"
+            }
           ]
         }
       ]
@@ -79,9 +123,18 @@
           "description": "Complete the following courses with grades of C or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC 120A"},
-            {"type": "course", "courseId": "MUSC 120B"},
-            {"type": "course", "courseId": "MUSC 120C"}
+            {
+              "type": "course",
+              "courseId": "MUSC 120A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 120B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 120C"
+            }
           ]
         },
         {
@@ -90,9 +143,18 @@
           "description": "Complete the following courses with grades of C or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSCLG 125A"},
-            {"type": "course", "courseId": "MUSCLG 125B"},
-            {"type": "course", "courseId": "MUSCLG 125C"}
+            {
+              "type": "course",
+              "courseId": "MUSCLG 125A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 125B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 125C"
+            }
           ]
         },
         {
@@ -101,7 +163,10 @@
           "description": "Complete 10 units of the following course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MUSC 166"}
+            {
+              "type": "course",
+              "courseId": "MUSC 166"
+            }
           ]
         },
         {
@@ -132,8 +197,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "MUSC 104A"},
-                {"type": "course", "courseId": "MUSC 104B"}
+                {
+                  "type": "course",
+                  "courseId": "MUSC 104A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 104B"
+                }
               ]
             },
             {
@@ -142,9 +213,18 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "MUSC 124A"},
-                {"type": "course", "courseId": "MUSC 124B"},
-                {"type": "course", "courseId": "MUSC 124C"}
+                {
+                  "type": "course",
+                  "courseId": "MUSC 124A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 124B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 124C"
+                }
               ]
             }
           ]
@@ -154,8 +234,7 @@
           "title": "Electives",
           "description": "Select at least 4 units from all upper-division ethnomusicology, global jazz studies, music, music industry, or musicology courses.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -163,7 +242,10 @@
           "description": "In senior year, each student must present a senior recital as part of the capstone course to be preceded by a scoring course (Music 124A, 124B, or 124C); the 30-minute recital includes a printed program with notes. All recitals are videotaped and archived. Performances are evaluated by a jury.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MUSC 169"}
+            {
+              "type": "course",
+              "courseId": "MUSC 169"
+            }
           ]
         }
       ]

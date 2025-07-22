@@ -1,6 +1,6 @@
 {
   "name": "American Indian Studies BA",
-  "overview": "The American Indian Studies BA program is designed to offer a coherent and comprehensive curriculum in American Indian cultures, societies, and contemporary issues in addition to valuable background in more traditional disciplines such as anthropology, art history, economics, education, history, law, linguistics, literature, sociology, and world arts and cultures. Students acquire a critical knowledge of the concepts, theories, and methods that have produced knowledge about American Indians in the traditional disciplines. Students are encouraged to develop a concentration\u2014or special expertise\u2014in these fields to accompany the major. The curriculum encompasses the cultural, historical, political, and social experiences of Native Americans in the Americas. Through courses on Native American literature, languages, theater, and contemporary societies and through more culturally specific courses on California Indians, cultures of the Pueblo southwest, and so on, the major offers an in-depth and broad knowledge on the experience of Native Americans not only in the U.S. and Canada but in Mexico and elsewhere in Latin America as well. The American Indian Studies major is a designated capstone major. Seniors complete a research/service experience and participate in a tutorial where faculty members help them relate their course-derived academic experience to their original research/service efforts involving Native American communities. Through their capstone work, students demonstrate their skills at analyzing and synthesizing knowledge, show their capacity to work collaboratively with peers, and display their capacity to relate their academic research and discourse to Native American community needs and concerns. Students present their work at the academic year-end Research Symposium sponsored by the American Indian Studies Interdepartmental Program.",
+  "overview": "The American Indian Studies BA program is designed to offer a coherent and comprehensive curriculum in American Indian cultures, societies, and contemporary issues in addition to valuable background in more traditional disciplines such as anthropology, art history, economics, education, history, law, linguistics, literature, sociology, and world arts and cultures. Students acquire a critical knowledge of the concepts, theories, and methods that have produced knowledge about American Indians in the traditional disciplines. Students are encouraged to develop a concentration—or special expertise—in these fields to accompany the major. The curriculum encompasses the cultural, historical, political, and social experiences of Native Americans in the Americas. Through courses on Native American literature, languages, theater, and contemporary societies and through more culturally specific courses on California Indians, cultures of the Pueblo southwest, and so on, the major offers an in-depth and broad knowledge on the experience of Native Americans not only in the U.S. and Canada but in Mexico and elsewhere in Latin America as well. The American Indian Studies major is a designated capstone major. Seniors complete a research/service experience and participate in a tutorial where faculty members help them relate their course-derived academic experience to their original research/service efforts involving Native American communities. Through their capstone work, students demonstrate their skills at analyzing and synthesizing knowledge, show their capacity to work collaboratively with peers, and display their capacity to relate their academic research and discourse to Native American community needs and concerns. Students present their work at the academic year-end Research Symposium sponsored by the American Indian Studies Interdepartmental Program.",
   "college": "College of Letters and Science",
   "department": "American Indian Studies",
   "degreeLevel": "Undergraduate",
@@ -21,10 +21,22 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "ANTHRO 3"},
-            {"type": "course", "courseId": "GENDER 10"},
-            {"type": "course", "courseId": "POL SCI 40"},
-            {"type": "course", "courseId": "STATS 12"}
+            {
+              "type": "course",
+              "courseId": "ANTHRO 3"
+            },
+            {
+              "type": "course",
+              "courseId": "GENDER 10"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 40"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 12"
+            }
           ]
         }
       ]
@@ -32,7 +44,7 @@
     {
       "id": "the-major",
       "title": "The Major",
-      "description": "Requirements are distributed according to certain categories to create a breadth of knowledge. Students are required to take a research methods course to become familiar with scholarly techniques of knowledge production and to critically regard academic research, as well as a course in either ethnic/race/gender relations or comparative indigenous studies. Additional courses are selected in the social sciences and humanities according to a distributional formula that encourages further specialization within either of these two broad areas while simultaneously adding additional breadth. American Indian Studies C122XP prioritizes the experiential dimension of involvement in Native American communities (either urban, reservation, or rancheria) through work that supplies service experience and/or supervised internship opportunities. The 12 courses must fit one of the following regional emphasis patterns: (1) Native North America\u2014eight courses, including those mentioned below and additional electives on Native North American topics or (2) indigenous peoples of the Americas\u2014eight courses, including at least four dealing with indigenous people in Central America and/or South America. Students must complete 12 upper-division courses (48 units) as follows, with no more than 32 units from American Indian studies courses:",
+      "description": "Requirements are distributed according to certain categories to create a breadth of knowledge. Students are required to take a research methods course to become familiar with scholarly techniques of knowledge production and to critically regard academic research, as well as a course in either ethnic/race/gender relations or comparative indigenous studies. Additional courses are selected in the social sciences and humanities according to a distributional formula that encourages further specialization within either of these two broad areas while simultaneously adding additional breadth. American Indian Studies C122XP prioritizes the experiential dimension of involvement in Native American communities (either urban, reservation, or rancheria) through work that supplies service experience and/or supervised internship opportunities. The 12 courses must fit one of the following regional emphasis patterns: (1) Native North America—eight courses, including those mentioned below and additional electives on Native North American topics or (2) indigenous peoples of the Americas—eight courses, including at least four dealing with indigenous people in Central America and/or South America. Students must complete 12 upper-division courses (48 units) as follows, with no more than 32 units from American Indian studies courses:",
       "requirements": [
         {
           "type": "course",
@@ -44,9 +56,18 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "ANTHRO M150"},
-            {"type": "course", "courseId": "ANTHRO 155"},
-            {"type": "course", "courseId": "LING 114"}
+            {
+              "type": "course",
+              "courseId": "ANTHRO M150"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 155"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 114"
+            }
           ]
         },
         {
@@ -55,12 +76,30 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "AM IND 140"},
-            {"type": "course", "courseId": "AM IND 158"},
-            {"type": "course", "courseId": "AM IND C170"},
-            {"type": "course", "courseId": "HIST 149A"},
-            {"type": "course", "courseId": "HIST 149B"},
-            {"type": "course", "courseId": "HIST 157B"}
+            {
+              "type": "course",
+              "courseId": "AM IND 140"
+            },
+            {
+              "type": "course",
+              "courseId": "AM IND 158"
+            },
+            {
+              "type": "course",
+              "courseId": "AM IND C170"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 149A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 149B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 157B"
+            }
           ]
         },
         {
@@ -69,13 +108,34 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "AM IND C120"},
-            {"type": "course", "courseId": "AM IND C121"},
-            {"type": "course", "courseId": "AM IND C130"},
-            {"type": "course", "courseId": "AM IND C175"},
-            {"type": "course", "courseId": "AM IND C178"},
-            {"type": "course", "courseId": "ANTHRO 160A"},
-            {"type": "course", "courseId": "ANTHRO 162"}
+            {
+              "type": "course",
+              "courseId": "AM IND C120"
+            },
+            {
+              "type": "course",
+              "courseId": "AM IND C121"
+            },
+            {
+              "type": "course",
+              "courseId": "AM IND C130"
+            },
+            {
+              "type": "course",
+              "courseId": "AM IND C175"
+            },
+            {
+              "type": "course",
+              "courseId": "AM IND C178"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 160A"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 162"
+            }
           ]
         },
         {
@@ -84,15 +144,42 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "AM IND 180"},
-            {"type": "course", "courseId": "ART HIS 137"},
-            {"type": "course", "courseId": "ART HIS CM139A"},
-            {"type": "course", "courseId": "ART HIS C139B"},
-            {"type": "course", "courseId": "ENGL 106"},
-            {"type": "course", "courseId": "ETHNMUS 106A"},
-            {"type": "course", "courseId": "ETHNMUS 106B"},
-            {"type": "course", "courseId": "THEATER 103F"},
-            {"type": "course", "courseId": "THEATER 107"}
+            {
+              "type": "course",
+              "courseId": "AM IND 180"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 137"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS CM139A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS C139B"
+            },
+            {
+              "type": "course",
+              "courseId": "ENGL 106"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 106A"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 106B"
+            },
+            {
+              "type": "course",
+              "courseId": "THEATER 103F"
+            },
+            {
+              "type": "course",
+              "courseId": "THEATER 107"
+            }
           ]
         },
         {
@@ -101,14 +188,38 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ANTHRO 138P"},
-            {"type": "course", "courseId": "ART HIS 100"},
-            {"type": "course", "courseId": "COM LIT 100"},
-            {"type": "course", "courseId": "LING 160"},
-            {"type": "course", "courseId": "POL SCI 170A"},
-            {"type": "course", "courseId": "SOCIOL 106A"},
-            {"type": "course", "courseId": "SOCIOL 113"},
-            {"type": "course", "courseId": "WL ARTS 195"}
+            {
+              "type": "course",
+              "courseId": "ANTHRO 138P"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 100"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 100"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 160"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 170A"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL 106A"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL 113"
+            },
+            {
+              "type": "course",
+              "courseId": "WL ARTS 195"
+            }
           ]
         },
         {
@@ -123,22 +234,70 @@
               "description": "Take one course from the following:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "AF AMER M164"},
-                {"type": "course", "courseId": "ANTHRO M145Q"},
-                {"type": "course", "courseId": "ANTHRO 145S"},
-                {"type": "course", "courseId": "ASIA AM 130A"},
-                {"type": "course", "courseId": "ASIA AM M130B"},
-                {"type": "course", "courseId": "ASIA AM M130C"},
-                {"type": "course", "courseId": "ASIA AM 131A"},
-                {"type": "course", "courseId": "ASIA AM 132A"},
-                {"type": "course", "courseId": "ASIA AM 133"},
-                {"type": "course", "courseId": "ASIA AM 134"},
-                {"type": "course", "courseId": "FILM TV 128"},
-                {"type": "course", "courseId": "GENDER 130"},
-                {"type": "course", "courseId": "GENDER 168"},
-                {"type": "course", "courseId": "SOCIOL 154"},
-                {"type": "course", "courseId": "SOCIOL 156"},
-                {"type": "course", "courseId": "SOCIOL M162"}
+                {
+                  "type": "course",
+                  "courseId": "AF AMER M164"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ANTHRO M145Q"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ANTHRO 145S"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIA AM 130A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIA AM M130B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIA AM M130C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIA AM 131A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIA AM 132A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIA AM 133"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ASIA AM 134"
+                },
+                {
+                  "type": "course",
+                  "courseId": "FILM TV 128"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GENDER 130"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GENDER 168"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOCIOL 154"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOCIOL 156"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOCIOL M162"
+                }
               ]
             },
             {
@@ -147,10 +306,22 @@
               "description": "Take one course from the following:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "ANTHRO 143"},
-                {"type": "course", "courseId": "GEOG M126"},
-                {"type": "course", "courseId": "HIST 135A"},
-                {"type": "course", "courseId": "SOCIOL 157"}
+                {
+                  "type": "course",
+                  "courseId": "ANTHRO 143"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GEOG M126"
+                },
+                {
+                  "type": "course",
+                  "courseId": "HIST 135A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOCIOL 157"
+                }
               ]
             }
           ]
@@ -174,7 +345,7 @@
           "type": "group",
           "title": "Honors Program",
           "description": "Complete the following courses, with a professor who agrees to mentor and guide them through the stages of senior essay design and development during their senior year. Completion of a senior thesis is required.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -182,9 +353,18 @@
               "description": "Complete all three courses for the honors thesis.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "AM IND 198A"},
-                {"type": "course", "courseId": "AM IND 198B"},
-                {"type": "course", "courseId": "AM IND 198C"}
+                {
+                  "type": "course",
+                  "courseId": "AM IND 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "AM IND 198B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "AM IND 198C"
+                }
               ]
             }
           ]

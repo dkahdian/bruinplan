@@ -1,6 +1,6 @@
 {
   "name": "Chemical Engineering BS",
-  "overview": "The Chemical Engineering curricula offer a high-quality, professionally oriented education in modern chemical engineering. The biomedical engineering, biomolecular engineering, environmental engineering, and semiconductor manufacturing engineering options provide students with an opportunity for exposure to a subfield of chemical and biomolecular engineering. In all cases, balance is sought between engineering science and practice.\n\nThe chemical engineering program is accredited by the Engineering Accreditation Commission of ABET.\n\nThe Chemical Engineering major is a designated capstone major. The capstone project requires students to first work individually and learn how to integrate chemical engineering fundamentals taught in prior required courses; they then work in groups to produce a paper design of a realistic chemical process using appropriate software tools. Graduates should be able to design a chemical or biological system, component, or process that meets technical and economical design objectives, with consideration of environmental, social, and ethical issues, as well as sustainable development goals. In addition, they should be able to apply their knowledge of mathematics, physics, chemistry, biology, and chemical and biological engineering to analysis and design of chemical and biochemical processes and products; function on multidisciplinary teams; identify, formulate, and solve complex chemical and biological engineering problems; and communicate effectively, both orally and in writing.",
+  "overview": "The Chemical Engineering curricula offer a high-quality, professionally oriented education in modern chemical engineering. The biomedical engineering, biomolecular engineering, environmental engineering, and semiconductor manufacturing engineering options provide students with an opportunity for exposure to a subfield of chemical and biomolecular engineering. In all cases, balance is sought between engineering science and practice.",
   "college": "Henry Samueli School of Engineering and Applied Science",
   "department": "Chemical and Biomolecular Engineering",
   "degreeLevel": "Undergraduate",
@@ -85,8 +85,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "C&EE M20"},
-            {"type": "course", "courseId": "MECH&AE M20"}
+            {
+              "type": "course",
+              "courseId": "C&EE M20"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE M20"
+            }
           ]
         }
       ]
@@ -165,8 +171,7 @@
                   "title": "Technical Breadth",
                   "description": "Select three courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
                   "needs": 3,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
@@ -174,8 +179,14 @@
                   "description": "Complete both of the following courses:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "CH ENGR 108A"},
-                    {"type": "course", "courseId": "CH ENGR 108B"}
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 108A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 108B"
+                    }
                   ]
                 },
                 {
@@ -184,20 +195,62 @@
                   "description": "Select two elective courses (8 units) from:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "CH ENGR 110"},
-                    {"type": "course", "courseId": "CH ENGR C111"},
-                    {"type": "course", "courseId": "CH ENGR C112"},
-                    {"type": "course", "courseId": "CH ENGR 113"},
-                    {"type": "course", "courseId": "CH ENGR CM114"},
-                    {"type": "course", "courseId": "CH ENGR C115"},
-                    {"type": "course", "courseId": "CH ENGR C116"},
-                    {"type": "course", "courseId": "CH ENGR C118"},
-                    {"type": "course", "courseId": "CH ENGR C119"},
-                    {"type": "course", "courseId": "CH ENGR C121"},
-                    {"type": "course", "courseId": "CH ENGR C125"},
-                    {"type": "course", "courseId": "CH ENGR C128"},
-                    {"type": "course", "courseId": "CH ENGR C135"},
-                    {"type": "course", "courseId": "CH ENGR C140"}
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 110"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C111"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C112"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 113"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR CM114"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C115"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C116"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C118"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C119"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C121"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C125"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C128"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C135"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C140"
+                    }
                   ]
                 }
               ]
@@ -269,8 +322,7 @@
                   "title": "Technical Breadth",
                   "description": "Select three courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
                   "needs": 3,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
@@ -278,8 +330,14 @@
                   "description": "Complete both of the following courses:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "CH ENGR 108A"},
-                    {"type": "course", "courseId": "CH ENGR 108B"}
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 108A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 108B"
+                    }
                   ]
                 },
                 {
@@ -288,12 +346,30 @@
                   "description": "Select one biomedical elective course (4 units) from the following. Another chemical engineering elective may be substituted with approval of the faculty adviser.",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "BIOENGR C105"},
-                    {"type": "course", "courseId": "BIOENGR C183"},
-                    {"type": "course", "courseId": "CH ENGR C112"},
-                    {"type": "course", "courseId": "CHEM C105"},
-                    {"type": "course", "courseId": "CHEM 153A"},
-                    {"type": "course", "courseId": "CHEM C159"}
+                    {
+                      "type": "course",
+                      "courseId": "BIOENGR C105"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "BIOENGR C183"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C112"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CHEM C105"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CHEM 153A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CHEM C159"
+                    }
                   ]
                 }
               ]
@@ -365,8 +441,7 @@
                   "title": "Technical Breadth",
                   "description": "Select three courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
                   "needs": 3,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
@@ -374,8 +449,14 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "CH ENGR 108A"},
-                    {"type": "course", "courseId": "CH ENGR 108B"}
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 108A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 108B"
+                    }
                   ]
                 },
                 {
@@ -384,12 +465,30 @@
                   "description": "Select one biomolecular elective course (4 units) from the following. Another chemical engineering elective may be substituted with approval of the faculty adviser.",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "BIOENGR C105"},
-                    {"type": "course", "courseId": "BIOENGR C183"},
-                    {"type": "course", "courseId": "CH ENGR C112"},
-                    {"type": "course", "courseId": "CHEM C105"},
-                    {"type": "course", "courseId": "CHEM 153A"},
-                    {"type": "course", "courseId": "CHEM C159"}
+                    {
+                      "type": "course",
+                      "courseId": "BIOENGR C105"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "BIOENGR C183"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C112"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CHEM C105"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CHEM 153A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CHEM C159"
+                    }
                   ]
                 }
               ]
@@ -457,8 +556,7 @@
                   "title": "Technical Breadth",
                   "description": "Select three courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
                   "needs": 3,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
@@ -466,8 +564,14 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "CH ENGR 108A"},
-                    {"type": "course", "courseId": "CH ENGR 108B"}
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 108A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 108B"
+                    }
                   ]
                 },
                 {
@@ -476,13 +580,34 @@
                   "description": "Select two elective courses (8 units) from the following. Another chemical engineering elective may be substituted with approval of the faculty adviser.",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "CH ENGR 113"},
-                    {"type": "course", "courseId": "CH ENGR C118"},
-                    {"type": "course", "courseId": "CH ENGR C119"},
-                    {"type": "course", "courseId": "CH ENGR C121"},
-                    {"type": "course", "courseId": "CH ENGR C128"},
-                    {"type": "course", "courseId": "CH ENGR C135"},
-                    {"type": "course", "courseId": "CH ENGR C140"}
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 113"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C118"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C119"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C121"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C128"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C135"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR C140"
+                    }
                   ]
                 }
               ]
@@ -558,8 +683,7 @@
                   "title": "Technical Breadth",
                   "description": "Select three courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
                   "needs": 3,
-                  "options": [
-                  ]
+                  "options": []
                 },
                 {
                   "type": "group",
@@ -567,8 +691,14 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "CH ENGR 108A"},
-                    {"type": "course", "courseId": "CH ENGR 108B"}
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 108A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "CH ENGR 108B"
+                    }
                   ]
                 },
                 {
@@ -577,11 +707,26 @@
                   "description": "Select one elective course (4 units) from chemical engineering or from the following list:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "MAT SCI 104"},
-                    {"type": "course", "courseId": "MAT SCI 120"},
-                    {"type": "course", "courseId": "MAT SCI 121"},
-                    {"type": "course", "courseId": "MAT SCI 122"},
-                    {"type": "course", "courseId": "MAT SCI 150"}
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 104"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 120"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 121"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 122"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MAT SCI 150"
+                    }
                   ]
                 }
               ]

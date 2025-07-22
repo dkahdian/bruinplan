@@ -24,8 +24,7 @@
           "title": "Foreign Language Requirement",
           "description": "Complete the equivalent of the sixth level of one foreign language or the third level of two different foreign languages.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -46,8 +45,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "LING 102"},
-                {"type": "course", "courseId": "LING 103"}
+                {
+                  "type": "course",
+                  "courseId": "LING 102"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 103"
+                }
               ]
             },
             {
@@ -60,8 +65,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "LING 119A"},
-                {"type": "course", "courseId": "LING 120A"}
+                {
+                  "type": "course",
+                  "courseId": "LING 119A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 120A"
+                }
               ]
             },
             {
@@ -70,8 +81,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "LING 120B"},
-                {"type": "course", "courseId": "LING 127"}
+                {
+                  "type": "course",
+                  "courseId": "LING 120B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 127"
+                }
               ]
             },
             {
@@ -80,8 +97,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "LING M146"},
-                {"type": "course", "courseId": "ANTHRO M150"}
+                {
+                  "type": "course",
+                  "courseId": "LING M146"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ANTHRO M150"
+                }
               ]
             }
           ]
@@ -92,12 +115,30 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "LING 114"},
-            {"type": "course", "courseId": "LING 120C"},
-            {"type": "course", "courseId": "LING 144"},
-            {"type": "course", "courseId": "LING 160"},
-            {"type": "course", "courseId": "LING 161"},
-            {"type": "course", "courseId": "LING 170"}
+            {
+              "type": "course",
+              "courseId": "LING 114"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 120C"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 144"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 160"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 161"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 170"
+            }
           ]
         },
         {
@@ -106,8 +147,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ANTHRO 151"},
-            {"type": "course", "courseId": "SOCIOL CM124A"}
+            {
+              "type": "course",
+              "courseId": "ANTHRO 151"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL CM124A"
+            }
           ]
         },
         {
@@ -121,24 +168,21 @@
               "title": "Anthropology 130 series",
               "description": "Only one course may apply. Anthropology 130 through 139.",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "group",
               "title": "Anthropology 150 series",
               "description": "Only one course may apply. Anthropology 150 through 159.",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "group",
               "title": "Anthropology 160 series",
               "description": "Only one course may apply. Anthropology 160 through 169.",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "group",
@@ -146,8 +190,14 @@
               "description": "Select one course.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "SOCIOL CM124A"},
-                {"type": "course", "courseId": "SOCIOL CM125"}
+                {
+                  "type": "course",
+                  "courseId": "SOCIOL CM124A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SOCIOL CM125"
+                }
               ]
             }
           ]
@@ -171,8 +221,14 @@
               "description": "Complete both courses.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "LING 198A"},
-                {"type": "course", "courseId": "LING 198B"}
+                {
+                  "type": "course",
+                  "courseId": "LING 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 198B"
+                }
               ]
             },
             {
@@ -200,9 +256,18 @@
               "description": "Complete all three courses in the series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "COMPTNG 10A"},
-                {"type": "course", "courseId": "COMPTNG 10B"},
-                {"type": "course", "courseId": "COMPTNG 10C"}
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10C"
+                }
               ]
             },
             {
@@ -211,8 +276,14 @@
               "description": "Complete both courses in the series.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "COM SCI 31"},
-                {"type": "course", "courseId": "COM SCI 32"}
+                {
+                  "type": "course",
+                  "courseId": "COM SCI 31"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COM SCI 32"
+                }
               ]
             }
           ]
@@ -223,8 +294,14 @@
           "description": "Complete both courses.",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "LING 185A"},
-            {"type": "course", "courseId": "MATH 61"}
+            {
+              "type": "course",
+              "courseId": "LING 185A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 61"
+            }
           ]
         },
         {
@@ -233,14 +310,38 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "LING C104"},
-            {"type": "course", "courseId": "LING 127"},
-            {"type": "course", "courseId": "LING 132"},
-            {"type": "course", "courseId": "LING 165A"},
-            {"type": "course", "courseId": "LING 165B"},
-            {"type": "course", "courseId": "LING 165C"},
-            {"type": "course", "courseId": "LING 180"},
-            {"type": "course", "courseId": "LING 185B"}
+            {
+              "type": "course",
+              "courseId": "LING C104"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 127"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 132"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165A"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165B"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165C"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 180"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 185B"
+            }
           ]
         }
       ]

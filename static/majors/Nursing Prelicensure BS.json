@@ -81,8 +81,14 @@
           "description": "Select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COMM 1"},
-            {"type": "course", "courseId": "COMM 10"}
+            {
+              "type": "course",
+              "courseId": "COMM 1"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 10"
+            }
           ]
         },
         {
@@ -91,8 +97,14 @@
           "description": "Select one course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 3A"},
-            {"type": "course", "courseId": "MATH 31A"}
+            {
+              "type": "course",
+              "courseId": "MATH 3A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31A"
+            }
           ]
         }
       ]
@@ -172,7 +184,10 @@
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "NURSING 169"}
+            {
+              "type": "course",
+              "courseId": "NURSING 169"
+            }
           ]
         }
       ]

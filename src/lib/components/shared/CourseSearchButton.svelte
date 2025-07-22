@@ -5,9 +5,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { Course } from '../../types.js';
-	import { searchCourses } from '../../services/shared/searchService.js';
+	import { searchCoursesNew } from '../../services/shared/searchService.js';
 
-	export let courses: Course[] = [];
 	export let placeholder: string = 'Search for courses...';
 	export let buttonText: string = 'Add Course';
 	export let maxResults: number = 10;
@@ -16,17 +15,42 @@
 	let isSearchExpanded = false;
 	let searchQuery = '';
 	let searchResults: Course[] = [];
+	let isSearching = false;
 	let searchContainer: HTMLDivElement;
 
-	// Search courses using the shared search service
-	$: if (searchQuery.trim() && courses.length > 0) {
-		searchResults = searchCourses(courses, searchQuery, {
-			maxResults,
-			minSimilarity: 20, // Lower threshold for easier searching
-			enableLogging: false
-		});
-	} else {
-		searchResults = [];
+	// Search function with debouncing
+	async function performSearch(query: string) {
+		if (!query.trim()) {
+			searchResults = [];
+			isSearching = false;
+			return;
+		}
+
+		isSearching = true;
+		try {
+			searchResults = await searchCoursesNew(query, {
+				maxResults,
+				enableLogging: false
+			});
+		} catch (error) {
+			console.error('Search failed:', error);
+			searchResults = [];
+		} finally {
+			isSearching = false;
+		}
+	}
+
+	// Debounced search with reactive statement
+	let searchTimeout: ReturnType<typeof setTimeout> | null = null;
+	$: {
+		if (searchTimeout) clearTimeout(searchTimeout);
+		
+		if (searchQuery.trim()) {
+			searchTimeout = setTimeout(() => performSearch(searchQuery), 200);
+		} else {
+			searchResults = [];
+			isSearching = false;
+		}
 	}
 
 	// Function to handle course selection
@@ -76,7 +100,12 @@
 				/>
 			</div>
 			
-			{#if searchResults.length > 0}
+			{#if isSearching}
+				<div class="px-3 py-4 text-center border-t border-gray-200 text-sm text-gray-500">
+					<div class="inline-block animate-spin rounded-full h-4 w-4 border-b-2 border-blue-600"></div>
+					<span class="ml-2">Searching...</span>
+				</div>
+			{:else if searchResults.length > 0}
 				<div class="max-h-60 overflow-y-auto border-t border-gray-200">
 					{#each searchResults as course}
 						<button

@@ -17,15 +17,42 @@
           "description": "Complete the following nine courses:",
           "needs": 9,
           "options": [
-            {"type": "course", "courseId": "MUSCLG 1"},
-            {"type": "course", "courseId": "MUSCLG 2"},
-            {"type": "course", "courseId": "MUSCLG M6A"},
-            {"type": "course", "courseId": "MUSCLG M6B"},
-            {"type": "course", "courseId": "MUSCLG M6C"},
-            {"type": "course", "courseId": "MUSCLG 12W"},
-            {"type": "course", "courseId": "MUSC 20A"},
-            {"type": "course", "courseId": "MUSC 20B"},
-            {"type": "course", "courseId": "MUSC 20C"}
+            {
+              "type": "course",
+              "courseId": "MUSCLG 1"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 2"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG M6A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG M6B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG M6C"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 12W"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 20A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 20B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 20C"
+            }
           ]
         },
         {
@@ -38,25 +65,22 @@
               "type": "group",
               "title": "Ethnomusicology 68A through 68O",
               "description": "Select from this range.",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             },
             {
               "type": "group",
               "title": "Ethnomusicology 91A through 91Z",
               "description": "Select from this range.",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             },
             {
               "type": "group",
               "title": "Ethnomusicology 168A through 168O",
               "description": "Select from this range.",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             },
             {
               "type": "course",
@@ -165,8 +189,7 @@
           "title": "Lower-Division Humanities Elective",
           "description": "Complete one lower-division humanities elective (minimum of 4 units).",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -181,13 +204,34 @@
           "description": "Complete the following courses. Note: In a given year, the department may designate individual Musicology seminars in the range 160-185, 188, or 191 as equivalent to 126 and 127.",
           "needs": 7,
           "options": [
-            {"type": "course", "courseId": "MUSCLG 125A"},
-            {"type": "course", "courseId": "MUSCLG 125B"},
-            {"type": "course", "courseId": "MUSCLG 125C"},
-            {"type": "course", "courseId": "MUSCLG 126"},
-            {"type": "course", "courseId": "MUSCLG 127"},
-            {"type": "course", "courseId": "MUSCLG 128"},
-            {"type": "course", "courseId": "MUSCLG 193C"}
+            {
+              "type": "course",
+              "courseId": "MUSCLG 125A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 125B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 125C"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 126"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 127"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 128"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 193C"
+            }
           ]
         },
         {
@@ -195,8 +239,7 @@
           "title": "Upper-Division Elective",
           "description": "Select one additional upper-division ethnomusicology, global jazz studies, music, or music industry seminar elective course (minimum of 4 units).",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -204,9 +247,18 @@
           "description": "Complete the following three-course sequence:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSCLG 187A"},
-            {"type": "course", "courseId": "MUSCLG 187B"},
-            {"type": "course", "courseId": "MUSCLG 187C"}
+            {
+              "type": "course",
+              "courseId": "MUSCLG 187A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 187B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 187C"
+            }
           ]
         }
       ]

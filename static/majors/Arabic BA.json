@@ -17,9 +17,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "ARABIC 1A"},
-            {"type": "course", "courseId": "ARABIC 1B"},
-            {"type": "course", "courseId": "ARABIC 1C"}
+            {
+              "type": "course",
+              "courseId": "ARABIC 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 1B"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 1C"
+            }
           ]
         },
         {
@@ -28,11 +37,26 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "HIST 9D"},
-            {"type": "course", "courseId": "ISLM ST M20"},
-            {"type": "course", "courseId": "M E STD M50CW"},
-            {"type": "course", "courseId": "NR EAST M20"},
-            {"type": "course", "courseId": "NR EAST 65"}
+            {
+              "type": "course",
+              "courseId": "HIST 9D"
+            },
+            {
+              "type": "course",
+              "courseId": "ISLM ST M20"
+            },
+            {
+              "type": "course",
+              "courseId": "M E STD M50CW"
+            },
+            {
+              "type": "course",
+              "courseId": "NR EAST M20"
+            },
+            {
+              "type": "course",
+              "courseId": "NR EAST 65"
+            }
           ]
         }
       ]
@@ -54,9 +78,18 @@
               "description": "Take three courses as follows:",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "ARABIC 102A"},
-                {"type": "course", "courseId": "ARABIC 102B"},
-                {"type": "course", "courseId": "ARABIC 102C"}
+                {
+                  "type": "course",
+                  "courseId": "ARABIC 102A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ARABIC 102B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "ARABIC 102C"
+                }
               ]
             },
             {
@@ -65,7 +98,10 @@
               "description": "Take the following course:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "ARABIC 108"}
+                {
+                  "type": "course",
+                  "courseId": "ARABIC 108"
+                }
               ]
             }
           ]
@@ -75,8 +111,7 @@
           "title": "Arabic or Islamic Studies",
           "description": "Complete two upper-division courses from the Arabic subject area or Islamic studies subject area. Each course must be a minimum of 4 units.",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -84,59 +119,218 @@
           "description": "Select six courses from:",
           "needs": 6,
           "options": [
-            {"type": "course", "courseId": "ANTHRO M166Q"},
-            {"type": "course", "courseId": "ARABIC 103A"},
-            {"type": "course", "courseId": "ARABIC 103B"},
-            {"type": "course", "courseId": "ARABIC 103C"},
-            {"type": "course", "courseId": "ARABIC CM106"},
-            {"type": "course", "courseId": "ARABIC M110"},
-            {"type": "course", "courseId": "ARABIC 111A"},
-            {"type": "course", "courseId": "ARABIC 111B"},
-            {"type": "course", "courseId": "ARABIC 111C"},
-            {"type": "course", "courseId": "ARABIC 112A"},
-            {"type": "course", "courseId": "ARABIC 112B"},
-            {"type": "course", "courseId": "ARABIC 112C"},
-            {"type": "course", "courseId": "ARABIC 115"},
-            {"type": "course", "courseId": "ARABIC 117"},
-            {"type": "course", "courseId": "ARABIC 119"},
-            {"type": "course", "courseId": "ARABIC 120"},
-            {"type": "course", "courseId": "ARABIC M123"},
-            {"type": "course", "courseId": "ARABIC 130"},
-            {"type": "course", "courseId": "ARABIC 132"},
-            {"type": "course", "courseId": "ARABIC 140"},
-            {"type": "course", "courseId": "ARABIC C141"},
-            {"type": "course", "courseId": "ARABIC 142"},
-            {"type": "course", "courseId": "ARABIC M148"},
-            {"type": "course", "courseId": "ARABIC 150"},
-            {"type": "course", "courseId": "ARABIC M151"},
-            {"type": "course", "courseId": "ARABIC M155"},
-            {"type": "course", "courseId": "ARABIC M171"},
-            {"type": "course", "courseId": "ARABIC 177"},
-            {"type": "course", "courseId": "ARABIC 178"},
-            {"type": "course", "courseId": "ARABIC 180"},
-            {"type": "course", "courseId": "ARABIC 181"},
-            {"type": "course", "courseId": "ART HIS 119A"},
-            {"type": "course", "courseId": "ART HIS 119B"},
-            {"type": "course", "courseId": "ART HIS C120"},
-            {"type": "course", "courseId": "COM LIT 100"},
-            {"type": "course", "courseId": "HIST 105A"},
-            {"type": "course", "courseId": "HIST 105B"},
-            {"type": "course", "courseId": "HIST 105C"},
-            {"type": "course", "courseId": "HIST M106"},
-            {"type": "course", "courseId": "HIST 108B"},
-            {"type": "course", "courseId": "HIST 111A"},
-            {"type": "course", "courseId": "HIST 111B"},
-            {"type": "course", "courseId": "HIST 111C"},
-            {"type": "course", "courseId": "ISLM ST CM107"},
-            {"type": "course", "courseId": "ISLM ST M111"},
-            {"type": "course", "courseId": "ISLM ST M112"},
-            {"type": "course", "courseId": "ISLM ST CM115"},
-            {"type": "course", "courseId": "ISLM ST 130"},
-            {"type": "course", "courseId": "ISLM ST C151"},
-            {"type": "course", "courseId": "POL SCI 132A"},
-            {"type": "course", "courseId": "POL SCI M132B"},
-            {"type": "course", "courseId": "POL SCI 157"},
-            {"type": "course", "courseId": "POL SCI 165"}
+            {
+              "type": "course",
+              "courseId": "ANTHRO M166Q"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 103A"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 103B"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 103C"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC CM106"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC M110"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 111A"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 111B"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 111C"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 112A"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 112B"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 112C"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 115"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 117"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 119"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 120"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC M123"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 130"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 132"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 140"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC C141"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 142"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC M148"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 150"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC M151"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC M155"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC M171"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 177"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 178"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 180"
+            },
+            {
+              "type": "course",
+              "courseId": "ARABIC 181"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 119A"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS 119B"
+            },
+            {
+              "type": "course",
+              "courseId": "ART HIS C120"
+            },
+            {
+              "type": "course",
+              "courseId": "COM LIT 100"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 105A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 105B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 105C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M106"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 108B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 111A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 111B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 111C"
+            },
+            {
+              "type": "course",
+              "courseId": "ISLM ST CM107"
+            },
+            {
+              "type": "course",
+              "courseId": "ISLM ST M111"
+            },
+            {
+              "type": "course",
+              "courseId": "ISLM ST M112"
+            },
+            {
+              "type": "course",
+              "courseId": "ISLM ST CM115"
+            },
+            {
+              "type": "course",
+              "courseId": "ISLM ST 130"
+            },
+            {
+              "type": "course",
+              "courseId": "ISLM ST C151"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 132A"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI M132B"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 157"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 165"
+            }
           ]
         }
       ]

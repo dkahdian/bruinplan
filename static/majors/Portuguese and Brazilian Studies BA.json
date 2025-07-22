@@ -17,9 +17,18 @@
           "description": "Select one course (Portuguese 27 is recommended):",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "PORTGSE 25"},
-            {"type": "course", "courseId": "PORTGSE 26"},
-            {"type": "course", "courseId": "PORTGSE 27"}
+            {
+              "type": "course",
+              "courseId": "PORTGSE 25"
+            },
+            {
+              "type": "course",
+              "courseId": "PORTGSE 26"
+            },
+            {
+              "type": "course",
+              "courseId": "PORTGSE 27"
+            }
           ]
         },
         {
@@ -39,8 +48,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "PORTGSE 100A"},
-            {"type": "course", "courseId": "PORTGSE 100B"}
+            {
+              "type": "course",
+              "courseId": "PORTGSE 100A"
+            },
+            {
+              "type": "course",
+              "courseId": "PORTGSE 100B"
+            }
           ]
         },
         {
@@ -49,8 +64,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "PORTGSE 130A"},
-            {"type": "course", "courseId": "PORTGSE 130B"}
+            {
+              "type": "course",
+              "courseId": "PORTGSE 130A"
+            },
+            {
+              "type": "course",
+              "courseId": "PORTGSE 130B"
+            }
           ]
         },
         {
@@ -58,8 +79,7 @@
           "title": "Electives",
           "description": "Complete seven elective courses selected from Portuguese 100A through 199. A minimum of five of the seven elective courses must be taken in Portuguese. A maximum of three courses from outside the department that focus on Brazil, Portugal, or Lusophone Africa may be applied toward the major with the approval of the undergraduate adviser. Up to three 4-unit Portuguese 197 or 199 courses may be applied toward the major.",
           "needs": 7,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -71,8 +91,8 @@
         {
           "type": "group",
           "title": "Honors Thesis Track (Optional)",
-          "description": "On the basis of their coursework and special interests, students consult with a faculty member to formulate a research project that they pursue under the faculty member\u2019s guidance. Approval of the honors thesis by the faculty mentor is the final requirement for departmental honors. Note: These courses may not be applied toward the majors.",
-          "needs": 0,
+          "description": "On the basis of their coursework and special interests, students consult with a faculty member to formulate a research project that they pursue under the faculty member’s guidance. Approval of the honors thesis by the faculty mentor is the final requirement for departmental honors. Note: These courses may not be applied toward the majors.",
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -86,8 +106,14 @@
                   "description": "Students research and prepare a draft of a thesis (198A) and complete the final thesis draft of approximately 25 to 30 pages (198B).",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "PORTGSE 198A"},
-                    {"type": "course", "courseId": "PORTGSE 198B"}
+                    {
+                      "type": "course",
+                      "courseId": "PORTGSE 198A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PORTGSE 198B"
+                    }
                   ]
                 },
                 {
@@ -96,8 +122,14 @@
                   "description": "Students research and prepare a draft of a thesis (198A) and complete the final thesis draft of approximately 25 to 30 pages (198B).",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "SPAN 198A"},
-                    {"type": "course", "courseId": "SPAN 198B"}
+                    {
+                      "type": "course",
+                      "courseId": "SPAN 198A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "SPAN 198B"
+                    }
                   ]
                 }
               ]

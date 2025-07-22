@@ -23,8 +23,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 1A"},
-                {"type": "course", "courseId": "PHYSICS 1AH"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1AH"
+                }
               ]
             },
             {
@@ -33,8 +39,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 1B"},
-                {"type": "course", "courseId": "PHYSICS 1BH"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1BH"
+                }
               ]
             },
             {
@@ -43,8 +55,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 1C"},
-                {"type": "course", "courseId": "PHYSICS 1CH"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1CH"
+                }
               ]
             },
             {
@@ -81,8 +99,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "MATH 31A"},
-                {"type": "course", "courseId": "MATH 31AL"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 31A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31AL"
+                }
               ]
             },
             {
@@ -113,9 +137,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COMPTNG 10A"},
-            {"type": "course", "courseId": "COM SCI 30"},
-            {"type": "course", "courseId": "COM SCI 31"}
+            {
+              "type": "course",
+              "courseId": "COMPTNG 10A"
+            },
+            {
+              "type": "course",
+              "courseId": "COM SCI 30"
+            },
+            {
+              "type": "course",
+              "courseId": "COM SCI 31"
+            }
           ]
         }
       ]
@@ -131,14 +164,38 @@
           "description": "Complete the following eight courses:",
           "needs": 8,
           "options": [
-            {"type": "course", "courseId": "PHYSICS 105A"},
-            {"type": "course", "courseId": "PHYSICS 105B"},
-            {"type": "course", "courseId": "PHYSICS 110A"},
-            {"type": "course", "courseId": "PHYSICS 110B"},
-            {"type": "course", "courseId": "PHYSICS 112"},
-            {"type": "course", "courseId": "PHYSICS 115A"},
-            {"type": "course", "courseId": "PHYSICS 115B"},
-            {"type": "course", "courseId": "PHYSICS 115C"}
+            {
+              "type": "course",
+              "courseId": "PHYSICS 105A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 105B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 110A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 110B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 112"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 115A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 115B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 115C"
+            }
           ]
         },
         {
@@ -164,16 +221,14 @@
                       "title": "Physics 170 Series",
                       "description": "Select one course from the Physics 170 series.",
                       "needs": 1,
-                      "options": [
-                      ]
+                      "options": []
                     },
                     {
                       "type": "group",
                       "title": "Physics 180 Series",
                       "description": "Select one course from the Physics 180 series.",
                       "needs": 1,
-                      "options": [
-                      ]
+                      "options": []
                     }
                   ]
                 },
@@ -188,8 +243,7 @@
                       "title": "Physics 180 Series",
                       "description": "Select two courses from the Physics 180 series.",
                       "needs": 2,
-                      "options": [
-                      ]
+                      "options": []
                     }
                   ]
                 }
@@ -201,22 +255,70 @@
               "description": "There must be three additional upper-division courses in the plan. It is preferred that the three additional upper-division courses for the plan are selected from:",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 108"},
-                {"type": "course", "courseId": "PHYSICS 114"},
-                {"type": "course", "courseId": "PHYSICS M122"},
-                {"type": "course", "courseId": "PHYSICS 123"},
-                {"type": "course", "courseId": "PHYSICS 124"},
-                {"type": "course", "courseId": "PHYSICS 126"},
-                {"type": "course", "courseId": "PHYSICS 127"},
-                {"type": "course", "courseId": "PHYSICS 128"},
-                {"type": "course", "courseId": "PHYSICS 132"},
-                {"type": "course", "courseId": "PHYSICS 140A"},
-                {"type": "course", "courseId": "PHYSICS 140B"},
-                {"type": "course", "courseId": "PHYSICS 144"},
-                {"type": "course", "courseId": "PHYSICS 150"},
-                {"type": "course", "courseId": "PHYSICS 170A"},
-                {"type": "course", "courseId": "PHYSICS C186"},
-                {"type": "course", "courseId": "PHYSICS C187A"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 108"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 114"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS M122"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 123"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 124"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 126"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 127"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 128"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 132"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 140A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 140B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 144"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 150"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 170A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS C186"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS C187A"
+                }
               ]
             }
           ]
@@ -240,14 +342,20 @@
               "description": "Students must complete two 4-unit terms of Physics 199.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 199"},
-                {"type": "course", "courseId": "PHYSICS 199"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 199"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 199"
+                }
               ]
             },
             {
               "type": "group",
               "title": "Course-Based",
-              "description": "Students must take 4 units of Physics 197\u2014an in-depth individual study of a physics topic of interest to the student under the guidance of a faculty member and resulting in a written report\u2014and are also required to take Mathematics 115A and two courses selected from Mathematics 120A, 120B, Physics 221A, or 221B.",
+              "description": "Students must take 4 units of Physics 197—an in-depth individual study of a physics topic of interest to the student under the guidance of a faculty member and resulting in a written report—and are also required to take Mathematics 115A and two courses selected from Mathematics 120A, 120B, Physics 221A, or 221B.",
               "needs": 3,
               "options": [
                 {
@@ -264,10 +372,22 @@
                   "description": "select two courses from:",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "MATH 120A"},
-                    {"type": "course", "courseId": "MATH 120B"},
-                    {"type": "course", "courseId": "PHYSICS 221A"},
-                    {"type": "course", "courseId": "PHYSICS 221B"}
+                    {
+                      "type": "course",
+                      "courseId": "MATH 120A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MATH 120B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PHYSICS 221A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PHYSICS 221B"
+                    }
                   ]
                 }
               ]

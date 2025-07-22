@@ -17,9 +17,18 @@
           "description": "Complete all three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "PSYCH 10"},
-            {"type": "course", "courseId": "PSYCH 100A"},
-            {"type": "course", "courseId": "PSYCH 100B"}
+            {
+              "type": "course",
+              "courseId": "PSYCH 10"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 100A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 100B"
+            }
           ]
         },
         {
@@ -34,11 +43,26 @@
               "description": "Complete all courses in this series.",
               "needs": 5,
               "options": [
-                {"type": "course", "courseId": "CHEM 14A"},
-                {"type": "course", "courseId": "CHEM 14B"},
-                {"type": "course", "courseId": "CHEM 14BL"},
-                {"type": "course", "courseId": "CHEM 14C"},
-                {"type": "course", "courseId": "CHEM 14D"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14BL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14D"
+                }
               ]
             },
             {
@@ -47,12 +71,30 @@
               "description": "Complete all courses in this series.",
               "needs": 6,
               "options": [
-                {"type": "course", "courseId": "CHEM 20A"},
-                {"type": "course", "courseId": "CHEM 20B"},
-                {"type": "course", "courseId": "CHEM 20L"},
-                {"type": "course", "courseId": "CHEM 30A"},
-                {"type": "course", "courseId": "CHEM 30AL"},
-                {"type": "course", "courseId": "CHEM 30B"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20L"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30AL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30B"
+                }
               ]
             }
           ]
@@ -63,10 +105,22 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "LIFESCI 7A"},
-            {"type": "course", "courseId": "LIFESCI 7B"},
-            {"type": "course", "courseId": "LIFESCI 7C"},
-            {"type": "course", "courseId": "LIFESCI 7L"}
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7A"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7B"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7C"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7L"
+            }
           ]
         },
         {
@@ -95,8 +149,14 @@
                   "description": "And one course from:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "LIFESCI 40"},
-                    {"type": "course", "courseId": "STATS 13"}
+                    {
+                      "type": "course",
+                      "courseId": "LIFESCI 40"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "STATS 13"
+                    }
                   ]
                 }
               ]
@@ -107,9 +167,18 @@
               "description": "Complete all three courses.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MATH 3A"},
-                {"type": "course", "courseId": "MATH 3B"},
-                {"type": "course", "courseId": "MATH 3C"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 3A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3C"
+                }
               ]
             },
             {
@@ -124,8 +193,14 @@
                   "description": "Select one course:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "MATH 31A"},
-                    {"type": "course", "courseId": "MATH 31AL"}
+                    {
+                      "type": "course",
+                      "courseId": "MATH 31A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MATH 31AL"
+                    }
                   ]
                 },
                 {
@@ -152,11 +227,26 @@
               "description": "Complete all five courses.",
               "needs": 5,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 1A"},
-                {"type": "course", "courseId": "PHYSICS 1B"},
-                {"type": "course", "courseId": "PHYSICS 1C"},
-                {"type": "course", "courseId": "PHYSICS 4AL"},
-                {"type": "course", "courseId": "PHYSICS 4BL"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 4AL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 4BL"
+                }
               ]
             },
             {
@@ -165,9 +255,18 @@
               "description": "Complete all three courses.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 5A"},
-                {"type": "course", "courseId": "PHYSICS 5B"},
-                {"type": "course", "courseId": "PHYSICS 5C"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5C"
+                }
               ]
             }
           ]
@@ -191,9 +290,18 @@
               "description": "Select one course:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "EE BIOL 100"},
-                {"type": "course", "courseId": "EE BIOL 129"},
-                {"type": "course", "courseId": "PSYCH 118"}
+                {
+                  "type": "course",
+                  "courseId": "EE BIOL 100"
+                },
+                {
+                  "type": "course",
+                  "courseId": "EE BIOL 129"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 118"
+                }
               ]
             },
             {
@@ -216,9 +324,18 @@
                   "description": "Complete all three courses: PSYCH M117A, M117B, and M117C. This satisfies PSYCH 115 and 10 units of electives.",
                   "needs": 3,
                   "options": [
-                    {"type": "course", "courseId": "PSYCH M117A"},
-                    {"type": "course", "courseId": "PSYCH M117B"},
-                    {"type": "course", "courseId": "PSYCH M117C"}
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH M117A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH M117B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH M117C"
+                    }
                   ]
                 }
               ]
@@ -229,9 +346,18 @@
               "description": "Select one course:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "PSYCH M116A"},
-                {"type": "course", "courseId": "PSYCH 116B"},
-                {"type": "course", "courseId": "NEUROSC 101L"}
+                {
+                  "type": "course",
+                  "courseId": "PSYCH M116A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 116B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "NEUROSC 101L"
+                }
               ]
             },
             {
@@ -240,8 +366,14 @@
               "description": "Select one course:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "PSYCH 120A"},
-                {"type": "course", "courseId": "PSYCH 120B"}
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 120A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 120B"
+                }
               ]
             }
           ]
@@ -293,8 +425,7 @@
               "title": "Psychology 133 Series",
               "description": "Select one course from PSYCH 133A through 133I.",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             }
           ]
         },
@@ -536,9 +667,8 @@
               "type": "group",
               "title": "Psychology 119 Series",
               "description": "Select from PSYCH 119A through 119Y",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             }
           ]
         }
@@ -553,7 +683,7 @@
           "type": "group",
           "title": "Honors Program Requirements",
           "description": "Participation in the Honors Program is optional. Students who choose to participate must complete the following three courses.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -561,9 +691,18 @@
               "description": "Complete all three seminar courses for the honors thesis.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PSYCH 191AH"},
-                {"type": "course", "courseId": "PSYCH 191BH"},
-                {"type": "course", "courseId": "PSYCH 191CH"}
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 191AH"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 191BH"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 191CH"
+                }
               ]
             }
           ]

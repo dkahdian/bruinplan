@@ -25,8 +25,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "SPAN 25"},
-            {"type": "course", "courseId": "SPAN 27"}
+            {
+              "type": "course",
+              "courseId": "SPAN 25"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 27"
+            }
           ]
         },
         {
@@ -35,8 +41,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "SPAN M35"},
-            {"type": "course", "courseId": "PORTGSE M35"}
+            {
+              "type": "course",
+              "courseId": "SPAN M35"
+            },
+            {
+              "type": "course",
+              "courseId": "PORTGSE M35"
+            }
           ]
         }
       ]
@@ -52,8 +64,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "SPAN 100A"},
-            {"type": "course", "courseId": "SPAN 100B"}
+            {
+              "type": "course",
+              "courseId": "SPAN 100A"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 100B"
+            }
           ]
         },
         {
@@ -66,16 +84,46 @@
           "description": "Select three courses from:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "SPAN 130"},
-            {"type": "course", "courseId": "SPAN 135"},
-            {"type": "course", "courseId": "SPAN 140"},
-            {"type": "course", "courseId": "SPAN 150"},
-            {"type": "course", "courseId": "SPAN 155"},
-            {"type": "course", "courseId": "SPAN 160"},
-            {"type": "course", "courseId": "SPAN 170"},
-            {"type": "course", "courseId": "SPAN 175"},
-            {"type": "course", "courseId": "SPAN 180"},
-            {"type": "course", "courseId": "SPAN 195"}
+            {
+              "type": "course",
+              "courseId": "SPAN 130"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 135"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 140"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 150"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 155"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 160"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 170"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 175"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 180"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN 195"
+            }
           ]
         },
         {
@@ -84,17 +132,50 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "CCAS 100XP"},
-            {"type": "course", "courseId": "CCAS CM106"},
-            {"type": "course", "courseId": "CCAS M119"},
-            {"type": "course", "courseId": "CCAS 120"},
-            {"type": "course", "courseId": "CCAS M121"},
-            {"type": "course", "courseId": "CCAS M122"},
-            {"type": "course", "courseId": "CCAS 131"},
-            {"type": "course", "courseId": "CCAS M144"},
-            {"type": "course", "courseId": "CCAS 149"},
-            {"type": "course", "courseId": "CCAS 181"},
-            {"type": "course", "courseId": "SOCIOL M155"}
+            {
+              "type": "course",
+              "courseId": "CCAS 100XP"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS CM106"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS M119"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS 120"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS M121"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS M122"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS 131"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS M144"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS 149"
+            },
+            {
+              "type": "course",
+              "courseId": "CCAS 181"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL M155"
+            }
           ]
         },
         {
@@ -103,9 +184,18 @@
           "description": "Complete Spanish M165XP once and M172XP twice (may be repeated with topic change).",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "SPAN M165XP"},
-            {"type": "course", "courseId": "SPAN M172XP"},
-            {"type": "course", "courseId": "SPAN M172XP"}
+            {
+              "type": "course",
+              "courseId": "SPAN M165XP"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN M172XP"
+            },
+            {
+              "type": "course",
+              "courseId": "SPAN M172XP"
+            }
           ]
         }
       ]
@@ -118,8 +208,8 @@
         {
           "type": "group",
           "title": "Honors Thesis Requirement",
-          "description": "This track is optional. On the basis of their coursework and special interests, students consult with a faculty member to formulate a research project that they pursue under the faculty member\u2019s guidance by choosing one of the following two-course sequences. Note: These courses may not be applied toward the major.",
-          "needs": 0,
+          "description": "This track is optional. On the basis of their coursework and special interests, students consult with a faculty member to formulate a research project that they pursue under the faculty member’s guidance by choosing one of the following two-course sequences. Note: These courses may not be applied toward the major.",
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -127,8 +217,14 @@
               "description": "Complete the two-course sequence for a final thesis of approximately 25 to 30 pages.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "SPAN 198A"},
-                {"type": "course", "courseId": "SPAN 198B"}
+                {
+                  "type": "course",
+                  "courseId": "SPAN 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "SPAN 198B"
+                }
               ]
             },
             {
@@ -137,8 +233,14 @@
               "description": "Complete the two-course sequence for a final thesis of approximately 25 to 30 pages.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "PORTGSE 198A"},
-                {"type": "course", "courseId": "PORTGSE 198B"}
+                {
+                  "type": "course",
+                  "courseId": "PORTGSE 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PORTGSE 198B"
+                }
               ]
             }
           ]

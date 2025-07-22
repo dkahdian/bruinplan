@@ -17,15 +17,42 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "CHEM 14A"},
-            {"type": "course", "courseId": "CHEM 17"},
-            {"type": "course", "courseId": "CHEM 20A"},
-            {"type": "course", "courseId": "LING 1"},
-            {"type": "course", "courseId": "LING 20"},
-            {"type": "course", "courseId": "PHYSICS 1A"},
-            {"type": "course", "courseId": "PHYSICS 5A"},
-            {"type": "course", "courseId": "PHYSICS 10"},
-            {"type": "course", "courseId": "PHYSICS 11"}
+            {
+              "type": "course",
+              "courseId": "CHEM 14A"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 17"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 20A"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 1"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 20"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 5A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 10"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 11"
+            }
           ]
         },
         {
@@ -34,9 +61,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "LIFESCI 7A"},
-            {"type": "course", "courseId": "LIFESCI 15"},
-            {"type": "course", "courseId": "PHYSCI 3"}
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7A"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 15"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSCI 3"
+            }
           ]
         },
         {
@@ -51,9 +87,18 @@
               "description": "Complete all three courses:",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MATH 3A"},
-                {"type": "course", "courseId": "MATH 3B"},
-                {"type": "course", "courseId": "MATH 3C"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 3A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3C"
+                }
               ]
             },
             {
@@ -68,8 +113,14 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "MATH 31A"},
-                    {"type": "course", "courseId": "MATH 31AL"}
+                    {
+                      "type": "course",
+                      "courseId": "MATH 31A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "MATH 31AL"
+                    }
                   ]
                 },
                 {
@@ -86,11 +137,26 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "PHILOS 7"},
-            {"type": "course", "courseId": "PHILOS 8"},
-            {"type": "course", "courseId": "PHILOS 9"},
-            {"type": "course", "courseId": "PHILOS 23"},
-            {"type": "course", "courseId": "PHILOS 31"}
+            {
+              "type": "course",
+              "courseId": "PHILOS 7"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 8"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 9"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 23"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 31"
+            }
           ]
         },
         {
@@ -109,18 +175,54 @@
               "description": "Select two additional courses from:",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "COMPTNG 10B"},
-                {"type": "course", "courseId": "COMPTNG 10C"},
-                {"type": "course", "courseId": "COMPTNG 15"},
-                {"type": "course", "courseId": "COMPTNG 16A"},
-                {"type": "course", "courseId": "COMPTNG 16B"},
-                {"type": "course", "courseId": "COMPTNG 20A"},
-                {"type": "course", "courseId": "COMPTNG 40A"},
-                {"type": "course", "courseId": "PSYCH 20A"},
-                {"type": "course", "courseId": "PSYCH 20B"},
-                {"type": "course", "courseId": "PSYCH 30"},
-                {"type": "course", "courseId": "STATS 20"},
-                {"type": "course", "courseId": "STATS 21"}
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 15"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 16A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 16B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 40A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 20B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 30"
+                },
+                {
+                  "type": "course",
+                  "courseId": "STATS 20"
+                },
+                {
+                  "type": "course",
+                  "courseId": "STATS 21"
+                }
               ]
             }
           ]
@@ -131,10 +233,22 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "PSYCH 10"},
-            {"type": "course", "courseId": "PSYCH 85"},
-            {"type": "course", "courseId": "PSYCH 100A"},
-            {"type": "course", "courseId": "PSYCH 100B"}
+            {
+              "type": "course",
+              "courseId": "PSYCH 10"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 85"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 100A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 100B"
+            }
           ]
         }
       ]
@@ -166,9 +280,18 @@
                   "description": "Psychology 115 may be substituted with PSYCH M117A, M117B, and M117C. All three courses must be completed to receive equivalent credit.",
                   "needs": 3,
                   "options": [
-                    {"type": "course", "courseId": "PSYCH M117A"},
-                    {"type": "course", "courseId": "PSYCH M117B"},
-                    {"type": "course", "courseId": "PSYCH M117C"}
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH M117A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH M117B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH M117C"
+                    }
                   ]
                 }
               ]
@@ -179,8 +302,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "PSYCH 120A"},
-                {"type": "course", "courseId": "PSYCH 120B"}
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 120A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 120B"
+                }
               ]
             },
             {
@@ -195,16 +324,46 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COM SCI 161"},
-            {"type": "course", "courseId": "PSYCH 111"},
-            {"type": "course", "courseId": "PSYCH M116A"},
-            {"type": "course", "courseId": "PSYCH 116B"},
-            {"type": "course", "courseId": "PSYCH 121"},
-            {"type": "course", "courseId": "PSYCH 186A"},
-            {"type": "course", "courseId": "PSYCH 186B"},
-            {"type": "course", "courseId": "PSYCH 186C"},
-            {"type": "course", "courseId": "PSYCH 186D"},
-            {"type": "course", "courseId": "PSYCH 186E"}
+            {
+              "type": "course",
+              "courseId": "COM SCI 161"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 111"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M116A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 116B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 121"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186A"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186D"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 186E"
+            }
           ]
         },
         {
@@ -465,57 +624,50 @@
               "type": "group",
               "title": "Computer Science 111 through CM186",
               "description": "Refer to the following courses",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             },
             {
               "type": "group",
               "title": "Linguistics 103 through 185B",
               "description": "Refer to the following courses",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             },
             {
               "type": "group",
               "title": "Mathematics 110A through 171",
               "description": "Refer to the following courses",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             },
             {
               "type": "group",
               "title": "Philosophy 124 through 138",
               "description": "Refer to the following courses",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             },
             {
               "type": "group",
               "title": "Psychology 112A through 116B",
               "description": "Refer to the following courses",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             },
             {
               "type": "group",
               "title": "Psychology 118 through 119Y",
               "description": "Refer to the following courses",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             },
             {
               "type": "group",
               "title": "Psychology 124",
               "description": "Refer to the following courses",
-              "needs": 0,
-              "options": [
-              ]
+              "needs": 1,
+              "options": []
             }
           ]
         }
@@ -532,9 +684,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "PSYCH 195B"},
-            {"type": "course", "courseId": "PSYCH 196B"},
-            {"type": "course", "courseId": "PSYCH 194C"}
+            {
+              "type": "course",
+              "courseId": "PSYCH 195B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 196B"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 194C"
+            }
           ]
         }
       ]
@@ -548,7 +709,7 @@
           "type": "group",
           "title": "Honors Program",
           "description": "This is an optional program.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -556,9 +717,18 @@
               "description": "Complete the honors research seminar series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PSYCH 191AH"},
-                {"type": "course", "courseId": "PSYCH 191BH"},
-                {"type": "course", "courseId": "PSYCH 191CH"}
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 191AH"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 191BH"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PSYCH 191CH"
+                }
               ]
             }
           ]
@@ -568,13 +738,13 @@
     {
       "id": "computing-specialization",
       "title": "Computing Specialization",
-      "description": "Majors may select a specialization in Computing by satisfying all the requirements for a bachelor\u2019s degree and completing the following course requirements. A grade of C or better is required in each course. Students graduate with a bachelor\u2019s degree in their major and a specialization in Computing.",
+      "description": "Majors may select a specialization in Computing by satisfying all the requirements for a bachelor’s degree and completing the following course requirements. A grade of C or better is required in each course. Students graduate with a bachelor’s degree in their major and a specialization in Computing.",
       "requirements": [
         {
           "type": "group",
           "title": "Computing Specialization",
           "description": "This is an optional specialization.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -588,19 +758,58 @@
                   "description": "Select four courses from:",
                   "needs": 4,
                   "options": [
-                    {"type": "course", "courseId": "COMPTNG 10A"},
-                    {"type": "course", "courseId": "COMPTNG 10B"},
-                    {"type": "course", "courseId": "COMPTNG 10C"},
-                    {"type": "course", "courseId": "COMPTNG 15"},
-                    {"type": "course", "courseId": "COMPTNG 16A"},
-                    {"type": "course", "courseId": "COMPTNG 16B"},
-                    {"type": "course", "courseId": "COMPTNG 20A"},
-                    {"type": "course", "courseId": "COMPTNG 40A"},
-                    {"type": "course", "courseId": "PSYCH 20A"},
-                    {"type": "course", "courseId": "PSYCH 20B"},
-                    {"type": "course", "courseId": "PSYCH 30"},
-                    {"type": "course", "courseId": "STATS 20"},
-                    {"type": "course", "courseId": "STATS 21"}
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 15"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 16A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 16B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 20A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 40A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 20A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 20B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 30"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "STATS 20"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "STATS 21"
+                    }
                   ]
                 },
                 {
@@ -609,15 +818,42 @@
                   "description": "Select two courses from the following list. One 199 course may be substituted for one of these courses provided the project has been approved by the vice chair.",
                   "needs": 2,
                   "options": [
-                    {"type": "course", "courseId": "PSYCH 85"},
-                    {"type": "course", "courseId": "PSYCH 119D"},
-                    {"type": "course", "courseId": "PSYCH 121"},
-                    {"type": "course", "courseId": "PSYCH 142H"},
-                    {"type": "course", "courseId": "PSYCH 186A"},
-                    {"type": "course", "courseId": "PSYCH 186B"},
-                    {"type": "course", "courseId": "PSYCH 186C"},
-                    {"type": "course", "courseId": "PSYCH 186D"},
-                    {"type": "course", "courseId": "PSYCH 186E"}
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 85"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 119D"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 121"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 142H"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 186A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 186B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 186C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 186D"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "PSYCH 186E"
+                    }
                   ]
                 }
               ]

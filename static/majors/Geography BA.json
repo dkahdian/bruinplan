@@ -16,8 +16,7 @@
           "title": "Admission",
           "description": "To declare the major, students must have completed two geography courses with a grade-point average of 2.0 or better.",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -31,8 +30,14 @@
               "description": "Select one physical geography or biogeography course:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "GEOG 1"},
-                {"type": "course", "courseId": "GEOG 2"}
+                {
+                  "type": "course",
+                  "courseId": "GEOG 1"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GEOG 2"
+                }
               ]
             },
             {
@@ -41,8 +46,14 @@
               "description": "Select one cultural geography or economic geography course:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "GEOG 3"},
-                {"type": "course", "courseId": "GEOG 4"}
+                {
+                  "type": "course",
+                  "courseId": "GEOG 3"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GEOG 4"
+                }
               ]
             },
             {
@@ -64,8 +75,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "GEOG 1"},
-            {"type": "course", "courseId": "GEOG 2"}
+            {
+              "type": "course",
+              "courseId": "GEOG 1"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 2"
+            }
           ]
         },
         {
@@ -74,9 +91,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "GEOG 3"},
-            {"type": "course", "courseId": "GEOG 4"},
-            {"type": "course", "courseId": "GEOG 6"}
+            {
+              "type": "course",
+              "courseId": "GEOG 3"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 4"
+            },
+            {
+              "type": "course",
+              "courseId": "GEOG 6"
+            }
           ]
         },
         {
@@ -95,8 +121,7 @@
           "title": "Upper-Division Geography Courses",
           "description": "Complete 11 courses. All geography upper-division courses numbered 100 and higher may be applied toward the major, with a few exceptions. Contact the advising office for more information.",
           "needs": 11,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -109,16 +134,22 @@
           "type": "group",
           "title": "Honors Thesis Track",
           "description": "Choose to complete the Honors Thesis Track (optional).",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
               "title": "Required Honors Courses",
-              "description": "Students must enroll in Geography 198A and 198B in two consecutive terms and earn grades of A\u2013 or better.",
+              "description": "Students must enroll in Geography 198A and 198B in two consecutive terms and earn grades of A– or better.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "GEOG 198A"},
-                {"type": "course", "courseId": "GEOG 198B"}
+                {
+                  "type": "course",
+                  "courseId": "GEOG 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GEOG 198B"
+                }
               ]
             }
           ]

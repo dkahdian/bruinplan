@@ -25,9 +25,18 @@
           "description": "Select one course from the following (A&O SCI M71 is preferred):",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "A&O SCI M71"},
-            {"type": "course", "courseId": "COM SCI 30"},
-            {"type": "course", "courseId": "COMPTNG 10A"}
+            {
+              "type": "course",
+              "courseId": "A&O SCI M71"
+            },
+            {
+              "type": "course",
+              "courseId": "COM SCI 30"
+            },
+            {
+              "type": "course",
+              "courseId": "COMPTNG 10A"
+            }
           ]
         },
         {
@@ -42,8 +51,14 @@
               "description": "Complete both courses in this series.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "CHEM 14A"},
-                {"type": "course", "courseId": "CHEM 14B"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14B"
+                }
               ]
             },
             {
@@ -52,8 +67,14 @@
               "description": "Complete both courses in this series.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "CHEM 20A"},
-                {"type": "course", "courseId": "CHEM 20B"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20B"
+                }
               ]
             }
           ]
@@ -70,8 +91,14 @@
               "description": "Complete both courses in this series.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "LIFESCI 30A"},
-                {"type": "course", "courseId": "LIFESCI 30B"}
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LIFESCI 30B"
+                }
               ]
             },
             {
@@ -80,9 +107,18 @@
               "description": "Complete all three courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MATH 3A"},
-                {"type": "course", "courseId": "MATH 3B"},
-                {"type": "course", "courseId": "MATH 3C"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 3A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3C"
+                }
               ]
             },
             {
@@ -91,12 +127,30 @@
               "description": "Complete all six courses in this series.",
               "needs": 6,
               "options": [
-                {"type": "course", "courseId": "MATH 31A"},
-                {"type": "course", "courseId": "MATH 31B"},
-                {"type": "course", "courseId": "MATH 32A"},
-                {"type": "course", "courseId": "MATH 32B"},
-                {"type": "course", "courseId": "MATH 33A"},
-                {"type": "course", "courseId": "MATH 33B"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 31A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 32A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 32B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 33A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 33B"
+                }
               ]
             }
           ]
@@ -113,9 +167,18 @@
               "description": "Complete all three courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 1A"},
-                {"type": "course", "courseId": "PHYSICS 1B"},
-                {"type": "course", "courseId": "PHYSICS 1C"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1C"
+                }
               ]
             },
             {
@@ -124,9 +187,18 @@
               "description": "Complete all three courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 1AH"},
-                {"type": "course", "courseId": "PHYSICS 1BH"},
-                {"type": "course", "courseId": "PHYSICS 1CH"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1AH"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1BH"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1CH"
+                }
               ]
             },
             {
@@ -135,9 +207,18 @@
               "description": "Complete all three courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 5A"},
-                {"type": "course", "courseId": "PHYSICS 5B"},
-                {"type": "course", "courseId": "PHYSICS 5C"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5C"
+                }
               ]
             }
           ]
@@ -155,13 +236,34 @@
           "description": "Select four courses from:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "A&O SCI 101"},
-            {"type": "course", "courseId": "A&O SCI 103"},
-            {"type": "course", "courseId": "A&O SCI 104"},
-            {"type": "course", "courseId": "A&O SCI M105"},
-            {"type": "course", "courseId": "A&O SCI 107"},
-            {"type": "course", "courseId": "A&O SCI 112"},
-            {"type": "course", "courseId": "A&O SCI 145"}
+            {
+              "type": "course",
+              "courseId": "A&O SCI 101"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 103"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 104"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI M105"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 107"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 112"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 145"
+            }
           ]
         },
         {
@@ -169,16 +271,14 @@
           "title": "Additional Atmospheric Sciences Courses",
           "description": "Select three additional upper-division atmospheric and oceanic sciences courses (minimum 4 units each) from Atmospheric and Oceanic Sciences 100 through 199 (except A&O SCI C110L, 186, M187, 189, 190). Atmospheric and Oceanic Sciences M192A and 192B may be applied together as a single course. Atmospheric and Oceanic Sciences 199 (independent research) taken for 4 units may be used to satisfy one upper-division elective.",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Chemistry, Mathematics, Physics, and Statistics Courses",
           "description": "Select two upper-division courses from a list of chemistry, mathematics, physics, and statistics courses in consultation with the undergraduate advisers.",
           "needs": 2,
-          "options": [
-          ]
+          "options": []
         }
       ]
     }

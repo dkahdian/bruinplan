@@ -69,9 +69,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "CHEM 20A"},
-            {"type": "course", "courseId": "CHEM 20B"},
-            {"type": "course", "courseId": "PHYSICS 1C"}
+            {
+              "type": "course",
+              "courseId": "CHEM 20A"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 20B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1C"
+            }
           ]
         }
       ]
@@ -103,8 +112,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 131B"},
-            {"type": "course", "courseId": "MATH 132"}
+            {
+              "type": "course",
+              "courseId": "MATH 131B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 132"
+            }
           ]
         },
         {
@@ -113,15 +128,42 @@
           "description": "Select six elective courses from Mathematics 106 through 199, or from the Statistics list below:",
           "needs": 6,
           "options": [
-            {"type": "course", "courseId": "STATS 100A"},
-            {"type": "course", "courseId": "STATS 100B"},
-            {"type": "course", "courseId": "STATS 100C"},
-            {"type": "course", "courseId": "STATS 101A"},
-            {"type": "course", "courseId": "STATS 101B"},
-            {"type": "course", "courseId": "STATS 101C"},
-            {"type": "course", "courseId": "STATS 102A"},
-            {"type": "course", "courseId": "STATS 102B"},
-            {"type": "course", "courseId": "STATS 102C"}
+            {
+              "type": "course",
+              "courseId": "STATS 100A"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 100B"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 100C"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 101A"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 101B"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 101C"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 102A"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 102B"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 102C"
+            }
           ]
         },
         {
@@ -129,8 +171,7 @@
           "title": "Computer Science Electives",
           "description": "Complete three upper-division computer science courses (12 units).",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         }
       ]
     }

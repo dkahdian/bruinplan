@@ -1,11 +1,10 @@
-// Service to load courses from static JSON file
-// This service is used by PrerequisiteGraph.svelte to load courses data
-// The service fetches the courses data from a static JSON file
-// This should run as little as possible since it requires fetching a file
-// If the courses are already loaded, it should not fetch again
+// Service to load courses using the new data layer API
+// This service provides a compatibility layer for components that still expect the old interface
+// Uses the new data layer API for efficient per-subject loading and caching
 
 import { writable } from 'svelte/store';
-import type { Course, CourseList } from '../../types.js';
+import type { Course } from '../../types.js';
+import { getCourseIndex, getSubjectCourses } from '../../data-layer/api.js';
 
 // Cache for loaded courses to avoid repeated fetches
 let coursesCache: Course[] | null = null;
@@ -15,7 +14,7 @@ let courseMapCache: Map<string, Course> | null = null;
 export const courseMapStore = writable<Map<string, Course>>(new Map());
 
 /**
- * Loads courses from the JSON file and returns both the courses array and a map for quick lookup
+ * Loads all courses from all subjects using the new data layer API
  * Uses caching to avoid repeated network requests
  * @returns Promise containing courses array and courseMap
  */
@@ -26,30 +25,35 @@ export async function loadCourses(): Promise<{ courses: Course[], courseMap: Map
   }
 
   try {
-    const response = await fetch('/courses/Mathematics.json');
-    // Get a list of courses from the JSON file
-    const data: CourseList = await response.json();
-    // Parse JSON data
-    const courses = data.courses.filter(course => course.id);
-    // Filter out incomplete courses; should do nothing if all courses are complete
+    // Get the course index to know all available subjects
+    const courseIndex = await getCourseIndex();
     
-    // Build course lookup map
+    // Get unique subjects from the index
+    const subjects = Array.from(new Set(courseIndex.map(course => course.subject)));
+    
+    // Load courses from all subjects
+    const allCourses: Course[] = [];
     const courseMap = new Map<string, Course>();
-    // Clear the courseMap before populating it
-    // This ensures we don't have stale data from previous loads
-    courses.forEach(course => {
-      courseMap.set(course.id, course);
-    });
-    // Add each course to the map for quick lookup by ID
+    
+    // Load courses for each subject
+    for (const subject of subjects) {
+      const subjectCourses = await getSubjectCourses(subject);
+      allCourses.push(...subjectCourses);
+      
+      // Add to course map for quick lookup
+      subjectCourses.forEach(course => {
+        courseMap.set(course.id, course);
+      });
+    }
     
     // Cache the results
-    coursesCache = courses;
+    coursesCache = allCourses;
     courseMapCache = courseMap;
     
     // Update the store
     courseMapStore.set(courseMapCache);
     
-    return { courses, courseMap };
+    return { courses: allCourses, courseMap };
   } catch (error) {
     console.error('Failed to load courses:', error);
     throw error; // Re-throw to allow caller to handle the error
@@ -60,7 +64,13 @@ export async function loadCourses(): Promise<{ courses: Course[], courseMap: Map
  * Clears the course cache - useful for testing or when data needs to be reloaded
  */
 export function clearCoursesCache(): void {
+  // Clear local cache
   coursesCache = null;
   courseMapCache = null;
   courseMapStore.set(new Map());
+  
+  // Also clear the data layer cache for courses
+  import('../../data-layer/api.js').then(({ clearCache }) => {
+    clearCache();
+  });
 }

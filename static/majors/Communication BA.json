@@ -17,8 +17,14 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "COMM 1"},
-            {"type": "course", "courseId": "COMM 10"}
+            {
+              "type": "course",
+              "courseId": "COMM 1"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 10"
+            }
           ]
         },
         {
@@ -27,9 +33,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ANTHRO 4"},
-            {"type": "course", "courseId": "LING 1"},
-            {"type": "course", "courseId": "PHILOS 23"}
+            {
+              "type": "course",
+              "courseId": "ANTHRO 4"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 1"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 23"
+            }
           ]
         },
         {
@@ -38,8 +53,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ECON 41"},
-            {"type": "course", "courseId": "STATS 10"}
+            {
+              "type": "course",
+              "courseId": "ECON 41"
+            },
+            {
+              "type": "course",
+              "courseId": "STATS 10"
+            }
           ]
         },
         {
@@ -48,12 +69,30 @@
           "description": "Select three additional courses from the following. Only one course from Economics 1, 5, or Political Science 30 may be applied.",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "POL SCI 40"},
-            {"type": "course", "courseId": "PSYCH 10"},
-            {"type": "course", "courseId": "SOCIOL 1"},
-            {"type": "course", "courseId": "ECON 1"},
-            {"type": "course", "courseId": "ECON 5"},
-            {"type": "course", "courseId": "POL SCI 30"}
+            {
+              "type": "course",
+              "courseId": "POL SCI 40"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 10"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL 1"
+            },
+            {
+              "type": "course",
+              "courseId": "ECON 1"
+            },
+            {
+              "type": "course",
+              "courseId": "ECON 5"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 30"
+            }
           ]
         }
       ]
@@ -77,11 +116,26 @@
           "description": "Select at least one core course from this area.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COMM 131"},
-            {"type": "course", "courseId": "COMM 151"},
-            {"type": "course", "courseId": "COMM 155"},
-            {"type": "course", "courseId": "COMM 156"},
-            {"type": "course", "courseId": "COMM 159"}
+            {
+              "type": "course",
+              "courseId": "COMM 131"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 151"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 155"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 156"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 159"
+            }
           ]
         },
         {
@@ -90,16 +144,46 @@
           "description": "Select at least one core course from this area.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COMM 110"},
-            {"type": "course", "courseId": "COMM 111"},
-            {"type": "course", "courseId": "COMM M113"},
-            {"type": "course", "courseId": "COMM 114"},
-            {"type": "course", "courseId": "COMM 115"},
-            {"type": "course", "courseId": "COMM 120"},
-            {"type": "course", "courseId": "COMM 121"},
-            {"type": "course", "courseId": "COMM 122"},
-            {"type": "course", "courseId": "COMM M123"},
-            {"type": "course", "courseId": "COMM 126"}
+            {
+              "type": "course",
+              "courseId": "COMM 110"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 111"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M113"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 114"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 115"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 120"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 121"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 122"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M123"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 126"
+            }
           ]
         },
         {
@@ -108,10 +192,22 @@
           "description": "Select at least one core course from this area.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COMM 140"},
-            {"type": "course", "courseId": "COMM M147"},
-            {"type": "course", "courseId": "COMM 152"},
-            {"type": "course", "courseId": "COMM 187"}
+            {
+              "type": "course",
+              "courseId": "COMM 140"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M147"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 152"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 187"
+            }
           ]
         },
         {
@@ -120,11 +216,26 @@
           "description": "Select at least one core course from this area.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COMM 101"},
-            {"type": "course", "courseId": "COMM 160"},
-            {"type": "course", "courseId": "COMM 168"},
-            {"type": "course", "courseId": "COMM 170"},
-            {"type": "course", "courseId": "COMM 174"}
+            {
+              "type": "course",
+              "courseId": "COMM 101"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 160"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 168"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 170"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 174"
+            }
           ]
         },
         {
@@ -133,92 +244,350 @@
           "description": "Select four additional courses from any of the four areas (core or elective). Courses used to satisfy the four area core requirements cannot be used to satisfy this requirement. Note: Only one course of Psychology 135 or Sociology 132 may be applied. Only one course of Political Science 141B or Sociology 133 may be applied.",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "COMM 131"},
-            {"type": "course", "courseId": "COMM 151"},
-            {"type": "course", "courseId": "COMM 155"},
-            {"type": "course", "courseId": "COMM 156"},
-            {"type": "course", "courseId": "COMM 159"},
-            {"type": "course", "courseId": "COMM 157"},
-            {"type": "course", "courseId": "COMM 188C"},
-            {"type": "course", "courseId": "COMM 191C"},
-            {"type": "course", "courseId": "COMM 110"},
-            {"type": "course", "courseId": "COMM 111"},
-            {"type": "course", "courseId": "COMM M113"},
-            {"type": "course", "courseId": "COMM 114"},
-            {"type": "course", "courseId": "COMM 115"},
-            {"type": "course", "courseId": "COMM 120"},
-            {"type": "course", "courseId": "COMM 121"},
-            {"type": "course", "courseId": "COMM 122"},
-            {"type": "course", "courseId": "COMM M123"},
-            {"type": "course", "courseId": "COMM 126"},
-            {"type": "course", "courseId": "ANTHRO 136A"},
-            {"type": "course", "courseId": "ANTHRO M150"},
-            {"type": "course", "courseId": "ANTHRO 151"},
-            {"type": "course", "courseId": "COMM 108"},
-            {"type": "course", "courseId": "COMM 109"},
-            {"type": "course", "courseId": "COMM M117"},
-            {"type": "course", "courseId": "COMM 118"},
-            {"type": "course", "courseId": "COMM 119"},
-            {"type": "course", "courseId": "COMM M125"},
-            {"type": "course", "courseId": "COMM M127"},
-            {"type": "course", "courseId": "COMM M144A"},
-            {"type": "course", "courseId": "COMM M144B"},
-            {"type": "course", "courseId": "COMM 188B"},
-            {"type": "course", "courseId": "COMM 191B"},
-            {"type": "course", "courseId": "LING 103"},
-            {"type": "course", "courseId": "LING 170"},
-            {"type": "course", "courseId": "PHILOS 172"},
-            {"type": "course", "courseId": "PSYCH 135"},
-            {"type": "course", "courseId": "PSYCH 137C"},
-            {"type": "course", "courseId": "PSYCH M165"},
-            {"type": "course", "courseId": "PSYCH 177"},
-            {"type": "course", "courseId": "SOCIOL 132"},
-            {"type": "course", "courseId": "SOCIOL 134"},
-            {"type": "course", "courseId": "SOCIOL 156"},
-            {"type": "course", "courseId": "COMM 140"},
-            {"type": "course", "courseId": "COMM M147"},
-            {"type": "course", "courseId": "COMM 152"},
-            {"type": "course", "courseId": "COMM 187"},
-            {"type": "course", "courseId": "ASIA AM 172C"},
-            {"type": "course", "courseId": "COMM 104"},
-            {"type": "course", "courseId": "COMM 105"},
-            {"type": "course", "courseId": "COMM 106"},
-            {"type": "course", "courseId": "COMM 107"},
-            {"type": "course", "courseId": "COMM 130"},
-            {"type": "course", "courseId": "COMM 132"},
-            {"type": "course", "courseId": "COMM 141"},
-            {"type": "course", "courseId": "COMM 143"},
-            {"type": "course", "courseId": "COMM 145"},
-            {"type": "course", "courseId": "COMM 146"},
-            {"type": "course", "courseId": "COMM 148"},
-            {"type": "course", "courseId": "COMM M149"},
-            {"type": "course", "courseId": "COMM M165"},
-            {"type": "course", "courseId": "COMM 166"},
-            {"type": "course", "courseId": "COMM M169"},
-            {"type": "course", "courseId": "COMM 175"},
-            {"type": "course", "courseId": "COMM 179"},
-            {"type": "course", "courseId": "COMM 182"},
-            {"type": "course", "courseId": "COMM 186"},
-            {"type": "course", "courseId": "COMM 188A"},
-            {"type": "course", "courseId": "COMM 191A"},
-            {"type": "course", "courseId": "FILM TV 108"},
-            {"type": "course", "courseId": "COMM 101"},
-            {"type": "course", "courseId": "COMM 160"},
-            {"type": "course", "courseId": "COMM 168"},
-            {"type": "course", "courseId": "COMM 170"},
-            {"type": "course", "courseId": "COMM 174"},
-            {"type": "course", "courseId": "COMM 102"},
-            {"type": "course", "courseId": "COMM 163"},
-            {"type": "course", "courseId": "COMM 171"},
-            {"type": "course", "courseId": "COMM 173"},
-            {"type": "course", "courseId": "COMM M176"},
-            {"type": "course", "courseId": "COMM 178"},
-            {"type": "course", "courseId": "COMM 188D"},
-            {"type": "course", "courseId": "COMM 191D"},
-            {"type": "course", "courseId": "POL SCI M141A"},
-            {"type": "course", "courseId": "POL SCI 141B"},
-            {"type": "course", "courseId": "POL SCI 141E"},
-            {"type": "course", "courseId": "SOCIOL 133"}
+            {
+              "type": "course",
+              "courseId": "COMM 131"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 151"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 155"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 156"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 159"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 157"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 188C"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 191C"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 110"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 111"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M113"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 114"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 115"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 120"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 121"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 122"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M123"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 126"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 136A"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO M150"
+            },
+            {
+              "type": "course",
+              "courseId": "ANTHRO 151"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 108"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 109"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M117"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 118"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 119"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M125"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M127"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M144A"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M144B"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 188B"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 191B"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 103"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 170"
+            },
+            {
+              "type": "course",
+              "courseId": "PHILOS 172"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 135"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 137C"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH M165"
+            },
+            {
+              "type": "course",
+              "courseId": "PSYCH 177"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL 132"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL 134"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL 156"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 140"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M147"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 152"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 187"
+            },
+            {
+              "type": "course",
+              "courseId": "ASIA AM 172C"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 104"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 105"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 106"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 107"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 130"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 132"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 141"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 143"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 145"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 146"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 148"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M149"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M165"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 166"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M169"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 175"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 179"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 182"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 186"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 188A"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 191A"
+            },
+            {
+              "type": "course",
+              "courseId": "FILM TV 108"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 101"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 160"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 168"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 170"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 174"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 102"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 163"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 171"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 173"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M176"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 178"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 188D"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 191D"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI M141A"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 141B"
+            },
+            {
+              "type": "course",
+              "courseId": "POL SCI 141E"
+            },
+            {
+              "type": "course",
+              "courseId": "SOCIOL 133"
+            }
           ]
         },
         {
@@ -227,16 +596,46 @@
           "description": "Select one course from the following list. This course may also be used to satisfy an area core or elective requirement.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COMM 101"},
-            {"type": "course", "courseId": "COMM 102"},
-            {"type": "course", "courseId": "COMM 109"},
-            {"type": "course", "courseId": "COMM 111"},
-            {"type": "course", "courseId": "COMM M117"},
-            {"type": "course", "courseId": "COMM 155"},
-            {"type": "course", "courseId": "COMM 160"},
-            {"type": "course", "courseId": "COMM M176"},
-            {"type": "course", "courseId": "COMM 188E"},
-            {"type": "course", "courseId": "COMM 191E"}
+            {
+              "type": "course",
+              "courseId": "COMM 101"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 102"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 109"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 111"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M117"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 155"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 160"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M176"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 188E"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM 191E"
+            }
           ]
         }
       ]
@@ -250,7 +649,7 @@
           "type": "group",
           "title": "Honors Program Requirements",
           "description": "To qualify for graduation with departmental honors, students must (1) complete all requirements for the major, (2) have a cumulative grade-point average of 3.6 or better in upper-division coursework in the major and an overall GPA of 3.3 or better in all completed UC coursework, (3) complete the three honors research courses, and (4) produce a completed satisfactory honors thesis. This is an optional program.",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -258,9 +657,18 @@
               "description": "Complete the following three courses:",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "COMM 198A"},
-                {"type": "course", "courseId": "COMM 198B"},
-                {"type": "course", "courseId": "COMM 198C"}
+                {
+                  "type": "course",
+                  "courseId": "COMM 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMM 198B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMM 198C"
+                }
               ]
             }
           ]
@@ -270,13 +678,13 @@
     {
       "id": "computing-specialization",
       "title": "Computing Specialization",
-      "description": "Majors in Communication may select a specialization in Computing by satisfying all the requirements for a bachelor\u2019s degree in the major and completing the following requirements:",
+      "description": "Majors in Communication may select a specialization in Computing by satisfying all the requirements for a bachelor’s degree in the major and completing the following requirements:",
       "requirements": [
         {
           "type": "group",
           "title": "Computing Specialization Requirements",
-          "description": "Courses for the specialization must be completed with a grade of C\u2013 or better in each course and a combined grade-point average of at least 2.0. Students must petition for admission to the program. This is an optional specialization.",
-          "needs": 0,
+          "description": "Courses for the specialization must be completed with a grade of C– or better in each course and a combined grade-point average of at least 2.0. Students must petition for admission to the program. This is an optional specialization.",
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -296,8 +704,14 @@
                       "description": "Complete both courses.",
                       "needs": 2,
                       "options": [
-                        {"type": "course", "courseId": "COMPTNG 10A"},
-                        {"type": "course", "courseId": "COMPTNG 10B"}
+                        {
+                          "type": "course",
+                          "courseId": "COMPTNG 10A"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "COMPTNG 10B"
+                        }
                       ]
                     },
                     {
@@ -306,8 +720,14 @@
                       "description": "Complete both courses.",
                       "needs": 2,
                       "options": [
-                        {"type": "course", "courseId": "COM SCI 31"},
-                        {"type": "course", "courseId": "COM SCI 32"}
+                        {
+                          "type": "course",
+                          "courseId": "COM SCI 31"
+                        },
+                        {
+                          "type": "course",
+                          "courseId": "COM SCI 32"
+                        }
                       ]
                     }
                   ]
@@ -318,18 +738,54 @@
                   "description": "Select four courses (at least one of which must be in communication) from:",
                   "needs": 4,
                   "options": [
-                    {"type": "course", "courseId": "COMM 122"},
-                    {"type": "course", "courseId": "COMM 131"},
-                    {"type": "course", "courseId": "COMM 151"},
-                    {"type": "course", "courseId": "COMM 153"},
-                    {"type": "course", "courseId": "COMM 155"},
-                    {"type": "course", "courseId": "COMM 156"},
-                    {"type": "course", "courseId": "COMM 159"},
-                    {"type": "course", "courseId": "COMPTNG 10C"},
-                    {"type": "course", "courseId": "COMPTNG 16A"},
-                    {"type": "course", "courseId": "COMPTNG 16B"},
-                    {"type": "course", "courseId": "COMPTNG 20A"},
-                    {"type": "course", "courseId": "COMPTNG 40A"}
+                    {
+                      "type": "course",
+                      "courseId": "COMM 122"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMM 131"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMM 151"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMM 153"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMM 155"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMM 156"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMM 159"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 10C"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 16A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 16B"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 20A"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "COMPTNG 40A"
+                    }
                   ]
                 }
               ]

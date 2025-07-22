@@ -77,9 +77,18 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COM SCI 31"},
-            {"type": "course", "courseId": "MECH&AE M20"},
-            {"type": "course", "courseId": "MECH&AE 20P"}
+            {
+              "type": "course",
+              "courseId": "COM SCI 31"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE M20"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 20P"
+            }
           ]
         }
       ]
@@ -95,17 +104,50 @@
           "description": "Complete the following courses:",
           "needs": 11,
           "options": [
-            {"type": "course", "courseId": "EC ENGR 110L"},
-            {"type": "course", "courseId": "MECH&AE 1"},
-            {"type": "course", "courseId": "MECH&AE 101"},
-            {"type": "course", "courseId": "MECH&AE 102"},
-            {"type": "course", "courseId": "MECH&AE 103"},
-            {"type": "course", "courseId": "MECH&AE 105A"},
-            {"type": "course", "courseId": "MECH&AE 105D"},
-            {"type": "course", "courseId": "MECH&AE 107"},
-            {"type": "course", "courseId": "MECH&AE 156A"},
-            {"type": "course", "courseId": "MECH&AE 162A"},
-            {"type": "course", "courseId": "MECH&AE 171A"}
+            {
+              "type": "course",
+              "courseId": "EC ENGR 110L"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 1"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 101"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 102"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 103"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 105A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 105D"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 107"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 156A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 162A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 171A"
+            }
           ]
         },
         {
@@ -114,8 +156,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MECH&AE 131A"},
-            {"type": "course", "courseId": "MECH&AE 133A"}
+            {
+              "type": "course",
+              "courseId": "MECH&AE 131A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 133A"
+            }
           ]
         },
         {
@@ -124,8 +172,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MECH&AE 157"},
-            {"type": "course", "courseId": "MECH&AE 157W"}
+            {
+              "type": "course",
+              "courseId": "MECH&AE 157"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 157W"
+            }
           ]
         },
         {
@@ -134,18 +188,30 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MECH&AE 183A"},
-            {"type": "course", "courseId": "MECH&AE M183B"}
+            {
+              "type": "course",
+              "courseId": "MECH&AE 183A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE M183B"
+            }
           ]
         },
         {
           "type": "group",
           "title": "Departmental Breadth Courses",
-          "description": "Complete the following two departmental breadth courses (if one or both of these courses are taken as part of the technical breadth requirement, students must select a replacement upper-division course or courses from the department\u2014except for Mechanical and Aerospace Engineering 166A\u2014or, by petition, from outside the department).",
+          "description": "Complete the following two departmental breadth courses (if one or both of these courses are taken as part of the technical breadth requirement, students must select a replacement upper-division course or courses from the department—except for Mechanical and Aerospace Engineering 166A—or, by petition, from outside the department).",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "EC ENGR 100"},
-            {"type": "course", "courseId": "MAT SCI 104"}
+            {
+              "type": "course",
+              "courseId": "EC ENGR 100"
+            },
+            {
+              "type": "course",
+              "courseId": "MAT SCI 104"
+            }
           ]
         },
         {
@@ -153,8 +219,7 @@
           "title": "Technical Breadth Courses",
           "description": "Select three technical breadth courses (12 units) from an approved list available in the Office of Academic and Student Affairs.",
           "needs": 3,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
@@ -162,8 +227,14 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "MECH&AE 162D"},
-            {"type": "course", "courseId": "MECH&AE 162E"}
+            {
+              "type": "course",
+              "courseId": "MECH&AE 162D"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 162E"
+            }
           ]
         },
         {
@@ -172,48 +243,174 @@
           "description": "Select two major field elective courses (8 units) from the following list. Courses applied as a required course may not be applied.",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "MECH&AE 131A"},
-            {"type": "course", "courseId": "MECH&AE C131G"},
-            {"type": "course", "courseId": "MECH&AE 133A"},
-            {"type": "course", "courseId": "MECH&AE C134"},
-            {"type": "course", "courseId": "MECH&AE 135"},
-            {"type": "course", "courseId": "MECH&AE C136"},
-            {"type": "course", "courseId": "MECH&AE C137"},
-            {"type": "course", "courseId": "MECH&AE C138"},
-            {"type": "course", "courseId": "MECH&AE CM140"},
-            {"type": "course", "courseId": "MECH&AE 150A"},
-            {"type": "course", "courseId": "MECH&AE 150B"},
-            {"type": "course", "courseId": "MECH&AE 150C"},
-            {"type": "course", "courseId": "MECH&AE C150G"},
-            {"type": "course", "courseId": "MECH&AE C150P"},
-            {"type": "course", "courseId": "MECH&AE C150R"},
-            {"type": "course", "courseId": "MECH&AE 154B"},
-            {"type": "course", "courseId": "MECH&AE 154S"},
-            {"type": "course", "courseId": "MECH&AE 155"},
-            {"type": "course", "courseId": "MECH&AE C156B"},
-            {"type": "course", "courseId": "MECH&AE 161A"},
-            {"type": "course", "courseId": "MECH&AE 161B"},
-            {"type": "course", "courseId": "MECH&AE 161C"},
-            {"type": "course", "courseId": "MECH&AE C162B"},
-            {"type": "course", "courseId": "MECH&AE C163A"},
-            {"type": "course", "courseId": "MECH&AE C163B"},
-            {"type": "course", "courseId": "MECH&AE C163C"},
-            {"type": "course", "courseId": "MECH&AE 166C"},
-            {"type": "course", "courseId": "MECH&AE M168"},
-            {"type": "course", "courseId": "MECH&AE 169A"},
-            {"type": "course", "courseId": "MECH&AE C171B"},
-            {"type": "course", "courseId": "MECH&AE 172"},
-            {"type": "course", "courseId": "MECH&AE 174"},
-            {"type": "course", "courseId": "MECH&AE C175A"},
-            {"type": "course", "courseId": "MECH&AE 181A"},
-            {"type": "course", "courseId": "MECH&AE 182B"},
-            {"type": "course", "courseId": "MECH&AE 182C"},
-            {"type": "course", "courseId": "MECH&AE 183A"},
-            {"type": "course", "courseId": "MECH&AE M183B"},
-            {"type": "course", "courseId": "MECH&AE C183C"},
-            {"type": "course", "courseId": "MECH&AE 185"},
-            {"type": "course", "courseId": "MECH&AE C186"},
-            {"type": "course", "courseId": "MECH&AE C187L"}
+            {
+              "type": "course",
+              "courseId": "MECH&AE 131A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C131G"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 133A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C134"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 135"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C136"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C137"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C138"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE CM140"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 150A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 150B"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 150C"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C150G"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C150P"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C150R"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 154B"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 154S"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 155"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C156B"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 161A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 161B"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 161C"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C162B"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C163A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C163B"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C163C"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 166C"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE M168"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 169A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C171B"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 172"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 174"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C175A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 181A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 182B"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 182C"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 183A"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE M183B"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C183C"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE 185"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C186"
+            },
+            {
+              "type": "course",
+              "courseId": "MECH&AE C187L"
+            }
           ]
         }
       ]

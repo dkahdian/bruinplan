@@ -31,9 +31,18 @@
               "description": "Refer to the following courses",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "GREEK 1"},
-                {"type": "course", "courseId": "GREEK 2"},
-                {"type": "course", "courseId": "GREEK 3"}
+                {
+                  "type": "course",
+                  "courseId": "GREEK 1"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GREEK 2"
+                },
+                {
+                  "type": "course",
+                  "courseId": "GREEK 3"
+                }
               ]
             },
             {
@@ -42,7 +51,10 @@
               "description": "May be substituted for Greek 1, 2, 3.",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "GREEK 16"}
+                {
+                  "type": "course",
+                  "courseId": "GREEK 16"
+                }
               ]
             }
           ]
@@ -64,7 +76,10 @@
           "description": "Complete seven upper-division Greek courses, including GREEK 110. The remaining six courses are chosen from other upper-division Greek offerings. GREEK 197 and GREEK 199 may be applied by petition.",
           "needs": 7,
           "options": [
-            {"type": "course", "courseId": "GREEK 110"}
+            {
+              "type": "course",
+              "courseId": "GREEK 110"
+            }
           ]
         },
         {
@@ -73,17 +88,50 @@
           "description": "Select three upper-division courses from the following list. Courses may also be chosen from other upper-division offerings in Classical Civilization.",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "HIST 112A"},
-            {"type": "course", "courseId": "HIST 112B"},
-            {"type": "course", "courseId": "HIST M112C"},
-            {"type": "course", "courseId": "HIST 112D"},
-            {"type": "course", "courseId": "HIST M112E"},
-            {"type": "course", "courseId": "HIST 113A"},
-            {"type": "course", "courseId": "HIST 113B"},
-            {"type": "course", "courseId": "HIST 114A"},
-            {"type": "course", "courseId": "HIST 114B"},
-            {"type": "course", "courseId": "HIST 114C"},
-            {"type": "course", "courseId": "HIST 115"}
+            {
+              "type": "course",
+              "courseId": "HIST 112A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 112B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M112C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 112D"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST M112E"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 113A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 113B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 114A"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 114B"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 114C"
+            },
+            {
+              "type": "course",
+              "courseId": "HIST 115"
+            }
           ]
         },
         {
@@ -95,7 +143,7 @@
     {
       "id": "honors",
       "title": "Honors Program",
-      "description": "Admission: The honors program is open to Greek majors with a cumulative grade-point average (GPA) of 3.5 or better in departmental courses and an overall GPA of 3.25 or better. Students with lower GPAs may petition for admission. All honors students are required to take Classics 191 (or an equivalent undergraduate seminar) in their junior year before beginning work on the honors thesis. Graduation requirements: To graduate with departmental honors, students must have a cumulative GPA of 3.5 or better in departmental courses, an overall GPA of 3.25 or better, and complete Classics 198A and 198B with grades of A\u2013 or better. To graduate with departmental highest honors, students must have a cumulative GPA of 3.85 or better in departmental courses, an overall GPA of 3.65 or better, and complete Classics 198A and 198B with grades of A.",
+      "description": "Admission: The honors program is open to Greek majors with a cumulative grade-point average (GPA) of 3.5 or better in departmental courses and an overall GPA of 3.25 or better. Students with lower GPAs may petition for admission. All honors students are required to take Classics 191 (or an equivalent undergraduate seminar) in their junior year before beginning work on the honors thesis. Graduation requirements: To graduate with departmental honors, students must have a cumulative GPA of 3.5 or better in departmental courses, an overall GPA of 3.25 or better, and complete Classics 198A and 198B with grades of A– or better. To graduate with departmental highest honors, students must have a cumulative GPA of 3.85 or better in departmental courses, an overall GPA of 3.65 or better, and complete Classics 198A and 198B with grades of A.",
       "requirements": [
         {
           "type": "group",
@@ -103,8 +151,14 @@
           "description": "Students write the thesis under the direct supervision of a faculty member over two consecutive terms, Classics 198A and 198B. In course 198A, students submit an annotated bibliography and preliminary outline of their thesis. In course 198B, they submit at least one initial draft and the final revised version of the thesis. Only course 198B may be applied toward the upper-division classical civilization requirement for departmental majors.",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "CLASSIC 198A"},
-            {"type": "course", "courseId": "CLASSIC 198B"}
+            {
+              "type": "course",
+              "courseId": "CLASSIC 198A"
+            },
+            {
+              "type": "course",
+              "courseId": "CLASSIC 198B"
+            }
           ]
         }
       ]

@@ -23,9 +23,18 @@
               "description": "Select one course:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "A&O SCI M71"},
-                {"type": "course", "courseId": "COM SCI 30"},
-                {"type": "course", "courseId": "COMPTNG 10A"}
+                {
+                  "type": "course",
+                  "courseId": "A&O SCI M71"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COM SCI 30"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COMPTNG 10A"
+                }
               ]
             },
             {
@@ -38,12 +47,30 @@
               "description": "Select one course:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "A&O SCI 1"},
-                {"type": "course", "courseId": "A&O SCI 2"},
-                {"type": "course", "courseId": "A&O SCI 3"},
-                {"type": "course", "courseId": "A&O SCI 5"},
-                {"type": "course", "courseId": "A&O SCI M7"},
-                {"type": "course", "courseId": "A&O SCI 51"}
+                {
+                  "type": "course",
+                  "courseId": "A&O SCI 1"
+                },
+                {
+                  "type": "course",
+                  "courseId": "A&O SCI 2"
+                },
+                {
+                  "type": "course",
+                  "courseId": "A&O SCI 3"
+                },
+                {
+                  "type": "course",
+                  "courseId": "A&O SCI 5"
+                },
+                {
+                  "type": "course",
+                  "courseId": "A&O SCI M7"
+                },
+                {
+                  "type": "course",
+                  "courseId": "A&O SCI 51"
+                }
               ]
             }
           ]
@@ -54,12 +81,30 @@
           "description": "Complete the following six courses:",
           "needs": 6,
           "options": [
-            {"type": "course", "courseId": "MATH 31A"},
-            {"type": "course", "courseId": "MATH 31B"},
-            {"type": "course", "courseId": "MATH 32A"},
-            {"type": "course", "courseId": "MATH 32B"},
-            {"type": "course", "courseId": "MATH 33A"},
-            {"type": "course", "courseId": "MATH 33B"}
+            {
+              "type": "course",
+              "courseId": "MATH 31A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 32B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 33A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 33B"
+            }
           ]
         },
         {
@@ -68,9 +113,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "PHYSICS 1A"},
-            {"type": "course", "courseId": "PHYSICS 1B"},
-            {"type": "course", "courseId": "PHYSICS 1C"}
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1A"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1B"
+            },
+            {
+              "type": "course",
+              "courseId": "PHYSICS 1C"
+            }
           ]
         },
         {
@@ -79,10 +133,22 @@
           "description": "Complete Chemistry and Biochemistry 14A and 14B (or 20A and 20B) as required by upper-division course selection.",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "CHEM 14A"},
-            {"type": "course", "courseId": "CHEM 14B"},
-            {"type": "course", "courseId": "CHEM 20A"},
-            {"type": "course", "courseId": "CHEM 20B"}
+            {
+              "type": "course",
+              "courseId": "CHEM 14A"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 14B"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 20A"
+            },
+            {
+              "type": "course",
+              "courseId": "CHEM 20B"
+            }
           ]
         }
       ]
@@ -98,9 +164,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MATH 115A"},
-            {"type": "course", "courseId": "MATH 131A"},
-            {"type": "course", "courseId": "MATH 134"}
+            {
+              "type": "course",
+              "courseId": "MATH 115A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 131A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 134"
+            }
           ]
         },
         {
@@ -109,15 +184,42 @@
           "description": "Select three courses, one of which must be 115B, 131B, 151B, or 170S:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MATH 115B"},
-            {"type": "course", "courseId": "MATH 131B"},
-            {"type": "course", "courseId": "MATH 135"},
-            {"type": "course", "courseId": "MATH 136"},
-            {"type": "course", "courseId": "MATH 142"},
-            {"type": "course", "courseId": "MATH 151A"},
-            {"type": "course", "courseId": "MATH 151B"},
-            {"type": "course", "courseId": "MATH 170E"},
-            {"type": "course", "courseId": "MATH 170S"}
+            {
+              "type": "course",
+              "courseId": "MATH 115B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 131B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 135"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 136"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 142"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 151A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 151B"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 170E"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 170S"
+            }
           ]
         },
         {
@@ -126,9 +228,18 @@
           "description": "Select two courses from core:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "A&O SCI 101"},
-            {"type": "course", "courseId": "A&O SCI 103"},
-            {"type": "course", "courseId": "A&O SCI 112"}
+            {
+              "type": "course",
+              "courseId": "A&O SCI 101"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 103"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 112"
+            }
           ]
         },
         {
@@ -137,14 +248,38 @@
           "description": "Select two courses from electives:",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "A&O SCI C110"},
-            {"type": "course", "courseId": "A&O SCI 113"},
-            {"type": "course", "courseId": "A&O SCI C115"},
-            {"type": "course", "courseId": "A&O SCI M120"},
-            {"type": "course", "courseId": "A&O SCI C144"},
-            {"type": "course", "courseId": "A&O SCI C160"},
-            {"type": "course", "courseId": "A&O SCI C170"},
-            {"type": "course", "courseId": "A&O SCI 180"}
+            {
+              "type": "course",
+              "courseId": "A&O SCI C110"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 113"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI C115"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI M120"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI C144"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI C160"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI C170"
+            },
+            {
+              "type": "course",
+              "courseId": "A&O SCI 180"
+            }
           ]
         },
         {
@@ -153,7 +288,10 @@
           "description": "Complete the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "A&O SCI 199"}
+            {
+              "type": "course",
+              "courseId": "A&O SCI 199"
+            }
           ]
         }
       ]

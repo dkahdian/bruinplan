@@ -17,9 +17,18 @@
           "description": "Complete the following courses with grades of C- or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC M6A"},
-            {"type": "course", "courseId": "MUSC M6B"},
-            {"type": "course", "courseId": "MUSC M6C"}
+            {
+              "type": "course",
+              "courseId": "MUSC M6A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC M6B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC M6C"
+            }
           ]
         },
         {
@@ -34,9 +43,18 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MUSC 20A"},
-                {"type": "course", "courseId": "MUSC 20B"},
-                {"type": "course", "courseId": "MUSC 20C"}
+                {
+                  "type": "course",
+                  "courseId": "MUSC 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 20B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 20C"
+                }
               ]
             },
             {
@@ -45,9 +63,18 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MUSC 21A"},
-                {"type": "course", "courseId": "MUSC 21B"},
-                {"type": "course", "courseId": "MUSC 21C"}
+                {
+                  "type": "course",
+                  "courseId": "MUSC 21A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 21B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 21C"
+                }
               ]
             }
           ]
@@ -63,8 +90,7 @@
               "title": "Instrumentalists",
               "description": "Complete 12 units from: Music 60A through 60U",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "group",
@@ -72,8 +98,14 @@
               "description": "Complete 15 units from:",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "MUSC 61A"},
-                {"type": "course", "courseId": "MUSC 61C"}
+                {
+                  "type": "course",
+                  "courseId": "MUSC 61A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 61C"
+                }
               ]
             }
           ]
@@ -83,8 +115,7 @@
           "title": "Large Conducted Ensembles",
           "description": "Complete 18 units from the following, as assigned by the chair or music education faculty member: MUSC C185A, MUSC C185B, MUSC C185C, MUSC C185D, MUSC C185E, MUSC 185F, MUSC C185G, MUSC 185H",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -99,9 +130,18 @@
           "description": "Complete the following courses with grades of C- or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC 102A"},
-            {"type": "course", "courseId": "MUSC 102B"},
-            {"type": "course", "courseId": "MUSC 102C"}
+            {
+              "type": "course",
+              "courseId": "MUSC 102A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 102B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 102C"
+            }
           ]
         },
         {
@@ -110,9 +150,18 @@
           "description": "Complete the following courses with grades of C or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSC 111A"},
-            {"type": "course", "courseId": "MUSC 111B"},
-            {"type": "course", "courseId": "MUSC 111C"}
+            {
+              "type": "course",
+              "courseId": "MUSC 111A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 111B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 111C"
+            }
           ]
         },
         {
@@ -121,9 +170,18 @@
           "description": "Complete the following courses with grades of C or better:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MUSCLG 125A"},
-            {"type": "course", "courseId": "MUSCLG 125B"},
-            {"type": "course", "courseId": "MUSCLG 125C"}
+            {
+              "type": "course",
+              "courseId": "MUSCLG 125A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 125B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 125C"
+            }
           ]
         },
         {
@@ -132,20 +190,62 @@
           "description": "Complete the following 14 courses:",
           "needs": 14,
           "options": [
-            {"type": "course", "courseId": "MUSC 110A"},
-            {"type": "course", "courseId": "MUSC 110B"},
-            {"type": "course", "courseId": "MUSC 110C"},
-            {"type": "course", "courseId": "MUSC 110D"},
-            {"type": "course", "courseId": "MUSC 114A"},
-            {"type": "course", "courseId": "MUSC 114B"},
-            {"type": "course", "courseId": "MUSC 114C"},
-            {"type": "course", "courseId": "MUSC 114D"},
-            {"type": "course", "courseId": "MUSC 114J"},
-            {"type": "course", "courseId": "MUSC 115A"},
-            {"type": "course", "courseId": "MUSC 115B"},
-            {"type": "course", "courseId": "MUSC 115C"},
-            {"type": "course", "courseId": "MUSC 116"},
-            {"type": "course", "courseId": "MUSC 117"}
+            {
+              "type": "course",
+              "courseId": "MUSC 110A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 110B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 110C"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 110D"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 114A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 114B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 114C"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 114D"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 114J"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 115A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 115B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 115C"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 116"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 117"
+            }
           ]
         },
         {
@@ -159,8 +259,7 @@
               "title": "Instrumentalists",
               "description": "Select 4 units from: Music 160A through 160U",
               "needs": 1,
-              "options": [
-              ]
+              "options": []
             },
             {
               "type": "group",
@@ -168,8 +267,14 @@
               "description": "Select 5 units from:",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "MUSC 161A"},
-                {"type": "course", "courseId": "MUSC 161C"}
+                {
+                  "type": "course",
+                  "courseId": "MUSC 161A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MUSC 161C"
+                }
               ]
             }
           ]
@@ -179,16 +284,18 @@
           "title": "Public Recital",
           "description": "Select 2 units from Music 163A through 163V (vocalists must also enroll in Music 161C as corequisite to 163V) taken in the primary performance area; students must consult and receive approval from the assigned music education faculty member before scheduling recital, which may be scheduled as early as fall quarter of the junior year.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Capstone Project",
-          "description": "Complete the following course. All capstone projects in Music Education take the form of an electronic portfolio demonstrating mastery of program learning outcomes. The student\u2019s portfolio must be submitted before Music 110D is completed.",
+          "description": "Complete the following course. All capstone projects in Music Education take the form of an electronic portfolio demonstrating mastery of program learning outcomes. The student's portfolio must be submitted before Music 110D is completed.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MUSC 110D"}
+            {
+              "type": "course",
+              "courseId": "MUSC 110D"
+            }
           ]
         }
       ]

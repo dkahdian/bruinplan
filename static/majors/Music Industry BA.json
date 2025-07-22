@@ -17,13 +17,34 @@
           "description": "Complete Music Industry 1 three times and the following six courses:",
           "needs": 7,
           "options": [
-            {"type": "course", "courseId": "MSC IND 1"},
-            {"type": "course", "courseId": "MSC IND 2"},
-            {"type": "course", "courseId": "MSC IND 10A"},
-            {"type": "course", "courseId": "MSC IND 10B"},
-            {"type": "course", "courseId": "MSC IND 20A"},
-            {"type": "course", "courseId": "MSC IND 20B"},
-            {"type": "course", "courseId": "MSC IND 25"}
+            {
+              "type": "course",
+              "courseId": "MSC IND 1"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 2"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 10A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 10B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 20A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 20B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 25"
+            }
           ]
         },
         {
@@ -32,65 +53,242 @@
           "description": "Complete four units in one music, ethnomusicology, or music industry ensemble selected from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ETHNMUS 68A"},
-            {"type": "course", "courseId": "ETHNMUS 68B"},
-            {"type": "course", "courseId": "ETHNMUS 68C"},
-            {"type": "course", "courseId": "ETHNMUS 68F"},
-            {"type": "course", "courseId": "ETHNMUS 68G"},
-            {"type": "course", "courseId": "ETHNMUS 68M"},
-            {"type": "course", "courseId": "ETHNMUS 68N"},
-            {"type": "course", "courseId": "ETHNMUS 68O"},
-            {"type": "course", "courseId": "ETHNMUS 91A"},
-            {"type": "course", "courseId": "ETHNMUS 91B"},
-            {"type": "course", "courseId": "ETHNMUS 91E"},
-            {"type": "course", "courseId": "ETHNMUS 91G"},
-            {"type": "course", "courseId": "ETHNMUS 91H"},
-            {"type": "course", "courseId": "ETHNMUS 91J"},
-            {"type": "course", "courseId": "ETHNMUS 91K"},
-            {"type": "course", "courseId": "ETHNMUS 91L"},
-            {"type": "course", "courseId": "ETHNMUS 91N"},
-            {"type": "course", "courseId": "ETHNMUS 91P"},
-            {"type": "course", "courseId": "ETHNMUS 91Z"},
-            {"type": "course", "courseId": "ETHNMUS 161A"},
-            {"type": "course", "courseId": "ETHNMUS 161B"},
-            {"type": "course", "courseId": "ETHNMUS 161E"},
-            {"type": "course", "courseId": "ETHNMUS 161G"},
-            {"type": "course", "courseId": "ETHNMUS 161H"},
-            {"type": "course", "courseId": "ETHNMUS 161J"},
-            {"type": "course", "courseId": "ETHNMUS 161K"},
-            {"type": "course", "courseId": "ETHNMUS 161L"},
-            {"type": "course", "courseId": "ETHNMUS 161M"},
-            {"type": "course", "courseId": "ETHNMUS 161N"},
-            {"type": "course", "courseId": "ETHNMUS 161P"},
-            {"type": "course", "courseId": "ETHNMUS 161Z"},
-            {"type": "course", "courseId": "ETHNMUS 168A"},
-            {"type": "course", "courseId": "ETHNMUS 168B"},
-            {"type": "course", "courseId": "ETHNMUS 168C"},
-            {"type": "course", "courseId": "ETHNMUS 168F"},
-            {"type": "course", "courseId": "ETHNMUS 168G"},
-            {"type": "course", "courseId": "ETHNMUS 168M"},
-            {"type": "course", "courseId": "ETHNMUS 168N"},
-            {"type": "course", "courseId": "ETHNMUS 168O"},
-            {"type": "course", "courseId": "GJ STDS 176A"},
-            {"type": "course", "courseId": "GJ STDS 176B"},
-            {"type": "course", "courseId": "GJ STDS 176C"},
-            {"type": "course", "courseId": "GJ STDS 176D"},
-            {"type": "course", "courseId": "GJ STDS 176E"},
-            {"type": "course", "courseId": "GJ STDS 176F"},
-            {"type": "course", "courseId": "GJ STDS 176G"},
-            {"type": "course", "courseId": "GJ STDS 176H"},
-            {"type": "course", "courseId": "MUSC M90T"},
-            {"type": "course", "courseId": "MUSC C185A"},
-            {"type": "course", "courseId": "MUSC C185B"},
-            {"type": "course", "courseId": "MUSC C185D"},
-            {"type": "course", "courseId": "MUSC C185E"},
-            {"type": "course", "courseId": "MUSC 185F"},
-            {"type": "course", "courseId": "MUSC C185G"},
-            {"type": "course", "courseId": "MUSC 185H"},
-            {"type": "course", "courseId": "MSC IND 111A"},
-            {"type": "course", "courseId": "MSC IND 111B"},
-            {"type": "course", "courseId": "MSC IND 117"},
-            {"type": "course", "courseId": "MUSCLG CM90T"}
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 68A"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 68B"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 68C"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 68F"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 68G"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 68M"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 68N"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 68O"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91A"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91B"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91E"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91G"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91H"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91J"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91K"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91L"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91N"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91P"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 91Z"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161A"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161B"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161E"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161G"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161H"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161J"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161K"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161L"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161M"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161N"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161P"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 161Z"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 168A"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 168B"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 168C"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 168F"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 168G"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 168M"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 168N"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 168O"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176A"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176B"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176C"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176D"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176E"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176F"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176G"
+            },
+            {
+              "type": "course",
+              "courseId": "GJ STDS 176H"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC M90T"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185D"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185E"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 185F"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC C185G"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 185H"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 111A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 111B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 117"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG CM90T"
+            }
           ]
         },
         {
@@ -99,33 +297,114 @@
           "description": "Complete one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ETHNMUS 20A"},
-            {"type": "course", "courseId": "ETHNMUS 20B"},
-            {"type": "course", "courseId": "ETHNMUS 21"},
-            {"type": "course", "courseId": "ETHNMUS 22"},
-            {"type": "course", "courseId": "ETHNMUS M25"},
-            {"type": "course", "courseId": "ETHNMUS 30"},
-            {"type": "course", "courseId": "ETHNMUS M35"},
-            {"type": "course", "courseId": "ETHNMUS 40"},
-            {"type": "course", "courseId": "ETHNMUS 45"},
-            {"type": "course", "courseId": "ETHNMUS M50A"},
-            {"type": "course", "courseId": "ETHNMUS M50B"},
-            {"type": "course", "courseId": "ETHNMUS M110A"},
-            {"type": "course", "courseId": "ETHNMUS M110B"},
-            {"type": "course", "courseId": "MSC IND 6"},
-            {"type": "course", "courseId": "MSC IND 29"},
-            {"type": "course", "courseId": "MSC IND 55"},
-            {"type": "course", "courseId": "MUSCLG 5"},
-            {"type": "course", "courseId": "MUSCLG 7"},
-            {"type": "course", "courseId": "MUSCLG 8"},
-            {"type": "course", "courseId": "MUSCLG 13"},
-            {"type": "course", "courseId": "MUSCLG 60"},
-            {"type": "course", "courseId": "MUSCLG 61"},
-            {"type": "course", "courseId": "MUSCLG 64"},
-            {"type": "course", "courseId": "MUSCLG 65"},
-            {"type": "course", "courseId": "MUSCLG 68"},
-            {"type": "course", "courseId": "MUSCLG 75"},
-            {"type": "course", "courseId": "MUSCLG 94"}
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 20A"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 20B"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 21"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 22"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M25"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 30"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M35"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 40"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 45"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M50A"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M50B"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M110A"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M110B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 6"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 29"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 55"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 5"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 7"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 8"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 13"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 60"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 61"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 64"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 65"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 68"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 75"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 94"
+            }
           ]
         },
         {
@@ -134,14 +413,38 @@
           "description": "Complete one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ETHNMUS M35"},
-            {"type": "course", "courseId": "ETHNMUS M50A"},
-            {"type": "course", "courseId": "ETHNMUS M50B"},
-            {"type": "course", "courseId": "ETHNMUS M110A"},
-            {"type": "course", "courseId": "ETHNMUS M110B"},
-            {"type": "course", "courseId": "MUSCLG 64"},
-            {"type": "course", "courseId": "MUSCLG 65"},
-            {"type": "course", "courseId": "MUSCLG 75"}
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M35"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M50A"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M50B"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M110A"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M110B"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 64"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 65"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 75"
+            }
           ]
         },
         {
@@ -150,8 +453,14 @@
           "description": "Select one course from the following or complete an equivalent:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COMM 1"},
-            {"type": "course", "courseId": "MSC IND 5"}
+            {
+              "type": "course",
+              "courseId": "COMM 1"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 5"
+            }
           ]
         }
       ]
@@ -201,8 +510,14 @@
               "description": "Select one course:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "MSC IND 113A"},
-                {"type": "course", "courseId": "MSC IND 113B"}
+                {
+                  "type": "course",
+                  "courseId": "MSC IND 113A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MSC IND 113B"
+                }
               ]
             }
           ]
@@ -213,18 +528,54 @@
           "description": "Complete one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MUSC 260A"},
-            {"type": "course", "courseId": "MUSC 260B"},
-            {"type": "course", "courseId": "MSC IND 107A"},
-            {"type": "course", "courseId": "MSC IND 107B"},
-            {"type": "course", "courseId": "MSC IND 112A"},
-            {"type": "course", "courseId": "MSC IND 112B"},
-            {"type": "course", "courseId": "MSC IND 115A"},
-            {"type": "course", "courseId": "MSC IND 115B"},
-            {"type": "course", "courseId": "MSC IND 116A"},
-            {"type": "course", "courseId": "MSC IND 116B"},
-            {"type": "course", "courseId": "MSC IND 117"},
-            {"type": "course", "courseId": "MSC IND 118"}
+            {
+              "type": "course",
+              "courseId": "MUSC 260A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 260B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 107A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 107B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 112A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 112B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 115A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 115B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 116A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 116B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 117"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 118"
+            }
           ]
         },
         {
@@ -233,16 +584,46 @@
           "description": "Complete one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "COMM M117"},
-            {"type": "course", "courseId": "MSC IND 104C"},
-            {"type": "course", "courseId": "MSC IND 110"},
-            {"type": "course", "courseId": "MSC IND 113B"},
-            {"type": "course", "courseId": "MSC IND 114"},
-            {"type": "course", "courseId": "MSC IND 114B"},
-            {"type": "course", "courseId": "MSC IND 124A"},
-            {"type": "course", "courseId": "MSC IND 124B"},
-            {"type": "course", "courseId": "MSC IND 155"},
-            {"type": "course", "courseId": "MSC IND M181"}
+            {
+              "type": "course",
+              "courseId": "COMM M117"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 104C"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 110"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 113B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 114"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 114B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 124A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 124B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 155"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND M181"
+            }
           ]
         },
         {
@@ -251,25 +632,82 @@
           "description": "Complete one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "ETHNMUS M116"},
-            {"type": "course", "courseId": "ETHNMUS M119"},
-            {"type": "course", "courseId": "ETHNMUS C121"},
-            {"type": "course", "courseId": "ETHNMUS 122"},
-            {"type": "course", "courseId": "ETHNMUS 148"},
-            {"type": "course", "courseId": "ETHNMUS 174"},
-            {"type": "course", "courseId": "ETHNMUS 175"},
-            {"type": "course", "courseId": "ETHNMUS 177"},
-            {"type": "course", "courseId": "ETHNMUS 181"},
-            {"type": "course", "courseId": "MSC IND 108"},
-            {"type": "course", "courseId": "MSC IND 131"},
-            {"type": "course", "courseId": "MSC IND 132"},
-            {"type": "course", "courseId": "MSC IND 134"},
-            {"type": "course", "courseId": "MSC IND 185"},
-            {"type": "course", "courseId": "MSC IND 144"},
-            {"type": "course", "courseId": "MUSCLG 128"},
-            {"type": "course", "courseId": "MUSCLG M136"},
-            {"type": "course", "courseId": "MUSCLG M137"},
-            {"type": "course", "courseId": "MUSCLG 140"}
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M116"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M119"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS C121"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 122"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 148"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 174"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 175"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 177"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 181"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 108"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 131"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 132"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 134"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 185"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 144"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 128"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG M136"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG M137"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 140"
+            }
           ]
         },
         {
@@ -278,48 +716,174 @@
           "description": "Complete one additional course from the Music Technology and Studio Production, Music Business and Law, or Music Culture and History lists, or Music Industry 188.",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MUSC 260A"},
-            {"type": "course", "courseId": "MUSC 260B"},
-            {"type": "course", "courseId": "MSC IND 107A"},
-            {"type": "course", "courseId": "MSC IND 107B"},
-            {"type": "course", "courseId": "MSC IND 112A"},
-            {"type": "course", "courseId": "MSC IND 112B"},
-            {"type": "course", "courseId": "MSC IND 115A"},
-            {"type": "course", "courseId": "MSC IND 115B"},
-            {"type": "course", "courseId": "MSC IND 116A"},
-            {"type": "course", "courseId": "MSC IND 116B"},
-            {"type": "course", "courseId": "MSC IND 117"},
-            {"type": "course", "courseId": "MSC IND 118"},
-            {"type": "course", "courseId": "COMM M117"},
-            {"type": "course", "courseId": "MSC IND 104C"},
-            {"type": "course", "courseId": "MSC IND 110"},
-            {"type": "course", "courseId": "MSC IND 113B"},
-            {"type": "course", "courseId": "MSC IND 114"},
-            {"type": "course", "courseId": "MSC IND 114B"},
-            {"type": "course", "courseId": "MSC IND 124A"},
-            {"type": "course", "courseId": "MSC IND 124B"},
-            {"type": "course", "courseId": "MSC IND 155"},
-            {"type": "course", "courseId": "MSC IND M181"},
-            {"type": "course", "courseId": "ETHNMUS M116"},
-            {"type": "course", "courseId": "ETHNMUS M119"},
-            {"type": "course", "courseId": "ETHNMUS C121"},
-            {"type": "course", "courseId": "ETHNMUS 122"},
-            {"type": "course", "courseId": "ETHNMUS 148"},
-            {"type": "course", "courseId": "ETHNMUS 174"},
-            {"type": "course", "courseId": "ETHNMUS 175"},
-            {"type": "course", "courseId": "ETHNMUS 177"},
-            {"type": "course", "courseId": "ETHNMUS 181"},
-            {"type": "course", "courseId": "MSC IND 108"},
-            {"type": "course", "courseId": "MSC IND 131"},
-            {"type": "course", "courseId": "MSC IND 132"},
-            {"type": "course", "courseId": "MSC IND 134"},
-            {"type": "course", "courseId": "MSC IND 185"},
-            {"type": "course", "courseId": "MSC IND 144"},
-            {"type": "course", "courseId": "MUSCLG 128"},
-            {"type": "course", "courseId": "MUSCLG M136"},
-            {"type": "course", "courseId": "MUSCLG M137"},
-            {"type": "course", "courseId": "MUSCLG 140"},
-            {"type": "course", "courseId": "MSC IND 188"}
+            {
+              "type": "course",
+              "courseId": "MUSC 260A"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSC 260B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 107A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 107B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 112A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 112B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 115A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 115B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 116A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 116B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 117"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 118"
+            },
+            {
+              "type": "course",
+              "courseId": "COMM M117"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 104C"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 110"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 113B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 114"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 114B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 124A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 124B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 155"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND M181"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M116"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS M119"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS C121"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 122"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 148"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 174"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 175"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 177"
+            },
+            {
+              "type": "course",
+              "courseId": "ETHNMUS 181"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 108"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 131"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 132"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 134"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 185"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 144"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 128"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG M136"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG M137"
+            },
+            {
+              "type": "course",
+              "courseId": "MUSCLG 140"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 188"
+            }
           ]
         },
         {
@@ -328,7 +892,10 @@
           "description": "Complete the following course (four units):",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MSC IND 195CE"}
+            {
+              "type": "course",
+              "courseId": "MSC IND 195CE"
+            }
           ]
         },
         {
@@ -337,9 +904,18 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {"type": "course", "courseId": "MSC IND 187A"},
-            {"type": "course", "courseId": "MSC IND 187B"},
-            {"type": "course", "courseId": "MSC IND 187C"}
+            {
+              "type": "course",
+              "courseId": "MSC IND 187A"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 187B"
+            },
+            {
+              "type": "course",
+              "courseId": "MSC IND 187C"
+            }
           ]
         }
       ]

@@ -1,6 +1,6 @@
 {
   "name": "World Arts and Cultures BA",
-  "overview": "The World Arts and Culture major emphasizes a cross-cultural and interdisciplinary approach to the study of art making, community engagement, and multimedia analysis. The five required preparation for the major courses introduce students to the intersectionality evidenced in the collective work of the faculty. A lower-division, practice-based course enables students to connect the practice and study of art-making across a variety of genres and forms. In three lower-division seminars, students are prepared for the major by studying theoretical concepts of culture, the tensions between local and global art perception, and the diverse ways that colonialism has been understood and resisted around the globe.\n\nBuilding upon the foundational preparation courses, the required core courses of the major expand interpretive lenses to include ethics of representation, methods of research, an opportunity to build upon one\u2019s practice-based experience, and a one-credit course that connects students with faculty advisers to increase awareness of field-specific scholarship, disciplinary methods, and various genres and forms for intellectual output, particularly as these might be articulated with post-graduate aspiration.\n\nStudents in the major have the option to pursue a senior praxis project. Working with faculty advisers, students will be able to develop a performance, film, event, multimedia production, and other possible forms of evidence of their education in the department.",
+  "overview": "The World Arts and Culture major emphasizes a cross-cultural and interdisciplinary approach to the study of art making, community engagement, and multimedia analysis. The five required preparation for the major courses introduce students to the intersectionality evidenced in the collective work of the faculty. A lower-division, practice-based course enables students to connect the practice and study of art-making across a variety of genres and forms. In three lower-division seminars, students are prepared for the major by studying theoretical concepts of culture, the tensions between local and global art perception, and the diverse ways that colonialism has been understood and resisted around the globe.",
   "college": "School of the Arts and Architecture",
   "department": "World Arts and Cultures/Dance",
   "degreeLevel": "Undergraduate",
@@ -44,8 +44,14 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "WL ARTS 100A"},
-            {"type": "course", "courseId": "WL ARTS 100B"}
+            {
+              "type": "course",
+              "courseId": "WL ARTS 100A"
+            },
+            {
+              "type": "course",
+              "courseId": "WL ARTS 100B"
+            }
           ]
         },
         {
@@ -54,10 +60,22 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "WL ARTS 102"},
-            {"type": "course", "courseId": "WL ARTS 104"},
-            {"type": "course", "courseId": "WL ARTS 124"},
-            {"type": "course", "courseId": "WL ARTS 185"}
+            {
+              "type": "course",
+              "courseId": "WL ARTS 102"
+            },
+            {
+              "type": "course",
+              "courseId": "WL ARTS 104"
+            },
+            {
+              "type": "course",
+              "courseId": "WL ARTS 124"
+            },
+            {
+              "type": "course",
+              "courseId": "WL ARTS 185"
+            }
           ]
         },
         {
@@ -65,14 +83,13 @@
           "title": "Electives",
           "description": "Select 25 units from any World Arts and Cultures elective courses, or other upper-division courses with faculty approval.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         },
         {
           "type": "group",
           "title": "Senior Praxis Project",
           "description": "Students may choose to complete a senior praxis project by completing 15 units of elective coursework and the following two courses (or 10 units of equivalent coursework with faculty approval).",
-          "needs": 0,
+          "needs": 1,
           "options": [
             {
               "type": "group",
@@ -80,8 +97,14 @@
               "description": "Complete the two required courses for the project.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "WL ARTS 186A"},
-                {"type": "course", "courseId": "WL ARTS 186B"}
+                {
+                  "type": "course",
+                  "courseId": "WL ARTS 186A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "WL ARTS 186B"
+                }
               ]
             }
           ]

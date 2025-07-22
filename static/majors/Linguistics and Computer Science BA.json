@@ -37,8 +37,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "MATH 31A"},
-            {"type": "course", "courseId": "MATH 31AL"}
+            {
+              "type": "course",
+              "courseId": "MATH 31A"
+            },
+            {
+              "type": "course",
+              "courseId": "MATH 31AL"
+            }
           ]
         },
         {
@@ -58,8 +64,7 @@
           "title": "Foreign Language",
           "description": "Completion of the third term in one foreign language.",
           "needs": 1,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -80,8 +85,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "LING 102"},
-                {"type": "course", "courseId": "LING 103"}
+                {
+                  "type": "course",
+                  "courseId": "LING 102"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 103"
+                }
               ]
             },
             {
@@ -90,8 +101,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "LING 119A"},
-                {"type": "course", "courseId": "LING 120A"}
+                {
+                  "type": "course",
+                  "courseId": "LING 119A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 120A"
+                }
               ]
             },
             {
@@ -108,9 +125,18 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "LING 165A"},
-                {"type": "course", "courseId": "LING 165B"},
-                {"type": "course", "courseId": "LING 165C"}
+                {
+                  "type": "course",
+                  "courseId": "LING 165A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 165B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 165C"
+                }
               ]
             },
             {
@@ -125,14 +151,38 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "LING C104"},
-            {"type": "course", "courseId": "LING 127"},
-            {"type": "course", "courseId": "LING 132"},
-            {"type": "course", "courseId": "LING 165A"},
-            {"type": "course", "courseId": "LING 165B"},
-            {"type": "course", "courseId": "LING 165C"},
-            {"type": "course", "courseId": "LING 180"},
-            {"type": "course", "courseId": "LING 185B"}
+            {
+              "type": "course",
+              "courseId": "LING C104"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 127"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 132"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165A"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165B"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 165C"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 180"
+            },
+            {
+              "type": "course",
+              "courseId": "LING 185B"
+            }
           ]
         },
         {
@@ -159,8 +209,14 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {"type": "course", "courseId": "COM SCI 132"},
-                {"type": "course", "courseId": "COM SCI 161"}
+                {
+                  "type": "course",
+                  "courseId": "COM SCI 132"
+                },
+                {
+                  "type": "course",
+                  "courseId": "COM SCI 161"
+                }
               ]
             }
           ]
@@ -184,8 +240,14 @@
               "description": "Complete both Linguistics 198A and 198B.",
               "needs": 2,
               "options": [
-                {"type": "course", "courseId": "LING 198A"},
-                {"type": "course", "courseId": "LING 198B"}
+                {
+                  "type": "course",
+                  "courseId": "LING 198A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "LING 198B"
+                }
               ]
             },
             {

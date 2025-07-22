@@ -7,18 +7,10 @@
   "degreeObjective": "Bachelor of Science",
   "sections": [
     {
-      "id": "learning-outcomes",
-      "title": "Learning Outcomes",
-      "description": "Upon completion of the Physiological Science B.S., students will have:\n1. Demonstrated broad-based knowledge of the fundamentals of anatomy and vertebrate physiology.\n2. Demonstrated ability to address scientific questions or solve problems using quantitative and inquiry-related skills, including developing hypotheses, designing and performing experiments, analyzing data, and interpreting results.\n3. The ability to read and understand primary scientific literature, including understanding key questions and hypotheses, interpretation of results and conclusions, and discrimination of quality through critique.\n4. An appreciation for research by participating in one or more laboratory experiences.\n5. An understanding of the value of science and research and their relevance to one\u2019s own life and society.",
-      "requirements": [
-      ]
-    },
-    {
       "id": "entry-to-the-major",
       "title": "Entry to the Major",
       "description": "To enter the Physiological Science major, students must complete Chemistry and Biochemistry 14A, 14B, and 14C, (or 20A, 20B, and 30A), Life Sciences 7A, 7B, Mathematics 3A, 3B, and 3C, (or 31A, 31B, and 32A, or Life Sciences 30A, 30B, and 40, or Statistics 13), and Physics 1A or 5A, with a minimum grade of C in each course and a grade-point average of 2.5 or better in all before the fall quarter of their third year. Repetition of more than one of these nine preparation courses results in denial of admission to the major. Transfer applicants with 90 or more quarter units must complete one year of general biology with laboratory, one year of calculus, one year of general chemistry with laboratory, and one semester of organic chemistry with laboratory prior to admission.",
-      "requirements": [
-      ]
+      "requirements": []
     },
     {
       "id": "preparation",
@@ -37,12 +29,30 @@
               "description": "Complete all six courses in this series.",
               "needs": 6,
               "options": [
-                {"type": "course", "courseId": "CHEM 14A"},
-                {"type": "course", "courseId": "CHEM 14B"},
-                {"type": "course", "courseId": "CHEM 14BL"},
-                {"type": "course", "courseId": "CHEM 14C"},
-                {"type": "course", "courseId": "CHEM 14CL"},
-                {"type": "course", "courseId": "CHEM 14D"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14BL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14CL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 14D"
+                }
               ]
             },
             {
@@ -51,13 +61,34 @@
               "description": "Complete all seven courses in this series.",
               "needs": 7,
               "options": [
-                {"type": "course", "courseId": "CHEM 20A"},
-                {"type": "course", "courseId": "CHEM 20B"},
-                {"type": "course", "courseId": "CHEM 20L"},
-                {"type": "course", "courseId": "CHEM 30A"},
-                {"type": "course", "courseId": "CHEM 30AL"},
-                {"type": "course", "courseId": "CHEM 30B"},
-                {"type": "course", "courseId": "CHEM 30BL"}
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 20L"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30AL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "CHEM 30BL"
+                }
               ]
             }
           ]
@@ -68,10 +99,22 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {"type": "course", "courseId": "LIFESCI 7A"},
-            {"type": "course", "courseId": "LIFESCI 7B"},
-            {"type": "course", "courseId": "LIFESCI 7C"},
-            {"type": "course", "courseId": "LIFESCI 7L"}
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7A"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7B"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7C"
+            },
+            {
+              "type": "course",
+              "courseId": "LIFESCI 7L"
+            }
           ]
         },
         {
@@ -100,8 +143,14 @@
                   "description": "And select one of the following:",
                   "needs": 1,
                   "options": [
-                    {"type": "course", "courseId": "LIFESCI 40"},
-                    {"type": "course", "courseId": "STATS 13"}
+                    {
+                      "type": "course",
+                      "courseId": "LIFESCI 40"
+                    },
+                    {
+                      "type": "course",
+                      "courseId": "STATS 13"
+                    }
                   ]
                 }
               ]
@@ -112,9 +161,18 @@
               "description": "Complete all three courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MATH 3A"},
-                {"type": "course", "courseId": "MATH 3B"},
-                {"type": "course", "courseId": "MATH 3C"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 3A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 3C"
+                }
               ]
             },
             {
@@ -123,9 +181,18 @@
               "description": "Complete all three courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "MATH 31A"},
-                {"type": "course", "courseId": "MATH 31B"},
-                {"type": "course", "courseId": "MATH 32A"}
+                {
+                  "type": "course",
+                  "courseId": "MATH 31A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 31B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "MATH 32A"
+                }
               ]
             }
           ]
@@ -142,11 +209,26 @@
               "description": "Complete all five courses in this series.",
               "needs": 5,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 1A"},
-                {"type": "course", "courseId": "PHYSICS 1B"},
-                {"type": "course", "courseId": "PHYSICS 1C"},
-                {"type": "course", "courseId": "PHYSICS 4AL"},
-                {"type": "course", "courseId": "PHYSICS 4BL"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 1C"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 4AL"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 4BL"
+                }
               ]
             },
             {
@@ -155,9 +237,18 @@
               "description": "Complete all three courses in this series.",
               "needs": 3,
               "options": [
-                {"type": "course", "courseId": "PHYSICS 5A"},
-                {"type": "course", "courseId": "PHYSICS 5B"},
-                {"type": "course", "courseId": "PHYSICS 5C"}
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5A"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5B"
+                },
+                {
+                  "type": "course",
+                  "courseId": "PHYSICS 5C"
+                }
               ]
             }
           ]
@@ -194,8 +285,7 @@
           "title": "Upper-Division Physiological Science Electives",
           "description": "Complete a total of five upper-division physiological science electives. Eight units of course 199 or 4 units each (8 units total) of courses 198A and 198B, for students in the departmental honors program, may be applied toward the elective requirement.",
           "needs": 5,
-          "options": [
-          ]
+          "options": []
         }
       ]
     },
@@ -203,15 +293,13 @@
       "id": "honors-program",
       "title": "Honors Program",
       "description": "The honors program provides exceptional students with the opportunity for individual research culminating in an honors thesis. Students must have a 3.0 overall grade-point average (GPA) and a 3.2 GPA in the Life Sciences core curriculum to participate. After completion of all requirements and with the recommendation of the faculty adviser, the undergraduate affairs committee confers departmental honors at graduation.",
-      "requirements": [
-      ]
+      "requirements": []
     },
     {
       "id": "policies",
       "title": "Policies",
       "description": "For all preparation courses, students must complete each course with a grade of C or better. Repetition of more than one preparation course results in dismissal from the major. For the major, each required and elective course must be taken for a letter grade, and a C average must be maintained in all upper-division courses taken for the major. A grade of C or better is required in Physiological Science 107 and 111A to enroll in course 111B. One 200-level graduate course may be applied toward the elective requirement with departmental approval. Courses 189HC, 191H, 192, 193, 195, 196, and graduate courses at the 300, 400, or 500 level may not be applied toward the elective requirement.",
-      "requirements": [
-      ]
+      "requirements": []
     }
   ]
 }

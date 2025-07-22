@@ -41,7 +41,5 @@ export function initializeSchedulingService(): void {
   // Auto-reassign past quarters to completed status
   const reassignedCourses = schedulingService.reassignPastQuarters();
   
-  if (reassignedCourses.length > 0) {
-    console.log(`Auto-reassigned ${reassignedCourses.length} courses from past quarters to completed:`, reassignedCourses);
-  }
+
 }
