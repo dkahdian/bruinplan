@@ -48,7 +48,25 @@
           "title": "World Music Specializations and Performance Organizations",
           "description": "Complete 4 units from: World Music Specializations: Ethnomusicology 68A through 68O or World Music Performance Organizations: Ethnomusicology 91A through 91Z (except 91E and 91P)",
           "needs": 1,
-          "options": []
+          "options": [
+            { "type": "course", "courseId": "ETHNMUS 68A" },
+            { "type": "course", "courseId": "ETHNMUS 68B" },
+            { "type": "course", "courseId": "ETHNMUS 68C" },
+            { "type": "course", "courseId": "ETHNMUS 68F" },
+            { "type": "course", "courseId": "ETHNMUS 68G" },
+            { "type": "course", "courseId": "ETHNMUS 68M" },
+            { "type": "course", "courseId": "ETHNMUS 68N" },
+            { "type": "course", "courseId": "ETHNMUS 68O" },
+            { "type": "course", "courseId": "ETHNMUS 91A" },
+            { "type": "course", "courseId": "ETHNMUS 91B" },
+            { "type": "course", "courseId": "ETHNMUS 91G" },
+            { "type": "course", "courseId": "ETHNMUS 91H" },
+            { "type": "course", "courseId": "ETHNMUS 91J" },
+            { "type": "course", "courseId": "ETHNMUS 91K" },
+            { "type": "course", "courseId": "ETHNMUS 91L" },
+            { "type": "course", "courseId": "ETHNMUS 91N" },
+            { "type": "course", "courseId": "ETHNMUS 91Z" }
+          ]
         },
         {
           "type": "group",
@@ -71,7 +89,16 @@
           "title": "Jazz Performance",
           "description": "Complete 12 units from the following. Students must enroll in a studio each quarter. Global Jazz Studies 71A through 71I",
           "needs": 1,
-          "options": []
+          "options": [
+            { "type": "course", "courseId": "GJ STDS 71A" },
+            { "type": "course", "courseId": "GJ STDS 71B" },
+            { "type": "course", "courseId": "GJ STDS 71C" },
+            { "type": "course", "courseId": "GJ STDS 71D" },
+            { "type": "course", "courseId": "GJ STDS 71E" },
+            { "type": "course", "courseId": "GJ STDS 71F" },
+            { "type": "course", "courseId": "GJ STDS 71G" },
+            { "type": "course", "courseId": "GJ STDS 71I" }
+          ]
         },
         {
           "type": "group",
@@ -111,7 +138,16 @@
               "title": "Studio Coursework (12 units)",
               "description": "Global Jazz Studies 171A through 171I",
               "needs": 1,
-              "options": []
+          "options": [
+            { "type": "course", "courseId": "GJ STDS 171A" },
+            { "type": "course", "courseId": "GJ STDS 171B" },
+            { "type": "course", "courseId": "GJ STDS 171C" },
+            { "type": "course", "courseId": "GJ STDS 171D" },
+            { "type": "course", "courseId": "GJ STDS 171E" },
+            { "type": "course", "courseId": "GJ STDS 171F" },
+            { "type": "course", "courseId": "GJ STDS 171G" },
+            { "type": "course", "courseId": "GJ STDS 171I" }
+          ]
             },
             {
               "type": "group",
@@ -130,7 +166,15 @@
               "title": "Large Jazz Ensemble (8 units)",
               "description": "Global Jazz Studies 176A through 176G",
               "needs": 1,
-              "options": []
+          "options": [
+            { "type": "course", "courseId": "GJ STDS 176A" },
+            { "type": "course", "courseId": "GJ STDS 176B" },
+            { "type": "course", "courseId": "GJ STDS 176C" },
+            { "type": "course", "courseId": "GJ STDS 176D" },
+            { "type": "course", "courseId": "GJ STDS 176E" },
+            { "type": "course", "courseId": "GJ STDS 176F" },
+            { "type": "course", "courseId": "GJ STDS 176G" }
+          ]
             }
           ]
         },

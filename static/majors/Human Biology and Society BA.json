@@ -7,12 +7,6 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "entry-to-the-major",
-      "title": "Entry to the Major",
-      "description": "Admission",
-      "requirements": []
-    },
-    {
       "id": "preparation-for-the-major",
       "title": "Preparation for the Major",
       "description": "Complete one core course, six required courses, and four social theory courses as follows:",
@@ -300,7 +294,72 @@
               "title": "Clusters Range",
               "description": "Select one course from Clusters M1A through 80CW.",
               "needs": 1,
-              "options": []
+              "options": [
+                { "type": "course", "courseId": "CLUSTER M1A" },
+                { "type": "course", "courseId": "CLUSTER M1B" },
+                { "type": "course", "courseId": "CLUSTER M1CW" },
+                { "type": "course", "courseId": "CLUSTER 2A" },
+                { "type": "course", "courseId": "CLUSTER 2B" },
+                { "type": "course", "courseId": "CLUSTER 2CW" },
+                { "type": "course", "courseId": "CLUSTER 10A" },
+                { "type": "course", "courseId": "CLUSTER 10B" },
+                { "type": "course", "courseId": "CLUSTER 10CW" },
+                { "type": "course", "courseId": "CLUSTER 10WX" },
+                { "type": "course", "courseId": "CLUSTER 20A" },
+                { "type": "course", "courseId": "CLUSTER 20B" },
+                { "type": "course", "courseId": "CLUSTER 20CW" },
+                { "type": "course", "courseId": "CLUSTER 21A" },
+                { "type": "course", "courseId": "CLUSTER 21B" },
+                { "type": "course", "courseId": "CLUSTER 21CW" },
+                { "type": "course", "courseId": "CLUSTER 22A" },
+                { "type": "course", "courseId": "CLUSTER 22B" },
+                { "type": "course", "courseId": "CLUSTER 22CW" },
+                { "type": "course", "courseId": "CLUSTER 23A" },
+                { "type": "course", "courseId": "CLUSTER 23B" },
+                { "type": "course", "courseId": "CLUSTER 23CW" },
+                { "type": "course", "courseId": "CLUSTER M24A" },
+                { "type": "course", "courseId": "CLUSTER M24B" },
+                { "type": "course", "courseId": "CLUSTER M24CW" },
+                { "type": "course", "courseId": "CLUSTER 25A" },
+                { "type": "course", "courseId": "CLUSTER 25B" },
+                { "type": "course", "courseId": "CLUSTER 25CW" },
+                { "type": "course", "courseId": "CLUSTER 26A" },
+                { "type": "course", "courseId": "CLUSTER 26B" },
+                { "type": "course", "courseId": "CLUSTER 26CW" },
+                { "type": "course", "courseId": "CLUSTER M27A" },
+                { "type": "course", "courseId": "CLUSTER M27B" },
+                { "type": "course", "courseId": "CLUSTER M27CW" },
+                { "type": "course", "courseId": "CLUSTER 30A" },
+                { "type": "course", "courseId": "CLUSTER 30B" },
+                { "type": "course", "courseId": "CLUSTER 30CW" },
+                { "type": "course", "courseId": "CLUSTER 40A" },
+                { "type": "course", "courseId": "CLUSTER 40B" },
+                { "type": "course", "courseId": "CLUSTER 40CW" },
+                { "type": "course", "courseId": "CLUSTER 48A" },
+                { "type": "course", "courseId": "CLUSTER 48B" },
+                { "type": "course", "courseId": "CLUSTER 48CW" },
+                { "type": "course", "courseId": "CLUSTER 60A" },
+                { "type": "course", "courseId": "CLUSTER 60B" },
+                { "type": "course", "courseId": "CLUSTER 60CW" },
+                { "type": "course", "courseId": "CLUSTER 66A" },
+                { "type": "course", "courseId": "CLUSTER 66B" },
+                { "type": "course", "courseId": "CLUSTER 66CW" },
+                { "type": "course", "courseId": "CLUSTER 70A" },
+                { "type": "course", "courseId": "CLUSTER 70B" },
+                { "type": "course", "courseId": "CLUSTER 70CW" },
+                { "type": "course", "courseId": "CLUSTER M71A" },
+                { "type": "course", "courseId": "CLUSTER M71B" },
+                { "type": "course", "courseId": "CLUSTER M71CW" },
+                { "type": "course", "courseId": "CLUSTER M72A" },
+                { "type": "course", "courseId": "CLUSTER M72B" },
+                { "type": "course", "courseId": "CLUSTER M72CW" },
+                { "type": "course", "courseId": "CLUSTER 73A" },
+                { "type": "course", "courseId": "CLUSTER 73B" },
+                { "type": "course", "courseId": "CLUSTER 73CW" },
+                { "type": "course", "courseId": "CLUSTER 80A" },
+                { "type": "course", "courseId": "CLUSTER 80BX" },
+                { "type": "course", "courseId": "CLUSTER 80CW" }
+              ]
             }
           ]
         }
@@ -1447,18 +1506,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "honors-program",
-      "title": "Honors Program",
-      "description": "To receive departmental honors, students must take each course in the major for a letter grade and complete all upper-division courses in the major with an overall grade-point average of 3.5 or better. For highest departmental honors, students must complete a research project and receive a grade of A or better in Society and Genetics 108, 197, or 199.",
-      "requirements": []
-    },
-    {
-      "id": "policies",
-      "title": "Policies",
-      "description": "Preparation for the Major Policies",
-      "requirements": []
     }
   ]
 }

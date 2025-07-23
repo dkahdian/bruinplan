@@ -140,7 +140,16 @@
           "title": "Foreign Language",
           "description": "Complete one area-related foreign language sequence through the intermediate level. This can also be fulfilled by a placement examination. Examples of final courses in a sequence include ARABIC 102C, ARMENIA 102C, HEBREW 102C, IRANIAN 102C, TURKIC 102C, etc.",
           "needs": 1,
-          "options": []
+          "options": [
+            { "type": "course", "courseId": "ARABIC 102C" },
+            { "type": "course", "courseId": "ARMENIA 102C" },
+            { "type": "course", "courseId": "ARMENIA 105C" },
+            { "type": "course", "courseId": "HEBREW 102C" },
+            { "type": "course", "courseId": "IRANIAN 102C" },
+            { "type": "course", "courseId": "TURKIC 102C" },
+            { "type": "course", "courseId": "TURKIC 112C" },
+            { "type": "course", "courseId": "TURKIC 116C" }
+          ]
         }
       ]
     },

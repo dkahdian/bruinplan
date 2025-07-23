@@ -59,7 +59,29 @@
                   "title": "Select one from:",
                   "description": "Education 101 through 119",
                   "needs": 1,
-                  "options": []
+                "options": [
+                  { "type": "course", "courseId": "EDUC 101B" },
+                  { "type": "course", "courseId": "EDUC 101C" },
+                  { "type": "course", "courseId": "EDUC 104A" },
+                  { "type": "course", "courseId": "EDUC 105A" },
+                  { "type": "course", "courseId": "EDUC 105B" },
+                  { "type": "course", "courseId": "EDUC 105C" },
+                  { "type": "course", "courseId": "EDUC 105D" },
+                  { "type": "course", "courseId": "EDUC 105E" },
+                  { "type": "course", "courseId": "EDUC 106A" },
+                  { "type": "course", "courseId": "EDUC 106B" },
+                  { "type": "course", "courseId": "EDUC 106C" },
+                  { "type": "course", "courseId": "EDUC 107A" },
+                  { "type": "course", "courseId": "EDUC 107B" },
+                  { "type": "course", "courseId": "EDUC 109A" },
+                  { "type": "course", "courseId": "EDUC 109B" },
+                  { "type": "course", "courseId": "EDUC 111" },
+                  { "type": "course", "courseId": "EDUC 112" },
+                  { "type": "course", "courseId": "EDUC 113" },
+                  { "type": "course", "courseId": "EDUC 117" },
+                  { "type": "course", "courseId": "EDUC 118" },
+                  { "type": "course", "courseId": "EDUC 119" }
+                ]
                 }
               ]
             },
@@ -78,7 +100,31 @@
                   "title": "Select one from:",
                   "description": "Education 121 through 149",
                   "needs": 1,
-                  "options": []
+                "options": [
+                  { "type": "course", "courseId": "EDUC 123" },
+                  { "type": "course", "courseId": "EDUC 126" },
+                  { "type": "course", "courseId": "EDUC 127" },
+                  { "type": "course", "courseId": "EDUC 128" },
+                  { "type": "course", "courseId": "EDUC 130AX" },
+                  { "type": "course", "courseId": "EDUC 130BX" },
+                  { "type": "course", "courseId": "EDUC 130CX" },
+                  { "type": "course", "courseId": "EDUC 130EX" },
+                  { "type": "course", "courseId": "EDUC 132" },
+                  { "type": "course", "courseId": "EDUC 133" },
+                  { "type": "course", "courseId": "EDUC 134" },
+                  { "type": "course", "courseId": "EDUC 138" },
+                  { "type": "course", "courseId": "EDUC 139" },
+                  { "type": "course", "courseId": "EDUC 140" },
+                  { "type": "course", "courseId": "EDUC 141" },
+                  { "type": "course", "courseId": "EDUC 143" },
+                  { "type": "course", "courseId": "EDUC 144" },
+                  { "type": "course", "courseId": "EDUC 144XP" },
+                  { "type": "course", "courseId": "EDUC 145" },
+                  { "type": "course", "courseId": "EDUC 146" },
+                  { "type": "course", "courseId": "EDUC 147" },
+                  { "type": "course", "courseId": "EDUC 148" },
+                  { "type": "course", "courseId": "EDUC 149" }
+                ]
                 }
               ]
             },
@@ -101,7 +147,19 @@
                   "title": "Select one from:",
                   "description": "Education 151 through 155 or Education 157 through 169",
                   "needs": 1,
-                  "options": []
+                "options": [
+                  { "type": "course", "courseId": "EDUC 151" },
+                  { "type": "course", "courseId": "EDUC 152" },
+                  { "type": "course", "courseId": "EDUC 153" },
+                  { "type": "course", "courseId": "EDUC 154" },
+                  { "type": "course", "courseId": "EDUC 155" },
+                  { "type": "course", "courseId": "EDUC 157" },
+                  { "type": "course", "courseId": "EDUC 159" },
+                  { "type": "course", "courseId": "EDUC 160" },
+                  { "type": "course", "courseId": "EDUC 165" },
+                  { "type": "course", "courseId": "EDUC 166" },
+                  { "type": "course", "courseId": "EDUC 169" }
+                ]
                 }
               ]
             }
@@ -122,7 +180,20 @@
               "title": "Electives",
               "description": "Select one from Education 170 through 179",
               "needs": 1,
-              "options": []
+                "options": [
+                  { "type": "course", "courseId": "EDUC 170" },
+                  { "type": "course", "courseId": "EDUC 171" },
+                  { "type": "course", "courseId": "EDUC 172" },
+                  { "type": "course", "courseId": "EDUC 173" },
+                  { "type": "course", "courseId": "EDUC 174A" },
+                  { "type": "course", "courseId": "EDUC 174B" },
+                  { "type": "course", "courseId": "EDUC 174C" },
+                  { "type": "course", "courseId": "EDUC 175A" },
+                  { "type": "course", "courseId": "EDUC 175B" },
+                  { "type": "course", "courseId": "EDUC 175C" },
+                  { "type": "course", "courseId": "EDUC 175D" },
+                  { "type": "course", "courseId": "EDUC 176" }
+                ]
             }
           ]
         },

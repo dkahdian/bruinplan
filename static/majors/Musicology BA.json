@@ -66,21 +66,51 @@
               "title": "Ethnomusicology 68A through 68O",
               "description": "Select from this range.",
               "needs": 1,
-              "options": []
+            "options": [
+              {"type": "course", "courseId": "ETHNMUS 68A"},
+              {"type": "course", "courseId": "ETHNMUS 68B"},
+              {"type": "course", "courseId": "ETHNMUS 68C"},
+              {"type": "course", "courseId": "ETHNMUS 68F"},
+              {"type": "course", "courseId": "ETHNMUS 68G"},
+              {"type": "course", "courseId": "ETHNMUS 68M"},
+              {"type": "course", "courseId": "ETHNMUS 68N"},
+              {"type": "course", "courseId": "ETHNMUS 68O"}
+            ]
             },
             {
               "type": "group",
               "title": "Ethnomusicology 91A through 91Z",
               "description": "Select from this range.",
               "needs": 1,
-              "options": []
+            "options": [
+              {"type": "course", "courseId": "ETHNMUS 91A"},
+              {"type": "course", "courseId": "ETHNMUS 91B"},
+              {"type": "course", "courseId": "ETHNMUS 91E"},
+              {"type": "course", "courseId": "ETHNMUS 91G"},
+              {"type": "course", "courseId": "ETHNMUS 91H"},
+              {"type": "course", "courseId": "ETHNMUS 91J"},
+              {"type": "course", "courseId": "ETHNMUS 91K"},
+              {"type": "course", "courseId": "ETHNMUS 91L"},
+              {"type": "course", "courseId": "ETHNMUS 91N"},
+              {"type": "course", "courseId": "ETHNMUS 91P"},
+              {"type": "course", "courseId": "ETHNMUS 91Z"}
+            ]
             },
             {
               "type": "group",
               "title": "Ethnomusicology 168A through 168O",
               "description": "Select from this range.",
               "needs": 1,
-              "options": []
+            "options": [
+              {"type": "course", "courseId": "ETHNMUS 168A"},
+              {"type": "course", "courseId": "ETHNMUS 168B"},
+              {"type": "course", "courseId": "ETHNMUS 168C"},
+              {"type": "course", "courseId": "ETHNMUS 168F"},
+              {"type": "course", "courseId": "ETHNMUS 168G"},
+              {"type": "course", "courseId": "ETHNMUS 168M"},
+              {"type": "course", "courseId": "ETHNMUS 168N"},
+              {"type": "course", "courseId": "ETHNMUS 168O"}
+            ]
             },
             {
               "type": "course",

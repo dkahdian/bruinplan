@@ -13,13 +13,6 @@
       "requirements": [
         {
           "type": "group",
-          "title": "Admission",
-          "description": "To declare the major, students must have completed two geography courses with a grade-point average of 2.0 or better.",
-          "needs": 2,
-          "options": []
-        },
-        {
-          "type": "group",
           "title": "Transfer Students",
           "description": "Transfer applicants to the Geography major with 90 or more units must complete as many of the following introductory courses as possible prior to admission to UCLA. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
           "needs": 3,

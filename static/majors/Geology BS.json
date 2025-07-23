@@ -7,12 +7,6 @@
   "degreeObjective": "Bachelor of Science",
   "sections": [
     {
-      "id": "entry",
-      "title": "Entry to the Major",
-      "description": "Transfer applicants to the Geology major with 90 or more quarter units (60 semester units) must have completed one introductory Earth sciences course with laboratory, one calculus course, and one general chemistry course with laboratory for majors. A second calculus course and a second general chemistry course are recommended. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
-      "requirements": []
-    },
-    {
       "id": "preparation",
       "title": "Preparation for the Major",
       "description": "Complete 12 to 14 courses as follows:",
@@ -42,7 +36,13 @@
                   "title": "EPSS 3-17",
                   "description": "Earth, Planetary, and Space Sciences 3 through 17",
                   "needs": 1,
-                  "options": []
+                "options": [
+                  { "type": "course", "courseId": "EPS SCI 10" },
+                  { "type": "course", "courseId": "EPS SCI 13" },
+                  { "type": "course", "courseId": "EPS SCI 15" },
+                  { "type": "course", "courseId": "EPS SCI 16" },
+                  { "type": "course", "courseId": "EPS SCI 17" }
+                ]
                 }
               ]
             },
@@ -363,12 +363,6 @@
           "courseId": "EPS SCI 198"
         }
       ]
-    },
-    {
-      "id": "policies",
-      "title": "Policies",
-      "description": "Preparation for the Major: Each course must be passed with a minimum grade of C-.",
-      "requirements": []
     }
   ]
 }

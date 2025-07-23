@@ -425,7 +425,17 @@
               "title": "Psychology 133 Series",
               "description": "Select one course from PSYCH 133A through 133I.",
               "needs": 1,
-              "options": []
+              "options": [
+                {"type": "course", "courseId": "PSYCH 133A"},
+                {"type": "course", "courseId": "PSYCH 133B"},
+                {"type": "course", "courseId": "PSYCH 133C"},
+                {"type": "course", "courseId": "PSYCH 133D"},
+                {"type": "course", "courseId": "PSYCH 133E"},
+                {"type": "course", "courseId": "PSYCH 133F"},
+                {"type": "course", "courseId": "PSYCH 133G"},
+                {"type": "course", "courseId": "PSYCH 133I"},
+                {"type": "course", "courseId": "PSYCH 133J"}
+              ]
             }
           ]
         },
@@ -668,7 +678,27 @@
               "title": "Psychology 119 Series",
               "description": "Select from PSYCH 119A through 119Y",
               "needs": 1,
-              "options": []
+              "options": [
+                {"type": "course", "courseId": "PSYCH 119A"},
+                {"type": "course", "courseId": "PSYCH 119B"},
+                {"type": "course", "courseId": "PSYCH 119C"},
+                {"type": "course", "courseId": "PSYCH 119D"},
+                {"type": "course", "courseId": "PSYCH 119E"},
+                {"type": "course", "courseId": "PSYCH 119F"},
+                {"type": "course", "courseId": "PSYCH 119I"},
+                {"type": "course", "courseId": "PSYCH 119J"},
+                {"type": "course", "courseId": "PSYCH 119K"},
+                {"type": "course", "courseId": "PSYCH M119L"},
+                {"type": "course", "courseId": "PSYCH 119M"},
+                {"type": "course", "courseId": "PSYCH M119N"},
+                {"type": "course", "courseId": "PSYCH M119O"},
+                {"type": "course", "courseId": "PSYCH 119P"},
+                {"type": "course", "courseId": "PSYCH 119Q"},
+                {"type": "course", "courseId": "PSYCH 119U"},
+                {"type": "course", "courseId": "PSYCH 119V"},
+                {"type": "course", "courseId": "PSYCH M119X"},
+                {"type": "course", "courseId": "PSYCH 119Y"}
+              ]
             }
           ]
         }

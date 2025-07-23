@@ -207,7 +207,28 @@
           "title": "Electives",
           "description": "Select two courses from:",
           "needs": 2,
-          "options": []
+          "options": [
+            {
+              "type": "group",
+              "title": "Mathematics Electives",
+              "description": "Select two courses from Mathematics 149 through 159.",
+              "needs": 2,
+              "options": [
+                { "type": "course", "courseId": "MATH 149" },
+                { "type": "course", "courseId": "MATH 151A" },
+                { "type": "course", "courseId": "MATH 151B" },
+                { "type": "course", "courseId": "MATH 152A" },
+                { "type": "course", "courseId": "MATH 152B" },
+                { "type": "course", "courseId": "MATH 153" },
+                { "type": "course", "courseId": "MATH 154" },
+                { "type": "course", "courseId": "MATH 155" },
+                { "type": "course", "courseId": "MATH 156" },
+                { "type": "course", "courseId": "MATH 157" },
+                { "type": "course", "courseId": "MATH 158" },
+                { "type": "course", "courseId": "MATH 159" }
+              ]
+            }
+          ]
         }
       ]
     },

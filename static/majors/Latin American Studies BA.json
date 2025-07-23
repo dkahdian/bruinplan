@@ -7,24 +7,6 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "study-abroad",
-      "title": "Study Abroad",
-      "description": "Latin American Studies majors are highly encouraged to study abroad. Students can travel to all areas through a variety of programs with various lengths (summer or during the academic year).",
-      "requirements": []
-    },
-    {
-      "id": "capstone-major-overview",
-      "title": "Capstone Major",
-      "description": "The Latin American Studies major is a designated capstone major. Students must complete a capstone seminar or travel-abroad program in which they engage in an in-depth analysis of a specific region or a thematic subject that spans regions. Through conceiving and executing a project, students demonstrate their working knowledge of scholarly discourse relative to a specialized topic. Student research, analytic, and writing skills are exhibited through their capstone work, along with their collaborative and oral communication skills.",
-      "requirements": []
-    },
-    {
-      "id": "entry-to-the-major",
-      "title": "Entry to the Major",
-      "description": "To be eligible to declare the Latin American Studies major, students must have completed International and Area Studies 1 with a grade of C or better. The Latin American Studies major requires students to complete the intermediate level of two foreign languages by graduation in order to fulfill all preparation requirements.",
-      "requirements": []
-    },
-    {
       "id": "preparation-for-the-major",
       "title": "Preparation for the Major",
       "description": "Complete International and Area Studies 1, one area studies course, two international politics and markets courses, two international societies and cultures courses, and two area-related foreign language sequences through the intermediate level as follows:",
@@ -951,12 +933,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "policies",
-      "title": "Policies",
-      "description": "Preparation for the Major Policies: Each course must be taken for a letter grade.",
-      "requirements": []
     }
   ]
 }

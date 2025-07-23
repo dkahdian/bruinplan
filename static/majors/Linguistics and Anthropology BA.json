@@ -166,23 +166,70 @@
             {
               "type": "group",
               "title": "Anthropology 130 series",
-              "description": "Only one course may apply. Anthropology 130 through 139.",
-              "needs": 1,
-              "options": []
+          "description": "Only one course may apply. Anthropology 130 through 139.",
+          "needs": 1,
+          "options": [
+            { "type": "course", "courseId": "ANTHRO 130" },
+            { "type": "course", "courseId": "ANTHRO 131" },
+            { "type": "course", "courseId": "ANTHRO 132" },
+            { "type": "course", "courseId": "ANTHRO 133" },
+            { "type": "course", "courseId": "ANTHRO 134" },
+            { "type": "course", "courseId": "ANTHRO 135" },
+            { "type": "course", "courseId": "ANTHRO 135R" },
+            { "type": "course", "courseId": "ANTHRO 135S" },
+            { "type": "course", "courseId": "ANTHRO 136A" },
+            { "type": "course", "courseId": "ANTHRO 136B" },
+            { "type": "course", "courseId": "ANTHRO 136M" },
+            { "type": "course", "courseId": "ANTHRO 137P" },
+            { "type": "course", "courseId": "ANTHRO 137Q" },
+            { "type": "course", "courseId": "ANTHRO 138P" },
+            { "type": "course", "courseId": "ANTHRO M138Q" },
+            { "type": "course", "courseId": "ANTHRO 139" }
+          ]
             },
             {
               "type": "group",
               "title": "Anthropology 150 series",
-              "description": "Only one course may apply. Anthropology 150 through 159.",
-              "needs": 1,
-              "options": []
+          "description": "Only one course may apply. Anthropology 150 through 159.",
+          "needs": 1,
+          "options": [
+            { "type": "course", "courseId": "ANTHRO M150" },
+            { "type": "course", "courseId": "ANTHRO 151" },
+            { "type": "course", "courseId": "ANTHRO M152P" },
+            { "type": "course", "courseId": "ANTHRO 152Q" },
+            { "type": "course", "courseId": "ANTHRO 152R" },
+            { "type": "course", "courseId": "ANTHRO 153" },
+            { "type": "course", "courseId": "ANTHRO 154P" },
+            { "type": "course", "courseId": "ANTHRO 154Q" },
+            { "type": "course", "courseId": "ANTHRO 154SL" },
+            { "type": "course", "courseId": "ANTHRO 155" },
+            { "type": "course", "courseId": "ANTHRO M156" },
+            { "type": "course", "courseId": "ANTHRO C157P" },
+            { "type": "course", "courseId": "ANTHRO M158" },
+            { "type": "course", "courseId": "ANTHRO 158P" },
+            { "type": "course", "courseId": "ANTHRO 159" }
+          ]
             },
             {
               "type": "group",
               "title": "Anthropology 160 series",
-              "description": "Only one course may apply. Anthropology 160 through 169.",
-              "needs": 1,
-              "options": []
+          "description": "Only one course may apply. Anthropology 160 through 169.",
+          "needs": 1,
+          "options": [
+            { "type": "course", "courseId": "ANTHRO 160A" },
+            { "type": "course", "courseId": "ANTHRO 160B" },
+            { "type": "course", "courseId": "ANTHRO 161" },
+            { "type": "course", "courseId": "ANTHRO 162" },
+            { "type": "course", "courseId": "ANTHRO 163P" },
+            { "type": "course", "courseId": "ANTHRO 163Q" },
+            { "type": "course", "courseId": "ANTHRO 163R" },
+            { "type": "course", "courseId": "ANTHRO 166P" },
+            { "type": "course", "courseId": "ANTHRO M166Q" },
+            { "type": "course", "courseId": "ANTHRO 167" },
+            { "type": "course", "courseId": "ANTHRO 168P" },
+            { "type": "course", "courseId": "ANTHRO M168Q" },
+            { "type": "course", "courseId": "ANTHRO 169" }
+          ]
             },
             {
               "type": "group",

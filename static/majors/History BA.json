@@ -166,7 +166,23 @@
               "title": "Introduction to Historical Practice Series",
               "description": "Any course from History 97A through 97O",
               "needs": 1,
-              "options": []
+              "options": [
+                { "type": "course", "courseId": "HIST 97A" },
+                { "type": "course", "courseId": "HIST 97B" },
+                { "type": "course", "courseId": "HIST 97C" },
+                { "type": "course", "courseId": "HIST 97D" },
+                { "type": "course", "courseId": "HIST 97E" },
+                { "type": "course", "courseId": "HIST 97F" },
+                { "type": "course", "courseId": "HIST 97G" },
+                { "type": "course", "courseId": "HIST 97H" },
+                { "type": "course", "courseId": "HIST 97I" },
+                { "type": "course", "courseId": "HIST 97J" },
+                { "type": "course", "courseId": "HIST 97K" },
+                { "type": "course", "courseId": "HIST 97L" },
+                { "type": "course", "courseId": "HIST 97M" },
+                { "type": "course", "courseId": "HIST 97N" },
+                { "type": "course", "courseId": "HIST 97O" }
+              ]
             }
           ]
         },

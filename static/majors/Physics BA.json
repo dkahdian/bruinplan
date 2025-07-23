@@ -179,7 +179,19 @@
           "title": "Elective Course",
           "description": "Select one course from the Physics 170 or 180 series.",
           "needs": 1,
-          "options": []
+          "options": [
+            {"type": "course", "courseId": "PHYSICS 170A"},
+            {"type": "course", "courseId": "PHYSICS 170E"},
+            {"type": "course", "courseId": "PHYSICS C170M"},
+            {"type": "course", "courseId": "PHYSICS 170N"},
+            {"type": "course", "courseId": "PHYSICS 180A"},
+            {"type": "course", "courseId": "PHYSICS 180C"},
+            {"type": "course", "courseId": "PHYSICS 180D"},
+            {"type": "course", "courseId": "PHYSICS 180E"},
+            {"type": "course", "courseId": "PHYSICS 180F"},
+            {"type": "course", "courseId": "PHYSICS M180G"},
+            {"type": "course", "courseId": "PHYSICS 180Q"}
+          ]
         }
       ]
     }

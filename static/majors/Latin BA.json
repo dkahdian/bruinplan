@@ -7,12 +7,6 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "entry-to-the-major",
-      "title": "Entry to the Major",
-      "description": "Transfer applicants to the Latin major with 90 or more units must complete as many of the following introductory courses as possible prior to admission to UCLA: one year of Latin and related courses in civilization, culture, history, linguistics, literature, and closely related languages. Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
-      "requirements": []
-    },
-    {
       "id": "major-requirements",
       "title": "Major Requirements",
       "description": "The major requires completion of preparation courses and upper-division major courses.",
@@ -90,7 +84,38 @@
                   "title": "Additional Latin Courses",
                   "description": "Select six additional upper-division Latin courses.",
                   "needs": 6,
-                  "options": []
+                  "options": [
+                    { "type": "course", "courseId": "LATIN 100" },
+                    { "type": "course", "courseId": "LATIN 101" },
+                    { "type": "course", "courseId": "LATIN 102" },
+                    { "type": "course", "courseId": "LATIN 103" },
+                    { "type": "course", "courseId": "LATIN 104" },
+                    { "type": "course", "courseId": "LATIN 105A" },
+                    { "type": "course", "courseId": "LATIN 105B" },
+                    { "type": "course", "courseId": "LATIN 106" },
+                    { "type": "course", "courseId": "LATIN 107" },
+                    { "type": "course", "courseId": "LATIN 108" },
+                    { "type": "course", "courseId": "LATIN 109" },
+                    { "type": "course", "courseId": "LATIN 111" },
+                    { "type": "course", "courseId": "LATIN 112" },
+                    { "type": "course", "courseId": "LATIN 113" },
+                    { "type": "course", "courseId": "LATIN 114" },
+                    { "type": "course", "courseId": "LATIN 115" },
+                    { "type": "course", "courseId": "LATIN 116" },
+                    { "type": "course", "courseId": "LATIN 117" },
+                    { "type": "course", "courseId": "LATIN 118" },
+                    { "type": "course", "courseId": "LATIN 119A" },
+                    { "type": "course", "courseId": "LATIN 119B" },
+                    { "type": "course", "courseId": "LATIN 120" },
+                    { "type": "course", "courseId": "LATIN 121" },
+                    { "type": "course", "courseId": "LATIN 130" },
+                    { "type": "course", "courseId": "LATIN 131" },
+                    { "type": "course", "courseId": "LATIN 133" },
+                    { "type": "course", "courseId": "LATIN 189" },
+                    { "type": "course", "courseId": "LATIN 189HC" },
+                    { "type": "course", "courseId": "LATIN 197" },
+                    { "type": "course", "courseId": "LATIN 199" }
+                  ]
                 }
               ]
             },

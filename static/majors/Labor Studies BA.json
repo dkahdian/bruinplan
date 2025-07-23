@@ -7,18 +7,6 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "capstone_major",
-      "title": "Capstone Major",
-      "description": "The Labor Studies major is a designated capstone major. Undergraduate students fulfill a research-intensive capstone course or service learning experience in their senior year.",
-      "requirements": []
-    },
-    {
-      "id": "entry",
-      "title": "Entry to the Major",
-      "description": "Admission",
-      "requirements": []
-    },
-    {
       "id": "preparation",
       "title": "Preparation for the Major",
       "description": "Students must complete one of the following two options:",
@@ -463,12 +451,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "policies",
-      "title": "Policies",
-      "description": "Preparation for the Major Policies",
-      "requirements": []
     }
   ]
 }

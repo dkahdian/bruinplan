@@ -314,7 +314,25 @@
               "title": "Chemistry and Biochemistry Elective",
               "description": "Complete one additional upper-division or graduate course in chemistry and biochemistry.",
               "needs": 1,
-              "options": []
+              "options": [
+                { "type": "course", "courseId": "CHEM 101" },
+                { "type": "course", "courseId": "CHEM 103" },
+                { "type": "course", "courseId": "CHEM 114" },
+                { "type": "course", "courseId": "CHEM 118" },
+                { "type": "course", "courseId": "CHEM 121" },
+                { "type": "course", "courseId": "CHEM 136" },
+                { "type": "course", "courseId": "CHEM 144" },
+                { "type": "course", "courseId": "CHEM 147" },
+                { "type": "course", "courseId": "CHEM 151" },
+                { "type": "course", "courseId": "CHEM 154" },
+                { "type": "course", "courseId": "CHEM 156" },
+                { "type": "course", "courseId": "CHEM 166" },
+                { "type": "course", "courseId": "CHEM 171" },
+                { "type": "course", "courseId": "CHEM 184" },
+                { "type": "course", "courseId": "CHEM 189" },
+                { "type": "course", "courseId": "CHEM 194" },
+                { "type": "course", "courseId": "CHEM 199" }
+              ]
             },
             {
               "type": "group",

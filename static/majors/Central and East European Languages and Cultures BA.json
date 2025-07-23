@@ -7,20 +7,6 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "entry",
-      "title": "Entry to the Major",
-      "description": "Refer to the UCLA transfer admission guide for up-to-date information regarding transfer selection for admission.",
-      "requirements": [
-        {
-          "type": "group",
-          "title": "Transfer Student Requirement",
-          "description": "Transfer applicants to the Central and East European Languages and Cultures major with 90 or more units must complete the following introductory course prior to admission to UCLA: one culture, history, or civilization course on one or more European nations.",
-          "needs": 1,
-          "options": []
-        }
-      ]
-    },
-    {
       "id": "preparation",
       "title": "Preparation for the Major",
       "description": "Select one course from:",

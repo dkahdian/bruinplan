@@ -52,7 +52,19 @@
           "title": "Art History Elective",
           "description": "Select one course from: Art History 20 through 31",
           "needs": 1,
-          "options": []
+          "options": [
+            {"type": "course", "courseId": "ART HIS 20"},
+            {"type": "course", "courseId": "ART HIS 21"},
+            {"type": "course", "courseId": "ART HIS 22"},
+            {"type": "course", "courseId": "ART HIS 23"},
+            {"type": "course", "courseId": "ART HIS 24"},
+            {"type": "course", "courseId": "ART HIS 25"},
+            {"type": "course", "courseId": "ART HIS 27"},
+            {"type": "course", "courseId": "ART HIS 28"},
+            {"type": "course", "courseId": "ART HIS 29"},
+            {"type": "course", "courseId": "ART HIS 30"},
+            {"type": "course", "courseId": "ART HIS 31"}
+          ]
         }
       ]
     },
@@ -154,15 +166,35 @@
           "title": "Art Electives",
           "description": "Complete 8 units of art electives.",
           "needs": 1,
-          "options": []
+          "options": [
+            {"type": "course", "courseId": "ART 100"},
+            {"type": "course", "courseId": "ART 130"},
+            {"type": "course", "courseId": "ART 130A"},
+            {"type": "course", "courseId": "ART 132"},
+            {"type": "course", "courseId": "ART 133"},
+            {"type": "course", "courseId": "ART 133A"},
+            {"type": "course", "courseId": "ART 137"},
+            {"type": "course", "courseId": "ART 137A"},
+            {"type": "course", "courseId": "ART 140"},
+            {"type": "course", "courseId": "ART 145"},
+            {"type": "course", "courseId": "ART 145A"},
+            {"type": "course", "courseId": "ART 147"},
+            {"type": "course", "courseId": "ART 147A"},
+            {"type": "course", "courseId": "ART 148"},
+            {"type": "course", "courseId": "ART 148A"},
+            {"type": "course", "courseId": "ART 149"},
+            {"type": "course", "courseId": "ART 149A"},
+            {"type": "course", "courseId": "ART 150"},
+            {"type": "course", "courseId": "ART 170"},
+            {"type": "course", "courseId": "ART 189"},
+            {"type": "course", "courseId": "ART 190"},
+            {"type": "course", "courseId": "ART 193"},
+            {"type": "course", "courseId": "ART 195"},
+            {"type": "course", "courseId": "ART 197"},
+            {"type": "course", "courseId": "ART 198"}
+          ]
         }
       ]
-    },
-    {
-      "id": "policies",
-      "title": "Policies",
-      "description": "Each course applied toward major requirements must be taken for a letter grade, with the exception of Art 190, 193, and 195, which are offered only on a Passed/Not Passed grading basis. Of those, no more than 4 units total may be applied toward the upper-division art elective requirement.",
-      "requirements": []
     }
   ]
 }

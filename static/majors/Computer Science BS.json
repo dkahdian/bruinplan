@@ -191,7 +191,41 @@
           "title": "Computer Science Electives",
           "description": "Complete a minimum of 28 units (seven courses) from Computer Science 100 through CM187, except COM SCI M148. Up to 8 units of Computer Science 188 may be applied.",
           "needs": 7,
-          "options": []
+          "options": [
+            { "type": "course", "courseId": "COM SCI 100" },
+            { "type": "course", "courseId": "COM SCI 111" },
+            { "type": "course", "courseId": "COM SCI 112" },
+            { "type": "course", "courseId": "COM SCI 117" },
+            { "type": "course", "courseId": "COM SCI 118" },
+            { "type": "course", "courseId": "COM SCI 130" },
+            { "type": "course", "courseId": "COM SCI 131" },
+            { "type": "course", "courseId": "COM SCI 132" },
+            { "type": "course", "courseId": "COM SCI 133" },
+            { "type": "course", "courseId": "COM SCI 134" },
+            { "type": "course", "courseId": "COM SCI 136" },
+            { "type": "course", "courseId": "COM SCI 143" },
+            { "type": "course", "courseId": "COM SCI 144" },
+            { "type": "course", "courseId": "COM SCI 145" },
+            { "type": "course", "courseId": "COM SCI 152B" },
+            { "type": "course", "courseId": "COM SCI 161" },
+            { "type": "course", "courseId": "COM SCI 162" },
+            { "type": "course", "courseId": "COM SCI 163" },
+            { "type": "course", "courseId": "COM SCI 168" },
+            { "type": "course", "courseId": "COM SCI 170A" },
+            { "type": "course", "courseId": "COM SCI 172" },
+            { "type": "course", "courseId": "COM SCI 174A" },
+            { "type": "course", "courseId": "COM SCI 174B" },
+            { "type": "course", "courseId": "COM SCI 180" },
+            { "type": "course", "courseId": "COM SCI 181" },
+            { "type": "course", "courseId": "COM SCI 183" },
+            { "type": "course", "courseId": "COM SCI 188" },
+            { "type": "course", "courseId": "COM SCI 188SA" },
+            { "type": "course", "courseId": "COM SCI 188SB" },
+            { "type": "course", "courseId": "COM SCI 188SC" },
+            { "type": "course", "courseId": "COM SCI 192" },
+            { "type": "course", "courseId": "COM SCI 194" },
+            { "type": "course", "courseId": "COM SCI 199" }
+          ]
         },
         {
           "type": "group",
@@ -208,12 +242,6 @@
           "options": []
         }
       ]
-    },
-    {
-      "id": "policies",
-      "title": "Policies",
-      "description": "Students must take at least one course from Computer Science 130 or 132. Computer Science 130 or 152B may be applied as an elective only if it is not taken as the capstone course. A petition may be submitted to consider four units of Computer Science 194 or 199 for an elective. Credit is not allowed for both Computer Science 170A and Electrical and Computer Engineering 133A unless one is applied toward the science and technology or technical breadth requirement. A multiple-listed (M) course offered in another department may be used instead of the same computer science course.",
-      "requirements": []
     }
   ]
 }

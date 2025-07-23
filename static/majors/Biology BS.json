@@ -7,12 +7,6 @@
   "degreeObjective": "Bachelor of Science",
   "sections": [
     {
-      "id": "entry",
-      "title": "Entry to the Major",
-      "description": "Transfer applicants to the Biology major with 90 or more units must complete the following introductory courses prior to admission to UCLA: one year of general biology with laboratory for majors, preferably equivalent to Life Sciences 7A, 7B, and 7C, one year of calculus, one year of general chemistry with laboratory for majors, and one semester of organic chemistry with laboratory. A second semester of organic chemistry or one year of calculus-based physics is strongly recommended but not required for admission.",
-      "requirements": []
-    },
-    {
       "id": "preparation",
       "title": "Preparation for the Major",
       "description": "Complete the Life Sciences Core Curriculum.",
@@ -2524,12 +2518,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "policies",
-      "title": "Policies",
-      "description": "Preparation for the Major Policies:",
-      "requirements": []
     }
   ]
 }

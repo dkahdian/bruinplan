@@ -212,9 +212,11 @@
 								transition:slide={{ duration: 300 }}
 							>
 								<p class="text-gray-700 text-sm mt-1">{requirement.description}</p>
-								<p class="text-blue-800 font-medium text-sm mt-1">
-									Select {requirement.needs} from {requirement.options.length} options:
-								</p>
+			{#if requirement.options.length !== requirement.needs}
+			<p class="text-blue-800 font-medium text-sm mt-1">
+				Select {requirement.needs} from {requirement.options.length} options:
+			</p>
+			{/if}
 							</div>
 						{/if}
 					</div>
@@ -263,9 +265,11 @@
 							{#if requirement.description}
 								<p class="text-gray-600 text-xs mt-1">{requirement.description}</p>
 							{/if}
-							<p class="font-medium text-xs mt-1">
-								<span class="text-blue-600">Select {requirement.needs} from {requirement.options.length} options</span>
-							</p>
+			{#if requirement.options.length !== requirement.needs}
+			<p class="font-medium text-xs mt-1">
+				<span class="text-blue-600">Select {requirement.needs} from {requirement.options.length} options</span>
+			</p>
+			{/if}
 						</div>
 					{/if}
 				</div>

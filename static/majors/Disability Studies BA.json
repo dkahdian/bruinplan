@@ -7,12 +7,6 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "entry",
-      "title": "Entry to the Major",
-      "description": "Admission: Students must first complete all preparation for the major courses. Students must have a UC grade-point average (GPA) of 2.0 or better in those courses and an overall GPA of 2.0. Students are accepted into the major on a rolling basis but no later than the end of spring quarter of their junior year.",
-      "requirements": []
-    },
-    {
       "id": "preparation",
       "title": "Preparation for the Major",
       "description": "Complete five courses as follows:",
@@ -267,7 +261,21 @@
               "title": "Disability Studies Electives",
               "description": "Select from Disability Studies 102 through 187",
               "needs": 1,
-              "options": []
+              "options": [
+                { "type": "course", "courseId": "DIS STD 102" },
+                { "type": "course", "courseId": "DIS STD 110" },
+                { "type": "course", "courseId": "DIS STD 111" },
+                { "type": "course", "courseId": "DIS STD 120" },
+                { "type": "course", "courseId": "DIS STD 129" },
+                { "type": "course", "courseId": "DIS STD 131" },
+                { "type": "course", "courseId": "DIS STD 138XP" },
+                { "type": "course", "courseId": "DIS STD 145" },
+                { "type": "course", "courseId": "DIS STD 150" },
+                { "type": "course", "courseId": "DIS STD 163A" },
+                { "type": "course", "courseId": "DIS STD 163B" },
+                { "type": "course", "courseId": "DIS STD 164B" },
+                { "type": "course", "courseId": "DIS STD 187" }
+              ]
             },
             {
               "type": "course",
@@ -835,12 +843,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "policies",
-      "title": "Policies",
-      "description": "Preparation for the Major Policies: All courses must be completed with a 2.0 or better grade-point average.",
-      "requirements": []
     }
   ]
 }

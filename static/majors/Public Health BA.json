@@ -148,14 +148,33 @@
           "title": "Public Health Electives",
           "description": "Complete three upper-division courses (minimum of 12 units) selected from the school's undergraduate course offerings. No more than 4 units from courses numbered 195 to 199 may be applied toward the elective requirement.",
           "needs": 3,
-          "options": []
+          "options": [
+            {"type": "course", "courseId": "PUB HLT M106"},
+            {"type": "course", "courseId": "PUB HLT C150"},
+            {"type": "course", "courseId": "PUB HLT 185A"},
+            {"type": "course", "courseId": "PUB HLT 185B"},
+            {"type": "course", "courseId": "PUB HLT C188"},
+            {"type": "course", "courseId": "PUB HLT 188SA"},
+            {"type": "course", "courseId": "PUB HLT 188SB"},
+            {"type": "course", "courseId": "PUB HLT 188SC"},
+            {"type": "course", "courseId": "PUB HLT C191"},
+            {"type": "course", "courseId": "PUB HLT 193"},
+            {"type": "course", "courseId": "PUB HLT 195"},
+            {"type": "course", "courseId": "PUB HLT 195CE"},
+            {"type": "course", "courseId": "PUB HLT 196"},
+            {"type": "course", "courseId": "PUB HLT 197"},
+            {"type": "course", "courseId": "PUB HLT 198"},
+            {"type": "course", "courseId": "PUB HLT 199"}
+          ]
         },
         {
           "type": "group",
           "title": "Community Engagement",
           "description": "Complete PUB HLT 195CE - Community and Corporate Internship in Public Health or an approved course.",
           "needs": 1,
-          "options": []
+          "options": [
+            {"type": "course", "courseId": "PUB HLT 195CE"}
+          ]
         },
         {
           "type": "group",

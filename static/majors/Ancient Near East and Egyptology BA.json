@@ -7,20 +7,6 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "entry",
-      "title": "Entry to the Major",
-      "description": "Transfer applicants to the Ancient Near East and Egyptology major with 90 or more units must complete the following introductory courses prior to admission to UCLA: one civilization course on Mesopotamia, Egypt, Near Eastern archaeology, or Middle Eastern cultures.",
-      "requirements": [
-        {
-          "type": "group",
-          "title": "Transfer Introductory Course Requirement",
-          "description": "Complete one civilization course on Mesopotamia, Egypt, Near Eastern archaeology, or Middle Eastern cultures.",
-          "needs": 1,
-          "options": []
-        }
-      ]
-    },
-    {
       "id": "preparation",
       "title": "Preparation for the Major",
       "description": "Select three courses from the following list.",

@@ -619,7 +619,9 @@
           "title": "Capstone Field Quarter",
           "description": "Complete one capstone field quarter consisting of 12 to 16 units from the Marine Biology Quarter (MBQ) or pre-approved equivalent (see undergraduate adviser).",
           "needs": 1,
-          "options": []
+          "options": [
+            { "type": "course", "courseId": "MBQ", "units": 14, "title": "Marine Biology Quarter (MBQ)" }
+          ]
         },
         {
           "type": "group",

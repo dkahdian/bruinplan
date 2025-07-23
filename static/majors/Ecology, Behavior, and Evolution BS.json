@@ -587,7 +587,11 @@
           "title": "Capstone Field Quarter",
           "description": "Complete one capstone field quarter (12 to 16 units) from the Field Biology Quarter (FBQ), Marine Biology Quarter (MBQ), joint Field Marine Biology Quarter (FMBQ), or a pre-approved equivalent (see undergraduate adviser). The quarter consists of a combination of field courses specific to the program.",
           "needs": 1,
-          "options": []
+          "options": [
+            { "type": "course", "courseId": "EE BIOL FBQ", "title": "Field Biology Quarter (FBQ)", "units": 14 },
+            { "type": "course", "courseId": "EE BIOL MBQ", "title": "Marine Biology Quarter (MBQ)", "units": 14 },
+            { "type": "course", "courseId": "EE BIOL FMBQ", "title": "Field Marine Biology Quarter (FMBQ)", "units": 14 }
+          ]
         },
         {
           "type": "group",

@@ -7,12 +7,6 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "entry",
-      "title": "Entry to the Major",
-      "description": "Admission to the Global Studies major is by application only and is highly competitive. To be eligible to apply, UCLA students must have completed all nonlanguage preparation for the major courses and one modern foreign language equivalent to level 3 by the end of the term in which they are applying. Each preparation for the major course must be taken for a letter grade, and the UC grade-point average for all preparation courses must be a minimum of 3.25. In addition, students must have earned a grade of B or better in Global Studies 1. The application period is once per year, and students must apply no later than the end of fall quarter of their junior year. Incoming first-year and transfer students may be admitted as Global Studies pre-majors. Pre-major students must apply for the major at the end of fall quarter of their junior year; they are not automatically accepted into the major.",
-      "requirements": []
-    },
-    {
       "id": "preparation",
       "title": "Preparation for the Major",
       "description": "Complete Global Studies 1 with a grade of B or better, one methods course, demonstrated proficiency in one modern foreign language, and five additional courses. The five additional courses must be structured as follows: one course from each of the three categories (Culture and Society, Governance and Conflict, Markets and Resources), and the remaining two courses taken from two separate categories.",
@@ -885,12 +879,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "policies",
-      "title": "Policies",
-      "description": "Preparation for the Major courses must be completed with a grade-point average of 3.25 or better. To receive honors at graduation, students must have at least a 3.5 GPA in courses applied toward the major (including 199A and 199B) and an overall GPA of 3.25.",
-      "requirements": []
     }
   ]
 }

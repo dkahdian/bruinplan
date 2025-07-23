@@ -222,9 +222,19 @@
         {
           "type": "group",
           "title": "Foreign Language",
-          "description": "Complete one area-related foreign language sequence through the intermediate level. The requirement can also be fulfilled by taking a placement examination through the appropriate language department. Examples include: CHIN 6, CHIN 6A, FILIPNO 6, HIN-URD 100C, INDO 6, JAPAN 6, KOREA 6, THAI 6, VIETMSE 6.",
+          "description": "Complete one area-related foreign language sequence through the intermediate level. The requirement can also be fulfilled in part or in total by taking a placement examination given through the appropriate language department.",
           "needs": 1,
-          "options": []
+          "options": [
+            { "type": "course", "courseId": "CHIN 6" },
+            { "type": "course", "courseId": "CHIN 6A" },
+            { "type": "course", "courseId": "FILIPNO 6" },
+            { "type": "course", "courseId": "HIN-URD 100C" },
+            { "type": "course", "courseId": "INDO 6" },
+            { "type": "course", "courseId": "JAPAN 6" },
+            { "type": "course", "courseId": "KOREA 6" },
+            { "type": "course", "courseId": "THAI 6" },
+            { "type": "course", "courseId": "VIETMSE 6" }
+          ]
         }
       ]
     },

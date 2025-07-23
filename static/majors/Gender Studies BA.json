@@ -47,7 +47,35 @@
           "title": "Elective Courses",
           "description": "Complete seven elective courses. One upper-division tutorial (minimum of 4 units) selected from course GENDER 195, 197, or 199 may be applied toward the elective requirement (this limit does not apply to course 198A or 198B).",
           "needs": 7,
-          "options": []
+          "options": [
+            {
+              "type": "group",
+              "title": "Upper-Division Tutorial",
+              "description": "Select one upper-division tutorial (minimum of 4 units) from:",
+              "needs": 1,
+              "options": [
+                { "type": "course", "courseId": "GENDER 195" },
+                { "type": "course", "courseId": "GENDER 197" },
+                { "type": "course", "courseId": "GENDER 199" }
+              ]
+            },
+            { "type": "course", "courseId": "GENDER 101W" },
+            { "type": "course", "courseId": "GENDER 105" },
+            { "type": "course", "courseId": "GENDER 108S" },
+            { "type": "course", "courseId": "GENDER 112" },
+            { "type": "course", "courseId": "GENDER 113" },
+            { "type": "course", "courseId": "GENDER 117" },
+            { "type": "course", "courseId": "GENDER 119" },
+            { "type": "course", "courseId": "GENDER 120SL" },
+            { "type": "course", "courseId": "GENDER 122" },
+            { "type": "course", "courseId": "GENDER 123" },
+            { "type": "course", "courseId": "GENDER 125" },
+            { "type": "course", "courseId": "GENDER 129" },
+            { "type": "course", "courseId": "GENDER 130" },
+            { "type": "course", "courseId": "GENDER 131" },
+            { "type": "course", "courseId": "GENDER 134" },
+            { "type": "course", "courseId": "GENDER 138" }
+          ]
         },
         {
           "type": "course",

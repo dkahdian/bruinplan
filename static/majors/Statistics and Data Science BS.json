@@ -40,7 +40,12 @@
           "title": "Elective",
           "description": "Select one course from: Statistics 10 through 15",
           "needs": 1,
-          "options": []
+          "options": [
+            {"type": "course", "courseId": "STATS 10"},
+            {"type": "course", "courseId": "STATS 12"},
+            {"type": "course", "courseId": "STATS 13"},
+            {"type": "course", "courseId": "STATS 15"}
+          ]
         }
       ]
     },
@@ -120,7 +125,38 @@
               "title": "Statistics Elective",
               "description": "Select from Statistics 112 through 199 (except courses 147, M148, 182, 184, 186, 188S, and 189).",
               "needs": 1,
-              "options": []
+              "options": [
+                {"type": "course", "courseId": "STATS 112"},
+                {"type": "course", "courseId": "STATS 115"},
+                {"type": "course", "courseId": "STATS C116"},
+                {"type": "course", "courseId": "STATS 130"},
+                {"type": "course", "courseId": "STATS 131"},
+                {"type": "course", "courseId": "STATS 133"},
+                {"type": "course", "courseId": "STATS 140XP"},
+                {"type": "course", "courseId": "STATS 141XP"},
+                {"type": "course", "courseId": "STATS 143"},
+                {"type": "course", "courseId": "STATS C145"},
+                {"type": "course", "courseId": "STATS C151"},
+                {"type": "course", "courseId": "STATS M154"},
+                {"type": "course", "courseId": "STATS C155"},
+                {"type": "course", "courseId": "STATS 157"},
+                {"type": "course", "courseId": "STATS C161"},
+                {"type": "course", "courseId": "STATS C163"},
+                {"type": "course", "courseId": "STATS 167"},
+                {"type": "course", "courseId": "STATS M169"},
+                {"type": "course", "courseId": "STATS 170"},
+                {"type": "course", "courseId": "STATS M171"},
+                {"type": "course", "courseId": "STATS C173"},
+                {"type": "course", "courseId": "STATS 175"},
+                {"type": "course", "courseId": "STATS C180"},
+                {"type": "course", "courseId": "STATS C183"},
+                {"type": "course", "courseId": "STATS 188SA"},
+                {"type": "course", "courseId": "STATS 188SB"},
+                {"type": "course", "courseId": "STATS 188SC"},
+                {"type": "course", "courseId": "STATS 189HC"},
+                {"type": "course", "courseId": "STATS 195"},
+                {"type": "course", "courseId": "STATS 199"}
+              ]
             }
           ]
         }

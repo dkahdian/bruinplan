@@ -95,7 +95,13 @@
               "title": "Upper Division COMPTNG Electives",
               "description": "Select two additional upper-division Program in Computing courses.",
               "needs": 2,
-              "options": []
+            "options": [
+              { "type": "course", "courseId": "COMPTNG 110" },
+              { "type": "course", "courseId": "COMPTNG 130" },
+              { "type": "course", "courseId": "COMPTNG 187" },
+              { "type": "course", "courseId": "COMPTNG 189" },
+              { "type": "course", "courseId": "COMPTNG 189HC" }
+            ]
             }
           ]
         }

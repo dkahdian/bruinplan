@@ -7,12 +7,6 @@
   "degreeObjective": "Bachelor of Arts",
   "sections": [
     {
-      "id": "entry-to-the-major",
-      "title": "Entry to the Major",
-      "description": "Admission",
-      "requirements": []
-    },
-    {
       "id": "preparation",
       "title": "Preparation for the Major",
       "description": "Complete 9 courses as follows:",
@@ -101,21 +95,112 @@
           "title": "Economics 106 series",
           "description": "Complete at least two courses from the Economics 106 series.",
           "needs": 2,
-          "options": []
+          "options": [
+            { "type": "course", "courseId": "ECON 106A" },
+            { "type": "course", "courseId": "ECON 106B" },
+            { "type": "course", "courseId": "ECON 106C" },
+            { "type": "course", "courseId": "ECON 106D" },
+            { "type": "course", "courseId": "ECON 106E" },
+            { "type": "course", "courseId": "ECON 106F" },
+            { "type": "course", "courseId": "ECON 106G" },
+            { "type": "course", "courseId": "ECON 106H" },
+            { "type": "course", "courseId": "ECON 106I" },
+            { "type": "course", "courseId": "ECON 106J" },
+            { "type": "course", "courseId": "ECON 106K" },
+            { "type": "course", "courseId": "ECON 106L" },
+            { "type": "course", "courseId": "ECON 106M" },
+            { "type": "course", "courseId": "ECON 106N" },
+            { "type": "course", "courseId": "ECON 106O" },
+            { "type": "course", "courseId": "ECON 106P" },
+            { "type": "course", "courseId": "ECON 106Q" },
+            { "type": "course", "courseId": "ECON 106R" },
+            { "type": "course", "courseId": "ECON 106S" },
+            { "type": "course", "courseId": "ECON 106T" },
+            { "type": "course", "courseId": "ECON 106V" },
+            { "type": "course", "courseId": "ECON 106W" },
+            { "type": "course", "courseId": "ECON 106X" },
+            { "type": "course", "courseId": "ECON 106Y" },
+            { "type": "course", "courseId": "ECON 106Z" }
+          ]
         },
         {
           "type": "group",
           "title": "Upper-Division Electives",
           "description": "Complete five upper-division elective courses in economics and management (no more than three management courses from Management 108, 109, 120A, 120B, 122, 123, 124, 126, 127A, 127B, 127C, 130A, 140, 159, 160, 161, 162, 163, 164, 165, 167, 168, 170 may be applied toward the elective requirement).",
           "needs": 5,
-          "options": []
+          "options": [
+            { "type": "course", "courseId": "ECON 106A" },
+            { "type": "course", "courseId": "ECON 106B" },
+            { "type": "course", "courseId": "ECON 106C" },
+            { "type": "course", "courseId": "ECON 106D" },
+            { "type": "course", "courseId": "ECON 106E" },
+            { "type": "course", "courseId": "ECON 106F" },
+            { "type": "course", "courseId": "ECON 106G" },
+            { "type": "course", "courseId": "ECON 106H" },
+            { "type": "course", "courseId": "ECON 106I" },
+            { "type": "course", "courseId": "ECON 106J" },
+            { "type": "course", "courseId": "ECON 106K" },
+            { "type": "course", "courseId": "ECON 106L" },
+            { "type": "course", "courseId": "ECON 106M" },
+            { "type": "course", "courseId": "ECON 106N" },
+            { "type": "course", "courseId": "ECON 106O" },
+            { "type": "course", "courseId": "ECON 106P" },
+            { "type": "course", "courseId": "ECON 106Q" },
+            { "type": "course", "courseId": "ECON 106R" },
+            { "type": "course", "courseId": "ECON 106S" },
+            { "type": "course", "courseId": "ECON 106T" },
+            { "type": "course", "courseId": "ECON 106V" },
+            { "type": "course", "courseId": "ECON 106W" },
+            { "type": "course", "courseId": "ECON 106X" },
+            { "type": "course", "courseId": "ECON 106Y" },
+            { "type": "course", "courseId": "ECON 106Z" },
+            { "type": "course", "courseId": "ECON 111" },
+            { "type": "course", "courseId": "ECON 112" },
+            { "type": "course", "courseId": "ECON 120" },
+            { "type": "course", "courseId": "ECON 121" },
+            { "type": "course", "courseId": "ECON 122" },
+            { "type": "course", "courseId": "ECON 130" },
+            { "type": "course", "courseId": "ECON 141" },
+            { "type": "course", "courseId": "ECON 143" },
+            { "type": "course", "courseId": "ECON 160" },
+            { "type": "course", "courseId": "ECON 170" },
+            { "type": "course", "courseId": "ECON 180" },
+            { "type": "course", "courseId": "ECON 185" },
+            { "type": "course", "courseId": "MGMT 108" },
+            { "type": "course", "courseId": "MGMT 109" },
+            { "type": "course", "courseId": "MGMT 120A" },
+            { "type": "course", "courseId": "MGMT 120B" },
+            { "type": "course", "courseId": "MGMT 122" },
+            { "type": "course", "courseId": "MGMT 123" },
+            { "type": "course", "courseId": "MGMT 124" },
+            { "type": "course", "courseId": "MGMT 126" },
+            { "type": "course", "courseId": "MGMT 127A" },
+            { "type": "course", "courseId": "MGMT 127B" },
+            { "type": "course", "courseId": "MGMT 127C" },
+            { "type": "course", "courseId": "MGMT 130A" },
+            { "type": "course", "courseId": "MGMT 140" },
+            { "type": "course", "courseId": "MGMT 159" },
+            { "type": "course", "courseId": "MGMT 160" },
+            { "type": "course", "courseId": "MGMT 161" },
+            { "type": "course", "courseId": "MGMT 162" },
+            { "type": "course", "courseId": "MGMT 163" },
+            { "type": "course", "courseId": "MGMT 164" },
+            { "type": "course", "courseId": "MGMT 165" },
+            { "type": "course", "courseId": "MGMT 167" },
+            { "type": "course", "courseId": "MGMT 168" },
+            { "type": "course", "courseId": "MGMT 170" }
+          ]
         },
         {
           "type": "group",
           "title": "Economics Courses with Laboratories",
           "description": "In addition to Economics 103 and 103L, and 104 and 104L, at least two economics courses with laboratories must be completed and may be selected from either the Economics 106 series or an economics elective.",
           "needs": 2,
-          "options": []
+          "options": [
+            { "type": "course", "courseId": "ECON 106L" },
+            { "type": "course", "courseId": "ECON 106M" },
+            { "type": "course", "courseId": "ECON 106T" }
+          ]
         }
       ]
     },
@@ -141,12 +226,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "policies",
-      "title": "Policies",
-      "description": "Preparation for the Major Policies",
-      "requirements": []
     }
   ]
 }

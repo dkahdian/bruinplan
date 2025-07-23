@@ -66,13 +66,6 @@
         {
           "type": "course",
           "courseId": "COMPTNG 10A"
-        },
-        {
-          "type": "group",
-          "title": "Writing II",
-          "description": "Complete any one Writing II course.",
-          "needs": 1,
-          "options": []
         }
       ]
     },
@@ -303,7 +296,14 @@
           "title": "Mathematics Electives",
           "description": "Select two courses from Mathematics 149 through 159.",
           "needs": 2,
-          "options": []
+            "options": [
+              { "type": "course", "courseId": "MATH 151A" },
+              { "type": "course", "courseId": "MATH 151AH" },
+              { "type": "course", "courseId": "MATH 151B" },
+              { "type": "course", "courseId": "MATH 151BH" },
+              { "type": "course", "courseId": "MATH 155" },
+              { "type": "course", "courseId": "MATH 156" }
+            ]
         }
       ]
     }

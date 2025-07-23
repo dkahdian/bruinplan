@@ -22,7 +22,13 @@
               "title": "Introductory Earth Science",
               "description": "Complete one course: EPS SCI 1, CLUSTER 70A, or any course from Earth, Planetary, and Space Sciences 3 through 17.",
               "needs": 1,
-              "options": []
+              "options": [
+                { "type": "course", "courseId": "EPS SCI 10" },
+                { "type": "course", "courseId": "EPS SCI 13" },
+                { "type": "course", "courseId": "EPS SCI 15" },
+                { "type": "course", "courseId": "EPS SCI 16" },
+                { "type": "course", "courseId": "EPS SCI 17" }
+              ]
             },
             {
               "type": "course",
