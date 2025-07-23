@@ -23,14 +23,8 @@
               "description": "Select one physical geography or biogeography course:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GEOG 1"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 2"
-                }
+                {"type": "course", "courseId": "GEOG 1"},
+                {"type": "course", "courseId": "GEOG 2"}
               ]
             },
             {
@@ -39,20 +33,11 @@
               "description": "Select one cultural geography or economic geography course:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GEOG 3"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 4"
-                }
+                {"type": "course", "courseId": "GEOG 3"},
+                {"type": "course", "courseId": "GEOG 4"}
               ]
             },
-            {
-              "type": "course",
-              "courseId": "STATS 12"
-            }
+            {"type": "course", "courseId": "STATS 12"}
           ]
         }
       ]
@@ -68,14 +53,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "GEOG 1"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 2"
-            }
+            {"type": "course", "courseId": "GEOG 1"},
+            {"type": "course", "courseId": "GEOG 2"}
           ]
         },
         {
@@ -84,24 +63,12 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "GEOG 3"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 4"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 6"
-            }
+            {"type": "course", "courseId": "GEOG 3"},
+            {"type": "course", "courseId": "GEOG 4"},
+            {"type": "course", "courseId": "GEOG 6"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "STATS 12"
-        }
+        {"type": "course", "courseId": "STATS 12"}
       ]
     },
     {
@@ -135,14 +102,8 @@
               "description": "Students must enroll in Geography 198A and 198B in two consecutive terms and earn grades of A– or better.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GEOG 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 198B"
-                }
+                {"type": "course", "courseId": "GEOG 198A"},
+                {"type": "course", "courseId": "GEOG 198B"}
               ]
             }
           ]

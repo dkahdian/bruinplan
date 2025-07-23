@@ -11,10 +11,7 @@
       "title": "Preparation for the Major",
       "description": "Complete the following course. Students must also complete departmental lower-division requisites, as applicable, for upper-division gender studies courses.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "GENDER 10"
-        }
+        {"type": "course", "courseId": "GENDER 10"}
       ]
     },
     {
@@ -28,18 +25,9 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "GENDER 102"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER 103"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER 104"
-            }
+            {"type": "course", "courseId": "GENDER 102"},
+            {"type": "course", "courseId": "GENDER 103"},
+            {"type": "course", "courseId": "GENDER 104"}
           ]
         },
         {
@@ -54,33 +42,30 @@
               "description": "Select one upper-division tutorial (minimum of 4 units) from:",
               "needs": 1,
               "options": [
-                { "type": "course", "courseId": "GENDER 195" },
-                { "type": "course", "courseId": "GENDER 197" },
-                { "type": "course", "courseId": "GENDER 199" }
+                {"type": "course", "courseId": "GENDER 195"},
+                {"type": "course", "courseId": "GENDER 197"},
+                {"type": "course", "courseId": "GENDER 199"}
               ]
             },
-            { "type": "course", "courseId": "GENDER 101W" },
-            { "type": "course", "courseId": "GENDER 105" },
-            { "type": "course", "courseId": "GENDER 108S" },
-            { "type": "course", "courseId": "GENDER 112" },
-            { "type": "course", "courseId": "GENDER 113" },
-            { "type": "course", "courseId": "GENDER 117" },
-            { "type": "course", "courseId": "GENDER 119" },
-            { "type": "course", "courseId": "GENDER 120SL" },
-            { "type": "course", "courseId": "GENDER 122" },
-            { "type": "course", "courseId": "GENDER 123" },
-            { "type": "course", "courseId": "GENDER 125" },
-            { "type": "course", "courseId": "GENDER 129" },
-            { "type": "course", "courseId": "GENDER 130" },
-            { "type": "course", "courseId": "GENDER 131" },
-            { "type": "course", "courseId": "GENDER 134" },
-            { "type": "course", "courseId": "GENDER 138" }
+            {"type": "course", "courseId": "GENDER 101W"},
+            {"type": "course", "courseId": "GENDER 105"},
+            {"type": "course", "courseId": "GENDER 108S"},
+            {"type": "course", "courseId": "GENDER 112"},
+            {"type": "course", "courseId": "GENDER 113"},
+            {"type": "course", "courseId": "GENDER 117"},
+            {"type": "course", "courseId": "GENDER 119"},
+            {"type": "course", "courseId": "GENDER 120SL"},
+            {"type": "course", "courseId": "GENDER 122"},
+            {"type": "course", "courseId": "GENDER 123"},
+            {"type": "course", "courseId": "GENDER 125"},
+            {"type": "course", "courseId": "GENDER 129"},
+            {"type": "course", "courseId": "GENDER 130"},
+            {"type": "course", "courseId": "GENDER 131"},
+            {"type": "course", "courseId": "GENDER 134"},
+            {"type": "course", "courseId": "GENDER 138"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "GENDER 187"
-        }
+        {"type": "course", "courseId": "GENDER 187"}
       ]
     },
     {
@@ -100,18 +85,9 @@
               "description": "Complete all three courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GENDER 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GENDER 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GENDER 198C"
-                }
+                {"type": "course", "courseId": "GENDER 198A"},
+                {"type": "course", "courseId": "GENDER 198B"},
+                {"type": "course", "courseId": "GENDER 198C"}
               ]
             }
           ]

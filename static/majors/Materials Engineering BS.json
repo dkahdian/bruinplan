@@ -17,18 +17,9 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHEM 20A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 20B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 20L"
-            }
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "CHEM 20B"},
+            {"type": "course", "courseId": "CHEM 20L"}
           ]
         },
         {
@@ -37,18 +28,9 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "C&EE M20"
-            },
-            {
-              "type": "course",
-              "courseId": "COM SCI 31"
-            },
-            {
-              "type": "course",
-              "courseId": "MECH&AE M20"
-            }
+            {"type": "course", "courseId": "C&EE M20"},
+            {"type": "course", "courseId": "COM SCI 31"},
+            {"type": "course", "courseId": "MECH&AE M20"}
           ]
         },
         {
@@ -57,14 +39,8 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MAT SCI 10"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 90L"
-            }
+            {"type": "course", "courseId": "MAT SCI 10"},
+            {"type": "course", "courseId": "MAT SCI 90L"}
           ]
         },
         {
@@ -73,40 +49,19 @@
           "description": "Complete the following six courses:",
           "needs": 6,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MATH 31A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 31B"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 32A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 32B"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 33A"
-            },
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31B"},
+            {"type": "course", "courseId": "MATH 32A"},
+            {"type": "course", "courseId": "MATH 32B"},
+            {"type": "course", "courseId": "MATH 33A"},
             {
               "type": "group",
               "title": "Differential Equations",
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 33B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MECH&AE 82"
-                }
+                {"type": "course", "courseId": "MATH 33B"},
+                {"type": "course", "courseId": "MECH&AE 82"}
               ]
             }
           ]
@@ -117,18 +72,9 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1B"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1C"
-            }
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 1B"},
+            {"type": "course", "courseId": "PHYSICS 1C"}
           ]
         }
       ]
@@ -156,72 +102,27 @@
                   "description": "Complete the following 14 courses:",
                   "needs": 14,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "C&EE 108"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 104"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 110"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 110L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 120"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 130"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 131"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 131L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 143A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 150"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 160"
-                    },
+                    {"type": "course", "courseId": "C&EE 108"},
+                    {"type": "course", "courseId": "EC ENGR 100"},
+                    {"type": "course", "courseId": "MAT SCI 104"},
+                    {"type": "course", "courseId": "MAT SCI 110"},
+                    {"type": "course", "courseId": "MAT SCI 110L"},
+                    {"type": "course", "courseId": "MAT SCI 120"},
+                    {"type": "course", "courseId": "MAT SCI 130"},
+                    {"type": "course", "courseId": "MAT SCI 131"},
+                    {"type": "course", "courseId": "MAT SCI 131L"},
+                    {"type": "course", "courseId": "MAT SCI 132"},
+                    {"type": "course", "courseId": "MAT SCI 143A"},
+                    {"type": "course", "courseId": "MAT SCI 150"},
+                    {"type": "course", "courseId": "MAT SCI 160"},
                     {
                       "type": "group",
                       "title": "Statics",
                       "description": "Select one course from:",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "C&EE 91"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MECH&AE 101"
-                        }
+                        {"type": "course", "courseId": "C&EE 91"},
+                        {"type": "course", "courseId": "MECH&AE 101"}
                       ]
                     }
                   ]
@@ -232,26 +133,11 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "C&EE 103"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MECH&AE 182B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MECH&AE 182C"
-                    }
+                    {"type": "course", "courseId": "C&EE 103"},
+                    {"type": "course", "courseId": "EC ENGR 102"},
+                    {"type": "course", "courseId": "MATH 132"},
+                    {"type": "course", "courseId": "MECH&AE 182B"},
+                    {"type": "course", "courseId": "MECH&AE 182C"}
                   ]
                 },
                 {
@@ -260,26 +146,11 @@
                   "description": "Select two laboratory courses (4 units). Up to two units of MAT SCI 199 may be applied.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 121L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 141L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 143L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 161L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 199"
-                    }
+                    {"type": "course", "courseId": "MAT SCI 121L"},
+                    {"type": "course", "courseId": "MAT SCI 141L"},
+                    {"type": "course", "courseId": "MAT SCI 143L"},
+                    {"type": "course", "courseId": "MAT SCI 161L"},
+                    {"type": "course", "courseId": "MAT SCI 199"}
                   ]
                 },
                 {
@@ -295,14 +166,8 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 140A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 140B"
-                    }
+                    {"type": "course", "courseId": "MAT SCI 140A"},
+                    {"type": "course", "courseId": "MAT SCI 140B"}
                   ]
                 },
                 {
@@ -311,70 +176,22 @@
                   "description": "Select two major field elective courses (8 units) from:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR CM114"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "C&EE 130"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "C&EE 135A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 2"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 123A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 123B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 105"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI C111"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI C112"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 151"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 161"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 162"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MECH&AE 156A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MECH&AE 166C"
-                    }
+                    {"type": "course", "courseId": "CH ENGR CM114"},
+                    {"type": "course", "courseId": "C&EE 130"},
+                    {"type": "course", "courseId": "C&EE 135A"},
+                    {"type": "course", "courseId": "EC ENGR 2"},
+                    {"type": "course", "courseId": "EC ENGR 123A"},
+                    {"type": "course", "courseId": "EC ENGR 123B"},
+                    {"type": "course", "courseId": "MAT SCI 105"},
+                    {"type": "course", "courseId": "MAT SCI C111"},
+                    {"type": "course", "courseId": "MAT SCI C112"},
+                    {"type": "course", "courseId": "MAT SCI 121"},
+                    {"type": "course", "courseId": "MAT SCI 122"},
+                    {"type": "course", "courseId": "MAT SCI 151"},
+                    {"type": "course", "courseId": "MAT SCI 161"},
+                    {"type": "course", "courseId": "MAT SCI 162"},
+                    {"type": "course", "courseId": "MECH&AE 156A"},
+                    {"type": "course", "courseId": "MECH&AE 166C"}
                   ]
                 },
                 {
@@ -383,34 +200,13 @@
                   "description": "Select at least one elective course (4 units) from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 30A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 30AL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 131A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 170"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 171"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 170A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 100A"
-                    }
+                    {"type": "course", "courseId": "CHEM 30A"},
+                    {"type": "course", "courseId": "CHEM 30AL"},
+                    {"type": "course", "courseId": "EC ENGR 131A"},
+                    {"type": "course", "courseId": "MAT SCI 170"},
+                    {"type": "course", "courseId": "MAT SCI 171"},
+                    {"type": "course", "courseId": "MATH 170A"},
+                    {"type": "course", "courseId": "STATS 100A"}
                   ]
                 }
               ]
@@ -427,66 +223,21 @@
                   "description": "Complete the following 15 courses:",
                   "needs": 15,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 101A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 121B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 104"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 110"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 110L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 120"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 121L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 130"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 131"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 131L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MECH&AE 101"
-                    }
+                    {"type": "course", "courseId": "EC ENGR 100"},
+                    {"type": "course", "courseId": "EC ENGR 101A"},
+                    {"type": "course", "courseId": "EC ENGR 121B"},
+                    {"type": "course", "courseId": "MAT SCI 104"},
+                    {"type": "course", "courseId": "MAT SCI 110"},
+                    {"type": "course", "courseId": "MAT SCI 110L"},
+                    {"type": "course", "courseId": "MAT SCI 120"},
+                    {"type": "course", "courseId": "MAT SCI 121"},
+                    {"type": "course", "courseId": "MAT SCI 121L"},
+                    {"type": "course", "courseId": "MAT SCI 122"},
+                    {"type": "course", "courseId": "MAT SCI 130"},
+                    {"type": "course", "courseId": "MAT SCI 131"},
+                    {"type": "course", "courseId": "MAT SCI 131L"},
+                    {"type": "course", "courseId": "MAT SCI 132"},
+                    {"type": "course", "courseId": "MECH&AE 101"}
                   ]
                 },
                 {
@@ -495,26 +246,11 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "C&EE 103"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MECH&AE 182B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MECH&AE 182C"
-                    }
+                    {"type": "course", "courseId": "C&EE 103"},
+                    {"type": "course", "courseId": "EC ENGR 102"},
+                    {"type": "course", "courseId": "MATH 132"},
+                    {"type": "course", "courseId": "MECH&AE 182B"},
+                    {"type": "course", "courseId": "MECH&AE 182C"}
                   ]
                 },
                 {
@@ -523,14 +259,8 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 150"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 160"
-                    }
+                    {"type": "course", "courseId": "MAT SCI 150"},
+                    {"type": "course", "courseId": "MAT SCI 160"}
                   ]
                 },
                 {
@@ -539,22 +269,10 @@
                   "description": "Select one course (4 units) from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 123A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 123B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 150"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 160"
-                    }
+                    {"type": "course", "courseId": "EC ENGR 123A"},
+                    {"type": "course", "courseId": "EC ENGR 123B"},
+                    {"type": "course", "courseId": "MAT SCI 150"},
+                    {"type": "course", "courseId": "MAT SCI 160"}
                   ]
                 },
                 {
@@ -563,18 +281,9 @@
                   "description": "Select one course (4 units). Up to 2 units of MAT SCI 199 may be applied.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 141L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 161L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 199"
-                    }
+                    {"type": "course", "courseId": "MAT SCI 141L"},
+                    {"type": "course", "courseId": "MAT SCI 161L"},
+                    {"type": "course", "courseId": "MAT SCI 199"}
                   ]
                 },
                 {
@@ -590,14 +299,8 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 140A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 140B"
-                    }
+                    {"type": "course", "courseId": "MAT SCI 140A"},
+                    {"type": "course", "courseId": "MAT SCI 140B"}
                   ]
                 },
                 {
@@ -606,34 +309,13 @@
                   "description": "Select one major field elective course (4 units) from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 110"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 131A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 105"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI C111"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI C112"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 143A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 162"
-                    }
+                    {"type": "course", "courseId": "EC ENGR 110"},
+                    {"type": "course", "courseId": "EC ENGR 131A"},
+                    {"type": "course", "courseId": "MAT SCI 105"},
+                    {"type": "course", "courseId": "MAT SCI C111"},
+                    {"type": "course", "courseId": "MAT SCI C112"},
+                    {"type": "course", "courseId": "MAT SCI 143A"},
+                    {"type": "course", "courseId": "MAT SCI 162"}
                   ]
                 }
               ]

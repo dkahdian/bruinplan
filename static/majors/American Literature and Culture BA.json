@@ -11,38 +11,20 @@
       "title": "Preparation for the Major",
       "description": "Complete four courses and a foreign language requirement as follows. English Composition 3 is requisite to any English 4 series course.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "ENGCOMP 3"
-        },
+        {"type": "course", "courseId": "ENGCOMP 3"},
         {
           "type": "group",
           "title": "English 4 series",
           "description": "Select one course from",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ENGL 4W"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 4HW"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 4WX"
-            }
+            {"type": "course", "courseId": "ENGL 4W"},
+            {"type": "course", "courseId": "ENGL 4HW"},
+            {"type": "course", "courseId": "ENGL 4WX"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "ENGL 11"
-        },
-        {
-          "type": "course",
-          "courseId": "ENGL 87"
-        },
+        {"type": "course", "courseId": "ENGL 11"},
+        {"type": "course", "courseId": "ENGL 87"},
         {
           "type": "group",
           "title": "Foreign Language",
@@ -84,66 +66,21 @@
               "description": "Studying the Making of America in Its Myriad Beginnings and Manifestations. Select at least two from this area. Note: Courses ENGL M101B, 106, 123, 131, 139, 169 are only applicable when treating American topics.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ENGL 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M102A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M104A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 166A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 166B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 166C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 167A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 167B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 170A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M101B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 106"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 123"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 131"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 139"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 169"
-                }
+                {"type": "course", "courseId": "ENGL 100"},
+                {"type": "course", "courseId": "ENGL M102A"},
+                {"type": "course", "courseId": "ENGL M104A"},
+                {"type": "course", "courseId": "ENGL 166A"},
+                {"type": "course", "courseId": "ENGL 166B"},
+                {"type": "course", "courseId": "ENGL 166C"},
+                {"type": "course", "courseId": "ENGL 167A"},
+                {"type": "course", "courseId": "ENGL 167B"},
+                {"type": "course", "courseId": "ENGL 170A"},
+                {"type": "course", "courseId": "ENGL M101B"},
+                {"type": "course", "courseId": "ENGL 106"},
+                {"type": "course", "courseId": "ENGL 123"},
+                {"type": "course", "courseId": "ENGL 131"},
+                {"type": "course", "courseId": "ENGL 139"},
+                {"type": "course", "courseId": "ENGL 169"}
               ]
             },
             {
@@ -152,194 +89,53 @@
               "description": "Studying People, Collectives and Movements across the Diverse Geographies of the Americas. Select at least two from this area. Note: Courses ENGL M101B, M101C, M101D, M103, M107A, M107B, 108, 109, 118E, M118F, 119, 119XP, M126, 132, 133, 134, 139 are only applicable when treating American topics.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ENGL 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M102A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M102B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M104A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M104B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M104C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M104D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M104E"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M105A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M105B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M105C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M105D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M105E"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 106"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 115A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 117"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 135"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 168"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 170B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 170C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 172C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 173A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 173B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 173C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 174A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 174B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 174C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 175"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 176"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 177"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M101B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M101C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M101D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M107A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M107B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 108"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 109"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 118E"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M118F"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 119"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 119XP"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M126"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 132"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 133"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 134"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 139"
-                }
+                {"type": "course", "courseId": "ENGL 100"},
+                {"type": "course", "courseId": "ENGL M102A"},
+                {"type": "course", "courseId": "ENGL M102B"},
+                {"type": "course", "courseId": "ENGL M104A"},
+                {"type": "course", "courseId": "ENGL M104B"},
+                {"type": "course", "courseId": "ENGL M104C"},
+                {"type": "course", "courseId": "ENGL M104D"},
+                {"type": "course", "courseId": "ENGL M104E"},
+                {"type": "course", "courseId": "ENGL M105A"},
+                {"type": "course", "courseId": "ENGL M105B"},
+                {"type": "course", "courseId": "ENGL M105C"},
+                {"type": "course", "courseId": "ENGL M105D"},
+                {"type": "course", "courseId": "ENGL M105E"},
+                {"type": "course", "courseId": "ENGL 106"},
+                {"type": "course", "courseId": "ENGL 115A"},
+                {"type": "course", "courseId": "ENGL 117"},
+                {"type": "course", "courseId": "ENGL 135"},
+                {"type": "course", "courseId": "ENGL 168"},
+                {"type": "course", "courseId": "ENGL 170B"},
+                {"type": "course", "courseId": "ENGL 170C"},
+                {"type": "course", "courseId": "ENGL 172C"},
+                {"type": "course", "courseId": "ENGL 173A"},
+                {"type": "course", "courseId": "ENGL 173B"},
+                {"type": "course", "courseId": "ENGL 173C"},
+                {"type": "course", "courseId": "ENGL 174A"},
+                {"type": "course", "courseId": "ENGL 174B"},
+                {"type": "course", "courseId": "ENGL 174C"},
+                {"type": "course", "courseId": "ENGL 175"},
+                {"type": "course", "courseId": "ENGL 176"},
+                {"type": "course", "courseId": "ENGL 177"},
+                {"type": "course", "courseId": "ENGL M101B"},
+                {"type": "course", "courseId": "ENGL M101C"},
+                {"type": "course", "courseId": "ENGL M101D"},
+                {"type": "course", "courseId": "ENGL M103"},
+                {"type": "course", "courseId": "ENGL M107A"},
+                {"type": "course", "courseId": "ENGL M107B"},
+                {"type": "course", "courseId": "ENGL 108"},
+                {"type": "course", "courseId": "ENGL 109"},
+                {"type": "course", "courseId": "ENGL 118E"},
+                {"type": "course", "courseId": "ENGL M118F"},
+                {"type": "course", "courseId": "ENGL 119"},
+                {"type": "course", "courseId": "ENGL 119XP"},
+                {"type": "course", "courseId": "ENGL M126"},
+                {"type": "course", "courseId": "ENGL 132"},
+                {"type": "course", "courseId": "ENGL 133"},
+                {"type": "course", "courseId": "ENGL 134"},
+                {"type": "course", "courseId": "ENGL 139"}
               ]
             },
             {
@@ -348,150 +144,42 @@
               "description": "Select at least two from this area. Note: Courses ENGL 114, 115C, 115D, 115E, M115XP, 116A, 116B, 121, 122, 123, 124, 125, M126, 127, 129, 139, 169, 169R, 179, 179R are only applicable when treating American topics.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ENGL 115A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 167A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 167B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 168"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 170A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 170B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 170C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 172C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 173A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 173B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 173C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 174A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 174B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 174C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 175"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 177"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 114"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 115C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 115D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 115E"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M115XP"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 116A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 116B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 122"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 123"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 124"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 125"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M126"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 127"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 129"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 139"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 169"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 169R"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 179"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL 179R"
-                }
+                {"type": "course", "courseId": "ENGL 115A"},
+                {"type": "course", "courseId": "ENGL 167A"},
+                {"type": "course", "courseId": "ENGL 167B"},
+                {"type": "course", "courseId": "ENGL 168"},
+                {"type": "course", "courseId": "ENGL 170A"},
+                {"type": "course", "courseId": "ENGL 170B"},
+                {"type": "course", "courseId": "ENGL 170C"},
+                {"type": "course", "courseId": "ENGL 172C"},
+                {"type": "course", "courseId": "ENGL 173A"},
+                {"type": "course", "courseId": "ENGL 173B"},
+                {"type": "course", "courseId": "ENGL 173C"},
+                {"type": "course", "courseId": "ENGL 174A"},
+                {"type": "course", "courseId": "ENGL 174B"},
+                {"type": "course", "courseId": "ENGL 174C"},
+                {"type": "course", "courseId": "ENGL 175"},
+                {"type": "course", "courseId": "ENGL 177"},
+                {"type": "course", "courseId": "ENGL 114"},
+                {"type": "course", "courseId": "ENGL 115C"},
+                {"type": "course", "courseId": "ENGL 115D"},
+                {"type": "course", "courseId": "ENGL 115E"},
+                {"type": "course", "courseId": "ENGL M115XP"},
+                {"type": "course", "courseId": "ENGL 116A"},
+                {"type": "course", "courseId": "ENGL 116B"},
+                {"type": "course", "courseId": "ENGL 121"},
+                {"type": "course", "courseId": "ENGL 122"},
+                {"type": "course", "courseId": "ENGL 123"},
+                {"type": "course", "courseId": "ENGL 124"},
+                {"type": "course", "courseId": "ENGL 125"},
+                {"type": "course", "courseId": "ENGL M126"},
+                {"type": "course", "courseId": "ENGL 127"},
+                {"type": "course", "courseId": "ENGL 129"},
+                {"type": "course", "courseId": "ENGL 139"},
+                {"type": "course", "courseId": "ENGL 169"},
+                {"type": "course", "courseId": "ENGL 169R"},
+                {"type": "course", "courseId": "ENGL 179"},
+                {"type": "course", "courseId": "ENGL 179R"}
               ]
             }
           ]
@@ -502,66 +190,21 @@
           "description": "Select one course from the following list. Note: Courses ENGL 180, 181A, 181B, 182E, 182F, 184, M191D, M191E are only applicable when treating American topics.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ENGL M105XP"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 183A"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 183B"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 183C"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL M191A"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL M191B"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL M191C"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 180"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 181A"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 181B"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 182E"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 182F"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 184"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL M191D"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL M191E"
-            }
+            {"type": "course", "courseId": "ENGL M105XP"},
+            {"type": "course", "courseId": "ENGL 183A"},
+            {"type": "course", "courseId": "ENGL 183B"},
+            {"type": "course", "courseId": "ENGL 183C"},
+            {"type": "course", "courseId": "ENGL M191A"},
+            {"type": "course", "courseId": "ENGL M191B"},
+            {"type": "course", "courseId": "ENGL M191C"},
+            {"type": "course", "courseId": "ENGL 180"},
+            {"type": "course", "courseId": "ENGL 181A"},
+            {"type": "course", "courseId": "ENGL 181B"},
+            {"type": "course", "courseId": "ENGL 182E"},
+            {"type": "course", "courseId": "ENGL 182F"},
+            {"type": "course", "courseId": "ENGL 184"},
+            {"type": "course", "courseId": "ENGL M191D"},
+            {"type": "course", "courseId": "ENGL M191E"}
           ]
         },
         {
@@ -570,366 +213,366 @@
           "description": "Complete two courses pertaining to American culture offered by other departments from a list of approved courses for the major. Courses 195 and 195CE are not applicable.",
           "needs": 2,
           "options": [
-            { "type": "course", "courseId": "AF AMER M102" },
-            { "type": "course", "courseId": "AF AMER M103A" },
-            { "type": "course", "courseId": "AF AMER M103B" },
-            { "type": "course", "courseId": "AF AMER M103E" },
-            { "type": "course", "courseId": "AF AMER M103J" },
-            { "type": "course", "courseId": "AF AMER M104A" },
-            { "type": "course", "courseId": "AF AMER M104B" },
-            { "type": "course", "courseId": "AF AMER M104C" },
-            { "type": "course", "courseId": "AF AMER M104D" },
-            { "type": "course", "courseId": "AF AMER M104E" },
-            { "type": "course", "courseId": "AF AMER M107" },
-            { "type": "course", "courseId": "AF AMER M109" },
-            { "type": "course", "courseId": "AF AMER M110A" },
-            { "type": "course", "courseId": "AF AMER M110B" },
-            { "type": "course", "courseId": "AF AMER M111" },
-            { "type": "course", "courseId": "AF AMER CM112A" },
-            { "type": "course", "courseId": "AF AMER M114" },
-            { "type": "course", "courseId": "AF AMER M118" },
-            { "type": "course", "courseId": "AF AMER M120" },
-            { "type": "course", "courseId": "AF AMER CM135A" },
-            { "type": "course", "courseId": "AF AMER CM135B" },
-            { "type": "course", "courseId": "AF AMER M141" },
-            { "type": "course", "courseId": "AF AMER M142" },
-            { "type": "course", "courseId": "AF AMER M144" },
-            { "type": "course", "courseId": "AF AMER M145" },
-            { "type": "course", "courseId": "AF AMER M148" },
-            { "type": "course", "courseId": "AF AMER M150D" },
-            { "type": "course", "courseId": "AF AMER M158B" },
-            { "type": "course", "courseId": "AF AMER M158C" },
-            { "type": "course", "courseId": "AF AMER M158E" },
-            { "type": "course", "courseId": "AF AMER M159P" },
-            { "type": "course", "courseId": "AF AMER M164" },
-            { "type": "course", "courseId": "AF AMER M165" },
-            { "type": "course", "courseId": "AF AMER M172" },
-            { "type": "course", "courseId": "AF AMER M173" },
-            { "type": "course", "courseId": "AF AMER 174" },
-            { "type": "course", "courseId": "AF AMER 176" },
-            { "type": "course", "courseId": "AF AMER 177" },
-            { "type": "course", "courseId": "AF AMER 188B" },
-            { "type": "course", "courseId": "AM IND M118" },
-            { "type": "course", "courseId": "AM IND C120" },
-            { "type": "course", "courseId": "AM IND C121" },
-            { "type": "course", "courseId": "AM IND C130" },
-            { "type": "course", "courseId": "AM IND 140" },
-            { "type": "course", "courseId": "AM IND C145" },
-            { "type": "course", "courseId": "AM IND 158" },
-            { "type": "course", "courseId": "AM IND M161" },
-            { "type": "course", "courseId": "AM IND CM168P" },
-            { "type": "course", "courseId": "AM IND C170" },
-            { "type": "course", "courseId": "AM IND C175" },
-            { "type": "course", "courseId": "AM IND C178" },
-            { "type": "course", "courseId": "ANTHRO 113P" },
-            { "type": "course", "courseId": "ANTHRO 113Q" },
-            { "type": "course", "courseId": "ANTHRO 113R" },
-            { "type": "course", "courseId": "ANTHRO M144P" },
-            { "type": "course", "courseId": "ANTHRO M144Q" },
-            { "type": "course", "courseId": "ANTHRO 144R" },
-            { "type": "course", "courseId": "ANTHRO C144S" },
-            { "type": "course", "courseId": "ANTHRO M158" },
-            { "type": "course", "courseId": "ANTHRO 160A" },
-            { "type": "course", "courseId": "ANTHRO 160B" },
-            { "type": "course", "courseId": "ANTHRO M164" },
-            { "type": "course", "courseId": "ANTHRO CM168P" },
-            { "type": "course", "courseId": "ANTHRO M168Q" },
-            { "type": "course", "courseId": "ANTHRO C169R" },
-            { "type": "course", "courseId": "ART HIS 113D" },
-            { "type": "course", "courseId": "ART HIS 113E" },
-            { "type": "course", "courseId": "ART HIS C133A" },
-            { "type": "course", "courseId": "ART HIS C133B" },
-            { "type": "course", "courseId": "ART HIS C133C" },
-            { "type": "course", "courseId": "ART HIS CM135A" },
-            { "type": "course", "courseId": "ART HIS CM135B" },
-            { "type": "course", "courseId": "ART HIS 137" },
-            { "type": "course", "courseId": "ASIA AM 111" },
-            { "type": "course", "courseId": "ASIA AM M112A" },
-            { "type": "course", "courseId": "ASIA AM M112B" },
-            { "type": "course", "courseId": "ASIA AM 113" },
-            { "type": "course", "courseId": "ASIA AM M114" },
-            { "type": "course", "courseId": "ASIA AM 115" },
-            { "type": "course", "courseId": "ASIA AM M116" },
-            { "type": "course", "courseId": "ASIA AM M117" },
-            { "type": "course", "courseId": "ASIA AM M119" },
-            { "type": "course", "courseId": "ASIA AM 120" },
-            { "type": "course", "courseId": "ASIA AM 121" },
-            { "type": "course", "courseId": "ASIA AM 122A" },
-            { "type": "course", "courseId": "ASIA AM 122B" },
-            { "type": "course", "courseId": "ASIA AM M129" },
-            { "type": "course", "courseId": "ASIA AM 130A" },
-            { "type": "course", "courseId": "ASIA AM M130B" },
-            { "type": "course", "courseId": "ASIA AM M130C" },
-            { "type": "course", "courseId": "ASIA AM 131A" },
-            { "type": "course", "courseId": "ASIA AM 131B" },
-            { "type": "course", "courseId": "ASIA AM 131C" },
-            { "type": "course", "courseId": "ASIA AM 132A" },
-            { "type": "course", "courseId": "ASIA AM 132B" },
-            { "type": "course", "courseId": "ASIA AM 133" },
-            { "type": "course", "courseId": "ASIA AM 134" },
-            { "type": "course", "courseId": "ASIA AM 143B" },
-            { "type": "course", "courseId": "ASIA AM 143C" },
-            { "type": "course", "courseId": "ASIA AM M160" },
-            { "type": "course", "courseId": "ASIA AM M161" },
-            { "type": "course", "courseId": "ASIA AM M165" },
-            { "type": "course", "courseId": "ASIA AM M169" },
-            { "type": "course", "courseId": "ASIA AM 171A" },
-            { "type": "course", "courseId": "ASIA AM 171B" },
-            { "type": "course", "courseId": "ASIA AM 171C" },
-            { "type": "course", "courseId": "ASIA AM 171E" },
-            { "type": "course", "courseId": "ASIA AM M171D" },
-            { "type": "course", "courseId": "CCAS 101" },
-            { "type": "course", "courseId": "CCAS M102" },
-            { "type": "course", "courseId": "CCAS M103C" },
-            { "type": "course", "courseId": "CCAS M103D" },
-            { "type": "course", "courseId": "CCAS M103G" },
-            { "type": "course", "courseId": "CCAS M105A" },
-            { "type": "course", "courseId": "CCAS M105B" },
-            { "type": "course", "courseId": "CCAS M105C" },
-            { "type": "course", "courseId": "CCAS M105D" },
-            { "type": "course", "courseId": "CCAS M105E" },
-            { "type": "course", "courseId": "CCAS 105F" },
-            { "type": "course", "courseId": "CCAS C107" },
-            { "type": "course", "courseId": "CCAS 109" },
-            { "type": "course", "courseId": "CCAS CM110" },
-            { "type": "course", "courseId": "CCAS 111" },
-            { "type": "course", "courseId": "CCAS M114" },
-            { "type": "course", "courseId": "CCAS M115" },
-            { "type": "course", "courseId": "CCAS M116" },
-            { "type": "course", "courseId": "CCAS M118" },
-            { "type": "course", "courseId": "CCAS M119" },
-            { "type": "course", "courseId": "CCAS 120" },
-            { "type": "course", "courseId": "CCAS M121" },
-            { "type": "course", "courseId": "CCAS M124" },
-            { "type": "course", "courseId": "CCAS M125" },
-            { "type": "course", "courseId": "CCAS M127" },
-            { "type": "course", "courseId": "CCAS M128" },
-            { "type": "course", "courseId": "CCAS 131" },
-            { "type": "course", "courseId": "CCAS M132" },
-            { "type": "course", "courseId": "CCAS M133" },
-            { "type": "course", "courseId": "CCAS 138A" },
-            { "type": "course", "courseId": "CCAS 138B" },
-            { "type": "course", "courseId": "CCAS M145A" },
-            { "type": "course", "courseId": "CCAS M145B" },
-            { "type": "course", "courseId": "CCAS M148" },
-            { "type": "course", "courseId": "CCAS 150" },
-            { "type": "course", "courseId": "CCAS 152" },
-            { "type": "course", "courseId": "CCAS 153A" },
-            { "type": "course", "courseId": "CCAS 153C" },
-            { "type": "course", "courseId": "CCAS 153D" },
-            { "type": "course", "courseId": "CCAS M154" },
-            { "type": "course", "courseId": "CCAS M155A" },
-            { "type": "course", "courseId": "CCAS M155B" },
-            { "type": "course", "courseId": "CCAS 157" },
-            { "type": "course", "courseId": "CCAS M158" },
-            { "type": "course", "courseId": "CCAS M159A" },
-            { "type": "course", "courseId": "CCAS M159B" },
-            { "type": "course", "courseId": "CCAS 160" },
-            { "type": "course", "courseId": "CCAS 163" },
-            { "type": "course", "courseId": "CCAS 165" },
-            { "type": "course", "courseId": "CCAS 166" },
-            { "type": "course", "courseId": "CCAS 172" },
-            { "type": "course", "courseId": "CCAS 178" },
-            { "type": "course", "courseId": "CCAS M173" },
-            { "type": "course", "courseId": "CCAS M175" },
-            { "type": "course", "courseId": "CCAS 179" },
-            { "type": "course", "courseId": "CCAS 181" },
-            { "type": "course", "courseId": "CCAS M182" },
-            { "type": "course", "courseId": "CCAS M183" },
-            { "type": "course", "courseId": "CCAS 184" },
-            { "type": "course", "courseId": "CCAS M185" },
-            { "type": "course", "courseId": "COMM 101" },
-            { "type": "course", "courseId": "COMM 162" },
-            { "type": "course", "courseId": "COMM 163" },
-            { "type": "course", "courseId": "COMM 167" },
-            { "type": "course", "courseId": "COMM 168" },
-            { "type": "course", "courseId": "COMM M172" },
-            { "type": "course", "courseId": "COMM 178" },
-            { "type": "course", "courseId": "COMM 179" },
-            { "type": "course", "courseId": "COMM 187" },
-            { "type": "course", "courseId": "EDUC M102" },
-            { "type": "course", "courseId": "EDUC M103" },
-            { "type": "course", "courseId": "EDUC 118" },
-            { "type": "course", "courseId": "EDUC 121" },
-            { "type": "course", "courseId": "EDUC 122" },
-            { "type": "course", "courseId": "EDUC 130" },
-            { "type": "course", "courseId": "EDUC 131" },
-            { "type": "course", "courseId": "EDUC M136" },
-            { "type": "course", "courseId": "EDUC 164" },
-            { "type": "course", "courseId": "ETHNMUS 106A" },
-            { "type": "course", "courseId": "ETHNMUS 106B" },
-            { "type": "course", "courseId": "ETHNMUS M109" },
-            { "type": "course", "courseId": "ETHNMUS M111" },
-            { "type": "course", "courseId": "ETHNMUS CM112" },
-            { "type": "course", "courseId": "ETHNMUS M115" },
-            { "type": "course", "courseId": "ETHNMUS M116" },
-            { "type": "course", "courseId": "ETHNMUS 117" },
-            { "type": "course", "courseId": "ETHNMUS 118" },
-            { "type": "course", "courseId": "ETHNMUS M119" },
-            { "type": "course", "courseId": "ETHNMUS M130" },
-            { "type": "course", "courseId": "FILM TV M117" },
-            { "type": "course", "courseId": "FILM TV 122N" },
-            { "type": "course", "courseId": "FILM TV 128" },
-            { "type": "course", "courseId": "GENDER M109" },
-            { "type": "course", "courseId": "GENDER M116" },
-            { "type": "course", "courseId": "GENDER M118" },
-            { "type": "course", "courseId": "GENDER 125" },
-            { "type": "course", "courseId": "GENDER 130" },
-            { "type": "course", "courseId": "GENDER M132A" },
-            { "type": "course", "courseId": "GENDER 132B" },
-            { "type": "course", "courseId": "GENDER M133" },
-            { "type": "course", "courseId": "GENDER 138" },
-            { "type": "course", "courseId": "GENDER 139" },
-            { "type": "course", "courseId": "GENDER 142" },
-            { "type": "course", "courseId": "GENDER 145" },
-            { "type": "course", "courseId": "GENDER M147B" },
-            { "type": "course", "courseId": "GENDER M147D" },
-            { "type": "course", "courseId": "GENDER 156A" },
-            { "type": "course", "courseId": "GENDER M157" },
-            { "type": "course", "courseId": "GENDER M172" },
-            { "type": "course", "courseId": "GEOG 136" },
-            { "type": "course", "courseId": "GEOG M137" },
-            { "type": "course", "courseId": "GEOG 144" },
-            { "type": "course", "courseId": "GEOG 145" },
-            { "type": "course", "courseId": "GEOG 151" },
-            { "type": "course", "courseId": "GEOG 156" },
-            { "type": "course", "courseId": "GEOG 184" },
-            { "type": "course", "courseId": "HIST 138A" },
-            { "type": "course", "courseId": "HIST 138B" },
-            { "type": "course", "courseId": "HIST 138C" },
-            { "type": "course", "courseId": "HIST 139A" },
-            { "type": "course", "courseId": "HIST 139B" },
-            { "type": "course", "courseId": "HIST 140A" },
-            { "type": "course", "courseId": "HIST 140B" },
-            { "type": "course", "courseId": "HIST 140C" },
-            { "type": "course", "courseId": "HIST 141A" },
-            { "type": "course", "courseId": "HIST 141B" },
-            { "type": "course", "courseId": "HIST 142A" },
-            { "type": "course", "courseId": "HIST 142B" },
-            { "type": "course", "courseId": "HIST M142C" },
-            { "type": "course", "courseId": "HIST 143A" },
-            { "type": "course", "courseId": "HIST 143B" },
-            { "type": "course", "courseId": "HIST 144" },
-            { "type": "course", "courseId": "HIST M144C" },
-            { "type": "course", "courseId": "HIST 145A" },
-            { "type": "course", "courseId": "HIST 145B" },
-            { "type": "course", "courseId": "HIST 146A" },
-            { "type": "course", "courseId": "HIST 146B" },
-            { "type": "course", "courseId": "HIST 146C" },
-            { "type": "course", "courseId": "HIST 146D" },
-            { "type": "course", "courseId": "HIST M147C" },
-            { "type": "course", "courseId": "HIST M147D" },
-            { "type": "course", "courseId": "HIST M147E" },
-            { "type": "course", "courseId": "HIST 149A" },
-            { "type": "course", "courseId": "HIST 149B" },
-            { "type": "course", "courseId": "HIST M150B" },
-            { "type": "course", "courseId": "HIST M150C" },
-            { "type": "course", "courseId": "HIST M150D" },
-            { "type": "course", "courseId": "HIST M150E" },
-            { "type": "course", "courseId": "HIST M151A" },
-            { "type": "course", "courseId": "HIST M151B" },
-            { "type": "course", "courseId": "HIST M151C" },
-            { "type": "course", "courseId": "HIST M151D" },
-            { "type": "course", "courseId": "HIST 152" },
-            { "type": "course", "courseId": "HIST 153" },
-            { "type": "course", "courseId": "HIST 154" },
-            { "type": "course", "courseId": "HIST M155" },
-            { "type": "course", "courseId": "HIST 156" },
-            { "type": "course", "courseId": "HIST 179C" },
-            { "type": "course", "courseId": "HIST M181SL" },
-            { "type": "course", "courseId": "HIST M184C" },
-            { "type": "course", "courseId": "UG-LAW 170" },
-            { "type": "course", "courseId": "UG-LAW 173" },
-            { "type": "course", "courseId": "UG-LAW 184" },
-            { "type": "course", "courseId": "UG-LAW 185" },
-            { "type": "course", "courseId": "UG-LAW 186" },
-            { "type": "course", "courseId": "UG-LAW 191" },
-            { "type": "course", "courseId": "LGBTQS M116" },
-            { "type": "course", "courseId": "LGBTQS M118" },
-            { "type": "course", "courseId": "LGBTQS M133" },
-            { "type": "course", "courseId": "LGBTQS M141" },
-            { "type": "course", "courseId": "LGBTQS M142" },
-            { "type": "course", "courseId": "MUSC 136A" },
-            { "type": "course", "courseId": "MUSC 136B" },
-            { "type": "course", "courseId": "MUSC 136C" },
-            { "type": "course", "courseId": "POL SCI 114A" },
-            { "type": "course", "courseId": "POL SCI 114B" },
-            { "type": "course", "courseId": "POL SCI 120A" },
-            { "type": "course", "courseId": "POL SCI 121A" },
-            { "type": "course", "courseId": "POL SCI 128A" },
-            { "type": "course", "courseId": "POL SCI 140A" },
-            { "type": "course", "courseId": "POL SCI 140B" },
-            { "type": "course", "courseId": "POL SCI 140C" },
-            { "type": "course", "courseId": "POL SCI M141A" },
-            { "type": "course", "courseId": "POL SCI 141B" },
-            { "type": "course", "courseId": "POL SCI 141C" },
-            { "type": "course", "courseId": "POL SCI 141D" },
-            { "type": "course", "courseId": "POL SCI 141E" },
-            { "type": "course", "courseId": "POL SCI 142A" },
-            { "type": "course", "courseId": "POL SCI M142D" },
-            { "type": "course", "courseId": "POL SCI 143A" },
-            { "type": "course", "courseId": "POL SCI 143B" },
-            { "type": "course", "courseId": "POL SCI 143C" },
-            { "type": "course", "courseId": "POL SCI 145A" },
-            { "type": "course", "courseId": "POL SCI 145B" },
-            { "type": "course", "courseId": "POL SCI 145C" },
-            { "type": "course", "courseId": "POL SCI 145D" },
-            { "type": "course", "courseId": "POL SCI 145E" },
-            { "type": "course", "courseId": "POL SCI 146B" },
-            { "type": "course", "courseId": "POL SCI 146D" },
-            { "type": "course", "courseId": "POL SCI 146E" },
-            { "type": "course", "courseId": "POL SCI 147A" },
-            { "type": "course", "courseId": "POL SCI 147B" },
-            { "type": "course", "courseId": "POL SCI 147C" },
-            { "type": "course", "courseId": "POL SCI 149" },
-            { "type": "course", "courseId": "POL SCI M180A" },
-            { "type": "course", "courseId": "POL SCI M181B" },
-            { "type": "course", "courseId": "POL SCI M182" },
-            { "type": "course", "courseId": "PUB PLC 104" },
-            { "type": "course", "courseId": "PUB PLC 113" },
-            { "type": "course", "courseId": "PUB PLC M120" },
-            { "type": "course", "courseId": "PUB PLC C124" },
-            { "type": "course", "courseId": "PUB PLC 145" },
-            { "type": "course", "courseId": "PUB PLC M149" },
-            { "type": "course", "courseId": "SOC WLF 100A" },
-            { "type": "course", "courseId": "SOC WLF 105" },
-            { "type": "course", "courseId": "SOC WLF 131" },
-            { "type": "course", "courseId": "SOC WLF 151" },
-            { "type": "course", "courseId": "SOC WLF M165" },
-            { "type": "course", "courseId": "SOC WLF 181" },
-            { "type": "course", "courseId": "SOCIOL 141A" },
-            { "type": "course", "courseId": "SOCIOL 141B" },
-            { "type": "course", "courseId": "SOCIOL M155" },
-            { "type": "course", "courseId": "SOCIOL 156" },
-            { "type": "course", "courseId": "SOCIOL 157" },
-            { "type": "course", "courseId": "SOCIOL 158" },
-            { "type": "course", "courseId": "SOCIOL M165" },
-            { "type": "course", "courseId": "SOCIOL 171" },
-            { "type": "course", "courseId": "SOCIOL 173" },
-            { "type": "course", "courseId": "SOCIOL M175" },
-            { "type": "course", "courseId": "SOCIOL M161" },
-            { "type": "course", "courseId": "SOCIOL 185" },
-            { "type": "course", "courseId": "THEATER M103A" },
-            { "type": "course", "courseId": "THEATER M103B" },
-            { "type": "course", "courseId": "THEATER M103C" },
-            { "type": "course", "courseId": "THEATER M103D" },
-            { "type": "course", "courseId": "THEATER M103E" },
-            { "type": "course", "courseId": "THEATER 103F" },
-            { "type": "course", "courseId": "THEATER M103G" },
-            { "type": "course", "courseId": "THEATER 106" },
-            { "type": "course", "courseId": "THEATER 107" },
-            { "type": "course", "courseId": "THEATER 108" },
-            { "type": "course", "courseId": "THEATER 110" },
-            { "type": "course", "courseId": "URBN PL CM137" },
-            { "type": "course", "courseId": "URBN PL M140" },
-            { "type": "course", "courseId": "URBN PL 141" },
-            { "type": "course", "courseId": "URBN PL M163" },
-            { "type": "course", "courseId": "URBN PL M167" },
-            { "type": "course", "courseId": "URBN PL C184" },
-            { "type": "course", "courseId": "WL ARTS M126" },
-            { "type": "course", "courseId": "WL ARTS M128" },
-            { "type": "course", "courseId": "WL ARTS C129" },
-            { "type": "course", "courseId": "WL ARTS C138" }
+            {"type": "course", "courseId": "AF AMER M102"},
+            {"type": "course", "courseId": "AF AMER M103A"},
+            {"type": "course", "courseId": "AF AMER M103B"},
+            {"type": "course", "courseId": "AF AMER M103E"},
+            {"type": "course", "courseId": "AF AMER M103J"},
+            {"type": "course", "courseId": "AF AMER M104A"},
+            {"type": "course", "courseId": "AF AMER M104B"},
+            {"type": "course", "courseId": "AF AMER M104C"},
+            {"type": "course", "courseId": "AF AMER M104D"},
+            {"type": "course", "courseId": "AF AMER M104E"},
+            {"type": "course", "courseId": "AF AMER M107"},
+            {"type": "course", "courseId": "AF AMER M109"},
+            {"type": "course", "courseId": "AF AMER M110A"},
+            {"type": "course", "courseId": "AF AMER M110B"},
+            {"type": "course", "courseId": "AF AMER M111"},
+            {"type": "course", "courseId": "AF AMER CM112A"},
+            {"type": "course", "courseId": "AF AMER M114"},
+            {"type": "course", "courseId": "AF AMER M118"},
+            {"type": "course", "courseId": "AF AMER M120"},
+            {"type": "course", "courseId": "AF AMER CM135A"},
+            {"type": "course", "courseId": "AF AMER CM135B"},
+            {"type": "course", "courseId": "AF AMER M141"},
+            {"type": "course", "courseId": "AF AMER M142"},
+            {"type": "course", "courseId": "AF AMER M144"},
+            {"type": "course", "courseId": "AF AMER M145"},
+            {"type": "course", "courseId": "AF AMER M148"},
+            {"type": "course", "courseId": "AF AMER M150D"},
+            {"type": "course", "courseId": "AF AMER M158B"},
+            {"type": "course", "courseId": "AF AMER M158C"},
+            {"type": "course", "courseId": "AF AMER M158E"},
+            {"type": "course", "courseId": "AF AMER M159P"},
+            {"type": "course", "courseId": "AF AMER M164"},
+            {"type": "course", "courseId": "AF AMER M165"},
+            {"type": "course", "courseId": "AF AMER M172"},
+            {"type": "course", "courseId": "AF AMER M173"},
+            {"type": "course", "courseId": "AF AMER 174"},
+            {"type": "course", "courseId": "AF AMER 176"},
+            {"type": "course", "courseId": "AF AMER 177"},
+            {"type": "course", "courseId": "AF AMER 188B"},
+            {"type": "course", "courseId": "AM IND M118"},
+            {"type": "course", "courseId": "AM IND C120"},
+            {"type": "course", "courseId": "AM IND C121"},
+            {"type": "course", "courseId": "AM IND C130"},
+            {"type": "course", "courseId": "AM IND 140"},
+            {"type": "course", "courseId": "AM IND C145"},
+            {"type": "course", "courseId": "AM IND 158"},
+            {"type": "course", "courseId": "AM IND M161"},
+            {"type": "course", "courseId": "AM IND CM168P"},
+            {"type": "course", "courseId": "AM IND C170"},
+            {"type": "course", "courseId": "AM IND C175"},
+            {"type": "course", "courseId": "AM IND C178"},
+            {"type": "course", "courseId": "ANTHRO 113P"},
+            {"type": "course", "courseId": "ANTHRO 113Q"},
+            {"type": "course", "courseId": "ANTHRO 113R"},
+            {"type": "course", "courseId": "ANTHRO M144P"},
+            {"type": "course", "courseId": "ANTHRO M144Q"},
+            {"type": "course", "courseId": "ANTHRO 144R"},
+            {"type": "course", "courseId": "ANTHRO C144S"},
+            {"type": "course", "courseId": "ANTHRO M158"},
+            {"type": "course", "courseId": "ANTHRO 160A"},
+            {"type": "course", "courseId": "ANTHRO 160B"},
+            {"type": "course", "courseId": "ANTHRO M164"},
+            {"type": "course", "courseId": "ANTHRO CM168P"},
+            {"type": "course", "courseId": "ANTHRO M168Q"},
+            {"type": "course", "courseId": "ANTHRO C169R"},
+            {"type": "course", "courseId": "ART HIS 113D"},
+            {"type": "course", "courseId": "ART HIS 113E"},
+            {"type": "course", "courseId": "ART HIS C133A"},
+            {"type": "course", "courseId": "ART HIS C133B"},
+            {"type": "course", "courseId": "ART HIS C133C"},
+            {"type": "course", "courseId": "ART HIS CM135A"},
+            {"type": "course", "courseId": "ART HIS CM135B"},
+            {"type": "course", "courseId": "ART HIS 137"},
+            {"type": "course", "courseId": "ASIA AM 111"},
+            {"type": "course", "courseId": "ASIA AM M112A"},
+            {"type": "course", "courseId": "ASIA AM M112B"},
+            {"type": "course", "courseId": "ASIA AM 113"},
+            {"type": "course", "courseId": "ASIA AM M114"},
+            {"type": "course", "courseId": "ASIA AM 115"},
+            {"type": "course", "courseId": "ASIA AM M116"},
+            {"type": "course", "courseId": "ASIA AM M117"},
+            {"type": "course", "courseId": "ASIA AM M119"},
+            {"type": "course", "courseId": "ASIA AM 120"},
+            {"type": "course", "courseId": "ASIA AM 121"},
+            {"type": "course", "courseId": "ASIA AM 122A"},
+            {"type": "course", "courseId": "ASIA AM 122B"},
+            {"type": "course", "courseId": "ASIA AM M129"},
+            {"type": "course", "courseId": "ASIA AM 130A"},
+            {"type": "course", "courseId": "ASIA AM M130B"},
+            {"type": "course", "courseId": "ASIA AM M130C"},
+            {"type": "course", "courseId": "ASIA AM 131A"},
+            {"type": "course", "courseId": "ASIA AM 131B"},
+            {"type": "course", "courseId": "ASIA AM 131C"},
+            {"type": "course", "courseId": "ASIA AM 132A"},
+            {"type": "course", "courseId": "ASIA AM 132B"},
+            {"type": "course", "courseId": "ASIA AM 133"},
+            {"type": "course", "courseId": "ASIA AM 134"},
+            {"type": "course", "courseId": "ASIA AM 143B"},
+            {"type": "course", "courseId": "ASIA AM 143C"},
+            {"type": "course", "courseId": "ASIA AM M160"},
+            {"type": "course", "courseId": "ASIA AM M161"},
+            {"type": "course", "courseId": "ASIA AM M165"},
+            {"type": "course", "courseId": "ASIA AM M169"},
+            {"type": "course", "courseId": "ASIA AM 171A"},
+            {"type": "course", "courseId": "ASIA AM 171B"},
+            {"type": "course", "courseId": "ASIA AM 171C"},
+            {"type": "course", "courseId": "ASIA AM 171E"},
+            {"type": "course", "courseId": "ASIA AM M171D"},
+            {"type": "course", "courseId": "CCAS 101"},
+            {"type": "course", "courseId": "CCAS M102"},
+            {"type": "course", "courseId": "CCAS M103C"},
+            {"type": "course", "courseId": "CCAS M103D"},
+            {"type": "course", "courseId": "CCAS M103G"},
+            {"type": "course", "courseId": "CCAS M105A"},
+            {"type": "course", "courseId": "CCAS M105B"},
+            {"type": "course", "courseId": "CCAS M105C"},
+            {"type": "course", "courseId": "CCAS M105D"},
+            {"type": "course", "courseId": "CCAS M105E"},
+            {"type": "course", "courseId": "CCAS 105F"},
+            {"type": "course", "courseId": "CCAS C107"},
+            {"type": "course", "courseId": "CCAS 109"},
+            {"type": "course", "courseId": "CCAS CM110"},
+            {"type": "course", "courseId": "CCAS 111"},
+            {"type": "course", "courseId": "CCAS M114"},
+            {"type": "course", "courseId": "CCAS M115"},
+            {"type": "course", "courseId": "CCAS M116"},
+            {"type": "course", "courseId": "CCAS M118"},
+            {"type": "course", "courseId": "CCAS M119"},
+            {"type": "course", "courseId": "CCAS 120"},
+            {"type": "course", "courseId": "CCAS M121"},
+            {"type": "course", "courseId": "CCAS M124"},
+            {"type": "course", "courseId": "CCAS M125"},
+            {"type": "course", "courseId": "CCAS M127"},
+            {"type": "course", "courseId": "CCAS M128"},
+            {"type": "course", "courseId": "CCAS 131"},
+            {"type": "course", "courseId": "CCAS M132"},
+            {"type": "course", "courseId": "CCAS M133"},
+            {"type": "course", "courseId": "CCAS 138A"},
+            {"type": "course", "courseId": "CCAS 138B"},
+            {"type": "course", "courseId": "CCAS M145A"},
+            {"type": "course", "courseId": "CCAS M145B"},
+            {"type": "course", "courseId": "CCAS M148"},
+            {"type": "course", "courseId": "CCAS 150"},
+            {"type": "course", "courseId": "CCAS 152"},
+            {"type": "course", "courseId": "CCAS 153A"},
+            {"type": "course", "courseId": "CCAS 153C"},
+            {"type": "course", "courseId": "CCAS 153D"},
+            {"type": "course", "courseId": "CCAS M154"},
+            {"type": "course", "courseId": "CCAS M155A"},
+            {"type": "course", "courseId": "CCAS M155B"},
+            {"type": "course", "courseId": "CCAS 157"},
+            {"type": "course", "courseId": "CCAS M158"},
+            {"type": "course", "courseId": "CCAS M159A"},
+            {"type": "course", "courseId": "CCAS M159B"},
+            {"type": "course", "courseId": "CCAS 160"},
+            {"type": "course", "courseId": "CCAS 163"},
+            {"type": "course", "courseId": "CCAS 165"},
+            {"type": "course", "courseId": "CCAS 166"},
+            {"type": "course", "courseId": "CCAS 172"},
+            {"type": "course", "courseId": "CCAS 178"},
+            {"type": "course", "courseId": "CCAS M173"},
+            {"type": "course", "courseId": "CCAS M175"},
+            {"type": "course", "courseId": "CCAS 179"},
+            {"type": "course", "courseId": "CCAS 181"},
+            {"type": "course", "courseId": "CCAS M182"},
+            {"type": "course", "courseId": "CCAS M183"},
+            {"type": "course", "courseId": "CCAS 184"},
+            {"type": "course", "courseId": "CCAS M185"},
+            {"type": "course", "courseId": "COMM 101"},
+            {"type": "course", "courseId": "COMM 162"},
+            {"type": "course", "courseId": "COMM 163"},
+            {"type": "course", "courseId": "COMM 167"},
+            {"type": "course", "courseId": "COMM 168"},
+            {"type": "course", "courseId": "COMM M172"},
+            {"type": "course", "courseId": "COMM 178"},
+            {"type": "course", "courseId": "COMM 179"},
+            {"type": "course", "courseId": "COMM 187"},
+            {"type": "course", "courseId": "EDUC M102"},
+            {"type": "course", "courseId": "EDUC M103"},
+            {"type": "course", "courseId": "EDUC 118"},
+            {"type": "course", "courseId": "EDUC 121"},
+            {"type": "course", "courseId": "EDUC 122"},
+            {"type": "course", "courseId": "EDUC 130"},
+            {"type": "course", "courseId": "EDUC 131"},
+            {"type": "course", "courseId": "EDUC M136"},
+            {"type": "course", "courseId": "EDUC 164"},
+            {"type": "course", "courseId": "ETHNMUS 106A"},
+            {"type": "course", "courseId": "ETHNMUS 106B"},
+            {"type": "course", "courseId": "ETHNMUS M109"},
+            {"type": "course", "courseId": "ETHNMUS M111"},
+            {"type": "course", "courseId": "ETHNMUS CM112"},
+            {"type": "course", "courseId": "ETHNMUS M115"},
+            {"type": "course", "courseId": "ETHNMUS M116"},
+            {"type": "course", "courseId": "ETHNMUS 117"},
+            {"type": "course", "courseId": "ETHNMUS 118"},
+            {"type": "course", "courseId": "ETHNMUS M119"},
+            {"type": "course", "courseId": "ETHNMUS M130"},
+            {"type": "course", "courseId": "FILM TV M117"},
+            {"type": "course", "courseId": "FILM TV 122N"},
+            {"type": "course", "courseId": "FILM TV 128"},
+            {"type": "course", "courseId": "GENDER M109"},
+            {"type": "course", "courseId": "GENDER M116"},
+            {"type": "course", "courseId": "GENDER M118"},
+            {"type": "course", "courseId": "GENDER 125"},
+            {"type": "course", "courseId": "GENDER 130"},
+            {"type": "course", "courseId": "GENDER M132A"},
+            {"type": "course", "courseId": "GENDER 132B"},
+            {"type": "course", "courseId": "GENDER M133"},
+            {"type": "course", "courseId": "GENDER 138"},
+            {"type": "course", "courseId": "GENDER 139"},
+            {"type": "course", "courseId": "GENDER 142"},
+            {"type": "course", "courseId": "GENDER 145"},
+            {"type": "course", "courseId": "GENDER M147B"},
+            {"type": "course", "courseId": "GENDER M147D"},
+            {"type": "course", "courseId": "GENDER 156A"},
+            {"type": "course", "courseId": "GENDER M157"},
+            {"type": "course", "courseId": "GENDER M172"},
+            {"type": "course", "courseId": "GEOG 136"},
+            {"type": "course", "courseId": "GEOG M137"},
+            {"type": "course", "courseId": "GEOG 144"},
+            {"type": "course", "courseId": "GEOG 145"},
+            {"type": "course", "courseId": "GEOG 151"},
+            {"type": "course", "courseId": "GEOG 156"},
+            {"type": "course", "courseId": "GEOG 184"},
+            {"type": "course", "courseId": "HIST 138A"},
+            {"type": "course", "courseId": "HIST 138B"},
+            {"type": "course", "courseId": "HIST 138C"},
+            {"type": "course", "courseId": "HIST 139A"},
+            {"type": "course", "courseId": "HIST 139B"},
+            {"type": "course", "courseId": "HIST 140A"},
+            {"type": "course", "courseId": "HIST 140B"},
+            {"type": "course", "courseId": "HIST 140C"},
+            {"type": "course", "courseId": "HIST 141A"},
+            {"type": "course", "courseId": "HIST 141B"},
+            {"type": "course", "courseId": "HIST 142A"},
+            {"type": "course", "courseId": "HIST 142B"},
+            {"type": "course", "courseId": "HIST M142C"},
+            {"type": "course", "courseId": "HIST 143A"},
+            {"type": "course", "courseId": "HIST 143B"},
+            {"type": "course", "courseId": "HIST 144"},
+            {"type": "course", "courseId": "HIST M144C"},
+            {"type": "course", "courseId": "HIST 145A"},
+            {"type": "course", "courseId": "HIST 145B"},
+            {"type": "course", "courseId": "HIST 146A"},
+            {"type": "course", "courseId": "HIST 146B"},
+            {"type": "course", "courseId": "HIST 146C"},
+            {"type": "course", "courseId": "HIST 146D"},
+            {"type": "course", "courseId": "HIST M147C"},
+            {"type": "course", "courseId": "HIST M147D"},
+            {"type": "course", "courseId": "HIST M147E"},
+            {"type": "course", "courseId": "HIST 149A"},
+            {"type": "course", "courseId": "HIST 149B"},
+            {"type": "course", "courseId": "HIST M150B"},
+            {"type": "course", "courseId": "HIST M150C"},
+            {"type": "course", "courseId": "HIST M150D"},
+            {"type": "course", "courseId": "HIST M150E"},
+            {"type": "course", "courseId": "HIST M151A"},
+            {"type": "course", "courseId": "HIST M151B"},
+            {"type": "course", "courseId": "HIST M151C"},
+            {"type": "course", "courseId": "HIST M151D"},
+            {"type": "course", "courseId": "HIST 152"},
+            {"type": "course", "courseId": "HIST 153"},
+            {"type": "course", "courseId": "HIST 154"},
+            {"type": "course", "courseId": "HIST M155"},
+            {"type": "course", "courseId": "HIST 156"},
+            {"type": "course", "courseId": "HIST 179C"},
+            {"type": "course", "courseId": "HIST M181SL"},
+            {"type": "course", "courseId": "HIST M184C"},
+            {"type": "course", "courseId": "UG-LAW 170"},
+            {"type": "course", "courseId": "UG-LAW 173"},
+            {"type": "course", "courseId": "UG-LAW 184"},
+            {"type": "course", "courseId": "UG-LAW 185"},
+            {"type": "course", "courseId": "UG-LAW 186"},
+            {"type": "course", "courseId": "UG-LAW 191"},
+            {"type": "course", "courseId": "LGBTQS M116"},
+            {"type": "course", "courseId": "LGBTQS M118"},
+            {"type": "course", "courseId": "LGBTQS M133"},
+            {"type": "course", "courseId": "LGBTQS M141"},
+            {"type": "course", "courseId": "LGBTQS M142"},
+            {"type": "course", "courseId": "MUSC 136A"},
+            {"type": "course", "courseId": "MUSC 136B"},
+            {"type": "course", "courseId": "MUSC 136C"},
+            {"type": "course", "courseId": "POL SCI 114A"},
+            {"type": "course", "courseId": "POL SCI 114B"},
+            {"type": "course", "courseId": "POL SCI 120A"},
+            {"type": "course", "courseId": "POL SCI 121A"},
+            {"type": "course", "courseId": "POL SCI 128A"},
+            {"type": "course", "courseId": "POL SCI 140A"},
+            {"type": "course", "courseId": "POL SCI 140B"},
+            {"type": "course", "courseId": "POL SCI 140C"},
+            {"type": "course", "courseId": "POL SCI M141A"},
+            {"type": "course", "courseId": "POL SCI 141B"},
+            {"type": "course", "courseId": "POL SCI 141C"},
+            {"type": "course", "courseId": "POL SCI 141D"},
+            {"type": "course", "courseId": "POL SCI 141E"},
+            {"type": "course", "courseId": "POL SCI 142A"},
+            {"type": "course", "courseId": "POL SCI M142D"},
+            {"type": "course", "courseId": "POL SCI 143A"},
+            {"type": "course", "courseId": "POL SCI 143B"},
+            {"type": "course", "courseId": "POL SCI 143C"},
+            {"type": "course", "courseId": "POL SCI 145A"},
+            {"type": "course", "courseId": "POL SCI 145B"},
+            {"type": "course", "courseId": "POL SCI 145C"},
+            {"type": "course", "courseId": "POL SCI 145D"},
+            {"type": "course", "courseId": "POL SCI 145E"},
+            {"type": "course", "courseId": "POL SCI 146B"},
+            {"type": "course", "courseId": "POL SCI 146D"},
+            {"type": "course", "courseId": "POL SCI 146E"},
+            {"type": "course", "courseId": "POL SCI 147A"},
+            {"type": "course", "courseId": "POL SCI 147B"},
+            {"type": "course", "courseId": "POL SCI 147C"},
+            {"type": "course", "courseId": "POL SCI 149"},
+            {"type": "course", "courseId": "POL SCI M180A"},
+            {"type": "course", "courseId": "POL SCI M181B"},
+            {"type": "course", "courseId": "POL SCI M182"},
+            {"type": "course", "courseId": "PUB PLC 104"},
+            {"type": "course", "courseId": "PUB PLC 113"},
+            {"type": "course", "courseId": "PUB PLC M120"},
+            {"type": "course", "courseId": "PUB PLC C124"},
+            {"type": "course", "courseId": "PUB PLC 145"},
+            {"type": "course", "courseId": "PUB PLC M149"},
+            {"type": "course", "courseId": "SOC WLF 100A"},
+            {"type": "course", "courseId": "SOC WLF 105"},
+            {"type": "course", "courseId": "SOC WLF 131"},
+            {"type": "course", "courseId": "SOC WLF 151"},
+            {"type": "course", "courseId": "SOC WLF M165"},
+            {"type": "course", "courseId": "SOC WLF 181"},
+            {"type": "course", "courseId": "SOCIOL 141A"},
+            {"type": "course", "courseId": "SOCIOL 141B"},
+            {"type": "course", "courseId": "SOCIOL M155"},
+            {"type": "course", "courseId": "SOCIOL 156"},
+            {"type": "course", "courseId": "SOCIOL 157"},
+            {"type": "course", "courseId": "SOCIOL 158"},
+            {"type": "course", "courseId": "SOCIOL M165"},
+            {"type": "course", "courseId": "SOCIOL 171"},
+            {"type": "course", "courseId": "SOCIOL 173"},
+            {"type": "course", "courseId": "SOCIOL M175"},
+            {"type": "course", "courseId": "SOCIOL M161"},
+            {"type": "course", "courseId": "SOCIOL 185"},
+            {"type": "course", "courseId": "THEATER M103A"},
+            {"type": "course", "courseId": "THEATER M103B"},
+            {"type": "course", "courseId": "THEATER M103C"},
+            {"type": "course", "courseId": "THEATER M103D"},
+            {"type": "course", "courseId": "THEATER M103E"},
+            {"type": "course", "courseId": "THEATER 103F"},
+            {"type": "course", "courseId": "THEATER M103G"},
+            {"type": "course", "courseId": "THEATER 106"},
+            {"type": "course", "courseId": "THEATER 107"},
+            {"type": "course", "courseId": "THEATER 108"},
+            {"type": "course", "courseId": "THEATER 110"},
+            {"type": "course", "courseId": "URBN PL CM137"},
+            {"type": "course", "courseId": "URBN PL M140"},
+            {"type": "course", "courseId": "URBN PL 141"},
+            {"type": "course", "courseId": "URBN PL M163"},
+            {"type": "course", "courseId": "URBN PL M167"},
+            {"type": "course", "courseId": "URBN PL C184"},
+            {"type": "course", "courseId": "WL ARTS M126"},
+            {"type": "course", "courseId": "WL ARTS M128"},
+            {"type": "course", "courseId": "WL ARTS C129"},
+            {"type": "course", "courseId": "WL ARTS C138"}
           ]
         }
       ]
@@ -945,42 +588,15 @@
           "description": "Select one course from English 120 through 128:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ENGL 120"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 121"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 122"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 123"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 124"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 125"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 126"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 127"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 128"
-            }
+            {"type": "course", "courseId": "ENGL 120"},
+            {"type": "course", "courseId": "ENGL 121"},
+            {"type": "course", "courseId": "ENGL 122"},
+            {"type": "course", "courseId": "ENGL 123"},
+            {"type": "course", "courseId": "ENGL 124"},
+            {"type": "course", "courseId": "ENGL 125"},
+            {"type": "course", "courseId": "ENGL 126"},
+            {"type": "course", "courseId": "ENGL 127"},
+            {"type": "course", "courseId": "ENGL 128"}
           ]
         },
         {
@@ -989,18 +605,9 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ENGL 191H"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 198A"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 198B"
-            }
+            {"type": "course", "courseId": "ENGL 191H"},
+            {"type": "course", "courseId": "ENGL 198A"},
+            {"type": "course", "courseId": "ENGL 198B"}
           ]
         }
       ]

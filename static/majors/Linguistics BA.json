@@ -11,32 +11,17 @@
       "title": "Preparation for the Major",
       "description": "Complete three courses and a foreign language requirement as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "LING 20"
-        },
+        {"type": "course", "courseId": "LING 20"},
         {
           "type": "group",
           "title": "Electives",
           "description": "Select two courses from the following list. Only one course from Psychology 10 or 100A may be applied.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 4"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 31"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 10"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 100A"
-            }
+            {"type": "course", "courseId": "ANTHRO 4"},
+            {"type": "course", "courseId": "PHILOS 31"},
+            {"type": "course", "courseId": "PSYCH 10"},
+            {"type": "course", "courseId": "PSYCH 100A"}
           ]
         },
         {
@@ -53,44 +38,20 @@
       "title": "The Major",
       "description": "Complete 11 upper-division or graduate courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "LING 103"
-        },
-        {
-          "type": "course",
-          "courseId": "LING 120A"
-        },
-        {
-          "type": "course",
-          "courseId": "LING 120B"
-        },
-        {
-          "type": "course",
-          "courseId": "LING 120C"
-        },
+        {"type": "course", "courseId": "LING 103"},
+        {"type": "course", "courseId": "LING 120A"},
+        {"type": "course", "courseId": "LING 120B"},
+        {"type": "course", "courseId": "LING 120C"},
         {
           "type": "group",
           "title": "Additional Linguistics Electives",
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LING C104"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 110"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 130"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 132"
-            }
+            {"type": "course", "courseId": "LING C104"},
+            {"type": "course", "courseId": "LING 110"},
+            {"type": "course", "courseId": "LING 130"},
+            {"type": "course", "courseId": "LING 132"}
           ]
         },
         {
@@ -99,18 +60,9 @@
           "description": "Select two courses from: Students may substitute courses 200A, 200B, and 200C for 165A, 165B, and 165C respectively if they receive grades of A in 120A, 120B, and 120C respectively and have consent of instructor.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LING 165A"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 165B"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 165C"
-            }
+            {"type": "course", "courseId": "LING 165A"},
+            {"type": "course", "courseId": "LING 165B"},
+            {"type": "course", "courseId": "LING 165C"}
           ]
         },
         {
@@ -119,63 +71,65 @@
           "description": "Complete three upper-division elective courses from the Linguistics Department (minimum 4 grade units each). One linguistics-related course offered by another department may be applied in consultation with the department. No more than one course from LING 197, 198A, 198B, and 199 may be applied toward the major.",
           "needs": 3,
           "options": [
-            { "type": "course", "courseId": "LING 102" },
-            { "type": "course", "courseId": "LING 103" },
-            { "type": "course", "courseId": "LING C104" },
-            { "type": "course", "courseId": "LING 105" },
-            { "type": "course", "courseId": "LING 110" },
-            { "type": "course", "courseId": "LING 110G" },
-            { "type": "course", "courseId": "LING C111" },
-            { "type": "course", "courseId": "LING 114" },
-            { "type": "course", "courseId": "LING 115" },
-            { "type": "course", "courseId": "LING M116" },
-            { "type": "course", "courseId": "LING 119A" },
-            { "type": "course", "courseId": "LING 120A" },
-            { "type": "course", "courseId": "LING 120B" },
-            { "type": "course", "courseId": "LING 120C" },
-            { "type": "course", "courseId": "LING 127" },
-            { "type": "course", "courseId": "LING C128A" },
-            { "type": "course", "courseId": "LING C128B" },
-            { "type": "course", "courseId": "LING 130" },
-            { "type": "course", "courseId": "LING 132" },
-            { "type": "course", "courseId": "LING C135" },
-            { "type": "course", "courseId": "LING C140" },
-            { "type": "course", "courseId": "LING M141" },
-            { "type": "course", "courseId": "LING 144" },
-            { "type": "course", "courseId": "LING M146" },
-            { "type": "course", "courseId": "LING M150" },
-            { "type": "course", "courseId": "LING 160" },
-            { "type": "course", "courseId": "LING 161" },
-            { "type": "course", "courseId": "LING 165A" },
-            { "type": "course", "courseId": "LING 165B" },
-            { "type": "course", "courseId": "LING 165C" },
-            { "type": "course", "courseId": "LING 170" },
-            { "type": "course", "courseId": "LING 175" },
-            { "type": "course", "courseId": "LING M176A" },
-            { "type": "course", "courseId": "LING M176B" },
-            { "type": "course", "courseId": "LING M177" },
-            { "type": "course", "courseId": "LING M178" },
-            { "type": "course", "courseId": "LING 180" },
-            { "type": "course", "courseId": "LING 185A" },
-            { "type": "course", "courseId": "LING 185B" },
-            { "type": "course", "courseId": "LING 185C" },
-            { "type": "course", "courseId": "LING 188SA" },
-            { "type": "course", "courseId": "LING 188SB" },
-            { "type": "course", "courseId": "LING 188SC" },
-            { "type": "course", "courseId": "LING 189" },
-            { "type": "course", "courseId": "LING 189HC" },
-            { "type": "course", "courseId": "LING 191A" },
-            { "type": "course", "courseId": "LING 191B" },
-            { "type": "course", "courseId": "LING 192A" },
-            { "type": "course", "courseId": "LING 192B" },
-            { "type": "course", "courseId": "LING 194" },
-            { "type": "course", "courseId": "LING 195" },
-            { "type": "group", "title": "LING 197-199 Group", "description": "No more than one course from LING 197, 198A, 198B, and 199 may be applied toward the major.", "needs": 1, "options": [
-              { "type": "course", "courseId": "LING 197" },
-              { "type": "course", "courseId": "LING 198A" },
-              { "type": "course", "courseId": "LING 198B" },
-              { "type": "course", "courseId": "LING 199" }
-            ] }
+            {"type": "course", "courseId": "LING 102"},
+            {"type": "course", "courseId": "LING C104"},
+            {"type": "course", "courseId": "LING 105"},
+            {"type": "course", "courseId": "LING 110"},
+            {"type": "course", "courseId": "LING 110G"},
+            {"type": "course", "courseId": "LING C111"},
+            {"type": "course", "courseId": "LING 114"},
+            {"type": "course", "courseId": "LING 115"},
+            {"type": "course", "courseId": "LING M116"},
+            {"type": "course", "courseId": "LING 119A"},
+            {"type": "course", "courseId": "LING 127"},
+            {"type": "course", "courseId": "LING C128A"},
+            {"type": "course", "courseId": "LING C128B"},
+            {"type": "course", "courseId": "LING 130"},
+            {"type": "course", "courseId": "LING 132"},
+            {"type": "course", "courseId": "LING C135"},
+            {"type": "course", "courseId": "LING C140"},
+            {"type": "course", "courseId": "LING M141"},
+            {"type": "course", "courseId": "LING 144"},
+            {"type": "course", "courseId": "LING M146"},
+            {"type": "course", "courseId": "LING M150"},
+            {"type": "course", "courseId": "LING 160"},
+            {"type": "course", "courseId": "LING 161"},
+            {"type": "course", "courseId": "LING 165A"},
+            {"type": "course", "courseId": "LING 165B"},
+            {"type": "course", "courseId": "LING 165C"},
+            {"type": "course", "courseId": "LING 170"},
+            {"type": "course", "courseId": "LING 175"},
+            {"type": "course", "courseId": "LING M176A"},
+            {"type": "course", "courseId": "LING M176B"},
+            {"type": "course", "courseId": "LING M177"},
+            {"type": "course", "courseId": "LING M178"},
+            {"type": "course", "courseId": "LING 180"},
+            {"type": "course", "courseId": "LING 185A"},
+            {"type": "course", "courseId": "LING 185B"},
+            {"type": "course", "courseId": "LING 185C"},
+            {"type": "course", "courseId": "LING 188SA"},
+            {"type": "course", "courseId": "LING 188SB"},
+            {"type": "course", "courseId": "LING 188SC"},
+            {"type": "course", "courseId": "LING 189"},
+            {"type": "course", "courseId": "LING 189HC"},
+            {"type": "course", "courseId": "LING 191A"},
+            {"type": "course", "courseId": "LING 191B"},
+            {"type": "course", "courseId": "LING 192A"},
+            {"type": "course", "courseId": "LING 192B"},
+            {"type": "course", "courseId": "LING 194"},
+            {"type": "course", "courseId": "LING 195"},
+            {
+              "type": "group",
+              "title": "LING 197-199 Group",
+              "description": "No more than one course from LING 197, 198A, 198B, and 199 may be applied toward the major.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "LING 197"},
+                {"type": "course", "courseId": "LING 198A"},
+                {"type": "course", "courseId": "LING 198B"},
+                {"type": "course", "courseId": "LING 199"}
+              ]
+            }
           ]
         }
       ]
@@ -203,20 +157,11 @@
                   "description": "Complete both courses in the honors research sequence.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LING 198A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 198B"
-                    }
+                    {"type": "course", "courseId": "LING 198A"},
+                    {"type": "course", "courseId": "LING 198B"}
                   ]
                 },
-                {
-                  "type": "course",
-                  "courseId": "LING 199"
-                }
+                {"type": "course", "courseId": "LING 199"}
               ]
             }
           ]
@@ -252,18 +197,9 @@
                       "description": "Complete all three courses.",
                       "needs": 3,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 10A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 10B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 10C"
-                        }
+                        {"type": "course", "courseId": "COMPTNG 10A"},
+                        {"type": "course", "courseId": "COMPTNG 10B"},
+                        {"type": "course", "courseId": "COMPTNG 10C"}
                       ]
                     },
                     {
@@ -272,14 +208,8 @@
                       "description": "Complete both courses.",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI 31"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI 32"
-                        }
+                        {"type": "course", "courseId": "COM SCI 31"},
+                        {"type": "course", "courseId": "COM SCI 32"}
                       ]
                     }
                   ]
@@ -290,14 +220,8 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LING 185A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 61"
-                    }
+                    {"type": "course", "courseId": "LING 185A"},
+                    {"type": "course", "courseId": "MATH 61"}
                   ]
                 },
                 {
@@ -306,38 +230,14 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LING C104"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 127"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 165A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 165B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 165C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 180"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 185B"
-                    }
+                    {"type": "course", "courseId": "LING C104"},
+                    {"type": "course", "courseId": "LING 127"},
+                    {"type": "course", "courseId": "LING 132"},
+                    {"type": "course", "courseId": "LING 165A"},
+                    {"type": "course", "courseId": "LING 165B"},
+                    {"type": "course", "courseId": "LING 165C"},
+                    {"type": "course", "courseId": "LING 180"},
+                    {"type": "course", "courseId": "LING 185B"}
                   ]
                 }
               ]

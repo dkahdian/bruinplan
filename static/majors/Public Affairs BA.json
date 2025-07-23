@@ -17,18 +17,9 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PUB AFF 40"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 60"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 80"
-            }
+            {"type": "course", "courseId": "PUB AFF 40"},
+            {"type": "course", "courseId": "PUB AFF 60"},
+            {"type": "course", "courseId": "PUB AFF 80"}
           ]
         },
         {
@@ -37,26 +28,11 @@
           "description": "Select three courses from:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PUB AFF 10"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 20"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 30"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 50"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 70"
-            }
+            {"type": "course", "courseId": "PUB AFF 10"},
+            {"type": "course", "courseId": "PUB AFF 20"},
+            {"type": "course", "courseId": "PUB AFF 30"},
+            {"type": "course", "courseId": "PUB AFF 50"},
+            {"type": "course", "courseId": "PUB AFF 70"}
           ]
         }
       ]
@@ -72,30 +48,12 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PUB AFF M109"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 110"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 111"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 112"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 113"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 114"
-            }
+            {"type": "course", "courseId": "PUB AFF M109"},
+            {"type": "course", "courseId": "PUB AFF 110"},
+            {"type": "course", "courseId": "PUB AFF 111"},
+            {"type": "course", "courseId": "PUB AFF 112"},
+            {"type": "course", "courseId": "PUB AFF 113"},
+            {"type": "course", "courseId": "PUB AFF 114"}
           ]
         },
         {
@@ -104,14 +62,8 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PUB AFF 115"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 116"
-            }
+            {"type": "course", "courseId": "PUB AFF 115"},
+            {"type": "course", "courseId": "PUB AFF 116"}
           ]
         },
         {
@@ -120,18 +72,9 @@
           "description": "Complete the following three-term capstone sequence:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PUB AFF 187AX"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 187BX"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 187CX"
-            }
+            {"type": "course", "courseId": "PUB AFF 187AX"},
+            {"type": "course", "courseId": "PUB AFF 187BX"},
+            {"type": "course", "courseId": "PUB AFF 187CX"}
           ]
         },
         {
@@ -146,8 +89,6 @@
             {"type": "course", "courseId": "PUB AFF 112"},
             {"type": "course", "courseId": "PUB AFF 113"},
             {"type": "course", "courseId": "PUB AFF 114"},
-            {"type": "course", "courseId": "PUB AFF 115"},
-            {"type": "course", "courseId": "PUB AFF 116"},
             {"type": "course", "courseId": "PUB AFF M117B"},
             {"type": "course", "courseId": "PUB AFF M117C"},
             {"type": "course", "courseId": "PUB AFF M117DX"},
@@ -189,9 +130,6 @@
             {"type": "course", "courseId": "PUB AFF 177"},
             {"type": "course", "courseId": "PUB AFF M179A"},
             {"type": "course", "courseId": "PUB AFF 180"},
-            {"type": "course", "courseId": "PUB AFF 187AX"},
-            {"type": "course", "courseId": "PUB AFF 187BX"},
-            {"type": "course", "courseId": "PUB AFF 187CX"},
             {"type": "course", "courseId": "PUB AFF 188SA"},
             {"type": "course", "courseId": "PUB AFF 188SB"},
             {"type": "course", "courseId": "PUB AFF 188SC"},
@@ -229,18 +167,9 @@
               "description": "Enroll in three contract research courses with their Luskin thesis advisor during their senior year. The sequence must be completed over three consecutive quarters, starting in the fall.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PUB AFF 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PUB AFF 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PUB AFF 198C"
-                }
+                {"type": "course", "courseId": "PUB AFF 198A"},
+                {"type": "course", "courseId": "PUB AFF 198B"},
+                {"type": "course", "courseId": "PUB AFF 198C"}
               ]
             }
           ]
@@ -248,4 +177,4 @@
       ]
     }
   ]
-} 
+}

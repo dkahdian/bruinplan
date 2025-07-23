@@ -17,14 +17,8 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SOCIOL 1"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 20"
-            }
+            {"type": "course", "courseId": "SOCIOL 1"},
+            {"type": "course", "courseId": "SOCIOL 20"}
           ]
         },
         {
@@ -33,18 +27,9 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "POL SCI 6"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 10"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 13"
-            }
+            {"type": "course", "courseId": "POL SCI 6"},
+            {"type": "course", "courseId": "STATS 10"},
+            {"type": "course", "courseId": "STATS 13"}
           ]
         }
       ]
@@ -60,14 +45,8 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SOCIOL 101"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 102"
-            }
+            {"type": "course", "courseId": "SOCIOL 101"},
+            {"type": "course", "courseId": "SOCIOL 102"}
           ]
         },
         {
@@ -76,42 +55,15 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SOCIOL 106A"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 106B"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 110"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 111"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 112"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 113"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL CM124A"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 191H"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 112"
-            }
+            {"type": "course", "courseId": "SOCIOL 106A"},
+            {"type": "course", "courseId": "SOCIOL 106B"},
+            {"type": "course", "courseId": "SOCIOL 110"},
+            {"type": "course", "courseId": "SOCIOL 111"},
+            {"type": "course", "courseId": "SOCIOL 112"},
+            {"type": "course", "courseId": "SOCIOL 113"},
+            {"type": "course", "courseId": "SOCIOL CM124A"},
+            {"type": "course", "courseId": "SOCIOL 191H"},
+            {"type": "course", "courseId": "STATS 112"}
           ]
         },
         {
@@ -126,46 +78,16 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 111"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL CM124A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL CM125"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 126"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 130"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 132"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 133"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 134"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 140"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 152"
-                }
+                {"type": "course", "courseId": "SOCIOL 111"},
+                {"type": "course", "courseId": "SOCIOL CM124A"},
+                {"type": "course", "courseId": "SOCIOL CM125"},
+                {"type": "course", "courseId": "SOCIOL 126"},
+                {"type": "course", "courseId": "SOCIOL 130"},
+                {"type": "course", "courseId": "SOCIOL 132"},
+                {"type": "course", "courseId": "SOCIOL 133"},
+                {"type": "course", "courseId": "SOCIOL 134"},
+                {"type": "course", "courseId": "SOCIOL 140"},
+                {"type": "course", "courseId": "SOCIOL 152"}
               ]
             },
             {
@@ -174,58 +96,19 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 116"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M139"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 140"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 143"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 151"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 158"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 172"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 173"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M174"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M175"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M176"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 181B"
-                }
+                {"type": "course", "courseId": "SOCIOL 116"},
+                {"type": "course", "courseId": "SOCIOL 121"},
+                {"type": "course", "courseId": "SOCIOL M139"},
+                {"type": "course", "courseId": "SOCIOL 140"},
+                {"type": "course", "courseId": "SOCIOL 143"},
+                {"type": "course", "courseId": "SOCIOL 151"},
+                {"type": "course", "courseId": "SOCIOL 158"},
+                {"type": "course", "courseId": "SOCIOL 172"},
+                {"type": "course", "courseId": "SOCIOL 173"},
+                {"type": "course", "courseId": "SOCIOL M174"},
+                {"type": "course", "courseId": "SOCIOL M175"},
+                {"type": "course", "courseId": "SOCIOL M176"},
+                {"type": "course", "courseId": "SOCIOL 181B"}
               ]
             },
             {
@@ -234,74 +117,23 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 122"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 123"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M139"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 147A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M155"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 156"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 157"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M161"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M162"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M164"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M165"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 181A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 182"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 183"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 185"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 186"
-                }
+                {"type": "course", "courseId": "SOCIOL M115"},
+                {"type": "course", "courseId": "SOCIOL 122"},
+                {"type": "course", "courseId": "SOCIOL 123"},
+                {"type": "course", "courseId": "SOCIOL M139"},
+                {"type": "course", "courseId": "SOCIOL 147A"},
+                {"type": "course", "courseId": "SOCIOL M155"},
+                {"type": "course", "courseId": "SOCIOL 156"},
+                {"type": "course", "courseId": "SOCIOL 157"},
+                {"type": "course", "courseId": "SOCIOL M161"},
+                {"type": "course", "courseId": "SOCIOL M162"},
+                {"type": "course", "courseId": "SOCIOL M164"},
+                {"type": "course", "courseId": "SOCIOL M165"},
+                {"type": "course", "courseId": "SOCIOL 181A"},
+                {"type": "course", "courseId": "SOCIOL 182"},
+                {"type": "course", "courseId": "SOCIOL 183"},
+                {"type": "course", "courseId": "SOCIOL 185"},
+                {"type": "course", "courseId": "SOCIOL 186"}
               ]
             }
           ]
@@ -312,8 +144,6 @@
           "description": "Complete any five upper-division sociology elective courses.",
           "needs": 5,
           "options": [
-            {"type": "course", "courseId": "SOCIOL 101"},
-            {"type": "course", "courseId": "SOCIOL 102"},
             {"type": "course", "courseId": "SOCIOL 106A"},
             {"type": "course", "courseId": "SOCIOL 106B"},
             {"type": "course", "courseId": "SOCIOL 110"},
@@ -453,22 +283,10 @@
               "description": "After acceptance into the honors program, students are required to take courses 191H, 198A, 198B, and 198C which may be applied as electives toward the major requirements.",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 191H"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 198C"
-                }
+                {"type": "course", "courseId": "SOCIOL 191H"},
+                {"type": "course", "courseId": "SOCIOL 198A"},
+                {"type": "course", "courseId": "SOCIOL 198B"},
+                {"type": "course", "courseId": "SOCIOL 198C"}
               ]
             },
             {
@@ -477,26 +295,11 @@
               "description": "Majors in Sociology may select a specialization in Computing by satisfying all the requirements for a bachelor’s degree in the major, and completing the following requirements.",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "COMPTNG 10A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COMPTNG 10B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COMPTNG 10C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 111"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 113"
-                }
+                {"type": "course", "courseId": "COMPTNG 10A"},
+                {"type": "course", "courseId": "COMPTNG 10B"},
+                {"type": "course", "courseId": "COMPTNG 10C"},
+                {"type": "course", "courseId": "SOCIOL 111"},
+                {"type": "course", "courseId": "SOCIOL 113"}
               ]
             }
           ]

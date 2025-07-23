@@ -17,46 +17,16 @@
           "description": "Two courses from Asian American Studies 10 or 10W, 20 or 20W, 30 or 30W, 40 or 40W, 50 or 50W:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ASIA AM 10"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 10W"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 20"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 20W"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 30"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 30W"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 40"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 40W"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 50"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 50W"
-            }
+            {"type": "course", "courseId": "ASIA AM 10"},
+            {"type": "course", "courseId": "ASIA AM 10W"},
+            {"type": "course", "courseId": "ASIA AM 20"},
+            {"type": "course", "courseId": "ASIA AM 20W"},
+            {"type": "course", "courseId": "ASIA AM 30"},
+            {"type": "course", "courseId": "ASIA AM 30W"},
+            {"type": "course", "courseId": "ASIA AM 40"},
+            {"type": "course", "courseId": "ASIA AM 40W"},
+            {"type": "course", "courseId": "ASIA AM 50"},
+            {"type": "course", "courseId": "ASIA AM 50W"}
           ]
         },
         {
@@ -71,102 +41,30 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M108"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 109"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 113"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M116"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M119XP"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 130A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M130B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M130C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 131A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 131B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 131C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 132A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 133"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 134"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 135"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 141AX"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 141BX"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 143B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M143C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171F"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 177"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 187C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 191C"
-                }
+                {"type": "course", "courseId": "ASIA AM M108"},
+                {"type": "course", "courseId": "ASIA AM 109"},
+                {"type": "course", "courseId": "ASIA AM 110"},
+                {"type": "course", "courseId": "ASIA AM 113"},
+                {"type": "course", "courseId": "ASIA AM M116"},
+                {"type": "course", "courseId": "ASIA AM M119XP"},
+                {"type": "course", "courseId": "ASIA AM 130A"},
+                {"type": "course", "courseId": "ASIA AM M130B"},
+                {"type": "course", "courseId": "ASIA AM M130C"},
+                {"type": "course", "courseId": "ASIA AM 131A"},
+                {"type": "course", "courseId": "ASIA AM 131B"},
+                {"type": "course", "courseId": "ASIA AM 131C"},
+                {"type": "course", "courseId": "ASIA AM 132A"},
+                {"type": "course", "courseId": "ASIA AM 133"},
+                {"type": "course", "courseId": "ASIA AM 134"},
+                {"type": "course", "courseId": "ASIA AM 135"},
+                {"type": "course", "courseId": "ASIA AM 141AX"},
+                {"type": "course", "courseId": "ASIA AM 141BX"},
+                {"type": "course", "courseId": "ASIA AM 143B"},
+                {"type": "course", "courseId": "ASIA AM M143C"},
+                {"type": "course", "courseId": "ASIA AM 171F"},
+                {"type": "course", "courseId": "ASIA AM 177"},
+                {"type": "course", "courseId": "ASIA AM 187C"},
+                {"type": "course", "courseId": "ASIA AM 191C"}
               ]
             },
             {
@@ -175,82 +73,25 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 111"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 123"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 125"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 170"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M171D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171E"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171F"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M172A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 172B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 172C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M173"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 174B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 175B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 176"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 178"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M179"
-                }
+                {"type": "course", "courseId": "ASIA AM 111"},
+                {"type": "course", "courseId": "ASIA AM 123"},
+                {"type": "course", "courseId": "ASIA AM 125"},
+                {"type": "course", "courseId": "ASIA AM 170"},
+                {"type": "course", "courseId": "ASIA AM 171A"},
+                {"type": "course", "courseId": "ASIA AM 171B"},
+                {"type": "course", "courseId": "ASIA AM 171C"},
+                {"type": "course", "courseId": "ASIA AM M171D"},
+                {"type": "course", "courseId": "ASIA AM 171E"},
+                {"type": "course", "courseId": "ASIA AM 171F"},
+                {"type": "course", "courseId": "ASIA AM M172A"},
+                {"type": "course", "courseId": "ASIA AM 172B"},
+                {"type": "course", "courseId": "ASIA AM 172C"},
+                {"type": "course", "courseId": "ASIA AM M173"},
+                {"type": "course", "courseId": "ASIA AM 174B"},
+                {"type": "course", "courseId": "ASIA AM 175B"},
+                {"type": "course", "courseId": "ASIA AM 176"},
+                {"type": "course", "courseId": "ASIA AM 178"},
+                {"type": "course", "courseId": "ASIA AM M179"}
               ]
             },
             {
@@ -259,118 +100,34 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 109"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M112A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M112B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 113"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M114"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M117"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 118"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 122A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M124"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 126"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M128"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M129"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M161"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M162"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M163"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M164"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M165"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M166A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M166B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M166C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 167"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M169"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 172B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 174A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 175A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M191F"
-                }
+                {"type": "course", "courseId": "ASIA AM 109"},
+                {"type": "course", "courseId": "ASIA AM 110"},
+                {"type": "course", "courseId": "ASIA AM M112A"},
+                {"type": "course", "courseId": "ASIA AM M112B"},
+                {"type": "course", "courseId": "ASIA AM 113"},
+                {"type": "course", "courseId": "ASIA AM M114"},
+                {"type": "course", "courseId": "ASIA AM 115"},
+                {"type": "course", "courseId": "ASIA AM M117"},
+                {"type": "course", "courseId": "ASIA AM 118"},
+                {"type": "course", "courseId": "ASIA AM 122A"},
+                {"type": "course", "courseId": "ASIA AM M124"},
+                {"type": "course", "courseId": "ASIA AM 126"},
+                {"type": "course", "courseId": "ASIA AM M128"},
+                {"type": "course", "courseId": "ASIA AM M129"},
+                {"type": "course", "courseId": "ASIA AM M161"},
+                {"type": "course", "courseId": "ASIA AM M162"},
+                {"type": "course", "courseId": "ASIA AM M163"},
+                {"type": "course", "courseId": "ASIA AM M164"},
+                {"type": "course", "courseId": "ASIA AM M165"},
+                {"type": "course", "courseId": "ASIA AM M166A"},
+                {"type": "course", "courseId": "ASIA AM M166B"},
+                {"type": "course", "courseId": "ASIA AM M166C"},
+                {"type": "course", "courseId": "ASIA AM 167"},
+                {"type": "course", "courseId": "ASIA AM M169"},
+                {"type": "course", "courseId": "ASIA AM 172B"},
+                {"type": "course", "courseId": "ASIA AM 174A"},
+                {"type": "course", "courseId": "ASIA AM 175A"},
+                {"type": "course", "courseId": "ASIA AM M191F"}
               ]
             },
             {
@@ -379,110 +136,32 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 104A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 104B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 105"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 107"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 112C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M119XP"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 120"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 122B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 140XP"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 141AX"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 141BX"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM C142A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM C142B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM C142C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M143A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M160"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M168"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 172C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 187A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 191A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 198C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 199"
-                }
+                {"type": "course", "courseId": "ASIA AM 103"},
+                {"type": "course", "courseId": "ASIA AM 104A"},
+                {"type": "course", "courseId": "ASIA AM 104B"},
+                {"type": "course", "courseId": "ASIA AM 105"},
+                {"type": "course", "courseId": "ASIA AM 107"},
+                {"type": "course", "courseId": "ASIA AM 112C"},
+                {"type": "course", "courseId": "ASIA AM M119XP"},
+                {"type": "course", "courseId": "ASIA AM 120"},
+                {"type": "course", "courseId": "ASIA AM 121"},
+                {"type": "course", "courseId": "ASIA AM 122B"},
+                {"type": "course", "courseId": "ASIA AM 140XP"},
+                {"type": "course", "courseId": "ASIA AM 141AX"},
+                {"type": "course", "courseId": "ASIA AM 141BX"},
+                {"type": "course", "courseId": "ASIA AM C142A"},
+                {"type": "course", "courseId": "ASIA AM C142B"},
+                {"type": "course", "courseId": "ASIA AM C142C"},
+                {"type": "course", "courseId": "ASIA AM M143A"},
+                {"type": "course", "courseId": "ASIA AM M160"},
+                {"type": "course", "courseId": "ASIA AM M168"},
+                {"type": "course", "courseId": "ASIA AM 172C"},
+                {"type": "course", "courseId": "ASIA AM 187A"},
+                {"type": "course", "courseId": "ASIA AM 191A"},
+                {"type": "course", "courseId": "ASIA AM 198A"},
+                {"type": "course", "courseId": "ASIA AM 198B"},
+                {"type": "course", "courseId": "ASIA AM 198C"},
+                {"type": "course", "courseId": "ASIA AM 199"}
               ]
             },
             {
@@ -491,474 +170,210 @@
               "description": "Complete two additional upper-division courses from the four categories: Asian American and Pacific Islander communities and social movements; global and transnational perspectives; comparative and intersectional ethnic studies; or methodology, creative production, and community engagement.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M108"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 109"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 113"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M116"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M119XP"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 130A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M130B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M130C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 131A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 131B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 131C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 132A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 133"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 134"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 135"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 141AX"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 141BX"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 143B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M143C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171F"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 177"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 187C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 191C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 111"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 123"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 125"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 170"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M171D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 171E"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M172A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 172B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 172C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M173"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 174B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 175B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 176"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 178"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M179"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M112A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M112B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M114"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M117"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 118"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 122A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M124"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 126"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M128"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M129"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M161"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M162"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M163"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M164"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M165"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M166A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M166B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M166C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 167"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M169"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 174A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 175A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M191F"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 104A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 104B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 105"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 107"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 112C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 120"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 122B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 140XP"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM C142A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM C142B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM C142C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M143A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M160"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M168"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 187A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 191A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 198C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 199"
-                }
+                {"type": "course", "courseId": "ASIA AM M108"},
+                {"type": "course", "courseId": "ASIA AM 109"},
+                {"type": "course", "courseId": "ASIA AM 110"},
+                {"type": "course", "courseId": "ASIA AM 113"},
+                {"type": "course", "courseId": "ASIA AM M116"},
+                {"type": "course", "courseId": "ASIA AM M119XP"},
+                {"type": "course", "courseId": "ASIA AM 130A"},
+                {"type": "course", "courseId": "ASIA AM M130B"},
+                {"type": "course", "courseId": "ASIA AM M130C"},
+                {"type": "course", "courseId": "ASIA AM 131A"},
+                {"type": "course", "courseId": "ASIA AM 131B"},
+                {"type": "course", "courseId": "ASIA AM 131C"},
+                {"type": "course", "courseId": "ASIA AM 132A"},
+                {"type": "course", "courseId": "ASIA AM 133"},
+                {"type": "course", "courseId": "ASIA AM 134"},
+                {"type": "course", "courseId": "ASIA AM 135"},
+                {"type": "course", "courseId": "ASIA AM 141AX"},
+                {"type": "course", "courseId": "ASIA AM 141BX"},
+                {"type": "course", "courseId": "ASIA AM 143B"},
+                {"type": "course", "courseId": "ASIA AM M143C"},
+                {"type": "course", "courseId": "ASIA AM 171F"},
+                {"type": "course", "courseId": "ASIA AM 177"},
+                {"type": "course", "courseId": "ASIA AM 187C"},
+                {"type": "course", "courseId": "ASIA AM 191C"},
+                {"type": "course", "courseId": "ASIA AM 111"},
+                {"type": "course", "courseId": "ASIA AM 123"},
+                {"type": "course", "courseId": "ASIA AM 125"},
+                {"type": "course", "courseId": "ASIA AM 170"},
+                {"type": "course", "courseId": "ASIA AM 171A"},
+                {"type": "course", "courseId": "ASIA AM 171B"},
+                {"type": "course", "courseId": "ASIA AM 171C"},
+                {"type": "course", "courseId": "ASIA AM M171D"},
+                {"type": "course", "courseId": "ASIA AM 171E"},
+                {"type": "course", "courseId": "ASIA AM M172A"},
+                {"type": "course", "courseId": "ASIA AM 172B"},
+                {"type": "course", "courseId": "ASIA AM 172C"},
+                {"type": "course", "courseId": "ASIA AM M173"},
+                {"type": "course", "courseId": "ASIA AM 174B"},
+                {"type": "course", "courseId": "ASIA AM 175B"},
+                {"type": "course", "courseId": "ASIA AM 176"},
+                {"type": "course", "courseId": "ASIA AM 178"},
+                {"type": "course", "courseId": "ASIA AM M179"},
+                {"type": "course", "courseId": "ASIA AM M112A"},
+                {"type": "course", "courseId": "ASIA AM M112B"},
+                {"type": "course", "courseId": "ASIA AM M114"},
+                {"type": "course", "courseId": "ASIA AM 115"},
+                {"type": "course", "courseId": "ASIA AM M117"},
+                {"type": "course", "courseId": "ASIA AM 118"},
+                {"type": "course", "courseId": "ASIA AM 122A"},
+                {"type": "course", "courseId": "ASIA AM M124"},
+                {"type": "course", "courseId": "ASIA AM 126"},
+                {"type": "course", "courseId": "ASIA AM M128"},
+                {"type": "course", "courseId": "ASIA AM M129"},
+                {"type": "course", "courseId": "ASIA AM M161"},
+                {"type": "course", "courseId": "ASIA AM M162"},
+                {"type": "course", "courseId": "ASIA AM M163"},
+                {"type": "course", "courseId": "ASIA AM M164"},
+                {"type": "course", "courseId": "ASIA AM M165"},
+                {"type": "course", "courseId": "ASIA AM M166A"},
+                {"type": "course", "courseId": "ASIA AM M166B"},
+                {"type": "course", "courseId": "ASIA AM M166C"},
+                {"type": "course", "courseId": "ASIA AM 167"},
+                {"type": "course", "courseId": "ASIA AM M169"},
+                {"type": "course", "courseId": "ASIA AM 174A"},
+                {"type": "course", "courseId": "ASIA AM 175A"},
+                {"type": "course", "courseId": "ASIA AM M191F"},
+                {"type": "course", "courseId": "ASIA AM 103"},
+                {"type": "course", "courseId": "ASIA AM 104A"},
+                {"type": "course", "courseId": "ASIA AM 104B"},
+                {"type": "course", "courseId": "ASIA AM 105"},
+                {"type": "course", "courseId": "ASIA AM 107"},
+                {"type": "course", "courseId": "ASIA AM 112C"},
+                {"type": "course", "courseId": "ASIA AM 120"},
+                {"type": "course", "courseId": "ASIA AM 121"},
+                {"type": "course", "courseId": "ASIA AM 122B"},
+                {"type": "course", "courseId": "ASIA AM 140XP"},
+                {"type": "course", "courseId": "ASIA AM C142A"},
+                {"type": "course", "courseId": "ASIA AM C142B"},
+                {"type": "course", "courseId": "ASIA AM C142C"},
+                {"type": "course", "courseId": "ASIA AM M143A"},
+                {"type": "course", "courseId": "ASIA AM M160"},
+                {"type": "course", "courseId": "ASIA AM M168"},
+                {"type": "course", "courseId": "ASIA AM 187A"},
+                {"type": "course", "courseId": "ASIA AM 191A"},
+                {"type": "course", "courseId": "ASIA AM 198A"},
+                {"type": "course", "courseId": "ASIA AM 198B"},
+                {"type": "course", "courseId": "ASIA AM 198C"},
+                {"type": "course", "courseId": "ASIA AM 199"}
               ]
             },
             {
               "type": "group",
               "title": "Elective Courses",
-          "description": "Select five Asian American Studies elective courses from all upper-division (100–199, including lettered and M-prefixed) ASIA AM courses.",
-          "needs": 5,
-          "options": [
-            {"type": "course", "courseId": "ASIA AM 103"},
-            {"type": "course", "courseId": "ASIA AM 104A"},
-            {"type": "course", "courseId": "ASIA AM 104B"},
-            {"type": "course", "courseId": "ASIA AM 105"},
-            {"type": "course", "courseId": "ASIA AM 107"},
-            {"type": "course", "courseId": "ASIA AM M108"},
-            {"type": "course", "courseId": "ASIA AM 109"},
-            {"type": "course", "courseId": "ASIA AM 110"},
-            {"type": "course", "courseId": "ASIA AM 111"},
-            {"type": "course", "courseId": "ASIA AM M112A"},
-            {"type": "course", "courseId": "ASIA AM M112B"},
-            {"type": "course", "courseId": "ASIA AM 112C"},
-            {"type": "course", "courseId": "ASIA AM 113"},
-            {"type": "course", "courseId": "ASIA AM M114"},
-            {"type": "course", "courseId": "ASIA AM 115"},
-            {"type": "course", "courseId": "ASIA AM M116"},
-            {"type": "course", "courseId": "ASIA AM M117"},
-            {"type": "course", "courseId": "ASIA AM 118"},
-            {"type": "course", "courseId": "ASIA AM M119XP"},
-            {"type": "course", "courseId": "ASIA AM 120"},
-            {"type": "course", "courseId": "ASIA AM 121"},
-            {"type": "course", "courseId": "ASIA AM 122A"},
-            {"type": "course", "courseId": "ASIA AM 122B"},
-            {"type": "course", "courseId": "ASIA AM 123"},
-            {"type": "course", "courseId": "ASIA AM M124"},
-            {"type": "course", "courseId": "ASIA AM 125"},
-            {"type": "course", "courseId": "ASIA AM 126"},
-            {"type": "course", "courseId": "ASIA AM M128"},
-            {"type": "course", "courseId": "ASIA AM M129"},
-            {"type": "course", "courseId": "ASIA AM 130A"},
-            {"type": "course", "courseId": "ASIA AM M130B"},
-            {"type": "course", "courseId": "ASIA AM M130C"},
-            {"type": "course", "courseId": "ASIA AM 131A"},
-            {"type": "course", "courseId": "ASIA AM 131B"},
-            {"type": "course", "courseId": "ASIA AM 131C"},
-            {"type": "course", "courseId": "ASIA AM 132A"},
-            {"type": "course", "courseId": "ASIA AM 133"},
-            {"type": "course", "courseId": "ASIA AM 134"},
-            {"type": "course", "courseId": "ASIA AM 135"},
-            {"type": "course", "courseId": "ASIA AM 140XP"},
-            {"type": "course", "courseId": "ASIA AM 141AX"},
-            {"type": "course", "courseId": "ASIA AM 141BX"},
-            {"type": "course", "courseId": "ASIA AM C142A"},
-            {"type": "course", "courseId": "ASIA AM C142B"},
-            {"type": "course", "courseId": "ASIA AM C142C"},
-            {"type": "course", "courseId": "ASIA AM M143A"},
-            {"type": "course", "courseId": "ASIA AM 143B"},
-            {"type": "course", "courseId": "ASIA AM M143C"},
-            {"type": "course", "courseId": "ASIA AM M151"},
-            {"type": "course", "courseId": "ASIA AM 155"},
-            {"type": "course", "courseId": "ASIA AM 156"},
-            {"type": "course", "courseId": "ASIA AM 157"},
-            {"type": "course", "courseId": "ASIA AM M160"},
-            {"type": "course", "courseId": "ASIA AM M161"},
-            {"type": "course", "courseId": "ASIA AM M162"},
-            {"type": "course", "courseId": "ASIA AM M163"},
-            {"type": "course", "courseId": "ASIA AM M164"},
-            {"type": "course", "courseId": "ASIA AM M165"},
-            {"type": "course", "courseId": "ASIA AM M166A"},
-            {"type": "course", "courseId": "ASIA AM M166B"},
-            {"type": "course", "courseId": "ASIA AM M166C"},
-            {"type": "course", "courseId": "ASIA AM 167"},
-            {"type": "course", "courseId": "ASIA AM M168"},
-            {"type": "course", "courseId": "ASIA AM M169"},
-            {"type": "course", "courseId": "ASIA AM 170"},
-            {"type": "course", "courseId": "ASIA AM 171A"},
-            {"type": "course", "courseId": "ASIA AM 171B"},
-            {"type": "course", "courseId": "ASIA AM 171C"},
-            {"type": "course", "courseId": "ASIA AM M171D"},
-            {"type": "course", "courseId": "ASIA AM 171E"},
-            {"type": "course", "courseId": "ASIA AM 171F"},
-            {"type": "course", "courseId": "ASIA AM M172A"},
-            {"type": "course", "courseId": "ASIA AM 172B"},
-            {"type": "course", "courseId": "ASIA AM 172C"},
-            {"type": "course", "courseId": "ASIA AM M173"},
-            {"type": "course", "courseId": "ASIA AM 174A"},
-            {"type": "course", "courseId": "ASIA AM 174B"},
-            {"type": "course", "courseId": "ASIA AM 175A"},
-            {"type": "course", "courseId": "ASIA AM 175B"},
-            {"type": "course", "courseId": "ASIA AM 176"},
-            {"type": "course", "courseId": "ASIA AM 177"},
-            {"type": "course", "courseId": "ASIA AM 178"},
-            {"type": "course", "courseId": "ASIA AM M179"},
-            {"type": "course", "courseId": "ASIA AM 185"},
-            {"type": "course", "courseId": "ASIA AM 186"},
-            {"type": "course", "courseId": "ASIA AM 187A"},
-            {"type": "course", "courseId": "ASIA AM 187B"},
-            {"type": "course", "courseId": "ASIA AM 187C"},
-            {"type": "course", "courseId": "ASIA AM 188"},
-            {"type": "course", "courseId": "ASIA AM 188SA"},
-            {"type": "course", "courseId": "ASIA AM 188SB"},
-            {"type": "course", "courseId": "ASIA AM 188SC"},
-            {"type": "course", "courseId": "ASIA AM 189"},
-            {"type": "course", "courseId": "ASIA AM 189HC"},
-            {"type": "course", "courseId": "ASIA AM 191A"},
-            {"type": "course", "courseId": "ASIA AM 191B"},
-            {"type": "course", "courseId": "ASIA AM 191C"},
-            {"type": "course", "courseId": "ASIA AM M191F"},
-            {"type": "course", "courseId": "ASIA AM 192"},
-            {"type": "course", "courseId": "ASIA AM 195"},
-            {"type": "course", "courseId": "ASIA AM M195CE"},
-            {"type": "course", "courseId": "ASIA AM 196"},
-            {"type": "course", "courseId": "ASIA AM 197"},
-            {"type": "course", "courseId": "ASIA AM 198A"},
-            {"type": "course", "courseId": "ASIA AM 198B"},
-            {"type": "course", "courseId": "ASIA AM 198C"},
-            {"type": "course", "courseId": "ASIA AM 199"}
-          ]
+              "description": "Select five Asian American Studies elective courses from all upper-division (100–199, including lettered and M-prefixed) ASIA AM courses.",
+              "needs": 5,
+              "options": [
+                {"type": "course", "courseId": "ASIA AM 103"},
+                {"type": "course", "courseId": "ASIA AM 104A"},
+                {"type": "course", "courseId": "ASIA AM 104B"},
+                {"type": "course", "courseId": "ASIA AM 105"},
+                {"type": "course", "courseId": "ASIA AM 107"},
+                {"type": "course", "courseId": "ASIA AM M108"},
+                {"type": "course", "courseId": "ASIA AM 109"},
+                {"type": "course", "courseId": "ASIA AM 110"},
+                {"type": "course", "courseId": "ASIA AM 111"},
+                {"type": "course", "courseId": "ASIA AM M112A"},
+                {"type": "course", "courseId": "ASIA AM M112B"},
+                {"type": "course", "courseId": "ASIA AM 112C"},
+                {"type": "course", "courseId": "ASIA AM 113"},
+                {"type": "course", "courseId": "ASIA AM M114"},
+                {"type": "course", "courseId": "ASIA AM 115"},
+                {"type": "course", "courseId": "ASIA AM M116"},
+                {"type": "course", "courseId": "ASIA AM M117"},
+                {"type": "course", "courseId": "ASIA AM 118"},
+                {"type": "course", "courseId": "ASIA AM M119XP"},
+                {"type": "course", "courseId": "ASIA AM 120"},
+                {"type": "course", "courseId": "ASIA AM 121"},
+                {"type": "course", "courseId": "ASIA AM 122A"},
+                {"type": "course", "courseId": "ASIA AM 122B"},
+                {"type": "course", "courseId": "ASIA AM 123"},
+                {"type": "course", "courseId": "ASIA AM M124"},
+                {"type": "course", "courseId": "ASIA AM 125"},
+                {"type": "course", "courseId": "ASIA AM 126"},
+                {"type": "course", "courseId": "ASIA AM M128"},
+                {"type": "course", "courseId": "ASIA AM M129"},
+                {"type": "course", "courseId": "ASIA AM 130A"},
+                {"type": "course", "courseId": "ASIA AM M130B"},
+                {"type": "course", "courseId": "ASIA AM M130C"},
+                {"type": "course", "courseId": "ASIA AM 131A"},
+                {"type": "course", "courseId": "ASIA AM 131B"},
+                {"type": "course", "courseId": "ASIA AM 131C"},
+                {"type": "course", "courseId": "ASIA AM 132A"},
+                {"type": "course", "courseId": "ASIA AM 133"},
+                {"type": "course", "courseId": "ASIA AM 134"},
+                {"type": "course", "courseId": "ASIA AM 135"},
+                {"type": "course", "courseId": "ASIA AM 140XP"},
+                {"type": "course", "courseId": "ASIA AM 141AX"},
+                {"type": "course", "courseId": "ASIA AM 141BX"},
+                {"type": "course", "courseId": "ASIA AM C142A"},
+                {"type": "course", "courseId": "ASIA AM C142B"},
+                {"type": "course", "courseId": "ASIA AM C142C"},
+                {"type": "course", "courseId": "ASIA AM M143A"},
+                {"type": "course", "courseId": "ASIA AM 143B"},
+                {"type": "course", "courseId": "ASIA AM M143C"},
+                {"type": "course", "courseId": "ASIA AM M151"},
+                {"type": "course", "courseId": "ASIA AM 155"},
+                {"type": "course", "courseId": "ASIA AM 156"},
+                {"type": "course", "courseId": "ASIA AM 157"},
+                {"type": "course", "courseId": "ASIA AM M160"},
+                {"type": "course", "courseId": "ASIA AM M161"},
+                {"type": "course", "courseId": "ASIA AM M162"},
+                {"type": "course", "courseId": "ASIA AM M163"},
+                {"type": "course", "courseId": "ASIA AM M164"},
+                {"type": "course", "courseId": "ASIA AM M165"},
+                {"type": "course", "courseId": "ASIA AM M166A"},
+                {"type": "course", "courseId": "ASIA AM M166B"},
+                {"type": "course", "courseId": "ASIA AM M166C"},
+                {"type": "course", "courseId": "ASIA AM 167"},
+                {"type": "course", "courseId": "ASIA AM M168"},
+                {"type": "course", "courseId": "ASIA AM M169"},
+                {"type": "course", "courseId": "ASIA AM 170"},
+                {"type": "course", "courseId": "ASIA AM 171A"},
+                {"type": "course", "courseId": "ASIA AM 171B"},
+                {"type": "course", "courseId": "ASIA AM 171C"},
+                {"type": "course", "courseId": "ASIA AM M171D"},
+                {"type": "course", "courseId": "ASIA AM 171E"},
+                {"type": "course", "courseId": "ASIA AM 171F"},
+                {"type": "course", "courseId": "ASIA AM M172A"},
+                {"type": "course", "courseId": "ASIA AM 172B"},
+                {"type": "course", "courseId": "ASIA AM 172C"},
+                {"type": "course", "courseId": "ASIA AM M173"},
+                {"type": "course", "courseId": "ASIA AM 174A"},
+                {"type": "course", "courseId": "ASIA AM 174B"},
+                {"type": "course", "courseId": "ASIA AM 175A"},
+                {"type": "course", "courseId": "ASIA AM 175B"},
+                {"type": "course", "courseId": "ASIA AM 176"},
+                {"type": "course", "courseId": "ASIA AM 177"},
+                {"type": "course", "courseId": "ASIA AM 178"},
+                {"type": "course", "courseId": "ASIA AM M179"},
+                {"type": "course", "courseId": "ASIA AM 185"},
+                {"type": "course", "courseId": "ASIA AM 186"},
+                {"type": "course", "courseId": "ASIA AM 187A"},
+                {"type": "course", "courseId": "ASIA AM 187B"},
+                {"type": "course", "courseId": "ASIA AM 187C"},
+                {"type": "course", "courseId": "ASIA AM 188"},
+                {"type": "course", "courseId": "ASIA AM 188SA"},
+                {"type": "course", "courseId": "ASIA AM 188SB"},
+                {"type": "course", "courseId": "ASIA AM 188SC"},
+                {"type": "course", "courseId": "ASIA AM 189"},
+                {"type": "course", "courseId": "ASIA AM 189HC"},
+                {"type": "course", "courseId": "ASIA AM 191A"},
+                {"type": "course", "courseId": "ASIA AM 191B"},
+                {"type": "course", "courseId": "ASIA AM 191C"},
+                {"type": "course", "courseId": "ASIA AM M191F"},
+                {"type": "course", "courseId": "ASIA AM 192"},
+                {"type": "course", "courseId": "ASIA AM 195"},
+                {"type": "course", "courseId": "ASIA AM M195CE"},
+                {"type": "course", "courseId": "ASIA AM 196"},
+                {"type": "course", "courseId": "ASIA AM 197"},
+                {"type": "course", "courseId": "ASIA AM 198A"},
+                {"type": "course", "courseId": "ASIA AM 198B"},
+                {"type": "course", "courseId": "ASIA AM 198C"},
+                {"type": "course", "courseId": "ASIA AM 199"}
+              ]
             },
             {
               "type": "group",
@@ -966,14 +381,8 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 185"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 186"
-                }
+                {"type": "course", "courseId": "ASIA AM 185"},
+                {"type": "course", "courseId": "ASIA AM 186"}
               ]
             }
           ]
@@ -997,18 +406,9 @@
               "description": "Honors students must take the following sequence to write a thesis or its equivalent under the direction of a faculty member:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM 198C"
-                }
+                {"type": "course", "courseId": "ASIA AM 198A"},
+                {"type": "course", "courseId": "ASIA AM 198B"},
+                {"type": "course", "courseId": "ASIA AM 198C"}
               ]
             }
           ]

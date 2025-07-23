@@ -11,10 +11,7 @@
       "title": "Preparation for the Major",
       "description": "A minimum of 69 to 85 units are required for the preparation for the major.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "C&S BIO 10"
-        },
+        {"type": "course", "courseId": "C&S BIO 10"},
         {
           "type": "group",
           "title": "Chemistry",
@@ -27,14 +24,8 @@
               "description": "Refer to the following courses.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14B"
-                }
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"}
               ]
             },
             {
@@ -43,18 +34,9 @@
               "description": "Refer to the following courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20L"
-                }
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"}
               ]
             }
           ]
@@ -65,14 +47,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COM SCI 31"
-            },
-            {
-              "type": "course",
-              "courseId": "COMPTNG 10A"
-            }
+            {"type": "course", "courseId": "COM SCI 31"},
+            {"type": "course", "courseId": "COMPTNG 10A"}
           ]
         },
         {
@@ -81,18 +57,9 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7A"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7B"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7C"
-            }
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"}
           ]
         },
         {
@@ -113,36 +80,15 @@
                   "description": "Select one course.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO M32"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH M32T"
-                    }
+                    {"type": "course", "courseId": "C&S BIO M32"},
+                    {"type": "course", "courseId": "MATH M32T"}
                   ]
                 },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 40"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 33A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 33B"
-                }
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"},
+                {"type": "course", "courseId": "LIFESCI 40"},
+                {"type": "course", "courseId": "MATH 33A"},
+                {"type": "course", "courseId": "MATH 33B"}
               ]
             },
             {
@@ -157,32 +103,14 @@
                   "description": "Select one course.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MATH 31A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 31AL"
-                    }
+                    {"type": "course", "courseId": "MATH 31A"},
+                    {"type": "course", "courseId": "MATH 31AL"}
                   ]
                 },
-                {
-                  "type": "course",
-                  "courseId": "MATH 31B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 33A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 33B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "STATS 10"
-                }
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "MATH 33A"},
+                {"type": "course", "courseId": "MATH 33B"},
+                {"type": "course", "courseId": "STATS 10"}
               ]
             }
           ]
@@ -199,18 +127,9 @@
               "description": "Refer to the following courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1C"
-                }
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"}
               ]
             },
             {
@@ -219,18 +138,9 @@
               "description": "Refer to the following courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1AH"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1BH"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1CH"
-                }
+                {"type": "course", "courseId": "PHYSICS 1AH"},
+                {"type": "course", "courseId": "PHYSICS 1BH"},
+                {"type": "course", "courseId": "PHYSICS 1CH"}
               ]
             },
             {
@@ -239,18 +149,9 @@
               "description": "Refer to the following courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5C"
-                }
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
               ]
             }
           ]
@@ -267,24 +168,15 @@
               "description": "Select one option:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "COM SCI 32"
-                },
+                {"type": "course", "courseId": "COM SCI 32"},
                 {
                   "type": "group",
                   "title": "Programs in Computing Series",
                   "description": "Refer to the following courses.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "COMPTNG 10B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COMPTNG 10C"
-                    }
+                    {"type": "course", "courseId": "COMPTNG 10B"},
+                    {"type": "course", "courseId": "COMPTNG 10C"}
                   ]
                 }
               ]
@@ -295,10 +187,7 @@
               "description": "Refer to the following courses.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "COM SCI 32"
-                }
+                {"type": "course", "courseId": "COM SCI 32"}
               ]
             },
             {
@@ -329,22 +218,10 @@
               "description": "Complete all four courses:",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "C&S BIO 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "C&S BIO M150"
-                },
-                {
-                  "type": "course",
-                  "courseId": "C&S BIO M184"
-                },
-                {
-                  "type": "course",
-                  "courseId": "C&S BIO 185"
-                }
+                {"type": "course", "courseId": "C&S BIO 100"},
+                {"type": "course", "courseId": "C&S BIO M150"},
+                {"type": "course", "courseId": "C&S BIO M184"},
+                {"type": "course", "courseId": "C&S BIO 185"}
               ]
             },
             {
@@ -359,14 +236,8 @@
                   "description": "Refer to the following courses.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO M187"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO 195"
-                    }
+                    {"type": "course", "courseId": "C&S BIO M187"},
+                    {"type": "course", "courseId": "C&S BIO 195"}
                   ]
                 },
                 {
@@ -375,14 +246,8 @@
                   "description": "Refer to the following courses.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO M187"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO 199"
-                    }
+                    {"type": "course", "courseId": "C&S BIO M187"},
+                    {"type": "course", "courseId": "C&S BIO 199"}
                   ]
                 },
                 {
@@ -391,14 +256,8 @@
                   "description": "Refer to the following courses.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO 198A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO 198B"
-                    }
+                    {"type": "course", "courseId": "C&S BIO 198A"},
+                    {"type": "course", "courseId": "C&S BIO 198B"}
                   ]
                 }
               ]
@@ -423,18 +282,9 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C124"
-                    }
+                    {"type": "course", "courseId": "COM SCI C121"},
+                    {"type": "course", "courseId": "COM SCI C122"},
+                    {"type": "course", "courseId": "COM SCI C124"}
                   ]
                 },
                 {
@@ -443,42 +293,15 @@
                   "description": "Select two courses from:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO M130"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C124"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C135"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO CM156"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 187AL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 125"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS M254"
-                    }
+                    {"type": "course", "courseId": "C&S BIO M130"},
+                    {"type": "course", "courseId": "COM SCI C121"},
+                    {"type": "course", "courseId": "COM SCI C122"},
+                    {"type": "course", "courseId": "COM SCI C124"},
+                    {"type": "course", "courseId": "EE BIOL C135"},
+                    {"type": "course", "courseId": "MCD BIO CM156"},
+                    {"type": "course", "courseId": "MCD BIO 187AL"},
+                    {"type": "course", "courseId": "PHYSCI 125"},
+                    {"type": "course", "courseId": "STATS M254"}
                   ]
                 },
                 {
@@ -487,166 +310,64 @@
                   "description": "Select two courses from the Life Science Course List.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 116"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 120"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 129"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 161"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C174"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EPIDEM 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 101"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 168"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 185A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 107"
-                    },
+                    {"type": "course", "courseId": "CHEM 153A"},
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "EE BIOL 100"},
+                    {"type": "course", "courseId": "EE BIOL 116"},
+                    {"type": "course", "courseId": "EE BIOL 120"},
+                    {"type": "course", "courseId": "EE BIOL 129"},
+                    {"type": "course", "courseId": "EE BIOL 161"},
+                    {"type": "course", "courseId": "EE BIOL C172"},
+                    {"type": "course", "courseId": "EE BIOL C174"},
+                    {"type": "course", "courseId": "EPIDEM 100"},
+                    {"type": "course", "courseId": "MIMG 101"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 185A"},
+                    {"type": "course", "courseId": "LIFESCI 107"},
                     {
                       "type": "group",
                       "title": "Cell Biology Choice",
                       "description": "Only one of MCD BIO 100 or 165A may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MCD BIO 100"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MCD BIO 165A"
-                        }
+                        {"type": "course", "courseId": "MCD BIO 100"},
+                        {"type": "course", "courseId": "MCD BIO 165A"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 138"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M140"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 144"
-                    },
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO M140"},
+                    {"type": "course", "courseId": "MCD BIO 144"},
                     {
                       "type": "group",
                       "title": "Neuroscience Choice",
                       "description": "Only one of NEUROSC M101A or PSYCH 115 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "NEUROSC M101A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "PSYCH 115"
-                        }
+                        {"type": "course", "courseId": "NEUROSC M101A"},
+                        {"type": "course", "courseId": "PSYCH 115"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC M101B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEURO 205"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEURO 260"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI C144"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSICS C186"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PSYCH 119M"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR C102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOMATH 206"
-                    },
+                    {"type": "course", "courseId": "NEUROSC M101B"},
+                    {"type": "course", "courseId": "NEUROSC 102"},
+                    {"type": "course", "courseId": "NEURO 205"},
+                    {"type": "course", "courseId": "NEURO 260"},
+                    {"type": "course", "courseId": "PHYSCI C144"},
+                    {"type": "course", "courseId": "PHYSICS C186"},
+                    {"type": "course", "courseId": "PSYCH 119M"},
+                    {"type": "course", "courseId": "BIOENGR C102"},
+                    {"type": "course", "courseId": "BIOMATH 206"},
                     {
                       "type": "group",
                       "title": "Physiology Choice",
                       "description": "Only one of EE BIOL 170 or PHYSCI 166 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "EE BIOL 170"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "PHYSCI 166"
-                        }
+                        {"type": "course", "courseId": "EE BIOL 170"},
+                        {"type": "course", "courseId": "PHYSCI 166"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 149"
-                    }
+                    {"type": "course", "courseId": "PHYSCI 149"}
                   ]
                 }
               ]
@@ -663,24 +384,15 @@
                   "description": "Select three courses from the following:",
                   "needs": 3,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO M130"
-                    },
+                    {"type": "course", "courseId": "C&S BIO M130"},
                     {
                       "type": "group",
                       "title": "Genetics/Genomics Choice",
                       "description": "Only one of COM SCI C124 or M226 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI C124"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI 226"
-                        }
+                        {"type": "course", "courseId": "COM SCI C124"},
+                        {"type": "course", "courseId": "COM SCI 226"}
                       ]
                     },
                     {
@@ -689,68 +401,29 @@
                       "description": "Only one of COM SCI M146, MATH 156, or STATS C161 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI M146"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 156"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "STATS C161"
-                        }
+                        {"type": "course", "courseId": "COM SCI M146"},
+                        {"type": "course", "courseId": "MATH 156"},
+                        {"type": "course", "courseId": "STATS C161"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI 161"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI 168"
-                    },
+                    {"type": "course", "courseId": "COM SCI 161"},
+                    {"type": "course", "courseId": "COM SCI 168"},
                     {
                       "type": "group",
                       "title": "Algorithms Choice",
                       "description": "Only one of COM SCI 180 or MATH 182 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI 180"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 182"
-                        }
+                        {"type": "course", "courseId": "COM SCI 180"},
+                        {"type": "course", "courseId": "MATH 182"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR C143A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR C147A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 155"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 164"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 101A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 101C"
-                    }
+                    {"type": "course", "courseId": "EC ENGR C143A"},
+                    {"type": "course", "courseId": "EC ENGR C147A"},
+                    {"type": "course", "courseId": "MATH 155"},
+                    {"type": "course", "courseId": "MATH 164"},
+                    {"type": "course", "courseId": "STATS 101A"},
+                    {"type": "course", "courseId": "STATS 101C"}
                   ]
                 },
                 {
@@ -759,166 +432,64 @@
                   "description": "Select two courses from the Life Science Course List.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 116"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 120"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 129"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 161"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C174"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EPIDEM 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 101"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 168"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 185A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 107"
-                    },
+                    {"type": "course", "courseId": "CHEM 153A"},
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "EE BIOL 100"},
+                    {"type": "course", "courseId": "EE BIOL 116"},
+                    {"type": "course", "courseId": "EE BIOL 120"},
+                    {"type": "course", "courseId": "EE BIOL 129"},
+                    {"type": "course", "courseId": "EE BIOL 161"},
+                    {"type": "course", "courseId": "EE BIOL C172"},
+                    {"type": "course", "courseId": "EE BIOL C174"},
+                    {"type": "course", "courseId": "EPIDEM 100"},
+                    {"type": "course", "courseId": "MIMG 101"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 185A"},
+                    {"type": "course", "courseId": "LIFESCI 107"},
                     {
                       "type": "group",
                       "title": "Cell Biology Choice",
                       "description": "Only one of MCD BIO 100 or 165A may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MCD BIO 100"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MCD BIO 165A"
-                        }
+                        {"type": "course", "courseId": "MCD BIO 100"},
+                        {"type": "course", "courseId": "MCD BIO 165A"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 138"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M140"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 144"
-                    },
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO M140"},
+                    {"type": "course", "courseId": "MCD BIO 144"},
                     {
                       "type": "group",
                       "title": "Neuroscience Choice",
                       "description": "Only one of NEUROSC M101A or PSYCH 115 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "NEUROSC M101A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "PSYCH 115"
-                        }
+                        {"type": "course", "courseId": "NEUROSC M101A"},
+                        {"type": "course", "courseId": "PSYCH 115"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC M101B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEURO 205"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEURO 260"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI C144"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSICS C186"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PSYCH 119M"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR C102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOMATH 206"
-                    },
+                    {"type": "course", "courseId": "NEUROSC M101B"},
+                    {"type": "course", "courseId": "NEUROSC 102"},
+                    {"type": "course", "courseId": "NEURO 205"},
+                    {"type": "course", "courseId": "NEURO 260"},
+                    {"type": "course", "courseId": "PHYSCI C144"},
+                    {"type": "course", "courseId": "PHYSICS C186"},
+                    {"type": "course", "courseId": "PSYCH 119M"},
+                    {"type": "course", "courseId": "BIOENGR C102"},
+                    {"type": "course", "courseId": "BIOMATH 206"},
                     {
                       "type": "group",
                       "title": "Physiology Choice",
                       "description": "Only one of EE BIOL 170 or PHYSCI 166 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "EE BIOL 170"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "PHYSCI 166"
-                        }
+                        {"type": "course", "courseId": "EE BIOL 170"},
+                        {"type": "course", "courseId": "PHYSCI 166"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 149"
-                    }
+                    {"type": "course", "courseId": "PHYSCI 149"}
                   ]
                 }
               ]
@@ -935,82 +506,37 @@
                   "description": "Select three courses from the following:",
                   "needs": 3,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO M130"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "C&S BIO M178"
-                    },
+                    {"type": "course", "courseId": "C&S BIO M130"},
+                    {"type": "course", "courseId": "C&S BIO M178"},
                     {
                       "type": "group",
                       "title": "Systems Biology Modeling Choice",
                       "description": "Only one of C&S BIO M186 or COM SCI M182 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "C&S BIO M186"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI M182"
-                        }
+                        {"type": "course", "courseId": "C&S BIO M186"},
+                        {"type": "course", "courseId": "COM SCI M182"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EC ENGR 113"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C119A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C119B"
-                    },
+                    {"type": "course", "courseId": "EC ENGR 102"},
+                    {"type": "course", "courseId": "EC ENGR 113"},
+                    {"type": "course", "courseId": "EE BIOL C119A"},
+                    {"type": "course", "courseId": "EE BIOL C119B"},
                     {
                       "type": "group",
                       "title": "Differential Equations Choice",
                       "description": "Only one of MATH 134 or 135 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MATH 134"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 135"
-                        }
+                        {"type": "course", "courseId": "MATH 134"},
+                        {"type": "course", "courseId": "MATH 135"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 136"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 142"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 146"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 168"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 171"
-                    }
+                    {"type": "course", "courseId": "MATH 136"},
+                    {"type": "course", "courseId": "MATH 142"},
+                    {"type": "course", "courseId": "MATH 146"},
+                    {"type": "course", "courseId": "MATH 168"},
+                    {"type": "course", "courseId": "MATH 171"}
                   ]
                 },
                 {
@@ -1019,166 +545,64 @@
                   "description": "Select two courses from the Life Science Course List.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 116"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 120"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 129"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 161"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C174"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EPIDEM 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 101"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 168"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 185A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 107"
-                    },
+                    {"type": "course", "courseId": "CHEM 153A"},
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "EE BIOL 100"},
+                    {"type": "course", "courseId": "EE BIOL 116"},
+                    {"type": "course", "courseId": "EE BIOL 120"},
+                    {"type": "course", "courseId": "EE BIOL 129"},
+                    {"type": "course", "courseId": "EE BIOL 161"},
+                    {"type": "course", "courseId": "EE BIOL C172"},
+                    {"type": "course", "courseId": "EE BIOL C174"},
+                    {"type": "course", "courseId": "EPIDEM 100"},
+                    {"type": "course", "courseId": "MIMG 101"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 185A"},
+                    {"type": "course", "courseId": "LIFESCI 107"},
                     {
                       "type": "group",
                       "title": "Cell Biology Choice",
                       "description": "Only one of MCD BIO 100 or 165A may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MCD BIO 100"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MCD BIO 165A"
-                        }
+                        {"type": "course", "courseId": "MCD BIO 100"},
+                        {"type": "course", "courseId": "MCD BIO 165A"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 138"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M140"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 144"
-                    },
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO M140"},
+                    {"type": "course", "courseId": "MCD BIO 144"},
                     {
                       "type": "group",
                       "title": "Neuroscience Choice",
                       "description": "Only one of NEUROSC M101A or PSYCH 115 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "NEUROSC M101A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "PSYCH 115"
-                        }
+                        {"type": "course", "courseId": "NEUROSC M101A"},
+                        {"type": "course", "courseId": "PSYCH 115"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC M101B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEURO 205"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEURO 260"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI C144"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSICS C186"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PSYCH 119M"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR C102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOMATH 206"
-                    },
+                    {"type": "course", "courseId": "NEUROSC M101B"},
+                    {"type": "course", "courseId": "NEUROSC 102"},
+                    {"type": "course", "courseId": "NEURO 205"},
+                    {"type": "course", "courseId": "NEURO 260"},
+                    {"type": "course", "courseId": "PHYSCI C144"},
+                    {"type": "course", "courseId": "PHYSICS C186"},
+                    {"type": "course", "courseId": "PSYCH 119M"},
+                    {"type": "course", "courseId": "BIOENGR C102"},
+                    {"type": "course", "courseId": "BIOMATH 206"},
                     {
                       "type": "group",
                       "title": "Physiology Choice",
                       "description": "Only one of EE BIOL 170 or PHYSCI 166 may be applied.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "EE BIOL 170"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "PHYSCI 166"
-                        }
+                        {"type": "course", "courseId": "EE BIOL 170"},
+                        {"type": "course", "courseId": "PHYSCI 166"}
                       ]
                     },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 149"
-                    }
+                    {"type": "course", "courseId": "PHYSCI 149"}
                   ]
                 }
               ]

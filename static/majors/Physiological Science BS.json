@@ -29,30 +29,12 @@
               "description": "Complete all six courses in this series.",
               "needs": 6,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14BL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14CL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14D"
-                }
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"},
+                {"type": "course", "courseId": "CHEM 14CL"},
+                {"type": "course", "courseId": "CHEM 14D"}
               ]
             },
             {
@@ -61,34 +43,13 @@
               "description": "Complete all seven courses in this series.",
               "needs": 7,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20L"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30AL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30BL"
-                }
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"},
+                {"type": "course", "courseId": "CHEM 30B"},
+                {"type": "course", "courseId": "CHEM 30BL"}
               ]
             }
           ]
@@ -99,22 +60,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7A"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7B"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7C"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7L"
-            }
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
           ]
         },
         {
@@ -129,28 +78,16 @@
               "description": "Complete LIFESCI 30A, 30B, and one of the specified statistics courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30B"
-                },
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"},
                 {
                   "type": "group",
                   "title": "Statistics",
                   "description": "And select one of the following:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 40"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 13"
-                    }
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
                   ]
                 }
               ]
@@ -161,18 +98,9 @@
               "description": "Complete all three courses in this series.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 3A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3C"
-                }
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"}
               ]
             },
             {
@@ -181,18 +109,9 @@
               "description": "Complete all three courses in this series.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 31A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 31B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 32A"
-                }
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "MATH 32A"}
               ]
             }
           ]
@@ -209,26 +128,11 @@
               "description": "Complete all five courses in this series.",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 4AL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 4BL"
-                }
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
               ]
             },
             {
@@ -237,18 +141,9 @@
               "description": "Complete all three courses in this series.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5C"
-                }
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
               ]
             }
           ]
@@ -260,26 +155,11 @@
       "title": "The Major",
       "description": "Complete the following five courses and five upper-division physiological science electives.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "PHYSCI 107"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSCI 111A"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSCI 111B"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSCI 111L"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 153A"
-        },
+        {"type": "course", "courseId": "PHYSCI 107"},
+        {"type": "course", "courseId": "PHYSCI 111A"},
+        {"type": "course", "courseId": "PHYSCI 111B"},
+        {"type": "course", "courseId": "PHYSCI 111L"},
+        {"type": "course", "courseId": "CHEM 153A"},
         {
           "type": "group",
           "title": "Upper-Division Physiological Science Electives",

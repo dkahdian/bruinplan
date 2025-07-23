@@ -11,48 +11,21 @@
       "title": "Preparation for the Major",
       "description": "Complete International and Area Studies 1, one area studies course, two international politics and markets courses, two international societies and cultures courses, and two area-related foreign language sequences through the intermediate level as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "I A STD 1"
-        },
+        {"type": "course", "courseId": "I A STD 1"},
         {
           "type": "group",
           "title": "Area Studies",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "HIST 8A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 8B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 8C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 97E"
-            },
-            {
-              "type": "course",
-              "courseId": "I A STD 50"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 40B"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 46"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 44"
-            }
+            {"type": "course", "courseId": "HIST 8A"},
+            {"type": "course", "courseId": "HIST 8B"},
+            {"type": "course", "courseId": "HIST 8C"},
+            {"type": "course", "courseId": "HIST 97E"},
+            {"type": "course", "courseId": "I A STD 50"},
+            {"type": "course", "courseId": "PORTGSE 40B"},
+            {"type": "course", "courseId": "PORTGSE 46"},
+            {"type": "course", "courseId": "SPAN 44"}
           ]
         },
         {
@@ -61,30 +34,12 @@
           "description": "Select two courses from the following:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ECON 1"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 2"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 4"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 6"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 50"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 1"
-            }
+            {"type": "course", "courseId": "ECON 1"},
+            {"type": "course", "courseId": "ECON 2"},
+            {"type": "course", "courseId": "GEOG 4"},
+            {"type": "course", "courseId": "GEOG 6"},
+            {"type": "course", "courseId": "POL SCI 50"},
+            {"type": "course", "courseId": "SOCIOL 1"}
           ]
         },
         {
@@ -93,50 +48,17 @@
           "description": "Select two courses from the following. Only one course from Comparative Literature 1D, 2DW, or 4DW may be applied.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 3"
-            },
-            {
-              "type": "course",
-              "courseId": "COM LIT 1D"
-            },
-            {
-              "type": "course",
-              "courseId": "COM LIT 2DW"
-            },
-            {
-              "type": "course",
-              "courseId": "COM LIT 4DW"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS 5"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS M25"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 3"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 2B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 22"
-            },
-            {
-              "type": "course",
-              "courseId": "WL ARTS 20"
-            },
-            {
-              "type": "course",
-              "courseId": "WL ARTS 33"
-            }
+            {"type": "course", "courseId": "ANTHRO 3"},
+            {"type": "course", "courseId": "COM LIT 1D"},
+            {"type": "course", "courseId": "COM LIT 2DW"},
+            {"type": "course", "courseId": "COM LIT 4DW"},
+            {"type": "course", "courseId": "ETHNMUS 5"},
+            {"type": "course", "courseId": "ETHNMUS M25"},
+            {"type": "course", "courseId": "GEOG 3"},
+            {"type": "course", "courseId": "HIST 2B"},
+            {"type": "course", "courseId": "HIST 22"},
+            {"type": "course", "courseId": "WL ARTS 20"},
+            {"type": "course", "courseId": "WL ARTS 33"}
           ]
         },
         {
@@ -145,22 +67,10 @@
           "description": "Complete two area-related foreign language sequences through the intermediate level such as the following examples or an indigenous language of Latin America such as Nahuatl, Quechua, or Zapotec. The language requirement can also be fulfilled in part or in total by taking a placement examination given through the appropriate language department.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PORTGSE 3"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 11B"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 5"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 7A"
-            }
+            {"type": "course", "courseId": "PORTGSE 3"},
+            {"type": "course", "courseId": "PORTGSE 11B"},
+            {"type": "course", "courseId": "SPAN 5"},
+            {"type": "course", "courseId": "SPAN 7A"}
           ]
         }
       ]
@@ -176,106 +86,31 @@
           "description": "Select three courses. Courses may be chosen from the contemporary list (Group 1) or substituted from the historical/diaspora list (Group 2).",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ART HIS C142A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS C142B"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS 144"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS M108A"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS 108B"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS 113"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS 161K"
-            },
-            {
-              "type": "course",
-              "courseId": "FILM TV 106C"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC M131"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 130B"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 141B"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 142A"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 142B"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 120"
-            },
-            {
-              "type": "course",
-              "courseId": "WL ARTS C139"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS CM139A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS C139B"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS CM141"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M105D"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M105E"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 109"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 142"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS M116"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 143A"
-            }
+            {"type": "course", "courseId": "ART HIS C142A"},
+            {"type": "course", "courseId": "ART HIS C142B"},
+            {"type": "course", "courseId": "ART HIS 144"},
+            {"type": "course", "courseId": "ETHNMUS M108A"},
+            {"type": "course", "courseId": "ETHNMUS 108B"},
+            {"type": "course", "courseId": "ETHNMUS 113"},
+            {"type": "course", "courseId": "ETHNMUS 161K"},
+            {"type": "course", "courseId": "FILM TV 106C"},
+            {"type": "course", "courseId": "MUSC M131"},
+            {"type": "course", "courseId": "PORTGSE 130A"},
+            {"type": "course", "courseId": "PORTGSE 130B"},
+            {"type": "course", "courseId": "PORTGSE 141B"},
+            {"type": "course", "courseId": "PORTGSE 142A"},
+            {"type": "course", "courseId": "PORTGSE 142B"},
+            {"type": "course", "courseId": "SPAN 120"},
+            {"type": "course", "courseId": "WL ARTS C139"},
+            {"type": "course", "courseId": "ART HIS CM139A"},
+            {"type": "course", "courseId": "ART HIS C139B"},
+            {"type": "course", "courseId": "ART HIS CM141"},
+            {"type": "course", "courseId": "CCAS M105D"},
+            {"type": "course", "courseId": "CCAS M105E"},
+            {"type": "course", "courseId": "CCAS 109"},
+            {"type": "course", "courseId": "CCAS 142"},
+            {"type": "course", "courseId": "ETHNMUS M116"},
+            {"type": "course", "courseId": "PORTGSE 143A"}
           ]
         },
         {
@@ -284,142 +119,40 @@
           "description": "Select three courses. Courses may be chosen from the contemporary list (Group 1) or substituted from the historical/diaspora list (Group 2).",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "AF AMER M154C"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M178"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 161"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 162"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 111"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 117"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M132"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS C141"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 143"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 151"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 169"
-            },
-            {
-              "type": "course",
-              "courseId": "COM HLT 132"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M147C"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 135"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 172A"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 172C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 159"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 160A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 160B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 162A"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M125"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M144"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 154A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 154B"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB HLT M106"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 186"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 191J"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 114P"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 114Q"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M119"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M159B"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 184"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M187"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 157B"
-            }
+            {"type": "course", "courseId": "AF AMER M154C"},
+            {"type": "course", "courseId": "AF AMER M178"},
+            {"type": "course", "courseId": "ANTHRO 161"},
+            {"type": "course", "courseId": "ANTHRO 162"},
+            {"type": "course", "courseId": "CCAS 111"},
+            {"type": "course", "courseId": "CCAS 117"},
+            {"type": "course", "courseId": "CCAS M132"},
+            {"type": "course", "courseId": "CCAS C141"},
+            {"type": "course", "courseId": "CCAS 143"},
+            {"type": "course", "courseId": "CCAS 151"},
+            {"type": "course", "courseId": "CCAS 169"},
+            {"type": "course", "courseId": "COM HLT 132"},
+            {"type": "course", "courseId": "GENDER M147C"},
+            {"type": "course", "courseId": "GEOG 135"},
+            {"type": "course", "courseId": "GEOG 172A"},
+            {"type": "course", "courseId": "GEOG 172C"},
+            {"type": "course", "courseId": "HIST 159"},
+            {"type": "course", "courseId": "HIST 160A"},
+            {"type": "course", "courseId": "HIST 160B"},
+            {"type": "course", "courseId": "HIST 162A"},
+            {"type": "course", "courseId": "LBR STD M125"},
+            {"type": "course", "courseId": "LBR STD M144"},
+            {"type": "course", "courseId": "POL SCI 154A"},
+            {"type": "course", "courseId": "POL SCI 154B"},
+            {"type": "course", "courseId": "PUB HLT M106"},
+            {"type": "course", "courseId": "SOCIOL 186"},
+            {"type": "course", "courseId": "SOCIOL 191J"},
+            {"type": "course", "courseId": "ANTHRO 114P"},
+            {"type": "course", "courseId": "ANTHRO 114Q"},
+            {"type": "course", "courseId": "CCAS M119"},
+            {"type": "course", "courseId": "CCAS M159B"},
+            {"type": "course", "courseId": "CCAS 184"},
+            {"type": "course", "courseId": "CCAS M187"},
+            {"type": "course", "courseId": "HIST 157B"}
           ]
         },
         {
@@ -428,242 +161,65 @@
           "description": "Select one additional course from any of the area studies groups (Humanities/Arts Groups 1 & 2, Social Sciences Groups 1 & 2).",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ART HIS C142A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS C142B"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS 144"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS M108A"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS 108B"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS 113"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS 161K"
-            },
-            {
-              "type": "course",
-              "courseId": "FILM TV 106C"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC M131"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 130B"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 141B"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 142A"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 142B"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 120"
-            },
-            {
-              "type": "course",
-              "courseId": "WL ARTS C139"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS CM139A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS C139B"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS CM141"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M105D"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M105E"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 109"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 142"
-            },
-            {
-              "type": "course",
-              "courseId": "ETHNMUS M116"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 143A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M154C"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M178"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 161"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 162"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 111"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 117"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M132"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS C141"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 143"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 151"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 169"
-            },
-            {
-              "type": "course",
-              "courseId": "COM HLT 132"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M147C"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 135"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 172A"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 172C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 159"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 160A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 160B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 162A"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M125"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M144"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 154A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 154B"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB HLT M106"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 186"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 191J"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 114P"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 114Q"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M119"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M159B"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 184"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M187"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 157B"
-            }
+            {"type": "course", "courseId": "ART HIS C142A"},
+            {"type": "course", "courseId": "ART HIS C142B"},
+            {"type": "course", "courseId": "ART HIS 144"},
+            {"type": "course", "courseId": "ETHNMUS M108A"},
+            {"type": "course", "courseId": "ETHNMUS 108B"},
+            {"type": "course", "courseId": "ETHNMUS 113"},
+            {"type": "course", "courseId": "ETHNMUS 161K"},
+            {"type": "course", "courseId": "FILM TV 106C"},
+            {"type": "course", "courseId": "MUSC M131"},
+            {"type": "course", "courseId": "PORTGSE 130A"},
+            {"type": "course", "courseId": "PORTGSE 130B"},
+            {"type": "course", "courseId": "PORTGSE 141B"},
+            {"type": "course", "courseId": "PORTGSE 142A"},
+            {"type": "course", "courseId": "PORTGSE 142B"},
+            {"type": "course", "courseId": "SPAN 120"},
+            {"type": "course", "courseId": "WL ARTS C139"},
+            {"type": "course", "courseId": "ART HIS CM139A"},
+            {"type": "course", "courseId": "ART HIS C139B"},
+            {"type": "course", "courseId": "ART HIS CM141"},
+            {"type": "course", "courseId": "CCAS M105D"},
+            {"type": "course", "courseId": "CCAS M105E"},
+            {"type": "course", "courseId": "CCAS 109"},
+            {"type": "course", "courseId": "CCAS 142"},
+            {"type": "course", "courseId": "ETHNMUS M116"},
+            {"type": "course", "courseId": "PORTGSE 143A"},
+            {"type": "course", "courseId": "AF AMER M154C"},
+            {"type": "course", "courseId": "AF AMER M178"},
+            {"type": "course", "courseId": "ANTHRO 161"},
+            {"type": "course", "courseId": "ANTHRO 162"},
+            {"type": "course", "courseId": "CCAS 111"},
+            {"type": "course", "courseId": "CCAS 117"},
+            {"type": "course", "courseId": "CCAS M132"},
+            {"type": "course", "courseId": "CCAS C141"},
+            {"type": "course", "courseId": "CCAS 143"},
+            {"type": "course", "courseId": "CCAS 151"},
+            {"type": "course", "courseId": "CCAS 169"},
+            {"type": "course", "courseId": "COM HLT 132"},
+            {"type": "course", "courseId": "GENDER M147C"},
+            {"type": "course", "courseId": "GEOG 135"},
+            {"type": "course", "courseId": "GEOG 172A"},
+            {"type": "course", "courseId": "GEOG 172C"},
+            {"type": "course", "courseId": "HIST 159"},
+            {"type": "course", "courseId": "HIST 160A"},
+            {"type": "course", "courseId": "HIST 160B"},
+            {"type": "course", "courseId": "HIST 162A"},
+            {"type": "course", "courseId": "LBR STD M125"},
+            {"type": "course", "courseId": "LBR STD M144"},
+            {"type": "course", "courseId": "POL SCI 154A"},
+            {"type": "course", "courseId": "POL SCI 154B"},
+            {"type": "course", "courseId": "PUB HLT M106"},
+            {"type": "course", "courseId": "SOCIOL 186"},
+            {"type": "course", "courseId": "SOCIOL 191J"},
+            {"type": "course", "courseId": "ANTHRO 114P"},
+            {"type": "course", "courseId": "ANTHRO 114Q"},
+            {"type": "course", "courseId": "CCAS M119"},
+            {"type": "course", "courseId": "CCAS M159B"},
+            {"type": "course", "courseId": "CCAS 184"},
+            {"type": "course", "courseId": "CCAS M187"},
+            {"type": "course", "courseId": "HIST 157B"}
           ]
         },
         {
@@ -672,118 +228,34 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 143"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 111"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 112"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 121"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 122"
-            },
-            {
-              "type": "course",
-              "courseId": "ENVIRON 134"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG M127"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 148"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 150"
-            },
-            {
-              "type": "course",
-              "courseId": "INTL DV 130"
-            },
-            {
-              "type": "course",
-              "courseId": "MGMT 109"
-            },
-            {
-              "type": "course",
-              "courseId": "MGMT 127C"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI M122B"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 123A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 124A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 125A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 126"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 129"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 134"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 137A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 150"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 166"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI M167C"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 167D"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 168"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 182"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 183"
-            },
-            {
-              "type": "course",
-              "courseId": "URBN PL M165"
-            }
+            {"type": "course", "courseId": "ANTHRO 143"},
+            {"type": "course", "courseId": "ECON 111"},
+            {"type": "course", "courseId": "ECON 112"},
+            {"type": "course", "courseId": "ECON 121"},
+            {"type": "course", "courseId": "ECON 122"},
+            {"type": "course", "courseId": "ENVIRON 134"},
+            {"type": "course", "courseId": "GEOG M127"},
+            {"type": "course", "courseId": "GEOG 148"},
+            {"type": "course", "courseId": "GEOG 150"},
+            {"type": "course", "courseId": "INTL DV 130"},
+            {"type": "course", "courseId": "MGMT 109"},
+            {"type": "course", "courseId": "MGMT 127C"},
+            {"type": "course", "courseId": "POL SCI M122B"},
+            {"type": "course", "courseId": "POL SCI 123A"},
+            {"type": "course", "courseId": "POL SCI 124A"},
+            {"type": "course", "courseId": "POL SCI 125A"},
+            {"type": "course", "courseId": "POL SCI 126"},
+            {"type": "course", "courseId": "POL SCI 129"},
+            {"type": "course", "courseId": "POL SCI 134"},
+            {"type": "course", "courseId": "POL SCI 137A"},
+            {"type": "course", "courseId": "POL SCI 150"},
+            {"type": "course", "courseId": "POL SCI 166"},
+            {"type": "course", "courseId": "POL SCI M167C"},
+            {"type": "course", "courseId": "POL SCI 167D"},
+            {"type": "course", "courseId": "POL SCI 168"},
+            {"type": "course", "courseId": "SOCIOL 182"},
+            {"type": "course", "courseId": "SOCIOL 183"},
+            {"type": "course", "courseId": "URBN PL M165"}
           ]
         },
         {
@@ -792,98 +264,29 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 130"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 140"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 146"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 147"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS C160"
-            },
-            {
-              "type": "course",
-              "courseId": "COMM 179"
-            },
-            {
-              "type": "course",
-              "courseId": "COM LIT 100"
-            },
-            {
-              "type": "course",
-              "courseId": "ENVIRON M133"
-            },
-            {
-              "type": "course",
-              "courseId": "FILM TV 112"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG M131"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 139C"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 140"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 141"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 158"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 161"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M186B"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS M152"
-            },
-            {
-              "type": "course",
-              "courseId": "INTL DV 110"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 116"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 151"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 154"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 191D"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 191F"
-            }
+            {"type": "course", "courseId": "ANTHRO 130"},
+            {"type": "course", "courseId": "ANTHRO 140"},
+            {"type": "course", "courseId": "ANTHRO 146"},
+            {"type": "course", "courseId": "ANTHRO 147"},
+            {"type": "course", "courseId": "ART HIS C160"},
+            {"type": "course", "courseId": "COMM 179"},
+            {"type": "course", "courseId": "COM LIT 100"},
+            {"type": "course", "courseId": "ENVIRON M133"},
+            {"type": "course", "courseId": "FILM TV 112"},
+            {"type": "course", "courseId": "GEOG M131"},
+            {"type": "course", "courseId": "GEOG 139C"},
+            {"type": "course", "courseId": "GEOG 140"},
+            {"type": "course", "courseId": "GEOG 141"},
+            {"type": "course", "courseId": "GEOG 158"},
+            {"type": "course", "courseId": "GEOG 161"},
+            {"type": "course", "courseId": "HIST M186B"},
+            {"type": "course", "courseId": "HNRS M152"},
+            {"type": "course", "courseId": "INTL DV 110"},
+            {"type": "course", "courseId": "SOCIOL 116"},
+            {"type": "course", "courseId": "SOCIOL 151"},
+            {"type": "course", "courseId": "SOCIOL 154"},
+            {"type": "course", "courseId": "SOCIOL 191D"},
+            {"type": "course", "courseId": "SOCIOL 191F"}
           ]
         }
       ]
@@ -893,10 +296,7 @@
       "title": "Capstone",
       "description": "Complete the following senior research seminar. This fulfills the capstone requirement for the major.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "I A STD 191"
-        }
+        {"type": "course", "courseId": "I A STD 191"}
       ]
     },
     {
@@ -916,18 +316,9 @@
               "description": "Complete the three-term directed-study series culminating in an honors thesis.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "I A STD 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "I A STD 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "I A STD 198C"
-                }
+                {"type": "course", "courseId": "I A STD 198A"},
+                {"type": "course", "courseId": "I A STD 198B"},
+                {"type": "course", "courseId": "I A STD 198C"}
               ]
             }
           ]

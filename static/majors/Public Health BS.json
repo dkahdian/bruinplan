@@ -17,14 +17,8 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PUB HLT 50A"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB HLT 50B"
-            }
+            {"type": "course", "courseId": "PUB HLT 50A"},
+            {"type": "course", "courseId": "PUB HLT 50B"}
           ]
         },
         {
@@ -39,22 +33,10 @@
               "description": "Complete all courses in this series.",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14BL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14C"
-                }
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"}
               ]
             },
             {
@@ -63,26 +45,11 @@
               "description": "Complete all courses in this series.",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20L"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30AL"
-                }
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"}
               ]
             }
           ]
@@ -93,22 +60,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7A"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7B"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7C"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7L"
-            }
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
           ]
         },
         {
@@ -123,28 +78,16 @@
               "description": "Complete two required courses and select one statistics course.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30B"
-                },
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"},
                 {
                   "type": "group",
                   "title": "Statistics Option",
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 40"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 13"
-                    }
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
                   ]
                 }
               ]
@@ -155,32 +98,17 @@
               "description": "Complete three required courses and select one statistics course.",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 3A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3C"
-                },
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"},
                 {
                   "type": "group",
                   "title": "Statistics Option",
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "STATS 10"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 13"
-                    }
+                    {"type": "course", "courseId": "STATS 10"},
+                    {"type": "course", "courseId": "STATS 13"}
                   ]
                 }
               ]
@@ -199,26 +127,11 @@
               "description": "Complete all courses in this series.",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 4AL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 4BL"
-                }
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
               ]
             },
             {
@@ -227,18 +140,9 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5C"
-                }
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
               ]
             }
           ]
@@ -263,10 +167,7 @@
           "description": "Complete the following course or any approved Writing II course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COMM 1"
-            },
+            {"type": "course", "courseId": "COMM 1"},
             {
               "type": "group",
               "title": "Approved Writing II Course",
@@ -289,26 +190,11 @@
           "description": "Complete the following five courses:",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "BIOSTAT 120"
-            },
-            {
-              "type": "course",
-              "courseId": "COM HLT 120"
-            },
-            {
-              "type": "course",
-              "courseId": "ENV HLT 120"
-            },
-            {
-              "type": "course",
-              "courseId": "EPIDEM 120"
-            },
-            {
-              "type": "course",
-              "courseId": "HLT POL 120"
-            }
+            {"type": "course", "courseId": "BIOSTAT 120"},
+            {"type": "course", "courseId": "COM HLT 120"},
+            {"type": "course", "courseId": "ENV HLT 120"},
+            {"type": "course", "courseId": "EPIDEM 120"},
+            {"type": "course", "courseId": "HLT POL 120"}
           ]
         },
         {
@@ -319,8 +205,6 @@
           "options": [
             {"type": "course", "courseId": "PUB HLT M106"},
             {"type": "course", "courseId": "PUB HLT C150"},
-            {"type": "course", "courseId": "PUB HLT 185A"},
-            {"type": "course", "courseId": "PUB HLT 185B"},
             {"type": "course", "courseId": "PUB HLT C188"},
             {"type": "course", "courseId": "PUB HLT 188SA"},
             {"type": "course", "courseId": "PUB HLT 188SB"},
@@ -328,7 +212,6 @@
             {"type": "course", "courseId": "PUB HLT C191"},
             {"type": "course", "courseId": "PUB HLT 193"},
             {"type": "course", "courseId": "PUB HLT 195"},
-            {"type": "course", "courseId": "PUB HLT 195CE"},
             {"type": "course", "courseId": "PUB HLT 196"},
             {"type": "course", "courseId": "PUB HLT 197"},
             {"type": "course", "courseId": "PUB HLT 198"},
@@ -341,18 +224,15 @@
           "description": "Complete the following course or an approved course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PUB HLT 195CE"
-            },
+            {"type": "course", "courseId": "PUB HLT 195CE"},
             {
               "type": "group",
               "title": "Approved Community Engagement Course",
               "description": "Select one approved community engagement course.",
               "needs": 1,
-        "options": [
-          {"type": "course", "courseId": "PUB HLT 195CE"}
-        ]
+              "options": [
+                {"type": "course", "courseId": "PUB HLT 195CE"}
+              ]
             }
           ]
         },
@@ -362,14 +242,8 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PUB HLT 185A"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB HLT 185B"
-            }
+            {"type": "course", "courseId": "PUB HLT 185A"},
+            {"type": "course", "courseId": "PUB HLT 185B"}
           ]
         }
       ]
@@ -391,18 +265,15 @@
               "description": "Select one course to fulfill the senior thesis requirement.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PUB HLT 198"
-                },
+                {"type": "course", "courseId": "PUB HLT 198"},
                 {
                   "type": "group",
                   "title": "Departmental 198 Course",
                   "description": "A departmental 198 course supervised by an Academic Senate faculty member from the school.",
                   "needs": 1,
-        "options": [
-          {"type": "course", "courseId": "PUB HLT 198"}
-        ]
+                  "options": [
+                    {"type": "course", "courseId": "PUB HLT 198"}
+                  ]
                 }
               ]
             }

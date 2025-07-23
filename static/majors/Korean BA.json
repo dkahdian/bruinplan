@@ -17,18 +17,9 @@
           "description": "Select one course from the following, or complete an equivalent course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "KOREA 6"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 6A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 10"
-            }
+            {"type": "course", "courseId": "KOREA 6"},
+            {"type": "course", "courseId": "KOREA 6A"},
+            {"type": "course", "courseId": "KOREA 10"}
           ]
         },
         {
@@ -37,30 +28,12 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ASIAN 30"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 40"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 50"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA M60"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 70"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 80"
-            }
+            {"type": "course", "courseId": "ASIAN 30"},
+            {"type": "course", "courseId": "KOREA 40"},
+            {"type": "course", "courseId": "KOREA 50"},
+            {"type": "course", "courseId": "KOREA M60"},
+            {"type": "course", "courseId": "KOREA 70"},
+            {"type": "course", "courseId": "KOREA 80"}
           ]
         }
       ]
@@ -76,114 +49,33 @@
           "description": "Select five language courses from the following. Courses 101A, 101B, and 101C, or course 101I may be selected.",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "KOREA 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 100B"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 100C"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 101A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 101B"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 101C"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 102A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 102B"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 102C"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 103A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 103B"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 103C"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 104"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA C105A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA C105B"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA C105C"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 106A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 106B"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 106C"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 107A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 107B"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 107C"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA CM120"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 124"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 165"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 176"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 178"
-            }
+            {"type": "course", "courseId": "KOREA 100A"},
+            {"type": "course", "courseId": "KOREA 100B"},
+            {"type": "course", "courseId": "KOREA 100C"},
+            {"type": "course", "courseId": "KOREA 101A"},
+            {"type": "course", "courseId": "KOREA 101B"},
+            {"type": "course", "courseId": "KOREA 101C"},
+            {"type": "course", "courseId": "KOREA 102A"},
+            {"type": "course", "courseId": "KOREA 102B"},
+            {"type": "course", "courseId": "KOREA 102C"},
+            {"type": "course", "courseId": "KOREA 103A"},
+            {"type": "course", "courseId": "KOREA 103B"},
+            {"type": "course", "courseId": "KOREA 103C"},
+            {"type": "course", "courseId": "KOREA 104"},
+            {"type": "course", "courseId": "KOREA C105A"},
+            {"type": "course", "courseId": "KOREA C105B"},
+            {"type": "course", "courseId": "KOREA C105C"},
+            {"type": "course", "courseId": "KOREA 106A"},
+            {"type": "course", "courseId": "KOREA 106B"},
+            {"type": "course", "courseId": "KOREA 106C"},
+            {"type": "course", "courseId": "KOREA 107A"},
+            {"type": "course", "courseId": "KOREA 107B"},
+            {"type": "course", "courseId": "KOREA 107C"},
+            {"type": "course", "courseId": "KOREA CM120"},
+            {"type": "course", "courseId": "KOREA 124"},
+            {"type": "course", "courseId": "KOREA 165"},
+            {"type": "course", "courseId": "KOREA 176"},
+            {"type": "course", "courseId": "KOREA 178"}
           ]
         },
         {
@@ -192,22 +84,10 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "KOREA 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 130B"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA C150"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA C151"
-            }
+            {"type": "course", "courseId": "KOREA 130A"},
+            {"type": "course", "courseId": "KOREA 130B"},
+            {"type": "course", "courseId": "KOREA C150"},
+            {"type": "course", "courseId": "KOREA C151"}
           ]
         },
         {
@@ -216,94 +96,28 @@
           "description": "Select three elective courses on Korea from the following list or from the Korean language or literature course lists if not used to fulfill another requirement:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "KOREA CM127"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA C149"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 154"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 155"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA CM160"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 165"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 172"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 175"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA C177"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 180A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 180B"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 180C"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 181"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 182"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 183"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 184A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 184B"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 185"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA M186"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 187"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 191A"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 191B"
-            }
+            {"type": "course", "courseId": "KOREA CM127"},
+            {"type": "course", "courseId": "KOREA C149"},
+            {"type": "course", "courseId": "KOREA 154"},
+            {"type": "course", "courseId": "KOREA 155"},
+            {"type": "course", "courseId": "KOREA CM160"},
+            {"type": "course", "courseId": "KOREA 165"},
+            {"type": "course", "courseId": "KOREA 172"},
+            {"type": "course", "courseId": "KOREA 175"},
+            {"type": "course", "courseId": "KOREA C177"},
+            {"type": "course", "courseId": "KOREA 180A"},
+            {"type": "course", "courseId": "KOREA 180B"},
+            {"type": "course", "courseId": "KOREA 180C"},
+            {"type": "course", "courseId": "KOREA 181"},
+            {"type": "course", "courseId": "KOREA 182"},
+            {"type": "course", "courseId": "KOREA 183"},
+            {"type": "course", "courseId": "KOREA 184A"},
+            {"type": "course", "courseId": "KOREA 184B"},
+            {"type": "course", "courseId": "KOREA 185"},
+            {"type": "course", "courseId": "KOREA M186"},
+            {"type": "course", "courseId": "KOREA 187"},
+            {"type": "course", "courseId": "KOREA 191A"},
+            {"type": "course", "courseId": "KOREA 191B"}
           ]
         },
         {
@@ -332,18 +146,9 @@
               "description": "Complete the three-term honors research sequence.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198C"
-                }
+                {"type": "course", "courseId": "ASIAN 198A"},
+                {"type": "course", "courseId": "ASIAN 198B"},
+                {"type": "course", "courseId": "ASIAN 198C"}
               ]
             }
           ]

@@ -11,84 +11,30 @@
       "title": "Preparation for the Major",
       "description": "Complete 18 courses as follows, plus one course each in Communication and Mathematics.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "BIOSTAT 100"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 14A"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 14B"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 14C"
-        },
-        {
-          "type": "course",
-          "courseId": "LIFESCI 7A"
-        },
-        {
-          "type": "course",
-          "courseId": "LIFESCI 7C"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 3"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 10"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 13"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 20"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 50"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 51"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 54A"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 54B"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 173W"
-        },
-        {
-          "type": "course",
-          "courseId": "PSYCH 10"
-        },
+        {"type": "course", "courseId": "BIOSTAT 100"},
+        {"type": "course", "courseId": "CHEM 14A"},
+        {"type": "course", "courseId": "CHEM 14B"},
+        {"type": "course", "courseId": "CHEM 14C"},
+        {"type": "course", "courseId": "LIFESCI 7A"},
+        {"type": "course", "courseId": "LIFESCI 7C"},
+        {"type": "course", "courseId": "NURSING 3"},
+        {"type": "course", "courseId": "NURSING 10"},
+        {"type": "course", "courseId": "NURSING 13"},
+        {"type": "course", "courseId": "NURSING 20"},
+        {"type": "course", "courseId": "NURSING 50"},
+        {"type": "course", "courseId": "NURSING 51"},
+        {"type": "course", "courseId": "NURSING 54A"},
+        {"type": "course", "courseId": "NURSING 54B"},
+        {"type": "course", "courseId": "NURSING 173W"},
+        {"type": "course", "courseId": "PSYCH 10"},
         {
           "type": "group",
           "title": "Communication",
           "description": "Select one course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COMM 1"
-            },
-            {
-              "type": "course",
-              "courseId": "COMM 10"
-            }
+            {"type": "course", "courseId": "COMM 1"},
+            {"type": "course", "courseId": "COMM 10"}
           ]
         },
         {
@@ -97,14 +43,8 @@
           "description": "Select one course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MATH 3A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 31A"
-            }
+            {"type": "course", "courseId": "MATH 3A"},
+            {"type": "course", "courseId": "MATH 31A"}
           ]
         }
       ]
@@ -114,80 +54,29 @@
       "title": "The Major",
       "description": "Complete the following 16 courses and one capstone senior scholarly project.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "NURSING 115"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 150A"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 150B"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 152A"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 152B"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 160"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 161"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 162A"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 162B"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 162C"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 163"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 164"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 165"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 168"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 171"
-        },
-        {
-          "type": "course",
-          "courseId": "NURSING 174"
-        },
+        {"type": "course", "courseId": "NURSING 115"},
+        {"type": "course", "courseId": "NURSING 150A"},
+        {"type": "course", "courseId": "NURSING 150B"},
+        {"type": "course", "courseId": "NURSING 152A"},
+        {"type": "course", "courseId": "NURSING 152B"},
+        {"type": "course", "courseId": "NURSING 160"},
+        {"type": "course", "courseId": "NURSING 161"},
+        {"type": "course", "courseId": "NURSING 162A"},
+        {"type": "course", "courseId": "NURSING 162B"},
+        {"type": "course", "courseId": "NURSING 162C"},
+        {"type": "course", "courseId": "NURSING 163"},
+        {"type": "course", "courseId": "NURSING 164"},
+        {"type": "course", "courseId": "NURSING 165"},
+        {"type": "course", "courseId": "NURSING 168"},
+        {"type": "course", "courseId": "NURSING 171"},
+        {"type": "course", "courseId": "NURSING 174"},
         {
           "type": "group",
           "title": "Capstone Senior Scholarly Project",
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "NURSING 169"
-            }
+            {"type": "course", "courseId": "NURSING 169"}
           ]
         }
       ]

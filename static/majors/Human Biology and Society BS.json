@@ -17,18 +17,9 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SOC GEN 5"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M71A"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M72A"
-            }
+            {"type": "course", "courseId": "SOC GEN 5"},
+            {"type": "course", "courseId": "SOC GEN M71A"},
+            {"type": "course", "courseId": "SOC GEN M72A"}
           ]
         },
         {
@@ -37,10 +28,7 @@
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 1"
-            }
+            {"type": "course", "courseId": "ANTHRO 1"}
           ]
         },
         {
@@ -55,26 +43,11 @@
               "description": "Note: Chemistry 14AE and 14BE may be substituted for Chemistry 14A and 14B respectively.",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14BL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14D"
-                }
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"},
+                {"type": "course", "courseId": "CHEM 14D"}
               ]
             },
             {
@@ -83,30 +56,12 @@
               "description": "Refer to the following courses.",
               "needs": 6,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20L"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30AL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30B"
-                }
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"},
+                {"type": "course", "courseId": "CHEM 30B"}
               ]
             }
           ]
@@ -117,22 +72,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7A"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7B"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7C"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7L"
-            }
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
           ]
         },
         {
@@ -147,28 +90,16 @@
               "description": "Complete both Mathematics for Life Scientists courses and one Statistics course.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30B"
-                },
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"},
                 {
                   "type": "group",
                   "title": "Statistics",
                   "description": "Select one from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 40"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 13"
-                    }
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
                   ]
                 }
               ]
@@ -179,32 +110,17 @@
               "description": "Complete three Calculus/Differential Equations courses and one Statistics course.",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 3A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3C"
-                },
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"},
                 {
                   "type": "group",
                   "title": "Statistics",
                   "description": "Select one from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "STATS 10"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 13"
-                    }
+                    {"type": "course", "courseId": "STATS 10"},
+                    {"type": "course", "courseId": "STATS 13"}
                   ]
                 }
               ]
@@ -215,32 +131,17 @@
               "description": "Complete three Calculus courses and one Statistics course.",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 31A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 31B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 32A"
-                },
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "MATH 32A"},
                 {
                   "type": "group",
                   "title": "Statistics",
                   "description": "Select one from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "STATS 10"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 13"
-                    }
+                    {"type": "course", "courseId": "STATS 10"},
+                    {"type": "course", "courseId": "STATS 13"}
                   ]
                 }
               ]
@@ -259,26 +160,11 @@
               "description": "Refer to the following courses.",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 4AL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 4BL"
-                }
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
               ]
             },
             {
@@ -287,18 +173,9 @@
               "description": "Refer to the following courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5C"
-                }
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
               ]
             }
           ]
@@ -309,160 +186,97 @@
           "description": "Select two courses (minimum 8 units) from the following list or cluster range. Note the following restrictions: Only one course from Asian American Studies 20 or 20W may be applied. Only one course from Philosophy 22 or 22W may be applied.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "AF AMER M5"
-            },
-            {
-              "type": "course",
-              "courseId": "AM IND M10"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 3"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 20"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 20W"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 10A"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 10B"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER 10"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 3"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 3C"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 50"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 60"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 4"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 6"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 8"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 22"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 22W"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 10"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 125"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 1"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M5"
-            },
+            {"type": "course", "courseId": "AF AMER M5"},
+            {"type": "course", "courseId": "AM IND M10"},
+            {"type": "course", "courseId": "ANTHRO 3"},
+            {"type": "course", "courseId": "ASIA AM 20"},
+            {"type": "course", "courseId": "ASIA AM 20W"},
+            {"type": "course", "courseId": "CCAS 10A"},
+            {"type": "course", "courseId": "CCAS 10B"},
+            {"type": "course", "courseId": "GENDER 10"},
+            {"type": "course", "courseId": "GEOG 3"},
+            {"type": "course", "courseId": "HIST 3C"},
+            {"type": "course", "courseId": "MCD BIO 50"},
+            {"type": "course", "courseId": "MCD BIO 60"},
+            {"type": "course", "courseId": "PHILOS 4"},
+            {"type": "course", "courseId": "PHILOS 6"},
+            {"type": "course", "courseId": "PHILOS 8"},
+            {"type": "course", "courseId": "PHILOS 22"},
+            {"type": "course", "courseId": "PHILOS 22W"},
+            {"type": "course", "courseId": "PUB AFF 10"},
+            {"type": "course", "courseId": "SOC GEN 125"},
+            {"type": "course", "courseId": "SOCIOL 1"},
+            {"type": "course", "courseId": "SOCIOL M5"},
             {
               "type": "group",
               "title": "Cluster Courses",
               "description": "Select a course from Clusters M1A through 80CW.",
               "needs": 1,
               "options": [
-                { "type": "course", "courseId": "CLUSTER M1A" },
-                { "type": "course", "courseId": "CLUSTER M1B" },
-                { "type": "course", "courseId": "CLUSTER M1CW" },
-                { "type": "course", "courseId": "CLUSTER 2A" },
-                { "type": "course", "courseId": "CLUSTER 2B" },
-                { "type": "course", "courseId": "CLUSTER 2CW" },
-                { "type": "course", "courseId": "CLUSTER 10A" },
-                { "type": "course", "courseId": "CLUSTER 10B" },
-                { "type": "course", "courseId": "CLUSTER 10CW" },
-                { "type": "course", "courseId": "CLUSTER 10WX" },
-                { "type": "course", "courseId": "CLUSTER 20A" },
-                { "type": "course", "courseId": "CLUSTER 20B" },
-                { "type": "course", "courseId": "CLUSTER 20CW" },
-                { "type": "course", "courseId": "CLUSTER 21A" },
-                { "type": "course", "courseId": "CLUSTER 21B" },
-                { "type": "course", "courseId": "CLUSTER 21CW" },
-                { "type": "course", "courseId": "CLUSTER 22A" },
-                { "type": "course", "courseId": "CLUSTER 22B" },
-                { "type": "course", "courseId": "CLUSTER 22CW" },
-                { "type": "course", "courseId": "CLUSTER 23A" },
-                { "type": "course", "courseId": "CLUSTER 23B" },
-                { "type": "course", "courseId": "CLUSTER 23CW" },
-                { "type": "course", "courseId": "CLUSTER M24A" },
-                { "type": "course", "courseId": "CLUSTER M24B" },
-                { "type": "course", "courseId": "CLUSTER M24CW" },
-                { "type": "course", "courseId": "CLUSTER 25A" },
-                { "type": "course", "courseId": "CLUSTER 25B" },
-                { "type": "course", "courseId": "CLUSTER 25CW" },
-                { "type": "course", "courseId": "CLUSTER 26A" },
-                { "type": "course", "courseId": "CLUSTER 26B" },
-                { "type": "course", "courseId": "CLUSTER 26CW" },
-                { "type": "course", "courseId": "CLUSTER M27A" },
-                { "type": "course", "courseId": "CLUSTER M27B" },
-                { "type": "course", "courseId": "CLUSTER M27CW" },
-                { "type": "course", "courseId": "CLUSTER 30A" },
-                { "type": "course", "courseId": "CLUSTER 30B" },
-                { "type": "course", "courseId": "CLUSTER 30CW" },
-                { "type": "course", "courseId": "CLUSTER 40A" },
-                { "type": "course", "courseId": "CLUSTER 40B" },
-                { "type": "course", "courseId": "CLUSTER 40CW" },
-                { "type": "course", "courseId": "CLUSTER 48A" },
-                { "type": "course", "courseId": "CLUSTER 48B" },
-                { "type": "course", "courseId": "CLUSTER 48CW" },
-                { "type": "course", "courseId": "CLUSTER 60A" },
-                { "type": "course", "courseId": "CLUSTER 60B" },
-                { "type": "course", "courseId": "CLUSTER 60CW" },
-                { "type": "course", "courseId": "CLUSTER 66A" },
-                { "type": "course", "courseId": "CLUSTER 66B" },
-                { "type": "course", "courseId": "CLUSTER 66CW" },
-                { "type": "course", "courseId": "CLUSTER 70A" },
-                { "type": "course", "courseId": "CLUSTER 70B" },
-                { "type": "course", "courseId": "CLUSTER 70CW" },
-                { "type": "course", "courseId": "CLUSTER M71A" },
-                { "type": "course", "courseId": "CLUSTER M71B" },
-                { "type": "course", "courseId": "CLUSTER M71CW" },
-                { "type": "course", "courseId": "CLUSTER M72A" },
-                { "type": "course", "courseId": "CLUSTER M72B" },
-                { "type": "course", "courseId": "CLUSTER M72CW" },
-                { "type": "course", "courseId": "CLUSTER 73A" },
-                { "type": "course", "courseId": "CLUSTER 73B" },
-                { "type": "course", "courseId": "CLUSTER 73CW" },
-                { "type": "course", "courseId": "CLUSTER 80A" },
-                { "type": "course", "courseId": "CLUSTER 80BX" },
-                { "type": "course", "courseId": "CLUSTER 80CW" }
+                {"type": "course", "courseId": "CLUSTER M1A"},
+                {"type": "course", "courseId": "CLUSTER M1B"},
+                {"type": "course", "courseId": "CLUSTER M1CW"},
+                {"type": "course", "courseId": "CLUSTER 2A"},
+                {"type": "course", "courseId": "CLUSTER 2B"},
+                {"type": "course", "courseId": "CLUSTER 2CW"},
+                {"type": "course", "courseId": "CLUSTER 10A"},
+                {"type": "course", "courseId": "CLUSTER 10B"},
+                {"type": "course", "courseId": "CLUSTER 10CW"},
+                {"type": "course", "courseId": "CLUSTER 10WX"},
+                {"type": "course", "courseId": "CLUSTER 20A"},
+                {"type": "course", "courseId": "CLUSTER 20B"},
+                {"type": "course", "courseId": "CLUSTER 20CW"},
+                {"type": "course", "courseId": "CLUSTER 21A"},
+                {"type": "course", "courseId": "CLUSTER 21B"},
+                {"type": "course", "courseId": "CLUSTER 21CW"},
+                {"type": "course", "courseId": "CLUSTER 22A"},
+                {"type": "course", "courseId": "CLUSTER 22B"},
+                {"type": "course", "courseId": "CLUSTER 22CW"},
+                {"type": "course", "courseId": "CLUSTER 23A"},
+                {"type": "course", "courseId": "CLUSTER 23B"},
+                {"type": "course", "courseId": "CLUSTER 23CW"},
+                {"type": "course", "courseId": "CLUSTER M24A"},
+                {"type": "course", "courseId": "CLUSTER M24B"},
+                {"type": "course", "courseId": "CLUSTER M24CW"},
+                {"type": "course", "courseId": "CLUSTER 25A"},
+                {"type": "course", "courseId": "CLUSTER 25B"},
+                {"type": "course", "courseId": "CLUSTER 25CW"},
+                {"type": "course", "courseId": "CLUSTER 26A"},
+                {"type": "course", "courseId": "CLUSTER 26B"},
+                {"type": "course", "courseId": "CLUSTER 26CW"},
+                {"type": "course", "courseId": "CLUSTER M27A"},
+                {"type": "course", "courseId": "CLUSTER M27B"},
+                {"type": "course", "courseId": "CLUSTER M27CW"},
+                {"type": "course", "courseId": "CLUSTER 30A"},
+                {"type": "course", "courseId": "CLUSTER 30B"},
+                {"type": "course", "courseId": "CLUSTER 30CW"},
+                {"type": "course", "courseId": "CLUSTER 40A"},
+                {"type": "course", "courseId": "CLUSTER 40B"},
+                {"type": "course", "courseId": "CLUSTER 40CW"},
+                {"type": "course", "courseId": "CLUSTER 48A"},
+                {"type": "course", "courseId": "CLUSTER 48B"},
+                {"type": "course", "courseId": "CLUSTER 48CW"},
+                {"type": "course", "courseId": "CLUSTER 60A"},
+                {"type": "course", "courseId": "CLUSTER 60B"},
+                {"type": "course", "courseId": "CLUSTER 60CW"},
+                {"type": "course", "courseId": "CLUSTER 66A"},
+                {"type": "course", "courseId": "CLUSTER 66B"},
+                {"type": "course", "courseId": "CLUSTER 66CW"},
+                {"type": "course", "courseId": "CLUSTER 70A"},
+                {"type": "course", "courseId": "CLUSTER 70B"},
+                {"type": "course", "courseId": "CLUSTER 70CW"},
+                {"type": "course", "courseId": "CLUSTER M71A"},
+                {"type": "course", "courseId": "CLUSTER M71B"},
+                {"type": "course", "courseId": "CLUSTER M71CW"},
+                {"type": "course", "courseId": "CLUSTER M72A"},
+                {"type": "course", "courseId": "CLUSTER M72B"},
+                {"type": "course", "courseId": "CLUSTER M72CW"},
+                {"type": "course", "courseId": "CLUSTER 73A"},
+                {"type": "course", "courseId": "CLUSTER 73B"},
+                {"type": "course", "courseId": "CLUSTER 73CW"},
+                {"type": "course", "courseId": "CLUSTER 80A"},
+                {"type": "course", "courseId": "CLUSTER 80BX"},
+                {"type": "course", "courseId": "CLUSTER 80CW"}
               ]
             }
           ]
@@ -480,22 +294,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LIFESCI 107"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 102"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 105A"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 105B"
-            }
+            {"type": "course", "courseId": "LIFESCI 107"},
+            {"type": "course", "courseId": "SOC GEN 102"},
+            {"type": "course", "courseId": "SOC GEN 105A"},
+            {"type": "course", "courseId": "SOC GEN 105B"}
           ]
         },
         {
@@ -504,18 +306,9 @@
           "description": "Complete 4 units from the following courses:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SOC GEN 195CE"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 196"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 199"
-            }
+            {"type": "course", "courseId": "SOC GEN 195CE"},
+            {"type": "course", "courseId": "SOC GEN 196"},
+            {"type": "course", "courseId": "SOC GEN 199"}
           ]
         },
         {
@@ -524,838 +317,214 @@
           "description": "Select six courses (minimum 24 units), with at least two courses (8 units) from Society and Genetics (SOC GEN).",
           "needs": 6,
           "options": [
-            {
-              "type": "course",
-              "courseId": "AN N EA 162"
-            },
-            {
-              "type": "course",
-              "courseId": "AN N EA CM163"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 100"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 110"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 111"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 124P"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 124Q"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 124S"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 126Q"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 128P"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M128Q"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M128S"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M128T"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 131"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 143"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M145P"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 145S"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M148"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M150"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M166Q"
-            },
-            {
-              "type": "course",
-              "courseId": "ARABIC M171"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 113"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM M117"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS CM106"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M124"
-            },
-            {
-              "type": "course",
-              "courseId": "COMM 101"
-            },
-            {
-              "type": "course",
-              "courseId": "COMM 126"
-            },
-            {
-              "type": "course",
-              "courseId": "COMM M127"
-            },
-            {
-              "type": "course",
-              "courseId": "COMM 148"
-            },
-            {
-              "type": "course",
-              "courseId": "COM SCI C121"
-            },
-            {
-              "type": "course",
-              "courseId": "COM SCI C124"
-            },
-            {
-              "type": "course",
-              "courseId": "DIS STD 101W"
-            },
-            {
-              "type": "course",
-              "courseId": "DIS STD M121"
-            },
-            {
-              "type": "course",
-              "courseId": "DIS STD M148"
-            },
-            {
-              "type": "course",
-              "courseId": "DIS STD M166"
-            },
-            {
-              "type": "course",
-              "courseId": "DIS STD M183"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL 100"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL 116"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL 120"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL 121"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL C126"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL 129"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL 130"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL C135"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL M157"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL 175"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL 176"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL M118F"
-            },
-            {
-              "type": "course",
-              "courseId": "ENVIRON M125"
-            },
-            {
-              "type": "course",
-              "courseId": "ENVIRON M133"
-            },
-            {
-              "type": "course",
-              "courseId": "ENV HLT 100"
-            },
-            {
-              "type": "course",
-              "courseId": "ENV HLT C185A"
-            },
-            {
-              "type": "course",
-              "courseId": "ENV HLT C185B"
-            },
-            {
-              "type": "course",
-              "courseId": "EPIDEM 100"
-            },
-            {
-              "type": "course",
-              "courseId": "FOOD ST M132"
-            },
-            {
-              "type": "course",
-              "courseId": "FOOD ST M136"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M110C"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M114"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M121"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER 125"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER 134"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M154P"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M162"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M164"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M165"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M167"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER 171A"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M180B"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG M125"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG M131"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG M142"
-            },
-            {
-              "type": "course",
-              "courseId": "GLBL ST 102"
-            },
-            {
-              "type": "course",
-              "courseId": "GLBL ST 104"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M108C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 164D"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 179A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 179B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 180A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M180B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 180C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 191B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 191C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST C191D"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 191E"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST C191F"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 191G"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 191I"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST C191J"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST C191K"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST C191L"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 191M"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST C191N"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST C191O"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS M143"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS M152"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS 177"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS M183"
-            },
-            {
-              "type": "course",
-              "courseId": "HUM GEN CM113"
-            },
-            {
-              "type": "course",
-              "courseId": "HUM GEN C144"
-            },
-            {
-              "type": "course",
-              "courseId": "LGBTQS M114"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 110"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 114"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 127"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 130"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 132"
-            },
-            {
-              "type": "course",
-              "courseId": "LING C135"
-            },
-            {
-              "type": "course",
-              "courseId": "LING M146"
-            },
-            {
-              "type": "course",
-              "courseId": "LING M150"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 170"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 138"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 144"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO CM156"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 165A"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 168"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 172"
-            },
-            {
-              "type": "course",
-              "courseId": "MED HIS M169"
-            },
-            {
-              "type": "course",
-              "courseId": "MIMG 101"
-            },
-            {
-              "type": "course",
-              "courseId": "MIMG 103AL"
-            },
-            {
-              "type": "course",
-              "courseId": "MIMG C122"
-            },
-            {
-              "type": "course",
-              "courseId": "MIMG CM156"
-            },
-            {
-              "type": "course",
-              "courseId": "MIMG 158"
-            },
-            {
-              "type": "course",
-              "courseId": "MIMG 168"
-            },
-            {
-              "type": "course",
-              "courseId": "MIMG 185A"
-            },
-            {
-              "type": "course",
-              "courseId": "NEURBIO M169"
-            },
-            {
-              "type": "course",
-              "courseId": "NEUROSC 180"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS M124"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 125"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 129"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 130"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 137"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 150"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 153A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 154"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS C154B"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 155A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 155B"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS C156"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 157A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 157B"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 170"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS M187"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSCI 111A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSCI 111B"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSCI 140"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSCI 147"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSCI 149"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSCI 177"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH M107"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 110"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 112A"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 112B"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 115"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH M117A"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH M117B"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH M117C"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 127A"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 129C"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH M140"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH M165"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB HLT M106"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB HLT C150"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC WLF M140"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC WLF 162"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 108"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M113"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 120"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 121"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 130"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M132"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M133"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 134"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M136"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 141"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M142"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M143"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 146"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M157"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 160"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 161"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 162"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 163"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 164"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 165"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M166"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 174"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 175"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 180"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M183"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 188"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 195CE"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 197"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 199"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M115"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 130"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 132"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 134"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M136"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 138"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 143"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M144"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 145"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M148"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 154"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 156"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M162"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M164"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 170"
-            },
-            {
-              "type": "course",
-              "courseId": "URBN PL M165"
-            }
+            {"type": "course", "courseId": "AN N EA 162"},
+            {"type": "course", "courseId": "AN N EA CM163"},
+            {"type": "course", "courseId": "ANTHRO 100"},
+            {"type": "course", "courseId": "ANTHRO 110"},
+            {"type": "course", "courseId": "ANTHRO 111"},
+            {"type": "course", "courseId": "ANTHRO 124P"},
+            {"type": "course", "courseId": "ANTHRO 124Q"},
+            {"type": "course", "courseId": "ANTHRO 124S"},
+            {"type": "course", "courseId": "ANTHRO 126Q"},
+            {"type": "course", "courseId": "ANTHRO 128P"},
+            {"type": "course", "courseId": "ANTHRO M128Q"},
+            {"type": "course", "courseId": "ANTHRO M128S"},
+            {"type": "course", "courseId": "ANTHRO M128T"},
+            {"type": "course", "courseId": "ANTHRO 131"},
+            {"type": "course", "courseId": "ANTHRO 143"},
+            {"type": "course", "courseId": "ANTHRO M145P"},
+            {"type": "course", "courseId": "ANTHRO 145S"},
+            {"type": "course", "courseId": "ANTHRO M148"},
+            {"type": "course", "courseId": "ANTHRO M150"},
+            {"type": "course", "courseId": "ANTHRO M166Q"},
+            {"type": "course", "courseId": "ARABIC M171"},
+            {"type": "course", "courseId": "ASIA AM 113"},
+            {"type": "course", "courseId": "ASIA AM M117"},
+            {"type": "course", "courseId": "CCAS CM106"},
+            {"type": "course", "courseId": "CCAS M124"},
+            {"type": "course", "courseId": "COMM 101"},
+            {"type": "course", "courseId": "COMM 126"},
+            {"type": "course", "courseId": "COMM M127"},
+            {"type": "course", "courseId": "COMM 148"},
+            {"type": "course", "courseId": "COM SCI C121"},
+            {"type": "course", "courseId": "COM SCI C124"},
+            {"type": "course", "courseId": "DIS STD 101W"},
+            {"type": "course", "courseId": "DIS STD M121"},
+            {"type": "course", "courseId": "DIS STD M148"},
+            {"type": "course", "courseId": "DIS STD M166"},
+            {"type": "course", "courseId": "DIS STD M183"},
+            {"type": "course", "courseId": "EE BIOL 100"},
+            {"type": "course", "courseId": "EE BIOL 116"},
+            {"type": "course", "courseId": "EE BIOL 120"},
+            {"type": "course", "courseId": "EE BIOL 121"},
+            {"type": "course", "courseId": "EE BIOL C126"},
+            {"type": "course", "courseId": "EE BIOL 129"},
+            {"type": "course", "courseId": "EE BIOL 130"},
+            {"type": "course", "courseId": "EE BIOL C135"},
+            {"type": "course", "courseId": "EE BIOL M157"},
+            {"type": "course", "courseId": "EE BIOL 175"},
+            {"type": "course", "courseId": "EE BIOL 176"},
+            {"type": "course", "courseId": "ENGL M118F"},
+            {"type": "course", "courseId": "ENVIRON M125"},
+            {"type": "course", "courseId": "ENVIRON M133"},
+            {"type": "course", "courseId": "ENV HLT 100"},
+            {"type": "course", "courseId": "ENV HLT C185A"},
+            {"type": "course", "courseId": "ENV HLT C185B"},
+            {"type": "course", "courseId": "EPIDEM 100"},
+            {"type": "course", "courseId": "FOOD ST M132"},
+            {"type": "course", "courseId": "FOOD ST M136"},
+            {"type": "course", "courseId": "GENDER M110C"},
+            {"type": "course", "courseId": "GENDER M114"},
+            {"type": "course", "courseId": "GENDER M121"},
+            {"type": "course", "courseId": "GENDER 125"},
+            {"type": "course", "courseId": "GENDER 134"},
+            {"type": "course", "courseId": "GENDER M154P"},
+            {"type": "course", "courseId": "GENDER M162"},
+            {"type": "course", "courseId": "GENDER M164"},
+            {"type": "course", "courseId": "GENDER M165"},
+            {"type": "course", "courseId": "GENDER M167"},
+            {"type": "course", "courseId": "GENDER 171A"},
+            {"type": "course", "courseId": "GENDER M180B"},
+            {"type": "course", "courseId": "GEOG M125"},
+            {"type": "course", "courseId": "GEOG M131"},
+            {"type": "course", "courseId": "GEOG M142"},
+            {"type": "course", "courseId": "GLBL ST 102"},
+            {"type": "course", "courseId": "GLBL ST 104"},
+            {"type": "course", "courseId": "HIST M108C"},
+            {"type": "course", "courseId": "HIST 164D"},
+            {"type": "course", "courseId": "HIST 179A"},
+            {"type": "course", "courseId": "HIST 179B"},
+            {"type": "course", "courseId": "HIST 180A"},
+            {"type": "course", "courseId": "HIST M180B"},
+            {"type": "course", "courseId": "HIST 180C"},
+            {"type": "course", "courseId": "HIST 191B"},
+            {"type": "course", "courseId": "HIST 191C"},
+            {"type": "course", "courseId": "HIST C191D"},
+            {"type": "course", "courseId": "HIST 191E"},
+            {"type": "course", "courseId": "HIST C191F"},
+            {"type": "course", "courseId": "HIST 191G"},
+            {"type": "course", "courseId": "HIST 191I"},
+            {"type": "course", "courseId": "HIST C191J"},
+            {"type": "course", "courseId": "HIST C191K"},
+            {"type": "course", "courseId": "HIST C191L"},
+            {"type": "course", "courseId": "HIST 191M"},
+            {"type": "course", "courseId": "HIST C191N"},
+            {"type": "course", "courseId": "HIST C191O"},
+            {"type": "course", "courseId": "HNRS M143"},
+            {"type": "course", "courseId": "HNRS M152"},
+            {"type": "course", "courseId": "HNRS 177"},
+            {"type": "course", "courseId": "HNRS M183"},
+            {"type": "course", "courseId": "HUM GEN CM113"},
+            {"type": "course", "courseId": "HUM GEN C144"},
+            {"type": "course", "courseId": "LGBTQS M114"},
+            {"type": "course", "courseId": "LING 110"},
+            {"type": "course", "courseId": "LING 114"},
+            {"type": "course", "courseId": "LING 127"},
+            {"type": "course", "courseId": "LING 130"},
+            {"type": "course", "courseId": "LING 132"},
+            {"type": "course", "courseId": "LING C135"},
+            {"type": "course", "courseId": "LING M146"},
+            {"type": "course", "courseId": "LING M150"},
+            {"type": "course", "courseId": "LING 170"},
+            {"type": "course", "courseId": "MCD BIO 138"},
+            {"type": "course", "courseId": "MCD BIO 144"},
+            {"type": "course", "courseId": "MCD BIO CM156"},
+            {"type": "course", "courseId": "MCD BIO 165A"},
+            {"type": "course", "courseId": "MCD BIO 168"},
+            {"type": "course", "courseId": "MCD BIO 172"},
+            {"type": "course", "courseId": "MED HIS M169"},
+            {"type": "course", "courseId": "MIMG 101"},
+            {"type": "course", "courseId": "MIMG 103AL"},
+            {"type": "course", "courseId": "MIMG C122"},
+            {"type": "course", "courseId": "MIMG CM156"},
+            {"type": "course", "courseId": "MIMG 158"},
+            {"type": "course", "courseId": "MIMG 168"},
+            {"type": "course", "courseId": "MIMG 185A"},
+            {"type": "course", "courseId": "NEURBIO M169"},
+            {"type": "course", "courseId": "NEUROSC 180"},
+            {"type": "course", "courseId": "PHILOS M124"},
+            {"type": "course", "courseId": "PHILOS 125"},
+            {"type": "course", "courseId": "PHILOS 129"},
+            {"type": "course", "courseId": "PHILOS 130"},
+            {"type": "course", "courseId": "PHILOS 137"},
+            {"type": "course", "courseId": "PHILOS 150"},
+            {"type": "course", "courseId": "PHILOS 153A"},
+            {"type": "course", "courseId": "PHILOS 154"},
+            {"type": "course", "courseId": "PHILOS C154B"},
+            {"type": "course", "courseId": "PHILOS 155A"},
+            {"type": "course", "courseId": "PHILOS 155B"},
+            {"type": "course", "courseId": "PHILOS C156"},
+            {"type": "course", "courseId": "PHILOS 157A"},
+            {"type": "course", "courseId": "PHILOS 157B"},
+            {"type": "course", "courseId": "PHILOS 170"},
+            {"type": "course", "courseId": "PHILOS M187"},
+            {"type": "course", "courseId": "PHYSCI 111A"},
+            {"type": "course", "courseId": "PHYSCI 111B"},
+            {"type": "course", "courseId": "PHYSCI 140"},
+            {"type": "course", "courseId": "PHYSCI 147"},
+            {"type": "course", "courseId": "PHYSCI 149"},
+            {"type": "course", "courseId": "PHYSCI 177"},
+            {"type": "course", "courseId": "PSYCH M107"},
+            {"type": "course", "courseId": "PSYCH 110"},
+            {"type": "course", "courseId": "PSYCH 112A"},
+            {"type": "course", "courseId": "PSYCH 112B"},
+            {"type": "course", "courseId": "PSYCH 115"},
+            {"type": "course", "courseId": "PSYCH M117A"},
+            {"type": "course", "courseId": "PSYCH M117B"},
+            {"type": "course", "courseId": "PSYCH M117C"},
+            {"type": "course", "courseId": "PSYCH 127A"},
+            {"type": "course", "courseId": "PSYCH 129C"},
+            {"type": "course", "courseId": "PSYCH M140"},
+            {"type": "course", "courseId": "PSYCH M165"},
+            {"type": "course", "courseId": "PUB HLT M106"},
+            {"type": "course", "courseId": "PUB HLT C150"},
+            {"type": "course", "courseId": "SOC WLF M140"},
+            {"type": "course", "courseId": "SOC WLF 162"},
+            {"type": "course", "courseId": "SOC GEN 108"},
+            {"type": "course", "courseId": "SOC GEN M113"},
+            {"type": "course", "courseId": "SOC GEN 120"},
+            {"type": "course", "courseId": "SOC GEN 121"},
+            {"type": "course", "courseId": "SOC GEN 130"},
+            {"type": "course", "courseId": "SOC GEN M132"},
+            {"type": "course", "courseId": "SOC GEN M133"},
+            {"type": "course", "courseId": "SOC GEN 134"},
+            {"type": "course", "courseId": "SOC GEN M136"},
+            {"type": "course", "courseId": "SOC GEN 141"},
+            {"type": "course", "courseId": "SOC GEN M142"},
+            {"type": "course", "courseId": "SOC GEN M143"},
+            {"type": "course", "courseId": "SOC GEN 146"},
+            {"type": "course", "courseId": "SOC GEN M157"},
+            {"type": "course", "courseId": "SOC GEN 160"},
+            {"type": "course", "courseId": "SOC GEN 161"},
+            {"type": "course", "courseId": "SOC GEN 162"},
+            {"type": "course", "courseId": "SOC GEN 163"},
+            {"type": "course", "courseId": "SOC GEN 164"},
+            {"type": "course", "courseId": "SOC GEN 165"},
+            {"type": "course", "courseId": "SOC GEN M166"},
+            {"type": "course", "courseId": "SOC GEN 174"},
+            {"type": "course", "courseId": "SOC GEN 175"},
+            {"type": "course", "courseId": "SOC GEN 180"},
+            {"type": "course", "courseId": "SOC GEN M183"},
+            {"type": "course", "courseId": "SOC GEN 188"},
+            {"type": "course", "courseId": "SOC GEN 195CE"},
+            {"type": "course", "courseId": "SOC GEN 197"},
+            {"type": "course", "courseId": "SOC GEN 199"},
+            {"type": "course", "courseId": "SOCIOL M115"},
+            {"type": "course", "courseId": "SOCIOL 130"},
+            {"type": "course", "courseId": "SOCIOL 132"},
+            {"type": "course", "courseId": "SOCIOL 134"},
+            {"type": "course", "courseId": "SOCIOL M136"},
+            {"type": "course", "courseId": "SOCIOL 138"},
+            {"type": "course", "courseId": "SOCIOL 143"},
+            {"type": "course", "courseId": "SOCIOL M144"},
+            {"type": "course", "courseId": "SOCIOL 145"},
+            {"type": "course", "courseId": "SOCIOL M148"},
+            {"type": "course", "courseId": "SOCIOL 154"},
+            {"type": "course", "courseId": "SOCIOL 156"},
+            {"type": "course", "courseId": "SOCIOL M162"},
+            {"type": "course", "courseId": "SOCIOL M164"},
+            {"type": "course", "courseId": "SOCIOL 170"},
+            {"type": "course", "courseId": "URBN PL M165"}
           ]
         },
         {
@@ -1370,18 +539,9 @@
               "description": "Complete three courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MCD BIO 138"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MCD BIO 165A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MCD BIO 168"
-                }
+                {"type": "course", "courseId": "MCD BIO 138"},
+                {"type": "course", "courseId": "MCD BIO 165A"},
+                {"type": "course", "courseId": "MCD BIO 168"}
               ]
             },
             {
@@ -1390,62 +550,20 @@
               "description": "Select three courses from:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 124P"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 124S"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 126Q"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 128P"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 116"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 120"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL C126"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 129"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 130"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL C135"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 175"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 176"
-                }
+                {"type": "course", "courseId": "ANTHRO 124P"},
+                {"type": "course", "courseId": "ANTHRO 124S"},
+                {"type": "course", "courseId": "ANTHRO 126Q"},
+                {"type": "course", "courseId": "ANTHRO 128P"},
+                {"type": "course", "courseId": "EE BIOL 100"},
+                {"type": "course", "courseId": "EE BIOL 116"},
+                {"type": "course", "courseId": "EE BIOL 120"},
+                {"type": "course", "courseId": "EE BIOL 121"},
+                {"type": "course", "courseId": "EE BIOL C126"},
+                {"type": "course", "courseId": "EE BIOL 129"},
+                {"type": "course", "courseId": "EE BIOL 130"},
+                {"type": "course", "courseId": "EE BIOL C135"},
+                {"type": "course", "courseId": "EE BIOL 175"},
+                {"type": "course", "courseId": "EE BIOL 176"}
               ]
             },
             {
@@ -1454,40 +572,19 @@
               "description": "Complete MIMG 101 and MIMG 185A, plus one additional course.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MIMG 101"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MIMG 185A"
-                },
+                {"type": "course", "courseId": "MIMG 101"},
+                {"type": "course", "courseId": "MIMG 185A"},
                 {
                   "type": "group",
                   "title": "Select one additional course:",
                   "description": "Refer to the following courses.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 103AL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 106"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 107"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 158"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 168"
-                    }
+                    {"type": "course", "courseId": "MIMG 103AL"},
+                    {"type": "course", "courseId": "MIMG 106"},
+                    {"type": "course", "courseId": "MIMG 107"},
+                    {"type": "course", "courseId": "MIMG 158"},
+                    {"type": "course", "courseId": "MIMG 168"}
                   ]
                 }
               ]
@@ -1498,40 +595,19 @@
               "description": "Complete MCD BIO 144 and MCD BIO 172, plus one additional course.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MCD BIO 144"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MCD BIO 172"
-                },
+                {"type": "course", "courseId": "MCD BIO 144"},
+                {"type": "course", "courseId": "MCD BIO 172"},
                 {
                   "type": "group",
                   "title": "Select one additional course:",
                   "description": "Refer to the following courses.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C124"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "HUM GEN C144"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG C122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 158"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO CM156"
-                    }
+                    {"type": "course", "courseId": "COM SCI C124"},
+                    {"type": "course", "courseId": "HUM GEN C144"},
+                    {"type": "course", "courseId": "MIMG C122"},
+                    {"type": "course", "courseId": "MIMG 158"},
+                    {"type": "course", "courseId": "MCD BIO CM156"}
                   ]
                 }
               ]
@@ -1542,32 +618,17 @@
               "description": "Complete PHYSCI 111A and PHYSCI 111B, plus one additional course.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSCI 111A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSCI 111B"
-                },
+                {"type": "course", "courseId": "PHYSCI 111A"},
+                {"type": "course", "courseId": "PHYSCI 111B"},
                 {
                   "type": "group",
                   "title": "Select one additional course:",
                   "description": "Refer to the following courses.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 147"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 149"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 177"
-                    }
+                    {"type": "course", "courseId": "PHYSCI 147"},
+                    {"type": "course", "courseId": "PHYSCI 149"},
+                    {"type": "course", "courseId": "PHYSCI 177"}
                   ]
                 }
               ]
@@ -1584,18 +645,9 @@
                   "description": "Refer to the following courses.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C124"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C135"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "SOC GEN 120"
-                    }
+                    {"type": "course", "courseId": "COM SCI C124"},
+                    {"type": "course", "courseId": "EE BIOL C135"},
+                    {"type": "course", "courseId": "SOC GEN 120"}
                   ]
                 },
                 {
@@ -1604,18 +656,9 @@
                   "description": "Refer to the following courses.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 120"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "HUM GEN C144"
-                    }
+                    {"type": "course", "courseId": "EE BIOL 120"},
+                    {"type": "course", "courseId": "EE BIOL 121"},
+                    {"type": "course", "courseId": "HUM GEN C144"}
                   ]
                 }
               ]
@@ -1626,30 +669,12 @@
               "description": "Select three courses from:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PSYCH M107"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 112A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 112B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 127A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 129C"
-                }
+                {"type": "course", "courseId": "PSYCH M107"},
+                {"type": "course", "courseId": "PSYCH 112A"},
+                {"type": "course", "courseId": "PSYCH 112B"},
+                {"type": "course", "courseId": "PSYCH 115"},
+                {"type": "course", "courseId": "PSYCH 127A"},
+                {"type": "course", "courseId": "PSYCH 129C"}
               ]
             }
           ]
@@ -1667,18 +692,9 @@
           "description": "For highest departmental honors, students must complete a research project and receive a grade of A or better in one of the following courses.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SOC GEN 108"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 197"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 199"
-            }
+            {"type": "course", "courseId": "SOC GEN 108"},
+            {"type": "course", "courseId": "SOC GEN 197"},
+            {"type": "course", "courseId": "SOC GEN 199"}
           ]
         }
       ]

@@ -23,18 +23,9 @@
           "description": "Complete the following courses with grades of C– or better:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MUSC M6A"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC M6B"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC M6C"
-            }
+            {"type": "course", "courseId": "MUSC M6A"},
+            {"type": "course", "courseId": "MUSC M6B"},
+            {"type": "course", "courseId": "MUSC M6C"}
           ]
         },
         {
@@ -49,18 +40,9 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MUSC 20A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MUSC 20B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MUSC 20C"
-                }
+                {"type": "course", "courseId": "MUSC 20A"},
+                {"type": "course", "courseId": "MUSC 20B"},
+                {"type": "course", "courseId": "MUSC 20C"}
               ]
             },
             {
@@ -69,18 +51,9 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MUSC 21A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MUSC 21B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MUSC 21C"
-                }
+                {"type": "course", "courseId": "MUSC 21A"},
+                {"type": "course", "courseId": "MUSC 21B"},
+                {"type": "course", "courseId": "MUSC 21C"}
               ]
             }
           ]
@@ -197,18 +170,9 @@
                   "description": "Complete MUSC 74A, 74B, and 74C.",
                   "needs": 3,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MUSC 74A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MUSC 74B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MUSC 74C"
-                    }
+                    {"type": "course", "courseId": "MUSC 74A"},
+                    {"type": "course", "courseId": "MUSC 74B"},
+                    {"type": "course", "courseId": "MUSC 74C"}
                   ]
                 },
                 {
@@ -242,18 +206,9 @@
           "description": "Complete the following series with grades of C or better:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MUSC 120A"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 120B"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 120C"
-            }
+            {"type": "course", "courseId": "MUSC 120A"},
+            {"type": "course", "courseId": "MUSC 120B"},
+            {"type": "course", "courseId": "MUSC 120C"}
           ]
         },
         {
@@ -262,18 +217,9 @@
           "description": "Complete the following series with grades of C or better:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MUSC 102A"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 102B"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 102C"
-            }
+            {"type": "course", "courseId": "MUSC 102A"},
+            {"type": "course", "courseId": "MUSC 102B"},
+            {"type": "course", "courseId": "MUSC 102C"}
           ]
         },
         {
@@ -282,18 +228,9 @@
           "description": "Complete the following courses with grades of C or better:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MUSC 140A"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 140B"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 140C"
-            }
+            {"type": "course", "courseId": "MUSC 140A"},
+            {"type": "course", "courseId": "MUSC 140B"},
+            {"type": "course", "courseId": "MUSC 140C"}
           ]
         },
         {
@@ -471,14 +408,8 @@
                   "description": "Complete MUSC 161B and MUSC 168. In senior year, each student must present a 45–55-minute senior recital.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MUSC 161B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MUSC 168"
-                    }
+                    {"type": "course", "courseId": "MUSC 161B"},
+                    {"type": "course", "courseId": "MUSC 168"}
                   ]
                 }
               ]

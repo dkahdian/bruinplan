@@ -23,26 +23,11 @@
               "description": "Complete all courses in this series.",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14BL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14D"
-                }
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"},
+                {"type": "course", "courseId": "CHEM 14D"}
               ]
             },
             {
@@ -51,30 +36,12 @@
               "description": "Complete all courses in this series.",
               "needs": 6,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20L"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30AL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30B"
-                }
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"},
+                {"type": "course", "courseId": "CHEM 30B"}
               ]
             }
           ]
@@ -85,22 +52,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7A"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7B"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7C"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7L"
-            }
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
           ]
         },
         {
@@ -115,28 +70,16 @@
               "description": "Complete LIFESCI 30A, 30B, and one statistics course.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30B"
-                },
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"},
                 {
                   "type": "group",
                   "title": "Statistics",
                   "description": "Select one of the following:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 40"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 13"
-                    }
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
                   ]
                 }
               ]
@@ -147,18 +90,9 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 3A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3C"
-                }
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"}
               ]
             },
             {
@@ -167,18 +101,9 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 31A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 31B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 32A"
-                }
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "MATH 32A"}
               ]
             }
           ]
@@ -195,26 +120,11 @@
               "description": "Complete all courses in this series.",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 4AL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 4BL"
-                }
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
               ]
             },
             {
@@ -223,18 +133,9 @@
               "description": "Complete all courses in this series.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5C"
-                }
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
               ]
             }
           ]
@@ -252,26 +153,11 @@
           "description": "Complete the following five courses:",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHEM 153A"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 107"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 138"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 144"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 165A"
-            }
+            {"type": "course", "courseId": "CHEM 153A"},
+            {"type": "course", "courseId": "LIFESCI 107"},
+            {"type": "course", "courseId": "MCD BIO 138"},
+            {"type": "course", "courseId": "MCD BIO 144"},
+            {"type": "course", "courseId": "MCD BIO 165A"}
           ]
         },
         {
@@ -280,22 +166,10 @@
           "description": "Select one course from the following list. Students completing the Biomedical Research minor may satisfy the laboratory requirement with MCD BIO 198C.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MCD BIO 104AL"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 150AL"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 187AL"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 196B"
-            }
+            {"type": "course", "courseId": "MCD BIO 104AL"},
+            {"type": "course", "courseId": "MCD BIO 150AL"},
+            {"type": "course", "courseId": "MCD BIO 187AL"},
+            {"type": "course", "courseId": "MCD BIO 196B"}
           ]
         },
         {
@@ -309,47 +183,47 @@
               "title": "Molecular, Cell, and Developmental Biology Upper-Division (5 units)",
               "description": "Select five units (typically one course) from Molecular, Cell, and Developmental Biology (except 100, 104AL, 138, 144, 150AL, 165A, 187AL, 192A, 192B, 193, 194A, 194B, or 199).",
               "needs": 1,
-            "options": [
-              {"type": "course", "courseId": "MCD BIO 104BL"},
-              {"type": "course", "courseId": "MCD BIO 120"},
-              {"type": "course", "courseId": "MCD BIO 125"},
-              {"type": "course", "courseId": "MCD BIO M130"},
-              {"type": "course", "courseId": "MCD BIO M140"},
-              {"type": "course", "courseId": "MCD BIO C141"},
-              {"type": "course", "courseId": "MCD BIO 142"},
-              {"type": "course", "courseId": "MCD BIO 143"},
-              {"type": "course", "courseId": "MCD BIO 145"},
-              {"type": "course", "courseId": "MCD BIO 146"},
-              {"type": "course", "courseId": "MCD BIO C150"},
-              {"type": "course", "courseId": "MCD BIO CM156"},
-              {"type": "course", "courseId": "MCD BIO 160"},
-              {"type": "course", "courseId": "MCD BIO 165B"},
-              {"type": "course", "courseId": "MCD BIO 167"},
-              {"type": "course", "courseId": "MCD BIO 168"},
-              {"type": "course", "courseId": "MCD BIO M170"},
-              {"type": "course", "courseId": "MCD BIO 172"},
-              {"type": "course", "courseId": "MCD BIO C174A"},
-              {"type": "course", "courseId": "MCD BIO C174B"},
-              {"type": "course", "courseId": "MCD BIO C174D"},
-              {"type": "course", "courseId": "MCD BIO M175A"},
-              {"type": "course", "courseId": "MCD BIO M175B"},
-              {"type": "course", "courseId": "MCD BIO M175C"},
-              {"type": "course", "courseId": "MCD BIO 180A"},
-              {"type": "course", "courseId": "MCD BIO 180B"},
-              {"type": "course", "courseId": "MCD BIO 188"},
-              {"type": "course", "courseId": "MCD BIO 188SA"},
-              {"type": "course", "courseId": "MCD BIO 188SB"},
-              {"type": "course", "courseId": "MCD BIO 188SC"},
-              {"type": "course", "courseId": "MCD BIO 189"},
-              {"type": "course", "courseId": "MCD BIO 189HC"},
-              {"type": "course", "courseId": "MCD BIO 191"},
-              {"type": "course", "courseId": "MCD BIO 196A"},
-              {"type": "course", "courseId": "MCD BIO 198D"},
-              {"type": "course", "courseId": "MCD BIO 199A"},
-              {"type": "course", "courseId": "MCD BIO 199B"},
-              {"type": "course", "courseId": "MCD BIO 199C"},
-              {"type": "course", "courseId": "MCD BIO 199D"}
-            ]
+              "options": [
+                {"type": "course", "courseId": "MCD BIO 104BL"},
+                {"type": "course", "courseId": "MCD BIO 120"},
+                {"type": "course", "courseId": "MCD BIO 125"},
+                {"type": "course", "courseId": "MCD BIO M130"},
+                {"type": "course", "courseId": "MCD BIO M140"},
+                {"type": "course", "courseId": "MCD BIO C141"},
+                {"type": "course", "courseId": "MCD BIO 142"},
+                {"type": "course", "courseId": "MCD BIO 143"},
+                {"type": "course", "courseId": "MCD BIO 145"},
+                {"type": "course", "courseId": "MCD BIO 146"},
+                {"type": "course", "courseId": "MCD BIO C150"},
+                {"type": "course", "courseId": "MCD BIO CM156"},
+                {"type": "course", "courseId": "MCD BIO 160"},
+                {"type": "course", "courseId": "MCD BIO 165B"},
+                {"type": "course", "courseId": "MCD BIO 167"},
+                {"type": "course", "courseId": "MCD BIO 168"},
+                {"type": "course", "courseId": "MCD BIO M170"},
+                {"type": "course", "courseId": "MCD BIO 172"},
+                {"type": "course", "courseId": "MCD BIO C174A"},
+                {"type": "course", "courseId": "MCD BIO C174B"},
+                {"type": "course", "courseId": "MCD BIO C174D"},
+                {"type": "course", "courseId": "MCD BIO M175A"},
+                {"type": "course", "courseId": "MCD BIO M175B"},
+                {"type": "course", "courseId": "MCD BIO M175C"},
+                {"type": "course", "courseId": "MCD BIO 180A"},
+                {"type": "course", "courseId": "MCD BIO 180B"},
+                {"type": "course", "courseId": "MCD BIO 188"},
+                {"type": "course", "courseId": "MCD BIO 188SA"},
+                {"type": "course", "courseId": "MCD BIO 188SB"},
+                {"type": "course", "courseId": "MCD BIO 188SC"},
+                {"type": "course", "courseId": "MCD BIO 189"},
+                {"type": "course", "courseId": "MCD BIO 189HC"},
+                {"type": "course", "courseId": "MCD BIO 191"},
+                {"type": "course", "courseId": "MCD BIO 196A"},
+                {"type": "course", "courseId": "MCD BIO 198D"},
+                {"type": "course", "courseId": "MCD BIO 199A"},
+                {"type": "course", "courseId": "MCD BIO 199B"},
+                {"type": "course", "courseId": "MCD BIO 199C"},
+                {"type": "course", "courseId": "MCD BIO 199D"}
+              ]
             },
             {
               "type": "group",
@@ -357,78 +231,24 @@
               "description": "Select five additional units (typically one course) from the preceding list or the following list:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM C100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 153C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 153L"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM C159"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COM SCI C121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COM SCI C124"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COM SCI CM186"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MIMG 100L"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MIMG 101"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MIMG 102"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MIMG 105"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MIMG 158"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MIMG 168"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MIMG 174"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MIMG 185A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSCI 121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSCI 125"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSCI 174"
-                }
+                {"type": "course", "courseId": "CHEM C100"},
+                {"type": "course", "courseId": "CHEM 153C"},
+                {"type": "course", "courseId": "CHEM 153L"},
+                {"type": "course", "courseId": "CHEM C159"},
+                {"type": "course", "courseId": "COM SCI C121"},
+                {"type": "course", "courseId": "COM SCI C124"},
+                {"type": "course", "courseId": "COM SCI CM186"},
+                {"type": "course", "courseId": "MIMG 100L"},
+                {"type": "course", "courseId": "MIMG 101"},
+                {"type": "course", "courseId": "MIMG 102"},
+                {"type": "course", "courseId": "MIMG 105"},
+                {"type": "course", "courseId": "MIMG 158"},
+                {"type": "course", "courseId": "MIMG 168"},
+                {"type": "course", "courseId": "MIMG 174"},
+                {"type": "course", "courseId": "MIMG 185A"},
+                {"type": "course", "courseId": "PHYSCI 121"},
+                {"type": "course", "courseId": "PHYSCI 125"},
+                {"type": "course", "courseId": "PHYSCI 174"}
               ]
             },
             {
@@ -437,34 +257,13 @@
               "description": "Complete 10 additional units (typically two courses) from the preceding two course lists or from the following. Only one course from Biostatistics 100 or Statistics 100A may be applied.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "BIOSTAT 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EE BIOL 162"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HUM GEN C144"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSCI 166"
-                },
-                {
-                  "type": "course",
-                  "courseId": "STATS 100A"
-                }
+                {"type": "course", "courseId": "BIOSTAT 100"},
+                {"type": "course", "courseId": "EE BIOL 110"},
+                {"type": "course", "courseId": "EE BIOL 121"},
+                {"type": "course", "courseId": "EE BIOL 162"},
+                {"type": "course", "courseId": "HUM GEN C144"},
+                {"type": "course", "courseId": "PHYSCI 166"},
+                {"type": "course", "courseId": "STATS 100A"}
               ]
             }
           ]
@@ -494,30 +293,12 @@
                   "description": "Select at least one approved undergraduate seminar course. Note: Biomedical Research 193H and 194H are not accepted as electives for the major.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 145"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 180A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 180B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 191"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BMD RES 193H"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BMD RES 194H"
-                    }
+                    {"type": "course", "courseId": "MCD BIO 145"},
+                    {"type": "course", "courseId": "MCD BIO 180A"},
+                    {"type": "course", "courseId": "MCD BIO 180B"},
+                    {"type": "course", "courseId": "MCD BIO 191"},
+                    {"type": "course", "courseId": "BMD RES 193H"},
+                    {"type": "course", "courseId": "BMD RES 194H"}
                   ]
                 },
                 {
@@ -526,18 +307,9 @@
                   "description": "Complete three research courses:",
                   "needs": 3,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 198A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 198B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 198C"
-                    }
+                    {"type": "course", "courseId": "MCD BIO 198A"},
+                    {"type": "course", "courseId": "MCD BIO 198B"},
+                    {"type": "course", "courseId": "MCD BIO 198C"}
                   ]
                 }
               ]
@@ -569,36 +341,18 @@
                   "description": "Complete the following required courses:",
                   "needs": 5,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "COMPTNG 10A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COMPTNG 10B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COMPTNG 10C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COMPTNG 16A"
-                    },
+                    {"type": "course", "courseId": "COMPTNG 10A"},
+                    {"type": "course", "courseId": "COMPTNG 10B"},
+                    {"type": "course", "courseId": "COMPTNG 10C"},
+                    {"type": "course", "courseId": "COMPTNG 16A"},
                     {
                       "type": "group",
                       "title": "Statistics",
                       "description": "And select one of the following:",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "LIFESCI 40"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "STATS 13"
-                        }
+                        {"type": "course", "courseId": "LIFESCI 40"},
+                        {"type": "course", "courseId": "STATS 13"}
                       ]
                     }
                   ]
@@ -609,30 +363,12 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C124"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI CM186"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 187AL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 125"
-                    }
+                    {"type": "course", "courseId": "CHEM C100"},
+                    {"type": "course", "courseId": "COM SCI C121"},
+                    {"type": "course", "courseId": "COM SCI C124"},
+                    {"type": "course", "courseId": "COM SCI CM186"},
+                    {"type": "course", "courseId": "MCD BIO 187AL"},
+                    {"type": "course", "courseId": "PHYSCI 125"}
                   ]
                 }
               ]

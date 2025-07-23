@@ -11,44 +11,20 @@
       "title": "Preparation for the Major",
       "description": "Complete two courses and one elective as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "AF AMER 1"
-        },
-        {
-          "type": "course",
-          "courseId": "AF AMER 96W"
-        },
+        {"type": "course", "courseId": "AF AMER 1"},
+        {"type": "course", "courseId": "AF AMER 96W"},
         {
           "type": "group",
           "title": "Elective",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "AF AMER 2A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 2B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 2C"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M5"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 6"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M25"
-            }
+            {"type": "course", "courseId": "AF AMER 2A"},
+            {"type": "course", "courseId": "AF AMER 2B"},
+            {"type": "course", "courseId": "AF AMER 2C"},
+            {"type": "course", "courseId": "AF AMER M5"},
+            {"type": "course", "courseId": "AF AMER 6"},
+            {"type": "course", "courseId": "AF AMER M25"}
           ]
         }
       ]
@@ -64,246 +40,66 @@
           "description": "Select eight courses total, four in one area of concentration and two additional courses from each of the remaining two areas.",
           "needs": 8,
           "options": [
-            {
-              "type": "course",
-              "courseId": "AF AMER M102"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M103A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M103B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M103E"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M104A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M104B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M104C"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M104D"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M104E"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M107"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 108"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M109"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 110A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M111"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER CM135A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER CM135B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M150D"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M170A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M170B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M179A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 105C"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 105D"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 106A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 110B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 110C"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER CM110D"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M115"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M142"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M144"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M148"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M154C"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M154D"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M158A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M159P"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M167"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M169"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 175"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 176"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M178"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 188B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 195"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 105A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 105B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 106B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 112A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 112B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER CM113B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M114C"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M116A"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M116B"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M120"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M124"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 140"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M141"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 157"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M158E"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M172"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M173"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 174"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 177"
-            }
+            {"type": "course", "courseId": "AF AMER M102"},
+            {"type": "course", "courseId": "AF AMER M103A"},
+            {"type": "course", "courseId": "AF AMER M103B"},
+            {"type": "course", "courseId": "AF AMER M103E"},
+            {"type": "course", "courseId": "AF AMER M104A"},
+            {"type": "course", "courseId": "AF AMER M104B"},
+            {"type": "course", "courseId": "AF AMER M104C"},
+            {"type": "course", "courseId": "AF AMER M104D"},
+            {"type": "course", "courseId": "AF AMER M104E"},
+            {"type": "course", "courseId": "AF AMER M107"},
+            {"type": "course", "courseId": "AF AMER 108"},
+            {"type": "course", "courseId": "AF AMER M109"},
+            {"type": "course", "courseId": "AF AMER 110A"},
+            {"type": "course", "courseId": "AF AMER M111"},
+            {"type": "course", "courseId": "AF AMER CM135A"},
+            {"type": "course", "courseId": "AF AMER CM135B"},
+            {"type": "course", "courseId": "AF AMER M150D"},
+            {"type": "course", "courseId": "AF AMER M170A"},
+            {"type": "course", "courseId": "AF AMER M170B"},
+            {"type": "course", "courseId": "AF AMER M179A"},
+            {"type": "course", "courseId": "AF AMER 105C"},
+            {"type": "course", "courseId": "AF AMER 105D"},
+            {"type": "course", "courseId": "AF AMER 106A"},
+            {"type": "course", "courseId": "AF AMER 110B"},
+            {"type": "course", "courseId": "AF AMER 110C"},
+            {"type": "course", "courseId": "AF AMER CM110D"},
+            {"type": "course", "courseId": "AF AMER M115"},
+            {"type": "course", "courseId": "AF AMER M142"},
+            {"type": "course", "courseId": "AF AMER M144"},
+            {"type": "course", "courseId": "AF AMER M148"},
+            {"type": "course", "courseId": "AF AMER M154C"},
+            {"type": "course", "courseId": "AF AMER M154D"},
+            {"type": "course", "courseId": "AF AMER M158A"},
+            {"type": "course", "courseId": "AF AMER M159P"},
+            {"type": "course", "courseId": "AF AMER M167"},
+            {"type": "course", "courseId": "AF AMER M169"},
+            {"type": "course", "courseId": "AF AMER 175"},
+            {"type": "course", "courseId": "AF AMER 176"},
+            {"type": "course", "courseId": "AF AMER M178"},
+            {"type": "course", "courseId": "AF AMER 188B"},
+            {"type": "course", "courseId": "AF AMER 195"},
+            {"type": "course", "courseId": "AF AMER 105A"},
+            {"type": "course", "courseId": "AF AMER 105B"},
+            {"type": "course", "courseId": "AF AMER 106B"},
+            {"type": "course", "courseId": "AF AMER 112A"},
+            {"type": "course", "courseId": "AF AMER 112B"},
+            {"type": "course", "courseId": "AF AMER CM113B"},
+            {"type": "course", "courseId": "AF AMER M114C"},
+            {"type": "course", "courseId": "AF AMER M116A"},
+            {"type": "course", "courseId": "AF AMER M116B"},
+            {"type": "course", "courseId": "AF AMER M120"},
+            {"type": "course", "courseId": "AF AMER M124"},
+            {"type": "course", "courseId": "AF AMER 140"},
+            {"type": "course", "courseId": "AF AMER M141"},
+            {"type": "course", "courseId": "AF AMER 157"},
+            {"type": "course", "courseId": "AF AMER M158E"},
+            {"type": "course", "courseId": "AF AMER M172"},
+            {"type": "course", "courseId": "AF AMER M173"},
+            {"type": "course", "courseId": "AF AMER 174"},
+            {"type": "course", "courseId": "AF AMER 177"}
           ]
         },
         {
@@ -312,104 +108,102 @@
           "description": "Select two additional upper-division elective courses in African American studies (minimum 4 units) excluding African American Studies 188SA, 188SB, 188SC, 189, 189HC, and 195.",
           "needs": 2,
           "options": [
-            { "type": "course", "courseId":  "AF AMER M102" },
-            { "type": "course", "courseId":  "AF AMER M103A" },
-            { "type": "course", "courseId":  "AF AMER M103B" },
-            { "type": "course", "courseId":  "AF AMER M103E" },
-            { "type": "course", "courseId":  "AF AMER M103J" },
-            { "type": "course", "courseId":  "AF AMER M104A" },
-            { "type": "course", "courseId":  "AF AMER M104B" },
-            { "type": "course", "courseId":  "AF AMER M104C" },
-            { "type": "course", "courseId":  "AF AMER M104D" },
-            { "type": "course", "courseId":  "AF AMER M104E" },
-            { "type": "course", "courseId":  "AF AMER 105A" },
-            { "type": "course", "courseId":  "AF AMER 105B" },
-            { "type": "course", "courseId":  "AF AMER 105C" },
-            { "type": "course", "courseId":  "AF AMER 105D" },
-            { "type": "course", "courseId":  "AF AMER 106A" },
-            { "type": "course", "courseId":  "AF AMER 106B" },
-            { "type": "course", "courseId":  "AF AMER M107" },
-            { "type": "course", "courseId":  "AF AMER 108" },
-            { "type": "course", "courseId":  "AF AMER M109" },
-            { "type": "course", "courseId":  "AF AMER CM110" },
-            { "type": "course", "courseId":  "AF AMER 110A" },
-            { "type": "course", "courseId":  "AF AMER 110B" },
-            { "type": "course", "courseId":  "AF AMER 110C" },
-            { "type": "course", "courseId":  "AF AMER CM110D" },
-            { "type": "course", "courseId":  "AF AMER M111" },
-            { "type": "course", "courseId":  "AF AMER 112A" },
-            { "type": "course", "courseId":  "AF AMER 112B" },
-            { "type": "course", "courseId":  "AF AMER CM113B" },
-            { "type": "course", "courseId":  "AF AMER M113D" },
-            { "type": "course", "courseId":  "AF AMER CM113XP" },
-            { "type": "course", "courseId":  "AF AMER M114C" },
-            { "type": "course", "courseId":  "AF AMER M115" },
-            { "type": "course", "courseId":  "AF AMER M116A" },
-            { "type": "course", "courseId":  "AF AMER M116B" },
-            { "type": "course", "courseId":  "AF AMER 117" },
-            { "type": "course", "courseId":  "AF AMER M118" },
-            { "type": "course", "courseId":  "AF AMER M120" },
-            { "type": "course", "courseId":  "AF AMER M121" },
-            { "type": "course", "courseId":  "AF AMER M123" },
-            { "type": "course", "courseId":  "AF AMER M124" },
-            { "type": "course", "courseId":  "AF AMER M129B" },
-            { "type": "course", "courseId":  "AF AMER 133" },
-            { "type": "course", "courseId":  "AF AMER CM135A" },
-            { "type": "course", "courseId":  "AF AMER CM135B" },
-            { "type": "course", "courseId":  "AF AMER 140" },
-            { "type": "course", "courseId":  "AF AMER M141" },
-            { "type": "course", "courseId":  "AF AMER M142" },
-            { "type": "course", "courseId":  "AF AMER M144" },
-            { "type": "course", "courseId":  "AF AMER M148" },
-            { "type": "course", "courseId":  "AF AMER M150D" },
-            { "type": "course", "courseId":  "AF AMER M154C" },
-            { "type": "course", "courseId":  "AF AMER M154D" },
-            { "type": "course", "courseId":  "AF AMER M155" },
-            { "type": "course", "courseId":  "AF AMER 157" },
-            { "type": "course", "courseId":  "AF AMER M158A" },
-            { "type": "course", "courseId":  "AF AMER M158B" },
-            { "type": "course", "courseId":  "AF AMER M158C" },
-            { "type": "course", "courseId":  "AF AMER M158E" },
-            { "type": "course", "courseId":  "AF AMER M159P" },
-            { "type": "course", "courseId":  "AF AMER M164" },
-            { "type": "course", "courseId":  "AF AMER M165" },
-            { "type": "course", "courseId":  "AF AMER CM166" },
-            { "type": "course", "courseId":  "AF AMER CM166B" },
-            { "type": "course", "courseId":  "AF AMER M167" },
-            { "type": "course", "courseId":  "AF AMER M169" },
-            { "type": "course", "courseId":  "AF AMER M170A" },
-            { "type": "course", "courseId":  "AF AMER M170B" },
-            { "type": "course", "courseId":  "AF AMER M172" },
-            { "type": "course", "courseId":  "AF AMER M173" },
-            { "type": "course", "courseId":  "AF AMER 174" },
-            { "type": "course", "courseId":  "AF AMER 175" },
-            { "type": "course", "courseId":  "AF AMER 176" },
-            { "type": "course", "courseId":  "AF AMER 177" },
-            { "type": "course", "courseId":  "AF AMER M178" },
-            { "type": "course", "courseId":  "AF AMER M179A" },
-            { "type": "course", "courseId":  "AF AMER 184A" },
-            { "type": "course", "courseId":  "AF AMER 184B" },
-            { "type": "course", "courseId":  "AF AMER 184C" },
-            { "type": "course", "courseId":  "AF AMER 188A" },
-            { "type": "course", "courseId":  "AF AMER 188B" },
-            { "type": "course", "courseId":  "AF AMER 188SA" },
-            { "type": "course", "courseId":  "AF AMER 188SB" },
-            { "type": "course", "courseId":  "AF AMER 188SC" },
-            { "type": "course", "courseId":  "AF AMER 189" },
-            { "type": "course", "courseId":  "AF AMER 189HC" },
-            { "type": "course", "courseId":  "AF AMER C191" },
-            { "type": "course", "courseId":  "AF AMER M194A" },
-            { "type": "course", "courseId":  "AF AMER M194B" },
-            { "type": "course", "courseId":  "AF AMER M194C" },
-            { "type": "course", "courseId":  "AF AMER 195" },
-            { "type": "course", "courseId":  "AF AMER M195CE" },
-            { "type": "course", "courseId":  "AF AMER 196" },
-            { "type": "course", "courseId":  "AF AMER 197" },
-            { "type": "course", "courseId":  "AF AMER 198A" },
-            { "type": "course", "courseId":  "AF AMER 198B" },
-            { "type": "course", "courseId":  "AF AMER 198C" },
-            { "type": "course", "courseId":  "AF AMER 199" }
-
+            {"type": "course", "courseId": "AF AMER M102"},
+            {"type": "course", "courseId": "AF AMER M103A"},
+            {"type": "course", "courseId": "AF AMER M103B"},
+            {"type": "course", "courseId": "AF AMER M103E"},
+            {"type": "course", "courseId": "AF AMER M103J"},
+            {"type": "course", "courseId": "AF AMER M104A"},
+            {"type": "course", "courseId": "AF AMER M104B"},
+            {"type": "course", "courseId": "AF AMER M104C"},
+            {"type": "course", "courseId": "AF AMER M104D"},
+            {"type": "course", "courseId": "AF AMER M104E"},
+            {"type": "course", "courseId": "AF AMER 105A"},
+            {"type": "course", "courseId": "AF AMER 105B"},
+            {"type": "course", "courseId": "AF AMER 105C"},
+            {"type": "course", "courseId": "AF AMER 105D"},
+            {"type": "course", "courseId": "AF AMER 106A"},
+            {"type": "course", "courseId": "AF AMER 106B"},
+            {"type": "course", "courseId": "AF AMER M107"},
+            {"type": "course", "courseId": "AF AMER 108"},
+            {"type": "course", "courseId": "AF AMER M109"},
+            {"type": "course", "courseId": "AF AMER CM110"},
+            {"type": "course", "courseId": "AF AMER 110A"},
+            {"type": "course", "courseId": "AF AMER 110B"},
+            {"type": "course", "courseId": "AF AMER 110C"},
+            {"type": "course", "courseId": "AF AMER CM110D"},
+            {"type": "course", "courseId": "AF AMER M111"},
+            {"type": "course", "courseId": "AF AMER 112A"},
+            {"type": "course", "courseId": "AF AMER 112B"},
+            {"type": "course", "courseId": "AF AMER CM113B"},
+            {"type": "course", "courseId": "AF AMER M113D"},
+            {"type": "course", "courseId": "AF AMER CM113XP"},
+            {"type": "course", "courseId": "AF AMER M114C"},
+            {"type": "course", "courseId": "AF AMER M115"},
+            {"type": "course", "courseId": "AF AMER M116A"},
+            {"type": "course", "courseId": "AF AMER M116B"},
+            {"type": "course", "courseId": "AF AMER 117"},
+            {"type": "course", "courseId": "AF AMER M118"},
+            {"type": "course", "courseId": "AF AMER M120"},
+            {"type": "course", "courseId": "AF AMER M121"},
+            {"type": "course", "courseId": "AF AMER M123"},
+            {"type": "course", "courseId": "AF AMER M124"},
+            {"type": "course", "courseId": "AF AMER M129B"},
+            {"type": "course", "courseId": "AF AMER 133"},
+            {"type": "course", "courseId": "AF AMER CM135A"},
+            {"type": "course", "courseId": "AF AMER CM135B"},
+            {"type": "course", "courseId": "AF AMER 140"},
+            {"type": "course", "courseId": "AF AMER M141"},
+            {"type": "course", "courseId": "AF AMER M142"},
+            {"type": "course", "courseId": "AF AMER M144"},
+            {"type": "course", "courseId": "AF AMER M148"},
+            {"type": "course", "courseId": "AF AMER M150D"},
+            {"type": "course", "courseId": "AF AMER M154C"},
+            {"type": "course", "courseId": "AF AMER M154D"},
+            {"type": "course", "courseId": "AF AMER M155"},
+            {"type": "course", "courseId": "AF AMER 157"},
+            {"type": "course", "courseId": "AF AMER M158A"},
+            {"type": "course", "courseId": "AF AMER M158B"},
+            {"type": "course", "courseId": "AF AMER M158C"},
+            {"type": "course", "courseId": "AF AMER M158E"},
+            {"type": "course", "courseId": "AF AMER M159P"},
+            {"type": "course", "courseId": "AF AMER M164"},
+            {"type": "course", "courseId": "AF AMER M165"},
+            {"type": "course", "courseId": "AF AMER CM166"},
+            {"type": "course", "courseId": "AF AMER CM166B"},
+            {"type": "course", "courseId": "AF AMER M167"},
+            {"type": "course", "courseId": "AF AMER M169"},
+            {"type": "course", "courseId": "AF AMER M170A"},
+            {"type": "course", "courseId": "AF AMER M170B"},
+            {"type": "course", "courseId": "AF AMER M172"},
+            {"type": "course", "courseId": "AF AMER M173"},
+            {"type": "course", "courseId": "AF AMER 174"},
+            {"type": "course", "courseId": "AF AMER 175"},
+            {"type": "course", "courseId": "AF AMER 176"},
+            {"type": "course", "courseId": "AF AMER 177"},
+            {"type": "course", "courseId": "AF AMER M178"},
+            {"type": "course", "courseId": "AF AMER M179A"},
+            {"type": "course", "courseId": "AF AMER 184A"},
+            {"type": "course", "courseId": "AF AMER 184B"},
+            {"type": "course", "courseId": "AF AMER 184C"},
+            {"type": "course", "courseId": "AF AMER 188A"},
+            {"type": "course", "courseId": "AF AMER 188B"},
+            {"type": "course", "courseId": "AF AMER 188SA"},
+            {"type": "course", "courseId": "AF AMER 188SB"},
+            {"type": "course", "courseId": "AF AMER 188SC"},
+            {"type": "course", "courseId": "AF AMER 189"},
+            {"type": "course", "courseId": "AF AMER 189HC"},
+            {"type": "course", "courseId": "AF AMER M194A"},
+            {"type": "course", "courseId": "AF AMER M194B"},
+            {"type": "course", "courseId": "AF AMER M194C"},
+            {"type": "course", "courseId": "AF AMER 195"},
+            {"type": "course", "courseId": "AF AMER M195CE"},
+            {"type": "course", "courseId": "AF AMER 196"},
+            {"type": "course", "courseId": "AF AMER 197"},
+            {"type": "course", "courseId": "AF AMER 198A"},
+            {"type": "course", "courseId": "AF AMER 198B"},
+            {"type": "course", "courseId": "AF AMER 198C"},
+            {"type": "course", "courseId": "AF AMER 199"}
           ]
         },
         {
@@ -418,10 +212,7 @@
           "description": "Take the following course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "AF AMER C191"
-            }
+            {"type": "course", "courseId": "AF AMER C191"}
           ]
         }
       ]
@@ -443,18 +234,9 @@
               "description": "Students must take three-quarter African American Studies 198A, 198B, 198C (independent study courses) with an approved professor who oversees the thesis requirement.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "AF AMER 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "AF AMER 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "AF AMER 198C"
-                }
+                {"type": "course", "courseId": "AF AMER 198A"},
+                {"type": "course", "courseId": "AF AMER 198B"},
+                {"type": "course", "courseId": "AF AMER 198C"}
               ]
             }
           ]

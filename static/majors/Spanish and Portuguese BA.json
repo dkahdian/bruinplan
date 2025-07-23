@@ -23,18 +23,9 @@
           "description": "Select one course from the following list. Portuguese 27 is recommended.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PORTGSE 25"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 26"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 27"
-            }
+            {"type": "course", "courseId": "PORTGSE 25"},
+            {"type": "course", "courseId": "PORTGSE 26"},
+            {"type": "course", "courseId": "PORTGSE 27"}
           ]
         },
         {
@@ -43,34 +34,19 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PORTGSE M35"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN M35"
-            }
+            {"type": "course", "courseId": "PORTGSE M35"},
+            {"type": "course", "courseId": "SPAN M35"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "PORTGSE 46"
-        },
+        {"type": "course", "courseId": "PORTGSE 46"},
         {
           "type": "group",
           "title": "Spanish 25 or 27",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 25"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 27"
-            }
+            {"type": "course", "courseId": "SPAN 25"},
+            {"type": "course", "courseId": "SPAN 27"}
           ]
         },
         {
@@ -79,14 +55,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 42"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 44"
-            }
+            {"type": "course", "courseId": "SPAN 42"},
+            {"type": "course", "courseId": "SPAN 44"}
           ]
         }
       ]
@@ -102,14 +72,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 100B"
-            }
+            {"type": "course", "courseId": "SPAN 100A"},
+            {"type": "course", "courseId": "SPAN 100B"}
           ]
         },
         {
@@ -118,14 +82,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PORTGSE 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 100B"
-            }
+            {"type": "course", "courseId": "PORTGSE 100A"},
+            {"type": "course", "courseId": "PORTGSE 100B"}
           ]
         },
         {
@@ -134,28 +92,16 @@
           "description": "Complete three courses. Select Portuguese 130A or 130B.",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 119"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 120"
-            },
+            {"type": "course", "courseId": "SPAN 119"},
+            {"type": "course", "courseId": "SPAN 120"},
             {
               "type": "group",
               "title": "Portuguese Literature",
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PORTGSE 130A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PORTGSE 130B"
-                }
+                {"type": "course", "courseId": "PORTGSE 130A"},
+                {"type": "course", "courseId": "PORTGSE 130B"}
               ]
             }
           ]
@@ -170,8 +116,6 @@
             {"type": "course", "courseId": "SPAN 100B"},
             {"type": "course", "courseId": "SPAN 105"},
             {"type": "course", "courseId": "SPAN 107"},
-            {"type": "course", "courseId": "SPAN 119"},
-            {"type": "course", "courseId": "SPAN 120"},
             {"type": "course", "courseId": "SPAN M122"},
             {"type": "course", "courseId": "SPAN 130"},
             {"type": "course", "courseId": "SPAN 135"},
@@ -250,14 +194,8 @@
               "description": "Students research and prepare a thesis draft in Portuguese 198A and complete the final thesis in Portuguese 198B.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PORTGSE 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PORTGSE 198B"
-                }
+                {"type": "course", "courseId": "PORTGSE 198A"},
+                {"type": "course", "courseId": "PORTGSE 198B"}
               ]
             },
             {
@@ -266,14 +204,8 @@
               "description": "Students research and prepare a thesis draft in Spanish 198A and complete the final thesis in Spanish 198B.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SPAN 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SPAN 198B"
-                }
+                {"type": "course", "courseId": "SPAN 198A"},
+                {"type": "course", "courseId": "SPAN 198B"}
               ]
             }
           ]

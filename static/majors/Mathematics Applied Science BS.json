@@ -17,40 +17,16 @@
           "description": "Select one course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MATH 31A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 31AL"
-            }
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31AL"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "MATH 31B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33B"
-        },
-        {
-          "type": "course",
-          "courseId": "COMPTNG 10A"
-        }
+        {"type": "course", "courseId": "MATH 31B"},
+        {"type": "course", "courseId": "MATH 32A"},
+        {"type": "course", "courseId": "MATH 32B"},
+        {"type": "course", "courseId": "MATH 33A"},
+        {"type": "course", "courseId": "MATH 33B"},
+        {"type": "course", "courseId": "COMPTNG 10A"}
       ]
     },
     {
@@ -78,30 +54,21 @@
           "description": "Students may complete the Specialization in Computing by taking Program in Computing 10B, 16A, 16B, and two additional upper-division Program in Computing courses. This is optional and does not reduce the requirements above.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COMPTNG 10B"
-            },
-            {
-              "type": "course",
-              "courseId": "COMPTNG 16A"
-            },
-            {
-              "type": "course",
-              "courseId": "COMPTNG 16B"
-            },
+            {"type": "course", "courseId": "COMPTNG 10B"},
+            {"type": "course", "courseId": "COMPTNG 16A"},
+            {"type": "course", "courseId": "COMPTNG 16B"},
             {
               "type": "group",
               "title": "Upper Division COMPTNG Electives",
               "description": "Select two additional upper-division Program in Computing courses.",
               "needs": 2,
-            "options": [
-              { "type": "course", "courseId": "COMPTNG 110" },
-              { "type": "course", "courseId": "COMPTNG 130" },
-              { "type": "course", "courseId": "COMPTNG 187" },
-              { "type": "course", "courseId": "COMPTNG 189" },
-              { "type": "course", "courseId": "COMPTNG 189HC" }
-            ]
+              "options": [
+                {"type": "course", "courseId": "COMPTNG 110"},
+                {"type": "course", "courseId": "COMPTNG 130"},
+                {"type": "course", "courseId": "COMPTNG 187"},
+                {"type": "course", "courseId": "COMPTNG 189"},
+                {"type": "course", "courseId": "COMPTNG 189HC"}
+              ]
             }
           ]
         }

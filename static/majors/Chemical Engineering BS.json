@@ -11,88 +11,31 @@
       "title": "Preparation for the Major (Required for all options)",
       "description": "Complete the following 18 courses. Students must select either C&EE M20 or MECH&AE M20.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "CH ENGR 10"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 20A"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 20B"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 20L"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 30A"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 30AL"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 30B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 31A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 31B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33B"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 1A"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 1B"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 1C"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 4AL"
-        },
+        {"type": "course", "courseId": "CH ENGR 10"},
+        {"type": "course", "courseId": "CHEM 20A"},
+        {"type": "course", "courseId": "CHEM 20B"},
+        {"type": "course", "courseId": "CHEM 20L"},
+        {"type": "course", "courseId": "CHEM 30A"},
+        {"type": "course", "courseId": "CHEM 30AL"},
+        {"type": "course", "courseId": "CHEM 30B"},
+        {"type": "course", "courseId": "MATH 31A"},
+        {"type": "course", "courseId": "MATH 31B"},
+        {"type": "course", "courseId": "MATH 32A"},
+        {"type": "course", "courseId": "MATH 32B"},
+        {"type": "course", "courseId": "MATH 33A"},
+        {"type": "course", "courseId": "MATH 33B"},
+        {"type": "course", "courseId": "PHYSICS 1A"},
+        {"type": "course", "courseId": "PHYSICS 1B"},
+        {"type": "course", "courseId": "PHYSICS 1C"},
+        {"type": "course", "courseId": "PHYSICS 4AL"},
         {
           "type": "group",
           "title": "Computer Programming Requirement",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "C&EE M20"
-            },
-            {
-              "type": "course",
-              "courseId": "MECH&AE M20"
-            }
+            {"type": "course", "courseId": "C&EE M20"},
+            {"type": "course", "courseId": "MECH&AE M20"}
           ]
         }
       ]
@@ -114,58 +57,19 @@
               "description": "Complete 13 required courses, three technical breadth courses (12 units), two capstone design courses, and two chemical engineering elective courses (8 units) as follows:",
               "needs": 16,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 45"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 102A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 102B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 106"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 107"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 109"
-                },
+                {"type": "course", "courseId": "CH ENGR 45"},
+                {"type": "course", "courseId": "CH ENGR 100"},
+                {"type": "course", "courseId": "CH ENGR 101A"},
+                {"type": "course", "courseId": "CH ENGR 101B"},
+                {"type": "course", "courseId": "CH ENGR 101C"},
+                {"type": "course", "courseId": "CH ENGR 102A"},
+                {"type": "course", "courseId": "CH ENGR 102B"},
+                {"type": "course", "courseId": "CH ENGR 103"},
+                {"type": "course", "courseId": "CH ENGR 104A"},
+                {"type": "course", "courseId": "CH ENGR 104B"},
+                {"type": "course", "courseId": "CH ENGR 106"},
+                {"type": "course", "courseId": "CH ENGR 107"},
+                {"type": "course", "courseId": "CH ENGR 109"},
                 {
                   "type": "group",
                   "title": "Technical Breadth",
@@ -179,14 +83,8 @@
                   "description": "Complete both of the following courses:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 108A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 108B"
-                    }
+                    {"type": "course", "courseId": "CH ENGR 108A"},
+                    {"type": "course", "courseId": "CH ENGR 108B"}
                   ]
                 },
                 {
@@ -195,62 +93,20 @@
                   "description": "Select two elective courses (8 units) from:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 110"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C111"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C112"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 113"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR CM114"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C115"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C116"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C118"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C119"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C125"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C128"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C135"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C140"
-                    }
+                    {"type": "course", "courseId": "CH ENGR 110"},
+                    {"type": "course", "courseId": "CH ENGR C111"},
+                    {"type": "course", "courseId": "CH ENGR C112"},
+                    {"type": "course", "courseId": "CH ENGR 113"},
+                    {"type": "course", "courseId": "CH ENGR CM114"},
+                    {"type": "course", "courseId": "CH ENGR C115"},
+                    {"type": "course", "courseId": "CH ENGR C116"},
+                    {"type": "course", "courseId": "CH ENGR C118"},
+                    {"type": "course", "courseId": "CH ENGR C119"},
+                    {"type": "course", "courseId": "CH ENGR C121"},
+                    {"type": "course", "courseId": "CH ENGR C125"},
+                    {"type": "course", "courseId": "CH ENGR C128"},
+                    {"type": "course", "courseId": "CH ENGR C135"},
+                    {"type": "course", "courseId": "CH ENGR C140"}
                   ]
                 }
               ]
@@ -261,62 +117,20 @@
               "description": "Complete 14 required courses, 12 units of technical breadth, two capstone design courses, and 4 units of biomedical electives as follows:",
               "needs": 17,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 45"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 102A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 102B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 106"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 107"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 109"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR CM145"
-                },
+                {"type": "course", "courseId": "CH ENGR 45"},
+                {"type": "course", "courseId": "CH ENGR 100"},
+                {"type": "course", "courseId": "CH ENGR 101A"},
+                {"type": "course", "courseId": "CH ENGR 101B"},
+                {"type": "course", "courseId": "CH ENGR 101C"},
+                {"type": "course", "courseId": "CH ENGR 102A"},
+                {"type": "course", "courseId": "CH ENGR 102B"},
+                {"type": "course", "courseId": "CH ENGR 103"},
+                {"type": "course", "courseId": "CH ENGR 104A"},
+                {"type": "course", "courseId": "CH ENGR 104B"},
+                {"type": "course", "courseId": "CH ENGR 106"},
+                {"type": "course", "courseId": "CH ENGR 107"},
+                {"type": "course", "courseId": "CH ENGR 109"},
+                {"type": "course", "courseId": "CH ENGR CM145"},
                 {
                   "type": "group",
                   "title": "Technical Breadth",
@@ -330,14 +144,8 @@
                   "description": "Complete both of the following courses:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 108A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 108B"
-                    }
+                    {"type": "course", "courseId": "CH ENGR 108A"},
+                    {"type": "course", "courseId": "CH ENGR 108B"}
                   ]
                 },
                 {
@@ -346,30 +154,12 @@
                   "description": "Select one biomedical elective course (4 units) from the following. Another chemical engineering elective may be substituted with approval of the faculty adviser.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR C105"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR C183"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C112"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C105"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C159"
-                    }
+                    {"type": "course", "courseId": "BIOENGR C105"},
+                    {"type": "course", "courseId": "BIOENGR C183"},
+                    {"type": "course", "courseId": "CH ENGR C112"},
+                    {"type": "course", "courseId": "CHEM C105"},
+                    {"type": "course", "courseId": "CHEM 153A"},
+                    {"type": "course", "courseId": "CHEM C159"}
                   ]
                 }
               ]
@@ -380,62 +170,20 @@
               "description": "Complete 14 required courses, 12 units of technical breadth, two capstone design courses, and 4 units of biomolecular electives as follows:",
               "needs": 17,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 45"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 102A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 102B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 107"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 109"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR C115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR C125"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR CM145"
-                },
+                {"type": "course", "courseId": "CH ENGR 45"},
+                {"type": "course", "courseId": "CH ENGR 100"},
+                {"type": "course", "courseId": "CH ENGR 101A"},
+                {"type": "course", "courseId": "CH ENGR 101B"},
+                {"type": "course", "courseId": "CH ENGR 101C"},
+                {"type": "course", "courseId": "CH ENGR 102A"},
+                {"type": "course", "courseId": "CH ENGR 102B"},
+                {"type": "course", "courseId": "CH ENGR 104A"},
+                {"type": "course", "courseId": "CH ENGR 104D"},
+                {"type": "course", "courseId": "CH ENGR 107"},
+                {"type": "course", "courseId": "CH ENGR 109"},
+                {"type": "course", "courseId": "CH ENGR C115"},
+                {"type": "course", "courseId": "CH ENGR C125"},
+                {"type": "course", "courseId": "CH ENGR CM145"},
                 {
                   "type": "group",
                   "title": "Technical Breadth",
@@ -449,14 +197,8 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 108A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 108B"
-                    }
+                    {"type": "course", "courseId": "CH ENGR 108A"},
+                    {"type": "course", "courseId": "CH ENGR 108B"}
                   ]
                 },
                 {
@@ -465,30 +207,12 @@
                   "description": "Select one biomolecular elective course (4 units) from the following. Another chemical engineering elective may be substituted with approval of the faculty adviser.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR C105"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR C183"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C112"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C105"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C159"
-                    }
+                    {"type": "course", "courseId": "BIOENGR C105"},
+                    {"type": "course", "courseId": "BIOENGR C183"},
+                    {"type": "course", "courseId": "CH ENGR C112"},
+                    {"type": "course", "courseId": "CHEM C105"},
+                    {"type": "course", "courseId": "CHEM 153A"},
+                    {"type": "course", "courseId": "CHEM C159"}
                   ]
                 }
               ]
@@ -499,58 +223,19 @@
               "description": "Complete 13 required courses, 12 units of technical breadth, two capstone design courses, and 8 units of electives.",
               "needs": 16,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 45"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 102A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 102B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 106"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 107"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 109"
-                },
+                {"type": "course", "courseId": "CH ENGR 45"},
+                {"type": "course", "courseId": "CH ENGR 100"},
+                {"type": "course", "courseId": "CH ENGR 101A"},
+                {"type": "course", "courseId": "CH ENGR 101B"},
+                {"type": "course", "courseId": "CH ENGR 101C"},
+                {"type": "course", "courseId": "CH ENGR 102A"},
+                {"type": "course", "courseId": "CH ENGR 102B"},
+                {"type": "course", "courseId": "CH ENGR 103"},
+                {"type": "course", "courseId": "CH ENGR 104A"},
+                {"type": "course", "courseId": "CH ENGR 104B"},
+                {"type": "course", "courseId": "CH ENGR 106"},
+                {"type": "course", "courseId": "CH ENGR 107"},
+                {"type": "course", "courseId": "CH ENGR 109"},
                 {
                   "type": "group",
                   "title": "Technical Breadth",
@@ -564,14 +249,8 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 108A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 108B"
-                    }
+                    {"type": "course", "courseId": "CH ENGR 108A"},
+                    {"type": "course", "courseId": "CH ENGR 108B"}
                   ]
                 },
                 {
@@ -580,34 +259,13 @@
                   "description": "Select two elective courses (8 units) from the following. Another chemical engineering elective may be substituted with approval of the faculty adviser.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 113"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C118"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C119"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C128"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C135"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR C140"
-                    }
+                    {"type": "course", "courseId": "CH ENGR 113"},
+                    {"type": "course", "courseId": "CH ENGR C118"},
+                    {"type": "course", "courseId": "CH ENGR C119"},
+                    {"type": "course", "courseId": "CH ENGR C121"},
+                    {"type": "course", "courseId": "CH ENGR C128"},
+                    {"type": "course", "courseId": "CH ENGR C135"},
+                    {"type": "course", "courseId": "CH ENGR C140"}
                   ]
                 }
               ]
@@ -618,66 +276,21 @@
               "description": "Complete 15 required courses, 12 units of technical breadth, two capstone design courses, and one elective as follows:",
               "needs": 18,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 45"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 101C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 102A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 102B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 104CL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 106"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 107"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR 109"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CH ENGR C116"
-                },
+                {"type": "course", "courseId": "CH ENGR 45"},
+                {"type": "course", "courseId": "CH ENGR 100"},
+                {"type": "course", "courseId": "CH ENGR 101A"},
+                {"type": "course", "courseId": "CH ENGR 101B"},
+                {"type": "course", "courseId": "CH ENGR 101C"},
+                {"type": "course", "courseId": "CH ENGR 102A"},
+                {"type": "course", "courseId": "CH ENGR 102B"},
+                {"type": "course", "courseId": "CH ENGR 103"},
+                {"type": "course", "courseId": "CH ENGR 104A"},
+                {"type": "course", "courseId": "CH ENGR 104C"},
+                {"type": "course", "courseId": "CH ENGR 104CL"},
+                {"type": "course", "courseId": "CH ENGR 106"},
+                {"type": "course", "courseId": "CH ENGR 107"},
+                {"type": "course", "courseId": "CH ENGR 109"},
+                {"type": "course", "courseId": "CH ENGR C116"},
                 {
                   "type": "group",
                   "title": "Technical Breadth",
@@ -691,14 +304,8 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 108A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CH ENGR 108B"
-                    }
+                    {"type": "course", "courseId": "CH ENGR 108A"},
+                    {"type": "course", "courseId": "CH ENGR 108B"}
                   ]
                 },
                 {
@@ -707,26 +314,11 @@
                   "description": "Select one elective course (4 units) from chemical engineering or from the following list:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 104"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 120"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MAT SCI 150"
-                    }
+                    {"type": "course", "courseId": "MAT SCI 104"},
+                    {"type": "course", "courseId": "MAT SCI 120"},
+                    {"type": "course", "courseId": "MAT SCI 121"},
+                    {"type": "course", "courseId": "MAT SCI 122"},
+                    {"type": "course", "courseId": "MAT SCI 150"}
                   ]
                 }
               ]

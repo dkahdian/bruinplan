@@ -17,14 +17,8 @@
           "description": "Select one course from the following, or complete an equivalent course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "JAPAN 6"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 10"
-            }
+            {"type": "course", "courseId": "JAPAN 6"},
+            {"type": "course", "courseId": "JAPAN 10"}
           ]
         },
         {
@@ -33,26 +27,11 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ASIAN 30"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 50"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 70"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 75"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 80"
-            }
+            {"type": "course", "courseId": "ASIAN 30"},
+            {"type": "course", "courseId": "JAPAN 50"},
+            {"type": "course", "courseId": "JAPAN 70"},
+            {"type": "course", "courseId": "JAPAN 75"},
+            {"type": "course", "courseId": "JAPAN 80"}
           ]
         }
       ]
@@ -68,106 +47,31 @@
           "description": "Select five language courses in modern or premodern language or texts from the following.",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "JAPAN 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 100B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 100C"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 100R"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 100S"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 101A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 101B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 101C"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 101S"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 103A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 103B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 104"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 105A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 105B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 110A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 110B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN M120"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN CM123"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 130B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 140A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 140B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 140C"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN C149"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 165"
-            }
+            {"type": "course", "courseId": "JAPAN 100A"},
+            {"type": "course", "courseId": "JAPAN 100B"},
+            {"type": "course", "courseId": "JAPAN 100C"},
+            {"type": "course", "courseId": "JAPAN 100R"},
+            {"type": "course", "courseId": "JAPAN 100S"},
+            {"type": "course", "courseId": "JAPAN 101A"},
+            {"type": "course", "courseId": "JAPAN 101B"},
+            {"type": "course", "courseId": "JAPAN 101C"},
+            {"type": "course", "courseId": "JAPAN 101S"},
+            {"type": "course", "courseId": "JAPAN 103A"},
+            {"type": "course", "courseId": "JAPAN 103B"},
+            {"type": "course", "courseId": "JAPAN 104"},
+            {"type": "course", "courseId": "JAPAN 105A"},
+            {"type": "course", "courseId": "JAPAN 105B"},
+            {"type": "course", "courseId": "JAPAN 110A"},
+            {"type": "course", "courseId": "JAPAN 110B"},
+            {"type": "course", "courseId": "JAPAN M120"},
+            {"type": "course", "courseId": "JAPAN CM123"},
+            {"type": "course", "courseId": "JAPAN 130A"},
+            {"type": "course", "courseId": "JAPAN 130B"},
+            {"type": "course", "courseId": "JAPAN 140A"},
+            {"type": "course", "courseId": "JAPAN 140B"},
+            {"type": "course", "courseId": "JAPAN 140C"},
+            {"type": "course", "courseId": "JAPAN C149"},
+            {"type": "course", "courseId": "JAPAN 165"}
           ]
         },
         {
@@ -176,46 +80,16 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "JAPAN C150"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 151"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 154"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN M156"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 157"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN C159"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 170"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 172"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 174"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 191A"
-            }
+            {"type": "course", "courseId": "JAPAN C150"},
+            {"type": "course", "courseId": "JAPAN 151"},
+            {"type": "course", "courseId": "JAPAN 154"},
+            {"type": "course", "courseId": "JAPAN M156"},
+            {"type": "course", "courseId": "JAPAN 157"},
+            {"type": "course", "courseId": "JAPAN C159"},
+            {"type": "course", "courseId": "JAPAN 170"},
+            {"type": "course", "courseId": "JAPAN 172"},
+            {"type": "course", "courseId": "JAPAN 174"},
+            {"type": "course", "courseId": "JAPAN 191A"}
           ]
         },
         {
@@ -224,186 +98,51 @@
           "description": "Select three elective courses on Japan from the following list or from the language courses in modern or premodern language or texts or literature course lists if not used to fulfill another requirement:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "JAPAN 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 100B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 100C"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 100R"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 100S"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 101A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 101B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 101C"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 101S"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 103A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 103B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 104"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 105A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 105B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 110A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 110B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN M120"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN CM123"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 130B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 140A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 140B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 140C"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN C149"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 165"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN C150"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 151"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 154"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN M156"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 157"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN C159"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 170"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 172"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 174"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 191A"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN C112"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN CM122"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN CM127"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 155"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN CM160"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 161"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN C171"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN C182"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 191B"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 191C"
-            }
+            {"type": "course", "courseId": "JAPAN 100A"},
+            {"type": "course", "courseId": "JAPAN 100B"},
+            {"type": "course", "courseId": "JAPAN 100C"},
+            {"type": "course", "courseId": "JAPAN 100R"},
+            {"type": "course", "courseId": "JAPAN 100S"},
+            {"type": "course", "courseId": "JAPAN 101A"},
+            {"type": "course", "courseId": "JAPAN 101B"},
+            {"type": "course", "courseId": "JAPAN 101C"},
+            {"type": "course", "courseId": "JAPAN 101S"},
+            {"type": "course", "courseId": "JAPAN 103A"},
+            {"type": "course", "courseId": "JAPAN 103B"},
+            {"type": "course", "courseId": "JAPAN 104"},
+            {"type": "course", "courseId": "JAPAN 105A"},
+            {"type": "course", "courseId": "JAPAN 105B"},
+            {"type": "course", "courseId": "JAPAN 110A"},
+            {"type": "course", "courseId": "JAPAN 110B"},
+            {"type": "course", "courseId": "JAPAN M120"},
+            {"type": "course", "courseId": "JAPAN CM123"},
+            {"type": "course", "courseId": "JAPAN 130A"},
+            {"type": "course", "courseId": "JAPAN 130B"},
+            {"type": "course", "courseId": "JAPAN 140A"},
+            {"type": "course", "courseId": "JAPAN 140B"},
+            {"type": "course", "courseId": "JAPAN 140C"},
+            {"type": "course", "courseId": "JAPAN C149"},
+            {"type": "course", "courseId": "JAPAN 165"},
+            {"type": "course", "courseId": "JAPAN C150"},
+            {"type": "course", "courseId": "JAPAN 151"},
+            {"type": "course", "courseId": "JAPAN 154"},
+            {"type": "course", "courseId": "JAPAN M156"},
+            {"type": "course", "courseId": "JAPAN 157"},
+            {"type": "course", "courseId": "JAPAN C159"},
+            {"type": "course", "courseId": "JAPAN 170"},
+            {"type": "course", "courseId": "JAPAN 172"},
+            {"type": "course", "courseId": "JAPAN 174"},
+            {"type": "course", "courseId": "JAPAN 191A"},
+            {"type": "course", "courseId": "JAPAN C112"},
+            {"type": "course", "courseId": "JAPAN CM122"},
+            {"type": "course", "courseId": "JAPAN CM127"},
+            {"type": "course", "courseId": "JAPAN 155"},
+            {"type": "course", "courseId": "JAPAN CM160"},
+            {"type": "course", "courseId": "JAPAN 161"},
+            {"type": "course", "courseId": "JAPAN C171"},
+            {"type": "course", "courseId": "JAPAN C182"},
+            {"type": "course", "courseId": "JAPAN 191B"},
+            {"type": "course", "courseId": "JAPAN 191C"}
           ]
         },
         {
@@ -432,18 +171,9 @@
               "description": "Complete all three courses for the honors thesis.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198C"
-                }
+                {"type": "course", "courseId": "ASIAN 198A"},
+                {"type": "course", "courseId": "ASIAN 198B"},
+                {"type": "course", "courseId": "ASIAN 198C"}
               ]
             }
           ]

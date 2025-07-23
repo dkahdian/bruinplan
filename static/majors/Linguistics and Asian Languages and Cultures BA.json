@@ -11,32 +11,17 @@
       "title": "Preparation for the Major",
       "description": "Complete three courses, the equivalent of the sixth level in either Chinese, Japanese, or Korean, and the equivalent of the third level of a second foreign language as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "ANTHRO 4"
-        },
-        {
-          "type": "course",
-          "courseId": "LING 20"
-        },
+        {"type": "course", "courseId": "ANTHRO 4"},
+        {"type": "course", "courseId": "LING 20"},
         {
           "type": "group",
           "title": "Civilization",
           "description": "Select one course, as appropriate, from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHIN 50"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 50"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 50"
-            }
+            {"type": "course", "courseId": "CHIN 50"},
+            {"type": "course", "courseId": "JAPAN 50"},
+            {"type": "course", "courseId": "KOREA 50"}
           ]
         },
         {
@@ -66,36 +51,18 @@
           "description": "Complete five courses. Take the first four courses listed, and select one from LING 165A or 165B.",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LING 103"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 110"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 120A"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 120B"
-            },
+            {"type": "course", "courseId": "LING 103"},
+            {"type": "course", "courseId": "LING 110"},
+            {"type": "course", "courseId": "LING 120A"},
+            {"type": "course", "courseId": "LING 120B"},
             {
               "type": "group",
               "title": "Advanced Linguistics Requirement",
               "description": "Select one course.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LING 165A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LING 165B"
-                }
+                {"type": "course", "courseId": "LING 165A"},
+                {"type": "course", "courseId": "LING 165B"}
               ]
             }
           ]
@@ -106,61 +73,57 @@
           "description": "Complete one upper-division elective course in the Linguistics Department (minimum 4 graded units).",
           "needs": 1,
           "options": [
-            { "type": "course", "courseId": "LING 102" },
-            { "type": "course", "courseId": "LING 103" },
-            { "type": "course", "courseId": "LING C104" },
-            { "type": "course", "courseId": "LING 105" },
-            { "type": "course", "courseId": "LING 110" },
-            { "type": "course", "courseId": "LING 110G" },
-            { "type": "course", "courseId": "LING C111" },
-            { "type": "course", "courseId": "LING 114" },
-            { "type": "course", "courseId": "LING 115" },
-            { "type": "course", "courseId": "LING M116" },
-            { "type": "course", "courseId": "LING 119A" },
-            { "type": "course", "courseId": "LING 120A" },
-            { "type": "course", "courseId": "LING 120B" },
-            { "type": "course", "courseId": "LING 120C" },
-            { "type": "course", "courseId": "LING 127" },
-            { "type": "course", "courseId": "LING C128A" },
-            { "type": "course", "courseId": "LING C128B" },
-            { "type": "course", "courseId": "LING 130" },
-            { "type": "course", "courseId": "LING 132" },
-            { "type": "course", "courseId": "LING C135" },
-            { "type": "course", "courseId": "LING C140" },
-            { "type": "course", "courseId": "LING M141" },
-            { "type": "course", "courseId": "LING 144" },
-            { "type": "course", "courseId": "LING M146" },
-            { "type": "course", "courseId": "LING M150" },
-            { "type": "course", "courseId": "LING 160" },
-            { "type": "course", "courseId": "LING 161" },
-            { "type": "course", "courseId": "LING 165A" },
-            { "type": "course", "courseId": "LING 165B" },
-            { "type": "course", "courseId": "LING 165C" },
-            { "type": "course", "courseId": "LING 170" },
-            { "type": "course", "courseId": "LING 175" },
-            { "type": "course", "courseId": "LING M176A" },
-            { "type": "course", "courseId": "LING M176B" },
-            { "type": "course", "courseId": "LING M177" },
-            { "type": "course", "courseId": "LING M178" },
-            { "type": "course", "courseId": "LING 180" },
-            { "type": "course", "courseId": "LING 185A" },
-            { "type": "course", "courseId": "LING 185B" },
-            { "type": "course", "courseId": "LING 185C" },
-            { "type": "course", "courseId": "LING 188SA" },
-            { "type": "course", "courseId": "LING 188SB" },
-            { "type": "course", "courseId": "LING 188SC" },
-            { "type": "course", "courseId": "LING 189" },
-            { "type": "course", "courseId": "LING 189HC" },
-            { "type": "course", "courseId": "LING 191A" },
-            { "type": "course", "courseId": "LING 191B" },
-            { "type": "course", "courseId": "LING 192A" },
-            { "type": "course", "courseId": "LING 192B" },
-            { "type": "course", "courseId": "LING 194" },
-            { "type": "course", "courseId": "LING 195" },
-            { "type": "course", "courseId": "LING 197" },
-            { "type": "course", "courseId": "LING 198A" },
-            { "type": "course", "courseId": "LING 198B" },
-            { "type": "course", "courseId": "LING 199" }
+            {"type": "course", "courseId": "LING 102"},
+            {"type": "course", "courseId": "LING C104"},
+            {"type": "course", "courseId": "LING 105"},
+            {"type": "course", "courseId": "LING 110G"},
+            {"type": "course", "courseId": "LING C111"},
+            {"type": "course", "courseId": "LING 114"},
+            {"type": "course", "courseId": "LING 115"},
+            {"type": "course", "courseId": "LING M116"},
+            {"type": "course", "courseId": "LING 119A"},
+            {"type": "course", "courseId": "LING 120C"},
+            {"type": "course", "courseId": "LING 127"},
+            {"type": "course", "courseId": "LING C128A"},
+            {"type": "course", "courseId": "LING C128B"},
+            {"type": "course", "courseId": "LING 130"},
+            {"type": "course", "courseId": "LING 132"},
+            {"type": "course", "courseId": "LING C135"},
+            {"type": "course", "courseId": "LING C140"},
+            {"type": "course", "courseId": "LING M141"},
+            {"type": "course", "courseId": "LING 144"},
+            {"type": "course", "courseId": "LING M146"},
+            {"type": "course", "courseId": "LING M150"},
+            {"type": "course", "courseId": "LING 160"},
+            {"type": "course", "courseId": "LING 161"},
+            {"type": "course", "courseId": "LING 165A"},
+            {"type": "course", "courseId": "LING 165B"},
+            {"type": "course", "courseId": "LING 165C"},
+            {"type": "course", "courseId": "LING 170"},
+            {"type": "course", "courseId": "LING 175"},
+            {"type": "course", "courseId": "LING M176A"},
+            {"type": "course", "courseId": "LING M176B"},
+            {"type": "course", "courseId": "LING M177"},
+            {"type": "course", "courseId": "LING M178"},
+            {"type": "course", "courseId": "LING 180"},
+            {"type": "course", "courseId": "LING 185A"},
+            {"type": "course", "courseId": "LING 185B"},
+            {"type": "course", "courseId": "LING 185C"},
+            {"type": "course", "courseId": "LING 188SA"},
+            {"type": "course", "courseId": "LING 188SB"},
+            {"type": "course", "courseId": "LING 188SC"},
+            {"type": "course", "courseId": "LING 189"},
+            {"type": "course", "courseId": "LING 189HC"},
+            {"type": "course", "courseId": "LING 191A"},
+            {"type": "course", "courseId": "LING 191B"},
+            {"type": "course", "courseId": "LING 192A"},
+            {"type": "course", "courseId": "LING 192B"},
+            {"type": "course", "courseId": "LING 194"},
+            {"type": "course", "courseId": "LING 195"},
+            {"type": "course", "courseId": "LING 197"},
+            {"type": "course", "courseId": "LING 198A"},
+            {"type": "course", "courseId": "LING 198B"},
+            {"type": "course", "courseId": "LING 199"}
           ]
         },
         {
@@ -187,18 +150,9 @@
                       "description": "Complete all three courses in this series.",
                       "needs": 3,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHIN 100A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHIN 100B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHIN 100C"
-                        }
+                        {"type": "course", "courseId": "CHIN 100A"},
+                        {"type": "course", "courseId": "CHIN 100B"},
+                        {"type": "course", "courseId": "CHIN 100C"}
                       ]
                     },
                     {
@@ -207,18 +161,9 @@
                       "description": "Complete all three courses in this series for heritage speakers.",
                       "needs": 3,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHIN 100D"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHIN 100E"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHIN 100F"
-                        }
+                        {"type": "course", "courseId": "CHIN 100D"},
+                        {"type": "course", "courseId": "CHIN 100E"},
+                        {"type": "course", "courseId": "CHIN 100F"}
                       ]
                     },
                     {
@@ -227,10 +172,7 @@
                       "description": "Complete the intensive course.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHIN 100I"
-                        }
+                        {"type": "course", "courseId": "CHIN 100I"}
                       ]
                     }
                   ]
@@ -241,54 +183,18 @@
                   "description": "Select two courses from:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "ASIAN 104"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN 101A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN 101B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN 101C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN 103"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN 110A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN 110B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN 110C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN C120"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN 130A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN 130B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHIN 165"
-                    }
+                    {"type": "course", "courseId": "ASIAN 104"},
+                    {"type": "course", "courseId": "CHIN 101A"},
+                    {"type": "course", "courseId": "CHIN 101B"},
+                    {"type": "course", "courseId": "CHIN 101C"},
+                    {"type": "course", "courseId": "CHIN 103"},
+                    {"type": "course", "courseId": "CHIN 110A"},
+                    {"type": "course", "courseId": "CHIN 110B"},
+                    {"type": "course", "courseId": "CHIN 110C"},
+                    {"type": "course", "courseId": "CHIN C120"},
+                    {"type": "course", "courseId": "CHIN 130A"},
+                    {"type": "course", "courseId": "CHIN 130B"},
+                    {"type": "course", "courseId": "CHIN 165"}
                   ]
                 }
               ]
@@ -311,18 +217,9 @@
                       "description": "Complete all three courses in this series.",
                       "needs": 3,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "JAPAN 100A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "JAPAN 100B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "JAPAN 100C"
-                        }
+                        {"type": "course", "courseId": "JAPAN 100A"},
+                        {"type": "course", "courseId": "JAPAN 100B"},
+                        {"type": "course", "courseId": "JAPAN 100C"}
                       ]
                     },
                     {
@@ -331,10 +228,7 @@
                       "description": "Complete the intensive course.",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "JAPAN 100S"
-                        }
+                        {"type": "course", "courseId": "JAPAN 100S"}
                       ]
                     }
                   ]
@@ -345,50 +239,17 @@
                   "description": "Select two courses from the following list. Only one course from Japanese CM123 or CM127 may be applied.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "ASIAN 104"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "JAPAN 101A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "JAPAN 101B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "JAPAN 101C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "JAPAN 110A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "JAPAN 110B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "JAPAN M120"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "JAPAN CM123"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "JAPAN CM127"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "JAPAN 130A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "JAPAN 130B"
-                    }
+                    {"type": "course", "courseId": "ASIAN 104"},
+                    {"type": "course", "courseId": "JAPAN 101A"},
+                    {"type": "course", "courseId": "JAPAN 101B"},
+                    {"type": "course", "courseId": "JAPAN 101C"},
+                    {"type": "course", "courseId": "JAPAN 110A"},
+                    {"type": "course", "courseId": "JAPAN 110B"},
+                    {"type": "course", "courseId": "JAPAN M120"},
+                    {"type": "course", "courseId": "JAPAN CM123"},
+                    {"type": "course", "courseId": "JAPAN CM127"},
+                    {"type": "course", "courseId": "JAPAN 130A"},
+                    {"type": "course", "courseId": "JAPAN 130B"}
                   ]
                 }
               ]
@@ -405,18 +266,9 @@
                   "description": "Complete the following three courses:",
                   "needs": 3,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "KOREA 100A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA 100B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA 100C"
-                    }
+                    {"type": "course", "courseId": "KOREA 100A"},
+                    {"type": "course", "courseId": "KOREA 100B"},
+                    {"type": "course", "courseId": "KOREA 100C"}
                   ]
                 },
                 {
@@ -425,54 +277,18 @@
                   "description": "Select two courses from:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "ASIAN 104"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA 101A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA 101B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA 101C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA 103A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA 103B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA 103C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA C105A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA C105B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA C105C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA CM120"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "KOREA CM127"
-                    }
+                    {"type": "course", "courseId": "ASIAN 104"},
+                    {"type": "course", "courseId": "KOREA 101A"},
+                    {"type": "course", "courseId": "KOREA 101B"},
+                    {"type": "course", "courseId": "KOREA 101C"},
+                    {"type": "course", "courseId": "KOREA 103A"},
+                    {"type": "course", "courseId": "KOREA 103B"},
+                    {"type": "course", "courseId": "KOREA 103C"},
+                    {"type": "course", "courseId": "KOREA C105A"},
+                    {"type": "course", "courseId": "KOREA C105B"},
+                    {"type": "course", "courseId": "KOREA C105C"},
+                    {"type": "course", "courseId": "KOREA CM120"},
+                    {"type": "course", "courseId": "KOREA CM127"}
                   ]
                 }
               ]
@@ -504,14 +320,8 @@
                   "description": "Complete both courses.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LING 198A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 198B"
-                    }
+                    {"type": "course", "courseId": "LING 198A"},
+                    {"type": "course", "courseId": "LING 198B"}
                   ]
                 },
                 {
@@ -520,10 +330,7 @@
                   "description": "Complete the senior project course.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LING 199"
-                    }
+                    {"type": "course", "courseId": "LING 199"}
                   ]
                 }
               ]
@@ -561,18 +368,9 @@
                       "description": "Complete all three courses in the series.",
                       "needs": 3,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 10A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 10B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 10C"
-                        }
+                        {"type": "course", "courseId": "COMPTNG 10A"},
+                        {"type": "course", "courseId": "COMPTNG 10B"},
+                        {"type": "course", "courseId": "COMPTNG 10C"}
                       ]
                     },
                     {
@@ -581,14 +379,8 @@
                       "description": "Complete both courses in the series.",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI 31"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI 32"
-                        }
+                        {"type": "course", "courseId": "COM SCI 31"},
+                        {"type": "course", "courseId": "COM SCI 32"}
                       ]
                     }
                   ]
@@ -599,14 +391,8 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LING 185A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 61"
-                    }
+                    {"type": "course", "courseId": "LING 185A"},
+                    {"type": "course", "courseId": "MATH 61"}
                   ]
                 },
                 {
@@ -615,38 +401,14 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LING C104"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 127"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 165A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 165B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 165C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 180"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 185B"
-                    }
+                    {"type": "course", "courseId": "LING C104"},
+                    {"type": "course", "courseId": "LING 127"},
+                    {"type": "course", "courseId": "LING 132"},
+                    {"type": "course", "courseId": "LING 165A"},
+                    {"type": "course", "courseId": "LING 165B"},
+                    {"type": "course", "courseId": "LING 165C"},
+                    {"type": "course", "courseId": "LING 180"},
+                    {"type": "course", "courseId": "LING 185B"}
                   ]
                 }
               ]

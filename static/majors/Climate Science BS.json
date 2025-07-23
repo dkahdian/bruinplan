@@ -11,28 +11,16 @@
       "title": "Preparation for the Major",
       "description": "Students interested in pursuing graduate studies in climate sciences or other branches of science are encouraged to select the Mathematics 31A through 33B sequence and the Physics 1 sequence.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "A&O SCI 51"
-        },
+        {"type": "course", "courseId": "A&O SCI 51"},
         {
           "type": "group",
           "title": "Computing",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "A&O SCI M71"
-            },
-            {
-              "type": "course",
-              "courseId": "COM SCI 30"
-            },
-            {
-              "type": "course",
-              "courseId": "COMPTNG 10A"
-            }
+            {"type": "course", "courseId": "A&O SCI M71"},
+            {"type": "course", "courseId": "COM SCI 30"},
+            {"type": "course", "courseId": "COMPTNG 10A"}
           ]
         },
         {
@@ -47,14 +35,8 @@
               "description": "Complete the following two courses:",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14B"
-                }
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"}
               ]
             },
             {
@@ -63,14 +45,8 @@
               "description": "Complete the following two courses:",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20B"
-                }
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"}
               ]
             }
           ]
@@ -87,14 +63,8 @@
               "description": "Complete the following two courses:",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30B"
-                }
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"}
               ]
             },
             {
@@ -103,18 +73,9 @@
               "description": "Complete the following three courses:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 3A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3C"
-                }
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"}
               ]
             },
             {
@@ -123,22 +84,10 @@
               "description": "Complete the following four courses:",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 31A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 31B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 32A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 33B"
-                }
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "MATH 32A"},
+                {"type": "course", "courseId": "MATH 33B"}
               ]
             }
           ]
@@ -155,18 +104,9 @@
               "description": "Complete the following three courses:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1C"
-                }
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"}
               ]
             },
             {
@@ -175,18 +115,9 @@
               "description": "Complete the following three courses:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1AH"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1BH"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1CH"
-                }
+                {"type": "course", "courseId": "PHYSICS 1AH"},
+                {"type": "course", "courseId": "PHYSICS 1BH"},
+                {"type": "course", "courseId": "PHYSICS 1CH"}
               ]
             },
             {
@@ -195,18 +126,9 @@
               "description": "Complete the following three courses:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5C"
-                }
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
               ]
             }
           ]
@@ -217,22 +139,10 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "A&O SCI 90"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 10"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 12"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 13"
-            }
+            {"type": "course", "courseId": "A&O SCI 90"},
+            {"type": "course", "courseId": "STATS 10"},
+            {"type": "course", "courseId": "STATS 12"},
+            {"type": "course", "courseId": "STATS 13"}
           ]
         }
       ]
@@ -248,34 +158,13 @@
           "description": "Complete the following seven courses:",
           "needs": 7,
           "options": [
-            {
-              "type": "course",
-              "courseId": "A&O SCI 101"
-            },
-            {
-              "type": "course",
-              "courseId": "A&O SCI M105"
-            },
-            {
-              "type": "course",
-              "courseId": "A&O SCI C110"
-            },
-            {
-              "type": "course",
-              "courseId": "A&O SCI 112"
-            },
-            {
-              "type": "course",
-              "courseId": "A&O SCI 121"
-            },
-            {
-              "type": "course",
-              "courseId": "A&O SCI 123"
-            },
-            {
-              "type": "course",
-              "courseId": "A&O SCI 145"
-            }
+            {"type": "course", "courseId": "A&O SCI 101"},
+            {"type": "course", "courseId": "A&O SCI M105"},
+            {"type": "course", "courseId": "A&O SCI C110"},
+            {"type": "course", "courseId": "A&O SCI 112"},
+            {"type": "course", "courseId": "A&O SCI 121"},
+            {"type": "course", "courseId": "A&O SCI 123"},
+            {"type": "course", "courseId": "A&O SCI 145"}
           ]
         },
         {
@@ -284,34 +173,34 @@
           "description": "Complete two upper-division policy/solutions or quantitative courses from a preapproved list. Atmospheric and Oceanic Sciences 199 (independent research) taken for 4 units may be used to satisfy one upper-division elective. Thesis approval is required from a faculty adviser and must be submitted to the department student affairs officer. Upper-division electives may also be selected in consultation with the undergraduate advisers.",
           "needs": 2,
           "options": [
-            { "type": "course", "courseId": "URBN PL M165" },
-            { "type": "course", "courseId": "ENVIRON 150" },
-            { "type": "course", "courseId": "ENVIRON 157" },
-            { "type": "course", "courseId": "ENVIRON M161" },
-            { "type": "course", "courseId": "ENVIRON 166" },
-            { "type": "course", "courseId": "EPSS 101" },
-            { "type": "course", "courseId": "AOS 103" },
-            { "type": "course", "courseId": "AOS 104" },
-            { "type": "course", "courseId": "AOS M106" },
-            { "type": "course", "courseId": "AOS 107" },
-            { "type": "course", "courseId": "AOS CM114" },
-            { "type": "course", "courseId": "AOS M120" },
-            { "type": "course", "courseId": "AOS 130" },
-            { "type": "course", "courseId": "AOS 141" },
-            { "type": "course", "courseId": "AOS C144" },
-            { "type": "course", "courseId": "AOS 155" },
-            { "type": "course", "courseId": "AOS C160" },
-            { "type": "course", "courseId": "AOS 180" },
-            { "type": "course", "courseId": "AOS 192" },
-            { "type": "course", "courseId": "AOS 199" },
-            { "type": "course", "courseId": "MATH 134" },
-            { "type": "course", "courseId": "MATH 135" },
-            { "type": "course", "courseId": "MATH 136" },
-            { "type": "course", "courseId": "STATS 101A" },
-            { "type": "course", "courseId": "STATS 102A" },
-            { "type": "course", "courseId": "STATS 170" },
-            { "type": "course", "courseId": "STATS M171" },
-            { "type": "course", "courseId": "STATS C173" }
+            {"type": "course", "courseId": "URBN PL M165"},
+            {"type": "course", "courseId": "ENVIRON 150"},
+            {"type": "course", "courseId": "ENVIRON 157"},
+            {"type": "course", "courseId": "ENVIRON M161"},
+            {"type": "course", "courseId": "ENVIRON 166"},
+            {"type": "course", "courseId": "EPSS 101"},
+            {"type": "course", "courseId": "AOS 103"},
+            {"type": "course", "courseId": "AOS 104"},
+            {"type": "course", "courseId": "AOS M106"},
+            {"type": "course", "courseId": "AOS 107"},
+            {"type": "course", "courseId": "AOS CM114"},
+            {"type": "course", "courseId": "AOS M120"},
+            {"type": "course", "courseId": "AOS 130"},
+            {"type": "course", "courseId": "AOS 141"},
+            {"type": "course", "courseId": "AOS C144"},
+            {"type": "course", "courseId": "AOS 155"},
+            {"type": "course", "courseId": "AOS C160"},
+            {"type": "course", "courseId": "AOS 180"},
+            {"type": "course", "courseId": "AOS 192"},
+            {"type": "course", "courseId": "AOS 199"},
+            {"type": "course", "courseId": "MATH 134"},
+            {"type": "course", "courseId": "MATH 135"},
+            {"type": "course", "courseId": "MATH 136"},
+            {"type": "course", "courseId": "STATS 101A"},
+            {"type": "course", "courseId": "STATS 102A"},
+            {"type": "course", "courseId": "STATS 170"},
+            {"type": "course", "courseId": "STATS M171"},
+            {"type": "course", "courseId": "STATS C173"}
           ]
         }
       ]

@@ -17,22 +17,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 1"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 2"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 3"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 4"
-            }
+            {"type": "course", "courseId": "ANTHRO 1"},
+            {"type": "course", "courseId": "ANTHRO 2"},
+            {"type": "course", "courseId": "ANTHRO 3"},
+            {"type": "course", "courseId": "ANTHRO 4"}
           ]
         },
         {
@@ -47,22 +35,10 @@
               "description": "Complete the following four courses:",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14BL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14C"
-                }
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"}
               ]
             },
             {
@@ -71,26 +47,11 @@
               "description": "Complete the following five courses:",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20L"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30AL"
-                }
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"}
               ]
             }
           ]
@@ -101,22 +62,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7A"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7B"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7C"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7L"
-            }
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
           ]
         },
         {
@@ -131,28 +80,16 @@
               "description": "Take three courses as follows:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30B"
-                },
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"},
                 {
                   "type": "group",
                   "title": "Statistics",
                   "description": "And one of the following:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 40"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 13"
-                    }
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
                   ]
                 }
               ]
@@ -163,22 +100,10 @@
               "description": "Take four courses as follows:",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 3A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "STATS 12"
-                }
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"},
+                {"type": "course", "courseId": "STATS 12"}
               ]
             },
             {
@@ -187,18 +112,9 @@
               "description": "Take three courses as follows:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 31A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 31B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "STATS 12"
-                }
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "STATS 12"}
               ]
             }
           ]
@@ -209,18 +125,9 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PHYSICS 5A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 5B"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 5C"
-            }
+            {"type": "course", "courseId": "PHYSICS 5A"},
+            {"type": "course", "courseId": "PHYSICS 5B"},
+            {"type": "course", "courseId": "PHYSICS 5C"}
           ]
         }
       ]
@@ -362,46 +269,16 @@
           "description": "Select one course from the following range (or see the department for additional course options):",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 100"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 110"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 111"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 120"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 124Q"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 130"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 131"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 136A"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 140"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M150"
-            }
+            {"type": "course", "courseId": "ANTHRO 100"},
+            {"type": "course", "courseId": "ANTHRO 110"},
+            {"type": "course", "courseId": "ANTHRO 111"},
+            {"type": "course", "courseId": "ANTHRO 120"},
+            {"type": "course", "courseId": "ANTHRO 124Q"},
+            {"type": "course", "courseId": "ANTHRO 130"},
+            {"type": "course", "courseId": "ANTHRO 131"},
+            {"type": "course", "courseId": "ANTHRO 136A"},
+            {"type": "course", "courseId": "ANTHRO 140"},
+            {"type": "course", "courseId": "ANTHRO M150"}
           ]
         },
         {
@@ -519,22 +396,10 @@
               "description": "Complete all courses in this track.",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 191HA"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 191HB"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 191HC"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 191HD"
-                }
+                {"type": "course", "courseId": "ANTHRO 191HA"},
+                {"type": "course", "courseId": "ANTHRO 191HB"},
+                {"type": "course", "courseId": "ANTHRO 191HC"},
+                {"type": "course", "courseId": "ANTHRO 191HD"}
               ]
             }
           ]

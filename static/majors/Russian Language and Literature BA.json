@@ -52,14 +52,8 @@
           "description": "Select one course from the following or demonstrate equivalent proficiency:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "RUSSN 6"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 20"
-            }
+            {"type": "course", "courseId": "RUSSN 6"},
+            {"type": "course", "courseId": "RUSSN 20"}
           ]
         },
         {
@@ -68,26 +62,11 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "RUSSN 25"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 25W"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 90A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 90B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 90BW"
-            }
+            {"type": "course", "courseId": "RUSSN 25"},
+            {"type": "course", "courseId": "RUSSN 25W"},
+            {"type": "course", "courseId": "RUSSN 90A"},
+            {"type": "course", "courseId": "RUSSN 90B"},
+            {"type": "course", "courseId": "RUSSN 90BW"}
           ]
         }
       ]
@@ -103,70 +82,22 @@
           "description": "Select three courses from the following list. Consult with the undergraduate adviser for appropriate placement.",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "RUSSN 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 100B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 100C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 101A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 101B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 101C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 102A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 102B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 102C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 103A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 103B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 103C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 107A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 107B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 107C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 108"
-            }
+            {"type": "course", "courseId": "RUSSN 100A"},
+            {"type": "course", "courseId": "RUSSN 100B"},
+            {"type": "course", "courseId": "RUSSN 100C"},
+            {"type": "course", "courseId": "RUSSN 101A"},
+            {"type": "course", "courseId": "RUSSN 101B"},
+            {"type": "course", "courseId": "RUSSN 101C"},
+            {"type": "course", "courseId": "RUSSN 102A"},
+            {"type": "course", "courseId": "RUSSN 102B"},
+            {"type": "course", "courseId": "RUSSN 102C"},
+            {"type": "course", "courseId": "RUSSN 103A"},
+            {"type": "course", "courseId": "RUSSN 103B"},
+            {"type": "course", "courseId": "RUSSN 103C"},
+            {"type": "course", "courseId": "RUSSN 107A"},
+            {"type": "course", "courseId": "RUSSN 107B"},
+            {"type": "course", "courseId": "RUSSN 107C"},
+            {"type": "course", "courseId": "RUSSN 108"}
           ]
         },
         {
@@ -175,50 +106,17 @@
           "description": "Select five courses from:",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "RUSSN 119"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 120"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 121"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 129"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 130B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 130C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 140A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 140B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 140C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 140D"
-            }
+            {"type": "course", "courseId": "RUSSN 119"},
+            {"type": "course", "courseId": "RUSSN 120"},
+            {"type": "course", "courseId": "RUSSN 121"},
+            {"type": "course", "courseId": "RUSSN 129"},
+            {"type": "course", "courseId": "RUSSN 130A"},
+            {"type": "course", "courseId": "RUSSN 130B"},
+            {"type": "course", "courseId": "RUSSN 130C"},
+            {"type": "course", "courseId": "RUSSN 140A"},
+            {"type": "course", "courseId": "RUSSN 140B"},
+            {"type": "course", "courseId": "RUSSN 140C"},
+            {"type": "course", "courseId": "RUSSN 140D"}
           ]
         },
         {
@@ -227,86 +125,26 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "RUSSN 102A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 102B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 102C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 103A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 103B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 103C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 107A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 107B"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 107C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 108"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN M118"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 122"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN C124C"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN C124D"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN CM124G"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN C124N"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN C124P"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN C124T"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN M127"
-            },
-            {
-              "type": "course",
-              "courseId": "SLAVC CM114"
-            }
+            {"type": "course", "courseId": "RUSSN 102A"},
+            {"type": "course", "courseId": "RUSSN 102B"},
+            {"type": "course", "courseId": "RUSSN 102C"},
+            {"type": "course", "courseId": "RUSSN 103A"},
+            {"type": "course", "courseId": "RUSSN 103B"},
+            {"type": "course", "courseId": "RUSSN 103C"},
+            {"type": "course", "courseId": "RUSSN 107A"},
+            {"type": "course", "courseId": "RUSSN 107B"},
+            {"type": "course", "courseId": "RUSSN 107C"},
+            {"type": "course", "courseId": "RUSSN 108"},
+            {"type": "course", "courseId": "RUSSN M118"},
+            {"type": "course", "courseId": "RUSSN 122"},
+            {"type": "course", "courseId": "RUSSN C124C"},
+            {"type": "course", "courseId": "RUSSN C124D"},
+            {"type": "course", "courseId": "RUSSN CM124G"},
+            {"type": "course", "courseId": "RUSSN C124N"},
+            {"type": "course", "courseId": "RUSSN C124P"},
+            {"type": "course", "courseId": "RUSSN C124T"},
+            {"type": "course", "courseId": "RUSSN M127"},
+            {"type": "course", "courseId": "SLAVC CM114"}
           ]
         },
         {
@@ -315,18 +153,9 @@
           "description": "During their senior year, students must also take the following three courses in which they complete a capstone senior thesis:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SLAVC 191TA"
-            },
-            {
-              "type": "course",
-              "courseId": "SLAVC 191TB"
-            },
-            {
-              "type": "course",
-              "courseId": "SLAVC 191TC"
-            }
+            {"type": "course", "courseId": "SLAVC 191TA"},
+            {"type": "course", "courseId": "SLAVC 191TB"},
+            {"type": "course", "courseId": "SLAVC 191TC"}
           ]
         }
       ]
@@ -348,18 +177,9 @@
               "description": "The courses must be taken during senior year (fall, winter, and spring terms respectively).",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SLAVC 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SLAVC 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SLAVC 198C"
-                }
+                {"type": "course", "courseId": "SLAVC 198A"},
+                {"type": "course", "courseId": "SLAVC 198B"},
+                {"type": "course", "courseId": "SLAVC 198C"}
               ]
             }
           ]

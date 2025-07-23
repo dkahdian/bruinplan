@@ -11,38 +11,20 @@
       "title": "Preparation for the Major",
       "description": "Complete five courses and the foreign language requirement. Students may select English 4W or 4HW.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "LING 20"
-        },
+        {"type": "course", "courseId": "LING 20"},
         {
           "type": "group",
           "title": "Critical Reading and Writing",
           "description": "Select one course.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ENGL 4W"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 4HW"
-            }
+            {"type": "course", "courseId": "ENGL 4W"},
+            {"type": "course", "courseId": "ENGL 4HW"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "ENGL 10A"
-        },
-        {
-          "type": "course",
-          "courseId": "ENGL 10B"
-        },
-        {
-          "type": "course",
-          "courseId": "ENGL 10C"
-        },
+        {"type": "course", "courseId": "ENGL 10A"},
+        {"type": "course", "courseId": "ENGL 10B"},
+        {"type": "course", "courseId": "ENGL 10C"},
         {
           "type": "group",
           "title": "Foreign Language",
@@ -63,44 +45,20 @@
           "description": "Complete five courses: LING 103, LING 110, LING 120A, LING 120B, and one course from LING 165A or 165B.",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LING 103"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 110"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 120A"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 120B"
-            },
+            {"type": "course", "courseId": "LING 103"},
+            {"type": "course", "courseId": "LING 110"},
+            {"type": "course", "courseId": "LING 120A"},
+            {"type": "course", "courseId": "LING 120B"},
             {
               "type": "group",
               "title": "Advanced Linguistics Core",
               "description": "Select one course. Students may substitute LING 200A or LING 200B for LING 165A or LING 165B respectively under certain conditions.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LING 165A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LING 165B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LING 200A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LING 200B"
-                }
+                {"type": "course", "courseId": "LING 165A"},
+                {"type": "course", "courseId": "LING 165B"},
+                {"type": "course", "courseId": "LING 200A"},
+                {"type": "course", "courseId": "LING 200B"}
               ]
             }
           ]
@@ -111,61 +69,57 @@
           "description": "Complete one upper-division elective in the Linguistics Department (minimum 4 graded units).",
           "needs": 1,
           "options": [
-            { "type": "course", "courseId": "LING 102" },
-            { "type": "course", "courseId": "LING 103" },
-            { "type": "course", "courseId": "LING C104" },
-            { "type": "course", "courseId": "LING 105" },
-            { "type": "course", "courseId": "LING 110" },
-            { "type": "course", "courseId": "LING 110G" },
-            { "type": "course", "courseId": "LING C111" },
-            { "type": "course", "courseId": "LING 114" },
-            { "type": "course", "courseId": "LING 115" },
-            { "type": "course", "courseId": "LING M116" },
-            { "type": "course", "courseId": "LING 119A" },
-            { "type": "course", "courseId": "LING 120A" },
-            { "type": "course", "courseId": "LING 120B" },
-            { "type": "course", "courseId": "LING 120C" },
-            { "type": "course", "courseId": "LING 127" },
-            { "type": "course", "courseId": "LING C128A" },
-            { "type": "course", "courseId": "LING C128B" },
-            { "type": "course", "courseId": "LING 130" },
-            { "type": "course", "courseId": "LING 132" },
-            { "type": "course", "courseId": "LING C135" },
-            { "type": "course", "courseId": "LING C140" },
-            { "type": "course", "courseId": "LING M141" },
-            { "type": "course", "courseId": "LING 144" },
-            { "type": "course", "courseId": "LING M146" },
-            { "type": "course", "courseId": "LING M150" },
-            { "type": "course", "courseId": "LING 160" },
-            { "type": "course", "courseId": "LING 161" },
-            { "type": "course", "courseId": "LING 165A" },
-            { "type": "course", "courseId": "LING 165B" },
-            { "type": "course", "courseId": "LING 165C" },
-            { "type": "course", "courseId": "LING 170" },
-            { "type": "course", "courseId": "LING 175" },
-            { "type": "course", "courseId": "LING M176A" },
-            { "type": "course", "courseId": "LING M176B" },
-            { "type": "course", "courseId": "LING M177" },
-            { "type": "course", "courseId": "LING M178" },
-            { "type": "course", "courseId": "LING 180" },
-            { "type": "course", "courseId": "LING 185A" },
-            { "type": "course", "courseId": "LING 185B" },
-            { "type": "course", "courseId": "LING 185C" },
-            { "type": "course", "courseId": "LING 188SA" },
-            { "type": "course", "courseId": "LING 188SB" },
-            { "type": "course", "courseId": "LING 188SC" },
-            { "type": "course", "courseId": "LING 189" },
-            { "type": "course", "courseId": "LING 189HC" },
-            { "type": "course", "courseId": "LING 191A" },
-            { "type": "course", "courseId": "LING 191B" },
-            { "type": "course", "courseId": "LING 192A" },
-            { "type": "course", "courseId": "LING 192B" },
-            { "type": "course", "courseId": "LING 194" },
-            { "type": "course", "courseId": "LING 195" },
-            { "type": "course", "courseId": "LING 197" },
-            { "type": "course", "courseId": "LING 198A" },
-            { "type": "course", "courseId": "LING 198B" },
-            { "type": "course", "courseId": "LING 199" }
+            {"type": "course", "courseId": "LING 102"},
+            {"type": "course", "courseId": "LING C104"},
+            {"type": "course", "courseId": "LING 105"},
+            {"type": "course", "courseId": "LING 110G"},
+            {"type": "course", "courseId": "LING C111"},
+            {"type": "course", "courseId": "LING 114"},
+            {"type": "course", "courseId": "LING 115"},
+            {"type": "course", "courseId": "LING M116"},
+            {"type": "course", "courseId": "LING 119A"},
+            {"type": "course", "courseId": "LING 120C"},
+            {"type": "course", "courseId": "LING 127"},
+            {"type": "course", "courseId": "LING C128A"},
+            {"type": "course", "courseId": "LING C128B"},
+            {"type": "course", "courseId": "LING 130"},
+            {"type": "course", "courseId": "LING 132"},
+            {"type": "course", "courseId": "LING C135"},
+            {"type": "course", "courseId": "LING C140"},
+            {"type": "course", "courseId": "LING M141"},
+            {"type": "course", "courseId": "LING 144"},
+            {"type": "course", "courseId": "LING M146"},
+            {"type": "course", "courseId": "LING M150"},
+            {"type": "course", "courseId": "LING 160"},
+            {"type": "course", "courseId": "LING 161"},
+            {"type": "course", "courseId": "LING 165A"},
+            {"type": "course", "courseId": "LING 165B"},
+            {"type": "course", "courseId": "LING 165C"},
+            {"type": "course", "courseId": "LING 170"},
+            {"type": "course", "courseId": "LING 175"},
+            {"type": "course", "courseId": "LING M176A"},
+            {"type": "course", "courseId": "LING M176B"},
+            {"type": "course", "courseId": "LING M177"},
+            {"type": "course", "courseId": "LING M178"},
+            {"type": "course", "courseId": "LING 180"},
+            {"type": "course", "courseId": "LING 185A"},
+            {"type": "course", "courseId": "LING 185B"},
+            {"type": "course", "courseId": "LING 185C"},
+            {"type": "course", "courseId": "LING 188SA"},
+            {"type": "course", "courseId": "LING 188SB"},
+            {"type": "course", "courseId": "LING 188SC"},
+            {"type": "course", "courseId": "LING 189"},
+            {"type": "course", "courseId": "LING 189HC"},
+            {"type": "course", "courseId": "LING 191A"},
+            {"type": "course", "courseId": "LING 191B"},
+            {"type": "course", "courseId": "LING 192A"},
+            {"type": "course", "courseId": "LING 192B"},
+            {"type": "course", "courseId": "LING 194"},
+            {"type": "course", "courseId": "LING 195"},
+            {"type": "course", "courseId": "LING 197"},
+            {"type": "course", "courseId": "LING 198A"},
+            {"type": "course", "courseId": "LING 198B"},
+            {"type": "course", "courseId": "LING 199"}
           ]
         },
         {
@@ -174,22 +128,10 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ENGL 113A"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 120"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 141B"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 170"
-            }
+            {"type": "course", "courseId": "ENGL 113A"},
+            {"type": "course", "courseId": "ENGL 120"},
+            {"type": "course", "courseId": "ENGL 141B"},
+            {"type": "course", "courseId": "LING 170"}
           ]
         },
         {
@@ -198,118 +140,94 @@
           "description": "Select a total of three courses from the following list or from the course series below:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ENGL 113A"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 120"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 140A"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 140B"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 141B"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 150A"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 150B"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 151"
-            },
+            {"type": "course", "courseId": "ENGL 113A"},
+            {"type": "course", "courseId": "ENGL 120"},
+            {"type": "course", "courseId": "ENGL 140A"},
+            {"type": "course", "courseId": "ENGL 140B"},
+            {"type": "course", "courseId": "ENGL 141B"},
+            {"type": "course", "courseId": "ENGL 150A"},
+            {"type": "course", "courseId": "ENGL 150B"},
+            {"type": "course", "courseId": "ENGL 151"},
             {
               "type": "group",
               "title": "English 150 Series",
               "description": "One course from English 150 through 159.",
               "needs": 1,
-            "options": [
-              { "type": "course", "courseId": "ENGL 150A" },
-              { "type": "course", "courseId": "ENGL 150B" },
-              { "type": "course", "courseId": "ENGL 150C" },
-              { "type": "course", "courseId": "ENGL 151" },
-              { "type": "course", "courseId": "ENGL 152" },
-              { "type": "course", "courseId": "ENGL 153" },
-              { "type": "course", "courseId": "ENGL 154" },
-              { "type": "course", "courseId": "ENGL 155" },
-              { "type": "course", "courseId": "ENGL 156" },
-              { "type": "course", "courseId": "ENGL 157" },
-              { "type": "course", "courseId": "ENGL 159" },
-              { "type": "course", "courseId": "ENGL 159R" }
-            ]
+              "options": [
+                {"type": "course", "courseId": "ENGL 150A"},
+                {"type": "course", "courseId": "ENGL 150B"},
+                {"type": "course", "courseId": "ENGL 150C"},
+                {"type": "course", "courseId": "ENGL 151"},
+                {"type": "course", "courseId": "ENGL 152"},
+                {"type": "course", "courseId": "ENGL 153"},
+                {"type": "course", "courseId": "ENGL 154"},
+                {"type": "course", "courseId": "ENGL 155"},
+                {"type": "course", "courseId": "ENGL 156"},
+                {"type": "course", "courseId": "ENGL 157"},
+                {"type": "course", "courseId": "ENGL 159"},
+                {"type": "course", "courseId": "ENGL 159R"}
+              ]
             },
             {
               "type": "group",
               "title": "English 160 Series",
               "description": "One course from English 160 through 169.",
               "needs": 1,
-            "options": [
-              { "type": "course", "courseId": "ENGL 160A" },
-              { "type": "course", "courseId": "ENGL 160B" },
-              { "type": "course", "courseId": "ENGL 161A" },
-              { "type": "course", "courseId": "ENGL 161B" },
-              { "type": "course", "courseId": "ENGL 161C" },
-              { "type": "course", "courseId": "ENGL 162A" },
-              { "type": "course", "courseId": "ENGL 162B" },
-              { "type": "course", "courseId": "ENGL 163A" },
-              { "type": "course", "courseId": "ENGL 163B" },
-              { "type": "course", "courseId": "ENGL 163C" },
-              { "type": "course", "courseId": "ENGL 164A" },
-              { "type": "course", "courseId": "ENGL 164B" },
-              { "type": "course", "courseId": "ENGL 164C" },
-              { "type": "course", "courseId": "ENGL 164D" },
-              { "type": "course", "courseId": "ENGL 165A" },
-              { "type": "course", "courseId": "ENGL 165B" },
-              { "type": "course", "courseId": "ENGL 165C" },
-              { "type": "course", "courseId": "ENGL 166A" },
-              { "type": "course", "courseId": "ENGL 166B" },
-              { "type": "course", "courseId": "ENGL 166C" },
-              { "type": "course", "courseId": "ENGL 167A" },
-              { "type": "course", "courseId": "ENGL 167B" },
-              { "type": "course", "courseId": "ENGL 168" },
-              { "type": "course", "courseId": "ENGL 169" },
-              { "type": "course", "courseId": "ENGL 169R" }
-            ]
+              "options": [
+                {"type": "course", "courseId": "ENGL 160A"},
+                {"type": "course", "courseId": "ENGL 160B"},
+                {"type": "course", "courseId": "ENGL 161A"},
+                {"type": "course", "courseId": "ENGL 161B"},
+                {"type": "course", "courseId": "ENGL 161C"},
+                {"type": "course", "courseId": "ENGL 162A"},
+                {"type": "course", "courseId": "ENGL 162B"},
+                {"type": "course", "courseId": "ENGL 163A"},
+                {"type": "course", "courseId": "ENGL 163B"},
+                {"type": "course", "courseId": "ENGL 163C"},
+                {"type": "course", "courseId": "ENGL 164A"},
+                {"type": "course", "courseId": "ENGL 164B"},
+                {"type": "course", "courseId": "ENGL 164C"},
+                {"type": "course", "courseId": "ENGL 164D"},
+                {"type": "course", "courseId": "ENGL 165A"},
+                {"type": "course", "courseId": "ENGL 165B"},
+                {"type": "course", "courseId": "ENGL 165C"},
+                {"type": "course", "courseId": "ENGL 166A"},
+                {"type": "course", "courseId": "ENGL 166B"},
+                {"type": "course", "courseId": "ENGL 166C"},
+                {"type": "course", "courseId": "ENGL 167A"},
+                {"type": "course", "courseId": "ENGL 167B"},
+                {"type": "course", "courseId": "ENGL 168"},
+                {"type": "course", "courseId": "ENGL 169"},
+                {"type": "course", "courseId": "ENGL 169R"}
+              ]
             },
             {
               "type": "group",
               "title": "English 170 Series",
               "description": "One course from English 170 through 179.",
               "needs": 1,
-            "options": [
-              { "type": "course", "courseId": "ENGL 170A" },
-              { "type": "course", "courseId": "ENGL 170B" },
-              { "type": "course", "courseId": "ENGL 170C" },
-              { "type": "course", "courseId": "ENGL 171A" },
-              { "type": "course", "courseId": "ENGL 171B" },
-              { "type": "course", "courseId": "ENGL 171C" },
-              { "type": "course", "courseId": "ENGL 172A" },
-              { "type": "course", "courseId": "ENGL 172B" },
-              { "type": "course", "courseId": "ENGL 172C" },
-              { "type": "course", "courseId": "ENGL 173A" },
-              { "type": "course", "courseId": "ENGL 173B" },
-              { "type": "course", "courseId": "ENGL 173C" },
-              { "type": "course", "courseId": "ENGL 174A" },
-              { "type": "course", "courseId": "ENGL 174B" },
-              { "type": "course", "courseId": "ENGL 174C" },
-              { "type": "course", "courseId": "ENGL 175" },
-              { "type": "course", "courseId": "ENGL 176" },
-              { "type": "course", "courseId": "ENGL 177" },
-              { "type": "course", "courseId": "ENGL 179" },
-              { "type": "course", "courseId": "ENGL 179R" }
-            ]
+              "options": [
+                {"type": "course", "courseId": "ENGL 170A"},
+                {"type": "course", "courseId": "ENGL 170B"},
+                {"type": "course", "courseId": "ENGL 170C"},
+                {"type": "course", "courseId": "ENGL 171A"},
+                {"type": "course", "courseId": "ENGL 171B"},
+                {"type": "course", "courseId": "ENGL 171C"},
+                {"type": "course", "courseId": "ENGL 172A"},
+                {"type": "course", "courseId": "ENGL 172B"},
+                {"type": "course", "courseId": "ENGL 172C"},
+                {"type": "course", "courseId": "ENGL 173A"},
+                {"type": "course", "courseId": "ENGL 173B"},
+                {"type": "course", "courseId": "ENGL 173C"},
+                {"type": "course", "courseId": "ENGL 174A"},
+                {"type": "course", "courseId": "ENGL 174B"},
+                {"type": "course", "courseId": "ENGL 174C"},
+                {"type": "course", "courseId": "ENGL 175"},
+                {"type": "course", "courseId": "ENGL 176"},
+                {"type": "course", "courseId": "ENGL 177"},
+                {"type": "course", "courseId": "ENGL 179"},
+                {"type": "course", "courseId": "ENGL 179R"}
+              ]
             }
           ]
         }
@@ -332,20 +250,11 @@
               "description": "Complete both courses.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LING 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LING 198B"
-                }
+                {"type": "course", "courseId": "LING 198A"},
+                {"type": "course", "courseId": "LING 198B"}
               ]
             },
-            {
-              "type": "course",
-              "courseId": "LING 199"
-            }
+            {"type": "course", "courseId": "LING 199"}
           ]
         }
       ]
@@ -379,18 +288,9 @@
                       "description": "Complete all three courses.",
                       "needs": 3,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 10A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 10B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 10C"
-                        }
+                        {"type": "course", "courseId": "COMPTNG 10A"},
+                        {"type": "course", "courseId": "COMPTNG 10B"},
+                        {"type": "course", "courseId": "COMPTNG 10C"}
                       ]
                     },
                     {
@@ -399,14 +299,8 @@
                       "description": "Complete both courses.",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI 31"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI 32"
-                        }
+                        {"type": "course", "courseId": "COM SCI 31"},
+                        {"type": "course", "courseId": "COM SCI 32"}
                       ]
                     }
                   ]
@@ -417,14 +311,8 @@
                   "description": "Complete the following two courses:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LING 185A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MATH 61"
-                    }
+                    {"type": "course", "courseId": "LING 185A"},
+                    {"type": "course", "courseId": "MATH 61"}
                   ]
                 },
                 {
@@ -433,38 +321,14 @@
                   "description": "Select one course from:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LING C104"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 127"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 165A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 165B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 165C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 180"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LING 185B"
-                    }
+                    {"type": "course", "courseId": "LING C104"},
+                    {"type": "course", "courseId": "LING 127"},
+                    {"type": "course", "courseId": "LING 132"},
+                    {"type": "course", "courseId": "LING 165A"},
+                    {"type": "course", "courseId": "LING 165B"},
+                    {"type": "course", "courseId": "LING 165C"},
+                    {"type": "course", "courseId": "LING 180"},
+                    {"type": "course", "courseId": "LING 185B"}
                   ]
                 }
               ]

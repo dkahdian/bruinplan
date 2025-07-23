@@ -11,26 +11,11 @@
       "title": "Preparation for the Major",
       "description": "Complete the following five courses:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "WL ARTS 1"
-        },
-        {
-          "type": "course",
-          "courseId": "WL ARTS 2"
-        },
-        {
-          "type": "course",
-          "courseId": "WL ARTS 20"
-        },
-        {
-          "type": "course",
-          "courseId": "WL ARTS 24"
-        },
-        {
-          "type": "course",
-          "courseId": "WL ARTS 33"
-        }
+        {"type": "course", "courseId": "WL ARTS 1"},
+        {"type": "course", "courseId": "WL ARTS 2"},
+        {"type": "course", "courseId": "WL ARTS 20"},
+        {"type": "course", "courseId": "WL ARTS 24"},
+        {"type": "course", "courseId": "WL ARTS 33"}
       ]
     },
     {
@@ -44,14 +29,8 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "WL ARTS 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "WL ARTS 100B"
-            }
+            {"type": "course", "courseId": "WL ARTS 100A"},
+            {"type": "course", "courseId": "WL ARTS 100B"}
           ]
         },
         {
@@ -60,22 +39,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "WL ARTS 102"
-            },
-            {
-              "type": "course",
-              "courseId": "WL ARTS 104"
-            },
-            {
-              "type": "course",
-              "courseId": "WL ARTS 124"
-            },
-            {
-              "type": "course",
-              "courseId": "WL ARTS 185"
-            }
+            {"type": "course", "courseId": "WL ARTS 102"},
+            {"type": "course", "courseId": "WL ARTS 104"},
+            {"type": "course", "courseId": "WL ARTS 124"},
+            {"type": "course", "courseId": "WL ARTS 185"}
           ]
         },
         {
@@ -157,14 +124,8 @@
               "description": "Complete the two required courses for the project.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "WL ARTS 186A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "WL ARTS 186B"
-                }
+                {"type": "course", "courseId": "WL ARTS 186A"},
+                {"type": "course", "courseId": "WL ARTS 186B"}
               ]
             }
           ]

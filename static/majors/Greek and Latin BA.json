@@ -11,14 +11,8 @@
       "title": "Preparation for the Major",
       "description": "Complete 10 courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "CLASSIC 10"
-        },
-        {
-          "type": "course",
-          "courseId": "CLASSIC 20"
-        },
+        {"type": "course", "courseId": "CLASSIC 10"},
+        {"type": "course", "courseId": "CLASSIC 20"},
         {
           "type": "group",
           "title": "Elementary Greek Sequence",
@@ -31,46 +25,19 @@
               "description": "Complete all three courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GREEK 1"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GREEK 2"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GREEK 3"
-                }
+                {"type": "course", "courseId": "GREEK 1"},
+                {"type": "course", "courseId": "GREEK 2"},
+                {"type": "course", "courseId": "GREEK 3"}
               ]
             },
-            {
-              "type": "course",
-              "courseId": "GREEK 16"
-            }
+            {"type": "course", "courseId": "GREEK 16"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "GREEK 20"
-        },
-        {
-          "type": "course",
-          "courseId": "LATIN 1"
-        },
-        {
-          "type": "course",
-          "courseId": "LATIN 2"
-        },
-        {
-          "type": "course",
-          "courseId": "LATIN 3"
-        },
-        {
-          "type": "course",
-          "courseId": "LATIN 20"
-        }
+        {"type": "course", "courseId": "GREEK 20"},
+        {"type": "course", "courseId": "LATIN 1"},
+        {"type": "course", "courseId": "LATIN 2"},
+        {"type": "course", "courseId": "LATIN 3"},
+        {"type": "course", "courseId": "LATIN 20"}
       ]
     },
     {
@@ -90,33 +57,33 @@
               "description": "Select at least four upper-division Greek courses.",
               "needs": 4,
               "options": [
-                { "type": "course", "courseId": "GREEK 100" },
-                { "type": "course", "courseId": "GREEK 101A" },
-                { "type": "course", "courseId": "GREEK 101B" },
-                { "type": "course", "courseId": "GREEK 102" },
-                { "type": "course", "courseId": "GREEK 103" },
-                { "type": "course", "courseId": "GREEK 104" },
-                { "type": "course", "courseId": "GREEK 105" },
-                { "type": "course", "courseId": "GREEK 106" },
-                { "type": "course", "courseId": "GREEK 107" },
-                { "type": "course", "courseId": "GREEK 110" },
-                { "type": "course", "courseId": "GREEK 111" },
-                { "type": "course", "courseId": "GREEK 112" },
-                { "type": "course", "courseId": "GREEK 113" },
-                { "type": "course", "courseId": "GREEK 115" },
-                { "type": "course", "courseId": "GREEK 121" },
-                { "type": "course", "courseId": "GREEK 122" },
-                { "type": "course", "courseId": "GREEK 123" },
-                { "type": "course", "courseId": "GREEK 124" },
-                { "type": "course", "courseId": "GREEK 130" },
-                { "type": "course", "courseId": "GREEK 131" },
-                { "type": "course", "courseId": "GREEK 132" },
-                { "type": "course", "courseId": "GREEK 133" },
-                { "type": "course", "courseId": "GREEK 140" },
-                { "type": "course", "courseId": "GREEK 189" },
-                { "type": "course", "courseId": "GREEK 189HC" },
-                { "type": "course", "courseId": "GREEK 197" },
-                { "type": "course", "courseId": "GREEK 199" }
+                {"type": "course", "courseId": "GREEK 100"},
+                {"type": "course", "courseId": "GREEK 101A"},
+                {"type": "course", "courseId": "GREEK 101B"},
+                {"type": "course", "courseId": "GREEK 102"},
+                {"type": "course", "courseId": "GREEK 103"},
+                {"type": "course", "courseId": "GREEK 104"},
+                {"type": "course", "courseId": "GREEK 105"},
+                {"type": "course", "courseId": "GREEK 106"},
+                {"type": "course", "courseId": "GREEK 107"},
+                {"type": "course", "courseId": "GREEK 110"},
+                {"type": "course", "courseId": "GREEK 111"},
+                {"type": "course", "courseId": "GREEK 112"},
+                {"type": "course", "courseId": "GREEK 113"},
+                {"type": "course", "courseId": "GREEK 115"},
+                {"type": "course", "courseId": "GREEK 121"},
+                {"type": "course", "courseId": "GREEK 122"},
+                {"type": "course", "courseId": "GREEK 123"},
+                {"type": "course", "courseId": "GREEK 124"},
+                {"type": "course", "courseId": "GREEK 130"},
+                {"type": "course", "courseId": "GREEK 131"},
+                {"type": "course", "courseId": "GREEK 132"},
+                {"type": "course", "courseId": "GREEK 133"},
+                {"type": "course", "courseId": "GREEK 140"},
+                {"type": "course", "courseId": "GREEK 189"},
+                {"type": "course", "courseId": "GREEK 189HC"},
+                {"type": "course", "courseId": "GREEK 197"},
+                {"type": "course", "courseId": "GREEK 199"}
               ]
             },
             {
@@ -125,37 +92,37 @@
               "description": "Select at least four upper-division Latin courses.",
               "needs": 4,
               "options": [
-                { "type": "course", "courseId": "LATIN 100" },
-                { "type": "course", "courseId": "LATIN 101" },
-                { "type": "course", "courseId": "LATIN 102" },
-                { "type": "course", "courseId": "LATIN 103" },
-                { "type": "course", "courseId": "LATIN 104" },
-                { "type": "course", "courseId": "LATIN 105A" },
-                { "type": "course", "courseId": "LATIN 105B" },
-                { "type": "course", "courseId": "LATIN 106" },
-                { "type": "course", "courseId": "LATIN 107" },
-                { "type": "course", "courseId": "LATIN 108" },
-                { "type": "course", "courseId": "LATIN 109" },
-                { "type": "course", "courseId": "LATIN 110" },
-                { "type": "course", "courseId": "LATIN 111" },
-                { "type": "course", "courseId": "LATIN 112" },
-                { "type": "course", "courseId": "LATIN 113" },
-                { "type": "course", "courseId": "LATIN 114" },
-                { "type": "course", "courseId": "LATIN 115" },
-                { "type": "course", "courseId": "LATIN 116" },
-                { "type": "course", "courseId": "LATIN 117" },
-                { "type": "course", "courseId": "LATIN 118" },
-                { "type": "course", "courseId": "LATIN 119A" },
-                { "type": "course", "courseId": "LATIN 119B" },
-                { "type": "course", "courseId": "LATIN 120" },
-                { "type": "course", "courseId": "LATIN 121" },
-                { "type": "course", "courseId": "LATIN 130" },
-                { "type": "course", "courseId": "LATIN 131" },
-                { "type": "course", "courseId": "LATIN 133" },
-                { "type": "course", "courseId": "LATIN 189" },
-                { "type": "course", "courseId": "LATIN 189HC" },
-                { "type": "course", "courseId": "LATIN 197" },
-                { "type": "course", "courseId": "LATIN 199" }
+                {"type": "course", "courseId": "LATIN 100"},
+                {"type": "course", "courseId": "LATIN 101"},
+                {"type": "course", "courseId": "LATIN 102"},
+                {"type": "course", "courseId": "LATIN 103"},
+                {"type": "course", "courseId": "LATIN 104"},
+                {"type": "course", "courseId": "LATIN 105A"},
+                {"type": "course", "courseId": "LATIN 105B"},
+                {"type": "course", "courseId": "LATIN 106"},
+                {"type": "course", "courseId": "LATIN 107"},
+                {"type": "course", "courseId": "LATIN 108"},
+                {"type": "course", "courseId": "LATIN 109"},
+                {"type": "course", "courseId": "LATIN 110"},
+                {"type": "course", "courseId": "LATIN 111"},
+                {"type": "course", "courseId": "LATIN 112"},
+                {"type": "course", "courseId": "LATIN 113"},
+                {"type": "course", "courseId": "LATIN 114"},
+                {"type": "course", "courseId": "LATIN 115"},
+                {"type": "course", "courseId": "LATIN 116"},
+                {"type": "course", "courseId": "LATIN 117"},
+                {"type": "course", "courseId": "LATIN 118"},
+                {"type": "course", "courseId": "LATIN 119A"},
+                {"type": "course", "courseId": "LATIN 119B"},
+                {"type": "course", "courseId": "LATIN 120"},
+                {"type": "course", "courseId": "LATIN 121"},
+                {"type": "course", "courseId": "LATIN 130"},
+                {"type": "course", "courseId": "LATIN 131"},
+                {"type": "course", "courseId": "LATIN 133"},
+                {"type": "course", "courseId": "LATIN 189"},
+                {"type": "course", "courseId": "LATIN 189HC"},
+                {"type": "course", "courseId": "LATIN 197"},
+                {"type": "course", "courseId": "LATIN 199"}
               ]
             }
           ]
@@ -166,50 +133,17 @@
           "description": "Select three upper-division courses. Options include any upper-division courses in classical civilization or the ancient history courses listed below.",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "HIST 112A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 112B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M112C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 112D"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M112E"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 113A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 113B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 114A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 114B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 114C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 115"
-            }
+            {"type": "course", "courseId": "HIST 112A"},
+            {"type": "course", "courseId": "HIST 112B"},
+            {"type": "course", "courseId": "HIST M112C"},
+            {"type": "course", "courseId": "HIST 112D"},
+            {"type": "course", "courseId": "HIST M112E"},
+            {"type": "course", "courseId": "HIST 113A"},
+            {"type": "course", "courseId": "HIST 113B"},
+            {"type": "course", "courseId": "HIST 114A"},
+            {"type": "course", "courseId": "HIST 114B"},
+            {"type": "course", "courseId": "HIST 114C"},
+            {"type": "course", "courseId": "HIST 115"}
           ]
         },
         {
@@ -218,10 +152,7 @@
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CLASSIC 191"
-            }
+            {"type": "course", "courseId": "CLASSIC 191"}
           ]
         }
       ]
@@ -237,14 +168,8 @@
           "description": "Students must enroll in Classics 198A and 198B in consecutive terms to write a thesis. To qualify for honors, students must complete Classics 198A and 198B with grades of A- or better. To qualify for highest honors, students must complete them with grades of A. Only course 198B may be applied toward the upper-division classical civilization requirement.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CLASSIC 198A"
-            },
-            {
-              "type": "course",
-              "courseId": "CLASSIC 198B"
-            }
+            {"type": "course", "courseId": "CLASSIC 198A"},
+            {"type": "course", "courseId": "CLASSIC 198B"}
           ]
         }
       ]

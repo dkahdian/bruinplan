@@ -11,34 +11,13 @@
       "title": "Preparation for the Major",
       "description": "Complete the following six required courses and 4 units of Theater 50.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "THEATER 11"
-        },
-        {
-          "type": "course",
-          "courseId": "THEATER 12"
-        },
-        {
-          "type": "course",
-          "courseId": "THEATER 13"
-        },
-        {
-          "type": "course",
-          "courseId": "THEATER 14A"
-        },
-        {
-          "type": "course",
-          "courseId": "THEATER 14B"
-        },
-        {
-          "type": "course",
-          "courseId": "THEATER 14C"
-        },
-        {
-          "type": "course",
-          "courseId": "THEATER 50"
-        }
+        {"type": "course", "courseId": "THEATER 11"},
+        {"type": "course", "courseId": "THEATER 12"},
+        {"type": "course", "courseId": "THEATER 13"},
+        {"type": "course", "courseId": "THEATER 14A"},
+        {"type": "course", "courseId": "THEATER 14B"},
+        {"type": "course", "courseId": "THEATER 14C"},
+        {"type": "course", "courseId": "THEATER 50"}
       ]
     },
     {
@@ -52,14 +31,8 @@
           "description": "Complete both courses.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "THEATER 101A"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 101B"
-            }
+            {"type": "course", "courseId": "THEATER 101A"},
+            {"type": "course", "courseId": "THEATER 101B"}
           ]
         },
         {
@@ -105,18 +78,9 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "THEATER 131C"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 163C"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 180"
-            }
+            {"type": "course", "courseId": "THEATER 131C"},
+            {"type": "course", "courseId": "THEATER 163C"},
+            {"type": "course", "courseId": "THEATER 180"}
           ]
         },
         {
@@ -125,38 +89,14 @@
           "description": "Complete 4 units from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "THEATER 150A"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 150B"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 150C"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 150D"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 173A"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 173B"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 174B"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 174C"
-            }
+            {"type": "course", "courseId": "THEATER 150A"},
+            {"type": "course", "courseId": "THEATER 150B"},
+            {"type": "course", "courseId": "THEATER 150C"},
+            {"type": "course", "courseId": "THEATER 150D"},
+            {"type": "course", "courseId": "THEATER 173A"},
+            {"type": "course", "courseId": "THEATER 173B"},
+            {"type": "course", "courseId": "THEATER 174B"},
+            {"type": "course", "courseId": "THEATER 174C"}
           ]
         },
         {

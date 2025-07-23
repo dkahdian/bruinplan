@@ -17,14 +17,8 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PUB HLT 50A"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB HLT 50B"
-            }
+            {"type": "course", "courseId": "PUB HLT 50A"},
+            {"type": "course", "courseId": "PUB HLT 50B"}
           ]
         },
         {
@@ -39,18 +33,9 @@
               "description": "Select one course from the following. A score of 4 or 5 on the Advanced Placement Chemistry examination may satisfy the requirement.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 3"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 17"
-                }
+                {"type": "course", "courseId": "CHEM 3"},
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 17"}
               ]
             },
             {
@@ -59,14 +44,8 @@
               "description": "Select one course from the following. A score of 4 or 5 on the Advanced Placement Biology examination may satisfy the requirement.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 7A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 15"
-                }
+                {"type": "course", "courseId": "LIFESCI 7A"},
+                {"type": "course", "courseId": "LIFESCI 15"}
               ]
             },
             {
@@ -75,14 +54,8 @@
               "description": "Select one course from:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "STATS 10"
-                },
-                {
-                  "type": "course",
-                  "courseId": "STATS 13"
-                }
+                {"type": "course", "courseId": "STATS 10"},
+                {"type": "course", "courseId": "STATS 13"}
               ]
             }
           ]
@@ -121,26 +94,11 @@
           "description": "Complete the following five courses:",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "BIOSTAT 120"
-            },
-            {
-              "type": "course",
-              "courseId": "COM HLT 120"
-            },
-            {
-              "type": "course",
-              "courseId": "ENV HLT 120"
-            },
-            {
-              "type": "course",
-              "courseId": "EPIDEM 120"
-            },
-            {
-              "type": "course",
-              "courseId": "HLT POL 120"
-            }
+            {"type": "course", "courseId": "BIOSTAT 120"},
+            {"type": "course", "courseId": "COM HLT 120"},
+            {"type": "course", "courseId": "ENV HLT 120"},
+            {"type": "course", "courseId": "EPIDEM 120"},
+            {"type": "course", "courseId": "HLT POL 120"}
           ]
         },
         {
@@ -151,8 +109,6 @@
           "options": [
             {"type": "course", "courseId": "PUB HLT M106"},
             {"type": "course", "courseId": "PUB HLT C150"},
-            {"type": "course", "courseId": "PUB HLT 185A"},
-            {"type": "course", "courseId": "PUB HLT 185B"},
             {"type": "course", "courseId": "PUB HLT C188"},
             {"type": "course", "courseId": "PUB HLT 188SA"},
             {"type": "course", "courseId": "PUB HLT 188SB"},
@@ -160,7 +116,6 @@
             {"type": "course", "courseId": "PUB HLT C191"},
             {"type": "course", "courseId": "PUB HLT 193"},
             {"type": "course", "courseId": "PUB HLT 195"},
-            {"type": "course", "courseId": "PUB HLT 195CE"},
             {"type": "course", "courseId": "PUB HLT 196"},
             {"type": "course", "courseId": "PUB HLT 197"},
             {"type": "course", "courseId": "PUB HLT 198"},
@@ -182,14 +137,8 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PUB HLT 185A"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB HLT 185B"
-            }
+            {"type": "course", "courseId": "PUB HLT 185A"},
+            {"type": "course", "courseId": "PUB HLT 185B"}
           ]
         }
       ]

@@ -17,50 +17,17 @@
           "description": "Select one intermediate sequence in one Asian language offered by the department (e.g., courses listed or equivalent):",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHIN 6"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 10"
-            },
-            {
-              "type": "course",
-              "courseId": "FILIPNO 6"
-            },
-            {
-              "type": "course",
-              "courseId": "HIN-URD 100C"
-            },
-            {
-              "type": "course",
-              "courseId": "INDO 6"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 6"
-            },
-            {
-              "type": "course",
-              "courseId": "JAPAN 10"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 6"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 10"
-            },
-            {
-              "type": "course",
-              "courseId": "THAI 6"
-            },
-            {
-              "type": "course",
-              "courseId": "VIETMSE 6"
-            }
+            {"type": "course", "courseId": "CHIN 6"},
+            {"type": "course", "courseId": "CHIN 10"},
+            {"type": "course", "courseId": "FILIPNO 6"},
+            {"type": "course", "courseId": "HIN-URD 100C"},
+            {"type": "course", "courseId": "INDO 6"},
+            {"type": "course", "courseId": "JAPAN 6"},
+            {"type": "course", "courseId": "JAPAN 10"},
+            {"type": "course", "courseId": "KOREA 6"},
+            {"type": "course", "courseId": "KOREA 10"},
+            {"type": "course", "courseId": "THAI 6"},
+            {"type": "course", "courseId": "VIETMSE 6"}
           ]
         },
         {
@@ -69,42 +36,15 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ASIAN 30"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIAN M60"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIAN M60W"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIAN M61"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN M60"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN M60W"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA M60"
-            },
-            {
-              "type": "course",
-              "courseId": "S ASIAN M60"
-            },
-            {
-              "type": "course",
-              "courseId": "SEASIAN M60"
-            }
+            {"type": "course", "courseId": "ASIAN 30"},
+            {"type": "course", "courseId": "ASIAN M60"},
+            {"type": "course", "courseId": "ASIAN M60W"},
+            {"type": "course", "courseId": "ASIAN M61"},
+            {"type": "course", "courseId": "CHIN M60"},
+            {"type": "course", "courseId": "CHIN M60W"},
+            {"type": "course", "courseId": "KOREA M60"},
+            {"type": "course", "courseId": "S ASIAN M60"},
+            {"type": "course", "courseId": "SEASIAN M60"}
           ]
         }
       ]
@@ -120,33 +60,32 @@
           "description": "Complete three upper-division language courses in one Asian language offered by the department.",
           "needs": 3,
           "options": [
-            { "type": "course", "courseId": "CHIN 100A" },
-            { "type": "course", "courseId": "CHIN 100B" },
-            { "type": "course", "courseId": "CHIN 100C" },
-            { "type": "course", "courseId": "CHIN 100D" },
-            { "type": "course", "courseId": "CHIN 100E" },
-            { "type": "course", "courseId": "CHIN 100F" },
-            { "type": "course", "courseId": "CHIN 100I" },
-            { "type": "course", "courseId": "CHIN 101A" },
-            { "type": "course", "courseId": "CHIN 101B" },
-            { "type": "course", "courseId": "CHIN 101C" },
-            { "type": "course", "courseId": "CHIN 102A" },
-            { "type": "course", "courseId": "CHIN 102B" },
-            { "type": "course", "courseId": "CHIN 102I" },
-            { "type": "course", "courseId": "CHIN 103" },
-            { "type": "course", "courseId": "CHIN 105A" },
-            { "type": "course", "courseId": "CHIN 105B" },
-            { "type": "course", "courseId": "CHIN C107A" },
-            { "type": "course", "courseId": "CHIN C107B" },
-            { "type": "course", "courseId": "CHIN 108FL" },
-            { "type": "course", "courseId": "CHIN 109" },
-            { "type": "course", "courseId": "CHIN 110A" },
-            { "type": "course", "courseId": "CHIN 110B" },
-            { "type": "course", "courseId": "CHIN 110C" },
-            { "type": "course", "courseId": "CHIN C120" },
-            { "type": "course", "courseId": "CHIN 124" },
-            { "type": "course", "courseId": "CHIN 125" }
-            
+            {"type": "course", "courseId": "CHIN 100A"},
+            {"type": "course", "courseId": "CHIN 100B"},
+            {"type": "course", "courseId": "CHIN 100C"},
+            {"type": "course", "courseId": "CHIN 100D"},
+            {"type": "course", "courseId": "CHIN 100E"},
+            {"type": "course", "courseId": "CHIN 100F"},
+            {"type": "course", "courseId": "CHIN 100I"},
+            {"type": "course", "courseId": "CHIN 101A"},
+            {"type": "course", "courseId": "CHIN 101B"},
+            {"type": "course", "courseId": "CHIN 101C"},
+            {"type": "course", "courseId": "CHIN 102A"},
+            {"type": "course", "courseId": "CHIN 102B"},
+            {"type": "course", "courseId": "CHIN 102I"},
+            {"type": "course", "courseId": "CHIN 103"},
+            {"type": "course", "courseId": "CHIN 105A"},
+            {"type": "course", "courseId": "CHIN 105B"},
+            {"type": "course", "courseId": "CHIN C107A"},
+            {"type": "course", "courseId": "CHIN C107B"},
+            {"type": "course", "courseId": "CHIN 108FL"},
+            {"type": "course", "courseId": "CHIN 109"},
+            {"type": "course", "courseId": "CHIN 110A"},
+            {"type": "course", "courseId": "CHIN 110B"},
+            {"type": "course", "courseId": "CHIN 110C"},
+            {"type": "course", "courseId": "CHIN C120"},
+            {"type": "course", "courseId": "CHIN 124"},
+            {"type": "course", "courseId": "CHIN 125"}
           ]
         },
         {
@@ -155,35 +94,34 @@
           "description": "Complete six upper-division Asian religions courses within the department, including at least one course each concerning religions in China, Japan, Korea, and either South Asia or Southeast Asia.",
           "needs": 6,
           "options": [
-            { "type": "course", "courseId": "ASIAN M60" },
-            { "type": "course", "courseId": "ASIAN M60W" },
-            { "type": "course", "courseId": "ASIAN M61" },
-            { "type": "course", "courseId": "ASIAN 151" },
-            { "type": "course", "courseId": "ASIAN 152" },
-            { "type": "course", "courseId": "ASIAN 155" },
-            { "type": "course", "courseId": "ASIAN 161" },
-            { "type": "course", "courseId": "ASIAN 162" },
-            { "type": "course", "courseId": "ASIAN 163" },
-            { "type": "course", "courseId": "ASIAN 164" },
-            { "type": "course", "courseId": "ASIAN C170" },
-            { "type": "course", "courseId": "CHIN M60" },
-            { "type": "course", "courseId": "CHIN M60W" },
-            { "type": "course", "courseId": "CHIN CM160" },
-            { "type": "course", "courseId": "CHIN 165" },
-            { "type": "course", "courseId": "CHIN 176" },
-            { "type": "course", "courseId": "CHIN 180" },
-            { "type": "course", "courseId": "CHIN 185" },
-            { "type": "course", "courseId": "CHIN 187" },
-            { "type": "course", "courseId": "CHIN 265A" },
-            { "type": "course", "courseId": "CHIN 265B" },
-            { "type": "course", "courseId": "CHIN C275" },
-            { "type": "course", "courseId": "KOREA M60" },
-            { "type": "course", "courseId": "KOREA 165" },
-            { "type": "course", "courseId": "KOREA 176" },
-            { "type": "course", "courseId": "KOREA 187" },
-            { "type": "course", "courseId": "S ASIAN M60" },
-            { "type": "course", "courseId": "SEASIAN M60" }
-            
+            {"type": "course", "courseId": "ASIAN M60"},
+            {"type": "course", "courseId": "ASIAN M60W"},
+            {"type": "course", "courseId": "ASIAN M61"},
+            {"type": "course", "courseId": "ASIAN 151"},
+            {"type": "course", "courseId": "ASIAN 152"},
+            {"type": "course", "courseId": "ASIAN 155"},
+            {"type": "course", "courseId": "ASIAN 161"},
+            {"type": "course", "courseId": "ASIAN 162"},
+            {"type": "course", "courseId": "ASIAN 163"},
+            {"type": "course", "courseId": "ASIAN 164"},
+            {"type": "course", "courseId": "ASIAN C170"},
+            {"type": "course", "courseId": "CHIN M60"},
+            {"type": "course", "courseId": "CHIN M60W"},
+            {"type": "course", "courseId": "CHIN CM160"},
+            {"type": "course", "courseId": "CHIN 165"},
+            {"type": "course", "courseId": "CHIN 176"},
+            {"type": "course", "courseId": "CHIN 180"},
+            {"type": "course", "courseId": "CHIN 185"},
+            {"type": "course", "courseId": "CHIN 187"},
+            {"type": "course", "courseId": "CHIN 265A"},
+            {"type": "course", "courseId": "CHIN 265B"},
+            {"type": "course", "courseId": "CHIN C275"},
+            {"type": "course", "courseId": "KOREA M60"},
+            {"type": "course", "courseId": "KOREA 165"},
+            {"type": "course", "courseId": "KOREA 176"},
+            {"type": "course", "courseId": "KOREA 187"},
+            {"type": "course", "courseId": "S ASIAN M60"},
+            {"type": "course", "courseId": "SEASIAN M60"}
           ]
         },
         {
@@ -192,33 +130,32 @@
           "description": "Complete two electives within the department.",
           "needs": 2,
           "options": [
-            { "type": "course", "courseId": "ASIAN 100" },
-            { "type": "course", "courseId": "ASIAN 104" },
-            { "type": "course", "courseId": "ASIAN 120FL" },
-            { "type": "course", "courseId": "ASIAN 121" },
-            { "type": "course", "courseId": "ASIAN CM124" },
-            { "type": "course", "courseId": "ASIAN 130" },
-            { "type": "course", "courseId": "ASIAN 135" },
-            { "type": "course", "courseId": "ASIAN 140" },
-            { "type": "course", "courseId": "ASIAN 151" },
-            { "type": "course", "courseId": "ASIAN 152" },
-            { "type": "course", "courseId": "ASIAN 155" },
-            { "type": "course", "courseId": "ASIAN 158" },
-            { "type": "course", "courseId": "ASIAN 161" },
-            { "type": "course", "courseId": "ASIAN 162" },
-            { "type": "course", "courseId": "ASIAN 163" },
-            { "type": "course", "courseId": "ASIAN 164" },
-            { "type": "course", "courseId": "ASIAN C170" },
-            { "type": "course", "courseId": "ASIAN 184" },
-            { "type": "course", "courseId": "ASIAN 189" },
-            { "type": "course", "courseId": "ASIAN 190" },
-            { "type": "course", "courseId": "ASIAN 191A" },
-            { "type": "course", "courseId": "ASIAN 191B" },
-            { "type": "course", "courseId": "ASIAN 191H" },
-            { "type": "course", "courseId": "ASIAN 193" },
-            { "type": "course", "courseId": "ASIAN 195" },
-            { "type": "course", "courseId": "ASIAN 199" }
-            
+            {"type": "course", "courseId": "ASIAN 100"},
+            {"type": "course", "courseId": "ASIAN 104"},
+            {"type": "course", "courseId": "ASIAN 120FL"},
+            {"type": "course", "courseId": "ASIAN 121"},
+            {"type": "course", "courseId": "ASIAN CM124"},
+            {"type": "course", "courseId": "ASIAN 130"},
+            {"type": "course", "courseId": "ASIAN 135"},
+            {"type": "course", "courseId": "ASIAN 140"},
+            {"type": "course", "courseId": "ASIAN 151"},
+            {"type": "course", "courseId": "ASIAN 152"},
+            {"type": "course", "courseId": "ASIAN 155"},
+            {"type": "course", "courseId": "ASIAN 158"},
+            {"type": "course", "courseId": "ASIAN 161"},
+            {"type": "course", "courseId": "ASIAN 162"},
+            {"type": "course", "courseId": "ASIAN 163"},
+            {"type": "course", "courseId": "ASIAN 164"},
+            {"type": "course", "courseId": "ASIAN C170"},
+            {"type": "course", "courseId": "ASIAN 184"},
+            {"type": "course", "courseId": "ASIAN 189"},
+            {"type": "course", "courseId": "ASIAN 190"},
+            {"type": "course", "courseId": "ASIAN 191A"},
+            {"type": "course", "courseId": "ASIAN 191B"},
+            {"type": "course", "courseId": "ASIAN 191H"},
+            {"type": "course", "courseId": "ASIAN 193"},
+            {"type": "course", "courseId": "ASIAN 195"},
+            {"type": "course", "courseId": "ASIAN 199"}
           ]
         }
       ]
@@ -240,18 +177,9 @@
               "description": "Complete all three courses in the honors research sequence.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198C"
-                }
+                {"type": "course", "courseId": "ASIAN 198A"},
+                {"type": "course", "courseId": "ASIAN 198B"},
+                {"type": "course", "courseId": "ASIAN 198C"}
               ]
             }
           ]

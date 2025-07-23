@@ -11,32 +11,17 @@
       "title": "Preparation for the Major",
       "description": "Complete five courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "DIS STD 1"
-        },
+        {"type": "course", "courseId": "DIS STD 1"},
         {
           "type": "group",
           "title": "Social Theory",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 3"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 10"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 80"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 1"
-            }
+            {"type": "course", "courseId": "ANTHRO 3"},
+            {"type": "course", "courseId": "PUB AFF 10"},
+            {"type": "course", "courseId": "PUB AFF 80"},
+            {"type": "course", "courseId": "SOCIOL 1"}
           ]
         },
         {
@@ -45,94 +30,28 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "AF AMER 1"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER 6"
-            },
-            {
-              "type": "course",
-              "courseId": "AM IND M10"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 10"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 20"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 30"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 40"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 50"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 10A"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 10B"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 20"
-            },
-            {
-              "type": "course",
-              "courseId": "CLUSTER 20B"
-            },
-            {
-              "type": "course",
-              "courseId": "CLUSTER M72B"
-            },
-            {
-              "type": "course",
-              "courseId": "CLUSTER 80BX"
-            },
-            {
-              "type": "course",
-              "courseId": "COMM M72B"
-            },
-            {
-              "type": "course",
-              "courseId": "DESMA 10"
-            },
-            {
-              "type": "course",
-              "courseId": "EDUC 11"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER 10"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 10"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M72B"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M72B"
-            },
-            {
-              "type": "course",
-              "courseId": "WL ARTS M23"
-            }
+            {"type": "course", "courseId": "AF AMER 1"},
+            {"type": "course", "courseId": "AF AMER 6"},
+            {"type": "course", "courseId": "AM IND M10"},
+            {"type": "course", "courseId": "ASIA AM 10"},
+            {"type": "course", "courseId": "ASIA AM 20"},
+            {"type": "course", "courseId": "ASIA AM 30"},
+            {"type": "course", "courseId": "ASIA AM 40"},
+            {"type": "course", "courseId": "ASIA AM 50"},
+            {"type": "course", "courseId": "CCAS 10A"},
+            {"type": "course", "courseId": "CCAS 10B"},
+            {"type": "course", "courseId": "CCAS 20"},
+            {"type": "course", "courseId": "CLUSTER 20B"},
+            {"type": "course", "courseId": "CLUSTER M72B"},
+            {"type": "course", "courseId": "CLUSTER 80BX"},
+            {"type": "course", "courseId": "COMM M72B"},
+            {"type": "course", "courseId": "DESMA 10"},
+            {"type": "course", "courseId": "EDUC 11"},
+            {"type": "course", "courseId": "GENDER 10"},
+            {"type": "course", "courseId": "LBR STD 10"},
+            {"type": "course", "courseId": "SOC GEN M72B"},
+            {"type": "course", "courseId": "SOCIOL M72B"},
+            {"type": "course", "courseId": "WL ARTS M23"}
           ]
         },
         {
@@ -141,42 +60,15 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CLUSTER M71B"
-            },
-            {
-              "type": "course",
-              "courseId": "CLUSTER 73B"
-            },
-            {
-              "type": "course",
-              "courseId": "COM LIT 1E"
-            },
-            {
-              "type": "course",
-              "courseId": "DESMA 10"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 60"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 22"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 22W"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN 5"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M71B"
-            }
+            {"type": "course", "courseId": "CLUSTER M71B"},
+            {"type": "course", "courseId": "CLUSTER 73B"},
+            {"type": "course", "courseId": "COM LIT 1E"},
+            {"type": "course", "courseId": "DESMA 10"},
+            {"type": "course", "courseId": "MCD BIO 60"},
+            {"type": "course", "courseId": "PHILOS 22"},
+            {"type": "course", "courseId": "PHILOS 22W"},
+            {"type": "course", "courseId": "SOC GEN 5"},
+            {"type": "course", "courseId": "SOC GEN M71B"}
           ]
         },
         {
@@ -185,30 +77,12 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "EDUC 35"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 40"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 6"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 60"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 10"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 13"
-            }
+            {"type": "course", "courseId": "EDUC 35"},
+            {"type": "course", "courseId": "LIFESCI 40"},
+            {"type": "course", "courseId": "POL SCI 6"},
+            {"type": "course", "courseId": "PUB AFF 60"},
+            {"type": "course", "courseId": "STATS 10"},
+            {"type": "course", "courseId": "STATS 13"}
           ]
         }
       ]
@@ -224,10 +98,7 @@
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "DIS STD 101W"
-            }
+            {"type": "course", "courseId": "DIS STD 101W"}
           ]
         },
         {
@@ -236,131 +107,59 @@
           "description": "Select two courses from the following. Anthropology 149 may only be applied if the topic offers an interdisciplinary perspective of disability. Nursing M172 and M172XP must be taken together to satisfy one course requirement.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ASL M115"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 137P"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 149"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM M117"
-            },
-            {
-              "type": "course",
-              "courseId": "DESMA 171"
-            },
+            {"type": "course", "courseId": "ASL M115"},
+            {"type": "course", "courseId": "ANTHRO 137P"},
+            {"type": "course", "courseId": "ANTHRO 149"},
+            {"type": "course", "courseId": "ASIA AM M117"},
+            {"type": "course", "courseId": "DESMA 171"},
             {
               "type": "group",
               "title": "Disability Studies Electives",
               "description": "Select from Disability Studies 102 through 187",
               "needs": 1,
               "options": [
-                { "type": "course", "courseId": "DIS STD 102" },
-                { "type": "course", "courseId": "DIS STD 110" },
-                { "type": "course", "courseId": "DIS STD 111" },
-                { "type": "course", "courseId": "DIS STD 120" },
-                { "type": "course", "courseId": "DIS STD 129" },
-                { "type": "course", "courseId": "DIS STD 131" },
-                { "type": "course", "courseId": "DIS STD 138XP" },
-                { "type": "course", "courseId": "DIS STD 145" },
-                { "type": "course", "courseId": "DIS STD 150" },
-                { "type": "course", "courseId": "DIS STD 163A" },
-                { "type": "course", "courseId": "DIS STD 163B" },
-                { "type": "course", "courseId": "DIS STD 164B" },
-                { "type": "course", "courseId": "DIS STD 187" }
+                {"type": "course", "courseId": "DIS STD 102"},
+                {"type": "course", "courseId": "DIS STD 110"},
+                {"type": "course", "courseId": "DIS STD 111"},
+                {"type": "course", "courseId": "DIS STD 120"},
+                {"type": "course", "courseId": "DIS STD 129"},
+                {"type": "course", "courseId": "DIS STD 131"},
+                {"type": "course", "courseId": "DIS STD 138XP"},
+                {"type": "course", "courseId": "DIS STD 145"},
+                {"type": "course", "courseId": "DIS STD 150"},
+                {"type": "course", "courseId": "DIS STD 163A"},
+                {"type": "course", "courseId": "DIS STD 163B"},
+                {"type": "course", "courseId": "DIS STD 164B"},
+                {"type": "course", "courseId": "DIS STD 187"}
               ]
             },
-            {
-              "type": "course",
-              "courseId": "EDUC 104A"
-            },
-            {
-              "type": "course",
-              "courseId": "EDUC 132"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL M103"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M121"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER 152"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M161"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS M183"
-            },
+            {"type": "course", "courseId": "EDUC 104A"},
+            {"type": "course", "courseId": "EDUC 132"},
+            {"type": "course", "courseId": "ENGL M103"},
+            {"type": "course", "courseId": "GENDER M121"},
+            {"type": "course", "courseId": "GENDER 152"},
+            {"type": "course", "courseId": "GENDER M161"},
+            {"type": "course", "courseId": "HNRS M183"},
             {
               "type": "group",
               "title": "Nursing Co-Requisite",
               "description": "Nursing M172 and M172XP must be taken together to satisfy one course requirement.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "NURSING M172"
-                },
-                {
-                  "type": "course",
-                  "courseId": "NURSING M172XP"
-                }
+                {"type": "course", "courseId": "NURSING M172"},
+                {"type": "course", "courseId": "NURSING M172XP"}
               ]
             },
-            {
-              "type": "course",
-              "courseId": "PSYCH M107"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 127A"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 127B"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 127C"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 132A"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH M139"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M166"
-            },
-            {
-              "type": "course",
-              "courseId": "SOC GEN M183"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M120"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M148"
-            }
+            {"type": "course", "courseId": "PSYCH M107"},
+            {"type": "course", "courseId": "PSYCH 127A"},
+            {"type": "course", "courseId": "PSYCH 127B"},
+            {"type": "course", "courseId": "PSYCH 127C"},
+            {"type": "course", "courseId": "PSYCH 132A"},
+            {"type": "course", "courseId": "PSYCH M139"},
+            {"type": "course", "courseId": "SOC GEN M166"},
+            {"type": "course", "courseId": "SOC GEN M183"},
+            {"type": "course", "courseId": "SOCIOL M120"},
+            {"type": "course", "courseId": "SOCIOL M148"}
           ]
         },
         {
@@ -375,158 +174,56 @@
               "description": "Note: Anthropology 149 may only be applied if the topic offers an interdisciplinary perspective of disability. Disability Studies M172 and M172XP, or Nursing M172 and M172XP, must be taken together to satisfy one course requirement.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 137P"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 149"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M117"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M129"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIA AM M161"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COM HLT 100"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COM HLT M140"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COM LIT 180"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 138XP"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M139"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M148"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M166"
-                },
+                {"type": "course", "courseId": "ANTHRO 137P"},
+                {"type": "course", "courseId": "ANTHRO 149"},
+                {"type": "course", "courseId": "ASIA AM M117"},
+                {"type": "course", "courseId": "ASIA AM M129"},
+                {"type": "course", "courseId": "ASIA AM M161"},
+                {"type": "course", "courseId": "COM HLT 100"},
+                {"type": "course", "courseId": "COM HLT M140"},
+                {"type": "course", "courseId": "COM LIT 180"},
+                {"type": "course", "courseId": "DIS STD 138XP"},
+                {"type": "course", "courseId": "DIS STD M139"},
+                {"type": "course", "courseId": "DIS STD M148"},
+                {"type": "course", "courseId": "DIS STD M166"},
                 {
                   "type": "group",
                   "title": "Disability Studies Co-Requisite",
                   "description": "Disability Studies M172 and M172XP must be taken together to satisfy one course requirement.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "DIS STD M172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "DIS STD M172XP"
-                    }
+                    {"type": "course", "courseId": "DIS STD M172"},
+                    {"type": "course", "courseId": "DIS STD M172XP"}
                   ]
                 },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M183"
-                },
-                {
-                  "type": "course",
-                  "courseId": "EDUC 132"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HLT POL M110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 179A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 179B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 179C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HNRS M183"
-                },
+                {"type": "course", "courseId": "DIS STD M183"},
+                {"type": "course", "courseId": "EDUC 132"},
+                {"type": "course", "courseId": "HLT POL M110"},
+                {"type": "course", "courseId": "HIST 179A"},
+                {"type": "course", "courseId": "HIST 179B"},
+                {"type": "course", "courseId": "HIST 179C"},
+                {"type": "course", "courseId": "HNRS M183"},
                 {
                   "type": "group",
                   "title": "Nursing Co-Requisite",
                   "description": "Nursing M172 and M172XP must be taken together to satisfy one course requirement.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "NURSING M172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NURSING M172XP"
-                    }
+                    {"type": "course", "courseId": "NURSING M172"},
+                    {"type": "course", "courseId": "NURSING M172XP"}
                   ]
                 },
-                {
-                  "type": "course",
-                  "courseId": "PHILOS 173"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PUB AFF M131"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PUB AFF 134"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH M107"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 127A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 127B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 127C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH M139"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOC GEN M166"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOC GEN M183"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M148"
-                }
+                {"type": "course", "courseId": "PHILOS 173"},
+                {"type": "course", "courseId": "PUB AFF M131"},
+                {"type": "course", "courseId": "PUB AFF 134"},
+                {"type": "course", "courseId": "PSYCH M107"},
+                {"type": "course", "courseId": "PSYCH 127A"},
+                {"type": "course", "courseId": "PSYCH 127B"},
+                {"type": "course", "courseId": "PSYCH 127C"},
+                {"type": "course", "courseId": "PSYCH M139"},
+                {"type": "course", "courseId": "SOC GEN M166"},
+                {"type": "course", "courseId": "SOC GEN M183"},
+                {"type": "course", "courseId": "SOCIOL M148"}
               ]
             },
             {
@@ -535,86 +232,38 @@
               "description": "Note: Disability Studies M172 and M172XP, or Nursing M172 and M172XP, must be taken together to satisfy one course requirement.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CESC 172XP"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DESMA 171"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 145"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M148"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M149"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M166"
-                },
+                {"type": "course", "courseId": "CESC 172XP"},
+                {"type": "course", "courseId": "DESMA 171"},
+                {"type": "course", "courseId": "DIS STD 145"},
+                {"type": "course", "courseId": "DIS STD M148"},
+                {"type": "course", "courseId": "DIS STD M149"},
+                {"type": "course", "courseId": "DIS STD M166"},
                 {
                   "type": "group",
                   "title": "Disability Studies Co-Requisite",
                   "description": "Disability Studies M172 and M172XP must be taken together to satisfy one course requirement.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "DIS STD M172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "DIS STD M172XP"
-                    }
+                    {"type": "course", "courseId": "DIS STD M172"},
+                    {"type": "course", "courseId": "DIS STD M172XP"}
                   ]
                 },
-                {
-                  "type": "course",
-                  "courseId": "EDUC 104A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GENDER 152"
-                },
+                {"type": "course", "courseId": "EDUC 104A"},
+                {"type": "course", "courseId": "GENDER 152"},
                 {
                   "type": "group",
                   "title": "Nursing Co-Requisite",
                   "description": "Nursing M172 and M172XP must be taken together to satisfy one course requirement.",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "NURSING M172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NURSING M172XP"
-                    }
+                    {"type": "course", "courseId": "NURSING M172"},
+                    {"type": "course", "courseId": "NURSING M172XP"}
                   ]
                 },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 132A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOC GEN M166"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M120"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M148"
-                }
+                {"type": "course", "courseId": "PSYCH 132A"},
+                {"type": "course", "courseId": "SOC GEN M166"},
+                {"type": "course", "courseId": "SOCIOL M120"},
+                {"type": "course", "courseId": "SOCIOL M148"}
               ]
             },
             {
@@ -623,66 +272,21 @@
               "description": "Refer to the following courses",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASL M115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COM LIT 180"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 111"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M114"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M139"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M161"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GENDER 104"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GENDER M121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GENDER M161"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH M139"
-                },
-                {
-                  "type": "course",
-                  "courseId": "THEATER M114"
-                }
+                {"type": "course", "courseId": "ASL M115"},
+                {"type": "course", "courseId": "COM LIT 180"},
+                {"type": "course", "courseId": "DIS STD M103"},
+                {"type": "course", "courseId": "DIS STD 111"},
+                {"type": "course", "courseId": "DIS STD M114"},
+                {"type": "course", "courseId": "DIS STD M115"},
+                {"type": "course", "courseId": "DIS STD M121"},
+                {"type": "course", "courseId": "DIS STD M139"},
+                {"type": "course", "courseId": "DIS STD M161"},
+                {"type": "course", "courseId": "ENGL M103"},
+                {"type": "course", "courseId": "GENDER 104"},
+                {"type": "course", "courseId": "GENDER M121"},
+                {"type": "course", "courseId": "GENDER M161"},
+                {"type": "course", "courseId": "PSYCH M139"},
+                {"type": "course", "courseId": "THEATER M114"}
               ]
             },
             {
@@ -691,46 +295,16 @@
               "description": "Note: Anthropology 149 may only be applied if the topic offers an interdisciplinary perspective of disability.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 137P"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 149"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COM HLT 132"
-                },
-                {
-                  "type": "course",
-                  "courseId": "COM LIT 180"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD M103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENGL M103"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GENDER 152"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 179A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 179B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 179C"
-                }
+                {"type": "course", "courseId": "ANTHRO 137P"},
+                {"type": "course", "courseId": "ANTHRO 149"},
+                {"type": "course", "courseId": "COM HLT 132"},
+                {"type": "course", "courseId": "COM LIT 180"},
+                {"type": "course", "courseId": "DIS STD M103"},
+                {"type": "course", "courseId": "ENGL M103"},
+                {"type": "course", "courseId": "GENDER 152"},
+                {"type": "course", "courseId": "HIST 179A"},
+                {"type": "course", "courseId": "HIST 179B"},
+                {"type": "course", "courseId": "HIST 179C"}
               ]
             }
           ]
@@ -747,14 +321,8 @@
               "description": "Complete two quarters of Disability Studies 195CE.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 195CE"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 195CE"
-                }
+                {"type": "course", "courseId": "DIS STD 195CE"},
+                {"type": "course", "courseId": "DIS STD 195CE"}
               ]
             },
             {
@@ -763,14 +331,8 @@
               "description": "Complete two quarters of Disability Studies 196.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 196"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 196"
-                }
+                {"type": "course", "courseId": "DIS STD 196"},
+                {"type": "course", "courseId": "DIS STD 196"}
               ]
             }
           ]
@@ -781,24 +343,15 @@
           "description": "Select course 191 (5 units), or two courses (6 units) from 198A and 198B, or 199A and 199B.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "DIS STD 191"
-            },
+            {"type": "course", "courseId": "DIS STD 191"},
             {
               "type": "group",
               "title": "Honors Research Sequence",
               "description": "Refer to the following courses",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 198B"
-                }
+                {"type": "course", "courseId": "DIS STD 198A"},
+                {"type": "course", "courseId": "DIS STD 198B"}
               ]
             },
             {
@@ -807,14 +360,8 @@
               "description": "Refer to the following courses",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 199A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "DIS STD 199B"
-                }
+                {"type": "course", "courseId": "DIS STD 199A"},
+                {"type": "course", "courseId": "DIS STD 199B"}
               ]
             }
           ]
@@ -832,14 +379,8 @@
           "description": "All honors students must complete their capstone requirement by taking courses 198A and 198B, in which they research, write, and present an honors thesis.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "DIS STD 198A"
-            },
-            {
-              "type": "course",
-              "courseId": "DIS STD 198B"
-            }
+            {"type": "course", "courseId": "DIS STD 198A"},
+            {"type": "course", "courseId": "DIS STD 198B"}
           ]
         }
       ]

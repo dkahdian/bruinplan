@@ -17,18 +17,9 @@
           "description": "Select one course from the following, or complete an equivalent course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHIN 6"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 6A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 10"
-            }
+            {"type": "course", "courseId": "CHIN 6"},
+            {"type": "course", "courseId": "CHIN 6A"},
+            {"type": "course", "courseId": "CHIN 10"}
           ]
         },
         {
@@ -37,26 +28,11 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ASIAN 30"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 50"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN M60"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN M60W"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 70"
-            }
+            {"type": "course", "courseId": "ASIAN 30"},
+            {"type": "course", "courseId": "CHIN 50"},
+            {"type": "course", "courseId": "CHIN M60"},
+            {"type": "course", "courseId": "CHIN M60W"},
+            {"type": "course", "courseId": "CHIN 70"}
           ]
         }
       ]
@@ -72,86 +48,26 @@
           "description": "Select five language courses from either modern Chinese or premodern Chinese from the following. At least two language courses must be in the premodern language or texts.",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHIN 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 100B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 100C"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 100I"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 101A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 101B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 102A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN C107A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN C120"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 130B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 135"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 110A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 110B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 110C"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 140A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 140B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 140C"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 140D"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 165"
-            }
+            {"type": "course", "courseId": "CHIN 100A"},
+            {"type": "course", "courseId": "CHIN 100B"},
+            {"type": "course", "courseId": "CHIN 100C"},
+            {"type": "course", "courseId": "CHIN 100I"},
+            {"type": "course", "courseId": "CHIN 101A"},
+            {"type": "course", "courseId": "CHIN 101B"},
+            {"type": "course", "courseId": "CHIN 102A"},
+            {"type": "course", "courseId": "CHIN C107A"},
+            {"type": "course", "courseId": "CHIN C120"},
+            {"type": "course", "courseId": "CHIN 130A"},
+            {"type": "course", "courseId": "CHIN 130B"},
+            {"type": "course", "courseId": "CHIN 135"},
+            {"type": "course", "courseId": "CHIN 110A"},
+            {"type": "course", "courseId": "CHIN 110B"},
+            {"type": "course", "courseId": "CHIN 110C"},
+            {"type": "course", "courseId": "CHIN 140A"},
+            {"type": "course", "courseId": "CHIN 140B"},
+            {"type": "course", "courseId": "CHIN 140C"},
+            {"type": "course", "courseId": "CHIN 140D"},
+            {"type": "course", "courseId": "CHIN 165"}
           ]
         },
         {
@@ -160,58 +76,19 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHIN 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 130B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 131"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 135"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 140A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 140B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 140C"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 140D"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN C150A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN C150B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 151"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 152"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN M153"
-            }
+            {"type": "course", "courseId": "CHIN 130A"},
+            {"type": "course", "courseId": "CHIN 130B"},
+            {"type": "course", "courseId": "CHIN 131"},
+            {"type": "course", "courseId": "CHIN 135"},
+            {"type": "course", "courseId": "CHIN 140A"},
+            {"type": "course", "courseId": "CHIN 140B"},
+            {"type": "course", "courseId": "CHIN 140C"},
+            {"type": "course", "courseId": "CHIN 140D"},
+            {"type": "course", "courseId": "CHIN C150A"},
+            {"type": "course", "courseId": "CHIN C150B"},
+            {"type": "course", "courseId": "CHIN 151"},
+            {"type": "course", "courseId": "CHIN 152"},
+            {"type": "course", "courseId": "CHIN M153"}
           ]
         },
         {
@@ -220,74 +97,23 @@
           "description": "Select three elective courses on China from the following list or from the Chinese language course groups not used to fulfill another requirement:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHIN C138"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 139"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 154"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 155"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN C156"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN CM160"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 165"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 174"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN C175"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 176"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 180"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 184"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 185"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 186"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 187"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 191A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 191B"
-            }
+            {"type": "course", "courseId": "CHIN C138"},
+            {"type": "course", "courseId": "CHIN 139"},
+            {"type": "course", "courseId": "CHIN 154"},
+            {"type": "course", "courseId": "CHIN 155"},
+            {"type": "course", "courseId": "CHIN C156"},
+            {"type": "course", "courseId": "CHIN CM160"},
+            {"type": "course", "courseId": "CHIN 165"},
+            {"type": "course", "courseId": "CHIN 174"},
+            {"type": "course", "courseId": "CHIN C175"},
+            {"type": "course", "courseId": "CHIN 176"},
+            {"type": "course", "courseId": "CHIN 180"},
+            {"type": "course", "courseId": "CHIN 184"},
+            {"type": "course", "courseId": "CHIN 185"},
+            {"type": "course", "courseId": "CHIN 186"},
+            {"type": "course", "courseId": "CHIN 187"},
+            {"type": "course", "courseId": "CHIN 191A"},
+            {"type": "course", "courseId": "CHIN 191B"}
           ]
         },
         {
@@ -316,18 +142,9 @@
               "description": "Complete the three-term honors research sequence:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ASIAN 198C"
-                }
+                {"type": "course", "courseId": "ASIAN 198A"},
+                {"type": "course", "courseId": "ASIAN 198B"},
+                {"type": "course", "courseId": "ASIAN 198C"}
               ]
             }
           ]

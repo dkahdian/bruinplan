@@ -11,64 +11,25 @@
       "title": "Preparation for the Major",
       "description": "Complete 11 courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "MATH 31A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 31B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 42"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 115A"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 20"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 21"
-        },
+        {"type": "course", "courseId": "MATH 31A"},
+        {"type": "course", "courseId": "MATH 31B"},
+        {"type": "course", "courseId": "MATH 32A"},
+        {"type": "course", "courseId": "MATH 32B"},
+        {"type": "course", "courseId": "MATH 33A"},
+        {"type": "course", "courseId": "MATH 42"},
+        {"type": "course", "courseId": "MATH 115A"},
+        {"type": "course", "courseId": "STATS 20"},
+        {"type": "course", "courseId": "STATS 21"},
         {
           "type": "group",
           "title": "Statistics Elective",
           "description": "Select one course",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "STATS 10"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 12"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 13"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 15"
-            }
+            {"type": "course", "courseId": "STATS 10"},
+            {"type": "course", "courseId": "STATS 12"},
+            {"type": "course", "courseId": "STATS 13"},
+            {"type": "course", "courseId": "STATS 15"}
           ]
         }
       ]
@@ -78,42 +39,15 @@
       "title": "The Major",
       "description": "Complete 16 courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "MATH 118"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 131A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 156"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 101A"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 101C"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 102A"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 102B"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 147"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 184"
-        },
+        {"type": "course", "courseId": "MATH 118"},
+        {"type": "course", "courseId": "MATH 131A"},
+        {"type": "course", "courseId": "MATH 156"},
+        {"type": "course", "courseId": "STATS 101A"},
+        {"type": "course", "courseId": "STATS 101C"},
+        {"type": "course", "courseId": "STATS 102A"},
+        {"type": "course", "courseId": "STATS 102B"},
+        {"type": "course", "courseId": "STATS 147"},
+        {"type": "course", "courseId": "STATS 184"},
         {
           "type": "group",
           "title": "Two-Quarter Sequence",
@@ -126,14 +60,8 @@
               "description": "Complete both courses in this sequence.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 170E"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 170S"
-                }
+                {"type": "course", "courseId": "MATH 170E"},
+                {"type": "course", "courseId": "MATH 170S"}
               ]
             },
             {
@@ -142,14 +70,8 @@
               "description": "Complete both courses in this sequence.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "STATS 100A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "STATS 100B"
-                }
+                {"type": "course", "courseId": "STATS 100A"},
+                {"type": "course", "courseId": "STATS 100B"}
               ]
             }
           ]
@@ -160,50 +82,17 @@
           "description": "Select one course",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MATH 151A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 151B"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 164"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 168"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 171"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 174E"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 178A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 178B"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 178C"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 179"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 182"
-            }
+            {"type": "course", "courseId": "MATH 151A"},
+            {"type": "course", "courseId": "MATH 151B"},
+            {"type": "course", "courseId": "MATH 164"},
+            {"type": "course", "courseId": "MATH 168"},
+            {"type": "course", "courseId": "MATH 171"},
+            {"type": "course", "courseId": "MATH 174E"},
+            {"type": "course", "courseId": "MATH 178A"},
+            {"type": "course", "courseId": "MATH 178B"},
+            {"type": "course", "courseId": "MATH 178C"},
+            {"type": "course", "courseId": "MATH 179"},
+            {"type": "course", "courseId": "MATH 182"}
           ]
         },
         {
@@ -212,30 +101,29 @@
           "description": "Select one course: STATS 100C, STATS 101B, STATS 102C, OR Select from Statistics C151 through 199 (except Statistics 182, 186, or 189).",
           "needs": 1,
           "options": [
-            { "type": "course", "courseId": "STATS 100C" },
-            { "type": "course", "courseId": "STATS 101B" },
-            { "type": "course", "courseId": "STATS 102C" },
-            { "type": "course", "courseId": "STATS C151" },
-            { "type": "course", "courseId": "STATS M154" },
-            { "type": "course", "courseId": "STATS C155" },
-            { "type": "course", "courseId": "STATS 157" },
-            { "type": "course", "courseId": "STATS C161" },
-            { "type": "course", "courseId": "STATS C163" },
-            { "type": "course", "courseId": "STATS 167" },
-            { "type": "course", "courseId": "STATS M169" },
-            { "type": "course", "courseId": "STATS 170" },
-            { "type": "course", "courseId": "STATS M171" },
-            { "type": "course", "courseId": "STATS C173" },
-            { "type": "course", "courseId": "STATS 175" },
-            { "type": "course", "courseId": "STATS C180" },
-            { "type": "course", "courseId": "STATS C183" },
-            { "type": "course", "courseId": "STATS 184" },
-            { "type": "course", "courseId": "STATS 188SA" },
-            { "type": "course", "courseId": "STATS 188SB" },
-            { "type": "course", "courseId": "STATS 188SC" },
-            { "type": "course", "courseId": "STATS 189HC" },
-            { "type": "course", "courseId": "STATS 195" },
-            { "type": "course", "courseId": "STATS 199" }
+            {"type": "course", "courseId": "STATS 100C"},
+            {"type": "course", "courseId": "STATS 101B"},
+            {"type": "course", "courseId": "STATS 102C"},
+            {"type": "course", "courseId": "STATS C151"},
+            {"type": "course", "courseId": "STATS M154"},
+            {"type": "course", "courseId": "STATS C155"},
+            {"type": "course", "courseId": "STATS 157"},
+            {"type": "course", "courseId": "STATS C161"},
+            {"type": "course", "courseId": "STATS C163"},
+            {"type": "course", "courseId": "STATS 167"},
+            {"type": "course", "courseId": "STATS M169"},
+            {"type": "course", "courseId": "STATS 170"},
+            {"type": "course", "courseId": "STATS M171"},
+            {"type": "course", "courseId": "STATS C173"},
+            {"type": "course", "courseId": "STATS 175"},
+            {"type": "course", "courseId": "STATS C180"},
+            {"type": "course", "courseId": "STATS C183"},
+            {"type": "course", "courseId": "STATS 188SA"},
+            {"type": "course", "courseId": "STATS 188SB"},
+            {"type": "course", "courseId": "STATS 188SC"},
+            {"type": "course", "courseId": "STATS 189HC"},
+            {"type": "course", "courseId": "STATS 195"},
+            {"type": "course", "courseId": "STATS 199"}
           ]
         },
         {
@@ -244,41 +132,40 @@
           "description": "Select two additional electives from either of the preceding Mathematics or Statistics elective lists.",
           "needs": 2,
           "options": [
-            { "type": "course", "courseId": "MATH 151A" },
-            { "type": "course", "courseId": "MATH 151B" },
-            { "type": "course", "courseId": "MATH 164" },
-            { "type": "course", "courseId": "MATH 168" },
-            { "type": "course", "courseId": "MATH 171" },
-            { "type": "course", "courseId": "MATH 174E" },
-            { "type": "course", "courseId": "MATH 178A" },
-            { "type": "course", "courseId": "MATH 178B" },
-            { "type": "course", "courseId": "MATH 178C" },
-            { "type": "course", "courseId": "MATH 179" },
-            { "type": "course", "courseId": "MATH 182" },
-            { "type": "course", "courseId": "STATS 100C" },
-            { "type": "course", "courseId": "STATS 101B" },
-            { "type": "course", "courseId": "STATS 102C" },
-            { "type": "course", "courseId": "STATS C151" },
-            { "type": "course", "courseId": "STATS M154" },
-            { "type": "course", "courseId": "STATS C155" },
-            { "type": "course", "courseId": "STATS 157" },
-            { "type": "course", "courseId": "STATS C161" },
-            { "type": "course", "courseId": "STATS C163" },
-            { "type": "course", "courseId": "STATS 167" },
-            { "type": "course", "courseId": "STATS M169" },
-            { "type": "course", "courseId": "STATS 170" },
-            { "type": "course", "courseId": "STATS M171" },
-            { "type": "course", "courseId": "STATS C173" },
-            { "type": "course", "courseId": "STATS 175" },
-            { "type": "course", "courseId": "STATS C180" },
-            { "type": "course", "courseId": "STATS C183" },
-            { "type": "course", "courseId": "STATS 184" },
-            { "type": "course", "courseId": "STATS 188SA" },
-            { "type": "course", "courseId": "STATS 188SB" },
-            { "type": "course", "courseId": "STATS 188SC" },
-            { "type": "course", "courseId": "STATS 189HC" },
-            { "type": "course", "courseId": "STATS 195" },
-            { "type": "course", "courseId": "STATS 199" }
+            {"type": "course", "courseId": "MATH 151A"},
+            {"type": "course", "courseId": "MATH 151B"},
+            {"type": "course", "courseId": "MATH 164"},
+            {"type": "course", "courseId": "MATH 168"},
+            {"type": "course", "courseId": "MATH 171"},
+            {"type": "course", "courseId": "MATH 174E"},
+            {"type": "course", "courseId": "MATH 178A"},
+            {"type": "course", "courseId": "MATH 178B"},
+            {"type": "course", "courseId": "MATH 178C"},
+            {"type": "course", "courseId": "MATH 179"},
+            {"type": "course", "courseId": "MATH 182"},
+            {"type": "course", "courseId": "STATS 100C"},
+            {"type": "course", "courseId": "STATS 101B"},
+            {"type": "course", "courseId": "STATS 102C"},
+            {"type": "course", "courseId": "STATS C151"},
+            {"type": "course", "courseId": "STATS M154"},
+            {"type": "course", "courseId": "STATS C155"},
+            {"type": "course", "courseId": "STATS 157"},
+            {"type": "course", "courseId": "STATS C161"},
+            {"type": "course", "courseId": "STATS C163"},
+            {"type": "course", "courseId": "STATS 167"},
+            {"type": "course", "courseId": "STATS M169"},
+            {"type": "course", "courseId": "STATS 170"},
+            {"type": "course", "courseId": "STATS M171"},
+            {"type": "course", "courseId": "STATS C173"},
+            {"type": "course", "courseId": "STATS 175"},
+            {"type": "course", "courseId": "STATS C180"},
+            {"type": "course", "courseId": "STATS C183"},
+            {"type": "course", "courseId": "STATS 188SA"},
+            {"type": "course", "courseId": "STATS 188SB"},
+            {"type": "course", "courseId": "STATS 188SC"},
+            {"type": "course", "courseId": "STATS 189HC"},
+            {"type": "course", "courseId": "STATS 195"},
+            {"type": "course", "courseId": "STATS 199"}
           ]
         },
         {
@@ -287,14 +174,8 @@
           "description": "Complete one course during the final year",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MATH M148"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS M148"
-            }
+            {"type": "course", "courseId": "MATH M148"},
+            {"type": "course", "courseId": "STATS M148"}
           ]
         }
       ]

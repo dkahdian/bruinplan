@@ -35,24 +35,15 @@
                       "description": "Complete 10 courses.",
                       "needs": 10,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 1"
-                        },
+                        {"type": "course", "courseId": "CHEM 1"},
                         {
                           "type": "group",
                           "title": "Chemical Structure",
                           "description": "Select one course.",
                           "needs": 1,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 20A"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 20AH"
-                            }
+                            {"type": "course", "courseId": "CHEM 20A"},
+                            {"type": "course", "courseId": "CHEM 20AH"}
                           ]
                         },
                         {
@@ -61,44 +52,17 @@
                           "description": "Select one course.",
                           "needs": 1,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 20B"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 20BH"
-                            }
+                            {"type": "course", "courseId": "CHEM 20B"},
+                            {"type": "course", "courseId": "CHEM 20BH"}
                           ]
                         },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 20L"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 30A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 30AL"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 30B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 30BL"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 30C"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 30CL"
-                        }
+                        {"type": "course", "courseId": "CHEM 20L"},
+                        {"type": "course", "courseId": "CHEM 30A"},
+                        {"type": "course", "courseId": "CHEM 30AL"},
+                        {"type": "course", "courseId": "CHEM 30B"},
+                        {"type": "course", "courseId": "CHEM 30BL"},
+                        {"type": "course", "courseId": "CHEM 30C"},
+                        {"type": "course", "courseId": "CHEM 30CL"}
                       ]
                     },
                     {
@@ -107,36 +71,18 @@
                       "description": "Complete five required courses. One additional course is highly recommended.",
                       "needs": 5,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MATH 31A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 31B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 32A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 32B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 33A"
-                        },
+                        {"type": "course", "courseId": "MATH 31A"},
+                        {"type": "course", "courseId": "MATH 31B"},
+                        {"type": "course", "courseId": "MATH 32A"},
+                        {"type": "course", "courseId": "MATH 32B"},
+                        {"type": "course", "courseId": "MATH 33A"},
                         {
                           "type": "group",
                           "title": "Differential Equations",
                           "description": "Mathematics 33B is highly recommended.",
                           "needs": 1,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "MATH 33B"
-                            }
+                            {"type": "course", "courseId": "MATH 33B"}
                           ]
                         }
                       ]
@@ -153,22 +99,10 @@
                           "description": "Complete all four courses.",
                           "needs": 4,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1A"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1B"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1C"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 4BL"
-                            }
+                            {"type": "course", "courseId": "PHYSICS 1A"},
+                            {"type": "course", "courseId": "PHYSICS 1B"},
+                            {"type": "course", "courseId": "PHYSICS 1C"},
+                            {"type": "course", "courseId": "PHYSICS 4BL"}
                           ]
                         },
                         {
@@ -177,22 +111,9 @@
                           "description": "Complete all four courses.",
                           "needs": 4,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1AH"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1BH"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1CH"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 4BL"
-                            }
+                            {"type": "course", "courseId": "PHYSICS 1AH"},
+                            {"type": "course", "courseId": "PHYSICS 1BH"},
+                            {"type": "course", "courseId": "PHYSICS 1CH"}
                           ]
                         }
                       ]
@@ -211,64 +132,31 @@
                       "description": "Complete the following eight courses and select one from CHEM 136 or 144.",
                       "needs": 9,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 110A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 110B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 113A"
-                        },
+                        {"type": "course", "courseId": "CHEM 110A"},
+                        {"type": "course", "courseId": "CHEM 110B"},
+                        {"type": "course", "courseId": "CHEM 113A"},
                         {
                           "type": "group",
                           "title": "Physical Chemistry Laboratory",
                           "description": "Select one course.",
                           "needs": 1,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 114"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 114H"
-                            }
+                            {"type": "course", "courseId": "CHEM 114"},
+                            {"type": "course", "courseId": "CHEM 114H"}
                           ]
                         },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 153A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 153L"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 171"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM C172"
-                        },
+                        {"type": "course", "courseId": "CHEM 153A"},
+                        {"type": "course", "courseId": "CHEM 153L"},
+                        {"type": "course", "courseId": "CHEM 171"},
+                        {"type": "course", "courseId": "CHEM C172"},
                         {
                           "type": "group",
                           "title": "Organic Chemistry Elective",
                           "description": "Select one course from:",
                           "needs": 1,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 136"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 144"
-                            }
+                            {"type": "course", "courseId": "CHEM 136"},
+                            {"type": "course", "courseId": "CHEM 144"}
                           ]
                         }
                       ]
@@ -279,30 +167,12 @@
                       "description": "Select two upper-division or graduate courses in the department, including at least one additional laboratory course.",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 136"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 144"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 154"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM C174"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 184"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM C185"
-                        }
+                        {"type": "course", "courseId": "CHEM 136"},
+                        {"type": "course", "courseId": "CHEM 144"},
+                        {"type": "course", "courseId": "CHEM 154"},
+                        {"type": "course", "courseId": "CHEM C174"},
+                        {"type": "course", "courseId": "CHEM 184"},
+                        {"type": "course", "courseId": "CHEM C185"}
                       ]
                     }
                   ]
@@ -327,24 +197,15 @@
                       "description": "Complete eight courses.",
                       "needs": 8,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 1"
-                        },
+                        {"type": "course", "courseId": "CHEM 1"},
                         {
                           "type": "group",
                           "title": "Chemical Structure",
                           "description": "Select one course.",
                           "needs": 1,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 20A"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 20AH"
-                            }
+                            {"type": "course", "courseId": "CHEM 20A"},
+                            {"type": "course", "courseId": "CHEM 20AH"}
                           ]
                         },
                         {
@@ -353,36 +214,15 @@
                           "description": "Select one course.",
                           "needs": 1,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 20B"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 20BH"
-                            }
+                            {"type": "course", "courseId": "CHEM 20B"},
+                            {"type": "course", "courseId": "CHEM 20BH"}
                           ]
                         },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 20L"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 30A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 30AL"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 30B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 30BL"
-                        }
+                        {"type": "course", "courseId": "CHEM 20L"},
+                        {"type": "course", "courseId": "CHEM 30A"},
+                        {"type": "course", "courseId": "CHEM 30AL"},
+                        {"type": "course", "courseId": "CHEM 30B"},
+                        {"type": "course", "courseId": "CHEM 30BL"}
                       ]
                     },
                     {
@@ -391,30 +231,12 @@
                       "description": "Complete six courses.",
                       "needs": 6,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MATH 31A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 31B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 32A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 32B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 33A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MATH 33B"
-                        }
+                        {"type": "course", "courseId": "MATH 31A"},
+                        {"type": "course", "courseId": "MATH 31B"},
+                        {"type": "course", "courseId": "MATH 32A"},
+                        {"type": "course", "courseId": "MATH 32B"},
+                        {"type": "course", "courseId": "MATH 33A"},
+                        {"type": "course", "courseId": "MATH 33B"}
                       ]
                     },
                     {
@@ -429,22 +251,10 @@
                           "description": "Complete all four courses.",
                           "needs": 4,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1A"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1B"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1C"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 4BL"
-                            }
+                            {"type": "course", "courseId": "PHYSICS 1A"},
+                            {"type": "course", "courseId": "PHYSICS 1B"},
+                            {"type": "course", "courseId": "PHYSICS 1C"},
+                            {"type": "course", "courseId": "PHYSICS 4BL"}
                           ]
                         },
                         {
@@ -453,22 +263,9 @@
                           "description": "Complete all four courses.",
                           "needs": 4,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1AH"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1BH"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 1CH"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "PHYSICS 4BL"
-                            }
+                            {"type": "course", "courseId": "PHYSICS 1AH"},
+                            {"type": "course", "courseId": "PHYSICS 1BH"},
+                            {"type": "course", "courseId": "PHYSICS 1CH"}
                           ]
                         }
                       ]
@@ -487,50 +284,23 @@
                       "description": "Complete the following eight courses.",
                       "needs": 8,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 110A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 110B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 113A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM C113B"
-                        },
+                        {"type": "course", "courseId": "CHEM 110A"},
+                        {"type": "course", "courseId": "CHEM 110B"},
+                        {"type": "course", "courseId": "CHEM 113A"},
+                        {"type": "course", "courseId": "CHEM C113B"},
                         {
                           "type": "group",
                           "title": "Physical Chemistry Laboratory",
                           "description": "Select one course.",
                           "needs": 1,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 114"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "CHEM 114H"
-                            }
+                            {"type": "course", "courseId": "CHEM 114"},
+                            {"type": "course", "courseId": "CHEM 114H"}
                           ]
                         },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 153A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 171"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM C172"
-                        }
+                        {"type": "course", "courseId": "CHEM 153A"},
+                        {"type": "course", "courseId": "CHEM 171"},
+                        {"type": "course", "courseId": "CHEM C172"}
                       ]
                     },
                     {
@@ -539,47 +309,47 @@
                       "description": "Complete one additional upper-division chemistry, engineering, or physics laboratory course (must have 'Lab' or 'Laboratory' in the title).",
                       "needs": 1,
                       "options": [
-                        { "type": "course", "courseId": "CHEM 114" },
-                        { "type": "course", "courseId": "CHEM 114H" },
-                        { "type": "course", "courseId": "CHEM 118" },
-                        { "type": "course", "courseId": "CHEM M120" },
-                        { "type": "course", "courseId": "CHEM 153L" },
-                        { "type": "course", "courseId": "CHEM C174" },
-                        { "type": "course", "courseId": "CHEM C185" },
-                        { "type": "course", "courseId": "PHYSICS 107AL" },
-                        { "type": "course", "courseId": "PHYSICS 107BL" },
-                        { "type": "course", "courseId": "PHYSICS 107CL" },
-                        { "type": "course", "courseId": "PHYSICS 115AL" },
-                        { "type": "course", "courseId": "PHYSICS 115BL" },
-                        { "type": "course", "courseId": "PHYSICS 115CL" },
-                        { "type": "course", "courseId": "PHYSICS 117AL" },
-                        { "type": "course", "courseId": "PHYSICS 117BL" },
-                        { "type": "course", "courseId": "PHYSICS 117CL" },
-                        { "type": "course", "courseId": "EC ENGR 100D" },
-                        { "type": "course", "courseId": "EC ENGR 110L" },
-                        { "type": "course", "courseId": "EC ENGR 115L" },
-                        { "type": "course", "courseId": "EC ENGR 121L" },
-                        { "type": "course", "courseId": "EC ENGR 123L" },
-                        { "type": "course", "courseId": "EC ENGR 132L" },
-                        { "type": "course", "courseId": "EC ENGR 133L" },
-                        { "type": "course", "courseId": "EC ENGR 134L" },
-                        { "type": "course", "courseId": "EC ENGR 135L" },
-                        { "type": "course", "courseId": "EC ENGR 136L" },
-                        { "type": "course", "courseId": "EC ENGR 141L" },
-                        { "type": "course", "courseId": "EC ENGR 142L" },
-                        { "type": "course", "courseId": "EC ENGR 143L" },
-                        { "type": "course", "courseId": "EC ENGR 146L" },
-                        { "type": "course", "courseId": "EC ENGR 147L" },
-                        { "type": "course", "courseId": "EC ENGR 148L" },
-                        { "type": "course", "courseId": "EC ENGR 150L" },
-                        { "type": "course", "courseId": "EC ENGR 162L" },
-                        { "type": "course", "courseId": "EC ENGR 163L" },
-                        { "type": "course", "courseId": "EC ENGR 164L" },
-                        { "type": "course", "courseId": "EC ENGR 165L" },
-                        { "type": "course", "courseId": "EC ENGR 166L" },
-                        { "type": "course", "courseId": "EC ENGR 167L" },
-                        { "type": "course", "courseId": "EC ENGR 168L" },
-                        { "type": "course", "courseId": "EC ENGR 169L" }
+                        {"type": "course", "courseId": "CHEM 114"},
+                        {"type": "course", "courseId": "CHEM 114H"},
+                        {"type": "course", "courseId": "CHEM 118"},
+                        {"type": "course", "courseId": "CHEM M120"},
+                        {"type": "course", "courseId": "CHEM 153L"},
+                        {"type": "course", "courseId": "CHEM C174"},
+                        {"type": "course", "courseId": "CHEM C185"},
+                        {"type": "course", "courseId": "PHYSICS 107AL"},
+                        {"type": "course", "courseId": "PHYSICS 107BL"},
+                        {"type": "course", "courseId": "PHYSICS 107CL"},
+                        {"type": "course", "courseId": "PHYSICS 115AL"},
+                        {"type": "course", "courseId": "PHYSICS 115BL"},
+                        {"type": "course", "courseId": "PHYSICS 115CL"},
+                        {"type": "course", "courseId": "PHYSICS 117AL"},
+                        {"type": "course", "courseId": "PHYSICS 117BL"},
+                        {"type": "course", "courseId": "PHYSICS 117CL"},
+                        {"type": "course", "courseId": "EC ENGR 100D"},
+                        {"type": "course", "courseId": "EC ENGR 110L"},
+                        {"type": "course", "courseId": "EC ENGR 115L"},
+                        {"type": "course", "courseId": "EC ENGR 121L"},
+                        {"type": "course", "courseId": "EC ENGR 123L"},
+                        {"type": "course", "courseId": "EC ENGR 132L"},
+                        {"type": "course", "courseId": "EC ENGR 133L"},
+                        {"type": "course", "courseId": "EC ENGR 134L"},
+                        {"type": "course", "courseId": "EC ENGR 135L"},
+                        {"type": "course", "courseId": "EC ENGR 136L"},
+                        {"type": "course", "courseId": "EC ENGR 141L"},
+                        {"type": "course", "courseId": "EC ENGR 142L"},
+                        {"type": "course", "courseId": "EC ENGR 143L"},
+                        {"type": "course", "courseId": "EC ENGR 146L"},
+                        {"type": "course", "courseId": "EC ENGR 147L"},
+                        {"type": "course", "courseId": "EC ENGR 148L"},
+                        {"type": "course", "courseId": "EC ENGR 150L"},
+                        {"type": "course", "courseId": "EC ENGR 162L"},
+                        {"type": "course", "courseId": "EC ENGR 163L"},
+                        {"type": "course", "courseId": "EC ENGR 164L"},
+                        {"type": "course", "courseId": "EC ENGR 165L"},
+                        {"type": "course", "courseId": "EC ENGR 166L"},
+                        {"type": "course", "courseId": "EC ENGR 167L"},
+                        {"type": "course", "courseId": "EC ENGR 168L"},
+                        {"type": "course", "courseId": "EC ENGR 169L"}
                       ]
                     },
                     {
@@ -620,32 +390,17 @@
                   "description": "Complete three courses.",
                   "needs": 3,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "COMPTNG 10A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COMPTNG 10B"
-                    },
+                    {"type": "course", "courseId": "COMPTNG 10A"},
+                    {"type": "course", "courseId": "COMPTNG 10B"},
                     {
                       "type": "group",
                       "title": "Programming Elective",
                       "description": "Select one elective from:",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 10C"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 15"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COMPTNG 20A"
-                        }
+                        {"type": "course", "courseId": "COMPTNG 10C"},
+                        {"type": "course", "courseId": "COMPTNG 15"},
+                        {"type": "course", "courseId": "COMPTNG 20A"}
                       ]
                     }
                   ]
@@ -662,18 +417,9 @@
                       "description": "Select two from:",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHEM C126A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "CHEM C145"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "COM SCI C121"
-                        }
+                        {"type": "course", "courseId": "CHEM C126A"},
+                        {"type": "course", "courseId": "CHEM C145"},
+                        {"type": "course", "courseId": "COM SCI C121"}
                       ]
                     },
                     {
@@ -682,36 +428,18 @@
                       "description": "Complete one required course and select one elective.",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHEM C113B"
-                        },
+                        {"type": "course", "courseId": "CHEM C113B"},
                         {
                           "type": "group",
                           "title": "Computational Elective",
                           "description": "Select one course from:",
                           "needs": 1,
                           "options": [
-                            {
-                              "type": "course",
-                              "courseId": "CHEM C125"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "CHEM C126A"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "CHEM C145"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "COM SCI C121"
-                            },
-                            {
-                              "type": "course",
-                              "courseId": "COM SCI C122"
-                            }
+                            {"type": "course", "courseId": "CHEM C125"},
+                            {"type": "course", "courseId": "CHEM C126A"},
+                            {"type": "course", "courseId": "CHEM C145"},
+                            {"type": "course", "courseId": "COM SCI C121"},
+                            {"type": "course", "courseId": "COM SCI C122"}
                           ]
                         }
                       ]
@@ -747,14 +475,8 @@
                   "description": "Select one course.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 193A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 193B"
-                    }
+                    {"type": "course", "courseId": "CHEM 193A"},
+                    {"type": "course", "courseId": "CHEM 193B"}
                   ]
                 },
                 {
@@ -763,18 +485,9 @@
                   "description": "Complete three research courses (12 units minimum).",
                   "needs": 3,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 196A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 196B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 199"
-                    }
+                    {"type": "course", "courseId": "CHEM 196A"},
+                    {"type": "course", "courseId": "CHEM 196B"},
+                    {"type": "course", "courseId": "CHEM 199"}
                   ]
                 }
               ]

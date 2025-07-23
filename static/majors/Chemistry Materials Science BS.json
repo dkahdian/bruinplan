@@ -17,30 +17,12 @@
           "description": "Complete the following six courses:",
           "needs": 6,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHEM 1"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 20A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 20B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 20L"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 30A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 30AL"
-            }
+            {"type": "course", "courseId": "CHEM 1"},
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "CHEM 20B"},
+            {"type": "course", "courseId": "CHEM 20L"},
+            {"type": "course", "courseId": "CHEM 30A"},
+            {"type": "course", "courseId": "CHEM 30AL"}
           ]
         },
         {
@@ -49,26 +31,11 @@
           "description": "Complete the following five courses:",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MATH 31A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 31B"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 32A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 32B"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 33A"
-            }
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31B"},
+            {"type": "course", "courseId": "MATH 32A"},
+            {"type": "course", "courseId": "MATH 32B"},
+            {"type": "course", "courseId": "MATH 33A"}
           ]
         },
         {
@@ -77,10 +44,7 @@
           "description": "Mathematics 33B is highly recommended.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MATH 33B"
-            }
+            {"type": "course", "courseId": "MATH 33B"}
           ]
         },
         {
@@ -89,22 +53,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1B"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1C"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 4BL"
-            }
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 1B"},
+            {"type": "course", "courseId": "PHYSICS 1C"},
+            {"type": "course", "courseId": "PHYSICS 4BL"}
           ]
         }
       ]
@@ -120,22 +72,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHEM 110A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 113A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 171"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM C185"
-            }
+            {"type": "course", "courseId": "CHEM 110A"},
+            {"type": "course", "courseId": "CHEM 113A"},
+            {"type": "course", "courseId": "CHEM 171"},
+            {"type": "course", "courseId": "CHEM C185"}
           ]
         },
         {
@@ -144,18 +84,9 @@
           "description": "Select one course from: C172, C180, or C181.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHEM C172"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM C180"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM C181"
-            }
+            {"type": "course", "courseId": "CHEM C172"},
+            {"type": "course", "courseId": "CHEM C180"},
+            {"type": "course", "courseId": "CHEM C181"}
           ]
         },
         {
@@ -164,38 +95,14 @@
           "description": "Complete 4 units from the following:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHEM 110B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM C113B"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM C172"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM C174"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM C175"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM C176"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM C180"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM C181"
-            }
+            {"type": "course", "courseId": "CHEM 110B"},
+            {"type": "course", "courseId": "CHEM C113B"},
+            {"type": "course", "courseId": "CHEM C172"},
+            {"type": "course", "courseId": "CHEM C174"},
+            {"type": "course", "courseId": "CHEM C175"},
+            {"type": "course", "courseId": "CHEM C176"},
+            {"type": "course", "courseId": "CHEM C180"},
+            {"type": "course", "courseId": "CHEM C181"}
           ]
         },
         {
@@ -204,26 +111,11 @@
           "description": "Complete the following five courses:",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MAT SCI 104"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 110"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 110L"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 120"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 131"
-            }
+            {"type": "course", "courseId": "MAT SCI 104"},
+            {"type": "course", "courseId": "MAT SCI 110"},
+            {"type": "course", "courseId": "MAT SCI 110L"},
+            {"type": "course", "courseId": "MAT SCI 120"},
+            {"type": "course", "courseId": "MAT SCI 131"}
           ]
         },
         {
@@ -232,18 +124,9 @@
           "description": "Select one course from: 121, 150, or 160.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MAT SCI 121"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 150"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 160"
-            }
+            {"type": "course", "courseId": "MAT SCI 121"},
+            {"type": "course", "courseId": "MAT SCI 150"},
+            {"type": "course", "courseId": "MAT SCI 160"}
           ]
         },
         {
@@ -252,38 +135,14 @@
           "description": "Complete 8 units from the following:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MAT SCI C111"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 121"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 122"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 132"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 150"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 160"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 162"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI CM180"
-            }
+            {"type": "course", "courseId": "MAT SCI C111"},
+            {"type": "course", "courseId": "MAT SCI 121"},
+            {"type": "course", "courseId": "MAT SCI 122"},
+            {"type": "course", "courseId": "MAT SCI 132"},
+            {"type": "course", "courseId": "MAT SCI 150"},
+            {"type": "course", "courseId": "MAT SCI 160"},
+            {"type": "course", "courseId": "MAT SCI 162"},
+            {"type": "course", "courseId": "MAT SCI CM180"}
           ]
         },
         {
@@ -292,26 +151,11 @@
           "description": "Complete seven laboratory units from the following:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHEM 114"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 184"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 121L"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 131L"
-            },
-            {
-              "type": "course",
-              "courseId": "MAT SCI 161L"
-            }
+            {"type": "course", "courseId": "CHEM 114"},
+            {"type": "course", "courseId": "CHEM 184"},
+            {"type": "course", "courseId": "MAT SCI 121L"},
+            {"type": "course", "courseId": "MAT SCI 131L"},
+            {"type": "course", "courseId": "MAT SCI 161L"}
           ]
         }
       ]

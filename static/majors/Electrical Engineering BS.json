@@ -11,92 +11,32 @@
       "title": "Preparation for the Major",
       "description": "Complete 19 courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "CHEM 20A"
-        },
-        {
-          "type": "course",
-          "courseId": "COM SCI 31"
-        },
-        {
-          "type": "course",
-          "courseId": "COM SCI 32"
-        },
-        {
-          "type": "course",
-          "courseId": "EC ENGR 2"
-        },
-        {
-          "type": "course",
-          "courseId": "EC ENGR 3"
-        },
-        {
-          "type": "course",
-          "courseId": "EC ENGR 10"
-        },
-        {
-          "type": "course",
-          "courseId": "EC ENGR 11L"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 31A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 31B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33B"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 1A"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 1B"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 1C"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 4AL"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 4BL"
-        },
+        {"type": "course", "courseId": "CHEM 20A"},
+        {"type": "course", "courseId": "COM SCI 31"},
+        {"type": "course", "courseId": "COM SCI 32"},
+        {"type": "course", "courseId": "EC ENGR 2"},
+        {"type": "course", "courseId": "EC ENGR 3"},
+        {"type": "course", "courseId": "EC ENGR 10"},
+        {"type": "course", "courseId": "EC ENGR 11L"},
+        {"type": "course", "courseId": "MATH 31A"},
+        {"type": "course", "courseId": "MATH 31B"},
+        {"type": "course", "courseId": "MATH 32A"},
+        {"type": "course", "courseId": "MATH 32B"},
+        {"type": "course", "courseId": "MATH 33A"},
+        {"type": "course", "courseId": "MATH 33B"},
+        {"type": "course", "courseId": "PHYSICS 1A"},
+        {"type": "course", "courseId": "PHYSICS 1B"},
+        {"type": "course", "courseId": "PHYSICS 1C"},
+        {"type": "course", "courseId": "PHYSICS 4AL"},
+        {"type": "course", "courseId": "PHYSICS 4BL"},
         {
           "type": "group",
           "title": "Logic Design of Digital Systems",
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COM SCI M51A"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR M16"
-            }
+            {"type": "course", "courseId": "COM SCI M51A"},
+            {"type": "course", "courseId": "EC ENGR M16"}
           ]
         }
       ]
@@ -112,30 +52,12 @@
           "description": "Complete the following six courses:",
           "needs": 6,
           "options": [
-            {
-              "type": "course",
-              "courseId": "EC ENGR 101A"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 102"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 110"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 111L"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 113"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 131A"
-            }
+            {"type": "course", "courseId": "EC ENGR 101A"},
+            {"type": "course", "courseId": "EC ENGR 102"},
+            {"type": "course", "courseId": "EC ENGR 110"},
+            {"type": "course", "courseId": "EC ENGR 111L"},
+            {"type": "course", "courseId": "EC ENGR 113"},
+            {"type": "course", "courseId": "EC ENGR 131A"}
           ]
         },
         {
@@ -144,38 +66,14 @@
           "description": "Select six core courses from:",
           "needs": 6,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COM SCI 33"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 101B"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 115A"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 121B"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 132A"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 133A"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 141"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 170A"
-            }
+            {"type": "course", "courseId": "COM SCI 33"},
+            {"type": "course", "courseId": "EC ENGR 101B"},
+            {"type": "course", "courseId": "EC ENGR 115A"},
+            {"type": "course", "courseId": "EC ENGR 121B"},
+            {"type": "course", "courseId": "EC ENGR 132A"},
+            {"type": "course", "courseId": "EC ENGR 133A"},
+            {"type": "course", "courseId": "EC ENGR 141"},
+            {"type": "course", "courseId": "EC ENGR 170A"}
           ]
         },
         {
@@ -190,96 +88,88 @@
           "title": "Upper-Division Electrical and Computer Engineering Electives",
           "description": "Complete twelve units of major field elective courses, at least 8 of which must be upper-division electrical and computer engineering courses—the remaining 4 units may be from upper-division electrical and computer engineering courses or from another engineering school department. Electrical and Computer Engineering 100 and CM182 may not satisfy elective credit.",
           "needs": 3,
-      "options": [
-        { "type": "course", "courseId": "EC ENGR 101A" },
-        { "type": "course", "courseId": "EC ENGR 101B" },
-        { "type": "course", "courseId": "EC ENGR 102" },
-        { "type": "course", "courseId": "EC ENGR 110" },
-        { "type": "course", "courseId": "EC ENGR 110H" },
-        { "type": "course", "courseId": "EC ENGR 110L" },
-        { "type": "course", "courseId": "EC ENGR 111L" },
-        { "type": "course", "courseId": "EC ENGR 112" },
-        { "type": "course", "courseId": "EC ENGR 113" },
-        { "type": "course", "courseId": "EC ENGR 113DA" },
-        { "type": "course", "courseId": "EC ENGR 113DW" },
-        { "type": "course", "courseId": "EC ENGR 114" },
-        { "type": "course", "courseId": "EC ENGR 115A" },
-        { "type": "course", "courseId": "EC ENGR 115AL" },
-        { "type": "course", "courseId": "EC ENGR 115B" },
-        { "type": "course", "courseId": "EC ENGR 115C" },
-        { "type": "course", "courseId": "EC ENGR 115DA" },
-        { "type": "course", "courseId": "EC ENGR 115DW" },
-        { "type": "course", "courseId": "EC ENGR 115E" },
-        { "type": "course", "courseId": "EC ENGR 121B" },
-        { "type": "course", "courseId": "EC ENGR 121DA" },
-        { "type": "course", "courseId": "EC ENGR 121DB" },
-        { "type": "course", "courseId": "EC ENGR 123A" },
-        { "type": "course", "courseId": "EC ENGR 123B" },
-        { "type": "course", "courseId": "EC ENGR 128" },
-        { "type": "course", "courseId": "EC ENGR 131A" },
-        { "type": "course", "courseId": "EC ENGR 132A" },
-        { "type": "course", "courseId": "EC ENGR 132B" },
-        { "type": "course", "courseId": "EC ENGR 133A" },
-        { "type": "course", "courseId": "EC ENGR 133B" },
-        { "type": "course", "courseId": "EC ENGR 134" },
-        { "type": "course", "courseId": "EC ENGR 141" },
-        { "type": "course", "courseId": "EC ENGR 142" },
-        { "type": "course", "courseId": "EC ENGR 149" },
-        { "type": "course", "courseId": "EC ENGR 162A" },
-        { "type": "course", "courseId": "EC ENGR 163A" },
-        { "type": "course", "courseId": "EC ENGR 163C" },
-        { "type": "course", "courseId": "EC ENGR 163DA" },
-        { "type": "course", "courseId": "EC ENGR 163DB" },
-        { "type": "course", "courseId": "EC ENGR 170A" },
-        { "type": "course", "courseId": "EC ENGR 170B" },
-        { "type": "course", "courseId": "EC ENGR 170C" },
-        { "type": "course", "courseId": "EC ENGR 173DA" },
-        { "type": "course", "courseId": "EC ENGR 173DB" },
-        { "type": "course", "courseId": "EC ENGR 176" },
-        { "type": "course", "courseId": "EC ENGR 180DA" },
-        { "type": "course", "courseId": "EC ENGR 180DW" },
-        { "type": "course", "courseId": "EC ENGR 181DA" },
-        { "type": "course", "courseId": "EC ENGR 181DB" },
-        { "type": "course", "courseId": "EC ENGR 183DA" },
-        { "type": "course", "courseId": "EC ENGR 183DB" },
-        { "type": "course", "courseId": "EC ENGR 184DA" },
-        { "type": "course", "courseId": "EC ENGR 184DB" },
-        { "type": "course", "courseId": "EC ENGR 188" },
-        { "type": "course", "courseId": "EC ENGR 188SA" },
-        { "type": "course", "courseId": "EC ENGR 188SB" },
-        { "type": "course", "courseId": "EC ENGR 188SC" },
-        { "type": "course", "courseId": "EC ENGR 189" },
-        { "type": "course", "courseId": "EC ENGR 194" },
-        { "type": "course", "courseId": "EC ENGR 199" }
-      ]
+          "options": [
+            {"type": "course", "courseId": "EC ENGR 101B"},
+            {"type": "course", "courseId": "EC ENGR 110H"},
+            {"type": "course", "courseId": "EC ENGR 110L"},
+            {"type": "course", "courseId": "EC ENGR 112"},
+            {"type": "course", "courseId": "EC ENGR 113DA"},
+            {"type": "course", "courseId": "EC ENGR 113DW"},
+            {"type": "course", "courseId": "EC ENGR 114"},
+            {"type": "course", "courseId": "EC ENGR 115A"},
+            {"type": "course", "courseId": "EC ENGR 115AL"},
+            {"type": "course", "courseId": "EC ENGR 115B"},
+            {"type": "course", "courseId": "EC ENGR 115C"},
+            {"type": "course", "courseId": "EC ENGR 115DA"},
+            {"type": "course", "courseId": "EC ENGR 115DW"},
+            {"type": "course", "courseId": "EC ENGR 115E"},
+            {"type": "course", "courseId": "EC ENGR 121B"},
+            {"type": "course", "courseId": "EC ENGR 121DA"},
+            {"type": "course", "courseId": "EC ENGR 121DB"},
+            {"type": "course", "courseId": "EC ENGR 123A"},
+            {"type": "course", "courseId": "EC ENGR 123B"},
+            {"type": "course", "courseId": "EC ENGR 128"},
+            {"type": "course", "courseId": "EC ENGR 132A"},
+            {"type": "course", "courseId": "EC ENGR 132B"},
+            {"type": "course", "courseId": "EC ENGR 133A"},
+            {"type": "course", "courseId": "EC ENGR 133B"},
+            {"type": "course", "courseId": "EC ENGR 134"},
+            {"type": "course", "courseId": "EC ENGR 141"},
+            {"type": "course", "courseId": "EC ENGR 142"},
+            {"type": "course", "courseId": "EC ENGR 149"},
+            {"type": "course", "courseId": "EC ENGR 162A"},
+            {"type": "course", "courseId": "EC ENGR 163A"},
+            {"type": "course", "courseId": "EC ENGR 163C"},
+            {"type": "course", "courseId": "EC ENGR 163DA"},
+            {"type": "course", "courseId": "EC ENGR 163DB"},
+            {"type": "course", "courseId": "EC ENGR 170A"},
+            {"type": "course", "courseId": "EC ENGR 170B"},
+            {"type": "course", "courseId": "EC ENGR 170C"},
+            {"type": "course", "courseId": "EC ENGR 173DA"},
+            {"type": "course", "courseId": "EC ENGR 173DB"},
+            {"type": "course", "courseId": "EC ENGR 176"},
+            {"type": "course", "courseId": "EC ENGR 181DA"},
+            {"type": "course", "courseId": "EC ENGR 181DB"},
+            {"type": "course", "courseId": "EC ENGR 183DA"},
+            {"type": "course", "courseId": "EC ENGR 183DB"},
+            {"type": "course", "courseId": "EC ENGR 184DA"},
+            {"type": "course", "courseId": "EC ENGR 184DB"},
+            {"type": "course", "courseId": "EC ENGR 188"},
+            {"type": "course", "courseId": "EC ENGR 188SA"},
+            {"type": "course", "courseId": "EC ENGR 188SB"},
+            {"type": "course", "courseId": "EC ENGR 188SC"},
+            {"type": "course", "courseId": "EC ENGR 189"},
+            {"type": "course", "courseId": "EC ENGR 194"},
+            {"type": "course", "courseId": "EC ENGR 199"}
+          ]
         },
         {
           "type": "group",
           "title": "Capstone Design",
           "description": "Complete one two-term electrical and computer engineering capstone design course (8 units).",
           "needs": 1,
-      "options": [
-        {
-          "type": "group",
-          "title": "Systems Design Sequence",
-          "description": "Complete both EC ENGR 180DA and 180DW.",
-          "needs": 2,
           "options": [
-            { "type": "course", "courseId": "EC ENGR 180DA" },
-            { "type": "course", "courseId": "EC ENGR 180DW" }
+            {
+              "type": "group",
+              "title": "Systems Design Sequence",
+              "description": "Complete both EC ENGR 180DA and 180DW.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "EC ENGR 180DA"},
+                {"type": "course", "courseId": "EC ENGR 180DW"}
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Honors Thesis Sequence",
+              "description": "Complete both EC ENGR 181DA and 181DB.",
+              "needs": 2,
+              "options": [
+                {"type": "course", "courseId": "EC ENGR 181DA"},
+                {"type": "course", "courseId": "EC ENGR 181DB"}
+              ]
+            }
           ]
-        },
-        {
-          "type": "group",
-          "title": "Honors Thesis Sequence",
-          "description": "Complete both EC ENGR 181DA and 181DB.",
-          "needs": 2,
-          "options": [
-            { "type": "course", "courseId": "EC ENGR 181DA" },
-            { "type": "course", "courseId": "EC ENGR 181DB" }
-          ]
-        }
-      ]
         }
       ]
     }

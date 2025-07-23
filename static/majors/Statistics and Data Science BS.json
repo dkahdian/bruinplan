@@ -11,30 +11,12 @@
       "title": "Preparation for the Major",
       "description": "Complete seven courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "MATH 31A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 31B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33A"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 20"
-        },
+        {"type": "course", "courseId": "MATH 31A"},
+        {"type": "course", "courseId": "MATH 31B"},
+        {"type": "course", "courseId": "MATH 32A"},
+        {"type": "course", "courseId": "MATH 32B"},
+        {"type": "course", "courseId": "MATH 33A"},
+        {"type": "course", "courseId": "STATS 20"},
         {
           "type": "group",
           "title": "Elective",
@@ -54,72 +36,27 @@
       "title": "The Major",
       "description": "Complete 13 courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "STATS 100A"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 100B"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 100C"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 101A"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 101B"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 101C"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 102A"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 102B"
-        },
-        {
-          "type": "course",
-          "courseId": "STATS 102C"
-        },
+        {"type": "course", "courseId": "STATS 100A"},
+        {"type": "course", "courseId": "STATS 100B"},
+        {"type": "course", "courseId": "STATS 100C"},
+        {"type": "course", "courseId": "STATS 101A"},
+        {"type": "course", "courseId": "STATS 101B"},
+        {"type": "course", "courseId": "STATS 101C"},
+        {"type": "course", "courseId": "STATS 102A"},
+        {"type": "course", "courseId": "STATS 102B"},
+        {"type": "course", "courseId": "STATS 102C"},
         {
           "type": "group",
           "title": "Upper-Division Electives",
           "description": "Select four courses from the following groups:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MATH 131A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 131B"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 151A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 151B"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 170B"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 171"
-            },
+            {"type": "course", "courseId": "MATH 131A"},
+            {"type": "course", "courseId": "MATH 131B"},
+            {"type": "course", "courseId": "MATH 151A"},
+            {"type": "course", "courseId": "MATH 151B"},
+            {"type": "course", "courseId": "MATH 170B"},
+            {"type": "course", "courseId": "MATH 171"},
             {
               "type": "group",
               "title": "Statistics Elective",

@@ -11,28 +11,16 @@
       "title": "Preparation for the Major",
       "description": "Complete three courses as follows. Each course must be taken for a letter grade and passed with a grade of C or better prior to beginning upper-division work in the major.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "SPAN 42"
-        },
-        {
-          "type": "course",
-          "courseId": "SPAN 44"
-        },
+        {"type": "course", "courseId": "SPAN 42"},
+        {"type": "course", "courseId": "SPAN 44"},
         {
           "type": "group",
           "title": "Advanced Spanish Composition",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 25"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 27"
-            }
+            {"type": "course", "courseId": "SPAN 25"},
+            {"type": "course", "courseId": "SPAN 27"}
           ]
         }
       ]
@@ -48,14 +36,8 @@
           "description": "Complete the following two courses:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 119"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 120"
-            }
+            {"type": "course", "courseId": "SPAN 119"},
+            {"type": "course", "courseId": "SPAN 120"}
           ]
         },
         {
@@ -68,8 +50,6 @@
             {"type": "course", "courseId": "SPAN 100B"},
             {"type": "course", "courseId": "SPAN 105"},
             {"type": "course", "courseId": "SPAN 107"},
-            {"type": "course", "courseId": "SPAN 119"},
-            {"type": "course", "courseId": "SPAN 120"},
             {"type": "course", "courseId": "SPAN M122"},
             {"type": "course", "courseId": "SPAN 130"},
             {"type": "course", "courseId": "SPAN 135"},
@@ -89,7 +69,6 @@
             {"type": "course", "courseId": "SPAN 189HC"},
             {"type": "course", "courseId": "SPAN 191A"},
             {"type": "course", "courseId": "SPAN 191B"},
-            {"type": "course", "courseId": "SPAN 191C"},
             {"type": "course", "courseId": "SPAN 195"},
             {"type": "course", "courseId": "SPAN 197"},
             {"type": "course", "courseId": "SPAN 198A"},
@@ -103,10 +82,7 @@
           "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 191C"
-            }
+            {"type": "course", "courseId": "SPAN 191C"}
           ]
         }
       ]
@@ -128,14 +104,8 @@
               "description": "Complete both courses for the Portuguese honors thesis.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PORTGSE 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PORTGSE 198B"
-                }
+                {"type": "course", "courseId": "PORTGSE 198A"},
+                {"type": "course", "courseId": "PORTGSE 198B"}
               ]
             },
             {
@@ -144,14 +114,8 @@
               "description": "Complete both courses for the Spanish honors thesis.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SPAN 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SPAN 198B"
-                }
+                {"type": "course", "courseId": "SPAN 198A"},
+                {"type": "course", "courseId": "SPAN 198B"}
               ]
             }
           ]

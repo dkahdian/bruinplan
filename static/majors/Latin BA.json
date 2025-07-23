@@ -17,18 +17,9 @@
           "description": "Complete the following six courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CLASSIC 10"
-            },
-            {
-              "type": "course",
-              "courseId": "CLASSIC 20"
-            },
-            {
-              "type": "course",
-              "courseId": "LATIN 20"
-            },
+            {"type": "course", "courseId": "CLASSIC 10"},
+            {"type": "course", "courseId": "CLASSIC 20"},
+            {"type": "course", "courseId": "LATIN 20"},
             {
               "type": "group",
               "title": "Elementary Latin",
@@ -41,24 +32,12 @@
                   "description": "Complete all three courses.",
                   "needs": 3,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LATIN 1"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LATIN 2"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LATIN 3"
-                    }
+                    {"type": "course", "courseId": "LATIN 1"},
+                    {"type": "course", "courseId": "LATIN 2"},
+                    {"type": "course", "courseId": "LATIN 3"}
                   ]
                 },
-                {
-                  "type": "course",
-                  "courseId": "LATIN 16"
-                }
+                {"type": "course", "courseId": "LATIN 16"}
               ]
             }
           ]
@@ -75,46 +54,43 @@
               "description": "Complete seven upper-division Latin courses, including course 110. Latin 197 and 199 may be applied only by petition.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LATIN 110"
-                },
+                {"type": "course", "courseId": "LATIN 110"},
                 {
                   "type": "group",
                   "title": "Additional Latin Courses",
                   "description": "Select six additional upper-division Latin courses.",
                   "needs": 6,
                   "options": [
-                    { "type": "course", "courseId": "LATIN 100" },
-                    { "type": "course", "courseId": "LATIN 101" },
-                    { "type": "course", "courseId": "LATIN 102" },
-                    { "type": "course", "courseId": "LATIN 103" },
-                    { "type": "course", "courseId": "LATIN 104" },
-                    { "type": "course", "courseId": "LATIN 105A" },
-                    { "type": "course", "courseId": "LATIN 105B" },
-                    { "type": "course", "courseId": "LATIN 106" },
-                    { "type": "course", "courseId": "LATIN 107" },
-                    { "type": "course", "courseId": "LATIN 108" },
-                    { "type": "course", "courseId": "LATIN 109" },
-                    { "type": "course", "courseId": "LATIN 111" },
-                    { "type": "course", "courseId": "LATIN 112" },
-                    { "type": "course", "courseId": "LATIN 113" },
-                    { "type": "course", "courseId": "LATIN 114" },
-                    { "type": "course", "courseId": "LATIN 115" },
-                    { "type": "course", "courseId": "LATIN 116" },
-                    { "type": "course", "courseId": "LATIN 117" },
-                    { "type": "course", "courseId": "LATIN 118" },
-                    { "type": "course", "courseId": "LATIN 119A" },
-                    { "type": "course", "courseId": "LATIN 119B" },
-                    { "type": "course", "courseId": "LATIN 120" },
-                    { "type": "course", "courseId": "LATIN 121" },
-                    { "type": "course", "courseId": "LATIN 130" },
-                    { "type": "course", "courseId": "LATIN 131" },
-                    { "type": "course", "courseId": "LATIN 133" },
-                    { "type": "course", "courseId": "LATIN 189" },
-                    { "type": "course", "courseId": "LATIN 189HC" },
-                    { "type": "course", "courseId": "LATIN 197" },
-                    { "type": "course", "courseId": "LATIN 199" }
+                    {"type": "course", "courseId": "LATIN 100"},
+                    {"type": "course", "courseId": "LATIN 101"},
+                    {"type": "course", "courseId": "LATIN 102"},
+                    {"type": "course", "courseId": "LATIN 103"},
+                    {"type": "course", "courseId": "LATIN 104"},
+                    {"type": "course", "courseId": "LATIN 105A"},
+                    {"type": "course", "courseId": "LATIN 105B"},
+                    {"type": "course", "courseId": "LATIN 106"},
+                    {"type": "course", "courseId": "LATIN 107"},
+                    {"type": "course", "courseId": "LATIN 108"},
+                    {"type": "course", "courseId": "LATIN 109"},
+                    {"type": "course", "courseId": "LATIN 111"},
+                    {"type": "course", "courseId": "LATIN 112"},
+                    {"type": "course", "courseId": "LATIN 113"},
+                    {"type": "course", "courseId": "LATIN 114"},
+                    {"type": "course", "courseId": "LATIN 115"},
+                    {"type": "course", "courseId": "LATIN 116"},
+                    {"type": "course", "courseId": "LATIN 117"},
+                    {"type": "course", "courseId": "LATIN 118"},
+                    {"type": "course", "courseId": "LATIN 119A"},
+                    {"type": "course", "courseId": "LATIN 119B"},
+                    {"type": "course", "courseId": "LATIN 120"},
+                    {"type": "course", "courseId": "LATIN 121"},
+                    {"type": "course", "courseId": "LATIN 130"},
+                    {"type": "course", "courseId": "LATIN 131"},
+                    {"type": "course", "courseId": "LATIN 133"},
+                    {"type": "course", "courseId": "LATIN 189"},
+                    {"type": "course", "courseId": "LATIN 189HC"},
+                    {"type": "course", "courseId": "LATIN 197"},
+                    {"type": "course", "courseId": "LATIN 199"}
                   ]
                 }
               ]
@@ -125,56 +101,20 @@
               "description": "Select three upper-division courses from upper-division courses in classical civilization or the following listed ancient history courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "HIST 112A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 112B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST M112C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 112D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST M112E"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 113A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 113B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 114A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 114B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 114C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 115"
-                }
+                {"type": "course", "courseId": "HIST 112A"},
+                {"type": "course", "courseId": "HIST 112B"},
+                {"type": "course", "courseId": "HIST M112C"},
+                {"type": "course", "courseId": "HIST 112D"},
+                {"type": "course", "courseId": "HIST M112E"},
+                {"type": "course", "courseId": "HIST 113A"},
+                {"type": "course", "courseId": "HIST 113B"},
+                {"type": "course", "courseId": "HIST 114A"},
+                {"type": "course", "courseId": "HIST 114B"},
+                {"type": "course", "courseId": "HIST 114C"},
+                {"type": "course", "courseId": "HIST 115"}
               ]
             },
-            {
-              "type": "course",
-              "courseId": "CLASSIC 191"
-            }
+            {"type": "course", "courseId": "CLASSIC 191"}
           ]
         }
       ]
@@ -196,14 +136,8 @@
               "description": "Complete both courses for the honors thesis.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CLASSIC 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CLASSIC 198B"
-                }
+                {"type": "course", "courseId": "CLASSIC 198A"},
+                {"type": "course", "courseId": "CLASSIC 198B"}
               ]
             }
           ]

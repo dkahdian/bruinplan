@@ -11,28 +11,16 @@
       "title": "Preparation for the Major",
       "description": "Complete four courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "SPAN 42"
-        },
-        {
-          "type": "course",
-          "courseId": "SPAN 44"
-        },
+        {"type": "course", "courseId": "SPAN 42"},
+        {"type": "course", "courseId": "SPAN 44"},
         {
           "type": "group",
           "title": "Advanced Spanish Composition",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 25"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 27"
-            }
+            {"type": "course", "courseId": "SPAN 25"},
+            {"type": "course", "courseId": "SPAN 27"}
           ]
         },
         {
@@ -41,14 +29,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN M35"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE M35"
-            }
+            {"type": "course", "courseId": "SPAN M35"},
+            {"type": "course", "courseId": "PORTGSE M35"}
           ]
         }
       ]
@@ -64,66 +46,27 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 100B"
-            }
+            {"type": "course", "courseId": "SPAN 100A"},
+            {"type": "course", "courseId": "SPAN 100B"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "SPAN 119"
-        },
+        {"type": "course", "courseId": "SPAN 119"},
         {
           "type": "group",
           "title": "Spanish Literature, Culture, Linguistics, or Media Studies",
           "description": "Select three courses from:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 130"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 135"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 140"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 150"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 155"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 160"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 170"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 175"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 180"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 195"
-            }
+            {"type": "course", "courseId": "SPAN 130"},
+            {"type": "course", "courseId": "SPAN 135"},
+            {"type": "course", "courseId": "SPAN 140"},
+            {"type": "course", "courseId": "SPAN 150"},
+            {"type": "course", "courseId": "SPAN 155"},
+            {"type": "course", "courseId": "SPAN 160"},
+            {"type": "course", "courseId": "SPAN 170"},
+            {"type": "course", "courseId": "SPAN 175"},
+            {"type": "course", "courseId": "SPAN 180"},
+            {"type": "course", "courseId": "SPAN 195"}
           ]
         },
         {
@@ -132,50 +75,17 @@
           "description": "Select two courses from:",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CCAS 100XP"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS CM106"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M119"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 120"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M121"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M122"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 131"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M144"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 149"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 181"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M155"
-            }
+            {"type": "course", "courseId": "CCAS 100XP"},
+            {"type": "course", "courseId": "CCAS CM106"},
+            {"type": "course", "courseId": "CCAS M119"},
+            {"type": "course", "courseId": "CCAS 120"},
+            {"type": "course", "courseId": "CCAS M121"},
+            {"type": "course", "courseId": "CCAS M122"},
+            {"type": "course", "courseId": "CCAS 131"},
+            {"type": "course", "courseId": "CCAS M144"},
+            {"type": "course", "courseId": "CCAS 149"},
+            {"type": "course", "courseId": "CCAS 181"},
+            {"type": "course", "courseId": "SOCIOL M155"}
           ]
         },
         {
@@ -184,18 +94,9 @@
           "description": "Complete Spanish M165XP once and M172XP twice (may be repeated with topic change).",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN M165XP"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN M172XP"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN M172XP"
-            }
+            {"type": "course", "courseId": "SPAN M165XP"},
+            {"type": "course", "courseId": "SPAN M172XP"},
+            {"type": "course", "courseId": "SPAN M172XP"}
           ]
         }
       ]
@@ -217,14 +118,8 @@
               "description": "Complete the two-course sequence for a final thesis of approximately 25 to 30 pages.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SPAN 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SPAN 198B"
-                }
+                {"type": "course", "courseId": "SPAN 198A"},
+                {"type": "course", "courseId": "SPAN 198B"}
               ]
             },
             {
@@ -233,14 +128,8 @@
               "description": "Complete the two-course sequence for a final thesis of approximately 25 to 30 pages.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PORTGSE 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PORTGSE 198B"
-                }
+                {"type": "course", "courseId": "PORTGSE 198A"},
+                {"type": "course", "courseId": "PORTGSE 198B"}
               ]
             }
           ]

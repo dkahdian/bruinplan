@@ -23,104 +23,35 @@
               "description": "Take LBR STD 10 and select two additional courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LBR STD 10"
-                },
+                {"type": "course", "courseId": "LBR STD 10"},
                 {
                   "type": "group",
                   "title": "Lower-Division Electives",
                   "description": "Select two courses from the following list:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "AF AMER 1"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "AF AMER M5"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "ASIA AM 10"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "ASIA AM 20"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "ASIA AM 40"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "ASIA AM 50"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CCAS 10B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "GENDER 10"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "GEOG 4"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "HIST 2B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "HIST 8B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "HIST 12A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "HIST 12B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "HIST 12C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "HNRS 82"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LBR STD 96W"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "POL SCI 60"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PUB PLC 10A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PUB PLC 10B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "SOCIOL M5"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "SOCIOL 51"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "SPAN 44"
-                    }
+                    {"type": "course", "courseId": "AF AMER 1"},
+                    {"type": "course", "courseId": "AF AMER M5"},
+                    {"type": "course", "courseId": "ASIA AM 10"},
+                    {"type": "course", "courseId": "ASIA AM 20"},
+                    {"type": "course", "courseId": "ASIA AM 40"},
+                    {"type": "course", "courseId": "ASIA AM 50"},
+                    {"type": "course", "courseId": "CCAS 10B"},
+                    {"type": "course", "courseId": "GENDER 10"},
+                    {"type": "course", "courseId": "GEOG 4"},
+                    {"type": "course", "courseId": "HIST 2B"},
+                    {"type": "course", "courseId": "HIST 8B"},
+                    {"type": "course", "courseId": "HIST 12A"},
+                    {"type": "course", "courseId": "HIST 12B"},
+                    {"type": "course", "courseId": "HIST 12C"},
+                    {"type": "course", "courseId": "HNRS 82"},
+                    {"type": "course", "courseId": "LBR STD 96W"},
+                    {"type": "course", "courseId": "POL SCI 60"},
+                    {"type": "course", "courseId": "PUB PLC 10A"},
+                    {"type": "course", "courseId": "PUB PLC 10B"},
+                    {"type": "course", "courseId": "SOCIOL M5"},
+                    {"type": "course", "courseId": "SOCIOL 51"},
+                    {"type": "course", "courseId": "SPAN 44"}
                   ]
                 }
               ]
@@ -131,18 +62,9 @@
               "description": "Take all three of the following courses:",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LBR STD M1A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LBR STD M1B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LBR STD M1CW"
-                }
+                {"type": "course", "courseId": "LBR STD M1A"},
+                {"type": "course", "courseId": "LBR STD M1B"},
+                {"type": "course", "courseId": "LBR STD M1CW"}
               ]
             }
           ]
@@ -160,10 +82,7 @@
           "description": "Take the following course:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LBR STD 101"
-            }
+            {"type": "course", "courseId": "LBR STD 101"}
           ]
         },
         {
@@ -172,22 +91,10 @@
           "description": "Senior Labor Studies majors must complete a research-intensive capstone course. Select one of the following courses (4 units):",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LBR STD 191"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 194A"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 194B"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 199"
-            }
+            {"type": "course", "courseId": "LBR STD 191"},
+            {"type": "course", "courseId": "LBR STD 194A"},
+            {"type": "course", "courseId": "LBR STD 194B"},
+            {"type": "course", "courseId": "LBR STD 199"}
           ]
         },
         {
@@ -196,258 +103,69 @@
           "description": "Complete eight additional courses from the lists below. At least three of these eight courses must be selected from the Labor Studies Electives list.",
           "needs": 8,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LBR STD M105"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M114C"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M116"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M117"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M119XP"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M121"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M122"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M123"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M125"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 126"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M127"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M128"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M129"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M134XP"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M136"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 140"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M143"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M144"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M149"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 152"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 153"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M165"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M166A"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M166B"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M166C"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M167"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 168"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M170"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M171"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M173"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 174"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M175"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M176"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 177"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 179A"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 179B"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD M180"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 181"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 182"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 183"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 187"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 188"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 191"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 194A"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 194B"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 195B"
-            },
-            {
-              "type": "course",
-              "courseId": "LBR STD 199"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER CM113XP"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 113"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 150"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 151"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER 102"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M137E"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M163"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 141B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 146A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 146C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M150C"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 116A"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 157"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M163"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 171"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 173"
-            }
+            {"type": "course", "courseId": "LBR STD M105"},
+            {"type": "course", "courseId": "LBR STD M114C"},
+            {"type": "course", "courseId": "LBR STD M116"},
+            {"type": "course", "courseId": "LBR STD M117"},
+            {"type": "course", "courseId": "LBR STD M119XP"},
+            {"type": "course", "courseId": "LBR STD M121"},
+            {"type": "course", "courseId": "LBR STD M122"},
+            {"type": "course", "courseId": "LBR STD M123"},
+            {"type": "course", "courseId": "LBR STD M125"},
+            {"type": "course", "courseId": "LBR STD 126"},
+            {"type": "course", "courseId": "LBR STD M127"},
+            {"type": "course", "courseId": "LBR STD M128"},
+            {"type": "course", "courseId": "LBR STD M129"},
+            {"type": "course", "courseId": "LBR STD M134XP"},
+            {"type": "course", "courseId": "LBR STD M136"},
+            {"type": "course", "courseId": "LBR STD 140"},
+            {"type": "course", "courseId": "LBR STD M143"},
+            {"type": "course", "courseId": "LBR STD M144"},
+            {"type": "course", "courseId": "LBR STD M149"},
+            {"type": "course", "courseId": "LBR STD 152"},
+            {"type": "course", "courseId": "LBR STD 153"},
+            {"type": "course", "courseId": "LBR STD M165"},
+            {"type": "course", "courseId": "LBR STD M166A"},
+            {"type": "course", "courseId": "LBR STD M166B"},
+            {"type": "course", "courseId": "LBR STD M166C"},
+            {"type": "course", "courseId": "LBR STD M167"},
+            {"type": "course", "courseId": "LBR STD 168"},
+            {"type": "course", "courseId": "LBR STD M170"},
+            {"type": "course", "courseId": "LBR STD M171"},
+            {"type": "course", "courseId": "LBR STD M173"},
+            {"type": "course", "courseId": "LBR STD 174"},
+            {"type": "course", "courseId": "LBR STD M175"},
+            {"type": "course", "courseId": "LBR STD M176"},
+            {"type": "course", "courseId": "LBR STD 177"},
+            {"type": "course", "courseId": "LBR STD 179A"},
+            {"type": "course", "courseId": "LBR STD 179B"},
+            {"type": "course", "courseId": "LBR STD M180"},
+            {"type": "course", "courseId": "LBR STD 181"},
+            {"type": "course", "courseId": "LBR STD 182"},
+            {"type": "course", "courseId": "LBR STD 183"},
+            {"type": "course", "courseId": "LBR STD 187"},
+            {"type": "course", "courseId": "LBR STD 188"},
+            {"type": "course", "courseId": "LBR STD 191"},
+            {"type": "course", "courseId": "LBR STD 194A"},
+            {"type": "course", "courseId": "LBR STD 194B"},
+            {"type": "course", "courseId": "LBR STD 195B"},
+            {"type": "course", "courseId": "LBR STD 199"},
+            {"type": "course", "courseId": "AF AMER CM113XP"},
+            {"type": "course", "courseId": "ASIA AM 113"},
+            {"type": "course", "courseId": "ECON 150"},
+            {"type": "course", "courseId": "ECON 151"},
+            {"type": "course", "courseId": "GENDER 102"},
+            {"type": "course", "courseId": "GENDER M137E"},
+            {"type": "course", "courseId": "GENDER M163"},
+            {"type": "course", "courseId": "HIST 141B"},
+            {"type": "course", "courseId": "HIST 146A"},
+            {"type": "course", "courseId": "HIST 146C"},
+            {"type": "course", "courseId": "HIST M150C"},
+            {"type": "course", "courseId": "POL SCI 116A"},
+            {"type": "course", "courseId": "SOCIOL 157"},
+            {"type": "course", "courseId": "SOCIOL M163"},
+            {"type": "course", "courseId": "SOCIOL 171"},
+            {"type": "course", "courseId": "SOCIOL 173"}
           ]
         }
       ]

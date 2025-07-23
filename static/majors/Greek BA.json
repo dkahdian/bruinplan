@@ -11,14 +11,8 @@
       "title": "Preparation for the Major",
       "description": "Six courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "CLASSIC 10"
-        },
-        {
-          "type": "course",
-          "courseId": "CLASSIC 20"
-        },
+        {"type": "course", "courseId": "CLASSIC 10"},
+        {"type": "course", "courseId": "CLASSIC 20"},
         {
           "type": "group",
           "title": "Elementary Greek",
@@ -31,18 +25,9 @@
               "description": "Refer to the following courses",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GREEK 1"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GREEK 2"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GREEK 3"
-                }
+                {"type": "course", "courseId": "GREEK 1"},
+                {"type": "course", "courseId": "GREEK 2"},
+                {"type": "course", "courseId": "GREEK 3"}
               ]
             },
             {
@@ -51,18 +36,12 @@
               "description": "May be substituted for Greek 1, 2, 3.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GREEK 16"
-                }
+                {"type": "course", "courseId": "GREEK 16"}
               ]
             }
           ]
         },
-        {
-          "type": "course",
-          "courseId": "GREEK 20"
-        }
+        {"type": "course", "courseId": "GREEK 20"}
       ]
     },
     {
@@ -76,10 +55,7 @@
           "description": "Complete seven upper-division Greek courses, including GREEK 110. The remaining six courses are chosen from other upper-division Greek offerings. GREEK 197 and GREEK 199 may be applied by petition.",
           "needs": 7,
           "options": [
-            {
-              "type": "course",
-              "courseId": "GREEK 110"
-            }
+            {"type": "course", "courseId": "GREEK 110"}
           ]
         },
         {
@@ -88,56 +64,20 @@
           "description": "Select three upper-division courses from the following list. Courses may also be chosen from other upper-division offerings in Classical Civilization.",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "HIST 112A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 112B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M112C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 112D"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M112E"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 113A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 113B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 114A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 114B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 114C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 115"
-            }
+            {"type": "course", "courseId": "HIST 112A"},
+            {"type": "course", "courseId": "HIST 112B"},
+            {"type": "course", "courseId": "HIST M112C"},
+            {"type": "course", "courseId": "HIST 112D"},
+            {"type": "course", "courseId": "HIST M112E"},
+            {"type": "course", "courseId": "HIST 113A"},
+            {"type": "course", "courseId": "HIST 113B"},
+            {"type": "course", "courseId": "HIST 114A"},
+            {"type": "course", "courseId": "HIST 114B"},
+            {"type": "course", "courseId": "HIST 114C"},
+            {"type": "course", "courseId": "HIST 115"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "CLASSIC 191"
-        }
+        {"type": "course", "courseId": "CLASSIC 191"}
       ]
     },
     {
@@ -151,14 +91,8 @@
           "description": "Students write the thesis under the direct supervision of a faculty member over two consecutive terms, Classics 198A and 198B. In course 198A, students submit an annotated bibliography and preliminary outline of their thesis. In course 198B, they submit at least one initial draft and the final revised version of the thesis. Only course 198B may be applied toward the upper-division classical civilization requirement for departmental majors.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CLASSIC 198A"
-            },
-            {
-              "type": "course",
-              "courseId": "CLASSIC 198B"
-            }
+            {"type": "course", "courseId": "CLASSIC 198A"},
+            {"type": "course", "courseId": "CLASSIC 198B"}
           ]
         }
       ]

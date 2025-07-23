@@ -17,24 +17,12 @@
           "description": "Select one course (Portuguese 27 is recommended):",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PORTGSE 25"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 26"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 27"
-            }
+            {"type": "course", "courseId": "PORTGSE 25"},
+            {"type": "course", "courseId": "PORTGSE 26"},
+            {"type": "course", "courseId": "PORTGSE 27"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "PORTGSE 46"
-        }
+        {"type": "course", "courseId": "PORTGSE 46"}
       ]
     },
     {
@@ -48,14 +36,8 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PORTGSE 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 100B"
-            }
+            {"type": "course", "courseId": "PORTGSE 100A"},
+            {"type": "course", "courseId": "PORTGSE 100B"}
           ]
         },
         {
@@ -64,14 +46,8 @@
           "description": "Select one course from the following:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PORTGSE 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 130B"
-            }
+            {"type": "course", "courseId": "PORTGSE 130A"},
+            {"type": "course", "courseId": "PORTGSE 130B"}
           ]
         },
         {
@@ -106,14 +82,8 @@
                   "description": "Students research and prepare a draft of a thesis (198A) and complete the final thesis draft of approximately 25 to 30 pages (198B).",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "PORTGSE 198A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PORTGSE 198B"
-                    }
+                    {"type": "course", "courseId": "PORTGSE 198A"},
+                    {"type": "course", "courseId": "PORTGSE 198B"}
                   ]
                 },
                 {
@@ -122,14 +92,8 @@
                   "description": "Students research and prepare a draft of a thesis (198A) and complete the final thesis draft of approximately 25 to 30 pages (198B).",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "SPAN 198A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "SPAN 198B"
-                    }
+                    {"type": "course", "courseId": "SPAN 198A"},
+                    {"type": "course", "courseId": "SPAN 198B"}
                   ]
                 }
               ]

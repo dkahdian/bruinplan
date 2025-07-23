@@ -29,26 +29,11 @@
               "description": "Refer to the following courses.",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14BL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 14D"
-                }
+                {"type": "course", "courseId": "CHEM 14A"},
+                {"type": "course", "courseId": "CHEM 14B"},
+                {"type": "course", "courseId": "CHEM 14BL"},
+                {"type": "course", "courseId": "CHEM 14C"},
+                {"type": "course", "courseId": "CHEM 14D"}
               ]
             },
             {
@@ -57,30 +42,12 @@
               "description": "Refer to the following courses.",
               "needs": 6,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 20L"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30AL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CHEM 30B"
-                }
+                {"type": "course", "courseId": "CHEM 20A"},
+                {"type": "course", "courseId": "CHEM 20B"},
+                {"type": "course", "courseId": "CHEM 20L"},
+                {"type": "course", "courseId": "CHEM 30A"},
+                {"type": "course", "courseId": "CHEM 30AL"},
+                {"type": "course", "courseId": "CHEM 30B"}
               ]
             }
           ]
@@ -91,22 +58,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7A"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7B"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7C"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7L"
-            }
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 7B"},
+            {"type": "course", "courseId": "LIFESCI 7C"},
+            {"type": "course", "courseId": "LIFESCI 7L"}
           ]
         },
         {
@@ -121,28 +76,16 @@
               "description": "Refer to the following courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "LIFESCI 30B"
-                },
+                {"type": "course", "courseId": "LIFESCI 30A"},
+                {"type": "course", "courseId": "LIFESCI 30B"},
                 {
                   "type": "group",
                   "title": "Statistics",
                   "description": "Select one course from the following:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 40"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 13"
-                    }
+                    {"type": "course", "courseId": "LIFESCI 40"},
+                    {"type": "course", "courseId": "STATS 13"}
                   ]
                 }
               ]
@@ -153,22 +96,10 @@
               "description": "Refer to the following courses.",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 3A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 3C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "STATS 13"
-                }
+                {"type": "course", "courseId": "MATH 3A"},
+                {"type": "course", "courseId": "MATH 3B"},
+                {"type": "course", "courseId": "MATH 3C"},
+                {"type": "course", "courseId": "STATS 13"}
               ]
             },
             {
@@ -177,22 +108,10 @@
               "description": "Refer to the following courses.",
               "needs": 4,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 31A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 31B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 32A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "STATS 13"
-                }
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31B"},
+                {"type": "course", "courseId": "MATH 32A"},
+                {"type": "course", "courseId": "STATS 13"}
               ]
             }
           ]
@@ -209,26 +128,11 @@
               "description": "Refer to the following courses.",
               "needs": 5,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 1C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 4AL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 4BL"
-                }
+                {"type": "course", "courseId": "PHYSICS 1A"},
+                {"type": "course", "courseId": "PHYSICS 1B"},
+                {"type": "course", "courseId": "PHYSICS 1C"},
+                {"type": "course", "courseId": "PHYSICS 4AL"},
+                {"type": "course", "courseId": "PHYSICS 4BL"}
               ]
             },
             {
@@ -237,18 +141,9 @@
               "description": "Refer to the following courses.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PHYSICS 5C"
-                }
+                {"type": "course", "courseId": "PHYSICS 5A"},
+                {"type": "course", "courseId": "PHYSICS 5B"},
+                {"type": "course", "courseId": "PHYSICS 5C"}
               ]
             }
           ]
@@ -278,36 +173,18 @@
                   "description": "Complete five courses. Select either Chemistry 153B or Microbiology 132.",
                   "needs": 5,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 107"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 101"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 185A"
-                    },
+                    {"type": "course", "courseId": "CHEM 153A"},
+                    {"type": "course", "courseId": "LIFESCI 107"},
+                    {"type": "course", "courseId": "MIMG 101"},
+                    {"type": "course", "courseId": "MIMG 185A"},
                     {
                       "type": "group",
                       "title": "Biochemistry or Cell Biology",
                       "description": "Select one course:",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 153B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MIMG 132"
-                        }
+                        {"type": "course", "courseId": "CHEM 153B"},
+                        {"type": "course", "courseId": "MIMG 132"}
                       ]
                     }
                   ]
@@ -324,14 +201,8 @@
                       "description": "Complete both courses:",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MIMG 103AL"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MIMG 103BL"
-                        }
+                        {"type": "course", "courseId": "MIMG 103AL"},
+                        {"type": "course", "courseId": "MIMG 103BL"}
                       ]
                     },
                     {
@@ -340,14 +211,8 @@
                       "description": "Complete both courses:",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MIMG 109AL"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MIMG 109BL"
-                        }
+                        {"type": "course", "courseId": "MIMG 109AL"},
+                        {"type": "course", "courseId": "MIMG 109BL"}
                       ]
                     }
                   ]
@@ -358,70 +223,22 @@
                   "description": "Select two courses from:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 105"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 106"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 107"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG C122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG CM156"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 158"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 168"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 170"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG M178"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG CM256"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 138"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 165A"
-                    }
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "CHEM 153L"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 105"},
+                    {"type": "course", "courseId": "MIMG 106"},
+                    {"type": "course", "courseId": "MIMG 107"},
+                    {"type": "course", "courseId": "MIMG C122"},
+                    {"type": "course", "courseId": "MIMG 132"},
+                    {"type": "course", "courseId": "MIMG CM156"},
+                    {"type": "course", "courseId": "MIMG 158"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 170"},
+                    {"type": "course", "courseId": "MIMG M178"},
+                    {"type": "course", "courseId": "MIMG CM256"},
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO 165A"}
                   ]
                 },
                 {
@@ -430,274 +247,73 @@
                   "description": "Select one additional course from the focus electives list or from the following list. Microbiology 199 may be taken once.",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 105"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 106"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 107"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG C122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG CM156"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 158"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 168"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 170"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG M178"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG CM256"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 138"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 165A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR CM145"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR CM178"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOSTAT 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 103"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 110A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM M117"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 136"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C140"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 154"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 156"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 171"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C181"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C124"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C135"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 137"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 162"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EPIDEM 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "HUM GEN C144"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 174"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG C185B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 191H"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 198C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 199"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 104AL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M140"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO C141"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 143"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 144"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO C150"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 168"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M175A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M175B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M175C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 187AL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC M101A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC M101B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC M101C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 124"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 125"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 128"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 100A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 100B"
-                    }
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "CHEM 153L"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 105"},
+                    {"type": "course", "courseId": "MIMG 106"},
+                    {"type": "course", "courseId": "MIMG 107"},
+                    {"type": "course", "courseId": "MIMG C122"},
+                    {"type": "course", "courseId": "MIMG 132"},
+                    {"type": "course", "courseId": "MIMG CM156"},
+                    {"type": "course", "courseId": "MIMG 158"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 170"},
+                    {"type": "course", "courseId": "MIMG M178"},
+                    {"type": "course", "courseId": "MIMG CM256"},
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO 165A"},
+                    {"type": "course", "courseId": "BIOENGR 100"},
+                    {"type": "course", "courseId": "BIOENGR CM145"},
+                    {"type": "course", "courseId": "BIOENGR CM178"},
+                    {"type": "course", "courseId": "BIOSTAT 100"},
+                    {"type": "course", "courseId": "CHEM 103"},
+                    {"type": "course", "courseId": "CHEM 110A"},
+                    {"type": "course", "courseId": "CHEM M117"},
+                    {"type": "course", "courseId": "CHEM 136"},
+                    {"type": "course", "courseId": "CHEM C140"},
+                    {"type": "course", "courseId": "CHEM 153C"},
+                    {"type": "course", "courseId": "CHEM 154"},
+                    {"type": "course", "courseId": "CHEM 156"},
+                    {"type": "course", "courseId": "CHEM 171"},
+                    {"type": "course", "courseId": "CHEM C172"},
+                    {"type": "course", "courseId": "CHEM C181"},
+                    {"type": "course", "courseId": "COM SCI C121"},
+                    {"type": "course", "courseId": "COM SCI C122"},
+                    {"type": "course", "courseId": "COM SCI C124"},
+                    {"type": "course", "courseId": "EE BIOL 121"},
+                    {"type": "course", "courseId": "EE BIOL C135"},
+                    {"type": "course", "courseId": "EE BIOL 137"},
+                    {"type": "course", "courseId": "EE BIOL 162"},
+                    {"type": "course", "courseId": "EPIDEM 100"},
+                    {"type": "course", "courseId": "HUM GEN C144"},
+                    {"type": "course", "courseId": "MIMG 174"},
+                    {"type": "course", "courseId": "MIMG C185B"},
+                    {"type": "course", "courseId": "MIMG 191H"},
+                    {"type": "course", "courseId": "MIMG 198C"},
+                    {"type": "course", "courseId": "MIMG 199"},
+                    {"type": "course", "courseId": "MCD BIO 100"},
+                    {"type": "course", "courseId": "MCD BIO 104AL"},
+                    {"type": "course", "courseId": "MCD BIO M140"},
+                    {"type": "course", "courseId": "MCD BIO C141"},
+                    {"type": "course", "courseId": "MCD BIO 143"},
+                    {"type": "course", "courseId": "MCD BIO 144"},
+                    {"type": "course", "courseId": "MCD BIO C150"},
+                    {"type": "course", "courseId": "MCD BIO 168"},
+                    {"type": "course", "courseId": "MCD BIO 172"},
+                    {"type": "course", "courseId": "MCD BIO M175A"},
+                    {"type": "course", "courseId": "MCD BIO M175B"},
+                    {"type": "course", "courseId": "MCD BIO M175C"},
+                    {"type": "course", "courseId": "MCD BIO 187AL"},
+                    {"type": "course", "courseId": "NEUROSC M101A"},
+                    {"type": "course", "courseId": "NEUROSC M101B"},
+                    {"type": "course", "courseId": "NEUROSC M101C"},
+                    {"type": "course", "courseId": "PHYSCI 121"},
+                    {"type": "course", "courseId": "PHYSCI 124"},
+                    {"type": "course", "courseId": "PHYSCI 125"},
+                    {"type": "course", "courseId": "PHYSCI 128"},
+                    {"type": "course", "courseId": "STATS 100A"},
+                    {"type": "course", "courseId": "STATS 100B"}
                   ]
                 }
               ]
@@ -714,36 +330,18 @@
                   "description": "Complete five courses. Select either Chemistry 153B or Microbiology 132.",
                   "needs": 5,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "LIFESCI 107"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 101"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 185A"
-                    },
+                    {"type": "course", "courseId": "CHEM 153A"},
+                    {"type": "course", "courseId": "LIFESCI 107"},
+                    {"type": "course", "courseId": "MIMG 101"},
+                    {"type": "course", "courseId": "MIMG 185A"},
                     {
                       "type": "group",
                       "title": "Biochemistry or Cell Biology",
                       "description": "Select one course:",
                       "needs": 1,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "CHEM 153B"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MIMG 132"
-                        }
+                        {"type": "course", "courseId": "CHEM 153B"},
+                        {"type": "course", "courseId": "MIMG 132"}
                       ]
                     }
                   ]
@@ -760,14 +358,8 @@
                       "description": "Refer to the following courses.",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MIMG 196A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MIMG 196B"
-                        }
+                        {"type": "course", "courseId": "MIMG 196A"},
+                        {"type": "course", "courseId": "MIMG 196B"}
                       ]
                     },
                     {
@@ -776,14 +368,8 @@
                       "description": "Refer to the following courses.",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MCD BIO 196A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MCD BIO 196B"
-                        }
+                        {"type": "course", "courseId": "MCD BIO 196A"},
+                        {"type": "course", "courseId": "MCD BIO 196B"}
                       ]
                     }
                   ]
@@ -800,14 +386,8 @@
                       "description": "Refer to the following courses.",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MIMG 180A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MIMG 180B"
-                        }
+                        {"type": "course", "courseId": "MIMG 180A"},
+                        {"type": "course", "courseId": "MIMG 180B"}
                       ]
                     },
                     {
@@ -816,14 +396,8 @@
                       "description": "Refer to the following courses.",
                       "needs": 2,
                       "options": [
-                        {
-                          "type": "course",
-                          "courseId": "MCD BIO 180A"
-                        },
-                        {
-                          "type": "course",
-                          "courseId": "MCD BIO 180B"
-                        }
+                        {"type": "course", "courseId": "MCD BIO 180A"},
+                        {"type": "course", "courseId": "MCD BIO 180B"}
                       ]
                     }
                   ]
@@ -834,70 +408,22 @@
                   "description": "Select two courses from:",
                   "needs": 2,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 105"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 106"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 107"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG C122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG CM156"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 158"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 168"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 170"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG M178"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG CM256"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 138"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 165A"
-                    }
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "CHEM 153L"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 105"},
+                    {"type": "course", "courseId": "MIMG 106"},
+                    {"type": "course", "courseId": "MIMG 107"},
+                    {"type": "course", "courseId": "MIMG C122"},
+                    {"type": "course", "courseId": "MIMG 132"},
+                    {"type": "course", "courseId": "MIMG CM156"},
+                    {"type": "course", "courseId": "MIMG 158"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 170"},
+                    {"type": "course", "courseId": "MIMG M178"},
+                    {"type": "course", "courseId": "MIMG CM256"},
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO 165A"}
                   ]
                 },
                 {
@@ -906,286 +432,72 @@
                   "description": "Select one additional course from the focus electives list or from the following:",
                   "needs": 1,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153L"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 102"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 105"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 106"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 107"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG C122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 132"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG CM156"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 158"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 168"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 170"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG M178"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG CM256"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 138"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 165A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR CM145"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOENGR CM178"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "BIOSTAT 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 103"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 110A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM M117"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 136"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C140"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 153C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 156"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM 171"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "CHEM C181"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C122"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "COM SCI C124"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL C135"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 137"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EE BIOL 162"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "EPIDEM 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "HUM GEN C144"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 103AL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 103BL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 109AL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 109BL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 174"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG C185B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 191H"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 198C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MIMG 199"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 100"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 104AL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M140"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO C141"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 143"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 144"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO C150"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 168"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 172"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M175A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M175B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO M175C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "MCD BIO 187AL"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC M101A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC M101B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "NEUROSC M101C"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 121"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 124"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 125"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PHYSCI 128"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 100A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "STATS 100B"
-                    }
+                    {"type": "course", "courseId": "CHEM 153B"},
+                    {"type": "course", "courseId": "CHEM 153L"},
+                    {"type": "course", "courseId": "MIMG 102"},
+                    {"type": "course", "courseId": "MIMG 105"},
+                    {"type": "course", "courseId": "MIMG 106"},
+                    {"type": "course", "courseId": "MIMG 107"},
+                    {"type": "course", "courseId": "MIMG C122"},
+                    {"type": "course", "courseId": "MIMG 132"},
+                    {"type": "course", "courseId": "MIMG CM156"},
+                    {"type": "course", "courseId": "MIMG 158"},
+                    {"type": "course", "courseId": "MIMG 168"},
+                    {"type": "course", "courseId": "MIMG 170"},
+                    {"type": "course", "courseId": "MIMG M178"},
+                    {"type": "course", "courseId": "MIMG CM256"},
+                    {"type": "course", "courseId": "MCD BIO 138"},
+                    {"type": "course", "courseId": "MCD BIO 165A"},
+                    {"type": "course", "courseId": "BIOENGR 100"},
+                    {"type": "course", "courseId": "BIOENGR CM145"},
+                    {"type": "course", "courseId": "BIOENGR CM178"},
+                    {"type": "course", "courseId": "BIOSTAT 100"},
+                    {"type": "course", "courseId": "CHEM 103"},
+                    {"type": "course", "courseId": "CHEM 110A"},
+                    {"type": "course", "courseId": "CHEM M117"},
+                    {"type": "course", "courseId": "CHEM 136"},
+                    {"type": "course", "courseId": "CHEM C140"},
+                    {"type": "course", "courseId": "CHEM 153C"},
+                    {"type": "course", "courseId": "CHEM 156"},
+                    {"type": "course", "courseId": "CHEM 171"},
+                    {"type": "course", "courseId": "CHEM C172"},
+                    {"type": "course", "courseId": "CHEM C181"},
+                    {"type": "course", "courseId": "COM SCI C121"},
+                    {"type": "course", "courseId": "COM SCI C122"},
+                    {"type": "course", "courseId": "COM SCI C124"},
+                    {"type": "course", "courseId": "EE BIOL 121"},
+                    {"type": "course", "courseId": "EE BIOL C135"},
+                    {"type": "course", "courseId": "EE BIOL 137"},
+                    {"type": "course", "courseId": "EE BIOL 162"},
+                    {"type": "course", "courseId": "EPIDEM 100"},
+                    {"type": "course", "courseId": "HUM GEN C144"},
+                    {"type": "course", "courseId": "MIMG 174"},
+                    {"type": "course", "courseId": "MIMG C185B"},
+                    {"type": "course", "courseId": "MIMG 191H"},
+                    {"type": "course", "courseId": "MIMG 198C"},
+                    {"type": "course", "courseId": "MIMG 199"},
+                    {"type": "course", "courseId": "MCD BIO 100"},
+                    {"type": "course", "courseId": "MCD BIO 104AL"},
+                    {"type": "course", "courseId": "MCD BIO M140"},
+                    {"type": "course", "courseId": "MCD BIO C141"},
+                    {"type": "course", "courseId": "MCD BIO 143"},
+                    {"type": "course", "courseId": "MCD BIO 144"},
+                    {"type": "course", "courseId": "MCD BIO C150"},
+                    {"type": "course", "courseId": "MCD BIO 168"},
+                    {"type": "course", "courseId": "MCD BIO 172"},
+                    {"type": "course", "courseId": "MCD BIO M175A"},
+                    {"type": "course", "courseId": "MCD BIO M175B"},
+                    {"type": "course", "courseId": "MCD BIO M175C"},
+                    {"type": "course", "courseId": "MCD BIO 187AL"},
+                    {"type": "course", "courseId": "NEUROSC M101A"},
+                    {"type": "course", "courseId": "NEUROSC M101B"},
+                    {"type": "course", "courseId": "NEUROSC M101C"},
+                    {"type": "course", "courseId": "PHYSCI 121"},
+                    {"type": "course", "courseId": "PHYSCI 124"},
+                    {"type": "course", "courseId": "PHYSCI 125"},
+                    {"type": "course", "courseId": "PHYSCI 128"},
+                    {"type": "course", "courseId": "STATS 100A"},
+                    {"type": "course", "courseId": "STATS 100B"}
                   ]
                 }
               ]
@@ -1205,18 +517,9 @@
           "description": "The core of the program consists of research culminating in a thesis from the following three courses:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MIMG 198A"
-            },
-            {
-              "type": "course",
-              "courseId": "MIMG 198B"
-            },
-            {
-              "type": "course",
-              "courseId": "MIMG 198C"
-            }
+            {"type": "course", "courseId": "MIMG 198A"},
+            {"type": "course", "courseId": "MIMG 198B"},
+            {"type": "course", "courseId": "MIMG 198C"}
           ]
         }
       ]

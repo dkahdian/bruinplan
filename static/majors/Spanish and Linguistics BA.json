@@ -39,24 +39,15 @@
       "title": "Preparation for the Major",
       "description": "Complete four courses as follows: Each course must be taken for a letter grade and passed with a grade of C or better prior to beginning upper-division work in the major, except Linguistics 20, which must be passed with a grade of B– or better.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "LING 20"
-        },
+        {"type": "course", "courseId": "LING 20"},
         {
           "type": "group",
           "title": "Spanish 25 or 27",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 25"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 27"
-            }
+            {"type": "course", "courseId": "SPAN 25"},
+            {"type": "course", "courseId": "SPAN 27"}
           ]
         },
         {
@@ -65,14 +56,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN M35"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE M35"
-            }
+            {"type": "course", "courseId": "SPAN M35"},
+            {"type": "course", "courseId": "PORTGSE M35"}
           ]
         },
         {
@@ -81,14 +66,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 42"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 44"
-            }
+            {"type": "course", "courseId": "SPAN 42"},
+            {"type": "course", "courseId": "SPAN 44"}
           ]
         }
       ]
@@ -104,18 +83,9 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 100B"
-            },
-            {
-              "type": "course",
-              "courseId": "SPAN 119"
-            }
+            {"type": "course", "courseId": "SPAN 100A"},
+            {"type": "course", "courseId": "SPAN 100B"},
+            {"type": "course", "courseId": "SPAN 119"}
           ]
         },
         {
@@ -124,18 +94,9 @@
           "description": "Complete the following three courses:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LING 103"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 120A"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 120B"
-            }
+            {"type": "course", "courseId": "LING 103"},
+            {"type": "course", "courseId": "LING 120A"},
+            {"type": "course", "courseId": "LING 120B"}
           ]
         },
         {
@@ -144,18 +105,9 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LING 160"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 165A"
-            },
-            {
-              "type": "course",
-              "courseId": "LING 165B"
-            }
+            {"type": "course", "courseId": "LING 160"},
+            {"type": "course", "courseId": "LING 165A"},
+            {"type": "course", "courseId": "LING 165B"}
           ]
         },
         {
@@ -164,10 +116,7 @@
           "description": "Complete two courses from Spanish 160.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "SPAN 160"
-            }
+            {"type": "course", "courseId": "SPAN 160"}
           ]
         },
         {
@@ -176,11 +125,8 @@
           "description": "Complete two additional upper-division Spanish electives.",
           "needs": 2,
           "options": [
-            {"type": "course", "courseId": "SPAN 100A"},
-            {"type": "course", "courseId": "SPAN 100B"},
             {"type": "course", "courseId": "SPAN 105"},
             {"type": "course", "courseId": "SPAN 107"},
-            {"type": "course", "courseId": "SPAN 119"},
             {"type": "course", "courseId": "SPAN 120"},
             {"type": "course", "courseId": "SPAN M122"},
             {"type": "course", "courseId": "SPAN 130"},
@@ -228,14 +174,8 @@
               "description": "Complete the Spanish thesis sequence.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SPAN 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SPAN 198B"
-                }
+                {"type": "course", "courseId": "SPAN 198A"},
+                {"type": "course", "courseId": "SPAN 198B"}
               ]
             },
             {
@@ -244,14 +184,8 @@
               "description": "Complete the Portuguese thesis sequence.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PORTGSE 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PORTGSE 198B"
-                }
+                {"type": "course", "courseId": "PORTGSE 198A"},
+                {"type": "course", "courseId": "PORTGSE 198B"}
               ]
             }
           ]

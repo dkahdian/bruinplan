@@ -11,36 +11,18 @@
       "title": "Preparation for the Major",
       "description": "Complete six courses and demonstrate proficiency in one modern foreign language equivalent to level 6 at UCLA.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "INTL DV 1"
-        },
+        {"type": "course", "courseId": "INTL DV 1"},
         {
           "type": "group",
           "title": "Economics, Geography, Public Affairs",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ECON 1"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 2"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 4"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 30"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 40"
-            }
+            {"type": "course", "courseId": "ECON 1"},
+            {"type": "course", "courseId": "ECON 2"},
+            {"type": "course", "courseId": "GEOG 4"},
+            {"type": "course", "courseId": "PUB AFF 30"},
+            {"type": "course", "courseId": "PUB AFF 40"}
           ]
         },
         {
@@ -49,38 +31,14 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ECON 41"
-            },
-            {
-              "type": "course",
-              "courseId": "EDUC 35"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 96W"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 6"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 60"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 20"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 10"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 12"
-            }
+            {"type": "course", "courseId": "ECON 41"},
+            {"type": "course", "courseId": "EDUC 35"},
+            {"type": "course", "courseId": "HIST 96W"},
+            {"type": "course", "courseId": "POL SCI 6"},
+            {"type": "course", "courseId": "PUB AFF 60"},
+            {"type": "course", "courseId": "SOCIOL 20"},
+            {"type": "course", "courseId": "STATS 10"},
+            {"type": "course", "courseId": "STATS 12"}
           ]
         },
         {
@@ -95,10 +53,7 @@
               "description": "Select one course from Anthropology",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 3"
-                }
+                {"type": "course", "courseId": "ANTHRO 3"}
               ]
             },
             {
@@ -107,10 +62,7 @@
               "description": "Select one course from Gender Studies",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GENDER 10"
-                }
+                {"type": "course", "courseId": "GENDER 10"}
               ]
             },
             {
@@ -119,18 +71,9 @@
               "description": "Select one course from Geography",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GEOG 3"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 5"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 6"
-                }
+                {"type": "course", "courseId": "GEOG 3"},
+                {"type": "course", "courseId": "GEOG 5"},
+                {"type": "course", "courseId": "GEOG 6"}
               ]
             },
             {
@@ -139,26 +82,11 @@
               "description": "Select one course from Global Studies and International and Area Studies",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GLBL ST 1"
-                },
-                {
-                  "type": "course",
-                  "courseId": "I A STD 1"
-                },
-                {
-                  "type": "course",
-                  "courseId": "I A STD 31"
-                },
-                {
-                  "type": "course",
-                  "courseId": "I A STD 33"
-                },
-                {
-                  "type": "course",
-                  "courseId": "I A STD 50"
-                }
+                {"type": "course", "courseId": "GLBL ST 1"},
+                {"type": "course", "courseId": "I A STD 1"},
+                {"type": "course", "courseId": "I A STD 31"},
+                {"type": "course", "courseId": "I A STD 33"},
+                {"type": "course", "courseId": "I A STD 50"}
               ]
             },
             {
@@ -167,54 +95,18 @@
               "description": "Select one course from History",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "HIST 8A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 8B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 8C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 9A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 9D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 9E"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 10B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 10BW"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 11B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 12B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 12C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "HIST 22"
-                }
+                {"type": "course", "courseId": "HIST 8A"},
+                {"type": "course", "courseId": "HIST 8B"},
+                {"type": "course", "courseId": "HIST 8C"},
+                {"type": "course", "courseId": "HIST 9A"},
+                {"type": "course", "courseId": "HIST 9D"},
+                {"type": "course", "courseId": "HIST 9E"},
+                {"type": "course", "courseId": "HIST 10B"},
+                {"type": "course", "courseId": "HIST 10BW"},
+                {"type": "course", "courseId": "HIST 11B"},
+                {"type": "course", "courseId": "HIST 12B"},
+                {"type": "course", "courseId": "HIST 12C"},
+                {"type": "course", "courseId": "HIST 22"}
               ]
             },
             {
@@ -223,14 +115,8 @@
               "description": "Select one course from Political Science",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "POL SCI 20"
-                },
-                {
-                  "type": "course",
-                  "courseId": "POL SCI 50"
-                }
+                {"type": "course", "courseId": "POL SCI 20"},
+                {"type": "course", "courseId": "POL SCI 50"}
               ]
             },
             {
@@ -239,10 +125,7 @@
               "description": "Select one course from Sociology",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 1"
-                }
+                {"type": "course", "courseId": "SOCIOL 1"}
               ]
             },
             {
@@ -251,14 +134,8 @@
               "description": "Select one course from Comparative Literature and Spanish",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "COM LIT 4DW"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SPAN 44"
-                }
+                {"type": "course", "courseId": "COM LIT 4DW"},
+                {"type": "course", "courseId": "SPAN 44"}
               ]
             }
           ]
@@ -283,90 +160,33 @@
           "description": "Select three courses from:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "INTL DV 110"
-            },
-            {
-              "type": "course",
-              "courseId": "INTL DV M120"
-            },
-            {
-              "type": "course",
-              "courseId": "INTL DV 130"
-            },
-            {
-              "type": "course",
-              "courseId": "INTL DV 140"
-            }
+            {"type": "course", "courseId": "INTL DV 110"},
+            {"type": "course", "courseId": "INTL DV M120"},
+            {"type": "course", "courseId": "INTL DV 130"},
+            {"type": "course", "courseId": "INTL DV 140"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "INTL DV 191"
-        },
+        {"type": "course", "courseId": "INTL DV 191"},
         {
           "type": "group",
           "title": "Research Methodology",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 138P"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 103"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM C142A"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM C142B"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M119"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M122"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 123"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 103"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 170A"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 115"
-            },
-            {
-              "type": "course",
-              "courseId": "PUB AFF 116"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 113"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 112"
-            },
-            {
-              "type": "course",
-              "courseId": "URBN PL M122"
-            }
+            {"type": "course", "courseId": "ANTHRO 138P"},
+            {"type": "course", "courseId": "ASIA AM 103"},
+            {"type": "course", "courseId": "ASIA AM C142A"},
+            {"type": "course", "courseId": "ASIA AM C142B"},
+            {"type": "course", "courseId": "CCAS M119"},
+            {"type": "course", "courseId": "CCAS M122"},
+            {"type": "course", "courseId": "CCAS 123"},
+            {"type": "course", "courseId": "ECON 103"},
+            {"type": "course", "courseId": "POL SCI 170A"},
+            {"type": "course", "courseId": "PUB AFF 115"},
+            {"type": "course", "courseId": "PUB AFF 116"},
+            {"type": "course", "courseId": "SOCIOL 113"},
+            {"type": "course", "courseId": "STATS 112"},
+            {"type": "course", "courseId": "URBN PL M122"}
           ]
         },
         {
@@ -381,26 +201,11 @@
               "description": "Select one course from Anthropology",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 130"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 140"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 143"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 146"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ANTHRO 147"
-                }
+                {"type": "course", "courseId": "ANTHRO 130"},
+                {"type": "course", "courseId": "ANTHRO 140"},
+                {"type": "course", "courseId": "ANTHRO 143"},
+                {"type": "course", "courseId": "ANTHRO 146"},
+                {"type": "course", "courseId": "ANTHRO 147"}
               ]
             },
             {
@@ -409,18 +214,9 @@
               "description": "Select one course from Economics",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ECON 111"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ECON 112"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ECON 134"
-                }
+                {"type": "course", "courseId": "ECON 111"},
+                {"type": "course", "courseId": "ECON 112"},
+                {"type": "course", "courseId": "ECON 134"}
               ]
             },
             {
@@ -429,18 +225,9 @@
               "description": "Select one course from Environment",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ENVIRON M125"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENVIRON M133"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ENVIRON M161"
-                }
+                {"type": "course", "courseId": "ENVIRON M125"},
+                {"type": "course", "courseId": "ENVIRON M133"},
+                {"type": "course", "courseId": "ENVIRON M161"}
               ]
             },
             {
@@ -449,14 +236,8 @@
               "description": "Select one course from Gender Studies",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GENDER 102"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GENDER 103"
-                }
+                {"type": "course", "courseId": "GENDER 102"},
+                {"type": "course", "courseId": "GENDER 103"}
               ]
             },
             {
@@ -465,42 +246,15 @@
               "description": "Select one course from Geography",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "GEOG M125"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG M127"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 130"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 140"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 141"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 148"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 150"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 151"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GEOG 158"
-                }
+                {"type": "course", "courseId": "GEOG M125"},
+                {"type": "course", "courseId": "GEOG M127"},
+                {"type": "course", "courseId": "GEOG 130"},
+                {"type": "course", "courseId": "GEOG 140"},
+                {"type": "course", "courseId": "GEOG 141"},
+                {"type": "course", "courseId": "GEOG 148"},
+                {"type": "course", "courseId": "GEOG 150"},
+                {"type": "course", "courseId": "GEOG 151"},
+                {"type": "course", "courseId": "GEOG 158"}
               ]
             },
             {
@@ -509,26 +263,11 @@
               "description": "Select one course from International Development Studies",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "INTL DV 110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "INTL DV M120"
-                },
-                {
-                  "type": "course",
-                  "courseId": "INTL DV 130"
-                },
-                {
-                  "type": "course",
-                  "courseId": "INTL DV 140"
-                },
-                {
-                  "type": "course",
-                  "courseId": "INTL DV M150"
-                }
+                {"type": "course", "courseId": "INTL DV 110"},
+                {"type": "course", "courseId": "INTL DV M120"},
+                {"type": "course", "courseId": "INTL DV 130"},
+                {"type": "course", "courseId": "INTL DV 140"},
+                {"type": "course", "courseId": "INTL DV M150"}
               ]
             },
             {
@@ -537,22 +276,10 @@
               "description": "Select one course from Political Science",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "POL SCI M122B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "POL SCI 124A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "POL SCI 167D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "POL SCI 168"
-                }
+                {"type": "course", "courseId": "POL SCI M122B"},
+                {"type": "course", "courseId": "POL SCI 124A"},
+                {"type": "course", "courseId": "POL SCI 167D"},
+                {"type": "course", "courseId": "POL SCI 168"}
               ]
             },
             {
@@ -561,10 +288,7 @@
               "description": "Select one course from Public Affairs",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PUB AFF 110"
-                }
+                {"type": "course", "courseId": "PUB AFF 110"}
               ]
             },
             {
@@ -573,38 +297,14 @@
               "description": "Select one course from Sociology",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 101"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 102"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL M115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 122"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 123"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 182"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 183"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SOCIOL 191D"
-                }
+                {"type": "course", "courseId": "SOCIOL 101"},
+                {"type": "course", "courseId": "SOCIOL 102"},
+                {"type": "course", "courseId": "SOCIOL M115"},
+                {"type": "course", "courseId": "SOCIOL 122"},
+                {"type": "course", "courseId": "SOCIOL 123"},
+                {"type": "course", "courseId": "SOCIOL 182"},
+                {"type": "course", "courseId": "SOCIOL 183"},
+                {"type": "course", "courseId": "SOCIOL 191D"}
               ]
             },
             {
@@ -613,22 +313,10 @@
               "description": "Select one course from Urban Planning",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "URBN PL M110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "URBN PL 121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "URBN PL M160"
-                },
-                {
-                  "type": "course",
-                  "courseId": "URBN PL CM166"
-                }
+                {"type": "course", "courseId": "URBN PL M110"},
+                {"type": "course", "courseId": "URBN PL 121"},
+                {"type": "course", "courseId": "URBN PL M160"},
+                {"type": "course", "courseId": "URBN PL CM166"}
               ]
             }
           ]
@@ -639,426 +327,111 @@
           "description": "Select two regional courses from the lists below. The courses can be from the same or different regions.",
           "needs": 2,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 163P"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 171A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHIN 152"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M170C"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 175B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M170C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 170D"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 154"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 155"
-            },
-            {
-              "type": "course",
-              "courseId": "KOREA 180C"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 159A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 159B"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 181A"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 163Q"
-            },
-            {
-              "type": "course",
-              "courseId": "C&EE ST M125"
-            },
-            {
-              "type": "course",
-              "courseId": "C&EE ST CM126"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M127"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 107C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 120B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 120D"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 127B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 127C"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 156A"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 120"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 121"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN 122"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN M127"
-            },
-            {
-              "type": "course",
-              "courseId": "RUSSN C131"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 134"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M132"
-            },
-            {
-              "type": "course",
-              "courseId": "EDUC M108"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 106"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 152"
-            },
-            {
-              "type": "course",
-              "courseId": "THEATER 107"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M154C"
-            },
-            {
-              "type": "course",
-              "courseId": "AF AMER M178"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 161"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 162"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS C142B"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M125"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M126"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M144"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS CM147"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS 169"
-            },
-            {
-              "type": "course",
-              "courseId": "COM HLT 132"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER 123"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M144"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M147C"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 172A"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 172C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 157B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 162A"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS M145"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 154A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 154B"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI M184A"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 142A"
-            },
-            {
-              "type": "course",
-              "courseId": "PORTGSE 143A"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL M178"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 186"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M166Q"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 167"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 105C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M108C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 109B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 111C"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS M157"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 132A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI M132B"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 157"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 165"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 168P"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 122A"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 122B"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM M171D"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 171E"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM 172C"
-            },
-            {
-              "type": "course",
-              "courseId": "ASIA AM M173"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M164A"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 176A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST M144C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 174B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 174C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 175A"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 175C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 176B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 176C"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 177B"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS 184"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 158"
-            },
-            {
-              "type": "course",
-              "courseId": "SEASIAN 135"
-            },
-            {
-              "type": "course",
-              "courseId": "SEASIAN 157"
-            },
-            {
-              "type": "course",
-              "courseId": "VIETMSE CM155"
-            },
-            {
-              "type": "course",
-              "courseId": "VIETMSE 180B"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 166P"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS C145A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART HIS C145B"
-            },
-            {
-              "type": "course",
-              "courseId": "COM LIT 169"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 138"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 164D"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 164E"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 166B"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 168B"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 151A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 151B"
-            }
+            {"type": "course", "courseId": "ANTHRO 163P"},
+            {"type": "course", "courseId": "ASIA AM 171A"},
+            {"type": "course", "courseId": "CHIN 152"},
+            {"type": "course", "courseId": "GENDER M170C"},
+            {"type": "course", "courseId": "GEOG 175B"},
+            {"type": "course", "courseId": "HIST M170C"},
+            {"type": "course", "courseId": "HIST 170D"},
+            {"type": "course", "courseId": "KOREA 154"},
+            {"type": "course", "courseId": "KOREA 155"},
+            {"type": "course", "courseId": "KOREA 180C"},
+            {"type": "course", "courseId": "POL SCI 159A"},
+            {"type": "course", "courseId": "POL SCI 159B"},
+            {"type": "course", "courseId": "SOCIOL 181A"},
+            {"type": "course", "courseId": "ANTHRO 163Q"},
+            {"type": "course", "courseId": "C&EE ST M125"},
+            {"type": "course", "courseId": "C&EE ST CM126"},
+            {"type": "course", "courseId": "GENDER M127"},
+            {"type": "course", "courseId": "HIST 107C"},
+            {"type": "course", "courseId": "HIST 120B"},
+            {"type": "course", "courseId": "HIST 120D"},
+            {"type": "course", "courseId": "HIST 127B"},
+            {"type": "course", "courseId": "HIST 127C"},
+            {"type": "course", "courseId": "POL SCI 156A"},
+            {"type": "course", "courseId": "RUSSN 120"},
+            {"type": "course", "courseId": "RUSSN 121"},
+            {"type": "course", "courseId": "RUSSN 122"},
+            {"type": "course", "courseId": "RUSSN M127"},
+            {"type": "course", "courseId": "RUSSN C131"},
+            {"type": "course", "courseId": "ASIA AM 134"},
+            {"type": "course", "courseId": "CCAS M132"},
+            {"type": "course", "courseId": "EDUC M108"},
+            {"type": "course", "courseId": "ENGL 106"},
+            {"type": "course", "courseId": "SOCIOL 152"},
+            {"type": "course", "courseId": "THEATER 107"},
+            {"type": "course", "courseId": "AF AMER M154C"},
+            {"type": "course", "courseId": "AF AMER M178"},
+            {"type": "course", "courseId": "ANTHRO 161"},
+            {"type": "course", "courseId": "ANTHRO 162"},
+            {"type": "course", "courseId": "ART HIS C142B"},
+            {"type": "course", "courseId": "CCAS M125"},
+            {"type": "course", "courseId": "CCAS M126"},
+            {"type": "course", "courseId": "CCAS M144"},
+            {"type": "course", "courseId": "CCAS CM147"},
+            {"type": "course", "courseId": "CCAS 169"},
+            {"type": "course", "courseId": "COM HLT 132"},
+            {"type": "course", "courseId": "GENDER 123"},
+            {"type": "course", "courseId": "GENDER M144"},
+            {"type": "course", "courseId": "GENDER M147C"},
+            {"type": "course", "courseId": "GEOG 172A"},
+            {"type": "course", "courseId": "GEOG 172C"},
+            {"type": "course", "courseId": "HIST 157B"},
+            {"type": "course", "courseId": "HIST 162A"},
+            {"type": "course", "courseId": "HNRS M145"},
+            {"type": "course", "courseId": "POL SCI 154A"},
+            {"type": "course", "courseId": "POL SCI 154B"},
+            {"type": "course", "courseId": "POL SCI M184A"},
+            {"type": "course", "courseId": "PORTGSE 142A"},
+            {"type": "course", "courseId": "PORTGSE 143A"},
+            {"type": "course", "courseId": "SOCIOL M178"},
+            {"type": "course", "courseId": "SOCIOL 186"},
+            {"type": "course", "courseId": "ANTHRO M166Q"},
+            {"type": "course", "courseId": "ANTHRO 167"},
+            {"type": "course", "courseId": "HIST 105C"},
+            {"type": "course", "courseId": "HIST M108C"},
+            {"type": "course", "courseId": "HIST 109B"},
+            {"type": "course", "courseId": "HIST 111C"},
+            {"type": "course", "courseId": "HNRS M157"},
+            {"type": "course", "courseId": "POL SCI 132A"},
+            {"type": "course", "courseId": "POL SCI M132B"},
+            {"type": "course", "courseId": "POL SCI 157"},
+            {"type": "course", "courseId": "POL SCI 165"},
+            {"type": "course", "courseId": "ANTHRO 168P"},
+            {"type": "course", "courseId": "ASIA AM 122A"},
+            {"type": "course", "courseId": "ASIA AM 122B"},
+            {"type": "course", "courseId": "ASIA AM M171D"},
+            {"type": "course", "courseId": "ASIA AM 171E"},
+            {"type": "course", "courseId": "ASIA AM 172C"},
+            {"type": "course", "courseId": "ASIA AM M173"},
+            {"type": "course", "courseId": "GENDER M164A"},
+            {"type": "course", "courseId": "GEOG 176A"},
+            {"type": "course", "courseId": "HIST M144C"},
+            {"type": "course", "courseId": "HIST 174B"},
+            {"type": "course", "courseId": "HIST 174C"},
+            {"type": "course", "courseId": "HIST 175A"},
+            {"type": "course", "courseId": "HIST 175C"},
+            {"type": "course", "courseId": "HIST 176B"},
+            {"type": "course", "courseId": "HIST 176C"},
+            {"type": "course", "courseId": "HIST 177B"},
+            {"type": "course", "courseId": "HNRS 184"},
+            {"type": "course", "courseId": "POL SCI 158"},
+            {"type": "course", "courseId": "SEASIAN 135"},
+            {"type": "course", "courseId": "SEASIAN 157"},
+            {"type": "course", "courseId": "VIETMSE CM155"},
+            {"type": "course", "courseId": "VIETMSE 180B"},
+            {"type": "course", "courseId": "ANTHRO 166P"},
+            {"type": "course", "courseId": "ART HIS C145A"},
+            {"type": "course", "courseId": "ART HIS C145B"},
+            {"type": "course", "courseId": "COM LIT 169"},
+            {"type": "course", "courseId": "GEOG 138"},
+            {"type": "course", "courseId": "HIST 164D"},
+            {"type": "course", "courseId": "HIST 164E"},
+            {"type": "course", "courseId": "HIST 166B"},
+            {"type": "course", "courseId": "HIST 168B"},
+            {"type": "course", "courseId": "POL SCI 151A"},
+            {"type": "course", "courseId": "POL SCI 151B"}
           ]
         },
         {
@@ -1067,134 +440,38 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO M145R"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M148"
-            },
-            {
-              "type": "course",
-              "courseId": "COM HLT 100"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 121"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 122"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 137"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 150"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 151"
-            },
-            {
-              "type": "course",
-              "courseId": "EDUC 109A"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 130"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL 131"
-            },
-            {
-              "type": "course",
-              "courseId": "ENVIRON 186"
-            },
-            {
-              "type": "course",
-              "courseId": "FILM TV 106C"
-            },
-            {
-              "type": "course",
-              "courseId": "FILM TV 112"
-            },
-            {
-              "type": "course",
-              "courseId": "FILM TV M124"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M154Q"
-            },
-            {
-              "type": "course",
-              "courseId": "GENDER M154R"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG M131"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG 139C"
-            },
-            {
-              "type": "course",
-              "courseId": "GEOG M142"
-            },
-            {
-              "type": "course",
-              "courseId": "GLBL ST 102"
-            },
-            {
-              "type": "course",
-              "courseId": "GLBL ST 103"
-            },
-            {
-              "type": "course",
-              "courseId": "GLBL ST 104"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 131A"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS M152"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 116A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 123A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 126"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 137A"
-            },
-            {
-              "type": "course",
-              "courseId": "POL SCI 150"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 154"
-            },
-            {
-              "type": "course",
-              "courseId": "SOCIOL 191F"
-            }
+            {"type": "course", "courseId": "ANTHRO M145R"},
+            {"type": "course", "courseId": "ANTHRO M148"},
+            {"type": "course", "courseId": "COM HLT 100"},
+            {"type": "course", "courseId": "ECON 121"},
+            {"type": "course", "courseId": "ECON 122"},
+            {"type": "course", "courseId": "ECON 137"},
+            {"type": "course", "courseId": "ECON 150"},
+            {"type": "course", "courseId": "ECON 151"},
+            {"type": "course", "courseId": "EDUC 109A"},
+            {"type": "course", "courseId": "ENGL 130"},
+            {"type": "course", "courseId": "ENGL 131"},
+            {"type": "course", "courseId": "ENVIRON 186"},
+            {"type": "course", "courseId": "FILM TV 106C"},
+            {"type": "course", "courseId": "FILM TV 112"},
+            {"type": "course", "courseId": "FILM TV M124"},
+            {"type": "course", "courseId": "GENDER M154Q"},
+            {"type": "course", "courseId": "GENDER M154R"},
+            {"type": "course", "courseId": "GEOG M131"},
+            {"type": "course", "courseId": "GEOG 139C"},
+            {"type": "course", "courseId": "GEOG M142"},
+            {"type": "course", "courseId": "GLBL ST 102"},
+            {"type": "course", "courseId": "GLBL ST 103"},
+            {"type": "course", "courseId": "GLBL ST 104"},
+            {"type": "course", "courseId": "HIST 131A"},
+            {"type": "course", "courseId": "HNRS M152"},
+            {"type": "course", "courseId": "POL SCI 116A"},
+            {"type": "course", "courseId": "POL SCI 123A"},
+            {"type": "course", "courseId": "POL SCI 126"},
+            {"type": "course", "courseId": "POL SCI 137A"},
+            {"type": "course", "courseId": "POL SCI 150"},
+            {"type": "course", "courseId": "SOCIOL 154"},
+            {"type": "course", "courseId": "SOCIOL 191F"}
           ]
         }
       ]
@@ -1204,18 +481,9 @@
       "title": "Honors Program",
       "description": "In addition to completing all courses required for the major, students must take courses 198A, 198B, and 198C, in which they research, write, and present an honors thesis.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "INTL DV 198A"
-        },
-        {
-          "type": "course",
-          "courseId": "INTL DV 198B"
-        },
-        {
-          "type": "course",
-          "courseId": "INTL DV 198C"
-        }
+        {"type": "course", "courseId": "INTL DV 198A"},
+        {"type": "course", "courseId": "INTL DV 198B"},
+        {"type": "course", "courseId": "INTL DV 198C"}
       ]
     }
   ]

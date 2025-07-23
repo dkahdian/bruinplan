@@ -11,80 +11,29 @@
       "title": "Preparation for the Major",
       "description": "Complete 17 courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "COM SCI 1"
-        },
-        {
-          "type": "course",
-          "courseId": "COM SCI 31"
-        },
-        {
-          "type": "course",
-          "courseId": "COM SCI 32"
-        },
-        {
-          "type": "course",
-          "courseId": "COM SCI 33"
-        },
-        {
-          "type": "course",
-          "courseId": "COM SCI 35L"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 31A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 31B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 61"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 1A"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 1B"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 1C"
-        },
+        {"type": "course", "courseId": "COM SCI 1"},
+        {"type": "course", "courseId": "COM SCI 31"},
+        {"type": "course", "courseId": "COM SCI 32"},
+        {"type": "course", "courseId": "COM SCI 33"},
+        {"type": "course", "courseId": "COM SCI 35L"},
+        {"type": "course", "courseId": "MATH 31A"},
+        {"type": "course", "courseId": "MATH 31B"},
+        {"type": "course", "courseId": "MATH 32A"},
+        {"type": "course", "courseId": "MATH 32B"},
+        {"type": "course", "courseId": "MATH 33A"},
+        {"type": "course", "courseId": "MATH 33B"},
+        {"type": "course", "courseId": "MATH 61"},
+        {"type": "course", "courseId": "PHYSICS 1A"},
+        {"type": "course", "courseId": "PHYSICS 1B"},
+        {"type": "course", "courseId": "PHYSICS 1C"},
         {
           "type": "group",
           "title": "Logic Design",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COM SCI M51A"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR M16"
-            }
+            {"type": "course", "courseId": "COM SCI M51A"},
+            {"type": "course", "courseId": "EC ENGR M16"}
           ]
         },
         {
@@ -93,14 +42,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PHYSICS 4AL"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 4BL"
-            }
+            {"type": "course", "courseId": "PHYSICS 4AL"},
+            {"type": "course", "courseId": "PHYSICS 4BL"}
           ]
         }
       ]
@@ -110,36 +53,18 @@
       "title": "The Major",
       "description": "Complete the following: five required courses, one probability course, one capstone course, seven computer science elective courses (28 units), three science and technology courses (12 units), and 12 units of technical breadth courses.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "COM SCI 111"
-        },
-        {
-          "type": "course",
-          "courseId": "COM SCI 131"
-        },
-        {
-          "type": "course",
-          "courseId": "COM SCI 180"
-        },
-        {
-          "type": "course",
-          "courseId": "COM SCI 181"
-        },
+        {"type": "course", "courseId": "COM SCI 111"},
+        {"type": "course", "courseId": "COM SCI 131"},
+        {"type": "course", "courseId": "COM SCI 180"},
+        {"type": "course", "courseId": "COM SCI 181"},
         {
           "type": "group",
           "title": "Architecture Requirement",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COM SCI M151B"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR M116C"
-            }
+            {"type": "course", "courseId": "COM SCI M151B"},
+            {"type": "course", "courseId": "EC ENGR M116C"}
           ]
         },
         {
@@ -148,26 +73,11 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "C&EE 110"
-            },
-            {
-              "type": "course",
-              "courseId": "EC ENGR 131A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 170A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 170E"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 100A"
-            }
+            {"type": "course", "courseId": "C&EE 110"},
+            {"type": "course", "courseId": "EC ENGR 131A"},
+            {"type": "course", "courseId": "MATH 170A"},
+            {"type": "course", "courseId": "MATH 170E"},
+            {"type": "course", "courseId": "STATS 100A"}
           ]
         },
         {
@@ -176,14 +86,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COM SCI 130"
-            },
-            {
-              "type": "course",
-              "courseId": "COM SCI 152B"
-            }
+            {"type": "course", "courseId": "COM SCI 130"},
+            {"type": "course", "courseId": "COM SCI 152B"}
           ]
         },
         {
@@ -192,39 +96,39 @@
           "description": "Complete a minimum of 28 units (seven courses) from Computer Science 100 through CM187, except COM SCI M148. Up to 8 units of Computer Science 188 may be applied.",
           "needs": 7,
           "options": [
-            { "type": "course", "courseId": "COM SCI 100" },
-            { "type": "course", "courseId": "COM SCI 111" },
-            { "type": "course", "courseId": "COM SCI 112" },
-            { "type": "course", "courseId": "COM SCI 117" },
-            { "type": "course", "courseId": "COM SCI 118" },
-            { "type": "course", "courseId": "COM SCI 130" },
-            { "type": "course", "courseId": "COM SCI 131" },
-            { "type": "course", "courseId": "COM SCI 132" },
-            { "type": "course", "courseId": "COM SCI 133" },
-            { "type": "course", "courseId": "COM SCI 134" },
-            { "type": "course", "courseId": "COM SCI 136" },
-            { "type": "course", "courseId": "COM SCI 143" },
-            { "type": "course", "courseId": "COM SCI 144" },
-            { "type": "course", "courseId": "COM SCI 145" },
-            { "type": "course", "courseId": "COM SCI 152B" },
-            { "type": "course", "courseId": "COM SCI 161" },
-            { "type": "course", "courseId": "COM SCI 162" },
-            { "type": "course", "courseId": "COM SCI 163" },
-            { "type": "course", "courseId": "COM SCI 168" },
-            { "type": "course", "courseId": "COM SCI 170A" },
-            { "type": "course", "courseId": "COM SCI 172" },
-            { "type": "course", "courseId": "COM SCI 174A" },
-            { "type": "course", "courseId": "COM SCI 174B" },
-            { "type": "course", "courseId": "COM SCI 180" },
-            { "type": "course", "courseId": "COM SCI 181" },
-            { "type": "course", "courseId": "COM SCI 183" },
-            { "type": "course", "courseId": "COM SCI 188" },
-            { "type": "course", "courseId": "COM SCI 188SA" },
-            { "type": "course", "courseId": "COM SCI 188SB" },
-            { "type": "course", "courseId": "COM SCI 188SC" },
-            { "type": "course", "courseId": "COM SCI 192" },
-            { "type": "course", "courseId": "COM SCI 194" },
-            { "type": "course", "courseId": "COM SCI 199" }
+            {"type": "course", "courseId": "COM SCI 100"},
+            {"type": "course", "courseId": "COM SCI 111"},
+            {"type": "course", "courseId": "COM SCI 112"},
+            {"type": "course", "courseId": "COM SCI 117"},
+            {"type": "course", "courseId": "COM SCI 118"},
+            {"type": "course", "courseId": "COM SCI 130"},
+            {"type": "course", "courseId": "COM SCI 131"},
+            {"type": "course", "courseId": "COM SCI 132"},
+            {"type": "course", "courseId": "COM SCI 133"},
+            {"type": "course", "courseId": "COM SCI 134"},
+            {"type": "course", "courseId": "COM SCI 136"},
+            {"type": "course", "courseId": "COM SCI 143"},
+            {"type": "course", "courseId": "COM SCI 144"},
+            {"type": "course", "courseId": "COM SCI 145"},
+            {"type": "course", "courseId": "COM SCI 152B"},
+            {"type": "course", "courseId": "COM SCI 161"},
+            {"type": "course", "courseId": "COM SCI 162"},
+            {"type": "course", "courseId": "COM SCI 163"},
+            {"type": "course", "courseId": "COM SCI 168"},
+            {"type": "course", "courseId": "COM SCI 170A"},
+            {"type": "course", "courseId": "COM SCI 172"},
+            {"type": "course", "courseId": "COM SCI 174A"},
+            {"type": "course", "courseId": "COM SCI 174B"},
+            {"type": "course", "courseId": "COM SCI 180"},
+            {"type": "course", "courseId": "COM SCI 181"},
+            {"type": "course", "courseId": "COM SCI 183"},
+            {"type": "course", "courseId": "COM SCI 188"},
+            {"type": "course", "courseId": "COM SCI 188SA"},
+            {"type": "course", "courseId": "COM SCI 188SB"},
+            {"type": "course", "courseId": "COM SCI 188SC"},
+            {"type": "course", "courseId": "COM SCI 192"},
+            {"type": "course", "courseId": "COM SCI 194"},
+            {"type": "course", "courseId": "COM SCI 199"}
           ]
         },
         {

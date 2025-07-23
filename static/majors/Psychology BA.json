@@ -17,34 +17,13 @@
           "description": "Select one course from",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CHEM 14A"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 17"
-            },
-            {
-              "type": "course",
-              "courseId": "CHEM 20A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 5A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 10"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 11"
-            }
+            {"type": "course", "courseId": "CHEM 14A"},
+            {"type": "course", "courseId": "CHEM 17"},
+            {"type": "course", "courseId": "CHEM 20A"},
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 5A"},
+            {"type": "course", "courseId": "PHYSICS 10"},
+            {"type": "course", "courseId": "PHYSICS 11"}
           ]
         },
         {
@@ -53,18 +32,9 @@
           "description": "Select one course from",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "LIFESCI 7A"
-            },
-            {
-              "type": "course",
-              "courseId": "LIFESCI 15"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSCI 3"
-            }
+            {"type": "course", "courseId": "LIFESCI 7A"},
+            {"type": "course", "courseId": "LIFESCI 15"},
+            {"type": "course", "courseId": "PHYSCI 3"}
           ]
         },
         {
@@ -73,62 +43,20 @@
           "description": "Select one course from",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PHILOS 1"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 2"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 3"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 4"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 5"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 6"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 7"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 8"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 9"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 21"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 22"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 22W"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 23"
-            },
-            {
-              "type": "course",
-              "courseId": "PHILOS 31"
-            }
+            {"type": "course", "courseId": "PHILOS 1"},
+            {"type": "course", "courseId": "PHILOS 2"},
+            {"type": "course", "courseId": "PHILOS 3"},
+            {"type": "course", "courseId": "PHILOS 4"},
+            {"type": "course", "courseId": "PHILOS 5"},
+            {"type": "course", "courseId": "PHILOS 6"},
+            {"type": "course", "courseId": "PHILOS 7"},
+            {"type": "course", "courseId": "PHILOS 8"},
+            {"type": "course", "courseId": "PHILOS 9"},
+            {"type": "course", "courseId": "PHILOS 21"},
+            {"type": "course", "courseId": "PHILOS 22"},
+            {"type": "course", "courseId": "PHILOS 22W"},
+            {"type": "course", "courseId": "PHILOS 23"},
+            {"type": "course", "courseId": "PHILOS 31"}
           ]
         },
         {
@@ -137,14 +65,8 @@
           "description": "Select one course from the following or one term of calculus",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COMPTNG 10A"
-            },
-            {
-              "type": "course",
-              "courseId": "STATS 10"
-            }
+            {"type": "course", "courseId": "COMPTNG 10A"},
+            {"type": "course", "courseId": "STATS 10"}
           ]
         },
         {
@@ -153,18 +75,9 @@
           "description": "Complete the following three courses",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PSYCH 10"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 100A"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 100B"
-            }
+            {"type": "course", "courseId": "PSYCH 10"},
+            {"type": "course", "courseId": "PSYCH 100A"},
+            {"type": "course", "courseId": "PSYCH 100B"}
           ]
         }
       ]
@@ -180,96 +93,51 @@
           "description": "Select five courses. Only one course from PSYCH 127A, 127B, or 127C may be applied. Only one course from PSYCH 155A or 155B may be applied.",
           "needs": 5,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PSYCH 110"
-            },
+            {"type": "course", "courseId": "PSYCH 110"},
             {
               "type": "group",
               "title": "Behavioral Neuroscience",
               "description": "Select one option. The Neuroscience Series substitution counts as PSYCH 115 and two upper-division psychology electives.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 115"
-                },
+                {"type": "course", "courseId": "PSYCH 115"},
                 {
                   "type": "group",
                   "title": "Neuroscience Series Substitution",
                   "description": "Students who complete all three courses receive equivalent credit for PSYCH 115 and two upper-division psychology electives. All three courses must be completed to receive any credit.",
                   "needs": 3,
                   "options": [
-                    {
-                      "type": "course",
-                      "courseId": "PSYCH M117A"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PSYCH M117B"
-                    },
-                    {
-                      "type": "course",
-                      "courseId": "PSYCH M117C"
-                    }
+                    {"type": "course", "courseId": "PSYCH M117A"},
+                    {"type": "course", "courseId": "PSYCH M117B"},
+                    {"type": "course", "courseId": "PSYCH M117C"}
                   ]
                 }
               ]
             },
-            {
-              "type": "course",
-              "courseId": "PSYCH 120A"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 120B"
-            },
+            {"type": "course", "courseId": "PSYCH 120A"},
+            {"type": "course", "courseId": "PSYCH 120B"},
             {
               "type": "group",
               "title": "Clinical Psychological Science",
               "description": "Select one course from",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 127A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 127B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 127C"
-                }
+                {"type": "course", "courseId": "PSYCH 127A"},
+                {"type": "course", "courseId": "PSYCH 127B"},
+                {"type": "course", "courseId": "PSYCH 127C"}
               ]
             },
-            {
-              "type": "course",
-              "courseId": "PSYCH 130"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 135"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 150"
-            },
+            {"type": "course", "courseId": "PSYCH 130"},
+            {"type": "course", "courseId": "PSYCH 135"},
+            {"type": "course", "courseId": "PSYCH 150"},
             {
               "type": "group",
               "title": "Social/Emotional Psychology/Neuroscience",
               "description": "Select one course from",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 155A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "PSYCH 155B"
-                }
+                {"type": "course", "courseId": "PSYCH 155A"},
+                {"type": "course", "courseId": "PSYCH 155B"}
               ]
             }
           ]
@@ -280,74 +148,23 @@
           "description": "Select one course from",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PSYCH 101"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 111"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH M116A"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 116B"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 121"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 126"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 131"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 136A"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 136B"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH M136C"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 151"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 158"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 186A"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 186B"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 186C"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 186D"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 186E"
-            }
+            {"type": "course", "courseId": "PSYCH 101"},
+            {"type": "course", "courseId": "PSYCH 111"},
+            {"type": "course", "courseId": "PSYCH M116A"},
+            {"type": "course", "courseId": "PSYCH 116B"},
+            {"type": "course", "courseId": "PSYCH 121"},
+            {"type": "course", "courseId": "PSYCH 126"},
+            {"type": "course", "courseId": "PSYCH 131"},
+            {"type": "course", "courseId": "PSYCH 136A"},
+            {"type": "course", "courseId": "PSYCH 136B"},
+            {"type": "course", "courseId": "PSYCH M136C"},
+            {"type": "course", "courseId": "PSYCH 151"},
+            {"type": "course", "courseId": "PSYCH 158"},
+            {"type": "course", "courseId": "PSYCH 186A"},
+            {"type": "course", "courseId": "PSYCH 186B"},
+            {"type": "course", "courseId": "PSYCH 186C"},
+            {"type": "course", "courseId": "PSYCH 186D"},
+            {"type": "course", "courseId": "PSYCH 186E"}
           ]
         },
         {
@@ -355,163 +172,163 @@
           "title": "Upper-Division Psychology Electives",
           "description": "Select four additional elective courses (16 units) from Psychology 101 to 188 or PSYCH 199B. Courses must be taken for a minimum of 4 units and for a letter grade.",
           "needs": 4,
-        "options": [
-          {"type": "course", "courseId": "PSYCH 101"},
-          {"type": "course", "courseId": "PSYCH M107"},
-          {"type": "course", "courseId": "PSYCH 110"},
-          {"type": "course", "courseId": "PSYCH 111"},
-          {"type": "course", "courseId": "PSYCH 112A"},
-          {"type": "course", "courseId": "PSYCH 112B"},
-          {"type": "course", "courseId": "PSYCH 112C"},
-          {"type": "course", "courseId": "PSYCH 112D"},
-          {"type": "course", "courseId": "PSYCH 112E"},
-          {"type": "course", "courseId": "PSYCH 115"},
-          {"type": "course", "courseId": "PSYCH M116A"},
-          {"type": "course", "courseId": "PSYCH 116B"},
-          {"type": "course", "courseId": "PSYCH M117A"},
-          {"type": "course", "courseId": "PSYCH M117B"},
-          {"type": "course", "courseId": "PSYCH M117C"},
-          {"type": "course", "courseId": "PSYCH 118"},
-          {"type": "course", "courseId": "PSYCH 119A"},
-          {"type": "course", "courseId": "PSYCH 119B"},
-          {"type": "course", "courseId": "PSYCH 119C"},
-          {"type": "course", "courseId": "PSYCH 119D"},
-          {"type": "course", "courseId": "PSYCH 119E"},
-          {"type": "course", "courseId": "PSYCH 119F"},
-          {"type": "course", "courseId": "PSYCH 119I"},
-          {"type": "course", "courseId": "PSYCH 119J"},
-          {"type": "course", "courseId": "PSYCH 119K"},
-          {"type": "course", "courseId": "PSYCH M119L"},
-          {"type": "course", "courseId": "PSYCH 119M"},
-          {"type": "course", "courseId": "PSYCH M119N"},
-          {"type": "course", "courseId": "PSYCH M119O"},
-          {"type": "course", "courseId": "PSYCH 119P"},
-          {"type": "course", "courseId": "PSYCH 119Q"},
-          {"type": "course", "courseId": "PSYCH 119U"},
-          {"type": "course", "courseId": "PSYCH 119V"},
-          {"type": "course", "courseId": "PSYCH M119X"},
-          {"type": "course", "courseId": "PSYCH 119Y"},
-          {"type": "course", "courseId": "PSYCH 120A"},
-          {"type": "course", "courseId": "PSYCH 120B"},
-          {"type": "course", "courseId": "PSYCH 121"},
-          {"type": "course", "courseId": "PSYCH 124A"},
-          {"type": "course", "courseId": "PSYCH 124B"},
-          {"type": "course", "courseId": "PSYCH 124C"},
-          {"type": "course", "courseId": "PSYCH 124D"},
-          {"type": "course", "courseId": "PSYCH 124E"},
-          {"type": "course", "courseId": "PSYCH 124F"},
-          {"type": "course", "courseId": "PSYCH 124G"},
-          {"type": "course", "courseId": "PSYCH 124J"},
-          {"type": "course", "courseId": "PSYCH 124K"},
-          {"type": "course", "courseId": "PSYCH 124L"},
-          {"type": "course", "courseId": "PSYCH 126"},
-          {"type": "course", "courseId": "PSYCH 127A"},
-          {"type": "course", "courseId": "PSYCH 127B"},
-          {"type": "course", "courseId": "PSYCH 127C"},
-          {"type": "course", "courseId": "PSYCH 129C"},
-          {"type": "course", "courseId": "PSYCH 129E"},
-          {"type": "course", "courseId": "PSYCH 129F"},
-          {"type": "course", "courseId": "PSYCH 130"},
-          {"type": "course", "courseId": "PSYCH 131"},
-          {"type": "course", "courseId": "PSYCH 132A"},
-          {"type": "course", "courseId": "PSYCH 132B"},
-          {"type": "course", "courseId": "PSYCH 133A"},
-          {"type": "course", "courseId": "PSYCH 133B"},
-          {"type": "course", "courseId": "PSYCH 133C"},
-          {"type": "course", "courseId": "PSYCH 133D"},
-          {"type": "course", "courseId": "PSYCH 133E"},
-          {"type": "course", "courseId": "PSYCH 133F"},
-          {"type": "course", "courseId": "PSYCH 133G"},
-          {"type": "course", "courseId": "PSYCH 133I"},
-          {"type": "course", "courseId": "PSYCH 133J"},
-          {"type": "course", "courseId": "PSYCH 134A"},
-          {"type": "course", "courseId": "PSYCH 134B"},
-          {"type": "course", "courseId": "PSYCH 134C"},
-          {"type": "course", "courseId": "PSYCH 134D"},
-          {"type": "course", "courseId": "PSYCH 134E"},
-          {"type": "course", "courseId": "PSYCH 134F"},
-          {"type": "course", "courseId": "PSYCH 134G"},
-          {"type": "course", "courseId": "PSYCH 134I"},
-          {"type": "course", "courseId": "PSYCH 134J"},
-          {"type": "course", "courseId": "PSYCH 134K"},
-          {"type": "course", "courseId": "PSYCH 135"},
-          {"type": "course", "courseId": "PSYCH 136A"},
-          {"type": "course", "courseId": "PSYCH 136B"},
-          {"type": "course", "courseId": "PSYCH M136C"},
-          {"type": "course", "courseId": "PSYCH 137A"},
-          {"type": "course", "courseId": "PSYCH M137B"},
-          {"type": "course", "courseId": "PSYCH 137C"},
-          {"type": "course", "courseId": "PSYCH 137D"},
-          {"type": "course", "courseId": "PSYCH M137E"},
-          {"type": "course", "courseId": "PSYCH 137F"},
-          {"type": "course", "courseId": "PSYCH 137G"},
-          {"type": "course", "courseId": "PSYCH 137I"},
-          {"type": "course", "courseId": "PSYCH 137J"},
-          {"type": "course", "courseId": "PSYCH M137M"},
-          {"type": "course", "courseId": "PSYCH 137N"},
-          {"type": "course", "courseId": "PSYCH M138"},
-          {"type": "course", "courseId": "PSYCH M139"},
-          {"type": "course", "courseId": "PSYCH M140"},
-          {"type": "course", "courseId": "PSYCH 142H"},
-          {"type": "course", "courseId": "PSYCH M144"},
-          {"type": "course", "courseId": "PSYCH M147A"},
-          {"type": "course", "courseId": "PSYCH M149"},
-          {"type": "course", "courseId": "PSYCH 150"},
-          {"type": "course", "courseId": "PSYCH 151"},
-          {"type": "course", "courseId": "PSYCH 152"},
-          {"type": "course", "courseId": "PSYCH 155A"},
-          {"type": "course", "courseId": "PSYCH 155B"},
-          {"type": "course", "courseId": "PSYCH 158"},
-          {"type": "course", "courseId": "PSYCH 161"},
-          {"type": "course", "courseId": "PSYCH 162"},
-          {"type": "course", "courseId": "PSYCH 164"},
-          {"type": "course", "courseId": "PSYCH M165"},
-          {"type": "course", "courseId": "PSYCH M166"},
-          {"type": "course", "courseId": "PSYCH 167"},
-          {"type": "course", "courseId": "PSYCH 168"},
-          {"type": "course", "courseId": "PSYCH M172"},
-          {"type": "course", "courseId": "PSYCH M174"},
-          {"type": "course", "courseId": "PSYCH 175"},
-          {"type": "course", "courseId": "PSYCH M176SL"},
-          {"type": "course", "courseId": "PSYCH 177"},
-          {"type": "course", "courseId": "PSYCH 178"},
-          {"type": "course", "courseId": "PSYCH 182A"},
-          {"type": "course", "courseId": "PSYCH 182B"},
-          {"type": "course", "courseId": "PSYCH 182C"},
-          {"type": "course", "courseId": "PSYCH 184A"},
-          {"type": "course", "courseId": "PSYCH 184B"},
-          {"type": "course", "courseId": "PSYCH 185"},
-          {"type": "course", "courseId": "PSYCH 186A"},
-          {"type": "course", "courseId": "PSYCH 186B"},
-          {"type": "course", "courseId": "PSYCH 186C"},
-          {"type": "course", "courseId": "PSYCH 186D"},
-          {"type": "course", "courseId": "PSYCH 186E"},
-          {"type": "course", "courseId": "PSYCH 188A"},
-          {"type": "course", "courseId": "PSYCH 188B"},
-          {"type": "course", "courseId": "PSYCH 188SA"},
-          {"type": "course", "courseId": "PSYCH 188SB"},
-          {"type": "course", "courseId": "PSYCH 188SC"},
-          {"type": "course", "courseId": "PSYCH 189"},
-          {"type": "course", "courseId": "PSYCH 189HC"},
-          {"type": "course", "courseId": "PSYCH 190"},
-          {"type": "course", "courseId": "PSYCH 191"},
-          {"type": "course", "courseId": "PSYCH 191AH"},
-          {"type": "course", "courseId": "PSYCH 191BH"},
-          {"type": "course", "courseId": "PSYCH 191CH"},
-          {"type": "course", "courseId": "PSYCH 192"},
-          {"type": "course", "courseId": "PSYCH 193"},
-          {"type": "course", "courseId": "PSYCH 194A"},
-          {"type": "course", "courseId": "PSYCH 194B"},
-          {"type": "course", "courseId": "PSYCH 194C"},
-          {"type": "course", "courseId": "PSYCH C194D"},
-          {"type": "course", "courseId": "PSYCH 195A"},
-          {"type": "course", "courseId": "PSYCH 195B"},
-          {"type": "course", "courseId": "PSYCH 196A"},
-          {"type": "course", "courseId": "PSYCH 196B"},
-          {"type": "course", "courseId": "PSYCH 198"},
-          {"type": "course", "courseId": "PSYCH 199A"},
-          {"type": "course", "courseId": "PSYCH 199B"}
-        ]
+          "options": [
+            {"type": "course", "courseId": "PSYCH 101"},
+            {"type": "course", "courseId": "PSYCH M107"},
+            {"type": "course", "courseId": "PSYCH 110"},
+            {"type": "course", "courseId": "PSYCH 111"},
+            {"type": "course", "courseId": "PSYCH 112A"},
+            {"type": "course", "courseId": "PSYCH 112B"},
+            {"type": "course", "courseId": "PSYCH 112C"},
+            {"type": "course", "courseId": "PSYCH 112D"},
+            {"type": "course", "courseId": "PSYCH 112E"},
+            {"type": "course", "courseId": "PSYCH 115"},
+            {"type": "course", "courseId": "PSYCH M116A"},
+            {"type": "course", "courseId": "PSYCH 116B"},
+            {"type": "course", "courseId": "PSYCH M117A"},
+            {"type": "course", "courseId": "PSYCH M117B"},
+            {"type": "course", "courseId": "PSYCH M117C"},
+            {"type": "course", "courseId": "PSYCH 118"},
+            {"type": "course", "courseId": "PSYCH 119A"},
+            {"type": "course", "courseId": "PSYCH 119B"},
+            {"type": "course", "courseId": "PSYCH 119C"},
+            {"type": "course", "courseId": "PSYCH 119D"},
+            {"type": "course", "courseId": "PSYCH 119E"},
+            {"type": "course", "courseId": "PSYCH 119F"},
+            {"type": "course", "courseId": "PSYCH 119I"},
+            {"type": "course", "courseId": "PSYCH 119J"},
+            {"type": "course", "courseId": "PSYCH 119K"},
+            {"type": "course", "courseId": "PSYCH M119L"},
+            {"type": "course", "courseId": "PSYCH 119M"},
+            {"type": "course", "courseId": "PSYCH M119N"},
+            {"type": "course", "courseId": "PSYCH M119O"},
+            {"type": "course", "courseId": "PSYCH 119P"},
+            {"type": "course", "courseId": "PSYCH 119Q"},
+            {"type": "course", "courseId": "PSYCH 119U"},
+            {"type": "course", "courseId": "PSYCH 119V"},
+            {"type": "course", "courseId": "PSYCH M119X"},
+            {"type": "course", "courseId": "PSYCH 119Y"},
+            {"type": "course", "courseId": "PSYCH 120A"},
+            {"type": "course", "courseId": "PSYCH 120B"},
+            {"type": "course", "courseId": "PSYCH 121"},
+            {"type": "course", "courseId": "PSYCH 124A"},
+            {"type": "course", "courseId": "PSYCH 124B"},
+            {"type": "course", "courseId": "PSYCH 124C"},
+            {"type": "course", "courseId": "PSYCH 124D"},
+            {"type": "course", "courseId": "PSYCH 124E"},
+            {"type": "course", "courseId": "PSYCH 124F"},
+            {"type": "course", "courseId": "PSYCH 124G"},
+            {"type": "course", "courseId": "PSYCH 124J"},
+            {"type": "course", "courseId": "PSYCH 124K"},
+            {"type": "course", "courseId": "PSYCH 124L"},
+            {"type": "course", "courseId": "PSYCH 126"},
+            {"type": "course", "courseId": "PSYCH 127A"},
+            {"type": "course", "courseId": "PSYCH 127B"},
+            {"type": "course", "courseId": "PSYCH 127C"},
+            {"type": "course", "courseId": "PSYCH 129C"},
+            {"type": "course", "courseId": "PSYCH 129E"},
+            {"type": "course", "courseId": "PSYCH 129F"},
+            {"type": "course", "courseId": "PSYCH 130"},
+            {"type": "course", "courseId": "PSYCH 131"},
+            {"type": "course", "courseId": "PSYCH 132A"},
+            {"type": "course", "courseId": "PSYCH 132B"},
+            {"type": "course", "courseId": "PSYCH 133A"},
+            {"type": "course", "courseId": "PSYCH 133B"},
+            {"type": "course", "courseId": "PSYCH 133C"},
+            {"type": "course", "courseId": "PSYCH 133D"},
+            {"type": "course", "courseId": "PSYCH 133E"},
+            {"type": "course", "courseId": "PSYCH 133F"},
+            {"type": "course", "courseId": "PSYCH 133G"},
+            {"type": "course", "courseId": "PSYCH 133I"},
+            {"type": "course", "courseId": "PSYCH 133J"},
+            {"type": "course", "courseId": "PSYCH 134A"},
+            {"type": "course", "courseId": "PSYCH 134B"},
+            {"type": "course", "courseId": "PSYCH 134C"},
+            {"type": "course", "courseId": "PSYCH 134D"},
+            {"type": "course", "courseId": "PSYCH 134E"},
+            {"type": "course", "courseId": "PSYCH 134F"},
+            {"type": "course", "courseId": "PSYCH 134G"},
+            {"type": "course", "courseId": "PSYCH 134I"},
+            {"type": "course", "courseId": "PSYCH 134J"},
+            {"type": "course", "courseId": "PSYCH 134K"},
+            {"type": "course", "courseId": "PSYCH 135"},
+            {"type": "course", "courseId": "PSYCH 136A"},
+            {"type": "course", "courseId": "PSYCH 136B"},
+            {"type": "course", "courseId": "PSYCH M136C"},
+            {"type": "course", "courseId": "PSYCH 137A"},
+            {"type": "course", "courseId": "PSYCH M137B"},
+            {"type": "course", "courseId": "PSYCH 137C"},
+            {"type": "course", "courseId": "PSYCH 137D"},
+            {"type": "course", "courseId": "PSYCH M137E"},
+            {"type": "course", "courseId": "PSYCH 137F"},
+            {"type": "course", "courseId": "PSYCH 137G"},
+            {"type": "course", "courseId": "PSYCH 137I"},
+            {"type": "course", "courseId": "PSYCH 137J"},
+            {"type": "course", "courseId": "PSYCH M137M"},
+            {"type": "course", "courseId": "PSYCH 137N"},
+            {"type": "course", "courseId": "PSYCH M138"},
+            {"type": "course", "courseId": "PSYCH M139"},
+            {"type": "course", "courseId": "PSYCH M140"},
+            {"type": "course", "courseId": "PSYCH 142H"},
+            {"type": "course", "courseId": "PSYCH M144"},
+            {"type": "course", "courseId": "PSYCH M147A"},
+            {"type": "course", "courseId": "PSYCH M149"},
+            {"type": "course", "courseId": "PSYCH 150"},
+            {"type": "course", "courseId": "PSYCH 151"},
+            {"type": "course", "courseId": "PSYCH 152"},
+            {"type": "course", "courseId": "PSYCH 155A"},
+            {"type": "course", "courseId": "PSYCH 155B"},
+            {"type": "course", "courseId": "PSYCH 158"},
+            {"type": "course", "courseId": "PSYCH 161"},
+            {"type": "course", "courseId": "PSYCH 162"},
+            {"type": "course", "courseId": "PSYCH 164"},
+            {"type": "course", "courseId": "PSYCH M165"},
+            {"type": "course", "courseId": "PSYCH M166"},
+            {"type": "course", "courseId": "PSYCH 167"},
+            {"type": "course", "courseId": "PSYCH 168"},
+            {"type": "course", "courseId": "PSYCH M172"},
+            {"type": "course", "courseId": "PSYCH M174"},
+            {"type": "course", "courseId": "PSYCH 175"},
+            {"type": "course", "courseId": "PSYCH M176SL"},
+            {"type": "course", "courseId": "PSYCH 177"},
+            {"type": "course", "courseId": "PSYCH 178"},
+            {"type": "course", "courseId": "PSYCH 182A"},
+            {"type": "course", "courseId": "PSYCH 182B"},
+            {"type": "course", "courseId": "PSYCH 182C"},
+            {"type": "course", "courseId": "PSYCH 184A"},
+            {"type": "course", "courseId": "PSYCH 184B"},
+            {"type": "course", "courseId": "PSYCH 185"},
+            {"type": "course", "courseId": "PSYCH 186A"},
+            {"type": "course", "courseId": "PSYCH 186B"},
+            {"type": "course", "courseId": "PSYCH 186C"},
+            {"type": "course", "courseId": "PSYCH 186D"},
+            {"type": "course", "courseId": "PSYCH 186E"},
+            {"type": "course", "courseId": "PSYCH 188A"},
+            {"type": "course", "courseId": "PSYCH 188B"},
+            {"type": "course", "courseId": "PSYCH 188SA"},
+            {"type": "course", "courseId": "PSYCH 188SB"},
+            {"type": "course", "courseId": "PSYCH 188SC"},
+            {"type": "course", "courseId": "PSYCH 189"},
+            {"type": "course", "courseId": "PSYCH 189HC"},
+            {"type": "course", "courseId": "PSYCH 190"},
+            {"type": "course", "courseId": "PSYCH 191"},
+            {"type": "course", "courseId": "PSYCH 191AH"},
+            {"type": "course", "courseId": "PSYCH 191BH"},
+            {"type": "course", "courseId": "PSYCH 191CH"},
+            {"type": "course", "courseId": "PSYCH 192"},
+            {"type": "course", "courseId": "PSYCH 193"},
+            {"type": "course", "courseId": "PSYCH 194A"},
+            {"type": "course", "courseId": "PSYCH 194B"},
+            {"type": "course", "courseId": "PSYCH 194C"},
+            {"type": "course", "courseId": "PSYCH C194D"},
+            {"type": "course", "courseId": "PSYCH 195A"},
+            {"type": "course", "courseId": "PSYCH 195B"},
+            {"type": "course", "courseId": "PSYCH 196A"},
+            {"type": "course", "courseId": "PSYCH 196B"},
+            {"type": "course", "courseId": "PSYCH 198"},
+            {"type": "course", "courseId": "PSYCH 199A"},
+            {"type": "course", "courseId": "PSYCH 199B"}
+          ]
         }
       ]
     },
@@ -526,18 +343,9 @@
           "description": "Complete the following three seminar courses.",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PSYCH 191AH"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 191BH"
-            },
-            {
-              "type": "course",
-              "courseId": "PSYCH 191CH"
-            }
+            {"type": "course", "courseId": "PSYCH 191AH"},
+            {"type": "course", "courseId": "PSYCH 191BH"},
+            {"type": "course", "courseId": "PSYCH 191CH"}
           ]
         }
       ]

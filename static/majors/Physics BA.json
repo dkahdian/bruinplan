@@ -17,14 +17,8 @@
           "description": "Select one course. Students may substitute courses from the Physics 1 honors series for the Physics 1 series.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1A"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1AH"
-            }
+            {"type": "course", "courseId": "PHYSICS 1A"},
+            {"type": "course", "courseId": "PHYSICS 1AH"}
           ]
         },
         {
@@ -33,14 +27,8 @@
           "description": "Select one course. Students may substitute courses from the Physics 1 honors series for the Physics 1 series.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1B"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1BH"
-            }
+            {"type": "course", "courseId": "PHYSICS 1B"},
+            {"type": "course", "courseId": "PHYSICS 1BH"}
           ]
         },
         {
@@ -49,90 +37,39 @@
           "description": "Select one course. Students may substitute courses from the Physics 1 honors series for the Physics 1 series.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1C"
-            },
-            {
-              "type": "course",
-              "courseId": "PHYSICS 1CH"
-            }
+            {"type": "course", "courseId": "PHYSICS 1C"},
+            {"type": "course", "courseId": "PHYSICS 1CH"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 4AL"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 4BL"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 17"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 32"
-        },
-        {
-          "type": "course",
-          "courseId": "CHEM 20A"
-        },
+        {"type": "course", "courseId": "PHYSICS 4AL"},
+        {"type": "course", "courseId": "PHYSICS 4BL"},
+        {"type": "course", "courseId": "PHYSICS 17"},
+        {"type": "course", "courseId": "PHYSICS 32"},
+        {"type": "course", "courseId": "CHEM 20A"},
         {
           "type": "group",
           "title": "Mathematics 31A Requirement",
           "description": "Students may select Mathematics 31A or 31AL.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MATH 31A"
-            },
-            {
-              "type": "course",
-              "courseId": "MATH 31AL"
-            }
+            {"type": "course", "courseId": "MATH 31A"},
+            {"type": "course", "courseId": "MATH 31AL"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "MATH 31B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 32B"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33A"
-        },
-        {
-          "type": "course",
-          "courseId": "MATH 33B"
-        },
+        {"type": "course", "courseId": "MATH 31B"},
+        {"type": "course", "courseId": "MATH 32A"},
+        {"type": "course", "courseId": "MATH 32B"},
+        {"type": "course", "courseId": "MATH 33A"},
+        {"type": "course", "courseId": "MATH 33B"},
         {
           "type": "group",
           "title": "Program in Computing or Computer Science",
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COMPTNG 10A"
-            },
-            {
-              "type": "course",
-              "courseId": "COM SCI 30"
-            },
-            {
-              "type": "course",
-              "courseId": "COM SCI 31"
-            }
+            {"type": "course", "courseId": "COMPTNG 10A"},
+            {"type": "course", "courseId": "COM SCI 30"},
+            {"type": "course", "courseId": "COM SCI 31"}
           ]
         }
       ]
@@ -142,38 +79,14 @@
       "title": "The Major",
       "description": "Complete nine courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "PHYSICS 105A"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 105B"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 110A"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 110B"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 112"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 115A"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 115B"
-        },
-        {
-          "type": "course",
-          "courseId": "PHYSICS 115C"
-        },
+        {"type": "course", "courseId": "PHYSICS 105A"},
+        {"type": "course", "courseId": "PHYSICS 105B"},
+        {"type": "course", "courseId": "PHYSICS 110A"},
+        {"type": "course", "courseId": "PHYSICS 110B"},
+        {"type": "course", "courseId": "PHYSICS 112"},
+        {"type": "course", "courseId": "PHYSICS 115A"},
+        {"type": "course", "courseId": "PHYSICS 115B"},
+        {"type": "course", "courseId": "PHYSICS 115C"},
         {
           "type": "group",
           "title": "Elective Course",

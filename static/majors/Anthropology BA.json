@@ -11,22 +11,10 @@
       "title": "Preparation for the Major",
       "description": "Complete the following four courses:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "ANTHRO 1"
-        },
-        {
-          "type": "course",
-          "courseId": "ANTHRO 2"
-        },
-        {
-          "type": "course",
-          "courseId": "ANTHRO 3"
-        },
-        {
-          "type": "course",
-          "courseId": "ANTHRO 4"
-        }
+        {"type": "course", "courseId": "ANTHRO 1"},
+        {"type": "course", "courseId": "ANTHRO 2"},
+        {"type": "course", "courseId": "ANTHRO 3"},
+        {"type": "course", "courseId": "ANTHRO 4"}
       ]
     },
     {
@@ -166,46 +154,16 @@
           "description": "Select one course from the following range (or see the department for additional course options):",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 100"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 110"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 111"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 120"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 124Q"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 130"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 131"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 136A"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 140"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M150"
-            }
+            {"type": "course", "courseId": "ANTHRO 100"},
+            {"type": "course", "courseId": "ANTHRO 110"},
+            {"type": "course", "courseId": "ANTHRO 111"},
+            {"type": "course", "courseId": "ANTHRO 120"},
+            {"type": "course", "courseId": "ANTHRO 124Q"},
+            {"type": "course", "courseId": "ANTHRO 130"},
+            {"type": "course", "courseId": "ANTHRO 131"},
+            {"type": "course", "courseId": "ANTHRO 136A"},
+            {"type": "course", "courseId": "ANTHRO 140"},
+            {"type": "course", "courseId": "ANTHRO M150"}
           ]
         },
         {
@@ -214,42 +172,15 @@
           "description": "Select one course from the following range (or see the department for additional course options):",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 110"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO C117"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO CM110Q"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 126P"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 135"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 138P"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO M138Q"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 151"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 195CE"
-            }
+            {"type": "course", "courseId": "ANTHRO 110"},
+            {"type": "course", "courseId": "ANTHRO C117"},
+            {"type": "course", "courseId": "ANTHRO CM110Q"},
+            {"type": "course", "courseId": "ANTHRO 126P"},
+            {"type": "course", "courseId": "ANTHRO 135"},
+            {"type": "course", "courseId": "ANTHRO 138P"},
+            {"type": "course", "courseId": "ANTHRO M138Q"},
+            {"type": "course", "courseId": "ANTHRO 151"},
+            {"type": "course", "courseId": "ANTHRO 195CE"}
           ]
         },
         {
@@ -368,14 +299,8 @@
           "description": "Students are strongly encouraged to enroll in 3 to 4 units of 89 and/or 189 courses to gain small seminar experience. Ideally, at least one of the units should be at the upper-division level.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 89"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 189"
-            }
+            {"type": "course", "courseId": "ANTHRO 89"},
+            {"type": "course", "courseId": "ANTHRO 189"}
           ]
         },
         {
@@ -384,22 +309,10 @@
           "description": "The honors program offers research-oriented students an opportunity to engage in original research and analysis under the close supervision of faculty members, culminating in an honors thesis. The proposal, research, analysis, and writing of the paper take place over four terms via Anthropology 191HA through 191HD.",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ANTHRO 191HA"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 191HB"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 191HC"
-            },
-            {
-              "type": "course",
-              "courseId": "ANTHRO 191HD"
-            }
+            {"type": "course", "courseId": "ANTHRO 191HA"},
+            {"type": "course", "courseId": "ANTHRO 191HB"},
+            {"type": "course", "courseId": "ANTHRO 191HC"},
+            {"type": "course", "courseId": "ANTHRO 191HD"}
           ]
         }
       ]

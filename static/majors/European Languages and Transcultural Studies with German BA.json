@@ -46,10 +46,7 @@
           "description": "Complete the following course or equivalent:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "GERMAN 6"
-            }
+            {"type": "course", "courseId": "GERMAN 6"}
           ]
         },
         {
@@ -58,82 +55,25 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "FRNCH 12"
-            },
-            {
-              "type": "course",
-              "courseId": "FRNCH 14"
-            },
-            {
-              "type": "course",
-              "courseId": "FRNCH 14W"
-            },
-            {
-              "type": "course",
-              "courseId": "FRNCH 16"
-            },
-            {
-              "type": "course",
-              "courseId": "FRNCH 41"
-            },
-            {
-              "type": "course",
-              "courseId": "FRNCH 60"
-            },
-            {
-              "type": "course",
-              "courseId": "GERMAN 50B"
-            },
-            {
-              "type": "course",
-              "courseId": "GERMAN 59"
-            },
-            {
-              "type": "course",
-              "courseId": "ITALIAN 42A"
-            },
-            {
-              "type": "course",
-              "courseId": "ITALIAN 42B"
-            },
-            {
-              "type": "course",
-              "courseId": "ITALIAN 42C"
-            },
-            {
-              "type": "course",
-              "courseId": "ITALIAN 46"
-            },
-            {
-              "type": "course",
-              "courseId": "ITALIAN 50A"
-            },
-            {
-              "type": "course",
-              "courseId": "ITALIAN 50B"
-            },
-            {
-              "type": "course",
-              "courseId": "SCAND 40"
-            },
-            {
-              "type": "course",
-              "courseId": "SCAND 40W"
-            },
-            {
-              "type": "course",
-              "courseId": "SCAND 50"
-            },
-            {
-              "type": "course",
-              "courseId": "SCAND 50W"
-            },
-            {
-              "type": "course",
-              "courseId": "SCAND 60W"
-            }
+            {"type": "course", "courseId": "FRNCH 12"},
+            {"type": "course", "courseId": "FRNCH 14"},
+            {"type": "course", "courseId": "FRNCH 14W"},
+            {"type": "course", "courseId": "FRNCH 16"},
+            {"type": "course", "courseId": "FRNCH 41"},
+            {"type": "course", "courseId": "FRNCH 60"},
+            {"type": "course", "courseId": "GERMAN 50B"},
+            {"type": "course", "courseId": "GERMAN 59"},
+            {"type": "course", "courseId": "ITALIAN 42A"},
+            {"type": "course", "courseId": "ITALIAN 42B"},
+            {"type": "course", "courseId": "ITALIAN 42C"},
+            {"type": "course", "courseId": "ITALIAN 46"},
+            {"type": "course", "courseId": "ITALIAN 50A"},
+            {"type": "course", "courseId": "ITALIAN 50B"},
+            {"type": "course", "courseId": "SCAND 40"},
+            {"type": "course", "courseId": "SCAND 40W"},
+            {"type": "course", "courseId": "SCAND 50"},
+            {"type": "course", "courseId": "SCAND 50W"},
+            {"type": "course", "courseId": "SCAND 60W"}
           ]
         },
         {
@@ -142,50 +82,17 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "COM LIT 1E"
-            },
-            {
-              "type": "course",
-              "courseId": "DGT HUM 30"
-            },
-            {
-              "type": "course",
-              "courseId": "ENGL M30"
-            },
-            {
-              "type": "course",
-              "courseId": "AN N EA 14W"
-            },
-            {
-              "type": "course",
-              "courseId": "EE BIOL 17"
-            },
-            {
-              "type": "course",
-              "courseId": "HIST 3D"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS 1"
-            },
-            {
-              "type": "course",
-              "courseId": "HNRS 26"
-            },
-            {
-              "type": "course",
-              "courseId": "MCD BIO 60"
-            },
-            {
-              "type": "course",
-              "courseId": "RELIGN 55"
-            },
-            {
-              "type": "course",
-              "courseId": "GERMAN 61A"
-            }
+            {"type": "course", "courseId": "COM LIT 1E"},
+            {"type": "course", "courseId": "DGT HUM 30"},
+            {"type": "course", "courseId": "ENGL M30"},
+            {"type": "course", "courseId": "AN N EA 14W"},
+            {"type": "course", "courseId": "EE BIOL 17"},
+            {"type": "course", "courseId": "HIST 3D"},
+            {"type": "course", "courseId": "HNRS 1"},
+            {"type": "course", "courseId": "HNRS 26"},
+            {"type": "course", "courseId": "MCD BIO 60"},
+            {"type": "course", "courseId": "RELIGN 55"},
+            {"type": "course", "courseId": "GERMAN 61A"}
           ]
         }
       ]
@@ -201,14 +108,8 @@
           "description": "Select one course from:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "GERMAN 152"
-            },
-            {
-              "type": "course",
-              "courseId": "GERMAN 153"
-            }
+            {"type": "course", "courseId": "GERMAN 152"},
+            {"type": "course", "courseId": "GERMAN 153"}
           ]
         },
         {
@@ -223,182 +124,50 @@
               "description": "Select one course from this area.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 116"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 117"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 118"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 119"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 120"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 136"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 163"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 164"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 166"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 112"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 158"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 170"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 173"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 174"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 103A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 103B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 113"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 114B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 120"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 140"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 150"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C133A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 134"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C141A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 141C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 143A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 143C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C145A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C145B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C146A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 147A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C147B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 147C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 154"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C155"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 156"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 157"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 172A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C180"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C185"
-                }
+                {"type": "course", "courseId": "FRNCH 115"},
+                {"type": "course", "courseId": "FRNCH 116"},
+                {"type": "course", "courseId": "FRNCH 117"},
+                {"type": "course", "courseId": "FRNCH 118"},
+                {"type": "course", "courseId": "FRNCH 119"},
+                {"type": "course", "courseId": "FRNCH 120"},
+                {"type": "course", "courseId": "FRNCH 121"},
+                {"type": "course", "courseId": "FRNCH 136"},
+                {"type": "course", "courseId": "FRNCH 163"},
+                {"type": "course", "courseId": "FRNCH 164"},
+                {"type": "course", "courseId": "FRNCH 166"},
+                {"type": "course", "courseId": "GERMAN 110"},
+                {"type": "course", "courseId": "GERMAN 112"},
+                {"type": "course", "courseId": "GERMAN 158"},
+                {"type": "course", "courseId": "GERMAN 170"},
+                {"type": "course", "courseId": "GERMAN 173"},
+                {"type": "course", "courseId": "GERMAN 174"},
+                {"type": "course", "courseId": "ITALIAN 103A"},
+                {"type": "course", "courseId": "ITALIAN 103B"},
+                {"type": "course", "courseId": "ITALIAN 110"},
+                {"type": "course", "courseId": "ITALIAN 113"},
+                {"type": "course", "courseId": "ITALIAN 114B"},
+                {"type": "course", "courseId": "ITALIAN 120"},
+                {"type": "course", "courseId": "ITALIAN 140"},
+                {"type": "course", "courseId": "ITALIAN 150"},
+                {"type": "course", "courseId": "SCAND C133A"},
+                {"type": "course", "courseId": "SCAND 134"},
+                {"type": "course", "courseId": "SCAND C141A"},
+                {"type": "course", "courseId": "SCAND 141C"},
+                {"type": "course", "courseId": "SCAND 143A"},
+                {"type": "course", "courseId": "SCAND 143C"},
+                {"type": "course", "courseId": "SCAND C145A"},
+                {"type": "course", "courseId": "SCAND C145B"},
+                {"type": "course", "courseId": "SCAND C146A"},
+                {"type": "course", "courseId": "SCAND 147A"},
+                {"type": "course", "courseId": "SCAND C147B"},
+                {"type": "course", "courseId": "SCAND 147C"},
+                {"type": "course", "courseId": "SCAND 154"},
+                {"type": "course", "courseId": "SCAND C155"},
+                {"type": "course", "courseId": "SCAND 156"},
+                {"type": "course", "courseId": "SCAND 157"},
+                {"type": "course", "courseId": "SCAND 172A"},
+                {"type": "course", "courseId": "SCAND C180"},
+                {"type": "course", "courseId": "SCAND C185"}
               ]
             },
             {
@@ -407,178 +176,49 @@
               "description": "Select one course from this area.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ELTS 112"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 130"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 137"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 138"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 139"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 160"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 167"
-                },
-                {
-                  "type": "course",
-                  "courseId": "FRNCH 169"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 102"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 109"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 113"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 114"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 116"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 117"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 118SL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 154"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 155"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 159"
-                },
-                {
-                  "type": "course",
-                  "courseId": "GERMAN 175"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 102A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 102B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 102C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 116A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 116B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 122"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 123"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 124"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 125"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN 152"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ITALIAN M158"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C131"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 133C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 134"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C137"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 138"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 142A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C171"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 172A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 173A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND C174A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "SCAND 174B"
-                }
+                {"type": "course", "courseId": "ELTS 112"},
+                {"type": "course", "courseId": "FRNCH 121"},
+                {"type": "course", "courseId": "FRNCH 130"},
+                {"type": "course", "courseId": "FRNCH 137"},
+                {"type": "course", "courseId": "FRNCH 138"},
+                {"type": "course", "courseId": "FRNCH 139"},
+                {"type": "course", "courseId": "FRNCH 160"},
+                {"type": "course", "courseId": "FRNCH 167"},
+                {"type": "course", "courseId": "FRNCH 169"},
+                {"type": "course", "courseId": "GERMAN 102"},
+                {"type": "course", "courseId": "GERMAN 109"},
+                {"type": "course", "courseId": "GERMAN 113"},
+                {"type": "course", "courseId": "GERMAN 114"},
+                {"type": "course", "courseId": "GERMAN 115"},
+                {"type": "course", "courseId": "GERMAN 116"},
+                {"type": "course", "courseId": "GERMAN 117"},
+                {"type": "course", "courseId": "GERMAN 118SL"},
+                {"type": "course", "courseId": "GERMAN 154"},
+                {"type": "course", "courseId": "GERMAN 155"},
+                {"type": "course", "courseId": "GERMAN 159"},
+                {"type": "course", "courseId": "GERMAN 175"},
+                {"type": "course", "courseId": "ITALIAN 102A"},
+                {"type": "course", "courseId": "ITALIAN 102B"},
+                {"type": "course", "courseId": "ITALIAN 102C"},
+                {"type": "course", "courseId": "ITALIAN 116A"},
+                {"type": "course", "courseId": "ITALIAN 116B"},
+                {"type": "course", "courseId": "ITALIAN 122"},
+                {"type": "course", "courseId": "ITALIAN 123"},
+                {"type": "course", "courseId": "ITALIAN 124"},
+                {"type": "course", "courseId": "ITALIAN 125"},
+                {"type": "course", "courseId": "ITALIAN 152"},
+                {"type": "course", "courseId": "ITALIAN M158"},
+                {"type": "course", "courseId": "SCAND C131"},
+                {"type": "course", "courseId": "SCAND 133C"},
+                {"type": "course", "courseId": "SCAND 134"},
+                {"type": "course", "courseId": "SCAND C137"},
+                {"type": "course", "courseId": "SCAND 138"},
+                {"type": "course", "courseId": "SCAND 142A"},
+                {"type": "course", "courseId": "SCAND C171"},
+                {"type": "course", "courseId": "SCAND 172A"},
+                {"type": "course", "courseId": "SCAND 173A"},
+                {"type": "course", "courseId": "SCAND C174A"},
+                {"type": "course", "courseId": "SCAND 174B"}
               ]
             },
             {
@@ -625,10 +265,7 @@
       "title": "Capstone Senior Thesis",
       "description": "During their senior year, students must also take European Language and Transcultural Studies 187 in which they complete a capstone senior thesis.",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "ELTS 187"
-        }
+        {"type": "course", "courseId": "ELTS 187"}
       ]
     }
   ]

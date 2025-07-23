@@ -11,42 +11,15 @@
       "title": "Preparation for the Major",
       "description": "Complete the following nine required courses and one art history elective:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "ART 1A"
-        },
-        {
-          "type": "course",
-          "courseId": "ART 1B"
-        },
-        {
-          "type": "course",
-          "courseId": "ART 11A"
-        },
-        {
-          "type": "course",
-          "courseId": "ART 11B"
-        },
-        {
-          "type": "course",
-          "courseId": "ART 11D"
-        },
-        {
-          "type": "course",
-          "courseId": "ART 11E"
-        },
-        {
-          "type": "course",
-          "courseId": "ART 31A"
-        },
-        {
-          "type": "course",
-          "courseId": "ART 31B"
-        },
-        {
-          "type": "course",
-          "courseId": "ART 31C"
-        },
+        {"type": "course", "courseId": "ART 1A"},
+        {"type": "course", "courseId": "ART 1B"},
+        {"type": "course", "courseId": "ART 11A"},
+        {"type": "course", "courseId": "ART 11B"},
+        {"type": "course", "courseId": "ART 11D"},
+        {"type": "course", "courseId": "ART 11E"},
+        {"type": "course", "courseId": "ART 31A"},
+        {"type": "course", "courseId": "ART 31B"},
+        {"type": "course", "courseId": "ART 31C"},
         {
           "type": "group",
           "title": "Art History Elective",
@@ -73,76 +46,28 @@
       "title": "The Major",
       "description": "Complete a minimum of nine upper-division courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "ART 132"
-        },
+        {"type": "course", "courseId": "ART 132"},
         {
           "type": "group",
           "title": "Studio Areas",
           "description": "Select six courses from at least four of the following studio areas. At least one must be designated with an A.",
           "needs": 6,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ART 130"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 133"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 133A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 137"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 137A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 140"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 145"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 145A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 147"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 147A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 148"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 148A"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 149"
-            },
-            {
-              "type": "course",
-              "courseId": "ART 149A"
-            }
+            {"type": "course", "courseId": "ART 130"},
+            {"type": "course", "courseId": "ART 130A"},
+            {"type": "course", "courseId": "ART 133"},
+            {"type": "course", "courseId": "ART 133A"},
+            {"type": "course", "courseId": "ART 137"},
+            {"type": "course", "courseId": "ART 137A"},
+            {"type": "course", "courseId": "ART 140"},
+            {"type": "course", "courseId": "ART 145"},
+            {"type": "course", "courseId": "ART 145A"},
+            {"type": "course", "courseId": "ART 147"},
+            {"type": "course", "courseId": "ART 147A"},
+            {"type": "course", "courseId": "ART 148"},
+            {"type": "course", "courseId": "ART 148A"},
+            {"type": "course", "courseId": "ART 149"},
+            {"type": "course", "courseId": "ART 149A"}
           ]
         },
         {
@@ -151,16 +76,10 @@
           "description": "Select one course from the following course or range: ART M184 or Art History M110A through 185.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ART M184"
-            }
+            {"type": "course", "courseId": "ART M184"}
           ]
         },
-        {
-          "type": "course",
-          "courseId": "ART 150"
-        },
+        {"type": "course", "courseId": "ART 150"},
         {
           "type": "group",
           "title": "Art Electives",
@@ -170,7 +89,6 @@
             {"type": "course", "courseId": "ART 100"},
             {"type": "course", "courseId": "ART 130"},
             {"type": "course", "courseId": "ART 130A"},
-            {"type": "course", "courseId": "ART 132"},
             {"type": "course", "courseId": "ART 133"},
             {"type": "course", "courseId": "ART 133A"},
             {"type": "course", "courseId": "ART 137"},
@@ -184,7 +102,6 @@
             {"type": "course", "courseId": "ART 148A"},
             {"type": "course", "courseId": "ART 149"},
             {"type": "course", "courseId": "ART 149A"},
-            {"type": "course", "courseId": "ART 150"},
             {"type": "course", "courseId": "ART 170"},
             {"type": "course", "courseId": "ART 189"},
             {"type": "course", "courseId": "ART 190"},

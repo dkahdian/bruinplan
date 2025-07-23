@@ -11,18 +11,9 @@
       "title": "Preparation for the Major",
       "description": "Complete the following two required courses, and Spanish 5 or equivalent:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "CCAS 10A"
-        },
-        {
-          "type": "course",
-          "courseId": "CCAS 10B"
-        },
-        {
-          "type": "course",
-          "courseId": "SPAN 5"
-        }
+        {"type": "course", "courseId": "CCAS 10A"},
+        {"type": "course", "courseId": "CCAS 10B"},
+        {"type": "course", "courseId": "SPAN 5"}
       ]
     },
     {
@@ -30,24 +21,15 @@
       "title": "The Major",
       "description": "A total of 11 upper-division courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "CCAS 101"
-        },
+        {"type": "course", "courseId": "CCAS 101"},
         {
           "type": "group",
           "title": "Service Learning",
           "description": "Select one course from the following list or from the approved list available in the department each term:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CCAS 100XP"
-            },
-            {
-              "type": "course",
-              "courseId": "CCAS M170XP"
-            }
+            {"type": "course", "courseId": "CCAS 100XP"},
+            {"type": "course", "courseId": "CCAS M170XP"}
           ]
         },
         {
@@ -63,10 +45,7 @@
           "description": "Complete the following advanced seminar course or another course by petition to the department chair:",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "CCAS 191"
-            }
+            {"type": "course", "courseId": "CCAS 191"}
           ]
         },
         {
@@ -81,82 +60,25 @@
               "description": "Refer to the following courses.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CCAS CM110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 120"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M124"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M125"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M126"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M132"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 143"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M144"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS CM147"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 151"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 152"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 153A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M154"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M155A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M156A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 163"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 176"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 184"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 191"
-                }
+                {"type": "course", "courseId": "CCAS CM110"},
+                {"type": "course", "courseId": "CCAS 120"},
+                {"type": "course", "courseId": "CCAS M124"},
+                {"type": "course", "courseId": "CCAS M125"},
+                {"type": "course", "courseId": "CCAS M126"},
+                {"type": "course", "courseId": "CCAS M132"},
+                {"type": "course", "courseId": "CCAS 143"},
+                {"type": "course", "courseId": "CCAS M144"},
+                {"type": "course", "courseId": "CCAS CM147"},
+                {"type": "course", "courseId": "CCAS 151"},
+                {"type": "course", "courseId": "CCAS 152"},
+                {"type": "course", "courseId": "CCAS 153A"},
+                {"type": "course", "courseId": "CCAS M154"},
+                {"type": "course", "courseId": "CCAS M155A"},
+                {"type": "course", "courseId": "CCAS M156A"},
+                {"type": "course", "courseId": "CCAS 163"},
+                {"type": "course", "courseId": "CCAS 176"},
+                {"type": "course", "courseId": "CCAS 184"},
+                {"type": "course", "courseId": "CCAS 191"}
               ]
             },
             {
@@ -165,82 +87,25 @@
               "description": "Refer to the following courses.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CCAS M103C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M103D"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M103G"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 104"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M108A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M115"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M116"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 117"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS CM135"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M175"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M185"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M186A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M186AL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M186B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M186BL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M186C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M186CL"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M187"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 191"
-                }
+                {"type": "course", "courseId": "CCAS M103C"},
+                {"type": "course", "courseId": "CCAS M103D"},
+                {"type": "course", "courseId": "CCAS M103G"},
+                {"type": "course", "courseId": "CCAS 104"},
+                {"type": "course", "courseId": "CCAS M108A"},
+                {"type": "course", "courseId": "CCAS M115"},
+                {"type": "course", "courseId": "CCAS M116"},
+                {"type": "course", "courseId": "CCAS 117"},
+                {"type": "course", "courseId": "CCAS CM135"},
+                {"type": "course", "courseId": "CCAS M175"},
+                {"type": "course", "courseId": "CCAS M185"},
+                {"type": "course", "courseId": "CCAS M186A"},
+                {"type": "course", "courseId": "CCAS M186AL"},
+                {"type": "course", "courseId": "CCAS M186B"},
+                {"type": "course", "courseId": "CCAS M186BL"},
+                {"type": "course", "courseId": "CCAS M186C"},
+                {"type": "course", "courseId": "CCAS M186CL"},
+                {"type": "course", "courseId": "CCAS M187"},
+                {"type": "course", "courseId": "CCAS 191"}
               ]
             },
             {
@@ -249,130 +114,37 @@
               "description": "Refer to the following courses.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CCAS M105A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M105C"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 109"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS CM110"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 111"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M114"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M116"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 131"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M132"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M133"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M139"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS C141"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 142"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 143"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 145B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 146"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 157"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M158"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M159A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M159B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 160"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 168A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 168B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 169"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 171"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M173"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 181"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M183"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 184"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M187"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 191"
-                }
+                {"type": "course", "courseId": "CCAS M105A"},
+                {"type": "course", "courseId": "CCAS M105C"},
+                {"type": "course", "courseId": "CCAS 109"},
+                {"type": "course", "courseId": "CCAS CM110"},
+                {"type": "course", "courseId": "CCAS 111"},
+                {"type": "course", "courseId": "CCAS M114"},
+                {"type": "course", "courseId": "CCAS M116"},
+                {"type": "course", "courseId": "CCAS 131"},
+                {"type": "course", "courseId": "CCAS M132"},
+                {"type": "course", "courseId": "CCAS M133"},
+                {"type": "course", "courseId": "CCAS M139"},
+                {"type": "course", "courseId": "CCAS C141"},
+                {"type": "course", "courseId": "CCAS 142"},
+                {"type": "course", "courseId": "CCAS 143"},
+                {"type": "course", "courseId": "CCAS 145B"},
+                {"type": "course", "courseId": "CCAS 146"},
+                {"type": "course", "courseId": "CCAS 157"},
+                {"type": "course", "courseId": "CCAS M158"},
+                {"type": "course", "courseId": "CCAS M159A"},
+                {"type": "course", "courseId": "CCAS M159B"},
+                {"type": "course", "courseId": "CCAS 160"},
+                {"type": "course", "courseId": "CCAS 168A"},
+                {"type": "course", "courseId": "CCAS 168B"},
+                {"type": "course", "courseId": "CCAS 169"},
+                {"type": "course", "courseId": "CCAS 171"},
+                {"type": "course", "courseId": "CCAS M173"},
+                {"type": "course", "courseId": "CCAS 181"},
+                {"type": "course", "courseId": "CCAS M183"},
+                {"type": "course", "courseId": "CCAS 184"},
+                {"type": "course", "courseId": "CCAS M187"},
+                {"type": "course", "courseId": "CCAS 191"}
               ]
             },
             {
@@ -381,106 +153,31 @@
               "description": "Refer to the following courses.",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CCAS M102"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS CM106"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M119"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 120"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M121"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M122"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 123"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M127"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M128"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M130"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M148"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 149"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 150"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 151"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 152"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M156A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS M156B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 165"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 166"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 174AX"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 174BX"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS CM177"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 178"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS C179"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 191"
-                }
+                {"type": "course", "courseId": "CCAS M102"},
+                {"type": "course", "courseId": "CCAS CM106"},
+                {"type": "course", "courseId": "CCAS M119"},
+                {"type": "course", "courseId": "CCAS 120"},
+                {"type": "course", "courseId": "CCAS M121"},
+                {"type": "course", "courseId": "CCAS M122"},
+                {"type": "course", "courseId": "CCAS 123"},
+                {"type": "course", "courseId": "CCAS M127"},
+                {"type": "course", "courseId": "CCAS M128"},
+                {"type": "course", "courseId": "CCAS M130"},
+                {"type": "course", "courseId": "CCAS M148"},
+                {"type": "course", "courseId": "CCAS 149"},
+                {"type": "course", "courseId": "CCAS 150"},
+                {"type": "course", "courseId": "CCAS 151"},
+                {"type": "course", "courseId": "CCAS 152"},
+                {"type": "course", "courseId": "CCAS M156A"},
+                {"type": "course", "courseId": "CCAS M156B"},
+                {"type": "course", "courseId": "CCAS 165"},
+                {"type": "course", "courseId": "CCAS 166"},
+                {"type": "course", "courseId": "CCAS 174AX"},
+                {"type": "course", "courseId": "CCAS 174BX"},
+                {"type": "course", "courseId": "CCAS CM177"},
+                {"type": "course", "courseId": "CCAS 178"},
+                {"type": "course", "courseId": "CCAS C179"},
+                {"type": "course", "courseId": "CCAS 191"}
               ]
             }
           ]
@@ -504,18 +201,9 @@
               "description": "Complete all three courses for the honors thesis.",
               "needs": 3,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CCAS 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 198B"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 198C"
-                }
+                {"type": "course", "courseId": "CCAS 198A"},
+                {"type": "course", "courseId": "CCAS 198B"},
+                {"type": "course", "courseId": "CCAS 198C"}
               ]
             }
           ]
@@ -539,14 +227,8 @@
               "description": "Complete two 199 courses.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "CCAS 199"
-                },
-                {
-                  "type": "course",
-                  "courseId": "CCAS 199"
-                }
+                {"type": "course", "courseId": "CCAS 199"},
+                {"type": "course", "courseId": "CCAS 199"}
               ]
             }
           ]

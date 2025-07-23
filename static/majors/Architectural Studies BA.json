@@ -11,18 +11,9 @@
       "title": "Preparation for the Major",
       "description": "Complete the following three courses:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 10A"
-        },
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 10B"
-        },
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 30"
-        }
+        {"type": "course", "courseId": "ARCH&UD 10A"},
+        {"type": "course", "courseId": "ARCH&UD 10B"},
+        {"type": "course", "courseId": "ARCH&UD 30"}
       ]
     },
     {
@@ -30,42 +21,15 @@
       "title": "The Major",
       "description": "Complete the following nine courses:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 121"
-        },
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 122"
-        },
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 123"
-        },
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 131"
-        },
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 132"
-        },
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 133"
-        },
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 141"
-        },
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 142"
-        },
-        {
-          "type": "course",
-          "courseId": "ARCH&UD 143"
-        }
+        {"type": "course", "courseId": "ARCH&UD 121"},
+        {"type": "course", "courseId": "ARCH&UD 122"},
+        {"type": "course", "courseId": "ARCH&UD 123"},
+        {"type": "course", "courseId": "ARCH&UD 131"},
+        {"type": "course", "courseId": "ARCH&UD 132"},
+        {"type": "course", "courseId": "ARCH&UD 133"},
+        {"type": "course", "courseId": "ARCH&UD 141"},
+        {"type": "course", "courseId": "ARCH&UD 142"},
+        {"type": "course", "courseId": "ARCH&UD 143"}
       ]
     }
   ]

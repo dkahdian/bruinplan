@@ -17,22 +17,10 @@
           "description": "Complete the following four courses:",
           "needs": 4,
           "options": [
-            {
-              "type": "course",
-              "courseId": "ECON 1"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 2"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 11"
-            },
-            {
-              "type": "course",
-              "courseId": "ECON 41"
-            }
+            {"type": "course", "courseId": "ECON 1"},
+            {"type": "course", "courseId": "ECON 2"},
+            {"type": "course", "courseId": "ECON 11"},
+            {"type": "course", "courseId": "ECON 41"}
           ]
         },
         {
@@ -47,20 +35,11 @@
               "description": "Select one course:",
               "needs": 1,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "MATH 31A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "MATH 31AL"
-                }
+                {"type": "course", "courseId": "MATH 31A"},
+                {"type": "course", "courseId": "MATH 31AL"}
               ]
             },
-            {
-              "type": "course",
-              "courseId": "MATH 31B"
-            }
+            {"type": "course", "courseId": "MATH 31B"}
           ]
         }
       ]
@@ -70,30 +49,12 @@
       "title": "The Major",
       "description": "Complete the following six upper-division core courses:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "ECON 101"
-        },
-        {
-          "type": "course",
-          "courseId": "ECON 102"
-        },
-        {
-          "type": "course",
-          "courseId": "ECON 103"
-        },
-        {
-          "type": "course",
-          "courseId": "ECON 103L"
-        },
-        {
-          "type": "course",
-          "courseId": "ECON 104"
-        },
-        {
-          "type": "course",
-          "courseId": "ECON 104L"
-        }
+        {"type": "course", "courseId": "ECON 101"},
+        {"type": "course", "courseId": "ECON 102"},
+        {"type": "course", "courseId": "ECON 103"},
+        {"type": "course", "courseId": "ECON 103L"},
+        {"type": "course", "courseId": "ECON 104"},
+        {"type": "course", "courseId": "ECON 104L"}
       ]
     },
     {
@@ -107,107 +68,107 @@
           "description": "Select from upper-division economics courses.",
           "needs": 1,
           "options": [
-            { "type": "course", "courseId": "ECON 101" },
-            { "type": "course", "courseId": "ECON 102" },
-            { "type": "course", "courseId": "ECON 103" },
-            { "type": "course", "courseId": "ECON 103L" },
-            { "type": "course", "courseId": "ECON 104" },
-            { "type": "course", "courseId": "ECON 104L" },
-            { "type": "course", "courseId": "ECON 105" },
-            { "type": "course", "courseId": "ECON 106A" },
-            { "type": "course", "courseId": "ECON 106AL" },
-            { "type": "course", "courseId": "ECON 106D" },
-            { "type": "course", "courseId": "ECON 106DL" },
-            { "type": "course", "courseId": "ECON 106E" },
-            { "type": "course", "courseId": "ECON 106EL" },
-            { "type": "course", "courseId": "ECON 106F" },
-            { "type": "course", "courseId": "ECON 106FB" },
-            { "type": "course", "courseId": "ECON 106G" },
-            { "type": "course", "courseId": "ECON 106GL" },
-            { "type": "course", "courseId": "ECON 106I" },
-            { "type": "course", "courseId": "ECON 106IL" },
-            { "type": "course", "courseId": "ECON 106M" },
-            { "type": "course", "courseId": "ECON 106ML" },
-            { "type": "course", "courseId": "ECON 106P" },
-            { "type": "course", "courseId": "ECON 106PL" },
-            { "type": "course", "courseId": "ECON 106S" },
-            { "type": "course", "courseId": "ECON 106SL" },
-            { "type": "course", "courseId": "ECON 106T" },
-            { "type": "course", "courseId": "ECON 106TL" },
-            { "type": "course", "courseId": "ECON 106V" },
-            { "type": "course", "courseId": "ECON 106VL" },
-            { "type": "course", "courseId": "ECON 107" },
-            { "type": "course", "courseId": "ECON 109A" },
-            { "type": "course", "courseId": "ECON 109B" },
-            { "type": "course", "courseId": "ECON 109C" },
-            { "type": "course", "courseId": "ECON 109D" },
-            { "type": "course", "courseId": "ECON 111" },
-            { "type": "course", "courseId": "ECON 111L" },
-            { "type": "course", "courseId": "ECON 112" },
-            { "type": "course", "courseId": "ECON 113" },
-            { "type": "course", "courseId": "ECON 121" },
-            { "type": "course", "courseId": "ECON 121L" },
-            { "type": "course", "courseId": "ECON 122" },
-            { "type": "course", "courseId": "ECON 122L" },
-            { "type": "course", "courseId": "ECON 123" },
-            { "type": "course", "courseId": "ECON 123L" },
-            { "type": "course", "courseId": "ECON 130" },
-            { "type": "course", "courseId": "ECON 130L" },
-            { "type": "course", "courseId": "ECON 131" },
-            { "type": "course", "courseId": "ECON 131L" },
-            { "type": "course", "courseId": "ECON 132" },
-            { "type": "course", "courseId": "ECON 133" },
-            { "type": "course", "courseId": "ECON 133L" },
-            { "type": "course", "courseId": "ECON 134" },
-            { "type": "course", "courseId": "ECON 137" },
-            { "type": "course", "courseId": "ECON 140" },
-            { "type": "course", "courseId": "ECON 140L" },
-            { "type": "course", "courseId": "ECON 141" },
-            { "type": "course", "courseId": "ECON 142" },
-            { "type": "course", "courseId": "ECON 143" },
-            { "type": "course", "courseId": "ECON 144" },
-            { "type": "course", "courseId": "ECON 145" },
-            { "type": "course", "courseId": "ECON 147" },
-            { "type": "course", "courseId": "ECON 147L" },
-            { "type": "course", "courseId": "ECON 148" },
-            { "type": "course", "courseId": "ECON 149" },
-            { "type": "course", "courseId": "ECON 149L" },
-            { "type": "course", "courseId": "ECON 150" },
-            { "type": "course", "courseId": "ECON 150L" },
-            { "type": "course", "courseId": "ECON 151" },
-            { "type": "course", "courseId": "ECON 152" },
-            { "type": "course", "courseId": "ECON 152L" },
-            { "type": "course", "courseId": "ECON 160" },
-            { "type": "course", "courseId": "ECON 161" },
-            { "type": "course", "courseId": "ECON 162" },
-            { "type": "course", "courseId": "ECON 164" },
-            { "type": "course", "courseId": "ECON 164L" },
-            { "type": "course", "courseId": "ECON 165" },
-            { "type": "course", "courseId": "ECON 165L" },
-            { "type": "course", "courseId": "ECON 167" },
-            { "type": "course", "courseId": "ECON 168" },
-            { "type": "course", "courseId": "ECON 169" },
-            { "type": "course", "courseId": "ECON 170" },
-            { "type": "course", "courseId": "ECON 170L" },
-            { "type": "course", "courseId": "ECON 171" },
-            { "type": "course", "courseId": "ECON 171L" },
-            { "type": "course", "courseId": "ECON 173AX" },
-            { "type": "course", "courseId": "ECON 173BX" },
-            { "type": "course", "courseId": "ECON 174" },
-            { "type": "course", "courseId": "ECON 177" },
-            { "type": "course", "courseId": "ECON 181" },
-            { "type": "course", "courseId": "ECON 181L" },
-            { "type": "course", "courseId": "ECON 182A" },
-            { "type": "course", "courseId": "ECON 182AL" },
-            { "type": "course", "courseId": "ECON 182B" },
-            { "type": "course", "courseId": "ECON 182BL" },
-            { "type": "course", "courseId": "ECON 182C" },
-            { "type": "course", "courseId": "ECON 182CL" },
-            { "type": "course", "courseId": "ECON 183" },
-            { "type": "course", "courseId": "ECON 183L" },
-            { "type": "course", "courseId": "ECON 185" },
-            { "type": "course", "courseId": "ECON 187" },
-            { "type": "course", "courseId": "ECON 188SA" }
+            {"type": "course", "courseId": "ECON 101"},
+            {"type": "course", "courseId": "ECON 102"},
+            {"type": "course", "courseId": "ECON 103"},
+            {"type": "course", "courseId": "ECON 103L"},
+            {"type": "course", "courseId": "ECON 104"},
+            {"type": "course", "courseId": "ECON 104L"},
+            {"type": "course", "courseId": "ECON 105"},
+            {"type": "course", "courseId": "ECON 106A"},
+            {"type": "course", "courseId": "ECON 106AL"},
+            {"type": "course", "courseId": "ECON 106D"},
+            {"type": "course", "courseId": "ECON 106DL"},
+            {"type": "course", "courseId": "ECON 106E"},
+            {"type": "course", "courseId": "ECON 106EL"},
+            {"type": "course", "courseId": "ECON 106F"},
+            {"type": "course", "courseId": "ECON 106FB"},
+            {"type": "course", "courseId": "ECON 106G"},
+            {"type": "course", "courseId": "ECON 106GL"},
+            {"type": "course", "courseId": "ECON 106I"},
+            {"type": "course", "courseId": "ECON 106IL"},
+            {"type": "course", "courseId": "ECON 106M"},
+            {"type": "course", "courseId": "ECON 106ML"},
+            {"type": "course", "courseId": "ECON 106P"},
+            {"type": "course", "courseId": "ECON 106PL"},
+            {"type": "course", "courseId": "ECON 106S"},
+            {"type": "course", "courseId": "ECON 106SL"},
+            {"type": "course", "courseId": "ECON 106T"},
+            {"type": "course", "courseId": "ECON 106TL"},
+            {"type": "course", "courseId": "ECON 106V"},
+            {"type": "course", "courseId": "ECON 106VL"},
+            {"type": "course", "courseId": "ECON 107"},
+            {"type": "course", "courseId": "ECON 109A"},
+            {"type": "course", "courseId": "ECON 109B"},
+            {"type": "course", "courseId": "ECON 109C"},
+            {"type": "course", "courseId": "ECON 109D"},
+            {"type": "course", "courseId": "ECON 111"},
+            {"type": "course", "courseId": "ECON 111L"},
+            {"type": "course", "courseId": "ECON 112"},
+            {"type": "course", "courseId": "ECON 113"},
+            {"type": "course", "courseId": "ECON 121"},
+            {"type": "course", "courseId": "ECON 121L"},
+            {"type": "course", "courseId": "ECON 122"},
+            {"type": "course", "courseId": "ECON 122L"},
+            {"type": "course", "courseId": "ECON 123"},
+            {"type": "course", "courseId": "ECON 123L"},
+            {"type": "course", "courseId": "ECON 130"},
+            {"type": "course", "courseId": "ECON 130L"},
+            {"type": "course", "courseId": "ECON 131"},
+            {"type": "course", "courseId": "ECON 131L"},
+            {"type": "course", "courseId": "ECON 132"},
+            {"type": "course", "courseId": "ECON 133"},
+            {"type": "course", "courseId": "ECON 133L"},
+            {"type": "course", "courseId": "ECON 134"},
+            {"type": "course", "courseId": "ECON 137"},
+            {"type": "course", "courseId": "ECON 140"},
+            {"type": "course", "courseId": "ECON 140L"},
+            {"type": "course", "courseId": "ECON 141"},
+            {"type": "course", "courseId": "ECON 142"},
+            {"type": "course", "courseId": "ECON 143"},
+            {"type": "course", "courseId": "ECON 144"},
+            {"type": "course", "courseId": "ECON 145"},
+            {"type": "course", "courseId": "ECON 147"},
+            {"type": "course", "courseId": "ECON 147L"},
+            {"type": "course", "courseId": "ECON 148"},
+            {"type": "course", "courseId": "ECON 149"},
+            {"type": "course", "courseId": "ECON 149L"},
+            {"type": "course", "courseId": "ECON 150"},
+            {"type": "course", "courseId": "ECON 150L"},
+            {"type": "course", "courseId": "ECON 151"},
+            {"type": "course", "courseId": "ECON 152"},
+            {"type": "course", "courseId": "ECON 152L"},
+            {"type": "course", "courseId": "ECON 160"},
+            {"type": "course", "courseId": "ECON 161"},
+            {"type": "course", "courseId": "ECON 162"},
+            {"type": "course", "courseId": "ECON 164"},
+            {"type": "course", "courseId": "ECON 164L"},
+            {"type": "course", "courseId": "ECON 165"},
+            {"type": "course", "courseId": "ECON 165L"},
+            {"type": "course", "courseId": "ECON 167"},
+            {"type": "course", "courseId": "ECON 168"},
+            {"type": "course", "courseId": "ECON 169"},
+            {"type": "course", "courseId": "ECON 170"},
+            {"type": "course", "courseId": "ECON 170L"},
+            {"type": "course", "courseId": "ECON 171"},
+            {"type": "course", "courseId": "ECON 171L"},
+            {"type": "course", "courseId": "ECON 173AX"},
+            {"type": "course", "courseId": "ECON 173BX"},
+            {"type": "course", "courseId": "ECON 174"},
+            {"type": "course", "courseId": "ECON 177"},
+            {"type": "course", "courseId": "ECON 181"},
+            {"type": "course", "courseId": "ECON 181L"},
+            {"type": "course", "courseId": "ECON 182A"},
+            {"type": "course", "courseId": "ECON 182AL"},
+            {"type": "course", "courseId": "ECON 182B"},
+            {"type": "course", "courseId": "ECON 182BL"},
+            {"type": "course", "courseId": "ECON 182C"},
+            {"type": "course", "courseId": "ECON 182CL"},
+            {"type": "course", "courseId": "ECON 183"},
+            {"type": "course", "courseId": "ECON 183L"},
+            {"type": "course", "courseId": "ECON 185"},
+            {"type": "course", "courseId": "ECON 187"},
+            {"type": "course", "courseId": "ECON 188SA"}
           ]
         },
         {
@@ -216,30 +177,12 @@
           "description": "Select up to two courses from the following list. Management 180 may only apply as the real estate finance topic.",
           "needs": 1,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MGMT 120A"
-            },
-            {
-              "type": "course",
-              "courseId": "MGMT 120B"
-            },
-            {
-              "type": "course",
-              "courseId": "MGMT 122"
-            },
-            {
-              "type": "course",
-              "courseId": "MGMT 127A"
-            },
-            {
-              "type": "course",
-              "courseId": "MGMT 130A"
-            },
-            {
-              "type": "course",
-              "courseId": "MGMT 170"
-            }
+            {"type": "course", "courseId": "MGMT 120A"},
+            {"type": "course", "courseId": "MGMT 120B"},
+            {"type": "course", "courseId": "MGMT 122"},
+            {"type": "course", "courseId": "MGMT 127A"},
+            {"type": "course", "courseId": "MGMT 130A"},
+            {"type": "course", "courseId": "MGMT 170"}
           ]
         }
       ]
@@ -261,14 +204,8 @@
               "description": "Complete the following two courses in which a thesis is written. To qualify for honors, students must also select at least seven upper-division economics courses from an approved list.",
               "needs": 2,
               "options": [
-                {
-                  "type": "course",
-                  "courseId": "ECON 198A"
-                },
-                {
-                  "type": "course",
-                  "courseId": "ECON 198B"
-                }
+                {"type": "course", "courseId": "ECON 198A"},
+                {"type": "course", "courseId": "ECON 198B"}
               ]
             }
           ]

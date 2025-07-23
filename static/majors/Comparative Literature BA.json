@@ -17,10 +17,10 @@
           "description": "Complete one English composition course.",
           "needs": 1,
           "options": [
-            { "type": "course", "courseId": "ENGCOMP 3" },
-            { "type": "course", "courseId": "ENGCOMP 3D" },
-            { "type": "course", "courseId": "ENGCOMP 3DX" },
-            { "type": "course", "courseId": "ENGCOMP 3E" }
+            {"type": "course", "courseId": "ENGCOMP 3"},
+            {"type": "course", "courseId": "ENGCOMP 3D"},
+            {"type": "course", "courseId": "ENGCOMP 3DX"},
+            {"type": "course", "courseId": "ENGCOMP 3E"}
           ]
         },
         {
@@ -29,17 +29,17 @@
           "description": "Complete two literature survey courses (at least one of which must be world literature).",
           "needs": 2,
           "options": [
-            { "type": "course", "courseId": "ENGL 10A" },
-            { "type": "course", "courseId": "ENGL 10B" },
-            { "type": "course", "courseId": "ENGL 10C" },
-            { "type": "course", "courseId": "COM LIT 1A" },
-            { "type": "course", "courseId": "COM LIT 1B" },
-            { "type": "course", "courseId": "COM LIT 1C" },
-            { "type": "course", "courseId": "COM LIT 1D" },
-            { "type": "course", "courseId": "COM LIT 2AW" },
-            { "type": "course", "courseId": "COM LIT 2BW" },
-            { "type": "course", "courseId": "COM LIT 2CW" },
-            { "type": "course", "courseId": "COM LIT 2DW" }
+            {"type": "course", "courseId": "ENGL 10A"},
+            {"type": "course", "courseId": "ENGL 10B"},
+            {"type": "course", "courseId": "ENGL 10C"},
+            {"type": "course", "courseId": "COM LIT 1A"},
+            {"type": "course", "courseId": "COM LIT 1B"},
+            {"type": "course", "courseId": "COM LIT 1C"},
+            {"type": "course", "courseId": "COM LIT 1D"},
+            {"type": "course", "courseId": "COM LIT 2AW"},
+            {"type": "course", "courseId": "COM LIT 2BW"},
+            {"type": "course", "courseId": "COM LIT 2CW"},
+            {"type": "course", "courseId": "COM LIT 2DW"}
           ]
         },
         {
@@ -62,18 +62,18 @@
           "description": "Select two courses from the following. With approval of the director of undergraduate studies, a comparable and appropriate lower-division course in another department may be substituted for one of the courses.",
           "needs": 2,
           "options": [
-            { "type": "course", "courseId": "COM LIT 1A" },
-            { "type": "course", "courseId": "COM LIT 1B" },
-            { "type": "course", "courseId": "COM LIT 1C" },
-            { "type": "course", "courseId": "COM LIT 1D" },
-            { "type": "course", "courseId": "COM LIT 1E" },
-            { "type": "course", "courseId": "COM LIT 2AW" },
-            { "type": "course", "courseId": "COM LIT 2BW" },
-            { "type": "course", "courseId": "COM LIT 2CW" },
-            { "type": "course", "courseId": "COM LIT 4AW" },
-            { "type": "course", "courseId": "COM LIT 4BW" },
-            { "type": "course", "courseId": "COM LIT 4CW" },
-            { "type": "course", "courseId": "COM LIT 4DW" }
+            {"type": "course", "courseId": "COM LIT 1A"},
+            {"type": "course", "courseId": "COM LIT 1B"},
+            {"type": "course", "courseId": "COM LIT 1C"},
+            {"type": "course", "courseId": "COM LIT 1D"},
+            {"type": "course", "courseId": "COM LIT 1E"},
+            {"type": "course", "courseId": "COM LIT 2AW"},
+            {"type": "course", "courseId": "COM LIT 2BW"},
+            {"type": "course", "courseId": "COM LIT 2CW"},
+            {"type": "course", "courseId": "COM LIT 4AW"},
+            {"type": "course", "courseId": "COM LIT 4BW"},
+            {"type": "course", "courseId": "COM LIT 4CW"},
+            {"type": "course", "courseId": "COM LIT 4DW"}
           ]
         },
         {
@@ -90,48 +90,45 @@
       "title": "The Major",
       "description": "Ten courses as follows:",
       "requirements": [
-        {
-          "type": "course",
-          "courseId": "COM LIT 100"
-        },
+        {"type": "course", "courseId": "COM LIT 100"},
         {
           "type": "group",
           "title": "Upper-Division Comparative Literature",
           "description": "Select four courses from Comparative Literature M101 through 197.",
           "needs": 4,
           "options": [
-            { "type": "course", "courseId": "COM LIT M101" },
-            { "type": "course", "courseId": "COM LIT 102" },
-            { "type": "course", "courseId": "COM LIT 104" },
-            { "type": "course", "courseId": "COM LIT 108" },
-            { "type": "course", "courseId": "COM LIT M110" },
-            { "type": "course", "courseId": "COM LIT 112" },
-            { "type": "course", "courseId": "COM LIT 113" },
-            { "type": "course", "courseId": "COM LIT M119" },
-            { "type": "course", "courseId": "COM LIT M120" },
-            { "type": "course", "courseId": "COM LIT M123" },
-            { "type": "course", "courseId": "COM LIT M132" },
-            { "type": "course", "courseId": "COM LIT M142" },
-            { "type": "course", "courseId": "COM LIT M148" },
-            { "type": "course", "courseId": "COM LIT 150" },
-            { "type": "course", "courseId": "COM LIT C152" },
-            { "type": "course", "courseId": "COM LIT C153" },
-            { "type": "course", "courseId": "COM LIT 154" },
-            { "type": "course", "courseId": "COM LIT C156" },
-            { "type": "course", "courseId": "COM LIT C160" },
-            { "type": "course", "courseId": "COM LIT C161" },
-            { "type": "course", "courseId": "COM LIT M162" },
-            { "type": "course", "courseId": "COM LIT C163" },
-            { "type": "course", "courseId": "COM LIT C164" },
-            { "type": "course", "courseId": "COM LIT M165" },
-            { "type": "course", "courseId": "COM LIT M166" },
-            { "type": "course", "courseId": "COM LIT M167" },
-            { "type": "course", "courseId": "COM LIT 169" },
-            { "type": "course", "courseId": "COM LIT CM170" },
-            { "type": "course", "courseId": "COM LIT M171" },
-            { "type": "course", "courseId": "COM LIT M175" },
-            { "type": "course", "courseId": "COM LIT M176" },
-            { "type": "course", "courseId": "COM LIT C178" }
+            {"type": "course", "courseId": "COM LIT M101"},
+            {"type": "course", "courseId": "COM LIT 102"},
+            {"type": "course", "courseId": "COM LIT 104"},
+            {"type": "course", "courseId": "COM LIT 108"},
+            {"type": "course", "courseId": "COM LIT M110"},
+            {"type": "course", "courseId": "COM LIT 112"},
+            {"type": "course", "courseId": "COM LIT 113"},
+            {"type": "course", "courseId": "COM LIT M119"},
+            {"type": "course", "courseId": "COM LIT M120"},
+            {"type": "course", "courseId": "COM LIT M123"},
+            {"type": "course", "courseId": "COM LIT M132"},
+            {"type": "course", "courseId": "COM LIT M142"},
+            {"type": "course", "courseId": "COM LIT M148"},
+            {"type": "course", "courseId": "COM LIT 150"},
+            {"type": "course", "courseId": "COM LIT C152"},
+            {"type": "course", "courseId": "COM LIT C153"},
+            {"type": "course", "courseId": "COM LIT 154"},
+            {"type": "course", "courseId": "COM LIT C156"},
+            {"type": "course", "courseId": "COM LIT C160"},
+            {"type": "course", "courseId": "COM LIT C161"},
+            {"type": "course", "courseId": "COM LIT M162"},
+            {"type": "course", "courseId": "COM LIT C163"},
+            {"type": "course", "courseId": "COM LIT C164"},
+            {"type": "course", "courseId": "COM LIT M165"},
+            {"type": "course", "courseId": "COM LIT M166"},
+            {"type": "course", "courseId": "COM LIT M167"},
+            {"type": "course", "courseId": "COM LIT 169"},
+            {"type": "course", "courseId": "COM LIT CM170"},
+            {"type": "course", "courseId": "COM LIT M171"},
+            {"type": "course", "courseId": "COM LIT M175"},
+            {"type": "course", "courseId": "COM LIT M176"},
+            {"type": "course", "courseId": "COM LIT C178"}
           ]
         },
         {
@@ -175,10 +172,7 @@
               "needs": 1,
               "options": []
             },
-            {
-              "type": "course",
-              "courseId": "COM LIT 198"
-            }
+            {"type": "course", "courseId": "COM LIT 198"}
           ]
         }
       ]

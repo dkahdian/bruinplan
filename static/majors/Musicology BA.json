@@ -17,42 +17,15 @@
           "description": "Complete the following nine courses:",
           "needs": 9,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MUSCLG 1"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG 2"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG M6A"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG M6B"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG M6C"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG 12W"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 20A"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 20B"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 20C"
-            }
+            {"type": "course", "courseId": "MUSCLG 1"},
+            {"type": "course", "courseId": "MUSCLG 2"},
+            {"type": "course", "courseId": "MUSCLG M6A"},
+            {"type": "course", "courseId": "MUSCLG M6B"},
+            {"type": "course", "courseId": "MUSCLG M6C"},
+            {"type": "course", "courseId": "MUSCLG 12W"},
+            {"type": "course", "courseId": "MUSC 20A"},
+            {"type": "course", "courseId": "MUSC 20B"},
+            {"type": "course", "courseId": "MUSC 20C"}
           ]
         },
         {
@@ -66,152 +39,77 @@
               "title": "Ethnomusicology 68A through 68O",
               "description": "Select from this range.",
               "needs": 1,
-            "options": [
-              {"type": "course", "courseId": "ETHNMUS 68A"},
-              {"type": "course", "courseId": "ETHNMUS 68B"},
-              {"type": "course", "courseId": "ETHNMUS 68C"},
-              {"type": "course", "courseId": "ETHNMUS 68F"},
-              {"type": "course", "courseId": "ETHNMUS 68G"},
-              {"type": "course", "courseId": "ETHNMUS 68M"},
-              {"type": "course", "courseId": "ETHNMUS 68N"},
-              {"type": "course", "courseId": "ETHNMUS 68O"}
-            ]
+              "options": [
+                {"type": "course", "courseId": "ETHNMUS 68A"},
+                {"type": "course", "courseId": "ETHNMUS 68B"},
+                {"type": "course", "courseId": "ETHNMUS 68C"},
+                {"type": "course", "courseId": "ETHNMUS 68F"},
+                {"type": "course", "courseId": "ETHNMUS 68G"},
+                {"type": "course", "courseId": "ETHNMUS 68M"},
+                {"type": "course", "courseId": "ETHNMUS 68N"},
+                {"type": "course", "courseId": "ETHNMUS 68O"}
+              ]
             },
             {
               "type": "group",
               "title": "Ethnomusicology 91A through 91Z",
               "description": "Select from this range.",
               "needs": 1,
-            "options": [
-              {"type": "course", "courseId": "ETHNMUS 91A"},
-              {"type": "course", "courseId": "ETHNMUS 91B"},
-              {"type": "course", "courseId": "ETHNMUS 91E"},
-              {"type": "course", "courseId": "ETHNMUS 91G"},
-              {"type": "course", "courseId": "ETHNMUS 91H"},
-              {"type": "course", "courseId": "ETHNMUS 91J"},
-              {"type": "course", "courseId": "ETHNMUS 91K"},
-              {"type": "course", "courseId": "ETHNMUS 91L"},
-              {"type": "course", "courseId": "ETHNMUS 91N"},
-              {"type": "course", "courseId": "ETHNMUS 91P"},
-              {"type": "course", "courseId": "ETHNMUS 91Z"}
-            ]
+              "options": [
+                {"type": "course", "courseId": "ETHNMUS 91A"},
+                {"type": "course", "courseId": "ETHNMUS 91B"},
+                {"type": "course", "courseId": "ETHNMUS 91E"},
+                {"type": "course", "courseId": "ETHNMUS 91G"},
+                {"type": "course", "courseId": "ETHNMUS 91H"},
+                {"type": "course", "courseId": "ETHNMUS 91J"},
+                {"type": "course", "courseId": "ETHNMUS 91K"},
+                {"type": "course", "courseId": "ETHNMUS 91L"},
+                {"type": "course", "courseId": "ETHNMUS 91N"},
+                {"type": "course", "courseId": "ETHNMUS 91P"},
+                {"type": "course", "courseId": "ETHNMUS 91Z"}
+              ]
             },
             {
               "type": "group",
               "title": "Ethnomusicology 168A through 168O",
               "description": "Select from this range.",
               "needs": 1,
-            "options": [
-              {"type": "course", "courseId": "ETHNMUS 168A"},
-              {"type": "course", "courseId": "ETHNMUS 168B"},
-              {"type": "course", "courseId": "ETHNMUS 168C"},
-              {"type": "course", "courseId": "ETHNMUS 168F"},
-              {"type": "course", "courseId": "ETHNMUS 168G"},
-              {"type": "course", "courseId": "ETHNMUS 168M"},
-              {"type": "course", "courseId": "ETHNMUS 168N"},
-              {"type": "course", "courseId": "ETHNMUS 168O"}
-            ]
+              "options": [
+                {"type": "course", "courseId": "ETHNMUS 168A"},
+                {"type": "course", "courseId": "ETHNMUS 168B"},
+                {"type": "course", "courseId": "ETHNMUS 168C"},
+                {"type": "course", "courseId": "ETHNMUS 168F"},
+                {"type": "course", "courseId": "ETHNMUS 168G"},
+                {"type": "course", "courseId": "ETHNMUS 168M"},
+                {"type": "course", "courseId": "ETHNMUS 168N"},
+                {"type": "course", "courseId": "ETHNMUS 168O"}
+              ]
             },
-            {
-              "type": "course",
-              "courseId": "GJ STDS 176A"
-            },
-            {
-              "type": "course",
-              "courseId": "GJ STDS 176B"
-            },
-            {
-              "type": "course",
-              "courseId": "GJ STDS 176C"
-            },
-            {
-              "type": "course",
-              "courseId": "GJ STDS 176D"
-            },
-            {
-              "type": "course",
-              "courseId": "GJ STDS 176E"
-            },
-            {
-              "type": "course",
-              "courseId": "GJ STDS 176F"
-            },
-            {
-              "type": "course",
-              "courseId": "GJ STDS 176G"
-            },
-            {
-              "type": "course",
-              "courseId": "GJ STDS 176H"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C175A"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C175B"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C175C"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C175D"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C175E"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C175F"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C175G"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C185A"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C185B"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C185C"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C185D"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C185E"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 185F"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC C185G"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSC 185H"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG CM90T"
-            },
-            {
-              "type": "course",
-              "courseId": "MSC IND 111A"
-            }
+            {"type": "course", "courseId": "GJ STDS 176A"},
+            {"type": "course", "courseId": "GJ STDS 176B"},
+            {"type": "course", "courseId": "GJ STDS 176C"},
+            {"type": "course", "courseId": "GJ STDS 176D"},
+            {"type": "course", "courseId": "GJ STDS 176E"},
+            {"type": "course", "courseId": "GJ STDS 176F"},
+            {"type": "course", "courseId": "GJ STDS 176G"},
+            {"type": "course", "courseId": "GJ STDS 176H"},
+            {"type": "course", "courseId": "MUSC C175A"},
+            {"type": "course", "courseId": "MUSC C175B"},
+            {"type": "course", "courseId": "MUSC C175C"},
+            {"type": "course", "courseId": "MUSC C175D"},
+            {"type": "course", "courseId": "MUSC C175E"},
+            {"type": "course", "courseId": "MUSC C175F"},
+            {"type": "course", "courseId": "MUSC C175G"},
+            {"type": "course", "courseId": "MUSC C185A"},
+            {"type": "course", "courseId": "MUSC C185B"},
+            {"type": "course", "courseId": "MUSC C185C"},
+            {"type": "course", "courseId": "MUSC C185D"},
+            {"type": "course", "courseId": "MUSC C185E"},
+            {"type": "course", "courseId": "MUSC 185F"},
+            {"type": "course", "courseId": "MUSC C185G"},
+            {"type": "course", "courseId": "MUSC 185H"},
+            {"type": "course", "courseId": "MUSCLG CM90T"},
+            {"type": "course", "courseId": "MSC IND 111A"}
           ]
         },
         {
@@ -234,34 +132,13 @@
           "description": "Complete the following courses. Note: In a given year, the department may designate individual Musicology seminars in the range 160-185, 188, or 191 as equivalent to 126 and 127.",
           "needs": 7,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MUSCLG 125A"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG 125B"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG 125C"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG 126"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG 127"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG 128"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG 193C"
-            }
+            {"type": "course", "courseId": "MUSCLG 125A"},
+            {"type": "course", "courseId": "MUSCLG 125B"},
+            {"type": "course", "courseId": "MUSCLG 125C"},
+            {"type": "course", "courseId": "MUSCLG 126"},
+            {"type": "course", "courseId": "MUSCLG 127"},
+            {"type": "course", "courseId": "MUSCLG 128"},
+            {"type": "course", "courseId": "MUSCLG 193C"}
           ]
         },
         {
@@ -277,18 +154,9 @@
           "description": "Complete the following three-course sequence:",
           "needs": 3,
           "options": [
-            {
-              "type": "course",
-              "courseId": "MUSCLG 187A"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG 187B"
-            },
-            {
-              "type": "course",
-              "courseId": "MUSCLG 187C"
-            }
+            {"type": "course", "courseId": "MUSCLG 187A"},
+            {"type": "course", "courseId": "MUSCLG 187B"},
+            {"type": "course", "courseId": "MUSCLG 187C"}
           ]
         }
       ]
