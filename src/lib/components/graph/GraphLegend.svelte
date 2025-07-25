@@ -106,21 +106,6 @@
               </button>
             </div>
           {/if}
-          
-          <div class="flex items-center justify-between">
-            <span class="text-xs text-gray-600">Warning prerequisites</span>
-            <button
-              class="relative inline-flex h-4 w-7 items-center rounded-full {showWarnings ? 'bg-orange-500' : 'bg-gray-300'} transition-colors"
-              on:click={() => showWarnings = !showWarnings}
-              type="button"
-              aria-label="Toggle warning prerequisites"
-            >
-              <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {showWarnings ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
-            </button>
-          </div>
-        </div>
-        <div class="text-xs text-gray-500 mt-1">
-          All prerequisites always shown
         </div>
       </div>
     </div>

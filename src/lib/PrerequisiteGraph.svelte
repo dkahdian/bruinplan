@@ -1,25 +1,43 @@
 <!-- PrerequisiteGraph.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, createEventDispatcher } from 'svelte';
+	import { browser } from '$app/environment';
 	import GraphContainer from './components/graph/GraphContainer.svelte';
-	import { buildPrerequisiteGraphAsync } from './services/graph/graphBuilder.js';
+	import GraphLegend from './components/graph/GraphLegend.svelte';
+	import { buildPrerequisiteGraphAsync } from './services/graph/index.js';
 	import { getCourseById } from './data-layer/api.js';
+	import { schedulingService, courseCompletionService, initializeSchedulingService } from './services/schedulingServices.js';
+	import { loadLegendState, saveLegendState, type LegendState } from './services/shared/legendStateService.js';
 	import type { Course } from './types.js';
 	import type { GraphNode, GraphEdge } from './services/graph/types.js';
 
 	export let courseId: string;
+	export let showWarnings: boolean = false;
+	export let showCompletedCourses: boolean = true;
+	export let userCompletedCourses: Set<string> = new Set();
+	
+	const dispatch = createEventDispatcher<{
+		courseSelect: Course;
+		backgroundClick: void;
+	}>();
 	
 	let course: Course | null = null;
 	let nodes: GraphNode[] = [];
 	let edges: GraphEdge[] = [];
 	let isLoading = true;
 	let error: string | null = null;
+	let courseMap = new Map<string, Course>();
+	let isInitialized = false;
 
-	// Default props for GraphContainer
-	const defaultUserCompletedCourses = new Set<string>();
-	const graphWidthPercent = 100;
-	const showWarnings = false;
-	const showCompletedCourses = true;
+	// Initialize state from localStorage
+	function initializeFromLocalStorage() {
+		if (browser && !isInitialized) {
+			const savedState = loadLegendState();
+			showWarnings = savedState.showWarnings;
+			showCompletedCourses = savedState.showCompletedCourses;
+			isInitialized = true;
+		}
+	}
 
 	// Load course data first, then build graph
 	async function loadCourse() {
@@ -30,6 +48,7 @@
 			const loadedCourse = await getCourseById(courseId);
 			if (loadedCourse) {
 				course = loadedCourse;
+				courseMap.set(loadedCourse.id, loadedCourse);
 				console.log('Course loaded:', course.id);
 				await loadGraph();
 			} else {
@@ -50,7 +69,15 @@
 		error = null;
 		
 		try {
-			const result = await buildPrerequisiteGraphAsync(course.id);
+			const result = await buildPrerequisiteGraphAsync(
+				course.id, 
+				courseMap,
+				{
+					userCompletedCourses,
+					showCompletedCourses,
+					showWarnings
+				}
+			);
 			console.log('Graph build result:', result);
 			
 			nodes = result.nodes;
@@ -65,6 +92,19 @@
 		}
 	}
 
+	// Handle course selection from graph
+	function onCourseSelect(course: Course) {
+		console.log('Course selected:', course);
+		courseMap.set(course.id, course);
+		dispatch('courseSelect', course);
+	}
+
+	// Handle background click to reset selection
+	function onBackgroundClick() {
+		console.log('Background clicked');
+		dispatch('backgroundClick');
+	}
+
 	// Handle courseId changes
 	function handleCourseIdChange(newCourseId: string) {
 		console.log('CourseId changed from', courseId, 'to', newCourseId);
@@ -73,25 +113,44 @@
 		}
 	}
 
-	// Handle graph interactions
-	function onCourseSelect(course: any) {
-		console.log('Course selected:', course);
-		// Handle course selection
-	}
-
-	function onBackgroundClick() {
-		console.log('Background clicked');
-		// Handle background clicks
-	}
-
 	// Load course on mount
 	onMount(() => {
 		console.log('PrerequisiteGraph mounted with courseId:', courseId);
+		initializeSchedulingService();
+		initializeFromLocalStorage();
 		loadCourse();
 	});
 
+	// Handle toggle changes
+	function handleToggleChange() {
+		if (course && !isLoading && isInitialized) {
+			loadGraph();
+			// Save state to localStorage
+			const currentState: LegendState = {
+				isExpanded: true, // We don't track this in PrerequisiteGraph
+				showWarnings,
+				showCompletedCourses
+			};
+			saveLegendState(currentState);
+		}
+	}
+
 	// Watch for courseId changes
 	$: handleCourseIdChange(courseId);
+	
+	// Watch for specific toggle changes only (after initialization)
+	$: if (isInitialized) {
+		showWarnings, showCompletedCourses, handleToggleChange();
+	}
+
+	// Handle toggle for showCompletedCourses
+	function toggleShowCompletedCourses() {
+		showCompletedCourses = !showCompletedCourses;
+		// The reactive statement above will handle saving and reloading
+	}
+
+	// Determine if we should show empty graph message
+	$: shouldShowEmptyMessage = !isLoading && !error && course && edges.length === 0;
 </script>
 
 <div class="prerequisite-graph-container">
@@ -101,16 +160,39 @@
 		<div class="error">Error loading graph: {error}</div>
 	{:else if !course}
 		<div class="error">Course not found</div>
+	{:else if shouldShowEmptyMessage}
+		<div class="empty-graph">
+			<div class="empty-message">
+				No prerequisites found for {course.id}
+			</div>
+			{#if !showCompletedCourses}
+				<button 
+					class="show-completed-link"
+					on:click={toggleShowCompletedCourses}
+					type="button"
+				>
+					Try showing completed courses?
+				</button>
+			{/if}
+		</div>
 	{:else}
+		<!-- Graph container (full width) -->
 		<GraphContainer
 			{nodes}
 			{edges}
-			{graphWidthPercent}
+			graphWidthPercent={100}
 			{showWarnings}
 			{showCompletedCourses}
-			userCompletedCourses={defaultUserCompletedCourses}
+			{userCompletedCourses}
 			{onCourseSelect}
 			{onBackgroundClick}
+		/>
+		
+		<!-- Graph Legend (positioned absolutely in bottom-left of graph) -->
+		<GraphLegend 
+			bind:showWarnings={showWarnings}
+			bind:showCompletedCourses={showCompletedCourses}
+			{userCompletedCourses}
 		/>
 	{/if}
 </div>
@@ -124,10 +206,13 @@
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
+		background-color: #f9fafb;
+		position: relative;
 	}
 
 	.loading,
-	.error {
+	.error,
+	.empty-graph {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -135,6 +220,8 @@
 		padding: 2rem;
 		text-align: center;
 		flex: 1;
+		flex-direction: column;
+		gap: 1rem;
 	}
 
 	.error {
@@ -145,5 +232,32 @@
 	.loading {
 		color: #6b7280;
 		background-color: #f9fafb;
+	}
+
+	.empty-graph {
+		color: #9ca3af;
+		background-color: #f9fafb;
+	}
+
+	.empty-message {
+		font-size: 1.125rem; /* Medium size */
+		font-weight: 500;
+	}
+
+	.show-completed-link {
+		color: #3b82f6;
+		background-color: #f3e8ff; /* Light purple background */
+		border: none;
+		cursor: pointer;
+		font-size: 1rem;
+		padding: 0.5rem 1rem;
+		border-radius: 0.375rem; /* Rounded corners */
+		transition: background-color 0.2s, color 0.2s;
+		text-decoration: none; /* Remove underline */
+	}
+
+	.show-completed-link:hover {
+		background-color: #e9d5ff; /* Slightly darker purple on hover */
+		color: #1d4ed8;
 	}
 </style>

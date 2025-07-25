@@ -44,6 +44,7 @@ export interface GraphEdge {
 export interface GraphBuildOptions {
   userCompletedCourses?: Set<string>;
   showCompletedCourses?: boolean;
+  showWarnings?: boolean;
   // Animation options
   enableAnimations?: boolean;
   animationDuration?: number;

@@ -345,11 +345,9 @@ export class TooltipManager {
            <h4 class="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2">Options</h4>
            <ul class="space-y-1">
              ${groupData.options.map(option => {
-               const levelClass = option.level === 'Enforced' ? 'text-red-600' : 
-                                 option.level === 'Warning' ? 'text-yellow-600' : 'text-blue-600';
-               const levelText = option.type === 'Recommended' ? 'Recommended' : option.level;
+               // Since prerequisite levels are no longer supported, just show the course name
                const gradeInfo = this.formatMinGrade(option.minGrade);
-               return `<li class="text-sm"><span class="${levelClass} font-medium">${levelText}:</span> ${option.course}${gradeInfo}</li>`;
+               return `<li class="text-sm"><span class="text-orange-600 font-medium">Required:</span> ${option.course}${gradeInfo}</li>`;
              }).join('')}
            </ul>
          </div>`
@@ -390,11 +388,9 @@ export class TooltipManager {
           : 'group options';
         return `<li class="text-sm text-gray-600">Choose ${req.needs} from: ${optionsList}</li>`;
       } else {
-        const levelClass = req.level === 'Enforced' ? 'text-red-600' : 
-                          req.level === 'Warning' ? 'text-yellow-600' : 'text-blue-600';
-        const levelText = req.type === 'Recommended' ? 'Recommended' : req.level;
+        // Since prerequisite levels are no longer supported, just show the course name
         const gradeInfo = this.formatMinGrade(req.minGrade);
-        return `<li class="text-sm"><span class="${levelClass} font-medium">${levelText}:</span> ${req.course}${gradeInfo}</li>`;
+        return `<li class="text-sm"><span class="text-orange-600 font-medium">Required:</span> ${req.course}${gradeInfo}</li>`;
       }
     }).join('');
 

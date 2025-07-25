@@ -1,7 +1,9 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import { goto } from '$app/navigation';
   import PrerequisiteGraph from '../../../lib/PrerequisiteGraph.svelte';
   import CourseDetails from '../../../lib/components/course/CourseDetails.svelte';
+  import CourseNavigationHeader from '../../../lib/components/course/CourseNavigationHeader.svelte';
   import ValidationIndicator from '../../../lib/components/shared/ValidationIndicator.svelte';
   import ResizeHandle from '../../../lib/components/shared/ResizeHandle.svelte';
   import { getCourseById } from '../../../lib/data-layer/api.js';
@@ -20,29 +22,42 @@
   };
 
   let course: Course | null = null;
+  let selectedCourse: Course | null = null; // Track the selected course from graph
   let courseMap = new Map<string, Course>();
   let graphWidthPercent = 65; // Default: 65% for graph, 35% for sidebar
   let resizeContainer: HTMLDivElement;
   let userCompletedCourses = new Set<string>();
   let validationErrors: ValidationError[] = [];
+  let showWarnings = data.showWarnings || false;
+  let showCompletedCourses = true;
 
   // Subscribe to validation errors
   $: validationErrors = $validationErrorsStore;
+
+  // React to changes in courseId - this makes the page load new course data when navigating
+  $: if (data.courseId) {
+    loadCourse(data.courseId);
+  }
+
+  // Load course data
+  async function loadCourse(courseId: string) {
+    try {
+      const loadedCourse = await getCourseById(courseId);
+      if (loadedCourse) {
+        course = loadedCourse;
+        courseMap.set(loadedCourse.id, loadedCourse);
+        // Reset selected course when loading new course
+        selectedCourse = null;
+      }
+    } catch (error) {
+      console.error('Failed to load course:', error);
+    }
+  }
 
   // Load course and initialize services
   onMount(async () => {
     initializeSchedulingService();
     
-    try {
-      const loadedCourse = await getCourseById(data.courseId);
-      if (loadedCourse) {
-        course = loadedCourse;
-        courseMap.set(loadedCourse.id, loadedCourse);
-      }
-    } catch (error) {
-      console.error('Failed to load course:', error);
-    }
-
     // Get user's completed courses
     userCompletedCourses = courseCompletionService.getCompletedCoursesSet();
     
@@ -70,8 +85,26 @@
 
   // Handle prerequisite click
   function onPrerequisiteClick(courseId: string) {
-    // Navigate to the clicked course's prerequisite page
-    window.location.href = `/courses/${courseId}`;
+    // Navigate to the clicked course's prerequisite page using proper URL format
+    const urlCourseId = courseId.replace(/[^A-Z0-9]/g, '');
+    goto(`/courses/${urlCourseId}`);
+  }
+
+  // Handle course selection from graph
+  function onCourseSelect(event: CustomEvent<Course>) {
+    selectedCourse = event.detail;
+    courseMap.set(selectedCourse.id, selectedCourse);
+  }
+
+  // Handle background click to reset selection
+  function onBackgroundClick() {
+    selectedCourse = null;
+  }
+
+  // Handle navigation from the header search (no longer needed since navigation is handled internally)
+  function onNavigate(event: CustomEvent<string>) {
+    // This is no longer used since CourseNavigationHeader handles navigation internally
+    console.log('Navigation event:', event.detail);
   }
 </script>
 
@@ -79,10 +112,26 @@
   <title>Prerequisites for {data.courseId}</title>
 </svelte:head>
 
-<div class="prerequisite-layout" bind:this={resizeContainer}>
+<!-- Course Navigation Header -->
+<CourseNavigationHeader 
+  courseId={data.courseId}
+  on:navigate={onNavigate}
+/>
+
+<div class="course-page-container">
+  <div class="prerequisite-layout" bind:this={resizeContainer}>
   <!-- Main graph area -->
   <div class="graph-section" style="width: {graphWidthPercent}%;">
-    <PrerequisiteGraph courseId={data.courseId} />
+    {#key data.courseId}
+      <PrerequisiteGraph 
+        courseId={data.courseId}
+        {showWarnings}
+        {showCompletedCourses}
+        {userCompletedCourses}
+        on:courseSelect={onCourseSelect}
+        on:backgroundClick={onBackgroundClick}
+      />
+    {/key}
   </div>
 
   <!-- Resize handle -->
@@ -92,17 +141,18 @@
   <div class="sidebar-section" style="width: {100 - graphWidthPercent}%;">
     <div class="sidebar-content">
       {#if course}
-        <!-- Course header with validation -->
-        <div class="course-header p-4 border-b border-gray-200">
-          <h2 class="text-xl font-bold mb-2">{course.id}</h2>
-          <ValidationIndicator errors={validationErrors} courseId={course.id} />
-        </div>
+        <!-- Validation indicator at top (only if there are errors) -->
+        {#if validationErrors.length > 0}
+          <div class="validation-header p-4 border-b border-gray-200">
+            <ValidationIndicator errors={validationErrors} courseId={course.id} />
+          </div>
+        {/if}
         
         <!-- Course details -->
         <div class="course-details flex-1">
           <CourseDetails
-            displayedCourse={course}
-            selectedCourse={course}
+            displayedCourse={selectedCourse || course}
+            {selectedCourse}
             isTransitioning={false}
             {userCompletedCourses}
             {courseMap}
@@ -116,13 +166,20 @@
     </div>
   </div>
 </div>
+</div>
 
 <style>
+  .course-page-container {
+    height: calc(100vh - 65px); /* Account for navigation header */
+    overflow: hidden; /* Prevent scrollbars for this specific page layout */
+  }
+
   .prerequisite-layout {
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: #f9fafb;
+    overflow: hidden; /* Prevent any overflow that might cause scrollbars */
   }
 
   .graph-section {
@@ -148,7 +205,7 @@
     flex-direction: column;
   }
 
-  .course-header {
+  .validation-header {
     flex-shrink: 0;
   }
 

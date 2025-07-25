@@ -3,7 +3,7 @@
 ## Overview
 This document defines the complete specification for interactive course prerequisite graph visualization using Cytoscape.js. 
 
-**✅ Current Status**: All core prerequisite graph features are fully implemented with smooth animations, incremental updates, and robust completion tracking.
+**✅ Current Status**: All core prerequisite graph features are fully implemented with smooth animations, incremental updates, robust completion tracking, empty graph handling, course navigation with search functionality, and comprehensive state persistence.
 
 ## 1. Graph Structure
 
@@ -159,7 +159,104 @@ This document defines the complete specification for interactive course prerequi
 
 ---
 
-## 7. Accessibility
+## 7. Empty Graph Handling
+
+When no prerequisite relationships exist (either no prerequisites or all completed courses are hidden):
+
+- **Empty State Display:**
+  - Medium-sized light gray text: "No prerequisites found for [courseId]"
+  - Centered in graph area
+  - Background: same as normal graph background (#f9fafb)
+
+- **Conditional Show Completed Toggle:**
+  - When `showCompletedCourses` is `false`, displays additional button
+  - Button text: "Try showing completed courses?"
+  - Button style: Light purple background (#f3e8ff), blue text, rounded corners (similar to search toggle)
+  - On click: Toggles `showCompletedCourses` to `true` and rebuilds graph
+  - Syncs with legend toggle and persists to localStorage
+
+---
+
+## 8. Course Navigation Header
+
+The prerequisite graph page includes a comprehensive navigation header:
+
+- **Title Section (Left):**
+  - Bold text: "Prerequisites for" followed by clickable course ID
+  - Course ID is styled as interactive button (purple background)
+  - Clicking course ID opens search dropdown below header
+
+- **Search Functionality:**
+  - Search dropdown appears when course ID is clicked
+  - Direct search input with placeholder "Type course ID or name..."
+  - Real-time search results with course ID, title, and units
+  - Clicking result navigates to that course's prerequisite page
+  - Proper URL formatting: removes spaces/special chars for route compatibility
+
+- **Navigation Links (Right):**
+  - "Back to all courses" → `/courses`
+  - "See majors" → `/majors`
+  - Traditional link styling (blue, underlined on hover)
+
+- **Page Reactivity:**
+  - Graph recreates when courseId changes (using Svelte `{#key}` block)
+  - Sidebar updates reactively to match new course
+  - Maintains proper SvelteKit client-side navigation
+
+---
+
+## 9. State Persistence
+
+All user preferences are preserved across sessions using localStorage:
+
+- **Legend State:**
+  - `showWarnings`: Display warning-related prerequisites
+  - `showCompletedCourses`: Show/hide completed course nodes
+  - `isExpanded`: Legend collapse/expand state
+
+- **Synchronization:**
+  - Changes in legend toggles sync with empty graph toggle button
+  - Changes in empty graph toggle sync with legend
+  - All changes immediately persisted to localStorage
+  - State loaded on component mount with SSR safety
+
+---
+
+## 10. Quarterly Planning Integration
+
+**📋 Planned Feature**: Integration with quarter-based course scheduling system.
+
+### Course Status Types
+- **Completed courses**: localStorage value `'1'`, green styling, hidden when `showCompletedCourses` is `false`
+- **In-plan courses**: localStorage value as 3-digit quarterly code (e.g., `'242'` for Fall 2024), purple styling
+- **Unscheduled courses**: No localStorage entry, default white styling
+
+### In-Plan Course Behavior
+- **Visual styling**: Purple background/border to distinguish from completed (green) and unscheduled (white) courses
+- **Always visible**: In-plan courses remain visible even when `showCompletedCourses` is `false` (since they are not completed)
+- **Current logic compatibility**: Existing graph filtering logic should work unchanged, as in-plan courses are already shown but not currently marked visually
+
+### Quarter Selection Interface
+- **Toggle enhancement**: Existing completion toggles `( o)` get additional quarter dropdown button
+- **Dropdown locations**: Available in tooltips, sidebar prerequisite sections, and nested group prerequisite sections
+- **Quarter options**: TBD - either fixed number (12-15 quarters) or infinite scrolling interface
+- **State changes**: Changing course quarter triggers complete graph rebuild
+
+### Prerequisite Validation
+- **Warning triangles**: Yellow warning triangles appear on courses with validation issues (same logic as majors page)
+- **Tooltip integration**: Warning triangle shows by default, detailed warning message appears in tooltip on hover
+- **Error edge styling**: Prerequisite edges (graph connections) causing validation errors display as **bold red** instead of orange
+- **Validation scope**: Checks for prerequisite timing conflicts (e.g., MATH 115B scheduled before MATH 115A)
+
+### Technical Implementation Notes
+- Graph rebuilds completely on any quarter assignment change
+- Validation system needs tooltip integration for detailed error messages  
+- Edge styling system needs red error state for prerequisite violations
+- localStorage management for 3-digit quarterly codes vs completion flag `'1'`
+
+---
+
+## 11. Accessibility
 
 - **Visual Accessibility:**
   - High contrast orange color for prerequisite edges
@@ -174,19 +271,25 @@ This document defines the complete specification for interactive course prerequi
 
 ---
 
-## 8. Component Architecture
+## 12. Component Architecture
 
 **SvelteKit Component Structure:**
 ```
-PrerequisiteGraph.svelte (main component)
-├── CourseSearchHeader.svelte (course search input)
-├── GraphContainer.svelte (Cytoscape.js graph wrapper)
+Course Page ([courseId]/+page.svelte)
+├── CourseNavigationHeader.svelte (header with search & navigation)
+├── PrerequisiteGraph.svelte (main graph component)
+│   ├── GraphContainer.svelte (Cytoscape.js graph wrapper)
+│   └── GraphLegend.svelte (collapsible legend with display toggles)
 ├── ResizeHandle.svelte (drag handle for sidebar resize)
-└── Sidebar components:
-    ├── CourseDetails.svelte (selected course info & completion toggle)
-    ├── PrerequisiteList.svelte (prerequisites with toggles & equivalent messages)
-    ├── EquivalentCourses.svelte (equivalent courses with toggles)
-    └── GraphLegend.svelte (collapsible legend with display toggles)
+└── CourseDetails.svelte (sidebar with course info & completion toggle)
+```
+
+**Course Navigation Header:**
+```
+CourseNavigationHeader.svelte
+├── Search functionality (integrated course search)
+├── Title display ("Prerequisites for [courseId]")
+└── Navigation links (courses index, majors index)
 ```
 
 **Service Layer:**
@@ -206,7 +309,7 @@ PrerequisiteGraph.svelte (main component)
 
 ---
 
-## 9. Implementation Technology
+## 13. Implementation Technology
 
 **Library Choice: Cytoscape.js with Dagre layout**
 
@@ -264,16 +367,22 @@ const cy = cytoscape({
 - Group prerequisite handling with robust diamond group satisfaction logic
 - Intelligent graph traversal based on completion status
 - Resizable sidebar with detailed course information
-- Toggle controls for completed courses
+- Toggle controls for completed courses with localStorage persistence
 - Clickable prerequisite links with auto-enabling of completed course visibility
 - Equivalent course indicators with group-aware hiding logic
 - Collapsible legend with real-time toggle states
 - Component-based architecture for maintainability
 - Cross-category edge hiding in major graphs
 - Compound node support for major graph sections
+- **Empty graph handling** with conditional toggle suggestions
+- **Course navigation header** with search functionality and navigation links
+- **State synchronization** between legend and empty graph toggles
+- **Course search with proper URL navigation** using SvelteKit routing
+- **Reactive page updates** when navigating between different courses
 
 **🔄 In Development:**
-- Quarter-based planning system integration
+- **Quarterly planning integration** with purple in-plan course styling and quarter selection dropdowns
+- **Enhanced prerequisite validation** with red error edges and detailed tooltip warnings
 - Data expansion beyond Mathematics department
 
 **📋 Planned Future Enhancements:**

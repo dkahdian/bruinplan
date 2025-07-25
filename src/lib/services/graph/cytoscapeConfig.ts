@@ -56,6 +56,15 @@ const baseCourseStyles: cytoscape.StylesheetStyle[] = [
 
 // Base group node styles - shared between graph types  
 const baseGroupStyles: cytoscape.StylesheetStyle[] = [
+  // Default group nodes (light yellow background with orange border)
+  {
+    selector: 'node[type="group"]',
+    style: {
+      'background-color': '#fef3c7',  // Light yellow background
+      'border-color': '#f97316',      // Orange border
+      'border-width': 2
+    }
+  },
   {
     selector: 'node[type="group"][groupColor="enforced"]',
     style: {
@@ -85,6 +94,18 @@ const baseGroupStyles: cytoscape.StylesheetStyle[] = [
 
 // Base edge styles - shared between graph types
 const baseEdgeStyles: cytoscape.StylesheetStyle[] = [
+  // Default prerequisite edges (orange solid line with triangle arrow)
+  {
+    selector: 'edge',
+    style: {
+      'line-color': '#f97316',        // Orange for prerequisites
+      'target-arrow-color': '#f97316',
+      'target-arrow-shape': 'triangle',
+      'curve-style': 'bezier',
+      'arrow-scale': 1.2,
+      'width': 2
+    }
+  },
   {
     selector: 'edge[type="enforced"]',
     style: {
@@ -119,19 +140,20 @@ const baseEdgeStyles: cytoscape.StylesheetStyle[] = [
   {
     selector: 'edge[fromCompleted]',
     style: {
-      'line-color': '#22c55e',        // Green for edges from completed courses
+      'line-color': '#22c55e',        // Light green for edges from completed courses
       'target-arrow-color': '#22c55e',
       'target-arrow-shape': 'triangle',
       'curve-style': 'bezier',
       'arrow-scale': 1.2,
-      'opacity': 0.8
+      'opacity': 0.8,
+      'width': 2
     }
   }
 ];
 
 // Default styles for regular prerequisite graphs
 export const defaultGraphStyles: cytoscape.StylesheetStyle[] = [
-  // Standard course node sizing
+  // Standard course node sizing (80x40px as per spec)
   {
     selector: 'node[type="course"]',
     style: {
@@ -140,19 +162,19 @@ export const defaultGraphStyles: cytoscape.StylesheetStyle[] = [
     }
   },
   
-  // Standard group nodes (diamond shape)
+  // Standard group nodes (diamond shape, 60x60px as per spec)
   {
     selector: 'node[type="group"]',
     style: {
       'shape': 'diamond',
-      'width': 80,
-      'height': 80,
+      'width': 60,
+      'height': 60,
       'label': 'data(label)',
       'text-valign': 'center',
       'text-halign': 'center',
       'font-size': '10px',
       'text-wrap': 'wrap',
-      'text-max-width': '120px'
+      'text-max-width': '80px'
     }
   },
   

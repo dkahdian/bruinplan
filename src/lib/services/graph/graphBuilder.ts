@@ -32,6 +32,7 @@ export function buildPrerequisiteGraph(
   const { 
     userCompletedCourses = new Set(),
     showCompletedCourses = true,
+    showWarnings = false,
     enableAnimations = true,
     animationDuration = 600,
     animationEasing = 'ease-out'
@@ -386,6 +387,7 @@ export async function buildPrerequisiteGraphAsync(
   const { 
     userCompletedCourses = new Set(),
     showCompletedCourses = true,
+    showWarnings = false,
     enableAnimations = true,
     animationDuration = 600,
     animationEasing = 'ease-out'
