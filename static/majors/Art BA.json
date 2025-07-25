@@ -84,7 +84,7 @@
           "type": "group",
           "title": "Art Electives",
           "description": "Complete 8 units of art electives.",
-          "needs": 1,
+          "needs": 2,
           "options": [
             {"type": "course", "courseId": "ART 100"},
             {"type": "course", "courseId": "ART 130"},

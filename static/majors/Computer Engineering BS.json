@@ -139,7 +139,7 @@
               "type": "group",
               "title": "Computer Science Electives",
               "description": "Complete 8 units of computer science upper-division electives.",
-              "needs": 1,
+              "needs": 2,
               "options": [
                 {"type": "course", "courseId": "COM SCI 112"},
                 {"type": "course", "courseId": "COM SCI 117"},
@@ -177,7 +177,7 @@
               "type": "group",
               "title": "Electrical and Computer Engineering Electives",
               "description": "Complete 8 units of electrical and computer engineering upper-division electives.",
-              "needs": 1,
+              "needs": 2,
               "options": [
                 {"type": "course", "courseId": "EC ENGR 101A"},
                 {"type": "course", "courseId": "EC ENGR 101B"},

@@ -103,7 +103,7 @@
           "type": "group",
           "title": "Additional Electives",
           "description": "Complete 34 upper-division theater elective units. Up to 8 units of upper-division credit in the Department of Film, Television, and Digital Media may be included in the 34-unit theater elective requirement.",
-          "needs": 1,
+          "needs": 6,
           "options": [
             {"type": "course", "courseId": "THEATER 102A"},
             {"type": "course", "courseId": "THEATER 102B"},
