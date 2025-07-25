@@ -14,7 +14,7 @@
 		initializeSchedulingService 
 	} from '../../services/schedulingServices.js';
 	import type { Major, Course } from '../../types.js';
-	import { getAllMajorCourses } from '../../services/data/loadMajors.js';
+	import { getAllMajorCourses } from '../../data-layer/api.js';
 	import QuarterDisplay from './QuarterDisplay.svelte';
 	
 	export let major: Major;

@@ -2,14 +2,14 @@
 <script lang="ts">
 	import { onMount, createEventDispatcher } from 'svelte';
 	import { browser } from '$app/environment';
-	import GraphContainer from './components/graph/GraphContainer.svelte';
-	import GraphLegend from './components/graph/GraphLegend.svelte';
-	import { buildPrerequisiteGraphAsync } from './services/graph/index.js';
-	import { getCourseById } from './data-layer/api.js';
-	import { schedulingService, courseCompletionService, initializeSchedulingService } from './services/schedulingServices.js';
-	import { loadLegendState, saveLegendState, type LegendState } from './services/shared/legendStateService.js';
-	import type { Course } from './types.js';
-	import type { GraphNode, GraphEdge } from './services/graph/types.js';
+	import GraphContainer from './GraphContainer.svelte';
+	import GraphLegend from './GraphLegend.svelte';
+	import { buildPrerequisiteGraphAsync } from '../../services/graph/index.js';
+	import { getCourseById } from '../../data-layer/api.js';
+	import { schedulingService, courseCompletionService, initializeSchedulingService } from '../../services/schedulingServices.js';
+	import { loadLegendState, saveLegendState, type LegendState } from '../../services/shared/legendStateService.js';
+	import type { Course } from '../../types.js';
+	import type { GraphNode, GraphEdge } from '../../services/graph/types.js';
 
 	export let courseId: string;
 	export let showWarnings: boolean = false;

@@ -4,7 +4,7 @@
 -->
 <script lang="ts">
 	import type { MajorSection as MajorSectionType, Course } from '../../types.js';
-	import { calculateSectionRequiredCount } from '../../services/data/loadMajors.js';
+	import { calculateSectionRequiredCount } from '../../data-layer/api.js';
 	import { schedulingService, completedCoursesStore, courseSchedulesStore, courseCompletionService } from '../../services/schedulingServices.js';
 	import MajorSectionHeader from './MajorSectionHeader.svelte';
 	import MajorRequirementsList from './MajorRequirementsList.svelte';

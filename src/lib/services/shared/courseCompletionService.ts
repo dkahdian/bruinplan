@@ -2,8 +2,9 @@
  * Course completion tracking service
  */
 import { get } from 'svelte/store';
-import { courseMapStore } from '../data/loadCourses.js';
+import { courseMapStore } from './coursesStore.js';
 import { courseSchedulesStore } from './courseScheduleStore.js';
+import type { Course } from '../../types.js';
 
 /**
  * Course completion service class
@@ -40,7 +41,7 @@ export class CourseCompletionService {
     }
     
     // Get equivalent courses from the global course map
-    const globalCourseMap = get(courseMapStore);
+    const globalCourseMap = get(courseMapStore) as Map<string, Course>;
     const course = globalCourseMap.get(courseId);
     const equivalentCourses = course?.equivalentCourses || [];
     
@@ -64,7 +65,7 @@ export class CourseCompletionService {
     }
     
     // Get equivalent courses from the global course map
-    const globalCourseMap = get(courseMapStore);
+    const globalCourseMap = get(courseMapStore) as Map<string, Course>;
     const course = globalCourseMap.get(courseId);
     const equivalentCourses = course?.equivalentCourses || [];
     

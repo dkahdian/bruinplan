@@ -5,8 +5,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { Major, Course } from '../../../lib/types.js';
-	import { getAllMajorCourses, calculateRequiredCourseCount, loadMajorCourses } from '../../../lib/services/data/loadMajors.js';
-	import { courseMapStore } from '../../../lib/services/data/loadCourses.js';
+	import { getAllMajorCourses, calculateRequiredCourseCount, loadMajorCourses } from '../../../lib/data-layer/api.js';
+	import { courseMapStore } from '../../../lib/services/shared/coursesStore.js';
 	import { 
 		schedulingService, 
 		completedCoursesStore,

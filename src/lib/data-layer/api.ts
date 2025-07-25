@@ -109,6 +109,100 @@ export async function getMajorByName(majorName: string, fetchFn?: typeof globalT
 	return major;
 }
 
+export function majorNameToId(majorName: string): string {
+	return majorName.replace(/\s+/g, '-').toLowerCase();
+}
+
+export function majorIdToDisplayName(majorId: string): string {
+	return majorId.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+}
+
+export async function loadMajor(majorId: string, fetchFn?: typeof globalThis.fetch): Promise<Major | null> {
+	const majorName = majorIdToDisplayName(majorId);
+	const major = await getMajorByName(majorName, fetchFn);
+	return major || null;
+}
+
+export async function loadMajorByName(majorName: string, fetchFn?: typeof globalThis.fetch): Promise<Major | null> {
+	const major = await getMajorByName(majorName, fetchFn);
+	return major || null;
+}
+
+export async function getMajorsList(fetchFn?: typeof globalThis.fetch): Promise<{ name: string; id: string; college: string; department: string; degreeLevel: string; degreeObjective: string; }[]> {
+	const index = await getMajorIndex(fetchFn);
+	return index.map(major => ({
+		name: major.name,
+		id: majorNameToId(major.name),
+		college: major.school || 'Unknown',
+		department: major.department || 'Unknown',
+		degreeLevel: major.name.includes('BS') ? 'Bachelor of Science' : 
+			         major.name.includes('BA') ? 'Bachelor of Arts' :
+			         major.name.includes('BFA') ? 'Bachelor of Fine Arts' : 'Bachelor',
+		degreeObjective: major.name.includes('BS') ? 'Bachelor of Science' : 
+			            major.name.includes('BA') ? 'Bachelor of Arts' :
+			            major.name.includes('BFA') ? 'Bachelor of Fine Arts' : 'Bachelor'
+	}));
+}
+
+export function getAllMajorCourses(major: Major): string[] {
+	const courses: string[] = [];
+	
+	function extractCourses(requirements: MajorRequirement[]) {
+		for (const req of requirements) {
+			if (req.type === 'course') {
+				courses.push(req.courseId);
+			} else if (req.type === 'group') {
+				extractCourses(req.options);
+			}
+		}
+	}
+	
+	for (const section of major.sections) {
+		extractCourses(section.requirements);
+	}
+	
+	return [...new Set(courses)]; // Remove duplicates
+}
+
+export async function loadMajorCourses(major: Major, fetchFn?: typeof globalThis.fetch): Promise<Map<string, Course>> {
+	const courseIds = getAllMajorCourses(major);
+	const courseMap = new Map<string, Course>();
+	
+	// Load all courses
+	for (const courseId of courseIds) {
+		const course = await getCourseById(courseId, fetchFn);
+		if (course) {
+			courseMap.set(courseId, course);
+		}
+	}
+	
+	return courseMap;
+}
+
+export function calculateRequiredCourseCount(major: Major): number {
+	let total = 0;
+	
+	for (const section of major.sections) {
+		total += calculateSectionRequiredCount(section.requirements);
+	}
+	
+	return total;
+}
+
+export function calculateSectionRequiredCount(requirements: MajorRequirement[]): number {
+	let count = 0;
+	
+	for (const req of requirements) {
+		if (req.type === 'course') {
+			count += 1;
+		} else if (req.type === 'group') {
+			count += req.needs;
+		}
+	}
+	
+	return count;
+}
+
 // Dependency/Tree Utilities
 export async function getCoursePrerequisites(courseId: string): Promise<Course[]> {
 	const course = await getCourseById(courseId);

@@ -2,8 +2,8 @@
  * Course validation service for prerequisite checking and error reporting
  */
 import { writable, get } from 'svelte/store';
-import type { ValidationError, CourseRequirement } from '../../types.js';
-import { courseMapStore } from '../data/loadCourses.js';
+import type { ValidationError, CourseRequirement, Course } from '../../types.js';
+import { courseMapStore } from './coursesStore.js';
 import { courseSchedulesStore } from './courseScheduleStore.js';
 import { getCurrentQuarterCode } from './quarterUtils.js';
 
@@ -44,7 +44,7 @@ export class ValidationService {
    */
   validateCourse(courseId: string): ValidationError[] {
     const schedules = get(courseSchedulesStore);
-    const courseMap = get(courseMapStore);
+    const courseMap = get(courseMapStore) as Map<string, Course>;
     const validationErrors: ValidationError[] = [];
     
     const quarterCode = schedules[courseId];
@@ -191,7 +191,7 @@ export class ValidationService {
 export const validationService = new ValidationService();
 
 // Update validation when courseMapStore changes (courses are loaded)
-courseMapStore.subscribe(courseMap => {
+courseMapStore.subscribe((courseMap: Map<string, Course>) => {
   if (courseMap.size > 0) {
     // Course map is loaded, update validation
     validationService.updateValidation();

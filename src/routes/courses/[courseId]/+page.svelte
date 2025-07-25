@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
-  import PrerequisiteGraph from '../../../lib/PrerequisiteGraph.svelte';
+  import PrerequisiteGraph from '../../../lib/components/graph/PrerequisiteGraph.svelte';
   import CourseDetails from '../../../lib/components/course/CourseDetails.svelte';
   import CourseNavigationHeader from '../../../lib/components/course/CourseNavigationHeader.svelte';
   import ValidationIndicator from '../../../lib/components/shared/ValidationIndicator.svelte';
