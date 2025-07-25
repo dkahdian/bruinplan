@@ -23,46 +23,48 @@
     {
       "id": "the_major",
       "title": "The Major",
-      "description": "Twelve upper-division courses as follows:",
+      "description": "Complete 12 upper-division courses as follows:",
       "requirements": [
         {"type": "course", "courseId": "DESMA 101"},
         {"type": "course", "courseId": "DESMA 104"},
         {
           "type": "group",
-          "title": "Design|Media Arts Additional Courses",
-          "description": "Select six courses from:",
-          "needs": 6,
+          "title": "Design|Media Arts Core Studio Courses",
+          "description": "Select nine courses from the following. Design|Media Arts 160 requires a substitution request from the student services office.",
+          "needs": 9,
           "options": [
-            {"type": "course", "courseId": "DESMA 152"},
-            {"type": "course", "courseId": "DESMA 153"},
-            {"type": "course", "courseId": "DESMA 154"},
-            {"type": "course", "courseId": "DESMA 156"},
-            {"type": "course", "courseId": "DESMA 157"},
-            {"type": "course", "courseId": "DESMA 161"},
-            {"type": "course", "courseId": "DESMA 163"}
-          ]
-        },
-        {
-          "type": "group",
-          "title": "Design|Media Arts Topics",
-          "description": "Select three courses from:",
-          "needs": 3,
-          "options": [
-            {"type": "course", "courseId": "DESMA 160"},
-            {"type": "course", "courseId": "DESMA 171"},
-            {"type": "course", "courseId": "DESMA 172"},
-            {"type": "course", "courseId": "DESMA 173"}
+            {"type": "course", "courseId": "DESMA 110"},
+            {"type": "course", "courseId": "DESMA 111"},
+            {"type": "course", "courseId": "DESMA 112"},
+            {"type": "course", "courseId": "DESMA 113"},
+            {"type": "course", "courseId": "DESMA 114"},
+            {"type": "course", "courseId": "DESMA 115"},
+            {"type": "course", "courseId": "DESMA 116"},
+            {"type": "course", "courseId": "DESMA 125"},
+            {"type": "course", "courseId": "DESMA 126"},
+            {"type": "course", "courseId": "DESMA 127"},
+            {"type": "course", "courseId": "DESMA 128"},
+            {"type": "course", "courseId": "DESMA 129"},
+            {"type": "course", "courseId": "DESMA 130"},
+            {"type": "course", "courseId": "DESMA 131"},
+            {"type": "course", "courseId": "DESMA 140"},
+            {"type": "course", "courseId": "DESMA 141"},
+            {"type": "course", "courseId": "DESMA 142"},
+            {"type": "course", "courseId": "DESMA 143"},
+            {"type": "course", "courseId": "DESMA 144"},
+            {"type": "course", "courseId": "DESMA 145"},
+            {"type": "course", "courseId": "DESMA 146"},
+            {"type": "course", "courseId": "DESMA 150"},
+            {"type": "course", "courseId": "DESMA 160"}
           ]
         },
         {
           "type": "group",
           "title": "Capstone",
-          "description": "Select one course from:",
+          "description": "Complete the following course:",
           "needs": 1,
           "options": [
-            {"type": "course", "courseId": "DESMA 159A"},
-            {"type": "course", "courseId": "DESMA 159B"},
-            {"type": "course", "courseId": "DESMA 159C"}
+            {"type": "course", "courseId": "DESMA 159"}
           ]
         }
       ]

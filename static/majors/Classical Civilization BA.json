@@ -54,7 +54,6 @@
           "description": "Students must complete nine upper-division courses in the department (courses in related fields not offered by the department may be substituted by petition and with approval of the undergraduate adviser). No more than three may be selected from Greek 100 through 133 or Latin 100 through 133. Classics 198A and 198B may be applied as only one course toward the major.",
           "needs": 9,
           "options": [
-            {"type": "course", "courseId": "CLASSIC 100"},
             {"type": "course", "courseId": "CLASSIC 130"},
             {"type": "course", "courseId": "CLASSIC 135"},
             {"type": "course", "courseId": "CLASSIC 137"},

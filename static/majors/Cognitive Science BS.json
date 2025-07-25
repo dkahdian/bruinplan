@@ -174,7 +174,24 @@
                 {"type": "course", "courseId": "PSYCH 120B"}
               ]
             },
-            {"type": "course", "courseId": "PSYCH 124"}
+            {
+              "type": "group",
+              "title": "Psychology 124",
+              "description": "Select one course from the Psychology 124 series.",
+              "needs": 1,
+              "options": [
+                {"type": "course", "courseId": "PSYCH 124A"},
+                {"type": "course", "courseId": "PSYCH 124B"},
+                {"type": "course", "courseId": "PSYCH 124C"},
+                {"type": "course", "courseId": "PSYCH 124D"},
+                {"type": "course", "courseId": "PSYCH 124E"},
+                {"type": "course", "courseId": "PSYCH 124F"},
+                {"type": "course", "courseId": "PSYCH 124G"},
+                {"type": "course", "courseId": "PSYCH 124J"},
+                {"type": "course", "courseId": "PSYCH 124K"},
+                {"type": "course", "courseId": "PSYCH 124L"}
+              ]
+            }
           ]
         },
         {
