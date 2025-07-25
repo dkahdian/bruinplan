@@ -114,12 +114,32 @@ export function majorNameToId(majorName: string): string {
 }
 
 export function majorIdToDisplayName(majorId: string): string {
-	return majorId.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+	// Handle common degree abbreviations that should remain uppercase
+	const degreeAbbreviations = ['BS', 'BA', 'BFA', 'BM'];
+	
+	return majorId
+		.replace(/-/g, ' ')
+		.replace(/\b\w+/g, word => {
+			// If it's a degree abbreviation, keep it uppercase
+			const upperWord = word.toUpperCase();
+			if (degreeAbbreviations.includes(upperWord)) {
+				return upperWord;
+			}
+			// Otherwise, capitalize first letter
+			return word.charAt(0).toUpperCase() + word.slice(1);
+		});
 }
 
 export async function loadMajor(majorId: string, fetchFn?: typeof globalThis.fetch): Promise<Major | null> {
-	const majorName = majorIdToDisplayName(majorId);
-	const major = await getMajorByName(majorName, fetchFn);
+	// Get the exact major name from the index instead of converting the ID
+	const index = await getMajorIndex(fetchFn);
+	const indexEntry = index.find(major => majorNameToId(major.name) === majorId);
+	
+	if (!indexEntry) {
+		return null;
+	}
+	
+	const major = await getMajorByName(indexEntry.name, fetchFn);
 	return major || null;
 }
 
