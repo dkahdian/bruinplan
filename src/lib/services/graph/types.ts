@@ -37,6 +37,7 @@ export interface GraphEdge {
     source: string;
     target: string;
     fromCompleted?: boolean; // Whether this edge is from a completed course
+    fromInPlan?: boolean; // Whether this edge is from an in-plan course
   };
 }
 

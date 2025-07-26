@@ -19,6 +19,32 @@ export class CourseCompletionService {
   }
 
   /**
+   * Check if a course is in-plan (has a quarter assignment, quarterCode > 1)
+   */
+  isInPlan(courseId: string): boolean {
+    const schedules = get(courseSchedulesStore);
+    const quarterCode = schedules[courseId];
+    return quarterCode !== undefined && quarterCode > 1;
+  }
+
+  /**
+   * Check if a course is scheduled (either completed or in-plan)
+   */
+  isScheduled(courseId: string): boolean {
+    const schedules = get(courseSchedulesStore);
+    const quarterCode = schedules[courseId];
+    return quarterCode !== undefined && quarterCode >= 1;
+  }
+
+  /**
+   * Get the quarter code for a course (1 = completed, >1 = specific quarter, undefined = not scheduled)
+   */
+  getQuarterCode(courseId: string): number | undefined {
+    const schedules = get(courseSchedulesStore);
+    return schedules[courseId];
+  }
+
+  /**
    * Check if a course is effectively completed (either the course itself or any of its equivalents)
    */
   isCourseEffectivelyCompleted(courseId: string, equivalentCourses: string[] = [], completed: Set<string>): boolean {

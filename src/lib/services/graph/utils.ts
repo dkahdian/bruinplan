@@ -2,6 +2,7 @@
 // Contains helper functions for course processing, abbreviation, and other utilities
 
 import type { Course } from '../../types.js';
+import { courseCompletionService } from '../shared/courseCompletionService.js';
 
 /**
  * Creates a placeholder course object for missing courses
@@ -83,6 +84,12 @@ export function shouldShowCourse(
   completionCheckFn: (courseId: string) => boolean
 ): boolean {
   const isCompleted = completionCheckFn(courseId);
+  const isInPlan = courseCompletionService.isInPlan(courseId);
+  
+  // Always show in-plan courses (purple), regardless of showCompletedCourses setting
+  if (isInPlan) {
+    return true;
+  }
   
   // If the course is completed and we're not showing completed courses, filter it out
   if (isCompleted && !showCompletedCourses) {

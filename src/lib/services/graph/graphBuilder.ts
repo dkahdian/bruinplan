@@ -16,6 +16,21 @@ import {
 } from './utils.js';
 
 /**
+ * Helper function to determine edge attributes based on source course status
+ */
+function getEdgeAttributes(sourceCourseId: string): { fromCompleted?: boolean; fromInPlan?: boolean } {
+  const attributes: { fromCompleted?: boolean; fromInPlan?: boolean } = {};
+  
+  if (courseCompletionService.isCompleted(sourceCourseId)) {
+    attributes.fromCompleted = true;
+  } else if (courseCompletionService.isInPlan(sourceCourseId)) {
+    attributes.fromInPlan = true;
+  }
+  
+  return attributes;
+}
+
+/**
  * Builds the prerequisite graph for a given target course
  * @param targetCourseId - The course ID to build prerequisites for
  * @param courses - Array of all available courses
@@ -81,6 +96,8 @@ export function buildPrerequisiteGraph(
     
     if (isCourseEffectivelyCompleted) {
       nodeData.completed = true;
+    } else if (courseCompletionService.isInPlan(courseId)) {
+      nodeData.inPlan = true;
     }
     
     nodes.push({ data: nodeData });
@@ -170,7 +187,7 @@ export function buildPrerequisiteGraph(
                   id: `${option.course}-${parentCourseId}`,
                   source: option.course,
                   target: parentCourseId,
-                  fromCompleted: true
+                  ...getEdgeAttributes(option.course)
                 }
               });
             });
@@ -249,7 +266,7 @@ export function buildPrerequisiteGraph(
                   id: `${option.course}-${parentCourseId}`,
                   source: option.course,
                   target: parentCourseId,
-                  fromCompleted: true
+                  ...getEdgeAttributes(option.course)
                 }
               });
             });
@@ -282,7 +299,7 @@ export function buildPrerequisiteGraph(
               id: `${option.course}-${parentCourseId}`,
               source: option.course,
               target: parentCourseId,
-              fromCompleted: true
+              ...getEdgeAttributes(option.course)
             }
           });
         });
@@ -337,7 +354,7 @@ export function buildPrerequisiteGraph(
             id: `${option.course}-${parentCourseId}`,
             source: option.course,
             target: parentCourseId,
-            fromCompleted: true
+            ...getEdgeAttributes(option.course)
           }
         });
       });
@@ -357,7 +374,7 @@ export function buildPrerequisiteGraph(
             id: `${requirement.course}-${parentCourseId}`,
             source: requirement.course,
             target: parentCourseId,
-            fromCompleted: true
+            ...getEdgeAttributes(requirement.course)
           }
         });
       }
@@ -470,6 +487,8 @@ export async function buildPrerequisiteGraphAsync(
     
     if (isCourseEffectivelyCompleted) {
       nodeData.completed = true;
+    } else if (courseCompletionService.isInPlan(courseId)) {
+      nodeData.inPlan = true;
     }
     
     nodes.push({ data: nodeData });
@@ -560,7 +579,7 @@ export async function buildPrerequisiteGraphAsync(
                   id: `${option.course}-${parentCourseId}`,
                   source: option.course,
                   target: parentCourseId,
-                  fromCompleted: true
+                  ...getEdgeAttributes(option.course)
                 }
               });
             }
@@ -641,7 +660,7 @@ export async function buildPrerequisiteGraphAsync(
                   id: `${option.course}-${parentCourseId}`,
                   source: option.course,
                   target: parentCourseId,
-                  fromCompleted: true
+                  ...getEdgeAttributes(option.course)
                 }
               });
             }
@@ -675,7 +694,7 @@ export async function buildPrerequisiteGraphAsync(
               id: `${option.course}-${parentCourseId}`,
               source: option.course,
               target: parentCourseId,
-              fromCompleted: true
+              ...getEdgeAttributes(option.course)
             }
           });
         }
@@ -732,7 +751,7 @@ export async function buildPrerequisiteGraphAsync(
             id: `${option.course}-${parentCourseId}`,
             source: option.course,
             target: parentCourseId,
-            fromCompleted: true
+            ...getEdgeAttributes(option.course)
           }
         });
       }
@@ -753,7 +772,7 @@ export async function buildPrerequisiteGraphAsync(
             id: `${requirement.course}-${parentCourseId}`,
             source: requirement.course,
             target: parentCourseId,
-            fromCompleted: true
+            ...getEdgeAttributes(requirement.course)
           }
         });
       }

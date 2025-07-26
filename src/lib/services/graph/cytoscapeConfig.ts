@@ -38,6 +38,14 @@ const baseCourseStyles: cytoscape.StylesheetStyle[] = [
     }
   },
   {
+    selector: 'node[type="course"][inPlan]',
+    style: {
+      'background-color': '#f3e8ff',  // Light purple background
+      'border-color': '#a855f7',      // Purple border
+      'color': '#7c3aed'              // Purple text
+    }
+  },
+  {
     selector: 'node[type="course"].selected',
     style: {
       'background-color': '#dbeafe',  // Light blue background
@@ -50,6 +58,13 @@ const baseCourseStyles: cytoscape.StylesheetStyle[] = [
     style: {
       'background-color': '#bbf7d0',  // Slightly darker green background
       'border-color': '#16a34a'       // Darker green border
+    }
+  },
+  {
+    selector: 'node[type="course"][inPlan].selected',
+    style: {
+      'background-color': '#e9d5ff',  // Slightly darker purple background
+      'border-color': '#9333ea'       // Darker purple border
     }
   }
 ];
@@ -142,6 +157,18 @@ const baseEdgeStyles: cytoscape.StylesheetStyle[] = [
     style: {
       'line-color': '#22c55e',        // Light green for edges from completed courses
       'target-arrow-color': '#22c55e',
+      'target-arrow-shape': 'triangle',
+      'curve-style': 'bezier',
+      'arrow-scale': 1.2,
+      'opacity': 0.8,
+      'width': 2
+    }
+  },
+  {
+    selector: 'edge[fromInPlan]',
+    style: {
+      'line-color': '#a855f7',        // Purple for edges from in-plan courses  
+      'target-arrow-color': '#a855f7',
       'target-arrow-shape': 'triangle',
       'curve-style': 'bezier',
       'arrow-scale': 1.2,
