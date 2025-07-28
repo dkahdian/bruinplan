@@ -3,8 +3,8 @@
 
 import type { Course, CourseRequirement, RequisiteGroup, CourseRequisite } from '../../types.js';
 import type { GraphNode, GraphEdge, GraphBuildOptions, GraphBuildResult } from './types.js';
-import { schedulingService, courseCompletionService } from '../schedulingServices.js';
-import { validationService } from '../shared/validationService.js';
+import { courseCompletionService } from '../schedulingServices.js';
+import { validationService } from '../shared/validation.js';
 import { getCourseById } from '../../data-layer/api.js';
 import {
   createMissingCourse,
@@ -12,8 +12,7 @@ import {
   generateGroupId,
   isCourseEffectivelyCompletedWithEquivalents,
   determineGroupColor,
-  shouldShowCourse,
-  filterCoursesToShow
+  shouldShowCourse
 } from './utils.js';
 
 /**
@@ -55,11 +54,7 @@ export function buildPrerequisiteGraph(
 ): GraphBuildResult {
   const { 
     userCompletedCourses = new Set(),
-    showCompletedCourses = true,
-    showWarnings = false,
-    enableAnimations = true,
-    animationDuration = 600,
-    animationEasing = 'ease-out'
+    showCompletedCourses = true
   } = options;
 
   const nodes: GraphNode[] = [];
@@ -82,9 +77,6 @@ export function buildPrerequisiteGraph(
   function addCourse(courseId: string): void {
     if (visitedCourses.has(courseId)) return;
     
-    const isCourseCompleted = userCompletedCourses.has(courseId);
-    const isCourseEffectivelyCompleted = isEffectivelyCompleted(courseId);
-    
     if (!shouldShowCourse(courseId, showCompletedCourses, (id) => isEffectivelyCompleted(id))) {
       return;
     }
@@ -103,7 +95,7 @@ export function buildPrerequisiteGraph(
       course: course
     };
     
-    if (isCourseEffectivelyCompleted) {
+    if (isEffectivelyCompleted(courseId)) {
       nodeData.completed = true;
     } else if (courseCompletionService.isInPlan(courseId)) {
       nodeData.inPlan = true;
@@ -118,7 +110,7 @@ export function buildPrerequisiteGraph(
     nodes.push({ data: nodeData });
 
     if (courseMap.has(courseId)) {
-      if (isCourseEffectivelyCompleted && showCompletedCourses) {
+      if (isEffectivelyCompleted(courseId) && showCompletedCourses) {
         course.requisites.forEach(req => {
           processRequirementForCompletedCourse(req, courseId);
         });
@@ -135,7 +127,6 @@ export function buildPrerequisiteGraph(
     if (requirement.type === 'group') {
       processGroup(requirement, parentCourseId);
     } else if (requirement.type === 'requisite') {
-      const isCourseEffectivelyCompleted = isEffectivelyCompleted(requirement.course);
       if (!shouldShowCourse(requirement.course, showCompletedCourses, (id) => isEffectivelyCompleted(id))) {
         return;
       }
@@ -426,11 +417,7 @@ export async function buildPrerequisiteGraphAsync(
   
   const { 
     userCompletedCourses = new Set(),
-    showCompletedCourses = true,
-    showWarnings = false,
-    enableAnimations = true,
-    animationDuration = 600,
-    animationEasing = 'ease-out'
+    showCompletedCourses = true
   } = options;
 
   const nodes: GraphNode[] = [];
@@ -474,9 +461,6 @@ export async function buildPrerequisiteGraphAsync(
       return;
     }
     
-    const isCourseCompleted = userCompletedCourses.has(courseId);
-    const isCourseEffectivelyCompleted = isEffectivelyCompleted(courseId);
-    
     if (!shouldShowCourse(courseId, showCompletedCourses, (id) => isEffectivelyCompleted(id))) {
       return;
     }
@@ -495,7 +479,7 @@ export async function buildPrerequisiteGraphAsync(
       course: course
     };
     
-    if (isCourseEffectivelyCompleted) {
+    if (isEffectivelyCompleted(courseId)) {
       nodeData.completed = true;
     } else if (courseCompletionService.isInPlan(courseId)) {
       nodeData.inPlan = true;
@@ -510,7 +494,7 @@ export async function buildPrerequisiteGraphAsync(
     nodes.push({ data: nodeData });
 
     if (courseCache.has(courseId) && course.requisites) {
-      if (isCourseEffectivelyCompleted && showCompletedCourses) {
+      if (isEffectivelyCompleted(courseId) && showCompletedCourses) {
         for (const req of course.requisites) {
           await processRequirementForCompletedCourse(req, courseId);
         }
@@ -527,7 +511,6 @@ export async function buildPrerequisiteGraphAsync(
     if (requirement.type === 'group') {
       await processGroup(requirement, parentCourseId);
     } else if (requirement.type === 'requisite') {
-      const isCourseEffectivelyCompleted = isEffectivelyCompleted(requirement.course);
       if (!shouldShowCourse(requirement.course, showCompletedCourses, (id) => isEffectivelyCompleted(id))) {
         return;
       }

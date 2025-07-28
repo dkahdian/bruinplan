@@ -1,14 +1,9 @@
 /**
  * Course scheduling store management and persistence
  */
-import { writable, get } from 'svelte/store';
+import { writable } from 'svelte/store';
 import type { CourseSchedule } from '../../types.js';
-
-// Storage keys for localStorage
-const STORAGE_KEYS = {
-  courseSchedules: 'bruinplan_course_schedules',
-  lastVisit: 'bruinplan_last_visit'
-};
+import { STORAGE_KEYS } from '../../constants.js';
 
 // Svelte stores for reactive state management
 export const courseSchedulesStore = writable<CourseSchedule>({});

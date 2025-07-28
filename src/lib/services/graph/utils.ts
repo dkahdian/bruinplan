@@ -2,7 +2,7 @@
 // Contains helper functions for course processing, abbreviation, and other utilities
 
 import type { Course } from '../../types.js';
-import { courseCompletionService } from '../shared/courseCompletionService.js';
+import { courseCompletionService } from '../shared/completion.js';
 
 /**
  * Creates a placeholder course object for missing courses
@@ -13,7 +13,7 @@ export function createMissingCourse(courseId: string): Course {
   return {
     id: courseId,
     title: "Course information not available",
-    units: "?" as any, // Will display as "? units"
+    units: 0, // Unknown units
     description: "No course information available in the database.",
     requisites: [], // Missing courses have no prerequisites
     equivalentCourses: []
@@ -53,7 +53,7 @@ export function isCourseEffectivelyCompletedWithEquivalents(
   courseId: string,
   courseMap: Map<string, Course>,
   userCompletedCourses: Set<string>,
-  isCourseEffectivelyCompleted: (courseId: string, equivalents: string[], completed: Set<string>) => boolean
+  isCourseEffectivelyCompleted: (_courseId: string, _equivalents: string[], _completed: Set<string>) => boolean
 ): boolean {
   const course = courseMap.get(courseId);
   const equivalents = course?.equivalentCourses || [];
@@ -66,7 +66,7 @@ export function isCourseEffectivelyCompletedWithEquivalents(
  * @returns Group color for styling
  */
 export function determineGroupColor(
-  options: any[]
+  _options: any[]
 ): 'prerequisite' {
   return 'prerequisite';
 }
@@ -81,7 +81,7 @@ export function determineGroupColor(
 export function shouldShowCourse(
   courseId: string,
   showCompletedCourses: boolean,
-  completionCheckFn: (courseId: string) => boolean
+  completionCheckFn: (_courseId: string) => boolean
 ): boolean {
   const isCompleted = completionCheckFn(courseId);
   const isInPlan = courseCompletionService.isInPlan(courseId);
@@ -109,7 +109,7 @@ export function shouldShowCourse(
 export function filterCoursesToShow(
   courseIds: string[],
   showCompletedCourses: boolean,
-  completionCheckFn: (courseId: string) => boolean
+  completionCheckFn: (_courseId: string) => boolean
 ): string[] {
   return courseIds.filter(courseId => 
     shouldShowCourse(courseId, showCompletedCourses, completionCheckFn)

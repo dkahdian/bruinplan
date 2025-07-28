@@ -6,7 +6,7 @@ import dagre from 'cytoscape-dagre';
 // @ts-ignore
 import fcose from 'cytoscape-fcose';
 import type { GraphNode, GraphEdge } from './types.js';
-import { addTooltipsToCytoscape, type TooltipConfig } from '../shared/tooltipService.js';
+import { addTooltipsToCytoscape, type TooltipConfig } from '../shared/tooltip.js';
 
 // Register the layout extensions
 // @ts-ignore
@@ -263,198 +263,8 @@ export const defaultLayoutOptions = {
   ranker: 'tight-tree' // Best overall quality for course prerequisite graphs
 };
 
-// Major graph specific layout options (for compound nodes using fcose)
-export const majorGraphLayoutOptions = {
-  name: 'fcose',
-  
-  // Quality vs Performance
-  quality: 'default', // 'default' or 'draft' - higher quality takes more time
-  randomize: false, // Don't randomize node positions initially
-  animate: false, // Don't animate layout changes
-  
-  // Compound node support
-  nestingFactor: 0.1, // How much to favor nesting compound nodes
-  gravity: 0.25, // Gravity force for isolated components
-  numIter: 2500, // Number of iterations for the algorithm
-  
-  // Node separation and spacing
-  idealEdgeLength: 50, // Ideal edge length for connected nodes
-  edgeElasticity: 0.45, // Edge elasticity (how much edges resist stretching)
-  nodeSeparation: 75, // Minimum separation between nodes
-  
-  // Compound node specific settings
-  tilingPaddingVertical: 10, // Padding inside compound nodes (vertical)
-  tilingPaddingHorizontal: 10, // Padding inside compound nodes (horizontal)
-  
-  // Force settings
-  nodeRepulsion: 4500, // Node repulsion force
-  gravityRangeCompound: 1.5, // Range of gravity for compound nodes
-  gravityCompound: 1.0, // Gravity force for compound nodes
-  gravityRange: 3.8, // Range of gravity for regular nodes
-  
-  // Incremental layout
-  incremental: false, // Don't use incremental layout
-  
-  // Fit and padding
-  fit: true, // Fit the graph to the viewport
-  padding: 30, // Padding around the graph
-  
-  // Randomization seed for consistent layouts
-  randomizationSeed: 12345,
-  
-  // Performance optimizations
-  samplingType: true, // Use sampling for better performance
-  sampleSize: 25, // Sample size for large graphs
-  
-  // Stop conditions
-  convergenceThreshold: 0.01, // Threshold for convergence
-  maxIterations: 2500 // Maximum iterations
-};
-
 // Styles for major requirement graphs with compound nodes
-export const majorGraphStyles: cytoscape.StylesheetStyle[] = [
-  // Compact course node sizing for major graphs
-  {
-    selector: 'node[type="course"]',
-    style: {
-      'width': 70,
-      'height': 35,
-      'font-size': '11px',
-    }
-  },
-  
-  // Group nodes - diamond shape for non-compound groups only
-  {
-    selector: 'node[type="group"]:childless[!isCompoundGroup]',
-    style: {
-      'shape': 'diamond',
-      'width': 80,
-      'height': 80,
-      'label': 'data(label)',
-      'text-valign': 'center',
-      'text-halign': 'center',
-      'font-size': '10px',
-      'text-wrap': 'wrap',
-      'text-max-width': '120px',
-      'background-color': 'data(backgroundColor)',
-      'border-color': 'data(borderColor)',
-      'border-width': 2,
-      
-    }
-  },
-  
-  // Group compound nodes - rectangle shape for groups with children
-  {
-    selector: 'node[type="group"]:parent',
-    style: {
-      'shape': 'rectangle',
-      'background-color': 'data(backgroundColor)',
-      'border-color': 'data(borderColor)',
-      'border-width': 2,
-      'label': 'data(label)',
-      'text-valign': 'top',
-      'text-halign': 'center',
-      'font-size': '12px',
-      'font-weight': 'bold',
-      'text-margin-y': 35, // Increased to account for padding and border (30px padding + border)
-      'text-wrap': 'wrap',
-      'text-max-width': '15em',
-      'background-opacity': 0.3,
-      'min-width': '12em',
-      'min-height': '3.5em',
-      'padding': '30px' // CSS-style padding - more reliable than layout-level padding
-    }
-  },
-  
-  // Collapsed compound group nodes - maintain rectangle shape even when children are hidden
-  {
-    selector: 'node[type="group"][?isCompoundGroup]',
-    style: {
-      'shape': 'rectangle',
-      'background-color': 'data(backgroundColor)',
-      'border-color': 'data(borderColor)',
-      'border-width': 2,
-      'label': 'data(label)',
-      'text-valign': 'top',
-      'text-halign': 'center',
-      'font-size': '12px',
-      'font-weight': 'bold',
-      'text-margin-y': 35, // Increased to account for padding and border
-      'text-wrap': 'wrap',
-      'text-max-width': '15em',
-      'background-opacity': 0.3,
-      'min-width': '12em',
-      'min-height': '3.5em',
-      'width': '15em', // Fixed width for collapsed groups
-      'height': '5em', // Fixed height for collapsed groups
-      'padding': '30px' // Consistent with parent groups
-    }
-  },
-  
-  // Collapsed section nodes - ensure adequate size when children are hidden
-  {
-    selector: 'node[type="section"]:childless',
-    style: {
-      'min-width': '18em',
-      'min-height': '5em',
-      'width': '20em', // Fixed width for collapsed sections
-      'height': '6em',  // Fixed height for collapsed sections
-      'text-valign': 'top',
-      'text-halign': 'center',
-      'text-margin-y': 45, // Consistent with parent sections
-      'font-size': '16px',
-      'font-weight': 'bold',
-      'text-wrap': 'wrap',
-      'text-max-width': '18em',
-      'background-opacity': 0.3,
-      'padding': '40px' // Consistent with parent sections
-    }
-  },
-  
-  // Section compound nodes
-  {
-    selector: 'node[type="section"]:parent',
-    style: {
-      'shape': 'rectangle',
-      'background-color': 'data(backgroundColor)',
-      'border-color': 'data(borderColor)',
-      'border-width': 3,
-      'label': 'data(label)',
-      'text-valign': 'top',
-      'text-halign': 'center',
-      'font-size': '16px',
-      'font-weight': 'bold',
-      'text-margin-y': 45, // Increased to account for larger padding and border (40px padding + 3px border)
-      'text-wrap': 'wrap',
-      'text-max-width': '18em',
-      'background-opacity': 0.3,
-      'min-width': '15em',
-      'min-height': '4em',
-      'padding': '40px' // Larger padding for sections since they're higher in hierarchy
-    }
-  },
-  
-  // General compound node styling (fallback)
-  {
-    selector: ':parent',
-    style: {
-      'text-max-width': '20em',
-      'background-opacity': 0.3,
-      'border-width': 2,
-      'border-style': 'solid',
-      'text-valign': 'top',
-      'text-halign': 'center',
-      'font-weight': 'bold',
-      'text-margin-y': 30, // Increased to account for default padding
-      'padding': '25px' // Default padding for any other compound nodes
-    }
-  },
-  
-  // Include all shared styles
-  ...baseCourseStyles,
-  ...baseGroupStyles,
-  ...baseEdgeStyles
-];
+
 
 /**
  * Creates and configures a Cytoscape instance
@@ -473,8 +283,8 @@ export function createCytoscapeInstance(
   styles: cytoscape.StylesheetStyle[] = defaultGraphStyles,
   layoutOptions = defaultLayoutOptions,
   tooltipConfig?: Partial<TooltipConfig>
-): { cy: cytoscape.Core; tooltipManager?: import('../shared/tooltipService.js').TooltipManager } {
-  console.log(`Creating Cytoscape instance with ${nodes.length} nodes and ${edges.length} edges`);
+): { cy: cytoscape.Core; tooltipManager?: import('../shared/tooltip.js').TooltipManager } {
+  // Creating Cytoscape instance with ${nodes.length} nodes and ${edges.length} edges
   
   const cy = cytoscape({
     container,

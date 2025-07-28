@@ -5,7 +5,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { Course } from '../../types.js';
-	import { searchCoursesNew } from '../../services/shared/searchService.js';
+	import { searchCoursesNew } from '../../services/shared/search.js';
 
 	export let placeholder: string = 'Search for courses...';
 	export let buttonText: string = 'Add Course';
@@ -29,8 +29,7 @@
 		isSearching = true;
 		try {
 			searchResults = await searchCoursesNew(query, {
-				maxResults,
-				enableLogging: false
+				maxResults
 			});
 		} catch (error) {
 			console.error('Search failed:', error);

@@ -1,13 +1,13 @@
 <!-- PrerequisiteGraph.svelte -->
 <script lang="ts">
-	import { onMount, createEventDispatcher } from 'svelte';
+	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import GraphContainer from './GraphContainer.svelte';
 	import GraphLegend from './GraphLegend.svelte';
 	import { buildPrerequisiteGraphAsync } from '../../services/graph/index.js';
 	import { getCourseById } from '../../data-layer/api.js';
-	import { schedulingService, courseCompletionService, initializeSchedulingService, courseSchedulesStore, validationErrorsStore } from '../../services/schedulingServices.js';
-	import { loadLegendState, saveLegendState, type LegendState } from '../../services/shared/legendStateService.js';
+	import { initializeSchedulingService, courseSchedulesStore } from '../../services/schedulingServices.js';
+	import { loadLegendState, saveLegendState, type LegendState } from '../../services/shared/legendState.js';
 	import { courseMapStore } from '../../services/shared/coursesStore.js';
 	import type { Course } from '../../types.js';
 	import type { GraphNode, GraphEdge } from '../../services/graph/types.js';
@@ -17,10 +17,9 @@
 	export let showCompletedCourses: boolean = true;
 	export let userCompletedCourses: Set<string> = new Set();
 	
-	const dispatch = createEventDispatcher<{
-		courseSelect: Course;
-		backgroundClick: void;
-	}>();
+	// Svelte 5 event callback props
+	export let oncourseselect: ((course: Course) => void) | undefined = undefined;
+	export let onbackgroundclick: (() => void) | undefined = undefined;
 	
 	let course: Course | null = null;
 	let nodes: GraphNode[] = [];
@@ -43,7 +42,6 @@
 
 	// Load course data first, then build graph
 	async function loadCourse() {
-		console.log('loadCourse called for courseId:', courseId);
 		if (!courseId) return;
 		
 		try {
@@ -51,7 +49,6 @@
 			if (loadedCourse) {
 				course = loadedCourse;
 				courseMap.set(loadedCourse.id, loadedCourse);
-				console.log('Course loaded:', course.id);
 				await loadGraph();
 			} else {
 				error = 'Course not found';
@@ -64,7 +61,6 @@
 
 	// Load the graph when course is available
 	async function loadGraph() {
-		console.log('loadGraph called for course:', course?.id);
 		if (!course) return;
 		
 		isLoading = true;
@@ -80,12 +76,9 @@
 					showWarnings
 				}
 			);
-			console.log('Graph build result:', result);
 			
 			nodes = result.nodes;
 			edges = result.edges;
-			
-			console.log('Setting nodes:', nodes.length, 'edges:', edges.length);
 			
 			// Update global course map store with loaded courses (only if there are new courses)
 			courseMapStore.update(globalMap => {
@@ -98,7 +91,7 @@
 					}
 				});
 				if (addedCourses > 0) {
-					console.log('Added', addedCourses, 'new courses to global map, total size:', newMap.size);
+					// Updated global course map with new courses
 				}
 				return newMap;
 			});
@@ -112,20 +105,17 @@
 
 	// Handle course selection from graph
 	function onCourseSelect(course: Course) {
-		console.log('Course selected:', course);
 		courseMap.set(course.id, course);
-		dispatch('courseSelect', course);
+		oncourseselect?.(course);
 	}
 
 	// Handle background click to reset selection
 	function onBackgroundClick() {
-		console.log('Background clicked');
-		dispatch('backgroundClick');
+		onbackgroundclick?.();
 	}
 
 	// Handle courseId changes
 	function handleCourseIdChange(newCourseId: string) {
-		console.log('CourseId changed from', courseId, 'to', newCourseId);
 		if (newCourseId && newCourseId !== courseId) {
 			loadCourse();
 		}
@@ -133,7 +123,6 @@
 
 	// Load course on mount
 	onMount(() => {
-		console.log('PrerequisiteGraph mounted with courseId:', courseId);
 		initializeSchedulingService();
 		initializeFromLocalStorage();
 		loadCourse();
@@ -168,7 +157,6 @@
 		const schedulesChanged = JSON.stringify(currentSchedules) !== JSON.stringify(previousSchedules);
 		
 		if (schedulesChanged) {
-			console.log('Course schedules changed, rebuilding graph...');
 			previousSchedules = { ...currentSchedules };
 			loadCourse();
 		}

@@ -3,7 +3,7 @@
 
 import cytoscape from 'cytoscape';
 import type { Course } from '../../types.js';
-import { schedulingService, courseCompletionService } from '../schedulingServices.js';
+import { courseCompletionService } from '../schedulingServices.js';
 
 /**
  * Handles clicking on a prerequisite course from the sidebar
@@ -111,11 +111,7 @@ export function setupBasicHoverEffects(cy: cytoscape.Core): void {
   // Add basic hover effects
   cy.on('mouseover', 'node[type="course"]', (event) => {
     const node = event.target;
-    const course = node.data('course');
-    if (course) {
-      node.style('background-color', '#f0f8ff');
-      console.log(`${course.title} - ${course.units} units`);
-    }
+    node.style('background-color', '#f0f8ff');
   });
 
   // Reset background color when mouse leaves

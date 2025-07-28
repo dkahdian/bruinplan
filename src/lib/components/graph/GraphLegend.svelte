@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { saveLegendState, type LegendState } from '../../services/shared/legendStateService.js';
+  import { saveLegendState, type LegendState } from '../../services/shared/legendState.js';
 
   export let showWarnings: boolean;
   export let showCompletedCourses: boolean;
@@ -12,7 +12,7 @@
   // Load only the legend expansion state on mount
   onMount(async () => {
     // Import the load function dynamically to avoid SSR issues
-    const { loadLegendState } = await import('../../services/shared/legendStateService.js');
+    const { loadLegendState } = await import('../../services/shared/legendState.js');
     const savedState = loadLegendState();
     
     // Only update the legend expansion state here

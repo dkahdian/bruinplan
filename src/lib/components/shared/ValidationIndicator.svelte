@@ -9,12 +9,6 @@
   $: courseErrors = errors.filter(error => error.courseId === courseId);
   $: hasWarnings = courseErrors.length > 0;
   
-  // Debug logging for significant events
-  $: {
-    if (hasWarnings) {
-      console.log('🚨 ValidationIndicator showing', courseErrors.length, 'warnings for', courseId);
-    }
-  }
   
   // Get background color class - orange for warnings, red for errors
   $: backgroundClass = hasWarnings ? 'bg-orange-100' : '';

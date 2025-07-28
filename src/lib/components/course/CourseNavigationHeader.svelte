@@ -1,15 +1,10 @@
 <!-- CourseNavigationHeader.svelte -->
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
 	import { goto } from '$app/navigation';
 	import type { Course } from '../../types.js';
-	import { searchCoursesNew } from '../../services/shared/searchService.js';
+	import { searchCoursesNew } from '../../services/shared/search.js';
 
 	export let courseId: string;
-
-	const dispatch = createEventDispatcher<{
-		navigate: string;
-	}>();
 
 	let isSearchExpanded = false;
 	let searchQuery = '';
@@ -27,8 +22,7 @@
 		isSearching = true;
 		try {
 			searchResults = await searchCoursesNew(query, {
-				maxResults: 10,
-				enableLogging: false
+				maxResults: 10
 			});
 		} catch (error) {
 			console.error('Search failed:', error);

@@ -66,8 +66,8 @@
   });
 
   // Handle resize events
-  function handleResize(event: CustomEvent<{ newWidthPercent: number }>) {
-    graphWidthPercent = event.detail.newWidthPercent;
+  function handleResize(event: { newWidthPercent: number }) {
+    graphWidthPercent = event.newWidthPercent;
   }
 
   // Handle course completion toggle
@@ -99,8 +99,8 @@
   }
 
   // Handle course selection from graph
-  function onCourseSelect(event: CustomEvent<Course>) {
-    selectedCourse = event.detail;
+  function onCourseSelect(course: Course) {
+    selectedCourse = course;
     courseMap.set(selectedCourse.id, selectedCourse);
   }
 
@@ -112,7 +112,6 @@
   // Handle navigation from the header search (no longer needed since navigation is handled internally)
   function onNavigate(event: CustomEvent<string>) {
     // This is no longer used since CourseNavigationHeader handles navigation internally
-    console.log('Navigation event:', event.detail);
   }
 </script>
 
@@ -136,14 +135,14 @@
         {showWarnings}
         {showCompletedCourses}
         {userCompletedCourses}
-        on:courseSelect={onCourseSelect}
-        on:backgroundClick={onBackgroundClick}
+        oncourseselect={onCourseSelect}
+        onbackgroundclick={onBackgroundClick}
       />
     {/key}
   </div>
 
   <!-- Resize handle -->
-  <ResizeHandle {resizeContainer} on:resize={handleResize} />
+  <ResizeHandle {resizeContainer} onresize={handleResize} />
 
   <!-- Sidebar with course details -->
   <div class="sidebar-section" style="width: {100 - graphWidthPercent}%;">

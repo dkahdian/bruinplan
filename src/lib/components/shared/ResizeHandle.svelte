@@ -1,10 +1,6 @@
 <script lang="ts">
-  import { createEventDispatcher } from 'svelte';
-
-  const dispatch = createEventDispatcher<{
-    resize: { newWidthPercent: number };
-  }>();
-
+  // Svelte 5 event callback prop
+  export let onresize: ((event: { newWidthPercent: number }) => void) | undefined = undefined;
   export let resizeContainer: HTMLDivElement;
   
   let isResizing = false;
@@ -25,7 +21,7 @@
     
     // Constrain between 20% and 80%
     const constrainedWidth = Math.max(20, Math.min(80, newWidthPercent));
-    dispatch('resize', { newWidthPercent: constrainedWidth });
+    onresize?.({ newWidthPercent: constrainedWidth });
   }
 
   function stopResize() {

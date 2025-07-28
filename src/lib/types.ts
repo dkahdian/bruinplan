@@ -5,7 +5,6 @@ export type CourseRequisite = {
   course: string;
 }
 
-
 // Represents a group of requisites (e.g., one of several options required)
 export interface RequisiteGroup {
   type: 'group';
@@ -24,11 +23,6 @@ export interface Course {
   description: string;
   requisites: CourseRequirement[];
   equivalentCourses: string[];
-}
-
-// The overall structure of the course JSON file
-export interface CourseList {
-  courses: Course[];
 }
 
 // Major requirement types - discriminated unions for type safety
@@ -73,23 +67,9 @@ export interface Major {
   sections: MajorSection[]; // ordered list of major sections
 }
 
-// The overall structure of a major JSON file
-export interface MajorData {
-  // For consistency with CourseList, though major files contain a single major
-  // This allows for potential future support of multiple majors per file
-  major: Major;
-}
-
-// Alternative simpler structure that matches current JSON format exactly
-// (Major file contains the major object directly, not wrapped in a container)
-export type MajorFile = Major;
-
-// Utility types for major management and visualization
-
-// For caching and managing loaded majors
-export interface MajorCache {
-  [majorId: string]: Major;
-}
+// ============================================================================
+// MAJOR TYPES  
+// ============================================================================
 
 // For major list/directory functionality
 export interface MajorInfo {
@@ -101,40 +81,9 @@ export interface MajorInfo {
   degreeObjective: string;
 }
 
-// For major graph visualization - extends course graph capabilities
-export interface MajorGraphNode {
-  id: string; // course ID or group ID
-  type: 'course' | 'group' | 'section-header';
-  label: string; // display name
-  section?: string; // which major section this belongs to
-  isRequired?: boolean; // for group nodes, whether this specific option is required
-  groupInfo?: {
-    needs: number;
-    totalOptions: number;
-    parentGroupId?: string;
-  };
-}
-
-// For tracking major progress and requirements
-export interface MajorProgress {
-  majorId: string;
-  completedCourses: Set<string>;
-  totalRequiredCourses: number;
-  completedRequiredCourses: number;
-  sectionProgress: {
-    [sectionId: string]: {
-      completed: number;
-      total: number;
-      groupsStatus: {
-        [groupTitle: string]: {
-          needed: number;
-          selected: number;
-          options: string[];
-        };
-      };
-    };
-  };
-}
+// ============================================================================
+// QUARTERLY PLANNING TYPES  
+// ============================================================================
 
 // Quarter-based scheduling system types
 
@@ -149,25 +98,6 @@ export interface ValidationError {
   quarterCode: number;
   message: string;
   prerequisiteId?: string; // For missing prerequisite errors
-}
-
-// Quarter display data for UI components
-export interface QuarterDisplay {
-  code: number;
-  season: string;
-  year: number;
-  courses: string[];
-  totalUnits: number;
-  unitLimit: number;
-  hasErrors: boolean;
-  hasWarnings: boolean;
-}
-
-// Quarter range settings for the planning calendar
-export interface QuarterRangeSettings {
-  displayCount: number; // Default: 3, or smart default based on planned courses
-  startFromCurrent: boolean; // Always true - include current quarter
-  showPerformanceWarning: boolean; // True if displayCount > 12
 }
 
 // Data layer index types

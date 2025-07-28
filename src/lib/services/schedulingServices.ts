@@ -4,14 +4,14 @@
  */
 
 // Core scheduling
-export { schedulingService } from './shared/coreSchedulingService.js';
+export { schedulingService } from './shared/scheduling.js';
 export { courseSchedulesStore, completedCoursesStore, loadCourseSchedules } from './shared/courseScheduleStore.js';
 
 // Validation
-export { validationService, validationErrorsStore } from './shared/validationService.js';
+export { validationService, validationErrorsStore } from './shared/validation.js';
 
 // Course completion
-export { courseCompletionService } from './shared/courseCompletionService.js';
+export { courseCompletionService } from './shared/completion.js';
 
 // Quarter utilities
 export { 
@@ -29,17 +29,15 @@ export {
 } from './shared/dragDropUtils.js';
 
 // Major requirements
-export { majorRequirementsService } from './major/majorRequirementsService.js';
+export { majorRequirementsService } from './major/requirements.js';
 
 // Initialize function
 import { loadCourseSchedules } from './shared/courseScheduleStore.js';
-import { schedulingService } from './shared/coreSchedulingService.js';
+import { schedulingService } from './shared/scheduling.js';
 
 export function initializeSchedulingService(): void {
   loadCourseSchedules();
   
   // Auto-reassign past quarters to completed status
-  const reassignedCourses = schedulingService.reassignPastQuarters();
-  
-
+  schedulingService.reassignPastQuarters();
 }

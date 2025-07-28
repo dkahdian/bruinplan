@@ -1,4 +1,3 @@
-import type { Major } from '../../../lib/types.js';
 import { loadMajor, majorIdToDisplayName } from '../../../lib/data-layer/api.js';
 import { error } from '@sveltejs/kit';
 

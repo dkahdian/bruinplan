@@ -116,15 +116,16 @@ export async function getMajorByName(majorName: string, fetchFn?: typeof globalT
 }
 
 export function majorNameToId(majorName: string): string {
-	return majorName.replace(/\s+/g, '-').toLowerCase();
+	return majorName.replace(/\s+/g, '').toLowerCase();
 }
 
 export function majorIdToDisplayName(majorId: string): string {
 	// Handle common degree abbreviations that should remain uppercase
 	const degreeAbbreviations = ['BS', 'BA', 'BFA', 'BM'];
 	
+	// Split camelCase and add spaces
 	return majorId
-		.replace(/-/g, ' ')
+		.replace(/([a-z])([A-Z])/g, '$1 $2')
 		.replace(/\b\w+/g, word => {
 			// If it's a degree abbreviation, keep it uppercase
 			const upperWord = word.toUpperCase();

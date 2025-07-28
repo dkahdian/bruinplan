@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { searchCoursesNew } from '../../lib/services/shared/searchService.js';
+	import { searchCoursesNew } from '../../lib/services/shared/search.js';
 	import Footer from '../../lib/components/shared/Footer.svelte';
 	import type { Course } from '../../lib/types.js';
 
@@ -18,8 +18,7 @@
 		isSearching = true;
 		try {
 			searchResults = await searchCoursesNew(query, {
-				maxResults: 20,
-				enableLogging: true
+				maxResults: 20
 			});
 		} catch (error) {
 			console.error('Search failed:', error);

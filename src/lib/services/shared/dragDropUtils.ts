@@ -22,7 +22,7 @@ export function createCourseDragImage(courseId: string): HTMLElement {
 export function handleCourseDragStart(
   event: DragEvent, 
   courseId: string, 
-  onDragStart?: (courseId: string) => void
+  onDragStart?: (_courseId: string) => void
 ): void {
   if (!event.dataTransfer) return;
   

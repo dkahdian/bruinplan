@@ -2,9 +2,9 @@
   import cytoscape from 'cytoscape';
   import GraphLegend from './GraphLegend.svelte';
   import { createCytoscapeInstance, type GraphNode, type GraphEdge, defaultGraphStyles, defaultLayoutOptions } from '../../services/graph/index.js';
-  import type { TooltipConfig, TooltipManager } from '../../services/shared/tooltipService.js';
-  import type { GraphAnimationConfig, StoredPositions, NodePosition } from '../../services/graph/types.js';
-  import { schedulingService, courseCompletionService } from '../../services/schedulingServices.js';
+  import type { TooltipConfig, TooltipManager } from '../../services/shared/tooltip.js';
+  import type { GraphAnimationConfig, StoredPositions } from '../../services/graph/types.js';
+  import { courseCompletionService } from '../../services/schedulingServices.js';
 
   export let nodes: GraphNode[];
   export let edges: GraphEdge[];
@@ -461,7 +461,7 @@
       const course = node.data('course');
       if (course) {
         node.style('background-color', '#f0f8ff');
-        console.log(`${course.title} - ${course.units} units`);
+        // ${course.title} - ${course.units} units
       }
     });
 

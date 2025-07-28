@@ -1,4 +1,3 @@
-import { error } from '@sveltejs/kit';
 import { getCourseIndex } from '../../../lib/data-layer/api.js';
 
 export const load = async ({ params, fetch, url }: { 
@@ -25,7 +24,7 @@ export const load = async ({ params, fetch, url }: {
       // Fallback to the simple conversion for cases not in the index
       courseId = params.courseId.replace(/([A-Z]+)(\d+)/, '$1 $2');
     }
-  } catch (error) {
+  } catch {
     // If course index fails to load, use the simple conversion
     courseId = params.courseId.replace(/([A-Z]+)(\d+)/, '$1 $2');
   }

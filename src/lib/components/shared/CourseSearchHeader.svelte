@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Course } from '../../types.js';
-  import { searchCoursesNew } from '../../services/shared/searchService.js';
+  import { searchCoursesNew } from '../../services/shared/search.js';
 
   export let courseId: string;
   export let title: string;
@@ -22,8 +22,7 @@
     isSearching = true;
     try {
       searchResults = await searchCoursesNew(query, {
-        maxResults: 10,
-        enableLogging: false
+        maxResults: 10
       });
     } catch (error) {
       console.error('Search failed:', error);
