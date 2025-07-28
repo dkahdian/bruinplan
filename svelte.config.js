@@ -13,7 +13,7 @@ export default {
     }),
     ...(!isDev && {
       paths: {
-        base: '/'
+        base: '/bruinplan'
       }
     })
   }
