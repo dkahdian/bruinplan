@@ -3,7 +3,6 @@
  */
 import { get } from 'svelte/store';
 import { courseSchedulesStore, saveCourseSchedules } from './courseScheduleStore.js';
-import { validationService } from './validationService.js';
 import { isPastQuarter } from './quarterUtils.js';
 
 /**
@@ -28,7 +27,6 @@ export class SchedulingService {
       saveCourseSchedules(newSchedules);
       return newSchedules;
     });
-    validationService.updateValidation();
   }
   
   /**
@@ -72,7 +70,6 @@ export class SchedulingService {
       saveCourseSchedules(newSchedules);
       return newSchedules;
     });
-    validationService.updateValidation();
   }
 
   /**
@@ -81,7 +78,6 @@ export class SchedulingService {
   clearAllSchedules(): void {
     courseSchedulesStore.set({});
     saveCourseSchedules({});
-    validationService.updateValidation();
   }
 
   /**
@@ -107,10 +103,6 @@ export class SchedulingService {
 
       return newSchedules;
     });
-
-    if (reassignedCourses.length > 0) {
-      validationService.updateValidation();
-    }
 
     return reassignedCourses;
   }

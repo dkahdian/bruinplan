@@ -4,6 +4,8 @@
 import type { Course, RequisiteGroup } from '../../types.js';
 import type { GraphNode } from '../graph/types.js';
 import { schedulingService, courseCompletionService } from '../schedulingServices.js';
+import { formatQuarterCode, getCurrentQuarterCode } from './quarterUtils.js';
+import { validationService } from './validationService.js';
 
 // Configuration for tooltip behavior
 export interface TooltipConfig {
@@ -65,8 +67,8 @@ export class TooltipManager {
    * Public method to handle course completion toggle from global function
    */
   handleCourseToggle(courseId: string): void {
-    // Don't call the completion handler since the global function already updated the state
-    // Just trigger the callback for any additional logic (like graph updates)
+    // For simplicity, just trigger the callback for graph updates
+    // The toggle function already handles updating the tooltip UI directly via DOM manipulation
     if (this.config.onCourseCompletionToggle) {
       this.config.onCourseCompletionToggle(courseId);
     }
@@ -273,10 +275,14 @@ export class TooltipManager {
          </div>`
       : '';
 
-    // Check if course is completed
+    // Check if course is completed (ensure we get the most current state)
     const completionSource = courseCompletionService.getCompletedCourseSource(course.id);
     const isCompleted = completionSource !== null;
     const completedViaEquivalent = completionSource && completionSource !== course.id;
+
+    // Get quarter planning info
+    const quarterCode = courseCompletionService.getQuarterCode(course.id);
+    const currentQuarterLabel = quarterCode && quarterCode > 1 ? formatQuarterCode(quarterCode) : null;
 
     // Build completion status text
     let completionStatusHtml = '';
@@ -288,6 +294,9 @@ export class TooltipManager {
       }
     }
 
+    // Build validation warnings
+    const validationWarningsHtml = this.buildValidationWarningsSection(course.id);
+
     return `
       <div class="space-y-2">
         <div>
@@ -296,22 +305,38 @@ export class TooltipManager {
               <h3 class="font-bold text-lg text-gray-900 leading-tight">${course.id}</h3>
               <p class="text-gray-700 font-medium">${course.title}</p>
             </div>
-            <div class="ml-3 flex items-center gap-2">
-              <span class="text-xs text-gray-600">I've taken this:</span>
-              <button
-                onclick="window.toggleCourseCompletion('${course.id}')"
-                class="relative inline-flex h-4 w-7 items-center rounded-full ${
-                  isCompleted 
-                    ? 'bg-green-500' 
-                    : 'bg-gray-300'
-                } transition-colors"
-                type="button"
-                aria-label="Toggle course completion"
-              >
-                <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform ${
-                  isCompleted ? 'translate-x-3.5' : 'translate-x-0.5'
-                }"></span>
-              </button>
+            <div class="ml-3 flex flex-col items-end gap-1">
+              ${!isCompleted ? `
+                <!-- Quarter selector for tooltip -->
+                <button
+                  onclick="window.openQuarterSelector('${course.id}')"
+                  class="inline-flex items-center px-2 py-1 border border-purple-300 rounded text-xs font-medium text-white bg-purple-600 hover:bg-purple-700 transition-colors"
+                  type="button"
+                  aria-label="Add to plan"
+                >
+                  ${currentQuarterLabel || 'plan'}
+                  <svg class="ml-1 h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+              ` : ''}
+              <div class="flex items-center gap-1">
+                <span class="text-xs text-gray-600">Taken?</span>
+                <button
+                  onclick="window.toggleCourseCompletion('${course.id}')"
+                  class="relative inline-flex h-4 w-7 items-center rounded-full ${
+                    isCompleted 
+                      ? 'bg-green-500' 
+                      : 'bg-gray-300'
+                  } transition-colors"
+                  type="button"
+                  aria-label="Toggle course completion"
+                >
+                  <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform ${
+                    isCompleted ? 'translate-x-3.5' : 'translate-x-0.5'
+                  }"></span>
+                </button>
+              </div>
             </div>
           </div>
           ${completionStatusHtml ? `<div class="mt-1">${completionStatusHtml}</div>` : ''}
@@ -323,6 +348,7 @@ export class TooltipManager {
           </span>
         </div>
         
+        ${validationWarningsHtml}
         ${prerequisitesHtml}
         ${equivalentsHtml}
       </div>
@@ -400,6 +426,28 @@ export class TooltipManager {
         <ul class="space-y-1">
           ${prereqItems}
         </ul>
+      </div>
+    `;
+  }
+
+  /**
+   * Builds the validation warnings section for course tooltips
+   */
+  private buildValidationWarningsSection(courseId: string): string {
+    const courseErrors = validationService.validateCourse(courseId);
+    
+    if (courseErrors.length === 0) return '';
+
+    const errorItems = courseErrors.map(error => {
+      return `<div class="text-xs text-gray-700 bg-orange-100 px-2 py-1 rounded">⚠️ ${error.message}</div>`;
+    }).join('');
+
+    return `
+      <div class="mt-3 pt-3 border-t border-gray-100">
+        <h4 class="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2">Warnings</h4>
+        <div class="space-y-1">
+          ${errorItems}
+        </div>
       </div>
     `;
   }
@@ -540,6 +588,8 @@ export function addTooltipsToCytoscape(
 declare global {
   interface Window {
     toggleCourseCompletion: (courseId: string) => void;
+    openQuarterSelector: (courseId: string) => void;
+    selectQuarterFromDropdown: (courseId: string, quarterCode: number) => void;
     currentTooltipManager?: TooltipManager;
   }
 }
@@ -587,6 +637,97 @@ if (typeof window !== 'undefined') {
       } else {
         // Was completed, now incomplete
         completionStatusElement.innerHTML = '';
+      }
+    }
+    
+    // Call the tooltip manager if available (for graph updates)
+    if (window.currentTooltipManager) {
+      window.currentTooltipManager.handleCourseToggle(courseId);
+    }
+  };
+
+  window.openQuarterSelector = function(courseId: string) {
+    // Create or show quarter dropdown
+    const existingDropdown = document.getElementById('tooltip-quarter-dropdown');
+    if (existingDropdown) {
+      existingDropdown.remove();
+    }
+    
+    // Generate quarters starting from the current quarter
+    const quarters = [];
+    const currentQuarter = getCurrentQuarterCode();
+    
+    // Generate next 12 quarters (3 years) starting from current quarter
+    for (let i = 0; i < 12; i++) {
+      const quarterCode = currentQuarter + i;
+      const year = Math.floor(quarterCode / 10);
+      const quarter = quarterCode % 10;
+      
+      let quarterName = '';
+      switch (quarter) {
+        case 1: quarterName = 'Winter'; break;
+        case 2: quarterName = 'Spring'; break;
+        case 3: quarterName = 'Summer'; break;
+        case 4: quarterName = 'Fall'; break;
+        default: continue; // Skip invalid quarters
+      }
+      
+      quarters.push({ code: quarterCode, label: `${quarterName} ${year}` });
+    }
+    
+    // Get the button that was clicked
+    const button = document.querySelector(`button[onclick="window.openQuarterSelector('${courseId}')"]`);
+    if (!button) return;
+    
+    // Create dropdown HTML
+    const dropdown = document.createElement('div');
+    dropdown.id = 'tooltip-quarter-dropdown';
+    dropdown.className = 'absolute right-0 mt-1 w-40 bg-white border border-gray-200 rounded-md shadow-lg z-50';
+    dropdown.innerHTML = `
+      <div class="py-1 max-h-48 overflow-y-auto">
+        <button class="block w-full text-left px-3 py-2 text-sm text-gray-700 hover:bg-gray-100" onclick="window.selectQuarterFromDropdown('${courseId}', 0)">
+          Remove from plan
+        </button>
+        <div class="border-t border-gray-100"></div>
+        ${quarters.map(q => `
+          <button class="block w-full text-left px-3 py-2 text-sm text-gray-700 hover:bg-gray-100" onclick="window.selectQuarterFromDropdown('${courseId}', ${q.code})">
+            ${q.label}
+          </button>
+        `).join('')}
+      </div>
+    `;
+    
+    // Position the dropdown relative to the button
+    button.parentElement!.style.position = 'relative';
+    button.parentElement!.appendChild(dropdown);
+    
+    // Close dropdown when clicking outside
+    const closeDropdown = (e: Event) => {
+      if (!dropdown.contains(e.target as Node)) {
+        dropdown.remove();
+        document.removeEventListener('click', closeDropdown);
+      }
+    };
+    setTimeout(() => document.addEventListener('click', closeDropdown), 0);
+  };
+
+  window.selectQuarterFromDropdown = function(courseId: string, quarterCode: number) {
+    // Close dropdown
+    const dropdown = document.getElementById('tooltip-quarter-dropdown');
+    if (dropdown) dropdown.remove();
+    
+    // Update schedule
+    schedulingService.scheduleCourse(courseId, quarterCode);
+    
+    // Update button text
+    const button = document.querySelector(`button[onclick="window.openQuarterSelector('${courseId}')"]`);
+    if (button) {
+      if (quarterCode === 0) {
+        button.textContent = 'Plan';
+      } else {
+        // Use formatQuarterCode utility function for consistent formatting
+        const quarterLabel = formatQuarterCode(quarterCode);
+        button.textContent = quarterLabel || 'Add to plan';
       }
     }
     

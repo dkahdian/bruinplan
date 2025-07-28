@@ -30,6 +30,11 @@ export class ValidationService {
     const courseMap = get(courseMapStore);
     const validationErrors: ValidationError[] = [];
     
+    // Don't validate if course map isn't loaded yet
+    if (courseMap.size === 0) {
+      return validationErrors;
+    }
+    
     // Check all scheduled courses
     for (const [courseId, quarterCode] of Object.entries(schedules)) {
       const courseErrors = this.validateCourse(courseId);
@@ -173,8 +178,8 @@ export class ValidationService {
     const errors: ValidationError[] = [];
     const currentQuarter = getCurrentQuarterCode();
     
-    // If course is scheduled more than 2 quarters in the future, show warning
-    if (quarterCode > currentQuarter + 20) { // 20 = 2 years ahead
+    // If course is scheduled more than 16 quarters in the future, show warning
+    if (quarterCode > currentQuarter + 400) { // 400 = 4 years ahead
       errors.push({
         courseId,
         quarterCode,
@@ -194,6 +199,15 @@ export const validationService = new ValidationService();
 courseMapStore.subscribe((courseMap: Map<string, Course>) => {
   if (courseMap.size > 0) {
     // Course map is loaded, update validation
+    validationService.updateValidation();
+  }
+});
+
+// Update validation when course schedules change
+courseSchedulesStore.subscribe(() => {
+  // Only update validation if course map is loaded
+  const courseMap = get(courseMapStore);
+  if (courseMap.size > 0) {
     validationService.updateValidation();
   }
 });

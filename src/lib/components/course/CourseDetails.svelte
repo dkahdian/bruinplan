@@ -2,6 +2,9 @@
   import type { Course } from '../../types.js';
   import PrerequisiteList from './PrerequisiteList.svelte';
   import EquivalentCourses from './EquivalentCourses.svelte';
+  import QuarterSelector from './QuarterSelector.svelte';
+  import ValidationIndicator from '../shared/ValidationIndicator.svelte';
+  import { validationErrorsStore } from '../../services/schedulingServices.js';
 
   export let displayedCourse: Course | null;
   export let selectedCourse: Course | null;
@@ -9,6 +12,7 @@
   export let userCompletedCourses: Set<string>;
   export let courseMap: Map<string, Course>;
   export let onCourseCompletionToggle: (courseId: string) => void;
+  export let onQuarterChange: (courseId: string, quarterCode: number) => void;
   export let onPrerequisiteClick: (courseId: string, requisiteLevel?: string, requisiteType?: string) => void;
 </script>
 
@@ -42,7 +46,7 @@
           
           <!-- Course completion toggle -->
           <div class="flex items-center gap-2">
-            <span class="text-sm text-gray-600">I've taken this:</span>
+            <span class="text-sm text-gray-600">Taken?</span>
             <button
               class="relative inline-flex h-5 w-9 items-center rounded-full {userCompletedCourses.has(displayedCourse.id) ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
               on:click={() => onCourseCompletionToggle(displayedCourse.id)}
@@ -52,8 +56,23 @@
               <span class="inline-block h-4 w-4 transform rounded-full bg-white transition-transform {userCompletedCourses.has(displayedCourse.id) ? 'translate-x-4' : 'translate-x-0.5'}"></span>
             </button>
           </div>
+          
+          <!-- Quarter selector -->
+          <QuarterSelector
+            courseId={displayedCourse.id}
+            {onQuarterChange}
+          />
         </div>
       </div>
+
+      <!-- Validation errors for selected course -->
+      {@const targetCourseId = selectedCourse?.id || displayedCourse.id}
+      {@const courseErrors = $validationErrorsStore.filter(error => error.courseId === targetCourseId)}
+      {#if courseErrors.length > 0}
+        <div class="mb-4">
+          <ValidationIndicator errors={courseErrors} courseId={targetCourseId} />
+        </div>
+      {/if}
 
       <!-- Course description -->
       {#if displayedCourse.description}
@@ -70,6 +89,7 @@
           {userCompletedCourses}
           {courseMap}
           {onCourseCompletionToggle}
+          {onQuarterChange}
           {onPrerequisiteClick}
         />
       {/if}
@@ -80,6 +100,7 @@
           equivalentCourses={displayedCourse.equivalentCourses}
           {userCompletedCourses}
           {onCourseCompletionToggle}
+          {onQuarterChange}
         />
       {/if}
 

@@ -25,8 +25,49 @@
 	export let isNested: boolean = false;
 	export let useCompactLayout: boolean = false;
 	
+	// Helper function to count all courses in nested groups
+	function countAllCourses(requirement: MajorRequirement): number {
+		let count = 0;
+		if (requirement.type === 'group') {
+			for (const option of requirement.options) {
+				if (option.type === 'course') {
+					count++;
+				} else if (option.type === 'group') {
+					count += countAllCourses(option);
+				}
+			}
+		}
+		return count;
+	}
+	
 	// Collapsible state management
 	let collapsedSections = new Set<string>();
+	
+	// Initialize collapsed sections for large groups (>20 courses)
+	$: {
+		const newCollapsedSections = new Set<string>();
+		
+		// Check each requirement and auto-collapse if it has more than 20 courses/sub-groups
+		for (const requirement of requirements) {
+			if (requirement.type === 'group') {
+				const groupId = `${requirement.title}-${requirement.description || ''}`;
+				const totalCourses = countAllCourses(requirement);
+				const totalOptions = requirement.options.length;
+				
+				// Auto-collapse if more than 20 courses OR more than 20 sub-groups
+				if (totalCourses > 20 || totalOptions > 20) {
+					newCollapsedSections.add(groupId);
+				}
+			}
+		}
+		
+		// Only update if there are changes to avoid infinite reactivity
+		const currentIds = Array.from(collapsedSections).sort();
+		const newIds = Array.from(newCollapsedSections).sort();
+		if (JSON.stringify(currentIds) !== JSON.stringify(newIds)) {
+			collapsedSections = newCollapsedSections;
+		}
+	}
 	
 	function toggleCollapse(requirementId: string) {
 		if (collapsedSections.has(requirementId)) {
@@ -85,21 +126,6 @@
 			event.preventDefault();
 			onToggleCompletion(courseId);
 		}
-	}
-	
-	// Helper function to count all courses in nested groups
-	function countAllCourses(requirement: MajorRequirement): number {
-		let count = 0;
-		if (requirement.type === 'group') {
-			for (const option of requirement.options) {
-				if (option.type === 'course') {
-					count++;
-				} else if (option.type === 'group') {
-					count += countAllCourses(option);
-				}
-			}
-		}
-		return count;
 	}
 	
 	// Helper function to check if a group has nested sub-groups
@@ -345,6 +371,9 @@
 											✓ Via: {courseStatus.completedSource}
 										</button>
 									{/if}
+									
+									<!-- Validation warnings for group options -->
+									<ValidationIndicator errors={$validationErrorsStore} courseId={option.courseId} />
 								</div>
 							</div>
 						{:else if option.type === 'group'}

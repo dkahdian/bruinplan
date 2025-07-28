@@ -4,6 +4,7 @@
 import type { Course, CourseRequirement, RequisiteGroup, CourseRequisite } from '../../types.js';
 import type { GraphNode, GraphEdge, GraphBuildOptions, GraphBuildResult } from './types.js';
 import { schedulingService, courseCompletionService } from '../schedulingServices.js';
+import { validationService } from '../shared/validationService.js';
 import { getCourseById } from '../../data-layer/api.js';
 import {
   createMissingCourse,
@@ -28,6 +29,14 @@ function getEdgeAttributes(sourceCourseId: string): { fromCompleted?: boolean; f
   }
   
   return attributes;
+}
+
+/**
+ * Helper function to check if an edge represents a validation error
+ */
+function hasValidationError(prerequisiteCourseId: string, targetCourseId: string): boolean {
+  const courseErrors = validationService.validateCourse(targetCourseId);
+  return courseErrors.some(error => error.prerequisiteId === prerequisiteCourseId);
 }
 
 /**
@@ -100,6 +109,12 @@ export function buildPrerequisiteGraph(
       nodeData.inPlan = true;
     }
     
+    // Add validation warning indicator
+    const courseErrors = validationService.validateCourse(courseId);
+    if (courseErrors.length > 0) {
+      nodeData.hasWarnings = true;
+    }
+    
     nodes.push({ data: nodeData });
 
     if (courseMap.has(courseId)) {
@@ -126,12 +141,21 @@ export function buildPrerequisiteGraph(
       }
       
       addCourse(requirement.course);
+      
+      const edgeData: any = {
+        id: `${requirement.course}-${parentCourseId}`,
+        source: requirement.course,
+        target: parentCourseId,
+        ...getEdgeAttributes(requirement.course)
+      };
+      
+      // Add validation error indicator
+      if (hasValidationError(requirement.course, parentCourseId)) {
+        edgeData.validationError = true;
+      }
+      
       edges.push({
-        data: {
-          id: `${requirement.course}-${parentCourseId}`,
-          source: requirement.course,
-          target: parentCourseId
-        }
+        data: edgeData
       });
     }
   }
@@ -399,7 +423,6 @@ export async function buildPrerequisiteGraphAsync(
   courseCache: Map<string, Course> = new Map(),
   options: GraphBuildOptions = {}
 ): Promise<GraphBuildResult> {
-  console.log(`buildPrerequisiteGraphAsync called - targetCourseId: ${targetCourseId}, courseCache size: ${courseCache.size}`);
   
   const { 
     userCompletedCourses = new Set(),
@@ -418,15 +441,10 @@ export async function buildPrerequisiteGraphAsync(
 
   // Helper function to load a course and add it to cache
   async function loadCourse(courseId: string): Promise<Course | null> {
-    console.log(`loadCourse called for: ${courseId}`);
-    
     if (courseCache.has(courseId)) {
-      console.log(`Course ${courseId} found in cache`);
       return courseCache.get(courseId)!;
     }
 
-    console.log(`Loading course ${courseId} from API`);
-    
     try {
       const course = await getCourseById(courseId);
       if (course) {
@@ -452,30 +470,22 @@ export async function buildPrerequisiteGraphAsync(
 
   // Async function to add a course and its prerequisites to the graph
   async function addCourse(courseId: string): Promise<void> {
-    console.log(`addCourse called for: ${courseId}`);
-    
     if (visitedCourses.has(courseId)) {
-      console.log(`Course ${courseId} already visited, skipping`);
       return;
     }
     
     const isCourseCompleted = userCompletedCourses.has(courseId);
     const isCourseEffectivelyCompleted = isEffectivelyCompleted(courseId);
     
-    console.log(`Course ${courseId} - completed: ${isCourseCompleted}, effectivelyCompleted: ${isCourseEffectivelyCompleted}`);
-    
     if (!shouldShowCourse(courseId, showCompletedCourses, (id) => isEffectivelyCompleted(id))) {
-      console.log(`Course ${courseId} should not be shown, skipping`);
       return;
     }
     
     let course = await loadCourse(courseId);
     if (!course) {
-      console.log(`Course ${courseId} not found, creating missing course`);
       course = createMissingCourse(courseId);
     }
     
-    console.log(`Adding course ${courseId} to visited set`);
     visitedCourses.add(courseId);
     
     const nodeData: any = {
@@ -489,6 +499,12 @@ export async function buildPrerequisiteGraphAsync(
       nodeData.completed = true;
     } else if (courseCompletionService.isInPlan(courseId)) {
       nodeData.inPlan = true;
+    }
+    
+    // Add validation warning indicator
+    const courseErrors = validationService.validateCourse(courseId);
+    if (courseErrors.length > 0) {
+      nodeData.hasWarnings = true;
     }
     
     nodes.push({ data: nodeData });
@@ -780,10 +796,7 @@ export async function buildPrerequisiteGraphAsync(
   }
 
   // Start building from the target course
-  console.log(`Starting graph build from target course: ${targetCourseId}`);
   await addCourse(targetCourseId);
-  
-  console.log(`Graph build complete - nodes: ${nodes.length}, edges: ${edges.length}`);
   
   return { nodes, edges };
 }

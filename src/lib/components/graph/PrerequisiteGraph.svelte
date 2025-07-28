@@ -6,8 +6,9 @@
 	import GraphLegend from './GraphLegend.svelte';
 	import { buildPrerequisiteGraphAsync } from '../../services/graph/index.js';
 	import { getCourseById } from '../../data-layer/api.js';
-	import { schedulingService, courseCompletionService, initializeSchedulingService } from '../../services/schedulingServices.js';
+	import { schedulingService, courseCompletionService, initializeSchedulingService, courseSchedulesStore, validationErrorsStore } from '../../services/schedulingServices.js';
 	import { loadLegendState, saveLegendState, type LegendState } from '../../services/shared/legendStateService.js';
+	import { courseMapStore } from '../../services/shared/coursesStore.js';
 	import type { Course } from '../../types.js';
 	import type { GraphNode, GraphEdge } from '../../services/graph/types.js';
 
@@ -28,6 +29,7 @@
 	let error: string | null = null;
 	let courseMap = new Map<string, Course>();
 	let isInitialized = false;
+	let previousSchedules: Record<string, number> = {};
 
 	// Initialize state from localStorage
 	function initializeFromLocalStorage() {
@@ -84,6 +86,22 @@
 			edges = result.edges;
 			
 			console.log('Setting nodes:', nodes.length, 'edges:', edges.length);
+			
+			// Update global course map store with loaded courses (only if there are new courses)
+			courseMapStore.update(globalMap => {
+				const newMap = new Map(globalMap);
+				let addedCourses = 0;
+				courseMap.forEach((course, courseId) => {
+					if (!newMap.has(courseId)) {
+						newMap.set(courseId, course);
+						addedCourses++;
+					}
+				});
+				if (addedCourses > 0) {
+					console.log('Added', addedCourses, 'new courses to global map, total size:', newMap.size);
+				}
+				return newMap;
+			});
 		} catch (err) {
 			console.error('Error building graph:', err);
 			error = err instanceof Error ? err.message : 'Unknown error occurred';
@@ -141,6 +159,19 @@
 	// Watch for specific toggle changes only (after initialization)
 	$: if (isInitialized) {
 		showWarnings, showCompletedCourses, handleToggleChange();
+	}
+
+	// Watch for course schedule changes and rebuild graph
+	$: if (isInitialized && $courseSchedulesStore) {
+		// Only rebuild if schedules actually changed
+		const currentSchedules = $courseSchedulesStore;
+		const schedulesChanged = JSON.stringify(currentSchedules) !== JSON.stringify(previousSchedules);
+		
+		if (schedulesChanged) {
+			console.log('Course schedules changed, rebuilding graph...');
+			previousSchedules = { ...currentSchedules };
+			loadCourse();
+		}
 	}
 
 	// Handle toggle for showCompletedCourses

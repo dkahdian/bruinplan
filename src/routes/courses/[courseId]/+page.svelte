@@ -83,6 +83,14 @@
     validationService.updateValidation();
   }
 
+  // Handle quarter change
+  function onQuarterChange(courseId: string, quarterCode: number) {
+    schedulingService.scheduleCourse(courseId, quarterCode);
+    
+    // Update validation to show warnings
+    validationService.updateValidation();
+  }
+
   // Handle prerequisite click
   function onPrerequisiteClick(courseId: string) {
     // Navigate to the clicked course's prerequisite page using proper URL format
@@ -141,13 +149,6 @@
   <div class="sidebar-section" style="width: {100 - graphWidthPercent}%;">
     <div class="sidebar-content">
       {#if course}
-        <!-- Validation indicator at top (only if there are errors) -->
-        {#if validationErrors.length > 0}
-          <div class="validation-header p-4 border-b border-gray-200">
-            <ValidationIndicator errors={validationErrors} courseId={course.id} />
-          </div>
-        {/if}
-        
         <!-- Course details -->
         <div class="course-details flex-1">
           <CourseDetails
@@ -157,6 +158,7 @@
             {userCompletedCourses}
             {courseMap}
             {onCourseCompletionToggle}
+            {onQuarterChange}
             {onPrerequisiteClick}
           />
         </div>
@@ -203,10 +205,6 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-  }
-
-  .validation-header {
-    flex-shrink: 0;
   }
 
   .course-details {

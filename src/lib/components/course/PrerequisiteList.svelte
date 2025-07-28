@@ -1,12 +1,41 @@
 <script lang="ts">
   import type { CourseRequirement, Course } from '../../types.js';
-  import { schedulingService } from '../../services/schedulingServices.js';
+  import { schedulingService, courseCompletionService, validationService } from '../../services/schedulingServices.js';
+  import QuarterSelector from './QuarterSelector.svelte';
+  import ValidationIndicator from '../shared/ValidationIndicator.svelte';
+  import { validationErrorsStore, courseSchedulesStore } from '../../services/schedulingServices.js';
 
   export let requisites: CourseRequirement[];
   export let userCompletedCourses: Set<string>;
   export let courseMap: Map<string, Course>;
   export let onCourseCompletionToggle: (courseId: string) => void;
-  export let onPrerequisiteClick: (courseId: string) => void;
+  export let onQuarterChange: (courseId: string, quarterCode: number) => void;
+  export let onPrerequisiteClick: (courseId: string, requisiteLevel?: string, requisiteType?: string) => void;
+
+  // Make function reactive to store changes
+  $: getBackgroundColor = (courseId: string): string => {
+    // Force reactivity by accessing the stores
+    $courseSchedulesStore;
+    $validationErrorsStore;
+    
+    if (courseCompletionService.isCompleted(courseId)) {
+      return 'bg-green-50 border-green-200';
+    } else if (courseCompletionService.isInPlan(courseId)) {
+      // Check if this planned course has validation errors
+      const courseErrors = validationService.validateCourse(courseId);
+      if (courseErrors.length > 0) {
+        return 'bg-orange-50 border-orange-200'; // Orange for planned with warnings
+      }
+      return 'bg-purple-50 border-purple-200'; // Purple for planned without warnings
+    }
+    return 'bg-gray-50 border-gray-200'; // Gray for not planned
+  };
+
+  // Helper function to get validation errors for a course
+  $: getValidationErrors = (courseId: string) => {
+    $validationErrorsStore; // Force reactivity
+    return validationService.validateCourse(courseId);
+  };
 
   // Helper function to check if a course is effectively completed and find which equivalent was taken
   function getEquivalentCompletedCourse(courseId: string, groupOptions?: CourseRequirement[]): string | null {
@@ -55,28 +84,44 @@
             {#each requisite.options as option}
               {#if option.type !== 'group'}
                 <li class="text-sm">
-                  <div class="flex items-center justify-between">
-                    <div class="flex items-center">
-                      <span class="text-orange-600 font-medium">Required:</span>
-                      <button 
-                        class="text-gray-800 hover:text-blue-600 hover:bg-blue-50 px-1 py-0.5 rounded transition-colors duration-200 font-medium ml-1"
-                        on:click={() => onPrerequisiteClick(option.course)}
-                        type="button"
-                      >
-                        {option.course}
-                      </button>
+                  <div class="p-2 rounded border {getBackgroundColor(option.course)}">
+                    <div class="flex items-center justify-between">
+                      <div class="flex items-center">
+                        <span class="text-orange-600 font-medium">Required:</span>
+                        <button 
+                          class="text-gray-800 hover:text-blue-600 hover:bg-blue-50 px-1 py-0.5 rounded transition-colors duration-200 font-medium ml-1"
+                          on:click={() => onPrerequisiteClick(option.course)}
+                          type="button"
+                        >
+                          {option.course}
+                        </button>
+                      </div>
+                      <div class="flex items-center gap-2 ml-2">
+                        <!-- Quarter selector for prerequisite -->
+                        <QuarterSelector
+                          courseId={option.course}
+                          {onQuarterChange}
+                        />
+                        <span class="text-xs text-gray-600">Taken?</span>
+                        <button
+                          class="relative inline-flex h-4 w-7 items-center rounded-full {userCompletedCourses.has(option.course) ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
+                          on:click={() => onCourseCompletionToggle(option.course)}
+                          type="button"
+                          aria-label="Toggle course completion"
+                        >
+                          <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {userCompletedCourses.has(option.course) ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
+                        </button>
+                      </div>
                     </div>
-                    <div class="flex items-center gap-2 ml-2">
-                      <span class="text-xs text-gray-600">I've taken this:</span>
-                      <button
-                        class="relative inline-flex h-4 w-7 items-center rounded-full {userCompletedCourses.has(option.course) ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
-                        on:click={() => onCourseCompletionToggle(option.course)}
-                        type="button"
-                        aria-label="Toggle course completion"
-                      >
-                        <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {userCompletedCourses.has(option.course) ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
-                      </button>
-                    </div>
+                    
+                    <!-- Validation errors below the main row, inside colored div -->
+                    {#each getValidationErrors(option.course) as error}
+                      <div class="mt-2">
+                        <span class="text-xs text-orange-600 bg-orange-100 px-2 py-1 rounded block">
+                          ⚠️ {error.message}
+                        </span>
+                      </div>
+                    {/each}
                   </div>
                   <!-- Equivalent course indicator -->
                   {#if getEquivalentCompletedCourse(option.course, requisite.options)}
@@ -100,29 +145,46 @@
         </li>
       {:else if requisite.type === 'requisite'}
         <li class="text-sm">
-          <div class="flex items-center justify-between">
-            <div class="flex items-center">
-              <span class="text-orange-600 font-medium">Required:</span>
-              <button 
-                class="text-gray-800 hover:text-blue-600 hover:bg-blue-50 px-1 py-0.5 rounded transition-colors duration-200 font-medium ml-1"
-                on:click={() => onPrerequisiteClick(requisite.course)}
-                type="button"
-              >
-                {requisite.course}
-              </button>
+          <div class="p-2 rounded border {getBackgroundColor(requisite.course)}">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center">
+                <span class="text-orange-600 font-medium">Required:</span>
+                <button 
+                  class="text-gray-800 hover:text-blue-600 hover:bg-blue-50 px-1 py-0.5 rounded transition-colors duration-200 font-medium ml-1"
+                  on:click={() => onPrerequisiteClick(requisite.course)}
+                  type="button"
+                >
+                  {requisite.course}
+                </button>
+              </div>
+              <div class="flex items-center gap-2 ml-2">
+                <!-- Quarter selector for prerequisite -->
+                <QuarterSelector
+                  courseId={requisite.course}
+                  {onQuarterChange}
+                />
+                <span class="text-xs text-gray-600">Taken?</span>
+                <button
+                  class="relative inline-flex h-4 w-7 items-center rounded-full {userCompletedCourses.has(requisite.course) ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
+                  on:click={() => onCourseCompletionToggle(requisite.course)}
+                  type="button"
+                  aria-label="Toggle course completion"
+                >
+                  <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {userCompletedCourses.has(requisite.course) ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
+                </button>
+              </div>
             </div>
-            <div class="flex items-center gap-2 ml-2">
-              <span class="text-xs text-gray-600">I've taken this:</span>
-              <button
-                class="relative inline-flex h-4 w-7 items-center rounded-full {userCompletedCourses.has(requisite.course) ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
-                on:click={() => onCourseCompletionToggle(requisite.course)}
-                type="button"
-                aria-label="Toggle course completion"
-              >
-                <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {userCompletedCourses.has(requisite.course) ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
-              </button>
-            </div>
+            
+            <!-- Validation errors below the main row, inside colored div -->
+            {#each getValidationErrors(requisite.course) as error}
+              <div class="mt-2">
+                <span class="text-xs text-orange-600 bg-orange-100 px-2 py-1 rounded block">
+                  ⚠️ {error.message}
+                </span>
+              </div>
+            {/each}
           </div>
+          
           <!-- Equivalent course indicator -->
           {#if getEquivalentCompletedCourse(requisite.course)}
             <div class="ml-4 mt-1">

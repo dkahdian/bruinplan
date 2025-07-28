@@ -66,6 +66,16 @@ const baseCourseStyles: cytoscape.StylesheetStyle[] = [
       'background-color': '#e9d5ff',  // Slightly darker purple background
       'border-color': '#9333ea'       // Darker purple border
     }
+  },
+  // Warning indicator for courses with validation issues
+  {
+    selector: 'node[type="course"][hasWarnings]',
+    style: {
+      'background-color': '#fef3c7',  // Yellow background for warnings
+      'border-color': '#f59e0b',      // Yellow/amber border for warnings
+      'border-width': 3,
+      'border-style': 'solid'
+    }
   }
 ];
 
@@ -174,6 +184,19 @@ const baseEdgeStyles: cytoscape.StylesheetStyle[] = [
       'arrow-scale': 1.2,
       'opacity': 0.8,
       'width': 2
+    }
+  },
+  // Error edges for prerequisite validation issues
+  {
+    selector: 'edge[validationError]',
+    style: {
+      'line-color': '#dc2626',        // Red for validation errors
+      'target-arrow-color': '#dc2626',
+      'target-arrow-shape': 'triangle',
+      'curve-style': 'bezier',
+      'arrow-scale': 1.2,
+      'width': 3,                     // Thicker line for errors
+      'line-style': 'solid'
     }
   }
 ];

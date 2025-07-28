@@ -23,8 +23,8 @@ export class MajorRequirementsService {
     const courseErrors = get(validationErrorsStore).filter((error: ValidationError) => error.courseId === courseId);
     const hasValidationIssues = courseErrors.length > 0;
     
-    const validationBgClass = hasValidationIssues ? 'bg-orange-100 border-orange-300' : 
-                             (isScheduled && !isDirectlyCompleted) ? 'bg-purple-100 border-purple-300' : '';
+    // Validation issues take priority over scheduled status
+    const validationBgClass = hasValidationIssues ? 'bg-yellow-100 border-yellow-300 hover:bg-yellow-200' : '';
     
     return {
       completedSource,
@@ -45,12 +45,20 @@ export class MajorRequirementsService {
     const isEffectivelyCompleted = completedSource !== null;
     const isDirectlyCompleted = get(completedCoursesStore).has(courseId);
     const isScheduled = schedulingService.getSchedule(courseId) > 0;
+    const courseErrors = get(validationErrorsStore).filter((error: ValidationError) => error.courseId === courseId);
+    const hasValidationIssues = courseErrors.length > 0;
+    
+    // Validation issues take priority over scheduled status
+    const validationBgClass = hasValidationIssues ? 'bg-yellow-100 border-yellow-300 hover:bg-yellow-200' : '';
     
     return {
       completedSource,
       isEffectivelyCompleted,
       isDirectlyCompleted,
-      isScheduled
+      isScheduled,
+      courseErrors,
+      hasValidationIssues,
+      validationBgClass
     };
   }
 
@@ -114,7 +122,11 @@ export class MajorRequirementsService {
    * Get CSS classes for group course display
    */
   getGroupCourseDisplayClasses(courseStatus: ReturnType<typeof this.getGroupCourseStatus>) {
-    const { isEffectivelyCompleted, isScheduled } = courseStatus;
+    const { validationBgClass, isEffectivelyCompleted, isScheduled } = courseStatus;
+    
+    if (validationBgClass) {
+      return validationBgClass;
+    }
     
     if (isEffectivelyCompleted) {
       return 'bg-green-100 hover:bg-green-200 border-green-200';
@@ -124,7 +136,7 @@ export class MajorRequirementsService {
       return 'bg-purple-100 border-purple-300 hover:bg-purple-200';
     }
     
-    return 'bg-white hover:bg-gray-50 border-gray-200';
+    return 'bg-gray-50 hover:bg-gray-100 border-gray-200';
   }
 }
 
