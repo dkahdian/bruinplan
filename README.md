@@ -47,7 +47,7 @@ UCLA's current Degree Audit Reporting System (DARS) provides dense, hard-to-inte
 - [x] **Department and course filtering** UI
 - [x] **Quarter-by-quarter planning interface** with drag-and-drop scheduling
 - [x] **Data expansion**: All UCLA departments and subjects now included (168 subject files in `static/courses/`)
-- [ ] **Essential pages** (About, Help, etc.)
+- [x] **Essential pages** (About, Help, Report Bug)
 
 ### Phase 2: Enhanced User Experience
 - [ ] Mobile responsiveness and improved UI/UX
