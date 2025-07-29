@@ -25,6 +25,7 @@ jobs:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           npm run build
+          cp build/404.html build/index.html
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
