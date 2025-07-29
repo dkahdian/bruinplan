@@ -4,6 +4,7 @@
 -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 	import type { Major, Course } from '../../../lib/types.js';
 	import { getAllMajorCourses, calculateRequiredCourseCount, loadMajorCourses } from '../../../lib/data-layer/api.js';
 	import { courseMapStore } from '../../../lib/services/shared/coursesStore.js';
@@ -164,7 +165,7 @@
 	<!-- Major Header -->
 	<div class="mb-8">
 		<nav class="text-sm breadcrumbs mb-4">
-			<a href="/majors" class="text-blue-600 hover:text-blue-800">← All Majors</a>
+			<a href="{base}/majors" class="text-blue-600 hover:text-blue-800">← All Majors</a>
 		</nav>
 		
 		<h1 class="text-3xl font-bold mb-4">{major.name}</h1>

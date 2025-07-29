@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 	import Footer from '../lib/components/shared/Footer.svelte';
 	
 	// Add some subtle animations on mount
@@ -54,7 +55,7 @@
 			<!-- Major Planning Card -->
 			<div class="group relative">
 				<div class="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-				<a href="/majors" class="relative block">
+				<a href="{base}/majors" class="relative block">
 					<div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
 						<div class="flex items-center justify-between mb-6">
 							<div class="bg-blue-100 rounded-full p-4">
@@ -85,7 +86,7 @@
 			<!-- Course Prerequisites Card -->
 			<div class="group relative">
 				<div class="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-				<a href="/courses" class="relative block">
+				<a href="{base}/courses" class="relative block">
 					<div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
 						<div class="flex items-center justify-between mb-6">
 							<div class="bg-purple-100 rounded-full p-4">

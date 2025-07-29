@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import Footer from '../../lib/components/shared/Footer.svelte';
 </script>
 
@@ -63,7 +64,7 @@
 						<p class="text-blue-700 mb-3">
 							Use the interactive graphs to explore course prerequisites. Click on any course to see its prerequisite chain.
 						</p>
-						<a href="/courses" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+						<a href="{base}/courses" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
 							Explore Course Prerequisites →
 						</a>
 					</div>
@@ -78,7 +79,7 @@
 						<p class="text-purple-700 mb-3">
 							Browse major requirements, track your progress, and plan your course sequence with our quarter-by-quarter planner.
 						</p>
-						<a href="/majors" class="text-purple-600 hover:text-purple-800 text-sm font-medium">
+						<a href="{base}/majors" class="text-purple-600 hover:text-purple-800 text-sm font-medium">
 							Explore Majors →
 						</a>
 					</div>
@@ -108,7 +109,7 @@
 						<p class="text-yellow-700 mb-3">
 							Experiencing bugs or technical problems? Report them to help us improve BruinPlan for everyone.
 						</p>
-						<a href="/report-bug" class="text-yellow-600 hover:text-yellow-800 text-sm font-medium">
+						<a href="{base}/report-bug" class="text-yellow-600 hover:text-yellow-800 text-sm font-medium">
 							Report a Bug →
 						</a>
 					</div>
@@ -117,7 +118,7 @@
 
 			<!-- Navigation Back -->
 			<div class="text-center pt-8 border-t border-gray-200">
-				<a href="/" class="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors">
+				<a href="{base}/" class="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors">
 					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
 					</svg>

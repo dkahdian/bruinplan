@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Course } from '../../types.js';
   import { searchCoursesNew } from '../../services/shared/search.js';
+  import { base } from '$app/paths';
 
   export let courseId: string;
   export let title: string;
@@ -137,7 +138,7 @@
     
     <!-- Back to Course Search Button -->
     <a 
-      href="/courses"
+      href="{base}/courses"
       class="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 hover:bg-purple-200 text-purple-700 hover:text-purple-800 transition-colors rounded-lg border border-purple-300 text-sm font-medium"
     >
       <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

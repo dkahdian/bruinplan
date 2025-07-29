@@ -1,6 +1,7 @@
 <!-- CourseNavigationHeader.svelte -->
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 	import type { Course } from '../../types.js';
 	import { searchCoursesNew } from '../../services/shared/search.js';
 
@@ -51,7 +52,7 @@
 		const urlCourseId = course.id.replace(/[^A-Z0-9]/g, '');
 		
 		// Navigate to the course page using SvelteKit's goto
-		goto(`/courses/${urlCourseId}`);
+		goto(`${base}/courses/${urlCourseId}`);
 		
 		// Close search
 		isSearchExpanded = false;
@@ -92,13 +93,13 @@
 				<!-- Right side: Navigation links (close to the left content) -->
 				<div class="flex items-center gap-4 ml-6">
 					<a
-						href="/courses"
+						href="{base}/courses"
 						class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline transition-colors"
 					>
 						Back to all courses
 					</a>
 					<a
-						href="/majors"
+						href="{base}/majors"
 						class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline transition-colors"
 					>
 						See majors

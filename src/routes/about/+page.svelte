@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import Footer from '../../lib/components/shared/Footer.svelte';
 </script>
 
@@ -122,7 +123,7 @@
 
 			<!-- Navigation Back -->
 			<div class="text-center pt-8 border-t border-gray-200">
-				<a href="/" class="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors">
+				<a href="{base}/" class="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors">
 					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
 					</svg>

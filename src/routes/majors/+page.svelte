@@ -4,6 +4,7 @@
 -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 	import { majorNameToId } from '../../lib/data-layer/api.js';
 	import Footer from '../../lib/components/shared/Footer.svelte';
 	import type { MajorInfo } from '../../lib/types.js';
@@ -81,7 +82,7 @@
 				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 					{#each collegeMajors as major}
 						<a
-							href="/majors/{majorNameToId(major.name)}"
+							href="{base}/majors/{majorNameToId(major.name)}"
 							class="block p-4 border border-gray-200 rounded-lg hover:bg-blue-50 hover:border-blue-300 transition-colors"
 						>
 							<h3 class="font-medium text-lg mb-2">{major.name}</h3>

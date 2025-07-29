@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import Footer from '../../lib/components/shared/Footer.svelte';
 </script>
 
@@ -173,14 +174,14 @@
 
 			<!-- Navigation Links -->
 			<div class="flex flex-col sm:flex-row justify-center items-center gap-6 pt-8 border-t border-gray-200">
-				<a href="/" class="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors">
+				<a href="{base}/" class="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors">
 					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
 					</svg>
 					<span>Back to Home</span>
 				</a>
 				<div class="hidden sm:block text-gray-400">•</div>
-				<a href="/help" class="inline-flex items-center space-x-2 text-purple-600 hover:text-purple-800 transition-colors">
+				<a href="{base}/help" class="inline-flex items-center space-x-2 text-purple-600 hover:text-purple-800 transition-colors">
 					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
 					</svg>

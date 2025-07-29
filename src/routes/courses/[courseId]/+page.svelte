@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
+  import { base } from '$app/paths';
   import PrerequisiteGraph from '../../../lib/components/graph/PrerequisiteGraph.svelte';
   import CourseDetails from '../../../lib/components/course/CourseDetails.svelte';
   import CourseNavigationHeader from '../../../lib/components/course/CourseNavigationHeader.svelte';
@@ -95,7 +96,7 @@
   function onPrerequisiteClick(courseId: string) {
     // Navigate to the clicked course's prerequisite page using proper URL format
     const urlCourseId = courseId.replace(/[^A-Z0-9]/g, '');
-    goto(`/courses/${urlCourseId}`);
+    goto(`${base}/courses/${urlCourseId}`);
   }
 
   // Handle course selection from graph
