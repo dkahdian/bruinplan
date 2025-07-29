@@ -4,6 +4,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const isDev = process.env.NODE_ENV === 'development';
 const adapter = isDev ? adapterAuto : adapterStatic;
+
 /** @type {import('@sveltejs/kit').Config} */
 export default {
   preprocess: vitePreprocess(),
@@ -11,10 +12,8 @@ export default {
     adapter: adapter({
       fallback: 'index.html'
     }),
-    ...(!isDev && {
-      paths: {
-        base: '/bruinplan'
-      }
-    })
+    paths: {
+      base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+    }
   }
 };
