@@ -11,7 +11,9 @@
 				const redirect = url.searchParams.get('redirect');
 				if (redirect) {
 					url.searchParams.delete('redirect');
-					window.history.replaceState(null, '', redirect + url.search);
+					// Ensure the redirect includes the base path
+					const newPath = '/bruinplan' + redirect + url.search;
+					window.history.replaceState(null, '', newPath);
 				}
 			})();
 		</script>

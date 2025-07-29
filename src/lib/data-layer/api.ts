@@ -1,6 +1,7 @@
 // Data layer API for BruinPlan
 import type { CourseIndex, MajorIndex, Course, Major, CourseRequirement, MajorRequirement } from '../types.js';
 import { browser } from '$app/environment';
+import { base } from '$app/paths';
 
 // In-memory caches
 let courseIndex: CourseIndex[] | null = null;
@@ -15,7 +16,7 @@ export async function getCourseIndex(fetchFn?: typeof globalThis.fetch): Promise
 	if (courseIndex !== null) return courseIndex;
 	
 	const fetchToUse = fetchFn || fetch;
-	const baseUrl = browser ? '' : 'http://localhost:5173';
+	const baseUrl = browser ? base : 'http://localhost:5173';
 	const response = await fetchToUse(`${baseUrl}/course_index.json`);
 	if (!response.ok) throw new Error(`Failed to load course index: ${response.status}`);
 	courseIndex = await response.json();
@@ -41,7 +42,7 @@ export async function getMajorIndex(fetchFn?: typeof globalThis.fetch): Promise<
 	if (majorIndex !== null) return majorIndex;
 	
 	const fetchToUse = fetchFn || fetch;
-	const baseUrl = browser ? '' : 'http://localhost:5173';
+	const baseUrl = browser ? base : 'http://localhost:5173';
 	const response = await fetchToUse(`${baseUrl}/major_index.json`);
 	if (!response.ok) throw new Error(`Failed to load major index: ${response.status}`);
 	majorIndex = await response.json();
@@ -69,7 +70,7 @@ export async function getSubjectCourses(subjectCode: string, fetchFn?: typeof gl
 	// The Vite dev server expects the actual filename, not URL-encoded
 	
 	// Use absolute URL when not in browser (SSR context)
-	const baseUrl = browser ? '' : 'http://localhost:5173';
+	const baseUrl = browser ? base : 'http://localhost:5173';
 	const url = `${baseUrl}/courses/${subjectCode}.json`;
 	const response = await fetchToUse(url);
 	
@@ -106,7 +107,7 @@ export async function getMajorByName(majorName: string, fetchFn?: typeof globalT
 	const fetchToUse = fetchFn || fetch;
 	// URL encode the major name to handle spaces and special characters
 	const encodedMajorName = encodeURIComponent(majorName);
-	const baseUrl = browser ? '' : 'http://localhost:5173';
+	const baseUrl = browser ? base : 'http://localhost:5173';
 	const response = await fetchToUse(`${baseUrl}/majors/${encodedMajorName}.json`);
 	if (!response.ok) throw new Error(`Major ${majorName} not found: ${response.status}`);
 	
