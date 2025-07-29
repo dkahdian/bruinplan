@@ -43,9 +43,11 @@
 	
 	// Collapsible state management
 	let collapsedSections = new Set<string>();
+	let autoCollapsedSections = new Set<string>(); // Track which sections were auto-collapsed
+	let hasInitialized = false; // Track if we've done initial setup
 	
-	// Initialize collapsed sections for large groups (>20 courses)
-	$: {
+	// Initialize collapsed sections for large groups (>20 courses) - only run once
+	$: if (!hasInitialized && requirements.length > 0) {
 		const newCollapsedSections = new Set<string>();
 		
 		// Check each requirement and auto-collapse if it has more than 20 courses/sub-groups
@@ -62,12 +64,9 @@
 			}
 		}
 		
-		// Only update if there are changes to avoid infinite reactivity
-		const currentIds = Array.from(collapsedSections).sort();
-		const newIds = Array.from(newCollapsedSections).sort();
-		if (JSON.stringify(currentIds) !== JSON.stringify(newIds)) {
-			collapsedSections = newCollapsedSections;
-		}
+		collapsedSections = newCollapsedSections;
+		autoCollapsedSections = new Set(newCollapsedSections);
+		hasInitialized = true;
 	}
 	
 	function toggleCollapse(requirementId: string) {
@@ -76,7 +75,9 @@
 		} else {
 			collapsedSections.add(requirementId);
 		}
-		collapsedSections = collapsedSections; // Trigger reactivity
+		
+		// Create a new Set to trigger reactivity
+		collapsedSections = new Set(collapsedSections);
 	}
 	
 	// Subscribe to stores to ensure reactivity
