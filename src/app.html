@@ -4,6 +4,17 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+			// Handle GitHub Pages SPA redirect
+			(function() {
+				const url = new URL(window.location);
+				const redirect = url.searchParams.get('redirect');
+				if (redirect) {
+					url.searchParams.delete('redirect');
+					window.history.replaceState(null, '', redirect + url.search);
+				}
+			})();
+		</script>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">

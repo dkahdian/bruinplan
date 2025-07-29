@@ -10,7 +10,8 @@ export default {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
-      fallback: 'index.html'
+      fallback: '404.html',
+      precompress: false
     }),
     paths: {
       base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
