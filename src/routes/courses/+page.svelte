@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { searchCoursesNew } from '../../lib/services/shared/search.js';
 	import Footer from '../../lib/components/shared/Footer.svelte';
 	import type { Course } from '../../lib/types.js';
@@ -46,7 +47,7 @@
 		// Remove spaces from course ID for URL compatibility
 		const urlSafeCourseId = courseId.replace(/[^A-Z0-9]/g, '');
 		// Navigate to the new course page
-		window.location.href = `/courses/${urlSafeCourseId}`;
+		window.location.href = `${base}/courses/${urlSafeCourseId}`;
 	}
 </script>
 

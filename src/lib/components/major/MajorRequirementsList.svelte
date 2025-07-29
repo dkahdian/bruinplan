@@ -18,6 +18,7 @@
 	} from '../../services/schedulingServices.js';
 	import ValidationIndicator from '../shared/ValidationIndicator.svelte';
 	import StatusIndicator from './StatusIndicator.svelte';
+	import { base } from '$app/paths';
 	
 	export let requirements: MajorRequirement[];
 	export let courseMap: Map<string, Course>;
@@ -178,7 +179,7 @@
 						<!-- Course ID - links to prerequisite tree -->
 						<button
 							class="text-blue-600 hover:text-blue-800 font-medium cursor-pointer px-2 py-1 rounded-md hover:bg-blue-100 hover:shadow-sm transition-all duration-200"
-							on:click|stopPropagation={() => window.open(`/courses/${requirement.courseId.replace(/[^A-Z0-9]/g, '')}`, '_blank')}
+							on:click|stopPropagation={() => window.open(`${base}/courses/${requirement.courseId.replace(/[^A-Z0-9]/g, '')}`, '_blank')}
 							title="View {requirement.courseId} prerequisites and details (opens in new tab)"
 						>
 							{requirement.courseId}{#if !useCompactLayout && courseMap.has(requirement.courseId)}: {courseMap.get(requirement.courseId)?.title}{/if}
@@ -198,7 +199,7 @@
 						{#if courseStatus.completedSource !== null && courseStatus.completedSource !== requirement.courseId}
 							<button
 								class="text-xs text-green-600 font-medium bg-green-50 px-2 py-1 rounded mt-1 hover:bg-green-200 hover:shadow-sm transition-all duration-200 cursor-pointer via-button"
-								on:click|stopPropagation={() => window.open(`/courses/${courseStatus.completedSource?.replace(/[^A-Z0-9]/g, '') || ''}`, '_blank')}
+								on:click|stopPropagation={() => window.open(`${base}/courses/${courseStatus.completedSource?.replace(/[^A-Z0-9]/g, '') || ''}`, '_blank')}
 								title="View {courseStatus.completedSource} prerequisites and details (opens in new tab)"
 			>
 				✓ Via: {courseStatus.completedSource}
@@ -348,7 +349,7 @@
 									<!-- Course ID - links to prerequisite tree -->
 									<button
 										class="text-blue-600 hover:text-blue-800 text-sm cursor-pointer px-2 py-1 rounded-md hover:bg-blue-100 hover:shadow-sm transition-all duration-200"
-										on:click|stopPropagation={() => window.open(`/courses/${option.courseId.replace(/[^A-Z0-9]/g, '')}`, '_blank')}
+										on:click|stopPropagation={() => window.open(`${base}/courses/${option.courseId.replace(/[^A-Z0-9]/g, '')}`, '_blank')}
 										title="View {option.courseId} prerequisites and details (opens in new tab)"
 									>
 										{option.courseId}{#if !shouldUseCompact && courseMap.has(option.courseId)}: {courseMap.get(option.courseId)?.title}{/if}
@@ -365,7 +366,7 @@
 									{#if courseStatus.isEffectivelyCompleted && courseStatus.completedSource !== option.courseId}
 										<button
 											class="text-xs text-green-600 font-medium bg-green-50 px-2 py-1 rounded hover:bg-green-200 hover:shadow-sm transition-all duration-200 cursor-pointer via-button"
-											on:click|stopPropagation={() => window.open(`/courses/${courseStatus.completedSource?.replace(/[^A-Z0-9]/g, '') || ''}`, '_blank')}
+											on:click|stopPropagation={() => window.open(`${base}/courses/${courseStatus.completedSource?.replace(/[^A-Z0-9]/g, '') || ''}`, '_blank')}
 											title="View {courseStatus.completedSource} prerequisites and details (opens in new tab)"
 										>
 											✓ Via: {courseStatus.completedSource}

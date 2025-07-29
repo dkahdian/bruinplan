@@ -14,6 +14,7 @@
 	} from '../../services/schedulingServices.js';
 	import CourseSearchButton from '../shared/CourseSearchButton.svelte';
 	import ValidationIndicator from '../shared/ValidationIndicator.svelte';
+	import { base } from '$app/paths';
 	import type { Course } from '../../types.js';
 
 	export let quarterCode: number;
@@ -198,7 +199,7 @@
 						<div class="flex items-center justify-between">
 							<div class="flex items-center gap-2">
 								<a
-									href={`/courses/${courseItem.id.replace(/[^A-Z0-9]/g, '')}`}
+									href={`${base}/courses/${courseItem.id.replace(/[^A-Z0-9]/g, '')}`}
 									class="font-medium text-sm text-purple-800 hover:text-blue-800 flex items-center gap-1"
 									title="View prerequisites for {courseItem.id}"
 									target="_blank"

@@ -51,7 +51,7 @@
     // Remove spaces from course ID for URL compatibility
     const urlSafeCourseId = selectedCourseId.replace(/[^A-Z0-9]/g, '');
     // Navigate to the new course page
-    window.location.href = `/courses/${urlSafeCourseId}`;
+    window.location.href = `${base}/courses/${urlSafeCourseId}`;
   }
   
   // Close search dropdown when clicking outside
