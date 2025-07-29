@@ -86,9 +86,9 @@
 			grouped[quarter] = [];
 		});
 		
-		// Group courses by their assigned quarters, only include courses from this major
+		// Group courses by their assigned quarters
 		for (const [courseId, quarterCode] of Object.entries(schedules)) {
-			if (majorCourses.includes(courseId) && quarterCode > 0 && quarterCode !== 1) {
+			if (quarterCode > 0 && quarterCode !== 1) {
 				// Only include courses that are scheduled (not completed=1 or unscheduled=0)
 				if (!grouped[quarterCode]) {
 					grouped[quarterCode] = [];

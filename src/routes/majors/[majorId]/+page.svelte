@@ -6,7 +6,7 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import type { Major, Course } from '../../../lib/types.js';
-	import { getAllMajorCourses, calculateRequiredCourseCount, loadMajorCourses } from '../../../lib/data-layer/api.js';
+	import { getAllMajorCourses, calculateRequiredCourseCount, loadMajorCourses, getCourseById } from '../../../lib/data-layer/api.js';
 	import { courseMapStore } from '../../../lib/services/shared/coursesStore.js';
 	import { 
 		schedulingService, 
@@ -34,6 +34,31 @@
 	// Calculate actual required course count (accounts for group needs)
 	$: totalRequiredCourses = calculateRequiredCourseCount(major);
 	
+	// Function to load additional scheduled courses that aren't in the major
+	async function loadAdditionalScheduledCourses(schedules: Record<string, number>) {
+		const scheduledCourseIds = Object.keys(schedules).filter(courseId => 
+			schedules[courseId] > 0 && !majorCourseMap.has(courseId)
+		);
+		
+		if (scheduledCourseIds.length === 0) return;
+		
+		const newCourseMap = new Map(majorCourseMap);
+		
+		for (const courseId of scheduledCourseIds) {
+			try {
+				const course = await getCourseById(courseId);
+				if (course) {
+					newCourseMap.set(courseId, course);
+				}
+			} catch (error) {
+				console.warn(`Failed to load course ${courseId}:`, error);
+			}
+		}
+		
+		// Trigger reactivity by creating a new Map
+		majorCourseMap = newCourseMap;
+	}
+	
 	// Load completion data and initialize course map for this major only
 	onMount(async () => {
 		initializeSchedulingService();
@@ -41,6 +66,9 @@
 		try {
 			// Load only the courses needed for this specific major
 			majorCourseMap = await loadMajorCourses(major);
+			
+			// Load additional scheduled courses that aren't part of this major
+			await loadAdditionalScheduledCourses($courseSchedulesStore);
 			
 			// Also populate the global course map store for validation services
 			courseMapStore.set(majorCourseMap);
@@ -51,6 +79,14 @@
 			coursesLoaded = true; // Set to true even on error to show the UI
 		}
 	});
+	
+	// Reactively load new courses when schedules change
+	$: if (coursesLoaded && $courseSchedulesStore) {
+		loadAdditionalScheduledCourses($courseSchedulesStore).then(() => {
+			// Update the global store with new courses (majorCourseMap is already updated in the function)
+			courseMapStore.set(new Map(majorCourseMap));
+		});
+	}
 
 	// Helper function to check if a course is effectively completed using our local course map
 	function isCourseEffectivelyCompleted(courseId: string): boolean {
