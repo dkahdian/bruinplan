@@ -5,7 +5,6 @@
   import PrerequisiteGraph from '../../../lib/components/graph/PrerequisiteGraph.svelte';
   import CourseDetails from '../../../lib/components/course/CourseDetails.svelte';
   import CourseNavigationHeader from '../../../lib/components/course/CourseNavigationHeader.svelte';
-  import ValidationIndicator from '../../../lib/components/shared/ValidationIndicator.svelte';
   import ResizeHandle from '../../../lib/components/shared/ResizeHandle.svelte';
 
   import { 
@@ -195,11 +194,5 @@
   .course-details {
     flex: 1;
     overflow: hidden;
-  }
-
-  .loading-message {
-    padding: 2rem;
-    text-align: center;
-    color: #6b7280;
   }
 </style>
