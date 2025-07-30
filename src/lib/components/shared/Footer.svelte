@@ -7,7 +7,7 @@
 		<div class="text-center">
 			<h3 class="text-2xl font-bold mb-4">BruinPlan</h3>
 			<p class="text-gray-400 mb-6 max-w-2xl mx-auto">
-				Empowering UCLA students to navigate their academic journey with clarity and confidence.
+				Plan your courses with ease.
 			</p>
 			
 			<!-- Footer Navigation Links -->

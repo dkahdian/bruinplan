@@ -8,15 +8,15 @@
 	<meta name="description" content="Report bugs and technical issues to help improve BruinPlan for all UCLA students." />
 </svelte:head>
 
-<div class="min-h-screen bg-gradient-to-br from-red-50 via-white to-orange-50">
+<div class="min-h-screen bg-gradient-to-br from-yellow-50 via-white to-amber-50">
 	<!-- Header -->
-	<div class="bg-gradient-to-r from-red-600 to-orange-600 text-white">
+	<div class="bg-gradient-to-r from-yellow-600 to-amber-600 text-white">
 		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
 			<div class="text-center">
 				<h1 class="text-4xl sm:text-5xl font-bold mb-4">
 					Report a <span class="bg-gradient-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">Bug</span>
 				</h1>
-				<p class="text-xl text-red-100 max-w-2xl mx-auto">
+				<p class="text-xl text-yellow-100 max-w-2xl mx-auto">
 					Help us improve BruinPlan by reporting any issues you encounter
 				</p>
 			</div>
@@ -29,9 +29,9 @@
 			
 			<!-- Intro Section -->
 			<section class="text-center mb-12">
-				<div class="bg-gradient-to-r from-red-50 to-orange-50 rounded-xl p-8 mb-8">
-					<div class="bg-red-100 rounded-full p-4 w-16 h-16 mx-auto mb-6">
-						<svg class="w-8 h-8 text-red-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+				<div class="bg-gradient-to-r from-yellow-50 to-amber-50 rounded-xl p-8 mb-8">
+					<div class="bg-yellow-100 rounded-full p-4 w-16 h-16 mx-auto mb-6">
+						<svg class="w-8 h-8 text-yellow-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 15.5c-.77.833.192 2.5 1.732 2.5z"></path>
 						</svg>
 					</div>
@@ -58,7 +58,7 @@
 						Email us directly with details about the bug you encountered:
 					</p>
 					<div class="bg-white rounded-lg p-4 border border-gray-200 mb-4">
-						<p class="text-lg font-mono text-blue-600">[TODO: Add bug report email address]</p>
+						<p class="text-lg font-mono text-blue-600">bugs@bruinplan.com</p>
 					</div>
 				</div>
 
@@ -136,9 +136,9 @@
 							If your completed courses aren't being remembered, check if cookies/localStorage are enabled in your browser.
 						</p>
 					</div>
-					<div class="bg-red-50 rounded-lg p-6 border border-red-200">
-						<h3 class="text-lg font-semibold text-red-800 mb-2">Page Crashes</h3>
-						<p class="text-red-700 text-sm">
+					<div class="bg-yellow-50 rounded-lg p-6 border border-yellow-200">
+						<h3 class="text-lg font-semibold text-yellow-800 mb-2">Page Crashes</h3>
+						<p class="text-yellow-700 text-sm">
 							If BruinPlan becomes unresponsive, please include your browser's developer console errors in your report.
 						</p>
 					</div>

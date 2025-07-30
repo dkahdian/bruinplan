@@ -6,6 +6,7 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import { majorNameToId } from '../../lib/data-layer/api.js';
+	import { recentlyVisitedMajorsService } from '../../lib/services/shared/recentlyVisitedMajors.js';
 	import Footer from '../../lib/components/shared/Footer.svelte';
 	import type { MajorInfo } from '../../lib/types.js';
 
@@ -14,6 +15,12 @@
 	$: majors = data.majors;
 	
 	let searchQuery = '';
+	let recentMajors: Array<{id: string; name: string; school: string; department: string; visitedAt: number}> = [];
+
+	// Load recently visited majors on mount
+	onMount(() => {
+		recentMajors = recentlyVisitedMajorsService.getRecentMajors();
+	});
 
 	// Filter majors based on search query
 	$: filteredMajors = majors.filter(major => 
@@ -31,6 +38,9 @@
 		acc[college].push(major);
 		return acc;
 	}, {} as Record<string, MajorInfo[]>);
+
+	// Show recently visited section only when search is empty
+	$: showRecentlyVisited = !searchQuery.trim() && recentMajors.length > 0;
 </script>
 
 <svelte:head>
@@ -38,64 +48,90 @@
 	<meta name="description" content="Browse all UCLA undergraduate majors and their requirements" />
 </svelte:head>
 
-<div class="container mx-auto px-4 py-8">
-	<!-- Title and search bar on the same line -->
-	<div class="flex flex-col md:flex-row md:items-center md:justify-between mb-8 gap-4">
-		<h1 class="text-3xl font-bold">UCLA Undergraduate Majors</h1>
-		
-		<!-- Search bar -->
-		<div class="relative md:w-96">
-			<input
-				type="text"
-				placeholder="Search majors, colleges, or departments..."
-				bind:value={searchQuery}
-				class="w-full px-4 py-3 pl-10 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-			/>
-			<svg 
-				class="absolute left-3 top-3.5 h-5 w-5 text-gray-400" 
-				fill="none" 
-				stroke="currentColor" 
-				viewBox="0 0 24 24"
-			>
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-			</svg>
+<!-- Page with blue gradient background -->
+<div class="min-h-screen bg-gradient-to-br from-blue-600 to-blue-200">
+	<div class="container mx-auto px-4 py-8">
+		<!-- Title and search bar -->
+		<div class="flex flex-col md:flex-row md:items-center md:justify-between mb-8 gap-4">
+			<h1 class="text-3xl font-bold text-blue-1-00">UCLA Undergraduate Majors</h1>
+			
+			<!-- Search bar with light blue background -->
+			<div class="relative md:w-96">
+				<input
+					type="text"
+					placeholder="Search majors, colleges, or departments..."
+					bind:value={searchQuery}
+					class="w-full px-4 py-3 pl-10 bg-blue-50 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-transparent text-gray-800 placeholder-gray-500"
+				/>
+				<svg 
+					class="absolute left-3 top-3.5 h-5 w-5 text-gray-400" 
+					fill="none" 
+					stroke="currentColor" 
+					viewBox="0 0 24 24"
+				>
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+				</svg>
+			</div>
 		</div>
-	</div>
 
-	{#if filteredMajors.length === 0}
-		{#if searchQuery}
-			<div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-				No majors found matching "{searchQuery}". Try a different search term.
-			</div>
-		{:else}
-			<div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-				No majors found. Please ensure major data files are available.
-			</div>
-		{/if}
-	{:else}
-		<!-- Major list organized by college -->
-		{#each Object.entries(majorsByCollege) as [college, collegeMajors]}
+		<!-- Recently Visited Section -->
+		{#if showRecentlyVisited}
 			<section class="mb-8">
-				<h2 class="text-2xl font-semibold mb-4 border-b border-gray-300 pb-2">
-					{college}
+				<h2 class="text-2xl font-semibold mb-4 text-blue-1000 border-b border-blue-300 pb-2">
+					Recently Visited
 				</h2>
 				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-					{#each collegeMajors as major}
+					{#each recentMajors as recentMajor}
 						<a
-							href="{base}/majors/{majorNameToId(major.name)}"
-							class="block p-4 border border-gray-200 rounded-lg hover:bg-blue-50 hover:border-blue-300 transition-colors"
+							href="{base}/majors/{recentMajor.id}"
+							class="block p-4 bg-gradient-to-r from-yellow-100 to-yellow-500 border border-yellow-300 rounded-lg hover:from-yellow-200 hover:to-yellow-300 hover:border-yellow-400 transition-all duration-200 shadow-sm hover:shadow-md"
 						>
-							<h3 class="font-medium text-lg mb-2">{major.name}</h3>
-							{#if major.department}
-								<p class="text-sm text-gray-600 mb-1">Department: {major.department}</p>
+							<h3 class="font-medium text-lg mb-2 text-gray-800">{recentMajor.name}</h3>
+							{#if recentMajor.department}
+								<p class="text-sm text-gray-600 mb-1">Department: {recentMajor.department}</p>
 							{/if}
-							<p class="text-sm text-blue-600">{major.degreeObjective}</p>
+							<p class="text-sm text-yellow-800">{recentMajor.school}</p>
 						</a>
 					{/each}
 				</div>
 			</section>
-		{/each}
-	{/if}
-</div>
+		{/if}
 
-<Footer />
+		{#if filteredMajors.length === 0}
+			{#if searchQuery}
+				<div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
+					No majors found matching "{searchQuery}". Try a different search term.
+				</div>
+			{:else}
+				<div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
+					No majors found. Please ensure major data files are available.
+				</div>
+			{/if}
+		{:else}
+			<!-- Major list organized by college -->
+			{#each Object.entries(majorsByCollege) as [college, collegeMajors]}
+				<section class="mb-8">
+					<h2 class="text-2xl font-semibold mb-4 text-blue-1000 border-b border-blue-300 pb-2">
+						{college}
+					</h2>
+					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+						{#each collegeMajors as major}
+							<a
+								href="{base}/majors/{majorNameToId(major.name)}"
+								class="block p-4 bg-gradient-to-r from-yellow-100 to-yellow-300 border border-yellow-700 rounded-lg hover:from-yellow-200 hover:to-yellow-500 hover:border-yellow-400 transition-all duration-200 shadow-sm hover:shadow-md"
+							>
+								<h3 class="font-medium text-lg mb-2 text-gray-800">{major.name}</h3>
+								{#if major.department}
+									<p class="text-sm text-gray-600 mb-1">Department: {major.department}</p>
+								{/if}
+								<p class="text-sm text-yellow-800">{major.degreeObjective}</p>
+							</a>
+						{/each}
+					</div>
+				</section>
+			{/each}
+		{/if}
+	</div>
+
+	<Footer />
+</div>

@@ -17,7 +17,7 @@
 					About <span class="bg-gradient-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">BruinPlan</span>
 				</h1>
 				<p class="text-xl text-blue-100 max-w-2xl mx-auto">
-					Empowering UCLA students to navigate their academic journey with clarity and confidence
+					Plan your courses with ease.
 				</p>
 			</div>
 		</div>
@@ -32,12 +32,14 @@
 				<h2 class="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
 				<div class="prose prose-lg text-gray-600 leading-relaxed">
 					<p class="mb-6">
-						TODO: Add mission statement here - focusing on helping UCLA students plan their academic journey, 
-						making degree requirements more accessible, and providing better tools than traditional DARS systems
+						BruinPlan empowers UCLA students to navigate their academic journey with clarity and confidence. 
+						We make degree requirements more accessible and provide intuitive tools that surpass traditional DARS systems, 
+						helping students understand complex course pathways and make informed decisions about their education.
 					</p>
 					<p class="mb-6">
-						TODO: Expand on the vision of making academic planning intuitive and visual, 
-						helping students understand complex prerequisites and degree requirements
+						Our vision is to transform academic planning from a confusing, stressful process into an intuitive and visual experience. 
+						We believe students should easily understand prerequisite chains, explore academic paths, and visualize their progress 
+						toward graduation—all through modern, interactive tools designed specifically for the UCLA community.
 					</p>
 				</div>
 			</section>
@@ -94,8 +96,10 @@
 				<h2 class="text-3xl font-bold text-gray-900 mb-6">Our Values</h2>
 				<div class="prose prose-lg text-gray-600 leading-relaxed">
 					<p class="mb-6">
-						[TODO: Add core values such as accessibility, transparency, student empowerment, 
-						open-source collaboration, etc.]
+						<strong>Accessibility:</strong> Academic planning tools should be available to every student, regardless of their background or technical expertise.<br><br>
+						<strong>Transparency:</strong> Course requirements and prerequisites should be clear, visual, and easy to understand.<br><br>
+						<strong>Student Empowerment:</strong> Students deserve tools that help them make informed decisions about their academic future.<br><br>
+						<strong>Open Source:</strong> Educational tools should be built collaboratively and shared freely with the community.
 					</p>
 				</div>
 			</section>

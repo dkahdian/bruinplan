@@ -42,7 +42,7 @@
 					</p>
 					<div class="bg-white rounded-lg p-6 border border-gray-200">
 						<p class="text-gray-700 mb-2">Email us directly at:</p>
-						<p class="text-lg font-mono text-blue-600 mb-4">TODO: Add support email address</p>
+						<p class="text-lg font-mono text-blue-600 mb-4">support@bruinplan.com</p>
 						<p class="text-sm text-gray-500">
 							We'll get back to you as soon as we can.
 						</p>

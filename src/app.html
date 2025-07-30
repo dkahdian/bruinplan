@@ -2,7 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="icon" type="image/x-icon" href="%sveltekit.assets%/favicon.ico" />
+		<link rel="icon" type="image/png" sizes="32x32" href="%sveltekit.assets%/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="%sveltekit.assets%/favicon-16x16.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="%sveltekit.assets%/apple-touch-icon.png" />
+		<link rel="manifest" href="%sveltekit.assets%/site.webmanifest" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<script>
 			// Handle GitHub Pages SPA redirect
@@ -11,9 +15,8 @@
 				const redirect = url.searchParams.get('redirect');
 				if (redirect) {
 					url.searchParams.delete('redirect');
-					// Ensure the redirect includes the base path
-					const newPath = '/bruinplan' + redirect + url.search;
-					window.history.replaceState(null, '', newPath);
+					// Replace the current state with the redirected path
+					window.history.replaceState(null, '', redirect + url.search);
 				}
 			})();
 		</script>

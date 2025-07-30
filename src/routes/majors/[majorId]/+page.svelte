@@ -8,6 +8,7 @@
 	import type { Major, Course } from '../../../lib/types.js';
 	import { getAllMajorCourses, calculateRequiredCourseCount, loadMajorCourses, getCourseById } from '../../../lib/data-layer/api.js';
 	import { courseMapStore } from '../../../lib/services/shared/coursesStore.js';
+	import { recentlyVisitedMajorsService } from '../../../lib/services/shared/recentlyVisitedMajors.js';
 	import { 
 		schedulingService, 
 		completedCoursesStore,
@@ -62,6 +63,14 @@
 	// Load completion data and initialize course map for this major only
 	onMount(async () => {
 		initializeSchedulingService();
+		
+		// Track this major as recently visited
+		recentlyVisitedMajorsService.addRecentMajor({
+			id: majorId,
+			name: major.name,
+			school: major.college,
+			department: major.department
+		});
 		
 		try {
 			// Load only the courses needed for this specific major
