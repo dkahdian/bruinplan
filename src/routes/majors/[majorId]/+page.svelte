@@ -228,15 +228,6 @@
 				</div>
 			</div>
 		</div>
-		
-		<!-- Quick Stats -->
-		<div class="flex flex-wrap items-center justify-between gap-4 mb-6">
-			<div class="flex flex-wrap gap-4 text-sm text-gray-600">
-				<span>{allCourses.length} total course references</span>
-				<span>{major.sections.length} sections</span>
-				<span>{actualCompletedCourses}/{totalRequiredCourses} courses required</span>
-			</div>
-		</div>
 	</div>
 	
 	<!-- Main Content - List View -->

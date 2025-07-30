@@ -1,4 +1,5 @@
-import { getCourseIndex } from '../../../lib/data-layer/api.js';
+import { getCourseIndex, getCourseById } from '../../../lib/data-layer/api.js';
+import { error } from '@sveltejs/kit';
 
 export const load = async ({ params, fetch, url }: { 
   params: { courseId: string }, 
@@ -29,11 +30,27 @@ export const load = async ({ params, fetch, url }: {
     courseId = params.courseId.replace(/([A-Z]+)(\d+)/, '$1 $2');
   }
   
-  // Get query parameters to determine what prerequisites to show
-  const showWarnings = url.searchParams.get('warnings') !== 'false';
-  
-  return {
-    courseId: courseId,
-    showWarnings
-  };
+  // Now load the actual course data
+  try {
+    const course = await getCourseById(courseId, fetch);
+    
+    if (!course) {
+      throw error(404, 'That course doesn\'t exist!');
+    }
+    
+    // Get query parameters to determine what prerequisites to show
+    const showWarnings = url.searchParams.get('warnings') !== 'false';
+    
+    return {
+      course,
+      courseId: courseId,
+      showWarnings
+    };
+  } catch (err) {
+    // Check if it's a SvelteKit HttpError
+    if (err && typeof err === 'object' && 'status' in err && 'body' in err) {
+      throw err; // Re-throw SvelteKit errors (HttpError)
+    }
+    throw error(500, 'Failed to load course data');
+  }
 };

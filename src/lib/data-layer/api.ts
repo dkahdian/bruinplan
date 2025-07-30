@@ -109,7 +109,13 @@ export async function getMajorByName(majorName: string, fetchFn?: typeof globalT
 	const encodedMajorName = encodeURIComponent(majorName);
 	const baseUrl = browser ? base : 'http://localhost:5173';
 	const response = await fetchToUse(`${baseUrl}/majors/${encodedMajorName}.json`);
-	if (!response.ok) throw new Error(`Major ${majorName} not found: ${response.status}`);
+	
+	if (!response.ok) {
+		if (response.status === 404) {
+			return undefined; // Return undefined for missing majors instead of throwing
+		}
+		throw new Error(`Failed to load major ${majorName}: ${response.status}`);
+	}
 	
 	const major: Major = await response.json();
 	majors.set(majorName, major);

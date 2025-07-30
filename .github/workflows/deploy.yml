@@ -22,7 +22,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/${{ github.event.repository.name }}'
+          BASE_PATH: 'https://bruinplan.com'
         run: |
           npm run build
           cp build/404.html build/index.html

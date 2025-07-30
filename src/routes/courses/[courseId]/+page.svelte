@@ -7,7 +7,7 @@
   import CourseNavigationHeader from '../../../lib/components/course/CourseNavigationHeader.svelte';
   import ValidationIndicator from '../../../lib/components/shared/ValidationIndicator.svelte';
   import ResizeHandle from '../../../lib/components/shared/ResizeHandle.svelte';
-  import { getCourseById } from '../../../lib/data-layer/api.js';
+
   import { 
     schedulingService, 
     courseCompletionService, 
@@ -18,11 +18,12 @@
   import type { Course, ValidationError } from '../../../lib/types.js';
 
   export let data: { 
+    course: Course;
     courseId: string; 
     showWarnings: boolean; 
   };
 
-  let course: Course | null = null;
+  let course: Course = data.course;
   let selectedCourse: Course | null = null; // Track the selected course from graph
   let courseMap = new Map<string, Course>();
   let graphWidthPercent = 65; // Default: 65% for graph, 35% for sidebar
@@ -35,24 +36,12 @@
   // Subscribe to validation errors
   $: validationErrors = $validationErrorsStore;
 
-  // React to changes in courseId - this makes the page load new course data when navigating
-  $: if (data.courseId) {
-    loadCourse(data.courseId);
-  }
-
-  // Load course data
-  async function loadCourse(courseId: string) {
-    try {
-      const loadedCourse = await getCourseById(courseId);
-      if (loadedCourse) {
-        course = loadedCourse;
-        courseMap.set(loadedCourse.id, loadedCourse);
-        // Reset selected course when loading new course
-        selectedCourse = null;
-      }
-    } catch (error) {
-      console.error('Failed to load course:', error);
-    }
+  // React to changes in course data from page loader
+  $: if (data.course) {
+    course = data.course;
+    courseMap.set(course.id, course);
+    // Reset selected course when loading new course
+    selectedCourse = null;
   }
 
   // Load course and initialize services
@@ -148,23 +137,19 @@
   <!-- Sidebar with course details -->
   <div class="sidebar-section" style="width: {100 - graphWidthPercent}%;">
     <div class="sidebar-content">
-      {#if course}
-        <!-- Course details -->
-        <div class="course-details flex-1">
-          <CourseDetails
-            displayedCourse={selectedCourse || course}
-            {selectedCourse}
-            isTransitioning={false}
-            {userCompletedCourses}
-            {courseMap}
-            {onCourseCompletionToggle}
-            {onQuarterChange}
-            {onPrerequisiteClick}
-          />
-        </div>
-      {:else}
-        <div class="loading-message">Loading course details...</div>
-      {/if}
+      <!-- Course details -->
+      <div class="course-details flex-1">
+        <CourseDetails
+          displayedCourse={selectedCourse || course}
+          {selectedCourse}
+          isTransitioning={false}
+          {userCompletedCourses}
+          {courseMap}
+          {onCourseCompletionToggle}
+          {onQuarterChange}
+          {onPrerequisiteClick}
+        />
+      </div>
     </div>
   </div>
 </div>

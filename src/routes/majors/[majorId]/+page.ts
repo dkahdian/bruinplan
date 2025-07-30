@@ -9,11 +9,13 @@ export const load = async ({ params, fetch }: { params: { majorId: string }, fet
 	}
 	
 	try {
+		console.log('Loading major:', majorId);
 		const major = await loadMajor(majorId, fetch);
+		console.log('Loaded major result:', major);
 		
 		if (!major) {
-			const displayName = majorIdToDisplayName(majorId);
-			throw error(404, `Major "${displayName}" not found`);
+			console.log('Major not found, throwing 404');
+			throw error(404, 'That major doesn\'t exist!');
 		}
 		
 		return {
@@ -22,8 +24,9 @@ export const load = async ({ params, fetch }: { params: { majorId: string }, fet
 		};
 	} catch (err) {
 		console.error('Error loading major:', err);
-		if (err instanceof Error && 'status' in err) {
-			throw err; // Re-throw SvelteKit errors
+		// Check if it's a SvelteKit HttpError
+		if (err && typeof err === 'object' && 'status' in err && 'body' in err) {
+			throw err; // Re-throw SvelteKit errors (HttpError)
 		}
 		throw error(500, 'Failed to load major data');
 	}
