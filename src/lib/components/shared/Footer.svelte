@@ -68,7 +68,7 @@
 			<div class="flex justify-center space-x-8 text-sm text-gray-400">
 				<span>© 2025 BruinPlan</span>
 				<span>•</span>
-				<span>UCLA Course Planning Tool</span>
+				<span>Not affiliated with UCLA</span>
 			</div>
 		</div>
 	</div>
