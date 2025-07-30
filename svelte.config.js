@@ -14,7 +14,7 @@ export default {
       precompress: false
     }),
     paths: {
-      base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+      base: process.env.BASE_PATH
     }
   }
 };
