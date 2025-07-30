@@ -73,14 +73,34 @@ export class MajorRequirementsService {
 
     const groupCourseIds = requirement.options.filter(option => option.type === 'course').map(option => option.courseId);
     
-    const groupCompletedCount = requirement.options.filter(option => 
-      option.type === 'course' && courseCompletionService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) !== null
-    ).length;
+    let groupCompletedCount = 0;
+    let groupScheduledCount = 0;
     
-    const groupScheduledCount = requirement.options.filter(option => 
-      option.type === 'course' && schedulingService.getSchedule(option.courseId) > 0 && 
-      courseCompletionService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) === null
-    ).length;
+    // Count completed/scheduled courses and fully completed/planned nested groups
+    for (const option of requirement.options) {
+      if (option.type === 'course') {
+        const isCompleted = courseCompletionService.getCompletedCourseOfGroupSource(option.courseId, groupCourseIds) !== null;
+        const isScheduled = schedulingService.getSchedule(option.courseId) > 0 && !isCompleted;
+        
+        if (isCompleted) {
+          groupCompletedCount++;
+        } else if (isScheduled) {
+          groupScheduledCount++;
+        }
+      } else if (option.type === 'group') {
+        // Recursively get stats for nested group
+        const nestedStats = this.getGroupStats(option);
+        
+        // If nested group is fully completed, count it as 1 completed item
+        if (nestedStats.groupCompletedProgress >= option.needs) {
+          groupCompletedCount++;
+        }
+        // If nested group is fully planned (completed + scheduled = needs), count as 1 planned item
+        else if (nestedStats.groupCompletedProgress + nestedStats.groupScheduledProgress >= option.needs) {
+          groupScheduledCount++;
+        }
+      }
+    }
     
     const groupRequiredCount = requirement.needs;
     const groupPlannedCount = Math.min(groupCompletedCount + groupScheduledCount, groupRequiredCount);

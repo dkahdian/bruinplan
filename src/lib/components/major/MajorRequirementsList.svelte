@@ -3,6 +3,7 @@
 	Displays courses and groups within a major section with drag-and-drop and enhanced interactions
 -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 	import type { MajorRequirement, Course } from '../../types.js';
 	import { 
@@ -14,7 +15,8 @@
 		validationService,
 		handleCourseDragStart,
 		handleCourseDragEnd,
-		majorRequirementsService
+		majorRequirementsService,
+		collapseStateService
 	} from '../../services/schedulingServices.js';
 	import ValidationIndicator from '../shared/ValidationIndicator.svelte';
 	import StatusIndicator from './StatusIndicator.svelte';
@@ -25,6 +27,7 @@
 	export let onToggleCompletion: (courseId: string) => void;
 	export let isNested: boolean = false;
 	export let useCompactLayout: boolean = false;
+	export let majorId: string;
 	
 	// Helper function to count all courses in nested groups
 	function countAllCourses(requirement: MajorRequirement): number {
@@ -41,44 +44,69 @@
 		return count;
 	}
 	
-	// Collapsible state management
+	// Collapsible state management using localStorage
 	let collapsedSections = new Set<string>();
-	let autoCollapsedSections = new Set<string>(); // Track which sections were auto-collapsed
 	let hasInitialized = false; // Track if we've done initial setup
 	
-	// Initialize collapsed sections for large groups (>20 courses) - only run once
-	$: if (!hasInitialized && requirements.length > 0) {
+	// Initialize collapsed sections - load from storage and set auto-collapse for large groups
+	$: if (!hasInitialized && requirements.length > 0 && majorId) {
+		// Load existing states from localStorage
+		const storedStates = collapseStateService.getMajorCollapseStates(majorId);
 		const newCollapsedSections = new Set<string>();
 		
-		// Check each requirement and auto-collapse if it has more than 20 courses/sub-groups
+		// Check each requirement and handle auto-collapse logic
 		for (const requirement of requirements) {
 			if (requirement.type === 'group') {
 				const groupId = `${requirement.title}-${requirement.description || ''}`;
 				const totalCourses = countAllCourses(requirement);
 				const totalOptions = requirement.options.length;
 				
-				// Auto-collapse if more than 20 courses OR more than 20 sub-groups
-				if (totalCourses > 20 || totalOptions > 20) {
+				// Set auto-collapse preference for large groups (only if user hasn't set preference)
+				const shouldAutoCollapse = totalCourses > 20 || totalOptions > 20;
+				collapseStateService.setAutoCollapseIfNotSet(majorId, groupId, shouldAutoCollapse);
+				
+				// Add to collapsed set if stored as collapsed
+				if (collapseStateService.isCollapsed(majorId, groupId)) {
 					newCollapsedSections.add(groupId);
 				}
 			}
 		}
 		
 		collapsedSections = newCollapsedSections;
-		autoCollapsedSections = new Set(newCollapsedSections);
 		hasInitialized = true;
 	}
 	
 	function toggleCollapse(requirementId: string) {
-		if (collapsedSections.has(requirementId)) {
-			collapsedSections.delete(requirementId);
-		} else {
+		// Toggle in localStorage and get new state
+		const newCollapsedState = collapseStateService.toggle(majorId, requirementId);
+		
+		// Update local set
+		if (newCollapsedState) {
 			collapsedSections.add(requirementId);
+		} else {
+			collapsedSections.delete(requirementId);
 		}
 		
 		// Create a new Set to trigger reactivity
 		collapsedSections = new Set(collapsedSections);
 	}
+	
+	// Client-side initialization to sync with localStorage
+	onMount(() => {
+		// Re-initialize collapsed sections from localStorage on client-side
+		const newCollapsedSections = new Set<string>();
+		
+		for (const requirement of requirements) {
+			if (requirement.type === 'group') {
+				const groupId = `${requirement.title}-${requirement.description || ''}`;
+				if (collapseStateService.isCollapsed(majorId, groupId)) {
+					newCollapsedSections.add(groupId);
+				}
+			}
+		}
+		
+		collapsedSections = newCollapsedSections;
+	});
 	
 	// Subscribe to stores to ensure reactivity
 	$: courseSchedules = $courseSchedulesStore;
@@ -382,13 +410,14 @@
 							<!-- Nested Group -->
 							{@const courseCount = option.options.filter(opt => opt.type === 'course').length}
 							{@const totalNestedCourses = countAllCourses(option)}
+							{@const nestedHasSubGroups = hasNestedGroups(option)}
 							{@const staggerDelay = Math.min(index * 50, 1000)} <!-- Max 1 second total, 50ms per group -->
 							<div 
 								class="nested-group ml-4 border-l-2 border-gray-300 pl-4"
 								in:slide={{ duration: 200, delay: staggerDelay }}
 							>
-								<!-- Recursively render nested group options with compact layout if needed -->
-								<svelte:self requirements={[option]} {courseMap} {onToggleCompletion} isNested={true} useCompactLayout={totalNestedCourses > 10} />
+								<!-- Recursively render nested group options with compact layout only if it has no sub-groups -->
+								<svelte:self requirements={[option]} {courseMap} {onToggleCompletion} isNested={true} useCompactLayout={!nestedHasSubGroups && totalNestedCourses > 10} {majorId} />
 							</div>
 						{/if}
 					{/each}

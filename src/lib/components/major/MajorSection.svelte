@@ -13,6 +13,7 @@
 	export let courseMap: Map<string, Course>;
 	export let onToggleCompletion: (courseId: string) => void;
 	export let sectionIndex: number = 0;
+	export let majorId: string;
 	
 	// Subscribe to stores to ensure reactivity
 	$: userCompletedCourses = $completedCoursesStore;
@@ -150,6 +151,7 @@
 		requirements={section.requirements}
 		{courseMap}
 		{onToggleCompletion}
+		{majorId}
 	/>
 </section>
 

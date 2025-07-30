@@ -28,8 +28,11 @@ export {
   createCourseDragImage 
 } from './shared/dragDropUtils.js';
 
-// Major requirements
+// Major requirements services
 export { majorRequirementsService } from './major/requirements.js';
+
+// Collapse state service
+export { collapseStateService } from './shared/collapseState.js';
 
 // Initialize function
 import { loadCourseSchedules } from './shared/courseScheduleStore.js';

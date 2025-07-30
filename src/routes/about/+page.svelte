@@ -105,7 +105,7 @@
 				<h2 class="text-3xl font-bold text-gray-900 mb-6">Open Source & Community</h2>
 				<div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6">
 					<p class="text-gray-700 leading-relaxed mb-4">
-						BruinPlan is an open-source project built by students, for students. We believe that 
+						BruinPlan is an open-source project built by a UCLA student, for UCLA students. We believe that 
 						educational tools should be transparent, community-driven, and freely accessible to all.
 					</p>
 					<div class="flex flex-wrap gap-4 items-center">

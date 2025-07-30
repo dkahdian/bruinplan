@@ -263,6 +263,7 @@
 					courseMap={majorCourseMap}
 					onToggleCompletion={schedulingService.toggleCourseCompletion.bind(schedulingService)}
 					sectionIndex={index}
+					{majorId}
 				/>
 			{/each}
 		</div>
