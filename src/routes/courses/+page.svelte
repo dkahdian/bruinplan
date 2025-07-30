@@ -52,7 +52,7 @@
 </script>
 
 <svelte:head>
-	<title>Course Search - BruinPlan</title>
+	<title>Course Search</title>
 	<meta name="description" content="Search UCLA courses and view their prerequisite graphs" />
 </svelte:head>
 

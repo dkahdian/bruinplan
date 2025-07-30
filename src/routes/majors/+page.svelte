@@ -44,7 +44,7 @@
 </script>
 
 <svelte:head>
-	<title>UCLA Majors - BruinPlan</title>
+	<title>UCLA Majors</title>
 	<meta name="description" content="Browse all UCLA undergraduate majors and their requirements" />
 </svelte:head>
 

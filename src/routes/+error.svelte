@@ -38,7 +38,7 @@
 </script>
 
 <svelte:head>
-	<title>{pageTitle} - BruinPlan</title>
+	<title>{pageTitle}</title>
 	<meta name="description" content="Error page for BruinPlan application" />
 </svelte:head>
 

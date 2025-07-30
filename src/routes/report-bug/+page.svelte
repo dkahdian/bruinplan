@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Report a Bug - BruinPlan</title>
+	<title>Report a Bug</title>
 	<meta name="description" content="Report bugs and technical issues to help improve BruinPlan for all UCLA students." />
 </svelte:head>
 

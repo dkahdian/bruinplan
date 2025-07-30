@@ -202,7 +202,7 @@
 </script>
 
 <svelte:head>
-	<title>{major.name} - BruinPlan</title>
+	<title>{major.name}</title>
 	<meta name="description" content="Requirements and prerequisites for {major.name} at UCLA" />
 </svelte:head>
 
