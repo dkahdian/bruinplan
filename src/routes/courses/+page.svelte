@@ -52,8 +52,67 @@
 </script>
 
 <svelte:head>
-	<title>Course Search</title>
-	<meta name="description" content="Search UCLA courses and view their prerequisite graphs" />
+	<title>UCLA Course Search - Prerequisites & Planning | BruinPlan</title>
+	<meta name="description" content="Search all UCLA courses and view interactive prerequisite graphs. Plan your academic path with comprehensive course visualization and planning tools." />
+	<meta name="keywords" content="UCLA courses, course search, prerequisites, course planning, UCLA catalog, BruinPlan" />
+	<link rel="canonical" href="https://bruinplan.com/courses" />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://bruinplan.com/courses" />
+	<meta property="og:title" content="UCLA Course Search - Prerequisites & Planning" />
+	<meta property="og:description" content="Search all UCLA courses and view interactive prerequisite graphs" />
+	<meta property="og:image" content="https://bruinplan.com/og-image.png" />
+	
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://bruinplan.com/courses" />
+	<meta property="twitter:title" content="UCLA Course Search - Prerequisites & Planning" />
+	<meta property="twitter:description" content="Search all UCLA courses and view interactive prerequisite graphs" />
+	<meta property="twitter:image" content="https://bruinplan.com/og-image.png" />
+	
+	<!-- JSON-LD Structured Data -->
+	<script type="application/ld+json">
+	{JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+		"name": "UCLA Course Search",
+		"description": "Search all UCLA courses and view interactive prerequisite graphs",
+		"url": "https://bruinplan.com/courses",
+		"mainEntity": {
+			"@type": "SearchAction",
+			"target": "https://bruinplan.com/courses/{search_term_string}",
+			"query-input": "required name=search_term_string"
+		},
+		"provider": {
+			"@type": "WebApplication",
+			"name": "BruinPlan",
+			"url": "https://bruinplan.com"
+		}
+	})}
+	</script>
+	
+	<!-- BreadcrumbList for navigation -->
+	<script type="application/ld+json">
+	{JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"name": "Home",
+				"item": "https://bruinplan.com/"
+			},
+			{
+				"@type": "ListItem",
+				"position": 2,
+				"name": "Course Search",
+				"item": "https://bruinplan.com/courses"
+			}
+		]
+	})}
+	</script>
 </svelte:head>
 
 <div class="min-h-screen bg-gradient-to-br from-blue-600 to-blue-200">

@@ -4,8 +4,24 @@
 </script>
 
 <svelte:head>
-	<title>Report a Bug</title>
-	<meta name="description" content="Report bugs and technical issues to help improve BruinPlan for all UCLA students." />
+	<title>Report a Bug - BruinPlan</title>
+	<meta name="description" content="Report bugs and technical issues to help improve BruinPlan for all UCLA students. Submit feedback about course data or technical problems." />
+	<meta name="keywords" content="BruinPlan, bug report, feedback, UCLA, technical issues" />
+	<link rel="canonical" href="https://bruinplan.com/report-bug" />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://bruinplan.com/report-bug" />
+	<meta property="og:title" content="Report a Bug - BruinPlan" />
+	<meta property="og:description" content="Help improve BruinPlan by reporting bugs and technical issues for UCLA students." />
+	<meta property="og:image" content="https://bruinplan.com/og-image.png" />
+	
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://bruinplan.com/report-bug" />
+	<meta property="twitter:title" content="Report a Bug - BruinPlan" />
+	<meta property="twitter:description" content="Help improve BruinPlan by reporting bugs and technical issues for UCLA students." />
+	<meta property="twitter:image" content="https://bruinplan.com/og-image.png" />
 </svelte:head>
 
 <div class="min-h-screen bg-gradient-to-br from-yellow-50 via-white to-amber-50">
@@ -27,21 +43,33 @@
 	<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
 		<div class="bg-white rounded-2xl shadow-xl p-8 sm:p-12">
 			
-			<!-- Intro Section -->
-			<section class="text-center mb-12">
-				<div class="bg-gradient-to-r from-yellow-50 to-amber-50 rounded-xl p-8 mb-8">
-					<div class="bg-yellow-100 rounded-full p-4 w-16 h-16 mx-auto mb-6">
-						<svg class="w-8 h-8 text-yellow-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 15.5c-.77.833.192 2.5 1.732 2.5z"></path>
-						</svg>
-					</div>
-					<h2 class="text-3xl font-bold text-gray-900 mb-4">Found a Bug?</h2>
-					<p class="text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-						Your feedback is invaluable in making BruinPlan better for all UCLA students. 
-						If you've encountered a technical issue, incorrect data, or unexpected behavior, please let us know!
-					</p>
-				</div>
-			</section>
+		   <!-- Intro Section -->
+		   <section class="text-center mb-12">
+			   <div class="bg-gradient-to-r from-yellow-50 to-amber-50 rounded-xl p-8 mb-8">
+				   <div class="bg-yellow-100 rounded-full p-4 w-16 h-16 mx-auto mb-6">
+					   <svg class="w-8 h-8 text-yellow-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 15.5c-.77.833.192 2.5 1.732 2.5z"></path>
+					   </svg>
+				   </div>
+				   <h2 class="text-3xl font-bold text-gray-900 mb-4">Found a Bug?</h2>
+				   <p class="text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
+					   Your feedback is invaluable in making BruinPlan better for all UCLA students. 
+					   If you've encountered a technical issue, incorrect data, or unexpected behavior, please let us know!
+				   </p>
+			   </div>
+		   </section>
+
+		   <!-- Known Bugs Link Section -->
+		   <section class="mb-12">
+			   <div class="flex justify-center">
+				   <a href="/known-bugs" class="inline-flex items-center px-6 py-4 bg-yellow-100 hover:bg-yellow-200 text-yellow-900 font-semibold rounded-xl shadow transition-colors text-lg border border-yellow-300">
+					   <svg class="w-6 h-6 mr-2 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 20a8 8 0 100-16 8 8 0 000 16z" />
+					   </svg>
+					   View Known Bugs &amp; Issues
+				   </a>
+			   </div>
+		   </section>
 
 			<!-- How to Report Section -->
 			<section class="mb-12">
@@ -74,7 +102,7 @@
 							<div>
 								<h4 class="font-semibold text-blue-800">Clear Description</h4>
 								<p class="text-blue-700 text-sm">Describe what you were trying to do and what went wrong</p>
-                                <p class="text-blue-700 text-sm">If the problem is related to a prerequisite or requirement, please list what the correct requirement should be, ideally with a source.</p>
+								<p class="text-blue-700 text-sm">If the problem is related to a prerequisite or requirement, please list what the correct requirement should be, ideally with a source.</p>
 							</div>
 						</div>
 						<div class="flex items-start space-x-3">
@@ -114,36 +142,6 @@
 				</div>
 			</section>
 
-			<!-- Common Issues Section -->
-			<section class="mb-12">
-				<h2 class="text-3xl font-bold text-gray-900 mb-8">Common Issues</h2>
-				<div class="grid sm:grid-cols-2 gap-6">
-					<div class="bg-yellow-50 rounded-lg p-6 border border-yellow-200">
-						<h3 class="text-lg font-semibold text-yellow-800 mb-2">Graph Not Loading</h3>
-						<p class="text-yellow-700 text-sm">
-							If course prerequisite graphs aren't displaying, try refreshing the page or clearing your browser cache.
-						</p>
-					</div>
-					<div class="bg-purple-50 rounded-lg p-6 border border-purple-200">
-						<h3 class="text-lg font-semibold text-purple-800 mb-2">Incorrect Prerequisites</h3>
-						<p class="text-purple-700 text-sm">
-							If you notice wrong prerequisite information, please report it so we can update our course data.
-						</p>
-					</div>
-					<div class="bg-green-50 rounded-lg p-6 border border-green-200">
-						<h3 class="text-lg font-semibold text-green-800 mb-2">Progress Not Saving</h3>
-						<p class="text-green-700 text-sm">
-							If your completed courses aren't being remembered, check if cookies/localStorage are enabled in your browser.
-						</p>
-					</div>
-					<div class="bg-yellow-50 rounded-lg p-6 border border-yellow-200">
-						<h3 class="text-lg font-semibold text-yellow-800 mb-2">Page Crashes</h3>
-						<p class="text-yellow-700 text-sm">
-							If BruinPlan becomes unresponsive, please include your browser's developer console errors in your report.
-						</p>
-					</div>
-				</div>
-			</section>
 
 			<!-- Response Time -->
 			<section class="mb-12">

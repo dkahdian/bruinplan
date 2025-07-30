@@ -17,7 +17,7 @@
 					Get <span class="bg-gradient-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">Help</span>
 				</h1>
 				<p class="text-xl text-blue-100 max-w-2xl mx-auto">
-					Need assistance with BruinPlan? We're here to help you succeed.
+					Need assistance with BruinPlan? We're here to help!
 				</p>
 			</div>
 		</div>
@@ -62,7 +62,7 @@
 							Course Prerequisites
 						</h3>
 						<p class="text-blue-700 mb-3">
-							Use the interactive graphs to explore course prerequisites. Click on any course to see its prerequisite chain.
+							Use the interactive graphs to explore course prerequisites. Pick any course to see its prerequisite chain.
 						</p>
 						<a href="{base}/courses" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
 							Explore Course Prerequisites →
@@ -89,14 +89,14 @@
 							<svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
 							</svg>
-							Progress Tracking
+							Technical Issues
 						</h3>
 						<p class="text-green-700 mb-3">
-							Mark courses as completed to track your progress. Your completion status is saved locally in your browser.
+							Having no bugs with over 14,000 courses is nearly impossible! Our Known Bugs page contains common issues and workarounds.
 						</p>
-						<p class="text-green-600 text-sm font-medium">
-							Tip: Use the checkboxes next to course names
-						</p>
+						<a href="{base}/known-bugs" class="text-green-600 hover:text-green-800 text-sm font-medium">
+							Known bugs →
+						</a>
 					</div>
 					
 					<div class="bg-yellow-50 rounded-lg p-6">
@@ -104,10 +104,10 @@
 							<svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
 							</svg>
-							Technical Issues
+							Found a Bug?
 						</h3>
 						<p class="text-yellow-700 mb-3">
-							Experiencing bugs or technical problems? Report them to help us improve BruinPlan for everyone.
+							Report anything that's not already on our <a href="{base}/known-bugs" class="text-yellow-600 hover:text-yellow-800">Known Bugs</a> page to help us improve BruinPlan for everyone.
 						</p>
 						<a href="{base}/report-bug" class="text-yellow-600 hover:text-yellow-800 text-sm font-medium">
 							Report a Bug →

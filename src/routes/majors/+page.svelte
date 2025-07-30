@@ -44,8 +44,78 @@
 </script>
 
 <svelte:head>
-	<title>UCLA Majors</title>
-	<meta name="description" content="Browse all UCLA undergraduate majors and their requirements" />
+	<title>UCLA Majors - Browse All Undergraduate Programs | BruinPlan</title>
+	<meta name="description" content="Browse all UCLA undergraduate majors and their requirements. Track progress, plan courses, and explore degree programs across all schools and colleges." />
+	<meta name="keywords" content="UCLA majors, undergraduate programs, degree requirements, major planning, UCLA colleges, BruinPlan" />
+	<link rel="canonical" href="https://bruinplan.com/majors" />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://bruinplan.com/majors" />
+	<meta property="og:title" content="UCLA Majors - Browse All Undergraduate Programs" />
+	<meta property="og:description" content="Browse all UCLA undergraduate majors and their requirements" />
+	<meta property="og:image" content="https://bruinplan.com/og-image.png" />
+	
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://bruinplan.com/majors" />
+	<meta property="twitter:title" content="UCLA Majors - Browse All Undergraduate Programs" />
+	<meta property="twitter:description" content="Browse all UCLA undergraduate majors and their requirements" />
+	<meta property="twitter:image" content="https://bruinplan.com/og-image.png" />
+	
+	<!-- JSON-LD Structured Data -->
+	<script type="application/ld+json">
+	{JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+		"name": "UCLA Majors",
+		"description": "Browse all UCLA undergraduate majors and their requirements",
+		"url": "https://bruinplan.com/majors",
+		"mainEntity": {
+			"@type": "ItemList",
+			"name": "UCLA Undergraduate Majors",
+			"numberOfItems": majors.length,
+			"itemListElement": majors.slice(0, 10).map((major, index) => ({
+				"@type": "EducationalOccupationalProgram",
+				"position": index + 1,
+				"name": major.name,
+				"provider": {
+					"@type": "EducationalOrganization",
+					"name": "University of California, Los Angeles",
+					"department": major.department
+				},
+				"url": `https://bruinplan.com/majors/${majorNameToId(major.name)}`
+			}))
+		},
+		"provider": {
+			"@type": "WebApplication",
+			"name": "BruinPlan",
+			"url": "https://bruinplan.com"
+		}
+	})}
+	</script>
+	
+	<!-- BreadcrumbList for navigation -->
+	<script type="application/ld+json">
+	{JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"name": "Home",
+				"item": "https://bruinplan.com/"
+			},
+			{
+				"@type": "ListItem",
+				"position": 2,
+				"name": "UCLA Majors",
+				"item": "https://bruinplan.com/majors"
+			}
+		]
+	})}
+	</script>
 </svelte:head>
 
 <!-- Page with blue gradient background -->

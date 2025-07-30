@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap locations
+Sitemap: https://bruinplan.com/sitemap.xml
+Sitemap: https://bruinplan.com/sitemap-main.xml
+Sitemap: https://bruinplan.com/sitemap-majors.xml
+Sitemap: https://bruinplan.com/sitemap-courses.xml

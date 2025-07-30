@@ -105,7 +105,72 @@
 </script>
 
 <svelte:head>
-  <title>Prerequisites for {data.courseId}</title>
+  <title>{course.id} - {course.title} | BruinPlan</title>
+  <meta name="description" content="View prerequisites for {course.id} - {course.title} at UCLA. Interactive prerequisite graph and course planning for {course.units} unit course." />
+  <meta name="keywords" content="UCLA, {course.id}, {course.title}, prerequisites, course planning, BruinPlan" />
+  <link rel="canonical" href="https://bruinplan.com/courses/{course.id.replace(/[^A-Z0-9]/g, '')}" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bruinplan.com/courses/{course.id.replace(/[^A-Z0-9]/g, '')}" />
+  <meta property="og:title" content="{course.id} - {course.title} Prerequisites" />
+  <meta property="og:description" content="Interactive prerequisite visualization for {course.id} - {course.title} at UCLA" />
+  <meta property="og:image" content="https://bruinplan.com/og-image.png" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://bruinplan.com/courses/{course.id.replace(/[^A-Z0-9]/g, '')}" />
+  <meta property="twitter:title" content="{course.id} - {course.title} Prerequisites" />
+  <meta property="twitter:description" content="Interactive prerequisite visualization for {course.id} - {course.title} at UCLA" />
+  <meta property="twitter:image" content="https://bruinplan.com/og-image.png" />
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": `${course.id} - ${course.title}`,
+    "courseCode": course.id,
+    "description": course.description || `${course.title} course at UCLA`,
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "University of California, Los Angeles",
+      "alternateName": "UCLA"
+    },
+    "educationalCredentialAwarded": `${course.units} units`,
+    "url": `https://bruinplan.com/courses/${course.id.replace(/[^A-Z0-9]/g, '')}`,
+    "teaches": course.title,
+    "coursePrerequisites": course.requisites?.length > 0 ? course.requisites.map(req => req.description || "See course details").join("; ") : "None listed"
+  })}
+  </script>
+  
+  <!-- BreadcrumbList for navigation -->
+  <script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://bruinplan.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Courses",
+        "item": "https://bruinplan.com/courses"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": `${course.id} - ${course.title}`,
+        "item": `https://bruinplan.com/courses/${course.id.replace(/[^A-Z0-9]/g, '')}`
+      }
+    ]
+  })}
+  </script>
 </svelte:head>
 
 <!-- Course Navigation Header -->

@@ -202,8 +202,79 @@
 </script>
 
 <svelte:head>
-	<title>{major.name}</title>
-	<meta name="description" content="Requirements and prerequisites for {major.name} at UCLA" />
+	<title>{major.name} - UCLA Major Requirements | BruinPlan</title>
+	<meta name="description" content="Complete requirements and course planning for {major.name} at UCLA. Track progress, view prerequisites, and plan your academic path." />
+	<meta name="keywords" content="UCLA, {major.name}, major requirements, course planning, {major.college}, {major.department}, BruinPlan" />
+	<link rel="canonical" href="https://bruinplan.com/majors/{majorId}" />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://bruinplan.com/majors/{majorId}" />
+	<meta property="og:title" content="{major.name} - UCLA Major Requirements" />
+	<meta property="og:description" content="Complete requirements and course planning for {major.name} at UCLA" />
+	<meta property="og:image" content="https://bruinplan.com/og-image.png" />
+	
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://bruinplan.com/majors/{majorId}" />
+	<meta property="twitter:title" content="{major.name} - UCLA Major Requirements" />
+	<meta property="twitter:description" content="Complete requirements and course planning for {major.name} at UCLA" />
+	<meta property="twitter:image" content="https://bruinplan.com/og-image.png" />
+	
+	<!-- JSON-LD Structured Data -->
+	<script type="application/ld+json">
+	{JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "EducationalOccupationalProgram",
+		"name": major.name,
+		"description": major.overview || `${major.name} program at UCLA`,
+		"provider": {
+			"@type": "EducationalOrganization",
+			"name": "University of California, Los Angeles",
+			"alternateName": "UCLA",
+			"department": {
+				"@type": "EducationalOrganization",
+				"name": major.department,
+				"parentOrganization": {
+					"@type": "EducationalOrganization",
+					"name": major.college
+				}
+			}
+		},
+		"educationalCredentialAwarded": major.degreeObjective,
+		"educationalProgramMode": "Full-time",
+		"url": `https://bruinplan.com/majors/${majorId}`,
+		"applicationDeadline": "varies by term"
+	})}
+	</script>
+	
+	<!-- BreadcrumbList for navigation -->
+	<script type="application/ld+json">
+	{JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"name": "Home",
+				"item": "https://bruinplan.com/"
+			},
+			{
+				"@type": "ListItem",
+				"position": 2,
+				"name": "Majors",
+				"item": "https://bruinplan.com/majors"
+			},
+			{
+				"@type": "ListItem",
+				"position": 3,
+				"name": major.name,
+				"item": `https://bruinplan.com/majors/${majorId}`
+			}
+		]
+	})}
+	</script>
 </svelte:head>
 
 <div class="container mx-auto px-4 py-8">

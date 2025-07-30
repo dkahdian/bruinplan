@@ -14,8 +14,50 @@
 </script>
 
 <svelte:head>
-	<title>BruinPlan</title>
-	<meta name="description" content="Plan your UCLA courses easily." />
+	<title>BruinPlan - UCLA Course Planning & Prerequisite Visualization Tool</title>
+	<meta name="description" content="Plan your UCLA academic journey with interactive course prerequisite visualization and major requirement tracking. Explore majors, visualize course pathways, and track progress." />
+	<meta name="keywords" content="UCLA, course planning, prerequisites, major requirements, academic planning, BruinPlan" />
+	<link rel="canonical" href="https://bruinplan.com/" />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://bruinplan.com/" />
+	<meta property="og:title" content="BruinPlan - UCLA Course Planning Tool" />
+	<meta property="og:description" content="Plan your UCLA academic journey with interactive course prerequisite visualization and major requirement tracking." />
+	<meta property="og:image" content="https://bruinplan.com/og-image.png" />
+	
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://bruinplan.com/" />
+	<meta property="twitter:title" content="BruinPlan - UCLA Course Planning Tool" />
+	<meta property="twitter:description" content="Plan your UCLA academic journey with interactive course prerequisite visualization and major requirement tracking." />
+	<meta property="twitter:image" content="https://bruinplan.com/og-image.png" />
+	
+	<!-- JSON-LD Structured Data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebApplication",
+		"name": "BruinPlan",
+		"url": "https://bruinplan.com",
+		"description": "Interactive course planning and prerequisite visualization tool for UCLA students",
+		"applicationCategory": "EducationApplication",
+		"operatingSystem": "All",
+		"creator": {
+			"@type": "Person",
+			"name": "David Kahdian"
+		},
+		"audience": {
+			"@type": "EducationalAudience",
+			"educationalRole": "student"
+		},
+		"provider": {
+			"@type": "EducationalOrganization",
+			"name": "UCLA",
+			"alternateName": "University of California, Los Angeles"
+		}
+	}
+	</script>
 </svelte:head>
 
 <div class="min-h-screen bg-gradient-to-br from-blue-600 to-blue-200">

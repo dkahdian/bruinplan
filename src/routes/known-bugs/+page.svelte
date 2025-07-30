@@ -31,18 +31,21 @@
               <li>• Computer Engineering BS</li>
               <li>• Aerospace Engineering BS</li>
             </ul>
+            <p><em>Workaround:</em> Manually adjust your course selections to avoid double-counting.</p>
           </div>
         </li>
         <li class="flex items-start">
           <span class="text-yellow-600 mr-2 mt-1">•</span>
           <div>
             <strong>Missing Technical Breadth Options:</strong> Technical breadth course options are missing. This affects all majors in the School of Engineering.
+            <p><em>Workaround:</em> Check out the static list of Technical breadth courses at <a href="https://www.seasoasa.ucla.edu/undergraduate-technical-breadth-area-tba/" target="_blank" class="text-yellow-600 hover:text-yellow-800">this link</a>.</p>
           </div>
         </li>
         <li class="flex items-start">
           <span class="text-yellow-600 mr-2 mt-1">•</span>
           <div>
             <strong>Missing Sci-Tech Options:</strong> Science and technology elective options are missing. This affects the Computer Science major.
+            <p><em>Workaround:</em> Check out the static list of Science and Technology electives at <a href="https://www.seasoasa.ucla.edu/cs-scitech/" target="_blank" class="text-yellow-600 hover:text-yellow-800">this link</a>.</p>
           </div>
         </li>
         <li class="flex items-start">
