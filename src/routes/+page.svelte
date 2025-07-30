@@ -14,8 +14,8 @@
 </script>
 
 <svelte:head>
-	<title>BruinPlan - UCLA Course & Major Planning</title>
-	<meta name="description" content="Visualize course prerequisites and plan your UCLA academic journey with BruinPlan's interactive tools." />
+	<title>BruinPlan</title>
+	<meta name="description" content="Plan your UCLA courses easily." />
 </svelte:head>
 
 <div class="min-h-screen bg-gradient-to-br from-blue-600 to-blue-200">
