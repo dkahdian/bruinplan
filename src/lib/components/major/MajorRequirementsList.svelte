@@ -253,19 +253,44 @@
 							{/if}
 						</button>
 						
-						<!-- Course ID - links to prerequisite tree -->
-						<button
-							class="text-blue-600 hover:text-blue-800 font-medium cursor-pointer px-2 py-1 rounded-md hover:bg-blue-100 hover:shadow-sm transition-all duration-200"
-							on:click|stopPropagation={() => window.open(`${base}/courses/${requirement.courseId.replace(/[^A-Z0-9]/g, '')}`, '_blank')}
-							title="View {requirement.courseId} prerequisites and details (opens in new tab)"
+						<!-- Course ID - conditionally links to prerequisite tree -->
+						{#if !isMobile}
+							<button
+								class="text-blue-600 hover:text-blue-800 font-medium cursor-pointer px-2 py-1 rounded-md hover:bg-blue-100 hover:shadow-sm transition-all duration-200"
+								on:click|stopPropagation={() => window.open(`${base}/courses/${requirement.courseId.replace(/[^A-Z0-9]/g, '')}`, '_blank')}
+								title="View {requirement.courseId} prerequisites and details (opens in new tab)"
+							>
+								{requirement.courseId}{#if !useCompactLayout && !isMobile && courseMap.has(requirement.courseId)}: {courseMap.get(requirement.courseId)?.title}{/if}
+								{#if courseStatus.isScheduled && !courseStatus.isDirectlyCompleted}
+									<span class="ml-2 text-xs bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full">
+										{formatQuarterCode(schedulingService.getSchedule(requirement.courseId))}
+									</span>
+								{/if}
+							</button>
+						{:else}
+							<span class="font-medium text-gray-800 px-2 py-1">
+								{requirement.courseId}{#if !useCompactLayout && !isMobile && courseMap.has(requirement.courseId)}: {courseMap.get(requirement.courseId)?.title}{/if}
+								{#if courseStatus.isScheduled && !courseStatus.isDirectlyCompleted}
+									<span class="ml-2 text-xs bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full">
+										{formatQuarterCode(schedulingService.getSchedule(requirement.courseId))}
+									</span>
+								{/if}
+							</span>
+						{/if}
+						
+						<!-- Bruinwalk link -->
+						<a
+							href="https://bruinwalk.com/classes/{requirement.courseId.toLowerCase().replace(/\s+/g, '-')}/"
+							target="_blank"
+							class="ml-2 opacity-60 hover:opacity-100 transition-opacity flex items-center gap-1"
+							title="View {requirement.courseId} on Bruinwalk"
+							on:click|stopPropagation
 						>
-							{requirement.courseId}{#if !useCompactLayout && !isMobile && courseMap.has(requirement.courseId)}: {courseMap.get(requirement.courseId)?.title}{/if}
-							{#if courseStatus.isScheduled && !courseStatus.isDirectlyCompleted}
-								<span class="ml-2 text-xs bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full">
-									{formatQuarterCode(schedulingService.getSchedule(requirement.courseId))}
-								</span>
-							{/if}
-						</button>
+							<img src="/paw.png" alt="Bruinwalk" class="w-4 h-4" />
+							<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+							</svg>
+						</a>
 					</div>
 					
 					<div class="flex flex-col items-end">
@@ -426,19 +451,44 @@
 										{/if}
 									</button>
 									
-									<!-- Course ID - links to prerequisite tree -->
-									<button
-										class="text-blue-600 hover:text-blue-800 text-sm cursor-pointer px-2 py-1 rounded-md hover:bg-blue-100 hover:shadow-sm transition-all duration-200"
-										on:click|stopPropagation={() => window.open(`${base}/courses/${option.courseId.replace(/[^A-Z0-9]/g, '')}`, '_blank')}
-										title="View {option.courseId} prerequisites and details (opens in new tab)"
+									<!-- Course ID - conditionally links to prerequisite tree -->
+									{#if !isMobile}
+										<button
+											class="text-blue-600 hover:text-blue-800 text-sm cursor-pointer px-2 py-1 rounded-md hover:bg-blue-100 hover:shadow-sm transition-all duration-200"
+											on:click|stopPropagation={() => window.open(`${base}/courses/${option.courseId.replace(/[^A-Z0-9]/g, '')}`, '_blank')}
+											title="View {option.courseId} prerequisites and details (opens in new tab)"
+										>
+											{option.courseId}{#if !shouldUseCompact && !isMobile && courseMap.has(option.courseId)}: {courseMap.get(option.courseId)?.title}{/if}
+											{#if courseStatus.isScheduled && !courseStatus.isDirectlyCompleted}
+												<span class="ml-2 text-xs bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full">
+													{formatQuarterCode(schedulingService.getSchedule(option.courseId))}
+												</span>
+											{/if}
+										</button>
+									{:else}
+										<span class="text-sm text-gray-800 px-2 py-1">
+											{option.courseId}{#if !shouldUseCompact && !isMobile && courseMap.has(option.courseId)}: {courseMap.get(option.courseId)?.title}{/if}
+											{#if courseStatus.isScheduled && !courseStatus.isDirectlyCompleted}
+												<span class="ml-2 text-xs bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full">
+													{formatQuarterCode(schedulingService.getSchedule(option.courseId))}
+												</span>
+											{/if}
+										</span>
+									{/if}
+									
+									<!-- Bruinwalk link -->
+									<a
+										href="https://bruinwalk.com/classes/{option.courseId.toLowerCase().replace(/\s+/g, '-')}/"
+										target="_blank"
+										class="ml-2 opacity-60 hover:opacity-100 transition-opacity flex items-center gap-1"
+										title="View {option.courseId} on Bruinwalk"
+										on:click|stopPropagation
 									>
-										{option.courseId}{#if !shouldUseCompact && !isMobile && courseMap.has(option.courseId)}: {courseMap.get(option.courseId)?.title}{/if}
-										{#if courseStatus.isScheduled && !courseStatus.isDirectlyCompleted}
-											<span class="ml-2 text-xs bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full">
-												{formatQuarterCode(schedulingService.getSchedule(option.courseId))}
-											</span>
-										{/if}
-									</button>
+										<img src="/paw.png" alt="Bruinwalk" class="w-3 h-3" />
+										<svg class="w-2 h-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+										</svg>
+									</a>
 								</div>
 								
 								<div class="flex flex-col items-end">

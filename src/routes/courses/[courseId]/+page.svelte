@@ -174,6 +174,14 @@
 </svelte:head>
 
 <div class="course-page-container">
+  <!-- Course Navigation Header (only on desktop) -->
+  <div class="desktop-header">
+    <CourseNavigationHeader 
+      courseId={data.courseId}
+      on:navigate={onNavigate}
+    />
+  </div>
+
   <div class="prerequisite-layout" bind:this={resizeContainer}>
   <!-- Main graph area -->
   <div class="graph-section" style="width: {graphWidthPercent}%;">
@@ -194,23 +202,7 @@
 
   <!-- Sidebar with course details -->
   <div class="sidebar-section" style="width: {100 - graphWidthPercent}%;">
-    <!-- Course Navigation Header (only on desktop) -->
-    <div class="desktop-header">
-      <CourseNavigationHeader 
-        courseId={data.courseId}
-        on:navigate={onNavigate}
-      />
-    </div>
-    
     <div class="sidebar-content">
-      <!-- Course Navigation Header (only on mobile) -->
-      <div class="mobile-header">
-        <CourseNavigationHeader 
-          courseId={data.courseId}
-          on:navigate={onNavigate}
-        />
-      </div>
-      
       <!-- Course details -->
       <div class="course-details flex-1">
         <CourseDetails
@@ -222,6 +214,8 @@
           {onCourseCompletionToggle}
           {onQuarterChange}
           {onPrerequisiteClick}
+          courseId={data.courseId}
+          {onNavigate}
         />
       </div>
     </div>
@@ -233,11 +227,21 @@
   .course-page-container {
     height: calc(100vh - 65px); /* Account for navigation header */
     overflow: hidden; /* Prevent scrollbars for this specific page layout */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desktop-header {
+    display: block;
+    flex-shrink: 0; /* Don't shrink the header */
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+    z-index: 10;
   }
 
   .prerequisite-layout {
     display: flex;
-    height: 100%;
+    flex: 1; /* Take remaining space after desktop header */
     width: 100%;
     background: #f9fafb;
     overflow: hidden; /* Prevent any overflow that might cause scrollbars */
@@ -256,14 +260,6 @@
     border-left: 1px solid #e5e7eb;
     display: flex;
     flex-direction: column;
-  }
-
-  .desktop-header {
-    display: block;
-  }
-
-  .mobile-header {
-    display: none;
   }
 
   .sidebar-content {
@@ -286,19 +282,14 @@
       overflow: hidden; /* Prevent overall page scrolling */
     }
 
-    .prerequisite-layout {
-      flex-direction: column; /* Stack vertically */
-      height: 100%;
-      overflow: hidden;
-    }
-
     .desktop-header {
       display: none; /* Hide desktop header on mobile */
     }
 
-    .mobile-header {
-      display: block; /* Show mobile header */
-      flex-shrink: 0; /* Don't shrink the header */
+    .prerequisite-layout {
+      flex-direction: column; /* Stack vertically */
+      height: 100%;
+      overflow: hidden;
     }
 
     .sidebar-section {

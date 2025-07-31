@@ -237,15 +237,36 @@
 						>
 							<div class="flex items-center justify-between">
 								<div class="flex items-center gap-2">
+									{#if !isMobile}
+										<a
+											href={`${base}/courses/${courseItem.id.replace(/[^A-Z0-9]/g, '')}`}
+											class="font-medium text-purple-800 hover:text-blue-800 flex items-center gap-1 {isMobile ? 'text-xs' : 'text-sm'}"
+											title="View prerequisites for {courseItem.id}"
+											target="_blank"
+											on:click|stopPropagation
+										>
+											{courseItem.id}
+											<span class="opacity-75 {isMobile ? 'text-xs' : 'text-xs'}">({courseItem.units} units)</span>
+										</a>
+									{:else}
+										<span class="font-medium text-gray-800 flex items-center gap-1 {isMobile ? 'text-xs' : 'text-sm'}">
+											{courseItem.id}
+											<span class="opacity-75 {isMobile ? 'text-xs' : 'text-xs'}">({courseItem.units} units)</span>
+										</span>
+									{/if}
+									
+									<!-- Bruinwalk link -->
 									<a
-										href={`${base}/courses/${courseItem.id.replace(/[^A-Z0-9]/g, '')}`}
-										class="font-medium text-purple-800 hover:text-blue-800 flex items-center gap-1 {isMobile ? 'text-xs' : 'text-sm'}"
-										title="View prerequisites for {courseItem.id}"
+										href="https://bruinwalk.com/classes/{courseItem.id.toLowerCase().replace(/\s+/g, '-')}/"
 										target="_blank"
+										class="opacity-60 hover:opacity-100 transition-opacity flex items-center gap-1"
+										title="View {courseItem.id} on Bruinwalk"
 										on:click|stopPropagation
 									>
-										{courseItem.id}
-										<span class="opacity-75 {isMobile ? 'text-xs' : 'text-xs'}">({courseItem.units} units)</span>
+										<img src="/paw.png" alt="Bruinwalk" class="{isMobile ? 'w-3 h-3' : 'w-4 h-4'}" />
+										<svg class="{isMobile ? 'w-2 h-2' : 'w-3 h-3'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+										</svg>
 									</a>
 								</div>
 								<button
@@ -342,15 +363,36 @@
 						>
 							<div class="flex items-center justify-between">
 								<div class="flex items-center gap-2">
+									{#if !isMobile}
+										<a
+											href={`${base}/courses/${courseItem.id.replace(/[^A-Z0-9]/g, '')}`}
+											class="font-medium text-purple-800 hover:text-blue-800 flex items-center gap-1 {isMobile ? 'text-xs' : 'text-sm'}"
+											title="View prerequisites for {courseItem.id}"
+											target="_blank"
+											on:click|stopPropagation
+										>
+											{courseItem.id}
+											<span class="opacity-75 {isMobile ? 'text-xs' : 'text-xs'}">({courseItem.units} units)</span>
+										</a>
+									{:else}
+										<span class="font-medium text-gray-800 flex items-center gap-1 {isMobile ? 'text-xs' : 'text-sm'}">
+											{courseItem.id}
+											<span class="opacity-75 {isMobile ? 'text-xs' : 'text-xs'}">({courseItem.units} units)</span>
+										</span>
+									{/if}
+									
+									<!-- Bruinwalk link -->
 									<a
-										href={`${base}/courses/${courseItem.id.replace(/[^A-Z0-9]/g, '')}`}
-										class="font-medium text-purple-800 hover:text-blue-800 flex items-center gap-1 {isMobile ? 'text-xs' : 'text-sm'}"
-										title="View prerequisites for {courseItem.id}"
+										href="https://bruinwalk.com/classes/{courseItem.id.toLowerCase().replace(/\s+/g, '-')}/"
 										target="_blank"
+										class="opacity-60 hover:opacity-100 transition-opacity flex items-center gap-1"
+										title="View {courseItem.id} on Bruinwalk"
 										on:click|stopPropagation
 									>
-										{courseItem.id}
-										<span class="opacity-75 {isMobile ? 'text-xs' : 'text-xs'}">({courseItem.units} units)</span>
+										<img src="/paw.png" alt="Bruinwalk" class="{isMobile ? 'w-3 h-3' : 'w-4 h-4'}" />
+										<svg class="{isMobile ? 'w-2 h-2' : 'w-3 h-3'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+										</svg>
 									</a>
 								</div>
 								<button

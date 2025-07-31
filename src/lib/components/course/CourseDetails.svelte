@@ -4,6 +4,7 @@
   import EquivalentCourses from './EquivalentCourses.svelte';
   import QuarterSelector from './QuarterSelector.svelte';
   import ValidationIndicator from '../shared/ValidationIndicator.svelte';
+  import CourseNavigationHeader from './CourseNavigationHeader.svelte';
   import { validationErrorsStore } from '../../services/schedulingServices.js';
 
   export let displayedCourse: Course | null;
@@ -14,6 +15,8 @@
   export let onCourseCompletionToggle: (courseId: string) => void;
   export let onQuarterChange: (courseId: string, quarterCode: number) => void;
   export let onPrerequisiteClick: (courseId: string, requisiteLevel?: string, requisiteType?: string) => void;
+  export let courseId: string;
+  export let onNavigate: (event: CustomEvent<string>) => void;
 </script>
 
 <div class="h-full relative">
@@ -23,11 +26,33 @@
     class:opacity-0={isTransitioning}
     class:opacity-100={!isTransitioning}
   >
+    <!-- Course Navigation Header (only on mobile) -->
+    <div class="mobile-header mb-4">
+      <CourseNavigationHeader 
+        {courseId}
+        on:navigate={onNavigate}
+      />
+    </div>
+
     {#if displayedCourse}
       <!-- Course header -->
       <div class="mb-6">
         <div class="flex items-center justify-between mb-2">
-          <h3 class="text-xl font-bold text-gray-900">{displayedCourse.id}</h3>
+          <div class="flex items-center gap-2">
+            <h3 class="text-xl font-bold text-gray-900">{displayedCourse.id}</h3>
+            <!-- Bruinwalk link -->
+            <a
+              href="https://bruinwalk.com/classes/{displayedCourse.id.toLowerCase().replace(/\s+/g, '-')}/"
+              target="_blank"
+              class="opacity-60 hover:opacity-100 transition-opacity flex items-center gap-1"
+              title="View {displayedCourse.id} on Bruinwalk"
+            >
+              <img src="/paw.png" alt="Bruinwalk" class="w-5 h-5" />
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
+            </a>
+          </div>
           {#if selectedCourse}
             <span class="px-2 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">
               Selected
@@ -128,3 +153,16 @@
     {/if}
   </div>
 </div>
+
+<style>
+  .mobile-header {
+    display: none;
+  }
+
+  /* Mobile responsive design */
+  @media (max-width: 768px) {
+    .mobile-header {
+      display: block;
+    }
+  }
+</style>
