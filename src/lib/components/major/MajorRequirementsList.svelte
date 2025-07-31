@@ -241,7 +241,7 @@
 					<div class="flex items-center space-x-3">
 						<!-- Checkbox - direct completion toggle -->
 						<button
-							class="completion-checkbox w-5 h-5 rounded border-2 flex items-center justify-center transition-all duration-200
+							class="completion-checkbox {isMobile ? 'w-10 h-10' : 'w-5 h-5'} rounded border-2 flex items-center justify-center transition-all duration-200
 									{courseStatus.isDirectlyCompleted
 										? 'bg-green-500 border-green-500 shadow-sm' 
 										: 'bg-white border-gray-300 hover:border-green-400 hover:bg-green-50'}"
@@ -249,7 +249,7 @@
 							title={courseStatus.isDirectlyCompleted ? 'Mark as incomplete' : 'Mark as complete'}
 						>
 							{#if courseStatus.isDirectlyCompleted}
-								<span class="text-white text-xs font-bold">✓</span>
+								<span class="text-white {isMobile ? 'text-lg' : 'text-xs'} font-bold">✓</span>
 							{/if}
 						</button>
 						
@@ -415,14 +415,14 @@
 								<div class="flex items-center space-x-2">
 									<!-- Checkbox - direct completion toggle -->
 									<button
-										class="completion-checkbox w-4 h-4 rounded border-2 border-gray-300 flex items-center justify-center 
+										class="completion-checkbox {isMobile ? 'w-8 h-8' : 'w-4 h-4'} rounded border-2 border-gray-300 flex items-center justify-center 
 												{courseStatus.isDirectlyCompleted ? 'bg-green-500 border-green-500' : 'bg-white'} 
 												hover:border-green-400 transition-colors"
 										on:click|stopPropagation={() => onToggleCompletion(option.courseId)}
 										title={courseStatus.isDirectlyCompleted ? 'Mark as incomplete' : 'Mark as complete'}
 									>
 										{#if courseStatus.isDirectlyCompleted}
-											<span class="text-white text-xs">✓</span>
+											<span class="text-white {isMobile ? 'text-sm' : 'text-xs'}">✓</span>
 										{/if}
 									</button>
 									

@@ -424,7 +424,7 @@
 			bottom: 0;
 			left: 0;
 			right: 0;
-			height: calc(100vh / 3); /* Exactly 1/3 of viewport height */
+			height: 50vh; /* Exactly 50% of viewport height */
 			z-index: 20;
 			background: white;
 			border-top: 2px solid #e5e7eb;
@@ -458,7 +458,7 @@
 
 		/* Add spacing after footer on mobile to account for fixed quarter planner */
 		.mobile-footer-spacing {
-			height: calc(100vh / 3 + 2rem); /* Space for quarterly planner plus extra padding */
+			height: calc(50vh + 2rem); /* Space for quarterly planner plus extra padding */
 		}
 	}
 

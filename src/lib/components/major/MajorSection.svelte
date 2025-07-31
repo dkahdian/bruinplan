@@ -15,6 +15,13 @@
 	export let sectionIndex: number = 0;
 	export let majorId: string;
 	
+	// Collapsible state - sections start expanded by default
+	let isExpanded = true;
+	
+	function toggleExpanded() {
+		isExpanded = !isExpanded;
+	}
+	
 	// Subscribe to stores to ensure reactivity
 	$: userCompletedCourses = $completedCoursesStore;
 	$: courseSchedules = $courseSchedulesStore;
@@ -107,11 +114,20 @@
 
 <section class="border border-gray-200 rounded-lg p-6 {sectionBg}">
 	<div class="flex items-center justify-between mb-4">
-		<MajorSectionHeader 
-			title={section.title}
-			description={section.description}
-			sectionId={section.id}
-		/>
+		<div class="flex items-center flex-1 cursor-pointer" on:click={toggleExpanded} on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleExpanded(); } }} role="button" tabindex="0" aria-expanded={isExpanded} aria-controls="section-content-{section.id}">
+			<!-- Expand/Collapse Icon -->
+			<div class="mr-3 text-gray-500 transition-transform duration-200 {isExpanded ? 'rotate-90' : ''}">
+				<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+				</svg>
+			</div>
+			
+			<MajorSectionHeader 
+				title={section.title}
+				description={section.description}
+				sectionId={section.id}
+			/>
+		</div>
 		
 		{#if sectionStats.total > 0}
 			<div class="flex-shrink-0 ml-4">
@@ -147,12 +163,17 @@
 		{/if}
 	</div>
 	
-	<MajorRequirementsList 
-		requirements={section.requirements}
-		{courseMap}
-		{onToggleCompletion}
-		{majorId}
-	/>
+	<!-- Collapsible Content -->
+	{#if isExpanded}
+		<div id="section-content-{section.id}" class="transition-all duration-200 ease-out">
+			<MajorRequirementsList 
+				requirements={section.requirements}
+				{courseMap}
+				{onToggleCompletion}
+				{majorId}
+			/>
+		</div>
+	{/if}
 </section>
 
 <style>
