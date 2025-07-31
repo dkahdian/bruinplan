@@ -311,10 +311,10 @@
 	</div>
 	
 	<!-- Main Content - List View -->
-	<div class="flex gap-6">
+	<div class="major-layout">
 		<!-- Main Content with global drop zone -->
 		<div 
-			class="flex-1 space-y-8 relative {isGlobalDragOver ? 'global-drop-zone' : ''}"
+			class="main-content {isGlobalDragOver ? 'global-drop-zone' : ''}"
 			on:drop={handleGlobalDrop}
 			on:dragover={handleGlobalDragOver}
 			on:dragenter={handleGlobalDragEnter}
@@ -340,8 +340,8 @@
 		</div>
 		
 		<!-- Quarter Planning Sidebar -->
-		<div class="w-80 flex-shrink-0">
-			<div class="sticky top-4">
+		<div class="sidebar">
+			<div class="sidebar-sticky">
 				<QuarterPlanningCalendar {major} courseMap={majorCourseMap} />
 			</div>
 		</div>
@@ -370,8 +370,106 @@
 
 <Footer />
 
+<!-- Mobile spacing after footer -->
+<div class="mobile-footer-spacing"></div>
+
 <style>
 	.global-drop-zone {
 		transition: all 0.2s ease;
+	}
+
+	/* Desktop layout - default flex behavior */
+	.major-layout {
+		display: flex;
+		gap: 1.5rem;
+	}
+
+	.main-content {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		position: relative;
+	}
+
+	.sidebar {
+		width: 20rem;
+		flex-shrink: 0;
+	}
+
+	.sidebar-sticky {
+		position: sticky;
+		top: 1rem;
+	}
+
+	/* Mobile responsive design - stacked layout on small screens */
+	@media (max-width: 768px) {
+		.major-layout {
+			flex-direction: column;
+			gap: 0;
+			min-height: 100vh; /* Use min-height instead of fixed height */
+			position: relative;
+		}
+
+		.main-content {
+			flex: 1;
+			/* Remove overflow-y: auto to allow unified scrolling */
+			padding-bottom: 0; /* Remove bottom padding - let footer come up naturally */
+			-webkit-overflow-scrolling: touch; /* Better iOS scrolling */
+		}
+
+		.sidebar {
+			width: 100vw; /* Full screen width */
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: calc(100vh / 3); /* Exactly 1/3 of viewport height */
+			z-index: 20;
+			background: white;
+			border-top: 2px solid #e5e7eb;
+			border-left: none;
+			box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+			display: flex;
+			flex-direction: column;
+		}
+
+		.sidebar-sticky {
+			position: static; /* Remove sticky positioning on mobile */
+			flex: 1; /* Allow to grow and fill available space */
+			min-height: 0; /* Allow shrinking */
+			padding: 0.5rem; /* Reduced padding for mobile */
+			overflow-y: auto; /* Add scrolling back for quarterly planner */
+			-webkit-overflow-scrolling: touch; /* Better iOS scrolling */
+		}
+
+		/* Reduce container padding on mobile */
+		.container {
+			padding-left: 0.5rem !important;
+			padding-right: 0.5rem !important;
+			padding-bottom: 1rem !important; /* Add bottom padding to prevent footer from hiding behind sidebar */
+		}
+
+		/* Hide drag/drop functionality on mobile by making drop zones less prominent */
+		.global-drop-zone {
+			/* Keep functionality but reduce visual feedback on mobile */
+			transition: none;
+		}
+
+		/* Add spacing after footer on mobile to account for fixed quarter planner */
+		.mobile-footer-spacing {
+			height: calc(100vh / 3 + 2rem); /* Space for quarterly planner plus extra padding */
+		}
+	}
+
+	/* Hide mobile footer spacing on desktop */
+	.mobile-footer-spacing {
+		display: none;
+	}
+
+	@media (max-width: 768px) {
+		.mobile-footer-spacing {
+			display: block;
+		}
 	}
 </style>

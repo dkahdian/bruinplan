@@ -286,12 +286,49 @@ export function createCytoscapeInstance(
 ): { cy: cytoscape.Core; tooltipManager?: import('../shared/tooltip.js').TooltipManager } {
   // Creating Cytoscape instance with ${nodes.length} nodes and ${edges.length} edges
   
+  // Detect if this is a mobile device
+  const isMobile = window.matchMedia('(max-width: 768px)').matches || 
+                   'ontouchstart' in window || 
+                   navigator.maxTouchPoints > 0;
+  
   const cy = cytoscape({
     container,
     elements: [...nodes, ...edges],
     style: styles,
-    layout: layoutOptions
+    layout: layoutOptions,
+    // Mobile-friendly interaction settings
+    touchTapThreshold: 8,
+    desktopTapThreshold: 4,
+    // Better zoom settings for mobile
+    minZoom: 0.5,
+    maxZoom: 3,
+    // Improved panning for touch devices
+    panningEnabled: true,
+    userPanningEnabled: true,
+    // Zoom settings optimized for mobile
+    zoomingEnabled: true,
+    userZoomingEnabled: true,
+    // Better selection for touch
+    selectionType: 'single',
+    // Touch-friendly wheel sensitivity
+    wheelSensitivity: isMobile ? 0.1 : 0.5
   });
+
+  // Add mobile-specific event handlers
+  if (isMobile) {
+    // Prevent default pinch-to-zoom behavior on the container
+    container.addEventListener('touchstart', (e) => {
+      if (e.touches.length > 1) {
+        e.preventDefault();
+      }
+    }, { passive: false });
+    
+    container.addEventListener('touchmove', (e) => {
+      if (e.touches.length > 1) {
+        e.preventDefault();
+      }
+    }, { passive: false });
+  }
 
   // Add tooltips if configuration is provided
   let tooltipManager;

@@ -6,6 +6,7 @@
 	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 	import type { MajorRequirement, Course } from '../../types.js';
+	import { mobileSelectedCourseStore, scheduleCourseMobile } from '../../services/mobileSchedulingStore.js';
 	import { 
 		schedulingService, 
 		completedCoursesStore, 
@@ -28,6 +29,45 @@
 	export let isNested: boolean = false;
 	export let useCompactLayout: boolean = false;
 	export let majorId: string;
+	
+	// Mobile detection and touch support
+	let isMobile = false;
+	let selectedCourseForMobileScheduling: string | null = null;
+	
+	// Subscribe to the mobile selected course store
+	$: selectedCourseForMobileScheduling = $mobileSelectedCourseStore;
+
+	// Detect if device is mobile/touch
+	onMount(() => {
+		isMobile = window.matchMedia('(max-width: 768px)').matches || 
+		           'ontouchstart' in window || 
+		           navigator.maxTouchPoints > 0;
+		
+		// Listen for viewport changes
+		const mediaQuery = window.matchMedia('(max-width: 768px)');
+		mediaQuery.addListener((e) => {
+			isMobile = e.matches;
+		});
+	});
+
+	// Mobile-friendly scheduling function
+	function selectCourseForMobileScheduling(courseId: string) {
+		if (isMobile) {
+			// Toggle selection - if already selected, deselect
+			if (selectedCourseForMobileScheduling === courseId) {
+				mobileSelectedCourseStore.set(null);
+			} else {
+				mobileSelectedCourseStore.set(courseId);
+			}
+		}
+	}
+
+	// Mobile quarter selection (this function will be called from QuarterPlanningCalendar)
+	function scheduleToQuarterMobile(quarterCode: number) {
+		if (selectedCourseForMobileScheduling && isMobile) {
+			scheduleCourseMobile(selectedCourseForMobileScheduling, quarterCode, schedulingService);
+		}
+	}
 	
 	// Helper function to count all courses in nested groups
 	function countAllCourses(requirement: MajorRequirement): number {
@@ -178,17 +218,20 @@
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 			<div
-				class="relative flex items-center justify-between p-3 rounded border transition-colors drag-handle w-full text-left cursor-pointer {displayClasses}"
-				draggable="true"
-				on:dragstart={(e) => handleDragStart(e, requirement.courseId)}
-				on:dragend={handleDragEnd}
-				on:mousedown={(e) => { dragStartTime = Date.now(); dragStartPosition = { x: e.clientX, y: e.clientY }; }}
-				on:click|stopPropagation={(e) => handleCourseClick(e, requirement.courseId)}
+				class="relative flex items-center justify-between rounded border transition-colors w-full text-left {displayClasses}
+					   {isMobile ? 'cursor-pointer course-item-mobile course-text-mobile' : 'drag-handle cursor-pointer p-3'}
+					   {isMobile && selectedCourseForMobileScheduling === requirement.courseId ? 'ring-4 ring-yellow-400 shadow-lg shadow-yellow-300' : ''}
+					   {!isMobile ? 'p-3' : ''}"
+				draggable={!isMobile ? "true" : "false"}
+				on:dragstart={!isMobile ? (e) => handleDragStart(e, requirement.courseId) : undefined}
+				on:dragend={!isMobile ? handleDragEnd : undefined}
+				on:mousedown={!isMobile ? (e) => { dragStartTime = Date.now(); dragStartPosition = { x: e.clientX, y: e.clientY }; } : undefined}
+				on:click|stopPropagation={!isMobile ? (e) => handleCourseClick(e, requirement.courseId) : () => selectCourseForMobileScheduling(requirement.courseId)}
 				on:keydown={(e) => handleCourseKeydown(e, requirement.courseId)}
 				role="button"
 				tabindex="0"
-				aria-label="Toggle completion for {requirement.courseId}, or drag to schedule"
-				title="Click to toggle completion, drag to schedule"
+				aria-label={isMobile ? "Select " + requirement.courseId + " for scheduling" : "Toggle completion for " + requirement.courseId + ", or drag to schedule"}
+				title={isMobile ? "Tap to select for scheduling" : "Click to toggle completion, drag to schedule"}
 			>
 					<div class="flex items-center space-x-3">
 						<!-- Checkbox - direct completion toggle -->
@@ -211,7 +254,7 @@
 							on:click|stopPropagation={() => window.open(`${base}/courses/${requirement.courseId.replace(/[^A-Z0-9]/g, '')}`, '_blank')}
 							title="View {requirement.courseId} prerequisites and details (opens in new tab)"
 						>
-							{requirement.courseId}{#if !useCompactLayout && courseMap.has(requirement.courseId)}: {courseMap.get(requirement.courseId)?.title}{/if}
+							{requirement.courseId}{#if !useCompactLayout && !isMobile && courseMap.has(requirement.courseId)}: {courseMap.get(requirement.courseId)?.title}{/if}
 							{#if courseStatus.isScheduled && !courseStatus.isDirectlyCompleted}
 								<span class="ml-2 text-xs bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full">
 									{formatQuarterCode(schedulingService.getSchedule(requirement.courseId))}
@@ -347,18 +390,21 @@
 							<!-- svelte-ignore a11y-click-events-have-key-events -->
 							<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 							<div 
-								class="relative flex items-center justify-between p-2 rounded border transition-colors drag-handle w-full text-left cursor-pointer {displayClasses}"
+								class="relative flex items-center justify-between rounded border transition-colors w-full text-left {displayClasses}
+									   {isMobile ? 'cursor-pointer course-item-mobile course-text-mobile' : 'drag-handle cursor-pointer p-2'}
+									   {isMobile && selectedCourseForMobileScheduling === option.courseId ? 'ring-4 ring-yellow-400 shadow-lg shadow-yellow-300' : ''}
+									   {!isMobile ? 'p-2' : ''}"
 								style="animation-delay: {staggerDelay}ms"
-								draggable="true"
-								on:dragstart={(e) => handleDragStart(e, option.courseId)}
-								on:dragend={handleDragEnd}
-								on:mousedown={(e) => { dragStartTime = Date.now(); dragStartPosition = { x: e.clientX, y: e.clientY }; }}
-								on:click|stopPropagation={(e) => handleCourseClick(e, option.courseId)}
+								draggable={!isMobile ? "true" : "false"}
+								on:dragstart={!isMobile ? (e) => handleDragStart(e, option.courseId) : undefined}
+								on:dragend={!isMobile ? handleDragEnd : undefined}
+								on:mousedown={!isMobile ? (e) => { dragStartTime = Date.now(); dragStartPosition = { x: e.clientX, y: e.clientY }; } : undefined}
+								on:click|stopPropagation={!isMobile ? (e) => handleCourseClick(e, option.courseId) : () => selectCourseForMobileScheduling(option.courseId)}
 								on:keydown={(e) => handleCourseKeydown(e, option.courseId)}
 								role="button"
 								tabindex="0"
-								aria-label="Toggle completion for {option.courseId}, or drag to schedule"
-								title="Click to toggle completion, drag to schedule"
+								aria-label={isMobile ? "Select " + option.courseId + " for scheduling" : "Toggle completion for " + option.courseId + ", or drag to schedule"}
+								title={isMobile ? "Tap to select for scheduling" : "Click to toggle completion, drag to schedule"}
 								in:slide={{ duration: 200, delay: staggerDelay }}
 							>
 								<div class="flex items-center space-x-2">
@@ -381,7 +427,7 @@
 										on:click|stopPropagation={() => window.open(`${base}/courses/${option.courseId.replace(/[^A-Z0-9]/g, '')}`, '_blank')}
 										title="View {option.courseId} prerequisites and details (opens in new tab)"
 									>
-										{option.courseId}{#if !shouldUseCompact && courseMap.has(option.courseId)}: {courseMap.get(option.courseId)?.title}{/if}
+										{option.courseId}{#if !shouldUseCompact && !isMobile && courseMap.has(option.courseId)}: {courseMap.get(option.courseId)?.title}{/if}
 										{#if courseStatus.isScheduled && !courseStatus.isDirectlyCompleted}
 											<span class="ml-2 text-xs bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full">
 												{formatQuarterCode(schedulingService.getSchedule(option.courseId))}
@@ -413,7 +459,7 @@
 							{@const nestedHasSubGroups = hasNestedGroups(option)}
 							{@const staggerDelay = Math.min(index * 50, 1000)} <!-- Max 1 second total, 50ms per group -->
 							<div 
-								class="nested-group ml-4 border-l-2 border-gray-300 pl-4"
+								class="ml-4 border-l-2 border-gray-300 pl-4 {isMobile ? 'nested-group' : ''}"
 								in:slide={{ duration: 200, delay: staggerDelay }}
 							>
 								<!-- Recursively render nested group options with compact layout only if it has no sub-groups -->

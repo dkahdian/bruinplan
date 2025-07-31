@@ -1,1 +1,71 @@
 @import 'tailwindcss';
+
+/* Mobile-friendly touch interactions */
+@media (max-width: 768px) {
+  /* Increase touch target sizes for better mobile usability */
+  button, .cursor-pointer {
+    min-height: 44px; /* Apple's recommended minimum touch target size */
+    min-width: 44px;
+  }
+
+  /* Disable drag cursor on mobile */
+  .drag-handle {
+    cursor: pointer !important;
+  }
+
+  /* Prevent zoom on double-tap for better UX */
+  * {
+    touch-action: manipulation;
+  }
+
+  /* Better scrolling on mobile */
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Improve readability on mobile */
+  body {
+    font-size: 16px; /* Prevents zoom on input focus on iOS */
+  }
+
+  /* Mobile-specific course styling */
+  .completion-checkbox {
+    width: 0.75rem !important; /* Back to 0.75rem as requested */
+    height: 0.75rem !important; /* Back to 0.75rem as requested */
+    min-width: 0.75rem !important; /* Ensure minimum size */
+    min-height: 0.75rem !important; /* Ensure minimum size */
+    flex-shrink: 0 !important; /* Prevent shrinking */
+  }
+
+  /* Scale checkmark text for smaller checkboxes */
+  .completion-checkbox span {
+    font-size: 0.625rem !important; /* Appropriate size for 0.75rem checkbox */
+    line-height: 1 !important;
+  }
+
+  /* Reduce padding for course items on mobile */
+  .course-item-mobile {
+    padding: 0.5rem !important;
+  }
+
+  /* Remove padding for nested groups on mobile */
+  .nested-group {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    border-left: none !important;
+  }
+
+  /* Reduce font sizes on mobile */
+  .course-text-mobile {
+    font-size: 0.875rem !important; /* Smaller text */
+  }
+}
+
+/* High DPI display optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Sharper rendering for high DPI screens */
+  .text-sm {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}

@@ -260,4 +260,46 @@
     flex: 1;
     overflow: hidden;
   }
+
+  /* Mobile responsive design - stacked layout on small screens */
+  @media (max-width: 768px) {
+    .course-page-container {
+      height: auto;
+      overflow: visible;
+    }
+
+    .prerequisite-layout {
+      flex-direction: column;
+      height: auto;
+      overflow: visible;
+    }
+
+    .graph-section {
+      display: none; /* Hide graph on mobile */
+    }
+
+    .sidebar-section {
+      height: auto;
+      min-width: unset;
+      width: 100%;
+      border-left: none;
+      border-top: none;
+    }
+
+    .sidebar-content {
+      height: auto;
+      overflow: visible;
+    }
+
+    .course-details {
+      overflow: visible;
+    }
+  }
+
+  /* Hide resize handle on mobile */
+  @media (max-width: 768px) {
+    :global(.resize-handle) {
+      display: none;
+    }
+  }
 </style>

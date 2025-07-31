@@ -9,12 +9,8 @@ export const load = async ({ params, fetch }: { params: { majorId: string }, fet
 	}
 	
 	try {
-		console.log('Loading major:', majorId);
-		const major = await loadMajor(majorId, fetch);
-		console.log('Loaded major result:', major);
-		
+		const major = await loadMajor(majorId, fetch);		
 		if (!major) {
-			console.log('Major not found, throwing 404');
 			throw error(404, 'That major doesn\'t exist!');
 		}
 		

@@ -5,6 +5,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { get } from 'svelte/store';
+	import { mobileSelectedCourseStore, scheduleCourseMobile } from '../../services/mobileSchedulingStore.js';
 	import { 
 		courseSchedulesStore, 
 		schedulingService, 
@@ -19,6 +20,24 @@
 	
 	export let major: Major;
 	export let courseMap: Map<string, Course>;
+	
+	// Mobile detection
+	let isMobile = false;
+	onMount(() => {
+		isMobile = window.matchMedia('(max-width: 768px)').matches || 
+		           'ontouchstart' in window || 
+		           navigator.maxTouchPoints > 0;
+	});
+	
+	// Subscribe to the mobile selected course
+	$: selectedCourseForMobile = $mobileSelectedCourseStore;
+	
+	// Function to handle quarter click on mobile
+	function handleQuarterClick(quarterCode: number) {
+		if (isMobile && selectedCourseForMobile) {
+			scheduleCourseMobile(selectedCourseForMobile, quarterCode, schedulingService);
+		}
+	}
 		
 	// Get all courses for this major
 	$: allMajorCourses = getAllMajorCourses(major);
@@ -111,12 +130,12 @@
 	}
 </script>
 
-<div class="quarter-planning-calendar overflow-y-auto h-[90vh]">
+<div class="quarter-planning-calendar {isMobile ? 'overflow-visible h-auto' : 'overflow-y-auto h-[90vh]'}">
    <!-- Sticky Header -->
-   <div class="sticky top-0 z-10 bg-white pb-2 mb-2 shadow-sm">
-	   <h2 class="text-lg font-semibold mb-2">Quarter Planning</h2>
+   <div class="{isMobile ? 'bg-white pb-1 mb-1' : 'sticky top-0 z-10 bg-white pb-2 mb-2 shadow-sm'}">
+	   <h2 class="{isMobile ? 'text-base font-semibold mb-1' : 'text-lg font-semibold mb-2'}">Quarter Planning</h2>
 	   {#if showPerformanceWarning}
-		   <div class="bg-yellow-50 border border-yellow-200 rounded p-2 text-sm text-yellow-800 mb-2">
+		   <div class="bg-yellow-50 border border-yellow-200 rounded text-yellow-800 {isMobile ? 'p-1 text-xs mb-1' : 'p-2 text-sm mb-2'}">
 			   ⚠️ Showing {quarterRange} quarters. Consider reducing the range for better performance.
 		   </div>
 	   {/if}
@@ -125,7 +144,7 @@
    </div>
 	
 	<!-- Quarters Display -->
-	<div class="space-y-4">
+	<div class="{isMobile ? 'space-y-2' : 'space-y-4'}">
 		{#each quarters as quarterCode, index}
 			<QuarterDisplay
 				{quarterCode}
@@ -134,14 +153,18 @@
 				isLastQuarter={index === quarters.length - 1}
 				canRemove={quarters.length > 1}
 				onRemoveQuarter={handleRemoveQuarter}
+				onMobileQuarterClick={isMobile ? handleQuarterClick : undefined}
+				isMobileSelected={isMobile && selectedCourseForMobile !== null}
+				{isMobile}
 			/>
 		{/each}
 	</div>
 	
 	<!-- Add Quarter Button -->
-	<div class="mt-4">
+	<div class="{isMobile ? 'mt-2' : 'mt-4'}">
 		<button
-			class="w-full py-2 px-4 border-2 border-dashed border-gray-300 rounded-lg text-gray-600 hover:border-gray-400 hover:text-gray-800 transition-colors"
+			class="w-full border-2 border-dashed border-gray-300 rounded-lg text-gray-600 hover:border-gray-400 hover:text-gray-800 transition-colors
+				   {isMobile ? 'py-1 px-2 text-sm' : 'py-2 px-4'}"
 			on:click={handleAddQuarter}
 		>
 			+ Add a quarter
@@ -153,5 +176,13 @@
 	.quarter-planning-calendar {
 		width: 100%;
 		max-width: 320px;
+	}
+	
+	/* Mobile optimizations */
+	@media (max-width: 768px) {
+		.quarter-planning-calendar {
+			max-width: 100%; /* Take full width on mobile */
+			height: auto; /* Remove fixed height on mobile */
+		}
 	}
 </style>

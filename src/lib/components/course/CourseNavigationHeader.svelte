@@ -77,7 +77,8 @@
 			<!-- Left side: Title and course search -->
 			<div class="flex items-center gap-3">
 				<div class="flex items-center gap-2">
-					<span class="text-lg font-bold text-gray-900">Prerequisites for</span>
+					<span class="text-lg font-bold text-gray-900 hidden sm:inline">Prerequisites for</span>
+					<span class="text-lg font-bold text-gray-900 sm:hidden">Prereqs:</span>
 					<button
 						class="inline-flex items-center gap-1 px-3 py-1 rounded-md text-lg font-medium bg-purple-100 text-blue-700 hover:bg-purple-200 transition-colors cursor-pointer"
 						on:click={toggleSearch}
@@ -94,23 +95,35 @@
 				<div class="flex items-center gap-4 ml-6">
 					<a
 						href="{base}/courses"
-						class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+						class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline transition-colors hidden sm:inline"
 					>
 						Back to all courses
 					</a>
 					<a
+						href="{base}/courses"
+						class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline transition-colors sm:hidden"
+					>
+						Courses
+					</a>
+					<a
 						href="{base}/majors"
-						class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+						class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline transition-colors hidden sm:inline"
 					>
 						See majors
+					</a>
+					<a
+						href="{base}/majors"
+						class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline transition-colors sm:hidden"
+					>
+						Majors
 					</a>
 				</div>
 			</div>
 
 			<!-- Search section (absolutely positioned below header) -->
 			{#if isSearchExpanded}
-				<div class="absolute top-full left-0 w-full max-w-md mt-2 z-50">
-					<div class="bg-white border border-gray-300 rounded-lg shadow-lg overflow-hidden">
+				<div class="absolute top-full left-0 w-full max-w-md sm:max-w-md max-w-full mt-2 z-50">
+					<div class="bg-white border border-gray-300 rounded-lg shadow-lg overflow-hidden mx-2 sm:mx-0">
 						<!-- Search input section -->
 						<div class="p-3 border-b border-gray-200">
 							<input
