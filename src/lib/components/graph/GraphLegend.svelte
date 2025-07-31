@@ -96,14 +96,18 @@
           {#if userCompletedCourses.size > 0}
             <div class="flex items-center justify-between">
               <span class="text-xs text-gray-600">Completed courses</span>
-              <button
-                class="relative inline-flex h-4 w-7 items-center rounded-full {showCompletedCourses ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
-                on:click={() => showCompletedCourses = !showCompletedCourses}
-                type="button"
-                aria-label="Toggle completed courses"
-              >
-                <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {showCompletedCourses ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
-              </button>
+              <div class="completion-checkbox {showCompletedCourses ? 'bg-green-500' : 'bg-white border border-gray-300'} hover:shadow-md transition-all" 
+                   on:click={() => showCompletedCourses = !showCompletedCourses}
+                   on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showCompletedCourses = !showCompletedCourses; } }}
+                   role="checkbox"
+                   aria-checked={showCompletedCourses}
+                   tabindex="0">
+                {#if showCompletedCourses}
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                {/if}
+              </div>
             </div>
           {/if}
         </div>

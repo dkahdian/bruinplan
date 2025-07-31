@@ -24,13 +24,24 @@
 	// Mobile detection
 	let isMobile = false;
 	onMount(() => {
-		isMobile = window.matchMedia('(max-width: 768px)').matches || 
-		           'ontouchstart' in window || 
-		           navigator.maxTouchPoints > 0;
+		// Primarily use screen width to determine mobile vs desktop
+		// Only fall back to touch detection if the screen width is ambiguous
+		const screenWidth = window.matchMedia('(max-width: 768px)').matches;
+		const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+		
+		// Consider mobile only if screen is small OR if it's a medium screen with touch AND no mouse
+		isMobile = screenWidth || (window.matchMedia('(max-width: 1024px)').matches && hasTouch && !window.matchMedia('(pointer: fine)').matches);
 	});
 	
 	// Subscribe to the mobile selected course
 	$: selectedCourseForMobile = $mobileSelectedCourseStore;
+	
+	// Function to check if a course is already in a specific quarter
+	function isCourseInQuarter(courseId: string | null, quarterCode: number): boolean {
+		if (!courseId) return false;
+		const coursesInQuarter = coursesByQuarter[quarterCode] || [];
+		return coursesInQuarter.includes(courseId);
+	}
 	
 	// Function to handle quarter click on mobile
 	function handleQuarterClick(quarterCode: number) {
@@ -154,7 +165,7 @@
 				canRemove={quarters.length > 1}
 				onRemoveQuarter={handleRemoveQuarter}
 				onMobileQuarterClick={isMobile ? handleQuarterClick : undefined}
-				isMobileSelected={isMobile && selectedCourseForMobile !== null}
+				isMobileSelected={isMobile && selectedCourseForMobile !== null && !isCourseInQuarter(selectedCourseForMobile, quarterCode)}
 				{isMobile}
 			/>
 		{/each}

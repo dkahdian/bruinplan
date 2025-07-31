@@ -39,14 +39,20 @@
 
 	// Detect if device is mobile/touch
 	onMount(() => {
-		isMobile = window.matchMedia('(max-width: 768px)').matches || 
-		           'ontouchstart' in window || 
-		           navigator.maxTouchPoints > 0;
+		// Primarily use screen width to determine mobile vs desktop
+		// Only fall back to touch detection if the screen width is ambiguous
+		const screenWidth = window.matchMedia('(max-width: 768px)').matches;
+		const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+		
+		// Consider mobile only if screen is small OR if it's a medium screen with touch AND no mouse
+		isMobile = screenWidth || (window.matchMedia('(max-width: 1024px)').matches && hasTouch && !window.matchMedia('(pointer: fine)').matches);
 		
 		// Listen for viewport changes
 		const mediaQuery = window.matchMedia('(max-width: 768px)');
 		mediaQuery.addListener((e) => {
-			isMobile = e.matches;
+			// On viewport changes, primarily use screen width
+			const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+			isMobile = e.matches || (window.matchMedia('(max-width: 1024px)').matches && hasTouch && !window.matchMedia('(pointer: fine)').matches);
 		});
 	});
 
@@ -220,8 +226,7 @@
 			<div
 				class="relative flex items-center justify-between rounded border transition-colors w-full text-left {displayClasses}
 					   {isMobile ? 'cursor-pointer course-item-mobile course-text-mobile' : 'drag-handle cursor-pointer p-3'}
-					   {isMobile && selectedCourseForMobileScheduling === requirement.courseId ? 'ring-4 ring-yellow-400 shadow-lg shadow-yellow-300' : ''}
-					   {!isMobile ? 'p-3' : ''}"
+					   {isMobile && selectedCourseForMobileScheduling === requirement.courseId ? 'ring-4 ring-yellow-400 shadow-lg shadow-yellow-300' : ''}"
 				draggable={!isMobile ? "true" : "false"}
 				on:dragstart={!isMobile ? (e) => handleDragStart(e, requirement.courseId) : undefined}
 				on:dragend={!isMobile ? handleDragEnd : undefined}

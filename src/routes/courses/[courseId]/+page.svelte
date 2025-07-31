@@ -173,12 +173,6 @@
   </script>
 </svelte:head>
 
-<!-- Course Navigation Header -->
-<CourseNavigationHeader 
-  courseId={data.courseId}
-  on:navigate={onNavigate}
-/>
-
 <div class="course-page-container">
   <div class="prerequisite-layout" bind:this={resizeContainer}>
   <!-- Main graph area -->
@@ -200,7 +194,23 @@
 
   <!-- Sidebar with course details -->
   <div class="sidebar-section" style="width: {100 - graphWidthPercent}%;">
+    <!-- Course Navigation Header (only on desktop) -->
+    <div class="desktop-header">
+      <CourseNavigationHeader 
+        courseId={data.courseId}
+        on:navigate={onNavigate}
+      />
+    </div>
+    
     <div class="sidebar-content">
+      <!-- Course Navigation Header (only on mobile) -->
+      <div class="mobile-header">
+        <CourseNavigationHeader 
+          courseId={data.courseId}
+          on:navigate={onNavigate}
+        />
+      </div>
+      
       <!-- Course details -->
       <div class="course-details flex-1">
         <CourseDetails
@@ -248,6 +258,14 @@
     flex-direction: column;
   }
 
+  .desktop-header {
+    display: block;
+  }
+
+  .mobile-header {
+    display: none;
+  }
+
   .sidebar-content {
     flex: 1;
     overflow: hidden;
@@ -264,35 +282,52 @@
   /* Mobile responsive design - stacked layout on small screens */
   @media (max-width: 768px) {
     .course-page-container {
-      height: auto;
-      overflow: visible;
+      height: 100vh; /* Full viewport height - no header deduction since it's inside */
+      overflow: hidden; /* Prevent overall page scrolling */
     }
 
     .prerequisite-layout {
-      flex-direction: column;
-      height: auto;
-      overflow: visible;
+      flex-direction: column; /* Stack vertically */
+      height: 100%;
+      overflow: hidden;
     }
 
-    .graph-section {
-      display: none; /* Hide graph on mobile */
+    .desktop-header {
+      display: none; /* Hide desktop header on mobile */
+    }
+
+    .mobile-header {
+      display: block; /* Show mobile header */
+      flex-shrink: 0; /* Don't shrink the header */
     }
 
     .sidebar-section {
-      height: auto;
+      height: 50% !important; /* Course info takes top 50% */
+      width: 100% !important; /* Full width - override inline style */
       min-width: unset;
-      width: 100%;
       border-left: none;
-      border-top: none;
+      border-bottom: 1px solid #e5e7eb; /* Add border between sections */
+      order: 1; /* Show first (above graph) */
     }
 
     .sidebar-content {
-      height: auto;
-      overflow: visible;
+      height: 100%;
+      overflow-y: auto; /* Allow scrolling in course info */
+      -webkit-overflow-scrolling: touch; /* Better iOS scrolling */
+      display: flex;
+      flex-direction: column;
     }
 
     .course-details {
-      overflow: visible;
+      overflow: visible; /* Remove overflow hidden for mobile scrolling */
+      flex: 1; /* Take remaining space after header */
+    }
+
+    .graph-section {
+      height: 50% !important; /* Graph takes bottom 50% */
+      width: 100% !important; /* Full width - override inline style */
+      min-width: unset;
+      order: 2; /* Show second (below course info) */
     }
   }
 

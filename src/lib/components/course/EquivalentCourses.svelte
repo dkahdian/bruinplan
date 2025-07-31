@@ -34,12 +34,17 @@
           />
           <span class="text-xs text-gray-600">Taken?</span>
           <button
-            class="relative inline-flex h-4 w-7 items-center rounded-full {userCompletedCourses.has(equivalent) ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
+            class="completion-checkbox w-4 h-4 rounded border-2 flex items-center justify-center transition-all duration-200
+                   {userCompletedCourses.has(equivalent)
+                     ? 'bg-green-500 border-green-500 shadow-sm' 
+                     : 'bg-white border-gray-300 hover:border-green-400 hover:bg-green-50'}"
             on:click={() => onCourseCompletionToggle(equivalent)}
             type="button"
             aria-label="Toggle course completion"
           >
-            <span class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform {userCompletedCourses.has(equivalent) ? 'translate-x-3.5' : 'translate-x-0.5'}"></span>
+            {#if userCompletedCourses.has(equivalent)}
+              <span class="text-white text-xs font-bold">✓</span>
+            {/if}
           </button>
         </div>
       </div>

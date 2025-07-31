@@ -44,16 +44,21 @@
             {displayedCourse.units} {(typeof displayedCourse.units === 'number' && displayedCourse.units === 1) ? 'unit' : 'units'}
           </span>
           
-          <!-- Course completion toggle -->
+          <!-- Course completion checkbox -->
           <div class="flex items-center gap-2">
             <span class="text-sm text-gray-600">Taken?</span>
             <button
-              class="relative inline-flex h-5 w-9 items-center rounded-full {userCompletedCourses.has(displayedCourse.id) ? 'bg-green-500' : 'bg-gray-300'} transition-colors"
+              class="completion-checkbox w-5 h-5 rounded border-2 flex items-center justify-center transition-all duration-200
+                     {userCompletedCourses.has(displayedCourse.id)
+                       ? 'bg-green-500 border-green-500 shadow-sm' 
+                       : 'bg-white border-gray-300 hover:border-green-400 hover:bg-green-50'}"
               on:click={() => onCourseCompletionToggle(displayedCourse.id)}
               type="button"
               aria-label="Toggle course completion"
             >
-              <span class="inline-block h-4 w-4 transform rounded-full bg-white transition-transform {userCompletedCourses.has(displayedCourse.id) ? 'translate-x-4' : 'translate-x-0.5'}"></span>
+              {#if userCompletedCourses.has(displayedCourse.id)}
+                <span class="text-white text-xs font-bold">✓</span>
+              {/if}
             </button>
           </div>
           

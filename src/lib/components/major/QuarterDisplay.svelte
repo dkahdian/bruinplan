@@ -12,6 +12,7 @@
 		handleCourseDragStart,
 		handleCourseDragEnd
 	} from '../../services/schedulingServices.js';
+	import { mobileSelectedCourseStore, scheduleCourseMobile } from '../../services/mobileSchedulingStore.js';
 	import CourseSearchButton from '../shared/CourseSearchButton.svelte';
 	import ValidationIndicator from '../shared/ValidationIndicator.svelte';
 	import { base } from '$app/paths';
@@ -50,6 +51,33 @@
 	let isDraggedOver = false;
 	let isDragging = false;
 	let draggedCourseId: string | null = null;
+
+	// Mobile selection state
+	let selectedCourseForMobile: string | null = null;
+	$: selectedCourseForMobile = $mobileSelectedCourseStore;
+
+	// Mobile course selection function
+	function selectCourseForMobileScheduling(courseId: string) {
+		if (isMobile) {
+			// Toggle selection - if already selected, deselect
+			if (selectedCourseForMobile === courseId) {
+				mobileSelectedCourseStore.set(null);
+			} else {
+				mobileSelectedCourseStore.set(courseId);
+			}
+		}
+	}
+
+	// Handle mobile quarter click (for both new courses and moving existing courses)
+	function handleMobileQuarterClick() {
+		if (isMobile && selectedCourseForMobile) {
+			// If a course is selected, schedule it to this quarter
+			scheduleCourseMobile(selectedCourseForMobile, quarterCode, schedulingService);
+		} else if (onMobileQuarterClick) {
+			// Fall back to original behavior if no course selected
+			onMobileQuarterClick(quarterCode);
+		}
+	}
 
 	// Handle drag start from course items within quarters
 	function handleInternalCourseDragStart(event: DragEvent, courseId: string) {
@@ -151,15 +179,16 @@
 </script>
 
 {#if isMobile && onMobileQuarterClick}
-	<!-- Mobile: Interactive button for quarter selection -->
-	<button
-		class="quarter-display border rounded-lg shadow-sm bg-purple-700 text-white w-full text-left
-			{isDraggedOver ? 'drag-over' : ''}
-			{isMobile && isMobileSelected ? 'ring-4 ring-yellow-400 shadow-lg shadow-yellow-300' : ''}
-			{isMobile ? 'p-2' : 'p-4'}"
-		on:click={() => onMobileQuarterClick(quarterCode)}
-		aria-label="Select quarter {quarterName} for course scheduling"
+	<!-- Mobile: Quarter display with conditional interaction -->
+	<div class="quarter-display border rounded-lg shadow-sm bg-purple-700 text-white w-full
+		{isDraggedOver ? 'drag-over' : ''}
+		{isMobile && isMobileSelected ? 'ring-4 ring-yellow-400 shadow-lg shadow-yellow-300 cursor-pointer' : ''}
+		{isMobile ? 'p-2' : 'p-4'}"
+		on:click={isMobile && selectedCourseForMobile ? () => handleMobileQuarterClick() : undefined}
+		role={isMobile && selectedCourseForMobile ? "button" : undefined}
+		aria-label={isMobile && selectedCourseForMobile ? "Move course to quarter {quarterName}" : undefined}
 	>
+		
 		<!-- Quarter Header -->
 		<div class="flex items-center justify-between {isMobile ? 'mb-2' : 'mb-3'}">
 			<div class="flex items-center gap-2">
@@ -187,7 +216,7 @@
 			</div>
 		</div>
 		
-		<!-- Course List -->
+		<!-- Course List (outside of clickable header) -->
 		<div class="{isMobile ? 'space-y-1' : 'space-y-2'}">
 			{#if courseItems.length > 0}
 				<div class="{isMobile ? 'space-y-1' : 'space-y-2'}">
@@ -196,11 +225,15 @@
 						{@const hasWarnings = courseErrors.length > 0}
 						{@const validationBgClass = hasWarnings ? 'bg-orange-100 border-orange-300' : 'bg-purple-100 border-purple-300'}
 						
+						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+						<!-- svelte-ignore a11y-click-events-have-key-events -->
 						<div 
 							class="flex flex-col rounded transition-colors text-purple-800 {validationBgClass} {isDragging && draggedCourseId === courseItem.id ? 'opacity-50' : ''}
-								   {isMobile ? 'p-1' : 'p-2'}"
+								   {isMobile ? 'p-1 cursor-pointer' : 'p-2'}
+								   {isMobile && selectedCourseForMobile === courseItem.id ? 'ring-4 ring-yellow-400 shadow-lg shadow-yellow-300' : ''}"
 							role="listitem"
 							aria-label="Course {courseItem.id}"
+							on:click={isMobile ? (e) => { e.stopPropagation(); selectCourseForMobileScheduling(courseItem.id); } : undefined}
 						>
 							<div class="flex items-center justify-between">
 								<div class="flex items-center gap-2">
@@ -215,19 +248,16 @@
 										<span class="opacity-75 {isMobile ? 'text-xs' : 'text-xs'}">({courseItem.units} units)</span>
 									</a>
 								</div>
-								<span
-									class="text-gray-500 hover:text-red-600 transition-colors cursor-pointer"
+								<button
+									class="text-gray-500 hover:text-red-600 transition-colors {isMobile ? 'p-1 min-w-[24px] min-h-[24px] flex items-center justify-center' : ''}"
 									on:click|stopPropagation={() => handleCourseRemove(courseItem.id)}
-									on:keydown|stopPropagation={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleCourseRemove(courseItem.id); } }}
 									title="Remove from this quarter"
 									aria-label="Remove {courseItem.id} from this quarter"
-									role="button"
-									tabindex="0"
 								>
-									<svg class="{isMobile ? 'w-3 h-3' : 'w-3 h-3'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<svg class="{isMobile ? 'w-4 h-4' : 'w-3 h-3'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
 									</svg>
-								</span>
+								</button>
 							</div>
 							
 							<!-- Validation Indicator -->
@@ -238,7 +268,7 @@
 			{:else}
 				<div class="text-center text-gray-200 border-2 border-dashed border-gray-400 rounded 
 							{isMobile ? 'py-2 text-xs' : 'py-4 text-sm'}">
-					Drop courses here or click "Add Course" below
+					{isMobile ? 'Tap a course, then tap here; or click add below' : 'Drop courses here or click "Add Course" below'}
 				</div>
 			{/if}
 			
@@ -251,7 +281,7 @@
 				/>
 			</div>
 		</div>
-	</button>
+	</div>
 {:else}
 	<!-- Desktop: Standard div with drag and drop -->
 	<div class="quarter-display border rounded-lg shadow-sm bg-purple-700 text-white 
@@ -297,14 +327,18 @@
 						{@const hasWarnings = courseErrors.length > 0}
 						{@const validationBgClass = hasWarnings ? 'bg-orange-100 border-orange-300' : 'bg-purple-100 border-purple-300'}
 						
+						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+						<!-- svelte-ignore a11y-click-events-have-key-events -->
 						<div 
-							class="flex flex-col rounded transition-colors cursor-move text-purple-800 {validationBgClass} {isDragging && draggedCourseId === courseItem.id ? 'opacity-50' : ''}
-								   {isMobile ? 'p-1' : 'p-2'}"
-							draggable="true"
-							on:dragstart={(e) => handleInternalCourseDragStart(e, courseItem.id)}
-							on:dragend={handleInternalCourseDragEnd}
+							class="flex flex-col rounded transition-colors text-purple-800 {validationBgClass} {isDragging && draggedCourseId === courseItem.id ? 'opacity-50' : ''}
+								   {isMobile ? 'p-1 cursor-pointer' : 'p-2 cursor-move'}
+								   {isMobile && selectedCourseForMobile === courseItem.id ? 'ring-4 ring-yellow-400 shadow-lg shadow-yellow-300' : ''}"
+							draggable={!isMobile ? "true" : "false"}
+							on:dragstart={!isMobile ? (e) => handleInternalCourseDragStart(e, courseItem.id) : undefined}
+							on:dragend={!isMobile ? handleInternalCourseDragEnd : undefined}
+							on:click={isMobile ? (e) => { e.stopPropagation(); selectCourseForMobileScheduling(courseItem.id); } : undefined}
 							role="listitem"
-							aria-label="Draggable course {courseItem.id}"
+							aria-label={isMobile ? "Select course {courseItem.id} for scheduling" : "Draggable course {courseItem.id}"}
 						>
 							<div class="flex items-center justify-between">
 								<div class="flex items-center gap-2">
@@ -313,18 +347,19 @@
 										class="font-medium text-purple-800 hover:text-blue-800 flex items-center gap-1 {isMobile ? 'text-xs' : 'text-sm'}"
 										title="View prerequisites for {courseItem.id}"
 										target="_blank"
+										on:click|stopPropagation
 									>
 										{courseItem.id}
 										<span class="opacity-75 {isMobile ? 'text-xs' : 'text-xs'}">({courseItem.units} units)</span>
 									</a>
 								</div>
 								<button
-									class="text-gray-500 hover:text-red-600 transition-colors"
+									class="text-gray-500 hover:text-red-600 transition-colors {isMobile ? 'p-1 min-w-[24px] min-h-[24px] flex items-center justify-center' : ''}"
 									on:click|stopPropagation={() => handleCourseRemove(courseItem.id)}
 									title="Remove from this quarter"
 									aria-label="Remove {courseItem.id} from this quarter"
 								>
-									<svg class="{isMobile ? 'w-3 h-3' : 'w-3 h-3'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<svg class="{isMobile ? 'w-4 h-4' : 'w-3 h-3'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
 									</svg>
 								</button>
@@ -338,7 +373,7 @@
 			{:else}
 				<div class="text-center text-gray-200 border-2 border-dashed border-gray-400 rounded 
 							{isMobile ? 'py-2 text-xs' : 'py-4 text-sm'}">
-					Drop courses here or click "Add Course" below
+					{isMobile ? 'Tap a course, then tap here; or click add below' : 'Drop courses here or click "Add Course" below'}
 				</div>
 			{/if}
 			
